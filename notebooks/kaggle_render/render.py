@@ -20,7 +20,7 @@ procs = []
 for i in range(ngpu):
     env = dict(os.environ, CUDA_VISIBLE_DEVICES=str(i))
     cmd = [B, '-b', '--python', f'{D}/render_bg.py', '--', f"{D}/{job.get('plan', 'shots.json')}", out, '--w', str(job['w']), '--h', str(job['h']),
-           '--samples', str(job['samples']), '--gpu', '--part', f'{i}/{ngpu}', '--deadline', str(job.get('deadline', 39600)), '--step', str(job.get('step', 1))]
+           '--samples', str(job['samples']), '--gpu', '--part', f'{i}/{ngpu}', '--deadline', str(job.get('deadline', 39600)), '--step', str(job.get('step', 1))] + (['--interp'] if job.get('interp') else [])
     if job.get('chapters'):
         cmd += ['--chapters', job['chapters']]
     if job.get('shots'):

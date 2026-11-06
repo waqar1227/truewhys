@@ -49,7 +49,13 @@ for s in todo:
     cam = s["cam"]
     nfr = max(1, int(round(s["dur"] * FPS)))
     static = cam.get("to") is None and not cam.get("orbit") and not cam.get("shake")
-    frames = [0] if (static or a.stills) else list(range(0, nfr, a.step))
+    step = a.step
+    if a.interp and not static:  # interpolation only where it is invisible: slow, smooth moves, no orbit/shake
+        c0, c1 = camera.cam_at(cam, 0), camera.cam_at(cam, 1)
+        mv = math.dist(c0[0], c1[0]) + math.dist(c0[1], c1[1]) * 0.5 + abs(c0[2] - c1[2]) * 0.05
+        if cam.get("orbit") or cam.get("shake") or mv / max(s["dur"], 0.1) > 0.6:
+            step = 1
+    frames = [0] if (static or a.stills) else list(range(0, nfr, step))
     tmp = os.path.join(a.out, "_tmp_" + s["id"])
     os.makedirs(tmp, exist_ok=True)
     t0 = time.time()
@@ -74,13 +80,13 @@ for s in todo:
         bpy.ops.render.render(write_still=True)
     if a.stills:
         shutil.move(os.path.join(tmp, "f00000.png"), out_mp4)
-    elif a.step > 1 and a.interp and len(frames) > 2:
+    elif step > 1 and a.interp and len(frames) > 2:
         # in-between frames by motion-compensated interpolation (static set + smooth camera: clean result)
         lst = sorted(os.listdir(tmp))
         seq = os.path.join(tmp, "seq"); os.makedirs(seq, exist_ok=True)
         for k, n in enumerate(lst):
             os.link(os.path.join(tmp, n), os.path.join(seq, f"{k:05d}.png"))
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", f"{FPS}/{a.step}", "-i", os.path.join(seq, "%05d.png"),
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", f"{FPS}/{step}", "-i", os.path.join(seq, "%05d.png"),
                         "-vf", f"minterpolate=fps={FPS}:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,tpad=stop_mode=clone:stop_duration=1",
                         "-frames:v", str(nfr), "-c:v", "libx264", "-preset", "slow", "-crf", "12", "-pix_fmt", "yuv420p", out_mp4], check=True)
     else:
