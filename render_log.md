@@ -24,3 +24,8 @@
 ## 6 Nov 2026 16:49 UTC: B-001 final long-video plates started
 - truewhys-render-b001 v4 (chapters 0–3, ~3,450 frames) and truewhys-render-b001b v1 (chapters 4–7, ~2,950 frames), each 2×T4.
 - 1920×1080, 64 spp, OIDN, every 2nd frame + interpolation on slow moves. Expected ~6–7 h each.
+
+## 6 Nov 2026 22:00 UTC: truewhys-render-b001b done (chapters 4–7)
+- 36/36 plates, 0 errors. Wall 310.9 min (5.2 h session, 2×T4; 9.6 GPU-h of Blender time). 1920×1080 30 fps.
+- QA: contact sheet + 1:1 crops (night street, court) clean, no noise. To check: dark blocks behind houses in land/night (S057/S061/S064/S066).
+- Week so far: ~5.2 h session (b001b) + benchmark/diag; b001 (chapters 0–3) still running.
