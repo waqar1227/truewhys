@@ -122,6 +122,31 @@ def animal_frame(a, t, d, env, rng_seed):
     return im, (pv[0] * REF, pv[1] * REF * breath), native_h * REF
 
 
+KEY = {"square": "L", "court": "L", "land": "L", "study": "R"}
+
+
+def shade_puppet(im, key="L", strength=0.22, rim=0.45):
+    """Soft cel shadow on the side away from the key light + rim light on the key side."""
+    a = np.asarray(im).astype(np.float32)
+    h, w = a.shape[:2]
+    if w < 6 or h < 6:
+        return im
+    x = np.linspace(0, 1, w, dtype=np.float32)[None, :]
+    g = x if key == "L" else 1 - x
+    shadow = 1 - strength * np.clip((g - 0.45) / 0.55, 0, 1) ** 1.3
+    a[..., :3] *= shadow[..., None]
+    al = Image.fromarray(a[..., 3].astype(np.uint8))
+    k = max(3, (min(w, h) // 45) | 1)
+    e1 = np.asarray(al.filter(ImageFilter.MinFilter(k))).astype(np.float32)
+    e2 = np.asarray(al.filter(ImageFilter.MinFilter(k * 3 if k * 3 % 2 else k * 3 + 1))).astype(np.float32)
+    band = np.clip(e1 - e2, 0, 255) / 255.0
+    lum = a[..., :3].mean(2)
+    band *= np.clip((lum - 90) / 60, 0, 1) * (1 - g) ** 2
+    band = np.asarray(Image.fromarray((band * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(max(1, k / 3)))).astype(np.float32) / 255
+    a[..., :3] = a[..., :3] * (1 - band[..., None] * rim) + np.array([255, 246, 228], np.float32) * band[..., None] * rim
+    return Image.fromarray(np.clip(a, 0, 255).astype(np.uint8))
+
+
 def tint_img(im, tint, glow=False, dark=0.0):
     if tint == (1, 1, 1) and not glow and not dark:
         return im
@@ -132,7 +157,8 @@ def tint_img(im, tint, glow=False, dark=0.0):
     if glow:  # warm fire light from below
         h = a.shape[0]
         ramp = np.linspace(0.0, 1.0, h, dtype=np.float32)[:, None] ** 2
-        a[..., 0] += 70 * ramp; a[..., 1] += 30 * ramp
+        lumk = np.clip((a[..., :3].mean(2) - 60) / 120, 0, 1)
+        a[..., 0] += 70 * ramp * lumk; a[..., 1] += 30 * ramp * lumk
     return Image.fromarray(np.clip(a, 0, 255).astype(np.uint8))
 
 
@@ -159,6 +185,7 @@ def draw_actor(frame, a, t, d, cam, tint, env, idx, W, H, shot):
     im = im.resize((w2, h2), Image.LANCZOS)
     if a.get("walk"):
         y -= abs(math.sin(t * 7)) * target_h * 0.04
+    im = shade_puppet(im, KEY.get(shot.get("set"), "L"), rim=0.15 if shot.get("variant") == "night" else 0.45)
     im = tint_img(im, tint, a.get("glow"), 0.55 if shot.get("silhouette") else 0.0)
     ox, oy = x - pv[0] * sc, y - pv[1] * sc
     # contact shadow

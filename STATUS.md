@@ -9,10 +9,10 @@
 - [ ] Final compose: `python lib/compose.py episodes/B-001-animal-trials --plates episodes/B-001-animal-trials/renders --out episodes/B-001-animal-trials/final/B-001.mp4`
 - [ ] QA (qa.md), upload package: `python lib/upload_pkg.py episodes/B-001-animal-trials 2026-11-08T15:00:00Z`
 - [ ] Upload private + publishAt 2026-11-08T15:00:00Z (lib/youtube.py), containsSyntheticMedia=false
-- [ ] Cut Shorts C0–C7 (vertical 1080×1920 renders on Kaggle)
+- [ ] Cut Shorts C0–C7: vertical 1080×1920 plates on Kaggle, compose, QA — must be finished BEFORE scheduling B-001
 
 ## Release plan
-- B-001 long video → then its cut Shorts (C0–C7, 1–2/day) + 2–3 standalone Shorts (new categories) interleaved → only then B-002.
+- B-001 long video → all its cut Shorts (C0–C7) within the next 24 h, ~1 every 3 h (rendered + QA'd before the long video goes live) → standalone Shorts (new categories) in the following days → then B-002.
 - No fixed dates: B-001 publishes only after every shot passes QA. Target Sun 8 Nov 15:00 UTC if QA passes.
 
 ## Quality upgrades before the B-001 final (owner: first impression matters)
