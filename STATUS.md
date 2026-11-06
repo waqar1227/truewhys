@@ -16,8 +16,8 @@
 - No fixed dates: B-001 publishes only after every shot passes QA. Target Sun 8 Nov 15:00 UTC if QA passes.
 
 ## Quality upgrades before the B-001 final (owner: first impression matters)
-- [ ] Puppet shading: soft cel shadow + rim light matched to each set's key light
-- [ ] More set dressing (props, banners, plants, crowd depth) in square/court/vineyard
+- [x] Puppet shading: soft cel shadow + rim light matched to each set's key light
+- [x] More set dressing (props, banners, plants, crowd depth) in square/court/vineyard
 - [ ] Motion: camera moves checked in animatic; no static moments > 5 s
 - [ ] Sound pass: listen-test by measurement (loudness, ducking, SFX levels)
 - [ ] Full watch-through QA of the final at 1080p, contact sheet of every shot
@@ -36,3 +36,10 @@
 - B-002 draft written (episodes/B-002-worst-jobs): "Would You Survive These 8 Jobs From Old England?" — ranked list, category 3,
   987-word script v1, sources table (2+ per claim). Owner approved (6 Nov); title chosen: "Would You Survive These 8 Jobs From Old England?".
   Gemini quota: B-001 uses 9 requests on 7 Nov, so B-002 voice (9 requests) is 8 Nov at the earliest.
+
+## Update 6 Nov 2026, 20:50 UTC
+- Kaggle final plates still running (both kernels), expected ~23:30 UTC; waiter armed.
+- Shorts upload packages ready: `python lib/upload_shorts.py episodes/B-001-animal-trials <long publishAt>` →
+  shorts/<CID>/upload_meta.json + upload_shorts.md (C0 +1 h, then every 3 h, all within 24 h).
+- lib/youtube.py: `--long <id>` fills the full-story link, adds to playlist, posts the pinned comment, writes uploaded.json (no double uploads).
+  Related video on each Short is set in YouTube Studio (not in the API) — tell the owner after upload.

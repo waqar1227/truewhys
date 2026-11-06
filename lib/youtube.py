@@ -2,7 +2,10 @@
 (sent only to oauth2.googleapis.com / www.googleapis.com). Never prints tokens.
 
 python lib/youtube.py check                      -> verifies the refresh token and scopes
-python lib/youtube.py upload <video.mp4> <meta.json> [thumb.jpg]
+python lib/youtube.py upload <video.mp4> <meta.json> [thumb.jpg] [--long <video id>]
+  --long fills {LONG_URL} in the description (cut Shorts). Writes uploaded.json next to meta.json and refuses to
+  upload the same meta twice. Optional meta keys: "playlist" (added, created if missing), "pinned_comment" (posted;
+  pinning itself is done in YouTube Studio, the API cannot pin).
 meta.json: {"title","description","tags":[...],"categoryId":"27","publishAt":"2026-11-08T15:00:00Z",
             "playlist": "Full Stories" (optional, needs youtube scope)}
 Status: private + publishAt, madeForKids false, containsSyntheticMedia false (owner rule: cartoon = No).
@@ -35,9 +38,44 @@ def api(method, url, tok, body=None, ctype="application/json", raw=None):
         return r.status, dict(r.headers), r.read()
 
 
-def upload(video, meta, thumb=None):
+def playlist_id(tok, title):
+    _, _, b = api("GET", "https://www.googleapis.com/youtube/v3/playlists?part=snippet&mine=true&maxResults=50", tok)
+    for it in json.loads(b).get("items", []):
+        if it["snippet"]["title"] == title:
+            return it["id"]
+    _, _, b = api("POST", "https://www.googleapis.com/youtube/v3/playlists?part=snippet,status", tok,
+                  {"snippet": {"title": title}, "status": {"privacyStatus": "public"}})
+    return json.loads(b)["id"]
+
+
+def extras(tok, vid, m):
+    if m.get("playlist"):
+        try:
+            pl = playlist_id(tok, m["playlist"])
+            api("POST", "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet", tok,
+                {"snippet": {"playlistId": pl, "resourceId": {"kind": "youtube#video", "videoId": vid}}})
+            print("added to playlist", m["playlist"])
+        except urllib.error.HTTPError as e:
+            print("playlist failed", e.code, e.read()[:200])
+    if m.get("pinned_comment"):
+        try:
+            api("POST", "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet", tok,
+                {"snippet": {"videoId": vid, "topLevelComment": {"snippet": {"textOriginal": m["pinned_comment"]}}}})
+            print("comment posted (pin it in YouTube Studio)")
+        except urllib.error.HTTPError as e:
+            print("comment failed (comments open only after publish on some channels)", e.code, e.read()[:200])
+
+
+def upload(video, meta, thumb=None, long_id=None):
+    done = os.path.join(os.path.dirname(os.path.abspath(meta)), "uploaded.json")
+    if os.path.exists(done):
+        sys.exit(f"already uploaded: {done}")
     tok, scope = token()
     m = json.load(open(meta))
+    if "{LONG_URL}" in m["description"]:
+        if not long_id:
+            sys.exit("this description needs --long <long video id>")
+        m["description"] = m["description"].replace("{LONG_URL}", "https://youtu.be/" + long_id)
     status = {"privacyStatus": "private", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": False}
     if m.get("publishAt"):
         status["publishAt"] = m["publishAt"]
@@ -62,6 +100,8 @@ def upload(video, meta, thumb=None):
             print("thumbnail set")
         except urllib.error.HTTPError as e:
             print("thumbnail failed", e.code, e.read()[:200])
+    json.dump({"video_id": vid, "publishAt": m.get("publishAt"), "title": m["title"]}, open(done, "w"), indent=1)
+    extras(tok, vid, m)
     return vid
 
 
@@ -70,4 +110,8 @@ if __name__ == "__main__":
         tok, scope = token()
         print("token ok; scopes:", scope)
     elif sys.argv[1] == "upload":
-        upload(sys.argv[2], sys.argv[3], sys.argv[4] if len(sys.argv) > 4 else None)
+        a = sys.argv[2:]
+        long_id = None
+        if "--long" in a:
+            i = a.index("--long"); long_id = a[i + 1]; del a[i:i + 2]
+        upload(a[0], a[1], a[2] if len(a) > 2 else None, long_id)
