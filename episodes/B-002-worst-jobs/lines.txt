@@ -1,0 +1,87 @@
+# id | chapter | text (captions) || say (pronunciation for the voice, optional)
+# B-002 DRAFT v1 (awaiting owner approval of topic + title). Ranked list: #8 (bad) -> #1 (worst). Each item = one Short.
+L01|0|Imagine a job where you work only at night...
+L02|0|because the law doesn't want anyone to see you.
+L03|0|Or a job where the king's most powerful servant... was the man who helped him on the toilet.
+L04|0|Or a job where your boss paid you to swallow a toad.
+L05|0|These were real jobs in old England.
+L06|0|Tonight, we rank eight of the worst, from bad... to unbelievable.
+L07|0|And number one is a job you will never, ever want.
+L08|1|Number eight: the ale conner.
+L09|1|At first, this sounds like the best job in town.
+L10|1|In medieval England, an ale conner was chosen by the local court to walk from alehouse to alehouse...
+L11|1|and taste the ale.
+L12|1|If a brewer sold weak ale, short measures, or charged too much...
+L13|1|the ale conner could drag them before the court to be fined.
+L14|1|So why is it on this list?
+L15|1|Because the people you tested were your neighbours. And nobody likes the person who reports them.
+L16|1|You may have heard that ale conners sat in a puddle of ale in leather trousers, to see if they stuck to the bench.
+L17|1|Beer historians say that story is almost certainly a myth.
+L18|1|But some towns still keep the ceremony alive today... just for fun.
+L19|2|Number seven: the Groom of the Stool.
+L20|2|In the Tudor court, the "stool" was the king's toilet.
+L21|2|And the groom was the servant who looked after the king while he used it.
+L22|2|Sounds terrible. But here's the twist.
+L23|2|Because he was alone with the king every day, the groom became one of the most trusted men in the country.
+L24|2|Under Henry the Eighth, the groom ran the king's private rooms, handled his money, and heard his secrets.
+L25|2|Nobles fought for this job.
+L26|2|But being that close to Henry was dangerous.
+L27|2|In 1536, his groom, Sir Henry Norris, was accused of a romance with Queen Anne Boleyn.||In fifteen thirty-six, his groom, Sir Henry Norris, was accused of a romance with Queen Anne Boleyn.
+L28|2|The charges were almost certainly false. He was executed anyway.
+L29|3|Number six: the toad eater.
+L30|3|In the 1600s, travelling quacks sold fake medicine at fairs.||In the sixteen hundreds, travelling quacks sold fake medicine at fairs.
+L31|3|And many brought an assistant.
+L32|3|People believed every toad was deadly poisonous.
+L33|3|So, the story goes, the assistant would swallow a toad in front of the crowd...
+L34|3|pretend to fall down, twisting in pain...
+L35|3|and then the quack would give him a sip of "miracle medicine".
+L36|3|He'd jump up, cured! And the crowd would rush to buy a bottle.
+L37|3|This job left its mark on our language.
+L38|3|A person who flatters someone powerful became a "toad-eater"...
+L39|3|and later, a "toady". A word we still use today.
+L40|4|Number five: the sin eater.
+L41|4|This one is spooky.
+L42|4|In the 1680s, a writer named John Aubrey described a custom in parts of Wales and the English border.||In the sixteen eighties, a writer named John Aubrey described a custom in parts of Wales and the English border.
+L43|4|When someone died, a poor person was hired to come to the house.
+L44|4|Bread and a bowl of ale were passed over the body...
+L45|4|and the sin eater ate and drank them, taking on the dead person's sins.
+L46|4|The family believed this let the soul rest in peace.
+L47|4|The sin eater got a few coins... and was then avoided by everyone.
+L48|4|Historians still argue about how common this really was.
+L49|4|But the idea of a job where you swallow other people's sins... is hard to forget.
+L50|5|Number four: the saltpetre man.
+L51|5|To make gunpowder, England needed saltpetre.
+L52|5|And one of the best places to find it... was soil soaked with animal waste.
+L53|5|Like the floor of your stable, your pigeon house, or your cellar.
+L54|5|So the crown gave saltpetre men the right to dig.
+L55|5|In 1627, a royal order even let them dig up the floors of stables and cellars...||In sixteen twenty-seven, a royal order even let them dig up the floors of stables and cellars...
+L56|5|and told owners to leave the floors as loose earth, so they'd be easier to dig next time.
+L57|5|Imagine a stranger arriving with a shovel, and you're not allowed to say no.
+L58|5|Saltpetre men were some of the most hated people in the country.
+L59|6|Number three: the fuller.
+L60|6|Fresh wool cloth is greasy and loose. It has to be cleaned and thickened.
+L61|6|For centuries, one way to do it was with stale urine.
+L62|6|Collected, left to stand for days, and poured into a big tub with the cloth.
+L63|6|Then the fuller climbed in... and stamped on the cloth with his bare feet. For hours.
+L64|6|The ammonia in old urine helped strip the grease and whiten the wool.
+L65|6|Over time, water-powered fulling mills took over much of the stamping.
+L66|6|But the job left a mark too. Fuller, Tucker and Walker are all English surnames that come from this work.
+L67|7|Number two: the tanner.
+L68|7|Turning animal skins into leather was one of the smelliest jobs in history.
+L69|7|Skins were scraped, soaked for months in pits, and softened with a paste made of dung.
+L70|7|Dog dung and pigeon droppings were favourites.
+L71|7|The smell was so bad that towns often pushed tanners outside the walls, next to a river.
+L72|7|Around 1425, the brewers of Colchester complained that the tanners were soaking hides in the river they used for brewing.||Around fourteen twenty-five, the brewers of Colchester complained that the tanners were soaking hides in the river they used for brewing.
+L73|7|Leather was everywhere: shoes, belts, buckets, saddles. Someone had to make it.
+L74|7|But almost nobody wanted to live next door.
+L75|8|And number one... the gong farmer.
+L76|8|A "gong" was a toilet. And a gong farmer emptied the pits underneath them.
+L77|8|By hand. With a shovel and a bucket.
+L78|8|They were usually allowed to work only at night, so the waste they carried became known as "night soil".
+L79|8|The pits had no fresh air, and the fumes could knock a worker out.
+L80|8|In 1326, a Londoner known as Richard the Raker fell through the rotten boards of his toilet... and drowned in the pit below.||In thirteen twenty-six, a Londoner known as Richard the Raker fell through the rotten boards of his toilet... and drowned in the pit below.
+L81|8|So why would anyone take this job?
+L82|8|Money. Gong farmers were paid far more than most workers.
+L83|8|Because some jobs pay well... exactly because nobody else will do them.
+L84|8|So which job would you pick? Tell us in the comments.
+L85|8|And if you want more true whys, you know what to do. See you next time.
