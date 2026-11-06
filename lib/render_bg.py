@@ -16,7 +16,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("shots"); ap.add_argument("out")
 ap.add_argument("--w", type=int, default=1920); ap.add_argument("--h", type=int, default=1080)
 ap.add_argument("--samples", type=int, default=96); ap.add_argument("--gpu", action="store_true")
-ap.add_argument("--step", type=int, default=1); ap.add_argument("--shots_only", default="")
+ap.add_argument("--step", type=int, default=1); ap.add_argument("--interp", action="store_true", help="with --step 2: interpolate in-betweens"); ap.add_argument("--shots_only", default="")
 ap.add_argument("--chapters", default=""); ap.add_argument("--stills", action="store_true")
 ap.add_argument("--deadline", type=float, default=0, help="stop starting new shots after N seconds")
 ap.add_argument("--part", default="0/1", help="i/n: render every n-th shot starting at i (multi-GPU)")
@@ -74,6 +74,15 @@ for s in todo:
         bpy.ops.render.render(write_still=True)
     if a.stills:
         shutil.move(os.path.join(tmp, "f00000.png"), out_mp4)
+    elif a.step > 1 and a.interp and len(frames) > 2:
+        # in-between frames by motion-compensated interpolation (static set + smooth camera: clean result)
+        lst = sorted(os.listdir(tmp))
+        seq = os.path.join(tmp, "seq"); os.makedirs(seq, exist_ok=True)
+        for k, n in enumerate(lst):
+            os.link(os.path.join(tmp, n), os.path.join(seq, f"{k:05d}.png"))
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", f"{FPS}/{a.step}", "-i", os.path.join(seq, "%05d.png"),
+                        "-vf", f"minterpolate=fps={FPS}:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,tpad=stop_mode=clone:stop_duration=1",
+                        "-frames:v", str(nfr), "-c:v", "libx264", "-preset", "slow", "-crf", "12", "-pix_fmt", "yuv420p", out_mp4], check=True)
     else:
         # fill skipped frames by holding (only used for low-res animatics with --step>1)
         lst = sorted(os.listdir(tmp))

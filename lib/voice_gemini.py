@@ -1,5 +1,5 @@
 """Gemini TTS narration, one request per chapter (free tier: 10 requests/day/model).
-python lib/voice_gemini.py episodes/<ep> [chapters e.g. 0,1,2]
+python lib/voice_gemini.py episodes/<ep> [chapters e.g. 0,1,2 | shorts]
 The API key is injected by the network proxy (header x-goog-api-key) or read from GEMINI_API_KEY.
 Each chapter is read in one take (natural flow), then split into lines with faster-whisper word
 timestamps aligned to the script, and checked: any line whose words don't match is reported.
@@ -106,6 +106,47 @@ def main(ep, chapters):
         print("CHECK", r)
 
 
+def shorts(ep):
+    """All Short hooks + the outro in ONE request (saves free-tier quota), split with whisper like a chapter."""
+    ep = Path(ep)
+    cfg = json.loads((ep / "shorts.json").read_text())
+    L = [dict(id=c["hook"]["id"], text=c["hook"]["text"], say=c["hook"].get("say", c["hook"]["text"])) for c in cfg["shorts"]]
+    L.append(dict(id=cfg["outro"]["id"], text=cfg["outro"]["text"], say=cfg["outro"].get("say", cfg["outro"]["text"])))
+    cw = ep / "audio/chapters/hooks.wav"
+    cw.parent.mkdir(parents=True, exist_ok=True); (ep / "audio/lines").mkdir(parents=True, exist_ok=True)
+    if not cw.exists():
+        txt = ("# AUDIO PROFILE: The Narrator\nA warm, charismatic male storyteller for a hit animated history channel.\n\n"
+               "## THE SCENE\nHe is recording the opening lines of short videos: each line must grab a scrolling viewer instantly.\n\n"
+               "### DIRECTOR'S NOTES\nStyle: punchy, intriguing, amazed, a little playful; each line is its own separate take with a full one-second pause between lines. "
+               "The last line is a friendly, upbeat sign-off.\nPace: lively, about 170 words per minute, short dramatic pause at each ellipsis.\n"
+               "Accent: neutral American.\n\n#### TRANSCRIPT\n" + "\n".join(l["say"] for l in L))
+        tts(txt, cw)
+    from faster_whisper import WhisperModel
+    wm = WhisperModel("small.en", device="cpu", compute_type="int8")
+    a, sr = sf.read(cw, dtype="float32")
+    segs, _ = wm.transcribe(str(cw), word_timestamps=True, language="en", initial_prompt=" ".join(l["text"] for l in L))
+    ww = [dict(w=w.word.strip(), s=w.start, e=w.end) for sg in segs for w in (sg.words or [])]
+    cap, owner = [], []
+    for i, l in enumerate(L):
+        for w in l["text"].split():
+            cap.append(w); owner.append(i)
+    al = align(" ".join(cap), ww, len(a) / sr)
+    out = []
+    for i, l in enumerate(L):
+        ks = [k for k, o in enumerate(owner) if o == i]
+        s0 = max(0, al[ks[0]]["s"] - 0.08); s1 = min(len(a) / sr, al[ks[-1]]["e"] + 0.2)
+        seg = a[int(s0 * sr):int(s1 * sr)]
+        sf.write(ep / f"audio/lines/{l['id']}.wav", seg, sr)
+        heard = " ".join(w["w"] for w in ww if s0 <= w["s"] < s1)
+        r = difflib.SequenceMatcher(a=[norm(x) for x in l["text"].split()], b=[norm(x) for x in heard.split()]).ratio()
+        out.append(dict(id=l["id"], chapter=None, text=l["text"], dur=round(len(seg) / sr, 3),
+                        words=[dict(w=al[k]["w"], s=round(al[k]["s"] - s0, 3), e=round(al[k]["e"] - s0, 3)) for k in ks], heard=heard, match=round(r, 3)))
+        print(l["id"], round(len(seg) / sr, 2), "s match", round(r, 2), "" if r >= 0.8 else "CHECK: " + heard)
+    (ep / "timing_hooks.json").write_text(json.dumps(out, indent=1))
+
+
 if __name__ == "__main__":
+    if len(sys.argv) > 2 and sys.argv[2] == "shorts":
+        shorts(sys.argv[1]); sys.exit()
     chs = [int(c) for c in sys.argv[2].split(",")] if len(sys.argv) > 2 else list(range(8))
     main(sys.argv[1], chs)

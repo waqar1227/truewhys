@@ -104,6 +104,8 @@ def build(ep):
     plan = json.loads((ep / "shots.json").read_text())
     cfg = json.loads((ep / "shorts.json").read_text())
     timing = {t["id"]: t for t in json.loads((ep / "timing.json").read_text())}
+    if (ep / "timing_hooks.json").exists():  # real hook/outro voice (lib/voice_gemini.py <ep> shorts)
+        timing.update({t["id"]: t for t in json.loads((ep / "timing_hooks.json").read_text())})
     extra = {}
     for c in cfg["shorts"]:
         for ln in (c["hook"], cfg["outro"]):
