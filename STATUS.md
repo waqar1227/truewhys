@@ -11,6 +11,17 @@
 - [ ] Upload private + publishAt 2026-11-08T15:00:00Z (lib/youtube.py), containsSyntheticMedia=false
 - [ ] Cut Shorts C0–C7 (vertical 1080×1920 renders on Kaggle)
 
+## Release plan
+- B-001 long video → then its cut Shorts (C0–C7, 1–2/day) + 2–3 standalone Shorts (new categories) interleaved → only then B-002.
+- No fixed dates: B-001 publishes only after every shot passes QA. Target Sun 8 Nov 15:00 UTC if QA passes.
+
+## Quality upgrades before the B-001 final (owner: first impression matters)
+- [ ] Puppet shading: soft cel shadow + rim light matched to each set's key light
+- [ ] More set dressing (props, banners, plants, crowd depth) in square/court/vineyard
+- [ ] Motion: camera moves checked in animatic; no static moments > 5 s
+- [ ] Sound pass: listen-test by measurement (loudness, ducking, SFX levels)
+- [ ] Full watch-through QA of the final at 1080p, contact sheet of every shot
+
 ## Notes
 - Freesound and kenney.nl block this server (403). Use BigSoundBank (CC0) and OpenGameArt CC0 packs.
 - Kaggle: dataset must be flat (no sub-folders); use OIDN denoiser (OptiX weights missing).
