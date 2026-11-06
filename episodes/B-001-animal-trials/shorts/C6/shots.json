@@ -1,0 +1,660 @@
+{
+ "fps": 30,
+ "resolution": [
+  1080,
+  1920
+ ],
+ "style": "T",
+ "episode": "B-001",
+ "short": "C6",
+ "title": "Why the Church Put Bugs on Trial",
+ "duration": 48.312,
+ "vertical": true,
+ "shots": [
+  {
+   "line": "H6",
+   "kind": "3d",
+   "set": "land",
+   "variant": "vineyard",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -3.2,
+      1.7
+     ],
+     "tgt": [
+      -0.059,
+      3.717,
+      -0.546
+     ],
+     "lens": 49.0
+    },
+    "to": {
+     "pos": [
+      0.7,
+      -2.48,
+      1.63
+     ],
+     "tgt": [
+      -0.182,
+      3.661,
+      -0.54
+     ],
+     "lens": 49.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "bishop",
+     "at": [
+      0.2,
+      1.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "happy",
+     "arms": "both_up"
+    },
+    {
+     "c": "weevil",
+     "at": [
+      2.4,
+      3.2,
+      0.5
+     ],
+     "h": 0.5,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "walk": {
+      "to": [
+       4.6,
+       3.3,
+       0.6
+      ]
+     }
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ]
+   ],
+   "id": "C6_H",
+   "start": 0.0,
+   "dur": 6.28,
+   "chapter": 6,
+   "line_start": 0.15,
+   "music": "mystery"
+  },
+  {
+   "line": "L73",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.491,
+      0.428
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.694,
+      0.9784
+     ],
+     "tgt": [
+      0.6,
+      0.493,
+      0.452
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "smug",
+     "arms": "raise",
+     "talk": true,
+     "hold_r": "coin"
+    }
+   ],
+   "part": null,
+   "tag": "IDEA 2: MONEY",
+   "sfx": [
+    [
+     0.3,
+     "coin_single",
+     0.6
+    ]
+   ],
+   "id": "C6_S088",
+   "start": 6.28,
+   "dur": 2.586,
+   "chapter": 6,
+   "line_start": 6.28,
+   "src": "S088",
+   "music": "mystery"
+  },
+  {
+   "line": "L75",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "doc": "tithe",
+   "sfx": [
+    [
+     0.2,
+     "coins",
+     0.5
+    ]
+   ],
+   "id": "C6_S090",
+   "start": 8.866,
+   "dur": 6.892,
+   "chapter": 6,
+   "line_start": 8.866,
+   "src": "S090"
+  },
+  {
+   "line": "L76",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "doc": "paper2013",
+   "sfx": [
+    [
+     0,
+     "page_turn",
+     0.5
+    ]
+   ],
+   "id": "C6_S091",
+   "start": 15.758,
+   "dur": 7.467,
+   "chapter": 6,
+   "line_start": 15.758,
+   "src": "S091"
+  },
+  {
+   "line": "L77",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.498,
+      0.377
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.501,
+      0.408
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "point_r",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.2,
+     "ding",
+     0.4
+    ]
+   ],
+   "id": "C6_S092",
+   "start": 23.225,
+   "dur": 3.075,
+   "chapter": 6,
+   "line_start": 23.225,
+   "src": "S092"
+  },
+  {
+   "line": "L78",
+   "kind": "3d",
+   "set": "land",
+   "variant": "vineyard",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -3.2,
+      1.7
+     ],
+     "tgt": [
+      -0.059,
+      3.717,
+      -0.546
+     ],
+     "lens": 49.0
+    },
+    "to": {
+     "pos": [
+      0.72,
+      -2.3360000000000003,
+      1.6159999999999999
+     ],
+     "tgt": [
+      -0.212,
+      3.645,
+      -0.541
+     ],
+     "lens": 49.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "bishop",
+     "at": [
+      0.2,
+      1.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "happy",
+     "arms": "both_up"
+    },
+    {
+     "c": "weevil",
+     "at": [
+      2.4,
+      3.2,
+      0.5
+     ],
+     "h": 0.5,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "walk": {
+      "to": [
+       4.6,
+       3.3,
+       0.6
+      ]
+     }
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.75,
+     "IT WORKED!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.6,
+     "sparkle",
+     0.5
+    ]
+   ],
+   "id": "C6_S093",
+   "start": 26.3,
+   "dur": 4.284,
+   "chapter": 6,
+   "line_start": 26.3,
+   "src": "S093"
+  },
+  {
+   "line": "L79",
+   "kind": "3d",
+   "set": "land",
+   "variant": "vineyard",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -3.2,
+      1.7
+     ],
+     "tgt": [
+      -1.941,
+      3.236,
+      -0.635
+     ],
+     "lens": 49.0
+    },
+    "to": {
+     "pos": [
+      0.72,
+      -2.3360000000000003,
+      1.6159999999999999
+     ],
+     "tgt": [
+      -2.195,
+      2.948,
+      -0.593
+     ],
+     "lens": 49.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "bishop",
+     "at": [
+      0.2,
+      1.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "angry",
+     "arms": "point_r"
+    },
+    {
+     "c": "farmer",
+     "at": [
+      -0.9,
+      0.6,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "weevil",
+     "at": [
+      2.4,
+      3.2,
+      0.5
+     ],
+     "h": 0.5,
+     "face": "L",
+     "expr": "smug",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.65,
+     "YOUR SINS!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.4,
+     "drum_hit",
+     0.4
+    ]
+   ],
+   "id": "C6_S094",
+   "start": 30.584,
+   "dur": 5.053,
+   "chapter": 6,
+   "line_start": 30.584,
+   "src": "S094"
+  },
+  {
+   "line": "L80",
+   "kind": "3d",
+   "set": "court",
+   "variant": "church",
+   "cam": {
+    "from": {
+     "pos": [
+      1.275,
+      -7.175000000000001,
+      3.02
+     ],
+     "tgt": [
+      3.473,
+      5.147,
+      -1.406
+     ],
+     "lens": 38.5
+    },
+    "to": {
+     "pos": [
+      1.5,
+      -9.5,
+      3.2
+     ],
+     "tgt": [
+      3.304,
+      5.255,
+      -1.592
+     ],
+     "lens": 38.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "bishop",
+     "at": [
+      0,
+      8.0,
+      1.5
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "happy",
+     "arms": "both_up",
+     "cut": [
+      7.15,
+      2.22
+     ]
+    },
+    {
+     "c": "villager0",
+     "at": [
+      2.5,
+      1.5,
+      0.0
+     ],
+     "h": 1.4,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "present",
+     "hold_r": "sack"
+    },
+    {
+     "c": "villager1",
+     "at": [
+      3.7,
+      1.5,
+      0.0
+     ],
+     "h": 1.4,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "present",
+     "hold_r": "sack"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      4.9,
+      1.5,
+      0.0
+     ],
+     "h": 1.4,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "present",
+     "hold_r": "sack"
+    },
+    {
+     "c": "villager3",
+     "at": [
+      2.5,
+      -0.5,
+      0.0
+     ],
+     "h": 1.4,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "present",
+     "hold_r": "sack"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "coins",
+     0.5
+    ],
+    [
+     1.0,
+     "coins",
+     0.4
+    ]
+   ],
+   "id": "C6_S095",
+   "start": 35.637,
+   "dur": 4.356,
+   "chapter": 6,
+   "line_start": 35.637,
+   "src": "S095"
+  },
+  {
+   "line": "L81",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.491,
+      0.428
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.694,
+      0.9784
+     ],
+     "tgt": [
+      0.6,
+      0.493,
+      0.452
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "chin",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.75,
+     "BELIEF"
+    ]
+   ],
+   "music": "story",
+   "id": "C6_S096",
+   "start": 39.993,
+   "dur": 5.719,
+   "chapter": 6,
+   "line_start": 39.993,
+   "src": "S096"
+  },
+  {
+   "id": "C6_END",
+   "kind": "end",
+   "line": "O1",
+   "start": 45.712,
+   "line_start": 45.862,
+   "dur": 2.6,
+   "chapter": null,
+   "sfx": [
+    [
+     0,
+     "ding",
+     0.5
+    ]
+   ],
+   "music": null
+  }
+ ]
+}

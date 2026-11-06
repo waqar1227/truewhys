@@ -1,0 +1,798 @@
+{
+ "fps": 30,
+ "resolution": [
+  1080,
+  1920
+ ],
+ "style": "T",
+ "episode": "B-001",
+ "short": "C1",
+ "title": "The Pig of Falaise: A Real Medieval Trial",
+ "duration": 46.421,
+ "vertical": true,
+ "shots": [
+  {
+   "line": "H1",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      0.3,
+      4.6,
+      2.5
+     ],
+     "tgt": [
+      0.003,
+      7.965,
+      2.011
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.27,
+      4.94,
+      2.495
+     ],
+     "tgt": [
+      0.003,
+      7.967,
+      2.04
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "judge",
+     "at": [
+      0,
+      8.0,
+      1.5
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "angry",
+     "arms": "point_l",
+     "cut": [
+      7.15,
+      2.22
+     ]
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ]
+   ],
+   "id": "C1_H",
+   "start": 0.0,
+   "dur": 5.03,
+   "chapter": 1,
+   "line_start": 0.15,
+   "music": "mystery"
+  },
+  {
+   "line": "L13",
+   "kind": "3d",
+   "set": "square",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      -3,
+      -11,
+      3.2
+     ],
+     "tgt": [
+      0.424,
+      6.538,
+      -2.34
+     ],
+     "lens": 45.5
+    },
+    "to": {
+     "pos": [
+      -1.8,
+      -11.0,
+      3.2
+     ],
+     "tgt": [
+      -0.132,
+      6.775,
+      -2.39
+     ],
+     "lens": 45.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "mother",
+     "at": [
+      -1.5,
+      0.5,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "sad",
+     "arms": "down"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      0.2,
+      1.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "pig",
+     "at": [
+      5.5,
+      2.5,
+      0
+     ],
+     "h": 0.7,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "wind",
+     0.3
+    ]
+   ],
+   "id": "C1_S017",
+   "start": 5.03,
+   "dur": 5.035,
+   "chapter": 1,
+   "line_start": 5.03,
+   "src": "S017",
+   "music": "mystery"
+  },
+  {
+   "line": "L14",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.498,
+      0.377
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.285,
+      0.975
+     ],
+     "tgt": [
+      0.6,
+      0.501,
+      0.403
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "sad",
+     "arms": "shrug",
+     "talk": true
+    }
+   ],
+   "part": [
+    0,
+    0.48
+   ],
+   "id": "C1_S018",
+   "start": 10.065,
+   "dur": 3.003,
+   "chapter": 1,
+   "line_start": 10.065,
+   "src": "S018"
+  },
+  {
+   "line": "L14",
+   "kind": "3d",
+   "set": "square",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      4,
+      -4,
+      2.0
+     ],
+     "tgt": [
+      6.212,
+      10.006,
+      -1.215
+     ],
+     "lens": 49.0
+    },
+    "to": {
+     "pos": [
+      3.85,
+      -1.8250000000000002,
+      2.06
+     ],
+     "tgt": [
+      6.47,
+      9.804,
+      -1.202
+     ],
+     "lens": 49.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "crier",
+     "at": [
+      2.5,
+      6.5,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "angry",
+     "arms": "point_r"
+    },
+    {
+     "c": "villager4",
+     "at": [
+      5.5,
+      5.5,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "angry",
+     "arms": "raise"
+    }
+   ],
+   "part": [
+    0.48,
+    1.0
+   ],
+   "pop": [
+    [
+     0.75,
+     "MURDER"
+    ]
+   ],
+   "sfx": [
+    [
+     0.55,
+     "drum_hit",
+     0.6
+    ]
+   ],
+   "id": "C1_S019",
+   "start": 13.068,
+   "dur": 3.253,
+   "chapter": 1,
+   "line_start": 10.065,
+   "src": "S019"
+  },
+  {
+   "line": "L15",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -9.5,
+      3.2
+     ],
+     "tgt": [
+      -1.883,
+      5.222,
+      -0.77
+     ],
+     "lens": 38.5
+    },
+    "to": {
+     "pos": [
+      1.2,
+      -6.4,
+      2.96
+     ],
+     "tgt": [
+      -1.928,
+      5.212,
+      -0.432
+     ],
+     "lens": 38.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "judge",
+     "at": [
+      0,
+      8.0,
+      1.5
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down",
+     "cut": [
+      7.15,
+      2.22
+     ]
+    },
+    {
+     "c": "pig",
+     "at": [
+      -3.6,
+      1.1,
+      0.3
+     ],
+     "h": 0.85,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "cut": [
+      -0.1,
+      0.75
+     ]
+    },
+    {
+     "c": "crier",
+     "at": [
+      -1.5,
+      3.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down",
+     "hold": "scroll"
+    }
+   ],
+   "part": null,
+   "tag": "THE TOWN'S CRIMINAL COURT",
+   "sfx": [
+    [
+     0,
+     "crowd_murmur",
+     0.3
+    ]
+   ],
+   "id": "C1_S020",
+   "start": 16.321,
+   "dur": 6.08,
+   "chapter": 1,
+   "line_start": 16.321,
+   "src": "S020"
+  },
+  {
+   "line": "L16",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      0.3,
+      4.6,
+      2.5
+     ],
+     "tgt": [
+      0.003,
+      7.965,
+      2.011
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.264,
+      5.008,
+      2.494
+     ],
+     "tgt": [
+      0.003,
+      7.97,
+      2.065
+     ],
+     "lens": 56.7
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "judge",
+     "at": [
+      0,
+      8.0,
+      1.5
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "angry",
+     "arms": "point_l",
+     "cut": [
+      7.15,
+      2.22
+     ]
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.55,
+     "AN EYE FOR AN EYE"
+    ]
+   ],
+   "sfx": [
+    [
+     0.5,
+     "drum_hit",
+     0.7
+    ],
+    [
+     0.55,
+     "gavel",
+     0.6
+    ]
+   ],
+   "id": "C1_S021",
+   "start": 22.401,
+   "dur": 3.256,
+   "chapter": 1,
+   "line_start": 22.401,
+   "src": "S021"
+  },
+  {
+   "line": "L18",
+   "kind": "3d",
+   "set": "square",
+   "variant": "dusk",
+   "cam": {
+    "from": {
+     "pos": [
+      -3,
+      -11,
+      3.2
+     ],
+     "tgt": [
+      -1.501,
+      6.833,
+      -2.255
+     ],
+     "lens": 45.5
+    },
+    "to": {
+     "pos": [
+      -4.5,
+      -11.0,
+      3.2
+     ],
+     "tgt": [
+      -0.921,
+      6.552,
+      -2.197
+     ],
+     "lens": 45.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager0",
+     "at": [
+      -3.5,
+      1.5,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "villager1",
+     "at": [
+      -2.4,
+      0.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      -1.0,
+      1.8,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "villager3",
+     "at": [
+      5.8,
+      1.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "villager4",
+     "at": [
+      7.0,
+      0.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "pig",
+     "at": [
+      0.5,
+      3.5,
+      0
+     ],
+     "h": 0.85,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "outfit": "clothes",
+     "walk": {
+      "to": [
+       2.0,
+       3.0,
+       0
+      ]
+     }
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "crowd_murmur",
+     0.5
+    ],
+    [
+     0,
+     "footsteps",
+     0.4
+    ]
+   ],
+   "id": "C1_S023",
+   "start": 25.657,
+   "dur": 6.781,
+   "chapter": 1,
+   "line_start": 25.657,
+   "src": "S023"
+  },
+  {
+   "line": "L24",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.491,
+      0.428
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.6175000000000002,
+      0.973
+     ],
+     "tgt": [
+      0.6,
+      0.494,
+      0.459
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "both_up",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "boing",
+     0.4
+    ]
+   ],
+   "id": "C1_S029",
+   "start": 32.438,
+   "dur": 4.33,
+   "chapter": 1,
+   "line_start": 32.438,
+   "src": "S029"
+  },
+  {
+   "line": "L25",
+   "kind": "3d",
+   "set": "square",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      -3,
+      -11,
+      3.2
+     ],
+     "tgt": [
+      2.275,
+      6.005,
+      -2.544
+     ],
+     "lens": 45.5
+    },
+    "orbit": -10,
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pig",
+     "at": [
+      -2,
+      1,
+      0
+     ],
+     "h": 0.7,
+     "face": "R",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "pig",
+     "at": [
+      3.5,
+      2,
+      0
+     ],
+     "h": 0.65,
+     "face": "L",
+     "expr": "smug",
+     "arms": "down"
+    },
+    {
+     "c": "pig",
+     "at": [
+      6.5,
+      -0.5,
+      0
+     ],
+     "h": 0.7,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "down"
+    },
+    {
+     "c": "villager5",
+     "at": [
+      0.8,
+      0,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "pig_oink",
+     0.6
+    ],
+    [
+     1.5,
+     "pig_squeal",
+     0.4
+    ]
+   ],
+   "id": "C1_S030",
+   "start": 36.768,
+   "dur": 7.053,
+   "chapter": 1,
+   "line_start": 36.768,
+   "src": "S030"
+  },
+  {
+   "id": "C1_END",
+   "kind": "end",
+   "line": "O1",
+   "start": 43.821,
+   "line_start": 43.971,
+   "dur": 2.6,
+   "chapter": null,
+   "sfx": [
+    [
+     0,
+     "ding",
+     0.5
+    ]
+   ],
+   "music": null
+  }
+ ]
+}

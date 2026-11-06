@@ -1,20 +1,140 @@
 {
  "note": "Cut Shorts from B-001. Each: hook (new line) + selected long-video lines + outro. Vertical 1080x1920, re-framed (lens x1.7, target on main actor). Related video = B-001.",
- "outro": {"id": "O1", "text": "Full story on TrueWhys.", "say": "Full story on True Whys."},
+ "outro": {
+  "id": "O1",
+  "text": "Full story on TrueWhys.",
+  "say": "Full story on True Whys."
+ },
  "shorts": [
-  {"id": "C0", "title": "The Pig That Was Executed in a Man's Clothes", "hook": {"id": "H0", "text": "In 1386, a town put a prisoner on trial... and the prisoner was a pig.", "say": "In thirteen eighty-six, a town put a prisoner on trial... and the prisoner was a pig."},
-   "lines": ["L02", "L03", "L04", "L05", "L06", "L07", "L08", "L10"]},
-  {"id": "C7", "title": "Why the Hangman Got New Gloves", "hook": {"id": "H7", "text": "Why did a medieval hangman get paid in gloves?"},
-   "lines": ["L18", "L19", "L20", "L21", "L22"]},
-  {"id": "C3", "title": "The Lawyer Who Defended Rats in Court", "hook": {"id": "H3", "text": "This lawyer's clients were rats. And he almost won.", "say": "This lawyer's clients were rats. And he almost won."},
-   "lines": ["L34", "L35", "L36", "L38", "L39", "L40", "L41", "L42", "L43", "L44"]},
-  {"id": "C4", "title": "The Rooster Sentenced for Laying an Egg", "hook": {"id": "H4", "text": "A city once burned a rooster... for laying an egg."},
-   "lines": ["L47", "L48", "L49", "L50", "L52", "L53", "L54"]},
-  {"id": "C5", "title": "The Weevils Who Were Offered Their Own Land", "hook": {"id": "H5", "text": "A village tried to settle a lawsuit... with a bunch of bugs."},
-   "lines": ["L57", "L58", "L60", "L61", "L62", "L63", "L65", "L67", "L69", "L70"]},
-  {"id": "C6", "title": "Why the Church Put Bugs on Trial", "hook": {"id": "H6", "text": "Why would a church court put bugs on trial? Follow the money."},
-   "lines": ["L73", "L75", "L76", "L77", "L78", "L79", "L80", "L81"]},
-  {"id": "C1", "title": "The Pig of Falaise: A Real Medieval Trial", "hook": {"id": "H1", "text": "This is the true story of the Pig of Falaise.", "say": "This is the true story of the Pig of Fah-lez."},
-   "lines": ["L13", "L14", "L15", "L16", "L18", "L24", "L25"]}
+  {
+   "id": "C0",
+   "title": "The Pig That Was Executed in a Man's Clothes",
+   "hook": {
+    "id": "H0",
+    "text": "In 1386, a town put a prisoner on trial... and the prisoner was a pig.",
+    "say": "In thirteen eighty-six, a town put a prisoner on trial... and the prisoner was a pig."
+   },
+   "lines": [
+    "L02",
+    "L03",
+    "L04",
+    "L05",
+    "L06",
+    "L07",
+    "L08",
+    "L10"
+   ],
+   "hook_shot": "S004"
+  },
+  {
+   "id": "C7",
+   "title": "Why the Hangman Got New Gloves",
+   "hook": {
+    "id": "H7",
+    "text": "Why did a medieval hangman get paid in gloves?"
+   },
+   "lines": [
+    "L18",
+    "L19",
+    "L20",
+    "L21",
+    "L22"
+   ]
+  },
+  {
+   "id": "C3",
+   "title": "The Lawyer Who Defended Rats in Court",
+   "hook": {
+    "id": "H3",
+    "text": "This lawyer's clients were rats. And he almost won.",
+    "say": "This lawyer's clients were rats. And he almost won."
+   },
+   "lines": [
+    "L34",
+    "L35",
+    "L36",
+    "L38",
+    "L39",
+    "L40",
+    "L41",
+    "L42",
+    "L43",
+    "L44"
+   ],
+   "hook_shot": "S043"
+  },
+  {
+   "id": "C4",
+   "title": "The Rooster Sentenced for Laying an Egg",
+   "hook": {
+    "id": "H4",
+    "text": "A city once burned a rooster... for laying an egg."
+   },
+   "lines": [
+    "L47",
+    "L48",
+    "L49",
+    "L50",
+    "L52",
+    "L53",
+    "L54"
+   ]
+  },
+  {
+   "id": "C5",
+   "title": "The Weevils Who Were Offered Their Own Land",
+   "hook": {
+    "id": "H5",
+    "text": "A village tried to settle a lawsuit... with a bunch of bugs."
+   },
+   "lines": [
+    "L57",
+    "L58",
+    "L60",
+    "L61",
+    "L62",
+    "L63",
+    "L65",
+    "L67",
+    "L69",
+    "L70"
+   ]
+  },
+  {
+   "id": "C6",
+   "title": "Why the Church Put Bugs on Trial",
+   "hook": {
+    "id": "H6",
+    "text": "Why would a church court put bugs on trial? Follow the money."
+   },
+   "lines": [
+    "L73",
+    "L75",
+    "L76",
+    "L77",
+    "L78",
+    "L79",
+    "L80",
+    "L81"
+   ]
+  },
+  {
+   "id": "C1",
+   "title": "The Pig of Falaise: A Real Medieval Trial",
+   "hook": {
+    "id": "H1",
+    "text": "This is the true story of the Pig of Falaise.",
+    "say": "This is the true story of the Pig of Fah-lez."
+   },
+   "lines": [
+    "L13",
+    "L14",
+    "L15",
+    "L16",
+    "L18",
+    "L24",
+    "L25"
+   ]
+  }
  ]
 }

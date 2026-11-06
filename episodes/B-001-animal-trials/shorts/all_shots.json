@@ -1,0 +1,5308 @@
+{
+ "fps": 30,
+ "duration": 0,
+ "shots": [
+  {
+   "line": "H0",
+   "kind": "3d",
+   "set": "square",
+   "variant": "dusk",
+   "cam": {
+    "from": {
+     "pos": [
+      2.8,
+      -2.6,
+      1.6
+     ],
+     "tgt": [
+      2.002,
+      4.98,
+      1.04
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      2.72,
+      -1.84,
+      1.61
+     ],
+     "tgt": [
+      2.002,
+      4.982,
+      1.101
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pig",
+     "at": [
+      2,
+      5,
+      1.2
+     ],
+     "h": 0.9,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down",
+     "outfit": "clothes",
+     "blink_fast": true
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ]
+   ],
+   "id": "C0_H",
+   "start": 0.0,
+   "dur": 7.33,
+   "chapter": 0,
+   "line_start": 0.15,
+   "music": "mystery"
+  },
+  {
+   "line": "L02",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -9.5,
+      3.2
+     ],
+     "tgt": [
+      0.185,
+      5.845,
+      0.603
+     ],
+     "lens": 38.5
+    },
+    "to": {
+     "pos": [
+      1.275,
+      -7.175000000000001,
+      3.02
+     ],
+     "tgt": [
+      0.178,
+      5.879,
+      0.864
+     ],
+     "lens": 38.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "judge",
+     "at": [
+      0,
+      8.0,
+      1.5
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "angry",
+     "arms": "down",
+     "cut": [
+      7.15,
+      2.22
+     ],
+     "hold": "scroll"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "room_tone",
+     0.4
+    ]
+   ],
+   "id": "C0_S001",
+   "start": 7.33,
+   "dur": 4.821,
+   "chapter": 0,
+   "line_start": 7.33,
+   "src": "S001",
+   "music": "mystery"
+  },
+  {
+   "line": "L03",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      0.3,
+      4.6,
+      2.5
+     ],
+     "tgt": [
+      0.003,
+      7.965,
+      2.011
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.27,
+      4.9399999999999995,
+      2.495
+     ],
+     "tgt": [
+      0.003,
+      7.968,
+      2.053
+     ],
+     "lens": 55.12
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "judge",
+     "at": [
+      0,
+      8.0,
+      1.5
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "angry",
+     "arms": "raise",
+     "cut": [
+      7.15,
+      2.22
+     ],
+     "hold_r": "gavel",
+     "gest": [
+      [
+       0.6,
+       "slam"
+      ]
+     ]
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.75,
+     "gavel",
+     1.0
+    ]
+   ],
+   "id": "C0_S002",
+   "start": 12.151,
+   "dur": 2.325,
+   "chapter": 0,
+   "line_start": 12.151,
+   "src": "S002"
+  },
+  {
+   "line": "L04",
+   "kind": "3d",
+   "set": "square",
+   "variant": "dusk",
+   "cam": {
+    "from": {
+     "pos": [
+      1,
+      -5.5,
+      1.5
+     ],
+     "tgt": [
+      5.311,
+      0.518,
+      0.161
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      1.075,
+      -4.375,
+      1.455
+     ],
+     "tgt": [
+      5.139,
+      0.42,
+      0.281
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager0",
+     "at": [
+      -3.5,
+      1.5,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "villager1",
+     "at": [
+      -2.4,
+      0.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      -1.0,
+      1.8,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "villager3",
+     "at": [
+      5.8,
+      1.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "surprised",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "footsteps",
+     0.6
+    ],
+    [
+     0.4,
+     "crowd_murmur",
+     0.4
+    ]
+   ],
+   "silhouette": true,
+   "id": "C0_S003",
+   "start": 14.476,
+   "dur": 4.667,
+   "chapter": 0,
+   "line_start": 14.476,
+   "src": "S003"
+  },
+  {
+   "line": "L05",
+   "kind": "3d",
+   "set": "square",
+   "variant": "dusk",
+   "cam": {
+    "from": {
+     "pos": [
+      2.8,
+      -2.6,
+      1.6
+     ],
+     "tgt": [
+      2.002,
+      4.98,
+      1.04
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      2.6399999999999997,
+      -1.08,
+      1.62
+     ],
+     "tgt": [
+      2.001,
+      4.987,
+      1.206
+     ],
+     "lens": 61.6
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pig",
+     "at": [
+      2,
+      5,
+      1.2
+     ],
+     "h": 0.9,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down",
+     "outfit": "clothes",
+     "blink_fast": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.45,
+     "A PIG?!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.35,
+     "drum_hit",
+     0.8
+    ],
+    [
+     0.5,
+     "pig_oink",
+     0.9
+    ],
+    [
+     0.9,
+     "crowd_gasp",
+     0.6
+    ]
+   ],
+   "id": "C0_S004",
+   "start": 19.143,
+   "dur": 2.077,
+   "chapter": 0,
+   "line_start": 19.143,
+   "src": "S004"
+  },
+  {
+   "line": "L07",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      -2.2,
+      -3.2,
+      1.6
+     ],
+     "tgt": [
+      -3.527,
+      0.876,
+      0.385
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      -2.3400000000000003,
+      -2.7800000000000002,
+      1.55
+     ],
+     "tgt": [
+      -3.529,
+      0.88,
+      0.424
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pig",
+     "at": [
+      -3.6,
+      1.1,
+      0.3
+     ],
+     "h": 0.85,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "cut": [
+      -0.1,
+      0.75
+     ]
+    }
+   ],
+   "part": [
+    0,
+    0.25
+   ],
+   "sfx": [
+    [
+     0,
+     "pig_oink",
+     0.7
+    ]
+   ],
+   "id": "C0_S006",
+   "start": 25.888,
+   "dur": 0.667,
+   "chapter": 0,
+   "line_start": 25.888,
+   "src": "S006"
+  },
+  {
+   "line": "L07",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      -2.2,
+      -3.2,
+      1.6
+     ],
+     "tgt": [
+      -3.51,
+      0.918,
+      0.514
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      -2.3400000000000003,
+      -2.7800000000000002,
+      1.55
+     ],
+     "tgt": [
+      -3.512,
+      0.923,
+      0.553
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "bull",
+     "at": [
+      -3.6,
+      1.2,
+      0.3
+     ],
+     "h": 1.1,
+     "face": "R",
+     "expr": "angry",
+     "arms": "down",
+     "cut": [
+      -0.1,
+      0.8
+     ]
+    }
+   ],
+   "part": [
+    0.25,
+    0.5
+   ],
+   "sfx": [
+    [
+     0,
+     "thud",
+     0.5
+    ]
+   ],
+   "label": "BULL",
+   "id": "C0_S007",
+   "start": 26.555,
+   "dur": 0.667,
+   "chapter": 0,
+   "line_start": 25.888,
+   "src": "S007"
+  },
+  {
+   "line": "L07",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      -2.2,
+      -3.2,
+      1.6
+     ],
+     "tgt": [
+      -3.502,
+      0.851,
+      0.28
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      -2.3400000000000003,
+      -2.7800000000000002,
+      1.55
+     ],
+     "tgt": [
+      -3.504,
+      0.855,
+      0.321
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "rat",
+     "at": [
+      -3.9,
+      1.1,
+      0.3
+     ],
+     "h": 0.6,
+     "face": "R",
+     "expr": "sly",
+     "arms": "down",
+     "cut": [
+      -0.1,
+      0.55
+     ]
+    },
+    {
+     "c": "rat",
+     "at": [
+      -3.3,
+      1.3,
+      0.3
+     ],
+     "h": 0.55,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down",
+     "cut": [
+      -0.1,
+      0.55
+     ]
+    }
+   ],
+   "part": [
+    0.5,
+    0.75
+   ],
+   "sfx": [
+    [
+     0,
+     "rat_squeak",
+     0.7
+    ]
+   ],
+   "id": "C0_S008",
+   "start": 27.222,
+   "dur": 0.667,
+   "chapter": 0,
+   "line_start": 25.888,
+   "src": "S008"
+  },
+  {
+   "line": "L07",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      -2.2,
+      -3.2,
+      1.6
+     ],
+     "tgt": [
+      -3.566,
+      0.994,
+      0.972
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      -2.452,
+      -2.444,
+      1.51
+     ],
+     "tgt": [
+      -3.568,
+      1.003,
+      1.039
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "weevil",
+     "at": [
+      -3.6,
+      1.1,
+      1.22
+     ],
+     "h": 0.25,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down"
+    }
+   ],
+   "part": [
+    0.75,
+    1.0
+   ],
+   "pop": [
+    [
+     0.2,
+     "INSECTS?!"
+    ]
+   ],
+   "sfx": [
+    [
+     0,
+     "boing",
+     0.6
+    ]
+   ],
+   "id": "C0_S009",
+   "start": 27.888,
+   "dur": 0.667,
+   "chapter": 0,
+   "line_start": 25.888,
+   "src": "S009"
+  },
+  {
+   "line": "L08",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.4,
+      -2.0,
+      1.5
+     ],
+     "tgt": [
+      -1.603,
+      2.389,
+      0.259
+     ],
+     "lens": 56.0
+    },
+    "orbit": 10,
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "lawyer",
+     "at": [
+      -1.4,
+      2.6,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "smug",
+     "arms": "point_r"
+    },
+    {
+     "c": "rat",
+     "at": [
+      -2.3,
+      2.2,
+      0
+     ],
+     "h": 0.5,
+     "face": "R",
+     "expr": "smug",
+     "arms": "down"
+    }
+   ],
+   "part": [
+    0,
+    0.33
+   ],
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ]
+   ],
+   "id": "C0_S010",
+   "start": 28.555,
+   "dur": 1.822,
+   "chapter": 0,
+   "line_start": 28.555,
+   "src": "S010"
+  },
+  {
+   "line": "L08",
+   "kind": "3d",
+   "set": "land",
+   "variant": "vineyard",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      1.0,
+      1.0
+     ],
+     "tgt": [
+      3.597,
+      5.151,
+      -0.367
+     ],
+     "lens": 59.5
+    },
+    "to": {
+     "pos": [
+      1.725,
+      1.69,
+      0.955
+     ],
+     "tgt": [
+      3.609,
+      5.12,
+      -0.334
+     ],
+     "lens": 59.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "weevil",
+     "at": [
+      3.0,
+      4.4,
+      0.0
+     ],
+     "h": 0.35,
+     "face": "R",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "weevil",
+     "at": [
+      3.6,
+      4.6,
+      0.0
+     ],
+     "h": 0.3,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    }
+   ],
+   "part": [
+    0.66,
+    1.0
+   ],
+   "sfx": [
+    [
+     0,
+     "sparkle",
+     0.5
+    ]
+   ],
+   "id": "C0_S012",
+   "start": 32.198,
+   "dur": 1.877,
+   "chapter": 0,
+   "line_start": 28.555,
+   "src": "S012"
+  },
+  {
+   "line": "L10",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.491,
+      0.428
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.745,
+      0.982
+     ],
+     "tgt": [
+      0.6,
+      0.493,
+      0.448
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "smug",
+     "arms": "point_r",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "props": [
+    [
+     "coin",
+     [
+      1.25,
+      1.2,
+      1.12
+     ],
+     0.12
+    ],
+    [
+     "coin",
+     [
+      1.35,
+      1.25,
+      1.12
+     ],
+     0.12
+    ]
+   ],
+   "pop": [
+    [
+     0.75,
+     "MONEY"
+    ]
+   ],
+   "sfx": [
+    [
+     0.7,
+     "coins",
+     0.8
+    ]
+   ],
+   "id": "C0_S014",
+   "start": 34.075,
+   "dur": 5.255,
+   "chapter": 0,
+   "line_start": 34.075,
+   "src": "S014"
+  },
+  {
+   "line": "H7",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.498,
+      0.377
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.285,
+      0.975
+     ],
+     "tgt": [
+      0.6,
+      0.501,
+      0.403
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "raise",
+     "talk": true,
+     "hold_r": "gloves"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ]
+   ],
+   "id": "C7_H",
+   "start": 0.0,
+   "dur": 4.9,
+   "chapter": 1,
+   "line_start": 0.15,
+   "music": "mystery"
+  },
+  {
+   "line": "L18",
+   "kind": "3d",
+   "set": "square",
+   "variant": "dusk",
+   "cam": {
+    "from": {
+     "pos": [
+      -3,
+      -11,
+      3.2
+     ],
+     "tgt": [
+      -1.501,
+      6.833,
+      -2.255
+     ],
+     "lens": 45.5
+    },
+    "to": {
+     "pos": [
+      -4.5,
+      -11.0,
+      3.2
+     ],
+     "tgt": [
+      -0.921,
+      6.552,
+      -2.197
+     ],
+     "lens": 45.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager0",
+     "at": [
+      -3.5,
+      1.5,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "villager1",
+     "at": [
+      -2.4,
+      0.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      -1.0,
+      1.8,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "villager3",
+     "at": [
+      5.8,
+      1.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "villager4",
+     "at": [
+      7.0,
+      0.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "pig",
+     "at": [
+      0.5,
+      3.5,
+      0
+     ],
+     "h": 0.85,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "outfit": "clothes",
+     "walk": {
+      "to": [
+       2.0,
+       3.0,
+       0
+      ]
+     }
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "crowd_murmur",
+     0.5
+    ],
+    [
+     0,
+     "footsteps",
+     0.4
+    ]
+   ],
+   "id": "C7_S023",
+   "start": 4.9,
+   "dur": 6.781,
+   "chapter": 1,
+   "line_start": 4.9,
+   "src": "S023",
+   "music": "mystery"
+  },
+  {
+   "line": "L19",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      2.4,
+      2.6,
+      1.6
+     ],
+     "tgt": [
+      2.3,
+      4.2,
+      0.9
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      2.38,
+      2.92,
+      1.46
+     ],
+     "tgt": [
+      2.3,
+      4.2,
+      0.9
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": null,
+   "props": [
+    [
+     "coin",
+     [
+      2.1,
+      4.1,
+      0.9
+     ],
+     0.1,
+     {
+      "drop": 0.2
+     }
+    ],
+    [
+     "coin",
+     [
+      2.3,
+      4.2,
+      0.9
+     ],
+     0.1,
+     {
+      "drop": 0.45
+     }
+    ],
+    [
+     "coin",
+     [
+      2.5,
+      4.05,
+      0.9
+     ],
+     0.1,
+     {
+      "drop": 0.7
+     }
+    ]
+   ],
+   "pop": [
+    [
+     0.4,
+     "10 SOUS + 10 DENIERS"
+    ]
+   ],
+   "sfx": [
+    [
+     0.2,
+     "coin_single",
+     0.7
+    ],
+    [
+     0.45,
+     "coin_single",
+     0.7
+    ],
+    [
+     0.7,
+     "coins",
+     0.6
+    ]
+   ],
+   "id": "C7_S024",
+   "start": 11.681,
+   "dur": 3.384,
+   "chapter": 1,
+   "line_start": 11.681,
+   "src": "S024"
+  },
+  {
+   "line": "L20",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      2.4,
+      2.6,
+      1.6
+     ],
+     "tgt": [
+      2.3,
+      4.2,
+      0.9
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      2.37,
+      3.08,
+      1.3900000000000001
+     ],
+     "tgt": [
+      2.3,
+      4.2,
+      0.9
+     ],
+     "lens": 57.75
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": null,
+   "props": [
+    [
+     "gloves",
+     [
+      2.3,
+      4.15,
+      0.95
+     ],
+     0.28,
+     {
+      "pop": 0.1
+     }
+    ]
+   ],
+   "pop": [
+    [
+     0.5,
+     "+ NEW GLOVES"
+    ]
+   ],
+   "sfx": [
+    [
+     0.15,
+     "sparkle",
+     0.7
+    ]
+   ],
+   "id": "C7_S025",
+   "start": 15.065,
+   "dur": 2.172,
+   "chapter": 1,
+   "line_start": 15.065,
+   "src": "S025"
+  },
+  {
+   "line": "L21",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.498,
+      0.377
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.501,
+      0.408
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "raise",
+     "talk": true,
+     "hold_r": "gloves"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.1,
+     "ding",
+     0.5
+    ]
+   ],
+   "id": "C7_S026",
+   "start": 17.237,
+   "dur": 3.2,
+   "chapter": 1,
+   "line_start": 17.237,
+   "src": "S026"
+  },
+  {
+   "line": "L22",
+   "kind": "3d",
+   "set": "square",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      4,
+      -4,
+      2.0
+     ],
+     "tgt": [
+      2.029,
+      10.077,
+      -1.058
+     ],
+     "lens": 49.0
+    },
+    "to": {
+     "pos": [
+      3.9,
+      -2.55,
+      2.04
+     ],
+     "tgt": [
+      1.988,
+      10.027,
+      -1.025
+     ],
+     "lens": 49.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "crier",
+     "at": [
+      2.6,
+      6.0,
+      0
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "smug",
+     "arms": "present",
+     "hold_l": "staff"
+    }
+   ],
+   "part": null,
+   "tag": "OFFICER OF THE LAW",
+   "id": "C7_S027",
+   "start": 20.437,
+   "dur": 4.747,
+   "chapter": 1,
+   "line_start": 20.437,
+   "src": "S027"
+  },
+  {
+   "line": "H3",
+   "kind": "3d",
+   "set": "court",
+   "variant": "church",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.4,
+      -2.0,
+      1.5
+     ],
+     "tgt": [
+      -1.374,
+      2.48,
+      0.389
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      -0.5,
+      -1.54,
+      1.47
+     ],
+     "tgt": [
+      -1.374,
+      2.481,
+      0.427
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "lawyer",
+     "at": [
+      -1.4,
+      2.6,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "smug",
+     "arms": "down",
+     "hold_r": "scroll"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ]
+   ],
+   "id": "C3_H",
+   "start": 0.0,
+   "dur": 5.175,
+   "chapter": 3,
+   "line_start": 0.15,
+   "music": "mystery"
+  },
+  {
+   "line": "L34",
+   "kind": "3d",
+   "set": "land",
+   "variant": "barley",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -8,
+      2.2
+     ],
+     "tgt": [
+      4.236,
+      18.875,
+      -5.187
+     ],
+     "lens": 45.5
+    },
+    "to": {
+     "pos": [
+      1.6,
+      -2.3999999999999995,
+      2.2600000000000002
+     ],
+     "tgt": [
+      5.326,
+      18.396,
+      -5.197
+     ],
+     "lens": 45.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "rat",
+     "at": [
+      1.5,
+      3,
+      0
+     ],
+     "h": 0.4,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "rat",
+     "at": [
+      2.3,
+      4,
+      0
+     ],
+     "h": 0.4,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "rat",
+     "at": [
+      3.1,
+      5,
+      0
+     ],
+     "h": 0.4,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "rat",
+     "at": [
+      3.9000000000000004,
+      3,
+      0
+     ],
+     "h": 0.4,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "rat",
+     "at": [
+      4.7,
+      4,
+      0
+     ],
+     "h": 0.4,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "rat",
+     "at": [
+      5.5,
+      5,
+      0
+     ],
+     "h": 0.4,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "tag": "AUTUN, FRANCE \u00b7 EARLY 1500s",
+   "sfx": [
+    [
+     0.3,
+     "chewing",
+     0.6
+    ]
+   ],
+   "id": "C3_S041",
+   "start": 5.175,
+   "dur": 6.592,
+   "chapter": 3,
+   "line_start": 5.175,
+   "src": "S041",
+   "music": "mystery"
+  },
+  {
+   "line": "L35",
+   "kind": "3d",
+   "set": "court",
+   "variant": "church",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -9.5,
+      3.2
+     ],
+     "tgt": [
+      0.185,
+      5.845,
+      0.603
+     ],
+     "lens": 38.5
+    },
+    "to": {
+     "pos": [
+      1.32,
+      -7.640000000000001,
+      3.056
+     ],
+     "tgt": [
+      0.18,
+      5.872,
+      0.812
+     ],
+     "lens": 38.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "bishop",
+     "at": [
+      0,
+      8.0,
+      1.5
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "point_l",
+     "cut": [
+      7.15,
+      2.22
+     ]
+    },
+    {
+     "c": "rat",
+     "at": [
+      -3.6,
+      1.1,
+      0.3
+     ],
+     "h": 0.5,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "cut": [
+      -0.1,
+      0.55
+     ]
+    }
+   ],
+   "part": null,
+   "id": "C3_S042",
+   "start": 11.767,
+   "dur": 6.417,
+   "chapter": 3,
+   "line_start": 11.767,
+   "src": "S042"
+  },
+  {
+   "line": "L36",
+   "kind": "3d",
+   "set": "court",
+   "variant": "church",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.4,
+      -2.0,
+      1.5
+     ],
+     "tgt": [
+      -1.374,
+      2.48,
+      0.389
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      -0.55,
+      -1.31,
+      1.455
+     ],
+     "tgt": [
+      -1.374,
+      2.482,
+      0.447
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "lawyer",
+     "at": [
+      -1.4,
+      2.6,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "smug",
+     "arms": "down",
+     "hold_r": "scroll"
+    }
+   ],
+   "part": null,
+   "tag": "BARTHOLOMEW CHASSEN\u00c9E \u00b7 LAWYER",
+   "sfx": [
+    [
+     0,
+     "sparkle",
+     0.4
+    ]
+   ],
+   "id": "C3_S043",
+   "start": 18.184,
+   "dur": 3.622,
+   "chapter": 3,
+   "line_start": 18.184,
+   "src": "S043"
+  },
+  {
+   "line": "L39",
+   "kind": "3d",
+   "set": "court",
+   "variant": "church",
+   "cam": {
+    "from": {
+     "pos": [
+      0.3,
+      4.6,
+      2.5
+     ],
+     "tgt": [
+      0.003,
+      7.965,
+      2.011
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.27,
+      4.9399999999999995,
+      2.495
+     ],
+     "tgt": [
+      0.003,
+      7.967,
+      2.04
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "bishop",
+     "at": [
+      0,
+      8.0,
+      1.5
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "happy",
+     "arms": "raise",
+     "cut": [
+      7.15,
+      2.22
+     ]
+    }
+   ],
+   "part": [
+    0,
+    0.45
+   ],
+   "sfx": [
+    [
+     0.3,
+     "gavel",
+     0.5
+    ]
+   ],
+   "id": "C3_S046",
+   "start": 28.454,
+   "dur": 2.285,
+   "chapter": 3,
+   "line_start": 28.454,
+   "src": "S046"
+  },
+  {
+   "line": "L39",
+   "kind": "3d",
+   "set": "square",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      4,
+      -4,
+      2.0
+     ],
+     "tgt": [
+      8.516,
+      9.047,
+      -2.558
+     ],
+     "lens": 49.0
+    },
+    "to": {
+     "pos": [
+      3.88,
+      -2.26,
+      2.048
+     ],
+     "tgt": [
+      9.768,
+      8.351,
+      -2.007
+     ],
+     "lens": 49.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "crier",
+     "at": [
+      2.5,
+      5.8,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "scroll"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      -1.0,
+      1.8,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "villager3",
+     "at": [
+      5.8,
+      1.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "villager4",
+     "at": [
+      7.0,
+      0.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    }
+   ],
+   "part": [
+    0.45,
+    1.0
+   ],
+   "sfx": [
+    [
+     0,
+     "church_bell",
+     0.5
+    ]
+   ],
+   "id": "C3_S047",
+   "start": 30.739,
+   "dur": 2.792,
+   "chapter": 3,
+   "line_start": 28.454,
+   "src": "S047"
+  },
+  {
+   "line": "L40",
+   "kind": "3d",
+   "set": "court",
+   "variant": "church",
+   "cam": {
+    "from": {
+     "pos": [
+      -2.2,
+      -3.2,
+      1.6
+     ],
+     "tgt": [
+      -3.6,
+      1.0,
+      1.1
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      -2.3400000000000003,
+      -2.7800000000000002,
+      1.55
+     ],
+     "tgt": [
+      -3.6,
+      1.0,
+      1.1
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": [
+    0,
+    0.5
+   ],
+   "sfx": [
+    [
+     0,
+     "tick",
+     0.5
+    ]
+   ],
+   "label": "EMPTY",
+   "id": "C3_S048",
+   "start": 33.531,
+   "dur": 2.218,
+   "chapter": 3,
+   "line_start": 33.531,
+   "src": "S048"
+  },
+  {
+   "line": "L40",
+   "kind": "3d",
+   "set": "court",
+   "variant": "church",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.4,
+      -2.0,
+      1.5
+     ],
+     "tgt": [
+      -1.374,
+      2.48,
+      0.389
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      -0.52,
+      -1.448,
+      1.464
+     ],
+     "tgt": [
+      -1.374,
+      2.482,
+      0.435
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "lawyer",
+     "at": [
+      -1.4,
+      2.6,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "smug",
+     "arms": "point_r"
+    }
+   ],
+   "part": [
+    0.5,
+    1.0
+   ],
+   "id": "C3_S049",
+   "start": 35.749,
+   "dur": 2.218,
+   "chapter": 3,
+   "line_start": 33.531,
+   "src": "S049"
+  },
+  {
+   "line": "L41",
+   "kind": "3d",
+   "set": "land",
+   "variant": "barley",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -1.5,
+      0.5
+     ],
+     "tgt": [
+      0.57,
+      5.902,
+      -0.772
+     ],
+     "lens": 42.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -0.6000000000000001,
+      0.548
+     ],
+     "tgt": [
+      0.568,
+      5.88,
+      -0.751
+     ],
+     "lens": 42.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "rat",
+     "at": [
+      0.2,
+      3.0,
+      0
+     ],
+     "h": 0.4,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "rat",
+     "at": [
+      1.0,
+      3.4,
+      0
+     ],
+     "h": 0.4,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "wind",
+     0.4
+    ]
+   ],
+   "id": "C3_S050",
+   "start": 37.967,
+   "dur": 4.648,
+   "chapter": 3,
+   "line_start": 37.967,
+   "src": "S050"
+  },
+  {
+   "line": "L42",
+   "kind": "3d",
+   "set": "land",
+   "variant": "barley",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -1.5,
+      0.5
+     ],
+     "tgt": [
+      -0.982,
+      5.777,
+      -0.474
+     ],
+     "lens": 42.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      0.0,
+      0.5800000000000001
+     ],
+     "tgt": [
+      -0.991,
+      5.732,
+      -0.263
+     ],
+     "lens": 46.2
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "cat",
+     "at": [
+      -0.5,
+      4.5,
+      0
+     ],
+     "h": 0.7,
+     "face": "R",
+     "expr": "sly",
+     "arms": "down"
+    },
+    {
+     "c": "cat",
+     "at": [
+      1.8,
+      5.5,
+      0
+     ],
+     "h": 0.65,
+     "face": "L",
+     "expr": "sly",
+     "arms": "down"
+    },
+    {
+     "c": "cat",
+     "at": [
+      -1.6,
+      7.0,
+      0
+     ],
+     "h": 0.6,
+     "face": "R",
+     "expr": "sly",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.3,
+     "CATS"
+    ]
+   ],
+   "sfx": [
+    [
+     0.3,
+     "cat_hiss",
+     0.7
+    ],
+    [
+     1.2,
+     "cat_meow",
+     0.4
+    ]
+   ],
+   "music": "tension",
+   "id": "C3_S051",
+   "start": 42.615,
+   "dur": 5.227,
+   "chapter": 3,
+   "line_start": 42.615,
+   "src": "S051"
+  },
+  {
+   "line": "L43",
+   "kind": "3d",
+   "set": "court",
+   "variant": "church",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.4,
+      -2.0,
+      1.5
+     ],
+     "tgt": [
+      -1.374,
+      2.48,
+      0.389
+     ],
+     "lens": 56.0
+    },
+    "orbit": -8,
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "lawyer",
+     "at": [
+      -1.4,
+      2.6,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "both_up"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     1.0,
+     "crowd_laugh",
+     0.3
+    ]
+   ],
+   "music": "playful",
+   "id": "C3_S052",
+   "start": 47.842,
+   "dur": 5.864,
+   "chapter": 3,
+   "line_start": 47.842,
+   "src": "S052"
+  },
+  {
+   "line": "L44",
+   "kind": "3d",
+   "set": "court",
+   "variant": "church",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -9.5,
+      3.2
+     ],
+     "tgt": [
+      -0.669,
+      5.52,
+      -0.492
+     ],
+     "lens": 38.5
+    },
+    "to": {
+     "pos": [
+      1.275,
+      -7.175000000000001,
+      3.02
+     ],
+     "tgt": [
+      -0.679,
+      5.547,
+      -0.231
+     ],
+     "lens": 38.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "bishop",
+     "at": [
+      0,
+      8.0,
+      1.5
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "tired",
+     "arms": "shrug",
+     "cut": [
+      7.15,
+      2.22
+     ]
+    },
+    {
+     "c": "lawyer",
+     "at": [
+      -1.0,
+      2.6,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.6,
+     "crowd_murmur",
+     0.3
+    ]
+   ],
+   "id": "C3_S053",
+   "start": 53.706,
+   "dur": 5.824,
+   "chapter": 3,
+   "line_start": 53.706,
+   "src": "S053"
+  },
+  {
+   "line": "H4",
+   "kind": "3d",
+   "set": "land",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      0.5,
+      -3,
+      1.2
+     ],
+     "tgt": [
+      -0.194,
+      5.884,
+      -0.158
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.45,
+      -2.1,
+      1.21
+     ],
+     "tgt": [
+      -0.203,
+      5.878,
+      -0.113
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "magistrate",
+     "at": [
+      0,
+      3.4,
+      0
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "angry",
+     "arms": "point_r"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ],
+    [
+     0,
+     "fire",
+     0.4
+    ]
+   ],
+   "music": "dark",
+   "id": "C4_H",
+   "start": 0.0,
+   "dur": 5.305,
+   "chapter": 4,
+   "line_start": 0.15
+  },
+  {
+   "line": "L47",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      -2.2,
+      -3.2,
+      1.6
+     ],
+     "tgt": [
+      -1.342,
+      1.171,
+      1.494
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      -2.3680000000000003,
+      -2.696,
+      1.54
+     ],
+     "tgt": [
+      -1.521,
+      1.132,
+      1.478
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "rooster",
+     "at": [
+      -3.6,
+      1.1,
+      0.3
+     ],
+     "h": 0.7,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down",
+     "cut": [
+      -0.1,
+      0.7
+     ]
+    },
+    {
+     "c": "magistrate",
+     "at": [
+      0,
+      8.0,
+      1.5
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "angry",
+     "arms": "point_l",
+     "cut": [
+      7.15,
+      2.22
+     ]
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.2,
+     "rooster",
+     0.6
+    ],
+    [
+     1.5,
+     "gavel",
+     0.5
+    ]
+   ],
+   "id": "C4_S058",
+   "start": 5.305,
+   "dur": 6.821,
+   "chapter": 4,
+   "line_start": 5.305,
+   "src": "S058",
+   "music": "dark"
+  },
+  {
+   "line": "L48",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      -2.2,
+      -3.2,
+      1.6
+     ],
+     "tgt": [
+      -3.521,
+      0.857,
+      0.317
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      -2.5500000000000003,
+      -2.1500000000000004,
+      1.475
+     ],
+     "tgt": [
+      -3.528,
+      0.877,
+      0.452
+     ],
+     "lens": 60.38
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "rooster",
+     "at": [
+      -3.6,
+      1.1,
+      0.3
+     ],
+     "h": 0.7,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down",
+     "cut": [
+      -0.1,
+      0.7
+     ]
+    }
+   ],
+   "part": null,
+   "props": [
+    [
+     "egg",
+     [
+      -3.15,
+      0.85,
+      0.78
+     ],
+     0.16,
+     {
+      "pop": 0.3
+     }
+    ]
+   ],
+   "pop": [
+    [
+     0.45,
+     "LAYING AN EGG"
+    ]
+   ],
+   "sfx": [
+    [
+     0.3,
+     "pop",
+     0.7
+    ],
+    [
+     0.5,
+     "crowd_gasp",
+     0.5
+    ]
+   ],
+   "id": "C4_S059",
+   "start": 12.126,
+   "dur": 2.024,
+   "chapter": 4,
+   "line_start": 12.126,
+   "src": "S059"
+  },
+  {
+   "line": "L49",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.498,
+      0.377
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.501,
+      0.408
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "shrug",
+     "talk": true
+    }
+   ],
+   "part": [
+    0,
+    0.45
+   ],
+   "id": "C4_S060",
+   "start": 14.15,
+   "dur": 2.323,
+   "chapter": 4,
+   "line_start": 14.15,
+   "src": "S060"
+  },
+  {
+   "line": "L49",
+   "kind": "3d",
+   "set": "land",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      0.5,
+      -3,
+      1.2
+     ],
+     "tgt": [
+      1.993,
+      5.777,
+      -0.214
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.44,
+      -1.92,
+      1.212
+     ],
+     "tgt": [
+      2.085,
+      5.719,
+      -0.156
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager0",
+     "at": [
+      -2.2,
+      3.0,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "villager1",
+     "at": [
+      -1.0,
+      4.0,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      1.0,
+      3.0,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "villager3",
+     "at": [
+      2.3,
+      4.0,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    }
+   ],
+   "part": [
+    0.45,
+    1.0
+   ],
+   "sfx": [
+    [
+     0,
+     "crowd_murmur",
+     0.4
+    ]
+   ],
+   "id": "C4_S061",
+   "start": 16.473,
+   "dur": 2.84,
+   "chapter": 4,
+   "line_start": 14.15,
+   "src": "S061"
+  },
+  {
+   "line": "L52",
+   "kind": "3d",
+   "set": "land",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      0.5,
+      -3,
+      1.2
+     ],
+     "tgt": [
+      0.742,
+      5.913,
+      -0.127
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.5,
+      -3,
+      2.0
+     ],
+     "tgt": [
+      0.737,
+      5.752,
+      -0.254
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager0",
+     "at": [
+      -3.0,
+      4.0,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down",
+     "glow": true
+    },
+    {
+     "c": "villager1",
+     "at": [
+      -1.8,
+      4.6,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down",
+     "glow": true
+    },
+    {
+     "c": "villager2",
+     "at": [
+      -0.6,
+      5.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down",
+     "glow": true
+    },
+    {
+     "c": "villager3",
+     "at": [
+      0.7,
+      4.0,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "surprised",
+     "arms": "down",
+     "glow": true
+    },
+    {
+     "c": "villager4",
+     "at": [
+      1.9,
+      4.6,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "surprised",
+     "arms": "down",
+     "glow": true
+    },
+    {
+     "c": "villager5",
+     "at": [
+      3.1,
+      5.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "surprised",
+     "arms": "down",
+     "glow": true
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "fire",
+     0.6
+    ],
+    [
+     0,
+     "crowd_murmur",
+     0.4
+    ]
+   ],
+   "id": "C4_S064",
+   "start": 26.225,
+   "dur": 5.225,
+   "chapter": 4,
+   "line_start": 26.225,
+   "src": "S064"
+  },
+  {
+   "line": "L53",
+   "kind": "3d",
+   "set": "land",
+   "variant": "barley",
+   "cam": {
+    "from": {
+     "pos": [
+      3,
+      -2,
+      1.2
+     ],
+     "tgt": [
+      3.661,
+      5.928,
+      -1.052
+     ],
+     "lens": 49.0
+    },
+    "to": {
+     "pos": [
+      3.3,
+      -0.8,
+      1.1099999999999999
+     ],
+     "tgt": [
+      3.486,
+      5.885,
+      -1.05
+     ],
+     "lens": 49.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "rooster",
+     "at": [
+      3.4,
+      2.8,
+      0
+     ],
+     "h": 0.6,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "down"
+    },
+    {
+     "c": "rooster",
+     "at": [
+      5.0,
+      3.4,
+      0
+     ],
+     "h": 0.55,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down",
+     "hen": true
+    }
+   ],
+   "part": null,
+   "tag": "SCIENCE TODAY",
+   "sfx": [
+    [
+     0.5,
+     "rooster",
+     0.4
+    ],
+    [
+     0,
+     "birds",
+     0.3
+    ]
+   ],
+   "music": "curious",
+   "id": "C4_S065",
+   "start": 31.45,
+   "dur": 7.904,
+   "chapter": 4,
+   "line_start": 31.45,
+   "src": "S065"
+  },
+  {
+   "line": "L54",
+   "kind": "3d",
+   "set": "land",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      0.5,
+      -3,
+      1.2
+     ],
+     "tgt": [
+      -0.194,
+      5.884,
+      -0.158
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.425,
+      -1.6500000000000001,
+      1.2149999999999999
+     ],
+     "tgt": [
+      -0.208,
+      5.873,
+      -0.094
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "magistrate",
+     "at": [
+      0,
+      3.4,
+      0
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "angry",
+     "arms": "point_r"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "fire",
+     0.4
+    ]
+   ],
+   "music": "dark",
+   "id": "C4_S066",
+   "start": 39.354,
+   "dur": 5.828,
+   "chapter": 4,
+   "line_start": 39.354,
+   "src": "S066"
+  },
+  {
+   "line": "H5",
+   "kind": "3d",
+   "set": "court",
+   "variant": "church",
+   "cam": {
+    "from": {
+     "pos": [
+      0.3,
+      4.6,
+      2.5
+     ],
+     "tgt": [
+      0.003,
+      7.965,
+      2.011
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.27,
+      4.94,
+      2.495
+     ],
+     "tgt": [
+      0.003,
+      7.967,
+      2.04
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "bishop",
+     "at": [
+      0,
+      8.0,
+      1.5
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "smug",
+     "arms": "point_l",
+     "cut": [
+      7.15,
+      2.22
+     ]
+    }
+   ],
+   "part": null,
+   "props": [
+    [
+     "sack",
+     [
+      0.9,
+      7.0,
+      2.3
+     ],
+     0.35,
+     {
+      "pop": 0.2
+     }
+    ]
+   ],
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ]
+   ],
+   "id": "C5_H",
+   "start": 0.0,
+   "dur": 6.225,
+   "chapter": 5,
+   "line_start": 0.15,
+   "music": "mystery"
+  },
+  {
+   "line": "L57",
+   "kind": "3d",
+   "set": "land",
+   "variant": "vineyard",
+   "cam": {
+    "from": {
+     "pos": [
+      3.0,
+      1.6,
+      1.3
+     ],
+     "tgt": [
+      2.698,
+      3.461,
+      0.547
+     ],
+     "lens": 59.5
+    },
+    "to": {
+     "pos": [
+      3.0,
+      2.0,
+      1.23
+     ],
+     "tgt": [
+      2.699,
+      3.457,
+      0.578
+     ],
+     "lens": 59.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "weevil",
+     "at": [
+      2.7,
+      3.45,
+      0.55
+     ],
+     "h": 0.32,
+     "face": "R",
+     "expr": "smug",
+     "arms": "down"
+    },
+    {
+     "c": "weevil",
+     "at": [
+      3.3,
+      3.5,
+      0.7
+     ],
+     "h": 0.28,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "tag": "1545",
+   "sfx": [
+    [
+     0.3,
+     "chewing",
+     0.6
+    ]
+   ],
+   "id": "C5_S070",
+   "start": 6.225,
+   "dur": 6.293,
+   "chapter": 5,
+   "line_start": 6.225,
+   "src": "S070",
+   "music": "mystery"
+  },
+  {
+   "line": "L58",
+   "kind": "3d",
+   "set": "court",
+   "variant": "church",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -9.5,
+      3.2
+     ],
+     "tgt": [
+      -1.386,
+      5.301,
+      -0.866
+     ],
+     "lens": 38.5
+    },
+    "to": {
+     "pos": [
+      1.275,
+      -7.175000000000001,
+      3.02
+     ],
+     "tgt": [
+      -1.416,
+      5.306,
+      -0.618
+     ],
+     "lens": 38.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "bishop",
+     "at": [
+      0,
+      8.0,
+      1.5
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down",
+     "cut": [
+      7.15,
+      2.22
+     ]
+    },
+    {
+     "c": "weevil",
+     "at": [
+      -3.6,
+      1.1,
+      1.22
+     ],
+     "h": 0.22,
+     "face": "R",
+     "expr": "smug",
+     "arms": "down"
+    },
+    {
+     "c": "lawyer",
+     "at": [
+      -1.8,
+      2.4,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "smug",
+     "arms": "point_r"
+    },
+    {
+     "c": "lawyer",
+     "at": [
+      -0.8,
+      2.8,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.75,
+     "TWO LAWYERS"
+    ]
+   ],
+   "id": "C5_S071",
+   "start": 12.518,
+   "dur": 5.269,
+   "chapter": 5,
+   "line_start": 12.518,
+   "src": "S071"
+  },
+  {
+   "line": "L60",
+   "kind": "3d",
+   "set": "court",
+   "variant": "church",
+   "cam": {
+    "from": {
+     "pos": [
+      0.3,
+      4.6,
+      2.5
+     ],
+     "tgt": [
+      0.003,
+      7.965,
+      2.011
+     ],
+     "lens": 52.5
+    },
+    "orbit": 6,
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "bishop",
+     "at": [
+      0,
+      8.0,
+      1.5
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "happy",
+     "arms": "both_up",
+     "cut": [
+      7.15,
+      2.22
+     ]
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "church_bell",
+     0.3
+    ]
+   ],
+   "id": "C5_S073",
+   "start": 17.787,
+   "dur": 8.527,
+   "chapter": 5,
+   "line_start": 17.787,
+   "src": "S073"
+  },
+  {
+   "line": "L61",
+   "kind": "3d",
+   "set": "court",
+   "variant": "church",
+   "cam": {
+    "from": {
+     "pos": [
+      0.3,
+      4.6,
+      2.5
+     ],
+     "tgt": [
+      0.003,
+      7.965,
+      2.011
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.255,
+      5.109999999999999,
+      2.4925
+     ],
+     "tgt": [
+      0.003,
+      7.971,
+      2.077
+     ],
+     "lens": 57.75
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "bishop",
+     "at": [
+      0,
+      8.0,
+      1.5
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "smug",
+     "arms": "point_l",
+     "cut": [
+      7.15,
+      2.22
+     ]
+    }
+   ],
+   "part": null,
+   "props": [
+    [
+     "sack",
+     [
+      0.9,
+      7.0,
+      2.3
+     ],
+     0.35,
+     {
+      "pop": 0.2
+     }
+    ]
+   ],
+   "pop": [
+    [
+     0.45,
+     "PAY YOUR TITHES"
+    ]
+   ],
+   "sfx": [
+    [
+     0.4,
+     "coins",
+     0.7
+    ]
+   ],
+   "id": "C5_S074",
+   "start": 26.314,
+   "dur": 2.245,
+   "chapter": 5,
+   "line_start": 26.314,
+   "src": "S074"
+  },
+  {
+   "line": "L62",
+   "kind": "3d",
+   "set": "land",
+   "variant": "vineyard",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -3.2,
+      1.7
+     ],
+     "tgt": [
+      -1.48,
+      3.385,
+      -0.674
+     ],
+     "lens": 49.0
+    },
+    "to": {
+     "pos": [
+      0.72,
+      -2.3360000000000003,
+      1.6159999999999999
+     ],
+     "tgt": [
+      -1.745,
+      3.147,
+      -0.655
+     ],
+     "lens": 49.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "monk",
+     "at": [
+      0.4,
+      1.0,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "happy",
+     "arms": "both_up"
+    },
+    {
+     "c": "villager1",
+     "at": [
+      -0.6,
+      0.6,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "weevil",
+     "at": [
+      2.4,
+      3.2,
+      0.5
+     ],
+     "h": 0.5,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "walk": {
+      "to": [
+       4.5,
+       3.2,
+       0.6
+      ]
+     }
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "church_bell",
+     0.4
+    ],
+    [
+     1.0,
+     "whoosh_soft",
+     0.4
+    ]
+   ],
+   "id": "C5_S075",
+   "start": 28.559,
+   "dur": 3.824,
+   "chapter": 5,
+   "line_start": 28.559,
+   "src": "S075"
+  },
+  {
+   "line": "L63",
+   "kind": "3d",
+   "set": "land",
+   "variant": "vineyard",
+   "cam": {
+    "from": {
+     "pos": [
+      3.0,
+      1.6,
+      1.3
+     ],
+     "tgt": [
+      2.999,
+      3.472,
+      0.514
+     ],
+     "lens": 59.5
+    },
+    "to": {
+     "pos": [
+      3.0,
+      1.9000000000000001,
+      1.2475
+     ],
+     "tgt": [
+      2.999,
+      3.473,
+      0.537
+     ],
+     "lens": 59.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "weevil",
+     "at": [
+      2.4,
+      3.45,
+      0.45
+     ],
+     "h": 0.28,
+     "face": "L",
+     "expr": "smug",
+     "arms": "down"
+    },
+    {
+     "c": "weevil",
+     "at": [
+      2.6999999999999997,
+      3.5,
+      0.53
+     ],
+     "h": 0.28,
+     "face": "R",
+     "expr": "smug",
+     "arms": "down"
+    },
+    {
+     "c": "weevil",
+     "at": [
+      3.0,
+      3.45,
+      0.61
+     ],
+     "h": 0.28,
+     "face": "L",
+     "expr": "smug",
+     "arms": "down"
+    },
+    {
+     "c": "weevil",
+     "at": [
+      3.3,
+      3.5,
+      0.45
+     ],
+     "h": 0.28,
+     "face": "R",
+     "expr": "smug",
+     "arms": "down"
+    },
+    {
+     "c": "weevil",
+     "at": [
+      3.5999999999999996,
+      3.45,
+      0.53
+     ],
+     "h": 0.28,
+     "face": "L",
+     "expr": "smug",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "tag": "1587",
+   "pop": [
+    [
+     0.3,
+     "THEY'RE BACK"
+    ]
+   ],
+   "sfx": [
+    [
+     0.3,
+     "insects",
+     0.6
+    ]
+   ],
+   "id": "C5_S076",
+   "start": 32.383,
+   "dur": 6.003,
+   "chapter": 5,
+   "line_start": 32.383,
+   "src": "S076"
+  },
+  {
+   "line": "L65",
+   "kind": "3d",
+   "set": "square",
+   "variant": "alpine",
+   "cam": {
+    "from": {
+     "pos": [
+      0,
+      -12,
+      3.0
+     ],
+     "tgt": [
+      -0.308,
+      9.371,
+      -2.673
+     ],
+     "lens": 38.5
+    },
+    "to": {
+     "pos": [
+      0.15,
+      -8.7,
+      3.3
+     ],
+     "tgt": [
+      -0.443,
+      9.458,
+      -1.522
+     ],
+     "lens": 38.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager0",
+     "at": [
+      -3,
+      1,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "villager1",
+     "at": [
+      -1.8,
+      2.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "happy",
+     "arms": "raise"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      -0.5,
+      0.6,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "villager3",
+     "at": [
+      4.5,
+      1.6,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise"
+    },
+    {
+     "c": "villager4",
+     "at": [
+      6,
+      0.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "villager5",
+     "at": [
+      3.2,
+      2.6,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise"
+    },
+    {
+     "c": "crier",
+     "at": [
+      2,
+      5,
+      1.2
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "present",
+     "hold_r": "scroll"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "church_bell",
+     0.5
+    ],
+    [
+     1.5,
+     "crowd_murmur",
+     0.4
+    ]
+   ],
+   "id": "C5_S078",
+   "start": 38.386,
+   "dur": 7.886,
+   "chapter": 5,
+   "line_start": 38.386,
+   "src": "S078"
+  },
+  {
+   "line": "L67",
+   "kind": "3d",
+   "set": "court",
+   "variant": "church",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.4,
+      -2.0,
+      1.5
+     ],
+     "tgt": [
+      -1.505,
+      2.425,
+      0.296
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      -0.55,
+      -1.31,
+      1.455
+     ],
+     "tgt": [
+      -1.504,
+      2.426,
+      0.355
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "lawyer",
+     "at": [
+      -1.4,
+      2.6,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "angry",
+     "arms": "point_r",
+     "hold_l": "scroll"
+    },
+    {
+     "c": "weevil",
+     "at": [
+      -2.3,
+      2.2,
+      0.0
+     ],
+     "h": 0.25,
+     "face": "R",
+     "expr": "angry",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.6,
+     "TOO POOR!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.4,
+     "thud",
+     0.4
+    ]
+   ],
+   "id": "C5_S080",
+   "start": 46.272,
+   "dur": 6.165,
+   "chapter": 5,
+   "line_start": 46.272,
+   "src": "S080"
+  },
+  {
+   "line": "L69",
+   "kind": "3d",
+   "set": "court",
+   "variant": "church",
+   "cam": {
+    "from": {
+     "pos": [
+      0.3,
+      4.6,
+      2.5
+     ],
+     "tgt": [
+      0.003,
+      7.965,
+      2.011
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.255,
+      5.109999999999999,
+      2.4925
+     ],
+     "tgt": [
+      0.003,
+      7.971,
+      2.077
+     ],
+     "lens": 57.75
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "bishop",
+     "at": [
+      0,
+      8.0,
+      1.5
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down",
+     "cut": [
+      7.15,
+      2.22
+     ]
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.65,
+     "NOBODY KNOWS"
+    ]
+   ],
+   "sfx": [
+    [
+     0.3,
+     "drum_hit",
+     0.5
+    ]
+   ],
+   "id": "C5_S082",
+   "start": 52.437,
+   "dur": 2.917,
+   "chapter": 5,
+   "line_start": 52.437,
+   "src": "S082"
+  },
+  {
+   "line": "H6",
+   "kind": "3d",
+   "set": "land",
+   "variant": "vineyard",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -3.2,
+      1.7
+     ],
+     "tgt": [
+      -0.059,
+      3.717,
+      -0.546
+     ],
+     "lens": 49.0
+    },
+    "to": {
+     "pos": [
+      0.7,
+      -2.48,
+      1.63
+     ],
+     "tgt": [
+      -0.182,
+      3.661,
+      -0.54
+     ],
+     "lens": 49.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "bishop",
+     "at": [
+      0.2,
+      1.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "happy",
+     "arms": "both_up"
+    },
+    {
+     "c": "weevil",
+     "at": [
+      2.4,
+      3.2,
+      0.5
+     ],
+     "h": 0.5,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "walk": {
+      "to": [
+       4.6,
+       3.3,
+       0.6
+      ]
+     }
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ]
+   ],
+   "id": "C6_H",
+   "start": 0.0,
+   "dur": 6.28,
+   "chapter": 6,
+   "line_start": 0.15,
+   "music": "mystery"
+  },
+  {
+   "line": "L73",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.491,
+      0.428
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.694,
+      0.9784
+     ],
+     "tgt": [
+      0.6,
+      0.493,
+      0.452
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "smug",
+     "arms": "raise",
+     "talk": true,
+     "hold_r": "coin"
+    }
+   ],
+   "part": null,
+   "tag": "IDEA 2: MONEY",
+   "sfx": [
+    [
+     0.3,
+     "coin_single",
+     0.6
+    ]
+   ],
+   "id": "C6_S088",
+   "start": 6.28,
+   "dur": 2.586,
+   "chapter": 6,
+   "line_start": 6.28,
+   "src": "S088",
+   "music": "mystery"
+  },
+  {
+   "line": "L77",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.498,
+      0.377
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.501,
+      0.408
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "point_r",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.2,
+     "ding",
+     0.4
+    ]
+   ],
+   "id": "C6_S092",
+   "start": 23.225,
+   "dur": 3.075,
+   "chapter": 6,
+   "line_start": 23.225,
+   "src": "S092"
+  },
+  {
+   "line": "L78",
+   "kind": "3d",
+   "set": "land",
+   "variant": "vineyard",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -3.2,
+      1.7
+     ],
+     "tgt": [
+      -0.059,
+      3.717,
+      -0.546
+     ],
+     "lens": 49.0
+    },
+    "to": {
+     "pos": [
+      0.72,
+      -2.3360000000000003,
+      1.6159999999999999
+     ],
+     "tgt": [
+      -0.212,
+      3.645,
+      -0.541
+     ],
+     "lens": 49.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "bishop",
+     "at": [
+      0.2,
+      1.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "happy",
+     "arms": "both_up"
+    },
+    {
+     "c": "weevil",
+     "at": [
+      2.4,
+      3.2,
+      0.5
+     ],
+     "h": 0.5,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "walk": {
+      "to": [
+       4.6,
+       3.3,
+       0.6
+      ]
+     }
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.75,
+     "IT WORKED!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.6,
+     "sparkle",
+     0.5
+    ]
+   ],
+   "id": "C6_S093",
+   "start": 26.3,
+   "dur": 4.284,
+   "chapter": 6,
+   "line_start": 26.3,
+   "src": "S093"
+  },
+  {
+   "line": "L79",
+   "kind": "3d",
+   "set": "land",
+   "variant": "vineyard",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -3.2,
+      1.7
+     ],
+     "tgt": [
+      -1.941,
+      3.236,
+      -0.635
+     ],
+     "lens": 49.0
+    },
+    "to": {
+     "pos": [
+      0.72,
+      -2.3360000000000003,
+      1.6159999999999999
+     ],
+     "tgt": [
+      -2.195,
+      2.948,
+      -0.593
+     ],
+     "lens": 49.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "bishop",
+     "at": [
+      0.2,
+      1.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "angry",
+     "arms": "point_r"
+    },
+    {
+     "c": "farmer",
+     "at": [
+      -0.9,
+      0.6,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "weevil",
+     "at": [
+      2.4,
+      3.2,
+      0.5
+     ],
+     "h": 0.5,
+     "face": "L",
+     "expr": "smug",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.65,
+     "YOUR SINS!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.4,
+     "drum_hit",
+     0.4
+    ]
+   ],
+   "id": "C6_S094",
+   "start": 30.584,
+   "dur": 5.053,
+   "chapter": 6,
+   "line_start": 30.584,
+   "src": "S094"
+  },
+  {
+   "line": "L80",
+   "kind": "3d",
+   "set": "court",
+   "variant": "church",
+   "cam": {
+    "from": {
+     "pos": [
+      1.275,
+      -7.175000000000001,
+      3.02
+     ],
+     "tgt": [
+      3.473,
+      5.147,
+      -1.406
+     ],
+     "lens": 38.5
+    },
+    "to": {
+     "pos": [
+      1.5,
+      -9.5,
+      3.2
+     ],
+     "tgt": [
+      3.304,
+      5.255,
+      -1.592
+     ],
+     "lens": 38.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "bishop",
+     "at": [
+      0,
+      8.0,
+      1.5
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "happy",
+     "arms": "both_up",
+     "cut": [
+      7.15,
+      2.22
+     ]
+    },
+    {
+     "c": "villager0",
+     "at": [
+      2.5,
+      1.5,
+      0.0
+     ],
+     "h": 1.4,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "present",
+     "hold_r": "sack"
+    },
+    {
+     "c": "villager1",
+     "at": [
+      3.7,
+      1.5,
+      0.0
+     ],
+     "h": 1.4,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "present",
+     "hold_r": "sack"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      4.9,
+      1.5,
+      0.0
+     ],
+     "h": 1.4,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "present",
+     "hold_r": "sack"
+    },
+    {
+     "c": "villager3",
+     "at": [
+      2.5,
+      -0.5,
+      0.0
+     ],
+     "h": 1.4,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "present",
+     "hold_r": "sack"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "coins",
+     0.5
+    ],
+    [
+     1.0,
+     "coins",
+     0.4
+    ]
+   ],
+   "id": "C6_S095",
+   "start": 35.637,
+   "dur": 4.356,
+   "chapter": 6,
+   "line_start": 35.637,
+   "src": "S095"
+  },
+  {
+   "line": "L81",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.491,
+      0.428
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.694,
+      0.9784
+     ],
+     "tgt": [
+      0.6,
+      0.493,
+      0.452
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "chin",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.75,
+     "BELIEF"
+    ]
+   ],
+   "music": "story",
+   "id": "C6_S096",
+   "start": 39.993,
+   "dur": 5.719,
+   "chapter": 6,
+   "line_start": 39.993,
+   "src": "S096"
+  },
+  {
+   "line": "H1",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      0.3,
+      4.6,
+      2.5
+     ],
+     "tgt": [
+      0.003,
+      7.965,
+      2.011
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.27,
+      4.94,
+      2.495
+     ],
+     "tgt": [
+      0.003,
+      7.967,
+      2.04
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "judge",
+     "at": [
+      0,
+      8.0,
+      1.5
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "angry",
+     "arms": "point_l",
+     "cut": [
+      7.15,
+      2.22
+     ]
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ]
+   ],
+   "id": "C1_H",
+   "start": 0.0,
+   "dur": 5.03,
+   "chapter": 1,
+   "line_start": 0.15,
+   "music": "mystery"
+  },
+  {
+   "line": "L13",
+   "kind": "3d",
+   "set": "square",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      -3,
+      -11,
+      3.2
+     ],
+     "tgt": [
+      0.424,
+      6.538,
+      -2.34
+     ],
+     "lens": 45.5
+    },
+    "to": {
+     "pos": [
+      -1.8,
+      -11.0,
+      3.2
+     ],
+     "tgt": [
+      -0.132,
+      6.775,
+      -2.39
+     ],
+     "lens": 45.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "mother",
+     "at": [
+      -1.5,
+      0.5,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "sad",
+     "arms": "down"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      0.2,
+      1.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "pig",
+     "at": [
+      5.5,
+      2.5,
+      0
+     ],
+     "h": 0.7,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "wind",
+     0.3
+    ]
+   ],
+   "id": "C1_S017",
+   "start": 5.03,
+   "dur": 5.035,
+   "chapter": 1,
+   "line_start": 5.03,
+   "src": "S017",
+   "music": "mystery"
+  },
+  {
+   "line": "L14",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.498,
+      0.377
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.285,
+      0.975
+     ],
+     "tgt": [
+      0.6,
+      0.501,
+      0.403
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "sad",
+     "arms": "shrug",
+     "talk": true
+    }
+   ],
+   "part": [
+    0,
+    0.48
+   ],
+   "id": "C1_S018",
+   "start": 10.065,
+   "dur": 3.003,
+   "chapter": 1,
+   "line_start": 10.065,
+   "src": "S018"
+  },
+  {
+   "line": "L14",
+   "kind": "3d",
+   "set": "square",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      4,
+      -4,
+      2.0
+     ],
+     "tgt": [
+      6.212,
+      10.006,
+      -1.215
+     ],
+     "lens": 49.0
+    },
+    "to": {
+     "pos": [
+      3.85,
+      -1.8250000000000002,
+      2.06
+     ],
+     "tgt": [
+      6.47,
+      9.804,
+      -1.202
+     ],
+     "lens": 49.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "crier",
+     "at": [
+      2.5,
+      6.5,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "angry",
+     "arms": "point_r"
+    },
+    {
+     "c": "villager4",
+     "at": [
+      5.5,
+      5.5,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "angry",
+     "arms": "raise"
+    }
+   ],
+   "part": [
+    0.48,
+    1.0
+   ],
+   "pop": [
+    [
+     0.75,
+     "MURDER"
+    ]
+   ],
+   "sfx": [
+    [
+     0.55,
+     "drum_hit",
+     0.6
+    ]
+   ],
+   "id": "C1_S019",
+   "start": 13.068,
+   "dur": 3.253,
+   "chapter": 1,
+   "line_start": 10.065,
+   "src": "S019"
+  },
+  {
+   "line": "L15",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -9.5,
+      3.2
+     ],
+     "tgt": [
+      -1.883,
+      5.222,
+      -0.77
+     ],
+     "lens": 38.5
+    },
+    "to": {
+     "pos": [
+      1.2,
+      -6.4,
+      2.96
+     ],
+     "tgt": [
+      -1.928,
+      5.212,
+      -0.432
+     ],
+     "lens": 38.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "judge",
+     "at": [
+      0,
+      8.0,
+      1.5
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down",
+     "cut": [
+      7.15,
+      2.22
+     ]
+    },
+    {
+     "c": "pig",
+     "at": [
+      -3.6,
+      1.1,
+      0.3
+     ],
+     "h": 0.85,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "cut": [
+      -0.1,
+      0.75
+     ]
+    },
+    {
+     "c": "crier",
+     "at": [
+      -1.5,
+      3.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down",
+     "hold": "scroll"
+    }
+   ],
+   "part": null,
+   "tag": "THE TOWN'S CRIMINAL COURT",
+   "sfx": [
+    [
+     0,
+     "crowd_murmur",
+     0.3
+    ]
+   ],
+   "id": "C1_S020",
+   "start": 16.321,
+   "dur": 6.08,
+   "chapter": 1,
+   "line_start": 16.321,
+   "src": "S020"
+  },
+  {
+   "line": "L16",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      0.3,
+      4.6,
+      2.5
+     ],
+     "tgt": [
+      0.003,
+      7.965,
+      2.011
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.264,
+      5.008,
+      2.494
+     ],
+     "tgt": [
+      0.003,
+      7.97,
+      2.065
+     ],
+     "lens": 56.7
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "judge",
+     "at": [
+      0,
+      8.0,
+      1.5
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "angry",
+     "arms": "point_l",
+     "cut": [
+      7.15,
+      2.22
+     ]
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.55,
+     "AN EYE FOR AN EYE"
+    ]
+   ],
+   "sfx": [
+    [
+     0.5,
+     "drum_hit",
+     0.7
+    ],
+    [
+     0.55,
+     "gavel",
+     0.6
+    ]
+   ],
+   "id": "C1_S021",
+   "start": 22.401,
+   "dur": 3.256,
+   "chapter": 1,
+   "line_start": 22.401,
+   "src": "S021"
+  },
+  {
+   "line": "L18",
+   "kind": "3d",
+   "set": "square",
+   "variant": "dusk",
+   "cam": {
+    "from": {
+     "pos": [
+      -3,
+      -11,
+      3.2
+     ],
+     "tgt": [
+      -1.501,
+      6.833,
+      -2.255
+     ],
+     "lens": 45.5
+    },
+    "to": {
+     "pos": [
+      -4.5,
+      -11.0,
+      3.2
+     ],
+     "tgt": [
+      -0.921,
+      6.552,
+      -2.197
+     ],
+     "lens": 45.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager0",
+     "at": [
+      -3.5,
+      1.5,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "villager1",
+     "at": [
+      -2.4,
+      0.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      -1.0,
+      1.8,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "villager3",
+     "at": [
+      5.8,
+      1.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "villager4",
+     "at": [
+      7.0,
+      0.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "pig",
+     "at": [
+      0.5,
+      3.5,
+      0
+     ],
+     "h": 0.85,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "outfit": "clothes",
+     "walk": {
+      "to": [
+       2.0,
+       3.0,
+       0
+      ]
+     }
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "crowd_murmur",
+     0.5
+    ],
+    [
+     0,
+     "footsteps",
+     0.4
+    ]
+   ],
+   "id": "C1_S023",
+   "start": 25.657,
+   "dur": 6.781,
+   "chapter": 1,
+   "line_start": 25.657,
+   "src": "S023"
+  },
+  {
+   "line": "L24",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.491,
+      0.428
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.6175000000000002,
+      0.973
+     ],
+     "tgt": [
+      0.6,
+      0.494,
+      0.459
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "both_up",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "boing",
+     0.4
+    ]
+   ],
+   "id": "C1_S029",
+   "start": 32.438,
+   "dur": 4.33,
+   "chapter": 1,
+   "line_start": 32.438,
+   "src": "S029"
+  },
+  {
+   "line": "L25",
+   "kind": "3d",
+   "set": "square",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      -3,
+      -11,
+      3.2
+     ],
+     "tgt": [
+      2.275,
+      6.005,
+      -2.544
+     ],
+     "lens": 45.5
+    },
+    "orbit": -10,
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pig",
+     "at": [
+      -2,
+      1,
+      0
+     ],
+     "h": 0.7,
+     "face": "R",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "pig",
+     "at": [
+      3.5,
+      2,
+      0
+     ],
+     "h": 0.65,
+     "face": "L",
+     "expr": "smug",
+     "arms": "down"
+    },
+    {
+     "c": "pig",
+     "at": [
+      6.5,
+      -0.5,
+      0
+     ],
+     "h": 0.7,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "down"
+    },
+    {
+     "c": "villager5",
+     "at": [
+      0.8,
+      0,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "pig_oink",
+     0.6
+    ],
+    [
+     1.5,
+     "pig_squeal",
+     0.4
+    ]
+   ],
+   "id": "C1_S030",
+   "start": 36.768,
+   "dur": 7.053,
+   "chapter": 1,
+   "line_start": 36.768,
+   "src": "S030"
+  }
+ ]
+}

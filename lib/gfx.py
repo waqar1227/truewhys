@@ -411,6 +411,21 @@ def end_screen(W, H, t, d):
     paste_center(f, sb, cx, cy + r + 40 * s, 1.0, min(1, max(0, (t - 0.8) / 0.4)))
     return f, (cx, cy, r)
 
+def short_end_bg(W, H, t, d):
+    """Last seconds of every Short: wordmark, 'Follow for more true whys' (Wy is drawn on top by the compositor)."""
+    s = W / 1080
+    f = brand_bg(W, H).copy()
+    f.alpha_composite(rays(W, H, t, 20))
+    k = back_out(min(1, t / 0.5))
+    wm = text_img("TrueWhys", font("lilita", int(170 * s)), C["cream"], stroke=int(12 * s))
+    paste_center(f, wm, W / 2, H * 0.12, k)
+    for i, (txt, col) in enumerate((("FOLLOW FOR MORE", C["cream"]), ("TRUE WHYS", C["yellow"]))):
+        kk = back_out(min(1, max(0, (t - 0.25 - i * 0.15) / 0.4)))
+        im = text_img(txt, font("lilita", int(118 * s)), col, stroke=int(10 * s))
+        paste_center(f, im, W / 2, H * (0.23 + i * 0.075), max(0.01, kk))
+    return f
+
+
 # ------------------------------------------------------------------ overlays on 3D shots
 
 def pop_word(f, text, t, tt, d_left, s):
@@ -436,15 +451,16 @@ def tag(f, text, t, d, s):
     pd.ellipse([pad * 0.6, h / 2 - 12 * s, pad * 0.6 + 24 * s, h / 2 + 12 * s], fill=hexa(C["coral"]), outline=hexa(C["ink"]), width=max(1, int(3 * s)))
     pill.alpha_composite(tx, (pad + int(30 * s), int(2 * s)))
     x = int(70 * s - (1 - k) * (w + 100 * s))
-    f.alpha_composite(pill, (max(-w, x), int(f.height * 0.08)))
+    f.alpha_composite(pill, (max(-w, x), int(f.height * (0.11 if f.height > f.width else 0.08))))
 
 
-def caption(f, words, t, s, keyset=()):
-    """Phrase caption at the bottom with the current word highlighted."""
+def caption(f, words, t, s, keyset=(), vertical=False):
+    """Phrase caption at the bottom with the current word highlighted (vertical: bigger, fewer words, higher up)."""
     chunks, cur = [], []
+    mw, mc = (3, 17) if vertical else (5, 30)
     for w in words:
         cur.append(w)
-        if len(cur) >= 5 or w["w"].endswith((".", ",", "?", "!", ":", "...")) or sum(len(x["w"]) + 1 for x in cur) > 30:
+        if len(cur) >= mw or w["w"].endswith((".", ",", "?", "!", ":", "...")) or sum(len(x["w"]) + 1 for x in cur) > mc:
             chunks.append(cur); cur = []
     if cur:
         chunks.append(cur)
@@ -455,7 +471,7 @@ def caption(f, words, t, s, keyset=()):
             show = c; break
     if not show:
         return
-    fn = font("poppinsx", int(50 * s))
+    fn = font("poppinsx", int((84 if vertical else 50) * s))
     started = [k for k, w in enumerate(show) if w["s"] - 0.03 <= t]
     cur_k = started[-1] if started else -1
     parts = []
@@ -467,7 +483,12 @@ def caption(f, words, t, s, keyset=()):
     gap = int(16 * s)
     tw = sum(p.width for p in parts) + gap * (len(parts) - 1)
     x = f.width / 2 - tw / 2
-    y = f.height * 0.915
+    y = f.height * (0.68 if vertical else 0.915)
+    if tw > f.width * 0.92:  # never run off the edge
+        k0 = f.width * 0.92 / tw
+        parts = [p.resize((max(1, int(p.width * k0)), max(1, int(p.height * k0))), Image.LANCZOS) for p in parts]
+        gap = int(gap * k0); tw = sum(p.width for p in parts) + gap * (len(parts) - 1)
+    x = f.width / 2 - tw / 2
     for k, (p, w) in enumerate(zip(parts, show)):
         active = k == cur_k
         sc = 1.08 if active else 1.0

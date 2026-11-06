@@ -1,0 +1,531 @@
+{
+ "fps": 30,
+ "resolution": [
+  1080,
+  1920
+ ],
+ "style": "T",
+ "episode": "B-001",
+ "short": "C7",
+ "title": "Why the Hangman Got New Gloves",
+ "duration": 27.784,
+ "vertical": true,
+ "shots": [
+  {
+   "line": "H7",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.498,
+      0.377
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.285,
+      0.975
+     ],
+     "tgt": [
+      0.6,
+      0.501,
+      0.403
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "raise",
+     "talk": true,
+     "hold_r": "gloves"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ]
+   ],
+   "id": "C7_H",
+   "start": 0.0,
+   "dur": 4.9,
+   "chapter": 1,
+   "line_start": 0.15,
+   "music": "mystery"
+  },
+  {
+   "line": "L18",
+   "kind": "3d",
+   "set": "square",
+   "variant": "dusk",
+   "cam": {
+    "from": {
+     "pos": [
+      -3,
+      -11,
+      3.2
+     ],
+     "tgt": [
+      -1.501,
+      6.833,
+      -2.255
+     ],
+     "lens": 45.5
+    },
+    "to": {
+     "pos": [
+      -4.5,
+      -11.0,
+      3.2
+     ],
+     "tgt": [
+      -0.921,
+      6.552,
+      -2.197
+     ],
+     "lens": 45.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager0",
+     "at": [
+      -3.5,
+      1.5,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "villager1",
+     "at": [
+      -2.4,
+      0.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      -1.0,
+      1.8,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "villager3",
+     "at": [
+      5.8,
+      1.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "villager4",
+     "at": [
+      7.0,
+      0.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "pig",
+     "at": [
+      0.5,
+      3.5,
+      0
+     ],
+     "h": 0.85,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "outfit": "clothes",
+     "walk": {
+      "to": [
+       2.0,
+       3.0,
+       0
+      ]
+     }
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "crowd_murmur",
+     0.5
+    ],
+    [
+     0,
+     "footsteps",
+     0.4
+    ]
+   ],
+   "id": "C7_S023",
+   "start": 4.9,
+   "dur": 6.781,
+   "chapter": 1,
+   "line_start": 4.9,
+   "src": "S023",
+   "music": "mystery"
+  },
+  {
+   "line": "L19",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      2.4,
+      2.6,
+      1.6
+     ],
+     "tgt": [
+      2.3,
+      4.2,
+      0.9
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      2.38,
+      2.92,
+      1.46
+     ],
+     "tgt": [
+      2.3,
+      4.2,
+      0.9
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": null,
+   "props": [
+    [
+     "coin",
+     [
+      2.1,
+      4.1,
+      0.9
+     ],
+     0.1,
+     {
+      "drop": 0.2
+     }
+    ],
+    [
+     "coin",
+     [
+      2.3,
+      4.2,
+      0.9
+     ],
+     0.1,
+     {
+      "drop": 0.45
+     }
+    ],
+    [
+     "coin",
+     [
+      2.5,
+      4.05,
+      0.9
+     ],
+     0.1,
+     {
+      "drop": 0.7
+     }
+    ]
+   ],
+   "pop": [
+    [
+     0.4,
+     "10 SOUS + 10 DENIERS"
+    ]
+   ],
+   "sfx": [
+    [
+     0.2,
+     "coin_single",
+     0.7
+    ],
+    [
+     0.45,
+     "coin_single",
+     0.7
+    ],
+    [
+     0.7,
+     "coins",
+     0.6
+    ]
+   ],
+   "id": "C7_S024",
+   "start": 11.681,
+   "dur": 3.384,
+   "chapter": 1,
+   "line_start": 11.681,
+   "src": "S024"
+  },
+  {
+   "line": "L20",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      2.4,
+      2.6,
+      1.6
+     ],
+     "tgt": [
+      2.3,
+      4.2,
+      0.9
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      2.37,
+      3.08,
+      1.3900000000000001
+     ],
+     "tgt": [
+      2.3,
+      4.2,
+      0.9
+     ],
+     "lens": 57.75
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": null,
+   "props": [
+    [
+     "gloves",
+     [
+      2.3,
+      4.15,
+      0.95
+     ],
+     0.28,
+     {
+      "pop": 0.1
+     }
+    ]
+   ],
+   "pop": [
+    [
+     0.5,
+     "+ NEW GLOVES"
+    ]
+   ],
+   "sfx": [
+    [
+     0.15,
+     "sparkle",
+     0.7
+    ]
+   ],
+   "id": "C7_S025",
+   "start": 15.065,
+   "dur": 2.172,
+   "chapter": 1,
+   "line_start": 15.065,
+   "src": "S025"
+  },
+  {
+   "line": "L21",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.498,
+      0.377
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.501,
+      0.408
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "raise",
+     "talk": true,
+     "hold_r": "gloves"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.1,
+     "ding",
+     0.5
+    ]
+   ],
+   "id": "C7_S026",
+   "start": 17.237,
+   "dur": 3.2,
+   "chapter": 1,
+   "line_start": 17.237,
+   "src": "S026"
+  },
+  {
+   "line": "L22",
+   "kind": "3d",
+   "set": "square",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      4,
+      -4,
+      2.0
+     ],
+     "tgt": [
+      2.029,
+      10.077,
+      -1.058
+     ],
+     "lens": 49.0
+    },
+    "to": {
+     "pos": [
+      3.9,
+      -2.55,
+      2.04
+     ],
+     "tgt": [
+      1.988,
+      10.027,
+      -1.025
+     ],
+     "lens": 49.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "crier",
+     "at": [
+      2.6,
+      6.0,
+      0
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "smug",
+     "arms": "present",
+     "hold_l": "staff"
+    }
+   ],
+   "part": null,
+   "tag": "OFFICER OF THE LAW",
+   "id": "C7_S027",
+   "start": 20.437,
+   "dur": 4.747,
+   "chapter": 1,
+   "line_start": 20.437,
+   "src": "S027"
+  },
+  {
+   "id": "C7_END",
+   "kind": "end",
+   "line": "O1",
+   "start": 25.184,
+   "line_start": 25.334,
+   "dur": 2.6,
+   "chapter": null,
+   "sfx": [
+    [
+     0,
+     "ding",
+     0.5
+    ]
+   ],
+   "music": null
+  }
+ ]
+}

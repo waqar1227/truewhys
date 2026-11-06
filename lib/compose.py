@@ -283,8 +283,38 @@ def find_plate(plates, sid):
 
 
 # ------------------------------------------------------------------ shot renderer
+def inset_frame(fn, W, H, t, d):
+    """Vertical Shorts: a landscape graphic (map, document, comparison) as a card on the brand background."""
+    iw = int(W * 0.94); ih = int(iw * 9 / 16)
+    card = fn(iw, ih).convert("RGBA")
+    f = gfx.brand_bg(W, H).copy()
+    f.alpha_composite(gfx.rays(W, H, t, 14))
+    k = gfx.back_out(min(1, t / 0.35))
+    m = Image.new("L", card.size, 0)
+    ImageDraw.Draw(m).rounded_rectangle([0, 0, iw - 1, ih - 1], radius=int(W * 0.035), fill=255)
+    card.putalpha(m)
+    sh = Image.new("RGBA", (iw + 80, ih + 80), (0, 0, 0, 0))
+    ImageDraw.Draw(sh).rounded_rectangle([40, 50, iw + 40, ih + 50], radius=int(W * 0.035), fill=(0, 0, 0, 120))
+    sh = sh.filter(ImageFilter.GaussianBlur(18))
+    gfx.paste_center(f, sh, W / 2, H * 0.40, 0.9 + 0.1 * k)
+    gfx.paste_center(f, card, W / 2, H * 0.40, 0.9 + 0.1 * k)
+    return f
+
+
+def short_end(W, H, t, d):
+    f = gfx.short_end_bg(W, H, t, d)
+    a = dict(c="wy", at=[0, 0, 0], h=1, expr="happy", arms="wave", talk=False)
+    im, pv, units = human_frame(a, t, d, None, 1.0)
+    k = gfx.back_out(min(1, t / 0.45))
+    sc = (H * 0.34) / units * (0.6 + 0.4 * k)
+    im = im.resize((max(1, int(im.width * sc)), max(1, int(im.height * sc))), Image.LANCZOS)
+    gfx._safe_paste(f, im, W / 2, H * 0.90 - pv[1] * sc + im.height / 2)
+    return f
+
+
 def render_shot(shot, plates, ep, W, H, lines_t, env_fn):
-    s = W / 1920
+    vert = H > W
+    s = W / 1080 if vert else W / 1920
     n = max(1, int(round(shot["dur"] * FPS)))
     kind = shot["kind"]
     plate = None
@@ -327,12 +357,13 @@ def render_shot(shot, plates, ep, W, H, lines_t, env_fn):
             fr = gfx.chapter_card(W, H, t, d, shot["num"], shot["text"])
         elif kind == "title":
             fr = gfx.title_card(W, H, t, d, shot["text"], bg_title)
-        elif kind == "map":
-            fr = gfx.map_frame(W, H, t, d, shot.get("pins", []), shot.get("villages", False))
-        elif kind == "split":
-            fr = gfx.split_frame(W, H, t, d, shot["side"], shot["items"], shot["heading"])
-        elif kind == "doc":
-            fr = gfx.doc_frame(W, H, t, d, shot["doc"])
+        elif kind in ("map", "split", "doc"):
+            fn = {"map": lambda w, h: gfx.map_frame(w, h, t, d, shot.get("pins", []), shot.get("villages", False)),
+                  "split": lambda w, h: gfx.split_frame(w, h, t, d, shot["side"], shot["items"], shot["heading"]),
+                  "doc": lambda w, h: gfx.doc_frame(w, h, t, d, shot["doc"])}[kind]
+            fr = inset_frame(fn, W, H, t, d) if vert else fn(W, H)
+        elif kind == "end" and vert:
+            fr = short_end(W, H, t, d)
         elif kind == "end":
             fr, (cx, cy, r) = gfx.end_screen(W, H, t, d)
             a = dict(c="wy", at=[0, 0, 0], h=1, expr="happy", arms="wave", talk=False)
@@ -349,7 +380,7 @@ def render_shot(shot, plates, ep, W, H, lines_t, env_fn):
             for (tt, txt) in shot.get("pop", []):
                 gfx.pop_word(fr, txt, t, tt * d if tt <= 1 else tt, d - t, s)
             if words:
-                gfx.caption(fr, words, t, s)
+                gfx.caption(fr, words, t, s, vertical=vert)
         arr = np.asarray(fr.convert("RGB")).astype(np.float32)
         if kind == "3d":
             arr *= vig
@@ -368,9 +399,9 @@ def encode_segment(shots, plates, ep, W, H, lines_t, env_fn, out):
 
 
 def _worker(args):
-    shots, plates, ep, W, H, out = args
-    lines_t = {t["id"]: t for t in json.loads((Path(ep) / "timing.json").read_text())}
-    env_fn = voice_env(Path(ep), json.loads((Path(ep) / "shots.json").read_text()))
+    shots, plates, ep, W, H, out, plan_p, timing_p = args
+    lines_t = {t["id"]: t for t in json.loads(Path(timing_p).read_text())}
+    env_fn = voice_env(Path(ep), json.loads(Path(plan_p).read_text()))
     encode_segment(shots, plates, ep, W, H, lines_t, env_fn, out)
     return out
 
@@ -381,11 +412,14 @@ def main():
     ap.add_argument("--w", type=int, default=1920); ap.add_argument("--h", type=int, default=1080)
     ap.add_argument("--workers", type=int, default=4); ap.add_argument("--shots", default="")
     ap.add_argument("--still", default=""); ap.add_argument("--noaudio", action="store_true")
+    ap.add_argument("--plan", default="", help="other shots.json (e.g. a vertical Short)"); ap.add_argument("--timing", default="")
     a = ap.parse_args()
     ep = Path(a.ep)
-    plan = json.loads((ep / "shots.json").read_text())
+    plan_p = Path(a.plan) if a.plan else ep / "shots.json"
+    timing_p = Path(a.timing) if a.timing else ep / "timing.json"
+    plan = json.loads(plan_p.read_text())
     shots = plan["shots"]
-    lines_t = {t["id"]: t for t in json.loads((ep / "timing.json").read_text())}
+    lines_t = {t["id"]: t for t in json.loads(timing_p.read_text())}
     if a.still:
         sid, tt = a.still.split(":")
         sh = next(x for x in shots if x["id"] == sid)
@@ -409,7 +443,7 @@ def main():
     if cur:
         segs.append(cur)
     tmp = Path(tempfile.mkdtemp(prefix="tw_"))
-    jobs = [(sg, a.plates, str(ep), a.w, a.h, str(tmp / f"seg{i:03d}.mp4")) for i, sg in enumerate(segs)]
+    jobs = [(sg, a.plates, str(ep), a.w, a.h, str(tmp / f"seg{i:03d}.mp4"), str(plan_p), str(timing_p)) for i, sg in enumerate(segs)]
     from multiprocessing import Pool
     with Pool(a.workers) as pool:
         outs = sorted(pool.map(_worker, jobs))
