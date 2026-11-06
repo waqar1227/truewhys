@@ -39,6 +39,27 @@ CHARS = {
                     robe=True, belt="#E8D5A8", hx=1.0),
     "magistrate": dict(skin="#DDA77E", hair="fur_hat", hair_c="#4A2F22", top="#1F5C8C", collar="#FFF4E0",
                     robe=True, fur="#7A5236", hx=1.06),
+    # ---- B-002 cast (generic period characters; no real person's likeness)
+    "king":    dict(skin="#EDB98E", hair="tudor_cap", hair_c="#1E1A24", top="#B3262E", collar="#FFC93C",
+                    robe=True, fur="#F2EEE6", trim="#FFC93C", beard="#C9783A", hx=1.12),
+    "groom":   dict(skin="#E2AE86", hair="tudor_cap", hair_c="#20243A", top="#20243A", collar="#FFF4E0",
+                    legs="#20243A", shoes=INK, belt="#FFC93C", beard="#5B3A29", hx=1.0),
+    "quack":   dict(skin="#D9A27A", hair="brim_hat", hair_c="#6E3A8C", top="#6E3A8C", collar="#FFC93C",
+                    robe=True, trim="#FFC93C", beard="#3B2416", hx=1.02),
+    "toadboy": dict(skin="#F2C09A", hair="bowl", hair_c="#C98A3A", top="#5E9E4A", collar="#C9A27A",
+                    legs="#5B3A29", shoes="#3A2618", belt="#7A5236", hx=0.92),
+    "aleconner": dict(skin="#E0A07A", hair="hood", hair_c="#B3262E", top="#C76A2B", collar="#FFF4E0",
+                    legs="#4A3A2C", shoes=INK, belt="#5B3A29", stubble=True, hx=1.06),
+    "saltpetre": dict(skin="#B97A55", hair="leather_cap", hair_c="#6B4A32", top="#7A6A4A", collar="#C9A27A",
+                    legs="#4A3A2C", shoes="#3A2618", belt="#3A2618", stubble=True, hx=1.04),
+    "gongfarmer": dict(skin="#C98E66", hair="hood", hair_c="#5E5A44", top="#6E6650", collar="#8A8266",
+                    legs="#4A4436", shoes="#2A2416", belt="#3A2618", apron="#8A7A5A", stubble=True, hx=1.0),
+    "tanner":  dict(skin="#D79C72", hair="leather_cap", hair_c="#4E3420", top="#9C4F67", collar="#F3E2BC",
+                    legs="#4A3A2C", shoes="#3A2618", apron="#7A5236", hx=1.02),
+    "fuller":  dict(skin="#E9B48C", hair="bald", hair_c="#6B4A32", top="#2E6FA7", collar="#FFF4E0",
+                    legs="#E9B48C", shoes="#E9B48C", belt="#8A5A3B", stubble=True, hx=0.98),
+    "sineater": dict(skin="#B9A08A", hair="hood", hair_c="#3A3440", top="#3A3440", collar="#3A3440",
+                    robe=True, hx=0.96),
 }
 VILLAGER_TOPS = ["#3E8E5E", "#B3262E", "#2E6FA7", "#8A5A3B", "#C76A2B", "#6E3A8C", "#4F6D3A", "#9C4F67"]
 VILLAGER_SKINS = ["#F2C09A", "#D79C72", "#B97A55", "#8D5A3C", "#E9B48C", "#C98E66"]
@@ -205,6 +226,20 @@ def hair_front(s):
         return (f'<path d="M-152 -150 C-160 -290 160 -290 152 -150 Q130 -210 60 -214 L40 -190 L20 -214 Q-110 -216 -152 -150 Z" fill="{c}"/>')
     if h == "bun":
         return (f'<path d="M-150 -150 C-150 -296 150 -296 150 -150 Q120 -232 0 -238 Q-120 -232 -150 -150 Z" fill="{c}"/>')
+    if h == "tudor_cap":  # flat Tudor cap with a white feather and gold trim
+        jew = s.get("trim", "#FFC93C")
+        return (f'<path d="M-170 -232 Q-176 -290 -40 -306 Q60 -314 170 -276 Q190 -250 150 -230 Q0 -258 -170 -232 Z" fill="{c}"/>'
+                f'<path d="M-160 -236 Q0 -262 156 -232" fill="none" stroke="{jew}" stroke-width="10"/>'
+                f'<path d="M70 -292 Q170 -350 230 -300 Q160 -300 100 -270 Z" fill="#FFF4E0"/>'
+                f'<circle cx="62" cy="-282" r="13" fill="{jew}"/>')
+    if h == "brim_hat":  # wide-brimmed 1600s hat
+        return (f'<ellipse cx="0" cy="-238" rx="210" ry="34" fill="{c}"/>'
+                f'<path d="M-100 -244 Q-104 -360 0 -366 Q104 -360 100 -244 Z" fill="{c}"/>'
+                f'<path d="M-100 -262 Q0 -276 100 -262" fill="none" stroke="#FFC93C" stroke-width="12"/>'
+                f'<path d="M90 -270 Q170 -330 200 -270" fill="none" stroke="#FF6B5B" stroke-width="16"/>')
+    if h == "leather_cap":
+        return (f'<path d="M-150 -170 C-160 -300 160 -300 150 -170 Q130 -236 0 -242 Q-130 -236 -150 -170 Z" fill="{c}"/>'
+                f'<path d="M0 -290 L0 -244" stroke="{shade(c, 0.7)}" stroke-width="9"/>')
     return ""
 
 
@@ -255,6 +290,8 @@ def body_img(cid, scale=1.0):
         p.append(f'<path d="M-78 -2 Q-80 -34 -40 -30 Q-8 -28 -10 -2 Z" fill="{s.get("shoes", INK)}"/>'
                  f'<path d="M78 -2 Q80 -34 40 -30 Q8 -28 10 -2 Z" fill="{s.get("shoes", INK)}"/>')
         p.append(f'<path d="M-100 -238 Q-136 -170 -118 -90 Q0 -64 118 -90 Q136 -170 100 -238 Q0 -262 -100 -238 Z" fill="{top}"/>')
+        if s.get("apron"):  # work apron (tanner, gong farmer)
+            p.append(f'<path d="M-64 -170 L64 -170 L80 -10 Q0 4 -80 -10 Z" fill="{s["apron"]}" stroke-width="8"/>')
         if s.get("belt"):
             p.append(f'<path d="M-120 -104 Q0 -84 120 -104" fill="none" stroke="{s["belt"]}" stroke-width="16"/>')
     # collar
@@ -332,6 +369,37 @@ def prop_svg(name, at=(0, 0)):
                 + "".join(f'<circle cx="{cx}" cy="58" r="13" fill="#{c}" stroke-width="4"/><rect x="{cx-12}" y="66" width="24" height="24" fill="#{c}" stroke-width="4"/>'
                           for cx, c in [(-100, "3E8E5E"), (-72, "B3262E"), (66, "8A5A3B"), (96, "2E6FA7")])
                 + '<path d="M-130 -90 L-40 -90 L-130 -20 Z" fill="#FFF4E0" opacity="0.4" stroke="none"/></g>')
+    if name == "toad":
+        return (f'<g transform="translate({x},{y})"><path d="M-70 30 Q-80 -30 -20 -44 Q30 -52 60 -24 Q84 0 70 30 Q0 46 -70 30 Z" fill="#7E9E4A"/>'
+                f'<circle cx="28" cy="-40" r="16" fill="#FFF4E0" stroke-width="6"/><circle cx="32" cy="-40" r="7" fill="{INK}" stroke="none"/>'
+                f'<circle cx="-20" cy="-8" r="8" fill="#5E7E3A" stroke="none"/><circle cx="6" cy="8" r="6" fill="#5E7E3A" stroke="none"/>'
+                f'<path d="M30 -6 Q50 4 66 -6" fill="none" stroke-width="6"/>'
+                f'<path d="M-70 30 L-90 40 M70 30 L88 40" stroke-width="9"/></g>')
+    if name == "tankard":
+        return (f'<g transform="translate({x},{y})"><rect x="-40" y="-60" width="80" height="110" rx="10" fill="#9A9AA4"/>'
+                f'<path d="M40 -36 Q80 -30 76 0 Q72 26 40 24" fill="none" stroke-width="12"/>'
+                f'<path d="M-46 -60 Q-30 -86 0 -74 Q30 -90 46 -60 Z" fill="#FFF4E0"/></g>')
+    if name == "bucket":
+        return (f'<g transform="translate({x},{y})"><path d="M-60 -60 L60 -60 L48 60 L-48 60 Z" fill="#8A5A3B"/>'
+                f'<path d="M-56 -20 H56 M-52 24 H52" stroke="#2A1C1E" stroke-width="7"/>'
+                f'<path d="M-60 -60 Q0 -140 60 -60" fill="none" stroke-width="8"/></g>')
+    if name == "shovel":
+        return (f'<g transform="translate({x},{y}) rotate(15)"><rect x="-8" y="-250" width="16" height="250" rx="7" fill="#8A6A4E"/>'
+                f'<path d="M-40 0 L40 0 L34 90 Q0 110 -34 90 Z" fill="#7A7A84"/></g>')
+    if name == "bread":
+        return (f'<g transform="translate({x},{y})"><path d="M-80 30 Q-90 -40 0 -46 Q90 -40 80 30 Z" fill="#C98A4A"/>'
+                f'<path d="M-40 -22 L-20 -6 M0 -30 L20 -12 M40 -24 L56 -8" stroke="#8A5A2A" stroke-width="7"/></g>')
+    if name == "bowl":
+        return (f'<g transform="translate({x},{y})"><path d="M-70 -10 L70 -10 Q60 50 0 54 Q-60 50 -70 -10 Z" fill="#8A5A3B"/>'
+                f'<ellipse cx="0" cy="-10" rx="70" ry="14" fill="#C9A26A"/></g>')
+    if name == "bottle":
+        return (f'<g transform="translate({x},{y})"><path d="M-14 -100 L14 -100 L14 -60 Q50 -40 50 0 L50 60 Q0 74 -50 60 L-50 0 Q-50 -40 -14 -60 Z" fill="#5ED3B5"/>'
+                f'<rect x="-18" y="-118" width="36" height="22" rx="5" fill="#8A5A3B"/>'
+                f'<rect x="-34" y="-4" width="68" height="40" fill="#FFF4E0" stroke-width="5"/>'
+                f'<path d="M-20 -40 Q-30 0 -24 40" fill="none" stroke="#FFFFFF" stroke-width="8" opacity="0.7"/></g>')
+    if name == "cloth":
+        return (f'<g transform="translate({x},{y})"><path d="M-90 -50 Q0 -70 90 -50 L80 50 Q0 30 -80 50 Z" fill="#EDE4D0"/>'
+                f'<path d="M-60 -30 Q0 -40 60 -30 M-60 10 Q0 0 60 10" fill="none" stroke="#C9BFA8" stroke-width="7"/></g>')
     if name == "barley":
         return (f'<g transform="translate({x},{y})">' + "".join(
             f'<g transform="rotate({a})"><path d="M0 0 L0 -150" stroke="#C99A2E" stroke-width="7"/>'

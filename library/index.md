@@ -27,3 +27,8 @@
 | backyard | night | Back lane: privy with half-moon door, cesspit hatch, cart with barrels, lanterns, moon |
 | cottage | wake, tavern, stable | Cottage interior: hearth, table/bench; wake (covered body, bread + bowl, candles), tavern (counter, barrels, tankards), stable (hay, stalls, nest boxes, dug soil, shovel) |
 Helpers: `flames()` toon fire, `candle()`, `panel_wall()`, `tapestry()`.
+
+## Cast and props added for B-002 (lib/cast.py)
+- Characters: king (generic Tudor king, not a likeness), groom, quack, toadboy, aleconner, saltpetre, gongfarmer, tanner, fuller, sineater.
+- Hats: tudor_cap (flat cap + feather), brim_hat (1600s wide brim), leather_cap; work apron for non-robed characters.
+- Props: toad, tankard, bucket, shovel, bread, bowl, bottle, cloth.

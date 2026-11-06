@@ -230,7 +230,8 @@ def draw_prop(frame, p, t, d, cam, tint, W, H):
         k = gfx.back_out((t - tt) / 0.3)
     x, y, z, ppm = camera.project(at, pos, tgt, lens, W, H)
     im, pv = cast.prop_img(name, 1.0)
-    natural = {"painting": 220, "coin": 60, "gloves": 160, "sack": 180, "egg": 120, "scroll": 180, "gavel": 140, "staff": 420}.get(name, 150)
+    natural = {"painting": 220, "coin": 60, "gloves": 160, "sack": 180, "egg": 120, "scroll": 180, "gavel": 140, "staff": 420,
+               "toad": 100, "tankard": 120, "bucket": 140, "shovel": 360, "bread": 90, "bowl": 70, "bottle": 190, "cloth": 120}.get(name, 150)
     sc = size * ppm / natural * k
     if sc <= 0.01:
         return
