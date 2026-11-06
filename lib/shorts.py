@@ -149,6 +149,8 @@ def build(ep):
                 n["start"] = round(s["start"] + off, 3)
                 n["line_start"] = round(s["line_start"] + off, 3)
                 n["src"] = s["id"]
+                if n.get("tag") and n["tag"].upper().startswith("IDEA"):  # "IDEA 2: MONEY" -> "MONEY" (no numbering out of context)
+                    n["tag"] = n["tag"].split(":", 1)[-1].strip()
                 shots.append(n)
             t = round(le + off, 3)
         shots[1]["music"] = shots[1].get("music") or h["music"]

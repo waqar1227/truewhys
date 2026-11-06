@@ -283,10 +283,19 @@ def find_plate(plates, sid):
 
 
 # ------------------------------------------------------------------ shot renderer
-def inset_frame(fn, W, H, t, d):
-    """Vertical Shorts: a landscape graphic (map, document, comparison) as a card on the brand background."""
-    iw = int(W * 0.94); ih = int(iw * 9 / 16)
-    card = fn(iw, ih).convert("RGBA")
+def inset_frame(fn, W, H, t, d, zoom=False):
+    """Vertical Shorts: a landscape graphic (map, document, comparison) as a card on the brand background.
+    zoom: documents are cropped to the parchment (middle 64%) so the writing stays readable on a phone."""
+    iw = int(W * 0.94)
+    if zoom:
+        fw = int(iw / 0.64); fh = int(fw * 9 / 16)
+        full = fn(fw, fh).convert("RGBA")
+        x0 = int(fw * 0.18)
+        card = full.crop((x0, 0, x0 + iw, fh))
+        ih = fh
+    else:
+        ih = int(iw * 9 / 16)
+        card = fn(iw, ih).convert("RGBA")
     f = gfx.brand_bg(W, H).copy()
     f.alpha_composite(gfx.rays(W, H, t, 14))
     k = gfx.back_out(min(1, t / 0.35))
@@ -361,7 +370,7 @@ def render_shot(shot, plates, ep, W, H, lines_t, env_fn):
             fn = {"map": lambda w, h: gfx.map_frame(w, h, t, d, shot.get("pins", []), shot.get("villages", False)),
                   "split": lambda w, h: gfx.split_frame(w, h, t, d, shot["side"], shot["items"], shot["heading"]),
                   "doc": lambda w, h: gfx.doc_frame(w, h, t, d, shot["doc"])}[kind]
-            fr = inset_frame(fn, W, H, t, d) if vert else fn(W, H)
+            fr = inset_frame(fn, W, H, t, d, zoom=kind == "doc") if vert else fn(W, H)
         elif kind == "end" and vert:
             fr = short_end(W, H, t, d)
         elif kind == "end":

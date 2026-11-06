@@ -27,3 +27,9 @@
 - Kaggle: dataset must be flat (no sub-folders); use OIDN denoiser (OptiX weights missing).
 - Gemini TTS free tier: 10 requests/day/model; Pro TTS has no free quota.
 - YouTube token scopes: upload, force-ssl (comments/playlists), analytics read-only.
+
+## Update 6 Nov 2026, 16:50 UTC
+- Final long-video plates rendering on Kaggle (2 runs in parallel, chapters 0–3 and 4–7), expected done ~23:30 UTC.
+- Vertical Shorts generator done (lib/shorts.py): 7 Shorts planned, 28–63 s, re-aimed 9:16 cameras, hooks open on the strongest shot,
+  documents zoomed for phones, Wy end card. Short plates render on Kaggle after the hook voice exists (7 Nov).
+- 7 Nov after ~08:00 UTC: Gemini voice for chapters 0–7 (8 requests) + all hooks/outro (1 request), then plan.py, final compose, QA.

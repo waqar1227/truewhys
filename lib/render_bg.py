@@ -17,7 +17,7 @@ ap.add_argument("shots"); ap.add_argument("out")
 ap.add_argument("--w", type=int, default=1920); ap.add_argument("--h", type=int, default=1080)
 ap.add_argument("--samples", type=int, default=96); ap.add_argument("--gpu", action="store_true")
 ap.add_argument("--step", type=int, default=1); ap.add_argument("--interp", action="store_true", help="with --step 2: interpolate in-betweens"); ap.add_argument("--shots_only", default="")
-ap.add_argument("--chapters", default=""); ap.add_argument("--stills", action="store_true")
+ap.add_argument("--chapters", default=""); ap.add_argument("--thr", type=float, default=0.02); ap.add_argument("--stills", action="store_true")
 ap.add_argument("--deadline", type=float, default=0, help="stop starting new shots after N seconds")
 ap.add_argument("--part", default="0/1", help="i/n: render every n-th shot starting at i (multi-GPU)")
 a = ap.parse_args(sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else sys.argv[1:])
@@ -44,6 +44,7 @@ for s in todo:
     if key != cur:
         cam_obj = sets.build(*key)
         sets.setup_render(a.w, a.h, a.samples, a.gpu)
+        bpy.context.scene.cycles.adaptive_threshold = a.thr
         cur = key
     cam_obj = bpy.context.scene.camera
     cam = s["cam"]

@@ -3,7 +3,8 @@
 #   "plan": "shots.json" (or "shorts_shots.json" for vertical Shorts, with w 1080 h 1920), "step": 1}
 import subprocess, glob, os, json, time, shutil
 t0 = time.time()
-cfgp = glob.glob('/kaggle/input/**/job.json', recursive=True)[0]
+JOB = 'job.json'  # each render kernel names its own job file (job_A.json, ...)
+cfgp = glob.glob(f'/kaggle/input/**/{JOB}', recursive=True)[0]
 D = os.path.dirname(cfgp)
 job = json.load(open(cfgp))
 print("dataset dir", D, job, flush=True)
@@ -20,7 +21,7 @@ procs = []
 for i in range(ngpu):
     env = dict(os.environ, CUDA_VISIBLE_DEVICES=str(i))
     cmd = [B, '-b', '--python', f'{D}/render_bg.py', '--', f"{D}/{job.get('plan', 'shots.json')}", out, '--w', str(job['w']), '--h', str(job['h']),
-           '--samples', str(job['samples']), '--gpu', '--part', f'{i}/{ngpu}', '--deadline', str(job.get('deadline', 39600)), '--step', str(job.get('step', 1))] + (['--interp'] if job.get('interp') else [])
+           '--samples', str(job['samples']), '--gpu', '--part', f'{i}/{ngpu}', '--deadline', str(job.get('deadline', 39600)), '--step', str(job.get('step', 1)), '--thr', str(job.get('thr', 0.02))] + (['--interp'] if job.get('interp') else [])
     if job.get('chapters'):
         cmd += ['--chapters', job['chapters']]
     if job.get('shots'):
