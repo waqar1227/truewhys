@@ -422,7 +422,7 @@ def main():
     else:
         wav = tmp / "mix.wav"
         build_mix(ep, plan, str(wav))
-        subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(video), "-i", str(wav), "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(video), "-i", str(wav), "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
                         "-shortest", "-movflags", "+faststart", a.out], check=True)
     shutil.rmtree(tmp, ignore_errors=True)
     print("wrote", a.out)

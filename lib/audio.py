@@ -198,8 +198,15 @@ def build_mix(ep, plan, out_wav):
     meter = pyln.Meter(SR)
     lufs = meter.integrated_loudness(mix)
     mix = mix * (10 ** ((-14 - lufs) / 20))
-    lim = 0.89
-    over = np.abs(mix) > lim
-    mix[over] = np.sign(mix[over]) * (lim + (1 - lim) * np.tanh((np.abs(mix[over]) - lim) / (1 - lim)))
+    # look-ahead brickwall limiter to -3 dBFS sample peak (leaves room for AAC overshoot)
+    from scipy.ndimage import minimum_filter1d, uniform_filter1d
+    ceil = 10 ** (-3 / 20)
+    peak = np.abs(mix).max(1)
+    g = np.minimum(1.0, ceil / np.maximum(peak, 1e-9))
+    la = int(0.005 * SR)
+    g = minimum_filter1d(g, size=2 * la + 1)
+    g = uniform_filter1d(g, size=la)
+    g = np.minimum(g, minimum_filter1d(np.minimum(1.0, ceil / np.maximum(peak, 1e-9)), size=3))
+    mix = mix * g[:, None]
     sf.write(out_wav, mix.astype(np.float32), SR)
     print("mix LUFS before norm", round(lufs, 1), "-> -14", flush=True)

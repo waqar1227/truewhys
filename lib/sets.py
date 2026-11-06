@@ -243,6 +243,74 @@ def barrel(loc, s=1.0):
 def crate(loc, s=0.7, rz=0.0):
     box((loc[0], loc[1], loc[2] + s / 2), (s, s, s), mat("crate", "#B5824E", noise=0.3, scale=6), 0.03, (0, 0, rz))
 
+
+
+def bunting(p0, p1, sag=0.8, n=18, colors=("#FF6B5B", "#FFC93C", "#5ED3B5", "#FFF4E0", "#0F6B78")):
+    """String of triangular flags between two points."""
+    import bmesh
+    x0, y0, z0 = p0; x1, y1, z1 = p1
+    pts = []
+    for i in range(n + 1):
+        t = i / n
+        pts.append((x0 + (x1 - x0) * t, y0 + (y1 - y0) * t, z0 + (z1 - z0) * t - sag * 4 * t * (1 - t)))
+    for i in range(n):
+        a, b = pts[i], pts[i + 1]
+        cyl(((a[0] + b[0]) / 2, (a[1] + b[1]) / 2, (a[2] + b[2]) / 2), 0.012, 0.01, mat("rope", "#3A2A22"), verts=4, bevel=0)
+        me = bpy.data.meshes.new("flag"); bm = bmesh.new()
+        m = ((a[0] + b[0]) / 2, (a[1] + b[1]) / 2, (a[2] + b[2]) / 2 - 0.45)
+        vs = [bm.verts.new(v) for v in (a, b, m)]
+        bm.faces.new(vs); bm.to_mesh(me); bm.free()
+        o = bpy.data.objects.new("flag", me); bpy.context.collection.objects.link(o)
+        c = colors[i % len(colors)]
+        o.data.materials.append(mat("flag" + c, c, rough=0.8, noise=0.05))
+        sol = o.modifiers.new("s", "SOLIDIFY"); sol.thickness = 0.02
+    # rope as thin boxes between points
+    for i in range(n):
+        a, b = Vector(pts[i]), Vector(pts[i + 1])
+        mid = (a + b) / 2; d = b - a
+        bpy.ops.mesh.primitive_cylinder_add(vertices=4, radius=0.015, depth=d.length, location=mid)
+        o = bpy.context.active_object
+        o.rotation_euler = d.to_track_quat("Z", "Y").to_euler()
+        o.data.materials.append(mat("rope", "#3A2A22"))
+
+
+def flower_box(loc, w=0.9):
+    x, y, z = loc
+    box((x, y, z), (w, 0.3, 0.22), mat("fbox", "#8A5A3B", noise=0.2), 0.02)
+    for k in range(5):
+        c = ["#FF6B5B", "#FFC93C", "#F28CC0", "#FFFFFF", "#FF6B5B"][k]
+        sphere((x - w / 2 + 0.1 + k * (w - 0.2) / 4, y, z + 0.17), 0.09, mat("fl" + c, c, rough=0.7), sub=2)
+        sphere((x - w / 2 + 0.2 + k * (w - 0.3) / 4, y + 0.02, z + 0.12), 0.08, mat("leaf5E9E4A", "#5E9E4A", rough=0.8, noise=0.25, scale=1.5), sub=1)
+
+
+def hay_cart(loc, rz=0.0):
+    x, y, z = loc
+    root = bpy.data.objects.new("cart", None); bpy.context.collection.objects.link(root)
+    parts = [box((0, 0, 0.75), (2.2, 1.2, 0.12), mat("cartwood", "#9C6B3F", noise=0.3), 0.02)]
+    for sx in (-1, 1):
+        parts.append(box((0, sx * 0.6, 1.0), (2.2, 0.08, 0.45), mat("cartwood", "#9C6B3F", noise=0.3), 0.02))
+        for wx in (-0.6, 0.6):
+            parts.append(cyl((wx, sx * 0.72, 0.42), 0.42, 0.1, mat("wheel", "#6B4A32", noise=0.2), rot=(math.radians(90), 0, 0), verts=16))
+    parts.append(sphere((0, 0, 1.25), 0.8, mat("hay", "#E8C46A", rough=0.95, noise=0.4, scale=5), scale=(1.3, 0.75, 0.55), sub=2))
+    parts.append(box((1.7, 0, 0.75), (1.4, 0.08, 0.08), mat("cartwood", "#9C6B3F", noise=0.3), 0.01))
+    for o in parts:
+        o.parent = root
+    root.location = (x, y, z); root.rotation_euler = (0, 0, rz)
+
+
+def sign(loc, color, rz=0.0):
+    x, y, z = loc
+    box((x, y, z + 0.45), (0.9, 0.06, 0.06), mat("iron", "#2A1C1E", rough=0.5, metal=0.5), 0, (0, 0, rz))
+    box((x + 0.25 * math.cos(rz), y + 0.25 * math.sin(rz), z), (0.6, 0.05, 0.5), mat("sign" + color, color, noise=0.1), 0.02, (0, 0, rz))
+
+
+def torch_sconce(loc, rz=0.0):
+    x, y, z = loc
+    box((x, y, z), (0.12, 0.25, 0.08), mat("iron", "#2A1C1E", rough=0.5, metal=0.5), 0.01, (0, 0, rz))
+    cyl((x, y, z + 0.2), 0.05, 0.4, mat("tstick", "#6B4A32"), verts=8)
+    sphere((x, y, z + 0.48), 0.1, mat("fire", "#FFB238", emit="#FF8A2A", emit_strength=25), sub=2)
+    point((x, y, z + 0.55), "#FF9A40", 60, 0.1)
+
 # ----------------------------------------------------------------- houses
 
 WALLS = ["#F3E2BC", "#F6D7B0", "#EBD9C2", "#F2C9A0", "#E8E0CF", "#F0D3A4", "#DCE7D8"]
@@ -369,7 +437,16 @@ def set_square(variant="day"):
         for x, y, r, h in [(-40, 90, 30, 40), (5, 110, 40, 55), (45, 95, 32, 42), (80, 120, 40, 50)]:
             cyl((x, y, h / 2), r, h, mm, verts=7, r2=0.5, bevel=0)
             cyl((x, y, h * 0.83), r * 0.18, h * 0.34, sn, verts=7, r2=0.3, bevel=0)
-    # lights
+    # dressing: bunting across the square, flower boxes, shop signs, hay cart, sacks
+    bunting((-12.5, 10.4, 5.2), (13.5, 10.4, 5.0), 0.9)
+    bunting((-12.8, 9.5, 4.6), (-12.8, -3.5, 4.4), 0.7)
+    bunting((14.0, 9.5, 4.6), (14.0, -3.5, 4.4), 0.7)
+    for x in (-13, -8.6, 8.8, 13.2):
+        flower_box((x - 1.0, 10.35, 3.65))
+    sign((-11.2, 10.2, 2.8), "#FFC93C"); sign((10.6, 10.2, 2.9), "#5ED3B5")
+    hay_cart((-9.5, 2.5, 0), 0.4)
+    for k in range(3):
+        sphere((9.3 + k * 0.5, 7.2, 0.3), 0.32, mat("sack", "#D8B27A", rough=0.95, noise=0.3, scale=6), scale=(1, 1, 1.25), sub=2)
     if variant == "dusk":
         world("#3E5A9C", "#FFB38A", 0.7)
         sun((70, 0, -40), "#FFB27A", 3.0, 3)
@@ -458,6 +535,15 @@ def set_court(variant="town"):
         p = (1.2 * math.cos(a), 2 + 1.2 * math.sin(a), 7.95)
         sphere(p, 0.06, mat("flame", "#FFD27A", emit="#FFB84D", emit_strength=20))
     point((0, 2, 7.5), "#FFB060", 400, 1.0)
+    # dressing: red carpet runner, wall torches, books, coat of arms shields
+    box((0, 1.0, 0.012), (2.2, 12.0, 0.02), mat("carpet" + variant, "#9C2430" if not church else "#5A2E73", rough=0.95, noise=0.1), 0.0)
+    box((0, 1.0, 0.016), (1.8, 12.0, 0.02), mat("carpet2" + variant, "#B3262E" if not church else "#6E3A8C", rough=0.95, noise=0.1), 0.0)
+    for y in (-7, -1, 5):
+        torch_sconce((W / 2 - 0.4, y, 3.4))
+    for k in range(4):
+        box((2.0 + k * 0.12, 4.0, 0.95), (0.1, 0.35, 0.28), mat("book" + str(k), ["#B3262E", "#0F6B78", "#FFC93C", "#5B3A29"][k], rough=0.6), 0.01)
+    for x in (-3.0, 3.0):
+        cyl((x, D / 2 - 0.4, 3.6), 0.5, 0.08, mat("shield" + variant, "#FFC93C" if not church else "#FFF4E0", rough=0.4, metal=0.3), rot=(math.radians(90), 0, 0), verts=6)
     # light
     world("#9FD0E8", "#FFF1D6", 0.35)
     s = sun((60, 0, -80), "#FFE6C4", 6.0 if not church else 4.5, 2)
@@ -537,6 +623,15 @@ def set_land(variant="barley"):
         house((vx + math.cos(a) * 7, vy + math.sin(a) * 4, 0), 4, 4, R.uniform(4.5, 6), rot_z=R.uniform(-0.4, 0.4), floors=2)
     box((vx - 2, vy + 6, 6), (3, 3, 12), mat("church", "#D8CBB0", bricks={"scale": 3, "c2": "#CBBC9E", "mortar_c": "#A6977C", "w": 0.6, "h": 0.3}), 0.05)
     cyl((vx - 2, vy + 6, 14.5), 2.1, 5, mat("spire2", "#5E6B7A"), verts=4, r2=0.02, rot=(0, 0, math.radians(45)))
+    if vine:
+        sm = mat("stonewall", "#A89A88", rough=0.9, bricks={"scale": 3, "c2": "#968876", "mortar_c": "#6E6256", "w": 0.6, "h": 0.3})
+        box((-3.2, 8, 0.45), (0.5, 16, 0.9), sm, 0.05)
+        hay_cart((-4.8, 3.0, 0), 1.2)
+        box((5.5, 2.0, 0.6), (0.5, 0.5, 1.2), mat("shrine", "#D8CBB0"), 0.04)
+        prism_roof((5.5, 2.0, 1.2), 0.6, 0.6, 0.35, mat("roofB5523B", "#B5523B"), overhang=0.1)
+        for k in range(4):
+            box((-1.6 + k * 0.45, 1.0, 0.25), (0.4, 0.4, 0.5), mat("basket", "#B5824E", noise=0.4, scale=8), 0.05)
+            sphere((-1.6 + k * 0.45, 1.0, 0.55), 0.17, mat("grape", "#5B2E6E", rough=0.3), scale=(1, 1, 0.6))
     if night:
         # Basel-like city wall with towers (generic), torches, glow
         wallm = mat("cwall", "#5A5048", rough=0.9, bricks={"scale": 2, "c2": "#4E463E", "mortar_c": "#2E2824", "w": 0.8, "h": 0.4})
@@ -624,6 +719,18 @@ def set_study(variant="day"):
     cyl((-3.8, 3.4, 0.35), 0.35, 0.7, mat("pot", "#C76A2B"), r2=0.28)
     for k in range(5):
         sphere((-3.8 + R.uniform(-.3, .3), 3.4 + R.uniform(-.3, .3), 1.0 + R.uniform(0, .5)), 0.35, mat("leaf5E9E4A", "#5E9E4A", rough=0.8, noise=0.25, scale=1.5), sub=2)
+    # dressing: framed pictures, stack of books, candle, hanging lamp, logo badge
+    for x, c in ((0.6, "#FFC93C"), (-0.6, "#FF6B5B")):
+        box((x, D / 2 - 0.17, 3.5), (0.8, 0.06, 0.6), mat("frame", "#5B3A29"), 0.02)
+        box((x, D / 2 - 0.2, 3.5), (0.66, 0.05, 0.46), mat("pic" + c, c, rough=0.6, noise=0.3, scale=4), 0.0)
+    for k in range(5):
+        box((-3.0, -1.5, 0.08 + k * 0.13), (0.6 - k * 0.04, 0.42, 0.12), mat("book" + str(k), ["#FF6B5B", "#0F6B78", "#FFC93C", "#5ED3B5", "#FFF4E0"][k], rough=0.6), 0.01, (0, 0, k * 0.2))
+    cyl((1.05, 1.35, 1.15), 0.05, 0.2, mat("candle", "#FFF4E0"))
+    sphere((1.05, 1.35, 1.3), 0.035, mat("flame", "#FFD27A", emit="#FFB84D", emit_strength=20))
+    cyl((0.4, 0.4, 4.3), 0.02, 1.4, mat("iron", "#2A1C1E", rough=0.5, metal=0.5), verts=6)
+    cyl((0.4, 0.4, 3.55), 0.45, 0.35, mat("shade2", "#FF6B5B", emit="#FFB070", emit_strength=0.6), r2=0.18)
+    point((0.4, 0.4, 3.3), "#FFC880", 120, 0.3)
+    cyl((3.2, D / 2 - 0.17, 3.0), 0.35, 0.05, mat("gold", "#FFC93C", rough=0.35, metal=0.6), rot=(math.radians(90), 0, 0), verts=32)
     # ceiling
     plane((0, 0, H), (W, D), mat("sceil", "#F3E2BC"), rot=(math.pi, 0, 0))
     world("#9ED8F0", "#FFF1D6", 0.4)
