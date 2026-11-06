@@ -683,8 +683,9 @@ def setup_render(W, H, samples, gpu=False):
         for d in prefs.devices:
             d.use = d.type != "CPU"
         sc.cycles.device = "GPU"
+        sc.cycles.denoiser = "OPENIMAGEDENOISE"  # OptiX denoiser weights are missing on Kaggle
         try:
-            sc.cycles.denoiser = "OPTIX"
+            sc.cycles.denoising_use_gpu = True
         except Exception:
             pass
     else:

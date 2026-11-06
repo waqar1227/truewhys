@@ -18,6 +18,7 @@ ap.add_argument("--w", type=int, default=1920); ap.add_argument("--h", type=int,
 ap.add_argument("--samples", type=int, default=96); ap.add_argument("--gpu", action="store_true")
 ap.add_argument("--step", type=int, default=1); ap.add_argument("--shots_only", default="")
 ap.add_argument("--chapters", default=""); ap.add_argument("--stills", action="store_true")
+ap.add_argument("--deadline", type=float, default=0, help="stop starting new shots after N seconds")
 ap.add_argument("--part", default="0/1", help="i/n: render every n-th shot starting at i (multi-GPU)")
 a = ap.parse_args(sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else sys.argv[1:])
 
@@ -31,8 +32,11 @@ pi, pn = (int(x) for x in a.part.split("/"))
 todo = [s for s in plan["shots"] if s.get("set") and (not want or s["id"] in want) and (chs is None or s.get("chapter") in chs)]
 todo = todo[pi::pn]
 cur = None
+T_START = time.time()
 log = open(os.path.join(a.out, f"render_log_{pi}.txt"), "a")
 for s in todo:
+    if a.deadline and time.time() - T_START > a.deadline:
+        print("deadline reached, stopping", flush=True); break
     out_mp4 = os.path.join(a.out, s["id"] + (".png" if a.stills else ".mp4"))
     if os.path.exists(out_mp4):
         continue

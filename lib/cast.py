@@ -321,6 +321,17 @@ def prop_svg(name, at=(0, 0)):
         return (f'<g transform="translate({x},{y})"><path d="M-70 60 Q-90 -30 -30 -60 L-40 -84 Q0 -96 40 -84 L30 -60 Q90 -30 70 60 Q0 80 -70 60 Z" fill="#D8B27A"/>'
                 f'<path d="M-36 -64 Q0 -54 36 -64" fill="none" stroke-width="9"/>'
                 f'<text x="0" y="30" font-family="Lilita One" font-size="70" text-anchor="middle" fill="{INK}" stroke="none">1/10</text></g>')
+    if name == "painting":  # church fresco of the Falaise execution (our own drawing)
+        return (f'<g transform="translate({x},{y})"><rect x="-150" y="-110" width="300" height="220" rx="6" fill="#C9921E"/>'
+                f'<rect x="-130" y="-90" width="260" height="180" fill="#E9D9B4" stroke-width="6"/>'
+                f'<rect x="-130" y="30" width="260" height="60" fill="#B9A88E" stroke="none"/>'
+                f'<rect x="-50" y="0" width="100" height="40" fill="#A0703F" stroke-width="5"/>'
+                f'<ellipse cx="0" cy="-12" rx="34" ry="22" fill="#F7A8B8" stroke-width="5"/>'
+                f'<path d="M-22 -30 L22 -30 L28 0 L-28 0 Z" fill="#2E6FA7" stroke-width="5"/>'
+                f'<circle cx="28" cy="-24" r="14" fill="#F7A8B8" stroke-width="5"/>'
+                + "".join(f'<circle cx="{cx}" cy="58" r="13" fill="#{c}" stroke-width="4"/><rect x="{cx-12}" y="66" width="24" height="24" fill="#{c}" stroke-width="4"/>'
+                          for cx, c in [(-100, "3E8E5E"), (-72, "B3262E"), (66, "8A5A3B"), (96, "2E6FA7")])
+                + '<path d="M-130 -90 L-40 -90 L-130 -20 Z" fill="#FFF4E0" opacity="0.4" stroke="none"/></g>')
     if name == "barley":
         return (f'<g transform="translate({x},{y})">' + "".join(
             f'<g transform="rotate({a})"><path d="M0 0 L0 -150" stroke="#C99A2E" stroke-width="7"/>'
@@ -462,6 +473,50 @@ def animal_img(kind, expr="neutral", mouth="closed", eyes="open", outfit=None, s
         p.append('<path d="M214 -220 L270 -196 L212 -186 Z" fill="#FFB238"/>')
         p.append('<circle cx="170" cy="-220" r="22" fill="#FFF06A"/><ellipse cx="170" cy="-220" rx="6" ry="16" fill="#2A1C1E" stroke="none"/>')
         vb = (-320, -360, 300, 40)
+    elif kind in ("dog", "bull", "horse"):
+        col = {"dog": "#C98A4B", "bull": "#6B4A3A", "horse": "#A8703F"}[kind]
+        lidc = col
+        L = {"dog": 1.0, "bull": 1.35, "horse": 1.3}[kind]
+        for lx in (-110, -60, 50, 100):
+            hh = 90 if kind == "dog" else 120
+            p.append(f'<rect x="{lx*L-18}" y="{-hh}" width="36" height="{hh}" rx="14" fill="{shade(col,0.9)}"/>')
+            p.append(f'<rect x="{lx*L-18}" y="-16" width="36" height="16" rx="5" fill="{INK}"/>')
+        if kind == "horse":
+            p.append(f'<path d="M{-150*L} -200 Q{-210*L} -150 {-190*L} -60" fill="none" stroke="{INK}" stroke-width="34"/>'
+                     f'<path d="M{-150*L} -200 Q{-210*L} -150 {-190*L} -60" fill="none" stroke="#5B3A29" stroke-width="20"/>')
+        else:
+            p.append(f'<path d="M{-150*L} -180 Q{-200*L} -230 {-180*L} -260" fill="none" stroke="{INK}" stroke-width="22"/>'
+                     f'<path d="M{-150*L} -180 Q{-200*L} -230 {-180*L} -260" fill="none" stroke="{col}" stroke-width="10"/>')
+        p.append(f'<ellipse cx="-10" cy="-170" rx="{150*L}" ry="{80 if kind=="dog" else 95}" fill="{col}"/>')
+        if kind == "bull":
+            p.append('<path d="M60 -250 Q20 -320 70 -330 M190 -250 Q240 -320 190 -330" fill="none" stroke="#FFF4E0" stroke-width="22"/>')
+        hx_, hy_ = (130, -250) if kind != "horse" else (170, -310)
+        if kind == "horse":
+            p.append(f'<path d="M90 -200 L140 -300 L200 -290 L150 -180 Z" fill="{col}"/>'
+                     '<path d="M120 -300 Q90 -230 70 -190" fill="none" stroke="#5B3A29" stroke-width="22"/>')
+        p.append(f'<ellipse cx="{hx_}" cy="{hy_}" rx="80" ry="72" fill="{col}"/>')
+        if kind == "dog":
+            p.append(f'<path d="M70 -290 Q40 -260 60 -200 Q90 -240 96 -290 Z" fill="{shade(col,0.7)}"/>'
+                     f'<path d="M190 -290 Q220 -260 200 -200 Q170 -240 164 -290 Z" fill="{shade(col,0.7)}"/>')
+        else:
+            p.append(f'<path d="M{hx_-50} {hy_-60} L{hx_-60} {hy_-110} L{hx_-20} {hy_-70} Z" fill="{col}"/>'
+                     f'<path d="M{hx_+40} {hy_-60} L{hx_+60} {hy_-110} L{hx_+15} {hy_-72} Z" fill="{col}"/>')
+        p.append(eye(hx_ - 25, hy_ - 12, 17) + eye(hx_ + 25, hy_ - 12, 17) + brow(hx_ - 25, hy_ - 38, 16) + brow(hx_ + 27, hy_ - 38, 16))
+        p.append(f'<ellipse cx="{hx_+5}" cy="{hy_+38}" rx="46" ry="30" fill="{shade(col,1.35)}"/>'
+                 f'<ellipse cx="{hx_-8}" cy="{hy_+30}" rx="7" ry="6" fill="{INK}" stroke="none"/>'
+                 f'<ellipse cx="{hx_+18}" cy="{hy_+30}" rx="7" ry="6" fill="{INK}" stroke="none"/>')
+        if kind == "dog":
+            p.append(f'<path d="M{hx_-10} {hy_+52} Q{hx_+5} {hy_+70} {hx_+22} {hy_+52}" fill="#E8707A" stroke-width="7"/>')
+        vb = (-280, -420, 290, 20)
+    elif kind == "locust":
+        g, lidc = "#9CB84A", "#9CB84A"
+        p.append('<path d="M-40 -40 L-110 -110 L-150 0 M20 -40 L-20 -120 L-60 0" fill="none" stroke-width="10"/>')
+        p.append(f'<ellipse cx="-40" cy="-70" rx="120" ry="40" fill="{g}"/>')
+        p.append('<path d="M-130 -90 Q-40 -150 60 -96 Q-40 -110 -130 -90 Z" fill="#D8E8A0" opacity="0.9"/>')
+        p.append(f'<circle cx="90" cy="-84" r="40" fill="{g}"/>')
+        p.append('<path d="M100 -120 Q150 -190 200 -200 M86 -122 Q110 -200 150 -220" fill="none" stroke-width="6"/>')
+        p.append(eye(98, -92, 17) + brow(98, -116, 15))
+        vb = (-200, -240, 230, 20)
     s = _svg("".join(p), vb)
     return _png(s, scale), (-vb[0], -vb[1])
 
