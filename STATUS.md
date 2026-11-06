@@ -34,5 +34,5 @@
   documents zoomed for phones, Wy end card. Short plates render on Kaggle after the hook voice exists (7 Nov).
 - 7 Nov after ~08:00 UTC: Gemini voice for chapters 0–7 (8 requests) + all hooks/outro (1 request), then plan.py, final compose, QA.
 - B-002 draft written (episodes/B-002-worst-jobs): "Would You Survive These 8 Jobs From Old England?" — ranked list, category 3,
-  987-word script v1, sources table (2+ per claim). Waiting for owner approval of topic + title before voice/animatic.
+  987-word script v1, sources table (2+ per claim). Owner approved (6 Nov); title chosen: "Would You Survive These 8 Jobs From Old England?".
   Gemini quota: B-001 uses 9 requests on 7 Nov, so B-002 voice (9 requests) is 8 Nov at the earliest.

@@ -11,6 +11,10 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import bpy
 from mathutils import Vector
 import sets, camera
+try:
+    import sets2  # more sets (B-002+), registers into sets.BUILDERS
+except ImportError:
+    pass
 
 ap = argparse.ArgumentParser()
 ap.add_argument("shots"); ap.add_argument("out")

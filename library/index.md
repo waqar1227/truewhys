@@ -17,3 +17,13 @@
 ## Audio
 - Music: library/music/procedural/{mystery,curious,story,playful,tension,dark,warm}.wav (original, lib/music.py)
 - SFX: library/sfx (CC0, mapping in lib/audio.py)
+
+## Sets added for B-002 (lib/sets2.py)
+| Set | Variants | Use |
+|---|---|---|
+| palace | day, night | Tudor chamber: oak panelling, tapestries, leaded window, fireplace, four-poster bed, close stool, chest |
+| yard | tannery, fullers | Riverside workshop yard by the town wall: tanning pits + hide frames + pigeon loft / fulling tubs + tenter frames + cloth bolts |
+| fair | day | Fairground: quack's wagon stage with striped awning and bottles, tents, stalls, bunting |
+| backyard | night | Back lane: privy with half-moon door, cesspit hatch, cart with barrels, lanterns, moon |
+| cottage | wake, tavern, stable | Cottage interior: hearth, table/bench; wake (covered body, bread + bowl, candles), tavern (counter, barrels, tankards), stable (hay, stalls, nest boxes, dug soil, shovel) |
+Helpers: `flames()` toon fire, `candle()`, `panel_wall()`, `tapestry()`.

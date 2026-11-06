@@ -1,4 +1,4 @@
-# B-002 — The 8 Worst Jobs in Old England, Ranked (DRAFT, awaiting owner approval)
+# B-002 — Would You Survive These 8 Jobs From Old England?
 
 - **Type:** B (long video), Style T (toon)
 - **Format:** Ranked List (#8 → #1), cold open + 8 items, ~6–6.5 min (987 words). Every item = one Short.
@@ -18,3 +18,7 @@
 ## New reusable assets this episode (library growth)
 - Sets: Tudor palace chamber, riverside tannery/fulling yard, fairground stage, night backyard with privy, cottage interior.
 - Cast: quack (new), toad-eater boy, ale conner, Tudor king (generic, not a likeness), saltpetre man; props: bucket, shovel, ale tankard, toad, bread loaf, wooden bowl, cloth bolt.
+
+## Approval
+- 6 Nov 2026: owner approved the topic and left the title to us → **"Would You Survive These 8 Jobs From Old England?"** (title pattern "Would You").
+  Owner's condition: no copyright issues or strikes → original script, cast, sets, music; CC0 SFX only; no TV/film/stock footage.
