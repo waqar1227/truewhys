@@ -634,11 +634,24 @@ def set_land(variant="barley"):
             sphere((-1.6 + k * 0.45, 1.0, 0.55), 0.17, mat("grape", "#5B2E6E", rough=0.3), scale=(1, 1, 0.6))
     if night:
         # Basel-like city wall with towers (generic), torches, glow
-        wallm = mat("cwall", "#5A5048", rough=0.9, bricks={"scale": 2, "c2": "#4E463E", "mortar_c": "#2E2824", "w": 0.8, "h": 0.4})
+        # moonlit stone, battlements, pointed roofs, lit windows and wall torches so it reads as a wall, not black slabs
+        wallm = mat("cwall", "#8A7E70", rough=0.9, bricks={"scale": 2, "c2": "#7A6E62", "mortar_c": "#4A4038", "w": 0.8, "h": 0.4})
+        roofm = mat("troof", "#6A3A30", rough=0.8)
+        winm = mat("twin", "#FFC870", emit="#FFB050", emit_strength=8)
         box((0, 60, 5), (70, 2, 10), wallm, 0.05)
+        for k in range(36):  # merlons
+            x = -35 + k * 2.0
+            box((x, 59.6, 10.5), (1.0, 1.2, 1.0), wallm, 0.03)
         for x in range(-30, 31, 15):
             cyl((x, 60, 8), 2.6, 16, wallm, verts=12)
-            cyl((x, 60, 18), 3.0, 4, mat("troof", "#3A2E2A"), verts=12, r2=0.1)
+            cyl((x, 60, 16.3), 2.9, 0.6, wallm, verts=12)
+            cyl((x, 60, 19.5), 3.0, 6, roofm, verts=12, r2=0.02)
+            for zz in (9.0, 13.0):
+                box((x + (0.6 if zz > 10 else -0.5), 57.35, zz), (0.55, 0.12, 0.9), winm, 0.0)
+            point((x, 56.5, 11.5), "#FFB060", 2500, 0.5)
+        for x in (-22.5, -7.5, 7.5, 22.5):  # torches on the wall walk
+            sphere((x, 58.8, 11.4), 0.3, mat("fire", "#FFB238", emit="#FF8A2A", emit_strength=25))
+            point((x, 57.5, 11.4), "#FF9A40", 1800, 0.4)
         for x, y in [(-4, 6), (4, 7), (-2.5, 11), (3, 12)]:
             box((x, y, 1.0), (0.12, 0.12, 2.0), mat("tpost", "#3A2618"), 0.02)
             sphere((x, y, 2.15), 0.18, mat("fire", "#FFB238", emit="#FF8A2A", emit_strength=25))

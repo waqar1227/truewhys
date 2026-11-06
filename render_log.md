@@ -29,3 +29,5 @@
 - 36/36 plates, 0 errors. Wall 310.9 min (5.2 h session, 2×T4; 9.6 GPU-h of Blender time). 1920×1080 30 fps.
 - QA: contact sheet + 1:1 crops (night street, court) clean, no noise. To check: dark blocks behind houses in land/night (S057/S061/S064/S066).
 - Week so far: ~5.2 h session (b001b) + benchmark/diag; b001 (chapters 0–3) still running.
+- 22:25 UTC: land/night city wall rebuilt (lighter stone, battlements, pointed roofs, lit windows, wall torches) after QA found
+  black slabs; re-render S057/S061/S064/S066 pushed as truewhys-render-b001b v2 (~1,900 Blender-s, est. 20–25 min). Dataset now has sets2.py too.
