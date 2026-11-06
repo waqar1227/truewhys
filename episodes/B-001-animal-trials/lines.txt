@@ -1,0 +1,86 @@
+# id | chapter | text (captions) || say (pronunciation for the voice, optional)
+L01|0|In the year 1386, in the French town of Falaise, a crowd packed the main square to watch an execution.||In the year thirteen eighty-six, in the French town of Fah-lez, a crowd packed the main square to watch an execution.
+L02|0|The prisoner had been tried in court, and found guilty of killing a child.
+L03|0|The judge had read out the sentence.
+L04|0|And then the prisoner was led out, dressed in a man's jacket and breeches.
+L05|0|The prisoner... was a pig.
+L06|0|For hundreds of years, all across Europe, animals were taken to court.
+L07|0|Pigs. Bulls. Rats. Even insects.
+L08|0|They got lawyers. They got official summons. Some were even offered their own land.
+L09|0|So why on earth would anyone put an animal on trial?
+L10|0|The real answer has less to do with animals... and a lot more to do with money.
+L11|0|I'm Wy, and this is the true story of the animal trials.||I'm Why, and this is the true story of the animal trials.
+L12|1|Let's go back to Falaise.||Let's go back to Fah-lez.
+L13|1|A sow, a female pig, had attacked a small child, and the child had died.
+L14|1|Today, we'd call that a terrible accident. In 1386, the town called it murder.||Today, we'd call that a terrible accident. In thirteen eighty-six, the town called it murder.
+L15|1|So the sow was put on trial in the town's criminal court, the same court that tried people.
+L16|1|And the judge's sentence was an eye for an eye.
+L17|1|The sow would be wounded in the head and front legs, just like the child, and then hanged.
+L18|1|On the day of the execution, she was dressed in a man's clothes and led to the square beside the town hall.
+L19|1|The hangman was paid ten sous and ten deniers...||The hangman was paid ten soo, and ten den-yay...
+L20|1|plus a brand new pair of gloves.
+L21|1|Why gloves? So he could leave with clean hands.
+L22|1|He wasn't a butcher. He was an officer of the law, doing the court's work.
+L23|1|A painting of the execution was even put up on the wall of the town's church.
+L24|1|And here's the strange part. Falaise wasn't unusual at all.||And here's the strange part. Fah-lez wasn't unusual at all.
+L25|1|Pigs roamed freely through medieval towns, and they turn up in these trials more than any other animal.
+L26|2|To understand these trials, historians split them into two groups.
+L27|2|Group one: big animals that hurt or killed a person. Pigs, bulls, horses, dogs.
+L28|2|They were tried one at a time by ordinary judges. And if found guilty, they were usually put to death.
+L29|2|Group two was much stranger. Rats. Mice. Locusts. Beetles.
+L30|2|Pests that ate the crops.
+L31|2|You can't arrest ten thousand rats. So these cases went to a different court: the church.
+L32|2|And the church had a weapon no ordinary judge had: a solemn curse, called an anathema, ordering the creatures to leave.||And the church had a weapon no ordinary judge had: a solemn curse, called an a-nath-ema, ordering the creatures to leave.
+L33|2|But before any curse, the accused deserved a fair trial. And a fair trial needs a lawyer.
+L34|3|In the early 1500s, around the French city of Autun, rats destroyed the barley crop.||In the early fifteen hundreds, around the French city of Oh-tun, rats destroyed the barley crop.
+L35|3|The church court ordered the rats to appear. And, as the story goes, it gave them a defence lawyer:
+L36|3|a young legal expert named Bartholomew Chassenée.||a young legal expert named Bartholomew Shass-nay.
+L37|3|Chassenée took the case very seriously.||Shass-nay took the case very seriously.
+L38|3|First, he argued that his clients lived scattered across many villages, so one summons wasn't fair.
+L39|3|The court agreed, and ordered a new summons, read aloud in every parish church.
+L40|3|The rats still didn't show up. So Chassenée found a better excuse.||The rats still didn't show up. So Shass-nay found a better excuse.
+L41|3|His clients wanted to come... but the journey was far too dangerous.
+L42|3|The roads were full of cats, watching their every move, waiting at every corner.
+L43|3|And no one, he argued, can be forced to come to court if the trip puts their life at risk.
+L44|3|Nobody knows what the judge finally decided. But the case made Chassenée famous.||Nobody knows what the judge finally decided. But the case made Shass-nay famous.
+L45|3|Years later, when he was a senior judge himself, a colleague reminded him of those rats. If even rats deserved a defence, surely people did too. Chassenée agreed.||Years later, when he was a senior judge himself, a colleague reminded him of those rats. If even rats deserved a defence, surely people did too. Shass-nay agreed.
+L46|4|Not every case was this funny.
+L47|4|In 1474, in the Swiss city of Basel, judges sentenced a rooster to be burned...||In fourteen seventy-four, in the Swiss city of Bah-zel, judges sentenced a rooster to be burned...
+L48|4|for the crime of laying an egg.
+L49|4|To us, that sounds ridiculous. To the people of Basel, it was terrifying.||To us, that sounds ridiculous. To the people of Bah-zel, it was terrifying.
+L50|4|Legend said an egg laid by a rooster could hatch a basilisk: a monster that could kill with a single look.||Legend said an egg laid by a rooster could hatch a bass-ill-isk: a monster that could kill with a single look.
+L51|4|Witches were said to use these eggs in their potions.
+L52|4|So the rooster was burned on a hill outside the city, in front of a huge crowd.
+L53|4|Today, scientists know that, very rarely, a hen's body can change, so she looks and even crows like a rooster.
+L54|4|But in 1474, nobody knew that. They only saw a monster in the making.||But in fourteen seventy-four, nobody knew that. They only saw a monster in the making.
+L55|5|Now for the strangest trial of all.
+L56|5|High in the Alps, there's a village called Saint-Julien, famous for its wine.||High in the Alps, there's a village called San Zhoo-lee-en, famous for its wine.
+L57|5|In 1545, tiny green beetles called weevils began destroying the vines.||In fifteen forty-five, tiny green beetles called weevils began destroying the vines.
+L58|5|The villagers took the weevils to the church court. And the weevils got two lawyers.
+L59|5|But the judge said something surprising.
+L60|5|God made the plants for insects too, he said. So instead of punishing them, everyone should pray and say sorry for their sins...
+L61|5|and, above all, pay their tithes.
+L62|5|The village prayed. And soon after, the weevils were gone.
+L63|5|Decades later, in 1587, they came back. And the villagers went back to court.||Decades later, in fifteen eighty-seven, they came back. And the villagers went back to court.
+L64|5|This time, they tried a deal.
+L65|5|At a public meeting in the village square, they voted to give the weevils their very own piece of land, outside the vineyards.
+L66|5|The villagers even kept the right to walk through it, as long as they didn't spoil the weevils' food.
+L67|5|But the weevils' lawyer turned the offer down. The land, he said, was too poor for his clients.
+L68|5|So the judge sent experts to inspect it.
+L69|5|And the final verdict? Nobody knows.
+L70|5|The last page of the court record was destroyed... by rats or insects.
+L71|6|So why did people do all this?
+L72|6|For dangerous farm animals, one idea is simple. When something terrible happened, a trial put the world back in order. Someone, or something, was held responsible, in public, by the rules.
+L73|6|For pests, the answer may be money.
+L74|6|Remember that judge, telling people to pay their tithes?
+L75|6|A tithe was a tenth of what you grew, given to the church. And in some places, people had stopped paying.
+L76|6|In 2013, the economist Peter Leeson argued that pest trials helped the church win those tithes back.||In twenty thirteen, the economist Peter Lee-son argued that pest trials helped the church win those tithes back.
+L77|6|Here's the trick. Pests come and go on their own.
+L78|6|If the church cursed the pests and they left, the curse looked real.
+L79|6|If they stayed, people must be sinning. Like, say, not paying their tithes.
+L80|6|Either way, the church's power looked stronger, and more people paid.
+L81|6|So the trials weren't really about the animals at all. They were about what people believed.
+L82|7|Animal trials slowly faded as new ideas about science and the law spread across Europe.
+L83|7|But they lasted longer than you might think. Some were still being held in the 1700s.||But they lasted longer than you might think. Some were still being held in the seventeen hundreds.
+L84|7|So next time your dog eats your homework... be glad it doesn't need a lawyer.
+L85|7|I'm Wy. Stay curious, and I'll see you in the next true why.||I'm Why. Stay curious, and I'll see you in the next true why.

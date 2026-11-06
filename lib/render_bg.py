@@ -1,0 +1,86 @@
+"""Render background plates for shots (Blender, Cycles).
+
+python lib/render_bg.py <shots.json> <out_dir> --w 1920 --h 1080 --samples 96 [--gpu] [--step 1]
+    [--shots S001,S002] [--chapters 0,1] [--stills]
+For every shot: builds its set (cached between shots on the same set), animates the camera exactly
+as lib/camera.py describes, renders frames and encodes <out_dir>/<shot>.mp4 (30 fps, near-lossless).
+Static shots render one frame. --stills renders only the first frame of each shot (contact sheets).
+"""
+import sys, os, json, math, argparse, subprocess, shutil, time
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import bpy
+from mathutils import Vector
+import sets, camera
+
+ap = argparse.ArgumentParser()
+ap.add_argument("shots"); ap.add_argument("out")
+ap.add_argument("--w", type=int, default=1920); ap.add_argument("--h", type=int, default=1080)
+ap.add_argument("--samples", type=int, default=96); ap.add_argument("--gpu", action="store_true")
+ap.add_argument("--step", type=int, default=1); ap.add_argument("--shots_only", default="")
+ap.add_argument("--chapters", default=""); ap.add_argument("--stills", action="store_true")
+ap.add_argument("--part", default="0/1", help="i/n: render every n-th shot starting at i (multi-GPU)")
+a = ap.parse_args(sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else sys.argv[1:])
+
+plan = json.load(open(a.shots))
+FPS = plan.get("fps", 30)
+os.makedirs(a.out, exist_ok=True)
+want = set(a.shots_only.split(",")) if a.shots_only else None
+chs = set(int(c) for c in a.chapters.split(",")) if a.chapters else None
+pi, pn = (int(x) for x in a.part.split("/"))
+
+todo = [s for s in plan["shots"] if s.get("set") and (not want or s["id"] in want) and (chs is None or s.get("chapter") in chs)]
+todo = todo[pi::pn]
+cur = None
+log = open(os.path.join(a.out, f"render_log_{pi}.txt"), "a")
+for s in todo:
+    out_mp4 = os.path.join(a.out, s["id"] + (".png" if a.stills else ".mp4"))
+    if os.path.exists(out_mp4):
+        continue
+    key = (s["set"], s.get("variant", "day"))
+    if key != cur:
+        cam_obj = sets.build(*key)
+        sets.setup_render(a.w, a.h, a.samples, a.gpu)
+        cur = key
+    cam_obj = bpy.context.scene.camera
+    cam = s["cam"]
+    nfr = max(1, int(round(s["dur"] * FPS)))
+    static = cam.get("to") is None and not cam.get("orbit") and not cam.get("shake")
+    frames = [0] if (static or a.stills) else list(range(0, nfr, a.step))
+    tmp = os.path.join(a.out, "_tmp_" + s["id"])
+    os.makedirs(tmp, exist_ok=True)
+    t0 = time.time()
+    dof = cam.get("dof")
+    for fi in frames:
+        t = fi / max(1, nfr - 1)
+        pos, tgt, lens = camera.cam_at(cam, t)
+        if cam.get("shake"):
+            amp = cam["shake"]
+            pos = [pos[0] + amp * math.sin(fi * 0.9), pos[1], pos[2] + amp * math.cos(fi * 1.3)]
+        cam_obj.location = pos
+        d = Vector(tgt) - Vector(pos)
+        cam_obj.rotation_euler = d.to_track_quat("-Z", "Y").to_euler()
+        cam_obj.data.lens = lens
+        if dof:
+            cam_obj.data.dof.use_dof = True
+            cam_obj.data.dof.focus_distance = d.length if dof.get("focus") is None else dof["focus"]
+            cam_obj.data.dof.aperture_fstop = dof.get("fstop", 2.8)
+        else:
+            cam_obj.data.dof.use_dof = False
+        bpy.context.scene.render.filepath = os.path.join(tmp, f"f{fi:05d}.png")
+        bpy.ops.render.render(write_still=True)
+    if a.stills:
+        shutil.move(os.path.join(tmp, "f00000.png"), out_mp4)
+    else:
+        # fill skipped frames by holding (only used for low-res animatics with --step>1)
+        lst = sorted(os.listdir(tmp))
+        have = {int(n[1:6]): n for n in lst}
+        seq = os.path.join(tmp, "seq"); os.makedirs(seq, exist_ok=True)
+        last = have[0]
+        for fi in range(nfr):
+            last = have.get(fi, last)
+            os.link(os.path.join(tmp, last), os.path.join(seq, f"{fi:05d}.png"))
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(FPS), "-i", os.path.join(seq, "%05d.png"),
+                        "-c:v", "libx264", "-preset", "slow", "-crf", "12", "-pix_fmt", "yuv420p", out_mp4], check=True)
+    shutil.rmtree(tmp, ignore_errors=True)
+    msg = f"{s['id']} set={key} frames={len(frames)} sec={time.time()-t0:.1f}"
+    print(msg, flush=True); log.write(msg + "\n"); log.flush()

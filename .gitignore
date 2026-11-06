@@ -1,0 +1,8 @@
+*.mp4
+*.wav
+*.mov
+renders/
+audio/
+__pycache__/
+*.pyc
+research/pixabay_cache/
