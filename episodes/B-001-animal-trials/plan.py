@@ -87,7 +87,7 @@ SETS = {"sq": ("square", "day"), "sqd": ("square", "dusk"), "sqa": ("square", "a
         "st": ("study", "day")}
 
 CROWD_SQ = [A(f"villager{i}", [x, y, 0], 1.45, "R" if x < 2 else "L", "worried" if i % 3 else "surprised")
-            for i, (x, y) in enumerate([(-3.5, 1.5), (-2.4, 0.4), (-1.0, 1.8), (5.8, 1.2), (7.0, 0.2), (4.6, -0.2), (-4.6, -0.6)])]
+            for i, (x, y) in enumerate([(-3.5, 1.5), (-2.4, 0.4), (-1.0, 1.8), (5.0, 1.5), (7.0, 0.2), (4.6, -0.2), (-4.6, -0.6)])]
 JUDGE = lambda expr="neutral", arms="down", **kw: A("judge", [0, 8.0, 1.5], 1.6, "R", expr, arms, cut=[7.15, 2.22], **kw)
 BISHOP = lambda expr="neutral", arms="down", **kw: A("bishop", [0, 8.0, 1.5], 1.6, "R", expr, arms, cut=[7.15, 2.22], **kw)
 PIG_DOCK = lambda expr="worried", **kw: A("pig", [-3.6, 1.1, 0.3], 0.85, "R", expr, cut=[-0.1, 0.75], **kw)
@@ -176,7 +176,7 @@ S("L45", set="ct", cam=push("ct_side", 0.12), chars=[A("villager6", [2.5, 3.0, 0
 # ================================================================ CH 4 The Rooster of Basel
 S("L46", "card", num=4, text="THE ROOSTER OF BASEL", music="dark")
 S("L46", set="nt", cam=push("nt_wide", 0.12), chars=[], tag="BASEL, SWITZERLAND · 1474", sfx=[(0, "owl", 0.5), (0, "wind", 0.4)])
-S("L47", set="ct", cam=push("ct_dock", 0.12), chars=[A("rooster", [-3.6, 1.1, 0.3], 0.7, "R", "surprised", cut=[-0.1, 0.7]), A("magistrate", [0, 8.0, 1.5], 1.6, "R", "angry", "point_l", cut=[7.15, 2.22])], sfx=[(0.2, "rooster", 0.6), (1.5, "gavel", 0.5)])
+S("L47", set="ct", cam=push("ct_dock", 0.12), chars=[A("rooster", [-3.6, 1.1, 0.3], 0.7, "R", "surprised", cut=[-0.1, 0.7])], sfx=[(0.2, "rooster", 0.6), (1.5, "gavel", 0.5)])
 S("L48", set="ct", cam=push("ct_dock", 0.25, 1.15), chars=[A("rooster", [-3.6, 1.1, 0.3], 0.7, "R", "surprised", cut=[-0.1, 0.7])], props=[("egg", [-3.15, 0.85, 0.78], 0.16, {"pop": 0.3})], pop=[(0.45, "LAYING AN EGG")], sfx=[(0.3, "pop", 0.7), (0.5, "crowd_gasp", 0.5)])
 S("L49", set="st", cam=push("st_wy", 0.12), chars=[WY("happy", "shrug")], part=(0, 0.45))
 S("L49", set="nt", cam=push("nt_crowd", 0.12), chars=[A(f"villager{i}", [x, 3.0 + (i % 2), 0], 1.45, "R" if x < 0 else "L", "worried") for i, x in enumerate([-2.2, -1.0, 1.0, 2.3])], part=(0.45, 1.0), sfx=[(0, "crowd_murmur", 0.4)])
