@@ -32,3 +32,8 @@
 - 22:25 UTC: land/night city wall rebuilt (lighter stone, battlements, pointed roofs, lit windows, wall torches) after QA found
   black slabs; re-render S057/S061/S064/S066 pushed as truewhys-render-b001b v2 (~1,900 Blender-s, est. 20–25 min). Dataset now has sets2.py too.
 - 22:29 UTC: b001b v2 done: 4 night plates, wall 23.0 min (0.4 h session, 2×T4). Checked: wall reads clearly. Plates replaced in renders/.
+
+## 6 Nov 2026 23:31 UTC: truewhys-render-b001 done (chapters 0–3)
+- 46/46 plates, 0 errors. Wall 400.9 min (6.7 h session, 2×T4). Contact sheet checked: clean, matches animatic.
+- **B-001 long-video plates complete: 82/82.** Sessions this week ≈ 6.7 + 5.2 + 0.4 h + benchmark/diag (~1.5 h) ≈ 13.8 h of ~30 h.
+- Next: Shorts plates (1080×1920, ~4,900 frames, est. ~7 h) after hook voice exists (7 Nov).
