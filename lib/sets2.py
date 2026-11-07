@@ -282,12 +282,17 @@ def set_backyard(variant="night"):
         cyl((p[0], p[1], 0.9), 0.03, 1.8, mat("iron", "#2A1C1E", rough=0.5, metal=0.5), verts=6)
         box((p[0], p[1], 1.9), (0.22, 0.22, 0.3), mat("lglass", "#FFD27A", emit="#FFB84D", emit_strength=8), 0.02)
         point((p[0], p[1] - 0.2, 1.9), "#FFB060", 260, 0.1)
+    # lantern hung on the privy wall: lights the door and the pit hatch for close shots
+    box((-0.72, 3.0, 1.95), (0.2, 0.2, 0.28), mat("lglass", "#FFD27A", emit="#FFB84D", emit_strength=8), 0.02)
+    cyl((-0.72, 3.0, 2.15), 0.02, 0.15, mat("iron", "#2A1C1E", rough=0.5, metal=0.5), verts=6)
+    point((-0.6, 2.7, 1.9), "#FFB060", 220, 0.1)
+    point((1.0, 1.2, 2.2), "#FFC880", 90, 0.5)  # soft warm fill from a lantern off screen
     sphere((-14, 40, 18), 2.2, mat("moon", "#FFF4E0", emit="#FFF4E0", emit_strength=4))
     for p in ((-12, 4), (12, 3), (-9, -6)):
         tree((p[0], p[1], 0), 1.1, "#2E5A3A")
     world("#1A2A4A", "#33406A", 0.6)
     sun((40, 0, 150), "#9FB8F0", 1.2, 6)
-    area((-3, -6, 7), (50, 0, -10), 12, "#6A80C8", 420)
+    area((-3, -6, 7), (50, 0, -10), 12, "#6A80C8", 560)
 
 
 def set_cottage(variant="wake"):
