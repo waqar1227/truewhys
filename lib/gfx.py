@@ -446,7 +446,8 @@ def pop_word(f, text, t, tt, d_left, s):
     k = back_out((t - tt) / 0.28)
     out = min(1, max(0, d_left / 0.25))
     im = text_img(text, font("lilita", int(120 * s)), C["yellow"], stroke=int(10 * s))
-    paste_center(f, im, f.width / 2, f.height * 0.2, 0.4 + 0.6 * k, out, rot=3 * (1 - k) - 2)
+    fit = min(1.0, f.width * 0.9 / im.width)  # long words shrink to fit (vertical Shorts)
+    paste_center(f, im, f.width / 2, f.height * 0.2, (0.4 + 0.6 * k) * fit, out, rot=3 * (1 - k) - 2)
 
 
 def tag(f, text, t, d, s):
