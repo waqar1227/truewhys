@@ -47,3 +47,4 @@
 - 08:00 UTC truewhys-render-b002 v1 done: chapters 0–3, 35/35 plates, 0 errors, wall 243.2 min (4.1 h, 2×T4). Contact sheet clean.
 - 08:40 UTC B-001 Shorts plates (1080×1920, 64 shots, 7,427 frames) split in two balanced jobs (~3,710 frames each):
   truewhys-render-b001 v5 (job_S) and truewhys-render-b001b v3 (job_S2). Week so far ≈ 13.8 + 4.1 h = 17.9 h before the Shorts.
+- 12:55 UTC B-001 Shorts plates done: b001 v5 249.2 min + b001b v3 273.6 min (8.7 h, 2×T4 each), 64/64, 0 errors. Week ≈ 26.6 h.
