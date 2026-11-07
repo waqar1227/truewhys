@@ -11,4 +11,4 @@
 - [ ] Every fact in sources.md; every asset in credits.md
 - [ ] Cast is ours; no reused clips, comics or art; no logos or real faces (king is a generic Tudor king, not a likeness)
 - [ ] Contact sheet of frames checked, and the full video reviewed start to finish
-- [ ] Thumbnails readable at phone size; 2 options made
+- [x] Thumbnails readable at phone size; 2 options made (final/thumb_A.jpg "WORST JOB? #1", thumb_B.jpg "WOULD YOU?!")

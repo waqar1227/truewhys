@@ -3,9 +3,47 @@
  "title_alt": "The Pig That Was Put on Trial (And Why It Happened)",
  "hook": "In 1386, a pig was dressed in a man's clothes and executed after a real court trial. It wasn't a joke — for centuries, European courts put animals on trial.",
  "summary": "Pigs, bulls, rats, a rooster and even weevils got summonses, lawyers and verdicts. We follow the Pig of Falaise, the lawyer who defended rats (and blamed the cats), the rooster burned for laying an egg, and the weevils who were offered their own land — then reveal the surprising reason church courts kept holding these trials.",
- "chapters": {"0": "The pig in the square", "1": "The Pig of Falaise", "2": "Two kinds of court", "3": "The lawyer for the rats", "4": "The rooster of Basel", "5": "The weevils' land deal", "6": "The real why", "7": "The end of animal trials"},
- "tags": ["animal trials", "medieval animal trials", "pig on trial", "medieval history", "weird history", "history explained", "Falaise pig 1386", "Bartholomew Chassenee", "rats lawyer", "weevil trial", "rooster burned egg Basel", "basilisk legend", "tithes", "Peter Leeson vermin trials", "strange laws", "history animation", "animated history", "TrueWhys", "true story", "middle ages"],
- "hashtags": ["#History", "#MedievalHistory", "#TrueWhys"],
+ "chapters": {
+  "0": "The pig in the square",
+  "1": "The Pig of Falaise",
+  "2": "Two kinds of court",
+  "3": "The lawyer for the rats",
+  "4": "The rooster of Basel",
+  "5": "The weevils' land deal",
+  "6": "The real why",
+  "7": "The end of animal trials"
+ },
+ "tags": [
+  "animal trials",
+  "medieval animal trials",
+  "pig on trial",
+  "medieval history",
+  "weird history",
+  "history explained",
+  "Falaise pig 1386",
+  "Bartholomew Chassenee",
+  "rats lawyer",
+  "weevil trial",
+  "rooster burned egg Basel",
+  "basilisk legend",
+  "tithes",
+  "Peter Leeson vermin trials",
+  "strange laws",
+  "history animation",
+  "animated history",
+  "TrueWhys",
+  "true story",
+  "middle ages"
+ ],
+ "hashtags": [
+  "#History",
+  "#MedievalHistory",
+  "#TrueWhys"
+ ],
  "pinned": "Which trial surprised you most — the pig, the rats' lawyer, the rooster, or the weevils' land deal? 🐷🐀🐓🪲 What why should Wy answer next?",
- "playlist": "Full Stories"
+ "playlist": "Full Stories",
+ "sources": [
+  "E. P. Evans, The Criminal Prosecution and Capital Punishment of Animals (1906)",
+  "Peter T. Leeson, \"Vermin Trials\", Journal of Law and Economics 56(3), 2013"
+ ]
 }

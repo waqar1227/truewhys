@@ -14,6 +14,7 @@ def ts(t): t = int(t); return f"{t // 60}:{t % 60:02d}"
 chap = "\n".join(f"{ts(starts[k])} {v}" for k, v in sorted(seo["chapters"].items(), key=lambda kv: starts.get(kv[0], 0)) if k in starts)
 src = (ep / "sources.md").read_text()
 urls = sorted(set(re.findall(r"https?://[^\s)|]+", src)))
+extra_credit = ("\n" + seo["credits_extra"]) if seo.get("credits_extra") else ""
 desc = f"""{seo['hook']}
 
 {seo['summary']}
@@ -22,13 +23,11 @@ Chapters
 {chap}
 
 Sources
-• E. P. Evans, The Criminal Prosecution and Capital Punishment of Animals (1906)
-• Peter T. Leeson, "Vermin Trials", Journal of Law and Economics 56(3), 2013
-""" + "\n".join("• " + u for u in urls if "gutenberg" not in u) + f"""
+""" + "\n".join("• " + b for b in seo.get("sources", [])) + "\n" + "\n".join("• " + u for u in urls if "gutenberg" not in u) + f"""
 
 Credits
 Animation, 3D sets, characters and music: TrueWhys (original). Narration voice: AI-generated.
-Sound effects: CC0 — Kenney & OpenGameArt contributors; BigSoundBank (Joseph Sardin). Map data: Natural Earth (public domain).
+Sound effects: CC0 — Kenney & OpenGameArt contributors; BigSoundBank (Joseph Sardin). Map data: Natural Earth (public domain).{extra_credit}
 
 TrueWhys — the real story behind life's weirdest whys.
 {' '.join(seo['hashtags'])}"""
