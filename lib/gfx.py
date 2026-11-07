@@ -328,7 +328,7 @@ DOCS = {
     "potion": ("WITCHES' POTIONS", ["Rooster eggs were said to be", "the secret ingredient."], "potion"),
     # B-002 (paraphrased summaries, not quotations; sources in episodes/B-002-worst-jobs/sources.md)
     "aleassize": ("THE ASSIZE OF BREAD AND ALE", ["Ale must be sold at a fair price,", "in honest measures, and of good", "strength. Brewers who break the", "rule are fined by the court."], "seal"),
-    "toady": ("A WORD IS BORN", ["toad-eater  (1600s)", "  → someone who flatters the powerful", "toady  (1800s)", "  → still used today"], "paper"),
+    "toady": ("A WORD IS BORN", ["TOAD-EATER (1600s):", "someone who flatters the powerful", "", "TOADY (1800s):", "the same idea, still used today"], "paper"),
     "aubrey": ("JOHN AUBREY · 1680s", ["In parts of Wales and the border,", "a poor man was hired at funerals", "to eat bread and drink ale passed", "over the body, and so take on", "the sins of the dead."], "paper"),
     "order1627": ("ROYAL ORDER · 1627", ["Saltpetre men may dig in stables,", "dove-houses and cellars.", "Owners must leave those floors", "as loose, open earth, ready", "for the next digging."], "seal"),
     "surnames": ("SURNAMES FROM THIS JOB", ["FULLER", "TUCKER", "WALKER", "", "All mean someone who fulled cloth."], "paper"),

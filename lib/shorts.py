@@ -16,6 +16,9 @@ LENS_K = 1.75  # 9:16 frame then shows ~57% of the landscape width and ~1.0x its
 VW, VH = 1080, 1920
 SUBJ_Y = 0.43
 END_DUR = 2.6
+SUBJ_H = 0.36   # main subject height as a share of the vertical frame
+ZOOM_MAX, ZOOM_MIN = 1.6, 0.7
+ANIMALS = {"pig", "bull", "rat", "weevil", "rooster", "hen", "dog", "cat", "horse", "mouse", "locust", "toad", "sheep", "goat", "cow"}  # wider than tall
 
 
 def est_words(text):
@@ -45,20 +48,41 @@ def reaim(cam, chars, W=1920, H=1080):
         x, y, z, ppm = camera.project(a["at"], pos, tgt, lens, W, H)
         if z < 0.3 or x < -0.1 * W or x > 1.1 * W:
             continue
-        w = a.get("h", 1.4) * ppm * (2.2 if a.get("talk") else 1.0) * (1.4 if a.get("main") else 1.0)
+        w = a.get("h", 1.4) * ppm * (2.2 if a.get("talk") else 1.0) * (1.4 if a.get("main") else 1.0) \
+            * (1.6 if (a.get("hold_r") or a.get("hold") or a.get("gest")) else 1.0)  # the one doing the action
         best.append((w, x, a))
     if not best:
         best = [(1, W / 2, chars[0])]
     best.sort(key=lambda b: -b[0])
     px = best[0][1]
-    half = W * 0.5 / LENS_K * 0.75  # keep within the narrow frame
+    half = W * 0.5 / LENS_K * 1.15  # neighbours this close join the group; the zoom below then fits the group
     group = [b for b in best if abs(b[1] - px) < half]
     wsum = sum(b[0] for b in group)
     aim = np.array([sum(b[0] * np.array(b[2]["at"][:2], float) for b in group) / wsum])[0]
     # body centre of the group: we tilt so it sits at SUBJ_Y of the frame height (captions live lower, at 0.68)
     zc = sum(b[0] * (b[2]["at"][2] + b[2].get("h", 1.4) * 0.5) for b in group) / wsum
-    for k in ("from", "to"):
-        c = cam.get(k)
+    # adaptive zoom (from the first key): the main subject fills ~36% of the frame height, and the group fits the width
+    k = 1.0
+    c0 = cam.get("from")
+    if c0:
+        p = np.array(c0["pos"], float); t = np.array(c0["tgt"], float)
+        hdir = aim - p[:2]
+        if np.linalg.norm(hdir) > 0.3:
+            R0 = float(np.linalg.norm(t - p)); pitch0 = math.asin(max(-1, min(1, (t - p)[2] / R0)))
+            hdir = hdir / np.linalg.norm(hdir)
+            t2 = p + R0 * np.array([hdir[0] * math.cos(pitch0), hdir[1] * math.cos(pitch0), math.sin(pitch0)])
+            lv = c0["lens"] * LENS_K
+            pr = [(camera.project(b[2]["at"], p, t2, lv, VW, VH), b[2].get("h", 1.4), b[2].get("c", "")) for b in group]
+            pr = [(x, ppm, h, 0.8 if c.rstrip("0123456789") in ANIMALS else 0.38) for (x, y, z, ppm), h, c in pr if z > 0.3]
+            if pr:
+                frac = max(ppm * h for x, ppm, h, wf in pr) / VH
+                spread = max(x + ppm * h * wf for x, ppm, h, wf in pr) - min(x - ppm * h * wf for x, ppm, h, wf in pr)
+                k = min(ZOOM_MAX, SUBJ_H / frac) if frac < SUBJ_H - 0.02 else 1.0
+                k = max(ZOOM_MIN, min(k, 0.86 * VW / max(spread, 1)))
+                if any(wf > 0.5 for x, ppm, h, wf in pr):  # animals are drawn behind their anchor: keep room for the body
+                    k = min(k, 1.2)
+    for key in ("from", "to"):
+        c = cam.get(key)
         if not c:
             continue
         p = np.array(c["pos"], float); t = np.array(c["tgt"], float)
@@ -69,7 +93,7 @@ def reaim(cam, chars, W=1920, H=1080):
         if hn < 0.3:
             continue
         h /= hn
-        lens_v = c["lens"] * LENS_K
+        lens_v = c["lens"] * LENS_K * k
         fpx = lens_v / camera.SENSOR * VW
         dist = float(np.linalg.norm(aim - p[:2]))
         elev = math.atan2(zc - p[2], dist)
@@ -77,7 +101,7 @@ def reaim(cam, chars, W=1920, H=1080):
         pitch = max(pitch - 0.35, min(pitch + 0.35, want))  # stay close to the director's original tilt
         nt = p + R * np.array([h[0] * math.cos(pitch), h[1] * math.cos(pitch), math.sin(pitch)])
         c["tgt"] = [round(float(v), 3) for v in nt]
-        c["lens"] = round(c["lens"] * LENS_K, 2)
+        c["lens"] = round(lens_v, 2)
     return cam
 
 
