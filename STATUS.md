@@ -12,6 +12,7 @@
 - [ ] Cut Shorts C0–C7: vertical 1080×1920 plates on Kaggle, compose, QA — must be finished BEFORE scheduling B-001
 
 ## Release plan
+- **Owner rule (7 Nov): schedule every QA-passed episode + its Shorts on YouTube immediately; never hold finished videos; no owner preview needed.**
 - B-001 long video → all its cut Shorts (C0–C7) within the next 24 h, ~1 every 3 h (rendered + QA'd before the long video goes live) → standalone Shorts (new categories) in the following days → then B-002.
 - No fixed dates: B-001 publishes only after every shot passes QA. Target Sun 8 Nov 15:00 UTC if QA passes.
 

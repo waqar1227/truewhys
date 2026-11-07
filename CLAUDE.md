@@ -106,3 +106,11 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
 - Voice: Gemini TTS (`gemini-3.8-flash-tts`, key injected by the network proxy for generativelanguage.googleapis.com; free tier = 10 requests/day/model, so generate one request per chapter) when it measures better than Kokoro; Kokoro `am_michael` is the fallback.
 - Push to the session branch given in the session instructions (Kaggle gets files through private datasets, not git).
 - Release plan (owner, 6 Nov 2026, updated): **all Shorts cut from a long video go live within 24 hours after the long video**, spread out (about one every 3 hours), each with the long video as Related video. All Shorts are rendered, QA'd and scheduled *before* the long video publishes. Every cut Short is out before the next long video. Also make standalone Shorts on other topics between them (same quality bar). No hurry: quality and a strong first impression matter more than dates.
+
+## Owner rule added 7 Nov 2026: schedule immediately, never hold finished videos
+- As soon as an episode (long video) and its cut Shorts pass the professional QA gate (`qa.md` all ticked), upload and **schedule them on YouTube right away**
+  (private + `publishAt` in their release slots), with the full SEO package. Do not wait for the owner to watch or confirm, and do not send him the final file first.
+- Never keep a finished, QA-passed video unscheduled. If several episodes are finished (e.g. working on episode 10 with 1–9 done), all finished ones must already be scheduled in their slots.
+- Slots: each long video gets the next free slot after the previous episode's cut Shorts; its cut Shorts follow within 24 h (~1 every 3 h). Standalone Shorts fill gaps.
+- Quality is still the gate: if anything looks amateur, fix it before scheduling; never schedule a video that fails QA.
+- The "ask the owner before the first upload of each week" rule above no longer applies.
