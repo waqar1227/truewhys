@@ -60,3 +60,10 @@
    and re-create the scheduled heartbeat (every 4 h).
 4. Rendered plates: re-download from Kaggle (`kaggle kernels output waqarahmed51/truewhys-render-<id>`) into episodes/<id>/renders/.
    Voices: regenerate with lib/voice_gemini.py (or Kokoro lib/voice.py). Uploaded videos live on YouTube.
+
+## Update 7 Nov 2026, 18:10 UTC
+- **B-001 uploaded and scheduled on YouTube:** https://youtu.be/9C-9O0c6VqM — private, publishAt 2026-11-08T15:00:00Z, thumb_A, playlist Full Stories.
+  TODO after 15:00 UTC 8 Nov: post + pin the comment (API refused before publish); owner sets nothing else.
+- B-001 Shorts: composed, QA'd; 5 re-composed with pop-word fit fix → then upload with `--long 9C-9O0c6VqM` (slots +1 h, every 3 h).
+- Facebook: Page ID/name in env, token as network secret for graph.facebook.com — **token expired 7 Nov 17:00 UTC (short-lived)**; owner must save a long-lived Page token.
+- TikTok: connected in Metricool (brand id 7942824, account "truewhys", timezone Asia/Karachi). Metricool needs a public video URL.
