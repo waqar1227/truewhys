@@ -1,0 +1,677 @@
+{
+ "fps": 30,
+ "resolution": [
+  1080,
+  1920
+ ],
+ "style": "T",
+ "episode": "B-002",
+ "short": "C7",
+ "title": "The Smelliest Job in Medieval England",
+ "duration": 45.507,
+ "vertical": true,
+ "shots": [
+  {
+   "line": "H7",
+   "kind": "3d",
+   "set": "yard",
+   "variant": "tannery",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.4,
+      1.8
+     ],
+     "tgt": [
+      2.077,
+      1.663,
+      -0.685
+     ],
+     "lens": 49.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.92,
+      1.665
+     ],
+     "tgt": [
+      2.212,
+      1.546,
+      -0.685
+     ],
+     "lens": 49.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "tanner",
+     "at": [
+      -0.5,
+      0.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "hold",
+     "hold_r": "staff"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      1.4,
+      -0.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ],
+    [
+     0.3,
+     "insects",
+     0.4
+    ]
+   ],
+   "id": "C7_H",
+   "start": 0.0,
+   "dur": 5.985,
+   "chapter": 7,
+   "line_start": 0.15,
+   "music": "mystery"
+  },
+  {
+   "line": "L68",
+   "kind": "3d",
+   "set": "yard",
+   "variant": "tannery",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.4,
+      1.8
+     ],
+     "tgt": [
+      2.077,
+      1.663,
+      -0.685
+     ],
+     "lens": 49.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.2079999999999997,
+      1.746
+     ],
+     "tgt": [
+      2.126,
+      1.623,
+      -0.684
+     ],
+     "lens": 49.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "tanner",
+     "at": [
+      -0.5,
+      0.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "hold",
+     "hold_r": "staff"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      1.4,
+      -0.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.75,
+     "PHEW!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.3,
+     "insects",
+     0.4
+    ]
+   ],
+   "id": "C7_S076",
+   "start": 5.985,
+   "dur": 5.123,
+   "chapter": 7,
+   "line_start": 5.985,
+   "src": "S076",
+   "music": "mystery"
+  },
+  {
+   "line": "L69",
+   "kind": "3d",
+   "set": "yard",
+   "variant": "tannery",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.4,
+      1.8
+     ],
+     "tgt": [
+      -1.152,
+      1.74,
+      -0.356
+     ],
+     "lens": 49.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.064,
+      1.7055
+     ],
+     "tgt": [
+      -1.221,
+      1.684,
+      -0.328
+     ],
+     "lens": 49.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "tanner",
+     "at": [
+      -0.5,
+      0.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "hold",
+     "hold_r": "staff"
+    }
+   ],
+   "part": null,
+   "tag": "SOAKED FOR MONTHS",
+   "sfx": [
+    [
+     0.3,
+     "tick",
+     0.4
+    ]
+   ],
+   "id": "C7_S077",
+   "start": 11.108,
+   "dur": 5.696,
+   "chapter": 7,
+   "line_start": 11.108,
+   "src": "S077"
+  },
+  {
+   "line": "L70",
+   "kind": "3d",
+   "set": "yard",
+   "variant": "tannery",
+   "cam": {
+    "from": {
+     "pos": [
+      -1.6,
+      -2.0,
+      1.1
+     ],
+     "tgt": [
+      -2.032,
+      -0.185,
+      0.187
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      -1.75,
+      -1.745,
+      1.0025000000000002
+     ],
+     "tgt": [
+      -2.045,
+      -0.192,
+      0.217
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "dog",
+     "at": [
+      -2.1,
+      0.1,
+      0
+     ],
+     "h": 0.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.5,
+     "DOG DUNG"
+    ]
+   ],
+   "sfx": [
+    [
+     0.3,
+     "dog",
+     0.4
+    ]
+   ],
+   "id": "C7_S078",
+   "start": 16.804,
+   "dur": 3.157,
+   "chapter": 7,
+   "line_start": 16.804,
+   "src": "S078"
+  },
+  {
+   "line": "L71",
+   "kind": "3d",
+   "set": "yard",
+   "variant": "tannery",
+   "cam": {
+    "from": {
+     "pos": [
+      1.0,
+      -3.0,
+      2.2
+     ],
+     "tgt": [
+      -2.669,
+      10.758,
+      -2.638
+     ],
+     "lens": 45.5
+    },
+    "to": {
+     "pos": [
+      0.88,
+      -1.2000000000000002,
+      2.152
+     ],
+     "tgt": [
+      -3.21,
+      10.407,
+      -2.715
+     ],
+     "lens": 45.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "tanner",
+     "at": [
+      -0.6,
+      3.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down",
+     "hold_r": "staff"
+    }
+   ],
+   "part": null,
+   "tag": "OUTSIDE THE WALLS",
+   "sfx": [
+    [
+     0,
+     "birds",
+     0.3
+    ]
+   ],
+   "id": "C7_S079",
+   "start": 19.961,
+   "dur": 5.879,
+   "chapter": 7,
+   "line_start": 19.961,
+   "src": "S079"
+  },
+  {
+   "line": "L72",
+   "kind": "map",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": [
+    0,
+    0.35
+   ],
+   "view": [
+    -0.4,
+    52.2,
+    7.0
+   ],
+   "pins": [
+    [
+     "Colchester",
+     0.6
+    ]
+   ],
+   "sfx": [
+    [
+     0.6,
+     "pop",
+     0.5
+    ]
+   ],
+   "id": "C7_S080",
+   "start": 25.84,
+   "dur": 3.093,
+   "chapter": 7,
+   "line_start": 25.84,
+   "src": "S080"
+  },
+  {
+   "line": "L72",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": [
+    0.35,
+    1.0
+   ],
+   "doc": "colchester",
+   "sfx": [
+    [
+     0,
+     "paper",
+     0.5
+    ]
+   ],
+   "id": "C7_S081",
+   "start": 28.933,
+   "dur": 5.743,
+   "chapter": 7,
+   "line_start": 25.84,
+   "src": "S081"
+  },
+  {
+   "line": "L73",
+   "kind": "3d",
+   "set": "square",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      -3,
+      -11,
+      3.2
+     ],
+     "tgt": [
+      -2.03,
+      6.857,
+      -2.294
+     ],
+     "lens": 45.5
+    },
+    "to": {
+     "pos": [
+      -2.4,
+      -8.84,
+      3.08
+     ],
+     "tgt": [
+      -2.303,
+      6.742,
+      -2.233
+     ],
+     "lens": 45.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager0",
+     "at": [
+      -3.5,
+      1.5,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down"
+    },
+    {
+     "c": "villager1",
+     "at": [
+      -2.4,
+      0.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      -1.0,
+      1.8,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down"
+    },
+    {
+     "c": "villager3",
+     "at": [
+      5.0,
+      1.5,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "down"
+    },
+    {
+     "c": "villager5",
+     "at": [
+      1.6,
+      2.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "happy",
+     "arms": "present",
+     "hold_r": "bucket"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.3,
+     "SHOES \u00b7 BELTS \u00b7 SADDLES"
+    ]
+   ],
+   "sfx": [
+    [
+     0,
+     "crowd_murmur",
+     0.3
+    ]
+   ],
+   "id": "C7_S082",
+   "start": 34.676,
+   "dur": 5.247,
+   "chapter": 7,
+   "line_start": 34.676,
+   "src": "S082"
+  },
+  {
+   "line": "L74",
+   "kind": "3d",
+   "set": "square",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      1,
+      -5.5,
+      1.5
+     ],
+     "tgt": [
+      2.682,
+      1.665,
+      -0.059
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      1.06,
+      -4.6,
+      1.464
+     ],
+     "tgt": [
+      2.708,
+      1.643,
+      0.004
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "tanner",
+     "at": [
+      0.0,
+      0.6,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "hold_r": "staff"
+    },
+    {
+     "c": "villager0",
+     "at": [
+      2.0,
+      1.0,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "walk": {
+      "to": [
+       3.6,
+       1.0,
+       0
+      ]
+     }
+    },
+    {
+     "c": "villager1",
+     "at": [
+      2.8,
+      0.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "walk": {
+      "to": [
+       4.4,
+       0.2,
+       0
+      ]
+     }
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "footsteps",
+     0.4
+    ]
+   ],
+   "id": "C7_S083",
+   "start": 39.923,
+   "dur": 2.984,
+   "chapter": 7,
+   "line_start": 39.923,
+   "src": "S083"
+  },
+  {
+   "id": "C7_END",
+   "kind": "end",
+   "line": "O1",
+   "start": 42.907,
+   "line_start": 43.057,
+   "dur": 2.6,
+   "chapter": null,
+   "sfx": [
+    [
+     0,
+     "ding",
+     0.5
+    ]
+   ],
+   "music": null
+  }
+ ]
+}

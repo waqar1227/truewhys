@@ -1,0 +1,637 @@
+{
+ "fps": 30,
+ "resolution": [
+  1080,
+  1920
+ ],
+ "style": "T",
+ "episode": "B-002",
+ "short": "C8",
+ "title": "The Worst Job in Old England: The Gong Farmer",
+ "duration": 48.653,
+ "vertical": true,
+ "shots": [
+  {
+   "line": "H8",
+   "kind": "3d",
+   "set": "backyard",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      1.4,
+      -1.8,
+      1.5
+     ],
+     "tgt": [
+      2.43,
+      1.806,
+      0.16
+     ],
+     "lens": 49.0
+    },
+    "to": {
+     "pos": [
+      1.6,
+      -1.46,
+      1.445
+     ],
+     "tgt": [
+      2.395,
+      1.8,
+      0.185
+     ],
+     "lens": 49.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "gongfarmer",
+     "at": [
+      2.2,
+      1.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "sack"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ]
+   ],
+   "music": "warm",
+   "id": "C8_H",
+   "start": 0.0,
+   "dur": 6.555,
+   "chapter": 8,
+   "line_start": 0.15
+  },
+  {
+   "line": "L76",
+   "kind": "3d",
+   "set": "backyard",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.8,
+      -1.0,
+      1.35
+     ],
+     "tgt": [
+      -1.5,
+      3.4,
+      1.2
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      -0.905,
+      -0.33999999999999997,
+      1.3275000000000001
+     ],
+     "tgt": [
+      -1.5,
+      3.4,
+      1.2
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": null,
+   "pop": [
+    [
+     0.35,
+     "GONG = TOILET"
+    ]
+   ],
+   "sfx": [
+    [
+     0.3,
+     "door",
+     0.4
+    ]
+   ],
+   "id": "C8_S086",
+   "start": 6.555,
+   "dur": 5.116,
+   "chapter": 8,
+   "line_start": 6.555,
+   "src": "S086",
+   "music": "warm"
+  },
+  {
+   "line": "L77",
+   "kind": "3d",
+   "set": "backyard",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -4.5,
+      1.8
+     ],
+     "tgt": [
+      1.614,
+      3.334,
+      -0.261
+     ],
+     "lens": 42.0
+    },
+    "to": {
+     "pos": [
+      1.28,
+      -2.74,
+      1.624
+     ],
+     "tgt": [
+      1.658,
+      3.331,
+      -0.088
+     ],
+     "lens": 42.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "gongfarmer",
+     "at": [
+      1.6,
+      2.4,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "present",
+     "hold_r": "bucket"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "shovel",
+     0.6
+    ]
+   ],
+   "id": "C8_S087",
+   "start": 11.671,
+   "dur": 2.451,
+   "chapter": 8,
+   "line_start": 11.671,
+   "src": "S087"
+  },
+  {
+   "line": "L78",
+   "kind": "3d",
+   "set": "backyard",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -4.5,
+      1.8
+     ],
+     "tgt": [
+      -0.48,
+      3.024,
+      -0.459
+     ],
+     "lens": 42.0
+    },
+    "to": {
+     "pos": [
+      1.38,
+      -3.54,
+      1.704
+     ],
+     "tgt": [
+      -0.526,
+      3.005,
+      -0.384
+     ],
+     "lens": 42.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "gongfarmer",
+     "at": [
+      0.0,
+      1.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "raise",
+     "hold_r": "torch",
+     "walk": {
+      "to": [
+       1.4,
+       1.6,
+       0
+      ]
+     }
+    }
+   ],
+   "part": null,
+   "tag": "\"NIGHT SOIL\"",
+   "sfx": [
+    [
+     0.2,
+     "footsteps",
+     0.4
+    ],
+    [
+     0.5,
+     "owl",
+     0.3
+    ]
+   ],
+   "id": "C8_S088",
+   "start": 14.122,
+   "dur": 6.612,
+   "chapter": 8,
+   "line_start": 14.122,
+   "src": "S088"
+  },
+  {
+   "line": "L79",
+   "kind": "3d",
+   "set": "backyard",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      1.0,
+      -0.4,
+      1.6
+     ],
+     "tgt": [
+      2.048,
+      3.005,
+      0.144
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.988,
+      -0.29200000000000004,
+      1.5610000000000002
+     ],
+     "tgt": [
+      2.06,
+      2.997,
+      0.158
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout",
+    "shake": 0.03
+   },
+   "chars": [
+    {
+     "c": "gongfarmer",
+     "at": [
+      1.8,
+      2.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "worried",
+     "arms": "both_up",
+     "blink_fast": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.55,
+     "TOXIC FUMES"
+    ]
+   ],
+   "sfx": [
+    [
+     0.4,
+     "riser",
+     0.4
+    ]
+   ],
+   "id": "C8_S089",
+   "start": 20.734,
+   "dur": 4.294,
+   "chapter": 8,
+   "line_start": 20.734,
+   "src": "S089"
+  },
+  {
+   "line": "L80",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": [
+    0,
+    0.55
+   ],
+   "doc": "coroner1326",
+   "sfx": [
+    [
+     0,
+     "paper",
+     0.5
+    ]
+   ],
+   "id": "C8_S090",
+   "start": 25.028,
+   "dur": 5.059,
+   "chapter": 8,
+   "line_start": 25.028,
+   "src": "S090"
+  },
+  {
+   "line": "L80",
+   "kind": "3d",
+   "set": "backyard",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.8,
+      -1.0,
+      1.35
+     ],
+     "tgt": [
+      -1.5,
+      3.4,
+      1.2
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      -0.884,
+      -0.472,
+      1.332
+     ],
+     "tgt": [
+      -1.5,
+      3.4,
+      1.2
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": [
+    0.55,
+    1.0
+   ],
+   "tag": "LONDON \u00b7 1326",
+   "sfx": [
+    [
+     0.3,
+     "thud",
+     0.5
+    ]
+   ],
+   "id": "C8_S091",
+   "start": 30.087,
+   "dur": 4.139,
+   "chapter": 8,
+   "line_start": 25.028,
+   "src": "S091"
+  },
+  {
+   "line": "L81",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.498,
+      0.377
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.501,
+      0.408
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "chin",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.2,
+     "hmm",
+     0.4
+    ]
+   ],
+   "id": "C8_S092",
+   "start": 34.226,
+   "dur": 2.874,
+   "chapter": 8,
+   "line_start": 34.226,
+   "src": "S092"
+  },
+  {
+   "line": "L82",
+   "kind": "3d",
+   "set": "backyard",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      1.4,
+      -1.8,
+      1.5
+     ],
+     "tgt": [
+      2.43,
+      1.806,
+      0.16
+     ],
+     "lens": 49.0
+    },
+    "to": {
+     "pos": [
+      1.64,
+      -1.392,
+      1.434
+     ],
+     "tgt": [
+      2.387,
+      1.799,
+      0.19
+     ],
+     "lens": 49.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "gongfarmer",
+     "at": [
+      2.2,
+      1.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "sack"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.3,
+     "MONEY"
+    ]
+   ],
+   "sfx": [
+    [
+     0.3,
+     "coins",
+     0.6
+    ]
+   ],
+   "music": "warm",
+   "id": "C8_S093",
+   "start": 37.1,
+   "dur": 3.883,
+   "chapter": 8,
+   "line_start": 37.1,
+   "src": "S093"
+  },
+  {
+   "line": "L83",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.491,
+      0.428
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.745,
+      0.982
+     ],
+     "tgt": [
+      0.6,
+      0.493,
+      0.448
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "present",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "id": "C8_S094",
+   "start": 40.983,
+   "dur": 5.07,
+   "chapter": 8,
+   "line_start": 40.983,
+   "src": "S094"
+  },
+  {
+   "id": "C8_END",
+   "kind": "end",
+   "line": "O1",
+   "start": 46.053,
+   "line_start": 46.203,
+   "dur": 2.6,
+   "chapter": null,
+   "sfx": [
+    [
+     0,
+     "ding",
+     0.5
+    ]
+   ],
+   "music": null
+  }
+ ]
+}

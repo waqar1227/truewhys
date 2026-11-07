@@ -1,0 +1,158 @@
+{
+ "note": "Cut Shorts from B-002 (one per ranked job). Release order = list order, starting with #1 the gong farmer. Related video = B-002.",
+ "outro": {
+  "id": "O1",
+  "text": "Full story on TrueWhys.",
+  "say": "Full story on True Whys."
+ },
+ "shorts": [
+  {
+   "id": "C8",
+   "title": "The Worst Job in Old England: The Gong Farmer",
+   "hook": {
+    "id": "H8",
+    "text": "The worst job in old England? Emptying toilets. By hand. At night."
+   },
+   "lines": [
+    "L76",
+    "L77",
+    "L78",
+    "L79",
+    "L80",
+    "L81",
+    "L82",
+    "L83"
+   ]
+  },
+  {
+   "id": "C2",
+   "title": "The King's Toilet Servant Who Became Powerful",
+   "hook": {
+    "id": "H2",
+    "text": "The most trusted man in Tudor England... worked in the king's toilet."
+   },
+   "lines": [
+    "L20",
+    "L21",
+    "L22",
+    "L23",
+    "L24",
+    "L25",
+    "L26",
+    "L27",
+    "L28"
+   ]
+  },
+  {
+   "id": "C3",
+   "title": "The Job Where You Had to Swallow a Toad",
+   "hook": {
+    "id": "H3",
+    "text": "His job was to swallow a toad. In front of a crowd."
+   },
+   "lines": [
+    "L30",
+    "L31",
+    "L32",
+    "L33",
+    "L34",
+    "L35",
+    "L36",
+    "L37",
+    "L38",
+    "L39"
+   ]
+  },
+  {
+   "id": "C4",
+   "title": "The Man Paid to Eat a Dead Man's Sins",
+   "hook": {
+    "id": "H4",
+    "text": "Some people were paid to eat a dead man's sins."
+   },
+   "lines": [
+    "L41",
+    "L42",
+    "L43",
+    "L44",
+    "L45",
+    "L46",
+    "L47",
+    "L48",
+    "L49"
+   ]
+  },
+  {
+   "id": "C5",
+   "title": "The King's Men Who Could Dig Up Your Floor",
+   "hook": {
+    "id": "H5",
+    "text": "In 1627, the king's men could dig up your floor. And you couldn't say no.",
+    "say": "In sixteen twenty-seven, the king's men could dig up your floor. And you couldn't say no."
+   },
+   "lines": [
+    "L51",
+    "L52",
+    "L53",
+    "L54",
+    "L55",
+    "L56",
+    "L57",
+    "L58"
+   ]
+  },
+  {
+   "id": "C6",
+   "title": "Why Workers Stomped on Cloth in Old Urine",
+   "hook": {
+    "id": "H6",
+    "text": "For centuries, new cloth was washed... in old urine."
+   },
+   "lines": [
+    "L60",
+    "L61",
+    "L62",
+    "L63",
+    "L64",
+    "L65",
+    "L66"
+   ]
+  },
+  {
+   "id": "C7",
+   "title": "The Smelliest Job in Medieval England",
+   "hook": {
+    "id": "H7",
+    "text": "This job smelled so bad, towns pushed it outside the walls."
+   },
+   "lines": [
+    "L68",
+    "L69",
+    "L70",
+    "L71",
+    "L72",
+    "L73",
+    "L74"
+   ]
+  },
+  {
+   "id": "C1",
+   "title": "The Medieval Job Where You Drank Ale for Work",
+   "hook": {
+    "id": "H1",
+    "text": "In medieval England, one man was chosen to drink ale for his job. So why did everyone hate him?"
+   },
+   "lines": [
+    "L09",
+    "L10",
+    "L11",
+    "L12",
+    "L13",
+    "L15",
+    "L16",
+    "L17",
+    "L18"
+   ]
+  }
+ ]
+}

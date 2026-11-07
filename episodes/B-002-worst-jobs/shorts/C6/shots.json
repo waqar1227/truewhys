@@ -1,0 +1,537 @@
+{
+ "fps": 30,
+ "resolution": [
+  1080,
+  1920
+ ],
+ "style": "T",
+ "episode": "B-002",
+ "short": "C6",
+ "title": "Why Workers Stomped on Cloth in Old Urine",
+ "duration": 43.382,
+ "vertical": true,
+ "shots": [
+  {
+   "line": "H6",
+   "kind": "3d",
+   "set": "yard",
+   "variant": "fullers",
+   "cam": {
+    "from": {
+     "pos": [
+      1.4,
+      -2.6,
+      1.7
+     ],
+     "tgt": [
+      1.4,
+      0.467,
+      0.015
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      1.28,
+      -2.28,
+      1.625
+     ],
+     "tgt": [
+      1.453,
+      0.43,
+      0.031
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager3",
+     "at": [
+      1.4,
+      -0.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "worried",
+     "arms": "present",
+     "hold_r": "bucket"
+    },
+    {
+     "c": "fuller",
+     "at": [
+      -0.4,
+      -0.5,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ]
+   ],
+   "id": "C6_H",
+   "start": 0.0,
+   "dur": 5.23,
+   "chapter": 6,
+   "line_start": 0.15,
+   "music": "mystery"
+  },
+  {
+   "line": "L60",
+   "kind": "3d",
+   "set": "yard",
+   "variant": "fullers",
+   "cam": {
+    "from": {
+     "pos": [
+      5.2,
+      -2.8,
+      1.5
+     ],
+     "tgt": [
+      4.811,
+      2.389,
+      0.026
+     ],
+     "lens": 49.0
+    },
+    "to": {
+     "pos": [
+      5.368,
+      -2.176,
+      1.44
+     ],
+     "tgt": [
+      4.742,
+      2.34,
+      0.075
+     ],
+     "lens": 49.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "fuller",
+     "at": [
+      4.9,
+      1.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "present",
+     "hold_r": "cloth"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "whoosh_soft",
+     0.3
+    ]
+   ],
+   "id": "C6_S067",
+   "start": 5.23,
+   "dur": 4.971,
+   "chapter": 6,
+   "line_start": 5.23,
+   "src": "S067",
+   "music": "mystery"
+  },
+  {
+   "line": "L61",
+   "kind": "3d",
+   "set": "yard",
+   "variant": "fullers",
+   "cam": {
+    "from": {
+     "pos": [
+      1.4,
+      -2.6,
+      1.7
+     ],
+     "tgt": [
+      -0.683,
+      -0.17,
+      0.286
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      1.3399999999999999,
+      -2.44,
+      1.6624999999999999
+     ],
+     "tgt": [
+      -0.685,
+      -0.183,
+      0.301
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "fuller",
+     "at": [
+      -0.4,
+      -0.5,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.6,
+     "URINE?!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.55,
+     "boing",
+     0.5
+    ]
+   ],
+   "id": "C6_S068",
+   "start": 10.201,
+   "dur": 3.91,
+   "chapter": 6,
+   "line_start": 10.201,
+   "src": "S068"
+  },
+  {
+   "line": "L62",
+   "kind": "3d",
+   "set": "yard",
+   "variant": "fullers",
+   "cam": {
+    "from": {
+     "pos": [
+      1.4,
+      -2.6,
+      1.7
+     ],
+     "tgt": [
+      1.4,
+      0.467,
+      0.015
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      1.3519999999999999,
+      -2.472,
+      1.67
+     ],
+     "tgt": [
+      1.42,
+      0.454,
+      0.022
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager3",
+     "at": [
+      1.4,
+      -0.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "worried",
+     "arms": "present",
+     "hold_r": "bucket"
+    },
+    {
+     "c": "fuller",
+     "at": [
+      -0.4,
+      -0.5,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "tag": "LEFT FOR DAYS",
+   "sfx": [
+    [
+     0.5,
+     "splash",
+     0.6
+    ]
+   ],
+   "id": "C6_S069",
+   "start": 14.111,
+   "dur": 5.035,
+   "chapter": 6,
+   "line_start": 14.111,
+   "src": "S069"
+  },
+  {
+   "line": "L63",
+   "kind": "3d",
+   "set": "yard",
+   "variant": "fullers",
+   "cam": {
+    "from": {
+     "pos": [
+      1.4,
+      -2.6,
+      1.7
+     ],
+     "tgt": [
+      0.133,
+      0.568,
+      0.924
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      1.2799999999999998,
+      -2.2800000000000002,
+      1.625
+     ],
+     "tgt": [
+      0.13,
+      0.574,
+      0.956
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "fuller",
+     "at": [
+      0.2,
+      0.4,
+      0.5
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "worried",
+     "arms": "both_up",
+     "cut": [
+      -0.45,
+      0.91
+     ],
+     "bob": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.8,
+     "FOR HOURS"
+    ]
+   ],
+   "sfx": [
+    [
+     0.3,
+     "footsteps",
+     0.6
+    ]
+   ],
+   "id": "C6_S070",
+   "start": 19.146,
+   "dur": 5.589,
+   "chapter": 6,
+   "line_start": 19.146,
+   "src": "S070"
+  },
+  {
+   "line": "L64",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.498,
+      0.377
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.501,
+      0.408
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "point_r",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.45,
+     "AMMONIA"
+    ]
+   ],
+   "sfx": [
+    [
+     0.4,
+     "sparkle",
+     0.4
+    ]
+   ],
+   "id": "C6_S071",
+   "start": 24.735,
+   "dur": 4.578,
+   "chapter": 6,
+   "line_start": 24.735,
+   "src": "S071"
+  },
+  {
+   "line": "L65",
+   "kind": "3d",
+   "set": "yard",
+   "variant": "fullers",
+   "cam": {
+    "from": {
+     "pos": [
+      1.82,
+      -5.8,
+      2.712
+     ],
+     "tgt": [
+      0.5,
+      3.0,
+      0.6
+     ],
+     "lens": 42.0
+    },
+    "to": {
+     "pos": [
+      2,
+      -7.0,
+      3.0
+     ],
+     "tgt": [
+      0.5,
+      3.0,
+      0.6
+     ],
+     "lens": 42.0
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": null,
+   "tag": "WATER MILLS",
+   "sfx": [
+    [
+     0,
+     "wind",
+     0.3
+    ]
+   ],
+   "id": "C6_S072",
+   "start": 29.313,
+   "dur": 4.386,
+   "chapter": 6,
+   "line_start": 29.313,
+   "src": "S072"
+  },
+  {
+   "line": "L66",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "doc": "surnames",
+   "sfx": [
+    [
+     0,
+     "quill",
+     0.5
+    ]
+   ],
+   "id": "C6_S073",
+   "start": 33.699,
+   "dur": 7.083,
+   "chapter": 6,
+   "line_start": 33.699,
+   "src": "S073"
+  },
+  {
+   "id": "C6_END",
+   "kind": "end",
+   "line": "O1",
+   "start": 40.782,
+   "line_start": 40.932,
+   "dur": 2.6,
+   "chapter": null,
+   "sfx": [
+    [
+     0,
+     "ding",
+     0.5
+    ]
+   ],
+   "music": null
+  }
+ ]
+}

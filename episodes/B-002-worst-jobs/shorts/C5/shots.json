@@ -1,0 +1,662 @@
+{
+ "fps": 30,
+ "resolution": [
+  1080,
+  1920
+ ],
+ "style": "T",
+ "episode": "B-002",
+ "short": "C5",
+ "title": "The King's Men Who Could Dig Up Your Floor",
+ "duration": 47.131,
+ "vertical": true,
+ "shots": [
+  {
+   "line": "H5",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "stable",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -3.8,
+      1.6
+     ],
+     "tgt": [
+      1.327,
+      1.744,
+      -0.539
+     ],
+     "lens": 38.5
+    },
+    "to": {
+     "pos": [
+      1.25,
+      -3.27,
+      1.5
+     ],
+     "tgt": [
+      1.529,
+      1.69,
+      -0.487
+     ],
+     "lens": 38.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "saltpetre",
+     "at": [
+      1.4,
+      -0.6,
+      0
+     ],
+     "h": 1.55,
+     "face": "L",
+     "expr": "smug",
+     "arms": "raise",
+     "hold_r": "shovel",
+     "gest": [
+      [
+       0.3,
+       "slam"
+      ],
+      [
+       0.65,
+       "slam"
+      ]
+     ]
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ]
+   ],
+   "id": "C5_H",
+   "start": 0.0,
+   "dur": 7.495,
+   "chapter": 5,
+   "line_start": 0.15,
+   "music": "mystery"
+  },
+  {
+   "line": "L51",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.491,
+      0.428
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.745,
+      0.982
+     ],
+     "tgt": [
+      0.6,
+      0.493,
+      0.448
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "present",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.45,
+     "GUNPOWDER"
+    ]
+   ],
+   "sfx": [
+    [
+     0.4,
+     "thud",
+     0.5
+    ]
+   ],
+   "id": "C5_S057",
+   "start": 7.495,
+   "dur": 3.157,
+   "chapter": 5,
+   "line_start": 7.495,
+   "src": "S057",
+   "music": "mystery"
+  },
+  {
+   "line": "L52",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "stable",
+   "cam": {
+    "from": {
+     "pos": [
+      3.0,
+      -3.4,
+      1.5
+     ],
+     "tgt": [
+      1.2,
+      -0.7,
+      0.45
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      2.73,
+      -2.995,
+      1.3425
+     ],
+     "tgt": [
+      1.2,
+      -0.7,
+      0.45
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": null,
+   "pop": [
+    [
+     0.75,
+     "ANIMAL WASTE"
+    ]
+   ],
+   "sfx": [
+    [
+     0.7,
+     "boing",
+     0.3
+    ]
+   ],
+   "id": "C5_S058",
+   "start": 10.652,
+   "dur": 5.01,
+   "chapter": 5,
+   "line_start": 10.652,
+   "src": "S058"
+  },
+  {
+   "line": "L53",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "stable",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -3.8,
+      1.6
+     ],
+     "tgt": [
+      -2.104,
+      0.486,
+      -0.396
+     ],
+     "lens": 38.5
+    },
+    "to": {
+     "pos": [
+      0.7,
+      -3.8,
+      1.6
+     ],
+     "tgt": [
+      -2.359,
+      0.842,
+      -0.506
+     ],
+     "lens": 38.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "rooster",
+     "at": [
+      -2.2,
+      0.6,
+      0
+     ],
+     "h": 0.55,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "rooster",
+     0.4
+    ]
+   ],
+   "id": "C5_S059",
+   "start": 15.662,
+   "dur": 4.008,
+   "chapter": 5,
+   "line_start": 15.662,
+   "src": "S059"
+  },
+  {
+   "line": "L54",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "stable",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -3.8,
+      1.6
+     ],
+     "tgt": [
+      -0.862,
+      1.311,
+      -0.309
+     ],
+     "lens": 38.5
+    },
+    "to": {
+     "pos": [
+      1.2,
+      -3.1639999999999997,
+      1.48
+     ],
+     "tgt": [
+      -0.864,
+      1.323,
+      -0.244
+     ],
+     "lens": 38.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "saltpetre",
+     "at": [
+      0.6,
+      -0.6,
+      0
+     ],
+     "h": 1.55,
+     "face": "L",
+     "expr": "smug",
+     "arms": "present",
+     "hold_r": "scroll"
+    },
+    {
+     "c": "farmer",
+     "at": [
+      -1.4,
+      0.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "paper",
+     0.5
+    ]
+   ],
+   "id": "C5_S060",
+   "start": 19.67,
+   "dur": 3.218,
+   "chapter": 5,
+   "line_start": 19.67,
+   "src": "S060"
+  },
+  {
+   "line": "L55",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "doc": "order1627",
+   "sfx": [
+    [
+     0,
+     "paper",
+     0.6
+    ]
+   ],
+   "id": "C5_S061",
+   "start": 22.888,
+   "dur": 6.985,
+   "chapter": 5,
+   "line_start": 22.888,
+   "src": "S061"
+  },
+  {
+   "line": "L56",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "stable",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -3.8,
+      1.6
+     ],
+     "tgt": [
+      1.327,
+      1.744,
+      -0.539
+     ],
+     "lens": 38.5
+    },
+    "to": {
+     "pos": [
+      1.25,
+      -3.2699999999999996,
+      1.5
+     ],
+     "tgt": [
+      1.529,
+      1.69,
+      -0.487
+     ],
+     "lens": 38.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "saltpetre",
+     "at": [
+      1.4,
+      -0.6,
+      0
+     ],
+     "h": 1.55,
+     "face": "L",
+     "expr": "smug",
+     "arms": "raise",
+     "hold_r": "shovel",
+     "gest": [
+      [
+       0.3,
+       "slam"
+      ],
+      [
+       0.65,
+       "slam"
+      ]
+     ]
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "shovel",
+     0.7
+    ],
+    [
+     0.65,
+     "shovel",
+     0.7
+    ]
+   ],
+   "id": "C5_S062",
+   "start": 29.873,
+   "dur": 5.867,
+   "chapter": 5,
+   "line_start": 29.873,
+   "src": "S062"
+  },
+  {
+   "line": "L57",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "stable",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -3.8,
+      1.6
+     ],
+     "tgt": [
+      0.312,
+      1.63,
+      -0.508
+     ],
+     "lens": 38.5
+    },
+    "to": {
+     "pos": [
+      1.125,
+      -3.005,
+      1.4500000000000002
+     ],
+     "tgt": [
+      0.498,
+      1.632,
+      -0.458
+     ],
+     "lens": 38.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "farmer",
+     "at": [
+      -1.4,
+      0.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "angry",
+     "arms": "point_r"
+    },
+    {
+     "c": "saltpetre",
+     "at": [
+      0.8,
+      -0.6,
+      0
+     ],
+     "h": 1.55,
+     "face": "L",
+     "expr": "smug",
+     "arms": "down",
+     "hold_r": "shovel"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.75,
+     "NO CHOICE"
+    ]
+   ],
+   "sfx": [
+    [
+     0.1,
+     "door",
+     0.4
+    ]
+   ],
+   "id": "C5_S063",
+   "start": 35.74,
+   "dur": 4.844,
+   "chapter": 5,
+   "line_start": 35.74,
+   "src": "S063"
+  },
+  {
+   "line": "L58",
+   "kind": "3d",
+   "set": "square",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      1,
+      -5.5,
+      1.5
+     ],
+     "tgt": [
+      -0.192,
+      1.773,
+      -0.008
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      1.06,
+      -4.6,
+      1.464
+     ],
+     "tgt": [
+      -0.232,
+      1.738,
+      0.057
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager0",
+     "at": [
+      2.6,
+      1.0,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "angry",
+     "arms": "down"
+    },
+    {
+     "c": "villager1",
+     "at": [
+      3.6,
+      0.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "angry",
+     "arms": "down"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      4.4,
+      1.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "angry",
+     "arms": "down"
+    },
+    {
+     "c": "saltpetre",
+     "at": [
+      0.0,
+      0.6,
+      0
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "smug",
+     "arms": "down",
+     "hold_r": "shovel"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.6,
+     "HATED"
+    ]
+   ],
+   "sfx": [
+    [
+     0.5,
+     "crowd_murmur",
+     0.5
+    ]
+   ],
+   "id": "C5_S064",
+   "start": 40.584,
+   "dur": 3.947,
+   "chapter": 5,
+   "line_start": 40.584,
+   "src": "S064"
+  },
+  {
+   "id": "C5_END",
+   "kind": "end",
+   "line": "O1",
+   "start": 44.531,
+   "line_start": 44.681,
+   "dur": 2.6,
+   "chapter": null,
+   "sfx": [
+    [
+     0,
+     "ding",
+     0.5
+    ]
+   ],
+   "music": null
+  }
+ ]
+}

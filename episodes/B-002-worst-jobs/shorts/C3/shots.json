@@ -1,0 +1,992 @@
+{
+ "fps": 30,
+ "resolution": [
+  1080,
+  1920
+ ],
+ "style": "T",
+ "episode": "B-002",
+ "short": "C3",
+ "title": "The Job Where You Had to Swallow a Toad",
+ "duration": 45.818,
+ "vertical": true,
+ "shots": [
+  {
+   "line": "H3",
+   "kind": "3d",
+   "set": "fair",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.4,
+      -2.0,
+      1.75
+     ],
+     "tgt": [
+      -0.87,
+      3.864,
+      1.459
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.38,
+      -1.4,
+      1.77
+     ],
+     "tgt": [
+      -0.865,
+      3.854,
+      1.51
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "quack",
+     "at": [
+      -0.9,
+      4.0,
+      1.2
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "smug",
+     "arms": "present"
+    },
+    {
+     "c": "toadboy",
+     "at": [
+      0.6,
+      3.7,
+      1.2
+     ],
+     "h": 1.3,
+     "face": "L",
+     "expr": "happy_closed",
+     "arms": "raise",
+     "hold_r": "toad"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ]
+   ],
+   "id": "C3_H",
+   "start": 0.0,
+   "dur": 5.73,
+   "chapter": 3,
+   "line_start": 0.15,
+   "music": "mystery"
+  },
+  {
+   "line": "L30",
+   "kind": "3d",
+   "set": "fair",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0,
+      -7.5,
+      1.8
+     ],
+     "tgt": [
+      -1.754,
+      3.161,
+      -0.269
+     ],
+     "lens": 45.5
+    },
+    "to": {
+     "pos": [
+      0.0,
+      -6.18,
+      1.812
+     ],
+     "tgt": [
+      -1.797,
+      3.124,
+      -0.167
+     ],
+     "lens": 45.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager0",
+     "at": [
+      -2.8,
+      1.0,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "villager1",
+     "at": [
+      -1.6,
+      0.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      -0.4,
+      1.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "villager3",
+     "at": [
+      1.2,
+      0.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "quack",
+     "at": [
+      -0.9,
+      4.0,
+      1.2
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "smug",
+     "arms": "present",
+     "hold_r": "bottle"
+    }
+   ],
+   "part": null,
+   "tag": "THE 1600s",
+   "sfx": [
+    [
+     0.4,
+     "sparkle",
+     0.4
+    ]
+   ],
+   "id": "C3_S032",
+   "start": 5.73,
+   "dur": 4.864,
+   "chapter": 3,
+   "line_start": 5.73,
+   "src": "S032",
+   "music": "mystery"
+  },
+  {
+   "line": "L31",
+   "kind": "3d",
+   "set": "fair",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.4,
+      -2.0,
+      1.75
+     ],
+     "tgt": [
+      -0.87,
+      3.864,
+      1.459
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.376,
+      -1.28,
+      1.774
+     ],
+     "tgt": [
+      -0.864,
+      3.852,
+      1.52
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "quack",
+     "at": [
+      -0.9,
+      4.0,
+      1.2
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "smug",
+     "arms": "point_r"
+    },
+    {
+     "c": "toadboy",
+     "at": [
+      0.6,
+      3.7,
+      1.2
+     ],
+     "h": 1.3,
+     "face": "L",
+     "expr": "happy",
+     "arms": "wave"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "boing",
+     0.3
+    ]
+   ],
+   "id": "C3_S033",
+   "start": 10.594,
+   "dur": 2.0,
+   "chapter": 3,
+   "line_start": 10.594,
+   "src": "S033"
+  },
+  {
+   "line": "L32",
+   "kind": "3d",
+   "set": "fair",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -1.0,
+      0.8
+     ],
+     "tgt": [
+      0.6,
+      4.137,
+      1.386
+     ],
+     "lens": 42.0
+    },
+    "to": {
+     "pos": [
+      0.576,
+      -0.4,
+      0.9560000000000001
+     ],
+     "tgt": [
+      0.602,
+      4.123,
+      1.448
+     ],
+     "lens": 42.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "toadboy",
+     "at": [
+      0.6,
+      3.7,
+      1.2
+     ],
+     "h": 1.3,
+     "face": "L",
+     "expr": "worried",
+     "arms": "raise",
+     "hold_r": "toad"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.65,
+     "DEADLY POISON?"
+    ]
+   ],
+   "sfx": [
+    [
+     0.2,
+     "frog",
+     0.6
+    ],
+    [
+     0.5,
+     "crowd_gasp",
+     0.5
+    ]
+   ],
+   "id": "C3_S034",
+   "start": 12.594,
+   "dur": 3.499,
+   "chapter": 3,
+   "line_start": 12.594,
+   "src": "S034"
+  },
+  {
+   "line": "L33",
+   "kind": "3d",
+   "set": "fair",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.4,
+      -2.0,
+      1.75
+     ],
+     "tgt": [
+      -0.87,
+      3.864,
+      1.459
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.37,
+      -1.1,
+      1.78
+     ],
+     "tgt": [
+      -0.863,
+      3.85,
+      1.574
+     ],
+     "lens": 57.75
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "quack",
+     "at": [
+      -0.9,
+      4.0,
+      1.2
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "smug",
+     "arms": "present"
+    },
+    {
+     "c": "toadboy",
+     "at": [
+      0.6,
+      3.7,
+      1.2
+     ],
+     "h": 1.3,
+     "face": "L",
+     "expr": "happy_closed",
+     "arms": "raise",
+     "hold_r": "toad"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.8,
+     "GULP!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.75,
+     "gulp",
+     0.8
+    ],
+    [
+     0.85,
+     "crowd_gasp",
+     0.6
+    ]
+   ],
+   "id": "C3_S035",
+   "start": 16.093,
+   "dur": 5.324,
+   "chapter": 3,
+   "line_start": 16.093,
+   "src": "S035"
+  },
+  {
+   "line": "L34",
+   "kind": "3d",
+   "set": "fair",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.4,
+      -2.0,
+      1.75
+     ],
+     "tgt": [
+      -0.87,
+      3.864,
+      1.459
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.384,
+      -1.52,
+      1.766
+     ],
+     "tgt": [
+      -0.867,
+      3.856,
+      1.499
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout",
+    "shake": 0.04
+   },
+   "chars": [
+    {
+     "c": "quack",
+     "at": [
+      -0.9,
+      4.0,
+      1.2
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "both_up"
+    },
+    {
+     "c": "toadboy",
+     "at": [
+      0.6,
+      3.7,
+      1.2
+     ],
+     "h": 1.3,
+     "face": "L",
+     "expr": "worried",
+     "arms": "both_up",
+     "blink_fast": true
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.2,
+     "drum_hit",
+     0.4
+    ],
+    [
+     0.6,
+     "crowd_gasp",
+     0.5
+    ]
+   ],
+   "id": "C3_S036",
+   "start": 21.417,
+   "dur": 3.199,
+   "chapter": 3,
+   "line_start": 21.417,
+   "src": "S036"
+  },
+  {
+   "line": "L35",
+   "kind": "3d",
+   "set": "fair",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.4,
+      -2.0,
+      1.75
+     ],
+     "tgt": [
+      -0.87,
+      3.864,
+      1.459
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.376,
+      -1.28,
+      1.774
+     ],
+     "tgt": [
+      -0.864,
+      3.852,
+      1.52
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "quack",
+     "at": [
+      -0.9,
+      4.0,
+      1.2
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "smug",
+     "arms": "present",
+     "hold_r": "bottle"
+    },
+    {
+     "c": "toadboy",
+     "at": [
+      0.6,
+      3.7,
+      1.2
+     ],
+     "h": 1.3,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.7,
+     "MIRACLE MEDICINE"
+    ]
+   ],
+   "sfx": [
+    [
+     0.6,
+     "sparkle",
+     0.5
+    ]
+   ],
+   "id": "C3_S037",
+   "start": 24.616,
+   "dur": 3.725,
+   "chapter": 3,
+   "line_start": 24.616,
+   "src": "S037"
+  },
+  {
+   "line": "L36",
+   "kind": "3d",
+   "set": "fair",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0,
+      -7.5,
+      1.8
+     ],
+     "tgt": [
+      3.852,
+      2.509,
+      -0.65
+     ],
+     "lens": 45.5
+    },
+    "to": {
+     "pos": [
+      0.0,
+      -5.85,
+      1.815
+     ],
+     "tgt": [
+      3.96,
+      2.288,
+      -0.534
+     ],
+     "lens": 45.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager0",
+     "at": [
+      -2.8,
+      1.0,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "coin",
+     "walk": {
+      "to": [
+       -1.9599999999999997,
+       2.0,
+       0
+      ]
+     }
+    },
+    {
+     "c": "villager1",
+     "at": [
+      -1.6,
+      0.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "coin",
+     "walk": {
+      "to": [
+       -1.1199999999999999,
+       1.2,
+       0
+      ]
+     }
+    },
+    {
+     "c": "villager2",
+     "at": [
+      -0.4,
+      1.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "coin",
+     "walk": {
+      "to": [
+       -0.27999999999999997,
+       2.2,
+       0
+      ]
+     }
+    },
+    {
+     "c": "villager3",
+     "at": [
+      1.2,
+      0.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "coin",
+     "walk": {
+      "to": [
+       0.84,
+       1.4,
+       0
+      ]
+     }
+    },
+    {
+     "c": "villager4",
+     "at": [
+      2.6,
+      1.1,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "coin",
+     "walk": {
+      "to": [
+       1.8199999999999998,
+       2.1,
+       0
+      ]
+     }
+    },
+    {
+     "c": "villager5",
+     "at": [
+      3.4,
+      -0.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "coin",
+     "walk": {
+      "to": [
+       2.38,
+       0.8,
+       0
+      ]
+     }
+    },
+    {
+     "c": "quack",
+     "at": [
+      -0.9,
+      4.0,
+      1.2
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "happy",
+     "arms": "present",
+     "hold_r": "bottle"
+    },
+    {
+     "c": "toadboy",
+     "at": [
+      0.6,
+      3.7,
+      1.2
+     ],
+     "h": 1.3,
+     "face": "L",
+     "expr": "happy",
+     "arms": "both_up"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.2,
+     "CURED!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.1,
+     "sparkle",
+     0.5
+    ],
+    [
+     0.5,
+     "crowd_laugh",
+     0.5
+    ],
+    [
+     0.9,
+     "coins",
+     0.5
+    ]
+   ],
+   "id": "C3_S038",
+   "start": 28.341,
+   "dur": 4.169,
+   "chapter": 3,
+   "line_start": 28.341,
+   "src": "S038"
+  },
+  {
+   "line": "L37",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.498,
+      0.377
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.501,
+      0.408
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "point_r",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.2,
+     "page_turn",
+     0.4
+    ]
+   ],
+   "id": "C3_S039",
+   "start": 32.51,
+   "dur": 2.891,
+   "chapter": 3,
+   "line_start": 32.51,
+   "src": "S039"
+  },
+  {
+   "line": "L38",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "doc": "toady",
+   "sfx": [
+    [
+     0,
+     "quill",
+     0.5
+    ]
+   ],
+   "id": "C3_S040",
+   "start": 35.401,
+   "dur": 4.236,
+   "chapter": 3,
+   "line_start": 35.401,
+   "src": "S040"
+  },
+  {
+   "line": "L39",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.491,
+      0.428
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.745,
+      0.982
+     ],
+     "tgt": [
+      0.6,
+      0.493,
+      0.448
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "smug",
+     "arms": "raise",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.6,
+     "TOADY"
+    ]
+   ],
+   "sfx": [
+    [
+     0.55,
+     "pop",
+     0.5
+    ]
+   ],
+   "id": "C3_S041",
+   "start": 39.637,
+   "dur": 3.581,
+   "chapter": 3,
+   "line_start": 39.637,
+   "src": "S041"
+  },
+  {
+   "id": "C3_END",
+   "kind": "end",
+   "line": "O1",
+   "start": 43.218,
+   "line_start": 43.368,
+   "dur": 2.6,
+   "chapter": null,
+   "sfx": [
+    [
+     0,
+     "ding",
+     0.5
+    ]
+   ],
+   "music": null
+  }
+ ]
+}
