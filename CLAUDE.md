@@ -114,3 +114,13 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
 - Slots: each long video gets the next free slot after the previous episode's cut Shorts; its cut Shorts follow within 24 h (~1 every 3 h). Standalone Shorts fill gaps.
 - Quality is still the gate: if anything looks amateur, fix it before scheduling; never schedule a video that fails QA.
 - The "ask the owner before the first upload of each week" rule above no longer applies.
+
+## Owner rule added 7 Nov 2026: cross-post to Facebook and TikTok (YouTube first)
+- Every video is published on YouTube first; then it goes to Facebook (Page "TrueWhys", env FACEBOOK_PAGE_ID / FACEBOOK_PAGE_NAME,
+  token as network secret for graph.facebook.com — never print it) and TikTok (Metricool brand id 7942824, account "truewhys").
+- Goal: send viewers to YouTube. Put the YouTube link in the text where links are clickable (Facebook). Where they are not (TikTok captions),
+  end with "Watch the full video on YouTube — @TrueWhys".
+- Plan: each cut Short → TikTok + Facebook Reel ~30 min after its YouTube slot; each long video → Facebook video ~24 h after its YouTube premiere.
+  Packages (captions, files) live in episodes/<ep>/social/ (built by lib/crosspost.py).
+- Metricool needs public media URLs; until the owner chooses a hosting method, prepare packages and do not post.
+- Do not make other-platform versions beyond this unless the owner asks.
