@@ -6,7 +6,7 @@
  ],
  "style": "T",
  "episode": "B-001",
- "duration": 458.83,
+ "duration": 421.66,
  "shots": [
   {
    "line": "L01",
@@ -145,7 +145,7 @@
    "music": "mystery",
    "id": "S000",
    "start": 0.0,
-   "dur": 7.907,
+   "dur": 9.08,
    "chapter": 0,
    "line_start": 0.0
   },
@@ -211,10 +211,10 @@
     ]
    ],
    "id": "S001",
-   "start": 7.907,
-   "dur": 4.821,
+   "start": 9.08,
+   "dur": 4.32,
    "chapter": 0,
-   "line_start": 7.907
+   "line_start": 9.08
   },
   {
    "line": "L03",
@@ -284,10 +284,10 @@
     ]
    ],
    "id": "S002",
-   "start": 12.728,
-   "dur": 2.325,
+   "start": 13.4,
+   "dur": 1.9,
    "chapter": 0,
-   "line_start": 12.728
+   "line_start": 13.4
   },
   {
    "line": "L04",
@@ -388,10 +388,10 @@
    ],
    "silhouette": true,
    "id": "S003",
-   "start": 15.053,
-   "dur": 4.667,
+   "start": 15.3,
+   "dur": 5.26,
    "chapter": 0,
-   "line_start": 15.053
+   "line_start": 15.3
   },
   {
    "line": "L05",
@@ -468,10 +468,10 @@
     ]
    ],
    "id": "S004",
-   "start": 19.72,
-   "dur": 2.077,
+   "start": 20.56,
+   "dur": 2.28,
    "chapter": 0,
-   "line_start": 19.72
+   "line_start": 20.56
   },
   {
    "line": "L06",
@@ -526,10 +526,10 @@
     ]
    ],
    "id": "S005",
-   "start": 21.797,
-   "dur": 4.668,
+   "start": 22.84,
+   "dur": 4.62,
    "chapter": 0,
-   "line_start": 21.797
+   "line_start": 22.84
   },
   {
    "line": "L07",
@@ -595,10 +595,10 @@
     ]
    ],
    "id": "S006",
-   "start": 26.465,
-   "dur": 0.667,
+   "start": 27.46,
+   "dur": 0.905,
    "chapter": 0,
-   "line_start": 26.465
+   "line_start": 27.46
   },
   {
    "line": "L07",
@@ -665,10 +665,10 @@
    ],
    "label": "BULL",
    "id": "S007",
-   "start": 27.132,
-   "dur": 0.667,
+   "start": 28.365,
+   "dur": 0.905,
    "chapter": 0,
-   "line_start": 26.465
+   "line_start": 27.46
   },
   {
    "line": "L07",
@@ -750,10 +750,10 @@
     ]
    ],
    "id": "S008",
-   "start": 27.799,
-   "dur": 0.667,
+   "start": 29.27,
+   "dur": 0.905,
    "chapter": 0,
-   "line_start": 26.465
+   "line_start": 27.46
   },
   {
    "line": "L07",
@@ -821,10 +821,10 @@
     ]
    ],
    "id": "S009",
-   "start": 28.465,
-   "dur": 0.667,
+   "start": 30.175,
+   "dur": 0.905,
    "chapter": 0,
-   "line_start": 26.465
+   "line_start": 27.46
   },
   {
    "line": "L08",
@@ -886,10 +886,10 @@
     ]
    ],
    "id": "S010",
-   "start": 29.132,
-   "dur": 1.822,
+   "start": 31.08,
+   "dur": 1.703,
    "chapter": 0,
-   "line_start": 29.132
+   "line_start": 31.08
   },
   {
    "line": "L08",
@@ -911,10 +911,10 @@
     ]
    ],
    "id": "S011",
-   "start": 30.954,
-   "dur": 1.822,
+   "start": 32.783,
+   "dur": 1.703,
    "chapter": 0,
-   "line_start": 29.132
+   "line_start": 31.08
   },
   {
    "line": "L08",
@@ -988,10 +988,10 @@
     ]
    ],
    "id": "S012",
-   "start": 32.775,
-   "dur": 1.877,
+   "start": 34.486,
+   "dur": 1.754,
    "chapter": 0,
-   "line_start": 29.132
+   "line_start": 31.08
   },
   {
    "line": "L09",
@@ -1052,10 +1052,10 @@
    ],
    "music": "curious",
    "id": "S013",
-   "start": 34.652,
-   "dur": 3.969,
+   "start": 36.24,
+   "dur": 4.25,
    "chapter": 0,
-   "line_start": 34.652
+   "line_start": 36.24
   },
   {
    "line": "L10",
@@ -1141,10 +1141,10 @@
     ]
    ],
    "id": "S014",
-   "start": 38.621,
-   "dur": 5.255,
+   "start": 40.49,
+   "dur": 4.42,
    "chapter": 0,
-   "line_start": 38.621
+   "line_start": 40.49
   },
   {
    "line": "L11",
@@ -1168,10 +1168,10 @@
     ]
    ],
    "id": "S015",
-   "start": 43.876,
-   "dur": 4.324,
+   "start": 44.91,
+   "dur": 3.98,
    "chapter": 0,
-   "line_start": 43.876
+   "line_start": 44.91
   },
   {
    "line": null,
@@ -1185,7 +1185,7 @@
    "text": "THE PIG OF FALAISE",
    "music": "story",
    "id": "S016",
-   "start": 48.2,
+   "start": 48.89,
    "dur": 2.4,
    "chapter": 1
   },
@@ -1270,10 +1270,10 @@
     ]
    ],
    "id": "S017",
-   "start": 50.6,
-   "dur": 5.035,
+   "start": 51.29,
+   "dur": 4.6,
    "chapter": 1,
-   "line_start": 50.6
+   "line_start": 51.29
   },
   {
    "line": "L14",
@@ -1329,10 +1329,10 @@
     0.48
    ],
    "id": "S018",
-   "start": 55.635,
-   "dur": 3.003,
+   "start": 55.89,
+   "dur": 2.486,
    "chapter": 1,
-   "line_start": 55.635
+   "line_start": 55.89
   },
   {
    "line": "L14",
@@ -1412,10 +1412,10 @@
     ]
    ],
    "id": "S019",
-   "start": 58.638,
-   "dur": 3.253,
+   "start": 58.376,
+   "dur": 2.694,
    "chapter": 1,
-   "line_start": 55.635
+   "line_start": 55.89
   },
   {
    "line": "L15",
@@ -1508,10 +1508,10 @@
     ]
    ],
    "id": "S020",
-   "start": 61.891,
-   "dur": 6.08,
+   "start": 61.07,
+   "dur": 4.82,
    "chapter": 1,
-   "line_start": 61.891
+   "line_start": 61.07
   },
   {
    "line": "L16",
@@ -1585,10 +1585,10 @@
     ]
    ],
    "id": "S021",
-   "start": 67.971,
-   "dur": 3.256,
+   "start": 65.89,
+   "dur": 2.84,
    "chapter": 1,
-   "line_start": 67.971
+   "line_start": 65.89
   },
   {
    "line": "L17",
@@ -1607,10 +1607,10 @@
     ]
    ],
    "id": "S022",
-   "start": 71.227,
-   "dur": 5.845,
+   "start": 68.73,
+   "dur": 5.1,
    "chapter": 1,
-   "line_start": 71.227
+   "line_start": 68.73
   },
   {
    "line": "L18",
@@ -1742,10 +1742,10 @@
     ]
    ],
    "id": "S023",
-   "start": 77.072,
-   "dur": 6.781,
+   "start": 73.83,
+   "dur": 5.48,
    "chapter": 1,
-   "line_start": 77.072
+   "line_start": 73.83
   },
   {
    "line": "L19",
@@ -1845,10 +1845,10 @@
     ]
    ],
    "id": "S024",
-   "start": 83.853,
-   "dur": 3.384,
+   "start": 79.31,
+   "dur": 3.65,
    "chapter": 1,
-   "line_start": 83.853
+   "line_start": 79.31
   },
   {
    "line": "L20",
@@ -1914,10 +1914,10 @@
     ]
    ],
    "id": "S025",
-   "start": 87.237,
-   "dur": 2.172,
+   "start": 82.96,
+   "dur": 1.82,
    "chapter": 1,
-   "line_start": 87.237
+   "line_start": 82.96
   },
   {
    "line": "L21",
@@ -1978,10 +1978,10 @@
     ]
    ],
    "id": "S026",
-   "start": 89.409,
-   "dur": 3.2,
+   "start": 84.78,
+   "dur": 2.74,
    "chapter": 1,
-   "line_start": 89.409
+   "line_start": 84.78
   },
   {
    "line": "L22",
@@ -2035,10 +2035,10 @@
    "part": null,
    "tag": "OFFICER OF THE LAW",
    "id": "S027",
-   "start": 92.609,
-   "dur": 4.747,
+   "start": 87.52,
+   "dur": 3.96,
    "chapter": 1,
-   "line_start": 92.609
+   "line_start": 87.52
   },
   {
    "line": "L23",
@@ -2111,10 +2111,10 @@
     ]
    ],
    "id": "S028",
-   "start": 97.356,
-   "dur": 5.139,
+   "start": 91.48,
+   "dur": 3.7,
    "chapter": 1,
-   "line_start": 97.356
+   "line_start": 91.48
   },
   {
    "line": "L24",
@@ -2174,10 +2174,10 @@
     ]
    ],
    "id": "S029",
-   "start": 102.495,
-   "dur": 4.33,
+   "start": 95.18,
+   "dur": 4.16,
    "chapter": 1,
-   "line_start": 102.495
+   "line_start": 95.18
   },
   {
    "line": "L25",
@@ -2265,10 +2265,10 @@
     ]
    ],
    "id": "S030",
-   "start": 106.825,
-   "dur": 7.053,
+   "start": 99.34,
+   "dur": 4.84,
    "chapter": 1,
-   "line_start": 106.825
+   "line_start": 99.34
   },
   {
    "line": null,
@@ -2282,7 +2282,7 @@
    "text": "TWO KINDS OF COURT",
    "music": "story",
    "id": "S031",
-   "start": 113.878,
+   "start": 104.18,
    "dur": 2.4,
    "chapter": 2
   },
@@ -2310,10 +2310,10 @@
     ]
    ],
    "id": "S032",
-   "start": 116.278,
-   "dur": 6.123,
+   "start": 106.58,
+   "dur": 5.54,
    "chapter": 2,
-   "line_start": 116.278
+   "line_start": 106.58
   },
   {
    "line": "L28",
@@ -2392,10 +2392,10 @@
     ]
    ],
    "id": "S033",
-   "start": 122.401,
-   "dur": 7.125,
+   "start": 112.12,
+   "dur": 5.36,
    "chapter": 2,
-   "line_start": 122.401
+   "line_start": 112.12
   },
   {
    "line": "L29",
@@ -2426,10 +2426,10 @@
     ]
    ],
    "id": "S034",
-   "start": 129.526,
-   "dur": 4.629,
+   "start": 117.48,
+   "dur": 6.0,
    "chapter": 2,
-   "line_start": 129.526
+   "line_start": 117.48
   },
   {
    "line": "L30",
@@ -2553,10 +2553,10 @@
     ]
    ],
    "id": "S035",
-   "start": 134.155,
-   "dur": 1.908,
+   "start": 123.48,
+   "dur": 1.6,
    "chapter": 2,
-   "line_start": 134.155
+   "line_start": 123.48
   },
   {
    "line": "L31",
@@ -3260,10 +3260,10 @@
     ]
    ],
    "id": "S036",
-   "start": 136.063,
-   "dur": 3.226,
+   "start": 125.08,
+   "dur": 2.893,
    "chapter": 2,
-   "line_start": 136.063
+   "line_start": 125.08
   },
   {
    "line": "L31",
@@ -3330,10 +3330,10 @@
     ]
    ],
    "id": "S037",
-   "start": 139.289,
-   "dur": 2.64,
+   "start": 127.973,
+   "dur": 2.367,
    "chapter": 2,
-   "line_start": 136.063
+   "line_start": 125.08
   },
   {
    "line": "L32",
@@ -3407,10 +3407,10 @@
     ]
    ],
    "id": "S038",
-   "start": 141.929,
-   "dur": 8.314,
+   "start": 130.34,
+   "dur": 8.02,
    "chapter": 2,
-   "line_start": 141.929
+   "line_start": 130.34
   },
   {
    "line": "L33",
@@ -3469,10 +3469,10 @@
     ]
    ],
    "id": "S039",
-   "start": 150.243,
-   "dur": 6.1,
+   "start": 138.36,
+   "dur": 5.48,
    "chapter": 2,
-   "line_start": 150.243
+   "line_start": 138.36
   },
   {
    "line": null,
@@ -3486,7 +3486,7 @@
    "text": "THE LAWYER FOR THE RATS",
    "music": "playful",
    "id": "S040",
-   "start": 156.343,
+   "start": 143.84,
    "dur": 2.4,
    "chapter": 3
   },
@@ -3608,10 +3608,10 @@
     ]
    ],
    "id": "S041",
-   "start": 158.743,
-   "dur": 6.592,
+   "start": 146.24,
+   "dur": 5.8,
    "chapter": 3,
-   "line_start": 158.743
+   "line_start": 146.24
   },
   {
    "line": "L35",
@@ -3683,10 +3683,10 @@
    ],
    "part": null,
    "id": "S042",
-   "start": 165.335,
-   "dur": 6.417,
+   "start": 152.04,
+   "dur": 5.74,
    "chapter": 3,
-   "line_start": 165.335
+   "line_start": 152.04
   },
   {
    "line": "L36",
@@ -3747,10 +3747,10 @@
     ]
    ],
    "id": "S043",
-   "start": 171.752,
-   "dur": 3.622,
+   "start": 157.78,
+   "dur": 3.34,
    "chapter": 3,
-   "line_start": 171.752
+   "line_start": 157.78
   },
   {
    "line": "L37",
@@ -3790,10 +3790,10 @@
    ],
    "part": null,
    "id": "S044",
-   "start": 175.374,
-   "dur": 2.645,
+   "start": 161.12,
+   "dur": 3.04,
    "chapter": 3,
-   "line_start": 175.374
+   "line_start": 161.12
   },
   {
    "line": "L38",
@@ -3828,10 +3828,10 @@
     ]
    ],
    "id": "S045",
-   "start": 178.019,
-   "dur": 6.648,
+   "start": 164.16,
+   "dur": 5.36,
    "chapter": 3,
-   "line_start": 178.019
+   "line_start": 164.16
   },
   {
    "line": "L39",
@@ -3897,10 +3897,10 @@
     ]
    ],
    "id": "S046",
-   "start": 184.667,
-   "dur": 2.285,
+   "start": 169.52,
+   "dur": 1.872,
    "chapter": 3,
-   "line_start": 184.667
+   "line_start": 169.52
   },
   {
    "line": "L39",
@@ -3999,10 +3999,10 @@
     ]
    ],
    "id": "S047",
-   "start": 186.952,
-   "dur": 2.792,
+   "start": 171.392,
+   "dur": 2.288,
    "chapter": 3,
-   "line_start": 184.667
+   "line_start": 169.52
   },
   {
    "line": "L40",
@@ -4052,10 +4052,10 @@
    ],
    "label": "EMPTY",
    "id": "S048",
-   "start": 189.744,
-   "dur": 2.218,
+   "start": 173.68,
+   "dur": 2.24,
    "chapter": 3,
-   "line_start": 189.744
+   "line_start": 173.68
   },
   {
    "line": "L40",
@@ -4110,10 +4110,10 @@
     1.0
    ],
    "id": "S049",
-   "start": 191.962,
-   "dur": 2.218,
+   "start": 175.92,
+   "dur": 2.24,
    "chapter": 3,
-   "line_start": 189.744
+   "line_start": 173.68
   },
   {
    "line": "L41",
@@ -4184,10 +4184,10 @@
     ]
    ],
    "id": "S050",
-   "start": 194.179,
-   "dur": 4.648,
+   "start": 178.16,
+   "dur": 4.42,
    "chapter": 3,
-   "line_start": 194.179
+   "line_start": 178.16
   },
   {
    "line": "L42",
@@ -4282,10 +4282,10 @@
    ],
    "music": "tension",
    "id": "S051",
-   "start": 198.827,
-   "dur": 5.227,
+   "start": 182.58,
+   "dur": 4.2,
    "chapter": 3,
-   "line_start": 198.827
+   "line_start": 182.58
   },
   {
    "line": "L43",
@@ -4333,10 +4333,10 @@
    ],
    "music": "playful",
    "id": "S052",
-   "start": 204.054,
-   "dur": 5.864,
+   "start": 186.78,
+   "dur": 4.52,
    "chapter": 3,
-   "line_start": 204.054
+   "line_start": 186.78
   },
   {
    "line": "L44",
@@ -4411,10 +4411,10 @@
     ]
    ],
    "id": "S053",
-   "start": 209.918,
-   "dur": 5.824,
+   "start": 191.3,
+   "dur": 4.7,
    "chapter": 3,
-   "line_start": 209.918
+   "line_start": 191.3
   },
   {
    "line": "L45",
@@ -4475,10 +4475,10 @@
    ],
    "tag": "YEARS LATER",
    "id": "S054",
-   "start": 215.742,
-   "dur": 5.787,
+   "start": 196.0,
+   "dur": 4.64,
    "chapter": 3,
-   "line_start": 215.742
+   "line_start": 196.0
   },
   {
    "line": "L45",
@@ -4545,10 +4545,10 @@
     1.0
    ],
    "id": "S055",
-   "start": 221.529,
-   "dur": 5.787,
+   "start": 200.64,
+   "dur": 4.64,
    "chapter": 3,
-   "line_start": 215.742
+   "line_start": 196.0
   },
   {
    "line": null,
@@ -4562,7 +4562,7 @@
    "text": "THE ROOSTER OF BASEL",
    "music": "dark",
    "id": "S056",
-   "start": 227.316,
+   "start": 205.28,
    "dur": 2.4,
    "chapter": 4
   },
@@ -4616,10 +4616,10 @@
     ]
    ],
    "id": "S057",
-   "start": 229.716,
-   "dur": 2.345,
+   "start": 207.68,
+   "dur": 2.68,
    "chapter": 4,
-   "line_start": 229.716
+   "line_start": 207.68
   },
   {
    "line": "L47",
@@ -4687,10 +4687,10 @@
     ]
    ],
    "id": "S058",
-   "start": 232.061,
-   "dur": 6.821,
+   "start": 210.36,
+   "dur": 7.91,
    "chapter": 4,
-   "line_start": 232.061
+   "line_start": 210.36
   },
   {
    "line": "L48",
@@ -4778,10 +4778,10 @@
     ]
    ],
    "id": "S059",
-   "start": 238.882,
-   "dur": 2.024,
+   "start": 218.27,
+   "dur": 2.44,
    "chapter": 4,
-   "line_start": 238.882
+   "line_start": 218.27
   },
   {
    "line": "L49",
@@ -4837,10 +4837,10 @@
     0.45
    ],
    "id": "S060",
-   "start": 240.906,
-   "dur": 2.323,
+   "start": 220.71,
+   "dur": 2.358,
    "chapter": 4,
-   "line_start": 240.906
+   "line_start": 220.71
   },
   {
    "line": "L49",
@@ -4938,10 +4938,10 @@
     ]
    ],
    "id": "S061",
-   "start": 243.229,
-   "dur": 2.84,
+   "start": 223.068,
+   "dur": 2.882,
    "chapter": 4,
-   "line_start": 240.906
+   "line_start": 220.71
   },
   {
    "line": "L50",
@@ -4965,10 +4965,10 @@
     ]
    ],
    "id": "S062",
-   "start": 246.069,
-   "dur": 6.912,
+   "start": 225.95,
+   "dur": 6.92,
    "chapter": 4,
-   "line_start": 246.069
+   "line_start": 225.95
   },
   {
    "line": "L51",
@@ -4987,10 +4987,10 @@
     ]
    ],
    "id": "S063",
-   "start": 252.981,
-   "dur": 3.373,
+   "start": 232.87,
+   "dur": 3.687,
    "chapter": 4,
-   "line_start": 252.981
+   "line_start": 232.87
   },
   {
    "line": "L52",
@@ -5120,10 +5120,10 @@
     ]
    ],
    "id": "S064",
-   "start": 256.354,
-   "dur": 5.225,
+   "start": 236.557,
+   "dur": 4.593,
    "chapter": 4,
-   "line_start": 256.354
+   "line_start": 236.557
   },
   {
    "line": "L53",
@@ -5202,10 +5202,10 @@
    ],
    "music": "curious",
    "id": "S065",
-   "start": 261.579,
-   "dur": 7.904,
+   "start": 241.15,
+   "dur": 6.96,
    "chapter": 4,
-   "line_start": 261.579
+   "line_start": 241.15
   },
   {
    "line": "L54",
@@ -5265,10 +5265,10 @@
    ],
    "music": "dark",
    "id": "S066",
-   "start": 269.483,
-   "dur": 5.828,
+   "start": 248.11,
+   "dur": 5.88,
    "chapter": 4,
-   "line_start": 269.483
+   "line_start": 248.11
   },
   {
    "line": null,
@@ -5282,7 +5282,7 @@
    "text": "THE WEEVILS' LAND DEAL",
    "music": "playful",
    "id": "S067",
-   "start": 275.311,
+   "start": 253.99,
    "dur": 2.4,
    "chapter": 5
   },
@@ -5337,10 +5337,10 @@
    ],
    "part": null,
    "id": "S068",
-   "start": 277.711,
-   "dur": 2.442,
+   "start": 256.39,
+   "dur": 3.16,
    "chapter": 5,
-   "line_start": 277.711
+   "line_start": 256.39
   },
   {
    "line": "L56",
@@ -5392,10 +5392,10 @@
     ]
    ],
    "id": "S069",
-   "start": 280.153,
-   "dur": 5.359,
+   "start": 259.55,
+   "dur": 4.3,
    "chapter": 5,
-   "line_start": 280.153
+   "line_start": 259.55
   },
   {
    "line": "L57",
@@ -5467,10 +5467,10 @@
     ]
    ],
    "id": "S070",
-   "start": 285.512,
-   "dur": 6.293,
+   "start": 263.85,
+   "dur": 5.16,
    "chapter": 5,
-   "line_start": 285.512
+   "line_start": 263.85
   },
   {
    "line": "L58",
@@ -5568,10 +5568,10 @@
     ]
    ],
    "id": "S071",
-   "start": 291.805,
-   "dur": 5.269,
+   "start": 269.01,
+   "dur": 4.64,
    "chapter": 5,
-   "line_start": 291.805
+   "line_start": 269.01
   },
   {
    "line": "L59",
@@ -5634,10 +5634,10 @@
     ]
    ],
    "id": "S072",
-   "start": 297.074,
-   "dur": 2.517,
+   "start": 273.65,
+   "dur": 2.5,
    "chapter": 5,
-   "line_start": 297.074
+   "line_start": 273.65
   },
   {
    "line": "L60",
@@ -5688,10 +5688,10 @@
     ]
    ],
    "id": "S073",
-   "start": 299.591,
-   "dur": 8.527,
+   "start": 276.15,
+   "dur": 7.27,
    "chapter": 5,
-   "line_start": 299.591
+   "line_start": 276.15
   },
   {
    "line": "L61",
@@ -5774,10 +5774,10 @@
     ]
    ],
    "id": "S074",
-   "start": 308.118,
-   "dur": 2.245,
+   "start": 283.42,
+   "dur": 2.94,
    "chapter": 5,
-   "line_start": 308.118
+   "line_start": 283.42
   },
   {
    "line": "L62",
@@ -5872,10 +5872,10 @@
     ]
    ],
    "id": "S075",
-   "start": 310.363,
-   "dur": 3.824,
+   "start": 286.36,
+   "dur": 3.78,
    "chapter": 5,
-   "line_start": 310.363
+   "line_start": 286.36
   },
   {
    "line": "L63",
@@ -5989,10 +5989,10 @@
     ]
    ],
    "id": "S076",
-   "start": 314.187,
-   "dur": 6.003,
+   "start": 290.14,
+   "dur": 4.94,
    "chapter": 5,
-   "line_start": 314.187
+   "line_start": 290.14
   },
   {
    "line": "L64",
@@ -6045,10 +6045,10 @@
    ],
    "part": null,
    "id": "S077",
-   "start": 320.19,
-   "dur": 1.97,
+   "start": 295.08,
+   "dur": 1.9,
    "chapter": 5,
-   "line_start": 320.19
+   "line_start": 295.08
   },
   {
    "line": "L65",
@@ -6185,10 +6185,10 @@
     ]
    ],
    "id": "S078",
-   "start": 322.16,
-   "dur": 7.886,
+   "start": 296.98,
+   "dur": 6.1,
    "chapter": 5,
-   "line_start": 322.16
+   "line_start": 296.98
   },
   {
    "line": "L66",
@@ -6212,10 +6212,10 @@
     ]
    ],
    "id": "S079",
-   "start": 330.046,
-   "dur": 6.037,
+   "start": 303.08,
+   "dur": 4.44,
    "chapter": 5,
-   "line_start": 330.046
+   "line_start": 303.08
   },
   {
    "line": "L67",
@@ -6293,10 +6293,10 @@
     ]
    ],
    "id": "S080",
-   "start": 336.083,
-   "dur": 6.165,
+   "start": 307.52,
+   "dur": 6.48,
    "chapter": 5,
-   "line_start": 336.083
+   "line_start": 307.52
   },
   {
    "line": "L68",
@@ -6368,10 +6368,10 @@
     ]
    ],
    "id": "S081",
-   "start": 342.248,
-   "dur": 2.788,
+   "start": 314.0,
+   "dur": 2.56,
    "chapter": 5,
-   "line_start": 342.248
+   "line_start": 314.0
   },
   {
    "line": "L69",
@@ -6440,10 +6440,10 @@
     ]
    ],
    "id": "S082",
-   "start": 345.036,
-   "dur": 2.917,
+   "start": 316.56,
+   "dur": 2.92,
    "chapter": 5,
-   "line_start": 345.036
+   "line_start": 316.56
   },
   {
    "line": "L70",
@@ -6467,10 +6467,10 @@
     ]
    ],
    "id": "S083",
-   "start": 347.953,
-   "dur": 5.033,
+   "start": 319.48,
+   "dur": 4.94,
    "chapter": 5,
-   "line_start": 347.953
+   "line_start": 319.48
   },
   {
    "line": null,
@@ -6484,7 +6484,7 @@
    "text": "THE REAL WHY",
    "music": "curious",
    "id": "S084",
-   "start": 352.986,
+   "start": 324.42,
    "dur": 2.4,
    "chapter": 6
   },
@@ -6539,10 +6539,10 @@
    ],
    "part": null,
    "id": "S085",
-   "start": 355.386,
-   "dur": 2.553,
+   "start": 326.82,
+   "dur": 2.95,
    "chapter": 6,
-   "line_start": 355.386
+   "line_start": 326.82
   },
   {
    "line": "L72",
@@ -6671,10 +6671,10 @@
    ],
    "tag": "IDEA 1: ORDER",
    "id": "S086",
-   "start": 357.939,
-   "dur": 6.106,
+   "start": 329.77,
+   "dur": 5.427,
    "chapter": 6,
-   "line_start": 357.939
+   "line_start": 329.77
   },
   {
    "line": "L72",
@@ -6745,10 +6745,10 @@
     ]
    ],
    "id": "S087",
-   "start": 364.045,
-   "dur": 7.462,
+   "start": 335.197,
+   "dur": 6.633,
    "chapter": 6,
-   "line_start": 357.939
+   "line_start": 329.77
   },
   {
    "line": "L73",
@@ -6810,10 +6810,10 @@
     ]
    ],
    "id": "S088",
-   "start": 371.507,
-   "dur": 2.586,
+   "start": 341.83,
+   "dur": 2.84,
    "chapter": 6,
-   "line_start": 371.507
+   "line_start": 341.83
   },
   {
    "line": "L74",
@@ -6888,10 +6888,10 @@
     ]
    ],
    "id": "S089",
-   "start": 374.093,
-   "dur": 4.047,
+   "start": 344.67,
+   "dur": 3.01,
    "chapter": 6,
-   "line_start": 374.093
+   "line_start": 344.67
   },
   {
    "line": "L75",
@@ -6910,10 +6910,10 @@
     ]
    ],
    "id": "S090",
-   "start": 378.14,
-   "dur": 6.892,
+   "start": 347.68,
+   "dur": 5.24,
    "chapter": 6,
-   "line_start": 378.14
+   "line_start": 347.68
   },
   {
    "line": "L76",
@@ -6932,10 +6932,10 @@
     ]
    ],
    "id": "S091",
-   "start": 385.032,
-   "dur": 7.467,
+   "start": 352.92,
+   "dur": 6.84,
    "chapter": 6,
-   "line_start": 385.032
+   "line_start": 352.92
   },
   {
    "line": "L77",
@@ -6995,10 +6995,10 @@
     ]
    ],
    "id": "S092",
-   "start": 392.499,
-   "dur": 3.075,
+   "start": 359.76,
+   "dur": 2.86,
    "chapter": 6,
-   "line_start": 392.499
+   "line_start": 359.76
   },
   {
    "line": "L78",
@@ -7082,10 +7082,10 @@
     ]
    ],
    "id": "S093",
-   "start": 395.574,
-   "dur": 4.284,
+   "start": 362.62,
+   "dur": 3.56,
    "chapter": 6,
-   "line_start": 395.574
+   "line_start": 362.62
   },
   {
    "line": "L79",
@@ -7174,10 +7174,10 @@
     ]
    ],
    "id": "S094",
-   "start": 399.858,
-   "dur": 5.053,
+   "start": 366.18,
+   "dur": 4.74,
    "chapter": 6,
-   "line_start": 399.858
+   "line_start": 366.18
   },
   {
    "line": "L80",
@@ -7297,10 +7297,10 @@
     ]
    ],
    "id": "S095",
-   "start": 404.911,
-   "dur": 4.356,
+   "start": 370.92,
+   "dur": 3.84,
    "chapter": 6,
-   "line_start": 404.911
+   "line_start": 370.92
   },
   {
    "line": "L81",
@@ -7360,10 +7360,10 @@
    ],
    "music": "story",
    "id": "S096",
-   "start": 409.267,
-   "dur": 5.719,
+   "start": 374.76,
+   "dur": 4.54,
    "chapter": 6,
-   "line_start": 409.267
+   "line_start": 374.76
   },
   {
    "line": null,
@@ -7377,7 +7377,7 @@
    "text": "THE END OF ANIMAL TRIALS",
    "music": "warm",
    "id": "S097",
-   "start": 414.986,
+   "start": 379.3,
    "dur": 2.4,
    "chapter": 7
   },
@@ -7450,10 +7450,10 @@
     ]
    ],
    "id": "S098",
-   "start": 417.386,
-   "dur": 6.554,
+   "start": 381.7,
+   "dur": 5.72,
    "chapter": 7,
-   "line_start": 417.386
+   "line_start": 381.7
   },
   {
    "line": "L83",
@@ -7518,10 +7518,10 @@
    "part": null,
    "tag": "STILL HAPPENING IN THE 1700s",
    "id": "S099",
-   "start": 423.94,
-   "dur": 5.973,
+   "start": 387.42,
+   "dur": 5.49,
    "chapter": 7,
-   "line_start": 423.94
+   "line_start": 387.42
   },
   {
    "line": "L84",
@@ -7593,10 +7593,10 @@
     ]
    ],
    "id": "S100",
-   "start": 429.913,
-   "dur": 4.805,
+   "start": 392.91,
+   "dur": 4.87,
    "chapter": 7,
-   "line_start": 429.913
+   "line_start": 392.91
   },
   {
    "line": "L85",
@@ -7649,10 +7649,10 @@
    ],
    "part": null,
    "id": "S101",
-   "start": 434.718,
-   "dur": 4.107,
+   "start": 397.78,
+   "dur": 3.88,
    "chapter": 7,
-   "line_start": 434.718
+   "line_start": 397.78
   },
   {
    "line": null,
@@ -7665,7 +7665,7 @@
    "dur": 20.0,
    "music": "warm",
    "id": "S102",
-   "start": 438.825,
+   "start": 401.66,
    "chapter": 7
   }
  ]

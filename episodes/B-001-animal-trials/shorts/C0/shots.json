@@ -8,7 +8,7 @@
  "episode": "B-001",
  "short": "C0",
  "title": "The Pig That Was Executed in a Man's Clothes",
- "duration": 41.93,
+ "duration": 40.57,
  "vertical": true,
  "shots": [
   {
@@ -71,7 +71,7 @@
    ],
    "id": "C0_H",
    "start": 0.0,
-   "dur": 7.33,
+   "dur": 6.39,
    "chapter": 0,
    "line_start": 0.15,
    "music": "mystery"
@@ -138,10 +138,10 @@
     ]
    ],
    "id": "C0_S001",
-   "start": 7.33,
-   "dur": 4.821,
+   "start": 6.39,
+   "dur": 4.32,
    "chapter": 0,
-   "line_start": 7.33,
+   "line_start": 6.39,
    "src": "S001",
    "music": "mystery"
   },
@@ -213,10 +213,10 @@
     ]
    ],
    "id": "C0_S002",
-   "start": 12.151,
-   "dur": 2.325,
+   "start": 10.71,
+   "dur": 1.9,
    "chapter": 0,
-   "line_start": 12.151,
+   "line_start": 10.71,
    "src": "S002"
   },
   {
@@ -318,10 +318,10 @@
    ],
    "silhouette": true,
    "id": "C0_S003",
-   "start": 14.476,
-   "dur": 4.667,
+   "start": 12.61,
+   "dur": 5.26,
    "chapter": 0,
-   "line_start": 14.476,
+   "line_start": 12.61,
    "src": "S003"
   },
   {
@@ -399,10 +399,10 @@
     ]
    ],
    "id": "C0_S004",
-   "start": 19.143,
-   "dur": 2.077,
+   "start": 17.87,
+   "dur": 2.28,
    "chapter": 0,
-   "line_start": 19.143,
+   "line_start": 17.87,
    "src": "S004"
   },
   {
@@ -458,10 +458,10 @@
     ]
    ],
    "id": "C0_S005",
-   "start": 21.22,
-   "dur": 4.668,
+   "start": 20.15,
+   "dur": 4.62,
    "chapter": 0,
-   "line_start": 21.22,
+   "line_start": 20.15,
    "src": "S005"
   },
   {
@@ -528,10 +528,10 @@
     ]
    ],
    "id": "C0_S006",
-   "start": 25.888,
-   "dur": 0.667,
+   "start": 24.77,
+   "dur": 0.905,
    "chapter": 0,
-   "line_start": 25.888,
+   "line_start": 24.77,
    "src": "S006"
   },
   {
@@ -599,10 +599,10 @@
    ],
    "label": "BULL",
    "id": "C0_S007",
-   "start": 26.555,
-   "dur": 0.667,
+   "start": 25.675,
+   "dur": 0.905,
    "chapter": 0,
-   "line_start": 25.888,
+   "line_start": 24.77,
    "src": "S007"
   },
   {
@@ -685,10 +685,10 @@
     ]
    ],
    "id": "C0_S008",
-   "start": 27.222,
-   "dur": 0.667,
+   "start": 26.58,
+   "dur": 0.905,
    "chapter": 0,
-   "line_start": 25.888,
+   "line_start": 24.77,
    "src": "S008"
   },
   {
@@ -757,10 +757,10 @@
     ]
    ],
    "id": "C0_S009",
-   "start": 27.888,
-   "dur": 0.667,
+   "start": 27.485,
+   "dur": 0.905,
    "chapter": 0,
-   "line_start": 25.888,
+   "line_start": 24.77,
    "src": "S009"
   },
   {
@@ -823,10 +823,10 @@
     ]
    ],
    "id": "C0_S010",
-   "start": 28.555,
-   "dur": 1.822,
+   "start": 28.39,
+   "dur": 1.703,
    "chapter": 0,
-   "line_start": 28.555,
+   "line_start": 28.39,
    "src": "S010"
   },
   {
@@ -849,10 +849,10 @@
     ]
    ],
    "id": "C0_S011",
-   "start": 30.377,
-   "dur": 1.822,
+   "start": 30.093,
+   "dur": 1.703,
    "chapter": 0,
-   "line_start": 28.555,
+   "line_start": 28.39,
    "src": "S011"
   },
   {
@@ -927,10 +927,10 @@
     ]
    ],
    "id": "C0_S012",
-   "start": 32.198,
-   "dur": 1.877,
+   "start": 31.796,
+   "dur": 1.754,
    "chapter": 0,
-   "line_start": 28.555,
+   "line_start": 28.39,
    "src": "S012"
   },
   {
@@ -1017,18 +1017,18 @@
     ]
    ],
    "id": "C0_S014",
-   "start": 34.075,
-   "dur": 5.255,
+   "start": 33.55,
+   "dur": 4.42,
    "chapter": 0,
-   "line_start": 34.075,
+   "line_start": 33.55,
    "src": "S014"
   },
   {
    "id": "C0_END",
    "kind": "end",
    "line": "O1",
-   "start": 39.33,
-   "line_start": 39.48,
+   "start": 37.97,
+   "line_start": 38.12,
    "dur": 2.6,
    "chapter": null,
    "sfx": [

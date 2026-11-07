@@ -8,7 +8,7 @@
  "episode": "B-001",
  "short": "C3",
  "title": "The Lawyer Who Defended Rats in Court",
- "duration": 62.13,
+ "duration": 53.59,
  "vertical": true,
  "shots": [
   {
@@ -70,7 +70,7 @@
    ],
    "id": "C3_H",
    "start": 0.0,
-   "dur": 5.175,
+   "dur": 4.27,
    "chapter": 3,
    "line_start": 0.15,
    "music": "mystery"
@@ -193,10 +193,10 @@
     ]
    ],
    "id": "C3_S041",
-   "start": 5.175,
-   "dur": 6.592,
+   "start": 4.27,
+   "dur": 5.8,
    "chapter": 3,
-   "line_start": 5.175,
+   "line_start": 4.27,
    "src": "S041",
    "music": "mystery"
   },
@@ -270,10 +270,10 @@
    ],
    "part": null,
    "id": "C3_S042",
-   "start": 11.767,
-   "dur": 6.417,
+   "start": 10.07,
+   "dur": 5.74,
    "chapter": 3,
-   "line_start": 11.767,
+   "line_start": 10.07,
    "src": "S042"
   },
   {
@@ -335,10 +335,10 @@
     ]
    ],
    "id": "C3_S043",
-   "start": 18.184,
-   "dur": 3.622,
+   "start": 15.81,
+   "dur": 3.34,
    "chapter": 3,
-   "line_start": 18.184,
+   "line_start": 15.81,
    "src": "S043"
   },
   {
@@ -374,10 +374,10 @@
     ]
    ],
    "id": "C3_S045",
-   "start": 21.806,
-   "dur": 6.648,
+   "start": 19.15,
+   "dur": 5.36,
    "chapter": 3,
-   "line_start": 21.806,
+   "line_start": 19.15,
    "src": "S045"
   },
   {
@@ -444,10 +444,10 @@
     ]
    ],
    "id": "C3_S046",
-   "start": 28.454,
-   "dur": 2.285,
+   "start": 24.51,
+   "dur": 1.872,
    "chapter": 3,
-   "line_start": 28.454,
+   "line_start": 24.51,
    "src": "S046"
   },
   {
@@ -547,10 +547,10 @@
     ]
    ],
    "id": "C3_S047",
-   "start": 30.739,
-   "dur": 2.792,
+   "start": 26.382,
+   "dur": 2.288,
    "chapter": 3,
-   "line_start": 28.454,
+   "line_start": 24.51,
    "src": "S047"
   },
   {
@@ -601,10 +601,10 @@
    ],
    "label": "EMPTY",
    "id": "C3_S048",
-   "start": 33.531,
-   "dur": 2.218,
+   "start": 28.67,
+   "dur": 2.24,
    "chapter": 3,
-   "line_start": 33.531,
+   "line_start": 28.67,
    "src": "S048"
   },
   {
@@ -660,10 +660,10 @@
     1.0
    ],
    "id": "C3_S049",
-   "start": 35.749,
-   "dur": 2.218,
+   "start": 30.91,
+   "dur": 2.24,
    "chapter": 3,
-   "line_start": 33.531,
+   "line_start": 28.67,
    "src": "S049"
   },
   {
@@ -735,10 +735,10 @@
     ]
    ],
    "id": "C3_S050",
-   "start": 37.967,
-   "dur": 4.648,
+   "start": 33.15,
+   "dur": 4.42,
    "chapter": 3,
-   "line_start": 37.967,
+   "line_start": 33.15,
    "src": "S050"
   },
   {
@@ -834,10 +834,10 @@
    ],
    "music": "tension",
    "id": "C3_S051",
-   "start": 42.615,
-   "dur": 5.227,
+   "start": 37.57,
+   "dur": 4.2,
    "chapter": 3,
-   "line_start": 42.615,
+   "line_start": 37.57,
    "src": "S051"
   },
   {
@@ -886,10 +886,10 @@
    ],
    "music": "playful",
    "id": "C3_S052",
-   "start": 47.842,
-   "dur": 5.864,
+   "start": 41.77,
+   "dur": 4.52,
    "chapter": 3,
-   "line_start": 47.842,
+   "line_start": 41.77,
    "src": "S052"
   },
   {
@@ -965,18 +965,18 @@
     ]
    ],
    "id": "C3_S053",
-   "start": 53.706,
-   "dur": 5.824,
+   "start": 46.29,
+   "dur": 4.7,
    "chapter": 3,
-   "line_start": 53.706,
+   "line_start": 46.29,
    "src": "S053"
   },
   {
    "id": "C3_END",
    "kind": "end",
    "line": "O1",
-   "start": 59.53,
-   "line_start": 59.68,
+   "start": 50.99,
+   "line_start": 51.14,
    "dur": 2.6,
    "chapter": null,
    "sfx": [

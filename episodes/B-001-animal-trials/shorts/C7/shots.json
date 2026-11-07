@@ -8,7 +8,7 @@
  "episode": "B-001",
  "short": "C7",
  "title": "Why the Hangman Got New Gloves",
- "duration": 27.784,
+ "duration": 23.46,
  "vertical": true,
  "shots": [
   {
@@ -71,7 +71,7 @@
    ],
    "id": "C7_H",
    "start": 0.0,
-   "dur": 4.9,
+   "dur": 3.21,
    "chapter": 1,
    "line_start": 0.15,
    "music": "mystery"
@@ -206,10 +206,10 @@
     ]
    ],
    "id": "C7_S023",
-   "start": 4.9,
-   "dur": 6.781,
+   "start": 3.21,
+   "dur": 5.48,
    "chapter": 1,
-   "line_start": 4.9,
+   "line_start": 3.21,
    "src": "S023",
    "music": "mystery"
   },
@@ -311,10 +311,10 @@
     ]
    ],
    "id": "C7_S024",
-   "start": 11.681,
-   "dur": 3.384,
+   "start": 8.69,
+   "dur": 3.65,
    "chapter": 1,
-   "line_start": 11.681,
+   "line_start": 8.69,
    "src": "S024"
   },
   {
@@ -381,10 +381,10 @@
     ]
    ],
    "id": "C7_S025",
-   "start": 15.065,
-   "dur": 2.172,
+   "start": 12.34,
+   "dur": 1.82,
    "chapter": 1,
-   "line_start": 15.065,
+   "line_start": 12.34,
    "src": "S025"
   },
   {
@@ -446,10 +446,10 @@
     ]
    ],
    "id": "C7_S026",
-   "start": 17.237,
-   "dur": 3.2,
+   "start": 14.16,
+   "dur": 2.74,
    "chapter": 1,
-   "line_start": 17.237,
+   "line_start": 14.16,
    "src": "S026"
   },
   {
@@ -504,18 +504,18 @@
    "part": null,
    "tag": "OFFICER OF THE LAW",
    "id": "C7_S027",
-   "start": 20.437,
-   "dur": 4.747,
+   "start": 16.9,
+   "dur": 3.96,
    "chapter": 1,
-   "line_start": 20.437,
+   "line_start": 16.9,
    "src": "S027"
   },
   {
    "id": "C7_END",
    "kind": "end",
    "line": "O1",
-   "start": 25.184,
-   "line_start": 25.334,
+   "start": 20.86,
+   "line_start": 21.01,
    "dur": 2.6,
    "chapter": null,
    "sfx": [

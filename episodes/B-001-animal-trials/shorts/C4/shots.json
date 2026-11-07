@@ -8,7 +8,7 @@
  "episode": "B-001",
  "short": "C4",
  "title": "The Rooster Sentenced for Laying an Egg",
- "duration": 47.782,
+ "duration": 47.533,
  "vertical": true,
  "shots": [
   {
@@ -75,7 +75,7 @@
    "music": "dark",
    "id": "C4_H",
    "start": 0.0,
-   "dur": 5.305,
+   "dur": 4.99,
    "chapter": 4,
    "line_start": 0.15
   },
@@ -145,10 +145,10 @@
     ]
    ],
    "id": "C4_S058",
-   "start": 5.305,
-   "dur": 6.821,
+   "start": 4.99,
+   "dur": 7.91,
    "chapter": 4,
-   "line_start": 5.305,
+   "line_start": 4.99,
    "src": "S058",
    "music": "dark"
   },
@@ -238,10 +238,10 @@
     ]
    ],
    "id": "C4_S059",
-   "start": 12.126,
-   "dur": 2.024,
+   "start": 12.9,
+   "dur": 2.44,
    "chapter": 4,
-   "line_start": 12.126,
+   "line_start": 12.9,
    "src": "S059"
   },
   {
@@ -298,10 +298,10 @@
     0.45
    ],
    "id": "C4_S060",
-   "start": 14.15,
-   "dur": 2.323,
+   "start": 15.34,
+   "dur": 2.358,
    "chapter": 4,
-   "line_start": 14.15,
+   "line_start": 15.34,
    "src": "S060"
   },
   {
@@ -400,10 +400,10 @@
     ]
    ],
    "id": "C4_S061",
-   "start": 16.473,
-   "dur": 2.84,
+   "start": 17.698,
+   "dur": 2.882,
    "chapter": 4,
-   "line_start": 14.15,
+   "line_start": 15.34,
    "src": "S061"
   },
   {
@@ -428,10 +428,10 @@
     ]
    ],
    "id": "C4_S062",
-   "start": 19.313,
-   "dur": 6.912,
+   "start": 20.58,
+   "dur": 6.92,
    "chapter": 4,
-   "line_start": 19.313,
+   "line_start": 20.58,
    "src": "S062"
   },
   {
@@ -562,10 +562,10 @@
     ]
    ],
    "id": "C4_S064",
-   "start": 26.225,
-   "dur": 5.225,
+   "start": 27.5,
+   "dur": 4.593,
    "chapter": 4,
-   "line_start": 26.225,
+   "line_start": 27.5,
    "src": "S064"
   },
   {
@@ -645,10 +645,10 @@
    ],
    "music": "curious",
    "id": "C4_S065",
-   "start": 31.45,
-   "dur": 7.904,
+   "start": 32.093,
+   "dur": 6.96,
    "chapter": 4,
-   "line_start": 31.45,
+   "line_start": 32.093,
    "src": "S065"
   },
   {
@@ -709,18 +709,18 @@
    ],
    "music": "dark",
    "id": "C4_S066",
-   "start": 39.354,
-   "dur": 5.828,
+   "start": 39.053,
+   "dur": 5.88,
    "chapter": 4,
-   "line_start": 39.354,
+   "line_start": 39.053,
    "src": "S066"
   },
   {
    "id": "C4_END",
    "kind": "end",
    "line": "O1",
-   "start": 45.182,
-   "line_start": 45.332,
+   "start": 44.933,
+   "line_start": 45.083,
    "dur": 2.6,
    "chapter": null,
    "sfx": [

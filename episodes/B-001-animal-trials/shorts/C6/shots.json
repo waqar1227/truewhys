@@ -8,7 +8,7 @@
  "episode": "B-001",
  "short": "C6",
  "title": "Why the Church Put Bugs on Trial",
- "duration": 48.312,
+ "duration": 41.21,
  "vertical": true,
  "shots": [
   {
@@ -88,7 +88,7 @@
    ],
    "id": "C6_H",
    "start": 0.0,
-   "dur": 6.28,
+   "dur": 4.15,
    "chapter": 6,
    "line_start": 0.15,
    "music": "mystery"
@@ -153,10 +153,10 @@
     ]
    ],
    "id": "C6_S088",
-   "start": 6.28,
-   "dur": 2.586,
+   "start": 4.15,
+   "dur": 2.84,
    "chapter": 6,
-   "line_start": 6.28,
+   "line_start": 4.15,
    "src": "S088",
    "music": "mystery"
   },
@@ -177,10 +177,10 @@
     ]
    ],
    "id": "C6_S090",
-   "start": 8.866,
-   "dur": 6.892,
+   "start": 6.99,
+   "dur": 5.24,
    "chapter": 6,
-   "line_start": 8.866,
+   "line_start": 6.99,
    "src": "S090"
   },
   {
@@ -200,10 +200,10 @@
     ]
    ],
    "id": "C6_S091",
-   "start": 15.758,
-   "dur": 7.467,
+   "start": 12.23,
+   "dur": 6.84,
    "chapter": 6,
-   "line_start": 15.758,
+   "line_start": 12.23,
    "src": "S091"
   },
   {
@@ -264,10 +264,10 @@
     ]
    ],
    "id": "C6_S092",
-   "start": 23.225,
-   "dur": 3.075,
+   "start": 19.07,
+   "dur": 2.86,
    "chapter": 6,
-   "line_start": 23.225,
+   "line_start": 19.07,
    "src": "S092"
   },
   {
@@ -352,10 +352,10 @@
     ]
    ],
    "id": "C6_S093",
-   "start": 26.3,
-   "dur": 4.284,
+   "start": 21.93,
+   "dur": 3.56,
    "chapter": 6,
-   "line_start": 26.3,
+   "line_start": 21.93,
    "src": "S093"
   },
   {
@@ -445,10 +445,10 @@
     ]
    ],
    "id": "C6_S094",
-   "start": 30.584,
-   "dur": 5.053,
+   "start": 25.49,
+   "dur": 4.74,
    "chapter": 6,
-   "line_start": 30.584,
+   "line_start": 25.49,
    "src": "S094"
   },
   {
@@ -569,10 +569,10 @@
     ]
    ],
    "id": "C6_S095",
-   "start": 35.637,
-   "dur": 4.356,
+   "start": 30.23,
+   "dur": 3.84,
    "chapter": 6,
-   "line_start": 35.637,
+   "line_start": 30.23,
    "src": "S095"
   },
   {
@@ -633,18 +633,18 @@
    ],
    "music": "story",
    "id": "C6_S096",
-   "start": 39.993,
-   "dur": 5.719,
+   "start": 34.07,
+   "dur": 4.54,
    "chapter": 6,
-   "line_start": 39.993,
+   "line_start": 34.07,
    "src": "S096"
   },
   {
    "id": "C6_END",
    "kind": "end",
    "line": "O1",
-   "start": 45.712,
-   "line_start": 45.862,
+   "start": 38.61,
+   "line_start": 38.76,
    "dur": 2.6,
    "chapter": null,
    "sfx": [

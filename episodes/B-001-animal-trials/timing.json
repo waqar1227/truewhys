@@ -3,4837 +3,5046 @@
   "id": "L01",
   "chapter": 0,
   "text": "In the year 1386, in the French town of Falaise, a crowd packed the main square to watch an execution.",
-  "dur": 7.587,
+  "dur": 8.76,
   "words": [
    {
     "w": "In",
     "s": 0.0,
-    "e": 0.16
+    "e": 0.48
    },
    {
     "w": "the",
-    "s": 0.16,
-    "e": 0.24
+    "s": 0.48,
+    "e": 0.6
    },
    {
     "w": "year",
-    "s": 0.24,
-    "e": 0.4
+    "s": 0.6,
+    "e": 0.74
    },
    {
     "w": "1386,",
-    "s": 0.4,
-    "e": 1.6
+    "s": 0.74,
+    "e": 2.08
    },
    {
     "w": "in",
-    "s": 2.04,
-    "e": 2.18
+    "s": 2.66,
+    "e": 2.72
    },
    {
     "w": "the",
-    "s": 2.18,
-    "e": 2.3
+    "s": 2.72,
+    "e": 2.82
    },
    {
     "w": "French",
-    "s": 2.3,
-    "e": 2.5
-   },
-   {
-    "w": "town",
-    "s": 2.5,
-    "e": 2.94
-   },
-   {
-    "w": "of",
-    "s": 2.94,
+    "s": 2.82,
     "e": 3.1
    },
    {
-    "w": "Falaise,",
+    "w": "town",
     "s": 3.1,
-    "e": 3.8
+    "e": 3.58
+   },
+   {
+    "w": "of",
+    "s": 3.58,
+    "e": 3.82
+   },
+   {
+    "w": "Falaise,",
+    "s": 3.82,
+    "e": 4.46
    },
    {
     "w": "a",
-    "s": 4.2,
-    "e": 4.38
+    "s": 5.1,
+    "e": 5.26
    },
    {
     "w": "crowd",
-    "s": 4.38,
-    "e": 4.76
+    "s": 5.26,
+    "e": 5.58
    },
    {
     "w": "packed",
-    "s": 4.76,
-    "e": 5.22
-   },
-   {
-    "w": "the",
-    "s": 5.22,
-    "e": 5.44
-   },
-   {
-    "w": "main",
-    "s": 5.44,
-    "e": 5.68
-   },
-   {
-    "w": "square",
-    "s": 5.68,
+    "s": 5.58,
     "e": 6.1
    },
    {
-    "w": "to",
+    "w": "the",
     "s": 6.1,
-    "e": 6.34
+    "e": 6.3
+   },
+   {
+    "w": "main",
+    "s": 6.3,
+    "e": 6.52
+   },
+   {
+    "w": "square",
+    "s": 6.52,
+    "e": 6.96
+   },
+   {
+    "w": "to",
+    "s": 6.96,
+    "e": 7.64
    },
    {
     "w": "watch",
-    "s": 6.34,
-    "e": 6.56
+    "s": 7.64,
+    "e": 7.86
    },
    {
     "w": "an",
-    "s": 6.56,
-    "e": 6.78
+    "s": 7.86,
+    "e": 8.04
    },
    {
     "w": "execution.",
-    "s": 6.78,
-    "e": 7.26
+    "s": 8.04,
+    "e": 8.58
    }
   ],
-  "heard": "In the year 1386, in the French town of Falaise, a crowd packed the main square to watch an execution."
+  "heard": "In the year 1386, in the French town of Falaise, a crowd packed the main square to watch an execution.",
+  "match": 1.0
  },
  {
   "id": "L02",
   "chapter": 0,
   "text": "The prisoner had been tried in court, and found guilty of killing a child.",
-  "dur": 4.501,
+  "dur": 4.0,
   "words": [
    {
     "w": "The",
-    "s": 0.0,
-    "e": 0.14
+    "s": 0.08,
+    "e": 0.3
    },
    {
     "w": "prisoner",
-    "s": 0.14,
-    "e": 0.48
+    "s": 0.3,
+    "e": 0.56
    },
    {
     "w": "had",
-    "s": 0.48,
-    "e": 0.72
+    "s": 0.56,
+    "e": 0.84
    },
    {
     "w": "been",
-    "s": 0.72,
-    "e": 0.86
+    "s": 0.84,
+    "e": 1.0
    },
    {
     "w": "tried",
-    "s": 0.86,
-    "e": 1.18
+    "s": 1.0,
+    "e": 1.2
    },
    {
     "w": "in",
-    "s": 1.18,
-    "e": 1.4
+    "s": 1.2,
+    "e": 1.36
    },
    {
     "w": "court,",
-    "s": 1.4,
-    "e": 1.72
+    "s": 1.36,
+    "e": 1.58
    },
    {
     "w": "and",
-    "s": 2.2,
-    "e": 2.3
+    "s": 2.02,
+    "e": 2.18
    },
    {
     "w": "found",
-    "s": 2.3,
-    "e": 2.58
+    "s": 2.18,
+    "e": 2.36
    },
    {
     "w": "guilty",
-    "s": 2.58,
-    "e": 3.06
+    "s": 2.36,
+    "e": 2.76
    },
    {
     "w": "of",
-    "s": 3.06,
-    "e": 3.3
+    "s": 2.76,
+    "e": 3.18
    },
    {
     "w": "killing",
-    "s": 3.3,
-    "e": 3.58
+    "s": 3.18,
+    "e": 3.38
    },
    {
     "w": "a",
-    "s": 3.58,
-    "e": 3.8
+    "s": 3.38,
+    "e": 3.54
    },
    {
     "w": "child.",
-    "s": 3.8,
-    "e": 4.18
+    "s": 3.54,
+    "e": 3.82
    }
   ],
-  "heard": "The prisoner had been tried in court, and found guilty of killing a child."
+  "heard": "The prisoner had been tried in court, and found guilty of killing a child.",
+  "match": 1.0
  },
  {
   "id": "L03",
   "chapter": 0,
   "text": "The judge had read out the sentence.",
-  "dur": 2.005,
+  "dur": 1.58,
   "words": [
    {
     "w": "The",
-    "s": 0.0,
-    "e": 0.14
+    "s": 0.08,
+    "e": 0.22
    },
    {
     "w": "judge",
-    "s": 0.14,
-    "e": 0.5
+    "s": 0.22,
+    "e": 0.44
    },
    {
     "w": "had",
-    "s": 0.5,
-    "e": 0.78
+    "s": 0.44,
+    "e": 0.7
    },
    {
     "w": "read",
-    "s": 0.78,
-    "e": 0.98
+    "s": 0.7,
+    "e": 0.84
    },
    {
     "w": "out",
-    "s": 0.98,
-    "e": 1.18
+    "s": 0.84,
+    "e": 0.98
    },
    {
     "w": "the",
-    "s": 1.18,
-    "e": 1.34
+    "s": 0.98,
+    "e": 1.14
    },
    {
     "w": "sentence.",
-    "s": 1.34,
-    "e": 1.68
+    "s": 1.14,
+    "e": 1.4
    }
   ],
-  "heard": "The judge had read out the sentence."
+  "heard": "The judge had read out the sentence.",
+  "match": 1.0
  },
  {
   "id": "L04",
   "chapter": 0,
   "text": "And then the prisoner was led out, dressed in a man's jacket and breeches.",
-  "dur": 4.347,
+  "dur": 4.94,
   "words": [
    {
     "w": "And",
-    "s": 0.0,
-    "e": 0.16
+    "s": 0.08,
+    "e": 0.3
    },
    {
     "w": "then",
-    "s": 0.16,
-    "e": 0.28
+    "s": 0.3,
+    "e": 0.52
    },
    {
     "w": "the",
-    "s": 0.28,
-    "e": 0.44
+    "s": 0.52,
+    "e": 1.14
    },
    {
     "w": "prisoner",
-    "s": 0.44,
-    "e": 0.76
+    "s": 1.14,
+    "e": 1.42
    },
    {
     "w": "was",
-    "s": 0.76,
-    "e": 1.0
+    "s": 1.42,
+    "e": 1.68
    },
    {
     "w": "led",
-    "s": 1.0,
-    "e": 1.22
+    "s": 1.68,
+    "e": 1.92
    },
    {
     "w": "out,",
-    "s": 1.22,
-    "e": 1.58
+    "s": 1.92,
+    "e": 2.26
    },
    {
     "w": "dressed",
-    "s": 2.1,
-    "e": 2.22
+    "s": 2.58,
+    "e": 2.8
    },
    {
     "w": "in",
-    "s": 2.22,
-    "e": 2.48
+    "s": 2.8,
+    "e": 3.08
    },
    {
     "w": "a",
-    "s": 2.48,
-    "e": 2.58
+    "s": 3.08,
+    "e": 3.18
    },
    {
     "w": "man's",
-    "s": 2.58,
-    "e": 3.02
+    "s": 3.18,
+    "e": 3.54
    },
    {
     "w": "jacket",
-    "s": 3.02,
-    "e": 3.38
+    "s": 3.54,
+    "e": 3.86
    },
    {
     "w": "and",
-    "s": 3.38,
-    "e": 3.66
+    "s": 3.86,
+    "e": 4.34
    },
    {
     "w": "breeches.",
-    "s": 3.66,
-    "e": 4.1
+    "s": 4.34,
+    "e": 4.76
    }
   ],
-  "heard": "And then the prisoner was led out, dressed in a man's jacket and breeches."
+  "heard": "And then the prisoner was led out, dressed in a man's jacket and breeches.",
+  "match": 1.0
  },
  {
   "id": "L05",
   "chapter": 0,
   "text": "The prisoner... was a pig.",
-  "dur": 1.557,
+  "dur": 1.76,
   "words": [
    {
     "w": "The",
-    "s": 0.0,
-    "e": 0.16
+    "s": 0.08,
+    "e": 0.6
    },
    {
     "w": "prisoner...",
-    "s": 0.16,
-    "e": 0.52
-   },
-   {
-    "w": "was",
-    "s": 0.52,
-    "e": 0.92
-   },
-   {
-    "w": "a",
-    "s": 0.92,
-    "e": 1.08
-   },
-   {
-    "w": "pig.",
-    "s": 1.08,
-    "e": 1.3
-   }
-  ],
-  "heard": "The prisoner was a pig."
- },
- {
-  "id": "L06",
-  "chapter": 0,
-  "text": "For hundreds of years, all across Europe, animals were taken to court.",
-  "dur": 4.348,
-  "words": [
-   {
-    "w": "For",
-    "s": 0.0,
-    "e": 0.18
-   },
-   {
-    "w": "hundreds",
-    "s": 0.18,
-    "e": 0.5
-   },
-   {
-    "w": "of",
-    "s": 0.5,
-    "e": 0.74
-   },
-   {
-    "w": "years,",
-    "s": 0.74,
-    "e": 1.16
-   },
-   {
-    "w": "all",
-    "s": 1.22,
-    "e": 1.42
-   },
-   {
-    "w": "across",
-    "s": 1.42,
-    "e": 1.8
-   },
-   {
-    "w": "Europe,",
-    "s": 1.8,
-    "e": 2.24
-   },
-   {
-    "w": "animals",
-    "s": 2.8,
-    "e": 3.02
-   },
-   {
-    "w": "were",
-    "s": 3.02,
-    "e": 3.28
-   },
-   {
-    "w": "taken",
-    "s": 3.28,
-    "e": 3.52
-   },
-   {
-    "w": "to",
-    "s": 3.52,
-    "e": 3.8
-   },
-   {
-    "w": "court.",
-    "s": 3.8,
-    "e": 4.08
-   }
-  ],
-  "heard": "For hundreds of years, all across Europe, animals were taken to court."
- },
- {
-  "id": "L07",
-  "chapter": 0,
-  "text": "Pigs. Bulls. Rats. Even insects.",
-  "dur": 2.347,
-  "words": [
-   {
-    "w": "Pigs.",
-    "s": 0.0,
-    "e": 0.3
-   },
-   {
-    "w": "Bulls.",
     "s": 0.6,
-    "e": 0.62
-   },
-   {
-    "w": "Rats.",
-    "s": 0.98,
-    "e": 1.04
-   },
-   {
-    "w": "Even",
-    "s": 1.5,
-    "e": 1.56
-   },
-   {
-    "w": "insects.",
-    "s": 1.56,
-    "e": 2.0
-   }
-  ],
-  "heard": "Pigs. Bulls. Rats. Even insects."
- },
- {
-  "id": "L08",
-  "chapter": 0,
-  "text": "They got lawyers. They got official summons. Some were even offered their own land.",
-  "dur": 5.2,
-  "words": [
-   {
-    "w": "They",
-    "s": 0.0,
-    "e": 0.14
-   },
-   {
-    "w": "got",
-    "s": 0.14,
-    "e": 0.34
-   },
-   {
-    "w": "lawyers.",
-    "s": 0.34,
-    "e": 0.84
-   },
-   {
-    "w": "They",
-    "s": 1.4,
-    "e": 1.44
-   },
-   {
-    "w": "got",
-    "s": 1.44,
-    "e": 1.62
-   },
-   {
-    "w": "official",
-    "s": 1.62,
-    "e": 2.0
-   },
-   {
-    "w": "summons.",
-    "s": 2.0,
-    "e": 2.44
-   },
-   {
-    "w": "Some",
-    "s": 3.12,
-    "e": 3.16
-   },
-   {
-    "w": "were",
-    "s": 3.16,
-    "e": 3.36
-   },
-   {
-    "w": "even",
-    "s": 3.36,
-    "e": 3.66
-   },
-   {
-    "w": "offered",
-    "s": 3.66,
-    "e": 4.1
-   },
-   {
-    "w": "their",
-    "s": 4.1,
-    "e": 4.32
-   },
-   {
-    "w": "own",
-    "s": 4.32,
-    "e": 4.6
-   },
-   {
-    "w": "land.",
-    "s": 4.6,
-    "e": 4.92
-   }
-  ],
-  "heard": "They got lawyers. They got official summons. Some were even offered their own land."
- },
- {
-  "id": "L09",
-  "chapter": 0,
-  "text": "So why on earth would anyone put an animal on trial?",
-  "dur": 3.399,
-  "words": [
-   {
-    "w": "So",
-    "s": 0.0,
-    "e": 0.22
-   },
-   {
-    "w": "why",
-    "s": 0.22,
-    "e": 0.52
-   },
-   {
-    "w": "on",
-    "s": 0.52,
-    "e": 0.74
-   },
-   {
-    "w": "earth",
-    "s": 0.74,
-    "e": 1.0
-   },
-   {
-    "w": "would",
-    "s": 1.0,
-    "e": 1.3
-   },
-   {
-    "w": "anyone",
-    "s": 1.3,
-    "e": 1.64
-   },
-   {
-    "w": "put",
-    "s": 1.64,
-    "e": 1.98
-   },
-   {
-    "w": "an",
-    "s": 1.98,
-    "e": 2.12
-   },
-   {
-    "w": "animal",
-    "s": 2.12,
-    "e": 2.48
-   },
-   {
-    "w": "on",
-    "s": 2.48,
-    "e": 2.76
-   },
-   {
-    "w": "trial?",
-    "s": 2.76,
-    "e": 3.12
-   }
-  ],
-  "heard": "So why on earth would anyone put an animal on trial?"
- },
- {
-  "id": "L10",
-  "chapter": 0,
-  "text": "The real answer has less to do with animals... and a lot more to do with money.",
-  "dur": 4.735,
-  "words": [
-   {
-    "w": "The",
-    "s": 0.0,
-    "e": 0.18
-   },
-   {
-    "w": "real",
-    "s": 0.18,
-    "e": 0.46
-   },
-   {
-    "w": "answer",
-    "s": 0.46,
-    "e": 0.98
-   },
-   {
-    "w": "has",
-    "s": 0.98,
-    "e": 1.24
-   },
-   {
-    "w": "less",
-    "s": 1.24,
-    "e": 1.48
-   },
-   {
-    "w": "to",
-    "s": 1.48,
-    "e": 1.68
-   },
-   {
-    "w": "do",
-    "s": 1.68,
-    "e": 1.84
-   },
-   {
-    "w": "with",
-    "s": 1.84,
-    "e": 1.98
-   },
-   {
-    "w": "animals...",
-    "s": 1.98,
-    "e": 3.12
-   },
-   {
-    "w": "and",
-    "s": 3.12,
-    "e": 3.2
-   },
-   {
-    "w": "a",
-    "s": 3.2,
-    "e": 3.32
-   },
-   {
-    "w": "lot",
-    "s": 3.32,
-    "e": 3.52
-   },
-   {
-    "w": "more",
-    "s": 3.52,
-    "e": 3.82
-   },
-   {
-    "w": "to",
-    "s": 3.82,
-    "e": 4.02
-   },
-   {
-    "w": "do",
-    "s": 4.02,
-    "e": 4.16
-   },
-   {
-    "w": "with",
-    "s": 4.16,
-    "e": 4.32
-   },
-   {
-    "w": "money.",
-    "s": 4.32,
-    "e": 4.52
-   }
-  ],
-  "heard": "The real answer has less to do with animals... and a lot more to do with money."
- },
- {
-  "id": "L11",
-  "chapter": 0,
-  "text": "I'm Wy, and this is the true story of the animal trials.",
-  "dur": 4.004,
-  "words": [
-   {
-    "w": "I'm",
-    "s": 0.0,
-    "e": 0.26
-   },
-   {
-    "w": "Wy,",
-    "s": 0.26,
-    "e": 0.5
-   },
-   {
-    "w": "and",
-    "s": 0.88,
-    "e": 1.0
-   },
-   {
-    "w": "this",
-    "s": 1.0,
-    "e": 1.26
-   },
-   {
-    "w": "is",
-    "s": 1.26,
-    "e": 1.66
-   },
-   {
-    "w": "the",
-    "s": 1.66,
-    "e": 1.84
-   },
-   {
-    "w": "true",
-    "s": 1.84,
-    "e": 2.08
-   },
-   {
-    "w": "story",
-    "s": 2.08,
-    "e": 2.48
-   },
-   {
-    "w": "of",
-    "s": 2.48,
-    "e": 2.74
-   },
-   {
-    "w": "the",
-    "s": 2.74,
-    "e": 2.84
-   },
-   {
-    "w": "animal",
-    "s": 2.84,
-    "e": 3.2
-   },
-   {
-    "w": "trials.",
-    "s": 3.2,
-    "e": 3.68
-   }
-  ],
-  "heard": "I'm Wy, and this is the true story of the animal trials."
- },
- {
-  "id": "L12",
-  "chapter": 1,
-  "text": "Let's go back to Falaise.",
-  "dur": 1.707,
-  "words": [
-   {
-    "w": "Let's",
-    "s": 0.0,
-    "e": 0.38
-   },
-   {
-    "w": "go",
-    "s": 0.38,
-    "e": 0.48
-   },
-   {
-    "w": "back",
-    "s": 0.48,
-    "e": 0.74
-   },
-   {
-    "w": "to",
-    "s": 0.74,
-    "e": 0.9
-   },
-   {
-    "w": "Falaise.",
-    "s": 0.9,
-    "e": 1.52
-   }
-  ],
-  "heard": "Let's go back to Falaise."
- },
- {
-  "id": "L13",
-  "chapter": 1,
-  "text": "A sow, a female pig, had attacked a small child, and the child had died.",
-  "dur": 4.715,
-  "words": [
-   {
-    "w": "A",
-    "s": 0.0,
-    "e": 0.12
-   },
-   {
-    "w": "sow,",
-    "s": 0.12,
-    "e": 0.44
-   },
-   {
-    "w": "a",
-    "s": 0.66,
-    "e": 0.72
-   },
-   {
-    "w": "female",
-    "s": 0.72,
-    "e": 1.04
-   },
-   {
-    "w": "pig,",
-    "s": 1.04,
-    "e": 1.48
-   },
-   {
-    "w": "had",
-    "s": 1.76,
-    "e": 1.96
-   },
-   {
-    "w": "attacked",
-    "s": 1.96,
-    "e": 2.26
-   },
-   {
-    "w": "a",
-    "s": 2.26,
-    "e": 2.48
-   },
-   {
-    "w": "small",
-    "s": 2.48,
-    "e": 2.76
-   },
-   {
-    "w": "child,",
-    "s": 2.76,
-    "e": 3.28
-   },
-   {
-    "w": "and",
-    "s": 3.46,
-    "e": 3.52
-   },
-   {
-    "w": "the",
-    "s": 3.52,
-    "e": 3.64
-   },
-   {
-    "w": "child",
-    "s": 3.64,
-    "e": 3.94
-   },
-   {
-    "w": "had",
-    "s": 3.94,
-    "e": 4.14
-   },
-   {
-    "w": "died.",
-    "s": 4.14,
-    "e": 4.46
-   }
-  ],
-  "heard": "A sow, a female pig, had attacked a small child, and the child had died."
- },
- {
-  "id": "L14",
-  "chapter": 1,
-  "text": "Today, we'd call that a terrible accident. In 1386, the town called it murder.",
-  "dur": 5.936,
-  "words": [
-   {
-    "w": "Today,",
-    "s": 0.0,
-    "e": 0.32
-   },
-   {
-    "w": "we'd",
-    "s": 0.32,
-    "e": 0.64
-   },
-   {
-    "w": "call",
-    "s": 0.64,
-    "e": 0.86
-   },
-   {
-    "w": "that",
-    "s": 0.86,
-    "e": 1.14
-   },
-   {
-    "w": "a",
-    "s": 1.14,
-    "e": 1.28
-   },
-   {
-    "w": "terrible",
-    "s": 1.28,
-    "e": 1.62
-   },
-   {
-    "w": "accident.",
-    "s": 1.62,
-    "e": 2.22
-   },
-   {
-    "w": "In",
-    "s": 2.92,
-    "e": 2.98
-   },
-   {
-    "w": "1386,",
-    "s": 2.98,
-    "e": 4.08
-   },
-   {
-    "w": "the",
-    "s": 4.5,
-    "e": 4.58
-   },
-   {
-    "w": "town",
-    "s": 4.58,
-    "e": 4.9
-   },
-   {
-    "w": "called",
-    "s": 4.9,
-    "e": 5.26
-   },
-   {
-    "w": "it",
-    "s": 5.26,
-    "e": 5.48
-   },
-   {
-    "w": "murder.",
-    "s": 5.48,
-    "e": 5.66
-   }
-  ],
-  "heard": "Today we'd call that a terrible accident. In 1386, the town called it murder."
- },
- {
-  "id": "L15",
-  "chapter": 1,
-  "text": "So the sow was put on trial in the town's criminal court, the same court that tried people.",
-  "dur": 5.76,
-  "words": [
-   {
-    "w": "So",
-    "s": 0.0,
-    "e": 0.16
-   },
-   {
-    "w": "the",
-    "s": 0.16,
-    "e": 0.3
-   },
-   {
-    "w": "sow",
-    "s": 0.3,
-    "e": 0.58
-   },
-   {
-    "w": "was",
-    "s": 0.58,
-    "e": 0.82
-   },
-   {
-    "w": "put",
-    "s": 0.82,
-    "e": 0.98
-   },
-   {
-    "w": "on",
-    "s": 0.98,
-    "e": 1.16
-   },
-   {
-    "w": "trial",
-    "s": 1.16,
-    "e": 1.58
-   },
-   {
-    "w": "in",
-    "s": 1.58,
-    "e": 1.84
-   },
-   {
-    "w": "the",
-    "s": 1.84,
-    "e": 1.96
-   },
-   {
-    "w": "town's",
-    "s": 1.96,
-    "e": 2.5
-   },
-   {
-    "w": "criminal",
-    "s": 2.5,
-    "e": 2.76
-   },
-   {
-    "w": "court,",
-    "s": 2.76,
-    "e": 3.24
-   },
-   {
-    "w": "the",
-    "s": 3.76,
-    "e": 3.84
-   },
-   {
-    "w": "same",
-    "s": 3.84,
-    "e": 4.14
-   },
-   {
-    "w": "court",
-    "s": 4.14,
-    "e": 4.5
-   },
-   {
-    "w": "that",
-    "s": 4.5,
-    "e": 4.76
-   },
-   {
-    "w": "tried",
-    "s": 4.76,
-    "e": 5.1
-   },
-   {
-    "w": "people.",
-    "s": 5.1,
-    "e": 5.48
-   }
-  ],
-  "heard": "So the sow was put on trial in the town's criminal court, the same court that tried people."
- },
- {
-  "id": "L16",
-  "chapter": 1,
-  "text": "And the judge's sentence was an eye for an eye.",
-  "dur": 2.936,
-  "words": [
-   {
-    "w": "And",
-    "s": 0.0,
-    "e": 0.14
-   },
-   {
-    "w": "the",
-    "s": 0.14,
-    "e": 0.26
-   },
-   {
-    "w": "judge's",
-    "s": 0.26,
-    "e": 0.74
-   },
-   {
-    "w": "sentence",
-    "s": 0.74,
     "e": 1.12
    },
    {
     "w": "was",
     "s": 1.12,
-    "e": 1.62
+    "e": 1.14
+   },
+   {
+    "w": "a",
+    "s": 1.14,
+    "e": 1.4
+   },
+   {
+    "w": "pig.",
+    "s": 1.4,
+    "e": 1.58
+   }
+  ],
+  "heard": "The prisoner... was a pig.",
+  "match": 1.0
+ },
+ {
+  "id": "L06",
+  "chapter": 0,
+  "text": "For hundreds of years, all across Europe, animals were taken to court.",
+  "dur": 4.3,
+  "words": [
+   {
+    "w": "For",
+    "s": 0.08,
+    "e": 0.36
+   },
+   {
+    "w": "hundreds",
+    "s": 0.36,
+    "e": 0.64
+   },
+   {
+    "w": "of",
+    "s": 0.64,
+    "e": 0.86
+   },
+   {
+    "w": "years,",
+    "s": 0.86,
+    "e": 1.1
+   },
+   {
+    "w": "all",
+    "s": 1.22,
+    "e": 1.54
+   },
+   {
+    "w": "across",
+    "s": 1.54,
+    "e": 1.9
+   },
+   {
+    "w": "Europe,",
+    "s": 1.9,
+    "e": 2.22
+   },
+   {
+    "w": "animals",
+    "s": 2.8,
+    "e": 2.98
+   },
+   {
+    "w": "were",
+    "s": 2.98,
+    "e": 3.44
+   },
+   {
+    "w": "taken",
+    "s": 3.44,
+    "e": 3.66
+   },
+   {
+    "w": "to",
+    "s": 3.66,
+    "e": 3.9
+   },
+   {
+    "w": "court.",
+    "s": 3.9,
+    "e": 4.12
+   }
+  ],
+  "heard": "For hundreds of years, all across Europe, animals were taken to court.",
+  "match": 1.0
+ },
+ {
+  "id": "L07",
+  "chapter": 0,
+  "text": "Pigs. Bulls. Rats. Even insects.",
+  "dur": 3.3,
+  "words": [
+   {
+    "w": "Pigs.",
+    "s": 0.08,
+    "e": 0.58
+   },
+   {
+    "w": "Bulls.",
+    "s": 1.44,
+    "e": 1.48
+   },
+   {
+    "w": "Rats.",
+    "s": 1.92,
+    "e": 1.94
+   },
+   {
+    "w": "Even",
+    "s": 2.52,
+    "e": 2.64
+   },
+   {
+    "w": "insects.",
+    "s": 2.64,
+    "e": 3.12
+   }
+  ],
+  "heard": "Pigs. Bulls. Rats. Even insects.",
+  "match": 1.0
+ },
+ {
+  "id": "L08",
+  "chapter": 0,
+  "text": "They got lawyers. They got official summons. Some were even offered their own land.",
+  "dur": 4.84,
+  "words": [
+   {
+    "w": "They",
+    "s": 0.08,
+    "e": 0.22
+   },
+   {
+    "w": "got",
+    "s": 0.22,
+    "e": 0.38
+   },
+   {
+    "w": "lawyers.",
+    "s": 0.38,
+    "e": 0.68
+   },
+   {
+    "w": "They",
+    "s": 1.36,
+    "e": 1.44
+   },
+   {
+    "w": "got",
+    "s": 1.44,
+    "e": 1.6
+   },
+   {
+    "w": "official",
+    "s": 1.6,
+    "e": 2.0
+   },
+   {
+    "w": "summons.",
+    "s": 2.0,
+    "e": 2.38
+   },
+   {
+    "w": "Some",
+    "s": 2.84,
+    "e": 3.02
+   },
+   {
+    "w": "were",
+    "s": 3.02,
+    "e": 3.18
+   },
+   {
+    "w": "even",
+    "s": 3.18,
+    "e": 3.42
+   },
+   {
+    "w": "offered",
+    "s": 3.42,
+    "e": 3.8
+   },
+   {
+    "w": "their",
+    "s": 3.8,
+    "e": 4.02
+   },
+   {
+    "w": "own",
+    "s": 4.02,
+    "e": 4.26
+   },
+   {
+    "w": "land.",
+    "s": 4.26,
+    "e": 4.66
+   }
+  ],
+  "heard": "They got lawyers. They got official summons. Some were even offered their own land.",
+  "match": 1.0
+ },
+ {
+  "id": "L09",
+  "chapter": 0,
+  "text": "So why on earth would anyone put an animal on trial?",
+  "dur": 3.68,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.08,
+    "e": 0.24
+   },
+   {
+    "w": "why",
+    "s": 0.24,
+    "e": 0.54
+   },
+   {
+    "w": "on",
+    "s": 0.54,
+    "e": 0.76
+   },
+   {
+    "w": "earth",
+    "s": 0.76,
+    "e": 1.04
+   },
+   {
+    "w": "would",
+    "s": 1.04,
+    "e": 1.38
+   },
+   {
+    "w": "anyone",
+    "s": 1.38,
+    "e": 1.92
+   },
+   {
+    "w": "put",
+    "s": 1.92,
+    "e": 2.38
    },
    {
     "w": "an",
-    "s": 1.62,
-    "e": 1.78
+    "s": 2.38,
+    "e": 2.52
    },
    {
-    "w": "eye",
-    "s": 1.78,
-    "e": 2.06
+    "w": "animal",
+    "s": 2.52,
+    "e": 2.92
    },
    {
-    "w": "for",
-    "s": 2.06,
-    "e": 2.3
+    "w": "on",
+    "s": 2.92,
+    "e": 3.22
    },
    {
-    "w": "an",
-    "s": 2.3,
+    "w": "trial?",
+    "s": 3.22,
+    "e": 3.5
+   }
+  ],
+  "heard": "So why on earth would anyone put an animal on trial?",
+  "match": 1.0
+ },
+ {
+  "id": "L10",
+  "chapter": 0,
+  "text": "The real answer has less to do with animals... and a lot more to do with money.",
+  "dur": 3.9,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.08,
+    "e": 0.2
+   },
+   {
+    "w": "real",
+    "s": 0.2,
+    "e": 0.36
+   },
+   {
+    "w": "answer",
+    "s": 0.36,
+    "e": 0.6
+   },
+   {
+    "w": "has",
+    "s": 0.6,
+    "e": 0.86
+   },
+   {
+    "w": "less",
+    "s": 0.86,
+    "e": 1.06
+   },
+   {
+    "w": "to",
+    "s": 1.06,
+    "e": 1.22
+   },
+   {
+    "w": "do",
+    "s": 1.22,
+    "e": 1.34
+   },
+   {
+    "w": "with",
+    "s": 1.34,
+    "e": 1.46
+   },
+   {
+    "w": "animals...",
+    "s": 1.46,
     "e": 2.44
    },
    {
-    "w": "eye.",
+    "w": "and",
     "s": 2.44,
+    "e": 2.52
+   },
+   {
+    "w": "a",
+    "s": 2.52,
+    "e": 2.6
+   },
+   {
+    "w": "lot",
+    "s": 2.6,
     "e": 2.74
+   },
+   {
+    "w": "more",
+    "s": 2.74,
+    "e": 3.0
+   },
+   {
+    "w": "to",
+    "s": 3.0,
+    "e": 3.22
+   },
+   {
+    "w": "do",
+    "s": 3.22,
+    "e": 3.32
+   },
+   {
+    "w": "with",
+    "s": 3.32,
+    "e": 3.46
+   },
+   {
+    "w": "money.",
+    "s": 3.46,
+    "e": 3.72
    }
   ],
-  "heard": "And the judge's sentence was an eye for an eye."
+  "heard": "The real answer has less to do with animals... and a lot more to do with money.",
+  "match": 1.0
+ },
+ {
+  "id": "L11",
+  "chapter": 0,
+  "text": "I'm Wy, and this is the true story of the animal trials.",
+  "dur": 3.66,
+  "words": [
+   {
+    "w": "I'm",
+    "s": 0.08,
+    "e": 0.36
+   },
+   {
+    "w": "Wy,",
+    "s": 0.36,
+    "e": 0.54
+   },
+   {
+    "w": "and",
+    "s": 0.9,
+    "e": 1.2
+   },
+   {
+    "w": "this",
+    "s": 1.2,
+    "e": 1.44
+   },
+   {
+    "w": "is",
+    "s": 1.44,
+    "e": 1.68
+   },
+   {
+    "w": "the",
+    "s": 1.68,
+    "e": 1.84
+   },
+   {
+    "w": "true",
+    "s": 1.84,
+    "e": 2.02
+   },
+   {
+    "w": "story",
+    "s": 2.02,
+    "e": 2.38
+   },
+   {
+    "w": "of",
+    "s": 2.38,
+    "e": 2.86
+   },
+   {
+    "w": "the",
+    "s": 2.86,
+    "e": 2.96
+   },
+   {
+    "w": "animal",
+    "s": 2.96,
+    "e": 3.16
+   },
+   {
+    "w": "trials.",
+    "s": 3.16,
+    "e": 3.48
+   }
+  ],
+  "heard": "I'm Wy, and this is the true story of the animal trials.",
+  "match": 1.0
+ },
+ {
+  "id": "L12",
+  "chapter": 1,
+  "text": "Let's go back to Falaise.",
+  "dur": 1.6,
+  "words": [
+   {
+    "w": "Let's",
+    "s": 0.0,
+    "e": 0.46
+   },
+   {
+    "w": "go",
+    "s": 0.46,
+    "e": 0.58
+   },
+   {
+    "w": "back",
+    "s": 0.58,
+    "e": 0.78
+   },
+   {
+    "w": "to",
+    "s": 0.78,
+    "e": 0.98
+   },
+   {
+    "w": "Falaise.",
+    "s": 0.98,
+    "e": 1.42
+   }
+  ],
+  "heard": "Let's go back to Falaise.",
+  "match": 1.0
+ },
+ {
+  "id": "L13",
+  "chapter": 1,
+  "text": "A sow, a female pig, had attacked a small child, and the child had died.",
+  "dur": 4.28,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.08,
+    "e": 0.12
+   },
+   {
+    "w": "sow,",
+    "s": 0.12,
+    "e": 0.4
+   },
+   {
+    "w": "a",
+    "s": 0.7,
+    "e": 0.82
+   },
+   {
+    "w": "female",
+    "s": 0.82,
+    "e": 1.12
+   },
+   {
+    "w": "pig,",
+    "s": 1.12,
+    "e": 1.46
+   },
+   {
+    "w": "had",
+    "s": 1.58,
+    "e": 1.7
+   },
+   {
+    "w": "attacked",
+    "s": 1.7,
+    "e": 1.96
+   },
+   {
+    "w": "a",
+    "s": 1.96,
+    "e": 2.22
+   },
+   {
+    "w": "small",
+    "s": 2.22,
+    "e": 2.62
+   },
+   {
+    "w": "child,",
+    "s": 2.62,
+    "e": 3.04
+   },
+   {
+    "w": "and",
+    "s": 3.2,
+    "e": 3.28
+   },
+   {
+    "w": "the",
+    "s": 3.28,
+    "e": 3.38
+   },
+   {
+    "w": "child",
+    "s": 3.38,
+    "e": 3.6
+   },
+   {
+    "w": "had",
+    "s": 3.6,
+    "e": 3.82
+   },
+   {
+    "w": "died.",
+    "s": 3.82,
+    "e": 4.1
+   }
+  ],
+  "heard": "A sow, a female pig, had attacked a small child, and the child had died.",
+  "match": 1.0
+ },
+ {
+  "id": "L14",
+  "chapter": 1,
+  "text": "Today, we'd call that a terrible accident. In 1386, the town called it murder.",
+  "dur": 4.86,
+  "words": [
+   {
+    "w": "Today,",
+    "s": 0.08,
+    "e": 0.26
+   },
+   {
+    "w": "we'd",
+    "s": 0.3,
+    "e": 0.5
+   },
+   {
+    "w": "call",
+    "s": 0.5,
+    "e": 0.62
+   },
+   {
+    "w": "that",
+    "s": 0.62,
+    "e": 0.8
+   },
+   {
+    "w": "a",
+    "s": 0.8,
+    "e": 1.04
+   },
+   {
+    "w": "terrible",
+    "s": 1.04,
+    "e": 1.34
+   },
+   {
+    "w": "accident.",
+    "s": 1.34,
+    "e": 1.8
+   },
+   {
+    "w": "In",
+    "s": 2.18,
+    "e": 2.3
+   },
+   {
+    "w": "1386,",
+    "s": 2.3,
+    "e": 3.14
+   },
+   {
+    "w": "the",
+    "s": 3.8,
+    "e": 3.86
+   },
+   {
+    "w": "town",
+    "s": 3.86,
+    "e": 4.0
+   },
+   {
+    "w": "called",
+    "s": 4.0,
+    "e": 4.24
+   },
+   {
+    "w": "it",
+    "s": 4.24,
+    "e": 4.4
+   },
+   {
+    "w": "murder.",
+    "s": 4.4,
+    "e": 4.68
+   }
+  ],
+  "heard": "Today, we'd call that a terrible accident. In 1386, the town called it murder.",
+  "match": 1.0
+ },
+ {
+  "id": "L15",
+  "chapter": 1,
+  "text": "So the sow was put on trial in the town's criminal court, the same court that tried people.",
+  "dur": 4.5,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.08,
+    "e": 0.24
+   },
+   {
+    "w": "the",
+    "s": 0.24,
+    "e": 0.38
+   },
+   {
+    "w": "sow",
+    "s": 0.38,
+    "e": 0.58
+   },
+   {
+    "w": "was",
+    "s": 0.58,
+    "e": 0.72
+   },
+   {
+    "w": "put",
+    "s": 0.72,
+    "e": 0.86
+   },
+   {
+    "w": "on",
+    "s": 0.86,
+    "e": 1.0
+   },
+   {
+    "w": "trial",
+    "s": 1.0,
+    "e": 1.26
+   },
+   {
+    "w": "in",
+    "s": 1.26,
+    "e": 1.52
+   },
+   {
+    "w": "the",
+    "s": 1.52,
+    "e": 1.64
+   },
+   {
+    "w": "town's",
+    "s": 1.64,
+    "e": 2.02
+   },
+   {
+    "w": "criminal",
+    "s": 2.02,
+    "e": 2.2
+   },
+   {
+    "w": "court,",
+    "s": 2.2,
+    "e": 2.58
+   },
+   {
+    "w": "the",
+    "s": 3.0,
+    "e": 3.08
+   },
+   {
+    "w": "same",
+    "s": 3.08,
+    "e": 3.34
+   },
+   {
+    "w": "court",
+    "s": 3.34,
+    "e": 3.56
+   },
+   {
+    "w": "that",
+    "s": 3.56,
+    "e": 3.74
+   },
+   {
+    "w": "tried",
+    "s": 3.74,
+    "e": 3.96
+   },
+   {
+    "w": "people.",
+    "s": 3.96,
+    "e": 4.32
+   }
+  ],
+  "heard": "So the sow was put on trial in the town's criminal court, the same court that tried people.",
+  "match": 1.0
+ },
+ {
+  "id": "L16",
+  "chapter": 1,
+  "text": "And the judge's sentence was an eye for an eye.",
+  "dur": 2.52,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.08,
+    "e": 0.26
+   },
+   {
+    "w": "the",
+    "s": 0.26,
+    "e": 0.36
+   },
+   {
+    "w": "judge's",
+    "s": 0.36,
+    "e": 0.64
+   },
+   {
+    "w": "sentence",
+    "s": 0.64,
+    "e": 0.88
+   },
+   {
+    "w": "was",
+    "s": 0.88,
+    "e": 1.26
+   },
+   {
+    "w": "an",
+    "s": 1.26,
+    "e": 1.44
+   },
+   {
+    "w": "eye",
+    "s": 1.44,
+    "e": 1.68
+   },
+   {
+    "w": "for",
+    "s": 1.68,
+    "e": 1.9
+   },
+   {
+    "w": "an",
+    "s": 1.9,
+    "e": 2.04
+   },
+   {
+    "w": "eye.",
+    "s": 2.04,
+    "e": 2.34
+   }
+  ],
+  "heard": "And the judge's sentence was an eye for an eye.",
+  "match": 1.0
  },
  {
   "id": "L17",
   "chapter": 1,
   "text": "The sow would be wounded in the head and front legs, just like the child, and then hanged.",
-  "dur": 5.525,
+  "dur": 4.78,
   "words": [
    {
     "w": "The",
-    "s": 0.0,
-    "e": 0.14
+    "s": 0.08,
+    "e": 0.28
    },
    {
     "w": "sow",
-    "s": 0.14,
-    "e": 0.4
+    "s": 0.28,
+    "e": 0.52
    },
    {
     "w": "would",
-    "s": 0.4,
-    "e": 0.62
+    "s": 0.52,
+    "e": 0.7
    },
    {
     "w": "be",
-    "s": 0.62,
-    "e": 0.8
+    "s": 0.7,
+    "e": 0.84
    },
    {
     "w": "wounded",
-    "s": 0.8,
-    "e": 1.1
+    "s": 0.84,
+    "e": 1.08
    },
    {
     "w": "in",
-    "s": 1.1,
-    "e": 1.36
+    "s": 1.08,
+    "e": 1.3
    },
    {
     "w": "the",
-    "s": 1.36,
-    "e": 1.48
+    "s": 1.3,
+    "e": 1.4
    },
    {
     "w": "head",
-    "s": 1.48,
-    "e": 1.76
+    "s": 1.4,
+    "e": 1.6
    },
    {
     "w": "and",
-    "s": 1.76,
-    "e": 1.96
+    "s": 1.6,
+    "e": 1.86
    },
    {
     "w": "front",
-    "s": 1.96,
-    "e": 2.16
+    "s": 1.86,
+    "e": 2.06
    },
    {
     "w": "legs,",
-    "s": 2.16,
-    "e": 2.62
+    "s": 2.06,
+    "e": 2.36
    },
    {
     "w": "just",
-    "s": 3.06,
-    "e": 3.32
+    "s": 2.7,
+    "e": 2.94
    },
    {
     "w": "like",
-    "s": 3.32,
-    "e": 3.48
+    "s": 2.94,
+    "e": 3.12
    },
    {
     "w": "the",
-    "s": 3.48,
-    "e": 3.62
+    "s": 3.12,
+    "e": 3.24
    },
    {
     "w": "child,",
-    "s": 3.62,
-    "e": 4.1
+    "s": 3.24,
+    "e": 3.6
    },
    {
     "w": "and",
-    "s": 4.44,
-    "e": 4.7
+    "s": 4.0,
+    "e": 4.2
    },
    {
     "w": "then",
-    "s": 4.7,
-    "e": 4.86
+    "s": 4.2,
+    "e": 4.32
    },
    {
     "w": "hanged.",
-    "s": 4.86,
-    "e": 5.22
+    "s": 4.32,
+    "e": 4.6
    }
   ],
-  "heard": "The sow would be wounded in the head and front legs, just like the child, and then hanged."
+  "heard": "The sow would be wounded in the head and front legs, just like the child, and then hanged.",
+  "match": 1.0
  },
  {
   "id": "L18",
   "chapter": 1,
   "text": "On the day of the execution, she was dressed in a man's clothes and led to the square beside the town hall.",
-  "dur": 6.461,
+  "dur": 5.16,
   "words": [
    {
     "w": "On",
-    "s": 0.0,
-    "e": 0.16
+    "s": 0.08,
+    "e": 0.52
    },
    {
     "w": "the",
-    "s": 0.16,
-    "e": 0.28
+    "s": 0.52,
+    "e": 0.62
    },
    {
     "w": "day",
-    "s": 0.28,
-    "e": 0.44
+    "s": 0.62,
+    "e": 0.74
    },
    {
     "w": "of",
-    "s": 0.44,
-    "e": 0.58
+    "s": 0.74,
+    "e": 0.86
    },
    {
     "w": "the",
-    "s": 0.58,
-    "e": 0.7
+    "s": 0.86,
+    "e": 0.94
    },
    {
     "w": "execution,",
-    "s": 0.7,
-    "e": 1.32
+    "s": 0.94,
+    "e": 1.36
    },
    {
     "w": "she",
-    "s": 1.94,
-    "e": 2.02
+    "s": 1.64,
+    "e": 1.64
    },
    {
     "w": "was",
-    "s": 2.02,
-    "e": 2.16
+    "s": 1.64,
+    "e": 1.78
    },
    {
     "w": "dressed",
-    "s": 2.16,
-    "e": 2.48
+    "s": 1.78,
+    "e": 1.98
    },
    {
     "w": "in",
-    "s": 2.48,
-    "e": 2.72
+    "s": 1.98,
+    "e": 2.22
    },
    {
     "w": "a",
-    "s": 2.72,
-    "e": 2.84
+    "s": 2.22,
+    "e": 2.32
    },
    {
     "w": "man's",
-    "s": 2.84,
-    "e": 3.28
+    "s": 2.32,
+    "e": 2.6
    },
    {
     "w": "clothes",
-    "s": 3.28,
-    "e": 3.66
+    "s": 2.6,
+    "e": 2.84
    },
    {
     "w": "and",
-    "s": 3.66,
-    "e": 4.34
+    "s": 2.84,
+    "e": 3.16
    },
    {
     "w": "led",
-    "s": 4.34,
-    "e": 4.52
+    "s": 3.16,
+    "e": 3.34
    },
    {
     "w": "to",
-    "s": 4.52,
-    "e": 4.68
+    "s": 3.34,
+    "e": 3.52
    },
    {
     "w": "the",
-    "s": 4.68,
-    "e": 4.8
+    "s": 3.52,
+    "e": 3.62
    },
    {
     "w": "square",
-    "s": 4.8,
-    "e": 5.12
+    "s": 3.62,
+    "e": 3.98
    },
    {
     "w": "beside",
-    "s": 5.12,
-    "e": 5.52
+    "s": 3.98,
+    "e": 4.34
    },
    {
     "w": "the",
-    "s": 5.52,
-    "e": 5.72
+    "s": 4.34,
+    "e": 4.5
    },
    {
     "w": "town",
-    "s": 5.72,
-    "e": 5.98
+    "s": 4.5,
+    "e": 4.68
    },
    {
     "w": "hall.",
-    "s": 5.98,
-    "e": 6.26
+    "s": 4.68,
+    "e": 4.98
    }
   ],
-  "heard": "On the day of the execution, she was dressed in a man's clothes and led to the square beside the town hall."
+  "heard": "On the day of the execution, she was dressed in a man's clothes and led to the square beside the town hall.",
+  "match": 1.0
  },
  {
   "id": "L19",
   "chapter": 1,
   "text": "The hangman was paid ten sous and ten deniers...",
-  "dur": 2.814,
+  "dur": 3.08,
   "words": [
    {
     "w": "The",
-    "s": 0.0,
-    "e": 0.16
+    "s": 0.08,
+    "e": 0.12
    },
    {
     "w": "hangman",
-    "s": 0.16,
-    "e": 0.48
+    "s": 0.12,
+    "e": 0.46
    },
    {
     "w": "was",
-    "s": 0.48,
-    "e": 0.64
+    "s": 0.46,
+    "e": 0.62
    },
    {
     "w": "paid",
-    "s": 0.64,
-    "e": 0.9
+    "s": 0.62,
+    "e": 0.82
    },
    {
     "w": "ten",
-    "s": 0.9,
-    "e": 1.16
+    "s": 0.82,
+    "e": 1.08
    },
    {
     "w": "sous",
-    "s": 1.16,
-    "e": 1.52
+    "s": 1.08,
+    "e": 1.36
    },
    {
     "w": "and",
-    "s": 1.52,
-    "e": 1.86
+    "s": 1.36,
+    "e": 1.7
    },
    {
     "w": "ten",
-    "s": 1.86,
-    "e": 2.14
+    "s": 1.7,
+    "e": 1.96
    },
    {
     "w": "deniers...",
-    "s": 2.14,
-    "e": 2.78
+    "s": 1.96,
+    "e": 3.08
    }
   ],
-  "heard": "The hangman was paid ten sous and ten deniers..."
+  "heard": "The hangman was paid ten sous and ten deniers...",
+  "match": 1.0
  },
  {
   "id": "L20",
   "chapter": 1,
   "text": "plus a brand new pair of gloves.",
-  "dur": 1.852,
+  "dur": 1.5,
   "words": [
    {
     "w": "plus",
     "s": 0.0,
-    "e": 0.18
+    "e": 0.08
    },
    {
     "w": "a",
-    "s": 0.18,
-    "e": 0.36
+    "s": 0.08,
+    "e": 0.28
    },
    {
     "w": "brand",
-    "s": 0.36,
-    "e": 0.58
+    "s": 0.28,
+    "e": 0.54
    },
    {
     "w": "new",
-    "s": 0.58,
-    "e": 0.88
+    "s": 0.54,
+    "e": 0.74
    },
    {
     "w": "pair",
-    "s": 0.88,
-    "e": 1.08
+    "s": 0.74,
+    "e": 0.9
    },
    {
     "w": "of",
-    "s": 1.08,
-    "e": 1.24
+    "s": 0.9,
+    "e": 1.06
    },
    {
     "w": "gloves.",
-    "s": 1.24,
-    "e": 1.5
+    "s": 1.06,
+    "e": 1.32
    }
   ],
-  "heard": "Plus a brand new pair of gloves."
+  "heard": "plus a brand new pair of gloves.",
+  "match": 1.0
  },
  {
   "id": "L21",
   "chapter": 1,
   "text": "Why gloves? So he could leave with clean hands.",
-  "dur": 2.88,
+  "dur": 2.42,
   "words": [
    {
     "w": "Why",
-    "s": 0.0,
-    "e": 0.24
+    "s": 0.08,
+    "e": 0.22
    },
    {
     "w": "gloves?",
-    "s": 0.24,
-    "e": 0.64
+    "s": 0.22,
+    "e": 0.44
    },
    {
     "w": "So",
-    "s": 1.16,
-    "e": 1.2
+    "s": 0.92,
+    "e": 1.1
    },
    {
     "w": "he",
-    "s": 1.2,
-    "e": 1.32
+    "s": 1.1,
+    "e": 1.22
    },
    {
     "w": "could",
-    "s": 1.32,
-    "e": 1.46
+    "s": 1.22,
+    "e": 1.34
    },
    {
     "w": "leave",
-    "s": 1.46,
-    "e": 1.7
+    "s": 1.34,
+    "e": 1.52
    },
    {
     "w": "with",
-    "s": 1.7,
-    "e": 1.92
+    "s": 1.52,
+    "e": 1.74
    },
    {
     "w": "clean",
-    "s": 1.92,
-    "e": 2.2
+    "s": 1.74,
+    "e": 1.94
    },
    {
     "w": "hands.",
-    "s": 2.2,
-    "e": 2.6
+    "s": 1.94,
+    "e": 2.24
    }
   ],
-  "heard": "Why gloves? So he could leave with clean hands."
+  "heard": "Why gloves? So he could leave with clean hands.",
+  "match": 1.0
  },
  {
   "id": "L22",
   "chapter": 1,
   "text": "He wasn't a butcher. He was an officer of the law, doing the court's work.",
-  "dur": 4.427,
+  "dur": 3.64,
   "words": [
    {
     "w": "He",
-    "s": 0.0,
-    "e": 0.14
+    "s": 0.08,
+    "e": 0.18
    },
    {
     "w": "wasn't",
-    "s": 0.14,
-    "e": 0.46
+    "s": 0.18,
+    "e": 0.38
    },
    {
     "w": "a",
-    "s": 0.46,
-    "e": 0.54
+    "s": 0.38,
+    "e": 0.48
    },
    {
     "w": "butcher.",
-    "s": 0.54,
-    "e": 0.88
+    "s": 0.48,
+    "e": 0.68
    },
    {
     "w": "He",
-    "s": 1.5,
-    "e": 1.62
+    "s": 1.16,
+    "e": 1.34
    },
    {
     "w": "was",
-    "s": 1.62,
-    "e": 1.72
+    "s": 1.34,
+    "e": 1.42
    },
    {
     "w": "an",
-    "s": 1.72,
-    "e": 1.86
+    "s": 1.42,
+    "e": 1.54
    },
    {
     "w": "officer",
-    "s": 1.86,
-    "e": 2.22
+    "s": 1.54,
+    "e": 1.8
    },
    {
     "w": "of",
-    "s": 2.22,
-    "e": 2.56
+    "s": 1.8,
+    "e": 2.0
    },
    {
     "w": "the",
-    "s": 2.56,
-    "e": 2.68
+    "s": 2.0,
+    "e": 2.1
    },
    {
     "w": "law,",
-    "s": 2.68,
-    "e": 3.0
+    "s": 2.1,
+    "e": 2.34
    },
    {
     "w": "doing",
-    "s": 3.2,
-    "e": 3.32
+    "s": 2.58,
+    "e": 2.76
    },
    {
     "w": "the",
-    "s": 3.32,
-    "e": 3.56
+    "s": 2.76,
+    "e": 3.0
    },
    {
     "w": "court's",
-    "s": 3.56,
-    "e": 3.9
+    "s": 3.0,
+    "e": 3.28
    },
    {
     "w": "work.",
-    "s": 3.9,
-    "e": 4.18
+    "s": 3.28,
+    "e": 3.46
    }
   ],
-  "heard": "He wasn't a butcher. He was an officer of the law, doing the court's work."
+  "heard": "He wasn't a butcher. He was an officer of the law, doing the court's work.",
+  "match": 1.0
  },
  {
   "id": "L23",
   "chapter": 1,
   "text": "A painting of the execution was even put up on the wall of the town's church.",
-  "dur": 4.819,
+  "dur": 3.38,
   "words": [
    {
     "w": "A",
-    "s": 0.0,
-    "e": 0.16
+    "s": 0.08,
+    "e": 0.22
    },
    {
     "w": "painting",
-    "s": 0.16,
-    "e": 0.52
+    "s": 0.22,
+    "e": 0.42
    },
    {
     "w": "of",
+    "s": 0.42,
+    "e": 0.64
+   },
+   {
+    "w": "the",
+    "s": 0.64,
+    "e": 0.74
+   },
+   {
+    "w": "execution",
+    "s": 0.74,
+    "e": 1.08
+   },
+   {
+    "w": "was",
+    "s": 1.08,
+    "e": 1.32
+   },
+   {
+    "w": "even",
+    "s": 1.32,
+    "e": 1.52
+   },
+   {
+    "w": "put",
+    "s": 1.52,
+    "e": 1.72
+   },
+   {
+    "w": "up",
+    "s": 1.72,
+    "e": 1.86
+   },
+   {
+    "w": "on",
+    "s": 1.86,
+    "e": 2.0
+   },
+   {
+    "w": "the",
+    "s": 2.0,
+    "e": 2.12
+   },
+   {
+    "w": "wall",
+    "s": 2.12,
+    "e": 2.32
+   },
+   {
+    "w": "of",
+    "s": 2.32,
+    "e": 2.5
+   },
+   {
+    "w": "the",
+    "s": 2.5,
+    "e": 2.62
+   },
+   {
+    "w": "town's",
+    "s": 2.62,
+    "e": 2.98
+   },
+   {
+    "w": "church.",
+    "s": 2.98,
+    "e": 3.2
+   }
+  ],
+  "heard": "A painting of the execution was even put up on the wall of the town's church.",
+  "match": 1.0
+ },
+ {
+  "id": "L24",
+  "chapter": 1,
+  "text": "And here's the strange part. Falaise wasn't unusual at all.",
+  "dur": 3.84,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.08,
+    "e": 0.16
+   },
+   {
+    "w": "here's",
+    "s": 0.16,
+    "e": 0.54
+   },
+   {
+    "w": "the",
+    "s": 0.54,
+    "e": 0.68
+   },
+   {
+    "w": "strange",
+    "s": 0.68,
+    "e": 0.9
+   },
+   {
+    "w": "part.",
+    "s": 0.9,
+    "e": 1.18
+   },
+   {
+    "w": "Falaise",
+    "s": 1.9,
+    "e": 2.14
+   },
+   {
+    "w": "wasn't",
+    "s": 2.14,
+    "e": 2.58
+   },
+   {
+    "w": "unusual",
+    "s": 2.58,
+    "e": 3.02
+   },
+   {
+    "w": "at",
+    "s": 3.02,
+    "e": 3.34
+   },
+   {
+    "w": "all.",
+    "s": 3.34,
+    "e": 3.66
+   }
+  ],
+  "heard": "And here's the strange part. Falaise wasn't unusual at all.",
+  "match": 1.0
+ },
+ {
+  "id": "L25",
+  "chapter": 1,
+  "text": "Pigs roamed freely through medieval towns, and they turn up in these trials more than any other animal.",
+  "dur": 4.52,
+  "words": [
+   {
+    "w": "Pigs",
+    "s": 0.08,
+    "e": 0.18
+   },
+   {
+    "w": "roamed",
+    "s": 0.18,
+    "e": 0.5
+   },
+   {
+    "w": "freely",
+    "s": 0.5,
+    "e": 0.84
+   },
+   {
+    "w": "through",
+    "s": 0.84,
+    "e": 1.2
+   },
+   {
+    "w": "medieval",
+    "s": 1.2,
+    "e": 1.46
+   },
+   {
+    "w": "towns,",
+    "s": 1.46,
+    "e": 1.84
+   },
+   {
+    "w": "and",
+    "s": 1.84,
+    "e": 2.16
+   },
+   {
+    "w": "they",
+    "s": 2.16,
+    "e": 2.3
+   },
+   {
+    "w": "turn",
+    "s": 2.3,
+    "e": 2.5
+   },
+   {
+    "w": "up",
+    "s": 2.5,
+    "e": 2.64
+   },
+   {
+    "w": "in",
+    "s": 2.64,
+    "e": 2.74
+   },
+   {
+    "w": "these",
+    "s": 2.74,
+    "e": 2.88
+   },
+   {
+    "w": "trials",
+    "s": 2.88,
+    "e": 3.18
+   },
+   {
+    "w": "more",
+    "s": 3.18,
+    "e": 3.48
+   },
+   {
+    "w": "than",
+    "s": 3.48,
+    "e": 3.66
+   },
+   {
+    "w": "any",
+    "s": 3.66,
+    "e": 3.92
+   },
+   {
+    "w": "other",
+    "s": 3.92,
+    "e": 4.1
+   },
+   {
+    "w": "animal.",
+    "s": 4.1,
+    "e": 4.34
+   }
+  ],
+  "heard": "Pigs roamed freely through medieval towns, and they turn up in these trials more than any other animal.",
+  "match": 1.0
+ },
+ {
+  "id": "L26",
+  "chapter": 2,
+  "text": "To understand these trials, historians split them into two groups.",
+  "dur": 3.42,
+  "words": [
+   {
+    "w": "To",
+    "s": 0.0,
+    "e": 0.32
+   },
+   {
+    "w": "understand",
+    "s": 0.32,
+    "e": 0.7
+   },
+   {
+    "w": "these",
+    "s": 0.7,
+    "e": 0.9
+   },
+   {
+    "w": "trials,",
+    "s": 0.9,
+    "e": 1.32
+   },
+   {
+    "w": "historians",
+    "s": 1.74,
+    "e": 2.02
+   },
+   {
+    "w": "split",
+    "s": 2.02,
+    "e": 2.38
+   },
+   {
+    "w": "them",
+    "s": 2.38,
+    "e": 2.54
+   },
+   {
+    "w": "into",
+    "s": 2.54,
+    "e": 2.68
+   },
+   {
+    "w": "two",
+    "s": 2.68,
+    "e": 2.9
+   },
+   {
+    "w": "groups.",
+    "s": 2.9,
+    "e": 3.24
+   }
+  ],
+  "heard": "To understand these trials, historians split them into two groups.",
+  "match": 1.0
+ },
+ {
+  "id": "L27",
+  "chapter": 2,
+  "text": "Group one: big animals that hurt or killed a person. Pigs, bulls, horses, dogs.",
+  "dur": 5.22,
+  "words": [
+   {
+    "w": "Group",
+    "s": 0.08,
+    "e": 0.08
+   },
+   {
+    "w": "one:",
+    "s": 0.08,
+    "e": 0.4
+   },
+   {
+    "w": "big",
+    "s": 0.96,
+    "e": 1.0
+   },
+   {
+    "w": "animals",
+    "s": 1.0,
+    "e": 1.34
+   },
+   {
+    "w": "that",
+    "s": 1.34,
+    "e": 1.56
+   },
+   {
+    "w": "hurt",
+    "s": 1.56,
+    "e": 1.78
+   },
+   {
+    "w": "or",
+    "s": 1.78,
+    "e": 2.0
+   },
+   {
+    "w": "killed",
+    "s": 2.0,
+    "e": 2.2
+   },
+   {
+    "w": "a",
+    "s": 2.2,
+    "e": 2.34
+   },
+   {
+    "w": "person.",
+    "s": 2.34,
+    "e": 2.64
+   },
+   {
+    "w": "Pigs,",
+    "s": 3.36,
+    "e": 3.36
+   },
+   {
+    "w": "bulls,",
+    "s": 3.72,
+    "e": 4.02
+   },
+   {
+    "w": "horses,",
+    "s": 4.34,
+    "e": 4.64
+   },
+   {
+    "w": "dogs.",
+    "s": 4.8,
+    "e": 5.04
+   }
+  ],
+  "heard": "Group one, big animals that hurt or killed a person. Pigs, bulls, horses, dogs.",
+  "match": 1.0
+ },
+ {
+  "id": "L28",
+  "chapter": 2,
+  "text": "They were tried one at a time by ordinary judges. And if found guilty, they were usually put to death.",
+  "dur": 5.04,
+  "words": [
+   {
+    "w": "They",
+    "s": 0.08,
+    "e": 0.2
+   },
+   {
+    "w": "were",
+    "s": 0.2,
+    "e": 0.34
+   },
+   {
+    "w": "tried",
+    "s": 0.34,
+    "e": 0.54
+   },
+   {
+    "w": "one",
+    "s": 0.54,
+    "e": 0.76
+   },
+   {
+    "w": "at",
+    "s": 0.76,
+    "e": 0.84
+   },
+   {
+    "w": "a",
+    "s": 0.84,
+    "e": 1.06
+   },
+   {
+    "w": "time",
+    "s": 1.06,
+    "e": 1.18
+   },
+   {
+    "w": "by",
+    "s": 1.18,
+    "e": 1.38
+   },
+   {
+    "w": "ordinary",
+    "s": 1.38,
+    "e": 1.84
+   },
+   {
+    "w": "judges.",
+    "s": 1.84,
+    "e": 2.18
+   },
+   {
+    "w": "And",
+    "s": 2.74,
+    "e": 2.84
+   },
+   {
+    "w": "if",
+    "s": 2.84,
+    "e": 2.98
+   },
+   {
+    "w": "found",
+    "s": 2.98,
+    "e": 3.18
+   },
+   {
+    "w": "guilty,",
+    "s": 3.18,
+    "e": 3.52
+   },
+   {
+    "w": "they",
+    "s": 3.74,
+    "e": 3.88
+   },
+   {
+    "w": "were",
+    "s": 3.88,
+    "e": 4.02
+   },
+   {
+    "w": "usually",
+    "s": 4.02,
+    "e": 4.34
+   },
+   {
+    "w": "put",
+    "s": 4.34,
+    "e": 4.54
+   },
+   {
+    "w": "to",
+    "s": 4.54,
+    "e": 4.66
+   },
+   {
+    "w": "death.",
+    "s": 4.66,
+    "e": 4.86
+   }
+  ],
+  "heard": "They were tried one at a time by ordinary judges. And if found guilty, they were usually put to death.",
+  "match": 1.0
+ },
+ {
+  "id": "L29",
+  "chapter": 2,
+  "text": "Group two was much stranger. Rats. Mice. Locusts. Beetles.",
+  "dur": 5.68,
+  "words": [
+   {
+    "w": "Group",
+    "s": 0.08,
+    "e": 0.16
+   },
+   {
+    "w": "two",
+    "s": 0.16,
+    "e": 0.7
+   },
+   {
+    "w": "was",
+    "s": 0.7,
+    "e": 1.12
+   },
+   {
+    "w": "much",
+    "s": 1.12,
+    "e": 1.7
+   },
+   {
+    "w": "stranger.",
+    "s": 1.7,
+    "e": 2.18
+   },
+   {
+    "w": "Rats.",
+    "s": 3.12,
+    "e": 3.12
+   },
+   {
+    "w": "Mice.",
+    "s": 3.54,
+    "e": 3.82
+   },
+   {
+    "w": "Locusts.",
+    "s": 4.48,
+    "e": 5.16
+   },
+   {
+    "w": "Beetles.",
+    "s": 5.24,
+    "e": 5.5
+   }
+  ],
+  "heard": "Group two was much stranger. Rats, mice, locusts, beetles,",
+  "match": 1.0
+ },
+ {
+  "id": "L30",
+  "chapter": 2,
+  "text": "Pests that ate the crops.",
+  "dur": 1.28,
+  "words": [
+   {
+    "w": "Pests",
+    "s": 0.08,
+    "e": 0.24
+   },
+   {
+    "w": "that",
+    "s": 0.24,
+    "e": 0.52
+   },
+   {
+    "w": "ate",
+    "s": 0.52,
+    "e": 0.72
+   },
+   {
+    "w": "the",
+    "s": 0.72,
+    "e": 0.84
+   },
+   {
+    "w": "crops.",
+    "s": 0.84,
+    "e": 1.1
+   }
+  ],
+  "heard": "pests that ate the crops.",
+  "match": 1.0
+ },
+ {
+  "id": "L31",
+  "chapter": 2,
+  "text": "You can't arrest ten thousand rats. So these cases went to a different court: the church.",
+  "dur": 4.94,
+  "words": [
+   {
+    "w": "You",
+    "s": 0.08,
+    "e": 0.34
+   },
+   {
+    "w": "can't",
+    "s": 0.34,
+    "e": 0.58
+   },
+   {
+    "w": "arrest",
+    "s": 0.58,
+    "e": 0.8
+   },
+   {
+    "w": "ten",
+    "s": 0.8,
+    "e": 1.04
+   },
+   {
+    "w": "thousand",
+    "s": 1.04,
+    "e": 1.32
+   },
+   {
+    "w": "rats.",
+    "s": 1.32,
+    "e": 1.64
+   },
+   {
+    "w": "So",
+    "s": 2.1,
+    "e": 2.26
+   },
+   {
+    "w": "these",
+    "s": 2.26,
+    "e": 2.54
+   },
+   {
+    "w": "cases",
+    "s": 2.54,
+    "e": 2.78
+   },
+   {
+    "w": "went",
+    "s": 2.78,
+    "e": 3.06
+   },
+   {
+    "w": "to",
+    "s": 3.06,
+    "e": 3.2
+   },
+   {
+    "w": "a",
+    "s": 3.2,
+    "e": 3.32
+   },
+   {
+    "w": "different",
+    "s": 3.32,
+    "e": 3.56
+   },
+   {
+    "w": "court:",
+    "s": 3.56,
+    "e": 3.82
+   },
+   {
+    "w": "the",
+    "s": 4.3,
+    "e": 4.36
+   },
+   {
+    "w": "church.",
+    "s": 4.36,
+    "e": 4.76
+   }
+  ],
+  "heard": "You can't arrest ten thousand rats. So these cases went to a different court. The church.",
+  "match": 1.0
+ },
+ {
+  "id": "L32",
+  "chapter": 2,
+  "text": "And the church had a weapon no ordinary judge had: a solemn curse, called an anathema, ordering the creatures to leave.",
+  "dur": 7.7,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.08,
+    "e": 0.18
+   },
+   {
+    "w": "the",
+    "s": 0.18,
+    "e": 0.28
+   },
+   {
+    "w": "church",
+    "s": 0.28,
+    "e": 0.46
+   },
+   {
+    "w": "had",
+    "s": 0.46,
+    "e": 0.64
+   },
+   {
+    "w": "a",
+    "s": 0.64,
+    "e": 0.74
+   },
+   {
+    "w": "weapon",
+    "s": 0.74,
+    "e": 0.92
+   },
+   {
+    "w": "no",
+    "s": 0.92,
+    "e": 1.18
+   },
+   {
+    "w": "ordinary",
+    "s": 1.18,
+    "e": 1.58
+   },
+   {
+    "w": "judge",
+    "s": 1.58,
+    "e": 1.8
+   },
+   {
+    "w": "had:",
+    "s": 1.8,
+    "e": 2.16
+   },
+   {
+    "w": "a",
+    "s": 2.72,
+    "e": 2.88
+   },
+   {
+    "w": "solemn",
+    "s": 2.88,
+    "e": 3.38
+   },
+   {
+    "w": "curse,",
+    "s": 3.38,
+    "e": 4.14
+   },
+   {
+    "w": "called",
+    "s": 4.8,
+    "e": 4.92
+   },
+   {
+    "w": "an",
+    "s": 4.92,
+    "e": 5.38
+   },
+   {
+    "w": "anathema,",
+    "s": 5.38,
+    "e": 5.98
+   },
+   {
+    "w": "ordering",
+    "s": 6.36,
+    "e": 6.6
+   },
+   {
+    "w": "the",
+    "s": 6.6,
+    "e": 6.8
+   },
+   {
+    "w": "creatures",
+    "s": 6.8,
+    "e": 7.04
+   },
+   {
+    "w": "to",
+    "s": 7.04,
+    "e": 7.3
+   },
+   {
+    "w": "leave.",
+    "s": 7.3,
+    "e": 7.52
+   }
+  ],
+  "heard": "And the church had a weapon no ordinary judge had. A solemn curse, called an anathema, ordering the creatures to leave.",
+  "match": 1.0
+ },
+ {
+  "id": "L33",
+  "chapter": 2,
+  "text": "But before any curse, the accused deserved a fair trial. And a fair trial needs a lawyer.",
+  "dur": 5.16,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.08,
+    "e": 0.3
+   },
+   {
+    "w": "before",
+    "s": 0.3,
+    "e": 0.6
+   },
+   {
+    "w": "any",
+    "s": 0.6,
+    "e": 0.84
+   },
+   {
+    "w": "curse,",
+    "s": 0.84,
+    "e": 1.18
+   },
+   {
+    "w": "the",
+    "s": 1.58,
+    "e": 1.62
+   },
+   {
+    "w": "accused",
+    "s": 1.62,
+    "e": 1.94
+   },
+   {
+    "w": "deserved",
+    "s": 1.94,
+    "e": 2.32
+   },
+   {
+    "w": "a",
+    "s": 2.32,
+    "e": 2.54
+   },
+   {
+    "w": "fair",
+    "s": 2.54,
+    "e": 2.7
+   },
+   {
+    "w": "trial.",
+    "s": 2.7,
+    "e": 3.06
+   },
+   {
+    "w": "And",
+    "s": 3.48,
+    "e": 3.58
+   },
+   {
+    "w": "a",
+    "s": 3.58,
+    "e": 3.68
+   },
+   {
+    "w": "fair",
+    "s": 3.68,
+    "e": 3.84
+   },
+   {
+    "w": "trial",
+    "s": 3.84,
+    "e": 4.3
+   },
+   {
+    "w": "needs",
+    "s": 4.3,
+    "e": 4.64
+   },
+   {
+    "w": "a",
+    "s": 4.64,
+    "e": 4.82
+   },
+   {
+    "w": "lawyer.",
+    "s": 4.82,
+    "e": 4.98
+   }
+  ],
+  "heard": "But before any curse, the accused deserved a fair trial. And a fair trial needs a lawyer.",
+  "match": 1.0
+ },
+ {
+  "id": "L34",
+  "chapter": 3,
+  "text": "In the early 1500s, around the French city of Autun, rats destroyed the barley crop.",
+  "dur": 5.48,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.0,
+    "e": 0.28
+   },
+   {
+    "w": "the",
+    "s": 0.28,
+    "e": 0.4
+   },
+   {
+    "w": "early",
+    "s": 0.4,
+    "e": 0.66
+   },
+   {
+    "w": "1500s,",
+    "s": 0.66,
+    "e": 1.78
+   },
+   {
+    "w": "around",
+    "s": 1.78,
+    "e": 1.96
+   },
+   {
+    "w": "the",
+    "s": 1.96,
+    "e": 2.14
+   },
+   {
+    "w": "French",
+    "s": 2.14,
+    "e": 2.36
+   },
+   {
+    "w": "city",
+    "s": 2.36,
+    "e": 2.66
+   },
+   {
+    "w": "of",
+    "s": 2.66,
+    "e": 2.88
+   },
+   {
+    "w": "Autun,",
+    "s": 2.88,
+    "e": 3.26
+   },
+   {
+    "w": "rats",
+    "s": 3.72,
+    "e": 3.82
+   },
+   {
+    "w": "destroyed",
+    "s": 3.82,
+    "e": 4.48
+   },
+   {
+    "w": "the",
+    "s": 4.48,
+    "e": 4.74
+   },
+   {
+    "w": "barley",
+    "s": 4.74,
+    "e": 4.98
+   },
+   {
+    "w": "crop.",
+    "s": 4.98,
+    "e": 5.3
+   }
+  ],
+  "heard": "In the early 1500s, around the French city of Autun, rats destroyed the barley crop.",
+  "match": 1.0
+ },
+ {
+  "id": "L35",
+  "chapter": 3,
+  "text": "The church court ordered the rats to appear. And, as the story goes, it gave them a defence lawyer:",
+  "dur": 5.42,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.08,
+    "e": 0.16
+   },
+   {
+    "w": "church",
+    "s": 0.16,
+    "e": 0.34
+   },
+   {
+    "w": "court",
+    "s": 0.34,
+    "e": 0.62
+   },
+   {
+    "w": "ordered",
+    "s": 0.62,
+    "e": 0.92
+   },
+   {
+    "w": "the",
+    "s": 0.92,
+    "e": 1.1
+   },
+   {
+    "w": "rats",
+    "s": 1.1,
+    "e": 1.3
+   },
+   {
+    "w": "to",
+    "s": 1.3,
+    "e": 1.48
+   },
+   {
+    "w": "appear.",
+    "s": 1.48,
+    "e": 1.8
+   },
+   {
+    "w": "And,",
+    "s": 2.46,
+    "e": 2.58
+   },
+   {
+    "w": "as",
+    "s": 2.62,
+    "e": 2.78
+   },
+   {
+    "w": "the",
+    "s": 2.78,
+    "e": 2.94
+   },
+   {
+    "w": "story",
+    "s": 2.94,
+    "e": 3.16
+   },
+   {
+    "w": "goes,",
+    "s": 3.16,
+    "e": 3.44
+   },
+   {
+    "w": "it",
+    "s": 3.72,
+    "e": 3.84
+   },
+   {
+    "w": "gave",
+    "s": 3.84,
+    "e": 4.04
+   },
+   {
+    "w": "them",
+    "s": 4.04,
+    "e": 4.24
+   },
+   {
+    "w": "a",
+    "s": 4.24,
+    "e": 4.42
+   },
+   {
+    "w": "defence",
+    "s": 4.42,
+    "e": 4.8
+   },
+   {
+    "w": "lawyer:",
+    "s": 4.8,
+    "e": 5.24
+   }
+  ],
+  "heard": "The church court ordered the rats to appear. And, as the story goes, it gave them a defence lawyer.",
+  "match": 1.0
+ },
+ {
+  "id": "L36",
+  "chapter": 3,
+  "text": "a young legal expert named Bartholomew Chassen\u00e9e.",
+  "dur": 3.02,
+  "words": [
+   {
+    "w": "a",
+    "s": 0.08,
+    "e": 0.18
+   },
+   {
+    "w": "young",
+    "s": 0.18,
+    "e": 0.42
+   },
+   {
+    "w": "legal",
+    "s": 0.42,
+    "e": 0.7
+   },
+   {
+    "w": "expert",
+    "s": 0.7,
+    "e": 1.14
+   },
+   {
+    "w": "named",
+    "s": 1.14,
+    "e": 1.46
+   },
+   {
+    "w": "Bartholomew",
+    "s": 1.46,
+    "e": 2.16
+   },
+   {
+    "w": "Chassen\u00e9e.",
+    "s": 2.16,
+    "e": 2.84
+   }
+  ],
+  "heard": "A young legal expert named Bartholomew Chassen\u00e9e.",
+  "match": 1.0
+ },
+ {
+  "id": "L37",
+  "chapter": 3,
+  "text": "Chassen\u00e9e took the case very seriously.",
+  "dur": 2.72,
+  "words": [
+   {
+    "w": "Chassen\u00e9e",
+    "s": 0.08,
+    "e": 0.6
+   },
+   {
+    "w": "took",
+    "s": 0.6,
+    "e": 0.8
+   },
+   {
+    "w": "the",
+    "s": 0.8,
+    "e": 0.96
+   },
+   {
+    "w": "case",
+    "s": 0.96,
+    "e": 1.2
+   },
+   {
+    "w": "very",
+    "s": 1.2,
+    "e": 1.84
+   },
+   {
+    "w": "seriously.",
+    "s": 1.84,
+    "e": 2.54
+   }
+  ],
+  "heard": "Chassen\u00e9e took the case very seriously.",
+  "match": 1.0
+ },
+ {
+  "id": "L38",
+  "chapter": 3,
+  "text": "First, he argued that his clients lived scattered across many villages, so one summons wasn't fair.",
+  "dur": 5.04,
+  "words": [
+   {
+    "w": "First,",
+    "s": 0.08,
+    "e": 0.3
+   },
+   {
+    "w": "he",
+    "s": 0.52,
+    "e": 0.54
+   },
+   {
+    "w": "argued",
+    "s": 0.54,
+    "e": 0.8
+   },
+   {
+    "w": "that",
+    "s": 0.8,
+    "e": 1.0
+   },
+   {
+    "w": "his",
+    "s": 1.0,
+    "e": 1.14
+   },
+   {
+    "w": "clients",
+    "s": 1.14,
+    "e": 1.46
+   },
+   {
+    "w": "lived",
+    "s": 1.46,
+    "e": 1.76
+   },
+   {
+    "w": "scattered",
+    "s": 1.76,
+    "e": 2.18
+   },
+   {
+    "w": "across",
+    "s": 2.18,
+    "e": 2.48
+   },
+   {
+    "w": "many",
+    "s": 2.48,
+    "e": 2.8
+   },
+   {
+    "w": "villages,",
+    "s": 2.8,
+    "e": 3.16
+   },
+   {
+    "w": "so",
+    "s": 3.28,
+    "e": 3.5
+   },
+   {
+    "w": "one",
+    "s": 3.5,
+    "e": 3.96
+   },
+   {
+    "w": "summons",
+    "s": 3.96,
+    "e": 4.26
+   },
+   {
+    "w": "wasn't",
+    "s": 4.26,
+    "e": 4.62
+   },
+   {
+    "w": "fair.",
+    "s": 4.62,
+    "e": 4.86
+   }
+  ],
+  "heard": "First, he argued that his clients lived scattered across many villages, so one summons wasn't fair.",
+  "match": 1.0
+ },
+ {
+  "id": "L39",
+  "chapter": 3,
+  "text": "The court agreed, and ordered a new summons, read aloud in every parish church.",
+  "dur": 3.84,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.08,
+    "e": 0.3
+   },
+   {
+    "w": "court",
+    "s": 0.3,
+    "e": 0.5
+   },
+   {
+    "w": "agreed,",
+    "s": 0.5,
+    "e": 0.86
+   },
+   {
+    "w": "and",
+    "s": 1.04,
+    "e": 1.12
+   },
+   {
+    "w": "ordered",
+    "s": 1.12,
+    "e": 1.38
+   },
+   {
+    "w": "a",
+    "s": 1.38,
+    "e": 1.56
+   },
+   {
+    "w": "new",
+    "s": 1.56,
+    "e": 1.78
+   },
+   {
+    "w": "summons,",
+    "s": 1.78,
+    "e": 2.1
+   },
+   {
+    "w": "read",
+    "s": 2.38,
+    "e": 2.44
+   },
+   {
+    "w": "aloud",
+    "s": 2.44,
+    "e": 2.68
+   },
+   {
+    "w": "in",
+    "s": 2.68,
+    "e": 2.88
+   },
+   {
+    "w": "every",
+    "s": 2.88,
+    "e": 3.1
+   },
+   {
+    "w": "parish",
+    "s": 3.1,
+    "e": 3.32
+   },
+   {
+    "w": "church.",
+    "s": 3.32,
+    "e": 3.66
+   }
+  ],
+  "heard": "The court agreed, and ordered a new summons, read aloud in every parish church.",
+  "match": 1.0
+ },
+ {
+  "id": "L40",
+  "chapter": 3,
+  "text": "The rats still didn't show up. So Chassen\u00e9e found a better excuse.",
+  "dur": 4.16,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.08,
+    "e": 0.52
+   },
+   {
+    "w": "rats",
     "s": 0.52,
     "e": 0.76
    },
    {
-    "w": "the",
+    "w": "still",
     "s": 0.76,
-    "e": 0.9
+    "e": 1.28
    },
    {
-    "w": "execution",
-    "s": 0.9,
-    "e": 1.48
+    "w": "didn't",
+    "s": 1.28,
+    "e": 1.56
+   },
+   {
+    "w": "show",
+    "s": 1.56,
+    "e": 1.74
+   },
+   {
+    "w": "up.",
+    "s": 1.74,
+    "e": 2.0
+   },
+   {
+    "w": "So",
+    "s": 2.48,
+    "e": 2.56
+   },
+   {
+    "w": "Chassen\u00e9e",
+    "s": 2.56,
+    "e": 3.06
+   },
+   {
+    "w": "found",
+    "s": 3.06,
+    "e": 3.26
+   },
+   {
+    "w": "a",
+    "s": 3.26,
+    "e": 3.4
+   },
+   {
+    "w": "better",
+    "s": 3.4,
+    "e": 3.54
+   },
+   {
+    "w": "excuse.",
+    "s": 3.54,
+    "e": 3.98
+   }
+  ],
+  "heard": "The rats still didn't show up, so Chassen\u00e9e found a better excuse.",
+  "match": 1.0
+ },
+ {
+  "id": "L41",
+  "chapter": 3,
+  "text": "His clients wanted to come... but the journey was far too dangerous.",
+  "dur": 4.1,
+  "words": [
+   {
+    "w": "His",
+    "s": 0.08,
+    "e": 0.18
+   },
+   {
+    "w": "clients",
+    "s": 0.18,
+    "e": 0.5
+   },
+   {
+    "w": "wanted",
+    "s": 0.5,
+    "e": 0.98
+   },
+   {
+    "w": "to",
+    "s": 0.98,
+    "e": 1.24
+   },
+   {
+    "w": "come...",
+    "s": 1.24,
+    "e": 1.46
+   },
+   {
+    "w": "but",
+    "s": 2.0,
+    "e": 2.2
+   },
+   {
+    "w": "the",
+    "s": 2.2,
+    "e": 2.36
+   },
+   {
+    "w": "journey",
+    "s": 2.36,
+    "e": 2.62
    },
    {
     "w": "was",
-    "s": 1.48,
-    "e": 2.08
+    "s": 2.62,
+    "e": 2.88
    },
    {
-    "w": "even",
-    "s": 2.08,
+    "w": "far",
+    "s": 2.88,
+    "e": 3.18
+   },
+   {
+    "w": "too",
+    "s": 3.18,
+    "e": 3.42
+   },
+   {
+    "w": "dangerous.",
+    "s": 3.42,
+    "e": 3.92
+   }
+  ],
+  "heard": "His clients wanted to come, but the journey was far too dangerous.",
+  "match": 1.0
+ },
+ {
+  "id": "L42",
+  "chapter": 3,
+  "text": "The roads were full of cats, watching their every move, waiting at every corner.",
+  "dur": 3.88,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.08,
+    "e": 0.2
+   },
+   {
+    "w": "roads",
+    "s": 0.2,
+    "e": 0.36
+   },
+   {
+    "w": "were",
+    "s": 0.36,
+    "e": 0.56
+   },
+   {
+    "w": "full",
+    "s": 0.56,
+    "e": 0.7
+   },
+   {
+    "w": "of",
+    "s": 0.7,
+    "e": 0.9
+   },
+   {
+    "w": "cats,",
+    "s": 0.9,
+    "e": 1.3
+   },
+   {
+    "w": "watching",
+    "s": 1.58,
+    "e": 1.78
+   },
+   {
+    "w": "their",
+    "s": 1.78,
+    "e": 1.94
+   },
+   {
+    "w": "every",
+    "s": 1.94,
+    "e": 2.26
+   },
+   {
+    "w": "move,",
+    "s": 2.26,
+    "e": 2.56
+   },
+   {
+    "w": "waiting",
+    "s": 2.76,
+    "e": 2.9
+   },
+   {
+    "w": "at",
+    "s": 2.9,
+    "e": 3.12
+   },
+   {
+    "w": "every",
+    "s": 3.12,
+    "e": 3.38
+   },
+   {
+    "w": "corner.",
+    "s": 3.38,
+    "e": 3.7
+   }
+  ],
+  "heard": "The roads were full of cats, watching their every move, waiting at every corner.",
+  "match": 1.0
+ },
+ {
+  "id": "L43",
+  "chapter": 3,
+  "text": "And no one, he argued, can be forced to come to court if the trip puts their life at risk.",
+  "dur": 4.2,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.08,
+    "e": 0.22
+   },
+   {
+    "w": "no",
+    "s": 0.22,
+    "e": 0.42
+   },
+   {
+    "w": "one,",
+    "s": 0.42,
+    "e": 0.66
+   },
+   {
+    "w": "he",
+    "s": 0.7,
+    "e": 0.84
+   },
+   {
+    "w": "argued,",
+    "s": 0.84,
+    "e": 1.12
+   },
+   {
+    "w": "can",
+    "s": 1.28,
+    "e": 1.36
+   },
+   {
+    "w": "be",
+    "s": 1.36,
+    "e": 1.52
+   },
+   {
+    "w": "forced",
+    "s": 1.52,
+    "e": 1.72
+   },
+   {
+    "w": "to",
+    "s": 1.72,
+    "e": 1.96
+   },
+   {
+    "w": "come",
+    "s": 1.96,
+    "e": 2.12
+   },
+   {
+    "w": "to",
+    "s": 2.12,
+    "e": 2.26
+   },
+   {
+    "w": "court",
+    "s": 2.26,
     "e": 2.44
    },
    {
-    "w": "put",
+    "w": "if",
     "s": 2.44,
-    "e": 2.64
-   },
-   {
-    "w": "up",
-    "s": 2.64,
-    "e": 2.82
-   },
-   {
-    "w": "on",
-    "s": 2.82,
-    "e": 2.98
+    "e": 2.62
    },
    {
     "w": "the",
-    "s": 2.98,
+    "s": 2.62,
+    "e": 2.76
+   },
+   {
+    "w": "trip",
+    "s": 2.76,
+    "e": 2.94
+   },
+   {
+    "w": "puts",
+    "s": 2.94,
+    "e": 3.16
+   },
+   {
+    "w": "their",
+    "s": 3.16,
+    "e": 3.36
+   },
+   {
+    "w": "life",
+    "s": 3.36,
+    "e": 3.58
+   },
+   {
+    "w": "at",
+    "s": 3.58,
+    "e": 3.76
+   },
+   {
+    "w": "risk.",
+    "s": 3.76,
+    "e": 4.02
+   }
+  ],
+  "heard": "And no one, he argued, can be forced to come to court if the trip puts their life at risk.",
+  "match": 1.0
+ },
+ {
+  "id": "L44",
+  "chapter": 3,
+  "text": "Nobody knows what the judge finally decided. But the case made Chassen\u00e9e famous.",
+  "dur": 4.38,
+  "words": [
+   {
+    "w": "Nobody",
+    "s": 0.08,
+    "e": 0.28
+   },
+   {
+    "w": "knows",
+    "s": 0.28,
+    "e": 0.52
+   },
+   {
+    "w": "what",
+    "s": 0.52,
+    "e": 0.74
+   },
+   {
+    "w": "the",
+    "s": 0.74,
+    "e": 0.86
+   },
+   {
+    "w": "judge",
+    "s": 0.86,
+    "e": 1.06
+   },
+   {
+    "w": "finally",
+    "s": 1.06,
+    "e": 1.4
+   },
+   {
+    "w": "decided.",
+    "s": 1.4,
+    "e": 1.82
+   },
+   {
+    "w": "But",
+    "s": 2.12,
+    "e": 2.4
+   },
+   {
+    "w": "the",
+    "s": 2.4,
+    "e": 2.64
+   },
+   {
+    "w": "case",
+    "s": 2.64,
+    "e": 2.84
+   },
+   {
+    "w": "made",
+    "s": 2.84,
+    "e": 3.08
+   },
+   {
+    "w": "Chassen\u00e9e",
+    "s": 3.08,
+    "e": 3.6
+   },
+   {
+    "w": "famous.",
+    "s": 3.6,
+    "e": 4.2
+   }
+  ],
+  "heard": "Nobody knows what the judge finally decided, but the case made Chassen\u00e9e famous.",
+  "match": 1.0
+ },
+ {
+  "id": "L45",
+  "chapter": 3,
+  "text": "Years later, when he was a senior judge himself, a colleague reminded him of those rats. If even rats deserved a defence, surely people did too. Chassen\u00e9e agreed.",
+  "dur": 8.96,
+  "words": [
+   {
+    "w": "Years",
+    "s": 0.08,
+    "e": 0.22
+   },
+   {
+    "w": "later,",
+    "s": 0.22,
+    "e": 0.54
+   },
+   {
+    "w": "when",
+    "s": 0.54,
+    "e": 0.72
+   },
+   {
+    "w": "he",
+    "s": 0.72,
+    "e": 0.84
+   },
+   {
+    "w": "was",
+    "s": 0.84,
+    "e": 0.92
+   },
+   {
+    "w": "a",
+    "s": 0.92,
+    "e": 1.06
+   },
+   {
+    "w": "senior",
+    "s": 1.06,
+    "e": 1.28
+   },
+   {
+    "w": "judge",
+    "s": 1.28,
+    "e": 1.52
+   },
+   {
+    "w": "himself,",
+    "s": 1.52,
+    "e": 1.92
+   },
+   {
+    "w": "a",
+    "s": 2.3,
+    "e": 2.46
+   },
+   {
+    "w": "colleague",
+    "s": 2.46,
+    "e": 2.7
+   },
+   {
+    "w": "reminded",
+    "s": 2.7,
+    "e": 3.12
+   },
+   {
+    "w": "him",
+    "s": 3.12,
+    "e": 3.26
+   },
+   {
+    "w": "of",
+    "s": 3.26,
+    "e": 3.36
+   },
+   {
+    "w": "those",
+    "s": 3.36,
+    "e": 3.54
+   },
+   {
+    "w": "rats.",
+    "s": 3.54,
+    "e": 3.82
+   },
+   {
+    "w": "If",
+    "s": 3.82,
+    "e": 4.68
+   },
+   {
+    "w": "even",
+    "s": 4.68,
+    "e": 4.9
+   },
+   {
+    "w": "rats",
+    "s": 4.9,
+    "e": 5.16
+   },
+   {
+    "w": "deserved",
+    "s": 5.16,
+    "e": 5.48
+   },
+   {
+    "w": "a",
+    "s": 5.48,
+    "e": 5.64
+   },
+   {
+    "w": "defence,",
+    "s": 5.64,
+    "e": 5.92
+   },
+   {
+    "w": "surely",
+    "s": 6.44,
+    "e": 6.58
+   },
+   {
+    "w": "people",
+    "s": 6.58,
+    "e": 6.88
+   },
+   {
+    "w": "did",
+    "s": 6.88,
+    "e": 7.12
+   },
+   {
+    "w": "too.",
+    "s": 7.12,
+    "e": 7.54
+   },
+   {
+    "w": "Chassen\u00e9e",
+    "s": 8.26,
+    "e": 8.56
+   },
+   {
+    "w": "agreed.",
+    "s": 8.56,
+    "e": 8.78
+   }
+  ],
+  "heard": "Years later, when he was a senior judge himself, a colleague reminded him of those rats. If even rats deserved a defence, surely people did too. Chassen\u00e9e agreed.",
+  "match": 1.0
+ },
+ {
+  "id": "L46",
+  "chapter": 4,
+  "text": "Not every case was this funny.",
+  "dur": 2.36,
+  "words": [
+   {
+    "w": "Not",
+    "s": 0.0,
+    "e": 0.7
+   },
+   {
+    "w": "every",
+    "s": 0.7,
+    "e": 1.12
+   },
+   {
+    "w": "case",
+    "s": 1.12,
+    "e": 1.32
+   },
+   {
+    "w": "was",
+    "s": 1.32,
+    "e": 1.58
+   },
+   {
+    "w": "this",
+    "s": 1.58,
+    "e": 1.82
+   },
+   {
+    "w": "funny.",
+    "s": 1.82,
+    "e": 2.18
+   }
+  ],
+  "heard": "Not every case was this funny.",
+  "match": 1.0
+ },
+ {
+  "id": "L47",
+  "chapter": 4,
+  "text": "In 1474, in the Swiss city of Basel, judges sentenced a rooster to be burned...",
+  "dur": 7.34,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.08,
+    "e": 0.16
+   },
+   {
+    "w": "1474,",
+    "s": 0.16,
+    "e": 1.3
+   },
+   {
+    "w": "in",
+    "s": 1.6,
+    "e": 1.64
+   },
+   {
+    "w": "the",
+    "s": 1.64,
+    "e": 1.74
+   },
+   {
+    "w": "Swiss",
+    "s": 1.74,
+    "e": 2.06
+   },
+   {
+    "w": "city",
+    "s": 2.06,
+    "e": 2.46
+   },
+   {
+    "w": "of",
+    "s": 2.46,
+    "e": 2.78
+   },
+   {
+    "w": "Basel,",
+    "s": 2.78,
+    "e": 3.3
+   },
+   {
+    "w": "judges",
+    "s": 3.94,
+    "e": 4.06
+   },
+   {
+    "w": "sentenced",
+    "s": 4.06,
+    "e": 4.52
+   },
+   {
+    "w": "a",
+    "s": 4.52,
+    "e": 4.82
+   },
+   {
+    "w": "rooster",
+    "s": 4.82,
+    "e": 5.24
+   },
+   {
+    "w": "to",
+    "s": 5.24,
+    "e": 5.86
+   },
+   {
+    "w": "be",
+    "s": 5.86,
+    "e": 6.0
+   },
+   {
+    "w": "burned...",
+    "s": 6.0,
+    "e": 7.34
+   }
+  ],
+  "heard": "In 1474, in the Swiss city of Basel, judges sentenced a rooster to be burned...",
+  "match": 1.0
+ },
+ {
+  "id": "L48",
+  "chapter": 4,
+  "text": "for the crime of laying an egg.",
+  "dur": 2.12,
+  "words": [
+   {
+    "w": "for",
+    "s": 0.0,
+    "e": 0.0
+   },
+   {
+    "w": "the",
+    "s": 0.0,
+    "e": 0.12
+   },
+   {
+    "w": "crime",
+    "s": 0.12,
+    "e": 0.6
+   },
+   {
+    "w": "of",
+    "s": 0.6,
+    "e": 0.92
+   },
+   {
+    "w": "laying",
+    "s": 0.92,
+    "e": 1.34
+   },
+   {
+    "w": "an",
+    "s": 1.34,
+    "e": 1.6
+   },
+   {
+    "w": "egg.",
+    "s": 1.6,
+    "e": 1.94
+   }
+  ],
+  "heard": "for the crime of laying an egg.",
+  "match": 1.0
+ },
+ {
+  "id": "L49",
+  "chapter": 4,
+  "text": "To us, that sounds ridiculous. To the people of Basel, it was terrifying.",
+  "dur": 4.92,
+  "words": [
+   {
+    "w": "To",
+    "s": 0.08,
+    "e": 0.18
+   },
+   {
+    "w": "us,",
+    "s": 0.18,
+    "e": 0.42
+   },
+   {
+    "w": "that",
+    "s": 0.56,
+    "e": 0.68
+   },
+   {
+    "w": "sounds",
+    "s": 0.68,
+    "e": 1.08
+   },
+   {
+    "w": "ridiculous.",
+    "s": 1.08,
+    "e": 1.58
+   },
+   {
+    "w": "To",
+    "s": 2.4,
+    "e": 2.58
+   },
+   {
+    "w": "the",
+    "s": 2.58,
+    "e": 2.68
+   },
+   {
+    "w": "people",
+    "s": 2.68,
+    "e": 2.88
+   },
+   {
+    "w": "of",
+    "s": 2.88,
+    "e": 3.06
+   },
+   {
+    "w": "Basel,",
+    "s": 3.06,
+    "e": 3.48
+   },
+   {
+    "w": "it",
+    "s": 3.92,
+    "e": 3.98
+   },
+   {
+    "w": "was",
+    "s": 3.98,
+    "e": 4.12
+   },
+   {
+    "w": "terrifying.",
+    "s": 4.12,
+    "e": 4.74
+   }
+  ],
+  "heard": "To us, that sounds ridiculous. To the people of Basel, it was terrifying.",
+  "match": 1.0
+ },
+ {
+  "id": "L50",
+  "chapter": 4,
+  "text": "Legend said an egg laid by a rooster could hatch a basilisk: a monster that could kill with a single look.",
+  "dur": 6.6,
+  "words": [
+   {
+    "w": "Legend",
+    "s": 0.08,
+    "e": 0.16
+   },
+   {
+    "w": "said",
+    "s": 0.16,
+    "e": 0.5
+   },
+   {
+    "w": "an",
+    "s": 0.5,
+    "e": 0.68
+   },
+   {
+    "w": "egg",
+    "s": 0.68,
+    "e": 0.96
+   },
+   {
+    "w": "laid",
+    "s": 0.96,
+    "e": 1.24
+   },
+   {
+    "w": "by",
+    "s": 1.24,
+    "e": 1.5
+   },
+   {
+    "w": "a",
+    "s": 1.5,
+    "e": 1.62
+   },
+   {
+    "w": "rooster",
+    "s": 1.62,
+    "e": 1.98
+   },
+   {
+    "w": "could",
+    "s": 1.98,
+    "e": 2.18
+   },
+   {
+    "w": "hatch",
+    "s": 2.18,
+    "e": 2.42
+   },
+   {
+    "w": "a",
+    "s": 2.42,
+    "e": 2.64
+   },
+   {
+    "w": "basilisk:",
+    "s": 2.64,
+    "e": 3.36
+   },
+   {
+    "w": "a",
+    "s": 3.84,
+    "e": 4.04
+   },
+   {
+    "w": "monster",
+    "s": 4.04,
+    "e": 4.38
+   },
+   {
+    "w": "that",
+    "s": 4.38,
+    "e": 4.64
+   },
+   {
+    "w": "could",
+    "s": 4.64,
+    "e": 4.82
+   },
+   {
+    "w": "kill",
+    "s": 4.82,
+    "e": 5.14
+   },
+   {
+    "w": "with",
+    "s": 5.14,
+    "e": 5.38
+   },
+   {
+    "w": "a",
+    "s": 5.38,
+    "e": 5.6
+   },
+   {
+    "w": "single",
+    "s": 5.6,
+    "e": 6.0
+   },
+   {
+    "w": "look.",
+    "s": 6.0,
+    "e": 6.42
+   }
+  ],
+  "heard": "Legend said an egg laid by a rooster could hatch a basilisk. A monster that could kill with a single look.",
+  "match": 1.0
+ },
+ {
+  "id": "L51",
+  "chapter": 4,
+  "text": "Witches were said to use these eggs in their potions.",
+  "dur": 3.367,
+  "words": [
+   {
+    "w": "Witches",
+    "s": 0.08,
+    "e": 0.22
+   },
+   {
+    "w": "were",
+    "s": 0.22,
+    "e": 0.5
+   },
+   {
+    "w": "said",
+    "s": 0.5,
+    "e": 0.68
+   },
+   {
+    "w": "to",
+    "s": 0.68,
+    "e": 0.78
+   },
+   {
+    "w": "use",
+    "s": 0.78,
+    "e": 0.96
+   },
+   {
+    "w": "these",
+    "s": 0.96,
+    "e": 1.16
+   },
+   {
+    "w": "eggs",
+    "s": 1.16,
+    "e": 1.36
+   },
+   {
+    "w": "in",
+    "s": 1.36,
+    "e": 3.0
+   },
+   {
+    "w": "their",
+    "s": 3.0,
+    "e": 3.18
+   },
+   {
+    "w": "potions.",
+    "s": 3.18,
+    "e": 3.367
+   }
+  ],
+  "heard": "Witches were said to use these eggs in their The rooster",
+  "match": 0.857
+ },
+ {
+  "id": "L52",
+  "chapter": 4,
+  "text": "So the rooster was burned on a hill outside the city, in front of a huge crowd.",
+  "dur": 4.273,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.0,
+    "e": 0.053
+   },
+   {
+    "w": "the",
+    "s": -0.187,
+    "e": -0.127
+   },
+   {
+    "w": "rooster",
+    "s": -0.127,
+    "e": 0.193
+   },
+   {
+    "w": "was",
+    "s": 0.193,
+    "e": 0.373
+   },
+   {
+    "w": "burned",
+    "s": 0.373,
+    "e": 0.733
+   },
+   {
+    "w": "on",
+    "s": 0.733,
+    "e": 0.933
+   },
+   {
+    "w": "a",
+    "s": 0.933,
+    "e": 1.053
+   },
+   {
+    "w": "hill",
+    "s": 1.053,
+    "e": 1.333
+   },
+   {
+    "w": "outside",
+    "s": 1.333,
+    "e": 1.873
+   },
+   {
+    "w": "the",
+    "s": 1.873,
+    "e": 2.113
+   },
+   {
+    "w": "city,",
+    "s": 2.113,
+    "e": 2.413
+   },
+   {
+    "w": "in",
+    "s": 2.773,
+    "e": 2.873
+   },
+   {
+    "w": "front",
+    "s": 2.873,
+    "e": 2.993
+   },
+   {
+    "w": "of",
+    "s": 2.993,
+    "e": 3.113
+   },
+   {
+    "w": "a",
+    "s": 3.113,
+    "e": 3.233
+   },
+   {
+    "w": "huge",
+    "s": 3.233,
+    "e": 3.693
+   },
+   {
+    "w": "crowd.",
+    "s": 3.693,
+    "e": 4.093
+   }
+  ],
+  "heard": "was burned on a hill outside the city, in front of a huge crowd.",
+  "match": 0.903
+ },
+ {
+  "id": "L53",
+  "chapter": 4,
+  "text": "Today, scientists know that, very rarely, a hen's body can change, so she looks and even crows like a rooster.",
+  "dur": 6.64,
+  "words": [
+   {
+    "w": "Today,",
+    "s": 0.08,
+    "e": 0.38
+   },
+   {
+    "w": "scientists",
+    "s": 0.78,
+    "e": 1.1
+   },
+   {
+    "w": "know",
+    "s": 1.1,
+    "e": 1.38
+   },
+   {
+    "w": "that,",
+    "s": 1.38,
+    "e": 1.6
+   },
+   {
+    "w": "very",
+    "s": 1.68,
+    "e": 2.06
+   },
+   {
+    "w": "rarely,",
+    "s": 2.06,
+    "e": 2.52
+   },
+   {
+    "w": "a",
+    "s": 2.82,
+    "e": 2.82
+   },
+   {
+    "w": "hen's",
+    "s": 2.82,
+    "e": 3.08
+   },
+   {
+    "w": "body",
+    "s": 3.08,
+    "e": 3.26
+   },
+   {
+    "w": "can",
+    "s": 3.26,
+    "e": 3.52
+   },
+   {
+    "w": "change,",
+    "s": 3.52,
+    "e": 3.88
+   },
+   {
+    "w": "so",
+    "s": 4.18,
+    "e": 4.52
+   },
+   {
+    "w": "she",
+    "s": 4.52,
+    "e": 4.68
+   },
+   {
+    "w": "looks",
+    "s": 4.68,
+    "e": 4.92
+   },
+   {
+    "w": "and",
+    "s": 4.92,
+    "e": 5.26
+   },
+   {
+    "w": "even",
+    "s": 5.26,
+    "e": 5.52
+   },
+   {
+    "w": "crows",
+    "s": 5.52,
+    "e": 5.84
+   },
+   {
+    "w": "like",
+    "s": 5.84,
+    "e": 6.06
+   },
+   {
+    "w": "a",
+    "s": 6.06,
+    "e": 6.18
+   },
+   {
+    "w": "rooster.",
+    "s": 6.18,
+    "e": 6.46
+   }
+  ],
+  "heard": "Today, scientists know that, very rarely, a hen's body can change, so she looks and even crows like a rooster.",
+  "match": 1.0
+ },
+ {
+  "id": "L54",
+  "chapter": 4,
+  "text": "But in 1474, nobody knew that. They only saw a monster in the making.",
+  "dur": 5.56,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.08,
+    "e": 0.26
+   },
+   {
+    "w": "in",
+    "s": 0.26,
+    "e": 0.34
+   },
+   {
+    "w": "1474,",
+    "s": 0.34,
+    "e": 1.38
+   },
+   {
+    "w": "nobody",
+    "s": 1.96,
+    "e": 2.12
+   },
+   {
+    "w": "knew",
+    "s": 2.12,
+    "e": 2.48
+   },
+   {
+    "w": "that.",
+    "s": 2.48,
+    "e": 2.76
+   },
+   {
+    "w": "They",
+    "s": 3.38,
+    "e": 3.6
+   },
+   {
+    "w": "only",
+    "s": 3.6,
+    "e": 3.78
+   },
+   {
+    "w": "saw",
+    "s": 3.78,
+    "e": 4.08
+   },
+   {
+    "w": "a",
+    "s": 4.08,
+    "e": 4.28
+   },
+   {
+    "w": "monster",
+    "s": 4.28,
+    "e": 4.68
+   },
+   {
+    "w": "in",
+    "s": 4.68,
+    "e": 5.08
+   },
+   {
+    "w": "the",
+    "s": 5.08,
+    "e": 5.14
+   },
+   {
+    "w": "making.",
+    "s": 5.14,
+    "e": 5.38
+   }
+  ],
+  "heard": "But in 1474, nobody knew that. They only saw a monster in the making.",
+  "match": 1.0
+ },
+ {
+  "id": "L55",
+  "chapter": 5,
+  "text": "Now for the strangest trial of all.",
+  "dur": 2.84,
+  "words": [
+   {
+    "w": "Now",
+    "s": 0.0,
+    "e": 0.5
+   },
+   {
+    "w": "for",
+    "s": 0.5,
+    "e": 0.84
+   },
+   {
+    "w": "the",
+    "s": 0.84,
+    "e": 0.98
+   },
+   {
+    "w": "strangest",
+    "s": 0.98,
+    "e": 1.72
+   },
+   {
+    "w": "trial",
+    "s": 1.72,
+    "e": 2.1
+   },
+   {
+    "w": "of",
+    "s": 2.1,
+    "e": 2.4
+   },
+   {
+    "w": "all.",
+    "s": 2.4,
+    "e": 2.66
+   }
+  ],
+  "heard": "Now for the strangest trial of all.",
+  "match": 1.0
+ },
+ {
+  "id": "L56",
+  "chapter": 5,
+  "text": "High in the Alps, there's a village called Saint-Julien, famous for its wine.",
+  "dur": 3.98,
+  "words": [
+   {
+    "w": "High",
+    "s": 0.08,
+    "e": 0.18
+   },
+   {
+    "w": "in",
+    "s": 0.18,
+    "e": 0.32
+   },
+   {
+    "w": "the",
+    "s": 0.32,
+    "e": 0.5
+   },
+   {
+    "w": "Alps,",
+    "s": 0.5,
+    "e": 0.64
+   },
+   {
+    "w": "there's",
+    "s": 0.82,
+    "e": 1.02
+   },
+   {
+    "w": "a",
+    "s": 1.02,
+    "e": 1.1
+   },
+   {
+    "w": "village",
+    "s": 1.1,
+    "e": 1.34
+   },
+   {
+    "w": "called",
+    "s": 1.34,
+    "e": 1.62
+   },
+   {
+    "w": "Saint-Julien,",
+    "s": 1.62,
+    "e": 2.94
+   },
+   {
+    "w": "famous",
+    "s": 2.94,
+    "e": 3.14
+   },
+   {
+    "w": "for",
+    "s": 3.14,
+    "e": 3.4
+   },
+   {
+    "w": "its",
+    "s": 3.4,
+    "e": 3.52
+   },
+   {
+    "w": "wine.",
+    "s": 3.52,
+    "e": 3.8
+   }
+  ],
+  "heard": "High in the Alps, there's a village called San Julienne, famous for its wine.",
+  "match": 0.889
+ },
+ {
+  "id": "L57",
+  "chapter": 5,
+  "text": "In 1545, tiny green beetles called weevils began destroying the vines.",
+  "dur": 4.84,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.08,
+    "e": 0.22
+   },
+   {
+    "w": "1545,",
+    "s": 0.22,
+    "e": 1.04
+   },
+   {
+    "w": "tiny",
+    "s": 1.54,
+    "e": 1.64
+   },
+   {
+    "w": "green",
+    "s": 1.64,
+    "e": 1.92
+   },
+   {
+    "w": "beetles",
+    "s": 1.92,
+    "e": 2.32
+   },
+   {
+    "w": "called",
+    "s": 2.32,
+    "e": 2.7
+   },
+   {
+    "w": "weevils",
+    "s": 2.7,
+    "e": 3.2
+   },
+   {
+    "w": "began",
+    "s": 3.2,
+    "e": 3.54
+   },
+   {
+    "w": "destroying",
+    "s": 3.54,
+    "e": 4.18
+   },
+   {
+    "w": "the",
+    "s": 4.18,
+    "e": 4.42
+   },
+   {
+    "w": "vines.",
+    "s": 4.42,
+    "e": 4.66
+   }
+  ],
+  "heard": "In 1545, tiny green beetles called weevils began destroying the vines.",
+  "match": 1.0
+ },
+ {
+  "id": "L58",
+  "chapter": 5,
+  "text": "The villagers took the weevils to the church court. And the weevils got two lawyers.",
+  "dur": 4.32,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.08,
+    "e": 0.2
+   },
+   {
+    "w": "villagers",
+    "s": 0.2,
+    "e": 0.5
+   },
+   {
+    "w": "took",
+    "s": 0.5,
+    "e": 0.96
+   },
+   {
+    "w": "the",
+    "s": 0.96,
+    "e": 1.12
+   },
+   {
+    "w": "weevils",
+    "s": 1.12,
+    "e": 1.38
+   },
+   {
+    "w": "to",
+    "s": 1.38,
+    "e": 1.54
+   },
+   {
+    "w": "the",
+    "s": 1.54,
+    "e": 1.68
+   },
+   {
+    "w": "church",
+    "s": 1.68,
+    "e": 1.9
+   },
+   {
+    "w": "court.",
+    "s": 1.9,
+    "e": 2.24
+   },
+   {
+    "w": "And",
+    "s": 2.74,
+    "e": 2.9
+   },
+   {
+    "w": "the",
+    "s": 2.9,
+    "e": 3.08
+   },
+   {
+    "w": "weevils",
+    "s": 3.08,
+    "e": 3.34
+   },
+   {
+    "w": "got",
+    "s": 3.34,
+    "e": 3.56
+   },
+   {
+    "w": "two",
+    "s": 3.56,
+    "e": 3.82
+   },
+   {
+    "w": "lawyers.",
+    "s": 3.82,
+    "e": 4.14
+   }
+  ],
+  "heard": "The villagers took the weevils to the church court. And the weevils got two lawyers.",
+  "match": 1.0
+ },
+ {
+  "id": "L59",
+  "chapter": 5,
+  "text": "But the judge said something surprising.",
+  "dur": 2.18,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.08,
+    "e": 0.28
+   },
+   {
+    "w": "the",
+    "s": 0.28,
+    "e": 0.54
+   },
+   {
+    "w": "judge",
+    "s": 0.54,
+    "e": 0.78
+   },
+   {
+    "w": "said",
+    "s": 0.78,
+    "e": 1.2
+   },
+   {
+    "w": "something",
+    "s": 1.2,
+    "e": 1.52
+   },
+   {
+    "w": "surprising.",
+    "s": 1.52,
+    "e": 2.0
+   }
+  ],
+  "heard": "But the judge said something surprising.",
+  "match": 1.0
+ },
+ {
+  "id": "L60",
+  "chapter": 5,
+  "text": "God made the plants for insects too, he said. So instead of punishing them, everyone should pray and say sorry for their sins...",
+  "dur": 6.7,
+  "words": [
+   {
+    "w": "God",
+    "s": 0.08,
+    "e": 0.26
+   },
+   {
+    "w": "made",
+    "s": 0.26,
+    "e": 0.48
+   },
+   {
+    "w": "the",
+    "s": 0.48,
+    "e": 0.64
+   },
+   {
+    "w": "plants",
+    "s": 0.64,
+    "e": 0.9
+   },
+   {
+    "w": "for",
+    "s": 0.9,
+    "e": 1.14
+   },
+   {
+    "w": "insects",
+    "s": 1.14,
+    "e": 1.52
+   },
+   {
+    "w": "too,",
+    "s": 1.52,
+    "e": 1.96
+   },
+   {
+    "w": "he",
+    "s": 2.1,
+    "e": 2.24
+   },
+   {
+    "w": "said.",
+    "s": 2.24,
+    "e": 2.48
+   },
+   {
+    "w": "So",
+    "s": 2.86,
     "e": 3.1
    },
    {
-    "w": "wall",
+    "w": "instead",
     "s": 3.1,
     "e": 3.4
    },
    {
     "w": "of",
     "s": 3.4,
-    "e": 3.62
-   },
-   {
-    "w": "the",
-    "s": 3.62,
-    "e": 3.74
-   },
-   {
-    "w": "town's",
-    "s": 3.74,
-    "e": 4.22
-   },
-   {
-    "w": "church.",
-    "s": 4.22,
-    "e": 4.5
-   }
-  ],
-  "heard": "A painting of the execution was even put up on the wall of the town's church."
- },
- {
-  "id": "L24",
-  "chapter": 1,
-  "text": "And here's the strange part. Falaise wasn't unusual at all.",
-  "dur": 4.01,
-  "words": [
-   {
-    "w": "And",
-    "s": 0.0,
-    "e": 0.16
-   },
-   {
-    "w": "here's",
-    "s": 0.16,
-    "e": 0.44
-   },
-   {
-    "w": "the",
-    "s": 0.44,
-    "e": 0.56
-   },
-   {
-    "w": "strange",
-    "s": 0.56,
-    "e": 0.9
-   },
-   {
-    "w": "part.",
-    "s": 0.9,
-    "e": 1.42
-   },
-   {
-    "w": "Falaise",
-    "s": 2.02,
-    "e": 2.38
-   },
-   {
-    "w": "wasn't",
-    "s": 2.38,
-    "e": 2.78
-   },
-   {
-    "w": "unusual",
-    "s": 2.78,
-    "e": 3.2
-   },
-   {
-    "w": "at",
-    "s": 3.2,
-    "e": 3.6
-   },
-   {
-    "w": "all.",
-    "s": 3.6,
-    "e": 3.86
-   }
-  ],
-  "heard": "And here's the strange part. Falaise wasn't unusual at all."
- },
- {
-  "id": "L25",
-  "chapter": 1,
-  "text": "Pigs roamed freely through medieval towns, and they turn up in these trials more than any other animal.",
-  "dur": 6.733,
-  "words": [
-   {
-    "w": "Pigs",
-    "s": 0.0,
-    "e": 0.3
-   },
-   {
-    "w": "roamed",
-    "s": 0.3,
-    "e": 0.86
-   },
-   {
-    "w": "freely",
-    "s": 0.86,
-    "e": 1.3
-   },
-   {
-    "w": "through",
-    "s": 1.3,
-    "e": 1.7
-   },
-   {
-    "w": "medieval",
-    "s": 1.7,
-    "e": 2.18
-   },
-   {
-    "w": "towns,",
-    "s": 2.18,
-    "e": 2.92
-   },
-   {
-    "w": "and",
-    "s": 3.44,
-    "e": 3.6
-   },
-   {
-    "w": "they",
-    "s": 3.6,
-    "e": 3.72
-   },
-   {
-    "w": "turn",
-    "s": 3.72,
-    "e": 3.98
-   },
-   {
-    "w": "up",
-    "s": 3.98,
-    "e": 4.16
-   },
-   {
-    "w": "in",
-    "s": 4.16,
-    "e": 4.32
-   },
-   {
-    "w": "these",
-    "s": 4.32,
-    "e": 4.5
-   },
-   {
-    "w": "trials",
-    "s": 4.5,
-    "e": 4.98
-   },
-   {
-    "w": "more",
-    "s": 4.98,
-    "e": 5.38
-   },
-   {
-    "w": "than",
-    "s": 5.38,
-    "e": 5.6
-   },
-   {
-    "w": "any",
-    "s": 5.6,
-    "e": 5.84
-   },
-   {
-    "w": "other",
-    "s": 5.84,
-    "e": 6.1
-   },
-   {
-    "w": "animal.",
-    "s": 6.1,
-    "e": 6.5
-   }
-  ],
-  "heard": "Pigs roamed freely through medieval towns, and they turn up in these trials more than any other animal."
- },
- {
-  "id": "L26",
-  "chapter": 2,
-  "text": "To understand these trials, historians split them into two groups.",
-  "dur": 4.245,
-  "words": [
-   {
-    "w": "To",
-    "s": 0.0,
-    "e": 0.12
-   },
-   {
-    "w": "understand",
-    "s": 0.12,
-    "e": 0.62
-   },
-   {
-    "w": "these",
-    "s": 0.62,
-    "e": 0.92
-   },
-   {
-    "w": "trials,",
-    "s": 0.92,
-    "e": 1.5
-   },
-   {
-    "w": "historians",
-    "s": 1.98,
-    "e": 2.46
-   },
-   {
-    "w": "split",
-    "s": 2.46,
-    "e": 2.94
-   },
-   {
-    "w": "them",
-    "s": 2.94,
-    "e": 3.16
-   },
-   {
-    "w": "into",
-    "s": 3.16,
-    "e": 3.38
-   },
-   {
-    "w": "two",
-    "s": 3.38,
-    "e": 3.6
-   },
-   {
-    "w": "groups.",
-    "s": 3.6,
-    "e": 3.96
-   }
-  ],
-  "heard": "To understand these trials, historians split them into two groups."
- },
- {
-  "id": "L27",
-  "chapter": 2,
-  "text": "Group one: big animals that hurt or killed a person. Pigs, bulls, horses, dogs.",
-  "dur": 5.803,
-  "words": [
-   {
-    "w": "Group",
-    "s": 0.0,
-    "e": 0.18
-   },
-   {
-    "w": "one:",
-    "s": 0.18,
-    "e": 0.5
-   },
-   {
-    "w": "big",
-    "s": 0.72,
-    "e": 0.84
-   },
-   {
-    "w": "animals",
-    "s": 0.84,
-    "e": 1.28
-   },
-   {
-    "w": "that",
-    "s": 1.28,
-    "e": 1.54
-   },
-   {
-    "w": "hurt",
-    "s": 1.54,
-    "e": 1.82
-   },
-   {
-    "w": "or",
-    "s": 1.82,
-    "e": 2.06
-   },
-   {
-    "w": "killed",
-    "s": 2.06,
-    "e": 2.3
-   },
-   {
-    "w": "a",
-    "s": 2.3,
-    "e": 2.5
-   },
-   {
-    "w": "person.",
-    "s": 2.5,
-    "e": 2.82
-   },
-   {
-    "w": "Pigs,",
-    "s": 3.84,
-    "e": 3.84
-   },
-   {
-    "w": "bulls,",
-    "s": 4.18,
-    "e": 4.32
-   },
-   {
-    "w": "horses,",
-    "s": 4.62,
-    "e": 4.98
-   },
-   {
-    "w": "dogs.",
-    "s": 5.24,
-    "e": 5.48
-   }
-  ],
-  "heard": "Group one, big animals that hurt or killed a person. Pigs, bulls, horses, dogs."
- },
- {
-  "id": "L28",
-  "chapter": 2,
-  "text": "They were tried one at a time by ordinary judges. And if found guilty, they were usually put to death.",
-  "dur": 6.805,
-  "words": [
-   {
-    "w": "They",
-    "s": 0.0,
-    "e": 0.14
-   },
-   {
-    "w": "were",
-    "s": 0.14,
-    "e": 0.24
-   },
-   {
-    "w": "tried",
-    "s": 0.24,
-    "e": 0.6
-   },
-   {
-    "w": "one",
-    "s": 0.6,
-    "e": 0.88
-   },
-   {
-    "w": "at",
-    "s": 0.88,
-    "e": 1.04
-   },
-   {
-    "w": "a",
-    "s": 1.04,
-    "e": 1.26
-   },
-   {
-    "w": "time",
-    "s": 1.26,
-    "e": 1.54
-   },
-   {
-    "w": "by",
-    "s": 1.54,
-    "e": 1.76
-   },
-   {
-    "w": "ordinary",
-    "s": 1.76,
-    "e": 2.32
-   },
-   {
-    "w": "judges.",
-    "s": 2.32,
-    "e": 2.9
-   },
-   {
-    "w": "And",
-    "s": 3.58,
-    "e": 3.66
-   },
-   {
-    "w": "if",
-    "s": 3.66,
-    "e": 3.78
-   },
-   {
-    "w": "found",
-    "s": 3.78,
-    "e": 4.2
-   },
-   {
-    "w": "guilty,",
-    "s": 4.2,
-    "e": 4.7
-   },
-   {
-    "w": "they",
-    "s": 5.14,
-    "e": 5.26
-   },
-   {
-    "w": "were",
-    "s": 5.26,
-    "e": 5.36
-   },
-   {
-    "w": "usually",
-    "s": 5.36,
-    "e": 5.82
-   },
-   {
-    "w": "put",
-    "s": 5.82,
-    "e": 6.12
-   },
-   {
-    "w": "to",
-    "s": 6.12,
-    "e": 6.3
-   },
-   {
-    "w": "death.",
-    "s": 6.3,
-    "e": 6.54
-   }
-  ],
-  "heard": "They were tried one at a time by ordinary judges. And if found guilty, they were usually put to death."
- },
- {
-  "id": "L29",
-  "chapter": 2,
-  "text": "Group two was much stranger. Rats. Mice. Locusts. Beetles.",
-  "dur": 4.309,
-  "words": [
-   {
-    "w": "Group",
-    "s": 0.0,
-    "e": 0.2
-   },
-   {
-    "w": "two",
-    "s": 0.2,
-    "e": 0.48
-   },
-   {
-    "w": "was",
-    "s": 0.48,
-    "e": 0.7
-   },
-   {
-    "w": "much",
-    "s": 0.7,
-    "e": 0.92
-   },
-   {
-    "w": "stranger.",
-    "s": 0.92,
-    "e": 1.5
-   },
-   {
-    "w": "Rats.",
-    "s": 2.32,
-    "e": 2.32
-   },
-   {
-    "w": "Mice.",
-    "s": 2.66,
-    "e": 2.8
-   },
-   {
-    "w": "Locusts.",
-    "s": 3.06,
-    "e": 3.56
-   },
-   {
-    "w": "Beetles.",
-    "s": 3.74,
-    "e": 4.12
-   }
-  ],
-  "heard": "Group two was much stranger. Rats. Mice. Locusts. Beetles."
- },
- {
-  "id": "L30",
-  "chapter": 2,
-  "text": "Pests that ate the crops.",
-  "dur": 1.588,
-  "words": [
-   {
-    "w": "Pests",
-    "s": 0.0,
-    "e": 0.32
-   },
-   {
-    "w": "that",
-    "s": 0.32,
-    "e": 0.56
-   },
-   {
-    "w": "ate",
-    "s": 0.56,
-    "e": 0.76
-   },
-   {
-    "w": "the",
-    "s": 0.76,
-    "e": 0.92
-   },
-   {
-    "w": "crops.",
-    "s": 0.92,
-    "e": 1.24
-   }
-  ],
-  "heard": "Pests that ate the crops."
- },
- {
-  "id": "L31",
-  "chapter": 2,
-  "text": "You can't arrest ten thousand rats. So these cases went to a different court: the church.",
-  "dur": 5.546,
-  "words": [
-   {
-    "w": "You",
-    "s": 0.0,
-    "e": 0.16
-   },
-   {
-    "w": "can't",
-    "s": 0.16,
-    "e": 0.72
-   },
-   {
-    "w": "arrest",
-    "s": 0.72,
-    "e": 0.72
-   },
-   {
-    "w": "ten",
-    "s": 0.72,
-    "e": 1.02
-   },
-   {
-    "w": "thousand",
-    "s": 1.02,
-    "e": 1.38
-   },
-   {
-    "w": "rats.",
-    "s": 1.38,
-    "e": 1.82
-   },
-   {
-    "w": "So",
-    "s": 2.54,
-    "e": 2.62
-   },
-   {
-    "w": "these",
-    "s": 2.62,
-    "e": 2.84
-   },
-   {
-    "w": "cases",
-    "s": 2.84,
-    "e": 3.16
-   },
-   {
-    "w": "went",
-    "s": 3.16,
-    "e": 3.52
-   },
-   {
-    "w": "to",
-    "s": 3.52,
-    "e": 3.66
-   },
-   {
-    "w": "a",
-    "s": 3.66,
-    "e": 3.8
-   },
-   {
-    "w": "different",
-    "s": 3.8,
-    "e": 4.02
-   },
-   {
-    "w": "court:",
-    "s": 4.02,
-    "e": 4.38
-   },
-   {
-    "w": "the",
-    "s": 4.8,
-    "e": 4.88
-   },
-   {
-    "w": "church.",
-    "s": 4.88,
-    "e": 5.16
-   }
-  ],
-  "heard": "You can't arrest ten thousand rats. So these cases went to a different court, the church."
- },
- {
-  "id": "L32",
-  "chapter": 2,
-  "text": "And the church had a weapon no ordinary judge had: a solemn curse, called an anathema, ordering the creatures to leave.",
-  "dur": 7.994,
-  "words": [
-   {
-    "w": "And",
-    "s": 0.0,
-    "e": 0.14
-   },
-   {
-    "w": "the",
-    "s": 0.14,
-    "e": 0.26
-   },
-   {
-    "w": "church",
-    "s": 0.26,
-    "e": 0.48
-   },
-   {
-    "w": "had",
-    "s": 0.48,
-    "e": 0.74
-   },
-   {
-    "w": "a",
-    "s": 0.74,
-    "e": 0.88
-   },
-   {
-    "w": "weapon",
-    "s": 0.88,
-    "e": 1.1
-   },
-   {
-    "w": "no",
-    "s": 1.1,
-    "e": 1.48
-   },
-   {
-    "w": "ordinary",
-    "s": 1.48,
-    "e": 2.04
-   },
-   {
-    "w": "judge",
-    "s": 2.04,
-    "e": 2.42
-   },
-   {
-    "w": "had:",
-    "s": 2.42,
-    "e": 2.88
-   },
-   {
-    "w": "a",
-    "s": 3.44,
-    "e": 3.5
-   },
-   {
-    "w": "solemn",
-    "s": 3.5,
-    "e": 3.84
-   },
-   {
-    "w": "curse,",
-    "s": 3.84,
-    "e": 4.36
-   },
-   {
-    "w": "called",
-    "s": 4.62,
-    "e": 4.9
-   },
-   {
-    "w": "an",
-    "s": 4.9,
-    "e": 5.12
-   },
-   {
-    "w": "anathema,",
-    "s": 5.12,
-    "e": 5.9
-   },
-   {
-    "w": "ordering",
-    "s": 6.34,
-    "e": 6.58
-   },
-   {
-    "w": "the",
-    "s": 6.58,
-    "e": 6.82
-   },
-   {
-    "w": "creatures",
-    "s": 6.82,
-    "e": 7.16
-   },
-   {
-    "w": "to",
-    "s": 7.16,
-    "e": 7.44
-   },
-   {
-    "w": "leave.",
-    "s": 7.44,
-    "e": 7.72
-   }
-  ],
-  "heard": "And the church had a weapon no ordinary judge had, a solemn curse, called an anathema, ordering the creatures to leave."
- },
- {
-  "id": "L33",
-  "chapter": 2,
-  "text": "But before any curse, the accused deserved a fair trial. And a fair trial needs a lawyer.",
-  "dur": 5.78,
-  "words": [
-   {
-    "w": "But",
-    "s": 0.0,
-    "e": 0.14
-   },
-   {
-    "w": "before",
-    "s": 0.14,
-    "e": 0.4
-   },
-   {
-    "w": "any",
-    "s": 0.4,
-    "e": 0.6
-   },
-   {
-    "w": "curse,",
-    "s": 0.6,
-    "e": 0.94
-   },
-   {
-    "w": "the",
-    "s": 1.34,
-    "e": 1.42
-   },
-   {
-    "w": "accused",
-    "s": 1.42,
-    "e": 1.86
-   },
-   {
-    "w": "deserved",
-    "s": 1.86,
-    "e": 2.36
-   },
-   {
-    "w": "a",
-    "s": 2.36,
-    "e": 2.6
-   },
-   {
-    "w": "fair",
-    "s": 2.6,
-    "e": 2.78
-   },
-   {
-    "w": "trial.",
-    "s": 2.78,
-    "e": 3.36
-   },
-   {
-    "w": "And",
-    "s": 3.84,
-    "e": 3.92
-   },
-   {
-    "w": "a",
-    "s": 3.92,
-    "e": 4.04
-   },
-   {
-    "w": "fair",
-    "s": 4.04,
-    "e": 4.28
-   },
-   {
-    "w": "trial",
-    "s": 4.28,
-    "e": 4.76
-   },
-   {
-    "w": "needs",
-    "s": 4.76,
-    "e": 5.02
-   },
-   {
-    "w": "a",
-    "s": 5.02,
-    "e": 5.22
-   },
-   {
-    "w": "lawyer.",
-    "s": 5.22,
-    "e": 5.5
-   }
-  ],
-  "heard": "But before any curse, the accused deserved a fair trial. And a fair trial needs a lawyer."
- },
- {
-  "id": "L34",
-  "chapter": 3,
-  "text": "In the early 1500s, around the French city of Autun, rats destroyed the barley crop.",
-  "dur": 6.272,
-  "words": [
-   {
-    "w": "In",
-    "s": 0.0,
-    "e": 0.12
-   },
-   {
-    "w": "the",
-    "s": 0.12,
-    "e": 0.24
-   },
-   {
-    "w": "early",
-    "s": 0.24,
-    "e": 0.52
-   },
-   {
-    "w": "1500s,",
-    "s": 0.52,
-    "e": 1.76
-   },
-   {
-    "w": "around",
-    "s": 2.18,
-    "e": 2.2
-   },
-   {
-    "w": "the",
-    "s": 2.2,
-    "e": 2.4
-   },
-   {
-    "w": "French",
-    "s": 2.4,
-    "e": 2.6
-   },
-   {
-    "w": "city",
-    "s": 2.6,
-    "e": 2.94
-   },
-   {
-    "w": "of",
-    "s": 2.94,
-    "e": 3.16
-   },
-   {
-    "w": "Autun,",
-    "s": 3.16,
-    "e": 3.78
-   },
-   {
-    "w": "rats",
-    "s": 4.24,
-    "e": 4.54
-   },
-   {
-    "w": "destroyed",
-    "s": 4.54,
-    "e": 5.1
-   },
-   {
-    "w": "the",
-    "s": 5.1,
-    "e": 5.3
-   },
-   {
-    "w": "barley",
-    "s": 5.3,
-    "e": 5.58
-   },
-   {
-    "w": "crop.",
-    "s": 5.58,
-    "e": 6.0
-   }
-  ],
-  "heard": "In the early 1500s, around the French city of Autun, rats destroyed the barley crop."
- },
- {
-  "id": "L35",
-  "chapter": 3,
-  "text": "The church court ordered the rats to appear. And, as the story goes, it gave them a defence lawyer:",
-  "dur": 6.097,
-  "words": [
-   {
-    "w": "The",
-    "s": 0.0,
-    "e": 0.14
-   },
-   {
-    "w": "church",
-    "s": 0.14,
-    "e": 0.42
-   },
-   {
-    "w": "court",
-    "s": 0.42,
-    "e": 0.8
-   },
-   {
-    "w": "ordered",
-    "s": 0.8,
-    "e": 1.14
-   },
-   {
-    "w": "the",
-    "s": 1.14,
-    "e": 1.32
-   },
-   {
-    "w": "rats",
-    "s": 1.32,
-    "e": 1.56
-   },
-   {
-    "w": "to",
-    "s": 1.56,
-    "e": 1.82
-   },
-   {
-    "w": "appear.",
-    "s": 1.82,
-    "e": 2.2
-   },
-   {
-    "w": "And,",
-    "s": 2.84,
-    "e": 2.92
-   },
-   {
-    "w": "as",
-    "s": 2.94,
-    "e": 3.16
-   },
-   {
-    "w": "the",
-    "s": 3.16,
-    "e": 3.32
-   },
-   {
-    "w": "story",
-    "s": 3.32,
-    "e": 3.64
-   },
-   {
-    "w": "goes,",
-    "s": 3.64,
-    "e": 4.04
-   },
-   {
-    "w": "it",
-    "s": 4.44,
-    "e": 4.54
-   },
-   {
-    "w": "gave",
-    "s": 4.54,
-    "e": 4.76
-   },
-   {
-    "w": "them",
-    "s": 4.76,
-    "e": 4.96
-   },
-   {
-    "w": "a",
-    "s": 4.96,
-    "e": 5.06
-   },
-   {
-    "w": "defence",
-    "s": 5.06,
-    "e": 5.4
-   },
-   {
-    "w": "lawyer:",
-    "s": 5.4,
-    "e": 5.8
-   }
-  ],
-  "heard": "The church court ordered the rats to appear. And, as the story goes, it gave them a defence lawyer."
- },
- {
-  "id": "L36",
-  "chapter": 3,
-  "text": "a young legal expert named Bartholomew Chassen\u00e9e.",
-  "dur": 3.302,
-  "words": [
-   {
-    "w": "a",
-    "s": 0.0,
-    "e": 0.18
-   },
-   {
-    "w": "young",
-    "s": 0.18,
-    "e": 0.34
-   },
-   {
-    "w": "legal",
-    "s": 0.34,
-    "e": 0.66
-   },
-   {
-    "w": "expert",
-    "s": 0.66,
-    "e": 1.18
-   },
-   {
-    "w": "named",
-    "s": 1.18,
-    "e": 1.6
-   },
-   {
-    "w": "Bartholomew",
-    "s": 1.6,
-    "e": 2.5
-   },
-   {
-    "w": "Chassen\u00e9e.",
-    "s": 2.5,
-    "e": 3.18
-   }
-  ],
-  "heard": "A young legal expert named Bartholomew Chassen\u00e9e."
- },
- {
-  "id": "L37",
-  "chapter": 3,
-  "text": "Chassen\u00e9e took the case very seriously.",
-  "dur": 2.325,
-  "words": [
-   {
-    "w": "Chassen\u00e9e",
-    "s": 0.0,
-    "e": 0.56
-   },
-   {
-    "w": "took",
-    "s": 0.56,
-    "e": 0.72
-   },
-   {
-    "w": "the",
-    "s": 0.72,
-    "e": 0.9
-   },
-   {
-    "w": "case",
-    "s": 0.9,
-    "e": 1.12
-   },
-   {
-    "w": "very",
-    "s": 1.12,
-    "e": 1.5
-   },
-   {
-    "w": "seriously.",
-    "s": 1.5,
-    "e": 1.98
-   }
-  ],
-  "heard": "Chassen\u00e9e took the case very seriously."
- },
- {
-  "id": "L38",
-  "chapter": 3,
-  "text": "First, he argued that his clients lived scattered across many villages, so one summons wasn't fair.",
-  "dur": 6.328,
-  "words": [
-   {
-    "w": "First,",
-    "s": 0.0,
-    "e": 0.36
-   },
-   {
-    "w": "he",
-    "s": 0.52,
-    "e": 0.62
-   },
-   {
-    "w": "argued",
-    "s": 0.62,
-    "e": 1.06
-   },
-   {
-    "w": "that",
-    "s": 1.06,
-    "e": 1.32
-   },
-   {
-    "w": "his",
-    "s": 1.32,
-    "e": 1.48
-   },
-   {
-    "w": "clients",
-    "s": 1.48,
-    "e": 1.88
-   },
-   {
-    "w": "lived",
-    "s": 1.88,
-    "e": 2.28
-   },
-   {
-    "w": "scattered",
-    "s": 2.28,
-    "e": 2.84
-   },
-   {
-    "w": "across",
-    "s": 2.84,
-    "e": 3.22
-   },
-   {
-    "w": "many",
-    "s": 3.22,
-    "e": 3.52
-   },
-   {
-    "w": "villages,",
-    "s": 3.52,
-    "e": 3.98
-   },
-   {
-    "w": "so",
-    "s": 4.36,
-    "e": 4.74
-   },
-   {
-    "w": "one",
-    "s": 4.74,
-    "e": 5.0
-   },
-   {
-    "w": "summons",
-    "s": 5.0,
-    "e": 5.38
-   },
-   {
-    "w": "wasn't",
-    "s": 5.38,
-    "e": 5.88
-   },
-   {
-    "w": "fair.",
-    "s": 5.88,
-    "e": 6.16
-   }
-  ],
-  "heard": "First, he argued that his clients lived scattered across many villages, so one summons wasn't fair."
- },
- {
-  "id": "L39",
-  "chapter": 3,
-  "text": "The court agreed, and ordered a new summons, read aloud in every parish church.",
-  "dur": 4.757,
-  "words": [
-   {
-    "w": "The",
-    "s": 0.0,
-    "e": 0.14
-   },
-   {
-    "w": "court",
-    "s": 0.14,
-    "e": 0.34
-   },
-   {
-    "w": "agreed,",
-    "s": 0.34,
-    "e": 0.74
-   },
-   {
-    "w": "and",
-    "s": 0.96,
-    "e": 1.1
-   },
-   {
-    "w": "ordered",
-    "s": 1.1,
-    "e": 1.38
-   },
-   {
-    "w": "a",
-    "s": 1.38,
-    "e": 1.5
-   },
-   {
-    "w": "new",
-    "s": 1.5,
-    "e": 1.7
-   },
-   {
-    "w": "summons,",
-    "s": 1.7,
-    "e": 2.1
-   },
-   {
-    "w": "read",
-    "s": 2.78,
-    "e": 2.86
-   },
-   {
-    "w": "aloud",
-    "s": 2.86,
-    "e": 3.24
-   },
-   {
-    "w": "in",
-    "s": 3.24,
-    "e": 3.46
-   },
-   {
-    "w": "every",
-    "s": 3.46,
-    "e": 3.76
-   },
-   {
-    "w": "parish",
-    "s": 3.76,
-    "e": 4.04
-   },
-   {
-    "w": "church.",
-    "s": 4.04,
-    "e": 4.44
-   }
-  ],
-  "heard": "The court agreed, and ordered a new summons, read aloud in every parish church."
- },
- {
-  "id": "L40",
-  "chapter": 3,
-  "text": "The rats still didn't show up. So Chassen\u00e9e found a better excuse.",
-  "dur": 4.115,
-  "words": [
-   {
-    "w": "The",
-    "s": 0.0,
-    "e": 0.14
-   },
-   {
-    "w": "rats",
-    "s": 0.14,
-    "e": 0.38
-   },
-   {
-    "w": "still",
-    "s": 0.38,
-    "e": 0.68
-   },
-   {
-    "w": "didn't",
-    "s": 0.68,
-    "e": 1.04
-   },
-   {
-    "w": "show",
-    "s": 1.04,
-    "e": 1.2
-   },
-   {
-    "w": "up.",
-    "s": 1.2,
-    "e": 1.5
-   },
-   {
-    "w": "So",
-    "s": 1.98,
-    "e": 2.08
-   },
-   {
-    "w": "Chassen\u00e9e",
-    "s": 2.08,
-    "e": 2.66
-   },
-   {
-    "w": "found",
-    "s": 2.66,
-    "e": 2.88
-   },
-   {
-    "w": "a",
-    "s": 2.88,
-    "e": 3.06
-   },
-   {
-    "w": "better",
-    "s": 3.06,
-    "e": 3.26
-   },
-   {
-    "w": "excuse.",
-    "s": 3.26,
-    "e": 3.74
-   }
-  ],
-  "heard": "The rats still didn't show up. So Chassen\u00e9e found a better excuse."
- },
- {
-  "id": "L41",
-  "chapter": 3,
-  "text": "His clients wanted to come... but the journey was far too dangerous.",
-  "dur": 4.328,
-  "words": [
-   {
-    "w": "His",
-    "s": 0.0,
-    "e": 0.16
-   },
-   {
-    "w": "clients",
-    "s": 0.16,
-    "e": 0.56
-   },
-   {
-    "w": "wanted",
-    "s": 0.56,
-    "e": 0.86
-   },
-   {
-    "w": "to",
-    "s": 0.86,
-    "e": 1.1
-   },
-   {
-    "w": "come...",
-    "s": 1.1,
-    "e": 2.0
-   },
-   {
-    "w": "but",
-    "s": 2.0,
-    "e": 2.04
-   },
-   {
-    "w": "the",
-    "s": 2.04,
-    "e": 2.18
-   },
-   {
-    "w": "journey",
-    "s": 2.18,
-    "e": 2.5
-   },
-   {
-    "w": "was",
-    "s": 2.5,
-    "e": 2.8
-   },
-   {
-    "w": "far",
-    "s": 2.8,
-    "e": 3.08
-   },
-   {
-    "w": "too",
-    "s": 3.08,
-    "e": 3.38
-   },
-   {
-    "w": "dangerous.",
-    "s": 3.38,
-    "e": 3.98
-   }
-  ],
-  "heard": "His clients wanted to come... but the journey was far too dangerous."
- },
- {
-  "id": "L42",
-  "chapter": 3,
-  "text": "The roads were full of cats, watching their every move, waiting at every corner.",
-  "dur": 4.907,
-  "words": [
-   {
-    "w": "The",
-    "s": 0.0,
-    "e": 0.12
-   },
-   {
-    "w": "roads",
-    "s": 0.12,
-    "e": 0.44
-   },
-   {
-    "w": "were",
-    "s": 0.44,
-    "e": 0.66
-   },
-   {
-    "w": "full",
-    "s": 0.66,
-    "e": 0.82
-   },
-   {
-    "w": "of",
-    "s": 0.82,
-    "e": 0.98
-   },
-   {
-    "w": "cats,",
-    "s": 0.98,
-    "e": 1.4
-   },
-   {
-    "w": "watching",
-    "s": 1.78,
-    "e": 2.2
-   },
-   {
-    "w": "their",
-    "s": 2.2,
-    "e": 2.46
-   },
-   {
-    "w": "every",
-    "s": 2.46,
-    "e": 2.8
-   },
-   {
-    "w": "move,",
-    "s": 2.8,
-    "e": 3.18
-   },
-   {
-    "w": "waiting",
-    "s": 3.52,
-    "e": 3.76
-   },
-   {
-    "w": "at",
-    "s": 3.76,
-    "e": 4.04
-   },
-   {
-    "w": "every",
-    "s": 4.04,
-    "e": 4.3
-   },
-   {
-    "w": "corner.",
-    "s": 4.3,
-    "e": 4.64
-   }
-  ],
-  "heard": "The roads were full of cats, watching their every move, waiting at every corner."
- },
- {
-  "id": "L43",
-  "chapter": 3,
-  "text": "And no one, he argued, can be forced to come to court if the trip puts their life at risk.",
-  "dur": 5.544,
-  "words": [
-   {
-    "w": "And",
-    "s": 0.0,
-    "e": 0.16
-   },
-   {
-    "w": "no",
-    "s": 0.16,
-    "e": 0.38
-   },
-   {
-    "w": "one,",
-    "s": 0.38,
-    "e": 0.72
-   },
-   {
-    "w": "he",
-    "s": 0.72,
-    "e": 0.92
-   },
-   {
-    "w": "argued,",
-    "s": 0.92,
-    "e": 1.38
-   },
-   {
-    "w": "can",
-    "s": 1.74,
-    "e": 1.98
-   },
-   {
-    "w": "be",
-    "s": 1.98,
-    "e": 2.12
-   },
-   {
-    "w": "forced",
-    "s": 2.12,
-    "e": 2.38
-   },
-   {
-    "w": "to",
-    "s": 2.38,
-    "e": 2.6
-   },
-   {
-    "w": "come",
-    "s": 2.6,
-    "e": 2.78
-   },
-   {
-    "w": "to",
-    "s": 2.78,
-    "e": 2.98
-   },
-   {
-    "w": "court",
-    "s": 2.98,
-    "e": 3.26
-   },
-   {
-    "w": "if",
-    "s": 3.26,
-    "e": 3.56
-   },
-   {
-    "w": "the",
-    "s": 3.56,
-    "e": 3.72
-   },
-   {
-    "w": "trip",
-    "s": 3.72,
-    "e": 3.98
-   },
-   {
-    "w": "puts",
-    "s": 3.98,
-    "e": 4.24
-   },
-   {
-    "w": "their",
-    "s": 4.24,
-    "e": 4.46
-   },
-   {
-    "w": "life",
-    "s": 4.46,
-    "e": 4.74
-   },
-   {
-    "w": "at",
-    "s": 4.74,
-    "e": 4.96
-   },
-   {
-    "w": "risk.",
-    "s": 4.96,
-    "e": 5.24
-   }
-  ],
-  "heard": "And no one, he argued, can be forced to come to court if the trip puts their life at risk."
- },
- {
-  "id": "L44",
-  "chapter": 3,
-  "text": "Nobody knows what the judge finally decided. But the case made Chassen\u00e9e famous.",
-  "dur": 5.504,
-  "words": [
-   {
-    "w": "Nobody",
-    "s": 0.0,
-    "e": 0.34
-   },
-   {
-    "w": "knows",
-    "s": 0.34,
-    "e": 0.76
-   },
-   {
-    "w": "what",
-    "s": 0.76,
-    "e": 1.04
-   },
-   {
-    "w": "the",
-    "s": 1.04,
-    "e": 1.2
-   },
-   {
-    "w": "judge",
-    "s": 1.2,
-    "e": 1.52
-   },
-   {
-    "w": "finally",
-    "s": 1.52,
-    "e": 2.04
-   },
-   {
-    "w": "decided.",
-    "s": 2.04,
-    "e": 2.7
-   },
-   {
-    "w": "But",
-    "s": 3.22,
-    "e": 3.38
-   },
-   {
-    "w": "the",
-    "s": 3.38,
-    "e": 3.52
-   },
-   {
-    "w": "case",
-    "s": 3.52,
-    "e": 3.76
-   },
-   {
-    "w": "made",
-    "s": 3.76,
-    "e": 4.14
-   },
-   {
-    "w": "Chassen\u00e9e",
-    "s": 4.14,
-    "e": 4.8
-   },
-   {
-    "w": "famous.",
-    "s": 4.8,
-    "e": 5.12
-   }
-  ],
-  "heard": "Nobody knows what the judge finally decided. But the case made Chassen\u00e9e famous."
- },
- {
-  "id": "L45",
-  "chapter": 3,
-  "text": "Years later, when he was a senior judge himself, a colleague reminded him of those rats. If even rats deserved a defence, surely people did too. Chassen\u00e9e agreed.",
-  "dur": 11.254,
-  "words": [
-   {
-    "w": "Years",
-    "s": 0.0,
-    "e": 0.28
-   },
-   {
-    "w": "later,",
-    "s": 0.28,
-    "e": 0.62
-   },
-   {
-    "w": "when",
-    "s": 0.62,
-    "e": 0.82
-   },
-   {
-    "w": "he",
-    "s": 0.82,
-    "e": 0.94
-   },
-   {
-    "w": "was",
-    "s": 0.94,
-    "e": 1.06
-   },
-   {
-    "w": "a",
-    "s": 1.06,
-    "e": 1.24
-   },
-   {
-    "w": "senior",
-    "s": 1.24,
-    "e": 1.54
-   },
-   {
-    "w": "judge",
-    "s": 1.54,
-    "e": 1.84
-   },
-   {
-    "w": "himself,",
-    "s": 1.84,
-    "e": 2.4
-   },
-   {
-    "w": "a",
-    "s": 2.94,
-    "e": 3.04
-   },
-   {
-    "w": "colleague",
-    "s": 3.04,
-    "e": 3.44
-   },
-   {
-    "w": "reminded",
-    "s": 3.44,
-    "e": 4.02
-   },
-   {
-    "w": "him",
-    "s": 4.02,
-    "e": 4.28
-   },
-   {
-    "w": "of",
-    "s": 4.28,
-    "e": 4.46
-   },
-   {
-    "w": "those",
-    "s": 4.46,
-    "e": 4.7
-   },
-   {
-    "w": "rats.",
-    "s": 4.7,
-    "e": 5.06
-   },
-   {
-    "w": "If",
-    "s": 5.76,
-    "e": 5.84
-   },
-   {
-    "w": "even",
-    "s": 5.84,
-    "e": 6.1
-   },
-   {
-    "w": "rats",
-    "s": 6.1,
-    "e": 6.5
-   },
-   {
-    "w": "deserved",
-    "s": 6.5,
-    "e": 6.96
-   },
-   {
-    "w": "a",
-    "s": 6.96,
-    "e": 7.16
-   },
-   {
-    "w": "defence,",
-    "s": 7.16,
-    "e": 7.56
-   },
-   {
-    "w": "surely",
-    "s": 8.16,
-    "e": 8.24
-   },
-   {
-    "w": "people",
-    "s": 8.24,
-    "e": 8.64
-   },
-   {
-    "w": "did",
-    "s": 8.64,
-    "e": 8.96
-   },
-   {
-    "w": "too.",
-    "s": 8.96,
-    "e": 9.3
-   },
-   {
-    "w": "Chassen\u00e9e",
-    "s": 10.1,
-    "e": 10.52
-   },
-   {
-    "w": "agreed.",
-    "s": 10.52,
-    "e": 10.9
-   }
-  ],
-  "heard": "Years later, when he was a senior judge himself, a colleague reminded him of those rats. If even rats deserved a defence, surely people did too. Chassen\u00e9e agreed."
- },
- {
-  "id": "L46",
-  "chapter": 4,
-  "text": "Not every case was this funny.",
-  "dur": 2.025,
-  "words": [
-   {
-    "w": "Not",
-    "s": 0.0,
-    "e": 0.26
-   },
-   {
-    "w": "every",
-    "s": 0.26,
-    "e": 0.64
-   },
-   {
-    "w": "case",
-    "s": 0.64,
-    "e": 0.92
-   },
-   {
-    "w": "was",
-    "s": 0.92,
-    "e": 1.2
-   },
-   {
-    "w": "this",
-    "s": 1.2,
-    "e": 1.42
-   },
-   {
-    "w": "funny.",
-    "s": 1.42,
-    "e": 1.74
-   }
-  ],
-  "heard": "Not every case was this funny."
- },
- {
-  "id": "L47",
-  "chapter": 4,
-  "text": "In 1474, in the Swiss city of Basel, judges sentenced a rooster to be burned...",
-  "dur": 6.251,
-  "words": [
-   {
-    "w": "In",
-    "s": 0.0,
-    "e": 0.18
-   },
-   {
-    "w": "1474,",
-    "s": 0.18,
-    "e": 1.42
-   },
-   {
-    "w": "in",
-    "s": 1.86,
-    "e": 1.92
-   },
-   {
-    "w": "the",
-    "s": 1.92,
-    "e": 2.04
-   },
-   {
-    "w": "Swiss",
-    "s": 2.04,
-    "e": 2.26
-   },
-   {
-    "w": "city",
-    "s": 2.26,
-    "e": 2.58
-   },
-   {
-    "w": "of",
-    "s": 2.58,
-    "e": 2.78
-   },
-   {
-    "w": "Basel,",
-    "s": 2.78,
-    "e": 3.38
-   },
-   {
-    "w": "judges",
-    "s": 3.96,
-    "e": 4.18
-   },
-   {
-    "w": "sentenced",
-    "s": 4.18,
-    "e": 4.72
-   },
-   {
-    "w": "a",
-    "s": 4.72,
-    "e": 4.92
-   },
-   {
-    "w": "rooster",
-    "s": 4.92,
-    "e": 5.26
-   },
-   {
-    "w": "to",
-    "s": 5.26,
-    "e": 5.48
-   },
-   {
-    "w": "be",
-    "s": 5.48,
-    "e": 5.6
-   },
-   {
-    "w": "burned...",
-    "s": 5.6,
-    "e": 6.22
-   }
-  ],
-  "heard": "In 1474, in the Swiss city of Basel, judges sentenced a rooster to be burned..."
- },
- {
-  "id": "L48",
-  "chapter": 4,
-  "text": "for the crime of laying an egg.",
-  "dur": 1.704,
-  "words": [
-   {
-    "w": "for",
-    "s": 0.0,
-    "e": 0.16
-   },
-   {
-    "w": "the",
-    "s": 0.16,
-    "e": 0.28
-   },
-   {
-    "w": "crime",
-    "s": 0.28,
-    "e": 0.6
-   },
-   {
-    "w": "of",
-    "s": 0.6,
-    "e": 0.82
-   },
-   {
-    "w": "laying",
-    "s": 0.82,
-    "e": 1.02
-   },
-   {
-    "w": "an",
-    "s": 1.02,
-    "e": 1.2
-   },
-   {
-    "w": "egg.",
-    "s": 1.2,
-    "e": 1.48
-   }
-  ],
-  "heard": "For the crime of laying an egg."
- },
- {
-  "id": "L49",
-  "chapter": 4,
-  "text": "To us, that sounds ridiculous. To the people of Basel, it was terrifying.",
-  "dur": 4.843,
-  "words": [
-   {
-    "w": "To",
-    "s": 0.0,
-    "e": 0.14
-   },
-   {
-    "w": "us,",
-    "s": 0.14,
-    "e": 0.38
-   },
-   {
-    "w": "that",
-    "s": 0.54,
-    "e": 0.66
-   },
-   {
-    "w": "sounds",
-    "s": 0.66,
-    "e": 1.06
-   },
-   {
-    "w": "ridiculous.",
-    "s": 1.06,
-    "e": 1.58
-   },
-   {
-    "w": "To",
-    "s": 2.34,
-    "e": 2.42
-   },
-   {
-    "w": "the",
-    "s": 2.42,
-    "e": 2.52
-   },
-   {
-    "w": "people",
-    "s": 2.52,
-    "e": 2.78
-   },
-   {
-    "w": "of",
-    "s": 2.78,
-    "e": 3.16
-   },
-   {
-    "w": "Basel,",
-    "s": 3.16,
-    "e": 3.5
-   },
-   {
-    "w": "it",
-    "s": 3.72,
-    "e": 3.72
-   },
-   {
-    "w": "was",
-    "s": 3.72,
-    "e": 3.88
-   },
-   {
-    "w": "terrifying.",
-    "s": 3.88,
-    "e": 4.46
-   }
-  ],
-  "heard": "To us, that sounds ridiculous. To the people of Basel, it was terrifying."
- },
- {
-  "id": "L50",
-  "chapter": 4,
-  "text": "Legend said an egg laid by a rooster could hatch a basilisk: a monster that could kill with a single look.",
-  "dur": 6.592,
-  "words": [
-   {
-    "w": "Legend",
-    "s": 0.0,
-    "e": 0.32
-   },
-   {
-    "w": "said",
-    "s": 0.32,
-    "e": 0.68
-   },
-   {
-    "w": "an",
-    "s": 0.68,
-    "e": 0.82
-   },
-   {
-    "w": "egg",
-    "s": 0.82,
-    "e": 1.12
-   },
-   {
-    "w": "laid",
-    "s": 1.12,
-    "e": 1.34
-   },
-   {
-    "w": "by",
-    "s": 1.34,
-    "e": 1.58
-   },
-   {
-    "w": "a",
-    "s": 1.58,
-    "e": 1.72
-   },
-   {
-    "w": "rooster",
-    "s": 1.72,
-    "e": 2.08
-   },
-   {
-    "w": "could",
-    "s": 2.08,
-    "e": 2.28
-   },
-   {
-    "w": "hatch",
-    "s": 2.28,
-    "e": 2.52
-   },
-   {
-    "w": "a",
-    "s": 2.52,
-    "e": 2.7
-   },
-   {
-    "w": "basilisk:",
-    "s": 2.7,
-    "e": 3.48
-   },
-   {
-    "w": "a",
-    "s": 3.48,
-    "e": 4.1
-   },
-   {
-    "w": "monster",
-    "s": 4.1,
-    "e": 4.48
-   },
-   {
-    "w": "that",
-    "s": 4.48,
-    "e": 4.8
-   },
-   {
-    "w": "could",
-    "s": 4.8,
-    "e": 4.98
-   },
-   {
-    "w": "kill",
-    "s": 4.98,
-    "e": 5.3
-   },
-   {
-    "w": "with",
-    "s": 5.3,
-    "e": 5.56
-   },
-   {
-    "w": "a",
-    "s": 5.56,
-    "e": 5.72
-   },
-   {
-    "w": "single",
-    "s": 5.72,
-    "e": 6.02
-   },
-   {
-    "w": "look.",
-    "s": 6.02,
-    "e": 6.4
-   }
-  ],
-  "heard": "Legend said an egg laid by a rooster could hatch a basilisk a monster that could kill with a single look."
- },
- {
-  "id": "L51",
-  "chapter": 4,
-  "text": "Witches were said to use these eggs in their potions.",
-  "dur": 3.053,
-  "words": [
-   {
-    "w": "Witches",
-    "s": 0.0,
-    "e": 0.36
-   },
-   {
-    "w": "were",
-    "s": 0.36,
-    "e": 0.68
-   },
-   {
-    "w": "said",
-    "s": 0.68,
-    "e": 0.9
-   },
-   {
-    "w": "to",
-    "s": 0.9,
-    "e": 1.06
-   },
-   {
-    "w": "use",
-    "s": 1.06,
-    "e": 1.38
-   },
-   {
-    "w": "these",
-    "s": 1.38,
-    "e": 1.6
-   },
-   {
-    "w": "eggs",
-    "s": 1.6,
-    "e": 1.98
-   },
-   {
-    "w": "in",
-    "s": 1.98,
-    "e": 2.22
-   },
-   {
-    "w": "their",
-    "s": 2.22,
-    "e": 2.36
-   },
-   {
-    "w": "potions.",
-    "s": 2.36,
-    "e": 2.76
-   }
-  ],
-  "heard": "Witches were said to use these eggs in their potions."
- },
- {
-  "id": "L52",
-  "chapter": 4,
-  "text": "So the rooster was burned on a hill outside the city, in front of a huge crowd.",
-  "dur": 4.905,
-  "words": [
-   {
-    "w": "So",
-    "s": 0.0,
-    "e": 0.16
-   },
-   {
-    "w": "the",
-    "s": 0.16,
-    "e": 0.3
-   },
-   {
-    "w": "rooster",
-    "s": 0.3,
-    "e": 0.64
-   },
-   {
-    "w": "was",
-    "s": 0.64,
-    "e": 0.86
-   },
-   {
-    "w": "burned",
-    "s": 0.86,
-    "e": 1.22
-   },
-   {
-    "w": "on",
-    "s": 1.22,
-    "e": 1.42
-   },
-   {
-    "w": "a",
-    "s": 1.42,
-    "e": 1.54
-   },
-   {
-    "w": "hill",
-    "s": 1.54,
-    "e": 1.8
-   },
-   {
-    "w": "outside",
-    "s": 1.8,
-    "e": 2.24
-   },
-   {
-    "w": "the",
-    "s": 2.24,
-    "e": 2.48
-   },
-   {
-    "w": "city,",
-    "s": 2.48,
-    "e": 2.76
-   },
-   {
-    "w": "in",
-    "s": 3.2,
-    "e": 3.38
-   },
-   {
-    "w": "front",
-    "s": 3.38,
-    "e": 3.56
-   },
-   {
-    "w": "of",
-    "s": 3.56,
-    "e": 3.68
-   },
-   {
-    "w": "a",
-    "s": 3.68,
-    "e": 3.78
-   },
-   {
-    "w": "huge",
-    "s": 3.78,
-    "e": 4.12
-   },
-   {
-    "w": "crowd.",
-    "s": 4.12,
-    "e": 4.6
-   }
-  ],
-  "heard": "So the rooster was burned on a hill outside the city, in front of a huge crowd."
- },
- {
-  "id": "L53",
-  "chapter": 4,
-  "text": "Today, scientists know that, very rarely, a hen's body can change, so she looks and even crows like a rooster.",
-  "dur": 7.584,
-  "words": [
-   {
-    "w": "Today,",
-    "s": 0.0,
-    "e": 0.38
-   },
-   {
-    "w": "scientists",
-    "s": 0.64,
-    "e": 1.02
-   },
-   {
-    "w": "know",
-    "s": 1.02,
-    "e": 1.36
-   },
-   {
-    "w": "that,",
-    "s": 1.36,
-    "e": 1.62
-   },
-   {
-    "w": "very",
-    "s": 1.66,
-    "e": 1.94
-   },
-   {
-    "w": "rarely,",
-    "s": 1.94,
-    "e": 2.44
-   },
-   {
-    "w": "a",
-    "s": 3.04,
-    "e": 3.1
-   },
-   {
-    "w": "hen's",
-    "s": 3.1,
-    "e": 3.44
-   },
-   {
-    "w": "body",
-    "s": 3.44,
-    "e": 3.7
-   },
-   {
-    "w": "can",
-    "s": 3.7,
-    "e": 3.98
-   },
-   {
-    "w": "change,",
-    "s": 3.98,
-    "e": 4.52
-   },
-   {
-    "w": "so",
-    "s": 4.74,
-    "e": 5.14
-   },
-   {
-    "w": "she",
-    "s": 5.14,
-    "e": 5.32
-   },
-   {
-    "w": "looks",
-    "s": 5.32,
-    "e": 5.58
-   },
-   {
-    "w": "and",
-    "s": 5.58,
-    "e": 5.82
-   },
-   {
-    "w": "even",
-    "s": 5.82,
-    "e": 6.1
-   },
-   {
-    "w": "crows",
-    "s": 6.1,
-    "e": 6.58
-   },
-   {
-    "w": "like",
-    "s": 6.58,
-    "e": 6.88
-   },
-   {
-    "w": "a",
-    "s": 6.88,
-    "e": 7.04
-   },
-   {
-    "w": "rooster.",
-    "s": 7.04,
-    "e": 7.34
-   }
-  ],
-  "heard": "Today, scientists know that, very rarely, a hen's body can change, so she looks and even crows like a rooster."
- },
- {
-  "id": "L54",
-  "chapter": 4,
-  "text": "But in 1474, nobody knew that. They only saw a monster in the making.",
-  "dur": 5.508,
-  "words": [
-   {
-    "w": "But",
-    "s": 0.0,
-    "e": 0.12
-   },
-   {
-    "w": "in",
-    "s": 0.12,
-    "e": 0.26
-   },
-   {
-    "w": "1474,",
-    "s": 0.26,
-    "e": 1.58
-   },
-   {
-    "w": "nobody",
-    "s": 1.96,
-    "e": 2.2
-   },
-   {
-    "w": "knew",
-    "s": 2.2,
-    "e": 2.5
-   },
-   {
-    "w": "that.",
-    "s": 2.5,
-    "e": 2.86
-   },
-   {
-    "w": "They",
-    "s": 3.3,
-    "e": 3.5
-   },
-   {
-    "w": "only",
-    "s": 3.5,
-    "e": 3.76
-   },
-   {
-    "w": "saw",
-    "s": 3.76,
-    "e": 4.1
-   },
-   {
-    "w": "a",
-    "s": 4.1,
-    "e": 4.3
-   },
-   {
-    "w": "monster",
-    "s": 4.3,
-    "e": 4.68
-   },
-   {
-    "w": "in",
-    "s": 4.68,
-    "e": 4.9
-   },
-   {
-    "w": "the",
-    "s": 4.9,
-    "e": 5.0
-   },
-   {
-    "w": "making.",
-    "s": 5.0,
-    "e": 5.24
-   }
-  ],
-  "heard": "But in 1474, nobody knew that. They only saw a monster in the making."
- },
- {
-  "id": "L55",
-  "chapter": 5,
-  "text": "Now for the strangest trial of all.",
-  "dur": 2.122,
-  "words": [
-   {
-    "w": "Now",
-    "s": 0.0,
-    "e": 0.24
-   },
-   {
-    "w": "for",
-    "s": 0.24,
-    "e": 0.46
-   },
-   {
-    "w": "the",
-    "s": 0.46,
-    "e": 0.58
-   },
-   {
-    "w": "strangest",
-    "s": 0.58,
-    "e": 1.18
-   },
-   {
-    "w": "trial",
-    "s": 1.18,
-    "e": 1.5
-   },
-   {
-    "w": "of",
-    "s": 1.5,
-    "e": 1.74
-   },
-   {
-    "w": "all.",
-    "s": 1.74,
-    "e": 1.98
-   }
-  ],
-  "heard": "Now for the strangest trial of all."
- },
- {
-  "id": "L56",
-  "chapter": 5,
-  "text": "High in the Alps, there's a village called Saint-Julien, famous for its wine.",
-  "dur": 5.039,
-  "words": [
-   {
-    "w": "High",
-    "s": 0.0,
-    "e": 0.32
-   },
-   {
-    "w": "in",
-    "s": 0.32,
-    "e": 0.52
-   },
-   {
-    "w": "the",
-    "s": 0.52,
-    "e": 0.64
-   },
-   {
-    "w": "Alps,",
-    "s": 0.64,
-    "e": 1.02
-   },
-   {
-    "w": "there's",
-    "s": 1.5,
-    "e": 1.66
-   },
-   {
-    "w": "a",
-    "s": 1.66,
-    "e": 1.76
-   },
-   {
-    "w": "village",
-    "s": 1.76,
-    "e": 2.04
-   },
-   {
-    "w": "called",
-    "s": 2.04,
-    "e": 2.4
-   },
-   {
-    "w": "Saint-Julien,",
-    "s": 2.4,
-    "e": 3.66
-   },
-   {
-    "w": "famous",
-    "s": 3.66,
-    "e": 3.98
-   },
-   {
-    "w": "for",
-    "s": 3.98,
-    "e": 4.3
-   },
-   {
-    "w": "its",
-    "s": 4.3,
-    "e": 4.44
-   },
-   {
-    "w": "wine.",
-    "s": 4.44,
-    "e": 4.8
-   }
-  ],
-  "heard": "High in the Alps, there's a village called Saint -Julien, famous for its wine."
- },
- {
-  "id": "L57",
-  "chapter": 5,
-  "text": "In 1545, tiny green beetles called weevils began destroying the vines.",
-  "dur": 5.973,
-  "words": [
-   {
-    "w": "In",
-    "s": 0.0,
-    "e": 0.16
-   },
-   {
-    "w": "1545,",
-    "s": 0.16,
-    "e": 1.4
-   },
-   {
-    "w": "tiny",
-    "s": 2.04,
-    "e": 2.24
-   },
-   {
-    "w": "green",
-    "s": 2.24,
-    "e": 2.64
-   },
-   {
-    "w": "beetles",
-    "s": 2.64,
-    "e": 3.18
-   },
-   {
-    "w": "called",
-    "s": 3.18,
-    "e": 3.56
-   },
-   {
-    "w": "weevils",
-    "s": 3.56,
-    "e": 4.04
-   },
-   {
-    "w": "began",
-    "s": 4.04,
-    "e": 4.44
-   },
-   {
-    "w": "destroying",
-    "s": 4.44,
-    "e": 5.06
-   },
-   {
-    "w": "the",
-    "s": 5.06,
-    "e": 5.3
-   },
-   {
-    "w": "vines.",
-    "s": 5.3,
-    "e": 5.62
-   }
-  ],
-  "heard": "In 1545, tiny green beetles called weevils began destroying the vines."
- },
- {
-  "id": "L58",
-  "chapter": 5,
-  "text": "The villagers took the weevils to the church court. And the weevils got two lawyers.",
-  "dur": 4.949,
-  "words": [
-   {
-    "w": "The",
-    "s": 0.0,
-    "e": 0.14
-   },
-   {
-    "w": "villagers",
-    "s": 0.14,
-    "e": 0.5
-   },
-   {
-    "w": "took",
-    "s": 0.5,
-    "e": 0.94
-   },
-   {
-    "w": "the",
-    "s": 0.94,
-    "e": 1.16
-   },
-   {
-    "w": "weevils",
-    "s": 1.16,
-    "e": 1.56
-   },
-   {
-    "w": "to",
-    "s": 1.56,
-    "e": 1.74
-   },
-   {
-    "w": "the",
-    "s": 1.74,
-    "e": 1.84
-   },
-   {
-    "w": "church",
-    "s": 1.84,
-    "e": 2.12
-   },
-   {
-    "w": "court.",
-    "s": 2.12,
-    "e": 2.52
-   },
-   {
-    "w": "And",
-    "s": 3.04,
-    "e": 3.1
-   },
-   {
-    "w": "the",
-    "s": 3.1,
-    "e": 3.22
-   },
-   {
-    "w": "weevils",
-    "s": 3.22,
-    "e": 3.62
-   },
-   {
-    "w": "got",
-    "s": 3.62,
-    "e": 3.88
-   },
-   {
-    "w": "two",
-    "s": 3.88,
-    "e": 4.16
-   },
-   {
-    "w": "lawyers.",
-    "s": 4.16,
-    "e": 4.62
-   }
-  ],
-  "heard": "The villagers took the weevils to the church court. And the weevils got two lawyers."
- },
- {
-  "id": "L59",
-  "chapter": 5,
-  "text": "But the judge said something surprising.",
-  "dur": 2.197,
-  "words": [
-   {
-    "w": "But",
-    "s": 0.0,
-    "e": 0.12
-   },
-   {
-    "w": "the",
-    "s": 0.12,
-    "e": 0.24
-   },
-   {
-    "w": "judge",
-    "s": 0.24,
-    "e": 0.56
-   },
-   {
-    "w": "said",
-    "s": 0.56,
-    "e": 0.86
-   },
-   {
-    "w": "something",
-    "s": 0.86,
-    "e": 1.28
-   },
-   {
-    "w": "surprising.",
-    "s": 1.28,
-    "e": 1.8
-   }
-  ],
-  "heard": "But the judge said something surprising."
- },
- {
-  "id": "L60",
-  "chapter": 5,
-  "text": "God made the plants for insects too, he said. So instead of punishing them, everyone should pray and say sorry for their sins...",
-  "dur": 7.957,
-  "words": [
-   {
-    "w": "God",
-    "s": 0.0,
-    "e": 0.36
-   },
-   {
-    "w": "made",
-    "s": 0.36,
-    "e": 0.6
-   },
-   {
-    "w": "the",
-    "s": 0.6,
-    "e": 0.76
-   },
-   {
-    "w": "plants",
-    "s": 0.76,
-    "e": 1.04
-   },
-   {
-    "w": "for",
-    "s": 1.04,
-    "e": 1.28
-   },
-   {
-    "w": "insects",
-    "s": 1.28,
-    "e": 1.68
-   },
-   {
-    "w": "too,",
-    "s": 1.68,
-    "e": 2.14
-   },
-   {
-    "w": "he",
-    "s": 2.24,
-    "e": 2.34
-   },
-   {
-    "w": "said.",
-    "s": 2.34,
-    "e": 2.64
-   },
-   {
-    "w": "So",
-    "s": 3.24,
-    "e": 3.38
-   },
-   {
-    "w": "instead",
-    "s": 3.38,
-    "e": 3.7
-   },
-   {
-    "w": "of",
-    "s": 3.7,
-    "e": 3.88
+    "e": 3.54
    },
    {
     "w": "punishing",
-    "s": 3.88,
-    "e": 4.22
+    "s": 3.54,
+    "e": 3.88
    },
    {
     "w": "them,",
-    "s": 4.22,
-    "e": 4.6
+    "s": 3.88,
+    "e": 4.2
    },
    {
     "w": "everyone",
-    "s": 5.04,
-    "e": 5.26
+    "s": 4.48,
+    "e": 4.68
    },
    {
     "w": "should",
-    "s": 5.26,
-    "e": 5.6
+    "s": 4.68,
+    "e": 4.96
    },
    {
     "w": "pray",
-    "s": 5.6,
-    "e": 5.94
+    "s": 4.96,
+    "e": 5.34
    },
    {
     "w": "and",
-    "s": 5.94,
-    "e": 6.18
+    "s": 5.34,
+    "e": 5.62
    },
    {
     "w": "say",
-    "s": 6.18,
-    "e": 6.42
+    "s": 5.62,
+    "e": 5.76
    },
    {
     "w": "sorry",
-    "s": 6.42,
-    "e": 6.8
+    "s": 5.76,
+    "e": 6.08
    },
    {
     "w": "for",
-    "s": 6.8,
-    "e": 7.1
+    "s": 6.08,
+    "e": 6.28
    },
    {
     "w": "their",
-    "s": 7.1,
-    "e": 7.24
+    "s": 6.28,
+    "e": 6.44
    },
    {
     "w": "sins...",
-    "s": 7.24,
-    "e": 7.92
+    "s": 6.44,
+    "e": 6.7
    }
   ],
-  "heard": "God made the plants for insects too, he said. So instead of punishing them, everyone should pray and say sorry for their sins..."
+  "heard": "God made the plants for insects too, he said. So instead of punishing them, everyone should pray and say sorry for their sins.",
+  "match": 1.0
  },
  {
   "id": "L61",
   "chapter": 5,
   "text": "and, above all, pay their tithes.",
-  "dur": 1.925,
+  "dur": 2.62,
   "words": [
    {
     "w": "and,",
     "s": 0.0,
-    "e": 0.2
+    "e": 0.8
    },
    {
     "w": "above",
-    "s": 0.2,
-    "e": 0.38
+    "s": 0.8,
+    "e": 1.12
    },
    {
     "w": "all,",
-    "s": 0.38,
-    "e": 0.68
+    "s": 1.12,
+    "e": 1.44
    },
    {
     "w": "pay",
-    "s": 0.84,
-    "e": 0.96
+    "s": 1.78,
+    "e": 1.84
    },
    {
     "w": "their",
-    "s": 0.96,
-    "e": 1.14
+    "s": 1.84,
+    "e": 2.0
    },
    {
     "w": "tithes.",
-    "s": 1.14,
-    "e": 1.78
+    "s": 2.0,
+    "e": 2.44
    }
   ],
-  "heard": "And, above all, pay their tithes."
+  "heard": "And above all, pay their tithes.",
+  "match": 1.0
  },
  {
   "id": "L62",
   "chapter": 5,
   "text": "The village prayed. And soon after, the weevils were gone.",
-  "dur": 3.504,
+  "dur": 3.46,
   "words": [
    {
     "w": "The",
-    "s": 0.0,
-    "e": 0.12
+    "s": 0.08,
+    "e": 0.24
    },
    {
     "w": "village",
-    "s": 0.12,
+    "s": 0.24,
     "e": 0.42
    },
    {
     "w": "prayed.",
     "s": 0.42,
-    "e": 0.84
+    "e": 0.7
    },
    {
     "w": "And",
-    "s": 1.48,
-    "e": 1.52
+    "s": 1.46,
+    "e": 1.66
    },
    {
     "w": "soon",
-    "s": 1.52,
-    "e": 1.76
+    "s": 1.66,
+    "e": 1.82
    },
    {
     "w": "after,",
-    "s": 1.76,
-    "e": 2.2
+    "s": 1.82,
+    "e": 2.14
    },
    {
     "w": "the",
-    "s": 2.32,
-    "e": 2.42
+    "s": 2.66,
+    "e": 2.66
    },
    {
     "w": "weevils",
-    "s": 2.42,
-    "e": 2.78
+    "s": 2.66,
+    "e": 2.86
    },
    {
     "w": "were",
-    "s": 2.78,
-    "e": 2.96
+    "s": 2.86,
+    "e": 3.02
    },
    {
     "w": "gone.",
-    "s": 2.96,
+    "s": 3.02,
     "e": 3.28
    }
   ],
-  "heard": "The village prayed. And soon after, the weevils were gone."
+  "heard": "The village prayed. And soon after, the weevils were gone.",
+  "match": 1.0
  },
  {
   "id": "L63",
   "chapter": 5,
   "text": "Decades later, in 1587, they came back. And the villagers went back to court.",
-  "dur": 5.683,
+  "dur": 4.62,
   "words": [
    {
     "w": "Decades",
-    "s": 0.0,
-    "e": 0.48
+    "s": 0.08,
+    "e": 0.34
    },
    {
     "w": "later,",
-    "s": 0.48,
-    "e": 0.82
+    "s": 0.34,
+    "e": 0.58
    },
    {
     "w": "in",
-    "s": 1.0,
-    "e": 1.08
+    "s": 0.8,
+    "e": 0.9
    },
    {
     "w": "1587,",
-    "s": 1.08,
-    "e": 2.16
+    "s": 0.9,
+    "e": 1.68
    },
    {
     "w": "they",
-    "s": 2.54,
-    "e": 2.66
+    "s": 2.0,
+    "e": 2.16
    },
    {
     "w": "came",
-    "s": 2.66,
-    "e": 2.9
+    "s": 2.16,
+    "e": 2.36
    },
    {
     "w": "back.",
-    "s": 2.9,
-    "e": 3.3
+    "s": 2.36,
+    "e": 2.7
    },
    {
     "w": "And",
-    "s": 3.82,
-    "e": 3.9
+    "s": 3.12,
+    "e": 3.28
    },
    {
     "w": "the",
-    "s": 3.9,
-    "e": 4.02
+    "s": 3.28,
+    "e": 3.38
    },
    {
     "w": "villagers",
-    "s": 4.02,
-    "e": 4.34
+    "s": 3.38,
+    "e": 3.62
    },
    {
     "w": "went",
-    "s": 4.34,
-    "e": 4.72
+    "s": 3.62,
+    "e": 3.86
    },
    {
     "w": "back",
-    "s": 4.72,
-    "e": 4.94
+    "s": 3.86,
+    "e": 4.06
    },
    {
     "w": "to",
-    "s": 4.94,
-    "e": 5.14
+    "s": 4.06,
+    "e": 4.22
    },
    {
     "w": "court.",
-    "s": 5.14,
-    "e": 5.42
+    "s": 4.22,
+    "e": 4.44
    }
   ],
-  "heard": "Decades later, in 1587, they came back. And the villagers went back to court."
+  "heard": "Decades later, in 1587, they came back. And the villagers went back to court.",
+  "match": 1.0
  },
  {
   "id": "L64",
   "chapter": 5,
   "text": "This time, they tried a deal.",
-  "dur": 1.65,
+  "dur": 1.58,
   "words": [
    {
     "w": "This",
-    "s": 0.0,
-    "e": 0.22
+    "s": 0.08,
+    "e": 0.3
    },
    {
     "w": "time,",
-    "s": 0.22,
-    "e": 0.54
+    "s": 0.3,
+    "e": 0.52
    },
    {
     "w": "they",
-    "s": 0.7,
-    "e": 0.76
+    "s": 0.56,
+    "e": 0.74
    },
    {
     "w": "tried",
-    "s": 0.76,
-    "e": 1.0
+    "s": 0.74,
+    "e": 0.96
    },
    {
     "w": "a",
-    "s": 1.0,
-    "e": 1.18
+    "s": 0.96,
+    "e": 1.14
    },
    {
     "w": "deal.",
-    "s": 1.18,
+    "s": 1.14,
     "e": 1.4
    }
   ],
-  "heard": "This time, they tried a deal."
+  "heard": "This time, they tried a deal.",
+  "match": 1.0
  },
  {
   "id": "L65",
   "chapter": 5,
   "text": "At a public meeting in the village square, they voted to give the weevils their very own piece of land, outside the vineyards.",
-  "dur": 7.566,
+  "dur": 5.78,
   "words": [
    {
     "w": "At",
-    "s": 0.0,
-    "e": 0.14
+    "s": 0.08,
+    "e": 0.26
    },
    {
     "w": "a",
-    "s": 0.14,
-    "e": 0.28
+    "s": 0.26,
+    "e": 0.36
    },
    {
     "w": "public",
-    "s": 0.28,
+    "s": 0.36,
     "e": 0.58
    },
    {
     "w": "meeting",
     "s": 0.58,
-    "e": 0.94
+    "e": 0.86
    },
    {
     "w": "in",
-    "s": 0.94,
-    "e": 1.16
+    "s": 0.86,
+    "e": 1.02
    },
    {
     "w": "the",
-    "s": 1.16,
-    "e": 1.28
+    "s": 1.02,
+    "e": 1.12
    },
    {
     "w": "village",
-    "s": 1.28,
-    "e": 1.54
+    "s": 1.12,
+    "e": 1.32
    },
    {
     "w": "square,",
-    "s": 1.54,
-    "e": 2.02
+    "s": 1.32,
+    "e": 1.64
    },
    {
     "w": "they",
-    "s": 2.6,
-    "e": 2.7
+    "s": 2.0,
+    "e": 2.14
    },
    {
     "w": "voted",
-    "s": 2.7,
-    "e": 2.96
+    "s": 2.14,
+    "e": 2.3
    },
    {
     "w": "to",
-    "s": 2.96,
-    "e": 3.2
+    "s": 2.3,
+    "e": 2.52
    },
    {
     "w": "give",
-    "s": 3.2,
+    "s": 2.52,
+    "e": 2.62
+   },
+   {
+    "w": "the",
+    "s": 2.62,
+    "e": 2.78
+   },
+   {
+    "w": "weevils",
+    "s": 2.78,
+    "e": 3.06
+   },
+   {
+    "w": "their",
+    "s": 3.06,
+    "e": 3.28
+   },
+   {
+    "w": "very",
+    "s": 3.28,
+    "e": 3.64
+   },
+   {
+    "w": "own",
+    "s": 3.64,
+    "e": 3.84
+   },
+   {
+    "w": "piece",
+    "s": 3.84,
+    "e": 4.06
+   },
+   {
+    "w": "of",
+    "s": 4.06,
+    "e": 4.26
+   },
+   {
+    "w": "land,",
+    "s": 4.26,
+    "e": 4.56
+   },
+   {
+    "w": "outside",
+    "s": 4.76,
+    "e": 5.04
+   },
+   {
+    "w": "the",
+    "s": 5.04,
+    "e": 5.26
+   },
+   {
+    "w": "vineyards.",
+    "s": 5.26,
+    "e": 5.6
+   }
+  ],
+  "heard": "At a public meeting in the village square, they voted to give the weevils their very own piece of land, outside the vineyards.",
+  "match": 1.0
+ },
+ {
+  "id": "L66",
+  "chapter": 5,
+  "text": "The villagers even kept the right to walk through it, as long as they didn't spoil the weevils' food.",
+  "dur": 4.12,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.08,
+    "e": 0.22
+   },
+   {
+    "w": "villagers",
+    "s": 0.22,
+    "e": 0.46
+   },
+   {
+    "w": "even",
+    "s": 0.46,
+    "e": 0.74
+   },
+   {
+    "w": "kept",
+    "s": 0.74,
+    "e": 0.92
+   },
+   {
+    "w": "the",
+    "s": 0.92,
+    "e": 1.06
+   },
+   {
+    "w": "right",
+    "s": 1.06,
+    "e": 1.16
+   },
+   {
+    "w": "to",
+    "s": 1.16,
+    "e": 1.34
+   },
+   {
+    "w": "walk",
+    "s": 1.34,
+    "e": 1.54
+   },
+   {
+    "w": "through",
+    "s": 1.54,
+    "e": 1.82
+   },
+   {
+    "w": "it,",
+    "s": 1.82,
+    "e": 2.1
+   },
+   {
+    "w": "as",
+    "s": 2.36,
+    "e": 2.52
+   },
+   {
+    "w": "long",
+    "s": 2.52,
+    "e": 2.66
+   },
+   {
+    "w": "as",
+    "s": 2.66,
+    "e": 2.78
+   },
+   {
+    "w": "they",
+    "s": 2.78,
+    "e": 2.88
+   },
+   {
+    "w": "didn't",
+    "s": 2.88,
+    "e": 3.1
+   },
+   {
+    "w": "spoil",
+    "s": 3.1,
     "e": 3.38
    },
    {
@@ -4842,1626 +5051,1502 @@
     "e": 3.58
    },
    {
-    "w": "weevils",
-    "s": 3.58,
-    "e": 4.0
-   },
-   {
-    "w": "their",
-    "s": 4.0,
-    "e": 4.26
-   },
-   {
-    "w": "very",
-    "s": 4.26,
-    "e": 4.66
-   },
-   {
-    "w": "own",
-    "s": 4.66,
-    "e": 4.92
-   },
-   {
-    "w": "piece",
-    "s": 4.92,
-    "e": 5.2
-   },
-   {
-    "w": "of",
-    "s": 5.2,
-    "e": 5.42
-   },
-   {
-    "w": "land,",
-    "s": 5.42,
-    "e": 5.82
-   },
-   {
-    "w": "outside",
-    "s": 6.26,
-    "e": 6.66
-   },
-   {
-    "w": "the",
-    "s": 6.66,
-    "e": 6.94
-   },
-   {
-    "w": "vineyards.",
-    "s": 6.94,
-    "e": 7.34
-   }
-  ],
-  "heard": "At a public meeting in the village square, they voted to give the weevils their very own piece of land, outside the vineyards."
- },
- {
-  "id": "L66",
-  "chapter": 5,
-  "text": "The villagers even kept the right to walk through it, as long as they didn't spoil the weevils' food.",
-  "dur": 5.717,
-  "words": [
-   {
-    "w": "The",
-    "s": 0.0,
-    "e": 0.12
-   },
-   {
-    "w": "villagers",
-    "s": 0.12,
-    "e": 0.56
-   },
-   {
-    "w": "even",
-    "s": 0.56,
-    "e": 1.06
-   },
-   {
-    "w": "kept",
-    "s": 1.06,
-    "e": 1.32
-   },
-   {
-    "w": "the",
-    "s": 1.32,
-    "e": 1.5
-   },
-   {
-    "w": "right",
-    "s": 1.5,
-    "e": 1.68
-   },
-   {
-    "w": "to",
-    "s": 1.68,
-    "e": 1.88
-   },
-   {
-    "w": "walk",
-    "s": 1.88,
-    "e": 2.08
-   },
-   {
-    "w": "through",
-    "s": 2.08,
-    "e": 2.36
-   },
-   {
-    "w": "it,",
-    "s": 2.36,
-    "e": 2.72
-   },
-   {
-    "w": "as",
-    "s": 2.98,
-    "e": 3.18
-   },
-   {
-    "w": "long",
-    "s": 3.18,
-    "e": 3.4
-   },
-   {
-    "w": "as",
-    "s": 3.4,
-    "e": 3.62
-   },
-   {
-    "w": "they",
-    "s": 3.62,
-    "e": 3.78
-   },
-   {
-    "w": "didn't",
-    "s": 3.78,
-    "e": 4.2
-   },
-   {
-    "w": "spoil",
-    "s": 4.2,
-    "e": 4.5
-   },
-   {
-    "w": "the",
-    "s": 4.5,
-    "e": 4.74
-   },
-   {
     "w": "weevils'",
-    "s": 4.74,
-    "e": 5.08
+    "s": 3.58,
+    "e": 3.8
    },
    {
     "w": "food.",
-    "s": 5.24,
-    "e": 5.44
+    "s": 3.92,
+    "e": 4.12
    }
   ],
-  "heard": "The villagers even kept the right to walk through it, as long as they didn't spoil the weevils' food."
+  "heard": "The villagers even kept the right to walk through it, as long as they didn't spoil the weevils' food.",
+  "match": 1.0
  },
  {
   "id": "L67",
   "chapter": 5,
   "text": "But the weevils' lawyer turned the offer down. The land, he said, was too poor for his clients.",
-  "dur": 5.845,
+  "dur": 6.16,
   "words": [
    {
     "w": "But",
     "s": 0.0,
-    "e": 0.14
+    "e": 0.6
    },
    {
     "w": "the",
-    "s": 0.14,
-    "e": 0.28
+    "s": 0.6,
+    "e": 1.08
    },
    {
     "w": "weevils'",
-    "s": 0.28,
-    "e": 0.64
+    "s": 1.08,
+    "e": 1.38
    },
    {
     "w": "lawyer",
-    "s": 0.86,
-    "e": 1.0
+    "s": 1.52,
+    "e": 1.76
    },
    {
     "w": "turned",
-    "s": 1.0,
-    "e": 1.36
+    "s": 1.76,
+    "e": 2.36
    },
    {
     "w": "the",
-    "s": 1.36,
-    "e": 1.54
+    "s": 2.36,
+    "e": 2.58
    },
    {
     "w": "offer",
-    "s": 1.54,
-    "e": 1.8
+    "s": 2.58,
+    "e": 2.86
    },
    {
     "w": "down.",
-    "s": 1.8,
-    "e": 2.28
+    "s": 2.86,
+    "e": 3.32
    },
    {
     "w": "The",
-    "s": 2.82,
-    "e": 2.94
+    "s": 3.98,
+    "e": 4.08
    },
    {
     "w": "land,",
-    "s": 2.94,
-    "e": 3.3
+    "s": 4.08,
+    "e": 4.34
    },
    {
     "w": "he",
-    "s": 3.32,
-    "e": 3.5
+    "s": 4.36,
+    "e": 4.48
    },
    {
     "w": "said,",
-    "s": 3.5,
-    "e": 3.78
+    "s": 4.48,
+    "e": 4.66
    },
    {
     "w": "was",
-    "s": 4.06,
-    "e": 4.2
+    "s": 4.8,
+    "e": 4.9
    },
    {
     "w": "too",
-    "s": 4.2,
-    "e": 4.46
+    "s": 4.9,
+    "e": 5.12
    },
    {
     "w": "poor",
-    "s": 4.46,
-    "e": 4.78
+    "s": 5.12,
+    "e": 5.4
    },
    {
     "w": "for",
-    "s": 4.78,
-    "e": 4.98
+    "s": 5.4,
+    "e": 5.58
    },
    {
     "w": "his",
-    "s": 4.98,
-    "e": 5.1
+    "s": 5.58,
+    "e": 5.68
    },
    {
     "w": "clients.",
-    "s": 5.1,
-    "e": 5.5
+    "s": 5.68,
+    "e": 5.98
    }
   ],
-  "heard": "But the weevils' lawyer turned the offer down. The land, he said, was too poor for his clients."
+  "heard": "The weevils' lawyer turned the offer down. The land, he said, was too poor for his clients.",
+  "match": 0.971
  },
  {
   "id": "L68",
   "chapter": 5,
   "text": "So the judge sent experts to inspect it.",
-  "dur": 2.468,
+  "dur": 2.24,
   "words": [
    {
     "w": "So",
-    "s": 0.0,
+    "s": 0.08,
     "e": 0.18
    },
    {
     "w": "the",
-    "s": 0.18,
-    "e": 0.32
-   },
-   {
-    "w": "judge",
-    "s": 0.32,
+    "s": 0.46,
     "e": 0.6
    },
    {
-    "w": "sent",
+    "w": "judge",
     "s": 0.6,
+    "e": 0.7
+   },
+   {
+    "w": "sent",
+    "s": 0.7,
     "e": 0.92
    },
    {
     "w": "experts",
     "s": 0.92,
-    "e": 1.42
+    "e": 1.28
    },
    {
     "w": "to",
-    "s": 1.42,
-    "e": 1.72
+    "s": 1.28,
+    "e": 1.5
    },
    {
     "w": "inspect",
-    "s": 1.72,
-    "e": 2.14
+    "s": 1.5,
+    "e": 1.8
    },
    {
     "w": "it.",
-    "s": 2.14,
-    "e": 2.38
+    "s": 1.8,
+    "e": 2.06
    }
   ],
-  "heard": "So the judge sent experts to inspect it."
+  "heard": "So, the judge sent experts to inspect it.",
+  "match": 1.0
  },
  {
   "id": "L69",
   "chapter": 5,
   "text": "And the final verdict? Nobody knows.",
-  "dur": 2.597,
+  "dur": 2.6,
   "words": [
    {
     "w": "And",
-    "s": 0.0,
-    "e": 0.14
+    "s": 0.08,
+    "e": 0.24
    },
    {
     "w": "the",
-    "s": 0.14,
-    "e": 0.26
+    "s": 0.24,
+    "e": 0.48
    },
    {
     "w": "final",
-    "s": 0.26,
-    "e": 0.62
+    "s": 0.48,
+    "e": 0.72
    },
    {
     "w": "verdict?",
-    "s": 0.62,
-    "e": 1.04
+    "s": 0.72,
+    "e": 1.02
    },
    {
     "w": "Nobody",
-    "s": 1.52,
-    "e": 1.76
+    "s": 1.92,
+    "e": 2.12
    },
    {
     "w": "knows.",
-    "s": 1.76,
-    "e": 2.2
+    "s": 2.12,
+    "e": 2.42
    }
   ],
-  "heard": "And the final verdict? Nobody knows."
+  "heard": "And the final verdict? Nobody knows.",
+  "match": 1.0
  },
  {
   "id": "L70",
   "chapter": 5,
   "text": "The last page of the court record was destroyed... by rats or insects.",
-  "dur": 4.713,
+  "dur": 4.62,
   "words": [
    {
     "w": "The",
-    "s": 0.0,
-    "e": 0.14
+    "s": 0.08,
+    "e": 0.26
    },
    {
     "w": "last",
-    "s": 0.14,
-    "e": 0.42
+    "s": 0.26,
+    "e": 0.5
    },
    {
     "w": "page",
-    "s": 0.42,
-    "e": 0.7
+    "s": 0.5,
+    "e": 0.74
    },
    {
     "w": "of",
-    "s": 0.7,
+    "s": 0.74,
     "e": 0.9
    },
    {
     "w": "the",
     "s": 0.9,
-    "e": 1.02
+    "e": 1.0
    },
    {
     "w": "court",
-    "s": 1.02,
-    "e": 1.22
+    "s": 1.0,
+    "e": 1.18
    },
    {
     "w": "record",
-    "s": 1.22,
-    "e": 1.54
+    "s": 1.18,
+    "e": 1.44
    },
    {
     "w": "was",
-    "s": 1.54,
-    "e": 1.78
+    "s": 1.44,
+    "e": 1.64
    },
    {
     "w": "destroyed...",
-    "s": 1.78,
-    "e": 3.08
+    "s": 1.64,
+    "e": 2.12
    },
    {
     "w": "by",
-    "s": 3.08,
-    "e": 3.18
+    "s": 2.92,
+    "e": 3.08
    },
    {
     "w": "rats",
-    "s": 3.18,
-    "e": 3.52
+    "s": 3.08,
+    "e": 3.34
    },
    {
     "w": "or",
-    "s": 3.52,
-    "e": 3.88
+    "s": 3.34,
+    "e": 4.12
    },
    {
     "w": "insects.",
-    "s": 3.88,
-    "e": 4.34
+    "s": 4.12,
+    "e": 4.44
    }
   ],
-  "heard": "The last page of the court record was destroyed... by rats or insects."
+  "heard": "The last page of the court record was destroyed. By rats or insects.",
+  "match": 1.0
  },
  {
   "id": "L71",
   "chapter": 6,
   "text": "So why did people do all this?",
-  "dur": 1.983,
+  "dur": 2.38,
   "words": [
    {
     "w": "So",
     "s": 0.0,
-    "e": 0.22
+    "e": 0.46
    },
    {
     "w": "why",
-    "s": 0.22,
-    "e": 0.54
-   },
-   {
-    "w": "did",
-    "s": 0.54,
-    "e": 0.76
-   },
-   {
-    "w": "people",
-    "s": 0.76,
+    "s": 0.46,
     "e": 1.0
    },
    {
-    "w": "do",
+    "w": "did",
     "s": 1.0,
-    "e": 1.3
+    "e": 1.18
+   },
+   {
+    "w": "people",
+    "s": 1.18,
+    "e": 1.4
+   },
+   {
+    "w": "do",
+    "s": 1.4,
+    "e": 1.7
    },
    {
     "w": "all",
-    "s": 1.3,
-    "e": 1.52
+    "s": 1.7,
+    "e": 1.9
    },
    {
     "w": "this?",
-    "s": 1.52,
-    "e": 1.72
+    "s": 1.9,
+    "e": 2.2
    }
   ],
-  "heard": "So why did people do all this?"
+  "heard": "So why did people do all this?",
+  "match": 1.0
  },
  {
   "id": "L72",
   "chapter": 6,
   "text": "For dangerous farm animals, one idea is simple. When something terrible happened, a trial put the world back in order. Someone, or something, was held responsible, in public, by the rules.",
-  "dur": 13.248,
+  "dur": 11.74,
   "words": [
    {
     "w": "For",
-    "s": 0.0,
-    "e": 0.2
+    "s": 0.08,
+    "e": 0.24
    },
    {
     "w": "dangerous",
-    "s": 0.2,
-    "e": 0.7
+    "s": 0.24,
+    "e": 0.72
    },
    {
     "w": "farm",
-    "s": 0.7,
-    "e": 1.22
+    "s": 0.72,
+    "e": 1.06
    },
    {
     "w": "animals,",
-    "s": 1.22,
-    "e": 1.72
+    "s": 1.06,
+    "e": 1.38
    },
    {
     "w": "one",
-    "s": 2.02,
-    "e": 2.14
+    "s": 1.74,
+    "e": 1.84
    },
    {
     "w": "idea",
-    "s": 2.14,
-    "e": 2.64
+    "s": 1.84,
+    "e": 2.16
    },
    {
     "w": "is",
-    "s": 2.64,
-    "e": 2.9
+    "s": 2.16,
+    "e": 2.4
    },
    {
     "w": "simple.",
-    "s": 2.9,
-    "e": 3.26
+    "s": 2.4,
+    "e": 2.7
    },
    {
     "w": "When",
-    "s": 3.86,
-    "e": 4.02
+    "s": 3.24,
+    "e": 3.4
    },
    {
     "w": "something",
-    "s": 4.02,
-    "e": 4.38
+    "s": 3.4,
+    "e": 3.74
    },
    {
     "w": "terrible",
-    "s": 4.38,
-    "e": 4.84
+    "s": 3.74,
+    "e": 4.2
    },
    {
     "w": "happened,",
-    "s": 4.84,
-    "e": 5.36
+    "s": 4.2,
+    "e": 4.62
    },
    {
     "w": "a",
-    "s": 5.78,
-    "e": 5.88
+    "s": 4.96,
+    "e": 5.14
    },
    {
     "w": "trial",
-    "s": 5.88,
-    "e": 6.26
+    "s": 5.14,
+    "e": 5.5
    },
    {
     "w": "put",
-    "s": 6.26,
-    "e": 6.56
+    "s": 5.5,
+    "e": 5.84
    },
    {
     "w": "the",
-    "s": 6.56,
-    "e": 6.7
+    "s": 5.84,
+    "e": 6.0
    },
    {
     "w": "world",
-    "s": 6.7,
-    "e": 6.9
+    "s": 6.0,
+    "e": 6.18
    },
    {
     "w": "back",
-    "s": 6.9,
-    "e": 7.24
+    "s": 6.18,
+    "e": 6.46
    },
    {
     "w": "in",
-    "s": 7.24,
-    "e": 7.46
+    "s": 6.46,
+    "e": 6.64
    },
    {
     "w": "order.",
-    "s": 7.46,
-    "e": 7.82
+    "s": 6.64,
+    "e": 6.9
    },
    {
     "w": "Someone,",
-    "s": 8.5,
-    "e": 8.92
+    "s": 7.4,
+    "e": 7.7
    },
    {
     "w": "or",
-    "s": 9.18,
-    "e": 9.36
+    "s": 7.9,
+    "e": 8.0
    },
    {
     "w": "something,",
-    "s": 9.36,
-    "e": 9.82
+    "s": 8.0,
+    "e": 8.32
    },
    {
     "w": "was",
-    "s": 10.22,
-    "e": 10.42
+    "s": 8.7,
+    "e": 8.8
    },
    {
     "w": "held",
-    "s": 10.42,
-    "e": 10.7
+    "s": 8.8,
+    "e": 9.02
    },
    {
     "w": "responsible,",
-    "s": 10.7,
-    "e": 11.28
+    "s": 9.02,
+    "e": 9.46
    },
    {
     "w": "in",
-    "s": 11.28,
-    "e": 11.76
+    "s": 10.04,
+    "e": 10.18
    },
    {
     "w": "public,",
-    "s": 11.76,
-    "e": 12.06
+    "s": 10.18,
+    "e": 10.5
    },
    {
     "w": "by",
-    "s": 12.16,
-    "e": 12.44
+    "s": 10.8,
+    "e": 11.14
    },
    {
     "w": "the",
-    "s": 12.44,
-    "e": 12.6
+    "s": 11.14,
+    "e": 11.26
    },
    {
     "w": "rules.",
-    "s": 12.6,
-    "e": 12.88
+    "s": 11.26,
+    "e": 11.56
    }
   ],
-  "heard": "For dangerous farm animals, one idea is simple. When something terrible happened, a trial put the world back in order. Someone, or something, was held responsible, in public, by the rules."
+  "heard": "For dangerous farm animals, one idea is simple. When something terrible happened, a trial put the world back in order. Someone, or something, was held responsible, in public, by the rules.",
+  "match": 1.0
  },
  {
   "id": "L73",
   "chapter": 6,
   "text": "For pests, the answer may be money.",
-  "dur": 2.066,
+  "dur": 2.32,
   "words": [
    {
     "w": "For",
-    "s": 0.0,
-    "e": 0.2
+    "s": 0.08,
+    "e": 0.26
    },
    {
     "w": "pests,",
-    "s": 0.2,
+    "s": 0.26,
     "e": 0.56
    },
    {
     "w": "the",
-    "s": 0.84,
-    "e": 0.86
+    "s": 1.12,
+    "e": 1.24
    },
    {
     "w": "answer",
-    "s": 0.86,
-    "e": 1.2
+    "s": 1.24,
+    "e": 1.46
    },
    {
     "w": "may",
-    "s": 1.2,
-    "e": 1.42
+    "s": 1.46,
+    "e": 1.74
    },
    {
     "w": "be",
-    "s": 1.42,
-    "e": 1.6
+    "s": 1.74,
+    "e": 1.92
    },
    {
     "w": "money.",
-    "s": 1.6,
-    "e": 1.78
+    "s": 1.92,
+    "e": 2.14
    }
   ],
-  "heard": "For pests, the answer may be money."
+  "heard": "For pests, the answer may be money.",
+  "match": 1.0
  },
  {
   "id": "L74",
   "chapter": 6,
   "text": "Remember that judge, telling people to pay their tithes?",
-  "dur": 3.477,
+  "dur": 2.44,
   "words": [
    {
     "w": "Remember",
-    "s": 0.0,
-    "e": 0.28
+    "s": 0.08,
+    "e": 0.26
    },
    {
     "w": "that",
-    "s": 0.28,
-    "e": 0.58
+    "s": 0.26,
+    "e": 0.52
    },
    {
     "w": "judge,",
-    "s": 0.58,
-    "e": 0.94
+    "s": 0.52,
+    "e": 0.74
    },
    {
     "w": "telling",
-    "s": 1.4,
-    "e": 1.66
+    "s": 1.1,
+    "e": 1.16
    },
    {
     "w": "people",
-    "s": 1.66,
-    "e": 2.02
+    "s": 1.16,
+    "e": 1.4
    },
    {
     "w": "to",
-    "s": 2.02,
-    "e": 2.24
+    "s": 1.4,
+    "e": 1.56
    },
    {
     "w": "pay",
-    "s": 2.24,
-    "e": 2.44
+    "s": 1.56,
+    "e": 1.7
    },
    {
     "w": "their",
-    "s": 2.44,
-    "e": 2.64
+    "s": 1.7,
+    "e": 1.88
    },
    {
     "w": "tithes?",
-    "s": 2.64,
-    "e": 3.3
+    "s": 1.88,
+    "e": 2.26
    }
   ],
-  "heard": "Remember that judge, telling people to pay their tithes?"
+  "heard": "Remember that judge, telling people to pay their tithes?",
+  "match": 1.0
  },
  {
   "id": "L75",
   "chapter": 6,
   "text": "A tithe was a tenth of what you grew, given to the church. And in some places, people had stopped paying.",
-  "dur": 6.572,
+  "dur": 4.92,
   "words": [
    {
     "w": "A",
-    "s": 0.0,
-    "e": 0.18
+    "s": 0.08,
+    "e": 0.28
    },
    {
     "w": "tithe",
-    "s": 0.18,
-    "e": 0.66
+    "s": 0.28,
+    "e": 0.58
    },
    {
     "w": "was",
-    "s": 0.66,
-    "e": 0.8
+    "s": 0.58,
+    "e": 0.72
    },
    {
     "w": "a",
-    "s": 0.8,
-    "e": 0.98
+    "s": 0.72,
+    "e": 0.9
    },
    {
     "w": "tenth",
-    "s": 0.98,
-    "e": 1.18
+    "s": 0.9,
+    "e": 1.06
    },
    {
     "w": "of",
-    "s": 1.18,
-    "e": 1.4
+    "s": 1.06,
+    "e": 1.22
    },
    {
     "w": "what",
-    "s": 1.4,
-    "e": 1.56
+    "s": 1.22,
+    "e": 1.34
    },
    {
     "w": "you",
-    "s": 1.56,
-    "e": 1.76
+    "s": 1.34,
+    "e": 1.5
    },
    {
     "w": "grew,",
-    "s": 1.76,
-    "e": 2.12
+    "s": 1.5,
+    "e": 1.74
    },
    {
     "w": "given",
-    "s": 2.46,
-    "e": 2.66
+    "s": 1.98,
+    "e": 2.14
    },
    {
     "w": "to",
-    "s": 2.66,
-    "e": 2.92
+    "s": 2.14,
+    "e": 2.36
    },
    {
     "w": "the",
-    "s": 2.92,
-    "e": 3.06
+    "s": 2.36,
+    "e": 2.48
    },
    {
     "w": "church.",
-    "s": 3.06,
-    "e": 3.38
+    "s": 2.48,
+    "e": 2.68
    },
    {
     "w": "And",
-    "s": 4.08,
-    "e": 4.14
+    "s": 3.06,
+    "e": 3.18
    },
    {
     "w": "in",
-    "s": 4.14,
-    "e": 4.24
+    "s": 3.18,
+    "e": 3.26
    },
    {
     "w": "some",
-    "s": 4.24,
-    "e": 4.54
+    "s": 3.26,
+    "e": 3.48
    },
    {
     "w": "places,",
-    "s": 4.54,
-    "e": 4.98
+    "s": 3.48,
+    "e": 3.8
    },
    {
     "w": "people",
-    "s": 5.16,
-    "e": 5.38
+    "s": 3.98,
+    "e": 4.14
    },
    {
     "w": "had",
-    "s": 5.38,
-    "e": 5.6
+    "s": 4.14,
+    "e": 4.36
    },
    {
     "w": "stopped",
-    "s": 5.6,
-    "e": 5.9
+    "s": 4.36,
+    "e": 4.6
    },
    {
     "w": "paying.",
-    "s": 5.9,
-    "e": 6.3
+    "s": 4.6,
+    "e": 4.92
    }
   ],
-  "heard": "A tithe was a tenth of what you grew, given to the church. And in some places, people had stopped paying."
+  "heard": "A tithe was a tenth of what you grew, given to the church. And in some places, people had stopped paying.",
+  "match": 1.0
  },
  {
   "id": "L76",
   "chapter": 6,
   "text": "In 2013, the economist Peter Leeson argued that pest trials helped the church win those tithes back.",
-  "dur": 7.147,
+  "dur": 6.52,
   "words": [
    {
     "w": "In",
     "s": 0.0,
-    "e": 0.14
+    "e": 0.82
    },
    {
     "w": "2013,",
-    "s": 0.14,
-    "e": 0.8
+    "s": 0.82,
+    "e": 1.36
    },
    {
     "w": "the",
-    "s": 1.46,
-    "e": 1.54
+    "s": 1.82,
+    "e": 1.96
    },
    {
     "w": "economist",
-    "s": 1.54,
-    "e": 2.08
+    "s": 1.96,
+    "e": 2.32
    },
    {
     "w": "Peter",
-    "s": 2.08,
-    "e": 2.5
+    "s": 2.32,
+    "e": 2.76
    },
    {
     "w": "Leeson",
-    "s": 2.5,
-    "e": 2.98
+    "s": 2.76,
+    "e": 3.1
    },
    {
     "w": "argued",
-    "s": 2.98,
-    "e": 3.54
+    "s": 3.1,
+    "e": 3.5
    },
    {
     "w": "that",
-    "s": 3.54,
-    "e": 3.88
+    "s": 3.5,
+    "e": 3.74
    },
    {
     "w": "pest",
-    "s": 3.88,
-    "e": 4.14
+    "s": 3.74,
+    "e": 3.94
    },
    {
     "w": "trials",
-    "s": 4.14,
-    "e": 4.66
+    "s": 3.94,
+    "e": 4.24
    },
    {
     "w": "helped",
-    "s": 4.66,
-    "e": 5.16
+    "s": 4.24,
+    "e": 4.64
    },
    {
     "w": "the",
-    "s": 5.16,
-    "e": 5.34
+    "s": 4.64,
+    "e": 4.84
    },
    {
     "w": "church",
-    "s": 5.34,
-    "e": 5.58
+    "s": 4.84,
+    "e": 5.12
    },
    {
     "w": "win",
-    "s": 5.58,
-    "e": 5.88
+    "s": 5.12,
+    "e": 5.4
    },
    {
     "w": "those",
-    "s": 5.88,
-    "e": 6.16
+    "s": 5.4,
+    "e": 5.66
    },
    {
     "w": "tithes",
-    "s": 6.16,
-    "e": 6.66
+    "s": 5.66,
+    "e": 6.02
    },
    {
     "w": "back.",
-    "s": 6.66,
-    "e": 6.94
+    "s": 6.02,
+    "e": 6.34
    }
   ],
-  "heard": "In 2013, the economist Peter Leeson argued that pest trials helped the church win those tithes back."
+  "heard": "In 2013, the economist Peter Leeson argued that pest trials helped the church win those tithes back.",
+  "match": 1.0
  },
  {
   "id": "L77",
   "chapter": 6,
   "text": "Here's the trick. Pests come and go on their own.",
-  "dur": 2.755,
+  "dur": 2.54,
   "words": [
    {
     "w": "Here's",
-    "s": 0.0,
-    "e": 0.34
+    "s": 0.08,
+    "e": 0.24
    },
    {
     "w": "the",
-    "s": 0.34,
-    "e": 0.46
+    "s": 0.24,
+    "e": 0.36
    },
    {
     "w": "trick.",
-    "s": 0.46,
-    "e": 0.76
+    "s": 0.36,
+    "e": 0.56
    },
    {
     "w": "Pests",
-    "s": 1.24,
-    "e": 1.36
+    "s": 1.18,
+    "e": 1.34
    },
    {
     "w": "come",
-    "s": 1.36,
-    "e": 1.64
+    "s": 1.34,
+    "e": 1.66
    },
    {
     "w": "and",
-    "s": 1.64,
-    "e": 1.8
+    "s": 1.66,
+    "e": 1.78
    },
    {
     "w": "go",
-    "s": 1.8,
-    "e": 1.94
+    "s": 1.78,
+    "e": 1.9
    },
    {
     "w": "on",
-    "s": 1.94,
-    "e": 2.08
+    "s": 1.9,
+    "e": 2.04
    },
    {
     "w": "their",
-    "s": 2.08,
-    "e": 2.22
+    "s": 2.04,
+    "e": 2.16
    },
    {
     "w": "own.",
-    "s": 2.22,
-    "e": 2.52
+    "s": 2.16,
+    "e": 2.36
    }
   ],
-  "heard": "Here's the trick. Pests come and go on their own."
+  "heard": "Here's the trick. Pests come and go on their own.",
+  "match": 1.0
  },
  {
   "id": "L78",
   "chapter": 6,
   "text": "If the church cursed the pests and they left, the curse looked real.",
-  "dur": 3.964,
+  "dur": 3.24,
   "words": [
    {
     "w": "If",
-    "s": 0.0,
-    "e": 0.16
+    "s": 0.08,
+    "e": 0.22
    },
    {
     "w": "the",
-    "s": 0.16,
-    "e": 0.3
+    "s": 0.22,
+    "e": 0.34
    },
    {
     "w": "church",
-    "s": 0.3,
-    "e": 0.54
+    "s": 0.34,
+    "e": 0.52
    },
    {
     "w": "cursed",
-    "s": 0.54,
-    "e": 0.9
+    "s": 0.52,
+    "e": 0.86
    },
    {
     "w": "the",
-    "s": 0.9,
-    "e": 1.1
+    "s": 0.86,
+    "e": 1.06
    },
    {
     "w": "pests",
-    "s": 1.1,
-    "e": 1.4
+    "s": 1.06,
+    "e": 1.3
    },
    {
     "w": "and",
-    "s": 1.4,
-    "e": 1.64
+    "s": 1.3,
+    "e": 1.48
    },
    {
     "w": "they",
-    "s": 1.64,
-    "e": 1.8
+    "s": 1.48,
+    "e": 1.58
    },
    {
     "w": "left,",
-    "s": 1.8,
-    "e": 2.12
+    "s": 1.58,
+    "e": 1.8
    },
    {
     "w": "the",
-    "s": 2.62,
-    "e": 2.68
+    "s": 2.32,
+    "e": 2.42
    },
    {
     "w": "curse",
-    "s": 2.68,
-    "e": 2.98
+    "s": 2.42,
+    "e": 2.62
    },
    {
     "w": "looked",
-    "s": 2.98,
-    "e": 3.28
+    "s": 2.62,
+    "e": 2.82
    },
    {
     "w": "real.",
-    "s": 3.28,
-    "e": 3.64
+    "s": 2.82,
+    "e": 3.06
    }
   ],
-  "heard": "If the church cursed the pests and they left, the curse looked real."
+  "heard": "If the church cursed the pests and they left, the curse looked real.",
+  "match": 1.0
  },
  {
   "id": "L79",
   "chapter": 6,
   "text": "If they stayed, people must be sinning. Like, say, not paying their tithes.",
-  "dur": 4.733,
+  "dur": 4.42,
   "words": [
    {
     "w": "If",
-    "s": 0.0,
-    "e": 0.16
+    "s": 0.08,
+    "e": 0.24
    },
    {
     "w": "they",
-    "s": 0.16,
-    "e": 0.34
+    "s": 0.24,
+    "e": 0.36
    },
    {
     "w": "stayed,",
-    "s": 0.34,
-    "e": 0.72
+    "s": 0.36,
+    "e": 0.68
    },
    {
     "w": "people",
-    "s": 0.92,
-    "e": 1.08
-   },
-   {
-    "w": "must",
-    "s": 1.08,
+    "s": 1.18,
     "e": 1.36
    },
    {
-    "w": "be",
+    "w": "must",
     "s": 1.36,
-    "e": 1.54
+    "e": 1.58
+   },
+   {
+    "w": "be",
+    "s": 1.58,
+    "e": 1.74
    },
    {
     "w": "sinning.",
-    "s": 1.54,
-    "e": 2.18
+    "s": 1.74,
+    "e": 2.32
    },
    {
     "w": "Like,",
-    "s": 2.5,
-    "e": 2.62
+    "s": 2.52,
+    "e": 2.72
    },
    {
     "w": "say,",
-    "s": 2.62,
-    "e": 2.9
+    "s": 2.74,
+    "e": 3.04
    },
    {
     "w": "not",
-    "s": 3.16,
-    "e": 3.34
+    "s": 3.38,
+    "e": 3.44
    },
    {
     "w": "paying",
-    "s": 3.34,
+    "s": 3.44,
     "e": 3.68
    },
    {
     "w": "their",
     "s": 3.68,
-    "e": 3.96
+    "e": 3.84
    },
    {
     "w": "tithes.",
-    "s": 3.96,
-    "e": 4.58
+    "s": 3.84,
+    "e": 4.24
    }
   ],
-  "heard": "If they stayed, people must be sinning. Like, say, not paying their tithes."
+  "heard": "If they stayed, people must be sinning. Like, say, not paying their tithes.",
+  "match": 1.0
  },
  {
   "id": "L80",
   "chapter": 6,
   "text": "Either way, the church's power looked stronger, and more people paid.",
-  "dur": 4.036,
+  "dur": 3.52,
   "words": [
    {
     "w": "Either",
-    "s": 0.0,
-    "e": 0.22
+    "s": 0.08,
+    "e": 0.2
    },
    {
     "w": "way,",
-    "s": 0.22,
-    "e": 0.54
+    "s": 0.2,
+    "e": 0.5
    },
    {
     "w": "the",
-    "s": 0.76,
-    "e": 0.76
+    "s": 0.8,
+    "e": 0.9
    },
    {
     "w": "church's",
-    "s": 0.76,
-    "e": 1.18
+    "s": 0.9,
+    "e": 1.24
    },
    {
     "w": "power",
-    "s": 1.18,
-    "e": 1.48
+    "s": 1.24,
+    "e": 1.46
    },
    {
     "w": "looked",
-    "s": 1.48,
-    "e": 1.74
+    "s": 1.46,
+    "e": 1.72
    },
    {
     "w": "stronger,",
-    "s": 1.74,
-    "e": 2.26
+    "s": 1.72,
+    "e": 2.12
    },
    {
     "w": "and",
-    "s": 2.66,
-    "e": 2.84
+    "s": 2.52,
+    "e": 2.72
    },
    {
     "w": "more",
-    "s": 2.84,
-    "e": 3.02
+    "s": 2.72,
+    "e": 2.86
    },
    {
     "w": "people",
-    "s": 3.02,
-    "e": 3.36
+    "s": 2.86,
+    "e": 3.08
    },
    {
     "w": "paid.",
-    "s": 3.36,
-    "e": 3.74
+    "s": 3.08,
+    "e": 3.34
    }
   ],
-  "heard": "Either way, the church's power looked stronger, and more people paid."
+  "heard": "Either way, the church's power looked stronger, and more people paid.",
+  "match": 1.0
  },
  {
   "id": "L81",
   "chapter": 6,
   "text": "So the trials weren't really about the animals at all. They were about what people believed.",
-  "dur": 5.399,
+  "dur": 4.22,
   "words": [
    {
     "w": "So",
-    "s": 0.0,
-    "e": 0.18
+    "s": 0.08,
+    "e": 0.3
    },
    {
     "w": "the",
-    "s": 0.18,
-    "e": 0.32
+    "s": 0.3,
+    "e": 0.44
    },
    {
     "w": "trials",
-    "s": 0.32,
+    "s": 0.44,
     "e": 0.76
    },
    {
     "w": "weren't",
     "s": 0.76,
-    "e": 1.2
+    "e": 1.02
    },
    {
     "w": "really",
-    "s": 1.2,
-    "e": 1.5
+    "s": 1.02,
+    "e": 1.26
    },
    {
     "w": "about",
-    "s": 1.5,
-    "e": 1.82
+    "s": 1.26,
+    "e": 1.44
    },
    {
     "w": "the",
-    "s": 1.82,
-    "e": 2.02
+    "s": 1.44,
+    "e": 1.58
    },
    {
     "w": "animals",
-    "s": 2.02,
-    "e": 2.42
+    "s": 1.58,
+    "e": 1.86
    },
    {
     "w": "at",
-    "s": 2.42,
-    "e": 2.64
+    "s": 1.86,
+    "e": 2.02
    },
    {
     "w": "all.",
-    "s": 2.64,
-    "e": 2.96
+    "s": 2.02,
+    "e": 2.24
    },
    {
     "w": "They",
-    "s": 3.52,
-    "e": 3.6
+    "s": 2.7,
+    "e": 2.8
    },
    {
     "w": "were",
-    "s": 3.6,
-    "e": 3.72
+    "s": 2.8,
+    "e": 2.92
    },
    {
     "w": "about",
-    "s": 3.72,
-    "e": 3.98
+    "s": 2.92,
+    "e": 3.14
    },
    {
     "w": "what",
-    "s": 3.98,
-    "e": 4.24
+    "s": 3.14,
+    "e": 3.34
    },
    {
     "w": "people",
-    "s": 4.24,
-    "e": 4.58
+    "s": 3.34,
+    "e": 3.62
    },
    {
     "w": "believed.",
-    "s": 4.58,
-    "e": 5.04
+    "s": 3.62,
+    "e": 4.04
    }
   ],
-  "heard": "So the trials weren't really about the animals at all. They were about what people believed."
+  "heard": "So the trials weren't really about the animals at all. They were about what people believed.",
+  "match": 1.0
  },
  {
   "id": "L82",
   "chapter": 7,
   "text": "Animal trials slowly faded as new ideas about science and the law spread across Europe.",
-  "dur": 6.234,
+  "dur": 5.4,
   "words": [
    {
     "w": "Animal",
     "s": 0.0,
-    "e": 0.38
+    "e": 0.58
    },
    {
     "w": "trials",
-    "s": 0.38,
-    "e": 0.9
+    "s": 0.58,
+    "e": 0.98
    },
    {
     "w": "slowly",
-    "s": 0.9,
-    "e": 1.32
+    "s": 0.98,
+    "e": 1.5
    },
    {
     "w": "faded",
-    "s": 1.32,
-    "e": 1.88
+    "s": 1.5,
+    "e": 1.94
    },
    {
     "w": "as",
-    "s": 1.88,
-    "e": 2.24
+    "s": 1.94,
+    "e": 2.3
    },
    {
     "w": "new",
-    "s": 2.24,
-    "e": 2.52
+    "s": 2.3,
+    "e": 2.64
    },
    {
     "w": "ideas",
-    "s": 2.52,
-    "e": 3.06
+    "s": 2.64,
+    "e": 3.02
    },
    {
     "w": "about",
-    "s": 3.06,
-    "e": 3.44
+    "s": 3.02,
+    "e": 3.28
    },
    {
     "w": "science",
-    "s": 3.44,
-    "e": 3.96
+    "s": 3.28,
+    "e": 3.7
    },
    {
     "w": "and",
-    "s": 3.96,
-    "e": 4.6
+    "s": 3.7,
+    "e": 3.92
    },
    {
     "w": "the",
-    "s": 4.6,
-    "e": 4.72
+    "s": 3.92,
+    "e": 4.04
    },
    {
     "w": "law",
-    "s": 4.72,
-    "e": 5.0
+    "s": 4.04,
+    "e": 4.28
    },
    {
     "w": "spread",
-    "s": 5.0,
-    "e": 5.34
+    "s": 4.28,
+    "e": 4.58
    },
    {
     "w": "across",
-    "s": 5.34,
-    "e": 5.72
+    "s": 4.58,
+    "e": 4.92
    },
    {
     "w": "Europe.",
-    "s": 5.72,
-    "e": 6.04
+    "s": 4.92,
+    "e": 5.22
    }
   ],
-  "heard": "Animal trials slowly faded as new ideas about science and the law spread across Europe."
+  "heard": "Animal trials slowly faded as new ideas about science and the law spread across Europe.",
+  "match": 1.0
  },
  {
   "id": "L83",
   "chapter": 7,
   "text": "But they lasted longer than you might think. Some were still being held in the 1700s.",
-  "dur": 5.653,
+  "dur": 5.17,
   "words": [
    {
     "w": "But",
-    "s": 0.0,
-    "e": 0.12
+    "s": 0.08,
+    "e": 0.22
    },
    {
     "w": "they",
-    "s": 0.12,
-    "e": 0.26
+    "s": 0.22,
+    "e": 0.36
    },
    {
     "w": "lasted",
-    "s": 0.26,
-    "e": 0.7
+    "s": 0.36,
+    "e": 0.68
    },
    {
     "w": "longer",
-    "s": 0.7,
-    "e": 1.18
+    "s": 0.68,
+    "e": 1.1
    },
    {
     "w": "than",
-    "s": 1.18,
-    "e": 1.54
+    "s": 1.1,
+    "e": 1.32
    },
    {
     "w": "you",
-    "s": 1.54,
-    "e": 1.68
+    "s": 1.32,
+    "e": 1.42
    },
    {
     "w": "might",
-    "s": 1.68,
-    "e": 1.86
+    "s": 1.42,
+    "e": 1.54
    },
    {
     "w": "think.",
-    "s": 1.86,
-    "e": 2.26
+    "s": 1.54,
+    "e": 1.86
    },
    {
     "w": "Some",
-    "s": 2.86,
-    "e": 3.08
+    "s": 2.28,
+    "e": 2.48
    },
    {
     "w": "were",
-    "s": 3.08,
-    "e": 3.24
+    "s": 2.48,
+    "e": 2.66
    },
    {
     "w": "still",
-    "s": 3.24,
-    "e": 3.46
+    "s": 2.66,
+    "e": 2.92
    },
    {
     "w": "being",
-    "s": 3.46,
-    "e": 3.72
+    "s": 2.92,
+    "e": 3.14
    },
    {
     "w": "held",
-    "s": 3.72,
-    "e": 4.06
+    "s": 3.14,
+    "e": 3.4
    },
    {
     "w": "in",
-    "s": 4.06,
-    "e": 4.32
+    "s": 3.4,
+    "e": 3.62
    },
    {
     "w": "the",
-    "s": 4.32,
-    "e": 4.48
+    "s": 3.62,
+    "e": 3.74
    },
    {
     "w": "1700s.",
-    "s": 4.48,
-    "e": 5.54
+    "s": 3.74,
+    "e": 5.1
    }
   ],
-  "heard": "But they lasted longer than you might think. Some were still being held in the 1700s."
+  "heard": "But they lasted longer than you might think. Some were still being held in the 1700s.",
+  "match": 1.0
  },
  {
   "id": "L84",
   "chapter": 7,
   "text": "So next time your dog eats your homework... be glad it doesn't need a lawyer.",
-  "dur": 4.485,
+  "dur": 4.55,
   "words": [
    {
     "w": "So",
-    "s": 0.0,
-    "e": 0.2
+    "s": 0.07,
+    "e": 0.35
    },
    {
     "w": "next",
-    "s": 0.2,
-    "e": 0.4
+    "s": 0.35,
+    "e": 1.01
    },
    {
     "w": "time",
-    "s": 0.4,
-    "e": 0.74
+    "s": 1.01,
+    "e": 1.21
    },
    {
     "w": "your",
-    "s": 0.74,
-    "e": 0.94
+    "s": 1.21,
+    "e": 1.35
    },
    {
     "w": "dog",
-    "s": 0.94,
-    "e": 1.28
+    "s": 1.35,
+    "e": 1.59
    },
    {
     "w": "eats",
-    "s": 1.28,
-    "e": 1.56
+    "s": 1.59,
+    "e": 1.77
    },
    {
     "w": "your",
-    "s": 1.56,
-    "e": 1.74
+    "s": 1.77,
+    "e": 1.93
    },
    {
     "w": "homework...",
-    "s": 1.74,
-    "e": 2.82
+    "s": 1.93,
+    "e": 2.93
    },
    {
     "w": "be",
-    "s": 2.82,
-    "e": 2.84
+    "s": 2.93,
+    "e": 3.01
    },
    {
     "w": "glad",
-    "s": 2.84,
-    "e": 3.16
+    "s": 3.01,
+    "e": 3.35
    },
    {
     "w": "it",
-    "s": 3.16,
-    "e": 3.36
+    "s": 3.35,
+    "e": 3.57
    },
    {
     "w": "doesn't",
-    "s": 3.36,
-    "e": 3.62
+    "s": 3.57,
+    "e": 3.83
    },
    {
     "w": "need",
-    "s": 3.62,
-    "e": 3.8
+    "s": 3.83,
+    "e": 4.01
    },
    {
     "w": "a",
-    "s": 3.8,
-    "e": 3.94
+    "s": 4.01,
+    "e": 4.11
    },
    {
     "w": "lawyer.",
-    "s": 3.94,
-    "e": 4.22
+    "s": 4.11,
+    "e": 4.37
    }
   ],
-  "heard": "So next time your dog eats your homework... be glad it doesn't need a lawyer."
+  "heard": "So next time your dog eats your homework... be glad it doesn't need a lawyer.",
+  "match": 1.0
  },
  {
   "id": "L85",
   "chapter": 7,
   "text": "I'm Wy. Stay curious, and I'll see you in the next true why.",
-  "dur": 3.787,
+  "dur": 3.56,
   "words": [
    {
     "w": "I'm",
-    "s": 0.0,
-    "e": 0.26
+    "s": 0.08,
+    "e": 0.28
    },
    {
     "w": "Wy.",
-    "s": 0.26,
-    "e": 0.48
+    "s": 0.28,
+    "e": 0.46
    },
    {
     "w": "Stay",
-    "s": 0.84,
-    "e": 1.0
+    "s": 0.82,
+    "e": 1.04
    },
    {
     "w": "curious,",
-    "s": 1.0,
-    "e": 1.48
+    "s": 1.04,
+    "e": 1.4
    },
    {
     "w": "and",
-    "s": 1.88,
-    "e": 1.96
+    "s": 1.74,
+    "e": 1.86
    },
    {
     "w": "I'll",
-    "s": 1.96,
-    "e": 2.18
+    "s": 1.86,
+    "e": 1.98
    },
    {
     "w": "see",
-    "s": 2.18,
-    "e": 2.4
+    "s": 1.98,
+    "e": 2.14
    },
    {
     "w": "you",
-    "s": 2.4,
-    "e": 2.56
+    "s": 2.14,
+    "e": 2.3
    },
    {
     "w": "in",
-    "s": 2.56,
-    "e": 2.66
+    "s": 2.3,
+    "e": 2.4
    },
    {
     "w": "the",
-    "s": 2.66,
-    "e": 2.74
+    "s": 2.4,
+    "e": 2.52
    },
    {
     "w": "next",
-    "s": 2.74,
-    "e": 2.98
+    "s": 2.52,
+    "e": 2.82
    },
    {
     "w": "true",
-    "s": 2.98,
-    "e": 3.22
+    "s": 2.82,
+    "e": 3.12
    },
    {
     "w": "why.",
-    "s": 3.22,
-    "e": 3.56
+    "s": 3.12,
+    "e": 3.38
    }
   ],
-  "heard": "I'm Wy. Stay curious, and I'll see you in the next true why."
+  "heard": "I'm Wy. Stay curious, and I'll see you in the next true why.",
+  "match": 1.0
  }
 ]

@@ -8,7 +8,7 @@
  "episode": "B-001",
  "short": "C1",
  "title": "The Pig of Falaise: A Real Medieval Trial",
- "duration": 46.421,
+ "duration": 37.99,
  "vertical": true,
  "shots": [
   {
@@ -73,7 +73,7 @@
    ],
    "id": "C1_H",
    "start": 0.0,
-   "dur": 5.03,
+   "dur": 3.47,
    "chapter": 1,
    "line_start": 0.15,
    "music": "mystery"
@@ -159,10 +159,10 @@
     ]
    ],
    "id": "C1_S017",
-   "start": 5.03,
-   "dur": 5.035,
+   "start": 3.47,
+   "dur": 4.6,
    "chapter": 1,
-   "line_start": 5.03,
+   "line_start": 3.47,
    "src": "S017",
    "music": "mystery"
   },
@@ -220,10 +220,10 @@
     0.48
    ],
    "id": "C1_S018",
-   "start": 10.065,
-   "dur": 3.003,
+   "start": 8.07,
+   "dur": 2.486,
    "chapter": 1,
-   "line_start": 10.065,
+   "line_start": 8.07,
    "src": "S018"
   },
   {
@@ -304,10 +304,10 @@
     ]
    ],
    "id": "C1_S019",
-   "start": 13.068,
-   "dur": 3.253,
+   "start": 10.556,
+   "dur": 2.694,
    "chapter": 1,
-   "line_start": 10.065,
+   "line_start": 8.07,
    "src": "S019"
   },
   {
@@ -401,10 +401,10 @@
     ]
    ],
    "id": "C1_S020",
-   "start": 16.321,
-   "dur": 6.08,
+   "start": 13.25,
+   "dur": 4.82,
    "chapter": 1,
-   "line_start": 16.321,
+   "line_start": 13.25,
    "src": "S020"
   },
   {
@@ -479,10 +479,10 @@
     ]
    ],
    "id": "C1_S021",
-   "start": 22.401,
-   "dur": 3.256,
+   "start": 18.07,
+   "dur": 2.84,
    "chapter": 1,
-   "line_start": 22.401,
+   "line_start": 18.07,
    "src": "S021"
   },
   {
@@ -615,10 +615,10 @@
     ]
    ],
    "id": "C1_S023",
-   "start": 25.657,
-   "dur": 6.781,
+   "start": 20.91,
+   "dur": 5.48,
    "chapter": 1,
-   "line_start": 25.657,
+   "line_start": 20.91,
    "src": "S023"
   },
   {
@@ -679,10 +679,10 @@
     ]
    ],
    "id": "C1_S029",
-   "start": 32.438,
-   "dur": 4.33,
+   "start": 26.39,
+   "dur": 4.16,
    "chapter": 1,
-   "line_start": 32.438,
+   "line_start": 26.39,
    "src": "S029"
   },
   {
@@ -771,18 +771,18 @@
     ]
    ],
    "id": "C1_S030",
-   "start": 36.768,
-   "dur": 7.053,
+   "start": 30.55,
+   "dur": 4.84,
    "chapter": 1,
-   "line_start": 36.768,
+   "line_start": 30.55,
    "src": "S030"
   },
   {
    "id": "C1_END",
    "kind": "end",
    "line": "O1",
-   "start": 43.821,
-   "line_start": 43.971,
+   "start": 35.39,
+   "line_start": 35.54,
    "dur": 2.6,
    "chapter": null,
    "sfx": [

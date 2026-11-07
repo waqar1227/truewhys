@@ -8,7 +8,7 @@
  "episode": "B-001",
  "short": "C5",
  "title": "The Weevils Who Were Offered Their Own Land",
- "duration": 62.987,
+ "duration": 55.92,
  "vertical": true,
  "shots": [
   {
@@ -87,7 +87,7 @@
    ],
    "id": "C5_H",
    "start": 0.0,
-   "dur": 6.225,
+   "dur": 4.15,
    "chapter": 5,
    "line_start": 0.15,
    "music": "mystery"
@@ -162,10 +162,10 @@
     ]
    ],
    "id": "C5_S070",
-   "start": 6.225,
-   "dur": 6.293,
+   "start": 4.15,
+   "dur": 5.16,
    "chapter": 5,
-   "line_start": 6.225,
+   "line_start": 4.15,
    "src": "S070",
    "music": "mystery"
   },
@@ -265,10 +265,10 @@
     ]
    ],
    "id": "C5_S071",
-   "start": 12.518,
-   "dur": 5.269,
+   "start": 9.31,
+   "dur": 4.64,
    "chapter": 5,
-   "line_start": 12.518,
+   "line_start": 9.31,
    "src": "S071"
   },
   {
@@ -320,10 +320,10 @@
     ]
    ],
    "id": "C5_S073",
-   "start": 17.787,
-   "dur": 8.527,
+   "start": 13.95,
+   "dur": 7.27,
    "chapter": 5,
-   "line_start": 17.787,
+   "line_start": 13.95,
    "src": "S073"
   },
   {
@@ -407,10 +407,10 @@
     ]
    ],
    "id": "C5_S074",
-   "start": 26.314,
-   "dur": 2.245,
+   "start": 21.22,
+   "dur": 2.94,
    "chapter": 5,
-   "line_start": 26.314,
+   "line_start": 21.22,
    "src": "S074"
   },
   {
@@ -506,10 +506,10 @@
     ]
    ],
    "id": "C5_S075",
-   "start": 28.559,
-   "dur": 3.824,
+   "start": 24.16,
+   "dur": 3.78,
    "chapter": 5,
-   "line_start": 28.559,
+   "line_start": 24.16,
    "src": "S075"
   },
   {
@@ -624,10 +624,10 @@
     ]
    ],
    "id": "C5_S076",
-   "start": 32.383,
-   "dur": 6.003,
+   "start": 27.94,
+   "dur": 4.94,
    "chapter": 5,
-   "line_start": 32.383,
+   "line_start": 27.94,
    "src": "S076"
   },
   {
@@ -765,10 +765,10 @@
     ]
    ],
    "id": "C5_S078",
-   "start": 38.386,
-   "dur": 7.886,
+   "start": 32.88,
+   "dur": 6.1,
    "chapter": 5,
-   "line_start": 38.386,
+   "line_start": 32.88,
    "src": "S078"
   },
   {
@@ -847,10 +847,10 @@
     ]
    ],
    "id": "C5_S080",
-   "start": 46.272,
-   "dur": 6.165,
+   "start": 38.98,
+   "dur": 6.48,
    "chapter": 5,
-   "line_start": 46.272,
+   "line_start": 38.98,
    "src": "S080"
   },
   {
@@ -920,10 +920,10 @@
     ]
    ],
    "id": "C5_S082",
-   "start": 52.437,
-   "dur": 2.917,
+   "start": 45.46,
+   "dur": 2.92,
    "chapter": 5,
-   "line_start": 52.437,
+   "line_start": 45.46,
    "src": "S082"
   },
   {
@@ -948,18 +948,18 @@
     ]
    ],
    "id": "C5_S083",
-   "start": 55.354,
-   "dur": 5.033,
+   "start": 48.38,
+   "dur": 4.94,
    "chapter": 5,
-   "line_start": 55.354,
+   "line_start": 48.38,
    "src": "S083"
   },
   {
    "id": "C5_END",
    "kind": "end",
    "line": "O1",
-   "start": 60.387,
-   "line_start": 60.537,
+   "start": 53.32,
+   "line_start": 53.47,
    "dur": 2.6,
    "chapter": null,
    "sfx": [

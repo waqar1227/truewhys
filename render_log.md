@@ -42,3 +42,8 @@
 - Dataset waqarahmed51/truewhys-ep-b002 (flat: render_bg, sets, sets2, camera, shots.json, job_C/job_D).
 - truewhys-render-b002 v1: chapters 0–3 (~4,170 frames before step/interp savings), 2×T4, 64 spp, thr 0.03, step 2 + interp.
 - Chapters 4–8 (job_D, ~5,170 frames) after the weekly GPU reset, to keep this week ≤ ~30 h (B-001 Shorts still to render, ~7 h).
+
+## 7 Nov 2026: B-002 part 1 done; B-001 Shorts started
+- 08:00 UTC truewhys-render-b002 v1 done: chapters 0–3, 35/35 plates, 0 errors, wall 243.2 min (4.1 h, 2×T4). Contact sheet clean.
+- 08:40 UTC B-001 Shorts plates (1080×1920, 64 shots, 7,427 frames) split in two balanced jobs (~3,710 frames each):
+  truewhys-render-b001 v5 (job_S) and truewhys-render-b001b v3 (job_S2). Week so far ≈ 13.8 + 4.1 h = 17.9 h before the Shorts.
