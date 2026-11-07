@@ -1,0 +1,6343 @@
+{
+ "fps": 30,
+ "resolution": [
+  1920,
+  1080
+ ],
+ "style": "T",
+ "episode": "B-002",
+ "duration": 401.13,
+ "shots": [
+  {
+   "line": "L01",
+   "kind": "3d",
+   "set": "backyard",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -4.5,
+      1.8
+     ],
+     "tgt": [
+      0.5,
+      3.5,
+      1.0
+     ],
+     "lens": 24
+    },
+    "to": {
+     "pos": [
+      1.32,
+      -3.06,
+      1.6560000000000001
+     ],
+     "tgt": [
+      0.5,
+      3.5,
+      1.0
+     ],
+     "lens": 24.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "gongfarmer",
+     "at": [
+      0.2,
+      1.6,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "raise",
+     "hold_r": "torch"
+    }
+   ],
+   "part": null,
+   "tag": "ENGLAND · LONG AGO",
+   "sfx": [
+    [
+     0,
+     "owl",
+     0.5
+    ],
+    [
+     0.3,
+     "wind",
+     0.4
+    ]
+   ],
+   "music": "mystery",
+   "id": "S000",
+   "start": 0.0,
+   "dur": 3.493,
+   "chapter": 0,
+   "line_start": 0.0
+  },
+  {
+   "line": "L02",
+   "kind": "3d",
+   "set": "backyard",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      1.4,
+      -1.8,
+      1.5
+     ],
+     "tgt": [
+      3.4,
+      1.6,
+      0.95
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      1.64,
+      -1.392,
+      1.434
+     ],
+     "tgt": [
+      3.4,
+      1.6,
+      0.95
+     ],
+     "lens": 28.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "gongfarmer",
+     "at": [
+      2.4,
+      1.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down",
+     "hold_r": "bucket"
+    }
+   ],
+   "part": null,
+   "silhouette": true,
+   "sfx": [
+    [
+     0.2,
+     "footsteps",
+     0.4
+    ]
+   ],
+   "id": "S001",
+   "start": 3.493,
+   "dur": 2.984,
+   "chapter": 0,
+   "line_start": 3.493
+  },
+  {
+   "line": "L03",
+   "kind": "3d",
+   "set": "palace",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.6,
+      -1.9,
+      1.35
+     ],
+     "tgt": [
+      -2.0,
+      1.3,
+      0.75
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      -0.8099999999999999,
+      -1.42,
+      1.26
+     ],
+     "tgt": [
+      -2.0,
+      1.3,
+      0.75
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "king",
+     "at": [
+      -3.1,
+      1.9,
+      0
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "smug",
+     "arms": "down"
+    },
+    {
+     "c": "groom",
+     "at": [
+      -1.2,
+      1.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "present",
+     "hold_r": "cloth"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.8,
+     "THE TOILET?!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.75,
+     "boing",
+     0.5
+    ]
+   ],
+   "id": "S002",
+   "start": 6.477,
+   "dur": 5.72,
+   "chapter": 0,
+   "line_start": 6.477
+  },
+  {
+   "line": "L04",
+   "kind": "3d",
+   "set": "fair",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.4,
+      -2.0,
+      1.75
+     ],
+     "tgt": [
+      0.2,
+      4.0,
+      1.95
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.37,
+      -1.1,
+      1.78
+     ],
+     "tgt": [
+      0.2,
+      4.0,
+      1.95
+     ],
+     "lens": 32.400000000000006
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "quack",
+     "at": [
+      -0.9,
+      4.0,
+      1.2
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "smug",
+     "arms": "point_r"
+    },
+    {
+     "c": "toadboy",
+     "at": [
+      0.6,
+      3.7,
+      1.2
+     ],
+     "h": 1.3,
+     "face": "L",
+     "expr": "worried",
+     "arms": "raise",
+     "hold_r": "toad"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.6,
+     "A TOAD?!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.5,
+     "crowd_gasp",
+     0.5
+    ]
+   ],
+   "id": "S003",
+   "start": 12.197,
+   "dur": 3.358,
+   "chapter": 0,
+   "line_start": 12.197
+  },
+  {
+   "line": "L05",
+   "kind": "map",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "view": [
+    -2.0,
+    53.2,
+    12
+   ],
+   "pins": [
+    [
+     "London",
+     0.6
+    ],
+    [
+     "Colchester",
+     1.0
+    ],
+    [
+     "Hereford",
+     1.4
+    ]
+   ],
+   "sfx": [
+    [
+     0.6,
+     "pop",
+     0.5
+    ],
+    [
+     1.0,
+     "pop",
+     0.5
+    ],
+    [
+     1.4,
+     "pop",
+     0.5
+    ]
+   ],
+   "id": "S004",
+   "start": 15.555,
+   "dur": 2.837,
+   "chapter": 0,
+   "line_start": 15.555
+  },
+  {
+   "line": "L06",
+   "kind": "title",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "text": "WOULD YOU SURVIVE THESE\n8 JOBS FROM OLD ENGLAND?",
+   "sfx": [
+    [
+     0,
+     "whoosh",
+     0.7
+    ],
+    [
+     0.3,
+     "drum_hit",
+     0.6
+    ]
+   ],
+   "music": "curious",
+   "id": "S005",
+   "start": 18.392,
+   "dur": 4.267,
+   "chapter": 0,
+   "line_start": 18.392
+  },
+  {
+   "line": "L07",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.694,
+      0.9784
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "smug",
+     "arms": "point_r",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "riser",
+     0.4
+    ]
+   ],
+   "id": "S006",
+   "start": 22.659,
+   "dur": 3.58,
+   "chapter": 0,
+   "line_start": 22.659
+  },
+  {
+   "line": null,
+   "kind": "card",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "num": 8,
+   "text": "THE ALE CONNER",
+   "sub": "NUMBER 8",
+   "id": "S007",
+   "start": 26.239,
+   "dur": 2.4,
+   "chapter": 1
+  },
+  {
+   "line": "L08",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "tavern",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -3.8,
+      1.6
+     ],
+     "tgt": [
+      -1.5,
+      2.5,
+      0.8
+     ],
+     "lens": 22
+    },
+    "to": {
+     "pos": [
+      1.1400000000000001,
+      -3.0439999999999996,
+      1.504
+     ],
+     "tgt": [
+      -1.5,
+      2.5,
+      0.8
+     ],
+     "lens": 22.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "aleconner",
+     "at": [
+      -1.0,
+      1.6,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "tankard"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "crowd_murmur",
+     0.3
+    ]
+   ],
+   "music": "playful",
+   "id": "S008",
+   "start": 28.639,
+   "dur": 2.124,
+   "chapter": 1,
+   "line_start": 28.639
+  },
+  {
+   "line": "L09",
+   "kind": "3d",
+   "set": "square",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      -2.5,
+      -6.5,
+      1.6
+     ],
+     "tgt": [
+      -1,
+      3,
+      1.3
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      -2.32,
+      -5.36,
+      1.564
+     ],
+     "tgt": [
+      -1,
+      3,
+      1.3
+     ],
+     "lens": 28.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "aleconner",
+     "at": [
+      -1.2,
+      1.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "tankard",
+     "walk": {
+      "to": [
+       0.4,
+       1.4,
+       0
+      ]
+     }
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.6,
+     "BEST JOB EVER?"
+    ]
+   ],
+   "sfx": [
+    [
+     0.5,
+     "ding",
+     0.4
+    ]
+   ],
+   "id": "S009",
+   "start": 30.763,
+   "dur": 3.204,
+   "chapter": 1,
+   "line_start": 30.763
+  },
+  {
+   "line": "L10",
+   "kind": "3d",
+   "set": "square",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      1,
+      -5.5,
+      1.5
+     ],
+     "tgt": [
+      1.5,
+      2,
+      1.2
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      2.2,
+      -5.5,
+      1.5
+     ],
+     "tgt": [
+      2.7,
+      2.0,
+      1.2
+     ],
+     "lens": 30
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager0",
+     "at": [
+      -0.4,
+      1.5,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down"
+    },
+    {
+     "c": "villager1",
+     "at": [
+      3.4,
+      1.8,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "down"
+    },
+    {
+     "c": "aleconner",
+     "at": [
+      -0.5,
+      0.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "happy",
+     "arms": "down",
+     "walk": {
+      "to": [
+       1.8,
+       0.2,
+       0
+      ]
+     }
+    }
+   ],
+   "part": null,
+   "tag": "MEDIEVAL ENGLAND",
+   "sfx": [
+    [
+     0,
+     "footsteps",
+     0.5
+    ]
+   ],
+   "id": "S010",
+   "start": 33.967,
+   "dur": 7.285,
+   "chapter": 1,
+   "line_start": 33.967
+  },
+  {
+   "line": "L11",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "tavern",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -1.7,
+      1.45
+     ],
+     "tgt": [
+      -0.6,
+      0.8,
+      0.95
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.505,
+      -1.325,
+      1.375
+     ],
+     "tgt": [
+      -0.6,
+      0.8,
+      0.95
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "aleconner",
+     "at": [
+      -0.2,
+      1.3,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy_closed",
+     "arms": "hold",
+     "hold_r": "tankard"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.25,
+     "drink",
+     0.6
+    ]
+   ],
+   "id": "S011",
+   "start": 41.252,
+   "dur": 1.509,
+   "chapter": 1,
+   "line_start": 41.252
+  },
+  {
+   "line": "L12",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "doc": "aleassize",
+   "sfx": [
+    [
+     0,
+     "paper",
+     0.6
+    ]
+   ],
+   "id": "S012",
+   "start": 42.761,
+   "dur": 4.793,
+   "chapter": 1,
+   "line_start": 42.761
+  },
+  {
+   "line": "L13",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      -2.2,
+      -3.2,
+      1.6
+     ],
+     "tgt": [
+      -3.6,
+      1.0,
+      1.1
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      -2.3400000000000003,
+      -2.7800000000000002,
+      1.55
+     ],
+     "tgt": [
+      -3.6,
+      1.0,
+      1.1
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager2",
+     "at": [
+      -3.6,
+      1.1,
+      0.3
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "cut": [
+      -0.1,
+      1.05
+     ]
+    },
+    {
+     "c": "aleconner",
+     "at": [
+      -2.2,
+      0.6,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "angry",
+     "arms": "point_l"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.6,
+     "gavel",
+     0.8
+    ]
+   ],
+   "id": "S013",
+   "start": 47.554,
+   "dur": 3.747,
+   "chapter": 1,
+   "line_start": 47.554
+  },
+  {
+   "line": "L14",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "chin",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.2,
+     "hmm",
+     0.4
+    ]
+   ],
+   "id": "S014",
+   "start": 51.301,
+   "dur": 2.314,
+   "chapter": 1,
+   "line_start": 51.301
+  },
+  {
+   "line": "L15",
+   "kind": "3d",
+   "set": "square",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      1,
+      -5.5,
+      1.5
+     ],
+     "tgt": [
+      1.5,
+      2,
+      1.2
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      1.06,
+      -4.6,
+      1.464
+     ],
+     "tgt": [
+      1.5,
+      2,
+      1.2
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager0",
+     "at": [
+      2.6,
+      1.0,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "angry",
+     "arms": "down"
+    },
+    {
+     "c": "villager1",
+     "at": [
+      3.6,
+      0.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "angry",
+     "arms": "point_l"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      4.4,
+      1.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "angry",
+     "arms": "down"
+    },
+    {
+     "c": "aleconner",
+     "at": [
+      0.0,
+      0.6,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "hold_r": "tankard"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.4,
+     "crowd_murmur",
+     0.4
+    ]
+   ],
+   "id": "S015",
+   "start": 53.615,
+   "dur": 5.902,
+   "chapter": 1,
+   "line_start": 53.615
+  },
+  {
+   "line": "L16",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "tavern",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.5,
+      -1.8,
+      1.6
+     ],
+     "tgt": [
+      -3.0,
+      2.2,
+      1.1
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      -0.8,
+      -1.32,
+      1.54
+     ],
+     "tgt": [
+      -3.0,
+      2.2,
+      1.1
+     ],
+     "lens": 28.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "aleconner",
+     "at": [
+      -2.2,
+      1.4,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.7,
+     "LEATHER TROUSERS?"
+    ]
+   ],
+   "sfx": [
+    [
+     0.6,
+     "boing",
+     0.4
+    ]
+   ],
+   "id": "S016",
+   "start": 59.517,
+   "dur": 6.891,
+   "chapter": 1,
+   "line_start": 59.517
+  },
+  {
+   "line": "L17",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.745,
+      0.982
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "smug",
+     "arms": "raise",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.55,
+     "MYTH!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.5,
+     "pop",
+     0.5
+    ]
+   ],
+   "id": "S017",
+   "start": 66.408,
+   "dur": 3.947,
+   "chapter": 1,
+   "line_start": 66.408
+  },
+  {
+   "line": "L18",
+   "kind": "3d",
+   "set": "square",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      -3,
+      -11,
+      3.2
+     ],
+     "tgt": [
+      2,
+      7,
+      2.2
+     ],
+     "lens": 26
+    },
+    "to": {
+     "pos": [
+      -3,
+      -11,
+      4.2
+     ],
+     "tgt": [
+      2,
+      7,
+      2.2
+     ],
+     "lens": 26
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager0",
+     "at": [
+      -3.5,
+      1.5,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down"
+    },
+    {
+     "c": "villager1",
+     "at": [
+      -2.4,
+      0.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      -1.0,
+      1.8,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down"
+    },
+    {
+     "c": "villager3",
+     "at": [
+      5.0,
+      1.5,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "down"
+    },
+    {
+     "c": "villager4",
+     "at": [
+      7.0,
+      0.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "down"
+    },
+    {
+     "c": "aleconner",
+     "at": [
+      1.0,
+      2.6,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "happy",
+     "arms": "wave",
+     "hold_r": "tankard"
+    }
+   ],
+   "part": null,
+   "tag": "STILL DONE TODAY, FOR FUN",
+   "sfx": [
+    [
+     0,
+     "crowd_laugh",
+     0.4
+    ],
+    [
+     0.2,
+     "birds",
+     0.3
+    ]
+   ],
+   "id": "S018",
+   "start": 70.355,
+   "dur": 4.535,
+   "chapter": 1,
+   "line_start": 70.355
+  },
+  {
+   "line": null,
+   "kind": "card",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "num": 7,
+   "text": "THE GROOM OF THE STOOL",
+   "sub": "NUMBER 7",
+   "id": "S019",
+   "start": 74.89,
+   "dur": 2.4,
+   "chapter": 2
+  },
+  {
+   "line": "L19",
+   "kind": "3d",
+   "set": "palace",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0,
+      -5.2,
+      1.7
+     ],
+     "tgt": [
+      0,
+      3,
+      1.4
+     ],
+     "lens": 24
+    },
+    "to": {
+     "pos": [
+      0.0,
+      -4.216,
+      1.664
+     ],
+     "tgt": [
+      0,
+      3,
+      1.4
+     ],
+     "lens": 24.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "king",
+     "at": [
+      -0.6,
+      1.6,
+      0
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down"
+    },
+    {
+     "c": "groom",
+     "at": [
+      1.2,
+      1.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "music": "story",
+   "id": "S020",
+   "start": 77.29,
+   "dur": 2.57,
+   "chapter": 2,
+   "line_start": 77.29
+  },
+  {
+   "line": "L20",
+   "kind": "3d",
+   "set": "palace",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.6,
+      -1.9,
+      1.35
+     ],
+     "tgt": [
+      -2.0,
+      1.3,
+      0.75
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      -0.8099999999999999,
+      -1.42,
+      1.26
+     ],
+     "tgt": [
+      -2.0,
+      1.3,
+      0.75
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": null,
+   "tag": "TUDOR ENGLAND",
+   "pop": [
+    [
+     0.65,
+     "THE KING'S TOILET"
+    ]
+   ],
+   "sfx": [
+    [
+     0.6,
+     "ding",
+     0.4
+    ]
+   ],
+   "id": "S021",
+   "start": 79.86,
+   "dur": 3.233,
+   "chapter": 2,
+   "line_start": 79.86
+  },
+  {
+   "line": "L21",
+   "kind": "3d",
+   "set": "palace",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.6,
+      -1.9,
+      1.35
+     ],
+     "tgt": [
+      -2.0,
+      1.3,
+      0.75
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      -0.74,
+      -1.5799999999999998,
+      1.29
+     ],
+     "tgt": [
+      -2.0,
+      1.3,
+      0.75
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "king",
+     "at": [
+      -3.1,
+      1.9,
+      0
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down"
+    },
+    {
+     "c": "groom",
+     "at": [
+      -1.2,
+      1.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "worried",
+     "arms": "present",
+     "hold_r": "cloth"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "whoosh_soft",
+     0.3
+    ]
+   ],
+   "id": "S022",
+   "start": 83.093,
+   "dur": 4.127,
+   "chapter": 2,
+   "line_start": 83.093
+  },
+  {
+   "line": "L22",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "smug",
+     "arms": "raise",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.4,
+     "riser",
+     0.4
+    ]
+   ],
+   "id": "S023",
+   "start": 87.22,
+   "dur": 2.556,
+   "chapter": 2,
+   "line_start": 87.22
+  },
+  {
+   "line": "L23",
+   "kind": "3d",
+   "set": "palace",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.8,
+      -2.6,
+      1.6
+     ],
+     "tgt": [
+      3.0,
+      2.0,
+      1.15
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      1.064,
+      -2.048,
+      1.546
+     ],
+     "tgt": [
+      3.0,
+      2.0,
+      1.15
+     ],
+     "lens": 28.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "king",
+     "at": [
+      2.2,
+      1.2,
+      0
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "happy",
+     "arms": "present"
+    },
+    {
+     "c": "groom",
+     "at": [
+      1.2,
+      0.8,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "happy",
+     "arms": "down",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "fire",
+     0.3
+    ]
+   ],
+   "id": "S024",
+   "start": 89.776,
+   "dur": 6.323,
+   "chapter": 2,
+   "line_start": 89.776
+  },
+  {
+   "line": "L24",
+   "kind": "3d",
+   "set": "palace",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.4,
+      -1.6,
+      1.55
+     ],
+     "tgt": [
+      0.0,
+      5.0,
+      1.25
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      0.35200000000000004,
+      -0.8080000000000002,
+      1.514
+     ],
+     "tgt": [
+      0.0,
+      5.0,
+      1.25
+     ],
+     "lens": 28.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "groom",
+     "at": [
+      -0.6,
+      1.6,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "smug",
+     "arms": "raise",
+     "hold_r": "coin"
+    },
+    {
+     "c": "king",
+     "at": [
+      1.2,
+      2.4,
+      0
+     ],
+     "h": 1.6,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "tag": "HENRY VIII",
+   "sfx": [
+    [
+     0.3,
+     "coin_single",
+     0.5
+    ],
+    [
+     1.4,
+     "coins",
+     0.4
+    ]
+   ],
+   "id": "S025",
+   "start": 96.099,
+   "dur": 6.881,
+   "chapter": 2,
+   "line_start": 96.099
+  },
+  {
+   "line": "L25",
+   "kind": "3d",
+   "set": "palace",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0,
+      -5.2,
+      1.7
+     ],
+     "tgt": [
+      0,
+      3,
+      1.4
+     ],
+     "lens": 24
+    },
+    "to": {
+     "pos": [
+      0.0,
+      -3.9700000000000006,
+      1.655
+     ],
+     "tgt": [
+      0,
+      3,
+      1.4
+     ],
+     "lens": 24.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "magistrate",
+     "at": [
+      -1.2,
+      0.6,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "angry",
+     "arms": "point_r"
+    },
+    {
+     "c": "lawyer",
+     "at": [
+      1.0,
+      0.6,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "angry",
+     "arms": "point_l"
+    },
+    {
+     "c": "crier",
+     "at": [
+      2.4,
+      1.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "angry",
+     "arms": "raise"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.5,
+     "ME!"
+    ],
+    [
+     0.75,
+     "NO, ME!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.4,
+     "crowd_murmur",
+     0.4
+    ]
+   ],
+   "id": "S026",
+   "start": 102.98,
+   "dur": 2.131,
+   "chapter": 2,
+   "line_start": 102.98
+  },
+  {
+   "line": "L26",
+   "kind": "3d",
+   "set": "palace",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -4.5,
+      1.6
+     ],
+     "tgt": [
+      -1,
+      2,
+      1.0
+     ],
+     "lens": 26
+    },
+    "to": {
+     "pos": [
+      1.125,
+      -3.525,
+      1.51
+     ],
+     "tgt": [
+      -1,
+      2,
+      1.0
+     ],
+     "lens": 26.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "king",
+     "at": [
+      -1.0,
+      1.8,
+      0
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "angry",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.2,
+     "fire",
+     0.4
+    ]
+   ],
+   "music": "tension",
+   "id": "S027",
+   "start": 105.111,
+   "dur": 2.894,
+   "chapter": 2,
+   "line_start": 105.111
+  },
+  {
+   "line": "L27",
+   "kind": "3d",
+   "set": "palace",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -4.5,
+      1.6
+     ],
+     "tgt": [
+      -1,
+      2,
+      1.0
+     ],
+     "lens": 26
+    },
+    "to": {
+     "pos": [
+      1.25,
+      -3.85,
+      1.54
+     ],
+     "tgt": [
+      -1,
+      2,
+      1.0
+     ],
+     "lens": 26.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "king",
+     "at": [
+      -1.6,
+      1.8,
+      0
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "angry",
+     "arms": "point_r"
+    },
+    {
+     "c": "groom",
+     "at": [
+      0.6,
+      1.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "tag": "1536",
+   "sfx": [
+    [
+     0.5,
+     "drum_hit",
+     0.5
+    ]
+   ],
+   "id": "S028",
+   "start": 108.005,
+   "dur": 7.089,
+   "chapter": 2,
+   "line_start": 108.005
+  },
+  {
+   "line": "L28",
+   "kind": "3d",
+   "set": "palace",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      1.125,
+      -3.525,
+      1.51
+     ],
+     "tgt": [
+      -1,
+      2,
+      1.0
+     ],
+     "lens": 26.0
+    },
+    "to": {
+     "pos": [
+      1.5,
+      -4.5,
+      1.6
+     ],
+     "tgt": [
+      -1,
+      2,
+      1.0
+     ],
+     "lens": 26
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "groom",
+     "at": [
+      0.2,
+      1.4,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "silhouette": true,
+   "pop": [
+    [
+     0.3,
+     "FALSE CHARGES"
+    ]
+   ],
+   "sfx": [
+    [
+     0,
+     "church_bell",
+     0.5
+    ]
+   ],
+   "id": "S029",
+   "start": 115.094,
+   "dur": 4.76,
+   "chapter": 2,
+   "line_start": 115.094
+  },
+  {
+   "line": null,
+   "kind": "card",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "num": 6,
+   "text": "THE TOAD EATER",
+   "sub": "NUMBER 6",
+   "id": "S030",
+   "start": 119.854,
+   "dur": 2.4,
+   "chapter": 3
+  },
+  {
+   "line": "L29",
+   "kind": "3d",
+   "set": "fair",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0,
+      -7.5,
+      1.8
+     ],
+     "tgt": [
+      0,
+      3.5,
+      1.9
+     ],
+     "lens": 26
+    },
+    "to": {
+     "pos": [
+      0.0,
+      -6.4,
+      1.81
+     ],
+     "tgt": [
+      0,
+      3.5,
+      1.9
+     ],
+     "lens": 26.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager0",
+     "at": [
+      -2.8,
+      1.0,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "villager1",
+     "at": [
+      -1.6,
+      0.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      -0.4,
+      1.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "villager3",
+     "at": [
+      1.2,
+      0.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "villager4",
+     "at": [
+      2.6,
+      1.1,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "villager5",
+     "at": [
+      3.4,
+      -0.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "quack",
+     "at": [
+      -0.9,
+      4.0,
+      1.2
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "smug",
+     "arms": "present"
+    },
+    {
+     "c": "toadboy",
+     "at": [
+      0.6,
+      3.7,
+      1.2
+     ],
+     "h": 1.3,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "crowd_murmur",
+     0.4
+    ]
+   ],
+   "music": "playful",
+   "id": "S031",
+   "start": 122.254,
+   "dur": 2.214,
+   "chapter": 3,
+   "line_start": 122.254
+  },
+  {
+   "line": "L30",
+   "kind": "3d",
+   "set": "fair",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0,
+      -7.5,
+      1.8
+     ],
+     "tgt": [
+      0,
+      3.5,
+      1.9
+     ],
+     "lens": 26
+    },
+    "to": {
+     "pos": [
+      0.0,
+      -6.18,
+      1.812
+     ],
+     "tgt": [
+      0,
+      3.5,
+      1.9
+     ],
+     "lens": 26.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager0",
+     "at": [
+      -2.8,
+      1.0,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "villager1",
+     "at": [
+      -1.6,
+      0.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      -0.4,
+      1.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "villager3",
+     "at": [
+      1.2,
+      0.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "surprised",
+     "arms": "down"
+    },
+    {
+     "c": "quack",
+     "at": [
+      -0.9,
+      4.0,
+      1.2
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "smug",
+     "arms": "present",
+     "hold_r": "bottle"
+    }
+   ],
+   "part": null,
+   "tag": "THE 1600s",
+   "sfx": [
+    [
+     0.4,
+     "sparkle",
+     0.4
+    ]
+   ],
+   "id": "S032",
+   "start": 124.468,
+   "dur": 4.864,
+   "chapter": 3,
+   "line_start": 124.468
+  },
+  {
+   "line": "L31",
+   "kind": "3d",
+   "set": "fair",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.4,
+      -2.0,
+      1.75
+     ],
+     "tgt": [
+      0.2,
+      4.0,
+      1.95
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.376,
+      -1.28,
+      1.774
+     ],
+     "tgt": [
+      0.2,
+      4.0,
+      1.95
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "quack",
+     "at": [
+      -0.9,
+      4.0,
+      1.2
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "smug",
+     "arms": "point_r"
+    },
+    {
+     "c": "toadboy",
+     "at": [
+      0.6,
+      3.7,
+      1.2
+     ],
+     "h": 1.3,
+     "face": "L",
+     "expr": "happy",
+     "arms": "wave"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "boing",
+     0.3
+    ]
+   ],
+   "id": "S033",
+   "start": 129.332,
+   "dur": 2.0,
+   "chapter": 3,
+   "line_start": 129.332
+  },
+  {
+   "line": "L32",
+   "kind": "3d",
+   "set": "fair",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -1.0,
+      0.8
+     ],
+     "tgt": [
+      0.4,
+      4.0,
+      2.1
+     ],
+     "lens": 24
+    },
+    "to": {
+     "pos": [
+      0.576,
+      -0.4,
+      0.9560000000000001
+     ],
+     "tgt": [
+      0.4,
+      4.0,
+      2.1
+     ],
+     "lens": 24.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "toadboy",
+     "at": [
+      0.6,
+      3.7,
+      1.2
+     ],
+     "h": 1.3,
+     "face": "L",
+     "expr": "worried",
+     "arms": "raise",
+     "hold_r": "toad"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.65,
+     "DEADLY POISON?"
+    ]
+   ],
+   "sfx": [
+    [
+     0.2,
+     "frog",
+     0.6
+    ],
+    [
+     0.5,
+     "crowd_gasp",
+     0.5
+    ]
+   ],
+   "id": "S034",
+   "start": 131.332,
+   "dur": 3.499,
+   "chapter": 3,
+   "line_start": 131.332
+  },
+  {
+   "line": "L33",
+   "kind": "3d",
+   "set": "fair",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.4,
+      -2.0,
+      1.75
+     ],
+     "tgt": [
+      0.2,
+      4.0,
+      1.95
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.37,
+      -1.1,
+      1.78
+     ],
+     "tgt": [
+      0.2,
+      4.0,
+      1.95
+     ],
+     "lens": 33.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "quack",
+     "at": [
+      -0.9,
+      4.0,
+      1.2
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "smug",
+     "arms": "present"
+    },
+    {
+     "c": "toadboy",
+     "at": [
+      0.6,
+      3.7,
+      1.2
+     ],
+     "h": 1.3,
+     "face": "L",
+     "expr": "happy_closed",
+     "arms": "raise",
+     "hold_r": "toad"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.8,
+     "GULP!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.75,
+     "gulp",
+     0.8
+    ],
+    [
+     0.85,
+     "crowd_gasp",
+     0.6
+    ]
+   ],
+   "id": "S035",
+   "start": 134.831,
+   "dur": 5.324,
+   "chapter": 3,
+   "line_start": 134.831
+  },
+  {
+   "line": "L34",
+   "kind": "3d",
+   "set": "fair",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.4,
+      -2.0,
+      1.75
+     ],
+     "tgt": [
+      0.2,
+      4.0,
+      1.95
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.384,
+      -1.52,
+      1.766
+     ],
+     "tgt": [
+      0.2,
+      4.0,
+      1.95
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout",
+    "shake": 0.04
+   },
+   "chars": [
+    {
+     "c": "quack",
+     "at": [
+      -0.9,
+      4.0,
+      1.2
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "both_up"
+    },
+    {
+     "c": "toadboy",
+     "at": [
+      0.6,
+      3.7,
+      1.2
+     ],
+     "h": 1.3,
+     "face": "L",
+     "expr": "worried",
+     "arms": "both_up",
+     "blink_fast": true
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.2,
+     "drum_hit",
+     0.4
+    ],
+    [
+     0.6,
+     "crowd_gasp",
+     0.5
+    ]
+   ],
+   "id": "S036",
+   "start": 140.155,
+   "dur": 3.199,
+   "chapter": 3,
+   "line_start": 140.155
+  },
+  {
+   "line": "L35",
+   "kind": "3d",
+   "set": "fair",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.4,
+      -2.0,
+      1.75
+     ],
+     "tgt": [
+      0.2,
+      4.0,
+      1.95
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.376,
+      -1.28,
+      1.774
+     ],
+     "tgt": [
+      0.2,
+      4.0,
+      1.95
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "quack",
+     "at": [
+      -0.9,
+      4.0,
+      1.2
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "smug",
+     "arms": "present",
+     "hold_r": "bottle"
+    },
+    {
+     "c": "toadboy",
+     "at": [
+      0.6,
+      3.7,
+      1.2
+     ],
+     "h": 1.3,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.7,
+     "MIRACLE MEDICINE"
+    ]
+   ],
+   "sfx": [
+    [
+     0.6,
+     "sparkle",
+     0.5
+    ]
+   ],
+   "id": "S037",
+   "start": 143.354,
+   "dur": 3.725,
+   "chapter": 3,
+   "line_start": 143.354
+  },
+  {
+   "line": "L36",
+   "kind": "3d",
+   "set": "fair",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0,
+      -7.5,
+      1.8
+     ],
+     "tgt": [
+      0,
+      3.5,
+      1.9
+     ],
+     "lens": 26
+    },
+    "to": {
+     "pos": [
+      0.0,
+      -5.85,
+      1.815
+     ],
+     "tgt": [
+      0,
+      3.5,
+      1.9
+     ],
+     "lens": 26.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager0",
+     "at": [
+      -2.8,
+      1.0,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "coin",
+     "walk": {
+      "to": [
+       -1.9599999999999997,
+       2.0,
+       0
+      ]
+     }
+    },
+    {
+     "c": "villager1",
+     "at": [
+      -1.6,
+      0.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "coin",
+     "walk": {
+      "to": [
+       -1.1199999999999999,
+       1.2,
+       0
+      ]
+     }
+    },
+    {
+     "c": "villager2",
+     "at": [
+      -0.4,
+      1.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "coin",
+     "walk": {
+      "to": [
+       -0.27999999999999997,
+       2.2,
+       0
+      ]
+     }
+    },
+    {
+     "c": "villager3",
+     "at": [
+      1.2,
+      0.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "coin",
+     "walk": {
+      "to": [
+       0.84,
+       1.4,
+       0
+      ]
+     }
+    },
+    {
+     "c": "villager4",
+     "at": [
+      2.6,
+      1.1,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "coin",
+     "walk": {
+      "to": [
+       1.8199999999999998,
+       2.1,
+       0
+      ]
+     }
+    },
+    {
+     "c": "villager5",
+     "at": [
+      3.4,
+      -0.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "coin",
+     "walk": {
+      "to": [
+       2.38,
+       0.8,
+       0
+      ]
+     }
+    },
+    {
+     "c": "quack",
+     "at": [
+      -0.9,
+      4.0,
+      1.2
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "happy",
+     "arms": "present",
+     "hold_r": "bottle"
+    },
+    {
+     "c": "toadboy",
+     "at": [
+      0.6,
+      3.7,
+      1.2
+     ],
+     "h": 1.3,
+     "face": "L",
+     "expr": "happy",
+     "arms": "both_up"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.2,
+     "CURED!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.1,
+     "sparkle",
+     0.5
+    ],
+    [
+     0.5,
+     "crowd_laugh",
+     0.5
+    ],
+    [
+     0.9,
+     "coins",
+     0.5
+    ]
+   ],
+   "id": "S038",
+   "start": 147.079,
+   "dur": 4.169,
+   "chapter": 3,
+   "line_start": 147.079
+  },
+  {
+   "line": "L37",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "point_r",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.2,
+     "page_turn",
+     0.4
+    ]
+   ],
+   "id": "S039",
+   "start": 151.248,
+   "dur": 2.891,
+   "chapter": 3,
+   "line_start": 151.248
+  },
+  {
+   "line": "L38",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "doc": "toady",
+   "sfx": [
+    [
+     0,
+     "quill",
+     0.5
+    ]
+   ],
+   "id": "S040",
+   "start": 154.139,
+   "dur": 4.236,
+   "chapter": 3,
+   "line_start": 154.139
+  },
+  {
+   "line": "L39",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.745,
+      0.982
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "smug",
+     "arms": "raise",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.6,
+     "TOADY"
+    ]
+   ],
+   "sfx": [
+    [
+     0.55,
+     "pop",
+     0.5
+    ]
+   ],
+   "id": "S041",
+   "start": 158.375,
+   "dur": 3.581,
+   "chapter": 3,
+   "line_start": 158.375
+  },
+  {
+   "line": null,
+   "kind": "card",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "num": 5,
+   "text": "THE SIN EATER",
+   "sub": "NUMBER 5",
+   "id": "S042",
+   "start": 161.956,
+   "dur": 2.4,
+   "chapter": 4
+  },
+  {
+   "line": "L40",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "wake",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -3.8,
+      1.6
+     ],
+     "tgt": [
+      -1.5,
+      2.5,
+      0.8
+     ],
+     "lens": 22
+    },
+    "to": {
+     "pos": [
+      1.1400000000000001,
+      -3.0439999999999996,
+      1.504
+     ],
+     "tgt": [
+      -1.5,
+      2.5,
+      0.8
+     ],
+     "lens": 22.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "sineater",
+     "at": [
+      -0.8,
+      1.6,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "silhouette": true,
+   "sfx": [
+    [
+     0,
+     "wind",
+     0.4
+    ]
+   ],
+   "music": "dark",
+   "id": "S043",
+   "start": 164.356,
+   "dur": 2.069,
+   "chapter": 4,
+   "line_start": 164.356
+  },
+  {
+   "line": "L41",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "wake",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -3.8,
+      1.6
+     ],
+     "tgt": [
+      -1.5,
+      2.5,
+      0.8
+     ],
+     "lens": 22
+    },
+    "to": {
+     "pos": [
+      1.5,
+      -3.8,
+      1.2000000000000002
+     ],
+     "tgt": [
+      -1.5,
+      2.5,
+      0.8
+     ],
+     "lens": 22
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": null,
+   "sfx": [
+    [
+     0.2,
+     "owl",
+     0.4
+    ]
+   ],
+   "id": "S044",
+   "start": 166.425,
+   "dur": 1.667,
+   "chapter": 4,
+   "line_start": 166.425
+  },
+  {
+   "line": "L42",
+   "kind": "map",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": [
+    0,
+    0.4
+   ],
+   "view": [
+    -2.6,
+    52.4,
+    6
+   ],
+   "pins": [
+    [
+     "Wales",
+     0.8
+    ],
+    [
+     "Hereford",
+     1.4
+    ]
+   ],
+   "sfx": [
+    [
+     0.8,
+     "pop",
+     0.4
+    ],
+    [
+     1.4,
+     "pop",
+     0.4
+    ]
+   ],
+   "id": "S045",
+   "start": 168.092,
+   "dur": 3.044,
+   "chapter": 4,
+   "line_start": 168.092
+  },
+  {
+   "line": "L42",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": [
+    0.4,
+    1.0
+   ],
+   "doc": "aubrey",
+   "sfx": [
+    [
+     0,
+     "page_turn",
+     0.5
+    ]
+   ],
+   "id": "S046",
+   "start": 171.136,
+   "dur": 4.567,
+   "chapter": 4,
+   "line_start": 168.092
+  },
+  {
+   "line": "L43",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "wake",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -3.8,
+      1.6
+     ],
+     "tgt": [
+      -1.5,
+      2.5,
+      0.8
+     ],
+     "lens": 22
+    },
+    "to": {
+     "pos": [
+      1.1400000000000001,
+      -3.0439999999999996,
+      1.504
+     ],
+     "tgt": [
+      -1.5,
+      2.5,
+      0.8
+     ],
+     "lens": 22.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "sineater",
+     "at": [
+      1.6,
+      -0.6,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "down",
+     "walk": {
+      "to": [
+       0.4,
+       0.4,
+       0
+      ]
+     }
+    },
+    {
+     "c": "mother",
+     "at": [
+      -1.6,
+      1.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.1,
+     "door",
+     0.5
+    ],
+    [
+     0.4,
+     "footsteps",
+     0.4
+    ]
+   ],
+   "id": "S047",
+   "start": 175.703,
+   "dur": 4.373,
+   "chapter": 4,
+   "line_start": 175.703
+  },
+  {
+   "line": "L44",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "wake",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -1.7,
+      1.45
+     ],
+     "tgt": [
+      -0.6,
+      0.8,
+      0.95
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.544,
+      -1.4,
+      1.39
+     ],
+     "tgt": [
+      -0.6,
+      0.8,
+      0.95
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "mother",
+     "at": [
+      -1.6,
+      1.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "present",
+     "hold_r": "bread"
+    },
+    {
+     "c": "sineater",
+     "at": [
+      0.3,
+      1.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "whoosh_soft",
+     0.3
+    ]
+   ],
+   "id": "S048",
+   "start": 180.076,
+   "dur": 3.599,
+   "chapter": 4,
+   "line_start": 180.076
+  },
+  {
+   "line": "L45",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "wake",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -1.7,
+      1.45
+     ],
+     "tgt": [
+      -0.6,
+      0.8,
+      0.95
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.505,
+      -1.325,
+      1.375
+     ],
+     "tgt": [
+      -0.6,
+      0.8,
+      0.95
+     ],
+     "lens": 32.400000000000006
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "sineater",
+     "at": [
+      0.2,
+      1.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy_closed",
+     "arms": "hold",
+     "hold_r": "bowl"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "chewing",
+     0.5
+    ]
+   ],
+   "id": "S049",
+   "start": 183.675,
+   "dur": 4.859,
+   "chapter": 4,
+   "line_start": 183.675
+  },
+  {
+   "line": "L46",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "wake",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.2,
+      -0.8,
+      1.5
+     ],
+     "tgt": [
+      -2.6,
+      2.8,
+      0.75
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      -0.44,
+      -0.44000000000000006,
+      1.425
+     ],
+     "tgt": [
+      -2.6,
+      2.8,
+      0.75
+     ],
+     "lens": 28.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "mother",
+     "at": [
+      -1.2,
+      1.8,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy_closed",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.7,
+     "REST IN PEACE"
+    ]
+   ],
+   "sfx": [
+    [
+     0.4,
+     "sparkle",
+     0.3
+    ]
+   ],
+   "id": "S050",
+   "start": 188.534,
+   "dur": 3.413,
+   "chapter": 4,
+   "line_start": 188.534
+  },
+  {
+   "line": "L47",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "wake",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -3.8,
+      1.6
+     ],
+     "tgt": [
+      -1.5,
+      2.5,
+      0.8
+     ],
+     "lens": 22
+    },
+    "to": {
+     "pos": [
+      1.2,
+      -3.17,
+      1.52
+     ],
+     "tgt": [
+      -1.5,
+      2.5,
+      0.8
+     ],
+     "lens": 22.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "sineater",
+     "at": [
+      0.6,
+      0.4,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "hold",
+     "hold_r": "coin"
+    }
+   ],
+   "part": [
+    0,
+    0.5
+   ],
+   "sfx": [
+    [
+     0.3,
+     "coin_single",
+     0.5
+    ]
+   ],
+   "id": "S051",
+   "start": 191.947,
+   "dur": 2.36,
+   "chapter": 4,
+   "line_start": 191.947
+  },
+  {
+   "line": "L47",
+   "kind": "3d",
+   "set": "square",
+   "variant": "dusk",
+   "cam": {
+    "from": {
+     "pos": [
+      -2.5,
+      -6.5,
+      1.6
+     ],
+     "tgt": [
+      -1,
+      3,
+      1.3
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      -2.35,
+      -5.55,
+      1.57
+     ],
+     "tgt": [
+      -1,
+      3,
+      1.3
+     ],
+     "lens": 28.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager1",
+     "at": [
+      0.6,
+      1.8,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      1.6,
+      1.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "sineater",
+     "at": [
+      -1.6,
+      0.8,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down",
+     "walk": {
+      "to": [
+       -0.8,
+       1.0,
+       0
+      ]
+     }
+    }
+   ],
+   "part": [
+    0.5,
+    1.0
+   ],
+   "sfx": [
+    [
+     0,
+     "wind",
+     0.4
+    ]
+   ],
+   "id": "S052",
+   "start": 194.307,
+   "dur": 2.36,
+   "chapter": 4,
+   "line_start": 191.947
+  },
+  {
+   "line": "L48",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "chin",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "tag": "HISTORIANS DISAGREE",
+   "id": "S053",
+   "start": 196.667,
+   "dur": 3.916,
+   "chapter": 4,
+   "line_start": 196.667
+  },
+  {
+   "line": "L49",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "wake",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -1.7,
+      1.45
+     ],
+     "tgt": [
+      -0.6,
+      0.8,
+      0.95
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.44,
+      -1.2,
+      1.3499999999999999
+     ],
+     "tgt": [
+      -0.6,
+      0.8,
+      0.95
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "sineater",
+     "at": [
+      0.2,
+      1.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "down",
+     "hold_r": "bread"
+    }
+   ],
+   "part": null,
+   "silhouette": true,
+   "sfx": [
+    [
+     0.3,
+     "wind",
+     0.3
+    ]
+   ],
+   "id": "S054",
+   "start": 200.583,
+   "dur": 5.523,
+   "chapter": 4,
+   "line_start": 200.583
+  },
+  {
+   "line": null,
+   "kind": "card",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "num": 4,
+   "text": "THE SALTPETRE MAN",
+   "sub": "NUMBER 4",
+   "id": "S055",
+   "start": 206.106,
+   "dur": 2.4,
+   "chapter": 5
+  },
+  {
+   "line": "L50",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "stable",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -3.8,
+      1.6
+     ],
+     "tgt": [
+      -1,
+      1.5,
+      0.6
+     ],
+     "lens": 22
+    },
+    "to": {
+     "pos": [
+      1.2,
+      -3.1639999999999997,
+      1.48
+     ],
+     "tgt": [
+      -1,
+      1.5,
+      0.6
+     ],
+     "lens": 22.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "saltpetre",
+     "at": [
+      0.4,
+      -0.4,
+      0
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "smug",
+     "arms": "raise",
+     "hold_r": "shovel"
+    }
+   ],
+   "part": null,
+   "music": "tension",
+   "id": "S056",
+   "start": 208.506,
+   "dur": 2.41,
+   "chapter": 5,
+   "line_start": 208.506
+  },
+  {
+   "line": "L51",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.745,
+      0.982
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "present",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.45,
+     "GUNPOWDER"
+    ]
+   ],
+   "sfx": [
+    [
+     0.4,
+     "thud",
+     0.5
+    ]
+   ],
+   "id": "S057",
+   "start": 210.916,
+   "dur": 3.157,
+   "chapter": 5,
+   "line_start": 210.916
+  },
+  {
+   "line": "L52",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "stable",
+   "cam": {
+    "from": {
+     "pos": [
+      3.0,
+      -3.4,
+      1.5
+     ],
+     "tgt": [
+      1.2,
+      -0.7,
+      0.45
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      2.73,
+      -2.995,
+      1.3425
+     ],
+     "tgt": [
+      1.2,
+      -0.7,
+      0.45
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": null,
+   "pop": [
+    [
+     0.75,
+     "ANIMAL WASTE"
+    ]
+   ],
+   "sfx": [
+    [
+     0.7,
+     "boing",
+     0.3
+    ]
+   ],
+   "id": "S058",
+   "start": 214.073,
+   "dur": 5.01,
+   "chapter": 5,
+   "line_start": 214.073
+  },
+  {
+   "line": "L53",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "stable",
+   "cam": {
+    "from": {
+     "pos": [
+      -1.0,
+      -2.6,
+      1.8
+     ],
+     "tgt": [
+      -4.5,
+      -1.6,
+      2.6
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      0.0,
+      -2.6,
+      1.8
+     ],
+     "tgt": [
+      -3.5,
+      -1.6,
+      2.6
+     ],
+     "lens": 28
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "rooster",
+     "at": [
+      -3.2,
+      -1.0,
+      0
+     ],
+     "h": 0.55,
+     "face": "L",
+     "expr": "surprised",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "rooster",
+     0.4
+    ]
+   ],
+   "id": "S059",
+   "start": 219.083,
+   "dur": 4.008,
+   "chapter": 5,
+   "line_start": 219.083
+  },
+  {
+   "line": "L54",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "stable",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -3.8,
+      1.6
+     ],
+     "tgt": [
+      -1,
+      1.5,
+      0.6
+     ],
+     "lens": 22
+    },
+    "to": {
+     "pos": [
+      1.2,
+      -3.1639999999999997,
+      1.48
+     ],
+     "tgt": [
+      -1,
+      1.5,
+      0.6
+     ],
+     "lens": 22.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "saltpetre",
+     "at": [
+      0.6,
+      -0.6,
+      0
+     ],
+     "h": 1.55,
+     "face": "L",
+     "expr": "smug",
+     "arms": "present",
+     "hold_r": "scroll"
+    },
+    {
+     "c": "farmer",
+     "at": [
+      -1.4,
+      0.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "paper",
+     0.5
+    ]
+   ],
+   "id": "S060",
+   "start": 223.091,
+   "dur": 3.218,
+   "chapter": 5,
+   "line_start": 223.091
+  },
+  {
+   "line": "L55",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "doc": "order1627",
+   "sfx": [
+    [
+     0,
+     "paper",
+     0.6
+    ]
+   ],
+   "id": "S061",
+   "start": 226.309,
+   "dur": 6.985,
+   "chapter": 5,
+   "line_start": 226.309
+  },
+  {
+   "line": "L56",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "stable",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -3.8,
+      1.6
+     ],
+     "tgt": [
+      -1,
+      1.5,
+      0.6
+     ],
+     "lens": 22
+    },
+    "to": {
+     "pos": [
+      1.25,
+      -3.2699999999999996,
+      1.5
+     ],
+     "tgt": [
+      -1,
+      1.5,
+      0.6
+     ],
+     "lens": 22.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "saltpetre",
+     "at": [
+      1.4,
+      -0.6,
+      0
+     ],
+     "h": 1.55,
+     "face": "L",
+     "expr": "smug",
+     "arms": "raise",
+     "hold_r": "shovel",
+     "gest": [
+      [
+       0.3,
+       "slam"
+      ],
+      [
+       0.65,
+       "slam"
+      ]
+     ]
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "shovel",
+     0.7
+    ],
+    [
+     0.65,
+     "shovel",
+     0.7
+    ]
+   ],
+   "id": "S062",
+   "start": 233.294,
+   "dur": 5.867,
+   "chapter": 5,
+   "line_start": 233.294
+  },
+  {
+   "line": "L57",
+   "kind": "3d",
+   "set": "cottage",
+   "variant": "stable",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -3.8,
+      1.6
+     ],
+     "tgt": [
+      -1,
+      1.5,
+      0.6
+     ],
+     "lens": 22
+    },
+    "to": {
+     "pos": [
+      1.125,
+      -3.005,
+      1.4500000000000002
+     ],
+     "tgt": [
+      -1,
+      1.5,
+      0.6
+     ],
+     "lens": 22.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "farmer",
+     "at": [
+      -1.4,
+      0.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "angry",
+     "arms": "point_r"
+    },
+    {
+     "c": "saltpetre",
+     "at": [
+      0.8,
+      -0.6,
+      0
+     ],
+     "h": 1.55,
+     "face": "L",
+     "expr": "smug",
+     "arms": "down",
+     "hold_r": "shovel"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.75,
+     "NO CHOICE"
+    ]
+   ],
+   "sfx": [
+    [
+     0.1,
+     "door",
+     0.4
+    ]
+   ],
+   "id": "S063",
+   "start": 239.161,
+   "dur": 4.844,
+   "chapter": 5,
+   "line_start": 239.161
+  },
+  {
+   "line": "L58",
+   "kind": "3d",
+   "set": "square",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      1,
+      -5.5,
+      1.5
+     ],
+     "tgt": [
+      1.5,
+      2,
+      1.2
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      1.06,
+      -4.6,
+      1.464
+     ],
+     "tgt": [
+      1.5,
+      2,
+      1.2
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager0",
+     "at": [
+      2.6,
+      1.0,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "angry",
+     "arms": "down"
+    },
+    {
+     "c": "villager1",
+     "at": [
+      3.6,
+      0.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "angry",
+     "arms": "down"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      4.4,
+      1.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "angry",
+     "arms": "down"
+    },
+    {
+     "c": "saltpetre",
+     "at": [
+      0.0,
+      0.6,
+      0
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "smug",
+     "arms": "down",
+     "hold_r": "shovel"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.6,
+     "HATED"
+    ]
+   ],
+   "sfx": [
+    [
+     0.5,
+     "crowd_murmur",
+     0.5
+    ]
+   ],
+   "id": "S064",
+   "start": 244.005,
+   "dur": 3.947,
+   "chapter": 5,
+   "line_start": 244.005
+  },
+  {
+   "line": null,
+   "kind": "card",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "num": 3,
+   "text": "THE FULLER",
+   "sub": "NUMBER 3",
+   "id": "S065",
+   "start": 247.952,
+   "dur": 2.4,
+   "chapter": 6
+  },
+  {
+   "line": "L59",
+   "kind": "3d",
+   "set": "yard",
+   "variant": "fullers",
+   "cam": {
+    "from": {
+     "pos": [
+      2,
+      -7.0,
+      3.0
+     ],
+     "tgt": [
+      0.5,
+      3.0,
+      0.6
+     ],
+     "lens": 24
+    },
+    "to": {
+     "pos": [
+      1.82,
+      -5.8,
+      2.712
+     ],
+     "tgt": [
+      0.5,
+      3.0,
+      0.6
+     ],
+     "lens": 24.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "fuller",
+     "at": [
+      0.2,
+      0.4,
+      0.5
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down",
+     "cut": [
+      -0.45,
+      0.91
+     ]
+    }
+   ],
+   "part": null,
+   "music": "curious",
+   "id": "S066",
+   "start": 250.352,
+   "dur": 1.757,
+   "chapter": 6,
+   "line_start": 250.352
+  },
+  {
+   "line": "L60",
+   "kind": "3d",
+   "set": "yard",
+   "variant": "fullers",
+   "cam": {
+    "from": {
+     "pos": [
+      5.2,
+      -2.8,
+      1.5
+     ],
+     "tgt": [
+      6.6,
+      2.4,
+      1.0
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      5.368,
+      -2.176,
+      1.44
+     ],
+     "tgt": [
+      6.6,
+      2.4,
+      1.0
+     ],
+     "lens": 28.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "fuller",
+     "at": [
+      4.9,
+      1.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "present",
+     "hold_r": "cloth"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "whoosh_soft",
+     0.3
+    ]
+   ],
+   "id": "S067",
+   "start": 252.109,
+   "dur": 4.971,
+   "chapter": 6,
+   "line_start": 252.109
+  },
+  {
+   "line": "L61",
+   "kind": "3d",
+   "set": "yard",
+   "variant": "fullers",
+   "cam": {
+    "from": {
+     "pos": [
+      1.4,
+      -2.6,
+      1.7
+     ],
+     "tgt": [
+      0.2,
+      0.6,
+      0.95
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      1.3399999999999999,
+      -2.44,
+      1.6624999999999999
+     ],
+     "tgt": [
+      0.2,
+      0.6,
+      0.95
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "fuller",
+     "at": [
+      -0.4,
+      -0.5,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.6,
+     "URINE?!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.55,
+     "boing",
+     0.5
+    ]
+   ],
+   "id": "S068",
+   "start": 257.08,
+   "dur": 3.91,
+   "chapter": 6,
+   "line_start": 257.08
+  },
+  {
+   "line": "L62",
+   "kind": "3d",
+   "set": "yard",
+   "variant": "fullers",
+   "cam": {
+    "from": {
+     "pos": [
+      1.4,
+      -2.6,
+      1.7
+     ],
+     "tgt": [
+      0.2,
+      0.6,
+      0.95
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      1.3519999999999999,
+      -2.472,
+      1.67
+     ],
+     "tgt": [
+      0.2,
+      0.6,
+      0.95
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager3",
+     "at": [
+      1.4,
+      -0.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "worried",
+     "arms": "present",
+     "hold_r": "bucket"
+    },
+    {
+     "c": "fuller",
+     "at": [
+      -0.4,
+      -0.5,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "tag": "LEFT FOR DAYS",
+   "sfx": [
+    [
+     0.5,
+     "splash",
+     0.6
+    ]
+   ],
+   "id": "S069",
+   "start": 260.99,
+   "dur": 5.035,
+   "chapter": 6,
+   "line_start": 260.99
+  },
+  {
+   "line": "L63",
+   "kind": "3d",
+   "set": "yard",
+   "variant": "fullers",
+   "cam": {
+    "from": {
+     "pos": [
+      1.4,
+      -2.6,
+      1.7
+     ],
+     "tgt": [
+      0.2,
+      0.6,
+      0.95
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      1.2799999999999998,
+      -2.2800000000000002,
+      1.625
+     ],
+     "tgt": [
+      0.2,
+      0.6,
+      0.95
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "fuller",
+     "at": [
+      0.2,
+      0.4,
+      0.5
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "worried",
+     "arms": "both_up",
+     "cut": [
+      -0.45,
+      0.91
+     ],
+     "bob": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.8,
+     "FOR HOURS"
+    ]
+   ],
+   "sfx": [
+    [
+     0.3,
+     "footsteps",
+     0.6
+    ]
+   ],
+   "id": "S070",
+   "start": 266.025,
+   "dur": 5.589,
+   "chapter": 6,
+   "line_start": 266.025
+  },
+  {
+   "line": "L64",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "point_r",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.45,
+     "AMMONIA"
+    ]
+   ],
+   "sfx": [
+    [
+     0.4,
+     "sparkle",
+     0.4
+    ]
+   ],
+   "id": "S071",
+   "start": 271.614,
+   "dur": 4.578,
+   "chapter": 6,
+   "line_start": 271.614
+  },
+  {
+   "line": "L65",
+   "kind": "3d",
+   "set": "yard",
+   "variant": "fullers",
+   "cam": {
+    "from": {
+     "pos": [
+      1.82,
+      -5.8,
+      2.712
+     ],
+     "tgt": [
+      0.5,
+      3.0,
+      0.6
+     ],
+     "lens": 24.0
+    },
+    "to": {
+     "pos": [
+      2,
+      -7.0,
+      3.0
+     ],
+     "tgt": [
+      0.5,
+      3.0,
+      0.6
+     ],
+     "lens": 24
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": null,
+   "tag": "WATER MILLS",
+   "sfx": [
+    [
+     0,
+     "wind",
+     0.3
+    ]
+   ],
+   "id": "S072",
+   "start": 276.192,
+   "dur": 4.386,
+   "chapter": 6,
+   "line_start": 276.192
+  },
+  {
+   "line": "L66",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "doc": "surnames",
+   "sfx": [
+    [
+     0,
+     "quill",
+     0.5
+    ]
+   ],
+   "id": "S073",
+   "start": 280.578,
+   "dur": 7.083,
+   "chapter": 6,
+   "line_start": 280.578
+  },
+  {
+   "line": null,
+   "kind": "card",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "num": 2,
+   "text": "THE TANNER",
+   "sub": "NUMBER 2",
+   "id": "S074",
+   "start": 287.661,
+   "dur": 2.4,
+   "chapter": 7
+  },
+  {
+   "line": "L67",
+   "kind": "3d",
+   "set": "yard",
+   "variant": "tannery",
+   "cam": {
+    "from": {
+     "pos": [
+      2,
+      -7.5,
+      3.2
+     ],
+     "tgt": [
+      0.5,
+      4,
+      0.6
+     ],
+     "lens": 24
+    },
+    "to": {
+     "pos": [
+      1.82,
+      -6.12,
+      2.8880000000000003
+     ],
+     "tgt": [
+      0.5,
+      4,
+      0.6
+     ],
+     "lens": 24.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "tanner",
+     "at": [
+      0.6,
+      0.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down",
+     "hold_r": "staff"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "insects",
+     0.3
+    ]
+   ],
+   "music": "story",
+   "id": "S075",
+   "start": 290.061,
+   "dur": 1.812,
+   "chapter": 7,
+   "line_start": 290.061
+  },
+  {
+   "line": "L68",
+   "kind": "3d",
+   "set": "yard",
+   "variant": "tannery",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.4,
+      1.8
+     ],
+     "tgt": [
+      0.6,
+      2.4,
+      0.45
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.2079999999999997,
+      1.746
+     ],
+     "tgt": [
+      0.6,
+      2.4,
+      0.45
+     ],
+     "lens": 28.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "tanner",
+     "at": [
+      -0.5,
+      0.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "hold",
+     "hold_r": "staff"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      1.4,
+      -0.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.75,
+     "PHEW!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.3,
+     "insects",
+     0.4
+    ]
+   ],
+   "id": "S076",
+   "start": 291.873,
+   "dur": 5.123,
+   "chapter": 7,
+   "line_start": 291.873
+  },
+  {
+   "line": "L69",
+   "kind": "3d",
+   "set": "yard",
+   "variant": "tannery",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.4,
+      1.8
+     ],
+     "tgt": [
+      0.6,
+      2.4,
+      0.45
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.064,
+      1.7055
+     ],
+     "tgt": [
+      0.6,
+      2.4,
+      0.45
+     ],
+     "lens": 28.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "tanner",
+     "at": [
+      -0.5,
+      0.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "hold",
+     "hold_r": "staff"
+    }
+   ],
+   "part": null,
+   "tag": "SOAKED FOR MONTHS",
+   "sfx": [
+    [
+     0.3,
+     "tick",
+     0.4
+    ]
+   ],
+   "id": "S077",
+   "start": 296.996,
+   "dur": 5.696,
+   "chapter": 7,
+   "line_start": 296.996
+  },
+  {
+   "line": "L70",
+   "kind": "3d",
+   "set": "yard",
+   "variant": "tannery",
+   "cam": {
+    "from": {
+     "pos": [
+      -1.6,
+      -2.0,
+      1.1
+     ],
+     "tgt": [
+      -2.6,
+      -0.3,
+      0.45
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      -1.75,
+      -1.745,
+      1.0025000000000002
+     ],
+     "tgt": [
+      -2.6,
+      -0.3,
+      0.45
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "dog",
+     "at": [
+      -2.1,
+      0.1,
+      0
+     ],
+     "h": 0.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.5,
+     "DOG DUNG"
+    ]
+   ],
+   "sfx": [
+    [
+     0.3,
+     "dog",
+     0.4
+    ]
+   ],
+   "id": "S078",
+   "start": 302.692,
+   "dur": 3.157,
+   "chapter": 7,
+   "line_start": 302.692
+  },
+  {
+   "line": "L71",
+   "kind": "3d",
+   "set": "yard",
+   "variant": "tannery",
+   "cam": {
+    "from": {
+     "pos": [
+      1.0,
+      -3.0,
+      2.2
+     ],
+     "tgt": [
+      0.0,
+      12.0,
+      1.8
+     ],
+     "lens": 26
+    },
+    "to": {
+     "pos": [
+      0.88,
+      -1.2000000000000002,
+      2.152
+     ],
+     "tgt": [
+      0.0,
+      12.0,
+      1.8
+     ],
+     "lens": 26.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "tanner",
+     "at": [
+      -0.6,
+      3.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down",
+     "hold_r": "staff"
+    }
+   ],
+   "part": null,
+   "tag": "OUTSIDE THE WALLS",
+   "sfx": [
+    [
+     0,
+     "birds",
+     0.3
+    ]
+   ],
+   "id": "S079",
+   "start": 305.849,
+   "dur": 5.879,
+   "chapter": 7,
+   "line_start": 305.849
+  },
+  {
+   "line": "L72",
+   "kind": "map",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": [
+    0,
+    0.35
+   ],
+   "view": [
+    0.3,
+    51.9,
+    3.0
+   ],
+   "pins": [
+    [
+     "Colchester",
+     0.6
+    ]
+   ],
+   "sfx": [
+    [
+     0.6,
+     "pop",
+     0.5
+    ]
+   ],
+   "id": "S080",
+   "start": 311.728,
+   "dur": 3.093,
+   "chapter": 7,
+   "line_start": 311.728
+  },
+  {
+   "line": "L72",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": [
+    0.35,
+    1.0
+   ],
+   "doc": "colchester",
+   "sfx": [
+    [
+     0,
+     "paper",
+     0.5
+    ]
+   ],
+   "id": "S081",
+   "start": 314.821,
+   "dur": 5.743,
+   "chapter": 7,
+   "line_start": 311.728
+  },
+  {
+   "line": "L73",
+   "kind": "3d",
+   "set": "square",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      -3,
+      -11,
+      3.2
+     ],
+     "tgt": [
+      2,
+      7,
+      2.2
+     ],
+     "lens": 26
+    },
+    "to": {
+     "pos": [
+      -2.4,
+      -8.84,
+      3.08
+     ],
+     "tgt": [
+      2,
+      7,
+      2.2
+     ],
+     "lens": 26.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "villager0",
+     "at": [
+      -3.5,
+      1.5,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down"
+    },
+    {
+     "c": "villager1",
+     "at": [
+      -2.4,
+      0.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      -1.0,
+      1.8,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down"
+    },
+    {
+     "c": "villager3",
+     "at": [
+      5.0,
+      1.5,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "down"
+    },
+    {
+     "c": "villager5",
+     "at": [
+      1.6,
+      2.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "happy",
+     "arms": "present",
+     "hold_r": "bucket"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.3,
+     "SHOES · BELTS · SADDLES"
+    ]
+   ],
+   "sfx": [
+    [
+     0,
+     "crowd_murmur",
+     0.3
+    ]
+   ],
+   "id": "S082",
+   "start": 320.564,
+   "dur": 5.247,
+   "chapter": 7,
+   "line_start": 320.564
+  },
+  {
+   "line": "L74",
+   "kind": "3d",
+   "set": "square",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      1,
+      -5.5,
+      1.5
+     ],
+     "tgt": [
+      1.5,
+      2,
+      1.2
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      1.06,
+      -4.6,
+      1.464
+     ],
+     "tgt": [
+      1.5,
+      2,
+      1.2
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "tanner",
+     "at": [
+      0.0,
+      0.6,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "hold_r": "staff"
+    },
+    {
+     "c": "villager0",
+     "at": [
+      2.0,
+      1.0,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "walk": {
+      "to": [
+       3.6,
+       1.0,
+       0
+      ]
+     }
+    },
+    {
+     "c": "villager1",
+     "at": [
+      2.8,
+      0.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "walk": {
+      "to": [
+       4.4,
+       0.2,
+       0
+      ]
+     }
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "footsteps",
+     0.4
+    ]
+   ],
+   "id": "S083",
+   "start": 325.811,
+   "dur": 2.984,
+   "chapter": 7,
+   "line_start": 325.811
+  },
+  {
+   "line": null,
+   "kind": "card",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "num": 1,
+   "text": "THE GONG FARMER",
+   "sub": "NUMBER 1",
+   "id": "S084",
+   "start": 328.795,
+   "dur": 2.4,
+   "chapter": 8
+  },
+  {
+   "line": "L75",
+   "kind": "3d",
+   "set": "backyard",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -4.5,
+      1.8
+     ],
+     "tgt": [
+      0.5,
+      3.5,
+      1.0
+     ],
+     "lens": 24
+    },
+    "to": {
+     "pos": [
+      1.35,
+      -3.3,
+      1.6800000000000002
+     ],
+     "tgt": [
+      0.5,
+      3.5,
+      1.0
+     ],
+     "lens": 24.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "gongfarmer",
+     "at": [
+      1.6,
+      2.4,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "raise",
+     "hold_r": "shovel"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "owl",
+     0.4
+    ],
+    [
+     0.2,
+     "drum_hit",
+     0.5
+    ]
+   ],
+   "music": "dark",
+   "id": "S085",
+   "start": 331.195,
+   "dur": 2.325,
+   "chapter": 8,
+   "line_start": 331.195
+  },
+  {
+   "line": "L76",
+   "kind": "3d",
+   "set": "backyard",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.8,
+      -1.0,
+      1.35
+     ],
+     "tgt": [
+      -1.5,
+      3.4,
+      1.2
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      -0.905,
+      -0.33999999999999997,
+      1.3275000000000001
+     ],
+     "tgt": [
+      -1.5,
+      3.4,
+      1.2
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": null,
+   "pop": [
+    [
+     0.35,
+     "GONG = TOILET"
+    ]
+   ],
+   "sfx": [
+    [
+     0.3,
+     "door",
+     0.4
+    ]
+   ],
+   "id": "S086",
+   "start": 333.52,
+   "dur": 5.116,
+   "chapter": 8,
+   "line_start": 333.52
+  },
+  {
+   "line": "L77",
+   "kind": "3d",
+   "set": "backyard",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -4.5,
+      1.8
+     ],
+     "tgt": [
+      0.5,
+      3.5,
+      1.0
+     ],
+     "lens": 24
+    },
+    "to": {
+     "pos": [
+      1.28,
+      -2.74,
+      1.624
+     ],
+     "tgt": [
+      0.5,
+      3.5,
+      1.0
+     ],
+     "lens": 24.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "gongfarmer",
+     "at": [
+      1.6,
+      2.4,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "present",
+     "hold_r": "bucket"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.3,
+     "shovel",
+     0.6
+    ]
+   ],
+   "id": "S087",
+   "start": 338.636,
+   "dur": 2.451,
+   "chapter": 8,
+   "line_start": 338.636
+  },
+  {
+   "line": "L78",
+   "kind": "3d",
+   "set": "backyard",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -4.5,
+      1.8
+     ],
+     "tgt": [
+      0.5,
+      3.5,
+      1.0
+     ],
+     "lens": 24
+    },
+    "to": {
+     "pos": [
+      1.38,
+      -3.54,
+      1.704
+     ],
+     "tgt": [
+      0.5,
+      3.5,
+      1.0
+     ],
+     "lens": 24.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "gongfarmer",
+     "at": [
+      0.0,
+      1.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "raise",
+     "hold_r": "torch",
+     "walk": {
+      "to": [
+       1.4,
+       1.6,
+       0
+      ]
+     }
+    }
+   ],
+   "part": null,
+   "tag": "\"NIGHT SOIL\"",
+   "sfx": [
+    [
+     0.2,
+     "footsteps",
+     0.4
+    ],
+    [
+     0.5,
+     "owl",
+     0.3
+    ]
+   ],
+   "id": "S088",
+   "start": 341.087,
+   "dur": 6.612,
+   "chapter": 8,
+   "line_start": 341.087
+  },
+  {
+   "line": "L79",
+   "kind": "3d",
+   "set": "backyard",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      1.0,
+      -0.4,
+      1.6
+     ],
+     "tgt": [
+      0.6,
+      3.2,
+      0.3
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.988,
+      -0.29200000000000004,
+      1.5610000000000002
+     ],
+     "tgt": [
+      0.6,
+      3.2,
+      0.3
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout",
+    "shake": 0.03
+   },
+   "chars": [
+    {
+     "c": "gongfarmer",
+     "at": [
+      1.8,
+      2.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "worried",
+     "arms": "both_up",
+     "blink_fast": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.55,
+     "TOXIC FUMES"
+    ]
+   ],
+   "sfx": [
+    [
+     0.4,
+     "riser",
+     0.4
+    ]
+   ],
+   "id": "S089",
+   "start": 347.699,
+   "dur": 4.294,
+   "chapter": 8,
+   "line_start": 347.699
+  },
+  {
+   "line": "L80",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": [
+    0,
+    0.55
+   ],
+   "doc": "coroner1326",
+   "sfx": [
+    [
+     0,
+     "paper",
+     0.5
+    ]
+   ],
+   "id": "S090",
+   "start": 351.993,
+   "dur": 5.059,
+   "chapter": 8,
+   "line_start": 351.993
+  },
+  {
+   "line": "L80",
+   "kind": "3d",
+   "set": "backyard",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.8,
+      -1.0,
+      1.35
+     ],
+     "tgt": [
+      -1.5,
+      3.4,
+      1.2
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      -0.884,
+      -0.472,
+      1.332
+     ],
+     "tgt": [
+      -1.5,
+      3.4,
+      1.2
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": [
+    0.55,
+    1.0
+   ],
+   "tag": "LONDON · 1326",
+   "sfx": [
+    [
+     0.3,
+     "thud",
+     0.5
+    ]
+   ],
+   "id": "S091",
+   "start": 357.052,
+   "dur": 4.139,
+   "chapter": 8,
+   "line_start": 351.993
+  },
+  {
+   "line": "L81",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "chin",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.2,
+     "hmm",
+     0.4
+    ]
+   ],
+   "id": "S092",
+   "start": 361.191,
+   "dur": 2.874,
+   "chapter": 8,
+   "line_start": 361.191
+  },
+  {
+   "line": "L82",
+   "kind": "3d",
+   "set": "backyard",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      1.4,
+      -1.8,
+      1.5
+     ],
+     "tgt": [
+      3.4,
+      1.6,
+      0.95
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      1.64,
+      -1.392,
+      1.434
+     ],
+     "tgt": [
+      3.4,
+      1.6,
+      0.95
+     ],
+     "lens": 28.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "gongfarmer",
+     "at": [
+      2.2,
+      1.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "sack"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.3,
+     "MONEY"
+    ]
+   ],
+   "sfx": [
+    [
+     0.3,
+     "coins",
+     0.6
+    ]
+   ],
+   "music": "warm",
+   "id": "S093",
+   "start": 364.065,
+   "dur": 3.883,
+   "chapter": 8,
+   "line_start": 364.065
+  },
+  {
+   "line": "L83",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.745,
+      0.982
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "present",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "id": "S094",
+   "start": 367.948,
+   "dur": 5.07,
+   "chapter": 8,
+   "line_start": 367.948
+  },
+  {
+   "line": "L84",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "point_r",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.6,
+     "COMMENT BELOW"
+    ]
+   ],
+   "sfx": [
+    [
+     0.5,
+     "pop",
+     0.5
+    ]
+   ],
+   "id": "S095",
+   "start": 373.018,
+   "dur": 3.413,
+   "chapter": 8,
+   "line_start": 373.018
+  },
+  {
+   "line": "L85",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.745,
+      0.982
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "wave",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "id": "S096",
+   "start": 376.431,
+   "dur": 4.699,
+   "chapter": 8,
+   "line_start": 376.431
+  },
+  {
+   "line": null,
+   "kind": "end",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "dur": 20.0,
+   "music": "warm",
+   "id": "S097",
+   "start": 381.13,
+   "chapter": 8
+  }
+ ]
+}

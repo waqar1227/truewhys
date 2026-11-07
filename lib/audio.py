@@ -8,6 +8,8 @@ ROOT = Path(__file__).resolve().parent.parent
 SR = 44100
 SFX_DIR = ROOT / "library/sfx"
 SFX = {  # name -> file (CC0: Kenney/OpenGameArt packs, BigSoundBank by Joseph Sardin)
+    "shovel": "bsb/trim_shovel.wav", "frog": "bsb/trim_frog.wav", "gulp": "bsb/trim_gulp.wav", "drink": "bsb/trim_drink.wav",
+    "splash": "bsb/trim_splash.wav",  # trimmed from the BigSoundBank files listed in bsb/credits.json
     "gavel": "bsb/gavel__gavel-1-blow_1588.mp3", "crowd_murmur": "bsb/crowd__crowd-of-50-60-people-1_3515.mp3",
     "crowd_gasp": "bsb/crowd__outside-talks-2_2969.mp3", "crowd_laugh": "bsb/applause__shouts-and-applauses-of-teens-2_0237.mp3",
     "pig_oink": "bsb/pig__grumpy-pig-2_1659.mp3", "pig_squeal": "bsb/pig__grumpy-pig-1_1658.mp3",

@@ -32,3 +32,10 @@ Helpers: `flames()` toon fire, `candle()`, `panel_wall()`, `tapestry()`.
 - Characters: king (generic Tudor king, not a likeness), groom, quack, toadboy, aleconner, saltpetre, gongfarmer, tanner, fuller, sineater.
 - Hats: tudor_cap (flat cap + feather), brim_hat (1600s wide brim), leather_cap; work apron for non-robed characters.
 - Props: toad, tankard, bucket, shovel, bread, bowl, bottle, cloth.
+
+## Added 7 Nov 2026
+- Sounds (CC0, BigSoundBank, trimmed): `shovel`, `frog`, `gulp`, `drink`, `splash` (lib/audio.py SFX; sources in library/sfx/bsb/credits.json). Extra raw: sheep, splash-big, frogs pond.
+- Graphics: `map_frame(view=(lon, lat, span))` for any region (England views used in B-002); places London, Colchester, Hereford, Wales, Westminster.
+- Doc cards: aleassize, toady, aubrey, order1627, surnames, colchester, coroner1326 (lib/gfx.py DOCS).
+- Rank cards: `card` shots take `sub` ("NUMBER 8") for ranked-list episodes.
+- land/night: readable city wall (battlements, pointed roofs, lit windows, torches).

@@ -112,7 +112,7 @@ def dotted_ring(W, H, cx, cy, r, t, col=C["yellow"]):
 
 # ------------------------------------------------------------------ cards
 
-def chapter_card(W, H, t, d, num, title):
+def chapter_card(W, H, t, d, num, title, sub=None):
     f = brand_bg(W, H).copy()
     f.alpha_composite(rays(W, H, t))
     s = W / 1920
@@ -128,7 +128,7 @@ def chapter_card(W, H, t, d, num, title):
     kt = ease_out((t - 0.18) / 0.5)
     ti = text_img(title, font("lilita", int(104 * s)), C["cream"], stroke=int(8 * s))
     paste_center(f, ti, cx, H * 0.66 + (1 - kt) * 60 * s, 1.0, kt * (1 - k_out))
-    ch = text_img(f"CHAPTER {num}", font("poppins", int(34 * s)), C["mint"], shadow=False)
+    ch = text_img(sub or f"CHAPTER {num}", font("poppins", int(34 * s)), C["mint"], shadow=False)
     paste_center(f, ch, cx, H * 0.775 + (1 - kt) * 60 * s, 1.0, kt * (1 - k_out))
     if k_out > 0:  # coral wipe out
         wp = Image.new("RGBA", (W, H), (0, 0, 0, 0))
@@ -168,10 +168,11 @@ def _land_polys():
 
 
 PLACES = {"Falaise": (-0.20, 48.90), "Autun": (4.30, 46.95), "Basel": (7.59, 47.56), "St-Julien": (6.40, 45.25),
-          "Paris": (2.35, 48.85)}
+          "Paris": (2.35, 48.85), "London": (-0.12, 51.51), "Colchester": (0.90, 51.89), "Hereford": (-2.72, 52.06),
+          "Wales": (-3.70, 52.30), "Westminster": (-0.13, 51.50)}
 
 
-def map_frame(W, H, t, d, pins, villages=False):
+def map_frame(W, H, t, d, pins, villages=False, view=None):
     s = W / 1920
     f = Image.new("RGBA", (W, H), hexa("#1E6E84"))
     # view: zoom in slowly on France / Switzerland
@@ -180,9 +181,12 @@ def map_frame(W, H, t, d, pins, villages=False):
     span = 18 - 4 * k if not villages else 7 - 2 * k
     if villages:
         lon0, lat0 = 4.3, 46.95
+    if view:  # (lon, lat, span in degrees): any region, slow 15% zoom-in
+        lon0, lat0, span = view[0], view[1], view[2] * (1 - 0.15 * k)
     sc = W / span
+    clat = math.cos(math.radians(lat0 if view else 47))
     def P(lon, lat):
-        return (W / 2 + (lon - lon0) * sc * math.cos(math.radians(47)), H / 2 - (lat - lat0) * sc)
+        return (W / 2 + (lon - lon0) * sc * clat, H / 2 - (lat - lat0) * sc)
     d_ = ImageDraw.Draw(f)
     # sea texture: subtle wave lines
     for yy in range(0, H, int(38 * s)):
@@ -322,6 +326,14 @@ DOCS = {
     "paper2013": ("JOURNAL OF LAW AND ECONOMICS · 2013", ["\"Vermin Trials\"", "by Peter T. Leeson", "", "Idea: the trials helped the church", "collect tithes again."], "paper"),
     "basilisk": ("LEGEND: THE BASILISK", ["An egg laid by a rooster...", "could hatch a monster that kills", "with a single look."], "basilisk"),
     "potion": ("WITCHES' POTIONS", ["Rooster eggs were said to be", "the secret ingredient."], "potion"),
+    # B-002 (paraphrased summaries, not quotations; sources in episodes/B-002-worst-jobs/sources.md)
+    "aleassize": ("THE ASSIZE OF BREAD AND ALE", ["Ale must be sold at a fair price,", "in honest measures, and of good", "strength. Brewers who break the", "rule are fined by the court."], "seal"),
+    "toady": ("A WORD IS BORN", ["toad-eater  (1600s)", "  → someone who flatters the powerful", "toady  (1800s)", "  → still used today"], "paper"),
+    "aubrey": ("JOHN AUBREY · 1680s", ["In parts of Wales and the border,", "a poor man was hired at funerals", "to eat bread and drink ale passed", "over the body, and so take on", "the sins of the dead."], "paper"),
+    "order1627": ("ROYAL ORDER · 1627", ["Saltpetre men may dig in stables,", "dove-houses and cellars.", "Owners must leave those floors", "as loose, open earth, ready", "for the next digging."], "seal"),
+    "surnames": ("SURNAMES FROM THIS JOB", ["FULLER", "TUCKER", "WALKER", "", "All mean someone who fulled cloth."], "paper"),
+    "colchester": ("COLCHESTER · c. 1425", ["The brewers complain: the tanners", "soak their hides in the river", "the brewers draw their water from."], "seal"),
+    "coroner1326": ("LONDON CORONER'S ROLL · 1326", ["Richard le Rakiere was seated on", "the latrine in his house; the planks", "being rotten gave way, and he fell", "in and was drowned."], "seal"),
 }
 
 

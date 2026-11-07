@@ -1,5 +1,5 @@
 # id | chapter | text (captions) || say (pronunciation for the voice, optional)
-# B-002 DRAFT v1 (awaiting owner approval of topic + title). Ranked list: #8 (bad) -> #1 (worst). Each item = one Short.
+# B-002 v1, owner approved 6 Nov 2026. Ranked list: #8 (bad) -> #1 (worst). Each item = one Short.
 L01|0|Imagine a job where you work only at night...
 L02|0|because the law doesn't want anyone to see you.
 L03|0|Or a job where the king's most powerful servant... was the man who helped him on the toilet.

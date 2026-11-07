@@ -364,11 +364,11 @@ def render_shot(shot, plates, ep, W, H, lines_t, env_fn):
             if shot.get("label"):
                 pass
         elif kind == "card":
-            fr = gfx.chapter_card(W, H, t, d, shot["num"], shot["text"])
+            fr = gfx.chapter_card(W, H, t, d, shot["num"], shot["text"], shot.get("sub"))
         elif kind == "title":
             fr = gfx.title_card(W, H, t, d, shot["text"], bg_title)
         elif kind in ("map", "split", "doc"):
-            fn = {"map": lambda w, h: gfx.map_frame(w, h, t, d, shot.get("pins", []), shot.get("villages", False)),
+            fn = {"map": lambda w, h: gfx.map_frame(w, h, t, d, shot.get("pins", []), shot.get("villages", False), shot.get("view")),
                   "split": lambda w, h: gfx.split_frame(w, h, t, d, shot["side"], shot["items"], shot["heading"]),
                   "doc": lambda w, h: gfx.doc_frame(w, h, t, d, shot["doc"])}[kind]
             fr = inset_frame(fn, W, H, t, d, zoom=kind == "doc") if vert else fn(W, H)
