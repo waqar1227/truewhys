@@ -51,3 +51,12 @@
 - B-002: Kokoro guide voice, shot plan (98 shots, 6:41), preview stills, **animatic v1 sent to owner for approval**
   (episodes/B-002-worst-jobs/animatic/animatic_v1_kokoro.mp4, not committed: 60 MB). Coroners' Roll fact verified.
 - Shorts upload packages ready (lib/upload_shorts.py); uploader handles playlist, comment, long-video link.
+
+## How to resume in a new Claude Code account (if access is ever lost)
+1. Connect GitHub and open the private repo **TrueWhys**, branch `claude/laughing-newton-g4f09n` (all work is here).
+2. Create a cloud environment "TrueWhys" (network Full) and re-enter the keys: YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN,
+   KAGGLE_USERNAME, KAGGLE_API_TOKEN, FREESOUND_API_KEY, PIXABAY_API_KEY, SKETCHFAB_API_TOKEN, and the Gemini key as a network secret.
+3. Ask Claude to read CLAUDE.md and STATUS.md, run setup.sh, regenerate music (`python lib/music.py library/music/procedural`),
+   and re-create the scheduled heartbeat (every 4 h).
+4. Rendered plates: re-download from Kaggle (`kaggle kernels output waqarahmed51/truewhys-render-<id>`) into episodes/<id>/renders/.
+   Voices: regenerate with lib/voice_gemini.py (or Kokoro lib/voice.py). Uploaded videos live on YouTube.
