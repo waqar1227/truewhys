@@ -67,3 +67,8 @@
 - B-001 Shorts: composed, QA'd; 5 re-composed with pop-word fit fix → then upload with `--long 9C-9O0c6VqM` (slots +1 h, every 3 h).
 - Facebook: Page ID/name in env, token as network secret for graph.facebook.com — **token expired 7 Nov 17:00 UTC (short-lived)**; owner must save a long-lived Page token.
 - TikTok: connected in Metricool (brand id 7942824, account "truewhys", timezone Asia/Karachi). Metricool needs a public video URL.
+- Social packages: `python lib/crosspost.py episodes/<ep>` → social/plan.json + README.md (captions, times, files). B-001: 15 posts ready
+  (7 TikTok + 7 Facebook Reels from 16:30 UTC 8 Nov, long video on Facebook 15:00 UTC 9 Nov). Waiting for: Facebook long-lived token,
+  owner's choice of hosting for Metricool (A: file host, B: manual upload).
+- B-002 part 2 plates (chapters 4–8, job_D, ~5 h): start Mon 9 Nov ≥ 00:30 UTC (new Kaggle week; this week ≈ 26.6 h used).
+- B-002 Gemini chapter voice: 8 Nov after 08:00 UTC (9 requests), then plan.py, compose, QA, schedule.
