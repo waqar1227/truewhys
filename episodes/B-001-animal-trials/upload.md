@@ -19,12 +19,12 @@ Pigs, bulls, rats, a rooster and even weevils got summonses, lawyers and verdict
 Chapters
 0:00 The pig in the square
 0:48 The Pig of Falaise
-1:53 Two kinds of court
-2:36 The lawyer for the rats
-3:47 The rooster of Basel
-4:35 The weevils' land deal
-5:52 The real why
-6:54 The end of animal trials
+1:44 Two kinds of court
+2:23 The lawyer for the rats
+3:25 The rooster of Basel
+4:13 The weevils' land deal
+5:24 The real why
+6:19 The end of animal trials
 
 Sources
 • E. P. Evans, The Criminal Prosecution and Capital Punishment of Animals (1906)
