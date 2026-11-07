@@ -1,0 +1,612 @@
+[
+ {
+  "id": "H8",
+  "chapter": null,
+  "text": "The worst job in old England? Emptying toilets. By hand. At night.",
+  "dur": 5.2,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.0,
+    "e": 0.4
+   },
+   {
+    "w": "worst",
+    "s": 0.4,
+    "e": 0.66
+   },
+   {
+    "w": "job",
+    "s": 0.66,
+    "e": 1.04
+   },
+   {
+    "w": "in",
+    "s": 1.04,
+    "e": 1.2
+   },
+   {
+    "w": "old",
+    "s": 1.2,
+    "e": 1.36
+   },
+   {
+    "w": "England?",
+    "s": 1.36,
+    "e": 1.68
+   },
+   {
+    "w": "Emptying",
+    "s": 2.22,
+    "e": 2.6
+   },
+   {
+    "w": "toilets.",
+    "s": 2.6,
+    "e": 3.06
+   },
+   {
+    "w": "By",
+    "s": 3.64,
+    "e": 3.8
+   },
+   {
+    "w": "hand.",
+    "s": 3.8,
+    "e": 4.16
+   },
+   {
+    "w": "At",
+    "s": 4.56,
+    "e": 4.68
+   },
+   {
+    "w": "night.",
+    "s": 4.68,
+    "e": 5.0
+   }
+  ],
+  "heard": "The worst job in old England? Emptying toilets. By hand. At night.",
+  "match": 1.0
+ },
+ {
+  "id": "H2",
+  "chapter": null,
+  "text": "The most trusted man in Tudor England... worked in the king's toilet.",
+  "dur": 3.84,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.08,
+    "e": 0.26
+   },
+   {
+    "w": "most",
+    "s": 0.26,
+    "e": 0.42
+   },
+   {
+    "w": "trusted",
+    "s": 0.42,
+    "e": 0.82
+   },
+   {
+    "w": "man",
+    "s": 0.82,
+    "e": 1.14
+   },
+   {
+    "w": "in",
+    "s": 1.14,
+    "e": 1.36
+   },
+   {
+    "w": "Tudor",
+    "s": 1.36,
+    "e": 1.6
+   },
+   {
+    "w": "England...",
+    "s": 1.6,
+    "e": 2.44
+   },
+   {
+    "w": "worked",
+    "s": 2.44,
+    "e": 2.54
+   },
+   {
+    "w": "in",
+    "s": 2.54,
+    "e": 2.84
+   },
+   {
+    "w": "the",
+    "s": 2.84,
+    "e": 2.98
+   },
+   {
+    "w": "king's",
+    "s": 2.98,
+    "e": 3.36
+   },
+   {
+    "w": "toilet.",
+    "s": 3.36,
+    "e": 3.64
+   }
+  ],
+  "heard": "The most trusted man in Tudor England... worked in the king's toilet.",
+  "match": 1.0
+ },
+ {
+  "id": "H3",
+  "chapter": null,
+  "text": "His job was to swallow a toad. In front of a crowd.",
+  "dur": 3.78,
+  "words": [
+   {
+    "w": "His",
+    "s": 0.08,
+    "e": 0.28
+   },
+   {
+    "w": "job",
+    "s": 0.28,
+    "e": 0.58
+   },
+   {
+    "w": "was",
+    "s": 0.58,
+    "e": 0.82
+   },
+   {
+    "w": "to",
+    "s": 0.82,
+    "e": 1.02
+   },
+   {
+    "w": "swallow",
+    "s": 1.02,
+    "e": 1.36
+   },
+   {
+    "w": "a",
+    "s": 1.36,
+    "e": 1.66
+   },
+   {
+    "w": "toad.",
+    "s": 1.66,
+    "e": 2.2
+   },
+   {
+    "w": "In",
+    "s": 2.66,
+    "e": 2.72
+   },
+   {
+    "w": "front",
+    "s": 2.72,
+    "e": 2.9
+   },
+   {
+    "w": "of",
+    "s": 2.9,
+    "e": 3.04
+   },
+   {
+    "w": "a",
+    "s": 3.04,
+    "e": 3.28
+   },
+   {
+    "w": "crowd.",
+    "s": 3.28,
+    "e": 3.58
+   }
+  ],
+  "heard": "His job was to swallow a toad. In front of a crowd.",
+  "match": 1.0
+ },
+ {
+  "id": "H4",
+  "chapter": null,
+  "text": "Some people were paid to eat a dead man's sins.",
+  "dur": 2.98,
+  "words": [
+   {
+    "w": "Some",
+    "s": 0.08,
+    "e": 0.36
+   },
+   {
+    "w": "people",
+    "s": 0.36,
+    "e": 0.62
+   },
+   {
+    "w": "were",
+    "s": 0.62,
+    "e": 0.84
+   },
+   {
+    "w": "paid",
+    "s": 0.84,
+    "e": 1.06
+   },
+   {
+    "w": "to",
+    "s": 1.06,
+    "e": 1.32
+   },
+   {
+    "w": "eat",
+    "s": 1.32,
+    "e": 1.6
+   },
+   {
+    "w": "a",
+    "s": 1.6,
+    "e": 1.82
+   },
+   {
+    "w": "dead",
+    "s": 1.82,
+    "e": 2.06
+   },
+   {
+    "w": "man's",
+    "s": 2.06,
+    "e": 2.52
+   },
+   {
+    "w": "sins.",
+    "s": 2.52,
+    "e": 2.78
+   }
+  ],
+  "heard": "Some people were paid to eat a dead man's sins.",
+  "match": 1.0
+ },
+ {
+  "id": "H5",
+  "chapter": null,
+  "text": "In 1627, the king's men could dig up your floor. And you couldn't say no.",
+  "dur": 5.44,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.08,
+    "e": 0.22
+   },
+   {
+    "w": "1627,",
+    "s": 0.22,
+    "e": 1.18
+   },
+   {
+    "w": "the",
+    "s": 1.56,
+    "e": 1.62
+   },
+   {
+    "w": "king's",
+    "s": 1.62,
+    "e": 1.94
+   },
+   {
+    "w": "men",
+    "s": 1.94,
+    "e": 2.06
+   },
+   {
+    "w": "could",
+    "s": 2.06,
+    "e": 2.28
+   },
+   {
+    "w": "dig",
+    "s": 2.28,
+    "e": 2.46
+   },
+   {
+    "w": "up",
+    "s": 2.46,
+    "e": 2.62
+   },
+   {
+    "w": "your",
+    "s": 2.62,
+    "e": 2.78
+   },
+   {
+    "w": "floor.",
+    "s": 2.78,
+    "e": 3.04
+   },
+   {
+    "w": "And",
+    "s": 3.58,
+    "e": 3.78
+   },
+   {
+    "w": "you",
+    "s": 3.78,
+    "e": 4.12
+   },
+   {
+    "w": "couldn't",
+    "s": 4.12,
+    "e": 4.7
+   },
+   {
+    "w": "say",
+    "s": 4.7,
+    "e": 4.92
+   },
+   {
+    "w": "no.",
+    "s": 4.92,
+    "e": 5.24
+   }
+  ],
+  "heard": "In 1627, the king's men could dig up your floor. And you couldn't say no.",
+  "match": 1.0
+ },
+ {
+  "id": "H6",
+  "chapter": null,
+  "text": "For centuries, new cloth was washed... in old urine.",
+  "dur": 3.76,
+  "words": [
+   {
+    "w": "For",
+    "s": 0.08,
+    "e": 0.28
+   },
+   {
+    "w": "centuries,",
+    "s": 0.28,
+    "e": 0.82
+   },
+   {
+    "w": "new",
+    "s": 1.2,
+    "e": 1.3
+   },
+   {
+    "w": "cloth",
+    "s": 1.3,
+    "e": 1.56
+   },
+   {
+    "w": "was",
+    "s": 1.56,
+    "e": 1.82
+   },
+   {
+    "w": "washed...",
+    "s": 1.82,
+    "e": 2.3
+   },
+   {
+    "w": "in",
+    "s": 2.3,
+    "e": 2.76
+   },
+   {
+    "w": "old",
+    "s": 2.76,
+    "e": 3.16
+   },
+   {
+    "w": "urine.",
+    "s": 3.16,
+    "e": 3.56
+   }
+  ],
+  "heard": "For centuries, new cloth was washed... in old urine.",
+  "match": 1.0
+ },
+ {
+  "id": "H7",
+  "chapter": null,
+  "text": "This job smelled so bad, towns pushed it outside the walls.",
+  "dur": 3.6,
+  "words": [
+   {
+    "w": "This",
+    "s": 0.08,
+    "e": 0.18
+   },
+   {
+    "w": "job",
+    "s": 0.18,
+    "e": 0.44
+   },
+   {
+    "w": "smelled",
+    "s": 0.44,
+    "e": 0.74
+   },
+   {
+    "w": "so",
+    "s": 0.74,
+    "e": 1.08
+   },
+   {
+    "w": "bad,",
+    "s": 1.08,
+    "e": 1.44
+   },
+   {
+    "w": "towns",
+    "s": 1.82,
+    "e": 1.96
+   },
+   {
+    "w": "pushed",
+    "s": 1.96,
+    "e": 2.28
+   },
+   {
+    "w": "it",
+    "s": 2.28,
+    "e": 2.5
+   },
+   {
+    "w": "outside",
+    "s": 2.5,
+    "e": 2.92
+   },
+   {
+    "w": "the",
+    "s": 2.92,
+    "e": 3.14
+   },
+   {
+    "w": "walls.",
+    "s": 3.14,
+    "e": 3.4
+   }
+  ],
+  "heard": "This job smelled so bad, towns pushed it outside the walls.",
+  "match": 1.0
+ },
+ {
+  "id": "H1",
+  "chapter": null,
+  "text": "In medieval England, one man was chosen to drink ale for his job. So why did everyone hate him?",
+  "dur": 6.72,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.08,
+    "e": 0.18
+   },
+   {
+    "w": "medieval",
+    "s": 0.18,
+    "e": 0.44
+   },
+   {
+    "w": "England,",
+    "s": 0.44,
+    "e": 0.88
+   },
+   {
+    "w": "one",
+    "s": 1.26,
+    "e": 1.44
+   },
+   {
+    "w": "man",
+    "s": 1.44,
+    "e": 1.96
+   },
+   {
+    "w": "was",
+    "s": 1.96,
+    "e": 1.96
+   },
+   {
+    "w": "chosen",
+    "s": 1.96,
+    "e": 2.28
+   },
+   {
+    "w": "to",
+    "s": 2.28,
+    "e": 2.58
+   },
+   {
+    "w": "drink",
+    "s": 2.58,
+    "e": 2.78
+   },
+   {
+    "w": "ale",
+    "s": 2.78,
+    "e": 3.12
+   },
+   {
+    "w": "for",
+    "s": 3.12,
+    "e": 3.6
+   },
+   {
+    "w": "his",
+    "s": 3.6,
+    "e": 3.78
+   },
+   {
+    "w": "job.",
+    "s": 3.78,
+    "e": 4.18
+   },
+   {
+    "w": "So",
+    "s": 4.86,
+    "e": 4.96
+   },
+   {
+    "w": "why",
+    "s": 4.96,
+    "e": 5.3
+   },
+   {
+    "w": "did",
+    "s": 5.3,
+    "e": 5.5
+   },
+   {
+    "w": "everyone",
+    "s": 5.5,
+    "e": 5.96
+   },
+   {
+    "w": "hate",
+    "s": 5.96,
+    "e": 6.28
+   },
+   {
+    "w": "him?",
+    "s": 6.28,
+    "e": 6.52
+   }
+  ],
+  "heard": "In medieval England, one man... was chosen to drink ale for his job. So why did everyone hate him?",
+  "match": 1.0
+ },
+ {
+  "id": "O1",
+  "chapter": null,
+  "text": "Full story on TrueWhys.",
+  "dur": 1.78,
+  "words": [
+   {
+    "w": "Full",
+    "s": 0.08,
+    "e": 0.08
+   },
+   {
+    "w": "story",
+    "s": 0.08,
+    "e": 0.4
+   },
+   {
+    "w": "on",
+    "s": 0.4,
+    "e": 0.82
+   },
+   {
+    "w": "TrueWhys.",
+    "s": 0.82,
+    "e": 1.58
+   }
+  ],
+  "heard": "Full story on TrueWhys.",
+  "match": 1.0
+ }
+]

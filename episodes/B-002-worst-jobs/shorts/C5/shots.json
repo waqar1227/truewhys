@@ -8,7 +8,7 @@
  "episode": "B-002",
  "short": "C5",
  "title": "The King's Men Who Could Dig Up Your Floor",
- "duration": 47.131,
+ "duration": 45.526,
  "vertical": true,
  "shots": [
   {
@@ -80,7 +80,7 @@
    ],
    "id": "C5_H",
    "start": 0.0,
-   "dur": 7.495,
+   "dur": 5.89,
    "chapter": 5,
    "line_start": 0.15,
    "music": "mystery"
@@ -149,10 +149,10 @@
     ]
    ],
    "id": "C5_S057",
-   "start": 7.495,
+   "start": 5.89,
    "dur": 3.157,
    "chapter": 5,
-   "line_start": 7.495,
+   "line_start": 5.89,
    "src": "S057",
    "music": "mystery"
   },
@@ -206,10 +206,10 @@
     ]
    ],
    "id": "C5_S058",
-   "start": 10.652,
+   "start": 9.047,
    "dur": 5.01,
    "chapter": 5,
-   "line_start": 10.652,
+   "line_start": 9.047,
    "src": "S058"
   },
   {
@@ -269,10 +269,10 @@
     ]
    ],
    "id": "C5_S059",
-   "start": 15.662,
+   "start": 14.057,
    "dur": 4.008,
    "chapter": 5,
-   "line_start": 15.662,
+   "line_start": 14.057,
    "src": "S059"
   },
   {
@@ -345,10 +345,10 @@
     ]
    ],
    "id": "C5_S060",
-   "start": 19.67,
+   "start": 18.065,
    "dur": 3.218,
    "chapter": 5,
-   "line_start": 19.67,
+   "line_start": 18.065,
    "src": "S060"
   },
   {
@@ -368,10 +368,10 @@
     ]
    ],
    "id": "C5_S061",
-   "start": 22.888,
+   "start": 21.283,
    "dur": 6.985,
    "chapter": 5,
-   "line_start": 22.888,
+   "line_start": 21.283,
    "src": "S061"
   },
   {
@@ -447,10 +447,10 @@
     ]
    ],
    "id": "C5_S062",
-   "start": 29.873,
+   "start": 28.268,
    "dur": 5.867,
    "chapter": 5,
-   "line_start": 29.873,
+   "line_start": 28.268,
    "src": "S062"
   },
   {
@@ -529,10 +529,10 @@
     ]
    ],
    "id": "C5_S063",
-   "start": 35.74,
+   "start": 34.135,
    "dur": 4.844,
    "chapter": 5,
-   "line_start": 35.74,
+   "line_start": 34.135,
    "src": "S063"
   },
   {
@@ -635,18 +635,18 @@
     ]
    ],
    "id": "C5_S064",
-   "start": 40.584,
+   "start": 38.979,
    "dur": 3.947,
    "chapter": 5,
-   "line_start": 40.584,
+   "line_start": 38.979,
    "src": "S064"
   },
   {
    "id": "C5_END",
    "kind": "end",
    "line": "O1",
-   "start": 44.531,
-   "line_start": 44.681,
+   "start": 42.926,
+   "line_start": 43.076,
    "dur": 2.6,
    "chapter": null,
    "sfx": [

@@ -8,7 +8,7 @@
  "episode": "B-002",
  "short": "C3",
  "title": "The Job Where You Had to Swallow a Toad",
- "duration": 45.818,
+ "duration": 44.318,
  "vertical": true,
  "shots": [
   {
@@ -82,7 +82,7 @@
    ],
    "id": "C3_H",
    "start": 0.0,
-   "dur": 5.73,
+   "dur": 4.23,
    "chapter": 3,
    "line_start": 0.15,
    "music": "mystery"
@@ -194,10 +194,10 @@
     ]
    ],
    "id": "C3_S032",
-   "start": 5.73,
+   "start": 4.23,
    "dur": 4.864,
    "chapter": 3,
-   "line_start": 5.73,
+   "line_start": 4.23,
    "src": "S032",
    "music": "mystery"
   },
@@ -270,10 +270,10 @@
     ]
    ],
    "id": "C3_S033",
-   "start": 10.594,
+   "start": 9.094,
    "dur": 2.0,
    "chapter": 3,
-   "line_start": 10.594,
+   "line_start": 9.094,
    "src": "S033"
   },
   {
@@ -345,10 +345,10 @@
     ]
    ],
    "id": "C3_S034",
-   "start": 12.594,
+   "start": 11.094,
    "dur": 3.499,
    "chapter": 3,
-   "line_start": 12.594,
+   "line_start": 11.094,
    "src": "S034"
   },
   {
@@ -432,10 +432,10 @@
     ]
    ],
    "id": "C3_S035",
-   "start": 16.093,
+   "start": 14.593,
    "dur": 5.324,
    "chapter": 3,
-   "line_start": 16.093,
+   "line_start": 14.593,
    "src": "S035"
   },
   {
@@ -514,10 +514,10 @@
     ]
    ],
    "id": "C3_S036",
-   "start": 21.417,
+   "start": 19.917,
    "dur": 3.199,
    "chapter": 3,
-   "line_start": 21.417,
+   "line_start": 19.917,
    "src": "S036"
   },
   {
@@ -596,10 +596,10 @@
     ]
    ],
    "id": "C3_S037",
-   "start": 24.616,
+   "start": 23.116,
    "dur": 3.725,
    "chapter": 3,
-   "line_start": 24.616,
+   "line_start": 23.116,
    "src": "S037"
   },
   {
@@ -808,10 +808,10 @@
     ]
    ],
    "id": "C3_S038",
-   "start": 28.341,
+   "start": 26.841,
    "dur": 4.169,
    "chapter": 3,
-   "line_start": 28.341,
+   "line_start": 26.841,
    "src": "S038"
   },
   {
@@ -872,10 +872,10 @@
     ]
    ],
    "id": "C3_S039",
-   "start": 32.51,
+   "start": 31.01,
    "dur": 2.891,
    "chapter": 3,
-   "line_start": 32.51,
+   "line_start": 31.01,
    "src": "S039"
   },
   {
@@ -895,10 +895,10 @@
     ]
    ],
    "id": "C3_S040",
-   "start": 35.401,
+   "start": 33.901,
    "dur": 4.236,
    "chapter": 3,
-   "line_start": 35.401,
+   "line_start": 33.901,
    "src": "S040"
   },
   {
@@ -965,18 +965,18 @@
     ]
    ],
    "id": "C3_S041",
-   "start": 39.637,
+   "start": 38.137,
    "dur": 3.581,
    "chapter": 3,
-   "line_start": 39.637,
+   "line_start": 38.137,
    "src": "S041"
   },
   {
    "id": "C3_END",
    "kind": "end",
    "line": "O1",
-   "start": 43.218,
-   "line_start": 43.368,
+   "start": 41.718,
+   "line_start": 41.868,
    "dur": 2.6,
    "chapter": null,
    "sfx": [

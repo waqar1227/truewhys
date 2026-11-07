@@ -8,7 +8,7 @@
  "episode": "B-002",
  "short": "C4",
  "title": "The Man Paid to Eat a Dead Man's Sins",
- "duration": 47.421,
+ "duration": 45.711,
  "vertical": true,
  "shots": [
   {
@@ -70,7 +70,7 @@
    ],
    "id": "C4_H",
    "start": 0.0,
-   "dur": 5.14,
+   "dur": 3.43,
    "chapter": 4,
    "line_start": 0.15,
    "music": "mystery"
@@ -119,10 +119,10 @@
     ]
    ],
    "id": "C4_S044",
-   "start": 5.14,
+   "start": 3.43,
    "dur": 1.667,
    "chapter": 4,
-   "line_start": 5.14,
+   "line_start": 3.43,
    "src": "S044",
    "music": "mystery"
   },
@@ -165,10 +165,10 @@
     ]
    ],
    "id": "C4_S045",
-   "start": 6.807,
+   "start": 5.097,
    "dur": 3.044,
    "chapter": 4,
-   "line_start": 6.807,
+   "line_start": 5.097,
    "src": "S045"
   },
   {
@@ -191,10 +191,10 @@
     ]
    ],
    "id": "C4_S046",
-   "start": 9.851,
+   "start": 8.141,
    "dur": 4.567,
    "chapter": 4,
-   "line_start": 6.807,
+   "line_start": 5.097,
    "src": "S046"
   },
   {
@@ -278,10 +278,10 @@
     ]
    ],
    "id": "C4_S047",
-   "start": 14.418,
+   "start": 12.708,
    "dur": 4.373,
    "chapter": 4,
-   "line_start": 14.418,
+   "line_start": 12.708,
    "src": "S047"
   },
   {
@@ -354,10 +354,10 @@
     ]
    ],
    "id": "C4_S048",
-   "start": 18.791,
+   "start": 17.081,
    "dur": 3.599,
    "chapter": 4,
-   "line_start": 18.791,
+   "line_start": 17.081,
    "src": "S048"
   },
   {
@@ -418,10 +418,10 @@
     ]
    ],
    "id": "C4_S049",
-   "start": 22.39,
+   "start": 20.68,
    "dur": 4.859,
    "chapter": 4,
-   "line_start": 22.39,
+   "line_start": 20.68,
    "src": "S049"
   },
   {
@@ -487,10 +487,10 @@
     ]
    ],
    "id": "C4_S050",
-   "start": 27.249,
+   "start": 25.539,
    "dur": 3.413,
    "chapter": 4,
-   "line_start": 27.249,
+   "line_start": 25.539,
    "src": "S050"
   },
   {
@@ -554,10 +554,10 @@
     ]
    ],
    "id": "C4_S051",
-   "start": 30.662,
+   "start": 28.952,
    "dur": 2.36,
    "chapter": 4,
-   "line_start": 30.662,
+   "line_start": 28.952,
    "src": "S051"
   },
   {
@@ -651,10 +651,10 @@
     ]
    ],
    "id": "C4_S052",
-   "start": 33.022,
+   "start": 31.312,
    "dur": 2.36,
    "chapter": 4,
-   "line_start": 30.662,
+   "line_start": 28.952,
    "src": "S052"
   },
   {
@@ -709,10 +709,10 @@
    "part": null,
    "tag": "HISTORIANS DISAGREE",
    "id": "C4_S053",
-   "start": 35.382,
+   "start": 33.672,
    "dur": 3.916,
    "chapter": 4,
-   "line_start": 35.382,
+   "line_start": 33.672,
    "src": "S053"
   },
   {
@@ -774,18 +774,18 @@
     ]
    ],
    "id": "C4_S054",
-   "start": 39.298,
+   "start": 37.588,
    "dur": 5.523,
    "chapter": 4,
-   "line_start": 39.298,
+   "line_start": 37.588,
    "src": "S054"
   },
   {
    "id": "C4_END",
    "kind": "end",
    "line": "O1",
-   "start": 44.821,
-   "line_start": 44.971,
+   "start": 43.111,
+   "line_start": 43.261,
    "dur": 2.6,
    "chapter": null,
    "sfx": [

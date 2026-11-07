@@ -8,7 +8,7 @@
  "episode": "B-002",
  "short": "C2",
  "title": "The King's Toilet Servant Who Became Powerful",
- "duration": 49.314,
+ "duration": 46.884,
  "vertical": true,
  "shots": [
   {
@@ -82,7 +82,7 @@
    ],
    "id": "C2_H",
    "start": 0.0,
-   "dur": 6.72,
+   "dur": 4.29,
    "chapter": 2,
    "line_start": 0.15,
    "music": "mystery"
@@ -138,10 +138,10 @@
     ]
    ],
    "id": "C2_S021",
-   "start": 6.72,
+   "start": 4.29,
    "dur": 3.233,
    "chapter": 2,
-   "line_start": 6.72,
+   "line_start": 4.29,
    "src": "S021",
    "music": "mystery"
   },
@@ -215,10 +215,10 @@
     ]
    ],
    "id": "C2_S022",
-   "start": 9.953,
+   "start": 7.523,
    "dur": 4.127,
    "chapter": 2,
-   "line_start": 9.953,
+   "line_start": 7.523,
    "src": "S022"
   },
   {
@@ -279,10 +279,10 @@
     ]
    ],
    "id": "C2_S023",
-   "start": 14.08,
+   "start": 11.65,
    "dur": 2.556,
    "chapter": 2,
-   "line_start": 14.08,
+   "line_start": 11.65,
    "src": "S023"
   },
   {
@@ -355,10 +355,10 @@
     ]
    ],
    "id": "C2_S024",
-   "start": 16.636,
+   "start": 14.206,
    "dur": 6.323,
    "chapter": 2,
-   "line_start": 16.636,
+   "line_start": 14.206,
    "src": "S024"
   },
   {
@@ -437,10 +437,10 @@
     ]
    ],
    "id": "C2_S025",
-   "start": 22.959,
+   "start": 20.529,
    "dur": 6.881,
    "chapter": 2,
-   "line_start": 22.959,
+   "line_start": 20.529,
    "src": "S025"
   },
   {
@@ -534,10 +534,10 @@
     ]
    ],
    "id": "C2_S026",
-   "start": 29.84,
+   "start": 27.41,
    "dur": 2.131,
    "chapter": 2,
-   "line_start": 29.84,
+   "line_start": 27.41,
    "src": "S026"
   },
   {
@@ -598,10 +598,10 @@
    ],
    "music": "tension",
    "id": "C2_S027",
-   "start": 31.971,
+   "start": 29.541,
    "dur": 2.894,
    "chapter": 2,
-   "line_start": 31.971,
+   "line_start": 29.541,
    "src": "S027"
   },
   {
@@ -674,10 +674,10 @@
     ]
    ],
    "id": "C2_S028",
-   "start": 34.865,
+   "start": 32.435,
    "dur": 7.089,
    "chapter": 2,
-   "line_start": 34.865,
+   "line_start": 32.435,
    "src": "S028"
   },
   {
@@ -744,18 +744,18 @@
     ]
    ],
    "id": "C2_S029",
-   "start": 41.954,
+   "start": 39.524,
    "dur": 4.76,
    "chapter": 2,
-   "line_start": 41.954,
+   "line_start": 39.524,
    "src": "S029"
   },
   {
    "id": "C2_END",
    "kind": "end",
    "line": "O1",
-   "start": 46.714,
-   "line_start": 46.864,
+   "start": 44.284,
+   "line_start": 44.434,
    "dur": 2.6,
    "chapter": null,
    "sfx": [

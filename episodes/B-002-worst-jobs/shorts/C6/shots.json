@@ -8,7 +8,7 @@
  "episode": "B-002",
  "short": "C6",
  "title": "Why Workers Stomped on Cloth in Old Urine",
- "duration": 43.382,
+ "duration": 42.362,
  "vertical": true,
  "shots": [
   {
@@ -82,7 +82,7 @@
    ],
    "id": "C6_H",
    "start": 0.0,
-   "dur": 5.23,
+   "dur": 4.21,
    "chapter": 6,
    "line_start": 0.15,
    "music": "mystery"
@@ -145,10 +145,10 @@
     ]
    ],
    "id": "C6_S067",
-   "start": 5.23,
+   "start": 4.21,
    "dur": 4.971,
    "chapter": 6,
-   "line_start": 5.23,
+   "line_start": 4.21,
    "src": "S067",
    "music": "mystery"
   },
@@ -215,10 +215,10 @@
     ]
    ],
    "id": "C6_S068",
-   "start": 10.201,
+   "start": 9.181,
    "dur": 3.91,
    "chapter": 6,
-   "line_start": 10.201,
+   "line_start": 9.181,
    "src": "S068"
   },
   {
@@ -292,10 +292,10 @@
     ]
    ],
    "id": "C6_S069",
-   "start": 14.111,
+   "start": 13.091,
    "dur": 5.035,
    "chapter": 6,
-   "line_start": 14.111,
+   "line_start": 13.091,
    "src": "S069"
   },
   {
@@ -366,10 +366,10 @@
     ]
    ],
    "id": "C6_S070",
-   "start": 19.146,
+   "start": 18.126,
    "dur": 5.589,
    "chapter": 6,
-   "line_start": 19.146,
+   "line_start": 18.126,
    "src": "S070"
   },
   {
@@ -436,10 +436,10 @@
     ]
    ],
    "id": "C6_S071",
-   "start": 24.735,
+   "start": 23.715,
    "dur": 4.578,
    "chapter": 6,
-   "line_start": 24.735,
+   "line_start": 23.715,
    "src": "S071"
   },
   {
@@ -487,10 +487,10 @@
     ]
    ],
    "id": "C6_S072",
-   "start": 29.313,
+   "start": 28.293,
    "dur": 4.386,
    "chapter": 6,
-   "line_start": 29.313,
+   "line_start": 28.293,
    "src": "S072"
   },
   {
@@ -510,18 +510,18 @@
     ]
    ],
    "id": "C6_S073",
-   "start": 33.699,
+   "start": 32.679,
    "dur": 7.083,
    "chapter": 6,
-   "line_start": 33.699,
+   "line_start": 32.679,
    "src": "S073"
   },
   {
    "id": "C6_END",
    "kind": "end",
    "line": "O1",
-   "start": 40.782,
-   "line_start": 40.932,
+   "start": 39.762,
+   "line_start": 39.912,
    "dur": 2.6,
    "chapter": null,
    "sfx": [

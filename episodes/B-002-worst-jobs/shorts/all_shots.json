@@ -62,7 +62,7 @@
    "music": "warm",
    "id": "C8_H",
    "start": 0.0,
-   "dur": 6.555,
+   "dur": 5.65,
    "chapter": 8,
    "line_start": 0.15
   },
@@ -116,10 +116,10 @@
     ]
    ],
    "id": "C8_S086",
-   "start": 6.555,
+   "start": 5.65,
    "dur": 5.116,
    "chapter": 8,
-   "line_start": 6.555,
+   "line_start": 5.65,
    "src": "S086",
    "music": "warm"
   },
@@ -181,10 +181,10 @@
     ]
    ],
    "id": "C8_S087",
-   "start": 11.671,
+   "start": 10.766,
    "dur": 2.451,
    "chapter": 8,
-   "line_start": 11.671,
+   "line_start": 10.766,
    "src": "S087"
   },
   {
@@ -258,10 +258,10 @@
     ]
    ],
    "id": "C8_S088",
-   "start": 14.122,
+   "start": 13.217,
    "dur": 6.612,
    "chapter": 8,
-   "line_start": 14.122,
+   "line_start": 13.217,
    "src": "S088"
   },
   {
@@ -329,10 +329,10 @@
     ]
    ],
    "id": "C8_S089",
-   "start": 20.734,
+   "start": 19.829,
    "dur": 4.294,
    "chapter": 8,
-   "line_start": 20.734,
+   "line_start": 19.829,
    "src": "S089"
   },
   {
@@ -383,10 +383,10 @@
     ]
    ],
    "id": "C8_S091",
-   "start": 30.087,
+   "start": 29.182,
    "dur": 4.139,
    "chapter": 8,
-   "line_start": 25.028,
+   "line_start": 24.123,
    "src": "S091"
   },
   {
@@ -447,10 +447,10 @@
     ]
    ],
    "id": "C8_S092",
-   "start": 34.226,
+   "start": 33.321,
    "dur": 2.874,
    "chapter": 8,
-   "line_start": 34.226,
+   "line_start": 33.321,
    "src": "S092"
   },
   {
@@ -518,10 +518,10 @@
    ],
    "music": "warm",
    "id": "C8_S093",
-   "start": 37.1,
+   "start": 36.195,
    "dur": 3.883,
    "chapter": 8,
-   "line_start": 37.1,
+   "line_start": 36.195,
    "src": "S093"
   },
   {
@@ -575,10 +575,10 @@
    ],
    "part": null,
    "id": "C8_S094",
-   "start": 40.983,
+   "start": 40.078,
    "dur": 5.07,
    "chapter": 8,
-   "line_start": 40.983,
+   "line_start": 40.078,
    "src": "S094"
   },
   {
@@ -652,7 +652,7 @@
    ],
    "id": "C2_H",
    "start": 0.0,
-   "dur": 6.72,
+   "dur": 4.29,
    "chapter": 2,
    "line_start": 0.15,
    "music": "mystery"
@@ -708,10 +708,10 @@
     ]
    ],
    "id": "C2_S021",
-   "start": 6.72,
+   "start": 4.29,
    "dur": 3.233,
    "chapter": 2,
-   "line_start": 6.72,
+   "line_start": 4.29,
    "src": "S021",
    "music": "mystery"
   },
@@ -785,10 +785,10 @@
     ]
    ],
    "id": "C2_S022",
-   "start": 9.953,
+   "start": 7.523,
    "dur": 4.127,
    "chapter": 2,
-   "line_start": 9.953,
+   "line_start": 7.523,
    "src": "S022"
   },
   {
@@ -849,10 +849,10 @@
     ]
    ],
    "id": "C2_S023",
-   "start": 14.08,
+   "start": 11.65,
    "dur": 2.556,
    "chapter": 2,
-   "line_start": 14.08,
+   "line_start": 11.65,
    "src": "S023"
   },
   {
@@ -925,10 +925,10 @@
     ]
    ],
    "id": "C2_S024",
-   "start": 16.636,
+   "start": 14.206,
    "dur": 6.323,
    "chapter": 2,
-   "line_start": 16.636,
+   "line_start": 14.206,
    "src": "S024"
   },
   {
@@ -1007,10 +1007,10 @@
     ]
    ],
    "id": "C2_S025",
-   "start": 22.959,
+   "start": 20.529,
    "dur": 6.881,
    "chapter": 2,
-   "line_start": 22.959,
+   "line_start": 20.529,
    "src": "S025"
   },
   {
@@ -1104,10 +1104,10 @@
     ]
    ],
    "id": "C2_S026",
-   "start": 29.84,
+   "start": 27.41,
    "dur": 2.131,
    "chapter": 2,
-   "line_start": 29.84,
+   "line_start": 27.41,
    "src": "S026"
   },
   {
@@ -1168,10 +1168,10 @@
    ],
    "music": "tension",
    "id": "C2_S027",
-   "start": 31.971,
+   "start": 29.541,
    "dur": 2.894,
    "chapter": 2,
-   "line_start": 31.971,
+   "line_start": 29.541,
    "src": "S027"
   },
   {
@@ -1244,10 +1244,10 @@
     ]
    ],
    "id": "C2_S028",
-   "start": 34.865,
+   "start": 32.435,
    "dur": 7.089,
    "chapter": 2,
-   "line_start": 34.865,
+   "line_start": 32.435,
    "src": "S028"
   },
   {
@@ -1314,10 +1314,10 @@
     ]
    ],
    "id": "C2_S029",
-   "start": 41.954,
+   "start": 39.524,
    "dur": 4.76,
    "chapter": 2,
-   "line_start": 41.954,
+   "line_start": 39.524,
    "src": "S029"
   },
   {
@@ -1391,7 +1391,7 @@
    ],
    "id": "C3_H",
    "start": 0.0,
-   "dur": 5.73,
+   "dur": 4.23,
    "chapter": 3,
    "line_start": 0.15,
    "music": "mystery"
@@ -1503,10 +1503,10 @@
     ]
    ],
    "id": "C3_S032",
-   "start": 5.73,
+   "start": 4.23,
    "dur": 4.864,
    "chapter": 3,
-   "line_start": 5.73,
+   "line_start": 4.23,
    "src": "S032",
    "music": "mystery"
   },
@@ -1579,10 +1579,10 @@
     ]
    ],
    "id": "C3_S033",
-   "start": 10.594,
+   "start": 9.094,
    "dur": 2.0,
    "chapter": 3,
-   "line_start": 10.594,
+   "line_start": 9.094,
    "src": "S033"
   },
   {
@@ -1654,10 +1654,10 @@
     ]
    ],
    "id": "C3_S034",
-   "start": 12.594,
+   "start": 11.094,
    "dur": 3.499,
    "chapter": 3,
-   "line_start": 12.594,
+   "line_start": 11.094,
    "src": "S034"
   },
   {
@@ -1741,10 +1741,10 @@
     ]
    ],
    "id": "C3_S035",
-   "start": 16.093,
+   "start": 14.593,
    "dur": 5.324,
    "chapter": 3,
-   "line_start": 16.093,
+   "line_start": 14.593,
    "src": "S035"
   },
   {
@@ -1823,10 +1823,10 @@
     ]
    ],
    "id": "C3_S036",
-   "start": 21.417,
+   "start": 19.917,
    "dur": 3.199,
    "chapter": 3,
-   "line_start": 21.417,
+   "line_start": 19.917,
    "src": "S036"
   },
   {
@@ -1905,10 +1905,10 @@
     ]
    ],
    "id": "C3_S037",
-   "start": 24.616,
+   "start": 23.116,
    "dur": 3.725,
    "chapter": 3,
-   "line_start": 24.616,
+   "line_start": 23.116,
    "src": "S037"
   },
   {
@@ -2117,10 +2117,10 @@
     ]
    ],
    "id": "C3_S038",
-   "start": 28.341,
+   "start": 26.841,
    "dur": 4.169,
    "chapter": 3,
-   "line_start": 28.341,
+   "line_start": 26.841,
    "src": "S038"
   },
   {
@@ -2181,10 +2181,10 @@
     ]
    ],
    "id": "C3_S039",
-   "start": 32.51,
+   "start": 31.01,
    "dur": 2.891,
    "chapter": 3,
-   "line_start": 32.51,
+   "line_start": 31.01,
    "src": "S039"
   },
   {
@@ -2251,10 +2251,10 @@
     ]
    ],
    "id": "C3_S041",
-   "start": 39.637,
+   "start": 38.137,
    "dur": 3.581,
    "chapter": 3,
-   "line_start": 39.637,
+   "line_start": 38.137,
    "src": "S041"
   },
   {
@@ -2316,7 +2316,7 @@
    ],
    "id": "C4_H",
    "start": 0.0,
-   "dur": 5.14,
+   "dur": 3.43,
    "chapter": 4,
    "line_start": 0.15,
    "music": "mystery"
@@ -2365,10 +2365,10 @@
     ]
    ],
    "id": "C4_S044",
-   "start": 5.14,
+   "start": 3.43,
    "dur": 1.667,
    "chapter": 4,
-   "line_start": 5.14,
+   "line_start": 3.43,
    "src": "S044",
    "music": "mystery"
   },
@@ -2453,10 +2453,10 @@
     ]
    ],
    "id": "C4_S047",
-   "start": 14.418,
+   "start": 12.708,
    "dur": 4.373,
    "chapter": 4,
-   "line_start": 14.418,
+   "line_start": 12.708,
    "src": "S047"
   },
   {
@@ -2529,10 +2529,10 @@
     ]
    ],
    "id": "C4_S048",
-   "start": 18.791,
+   "start": 17.081,
    "dur": 3.599,
    "chapter": 4,
-   "line_start": 18.791,
+   "line_start": 17.081,
    "src": "S048"
   },
   {
@@ -2593,10 +2593,10 @@
     ]
    ],
    "id": "C4_S049",
-   "start": 22.39,
+   "start": 20.68,
    "dur": 4.859,
    "chapter": 4,
-   "line_start": 22.39,
+   "line_start": 20.68,
    "src": "S049"
   },
   {
@@ -2662,10 +2662,10 @@
     ]
    ],
    "id": "C4_S050",
-   "start": 27.249,
+   "start": 25.539,
    "dur": 3.413,
    "chapter": 4,
-   "line_start": 27.249,
+   "line_start": 25.539,
    "src": "S050"
   },
   {
@@ -2729,10 +2729,10 @@
     ]
    ],
    "id": "C4_S051",
-   "start": 30.662,
+   "start": 28.952,
    "dur": 2.36,
    "chapter": 4,
-   "line_start": 30.662,
+   "line_start": 28.952,
    "src": "S051"
   },
   {
@@ -2826,10 +2826,10 @@
     ]
    ],
    "id": "C4_S052",
-   "start": 33.022,
+   "start": 31.312,
    "dur": 2.36,
    "chapter": 4,
-   "line_start": 30.662,
+   "line_start": 28.952,
    "src": "S052"
   },
   {
@@ -2884,10 +2884,10 @@
    "part": null,
    "tag": "HISTORIANS DISAGREE",
    "id": "C4_S053",
-   "start": 35.382,
+   "start": 33.672,
    "dur": 3.916,
    "chapter": 4,
-   "line_start": 35.382,
+   "line_start": 33.672,
    "src": "S053"
   },
   {
@@ -2949,10 +2949,10 @@
     ]
    ],
    "id": "C4_S054",
-   "start": 39.298,
+   "start": 37.588,
    "dur": 5.523,
    "chapter": 4,
-   "line_start": 39.298,
+   "line_start": 37.588,
    "src": "S054"
   },
   {
@@ -3024,7 +3024,7 @@
    ],
    "id": "C5_H",
    "start": 0.0,
-   "dur": 7.495,
+   "dur": 5.89,
    "chapter": 5,
    "line_start": 0.15,
    "music": "mystery"
@@ -3093,10 +3093,10 @@
     ]
    ],
    "id": "C5_S057",
-   "start": 7.495,
+   "start": 5.89,
    "dur": 3.157,
    "chapter": 5,
-   "line_start": 7.495,
+   "line_start": 5.89,
    "src": "S057",
    "music": "mystery"
   },
@@ -3150,10 +3150,10 @@
     ]
    ],
    "id": "C5_S058",
-   "start": 10.652,
+   "start": 9.047,
    "dur": 5.01,
    "chapter": 5,
-   "line_start": 10.652,
+   "line_start": 9.047,
    "src": "S058"
   },
   {
@@ -3213,10 +3213,10 @@
     ]
    ],
    "id": "C5_S059",
-   "start": 15.662,
+   "start": 14.057,
    "dur": 4.008,
    "chapter": 5,
-   "line_start": 15.662,
+   "line_start": 14.057,
    "src": "S059"
   },
   {
@@ -3289,10 +3289,10 @@
     ]
    ],
    "id": "C5_S060",
-   "start": 19.67,
+   "start": 18.065,
    "dur": 3.218,
    "chapter": 5,
-   "line_start": 19.67,
+   "line_start": 18.065,
    "src": "S060"
   },
   {
@@ -3368,10 +3368,10 @@
     ]
    ],
    "id": "C5_S062",
-   "start": 29.873,
+   "start": 28.268,
    "dur": 5.867,
    "chapter": 5,
-   "line_start": 29.873,
+   "line_start": 28.268,
    "src": "S062"
   },
   {
@@ -3450,10 +3450,10 @@
     ]
    ],
    "id": "C5_S063",
-   "start": 35.74,
+   "start": 34.135,
    "dur": 4.844,
    "chapter": 5,
-   "line_start": 35.74,
+   "line_start": 34.135,
    "src": "S063"
   },
   {
@@ -3556,10 +3556,10 @@
     ]
    ],
    "id": "C5_S064",
-   "start": 40.584,
+   "start": 38.979,
    "dur": 3.947,
    "chapter": 5,
-   "line_start": 40.584,
+   "line_start": 38.979,
    "src": "S064"
   },
   {
@@ -3633,7 +3633,7 @@
    ],
    "id": "C6_H",
    "start": 0.0,
-   "dur": 5.23,
+   "dur": 4.21,
    "chapter": 6,
    "line_start": 0.15,
    "music": "mystery"
@@ -3696,10 +3696,10 @@
     ]
    ],
    "id": "C6_S067",
-   "start": 5.23,
+   "start": 4.21,
    "dur": 4.971,
    "chapter": 6,
-   "line_start": 5.23,
+   "line_start": 4.21,
    "src": "S067",
    "music": "mystery"
   },
@@ -3766,10 +3766,10 @@
     ]
    ],
    "id": "C6_S068",
-   "start": 10.201,
+   "start": 9.181,
    "dur": 3.91,
    "chapter": 6,
-   "line_start": 10.201,
+   "line_start": 9.181,
    "src": "S068"
   },
   {
@@ -3843,10 +3843,10 @@
     ]
    ],
    "id": "C6_S069",
-   "start": 14.111,
+   "start": 13.091,
    "dur": 5.035,
    "chapter": 6,
-   "line_start": 14.111,
+   "line_start": 13.091,
    "src": "S069"
   },
   {
@@ -3917,10 +3917,10 @@
     ]
    ],
    "id": "C6_S070",
-   "start": 19.146,
+   "start": 18.126,
    "dur": 5.589,
    "chapter": 6,
-   "line_start": 19.146,
+   "line_start": 18.126,
    "src": "S070"
   },
   {
@@ -3987,10 +3987,10 @@
     ]
    ],
    "id": "C6_S071",
-   "start": 24.735,
+   "start": 23.715,
    "dur": 4.578,
    "chapter": 6,
-   "line_start": 24.735,
+   "line_start": 23.715,
    "src": "S071"
   },
   {
@@ -4038,10 +4038,10 @@
     ]
    ],
    "id": "C6_S072",
-   "start": 29.313,
+   "start": 28.293,
    "dur": 4.386,
    "chapter": 6,
-   "line_start": 29.313,
+   "line_start": 28.293,
    "src": "S072"
   },
   {
@@ -4120,7 +4120,7 @@
    ],
    "id": "C7_H",
    "start": 0.0,
-   "dur": 5.985,
+   "dur": 4.05,
    "chapter": 7,
    "line_start": 0.15,
    "music": "mystery"
@@ -4201,10 +4201,10 @@
     ]
    ],
    "id": "C7_S076",
-   "start": 5.985,
+   "start": 4.05,
    "dur": 5.123,
    "chapter": 7,
-   "line_start": 5.985,
+   "line_start": 4.05,
    "src": "S076",
    "music": "mystery"
   },
@@ -4267,10 +4267,10 @@
     ]
    ],
    "id": "C7_S077",
-   "start": 11.108,
+   "start": 9.173,
    "dur": 5.696,
    "chapter": 7,
-   "line_start": 11.108,
+   "line_start": 9.173,
    "src": "S077"
   },
   {
@@ -4336,10 +4336,10 @@
     ]
    ],
    "id": "C7_S078",
-   "start": 16.804,
+   "start": 14.869,
    "dur": 3.157,
    "chapter": 7,
-   "line_start": 16.804,
+   "line_start": 14.869,
    "src": "S078"
   },
   {
@@ -4401,10 +4401,10 @@
     ]
    ],
    "id": "C7_S079",
-   "start": 19.961,
+   "start": 18.026,
    "dur": 5.879,
    "chapter": 7,
-   "line_start": 19.961,
+   "line_start": 18.026,
    "src": "S079"
   },
   {
@@ -4519,10 +4519,10 @@
     ]
    ],
    "id": "C7_S082",
-   "start": 34.676,
+   "start": 32.741,
    "dur": 5.247,
    "chapter": 7,
-   "line_start": 34.676,
+   "line_start": 32.741,
    "src": "S082"
   },
   {
@@ -4621,10 +4621,10 @@
     ]
    ],
    "id": "C7_S083",
-   "start": 39.923,
+   "start": 37.988,
    "dur": 2.984,
    "chapter": 7,
-   "line_start": 39.923,
+   "line_start": 37.988,
    "src": "S083"
   },
   {
@@ -4686,7 +4686,7 @@
    ],
    "id": "C1_H",
    "start": 0.0,
-   "dur": 9.445,
+   "dur": 7.17,
    "chapter": 1,
    "line_start": 0.15,
    "music": "mystery"
@@ -4762,10 +4762,10 @@
     ]
    ],
    "id": "C1_S009",
-   "start": 9.445,
+   "start": 7.17,
    "dur": 3.204,
    "chapter": 1,
-   "line_start": 9.445,
+   "line_start": 7.17,
    "src": "S009",
    "music": "mystery"
   },
@@ -4858,10 +4858,10 @@
     ]
    ],
    "id": "C1_S010",
-   "start": 12.649,
+   "start": 10.374,
    "dur": 7.285,
    "chapter": 1,
-   "line_start": 12.649,
+   "line_start": 10.374,
    "src": "S010"
   },
   {
@@ -4922,10 +4922,10 @@
     ]
    ],
    "id": "C1_S011",
-   "start": 19.934,
+   "start": 17.659,
    "dur": 1.509,
    "chapter": 1,
-   "line_start": 19.934,
+   "line_start": 17.659,
    "src": "S011"
   },
   {
@@ -5001,10 +5001,10 @@
     ]
    ],
    "id": "C1_S013",
-   "start": 26.236,
+   "start": 23.961,
    "dur": 3.747,
    "chapter": 1,
-   "line_start": 26.236,
+   "line_start": 23.961,
    "src": "S013"
   },
   {
@@ -5101,10 +5101,10 @@
     ]
    ],
    "id": "C1_S015",
-   "start": 29.983,
+   "start": 27.708,
    "dur": 5.902,
    "chapter": 1,
-   "line_start": 29.983,
+   "line_start": 27.708,
    "src": "S015"
   },
   {
@@ -5170,10 +5170,10 @@
     ]
    ],
    "id": "C1_S016",
-   "start": 35.885,
+   "start": 33.61,
    "dur": 6.891,
    "chapter": 1,
-   "line_start": 35.885,
+   "line_start": 33.61,
    "src": "S016"
   },
   {
@@ -5240,10 +5240,10 @@
     ]
    ],
    "id": "C1_S017",
-   "start": 42.776,
+   "start": 40.501,
    "dur": 3.947,
    "chapter": 1,
-   "line_start": 42.776,
+   "line_start": 40.501,
    "src": "S017"
   },
   {
@@ -5370,10 +5370,10 @@
     ]
    ],
    "id": "C1_S018",
-   "start": 46.723,
+   "start": 44.448,
    "dur": 4.535,
    "chapter": 1,
-   "line_start": 46.723,
+   "line_start": 44.448,
    "src": "S018"
   }
  ]

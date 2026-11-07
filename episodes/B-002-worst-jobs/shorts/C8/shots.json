@@ -8,7 +8,7 @@
  "episode": "B-002",
  "short": "C8",
  "title": "The Worst Job in Old England: The Gong Farmer",
- "duration": 48.653,
+ "duration": 47.748,
  "vertical": true,
  "shots": [
   {
@@ -71,7 +71,7 @@
    "music": "warm",
    "id": "C8_H",
    "start": 0.0,
-   "dur": 6.555,
+   "dur": 5.65,
    "chapter": 8,
    "line_start": 0.15
   },
@@ -125,10 +125,10 @@
     ]
    ],
    "id": "C8_S086",
-   "start": 6.555,
+   "start": 5.65,
    "dur": 5.116,
    "chapter": 8,
-   "line_start": 6.555,
+   "line_start": 5.65,
    "src": "S086",
    "music": "warm"
   },
@@ -190,10 +190,10 @@
     ]
    ],
    "id": "C8_S087",
-   "start": 11.671,
+   "start": 10.766,
    "dur": 2.451,
    "chapter": 8,
-   "line_start": 11.671,
+   "line_start": 10.766,
    "src": "S087"
   },
   {
@@ -267,10 +267,10 @@
     ]
    ],
    "id": "C8_S088",
-   "start": 14.122,
+   "start": 13.217,
    "dur": 6.612,
    "chapter": 8,
-   "line_start": 14.122,
+   "line_start": 13.217,
    "src": "S088"
   },
   {
@@ -338,10 +338,10 @@
     ]
    ],
    "id": "C8_S089",
-   "start": 20.734,
+   "start": 19.829,
    "dur": 4.294,
    "chapter": 8,
-   "line_start": 20.734,
+   "line_start": 19.829,
    "src": "S089"
   },
   {
@@ -364,10 +364,10 @@
     ]
    ],
    "id": "C8_S090",
-   "start": 25.028,
+   "start": 24.123,
    "dur": 5.059,
    "chapter": 8,
-   "line_start": 25.028,
+   "line_start": 24.123,
    "src": "S090"
   },
   {
@@ -418,10 +418,10 @@
     ]
    ],
    "id": "C8_S091",
-   "start": 30.087,
+   "start": 29.182,
    "dur": 4.139,
    "chapter": 8,
-   "line_start": 25.028,
+   "line_start": 24.123,
    "src": "S091"
   },
   {
@@ -482,10 +482,10 @@
     ]
    ],
    "id": "C8_S092",
-   "start": 34.226,
+   "start": 33.321,
    "dur": 2.874,
    "chapter": 8,
-   "line_start": 34.226,
+   "line_start": 33.321,
    "src": "S092"
   },
   {
@@ -553,10 +553,10 @@
    ],
    "music": "warm",
    "id": "C8_S093",
-   "start": 37.1,
+   "start": 36.195,
    "dur": 3.883,
    "chapter": 8,
-   "line_start": 37.1,
+   "line_start": 36.195,
    "src": "S093"
   },
   {
@@ -610,18 +610,18 @@
    ],
    "part": null,
    "id": "C8_S094",
-   "start": 40.983,
+   "start": 40.078,
    "dur": 5.07,
    "chapter": 8,
-   "line_start": 40.983,
+   "line_start": 40.078,
    "src": "S094"
   },
   {
    "id": "C8_END",
    "kind": "end",
    "line": "O1",
-   "start": 46.053,
-   "line_start": 46.203,
+   "start": 45.148,
+   "line_start": 45.298,
    "dur": 2.6,
    "chapter": null,
    "sfx": [
