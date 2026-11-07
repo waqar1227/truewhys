@@ -124,3 +124,11 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
   Packages (captions, files) live in episodes/<ep>/social/ (built by lib/crosspost.py).
 - Metricool needs public media URLs; until the owner chooses a hosting method, prepare packages and do not post.
 - Do not make other-platform versions beyond this unless the owner asks.
+
+## Owner rule added 7 Nov 2026: save Claude usage limits
+- Heartbeat runs twice a day (08:44 and 20:44 UTC). It reads only the NEXT list at the top of STATUS.md and does just those steps.
+- Start a **fresh session for each new episode** instead of continuing one endless session; everything needed is in git
+  (code, plans, voice masters in episodes/<ep>/voice/*.flac, STATUS.md) or re-downloadable from Kaggle (plates).
+- No polling loops: one background waiter per long job. Look at images only for animatic review and final QA, using one small contact sheet.
+- Keep messages to the owner short: what was done, what's next, anything he must do.
+- Gemini takes are kept as FLAC masters so a new session never spends the daily voice quota twice.

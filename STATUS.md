@@ -1,4 +1,15 @@
-# STATUS (read first on every heartbeat)
+# STATUS (read the NEXT list first)
+
+## NEXT (keep this list short; heartbeat does only these)
+1. B-001 Shorts C0–C7: after re-compose finishes, quick QA (one small sheet), then upload each:
+   `python lib/youtube.py upload episodes/B-001-animal-trials/shorts/<CID>/final.mp4 episodes/B-001-animal-trials/shorts/<CID>/upload_meta.json --long 9C-9O0c6VqM`
+   then `python lib/crosspost.py episodes/B-001-animal-trials`.
+2. Sun 8 Nov ≥ 08:00 UTC: B-002 Gemini chapter voice (`python lib/voice_gemini.py episodes/B-002-worst-jobs`, 9 requests) → `plan.py` → `lib/shorts.py`.
+3. Sun 8 Nov ≥ 15:00 UTC: post + pin the B-001 comment (text in upload_meta.json "pinned_comment").
+4. Mon 9 Nov ≥ 00:30 UTC: B-002 part 2 plates on Kaggle (dataset truewhys-ep-b002, kernel truewhys-render-b002 with JOB='job_D.json').
+5. Waiting on owner: Facebook long-lived Page token; hosting choice for Metricool (A file host / B manual). Packages in episodes/<ep>/social/.
+
+## History
 
 ## Now: B-001 "Why Medieval Courts Put Animals on Trial" (7:38)
 - [x] Research, script (85 lines), sources, topic

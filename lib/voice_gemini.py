@@ -25,6 +25,17 @@ DIRECTION = {
 }
 
 
+
+def master(cw):
+    """Gemini takes are kept in git as FLAC (episodes/<ep>/voice/), so a fresh session never re-spends the daily quota."""
+    import subprocess
+    fl = cw.parent.parent.parent / "voice" / (cw.stem + ".flac")
+    if not cw.exists() and fl.exists():
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(fl), str(cw)], check=True)
+    elif cw.exists() and not fl.exists():
+        fl.parent.mkdir(exist_ok=True)
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(cw), "-compression_level", "8", str(fl)], check=True)
+
 def prompt_for(chapter, says):
     return ("# AUDIO PROFILE: The Narrator\nA warm, charismatic male storyteller for a hit animated history channel.\n\n"
             "## THE SCENE\nA cosy studio. He is telling a true, astonishing story to a friend, half amazed himself.\n\n"
@@ -64,11 +75,13 @@ def main(ep, chapters):
     for ch in chapters:
         L = [l for l in lines if l["chapter"] == ch]
         cw = ep / f"audio/chapters/ch{ch}.wav"
+        master(cw)
         if not cw.exists():
             try:
                 tts(prompt_for(ch, [l["say"] for l in L]), cw)
             except urllib.error.HTTPError as e:
                 print("HTTP", e.code, e.read()[:300]); break
+        master(cw)
         a, sr = sf.read(cw, dtype="float32")
         segs, _ = wm.transcribe(str(cw), word_timestamps=True, language="en", initial_prompt=" ".join(l["text"] for l in L))
         ww = [dict(w=w.word.strip(), s=w.start, e=w.end) for s in segs for w in (s.words or [])]
@@ -114,6 +127,7 @@ def shorts(ep):
     L.append(dict(id=cfg["outro"]["id"], text=cfg["outro"]["text"], say=cfg["outro"].get("say", cfg["outro"]["text"])))
     cw = ep / "audio/chapters/hooks.wav"
     cw.parent.mkdir(parents=True, exist_ok=True); (ep / "audio/lines").mkdir(parents=True, exist_ok=True)
+    master(cw)
     if not cw.exists():
         txt = ("# AUDIO PROFILE: The Narrator\nA warm, charismatic male storyteller for a hit animated history channel.\n\n"
                "## THE SCENE\nHe is recording the opening lines of short videos: each line must grab a scrolling viewer instantly.\n\n"
@@ -121,6 +135,7 @@ def shorts(ep):
                "The last line is a friendly, upbeat sign-off.\nPace: lively, about 170 words per minute, short dramatic pause at each ellipsis.\n"
                "Accent: neutral American.\n\n#### TRANSCRIPT\n" + "\n".join(l["say"] for l in L))
         tts(txt, cw)
+    master(cw)
     from faster_whisper import WhisperModel
     wm = WhisperModel("small.en", device="cpu", compute_type="int8")
     a, sr = sf.read(cw, dtype="float32")
