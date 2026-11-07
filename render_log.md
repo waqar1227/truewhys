@@ -37,3 +37,8 @@
 - 46/46 plates, 0 errors. Wall 400.9 min (6.7 h session, 2×T4). Contact sheet checked: clean, matches animatic.
 - **B-001 long-video plates complete: 82/82.** Sessions this week ≈ 6.7 + 5.2 + 0.4 h + benchmark/diag (~1.5 h) ≈ 13.8 h of ~30 h.
 - Next: Shorts plates (1080×1920, ~4,900 frames, est. ~7 h) after hook voice exists (7 Nov).
+
+## 7 Nov 2026 03:05 UTC: B-002 final plates, part 1 started
+- Dataset waqarahmed51/truewhys-ep-b002 (flat: render_bg, sets, sets2, camera, shots.json, job_C/job_D).
+- truewhys-render-b002 v1: chapters 0–3 (~4,170 frames before step/interp savings), 2×T4, 64 spp, thr 0.03, step 2 + interp.
+- Chapters 4–8 (job_D, ~5,170 frames) after the weekly GPU reset, to keep this week ≤ ~30 h (B-001 Shorts still to render, ~7 h).
