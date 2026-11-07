@@ -174,7 +174,7 @@ S("L19", set="pl", cam=push("pl_wide", 0.12), chars=[KING("neutral", at=(-0.6, 1
 S("L20", set="pl", cam=push("pl_stool", 0.15), chars=[], tag="TUDOR ENGLAND", pop=[(0.65, "THE KING'S TOILET")], sfx=[(0.6, "ding", 0.4)])
 S("L21", set="pl", cam=push("pl_stool", 0.1), chars=[KING("neutral"), GROOM("worried", "present", hold_r="cloth")], sfx=[(0.3, "whoosh_soft", 0.3)])
 S("L22", set="st", cam=push("st_wy", 0.12), chars=[WY("smug", "raise")], sfx=[(0.4, "riser", 0.4)])
-S("L23", set="pl", cam=push("pl_bed", 0.12), chars=[KING("happy", "present", at=(2.2, 1.2, 0)), GROOM("happy", at=(1.2, 0.8, 0), face="R", talk=True)],
+S("L23", set="pl", cam=push("pl_bed", 0.12), chars=[KING("happy", "present", at=(2.6, 2.6, 0)), GROOM("happy", at=(1.5, 2.0, 0), face="R", talk=True)],
   sfx=[(0.3, "fire", 0.3)])
 S("L24", set="pl", cam=push("pl_fire", 0.12), chars=[GROOM("smug", "raise", at=(-0.6, 1.6, 0), face="R", hold_r="coin"), KING("neutral", at=(1.2, 2.4, 0), face="L")],
   tag="HENRY VIII", sfx=[(0.3, "coin_single", 0.5), (1.4, "coins", 0.4)])
@@ -225,7 +225,7 @@ RANK("L50", 4, "THE SALTPETRE MAN")
 S("L50", set="sb", cam=push("sb_wide", 0.12), chars=[A("saltpetre", [0.4, -0.4, 0], 1.55, "R", "smug", "raise", hold_r="shovel")], music="tension")
 S("L51", set="st", cam=push("st_close", 0.1), chars=[WY("neutral", "present")], pop=[(0.45, "GUNPOWDER")], sfx=[(0.4, "thud", 0.5)])
 S("L52", set="sb", cam=push("sb_dig", 0.15), chars=[], pop=[(0.75, "ANIMAL WASTE")], sfx=[(0.7, "boing", 0.3)])
-S("L53", set="sb", cam=pan("sb_nests", 1.0), chars=[A("rooster", [-3.2, -1.0, 0], 0.55, "L", "surprised")], sfx=[(0.3, "rooster", 0.4)])
+S("L53", set="sb", cam=pan("sb_wide", -0.8), chars=[A("rooster", [-2.2, 0.6, 0], 0.55, "R", "surprised")], sfx=[(0.3, "rooster", 0.4)])
 S("L54", set="sb", cam=push("sb_wide", 0.12), chars=[A("saltpetre", [0.6, -0.6, 0], 1.55, "L", "smug", "present", hold_r="scroll"), A("farmer", [-1.4, 0.4, 0], 1.45, "R", "worried")],
   sfx=[(0.3, "paper", 0.5)])
 S("L55", "doc", doc="order1627", sfx=[(0, "paper", 0.6)])
@@ -257,7 +257,7 @@ S("L68", set="tn", cam=push("yd_pits", 0.04), chars=[A("tanner", [-0.5, 0.2, 0],
 S("L69", set="tn", cam=push("yd_pits", 0.07), chars=[A("tanner", [-0.5, 0.2, 0], 1.5, "R", "neutral", "hold", hold_r="staff")], tag="SOAKED FOR MONTHS", sfx=[(0.3, "tick", 0.4)])
 S("L70", set="tn", cam=push("yd_bucket", 0.15), chars=[A("dog", [-2.1, 0.1, 0], 0.5, "L", "happy")], pop=[(0.5, "DOG DUNG")], sfx=[(0.3, "dog", 0.4)])
 S("L71", set="tn", cam=push("yd_river", 0.12), chars=[A("tanner", [-0.6, 3.0, 0], 1.5, "R", "neutral", hold_r="staff")], tag="OUTSIDE THE WALLS", sfx=[(0, "birds", 0.3)])
-S("L72", "map", view=(0.3, 51.9, 3.0), pins=[("Colchester", 0.6)], part=(0, 0.35), sfx=[(0.6, "pop", 0.5)])
+S("L72", "map", view=(-0.4, 52.2, 7.0), pins=[("Colchester", 0.6)], part=(0, 0.35), sfx=[(0.6, "pop", 0.5)])
 S("L72", "doc", doc="colchester", part=(0.35, 1.0), sfx=[(0, "paper", 0.5)])
 S("L73", set="sq", cam=push("sq_wide2", 0.12), chars=CROWD_SQ[:4] + [A("villager5", [1.6, 2.4, 0], 1.45, "R", "happy", "present", hold_r="bucket")], pop=[(0.3, "SHOES · BELTS · SADDLES")],
   sfx=[(0, "crowd_murmur", 0.3)])
