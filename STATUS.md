@@ -43,3 +43,10 @@
   shorts/<CID>/upload_meta.json + upload_shorts.md (C0 +1 h, then every 3 h, all within 24 h).
 - lib/youtube.py: `--long <id>` fills the full-story link, adds to playlist, posts the pinned comment, writes uploaded.json (no double uploads).
   Related video on each Short is set in YouTube Studio (not in the API) — tell the owner after upload.
+
+## Update 7 Nov 2026, 02:50 UTC
+- B-001: all 82 long-video plates rendered + QA'd (night wall rebuilt, two edge-cropped characters fixed). Test edit of ch 4 sent to owner.
+- B-001 next: Gemini voice after ~08:00 UTC (9 requests) → plan.py → shorts.py → Shorts plates on Kaggle → final compose, mix, QA.
+- B-002: Kokoro guide voice, shot plan (98 shots, 6:41), preview stills, **animatic v1 sent to owner for approval**
+  (episodes/B-002-worst-jobs/animatic/animatic_v1_kokoro.mp4, not committed: 60 MB). Coroners' Roll fact verified.
+- Shorts upload packages ready (lib/upload_shorts.py); uploader handles playlist, comment, long-video link.
