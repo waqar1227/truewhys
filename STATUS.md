@@ -8,7 +8,7 @@ Fresh session? Tools install via the environment setup script (tools/setup_env.s
 3. Mon 9 Nov ≥ 00:30 UTC (new Kaggle week): B-002 part 2 plates: `kaggle kernels push -p notebooks/kaggle_jobs/b002/kernel_b002b --accelerator NvidiaTeslaT4`
    (dataset truewhys-ep-b002 already has job_D). Part 1 plates: `kaggle kernels output waqarahmed51/truewhys-render-b002 -p /tmp/p1` →
    copy plates/*.mp4 to episodes/B-002-worst-jobs/renders/. Part 2 likewise from truewhys-render-b002b.
-4. (B-002 Shorts: check each opens on a strong visual in the first 1–2 s; tighten any over 45 s.) Then B-002 final compose + QA, Shorts plates on Kaggle (tools/kaggle_dataset.sh, job like B-001's job_S/job_S2 split), compose, QA,
+4. (B-002: remake both thumbnails to the new click-worthy checklist in CLAUDE.md, with a phone-size check. B-002 Shorts: check each opens on a strong visual in the first 1–2 s; tighten any over 45 s.) Then B-002 final compose + QA, Shorts plates on Kaggle (tools/kaggle_dataset.sh, job like B-001's job_S/job_S2 split), compose, QA,
    schedule on YouTube (slot: after B-001's last Short, 9 Nov 10:00 UTC → long video ≥ 10 Nov), crosspost packages.
 5. FACEBOOK PAUSED by owner (8 Nov): no Facebook work until he gives the go-ahead. Posts made with the unpublished Meta app stay hidden
    (owner tested editing + publishing them himself: still hidden). Options if he asks: Meta Business Suite manual packs, or Zapier. (Scheduled B-001 Reels C7–C1 + banner still sit in Facebook's scheduler.)
