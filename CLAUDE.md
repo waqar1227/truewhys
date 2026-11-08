@@ -128,8 +128,8 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
   **still image banner** post (1080×1350, attractive, title + hook in branding/ style, cast + strange object, same QA as a thumbnail), ~6 h after
   the premiere, caption with the clickable YouTube link "Watch the full video on YouTube" + hashtags.
   Packages (captions, files) live in episodes/<ep>/social/ (built by lib/crosspost.py).
-- Metricool needs public media URLs. Hosting = Dropbox (owner, 8 Nov 2026): token is a network secret for content.dropboxapi.com and api.dropboxapi.com
-  (never print it). Upload to the app folder, make a shared link (use dl=1 for the raw file), give it to Metricool, delete the file once posted.
+- Facebook needs no hosting (files are uploaded directly). Dropbox was tried for Metricool, but Dropbox access tokens expire after ~4 h, so it is
+  not used; TikTok waits for the direct API (file upload).
 - Facebook Page token is long-lived (never expires).
 - **Facebook is posted ONLY with the Page token via the Graph API, never via Metricool** (owner, 8 Nov 2026). Reels: `POST /{page}/video_reels`
   upload_phase=start → `POST rupload.facebook.com/video-upload/<ver>/<video_id>` with header `file_url: <Dropbox dl=1 URL>` (token injected for

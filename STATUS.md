@@ -10,10 +10,11 @@ Fresh session? Tools install via the environment setup script (tools/setup_env.s
    copy plates/*.mp4 to episodes/B-002-worst-jobs/renders/. Part 2 likewise from truewhys-render-b002b.
 4. Then B-002 final compose + QA, Shorts plates on Kaggle (tools/kaggle_dataset.sh, job like B-001's job_S/job_S2 split), compose, QA,
    schedule on YouTube (slot: after B-001's last Short, 9 Nov 10:00 UTC → long video ≥ 10 Nov), crosspost packages.
-5. Cross-posting unlocked (8 Nov): Facebook Page token is long-lived (owner confirmed); Dropbox token saved as network secret (tested upload/link/delete).
-   Add a Dropbox step to lib/crosspost.py (upload Short → shared link with dl=1 → Metricool createScheduledPost tiktok autoPublish → delete after posting),
-   then schedule B-001 Shorts' TikTok + Facebook Reels (link in first comment). B-001 Facebook trailer (60–90 s, cut from final, QA) at 15:30 UTC 8 Nov
-   = 8:30 pm PKT; no full long video on Facebook. B-001 Facebook banner (social/banner.jpg, 1080×1350, QA) at 21:00 UTC 8 Nov = 2:00 am PKT 9 Nov. Owner: set Related video on B-001 Shorts.
+5. Cross-posting B-001 (8 Nov): Facebook Reels C0–C7 scheduled via Page token (lib/fb_post.py, ids in social/posted.json); banner scheduled 21:00 UTC.
+   Trailer: send_later 15:03 UTC (yt-dlp the public video → cut 60–90 s → QA → fb_post schedule).
+   EVERY heartbeat: `python lib/fb_post.py <ep> comments` (adds the YouTube-link first comment to Reels that are live).
+   TikTok: Dropbox token expired (Dropbox tokens last ~4 h) → TikTok waits for the owner's TikTok API keys (~10–11 Nov), then post all B-001 Shorts
+   with the direct API (file upload, no hosting). Owner: set Related video on B-001 Shorts.
 6. Owner (8 Nov): after B-002 is finished and scheduled, and BEFORE starting episode 3: plan and make a batch of standalone viral Shorts
    (new topics, rotate categories per skill §8, strongest hooks/title patterns; same QA gate; Kaggle plates; schedule in the gaps between
    B-002's cut Shorts and episode 3; crosspost to TikTok + Facebook). Write the plan to shorts_plan.md first (5–8 ideas, ranked by hook strength).

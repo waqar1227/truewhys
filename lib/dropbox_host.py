@@ -10,7 +10,7 @@ import sys, json
 from pathlib import Path
 import requests
 
-H = {"Authorization": "Bearer proxy-injected"}  # placeholder: the proxy replaces it
+H = {}  # the proxy adds the Dropbox token itself
 
 
 def up(path, name=None):
