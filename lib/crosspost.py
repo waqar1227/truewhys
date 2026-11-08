@@ -5,7 +5,8 @@ Uses the YouTube ids in uploaded.json (long video) and shorts/<CID>/uploaded.jso
 otherwise the link stays as {LONG_URL}/{SHORT_URL} and is filled in once YouTube has them.
 Owner rule (7 Nov 2026): goal is YouTube views. Facebook text carries the clickable YouTube link; TikTok captions
 (no clickable links) end with "Watch the full video on YouTube — @TrueWhys".
-Timing: each Short -> TikTok + Facebook Reel 30 min after its YouTube slot; long video -> Facebook video 24 h after its premiere.
+Timing: each Short -> TikTok + Facebook Reel 30 min after its YouTube slot (Reel: CTA in caption, YouTube link in first comment);
+long video -> NOT uploaded in full to Facebook: a 60-90 s trailer (social/trailer.mp4, cut + QA'd) with the clickable link, 30 min after the premiere.
 """
 import sys, json, datetime as dt
 from pathlib import Path
@@ -37,15 +38,16 @@ for c in cfg["shorts"]:
     title = c["title"]
     hook = c["hook"]["text"]
     tt = f"{hook} 🤯\n\n{title}.\n\n{CTA_TT}\n\n" + " ".join(["#history", "#learnontiktok", "#weirdhistory"] + [t.lower() for t in tags[:1]] + ["#truewhys"])
-    fb = f"{hook}\n\n▶ Full story on YouTube: {long_url}\n\n" + " ".join(seo["hashtags"])
+    fb = f"{hook}\n\n{CTA_TT}\n\n" + " ".join(seo["hashtags"])
     file = str(d / "final.mp4")
     posts.append(dict(platform="tiktok", kind="video", short=c["id"], file=file, when=iso(when), text=tt, title=title[:90],
                       youtube_short=f"https://youtube.com/shorts/{u['video_id']}" if u.get("video_id") else None))
-    posts.append(dict(platform="facebook", kind="reel", short=c["id"], file=file, when=iso(when), text=fb))
+    posts.append(dict(platform="facebook", kind="reel", short=c["id"], file=file, when=iso(when), text=fb,
+                      first_comment=f"▶ Full story on YouTube: {long_url}"))
 if long_meta.get("publishAt"):
-    when = parse(long_meta["publishAt"]) + dt.timedelta(hours=24)
-    fbl = f"{seo['hook']}\n\n{seo['summary']}\n\n▶ Watch it first on YouTube (and subscribe for more true whys): {long_url}\n\n" + " ".join(seo["hashtags"])
-    posts.append(dict(platform="facebook", kind="video", short=None, file=str(ep / "final" / f"{ep.name.split('-')[0]}-{ep.name.split('-')[1]}.mp4"),
+    when = parse(long_meta["publishAt"]) + dt.timedelta(minutes=30)
+    fbl = f"{seo['hook']}\n\n{seo['summary']}\n\n▶ Watch the full video on YouTube: {long_url}\n\n" + " ".join(seo["hashtags"])
+    posts.append(dict(platform="facebook", kind="trailer", short=None, file=str(ep / "social" / "trailer.mp4"),
                       when=iso(when), title=seo["title"], text=fbl, thumb=str(ep / "final" / "thumb_A.jpg")))
 posts.sort(key=lambda p: p["when"])
 out = ep / "social"; out.mkdir(exist_ok=True)

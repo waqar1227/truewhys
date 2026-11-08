@@ -118,9 +118,12 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
 ## Owner rule added 7 Nov 2026: cross-post to Facebook and TikTok (YouTube first)
 - Every video is published on YouTube first; then it goes to Facebook (Page "TrueWhys", env FACEBOOK_PAGE_ID / FACEBOOK_PAGE_NAME,
   token as network secret for graph.facebook.com — never print it) and TikTok (Metricool brand id 7942824, account "truewhys").
-- Goal: send viewers to YouTube. Put the YouTube link in the text where links are clickable (Facebook). Where they are not (TikTok captions),
+- Goal: send viewers to YouTube. Put the YouTube link where it is clickable (Facebook trailer text, Reel first comment). Where they are not (TikTok captions),
   end with "Watch the full video on YouTube — @TrueWhys".
-- Plan: each cut Short → TikTok + Facebook Reel ~30 min after its YouTube slot; each long video → Facebook video ~24 h after its YouTube premiere.
+- Plan (owner, 8 Nov 2026): each cut Short → TikTok + Facebook Reel 30 min after its YouTube slot. Reel caption ends with
+  "Watch the full video on YouTube — @TrueWhys"; the YouTube link goes in the Reel's first comment.
+  Long videos are **never uploaded in full to Facebook**: post a 60–90 s trailer (cut from the final, same QA) with the clickable YouTube link,
+  30 min after the YouTube premiere.
   Packages (captions, files) live in episodes/<ep>/social/ (built by lib/crosspost.py).
 - Metricool needs public media URLs. Hosting = Dropbox (owner, 8 Nov 2026): token is a network secret for content.dropboxapi.com and api.dropboxapi.com
   (never print it). Upload to the app folder, make a shared link (use dl=1 for the raw file), give it to Metricool, delete the file once posted.
