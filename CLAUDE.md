@@ -142,6 +142,8 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
   rupload.facebook.com too; script: lib/fb_post.py) → upload_phase=finish with video_state=SCHEDULED + scheduled_publish_time + description; first comment = YouTube link.
   Trailer: `POST /{page}/videos` (multipart source, description with link, scheduled). Banner: `POST /{page}/photos` (multipart source, caption with link, scheduled).
   If a token call fails, tell the owner exactly what failed.
+- TikTok reach (owner, 8 Nov 2026): no location targeting exists in the API; aim at English-speaking viewers with English captions/hashtags and
+  posting times in US/UK evenings (US 6–9 pm ET = 4–7 am PKT). Never fake a location or use a VPN. Format playbook: research/format_study.md.
 - TikTok: Metricool only until the owner's TikTok developer API keys arrive (~10–11 Nov 2026); then switch TikTok to the direct API and stop using Metricool.
 - Do not make other-platform versions beyond this unless the owner asks.
 
