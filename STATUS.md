@@ -17,6 +17,7 @@ Fresh session? Tools install via the environment setup script (tools/setup_env.s
 6. Owner (8 Nov): after B-002 is finished and scheduled, and BEFORE starting episode 3: plan and make a batch of standalone viral Shorts
    (new topics, rotate categories per skill §8, strongest hooks/title patterns; same QA gate; Kaggle plates; schedule in the gaps between
    B-002's cut Shorts and episode 3; crosspost to TikTok + Facebook). Write the plan to shorts_plan.md first (5–8 ideas, ranked by hook strength).
+   Include the first Style R realistic test Short (Zack D. Films FORMAT, our own original idea and models, Kaggle render) in this batch.
 
 ## History
 
