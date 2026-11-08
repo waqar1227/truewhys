@@ -122,7 +122,9 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
   end with "Watch the full video on YouTube — @TrueWhys".
 - Plan: each cut Short → TikTok + Facebook Reel ~30 min after its YouTube slot; each long video → Facebook video ~24 h after its YouTube premiere.
   Packages (captions, files) live in episodes/<ep>/social/ (built by lib/crosspost.py).
-- Metricool needs public media URLs; until the owner chooses a hosting method, prepare packages and do not post.
+- Metricool needs public media URLs. Hosting = Dropbox (owner, 8 Nov 2026): token is a network secret for content.dropboxapi.com and api.dropboxapi.com
+  (never print it). Upload to the app folder, make a shared link (use dl=1 for the raw file), give it to Metricool, delete the file once posted.
+- Facebook Page token is long-lived (never expires).
 - Do not make other-platform versions beyond this unless the owner asks.
 
 ## Owner rule added 7 Nov 2026: save Claude usage limits

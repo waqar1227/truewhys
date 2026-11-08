@@ -11,7 +11,9 @@ Fresh session? Tools install via the environment setup script (tools/setup_env.s
    copy plates/*.mp4 to episodes/B-002-worst-jobs/renders/. Part 2 likewise from truewhys-render-b002b.
 4. Then B-002 final compose + QA, Shorts plates on Kaggle (tools/kaggle_dataset.sh, job like B-001's job_S/job_S2 split), compose, QA,
    schedule on YouTube (slot: after B-001's last Short, 9 Nov 10:00 UTC → long video ≥ 10 Nov), crosspost packages.
-5. Waiting on owner: Facebook long-lived Page token; hosting choice for Metricool (A file host / B manual). Owner: set Related video on B-001 Shorts.
+5. Cross-posting unlocked (8 Nov): Facebook Page token is long-lived (owner confirmed); Dropbox token saved as network secret (tested upload/link/delete).
+   Add a Dropbox step to lib/crosspost.py (upload Short → shared link with dl=1 → Metricool createScheduledPost tiktok autoPublish → delete after posting),
+   then schedule B-001 Shorts' TikTok + Facebook Reels. Owner: set Related video on B-001 Shorts.
 
 ## History
 
