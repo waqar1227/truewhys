@@ -119,6 +119,7 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
 - The "ask the owner before the first upload of each week" rule above no longer applies.
 
 ## Owner rule added 7 Nov 2026: cross-post to Facebook and TikTok (YouTube first)
+- **FACEBOOK PAUSED (owner, 8 Nov 2026): make and post nothing for Facebook until the owner says so** (his Meta app is unpublished).
 - Every video is published on YouTube first; then it goes to Facebook (Page "TrueWhys", env FACEBOOK_PAGE_ID / FACEBOOK_PAGE_NAME,
   token as network secret for graph.facebook.com — never print it) and TikTok (Metricool brand id 7942824, account "truewhys").
 - Goal: send viewers to YouTube. Put the YouTube link where it is clickable (Facebook trailer text, Reel first comment). Where they are not (TikTok captions),

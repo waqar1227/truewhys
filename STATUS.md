@@ -10,7 +10,8 @@ Fresh session? Tools install via the environment setup script (tools/setup_env.s
    copy plates/*.mp4 to episodes/B-002-worst-jobs/renders/. Part 2 likewise from truewhys-render-b002b.
 4. Then B-002 final compose + QA, Shorts plates on Kaggle (tools/kaggle_dataset.sh, job like B-001's job_S/job_S2 split), compose, QA,
    schedule on YouTube (slot: after B-001's last Short, 9 Nov 10:00 UTC → long video ≥ 10 Nov), crosspost packages.
-5. Cross-posting B-001 (8 Nov): Facebook Reels C0–C7 scheduled via Page token (lib/fb_post.py, ids in social/posted.json); banner scheduled 21:00 UTC.
+5. FACEBOOK PAUSED by owner (8 Nov): no Facebook work until he says so. (Scheduled B-001 Reels C7–C1 + banner still sit in Facebook's scheduler.)
+   Cross-posting B-001 (8 Nov): Facebook Reels C0–C7 scheduled via Page token (lib/fb_post.py, ids in social/posted.json); banner scheduled 21:00 UTC.
    B-001 comment posted on YouTube 15:05 UTC (owner pins it in Studio; the API cannot pin). Trailer NOT made: YouTube blocks downloads from
    this server and the B-001 long plates were overwritten on Kaggle → owner chose to SKIP the B-001 trailer (8 Nov); B-001 Facebook = 7 Reels + banner only.
    C0 published early on owner's request (8 Nov ~15:22 UTC: YouTube public, FB Reel live, TikTok 15:30 UTC = Metricool id 420823459).
