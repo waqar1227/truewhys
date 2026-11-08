@@ -100,6 +100,11 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
 
 ## Thumbnails and end screens
 - Thumbnails (long videos, 1280×720): one big expressive cast member + the strange object or place + 1–3 words in bold caps, usually a question, in Lilita One (`branding/` colours). Make 2 options per long video so the owner can use YouTube's thumbnail test.
+- **Thumbnails must be VERY click-worthy (owner, 8 Nov 2026).** Checklist for every one: a huge, extreme emotion on the face (shock/fear/disbelief,
+  face ≥ 35 % of the height); ONE strange object or situation that makes people ask "why?"; max 3 words, giant, high-contrast outline, never
+  repeating the title; bright saturated colours with a dark or blurred background so the subject pops; one clear focal point, no clutter;
+  readable at phone size (check a 168×94 preview before approving); curiosity gap (show the moment before the answer). Two very different
+  options for YouTube Test & Compare. After upload, check `uploaded.json` "thumbnail" is true; if it FAILED, tell the owner.
 - Last 2 seconds of every Short: Wy with the ✓ badge and "Follow for more true whys". Long videos: 20 s end screen with the wordmark.
 
 ## Every episode ends with

@@ -67,6 +67,7 @@ def extras(tok, vid, m):
 
 
 def upload(video, meta, thumb=None, long_id=None):
+    thumb_ok = None if thumb else "none given"
     done = os.path.join(os.path.dirname(os.path.abspath(meta)), "uploaded.json")
     if os.path.exists(done):
         sys.exit(f"already uploaded: {done}")
@@ -97,10 +98,11 @@ def upload(video, meta, thumb=None, long_id=None):
         try:
             ct = "image/png" if thumb.endswith(".png") else "image/jpeg"
             api("POST", f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={vid}", tok, raw=open(thumb, "rb").read(), ctype=ct)
-            print("thumbnail set")
+            print("thumbnail set"); thumb_ok = True
         except urllib.error.HTTPError as e:
-            print("thumbnail failed", e.code, e.read()[:200])
-    json.dump({"video_id": vid, "publishAt": m.get("publishAt"), "title": m["title"]}, open(done, "w"), indent=1)
+            thumb_ok = f"FAILED {e.code}: {e.read()[:200]}"
+            print("THUMBNAIL FAILED — tell the owner (custom thumbnails need a phone-verified channel: youtube.com/verify)", thumb_ok)
+    json.dump({"video_id": vid, "publishAt": m.get("publishAt"), "title": m["title"], "thumbnail": thumb_ok}, open(done, "w"), indent=1)
     extras(tok, vid, m)
     return vid
 
