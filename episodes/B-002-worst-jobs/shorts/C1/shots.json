@@ -8,7 +8,7 @@
  "episode": "B-002",
  "short": "C1",
  "title": "The Medieval Job Where You Drank Ale for Work",
- "duration": 51.583,
+ "duration": 45.89,
  "vertical": true,
  "shots": [
   {
@@ -147,7 +147,7 @@
    ],
    "id": "C1_S009",
    "start": 7.17,
-   "dur": 3.204,
+   "dur": 2.74,
    "chapter": 1,
    "line_start": 7.17,
    "src": "S009",
@@ -242,10 +242,10 @@
     ]
    ],
    "id": "C1_S010",
-   "start": 10.374,
-   "dur": 7.285,
+   "start": 9.91,
+   "dur": 6.59,
    "chapter": 1,
-   "line_start": 10.374,
+   "line_start": 9.91,
    "src": "S010"
   },
   {
@@ -306,10 +306,10 @@
     ]
    ],
    "id": "C1_S011",
-   "start": 17.659,
-   "dur": 1.509,
+   "start": 16.5,
+   "dur": 1.16,
    "chapter": 1,
-   "line_start": 17.659,
+   "line_start": 16.5,
    "src": "S011"
   },
   {
@@ -329,10 +329,10 @@
     ]
    ],
    "id": "C1_S012",
-   "start": 19.168,
-   "dur": 4.793,
+   "start": 17.66,
+   "dur": 4.59,
    "chapter": 1,
-   "line_start": 19.168,
+   "line_start": 17.66,
    "src": "S012"
   },
   {
@@ -408,10 +408,10 @@
     ]
    ],
    "id": "C1_S013",
-   "start": 23.961,
-   "dur": 3.747,
+   "start": 22.25,
+   "dur": 3.08,
    "chapter": 1,
-   "line_start": 23.961,
+   "line_start": 22.25,
    "src": "S013"
   },
   {
@@ -508,10 +508,10 @@
     ]
    ],
    "id": "C1_S015",
-   "start": 27.708,
-   "dur": 5.902,
+   "start": 25.33,
+   "dur": 5.1,
    "chapter": 1,
-   "line_start": 27.708,
+   "line_start": 25.33,
    "src": "S015"
   },
   {
@@ -577,10 +577,10 @@
     ]
    ],
    "id": "C1_S016",
-   "start": 33.61,
-   "dur": 6.891,
+   "start": 30.43,
+   "dur": 5.84,
    "chapter": 1,
-   "line_start": 33.61,
+   "line_start": 30.43,
    "src": "S016"
   },
   {
@@ -647,10 +647,10 @@
     ]
    ],
    "id": "C1_S017",
-   "start": 40.501,
-   "dur": 3.947,
+   "start": 36.27,
+   "dur": 3.24,
    "chapter": 1,
-   "line_start": 40.501,
+   "line_start": 36.27,
    "src": "S017"
   },
   {
@@ -777,18 +777,18 @@
     ]
    ],
    "id": "C1_S018",
-   "start": 44.448,
-   "dur": 4.535,
+   "start": 39.51,
+   "dur": 3.78,
    "chapter": 1,
-   "line_start": 44.448,
+   "line_start": 39.51,
    "src": "S018"
   },
   {
    "id": "C1_END",
    "kind": "end",
    "line": "O1",
-   "start": 48.983,
-   "line_start": 49.133,
+   "start": 43.29,
+   "line_start": 43.44,
    "dur": 2.6,
    "chapter": null,
    "sfx": [

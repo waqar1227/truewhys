@@ -117,7 +117,7 @@
    ],
    "id": "C8_S086",
    "start": 5.65,
-   "dur": 5.116,
+   "dur": 5.04,
    "chapter": 8,
    "line_start": 5.65,
    "src": "S086",
@@ -181,10 +181,10 @@
     ]
    ],
    "id": "C8_S087",
-   "start": 10.766,
-   "dur": 2.451,
+   "start": 10.69,
+   "dur": 3.4,
    "chapter": 8,
-   "line_start": 10.766,
+   "line_start": 10.69,
    "src": "S087"
   },
   {
@@ -258,10 +258,10 @@
     ]
    ],
    "id": "C8_S088",
-   "start": 13.217,
-   "dur": 6.612,
+   "start": 14.09,
+   "dur": 5.26,
    "chapter": 8,
-   "line_start": 13.217,
+   "line_start": 14.09,
    "src": "S088"
   },
   {
@@ -329,10 +329,10 @@
     ]
    ],
    "id": "C8_S089",
-   "start": 19.829,
-   "dur": 4.294,
+   "start": 19.35,
+   "dur": 4.18,
    "chapter": 8,
-   "line_start": 19.829,
+   "line_start": 19.35,
    "src": "S089"
   },
   {
@@ -383,10 +383,10 @@
     ]
    ],
    "id": "C8_S091",
-   "start": 29.182,
-   "dur": 4.139,
+   "start": 27.996,
+   "dur": 3.654,
    "chapter": 8,
-   "line_start": 24.123,
+   "line_start": 23.53,
    "src": "S091"
   },
   {
@@ -447,10 +447,10 @@
     ]
    ],
    "id": "C8_S092",
-   "start": 33.321,
-   "dur": 2.874,
+   "start": 31.65,
+   "dur": 2.35,
    "chapter": 8,
-   "line_start": 33.321,
+   "line_start": 31.65,
    "src": "S092"
   },
   {
@@ -518,10 +518,10 @@
    ],
    "music": "warm",
    "id": "C8_S093",
-   "start": 36.195,
-   "dur": 3.883,
+   "start": 34.0,
+   "dur": 4.24,
    "chapter": 8,
-   "line_start": 36.195,
+   "line_start": 34.0,
    "src": "S093"
   },
   {
@@ -575,10 +575,10 @@
    ],
    "part": null,
    "id": "C8_S094",
-   "start": 40.078,
-   "dur": 5.07,
+   "start": 38.24,
+   "dur": 4.24,
    "chapter": 8,
-   "line_start": 40.078,
+   "line_start": 38.24,
    "src": "S094"
   },
   {
@@ -709,7 +709,7 @@
    ],
    "id": "C2_S021",
    "start": 4.29,
-   "dur": 3.233,
+   "dur": 3.4,
    "chapter": 2,
    "line_start": 4.29,
    "src": "S021",
@@ -785,10 +785,10 @@
     ]
    ],
    "id": "C2_S022",
-   "start": 7.523,
-   "dur": 4.127,
+   "start": 7.69,
+   "dur": 4.12,
    "chapter": 2,
-   "line_start": 7.523,
+   "line_start": 7.69,
    "src": "S022"
   },
   {
@@ -849,10 +849,10 @@
     ]
    ],
    "id": "C2_S023",
-   "start": 11.65,
-   "dur": 2.556,
+   "start": 11.81,
+   "dur": 2.28,
    "chapter": 2,
-   "line_start": 11.65,
+   "line_start": 11.81,
    "src": "S023"
   },
   {
@@ -925,10 +925,10 @@
     ]
    ],
    "id": "C2_S024",
-   "start": 14.206,
-   "dur": 6.323,
+   "start": 14.09,
+   "dur": 5.74,
    "chapter": 2,
-   "line_start": 14.206,
+   "line_start": 14.09,
    "src": "S024"
   },
   {
@@ -1007,10 +1007,10 @@
     ]
    ],
    "id": "C2_S025",
-   "start": 20.529,
-   "dur": 6.881,
+   "start": 19.83,
+   "dur": 5.94,
    "chapter": 2,
-   "line_start": 20.529,
+   "line_start": 19.83,
    "src": "S025"
   },
   {
@@ -1104,10 +1104,10 @@
     ]
    ],
    "id": "C2_S026",
-   "start": 27.41,
-   "dur": 2.131,
+   "start": 25.77,
+   "dur": 1.92,
    "chapter": 2,
-   "line_start": 27.41,
+   "line_start": 25.77,
    "src": "S026"
   },
   {
@@ -1168,10 +1168,10 @@
    ],
    "music": "tension",
    "id": "C2_S027",
-   "start": 29.541,
-   "dur": 2.894,
+   "start": 27.69,
+   "dur": 2.6,
    "chapter": 2,
-   "line_start": 29.541,
+   "line_start": 27.69,
    "src": "S027"
   },
   {
@@ -1244,10 +1244,10 @@
     ]
    ],
    "id": "C2_S028",
-   "start": 32.435,
-   "dur": 7.089,
+   "start": 30.29,
+   "dur": 5.98,
    "chapter": 2,
-   "line_start": 32.435,
+   "line_start": 30.29,
    "src": "S028"
   },
   {
@@ -1314,10 +1314,10 @@
     ]
    ],
    "id": "C2_S029",
-   "start": 39.524,
-   "dur": 4.76,
+   "start": 36.27,
+   "dur": 4.24,
    "chapter": 2,
-   "line_start": 39.524,
+   "line_start": 36.27,
    "src": "S029"
   },
   {
@@ -1504,7 +1504,7 @@
    ],
    "id": "C3_S032",
    "start": 4.23,
-   "dur": 4.864,
+   "dur": 4.58,
    "chapter": 3,
    "line_start": 4.23,
    "src": "S032",
@@ -1579,10 +1579,10 @@
     ]
    ],
    "id": "C3_S033",
-   "start": 9.094,
-   "dur": 2.0,
+   "start": 8.81,
+   "dur": 1.64,
    "chapter": 3,
-   "line_start": 9.094,
+   "line_start": 8.81,
    "src": "S033"
   },
   {
@@ -1654,10 +1654,10 @@
     ]
    ],
    "id": "C3_S034",
-   "start": 11.094,
-   "dur": 3.499,
+   "start": 10.45,
+   "dur": 3.2,
    "chapter": 3,
-   "line_start": 11.094,
+   "line_start": 10.45,
    "src": "S034"
   },
   {
@@ -1741,10 +1741,10 @@
     ]
    ],
    "id": "C3_S035",
-   "start": 14.593,
-   "dur": 5.324,
+   "start": 13.65,
+   "dur": 5.19,
    "chapter": 3,
-   "line_start": 14.593,
+   "line_start": 13.65,
    "src": "S035"
   },
   {
@@ -1823,10 +1823,10 @@
     ]
    ],
    "id": "C3_S036",
-   "start": 19.917,
-   "dur": 3.199,
+   "start": 18.84,
+   "dur": 3.07,
    "chapter": 3,
-   "line_start": 19.917,
+   "line_start": 18.84,
    "src": "S036"
   },
   {
@@ -1905,10 +1905,10 @@
     ]
    ],
    "id": "C3_S037",
-   "start": 23.116,
-   "dur": 3.725,
+   "start": 21.91,
+   "dur": 3.22,
    "chapter": 3,
-   "line_start": 23.116,
+   "line_start": 21.91,
    "src": "S037"
   },
   {
@@ -2117,10 +2117,10 @@
     ]
    ],
    "id": "C3_S038",
-   "start": 26.841,
-   "dur": 4.169,
+   "start": 25.13,
+   "dur": 3.92,
    "chapter": 3,
-   "line_start": 26.841,
+   "line_start": 25.13,
    "src": "S038"
   },
   {
@@ -2181,10 +2181,10 @@
     ]
    ],
    "id": "C3_S039",
-   "start": 31.01,
-   "dur": 2.891,
+   "start": 29.05,
+   "dur": 1.98,
    "chapter": 3,
-   "line_start": 31.01,
+   "line_start": 29.05,
    "src": "S039"
   },
   {
@@ -2251,10 +2251,10 @@
     ]
    ],
    "id": "C3_S041",
-   "start": 38.137,
-   "dur": 3.581,
+   "start": 35.42,
+   "dur": 2.84,
    "chapter": 3,
-   "line_start": 38.137,
+   "line_start": 35.42,
    "src": "S041"
   },
   {
@@ -2366,7 +2366,7 @@
    ],
    "id": "C4_S044",
    "start": 3.43,
-   "dur": 1.667,
+   "dur": 2.18,
    "chapter": 4,
    "line_start": 3.43,
    "src": "S044",
@@ -2453,10 +2453,10 @@
     ]
    ],
    "id": "C4_S047",
-   "start": 12.708,
-   "dur": 4.373,
+   "start": 11.45,
+   "dur": 3.32,
    "chapter": 4,
-   "line_start": 12.708,
+   "line_start": 11.45,
    "src": "S047"
   },
   {
@@ -2529,10 +2529,10 @@
     ]
    ],
    "id": "C4_S048",
-   "start": 17.081,
-   "dur": 3.599,
+   "start": 14.77,
+   "dur": 3.57,
    "chapter": 4,
-   "line_start": 17.081,
+   "line_start": 14.77,
    "src": "S048"
   },
   {
@@ -2593,10 +2593,10 @@
     ]
    ],
    "id": "C4_S049",
-   "start": 20.68,
-   "dur": 4.859,
+   "start": 18.34,
+   "dur": 3.8,
    "chapter": 4,
-   "line_start": 20.68,
+   "line_start": 18.34,
    "src": "S049"
   },
   {
@@ -2662,10 +2662,10 @@
     ]
    ],
    "id": "C4_S050",
-   "start": 25.539,
-   "dur": 3.413,
+   "start": 22.14,
+   "dur": 2.64,
    "chapter": 4,
-   "line_start": 25.539,
+   "line_start": 22.14,
    "src": "S050"
   },
   {
@@ -2729,10 +2729,10 @@
     ]
    ],
    "id": "C4_S051",
-   "start": 28.952,
-   "dur": 2.36,
+   "start": 24.78,
+   "dur": 1.82,
    "chapter": 4,
-   "line_start": 28.952,
+   "line_start": 24.78,
    "src": "S051"
   },
   {
@@ -2826,10 +2826,10 @@
     ]
    ],
    "id": "C4_S052",
-   "start": 31.312,
-   "dur": 2.36,
+   "start": 26.6,
+   "dur": 1.82,
    "chapter": 4,
-   "line_start": 28.952,
+   "line_start": 24.78,
    "src": "S052"
   },
   {
@@ -2884,10 +2884,10 @@
    "part": null,
    "tag": "HISTORIANS DISAGREE",
    "id": "C4_S053",
-   "start": 33.672,
-   "dur": 3.916,
+   "start": 28.42,
+   "dur": 3.16,
    "chapter": 4,
-   "line_start": 33.672,
+   "line_start": 28.42,
    "src": "S053"
   },
   {
@@ -2949,10 +2949,10 @@
     ]
    ],
    "id": "C4_S054",
-   "start": 37.588,
-   "dur": 5.523,
+   "start": 31.58,
+   "dur": 4.8,
    "chapter": 4,
-   "line_start": 37.588,
+   "line_start": 31.58,
    "src": "S054"
   },
   {
@@ -3094,7 +3094,7 @@
    ],
    "id": "C5_S057",
    "start": 5.89,
-   "dur": 3.157,
+   "dur": 2.65,
    "chapter": 5,
    "line_start": 5.89,
    "src": "S057",
@@ -3150,10 +3150,10 @@
     ]
    ],
    "id": "C5_S058",
-   "start": 9.047,
-   "dur": 5.01,
+   "start": 8.54,
+   "dur": 4.0,
    "chapter": 5,
-   "line_start": 9.047,
+   "line_start": 8.54,
    "src": "S058"
   },
   {
@@ -3213,10 +3213,10 @@
     ]
    ],
    "id": "C5_S059",
-   "start": 14.057,
-   "dur": 4.008,
+   "start": 12.54,
+   "dur": 3.88,
    "chapter": 5,
-   "line_start": 14.057,
+   "line_start": 12.54,
    "src": "S059"
   },
   {
@@ -3289,10 +3289,10 @@
     ]
    ],
    "id": "C5_S060",
-   "start": 18.065,
-   "dur": 3.218,
+   "start": 16.42,
+   "dur": 2.62,
    "chapter": 5,
-   "line_start": 18.065,
+   "line_start": 16.42,
    "src": "S060"
   },
   {
@@ -3368,10 +3368,10 @@
     ]
    ],
    "id": "C5_S062",
-   "start": 28.268,
-   "dur": 5.867,
+   "start": 24.83,
+   "dur": 4.6,
    "chapter": 5,
-   "line_start": 28.268,
+   "line_start": 24.83,
    "src": "S062"
   },
   {
@@ -3450,10 +3450,10 @@
     ]
    ],
    "id": "C5_S063",
-   "start": 34.135,
-   "dur": 4.844,
+   "start": 29.43,
+   "dur": 4.48,
    "chapter": 5,
-   "line_start": 34.135,
+   "line_start": 29.43,
    "src": "S063"
   },
   {
@@ -3556,10 +3556,10 @@
     ]
    ],
    "id": "C5_S064",
-   "start": 38.979,
-   "dur": 3.947,
+   "start": 33.91,
+   "dur": 2.76,
    "chapter": 5,
-   "line_start": 38.979,
+   "line_start": 33.91,
    "src": "S064"
   },
   {
@@ -3697,7 +3697,7 @@
    ],
    "id": "C6_S067",
    "start": 4.21,
-   "dur": 4.971,
+   "dur": 5.2,
    "chapter": 6,
    "line_start": 4.21,
    "src": "S067",
@@ -3766,10 +3766,10 @@
     ]
    ],
    "id": "C6_S068",
-   "start": 9.181,
-   "dur": 3.91,
+   "start": 9.41,
+   "dur": 3.98,
    "chapter": 6,
-   "line_start": 9.181,
+   "line_start": 9.41,
    "src": "S068"
   },
   {
@@ -3843,10 +3843,10 @@
     ]
    ],
    "id": "C6_S069",
-   "start": 13.091,
-   "dur": 5.035,
+   "start": 13.39,
+   "dur": 4.38,
    "chapter": 6,
-   "line_start": 13.091,
+   "line_start": 13.39,
    "src": "S069"
   },
   {
@@ -3917,10 +3917,10 @@
     ]
    ],
    "id": "C6_S070",
-   "start": 18.126,
-   "dur": 5.589,
+   "start": 17.77,
+   "dur": 6.5,
    "chapter": 6,
-   "line_start": 18.126,
+   "line_start": 17.77,
    "src": "S070"
   },
   {
@@ -3987,10 +3987,10 @@
     ]
    ],
    "id": "C6_S071",
-   "start": 23.715,
-   "dur": 4.578,
+   "start": 24.27,
+   "dur": 3.74,
    "chapter": 6,
-   "line_start": 23.715,
+   "line_start": 24.27,
    "src": "S071"
   },
   {
@@ -4038,10 +4038,10 @@
     ]
    ],
    "id": "C6_S072",
-   "start": 28.293,
-   "dur": 4.386,
+   "start": 28.01,
+   "dur": 3.56,
    "chapter": 6,
-   "line_start": 28.293,
+   "line_start": 28.01,
    "src": "S072"
   },
   {
@@ -4202,7 +4202,7 @@
    ],
    "id": "C7_S076",
    "start": 4.05,
-   "dur": 5.123,
+   "dur": 3.92,
    "chapter": 7,
    "line_start": 4.05,
    "src": "S076",
@@ -4267,10 +4267,10 @@
     ]
    ],
    "id": "C7_S077",
-   "start": 9.173,
-   "dur": 5.696,
+   "start": 7.97,
+   "dur": 4.92,
    "chapter": 7,
-   "line_start": 9.173,
+   "line_start": 7.97,
    "src": "S077"
   },
   {
@@ -4336,10 +4336,10 @@
     ]
    ],
    "id": "C7_S078",
-   "start": 14.869,
-   "dur": 3.157,
+   "start": 12.89,
+   "dur": 2.28,
    "chapter": 7,
-   "line_start": 14.869,
+   "line_start": 12.89,
    "src": "S078"
   },
   {
@@ -4401,10 +4401,10 @@
     ]
    ],
    "id": "C7_S079",
-   "start": 18.026,
-   "dur": 5.879,
+   "start": 15.17,
+   "dur": 5.26,
    "chapter": 7,
-   "line_start": 18.026,
+   "line_start": 15.17,
    "src": "S079"
   },
   {
@@ -4519,10 +4519,10 @@
     ]
    ],
    "id": "C7_S082",
-   "start": 32.741,
-   "dur": 5.247,
+   "start": 26.73,
+   "dur": 6.2,
    "chapter": 7,
-   "line_start": 32.741,
+   "line_start": 26.73,
    "src": "S082"
   },
   {
@@ -4621,10 +4621,10 @@
     ]
    ],
    "id": "C7_S083",
-   "start": 37.988,
-   "dur": 2.984,
+   "start": 32.93,
+   "dur": 2.74,
    "chapter": 7,
-   "line_start": 37.988,
+   "line_start": 32.93,
    "src": "S083"
   },
   {
@@ -4763,7 +4763,7 @@
    ],
    "id": "C1_S009",
    "start": 7.17,
-   "dur": 3.204,
+   "dur": 2.74,
    "chapter": 1,
    "line_start": 7.17,
    "src": "S009",
@@ -4858,10 +4858,10 @@
     ]
    ],
    "id": "C1_S010",
-   "start": 10.374,
-   "dur": 7.285,
+   "start": 9.91,
+   "dur": 6.59,
    "chapter": 1,
-   "line_start": 10.374,
+   "line_start": 9.91,
    "src": "S010"
   },
   {
@@ -4922,10 +4922,10 @@
     ]
    ],
    "id": "C1_S011",
-   "start": 17.659,
-   "dur": 1.509,
+   "start": 16.5,
+   "dur": 1.16,
    "chapter": 1,
-   "line_start": 17.659,
+   "line_start": 16.5,
    "src": "S011"
   },
   {
@@ -5001,10 +5001,10 @@
     ]
    ],
    "id": "C1_S013",
-   "start": 23.961,
-   "dur": 3.747,
+   "start": 22.25,
+   "dur": 3.08,
    "chapter": 1,
-   "line_start": 23.961,
+   "line_start": 22.25,
    "src": "S013"
   },
   {
@@ -5101,10 +5101,10 @@
     ]
    ],
    "id": "C1_S015",
-   "start": 27.708,
-   "dur": 5.902,
+   "start": 25.33,
+   "dur": 5.1,
    "chapter": 1,
-   "line_start": 27.708,
+   "line_start": 25.33,
    "src": "S015"
   },
   {
@@ -5170,10 +5170,10 @@
     ]
    ],
    "id": "C1_S016",
-   "start": 33.61,
-   "dur": 6.891,
+   "start": 30.43,
+   "dur": 5.84,
    "chapter": 1,
-   "line_start": 33.61,
+   "line_start": 30.43,
    "src": "S016"
   },
   {
@@ -5240,10 +5240,10 @@
     ]
    ],
    "id": "C1_S017",
-   "start": 40.501,
-   "dur": 3.947,
+   "start": 36.27,
+   "dur": 3.24,
    "chapter": 1,
-   "line_start": 40.501,
+   "line_start": 36.27,
    "src": "S017"
   },
   {
@@ -5370,10 +5370,10 @@
     ]
    ],
    "id": "C1_S018",
-   "start": 44.448,
-   "dur": 4.535,
+   "start": 39.51,
+   "dur": 3.78,
    "chapter": 1,
-   "line_start": 44.448,
+   "line_start": 39.51,
    "src": "S018"
   }
  ]

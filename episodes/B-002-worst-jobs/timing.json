@@ -3,292 +3,296 @@
   "id": "L01",
   "chapter": 0,
   "text": "Imagine a job where you work only at night...",
-  "dur": 2.923,
+  "dur": 3.28,
   "words": [
    {
     "w": "Imagine",
     "s": 0.0,
-    "e": 0.46
+    "e": 0.48
    },
    {
     "w": "a",
-    "s": 0.46,
-    "e": 0.68
+    "s": 0.48,
+    "e": 0.88
    },
    {
     "w": "job",
-    "s": 0.68,
-    "e": 1.08
+    "s": 0.88,
+    "e": 1.04
    },
    {
     "w": "where",
-    "s": 1.08,
-    "e": 1.48
+    "s": 1.04,
+    "e": 1.26
    },
    {
     "w": "you",
-    "s": 1.48,
-    "e": 1.6
+    "s": 1.26,
+    "e": 1.44
    },
    {
     "w": "work",
-    "s": 1.6,
-    "e": 1.8
+    "s": 1.44,
+    "e": 1.74
    },
    {
     "w": "only",
-    "s": 1.8,
+    "s": 1.74,
     "e": 2.14
    },
    {
     "w": "at",
     "s": 2.14,
-    "e": 2.38
+    "e": 2.44
    },
    {
     "w": "night...",
-    "s": 2.38,
-    "e": 2.9
+    "s": 2.44,
+    "e": 3.28
    }
   ],
-  "heard": "Imagine a job where you work only at night..."
+  "heard": "Imagine a job where you work only at night...",
+  "match": 1.0
  },
  {
   "id": "L02",
   "chapter": 0,
   "text": "because the law doesn't want anyone to see you.",
-  "dur": 2.664,
+  "dur": 2.62,
   "words": [
    {
     "w": "because",
     "s": 0.0,
-    "e": 0.28
+    "e": 0.1
    },
    {
     "w": "the",
-    "s": 0.28,
-    "e": 0.48
+    "s": 0.1,
+    "e": 0.3
    },
    {
     "w": "law",
-    "s": 0.48,
-    "e": 0.78
+    "s": 0.3,
+    "e": 0.5
    },
    {
     "w": "doesn't",
-    "s": 0.78,
-    "e": 1.26
+    "s": 0.5,
+    "e": 0.82
    },
    {
     "w": "want",
-    "s": 1.26,
-    "e": 1.44
+    "s": 0.82,
+    "e": 1.1
    },
    {
     "w": "anyone",
-    "s": 1.44,
-    "e": 1.78
+    "s": 1.1,
+    "e": 1.52
    },
    {
     "w": "to",
-    "s": 1.78,
-    "e": 2.1
+    "s": 1.52,
+    "e": 1.86
    },
    {
     "w": "see",
-    "s": 2.1,
-    "e": 2.32
+    "s": 1.86,
+    "e": 2.06
    },
    {
     "w": "you.",
-    "s": 2.32,
-    "e": 2.56
+    "s": 2.06,
+    "e": 2.44
    }
   ],
-  "heard": "Because the law doesn't want anyone to see you."
+  "heard": "because the law doesn't want anyone to see you.",
+  "match": 1.0
  },
  {
   "id": "L03",
   "chapter": 0,
   "text": "Or a job where the king's most powerful servant... was the man who helped him on the toilet.",
-  "dur": 5.4,
+  "dur": 5.42,
   "words": [
    {
     "w": "Or",
-    "s": 0.0,
-    "e": 0.16
+    "s": 0.08,
+    "e": 0.26
    },
    {
     "w": "a",
-    "s": 0.16,
-    "e": 0.38
+    "s": 0.26,
+    "e": 0.44
    },
    {
     "w": "job",
-    "s": 0.38,
-    "e": 0.7
-   },
-   {
-    "w": "where",
-    "s": 0.7,
-    "e": 0.98
-   },
-   {
-    "w": "the",
-    "s": 0.98,
-    "e": 1.12
-   },
-   {
-    "w": "king's",
-    "s": 1.12,
-    "e": 1.52
-   },
-   {
-    "w": "most",
-    "s": 1.52,
-    "e": 1.72
-   },
-   {
-    "w": "powerful",
-    "s": 1.72,
-    "e": 2.3
-   },
-   {
-    "w": "servant...",
-    "s": 2.3,
-    "e": 3.46
-   },
-   {
-    "w": "was",
-    "s": 3.46,
-    "e": 3.5
-   },
-   {
-    "w": "the",
-    "s": 3.5,
-    "e": 3.66
-   },
-   {
-    "w": "man",
-    "s": 3.66,
-    "e": 3.88
-   },
-   {
-    "w": "who",
-    "s": 3.88,
-    "e": 4.08
-   },
-   {
-    "w": "helped",
-    "s": 4.08,
-    "e": 4.32
-   },
-   {
-    "w": "him",
-    "s": 4.32,
-    "e": 4.5
-   },
-   {
-    "w": "on",
-    "s": 4.5,
-    "e": 4.68
-   },
-   {
-    "w": "the",
-    "s": 4.68,
-    "e": 4.82
-   },
-   {
-    "w": "toilet.",
-    "s": 4.82,
-    "e": 5.1
-   }
-  ],
-  "heard": "Or a job where the king's most powerful servant... was the man who helped him on the toilet."
- },
- {
-  "id": "L04",
-  "chapter": 0,
-  "text": "Or a job where your boss paid you to swallow a toad.",
-  "dur": 3.038,
-  "words": [
-   {
-    "w": "Or",
-    "s": 0.0,
-    "e": 0.16
-   },
-   {
-    "w": "a",
-    "s": 0.16,
-    "e": 0.4
-   },
-   {
-    "w": "job",
-    "s": 0.4,
+    "s": 0.44,
     "e": 0.62
    },
    {
     "w": "where",
     "s": 0.62,
-    "e": 0.9
+    "e": 0.8
    },
    {
-    "w": "your",
-    "s": 0.9,
-    "e": 1.02
+    "w": "the",
+    "s": 0.8,
+    "e": 0.98
    },
    {
-    "w": "boss",
-    "s": 1.02,
+    "w": "king's",
+    "s": 0.98,
     "e": 1.3
    },
    {
-    "w": "paid",
+    "w": "most",
     "s": 1.3,
-    "e": 1.6
+    "e": 1.52
    },
    {
-    "w": "you",
-    "s": 1.6,
-    "e": 1.8
+    "w": "powerful",
+    "s": 1.52,
+    "e": 2.04
    },
    {
-    "w": "to",
-    "s": 1.8,
-    "e": 1.92
+    "w": "servant...",
+    "s": 2.04,
+    "e": 2.98
    },
    {
-    "w": "swallow",
-    "s": 1.92,
-    "e": 2.24
+    "w": "was",
+    "s": 2.98,
+    "e": 3.06
+   },
+   {
+    "w": "the",
+    "s": 3.06,
+    "e": 3.26
+   },
+   {
+    "w": "man",
+    "s": 3.26,
+    "e": 3.48
+   },
+   {
+    "w": "who",
+    "s": 3.48,
+    "e": 3.7
+   },
+   {
+    "w": "helped",
+    "s": 3.7,
+    "e": 4.04
+   },
+   {
+    "w": "him",
+    "s": 4.04,
+    "e": 4.26
+   },
+   {
+    "w": "on",
+    "s": 4.26,
+    "e": 4.58
+   },
+   {
+    "w": "the",
+    "s": 4.58,
+    "e": 4.78
+   },
+   {
+    "w": "toilet.",
+    "s": 4.78,
+    "e": 5.24
+   }
+  ],
+  "heard": "Or a job where the king's most powerful servant... was the man who helped him on the toilet.",
+  "match": 1.0
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "Or a job where your boss paid you to swallow a toad.",
+  "dur": 3.98,
+  "words": [
+   {
+    "w": "Or",
+    "s": 0.08,
+    "e": 0.34
    },
    {
     "w": "a",
-    "s": 2.24,
-    "e": 2.46
+    "s": 0.34,
+    "e": 0.48
+   },
+   {
+    "w": "job",
+    "s": 0.48,
+    "e": 0.66
+   },
+   {
+    "w": "where",
+    "s": 0.66,
+    "e": 0.94
+   },
+   {
+    "w": "your",
+    "s": 0.94,
+    "e": 1.16
+   },
+   {
+    "w": "boss",
+    "s": 1.16,
+    "e": 1.54
+   },
+   {
+    "w": "paid",
+    "s": 1.54,
+    "e": 1.98
+   },
+   {
+    "w": "you",
+    "s": 1.98,
+    "e": 2.18
+   },
+   {
+    "w": "to",
+    "s": 2.18,
+    "e": 2.38
+   },
+   {
+    "w": "swallow",
+    "s": 2.38,
+    "e": 2.76
+   },
+   {
+    "w": "a",
+    "s": 2.76,
+    "e": 3.18
    },
    {
     "w": "toad.",
-    "s": 2.46,
-    "e": 2.9
+    "s": 3.18,
+    "e": 3.8
    }
   ],
-  "heard": "Or a job where your boss paid you to swallow a toad."
+  "heard": "Or a job where your boss paid you to swallow a toad.",
+  "match": 1.0
  },
  {
   "id": "L05",
   "chapter": 0,
   "text": "These were real jobs in old England.",
-  "dur": 2.517,
+  "dur": 2.1,
   "words": [
    {
     "w": "These",
-    "s": 0.0,
-    "e": 0.3
+    "s": 0.08,
+    "e": 0.32
    },
    {
     "w": "were",
-    "s": 0.3,
+    "s": 0.32,
     "e": 0.52
    },
    {
@@ -299,956 +303,971 @@
    {
     "w": "jobs",
     "s": 0.88,
-    "e": 1.34
+    "e": 1.28
    },
    {
     "w": "in",
-    "s": 1.34,
-    "e": 1.62
+    "s": 1.28,
+    "e": 1.5
    },
    {
     "w": "old",
-    "s": 1.62,
-    "e": 1.86
+    "s": 1.5,
+    "e": 1.62
    },
    {
     "w": "England.",
-    "s": 1.86,
-    "e": 2.18
+    "s": 1.62,
+    "e": 1.92
    }
   ],
-  "heard": "These were real jobs in old England."
+  "heard": "These were real jobs in old England.",
+  "match": 1.0
  },
  {
   "id": "L06",
   "chapter": 0,
   "text": "Tonight, we rank eight of the worst, from bad... to unbelievable.",
-  "dur": 3.947,
+  "dur": 4.88,
   "words": [
    {
     "w": "Tonight,",
-    "s": 0.0,
-    "e": 0.3
+    "s": 0.08,
+    "e": 0.34
    },
    {
     "w": "we",
-    "s": 0.5,
-    "e": 0.52
+    "s": 0.74,
+    "e": 0.84
    },
    {
     "w": "rank",
-    "s": 0.52,
-    "e": 0.78
+    "s": 0.84,
+    "e": 1.12
    },
    {
     "w": "eight",
-    "s": 0.78,
-    "e": 1.06
+    "s": 1.12,
+    "e": 1.44
    },
    {
     "w": "of",
-    "s": 1.06,
-    "e": 1.2
+    "s": 1.44,
+    "e": 1.7
    },
    {
     "w": "the",
-    "s": 1.2,
-    "e": 1.32
+    "s": 1.7,
+    "e": 1.88
    },
    {
     "w": "worst,",
-    "s": 1.32,
-    "e": 1.6
+    "s": 1.88,
+    "e": 2.14
    },
    {
     "w": "from",
-    "s": 1.82,
-    "e": 1.92
+    "s": 2.64,
+    "e": 2.86
    },
    {
     "w": "bad...",
-    "s": 1.92,
-    "e": 2.88
+    "s": 2.86,
+    "e": 3.94
    },
    {
     "w": "to",
-    "s": 2.88,
-    "e": 2.96
+    "s": 3.94,
+    "e": 3.96
    },
    {
     "w": "unbelievable.",
-    "s": 2.96,
-    "e": 3.54
+    "s": 3.96,
+    "e": 4.7
    }
   ],
-  "heard": "Tonight, we rank eight of the worst, from bad... to unbelievable."
+  "heard": "Tonight, we rank eight of the worst, from bad... to unbelievable.",
+  "match": 1.0
  },
  {
   "id": "L07",
   "chapter": 0,
   "text": "And number one is a job you will never, ever want.",
-  "dur": 3.26,
+  "dur": 3.88,
   "words": [
    {
     "w": "And",
-    "s": 0.0,
-    "e": 0.18
+    "s": 0.08,
+    "e": 0.26
    },
    {
     "w": "number",
-    "s": 0.18,
-    "e": 0.34
+    "s": 0.26,
+    "e": 0.5
    },
    {
     "w": "one",
-    "s": 0.34,
-    "e": 0.64
+    "s": 0.5,
+    "e": 0.8
    },
    {
     "w": "is",
-    "s": 0.64,
-    "e": 0.86
-   },
-   {
-    "w": "a",
-    "s": 0.86,
+    "s": 0.8,
     "e": 1.08
    },
    {
-    "w": "job",
+    "w": "a",
     "s": 1.08,
-    "e": 1.34
+    "e": 1.22
+   },
+   {
+    "w": "job",
+    "s": 1.22,
+    "e": 1.38
    },
    {
     "w": "you",
-    "s": 1.34,
-    "e": 1.58
+    "s": 1.38,
+    "e": 1.7
    },
    {
     "w": "will",
-    "s": 1.58,
-    "e": 1.72
+    "s": 1.7,
+    "e": 1.94
    },
    {
     "w": "never,",
-    "s": 1.72,
-    "e": 2.1
+    "s": 1.94,
+    "e": 2.44
    },
    {
     "w": "ever",
-    "s": 2.42,
-    "e": 2.6
+    "s": 3.02,
+    "e": 3.08
    },
    {
     "w": "want.",
-    "s": 2.6,
-    "e": 2.98
+    "s": 3.08,
+    "e": 3.7
    }
   ],
-  "heard": "And number one is a job you will never, ever want."
+  "heard": "And number one is a job you will never, ever want.",
+  "match": 1.0
  },
  {
   "id": "L08",
   "chapter": 1,
   "text": "Number eight: the ale conner.",
-  "dur": 1.804,
+  "dur": 2.46,
   "words": [
    {
     "w": "Number",
     "s": 0.0,
-    "e": 0.28
+    "e": 0.48
    },
    {
     "w": "eight:",
-    "s": 0.28,
-    "e": 0.56
+    "s": 0.48,
+    "e": 0.76
    },
    {
     "w": "the",
-    "s": 0.56,
-    "e": 0.88
+    "s": 1.42,
+    "e": 1.42
    },
    {
     "w": "ale",
-    "s": 0.88,
-    "e": 1.1
+    "s": 1.42,
+    "e": 1.76
    },
    {
     "w": "conner.",
-    "s": 1.1,
-    "e": 1.7
+    "s": 1.76,
+    "e": 2.28
    }
   ],
-  "heard": "Number eight the ale conner."
+  "heard": "Number eight. The ale conner.",
+  "match": 1.0
  },
  {
   "id": "L09",
   "chapter": 1,
   "text": "At first, this sounds like the best job in town.",
-  "dur": 2.884,
+  "dur": 2.42,
   "words": [
    {
     "w": "At",
-    "s": 0.0,
-    "e": 0.18
+    "s": 0.08,
+    "e": 0.14
    },
    {
     "w": "first,",
-    "s": 0.18,
-    "e": 0.52
+    "s": 0.14,
+    "e": 0.34
    },
    {
     "w": "this",
-    "s": 0.72,
-    "e": 0.86
+    "s": 0.68,
+    "e": 0.9
    },
    {
     "w": "sounds",
-    "s": 0.86,
-    "e": 1.14
+    "s": 0.9,
+    "e": 1.1
    },
    {
     "w": "like",
-    "s": 1.14,
-    "e": 1.34
+    "s": 1.1,
+    "e": 1.24
    },
    {
     "w": "the",
-    "s": 1.34,
-    "e": 1.5
+    "s": 1.24,
+    "e": 1.38
    },
    {
     "w": "best",
-    "s": 1.5,
-    "e": 1.7
+    "s": 1.38,
+    "e": 1.58
    },
    {
     "w": "job",
-    "s": 1.7,
-    "e": 2.06
+    "s": 1.58,
+    "e": 1.8
    },
    {
     "w": "in",
-    "s": 2.06,
-    "e": 2.32
+    "s": 1.8,
+    "e": 1.98
    },
    {
     "w": "town.",
-    "s": 2.32,
-    "e": 2.6
+    "s": 1.98,
+    "e": 2.24
    }
   ],
-  "heard": "At first, this sounds like the best job in town."
+  "heard": "At first, this sounds like the best job in town.",
+  "match": 1.0
  },
  {
   "id": "L10",
   "chapter": 1,
   "text": "In medieval England, an ale conner was chosen by the local court to walk from alehouse to alehouse...",
-  "dur": 6.715,
+  "dur": 6.02,
   "words": [
    {
     "w": "In",
-    "s": 0.0,
-    "e": 0.2
+    "s": 0.08,
+    "e": 0.18
    },
    {
     "w": "medieval",
-    "s": 0.2,
-    "e": 0.56
+    "s": 0.18,
+    "e": 0.48
    },
    {
     "w": "England,",
-    "s": 0.56,
-    "e": 1.18
+    "s": 0.48,
+    "e": 0.94
    },
    {
     "w": "an",
-    "s": 1.8,
-    "e": 1.88
+    "s": 1.2,
+    "e": 1.24
    },
    {
     "w": "ale",
-    "s": 1.88,
-    "e": 2.18
+    "s": 1.24,
+    "e": 1.5
    },
    {
     "w": "conner",
-    "s": 2.18,
-    "e": 2.7
+    "s": 1.5,
+    "e": 1.88
    },
    {
     "w": "was",
-    "s": 2.7,
-    "e": 2.88
+    "s": 1.88,
+    "e": 2.04
    },
    {
     "w": "chosen",
-    "s": 2.88,
-    "e": 3.26
+    "s": 2.04,
+    "e": 2.28
    },
    {
     "w": "by",
-    "s": 3.26,
-    "e": 3.58
+    "s": 2.28,
+    "e": 2.5
    },
    {
     "w": "the",
-    "s": 3.58,
-    "e": 3.72
+    "s": 2.5,
+    "e": 2.64
    },
    {
     "w": "local",
-    "s": 3.72,
-    "e": 4.0
+    "s": 2.64,
+    "e": 2.92
    },
    {
     "w": "court",
-    "s": 4.0,
+    "s": 2.92,
+    "e": 3.24
+   },
+   {
+    "w": "to",
+    "s": 3.24,
+    "e": 3.44
+   },
+   {
+    "w": "walk",
+    "s": 3.44,
+    "e": 3.62
+   },
+   {
+    "w": "from",
+    "s": 3.62,
+    "e": 3.86
+   },
+   {
+    "w": "alehouse",
+    "s": 3.86,
     "e": 4.38
    },
    {
     "w": "to",
     "s": 4.38,
-    "e": 4.62
-   },
-   {
-    "w": "walk",
-    "s": 4.62,
-    "e": 4.88
-   },
-   {
-    "w": "from",
-    "s": 4.88,
-    "e": 5.12
-   },
-   {
-    "w": "alehouse",
-    "s": 5.12,
-    "e": 5.64
-   },
-   {
-    "w": "to",
-    "s": 5.64,
-    "e": 5.88
+    "e": 4.56
    },
    {
     "w": "alehouse...",
-    "s": 5.88,
-    "e": 6.68
+    "s": 4.56,
+    "e": 6.02
    }
   ],
-  "heard": "In medieval England, an ale conner was chosen by the local court to walk from alehouse to alehouse..."
+  "heard": "In medieval England, an ale conner was chosen by the local court to walk from alehouse to alehouse...",
+  "match": 1.0
  },
  {
   "id": "L11",
   "chapter": 1,
   "text": "and taste the ale.",
-  "dur": 1.189,
+  "dur": 0.84,
   "words": [
    {
     "w": "and",
     "s": 0.0,
-    "e": 0.18
+    "e": 0.0
    },
    {
     "w": "taste",
-    "s": 0.18,
-    "e": 0.42
+    "s": 0.0,
+    "e": 0.26
    },
    {
     "w": "the",
-    "s": 0.42,
-    "e": 0.68
+    "s": 0.26,
+    "e": 0.48
    },
    {
     "w": "ale.",
-    "s": 0.68,
-    "e": 0.88
+    "s": 0.48,
+    "e": 0.66
    }
   ],
-  "heard": "and taste the ale."
+  "heard": "and taste the ale.",
+  "match": 1.0
  },
  {
   "id": "L12",
   "chapter": 1,
   "text": "If a brewer sold weak ale, short measures, or charged too much...",
-  "dur": 4.223,
+  "dur": 4.02,
   "words": [
    {
     "w": "If",
-    "s": 0.0,
-    "e": 0.14
+    "s": 0.08,
+    "e": 0.24
    },
    {
     "w": "a",
-    "s": 0.14,
-    "e": 0.28
+    "s": 0.24,
+    "e": 0.38
    },
    {
     "w": "brewer",
-    "s": 0.28,
-    "e": 0.5
+    "s": 0.38,
+    "e": 0.6
    },
    {
     "w": "sold",
-    "s": 0.5,
+    "s": 0.6,
     "e": 0.92
    },
    {
     "w": "weak",
     "s": 0.92,
-    "e": 1.18
+    "e": 1.2
    },
    {
     "w": "ale,",
-    "s": 1.18,
-    "e": 1.54
+    "s": 1.2,
+    "e": 1.46
    },
    {
     "w": "short",
-    "s": 2.0,
-    "e": 2.12
+    "s": 1.66,
+    "e": 1.86
    },
    {
     "w": "measures,",
-    "s": 2.12,
-    "e": 2.62
+    "s": 1.86,
+    "e": 2.22
    },
    {
     "w": "or",
-    "s": 2.84,
-    "e": 3.0
+    "s": 2.46,
+    "e": 2.6
    },
    {
     "w": "charged",
-    "s": 3.0,
-    "e": 3.4
+    "s": 2.6,
+    "e": 2.94
    },
    {
     "w": "too",
-    "s": 3.4,
-    "e": 3.7
+    "s": 2.94,
+    "e": 3.18
    },
    {
     "w": "much...",
-    "s": 3.7,
-    "e": 4.2
+    "s": 3.18,
+    "e": 4.02
    }
   ],
-  "heard": "If a brewer sold weak ale, short measures, or charged too much..."
+  "heard": "If a brewer sold weak ale, short measures, or charged too much...",
+  "match": 1.0
  },
  {
   "id": "L13",
   "chapter": 1,
   "text": "the ale conner could drag them before the court to be fined.",
-  "dur": 3.427,
+  "dur": 2.76,
   "words": [
    {
     "w": "the",
     "s": 0.0,
-    "e": 0.14
+    "e": 0.06
    },
    {
     "w": "ale",
-    "s": 0.14,
-    "e": 0.4
+    "s": 0.06,
+    "e": 0.32
    },
    {
     "w": "conner",
-    "s": 0.4,
-    "e": 0.92
+    "s": 0.32,
+    "e": 0.62
    },
    {
     "w": "could",
-    "s": 0.92,
-    "e": 1.1
+    "s": 0.62,
+    "e": 0.76
    },
    {
     "w": "drag",
-    "s": 1.1,
-    "e": 1.52
+    "s": 0.76,
+    "e": 1.02
    },
    {
     "w": "them",
-    "s": 1.52,
-    "e": 1.74
+    "s": 1.02,
+    "e": 1.16
    },
    {
     "w": "before",
-    "s": 1.74,
-    "e": 2.04
+    "s": 1.16,
+    "e": 1.4
    },
    {
     "w": "the",
-    "s": 2.04,
-    "e": 2.2
+    "s": 1.4,
+    "e": 1.54
    },
    {
     "w": "court",
-    "s": 2.2,
-    "e": 2.5
+    "s": 1.54,
+    "e": 1.86
    },
    {
     "w": "to",
-    "s": 2.5,
-    "e": 2.68
+    "s": 1.86,
+    "e": 2.14
    },
    {
     "w": "be",
-    "s": 2.68,
-    "e": 2.82
+    "s": 2.14,
+    "e": 2.26
    },
    {
     "w": "fined.",
-    "s": 2.82,
-    "e": 3.16
+    "s": 2.26,
+    "e": 2.58
    }
   ],
-  "heard": "The ale conner could drag them before the court to be fined."
+  "heard": "the ale conner could drag them before the court to be fined.",
+  "match": 1.0
  },
  {
   "id": "L14",
   "chapter": 1,
   "text": "So why is it on this list?",
-  "dur": 1.744,
+  "dur": 1.7,
   "words": [
    {
     "w": "So",
-    "s": 0.0,
-    "e": 0.2
+    "s": 0.08,
+    "e": 0.3
    },
    {
     "w": "why",
-    "s": 0.2,
-    "e": 0.52
+    "s": 0.3,
+    "e": 0.86
    },
    {
     "w": "is",
-    "s": 0.52,
-    "e": 0.78
+    "s": 0.86,
+    "e": 0.96
    },
    {
     "w": "it",
-    "s": 0.78,
-    "e": 0.88
-   },
-   {
-    "w": "on",
-    "s": 0.88,
+    "s": 0.96,
     "e": 1.02
    },
    {
-    "w": "this",
+    "w": "on",
     "s": 1.02,
-    "e": 1.18
+    "e": 1.14
+   },
+   {
+    "w": "this",
+    "s": 1.14,
+    "e": 1.28
    },
    {
     "w": "list?",
-    "s": 1.18,
-    "e": 1.44
+    "s": 1.28,
+    "e": 1.52
    }
   ],
-  "heard": "So why is it on this list?"
+  "heard": "So why is it on this list?",
+  "match": 1.0
  },
  {
   "id": "L15",
   "chapter": 1,
   "text": "Because the people you tested were your neighbours. And nobody likes the person who reports them.",
-  "dur": 5.582,
+  "dur": 4.78,
   "words": [
    {
     "w": "Because",
-    "s": 0.0,
-    "e": 0.26
+    "s": 0.08,
+    "e": 0.34
    },
    {
     "w": "the",
-    "s": 0.26,
-    "e": 0.48
+    "s": 0.34,
+    "e": 0.54
    },
    {
     "w": "people",
-    "s": 0.48,
-    "e": 0.8
+    "s": 0.54,
+    "e": 0.84
    },
    {
     "w": "you",
-    "s": 0.8,
-    "e": 1.0
+    "s": 0.84,
+    "e": 1.04
    },
    {
     "w": "tested",
-    "s": 1.0,
+    "s": 1.04,
     "e": 1.38
    },
    {
     "w": "were",
     "s": 1.38,
-    "e": 1.84
+    "e": 1.78
    },
    {
     "w": "your",
-    "s": 1.84,
-    "e": 2.04
+    "s": 1.78,
+    "e": 1.96
    },
    {
     "w": "neighbours.",
-    "s": 2.04,
-    "e": 2.4
+    "s": 1.96,
+    "e": 2.36
    },
    {
     "w": "And",
-    "s": 3.06,
-    "e": 3.22
+    "s": 2.94,
+    "e": 3.14
    },
    {
     "w": "nobody",
-    "s": 3.22,
-    "e": 3.58
+    "s": 3.14,
+    "e": 3.48
    },
    {
     "w": "likes",
-    "s": 3.58,
-    "e": 3.9
+    "s": 3.48,
+    "e": 3.74
    },
    {
     "w": "the",
-    "s": 3.9,
-    "e": 4.18
+    "s": 3.74,
+    "e": 3.9
    },
    {
     "w": "person",
-    "s": 4.18,
-    "e": 4.48
+    "s": 3.9,
+    "e": 4.06
    },
    {
     "w": "who",
-    "s": 4.48,
-    "e": 4.7
+    "s": 4.06,
+    "e": 4.22
    },
    {
     "w": "reports",
-    "s": 4.7,
-    "e": 5.12
+    "s": 4.22,
+    "e": 4.54
    },
    {
     "w": "them.",
-    "s": 5.12,
-    "e": 5.44
+    "s": 4.54,
+    "e": 4.78
    }
   ],
-  "heard": "Because the people you tested were your neighbours. And nobody likes the person who reports them."
+  "heard": "Because the people you tested were your neighbours. And nobody likes the person who reports them.",
+  "match": 1.0
  },
  {
   "id": "L16",
   "chapter": 1,
   "text": "You may have heard that ale conners sat in a puddle of ale in leather trousers, to see if they stuck to the bench.",
-  "dur": 6.571,
+  "dur": 5.52,
   "words": [
    {
     "w": "You",
     "s": 0.0,
-    "e": 0.16
+    "e": 0.74
    },
    {
     "w": "may",
-    "s": 0.16,
-    "e": 0.34
+    "s": 0.74,
+    "e": 0.88
    },
    {
     "w": "have",
-    "s": 0.34,
-    "e": 0.48
+    "s": 0.88,
+    "e": 0.98
    },
    {
     "w": "heard",
-    "s": 0.48,
-    "e": 0.78
+    "s": 0.98,
+    "e": 1.14
    },
    {
     "w": "that",
-    "s": 0.78,
-    "e": 1.04
+    "s": 1.14,
+    "e": 1.3
    },
    {
     "w": "ale",
-    "s": 1.04,
-    "e": 1.26
+    "s": 1.3,
+    "e": 1.46
    },
    {
     "w": "conners",
-    "s": 1.26,
-    "e": 1.78
+    "s": 1.46,
+    "e": 1.82
    },
    {
     "w": "sat",
-    "s": 1.78,
-    "e": 2.08
+    "s": 1.82,
+    "e": 2.04
    },
    {
     "w": "in",
-    "s": 2.08,
-    "e": 2.26
+    "s": 2.04,
+    "e": 2.18
    },
    {
     "w": "a",
-    "s": 2.26,
-    "e": 2.38
+    "s": 2.18,
+    "e": 2.26
    },
    {
     "w": "puddle",
-    "s": 2.38,
-    "e": 2.64
+    "s": 2.26,
+    "e": 2.46
    },
    {
     "w": "of",
-    "s": 2.64,
-    "e": 2.8
+    "s": 2.46,
+    "e": 2.58
    },
    {
     "w": "ale",
-    "s": 2.8,
-    "e": 3.18
+    "s": 2.58,
+    "e": 2.82
    },
    {
     "w": "in",
-    "s": 3.18,
-    "e": 3.4
+    "s": 2.82,
+    "e": 3.06
    },
    {
     "w": "leather",
-    "s": 3.4,
-    "e": 3.62
+    "s": 3.06,
+    "e": 3.32
    },
    {
     "w": "trousers,",
-    "s": 3.62,
-    "e": 4.18
+    "s": 3.32,
+    "e": 3.8
    },
    {
     "w": "to",
-    "s": 4.48,
-    "e": 4.9
+    "s": 4.06,
+    "e": 4.38
    },
    {
     "w": "see",
-    "s": 4.9,
-    "e": 5.14
+    "s": 4.38,
+    "e": 4.5
    },
    {
     "w": "if",
-    "s": 5.14,
-    "e": 5.3
+    "s": 4.5,
+    "e": 4.58
    },
    {
     "w": "they",
-    "s": 5.3,
-    "e": 5.48
+    "s": 4.58,
+    "e": 4.66
    },
    {
     "w": "stuck",
-    "s": 5.48,
-    "e": 5.74
+    "s": 4.66,
+    "e": 4.86
    },
    {
     "w": "to",
-    "s": 5.74,
-    "e": 5.94
+    "s": 4.86,
+    "e": 5.02
    },
    {
     "w": "the",
-    "s": 5.94,
-    "e": 6.04
+    "s": 5.02,
+    "e": 5.1
    },
    {
     "w": "bench.",
-    "s": 6.04,
-    "e": 6.28
+    "s": 5.1,
+    "e": 5.34
    }
   ],
-  "heard": "You may have heard that ale conners sat in a puddle of ale in leather trousers, to see if they stuck to the bench."
+  "heard": "You may have heard that ale conners sat in a puddle of ale in leather trousers, to see if they stuck to the bench.",
+  "match": 1.0
  },
  {
   "id": "L17",
   "chapter": 1,
   "text": "Beer historians say that story is almost certainly a myth.",
-  "dur": 3.627,
+  "dur": 2.92,
   "words": [
    {
     "w": "Beer",
-    "s": 0.0,
-    "e": 0.26
+    "s": 0.08,
+    "e": 0.12
    },
    {
     "w": "historians",
-    "s": 0.26,
-    "e": 0.84
+    "s": 0.12,
+    "e": 0.46
    },
    {
     "w": "say",
-    "s": 0.84,
-    "e": 1.2
+    "s": 0.46,
+    "e": 0.82
    },
    {
     "w": "that",
-    "s": 1.2,
-    "e": 1.38
+    "s": 0.82,
+    "e": 0.98
    },
    {
     "w": "story",
-    "s": 1.38,
-    "e": 1.76
+    "s": 0.98,
+    "e": 1.26
    },
    {
     "w": "is",
-    "s": 1.76,
-    "e": 2.02
+    "s": 1.26,
+    "e": 1.6
    },
    {
     "w": "almost",
-    "s": 2.02,
-    "e": 2.36
+    "s": 1.6,
+    "e": 1.98
    },
    {
     "w": "certainly",
-    "s": 2.36,
-    "e": 2.88
+    "s": 1.98,
+    "e": 2.38
    },
    {
     "w": "a",
-    "s": 2.88,
-    "e": 3.16
+    "s": 2.38,
+    "e": 2.56
    },
    {
     "w": "myth.",
-    "s": 3.16,
-    "e": 3.38
+    "s": 2.56,
+    "e": 2.74
    }
   ],
-  "heard": "Beer historians say that story is almost certainly a myth."
+  "heard": "Beer historians say that story is almost certainly a myth.",
+  "match": 1.0
  },
  {
   "id": "L18",
   "chapter": 1,
   "text": "But some towns still keep the ceremony alive today... just for fun.",
-  "dur": 4.215,
+  "dur": 3.46,
   "words": [
    {
     "w": "But",
-    "s": 0.0,
-    "e": 0.12
+    "s": 0.08,
+    "e": 0.16
    },
    {
     "w": "some",
-    "s": 0.12,
-    "e": 0.34
+    "s": 0.16,
+    "e": 0.32
    },
    {
     "w": "towns",
-    "s": 0.34,
-    "e": 0.74
+    "s": 0.32,
+    "e": 0.7
    },
    {
     "w": "still",
-    "s": 0.74,
-    "e": 1.08
+    "s": 0.7,
+    "e": 1.0
    },
    {
     "w": "keep",
-    "s": 1.08,
-    "e": 1.3
+    "s": 1.0,
+    "e": 1.18
    },
    {
     "w": "the",
-    "s": 1.3,
-    "e": 1.48
+    "s": 1.18,
+    "e": 1.34
    },
    {
     "w": "ceremony",
-    "s": 1.48,
-    "e": 1.88
+    "s": 1.34,
+    "e": 1.66
    },
    {
     "w": "alive",
-    "s": 1.88,
-    "e": 2.28
+    "s": 1.66,
+    "e": 2.0
    },
    {
     "w": "today...",
-    "s": 2.28,
-    "e": 3.46
+    "s": 2.0,
+    "e": 2.9
    },
    {
     "w": "just",
-    "s": 3.46,
-    "e": 3.48
+    "s": 2.9,
+    "e": 2.96
    },
    {
     "w": "for",
-    "s": 3.48,
-    "e": 3.74
+    "s": 2.96,
+    "e": 3.12
    },
    {
     "w": "fun.",
-    "s": 3.74,
-    "e": 4.02
+    "s": 3.12,
+    "e": 3.28
    }
   ],
-  "heard": "But some towns still keep the ceremony alive today... just for fun."
+  "heard": "But some towns still keep the ceremony alive today... just for fun.",
+  "match": 1.0
  },
  {
   "id": "L19",
   "chapter": 2,
   "text": "Number seven: the Groom of the Stool.",
-  "dur": 2.25,
+  "dur": 2.82,
   "words": [
    {
     "w": "Number",
     "s": 0.0,
-    "e": 0.26
+    "e": 0.46
    },
    {
     "w": "seven:",
-    "s": 0.26,
-    "e": 0.66
-   },
-   {
-    "w": "the",
-    "s": 1.08,
-    "e": 1.1
-   },
-   {
-    "w": "Groom",
-    "s": 1.1,
-    "e": 1.38
-   },
-   {
-    "w": "of",
-    "s": 1.38,
-    "e": 1.54
+    "s": 0.46,
+    "e": 0.94
    },
    {
     "w": "the",
     "s": 1.54,
-    "e": 1.68
+    "e": 1.54
+   },
+   {
+    "w": "Groom",
+    "s": 1.54,
+    "e": 1.86
+   },
+   {
+    "w": "of",
+    "s": 1.86,
+    "e": 2.12
+   },
+   {
+    "w": "the",
+    "s": 2.12,
+    "e": 2.36
    },
    {
     "w": "Stool.",
-    "s": 1.68,
-    "e": 2.02
+    "s": 2.36,
+    "e": 2.64
    }
   ],
-  "heard": "Number seven, the Groom of the Stool."
+  "heard": "Number seven. The Groom of the Stool.",
+  "match": 1.0
  },
  {
   "id": "L20",
   "chapter": 2,
   "text": "In the Tudor court, the \"stool\" was the king's toilet.",
-  "dur": 2.913,
+  "dur": 3.08,
   "words": [
    {
     "w": "In",
-    "s": 0.0,
+    "s": 0.08,
     "e": 0.16
    },
    {
@@ -1259,450 +1278,776 @@
    {
     "w": "Tudor",
     "s": 0.28,
-    "e": 0.58
+    "e": 0.56
    },
    {
     "w": "court,",
-    "s": 0.58,
-    "e": 0.84
+    "s": 0.56,
+    "e": 0.78
    },
    {
     "w": "the",
-    "s": 1.2,
-    "e": 1.26
+    "s": 1.16,
+    "e": 1.22
    },
    {
     "w": "\"stool\"",
-    "s": 1.26,
-    "e": 1.58
+    "s": 1.22,
+    "e": 1.66
    },
    {
     "w": "was",
-    "s": 1.58,
-    "e": 1.86
+    "s": 1.66,
+    "e": 2.12
    },
    {
     "w": "the",
-    "s": 1.86,
-    "e": 2.04
+    "s": 2.12,
+    "e": 2.3
    },
    {
     "w": "king's",
-    "s": 2.04,
-    "e": 2.4
+    "s": 2.3,
+    "e": 2.58
    },
    {
     "w": "toilet.",
-    "s": 2.4,
-    "e": 2.68
+    "s": 2.58,
+    "e": 2.9
    }
   ],
-  "heard": "In the Tudor court, the stool was the king's toilet."
+  "heard": "In the Tudor court, the stool was the king's toilet.",
+  "match": 1.0
  },
  {
   "id": "L21",
   "chapter": 2,
   "text": "And the groom was the servant who looked after the king while he used it.",
-  "dur": 3.807,
+  "dur": 3.8,
   "words": [
    {
     "w": "And",
-    "s": 0.0,
-    "e": 0.16
+    "s": 0.08,
+    "e": 0.22
    },
    {
     "w": "the",
-    "s": 0.16,
-    "e": 0.28
+    "s": 0.22,
+    "e": 0.4
    },
    {
     "w": "groom",
-    "s": 0.28,
-    "e": 0.56
+    "s": 0.4,
+    "e": 0.68
    },
    {
     "w": "was",
-    "s": 0.56,
-    "e": 0.94
+    "s": 0.68,
+    "e": 1.02
    },
    {
     "w": "the",
-    "s": 0.94,
-    "e": 1.1
+    "s": 1.02,
+    "e": 1.24
    },
    {
     "w": "servant",
-    "s": 1.1,
-    "e": 1.52
+    "s": 1.24,
+    "e": 1.62
    },
    {
     "w": "who",
-    "s": 1.52,
-    "e": 1.84
+    "s": 1.62,
+    "e": 1.9
    },
    {
     "w": "looked",
-    "s": 1.84,
-    "e": 2.02
+    "s": 1.9,
+    "e": 2.08
    },
    {
     "w": "after",
-    "s": 2.02,
-    "e": 2.32
+    "s": 2.08,
+    "e": 2.38
    },
    {
     "w": "the",
-    "s": 2.32,
-    "e": 2.52
+    "s": 2.38,
+    "e": 2.56
    },
    {
     "w": "king",
-    "s": 2.52,
-    "e": 2.74
+    "s": 2.56,
+    "e": 2.72
    },
    {
     "w": "while",
-    "s": 2.74,
-    "e": 3.06
+    "s": 2.72,
+    "e": 2.92
    },
    {
     "w": "he",
-    "s": 3.06,
-    "e": 3.22
+    "s": 2.92,
+    "e": 3.08
    },
    {
     "w": "used",
-    "s": 3.22,
-    "e": 3.52
+    "s": 3.08,
+    "e": 3.3
    },
    {
     "w": "it.",
-    "s": 3.52,
-    "e": 3.7
+    "s": 3.3,
+    "e": 3.62
    }
   ],
-  "heard": "And the groom was the servant who looked after the king while he used it."
+  "heard": "And the groom was the servant who looked after the king while he used it.",
+  "match": 1.0
  },
  {
   "id": "L22",
   "chapter": 2,
   "text": "Sounds terrible. But here's the twist.",
-  "dur": 2.236,
+  "dur": 1.96,
   "words": [
    {
     "w": "Sounds",
-    "s": 0.0,
-    "e": 0.3
+    "s": 0.08,
+    "e": 0.18
    },
    {
     "w": "terrible.",
-    "s": 0.3,
-    "e": 0.76
+    "s": 0.18,
+    "e": 0.52
    },
    {
     "w": "But",
-    "s": 1.14,
-    "e": 1.18
+    "s": 0.88,
+    "e": 1.0
    },
    {
     "w": "here's",
-    "s": 1.18,
-    "e": 1.5
+    "s": 1.0,
+    "e": 1.4
    },
    {
     "w": "the",
-    "s": 1.5,
-    "e": 1.64
+    "s": 1.4,
+    "e": 1.52
    },
    {
     "w": "twist.",
-    "s": 1.64,
-    "e": 1.9
+    "s": 1.52,
+    "e": 1.78
    }
   ],
-  "heard": "Sounds terrible. But here's the twist."
+  "heard": "Sounds terrible. But here's the twist.",
+  "match": 1.0
  },
  {
   "id": "L23",
   "chapter": 2,
   "text": "Because he was alone with the king every day, the groom became one of the most trusted men in the country.",
-  "dur": 6.003,
+  "dur": 5.42,
   "words": [
    {
     "w": "Because",
-    "s": 0.0,
-    "e": 0.24
+    "s": 0.08,
+    "e": 0.34
    },
    {
     "w": "he",
-    "s": 0.24,
-    "e": 0.4
-   },
-   {
-    "w": "was",
-    "s": 0.4,
+    "s": 0.34,
     "e": 0.56
    },
    {
-    "w": "alone",
+    "w": "was",
     "s": 0.56,
-    "e": 0.96
+    "e": 0.66
+   },
+   {
+    "w": "alone",
+    "s": 0.66,
+    "e": 0.98
    },
    {
     "w": "with",
-    "s": 0.96,
-    "e": 1.26
+    "s": 0.98,
+    "e": 1.18
    },
    {
     "w": "the",
-    "s": 1.26,
-    "e": 1.4
+    "s": 1.18,
+    "e": 1.32
    },
    {
     "w": "king",
-    "s": 1.4,
-    "e": 1.58
+    "s": 1.32,
+    "e": 1.48
    },
    {
     "w": "every",
-    "s": 1.58,
-    "e": 1.98
+    "s": 1.48,
+    "e": 1.78
    },
    {
     "w": "day,",
-    "s": 1.98,
-    "e": 2.36
+    "s": 1.78,
+    "e": 2.06
    },
    {
     "w": "the",
-    "s": 2.98,
-    "e": 3.04
+    "s": 2.4,
+    "e": 2.58
    },
    {
     "w": "groom",
-    "s": 3.04,
-    "e": 3.32
+    "s": 2.58,
+    "e": 2.78
    },
    {
     "w": "became",
-    "s": 3.32,
-    "e": 3.78
+    "s": 2.78,
+    "e": 3.1
    },
    {
     "w": "one",
-    "s": 3.78,
-    "e": 4.02
+    "s": 3.1,
+    "e": 3.3
    },
    {
     "w": "of",
-    "s": 4.02,
-    "e": 4.16
+    "s": 3.3,
+    "e": 3.4
    },
    {
     "w": "the",
-    "s": 4.16,
-    "e": 4.22
+    "s": 3.4,
+    "e": 3.52
    },
    {
     "w": "most",
-    "s": 4.22,
-    "e": 4.4
+    "s": 3.52,
+    "e": 3.72
    },
    {
     "w": "trusted",
-    "s": 4.4,
-    "e": 4.86
+    "s": 3.72,
+    "e": 4.24
    },
    {
     "w": "men",
-    "s": 4.86,
-    "e": 5.14
+    "s": 4.24,
+    "e": 4.52
    },
    {
     "w": "in",
-    "s": 5.14,
-    "e": 5.36
+    "s": 4.52,
+    "e": 4.7
    },
    {
     "w": "the",
-    "s": 5.36,
-    "e": 5.46
+    "s": 4.7,
+    "e": 4.82
    },
    {
     "w": "country.",
-    "s": 5.46,
-    "e": 5.78
+    "s": 4.82,
+    "e": 5.24
    }
   ],
-  "heard": "Because he was alone with the king every day, the groom became one of the most trusted men in the country."
+  "heard": "Because he was alone with the king every day, the groom became one of the most trusted men in the country.",
+  "match": 1.0
  },
  {
   "id": "L24",
   "chapter": 2,
   "text": "Under Henry the Eighth, the groom ran the king's private rooms, handled his money, and heard his secrets.",
-  "dur": 6.561,
+  "dur": 5.62,
   "words": [
    {
     "w": "Under",
-    "s": 0.0,
+    "s": 0.08,
     "e": 0.26
    },
    {
     "w": "Henry",
     "s": 0.26,
-    "e": 0.6
+    "e": 0.52
    },
    {
     "w": "the",
-    "s": 0.6,
-    "e": 0.76
+    "s": 0.52,
+    "e": 0.68
    },
    {
     "w": "Eighth,",
-    "s": 0.76,
-    "e": 1.06
+    "s": 0.68,
+    "e": 0.86
    },
    {
     "w": "the",
-    "s": 1.5,
-    "e": 1.68
+    "s": 1.22,
+    "e": 1.4
    },
    {
     "w": "groom",
-    "s": 1.68,
-    "e": 1.94
+    "s": 1.4,
+    "e": 1.64
    },
    {
     "w": "ran",
-    "s": 1.94,
-    "e": 2.28
+    "s": 1.64,
+    "e": 1.92
    },
    {
     "w": "the",
-    "s": 2.28,
-    "e": 2.52
+    "s": 1.92,
+    "e": 2.1
    },
    {
     "w": "king's",
-    "s": 2.52,
-    "e": 2.9
+    "s": 2.1,
+    "e": 2.4
    },
    {
     "w": "private",
-    "s": 2.9,
-    "e": 3.2
+    "s": 2.4,
+    "e": 2.74
    },
    {
     "w": "rooms,",
-    "s": 3.2,
-    "e": 3.8
+    "s": 2.74,
+    "e": 3.18
    },
    {
     "w": "handled",
-    "s": 4.28,
-    "e": 4.56
+    "s": 3.42,
+    "e": 3.62
    },
    {
     "w": "his",
-    "s": 4.56,
-    "e": 4.8
+    "s": 3.62,
+    "e": 3.82
    },
    {
     "w": "money,",
-    "s": 4.8,
-    "e": 5.1
+    "s": 3.82,
+    "e": 4.16
    },
    {
     "w": "and",
-    "s": 5.3,
-    "e": 5.42
+    "s": 4.46,
+    "e": 4.64
    },
    {
     "w": "heard",
-    "s": 5.42,
-    "e": 5.64
+    "s": 4.64,
+    "e": 4.86
    },
    {
     "w": "his",
-    "s": 5.64,
-    "e": 5.84
+    "s": 4.86,
+    "e": 5.06
    },
    {
     "w": "secrets.",
-    "s": 5.84,
-    "e": 6.24
+    "s": 5.06,
+    "e": 5.44
    }
   ],
-  "heard": "Under Henry the Eighth, the groom ran the king's private rooms, handled his money, and heard his secrets."
+  "heard": "Under Henry the Eighth, the groom ran the king's private rooms, handled his money, and heard his secrets.",
+  "match": 1.0
  },
  {
   "id": "L25",
   "chapter": 2,
   "text": "Nobles fought for this job.",
-  "dur": 1.811,
+  "dur": 1.6,
   "words": [
    {
     "w": "Nobles",
-    "s": 0.0,
-    "e": 0.46
+    "s": 0.08,
+    "e": 0.28
    },
    {
     "w": "fought",
-    "s": 0.46,
-    "e": 0.74
+    "s": 0.28,
+    "e": 0.78
    },
    {
     "w": "for",
-    "s": 0.74,
-    "e": 0.98
+    "s": 0.78,
+    "e": 1.02
    },
    {
     "w": "this",
-    "s": 0.98,
-    "e": 1.16
+    "s": 1.02,
+    "e": 1.18
    },
    {
     "w": "job.",
-    "s": 1.16,
-    "e": 1.5
+    "s": 1.18,
+    "e": 1.42
    }
   ],
-  "heard": "Nobles fought for this job."
+  "heard": "Nobles fought for this job.",
+  "match": 1.0
  },
  {
   "id": "L26",
   "chapter": 2,
   "text": "But being that close to Henry was dangerous.",
-  "dur": 2.574,
+  "dur": 2.28,
   "words": [
    {
     "w": "But",
-    "s": 0.0,
-    "e": 0.16
+    "s": 0.08,
+    "e": 0.22
    },
    {
     "w": "being",
-    "s": 0.16,
-    "e": 0.36
+    "s": 0.22,
+    "e": 0.52
    },
    {
     "w": "that",
-    "s": 0.36,
-    "e": 0.62
+    "s": 0.52,
+    "e": 0.78
    },
    {
     "w": "close",
-    "s": 0.62,
-    "e": 0.88
+    "s": 0.78,
+    "e": 0.98
    },
    {
     "w": "to",
-    "s": 0.88,
-    "e": 1.12
+    "s": 0.98,
+    "e": 1.18
    },
    {
     "w": "Henry",
-    "s": 1.12,
+    "s": 1.18,
+    "e": 1.4
+   },
+   {
+    "w": "was",
+    "s": 1.4,
+    "e": 1.64
+   },
+   {
+    "w": "dangerous.",
+    "s": 1.64,
+    "e": 2.1
+   }
+  ],
+  "heard": "But being that close to Henry was dangerous.",
+  "match": 1.0
+ },
+ {
+  "id": "L27",
+  "chapter": 2,
+  "text": "In 1536, his groom, Sir Henry Norris, was accused of a romance with Queen Anne Boleyn.",
+  "dur": 5.66,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.08,
+    "e": 0.24
+   },
+   {
+    "w": "1536,",
+    "s": 0.24,
+    "e": 1.06
+   },
+   {
+    "w": "his",
+    "s": 1.36,
+    "e": 1.54
+   },
+   {
+    "w": "groom,",
+    "s": 1.54,
+    "e": 1.86
+   },
+   {
+    "w": "Sir",
+    "s": 2.16,
+    "e": 2.26
+   },
+   {
+    "w": "Henry",
+    "s": 2.26,
+    "e": 2.66
+   },
+   {
+    "w": "Norris,",
+    "s": 2.66,
+    "e": 3.0
+   },
+   {
+    "w": "was",
+    "s": 3.22,
+    "e": 3.44
+   },
+   {
+    "w": "accused",
+    "s": 3.44,
+    "e": 3.7
+   },
+   {
+    "w": "of",
+    "s": 3.7,
+    "e": 3.86
+   },
+   {
+    "w": "a",
+    "s": 3.86,
+    "e": 3.98
+   },
+   {
+    "w": "romance",
+    "s": 3.98,
+    "e": 4.36
+   },
+   {
+    "w": "with",
+    "s": 4.36,
+    "e": 4.6
+   },
+   {
+    "w": "Queen",
+    "s": 4.6,
+    "e": 4.84
+   },
+   {
+    "w": "Anne",
+    "s": 4.84,
+    "e": 5.08
+   },
+   {
+    "w": "Boleyn.",
+    "s": 5.08,
+    "e": 5.52
+   }
+  ],
+  "heard": "In 1536, his groom, Sir Henry Norris, was accused of a romance with Queen Anne Boleyn.",
+  "match": 1.0
+ },
+ {
+  "id": "L28",
+  "chapter": 2,
+  "text": "The charges were almost certainly false. He was executed anyway.",
+  "dur": 3.92,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.08,
+    "e": 0.32
+   },
+   {
+    "w": "charges",
+    "s": 0.32,
+    "e": 0.58
+   },
+   {
+    "w": "were",
+    "s": 0.58,
+    "e": 1.02
+   },
+   {
+    "w": "almost",
+    "s": 1.02,
+    "e": 1.38
+   },
+   {
+    "w": "certainly",
+    "s": 1.38,
+    "e": 1.78
+   },
+   {
+    "w": "false.",
+    "s": 1.78,
+    "e": 2.06
+   },
+   {
+    "w": "He",
+    "s": 2.7,
+    "e": 2.84
+   },
+   {
+    "w": "was",
+    "s": 2.84,
+    "e": 2.92
+   },
+   {
+    "w": "executed",
+    "s": 2.92,
+    "e": 3.34
+   },
+   {
+    "w": "anyway.",
+    "s": 3.34,
+    "e": 3.74
+   }
+  ],
+  "heard": "The charges were almost certainly false. He was executed anyway.",
+  "match": 1.0
+ },
+ {
+  "id": "L29",
+  "chapter": 3,
+  "text": "Number six: the toad eater.",
+  "dur": 2.54,
+  "words": [
+   {
+    "w": "Number",
+    "s": 0.0,
+    "e": 0.6
+   },
+   {
+    "w": "six:",
+    "s": 0.6,
+    "e": 1.12
+   },
+   {
+    "w": "the",
+    "s": 1.84,
+    "e": 1.84
+   },
+   {
+    "w": "toad",
+    "s": 1.84,
+    "e": 2.16
+   },
+   {
+    "w": "eater.",
+    "s": 2.16,
+    "e": 2.36
+   }
+  ],
+  "heard": "Number six. The toad eater.",
+  "match": 1.0
+ },
+ {
+  "id": "L30",
+  "chapter": 3,
+  "text": "In the 1600s, travelling quacks sold fake medicine at fairs.",
+  "dur": 4.26,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.08,
+    "e": 0.08
+   },
+   {
+    "w": "the",
+    "s": 0.08,
+    "e": 0.2
+   },
+   {
+    "w": "1600s,",
+    "s": 0.2,
+    "e": 1.24
+   },
+   {
+    "w": "travelling",
+    "s": 1.24,
+    "e": 1.7
+   },
+   {
+    "w": "quacks",
+    "s": 1.7,
+    "e": 2.18
+   },
+   {
+    "w": "sold",
+    "s": 2.18,
+    "e": 2.48
+   },
+   {
+    "w": "fake",
+    "s": 2.48,
+    "e": 2.82
+   },
+   {
+    "w": "medicine",
+    "s": 2.82,
+    "e": 3.22
+   },
+   {
+    "w": "at",
+    "s": 3.22,
+    "e": 3.42
+   },
+   {
+    "w": "fairs.",
+    "s": 3.42,
+    "e": 4.24
+   }
+  ],
+  "heard": "In the 1600s, travelling quacks sold fake medicine at fairs.",
+  "match": 1.0
+ },
+ {
+  "id": "L31",
+  "chapter": 3,
+  "text": "And many brought an assistant.",
+  "dur": 1.32,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.02,
+    "e": 0.14
+   },
+   {
+    "w": "many",
+    "s": 0.14,
+    "e": 0.34
+   },
+   {
+    "w": "brought",
+    "s": 0.34,
+    "e": 0.64
+   },
+   {
+    "w": "an",
+    "s": 0.64,
+    "e": 0.78
+   },
+   {
+    "w": "assistant.",
+    "s": 0.78,
+    "e": 1.14
+   }
+  ],
+  "heard": "And many brought an assistant.",
+  "match": 1.0
+ },
+ {
+  "id": "L32",
+  "chapter": 3,
+  "text": "People believed every toad was deadly poisonous.",
+  "dur": 2.88,
+  "words": [
+   {
+    "w": "People",
+    "s": 0.08,
+    "e": 0.26
+   },
+   {
+    "w": "believed",
+    "s": 0.26,
+    "e": 0.62
+   },
+   {
+    "w": "every",
+    "s": 0.62,
+    "e": 0.98
+   },
+   {
+    "w": "toad",
+    "s": 0.98,
     "e": 1.4
    },
    {
@@ -1711,578 +2056,268 @@
     "e": 1.68
    },
    {
-    "w": "dangerous.",
+    "w": "deadly",
     "s": 1.68,
     "e": 2.18
-   }
-  ],
-  "heard": "But being that close to Henry was dangerous."
- },
- {
-  "id": "L27",
-  "chapter": 2,
-  "text": "In 1536, his groom, Sir Henry Norris, was accused of a romance with Queen Anne Boleyn.",
-  "dur": 6.769,
-  "words": [
-   {
-    "w": "In",
-    "s": 0.0,
-    "e": 0.2
-   },
-   {
-    "w": "1536,",
-    "s": 0.2,
-    "e": 1.3
-   },
-   {
-    "w": "his",
-    "s": 1.74,
-    "e": 2.0
-   },
-   {
-    "w": "groom,",
-    "s": 2.0,
-    "e": 2.34
-   },
-   {
-    "w": "Sir",
-    "s": 2.54,
-    "e": 2.62
-   },
-   {
-    "w": "Henry",
-    "s": 2.62,
-    "e": 2.92
-   },
-   {
-    "w": "Norris,",
-    "s": 2.92,
-    "e": 3.32
-   },
-   {
-    "w": "was",
-    "s": 3.78,
-    "e": 3.96
-   },
-   {
-    "w": "accused",
-    "s": 3.96,
-    "e": 4.34
-   },
-   {
-    "w": "of",
-    "s": 4.34,
-    "e": 4.6
-   },
-   {
-    "w": "a",
-    "s": 4.6,
-    "e": 4.72
-   },
-   {
-    "w": "romance",
-    "s": 4.72,
-    "e": 5.18
-   },
-   {
-    "w": "with",
-    "s": 5.18,
-    "e": 5.46
-   },
-   {
-    "w": "Queen",
-    "s": 5.46,
-    "e": 5.82
-   },
-   {
-    "w": "Anne",
-    "s": 5.82,
-    "e": 6.12
-   },
-   {
-    "w": "Boleyn.",
-    "s": 6.12,
-    "e": 6.68
-   }
-  ],
-  "heard": "In 1536, his groom, Sir Henry Norris, was accused of a romance with Queen Anne Boleyn."
- },
- {
-  "id": "L28",
-  "chapter": 2,
-  "text": "The charges were almost certainly false. He was executed anyway.",
-  "dur": 4.44,
-  "words": [
-   {
-    "w": "The",
-    "s": 0.0,
-    "e": 0.14
-   },
-   {
-    "w": "charges",
-    "s": 0.14,
-    "e": 0.58
-   },
-   {
-    "w": "were",
-    "s": 0.58,
-    "e": 0.92
-   },
-   {
-    "w": "almost",
-    "s": 0.92,
-    "e": 1.28
-   },
-   {
-    "w": "certainly",
-    "s": 1.28,
-    "e": 1.82
-   },
-   {
-    "w": "false.",
-    "s": 1.82,
-    "e": 2.24
-   },
-   {
-    "w": "He",
-    "s": 2.86,
-    "e": 2.94
-   },
-   {
-    "w": "was",
-    "s": 2.94,
-    "e": 3.04
-   },
-   {
-    "w": "executed",
-    "s": 3.04,
-    "e": 3.64
-   },
-   {
-    "w": "anyway.",
-    "s": 3.64,
-    "e": 4.12
-   }
-  ],
-  "heard": "The charges were almost certainly false. He was executed anyway."
- },
- {
-  "id": "L29",
-  "chapter": 3,
-  "text": "Number six: the toad eater.",
-  "dur": 1.894,
-  "words": [
-   {
-    "w": "Number",
-    "s": 0.0,
-    "e": 0.26
-   },
-   {
-    "w": "six:",
-    "s": 0.26,
-    "e": 0.6
-   },
-   {
-    "w": "the",
-    "s": 0.96,
-    "e": 0.96
-   },
-   {
-    "w": "toad",
-    "s": 0.96,
-    "e": 1.32
-   },
-   {
-    "w": "eater.",
-    "s": 1.32,
-    "e": 1.58
-   }
-  ],
-  "heard": "Number six, the toad eater."
- },
- {
-  "id": "L30",
-  "chapter": 3,
-  "text": "In the 1600s, travelling quacks sold fake medicine at fairs.",
-  "dur": 4.544,
-  "words": [
-   {
-    "w": "In",
-    "s": 0.0,
-    "e": 0.14
-   },
-   {
-    "w": "the",
-    "s": 0.14,
-    "e": 0.26
-   },
-   {
-    "w": "1600s,",
-    "s": 0.26,
-    "e": 1.46
-   },
-   {
-    "w": "travelling",
-    "s": 1.76,
-    "e": 2.04
-   },
-   {
-    "w": "quacks",
-    "s": 2.04,
-    "e": 2.56
-   },
-   {
-    "w": "sold",
-    "s": 2.56,
-    "e": 2.88
-   },
-   {
-    "w": "fake",
-    "s": 2.88,
-    "e": 3.14
-   },
-   {
-    "w": "medicine",
-    "s": 3.14,
-    "e": 3.58
-   },
-   {
-    "w": "at",
-    "s": 3.58,
-    "e": 3.84
-   },
-   {
-    "w": "fairs.",
-    "s": 3.84,
-    "e": 4.46
-   }
-  ],
-  "heard": "In the 1600s, travelling quacks sold fake medicine at fairs."
- },
- {
-  "id": "L31",
-  "chapter": 3,
-  "text": "And many brought an assistant.",
-  "dur": 1.68,
-  "words": [
-   {
-    "w": "And",
-    "s": 0.0,
-    "e": 0.16
-   },
-   {
-    "w": "many",
-    "s": 0.16,
-    "e": 0.4
-   },
-   {
-    "w": "brought",
-    "s": 0.4,
-    "e": 0.76
-   },
-   {
-    "w": "an",
-    "s": 0.76,
-    "e": 0.94
-   },
-   {
-    "w": "assistant.",
-    "s": 0.94,
-    "e": 1.28
-   }
-  ],
-  "heard": "And many brought an assistant."
- },
- {
-  "id": "L32",
-  "chapter": 3,
-  "text": "People believed every toad was deadly poisonous.",
-  "dur": 3.179,
-  "words": [
-   {
-    "w": "People",
-    "s": 0.0,
-    "e": 0.3
-   },
-   {
-    "w": "believed",
-    "s": 0.3,
-    "e": 0.74
-   },
-   {
-    "w": "every",
-    "s": 0.74,
-    "e": 1.22
-   },
-   {
-    "w": "toad",
-    "s": 1.22,
-    "e": 1.72
-   },
-   {
-    "w": "was",
-    "s": 1.72,
-    "e": 1.92
-   },
-   {
-    "w": "deadly",
-    "s": 1.92,
-    "e": 2.32
    },
    {
     "w": "poisonous.",
-    "s": 2.32,
-    "e": 2.84
+    "s": 2.18,
+    "e": 2.7
    }
   ],
-  "heard": "People believed every toad was deadly poisonous."
+  "heard": "People believed every toad was deadly poisonous.",
+  "match": 1.0
  },
  {
   "id": "L33",
   "chapter": 3,
   "text": "So, the story goes, the assistant would swallow a toad in front of the crowd...",
-  "dur": 4.754,
+  "dur": 4.62,
   "words": [
    {
     "w": "So,",
-    "s": 0.0,
-    "e": 0.24
+    "s": 0.08,
+    "e": 0.28
    },
    {
     "w": "the",
-    "s": 0.36,
-    "e": 0.42
+    "s": 0.42,
+    "e": 0.58
    },
    {
     "w": "story",
-    "s": 0.42,
-    "e": 0.7
+    "s": 0.58,
+    "e": 0.76
    },
    {
     "w": "goes,",
-    "s": 0.7,
-    "e": 1.2
+    "s": 0.76,
+    "e": 1.1
    },
    {
     "w": "the",
-    "s": 1.58,
-    "e": 1.82
+    "s": 1.46,
+    "e": 1.54
    },
    {
     "w": "assistant",
-    "s": 1.82,
-    "e": 2.16
+    "s": 1.54,
+    "e": 1.86
    },
    {
     "w": "would",
-    "s": 2.16,
-    "e": 2.48
+    "s": 1.86,
+    "e": 2.08
    },
    {
     "w": "swallow",
-    "s": 2.48,
-    "e": 2.82
+    "s": 2.08,
+    "e": 2.5
    },
    {
     "w": "a",
-    "s": 2.82,
-    "e": 3.14
+    "s": 2.5,
+    "e": 2.76
    },
    {
     "w": "toad",
-    "s": 3.14,
-    "e": 3.58
+    "s": 2.76,
+    "e": 3.06
    },
    {
     "w": "in",
-    "s": 3.58,
-    "e": 3.72
+    "s": 3.06,
+    "e": 3.22
    },
    {
     "w": "front",
-    "s": 3.72,
-    "e": 3.86
+    "s": 3.22,
+    "e": 3.38
    },
    {
     "w": "of",
-    "s": 3.86,
-    "e": 4.0
+    "s": 3.38,
+    "e": 3.46
    },
    {
     "w": "the",
-    "s": 4.0,
-    "e": 4.08
+    "s": 3.46,
+    "e": 3.56
    },
    {
     "w": "crowd...",
-    "s": 4.08,
-    "e": 4.68
+    "s": 3.56,
+    "e": 4.62
    }
   ],
-  "heard": "So, the story goes, the assistant would swallow a toad in front of the crowd..."
+  "heard": "So, the story goes, the assistant would swallow a toad in front of the crowd...",
+  "match": 1.0
  },
  {
   "id": "L34",
   "chapter": 3,
   "text": "pretend to fall down, twisting in pain...",
-  "dur": 2.629,
+  "dur": 2.5,
   "words": [
    {
     "w": "pretend",
     "s": 0.0,
-    "e": 0.4
+    "e": 0.0
    },
    {
     "w": "to",
-    "s": 0.4,
-    "e": 0.5
+    "s": 0.0,
+    "e": 0.18
    },
    {
     "w": "fall",
-    "s": 0.5,
-    "e": 0.72
+    "s": 0.18,
+    "e": 0.46
    },
    {
     "w": "down,",
-    "s": 0.72,
-    "e": 1.22
+    "s": 0.46,
+    "e": 0.86
    },
    {
     "w": "twisting",
-    "s": 1.5,
-    "e": 1.72
+    "s": 1.08,
+    "e": 1.36
    },
    {
     "w": "in",
-    "s": 1.72,
-    "e": 1.98
+    "s": 1.36,
+    "e": 1.66
    },
    {
     "w": "pain...",
-    "s": 1.98,
-    "e": 2.6
+    "s": 1.66,
+    "e": 2.5
    }
   ],
-  "heard": "Pretend to fall down, twisting in pain..."
+  "heard": "pretend to fall down, twisting in pain...",
+  "match": 1.0
  },
  {
   "id": "L35",
   "chapter": 3,
   "text": "and then the quack would give him a sip of \"miracle medicine\".",
-  "dur": 3.405,
+  "dur": 2.9,
   "words": [
    {
     "w": "and",
     "s": 0.0,
-    "e": 0.16
+    "e": 0.1
    },
    {
     "w": "then",
-    "s": 0.16,
-    "e": 0.34
+    "s": 0.1,
+    "e": 0.22
    },
    {
     "w": "the",
-    "s": 0.34,
-    "e": 0.5
+    "s": 0.22,
+    "e": 0.36
    },
    {
     "w": "quack",
-    "s": 0.5,
-    "e": 0.8
+    "s": 0.36,
+    "e": 0.7
    },
    {
     "w": "would",
-    "s": 0.8,
-    "e": 0.96
+    "s": 0.7,
+    "e": 1.02
    },
    {
     "w": "give",
-    "s": 0.96,
-    "e": 1.14
+    "s": 1.02,
+    "e": 1.16
    },
    {
     "w": "him",
-    "s": 1.14,
-    "e": 1.32
+    "s": 1.16,
+    "e": 1.24
    },
    {
     "w": "a",
-    "s": 1.32,
-    "e": 1.5
+    "s": 1.24,
+    "e": 1.4
    },
    {
     "w": "sip",
-    "s": 1.5,
-    "e": 1.72
+    "s": 1.4,
+    "e": 1.54
    },
    {
     "w": "of",
-    "s": 1.72,
-    "e": 2.12
+    "s": 1.54,
+    "e": 1.74
    },
    {
     "w": "\"miracle",
-    "s": 2.12,
-    "e": 2.62
+    "s": 1.74,
+    "e": 2.18
    },
    {
     "w": "medicine\".",
-    "s": 2.62,
-    "e": 3.08
+    "s": 2.18,
+    "e": 2.72
    }
   ],
-  "heard": "And then the quack would give him a sip of miracle medicine."
+  "heard": "and then the quack would give him a sip of miracle medicine.",
+  "match": 1.0
  },
  {
   "id": "L36",
   "chapter": 3,
   "text": "He'd jump up, cured! And the crowd would rush to buy a bottle.",
-  "dur": 3.849,
+  "dur": 3.6,
   "words": [
    {
     "w": "He'd",
-    "s": 0.0,
-    "e": 0.22
+    "s": 0.08,
+    "e": 0.32
    },
    {
     "w": "jump",
-    "s": 0.22,
-    "e": 0.4
+    "s": 0.32,
+    "e": 0.46
    },
    {
     "w": "up,",
-    "s": 0.4,
-    "e": 0.64
+    "s": 0.46,
+    "e": 0.66
    },
    {
     "w": "cured!",
-    "s": 0.66,
-    "e": 0.96
+    "s": 0.9,
+    "e": 1.14
    },
    {
     "w": "And",
-    "s": 1.6,
-    "e": 1.7
+    "s": 1.64,
+    "e": 1.74
    },
    {
     "w": "the",
-    "s": 1.7,
-    "e": 1.82
+    "s": 1.74,
+    "e": 1.86
    },
    {
     "w": "crowd",
-    "s": 1.82,
-    "e": 2.16
+    "s": 1.86,
+    "e": 2.1
    },
    {
     "w": "would",
-    "s": 2.16,
-    "e": 2.44
+    "s": 2.1,
+    "e": 2.34
    },
    {
     "w": "rush",
-    "s": 2.44,
+    "s": 2.34,
     "e": 2.68
    },
    {
@@ -2298,925 +2333,941 @@
    {
     "w": "a",
     "s": 3.12,
-    "e": 3.3
+    "e": 3.26
    },
    {
     "w": "bottle.",
-    "s": 3.3,
-    "e": 3.6
+    "s": 3.26,
+    "e": 3.42
    }
   ],
-  "heard": "He'd jump up, cured! And the crowd would rush to buy a bottle."
+  "heard": "He'd jump up, cured! And the crowd would rush to buy a bottle.",
+  "match": 1.0
  },
  {
   "id": "L37",
   "chapter": 3,
   "text": "This job left its mark on our language.",
-  "dur": 2.571,
+  "dur": 1.66,
   "words": [
    {
     "w": "This",
-    "s": 0.0,
-    "e": 0.22
+    "s": 0.08,
+    "e": 0.4
    },
    {
     "w": "job",
-    "s": 0.22,
-    "e": 0.64
+    "s": 0.4,
+    "e": 0.6
    },
    {
     "w": "left",
-    "s": 0.64,
-    "e": 0.98
+    "s": 0.6,
+    "e": 0.76
    },
    {
     "w": "its",
-    "s": 0.98,
-    "e": 1.2
+    "s": 0.76,
+    "e": 0.94
    },
    {
     "w": "mark",
-    "s": 1.2,
-    "e": 1.54
+    "s": 0.94,
+    "e": 1.12
    },
    {
     "w": "on",
-    "s": 1.54,
-    "e": 1.76
+    "s": 1.12,
+    "e": 1.24
    },
    {
     "w": "our",
-    "s": 1.76,
-    "e": 1.88
+    "s": 1.24,
+    "e": 1.36
    },
    {
     "w": "language.",
-    "s": 1.88,
-    "e": 2.26
+    "s": 1.36,
+    "e": 1.66
    }
   ],
-  "heard": "This job left its mark on our language."
+  "heard": "This job left its mark on our language.",
+  "match": 1.0
  },
  {
   "id": "L38",
   "chapter": 3,
   "text": "A person who flatters someone powerful became a \"toad-eater\"...",
-  "dur": 3.666,
+  "dur": 3.82,
   "words": [
    {
     "w": "A",
     "s": 0.0,
-    "e": 0.16
+    "e": 0.62
    },
    {
     "w": "person",
-    "s": 0.16,
-    "e": 0.44
+    "s": 0.62,
+    "e": 0.82
    },
    {
     "w": "who",
-    "s": 0.44,
-    "e": 0.64
+    "s": 0.82,
+    "e": 1.02
    },
    {
     "w": "flatters",
-    "s": 0.64,
-    "e": 1.08
+    "s": 1.02,
+    "e": 1.5
    },
    {
     "w": "someone",
-    "s": 1.08,
-    "e": 1.46
+    "s": 1.5,
+    "e": 1.8
    },
    {
     "w": "powerful",
-    "s": 1.46,
-    "e": 2.08
+    "s": 1.8,
+    "e": 2.18
    },
    {
     "w": "became",
-    "s": 2.08,
-    "e": 2.68
+    "s": 2.18,
+    "e": 2.52
    },
    {
     "w": "a",
-    "s": 2.68,
-    "e": 2.92
+    "s": 2.52,
+    "e": 2.72
    },
    {
     "w": "\"toad-eater\"...",
-    "s": 2.92,
-    "e": 3.48
+    "s": 2.72,
+    "e": 3.82
    }
   ],
-  "heard": "A person who flatters someone powerful became a toad -eater."
+  "heard": "A person who flatters someone powerful became a toad -eater...",
+  "match": 0.842
  },
  {
   "id": "L39",
   "chapter": 3,
   "text": "and later, a \"toady\". A word we still use today.",
-  "dur": 3.261,
+  "dur": 2.52,
   "words": [
    {
     "w": "and",
     "s": 0.0,
-    "e": 0.18
+    "e": 0.0
    },
    {
     "w": "later,",
-    "s": 0.18,
-    "e": 0.5
+    "s": 0.0,
+    "e": 0.24
    },
    {
     "w": "a",
-    "s": 0.64,
-    "e": 0.7
+    "s": 0.48,
+    "e": 0.58
    },
    {
     "w": "\"toady\".",
-    "s": 0.7,
-    "e": 1.16
+    "s": 0.58,
+    "e": 1.32
    },
    {
     "w": "A",
-    "s": 1.54,
-    "e": 1.68
+    "s": 1.32,
+    "e": 1.48
    },
    {
     "w": "word",
-    "s": 1.68,
-    "e": 1.9
+    "s": 1.48,
+    "e": 1.62
    },
    {
     "w": "we",
-    "s": 1.9,
-    "e": 2.1
+    "s": 1.62,
+    "e": 1.76
    },
    {
     "w": "still",
-    "s": 2.1,
-    "e": 2.38
+    "s": 1.76,
+    "e": 1.94
    },
    {
     "w": "use",
-    "s": 2.38,
-    "e": 2.64
+    "s": 1.94,
+    "e": 2.1
    },
    {
     "w": "today.",
-    "s": 2.64,
-    "e": 2.96
+    "s": 2.1,
+    "e": 2.34
    }
   ],
-  "heard": "And later, a toady. A word we still use today."
+  "heard": "and later, a toad -y. A word we still use today.",
+  "match": 0.857
  },
  {
   "id": "L40",
   "chapter": 4,
   "text": "Number five: the sin eater.",
-  "dur": 1.749,
+  "dur": 2.38,
   "words": [
    {
     "w": "Number",
     "s": 0.0,
-    "e": 0.24
+    "e": 0.48
    },
    {
     "w": "five:",
-    "s": 0.24,
-    "e": 0.64
-   },
-   {
-    "w": "the",
-    "s": 0.9,
+    "s": 0.48,
     "e": 0.92
    },
    {
+    "w": "the",
+    "s": 1.72,
+    "e": 1.72
+   },
+   {
     "w": "sin",
-    "s": 0.92,
-    "e": 1.16
+    "s": 1.72,
+    "e": 1.94
    },
    {
     "w": "eater.",
-    "s": 1.16,
-    "e": 1.44
+    "s": 1.94,
+    "e": 2.2
    }
   ],
-  "heard": "Number five, the sin eater."
+  "heard": "Number five. The sin eater.",
+  "match": 1.0
  },
  {
   "id": "L41",
   "chapter": 4,
   "text": "This one is spooky.",
-  "dur": 1.347,
+  "dur": 1.86,
   "words": [
    {
     "w": "This",
-    "s": 0.0,
-    "e": 0.24
+    "s": 0.08,
+    "e": 0.18
    },
    {
     "w": "one",
-    "s": 0.24,
-    "e": 0.46
+    "s": 0.18,
+    "e": 0.5
    },
    {
     "w": "is",
-    "s": 0.46,
-    "e": 0.64
+    "s": 0.5,
+    "e": 0.96
    },
    {
     "w": "spooky.",
-    "s": 0.64,
-    "e": 1.1
+    "s": 0.96,
+    "e": 1.68
    }
   ],
-  "heard": "This one is spooky."
+  "heard": "This one is spooky.",
+  "match": 1.0
  },
  {
   "id": "L42",
   "chapter": 4,
   "text": "In the 1680s, a writer named John Aubrey described a custom in parts of Wales and the English border.",
-  "dur": 7.291,
+  "dur": 5.52,
   "words": [
    {
     "w": "In",
-    "s": 0.0,
-    "e": 0.12
+    "s": 0.08,
+    "e": 0.26
    },
    {
     "w": "the",
-    "s": 0.12,
-    "e": 0.22
+    "s": 0.26,
+    "e": 0.38
    },
    {
     "w": "1680s,",
-    "s": 0.22,
-    "e": 1.38
+    "s": 0.38,
+    "e": 1.22
    },
    {
     "w": "a",
-    "s": 1.78,
-    "e": 1.86
+    "s": 1.32,
+    "e": 1.4
    },
    {
     "w": "writer",
-    "s": 1.86,
-    "e": 2.18
+    "s": 1.4,
+    "e": 1.6
    },
    {
     "w": "named",
-    "s": 2.18,
-    "e": 2.56
+    "s": 1.6,
+    "e": 1.86
    },
    {
     "w": "John",
-    "s": 2.56,
-    "e": 2.98
+    "s": 1.86,
+    "e": 2.16
    },
    {
     "w": "Aubrey",
-    "s": 2.98,
-    "e": 3.52
+    "s": 2.16,
+    "e": 2.6
    },
    {
     "w": "described",
-    "s": 3.52,
-    "e": 4.04
+    "s": 2.6,
+    "e": 2.94
    },
    {
     "w": "a",
-    "s": 4.04,
-    "e": 4.22
+    "s": 2.94,
+    "e": 3.12
    },
    {
     "w": "custom",
-    "s": 4.22,
-    "e": 4.64
+    "s": 3.12,
+    "e": 3.46
    },
    {
     "w": "in",
-    "s": 4.64,
-    "e": 5.14
+    "s": 3.46,
+    "e": 3.74
    },
    {
     "w": "parts",
-    "s": 5.14,
-    "e": 5.4
+    "s": 3.74,
+    "e": 3.94
    },
    {
     "w": "of",
-    "s": 5.4,
-    "e": 5.56
+    "s": 3.94,
+    "e": 4.1
    },
    {
     "w": "Wales",
-    "s": 5.56,
-    "e": 5.92
+    "s": 4.1,
+    "e": 4.44
    },
    {
     "w": "and",
-    "s": 5.92,
-    "e": 6.2
+    "s": 4.44,
+    "e": 4.72
    },
    {
     "w": "the",
-    "s": 6.2,
-    "e": 6.32
+    "s": 4.72,
+    "e": 4.82
    },
    {
     "w": "English",
-    "s": 6.32,
-    "e": 6.62
+    "s": 4.82,
+    "e": 5.06
    },
    {
     "w": "border.",
-    "s": 6.62,
-    "e": 7.0
+    "s": 5.06,
+    "e": 5.34
    }
   ],
-  "heard": "In the 1680s, a writer named John Aubrey described a custom in parts of Wales and the English border."
+  "heard": "In the 1680s, a writer named John Aubrey described a custom in parts of Wales and the English border.",
+  "match": 1.0
  },
  {
   "id": "L43",
   "chapter": 4,
   "text": "When someone died, a poor person was hired to come to the house.",
-  "dur": 4.053,
+  "dur": 3.0,
   "words": [
    {
     "w": "When",
-    "s": 0.0,
-    "e": 0.2
+    "s": 0.08,
+    "e": 0.22
    },
    {
     "w": "someone",
-    "s": 0.2,
-    "e": 0.58
+    "s": 0.22,
+    "e": 0.42
    },
    {
     "w": "died,",
-    "s": 0.58,
-    "e": 0.98
+    "s": 0.42,
+    "e": 0.68
    },
    {
     "w": "a",
-    "s": 1.46,
-    "e": 1.64
+    "s": 1.18,
+    "e": 1.26
    },
    {
     "w": "poor",
-    "s": 1.64,
-    "e": 1.84
+    "s": 1.26,
+    "e": 1.46
    },
    {
     "w": "person",
-    "s": 1.84,
-    "e": 2.22
+    "s": 1.46,
+    "e": 1.8
    },
    {
     "w": "was",
-    "s": 2.22,
-    "e": 2.44
+    "s": 1.8,
+    "e": 1.98
    },
    {
     "w": "hired",
-    "s": 2.44,
-    "e": 2.84
+    "s": 1.98,
+    "e": 2.2
    },
    {
     "w": "to",
-    "s": 2.84,
-    "e": 3.08
+    "s": 2.2,
+    "e": 2.32
    },
    {
     "w": "come",
-    "s": 3.08,
-    "e": 3.26
+    "s": 2.32,
+    "e": 2.44
    },
    {
     "w": "to",
-    "s": 3.26,
-    "e": 3.42
+    "s": 2.44,
+    "e": 2.54
    },
    {
     "w": "the",
-    "s": 3.42,
-    "e": 3.52
+    "s": 2.54,
+    "e": 2.62
    },
    {
     "w": "house.",
-    "s": 3.52,
-    "e": 3.8
+    "s": 2.62,
+    "e": 2.82
    }
   ],
-  "heard": "When someone died, a poor person was hired to come to the house."
+  "heard": "When someone died, a poor person was hired to come to the house.",
+  "match": 1.0
  },
  {
   "id": "L44",
   "chapter": 4,
   "text": "Bread and a bowl of ale were passed over the body...",
-  "dur": 3.029,
+  "dur": 3.0,
   "words": [
    {
     "w": "Bread",
-    "s": 0.0,
-    "e": 0.34
+    "s": 0.08,
+    "e": 0.08
    },
    {
     "w": "and",
-    "s": 0.34,
-    "e": 0.62
+    "s": 0.08,
+    "e": 0.46
    },
    {
     "w": "a",
-    "s": 0.62,
-    "e": 0.74
+    "s": 0.46,
+    "e": 0.58
    },
    {
     "w": "bowl",
-    "s": 0.74,
-    "e": 0.98
+    "s": 0.58,
+    "e": 0.78
    },
    {
     "w": "of",
-    "s": 0.98,
-    "e": 1.16
+    "s": 0.78,
+    "e": 0.94
    },
    {
     "w": "ale",
-    "s": 1.16,
-    "e": 1.5
+    "s": 0.94,
+    "e": 1.18
    },
    {
     "w": "were",
-    "s": 1.5,
-    "e": 1.82
+    "s": 1.18,
+    "e": 1.44
    },
    {
     "w": "passed",
-    "s": 1.82,
-    "e": 2.12
+    "s": 1.44,
+    "e": 1.7
    },
    {
     "w": "over",
-    "s": 2.12,
-    "e": 2.36
+    "s": 1.7,
+    "e": 1.94
    },
    {
     "w": "the",
-    "s": 2.36,
-    "e": 2.5
+    "s": 1.94,
+    "e": 2.06
    },
    {
     "w": "body...",
-    "s": 2.5,
+    "s": 2.06,
     "e": 3.0
    }
   ],
-  "heard": "Bread and a bowl of ale were passed over the body..."
+  "heard": "Bread and a bowl of ale were passed over the body...",
+  "match": 1.0
  },
  {
   "id": "L45",
   "chapter": 4,
   "text": "and the sin eater ate and drank them, taking on the dead person's sins.",
-  "dur": 4.539,
+  "dur": 3.48,
   "words": [
    {
     "w": "and",
     "s": 0.0,
-    "e": 0.16
+    "e": 0.02
    },
    {
     "w": "the",
-    "s": 0.16,
-    "e": 0.28
+    "s": 0.02,
+    "e": 0.18
    },
    {
     "w": "sin",
-    "s": 0.28,
-    "e": 0.54
+    "s": 0.18,
+    "e": 0.38
    },
    {
     "w": "eater",
-    "s": 0.54,
-    "e": 0.86
+    "s": 0.38,
+    "e": 0.56
    },
    {
     "w": "ate",
-    "s": 0.86,
-    "e": 1.18
+    "s": 0.56,
+    "e": 0.96
    },
    {
     "w": "and",
-    "s": 1.18,
-    "e": 1.42
+    "s": 0.96,
+    "e": 1.24
    },
    {
     "w": "drank",
-    "s": 1.42,
-    "e": 1.7
+    "s": 1.24,
+    "e": 1.46
    },
    {
     "w": "them,",
-    "s": 1.7,
-    "e": 2.08
+    "s": 1.46,
+    "e": 1.74
    },
    {
     "w": "taking",
-    "s": 2.48,
-    "e": 2.68
+    "s": 2.04,
+    "e": 2.28
    },
    {
     "w": "on",
-    "s": 2.68,
-    "e": 2.98
+    "s": 2.28,
+    "e": 2.5
    },
    {
     "w": "the",
-    "s": 2.98,
-    "e": 3.12
+    "s": 2.5,
+    "e": 2.6
    },
    {
     "w": "dead",
-    "s": 3.12,
-    "e": 3.38
+    "s": 2.6,
+    "e": 2.76
    },
    {
     "w": "person's",
-    "s": 3.38,
-    "e": 3.94
+    "s": 2.76,
+    "e": 3.14
    },
    {
     "w": "sins.",
-    "s": 3.94,
-    "e": 4.22
+    "s": 3.14,
+    "e": 3.3
    }
   ],
-  "heard": "And the sin eater ate and drank them, taking on the dead person's sins."
+  "heard": "and the sin eater ate and drank them, taking on the dead person's sins.",
+  "match": 1.0
  },
  {
   "id": "L46",
   "chapter": 4,
   "text": "The family believed this let the soul rest in peace.",
-  "dur": 3.093,
+  "dur": 2.32,
   "words": [
    {
     "w": "The",
-    "s": 0.0,
-    "e": 0.14
+    "s": 0.08,
+    "e": 0.26
    },
    {
     "w": "family",
-    "s": 0.14,
-    "e": 0.42
+    "s": 0.26,
+    "e": 0.48
    },
    {
     "w": "believed",
-    "s": 0.42,
-    "e": 0.92
+    "s": 0.48,
+    "e": 0.78
    },
    {
     "w": "this",
-    "s": 0.92,
-    "e": 1.26
+    "s": 0.78,
+    "e": 1.02
    },
    {
     "w": "let",
-    "s": 1.26,
-    "e": 1.56
+    "s": 1.02,
+    "e": 1.18
    },
    {
     "w": "the",
-    "s": 1.56,
-    "e": 1.7
+    "s": 1.18,
+    "e": 1.34
    },
    {
     "w": "soul",
-    "s": 1.7,
-    "e": 1.98
+    "s": 1.34,
+    "e": 1.48
    },
    {
     "w": "rest",
-    "s": 1.98,
-    "e": 2.3
+    "s": 1.48,
+    "e": 1.7
    },
    {
     "w": "in",
-    "s": 2.3,
-    "e": 2.52
+    "s": 1.7,
+    "e": 1.92
    },
    {
     "w": "peace.",
-    "s": 2.52,
-    "e": 2.78
+    "s": 1.92,
+    "e": 2.14
    }
   ],
-  "heard": "The family believed this let the soul rest in peace."
+  "heard": "The family believed this let the soul rest in peace.",
+  "match": 1.0
  },
  {
   "id": "L47",
   "chapter": 4,
   "text": "The sin eater got a few coins... and was then avoided by everyone.",
-  "dur": 4.4,
+  "dur": 3.32,
   "words": [
    {
     "w": "The",
-    "s": 0.0,
-    "e": 0.12
+    "s": 0.08,
+    "e": 0.26
    },
    {
     "w": "sin",
-    "s": 0.12,
-    "e": 0.44
+    "s": 0.26,
+    "e": 0.42
    },
    {
     "w": "eater",
-    "s": 0.44,
-    "e": 0.82
+    "s": 0.42,
+    "e": 0.6
    },
    {
     "w": "got",
-    "s": 0.82,
-    "e": 1.1
+    "s": 0.6,
+    "e": 0.84
    },
    {
     "w": "a",
-    "s": 1.1,
-    "e": 1.2
+    "s": 0.84,
+    "e": 0.94
    },
    {
     "w": "few",
-    "s": 1.2,
-    "e": 1.4
+    "s": 0.94,
+    "e": 1.06
    },
    {
     "w": "coins...",
-    "s": 1.4,
-    "e": 2.54
+    "s": 1.06,
+    "e": 1.7
    },
    {
     "w": "and",
-    "s": 2.54,
-    "e": 2.64
+    "s": 1.7,
+    "e": 1.7
    },
    {
     "w": "was",
-    "s": 2.64,
-    "e": 2.76
+    "s": 1.7,
+    "e": 1.86
    },
    {
     "w": "then",
-    "s": 2.76,
-    "e": 2.96
+    "s": 1.86,
+    "e": 2.04
    },
    {
     "w": "avoided",
-    "s": 2.96,
-    "e": 3.36
+    "s": 2.04,
+    "e": 2.36
    },
    {
     "w": "by",
-    "s": 3.36,
-    "e": 3.7
+    "s": 2.36,
+    "e": 2.62
    },
    {
     "w": "everyone.",
-    "s": 3.7,
-    "e": 4.16
+    "s": 2.62,
+    "e": 3.14
    }
   ],
-  "heard": "The sin eater got a few coins... and was then avoided by everyone."
+  "heard": "The sin eater got a few coins... and was then avoided by everyone.",
+  "match": 1.0
  },
  {
   "id": "L48",
   "chapter": 4,
   "text": "Historians still argue about how common this really was.",
-  "dur": 3.596,
+  "dur": 2.84,
   "words": [
    {
     "w": "Historians",
-    "s": 0.0,
-    "e": 0.64
+    "s": 0.08,
+    "e": 0.42
    },
    {
     "w": "still",
-    "s": 0.64,
-    "e": 0.98
+    "s": 0.42,
+    "e": 0.76
    },
    {
     "w": "argue",
-    "s": 0.98,
-    "e": 1.48
+    "s": 0.76,
+    "e": 1.12
    },
    {
     "w": "about",
-    "s": 1.48,
-    "e": 1.8
+    "s": 1.12,
+    "e": 1.38
    },
    {
     "w": "how",
-    "s": 1.8,
-    "e": 2.06
+    "s": 1.38,
+    "e": 1.56
    },
    {
     "w": "common",
-    "s": 2.06,
-    "e": 2.44
+    "s": 1.56,
+    "e": 1.84
    },
    {
     "w": "this",
-    "s": 2.44,
-    "e": 2.7
+    "s": 1.84,
+    "e": 2.04
    },
    {
     "w": "really",
-    "s": 2.7,
-    "e": 2.98
+    "s": 2.04,
+    "e": 2.28
    },
    {
     "w": "was.",
-    "s": 2.98,
-    "e": 3.38
+    "s": 2.28,
+    "e": 2.66
    }
   ],
-  "heard": "Historians still argue about how common this really was."
+  "heard": "Historians still argue about how common this really was.",
+  "match": 1.0
  },
  {
   "id": "L49",
   "chapter": 4,
   "text": "But the idea of a job where you swallow other people's sins... is hard to forget.",
-  "dur": 5.203,
+  "dur": 4.48,
   "words": [
    {
     "w": "But",
-    "s": 0.0,
-    "e": 0.14
+    "s": 0.08,
+    "e": 0.16
    },
    {
     "w": "the",
-    "s": 0.14,
-    "e": 0.28
+    "s": 0.16,
+    "e": 0.26
    },
    {
     "w": "idea",
-    "s": 0.28,
-    "e": 0.66
+    "s": 0.26,
+    "e": 0.5
    },
    {
     "w": "of",
-    "s": 0.66,
-    "e": 0.9
+    "s": 0.5,
+    "e": 0.74
    },
    {
     "w": "a",
-    "s": 0.9,
-    "e": 1.02
+    "s": 0.74,
+    "e": 0.88
    },
    {
     "w": "job",
-    "s": 1.02,
-    "e": 1.34
+    "s": 0.88,
+    "e": 1.16
    },
    {
     "w": "where",
-    "s": 1.34,
-    "e": 1.64
+    "s": 1.16,
+    "e": 1.42
    },
    {
     "w": "you",
-    "s": 1.64,
-    "e": 1.78
+    "s": 1.42,
+    "e": 1.54
    },
    {
     "w": "swallow",
-    "s": 1.78,
-    "e": 2.16
+    "s": 1.54,
+    "e": 1.98
    },
    {
     "w": "other",
-    "s": 2.16,
-    "e": 2.54
+    "s": 1.98,
+    "e": 2.36
    },
    {
     "w": "people's",
-    "s": 2.54,
-    "e": 3.06
+    "s": 2.36,
+    "e": 2.8
    },
    {
     "w": "sins...",
-    "s": 3.06,
-    "e": 4.12
+    "s": 2.8,
+    "e": 3.0
    },
    {
     "w": "is",
-    "s": 4.12,
-    "e": 4.14
+    "s": 3.0,
+    "e": 3.54
    },
    {
     "w": "hard",
-    "s": 4.14,
-    "e": 4.46
+    "s": 3.54,
+    "e": 3.86
    },
    {
     "w": "to",
-    "s": 4.46,
-    "e": 4.68
+    "s": 3.86,
+    "e": 4.02
    },
    {
     "w": "forget.",
-    "s": 4.68,
-    "e": 5.0
+    "s": 4.02,
+    "e": 4.3
    }
   ],
-  "heard": "But the idea of a job where you swallow other people's sins... is hard to forget."
+  "heard": "But the idea of a job where you swallow other people's sins is hard to forget.",
+  "match": 1.0
  },
  {
   "id": "L50",
   "chapter": 5,
   "text": "Number four: the saltpetre man.",
-  "dur": 2.09,
+  "dur": 2.38,
   "words": [
    {
     "w": "Number",
     "s": 0.0,
-    "e": 0.26
+    "e": 0.46
    },
    {
     "w": "four:",
-    "s": 0.26,
-    "e": 0.68
+    "s": 0.46,
+    "e": 0.82
    },
    {
     "w": "the",
-    "s": 0.68,
-    "e": 1.0
+    "s": 1.28,
+    "e": 1.34
    },
    {
     "w": "saltpetre",
-    "s": 1.0,
-    "e": 1.6
+    "s": 1.34,
+    "e": 1.98
    },
    {
     "w": "man.",
-    "s": 1.6,
-    "e": 1.88
+    "s": 1.98,
+    "e": 2.2
    }
   ],
-  "heard": "Number four the saltpetre man."
+  "heard": "Number four. The saltpetre man.",
+  "match": 1.0
  },
  {
   "id": "L51",
   "chapter": 5,
   "text": "To make gunpowder, England needed saltpetre.",
-  "dur": 2.837,
+  "dur": 2.33,
   "words": [
    {
     "w": "To",
-    "s": 0.0,
-    "e": 0.12
+    "s": 0.08,
+    "e": 0.24
    },
    {
     "w": "make",
-    "s": 0.12,
-    "e": 0.3
+    "s": 0.24,
+    "e": 0.4
    },
    {
     "w": "gunpowder,",
-    "s": 0.3,
-    "e": 1.02
+    "s": 0.4,
+    "e": 0.9
    },
    {
     "w": "England",
-    "s": 1.44,
-    "e": 1.58
+    "s": 1.12,
+    "e": 1.24
    },
    {
     "w": "needed",
-    "s": 1.58,
-    "e": 1.98
+    "s": 1.24,
+    "e": 1.6
    },
    {
     "w": "saltpetre.",
-    "s": 1.98,
-    "e": 2.72
+    "s": 1.6,
+    "e": 2.18
    }
   ],
-  "heard": "To make gunpowder, England needed saltpetre."
+  "heard": "To make gunpowder, England needed saltpetre.",
+  "match": 1.0
  },
  {
   "id": "L52",
   "chapter": 5,
   "text": "And one of the best places to find it... was soil soaked with animal waste.",
-  "dur": 4.69,
+  "dur": 3.68,
   "words": [
    {
     "w": "And",
-    "s": 0.0,
-    "e": 0.16
+    "s": 0.08,
+    "e": 0.2
    },
    {
     "w": "one",
-    "s": 0.16,
+    "s": 0.2,
     "e": 0.3
    },
    {
@@ -3227,288 +3278,292 @@
    {
     "w": "the",
     "s": 0.42,
-    "e": 0.5
+    "e": 0.48
    },
    {
     "w": "best",
-    "s": 0.5,
-    "e": 0.74
+    "s": 0.48,
+    "e": 0.66
    },
    {
     "w": "places",
-    "s": 0.74,
-    "e": 1.12
+    "s": 0.66,
+    "e": 0.92
    },
    {
     "w": "to",
-    "s": 1.12,
-    "e": 1.4
+    "s": 0.92,
+    "e": 1.12
    },
    {
     "w": "find",
-    "s": 1.4,
-    "e": 1.74
+    "s": 1.12,
+    "e": 1.38
    },
    {
     "w": "it...",
-    "s": 1.74,
-    "e": 2.48
+    "s": 1.38,
+    "e": 1.56
    },
    {
     "w": "was",
-    "s": 2.48,
-    "e": 2.52
+    "s": 1.56,
+    "e": 1.8
    },
    {
     "w": "soil",
-    "s": 2.52,
-    "e": 2.94
+    "s": 1.8,
+    "e": 2.22
    },
    {
     "w": "soaked",
-    "s": 2.94,
-    "e": 3.34
+    "s": 2.22,
+    "e": 2.56
    },
    {
     "w": "with",
-    "s": 3.34,
-    "e": 3.62
+    "s": 2.56,
+    "e": 2.82
    },
    {
     "w": "animal",
-    "s": 3.62,
-    "e": 4.0
+    "s": 2.82,
+    "e": 3.16
    },
    {
     "w": "waste.",
-    "s": 4.0,
-    "e": 4.36
+    "s": 3.16,
+    "e": 3.5
    }
   ],
-  "heard": "And one of the best places to find it... was soil soaked with animal waste."
+  "heard": "And one of the best places to find it was soil soaked with animal waste.",
+  "match": 1.0
  },
  {
   "id": "L53",
   "chapter": 5,
   "text": "Like the floor of your stable, your pigeon house, or your cellar.",
-  "dur": 3.688,
+  "dur": 3.56,
   "words": [
    {
     "w": "Like",
-    "s": 0.0,
-    "e": 0.18
+    "s": 0.08,
+    "e": 0.34
    },
    {
     "w": "the",
-    "s": 0.18,
-    "e": 0.38
+    "s": 0.34,
+    "e": 0.7
    },
    {
     "w": "floor",
-    "s": 0.38,
-    "e": 0.66
+    "s": 0.7,
+    "e": 0.92
    },
    {
     "w": "of",
-    "s": 0.66,
-    "e": 0.84
+    "s": 0.92,
+    "e": 1.02
    },
    {
     "w": "your",
-    "s": 0.84,
-    "e": 0.94
+    "s": 1.02,
+    "e": 1.12
    },
    {
     "w": "stable,",
-    "s": 0.94,
-    "e": 1.38
+    "s": 1.12,
+    "e": 1.5
    },
    {
     "w": "your",
-    "s": 1.84,
-    "e": 1.9
+    "s": 1.94,
+    "e": 2.0
    },
    {
     "w": "pigeon",
-    "s": 1.9,
-    "e": 2.2
+    "s": 2.0,
+    "e": 2.28
    },
    {
     "w": "house,",
-    "s": 2.2,
+    "s": 2.28,
     "e": 2.58
    },
    {
     "w": "or",
-    "s": 2.9,
-    "e": 2.92
+    "s": 2.7,
+    "e": 2.94
    },
    {
     "w": "your",
-    "s": 2.92,
+    "s": 2.94,
     "e": 3.08
    },
    {
     "w": "cellar.",
     "s": 3.08,
-    "e": 3.4
+    "e": 3.38
    }
   ],
-  "heard": "Like the floor of your stable, your pigeon house, or your cellar."
+  "heard": "Like the floor of your stable, your pigeon house, or your cellar.",
+  "match": 1.0
  },
  {
   "id": "L54",
   "chapter": 5,
   "text": "So the crown gave saltpetre men the right to dig.",
-  "dur": 2.898,
+  "dur": 2.3,
   "words": [
    {
     "w": "So",
-    "s": 0.0,
-    "e": 0.18
+    "s": 0.08,
+    "e": 0.36
    },
    {
     "w": "the",
-    "s": 0.18,
-    "e": 0.3
+    "s": 0.36,
+    "e": 0.5
    },
    {
     "w": "crown",
-    "s": 0.3,
-    "e": 0.58
+    "s": 0.5,
+    "e": 0.72
    },
    {
     "w": "gave",
-    "s": 0.58,
-    "e": 0.88
+    "s": 0.72,
+    "e": 0.94
    },
    {
     "w": "saltpetre",
-    "s": 0.88,
-    "e": 1.6
+    "s": 0.94,
+    "e": 1.42
    },
    {
     "w": "men",
-    "s": 1.6,
-    "e": 1.8
+    "s": 1.42,
+    "e": 1.56
    },
    {
     "w": "the",
-    "s": 1.8,
-    "e": 2.02
+    "s": 1.56,
+    "e": 1.68
    },
    {
     "w": "right",
-    "s": 2.02,
-    "e": 2.22
+    "s": 1.68,
+    "e": 1.8
    },
    {
     "w": "to",
-    "s": 2.22,
-    "e": 2.44
+    "s": 1.8,
+    "e": 1.96
    },
    {
     "w": "dig.",
-    "s": 2.44,
-    "e": 2.66
+    "s": 1.96,
+    "e": 2.12
    }
   ],
-  "heard": "So the crown gave saltpetre men the right to dig."
+  "heard": "So the crown gave saltpetre men the right to dig.",
+  "match": 1.0
  },
  {
   "id": "L55",
   "chapter": 5,
   "text": "In 1627, a royal order even let them dig up the floors of stables and cellars...",
-  "dur": 6.415,
+  "dur": 5.22,
   "words": [
    {
     "w": "In",
-    "s": 0.0,
-    "e": 0.18
+    "s": 0.08,
+    "e": 0.54
    },
    {
     "w": "1627,",
-    "s": 0.18,
-    "e": 1.44
+    "s": 0.54,
+    "e": 1.0
    },
    {
     "w": "a",
-    "s": 2.04,
-    "e": 2.08
+    "s": 1.34,
+    "e": 1.46
    },
    {
     "w": "royal",
-    "s": 2.08,
-    "e": 2.5
+    "s": 1.46,
+    "e": 1.66
    },
    {
     "w": "order",
-    "s": 2.5,
-    "e": 2.98
+    "s": 1.66,
+    "e": 1.96
    },
    {
     "w": "even",
-    "s": 2.98,
-    "e": 3.36
+    "s": 1.96,
+    "e": 2.2
    },
    {
     "w": "let",
-    "s": 3.36,
-    "e": 3.6
+    "s": 2.2,
+    "e": 2.42
    },
    {
     "w": "them",
-    "s": 3.6,
-    "e": 3.8
+    "s": 2.42,
+    "e": 2.56
    },
    {
     "w": "dig",
-    "s": 3.8,
-    "e": 4.0
+    "s": 2.56,
+    "e": 2.78
    },
    {
     "w": "up",
-    "s": 4.0,
-    "e": 4.18
+    "s": 2.78,
+    "e": 2.92
    },
    {
     "w": "the",
-    "s": 4.18,
-    "e": 4.34
+    "s": 2.92,
+    "e": 3.06
    },
    {
     "w": "floors",
-    "s": 4.34,
-    "e": 4.74
+    "s": 3.06,
+    "e": 3.44
    },
    {
     "w": "of",
-    "s": 4.74,
-    "e": 4.98
+    "s": 3.44,
+    "e": 3.76
    },
    {
     "w": "stables",
-    "s": 4.98,
-    "e": 5.5
+    "s": 3.76,
+    "e": 4.12
    },
    {
     "w": "and",
-    "s": 5.5,
-    "e": 5.74
+    "s": 4.12,
+    "e": 4.32
    },
    {
     "w": "cellars...",
-    "s": 5.74,
-    "e": 6.38
+    "s": 4.32,
+    "e": 5.22
    }
   ],
-  "heard": "In 1627, a royal order even let them dig up the floors of stables and cellars..."
+  "heard": "In 1627, a royal order even let them dig up the floors of stables and cellars...",
+  "match": 1.0
  },
  {
   "id": "L56",
   "chapter": 5,
   "text": "and told owners to leave the floors as loose earth, so they'd be easier to dig next time.",
-  "dur": 5.547,
+  "dur": 4.28,
   "words": [
    {
     "w": "and",
@@ -3518,2185 +3573,2215 @@
    {
     "w": "told",
     "s": 0.16,
-    "e": 0.38
+    "e": 0.36
    },
    {
     "w": "owners",
-    "s": 0.38,
-    "e": 0.82
+    "s": 0.36,
+    "e": 0.68
    },
    {
     "w": "to",
-    "s": 0.82,
-    "e": 1.06
+    "s": 0.68,
+    "e": 0.88
    },
    {
     "w": "leave",
-    "s": 1.06,
-    "e": 1.24
+    "s": 0.88,
+    "e": 1.04
    },
    {
     "w": "the",
-    "s": 1.24,
-    "e": 1.44
+    "s": 1.04,
+    "e": 1.2
    },
    {
     "w": "floors",
-    "s": 1.44,
-    "e": 1.84
+    "s": 1.2,
+    "e": 1.4
    },
    {
     "w": "as",
-    "s": 1.84,
-    "e": 2.1
+    "s": 1.4,
+    "e": 1.66
    },
    {
     "w": "loose",
-    "s": 2.1,
-    "e": 2.36
+    "s": 1.66,
+    "e": 1.94
    },
    {
     "w": "earth,",
-    "s": 2.36,
-    "e": 2.76
+    "s": 1.94,
+    "e": 2.32
    },
    {
     "w": "so",
-    "s": 3.28,
-    "e": 3.46
+    "s": 2.46,
+    "e": 2.62
    },
    {
     "w": "they'd",
-    "s": 3.46,
-    "e": 3.7
+    "s": 2.62,
+    "e": 2.76
    },
    {
     "w": "be",
-    "s": 3.7,
-    "e": 3.82
+    "s": 2.76,
+    "e": 2.9
    },
    {
     "w": "easier",
-    "s": 3.82,
-    "e": 4.22
+    "s": 2.9,
+    "e": 3.14
    },
    {
     "w": "to",
-    "s": 4.22,
-    "e": 4.44
+    "s": 3.14,
+    "e": 3.3
    },
    {
     "w": "dig",
-    "s": 4.44,
-    "e": 4.7
+    "s": 3.3,
+    "e": 3.5
    },
    {
     "w": "next",
-    "s": 4.7,
-    "e": 5.0
+    "s": 3.5,
+    "e": 3.78
    },
    {
     "w": "time.",
-    "s": 5.0,
-    "e": 5.38
+    "s": 3.78,
+    "e": 4.1
    }
   ],
-  "heard": "and told owners to leave the floors as loose earth, so they'd be easier to dig next time."
+  "heard": "and told owners to leave the floors as loose earth, so they'd be easier to dig next time.",
+  "match": 1.0
  },
  {
   "id": "L57",
   "chapter": 5,
   "text": "Imagine a stranger arriving with a shovel, and you're not allowed to say no.",
-  "dur": 4.524,
+  "dur": 4.16,
   "words": [
    {
     "w": "Imagine",
-    "s": 0.0,
-    "e": 0.52
+    "s": 0.08,
+    "e": 0.44
    },
    {
     "w": "a",
-    "s": 0.52,
-    "e": 0.72
+    "s": 0.44,
+    "e": 0.66
    },
    {
     "w": "stranger",
-    "s": 0.72,
-    "e": 1.18
+    "s": 0.66,
+    "e": 1.14
    },
    {
     "w": "arriving",
-    "s": 1.18,
-    "e": 1.7
+    "s": 1.14,
+    "e": 1.62
    },
    {
     "w": "with",
-    "s": 1.7,
-    "e": 1.96
+    "s": 1.62,
+    "e": 1.86
    },
    {
     "w": "a",
-    "s": 1.96,
-    "e": 2.1
+    "s": 1.86,
+    "e": 2.02
    },
    {
     "w": "shovel,",
-    "s": 2.1,
-    "e": 2.42
+    "s": 2.02,
+    "e": 2.3
    },
    {
     "w": "and",
-    "s": 2.92,
-    "e": 3.02
+    "s": 2.94,
+    "e": 3.0
    },
    {
     "w": "you're",
-    "s": 3.02,
-    "e": 3.14
+    "s": 3.0,
+    "e": 3.1
    },
    {
     "w": "not",
-    "s": 3.14,
-    "e": 3.3
+    "s": 3.1,
+    "e": 3.2
    },
    {
     "w": "allowed",
-    "s": 3.3,
-    "e": 3.58
+    "s": 3.2,
+    "e": 3.38
    },
    {
     "w": "to",
-    "s": 3.58,
-    "e": 3.78
+    "s": 3.38,
+    "e": 3.54
    },
    {
     "w": "say",
-    "s": 3.78,
-    "e": 4.0
+    "s": 3.54,
+    "e": 3.66
    },
    {
     "w": "no.",
-    "s": 4.0,
-    "e": 4.3
+    "s": 3.66,
+    "e": 3.98
    }
   ],
-  "heard": "Imagine a stranger arriving with a shovel, and you're not allowed to say no."
+  "heard": "Imagine a stranger arriving with a shovel, and you're not allowed to say no.",
+  "match": 1.0
  },
  {
   "id": "L58",
   "chapter": 5,
   "text": "Saltpetre men were some of the most hated people in the country.",
-  "dur": 3.627,
+  "dur": 2.44,
   "words": [
    {
     "w": "Saltpetre",
-    "s": 0.0,
-    "e": 0.68
+    "s": 0.08,
+    "e": 0.32
    },
    {
     "w": "men",
-    "s": 0.68,
-    "e": 0.94
+    "s": 0.32,
+    "e": 0.44
    },
    {
     "w": "were",
-    "s": 0.94,
-    "e": 1.42
+    "s": 0.44,
+    "e": 0.62
    },
    {
     "w": "some",
-    "s": 1.42,
-    "e": 1.56
+    "s": 0.62,
+    "e": 0.74
    },
    {
     "w": "of",
-    "s": 1.56,
-    "e": 1.72
+    "s": 0.74,
+    "e": 0.86
    },
    {
     "w": "the",
-    "s": 1.72,
-    "e": 1.74
+    "s": 0.86,
+    "e": 0.92
    },
    {
     "w": "most",
-    "s": 1.74,
-    "e": 1.9
+    "s": 0.92,
+    "e": 1.04
    },
    {
     "w": "hated",
-    "s": 1.9,
-    "e": 2.32
+    "s": 1.04,
+    "e": 1.44
    },
    {
     "w": "people",
-    "s": 2.32,
-    "e": 2.7
+    "s": 1.44,
+    "e": 1.74
    },
    {
     "w": "in",
-    "s": 2.7,
-    "e": 2.94
+    "s": 1.74,
+    "e": 1.92
    },
    {
     "w": "the",
-    "s": 2.94,
-    "e": 3.06
+    "s": 1.92,
+    "e": 2.02
    },
    {
     "w": "country.",
-    "s": 3.06,
-    "e": 3.34
+    "s": 2.02,
+    "e": 2.26
    }
   ],
-  "heard": "Saltpetre men were some of the most hated people in the country."
+  "heard": "Saltpetre men were some of the most hated people in the country.",
+  "match": 1.0
  },
  {
   "id": "L59",
   "chapter": 6,
   "text": "Number three: the fuller.",
-  "dur": 1.437,
+  "dur": 1.7,
   "words": [
    {
     "w": "Number",
     "s": 0.0,
-    "e": 0.26
+    "e": 0.44
    },
    {
     "w": "three:",
-    "s": 0.26,
-    "e": 0.6
+    "s": 0.44,
+    "e": 0.78
    },
    {
     "w": "the",
-    "s": 0.82,
-    "e": 0.84
+    "s": 1.26,
+    "e": 1.26
    },
    {
     "w": "fuller.",
-    "s": 0.84,
-    "e": 1.08
+    "s": 1.26,
+    "e": 1.52
    }
   ],
-  "heard": "Number three, the fuller."
+  "heard": "Number three. The fuller.",
+  "match": 1.0
  },
  {
   "id": "L60",
   "chapter": 6,
   "text": "Fresh wool cloth is greasy and loose. It has to be cleaned and thickened.",
-  "dur": 4.651,
+  "dur": 4.88,
   "words": [
    {
     "w": "Fresh",
-    "s": 0.0,
-    "e": 0.26
+    "s": 0.08,
+    "e": 0.22
    },
    {
     "w": "wool",
-    "s": 0.26,
-    "e": 0.54
+    "s": 0.22,
+    "e": 0.56
    },
    {
     "w": "cloth",
-    "s": 0.54,
+    "s": 0.56,
     "e": 0.88
    },
    {
     "w": "is",
     "s": 0.88,
-    "e": 1.1
+    "e": 1.16
    },
    {
     "w": "greasy",
-    "s": 1.1,
-    "e": 1.68
+    "s": 1.16,
+    "e": 1.72
    },
    {
     "w": "and",
-    "s": 1.68,
-    "e": 1.86
+    "s": 1.72,
+    "e": 2.02
    },
    {
     "w": "loose.",
-    "s": 1.86,
-    "e": 2.18
+    "s": 2.02,
+    "e": 2.34
    },
    {
     "w": "It",
-    "s": 2.82,
-    "e": 2.86
+    "s": 3.08,
+    "e": 3.2
    },
    {
     "w": "has",
-    "s": 2.86,
-    "e": 3.04
+    "s": 3.2,
+    "e": 3.34
    },
    {
     "w": "to",
-    "s": 3.04,
-    "e": 3.22
+    "s": 3.34,
+    "e": 3.46
    },
    {
     "w": "be",
-    "s": 3.22,
-    "e": 3.36
+    "s": 3.46,
+    "e": 3.6
    },
    {
     "w": "cleaned",
-    "s": 3.36,
-    "e": 3.78
+    "s": 3.6,
+    "e": 3.98
    },
    {
     "w": "and",
-    "s": 3.78,
-    "e": 4.1
+    "s": 3.98,
+    "e": 4.26
    },
    {
     "w": "thickened.",
-    "s": 4.1,
-    "e": 4.52
+    "s": 4.26,
+    "e": 4.7
    }
   ],
-  "heard": "Fresh wool cloth is greasy and loose. It has to be cleaned and thickened."
+  "heard": "Fresh wool cloth is greasy and loose. It has to be cleaned and thickened.",
+  "match": 1.0
  },
  {
   "id": "L61",
   "chapter": 6,
   "text": "For centuries, one way to do it was with stale urine.",
-  "dur": 3.59,
+  "dur": 3.66,
   "words": [
    {
     "w": "For",
-    "s": 0.0,
-    "e": 0.18
+    "s": 0.08,
+    "e": 0.26
    },
    {
     "w": "centuries,",
-    "s": 0.18,
-    "e": 0.7
+    "s": 0.26,
+    "e": 0.72
    },
    {
     "w": "one",
-    "s": 1.18,
-    "e": 1.42
+    "s": 1.06,
+    "e": 1.28
    },
    {
     "w": "way",
-    "s": 1.42,
-    "e": 1.62
+    "s": 1.28,
+    "e": 1.42
    },
    {
     "w": "to",
-    "s": 1.62,
-    "e": 1.84
+    "s": 1.42,
+    "e": 1.56
    },
    {
     "w": "do",
-    "s": 1.84,
-    "e": 2.02
+    "s": 1.56,
+    "e": 1.7
    },
    {
     "w": "it",
-    "s": 2.02,
-    "e": 2.16
+    "s": 1.7,
+    "e": 1.84
    },
    {
     "w": "was",
-    "s": 2.16,
-    "e": 2.34
+    "s": 1.84,
+    "e": 2.06
    },
    {
     "w": "with",
-    "s": 2.34,
-    "e": 2.54
+    "s": 2.06,
+    "e": 2.26
    },
    {
     "w": "stale",
-    "s": 2.54,
-    "e": 2.9
+    "s": 2.26,
+    "e": 2.82
    },
    {
     "w": "urine.",
-    "s": 2.9,
-    "e": 3.38
+    "s": 2.82,
+    "e": 3.48
    }
   ],
-  "heard": "For centuries, one way to do it was with stale urine."
+  "heard": "For centuries, one way to do it was with stale urine.",
+  "match": 1.0
  },
  {
   "id": "L62",
   "chapter": 6,
   "text": "Collected, left to stand for days, and poured into a big tub with the cloth.",
-  "dur": 4.715,
+  "dur": 4.06,
   "words": [
    {
     "w": "Collected,",
-    "s": 0.0,
-    "e": 0.58
+    "s": 0.08,
+    "e": 0.4
    },
    {
     "w": "left",
-    "s": 0.72,
-    "e": 0.88
+    "s": 0.48,
+    "e": 0.62
    },
    {
     "w": "to",
-    "s": 0.88,
-    "e": 1.08
+    "s": 0.62,
+    "e": 0.8
    },
    {
     "w": "stand",
-    "s": 1.08,
-    "e": 1.38
+    "s": 0.8,
+    "e": 1.0
    },
    {
     "w": "for",
-    "s": 1.38,
-    "e": 1.58
+    "s": 1.0,
+    "e": 1.2
    },
    {
     "w": "days,",
-    "s": 1.58,
-    "e": 1.9
+    "s": 1.2,
+    "e": 1.48
    },
    {
     "w": "and",
-    "s": 2.38,
-    "e": 2.56
+    "s": 1.82,
+    "e": 2.02
    },
    {
     "w": "poured",
-    "s": 2.56,
-    "e": 2.84
+    "s": 2.02,
+    "e": 2.3
    },
    {
     "w": "into",
-    "s": 2.84,
-    "e": 3.12
+    "s": 2.3,
+    "e": 2.56
    },
    {
     "w": "a",
-    "s": 3.12,
-    "e": 3.3
+    "s": 2.56,
+    "e": 2.72
    },
    {
     "w": "big",
-    "s": 3.3,
-    "e": 3.48
+    "s": 2.72,
+    "e": 2.94
    },
    {
     "w": "tub",
-    "s": 3.48,
-    "e": 3.76
+    "s": 2.94,
+    "e": 3.22
    },
    {
     "w": "with",
-    "s": 3.76,
-    "e": 3.98
+    "s": 3.22,
+    "e": 3.42
    },
    {
     "w": "the",
-    "s": 3.98,
-    "e": 4.12
+    "s": 3.42,
+    "e": 3.54
    },
    {
     "w": "cloth.",
-    "s": 4.12,
-    "e": 4.38
+    "s": 3.54,
+    "e": 3.88
    }
   ],
-  "heard": "Collected, left to stand for days, and poured into a big tub with the cloth."
+  "heard": "Collected, left to stand for days, and poured into a big tub with the cloth.",
+  "match": 1.0
  },
  {
   "id": "L63",
   "chapter": 6,
   "text": "Then the fuller climbed in... and stamped on the cloth with his bare feet. For hours.",
-  "dur": 5.269,
+  "dur": 6.18,
   "words": [
    {
     "w": "Then",
-    "s": 0.0,
-    "e": 0.18
+    "s": 0.08,
+    "e": 0.42
    },
    {
     "w": "the",
-    "s": 0.18,
-    "e": 0.32
+    "s": 0.42,
+    "e": 0.8
    },
    {
     "w": "fuller",
-    "s": 0.32,
-    "e": 0.56
-   },
-   {
-    "w": "climbed",
-    "s": 0.56,
+    "s": 0.8,
     "e": 1.06
    },
    {
-    "w": "in...",
+    "w": "climbed",
     "s": 1.06,
-    "e": 1.84
+    "e": 1.36
+   },
+   {
+    "w": "in...",
+    "s": 1.36,
+    "e": 2.34
    },
    {
     "w": "and",
-    "s": 1.84,
-    "e": 1.86
-   },
-   {
-    "w": "stamped",
-    "s": 1.86,
-    "e": 2.16
-   },
-   {
-    "w": "on",
-    "s": 2.16,
+    "s": 2.34,
     "e": 2.38
    },
    {
-    "w": "the",
+    "w": "stamped",
     "s": 2.38,
-    "e": 2.5
-   },
-   {
-    "w": "cloth",
-    "s": 2.5,
     "e": 2.8
    },
    {
-    "w": "with",
+    "w": "on",
     "s": 2.8,
-    "e": 3.04
+    "e": 3.02
+   },
+   {
+    "w": "the",
+    "s": 3.02,
+    "e": 3.12
+   },
+   {
+    "w": "cloth",
+    "s": 3.12,
+    "e": 3.34
+   },
+   {
+    "w": "with",
+    "s": 3.34,
+    "e": 3.56
    },
    {
     "w": "his",
-    "s": 3.04,
-    "e": 3.2
+    "s": 3.56,
+    "e": 3.72
    },
    {
     "w": "bare",
-    "s": 3.2,
-    "e": 3.46
+    "s": 3.72,
+    "e": 4.1
    },
    {
     "w": "feet.",
-    "s": 3.46,
-    "e": 3.84
+    "s": 4.1,
+    "e": 4.54
    },
    {
     "w": "For",
-    "s": 4.32,
-    "e": 4.44
+    "s": 5.24,
+    "e": 5.46
    },
    {
     "w": "hours.",
-    "s": 4.44,
-    "e": 4.88
+    "s": 5.46,
+    "e": 6.0
    }
   ],
-  "heard": "Then the fuller climbed in... and stamped on the cloth with his bare feet. For hours."
+  "heard": "Then the fuller climbed in... and stamped on the cloth with his bare feet. For hours.",
+  "match": 1.0
  },
  {
   "id": "L64",
   "chapter": 6,
   "text": "The ammonia in old urine helped strip the grease and whiten the wool.",
-  "dur": 4.258,
+  "dur": 3.42,
   "words": [
    {
     "w": "The",
-    "s": 0.0,
-    "e": 0.16
+    "s": 0.08,
+    "e": 0.32
    },
    {
     "w": "ammonia",
-    "s": 0.16,
-    "e": 0.56
+    "s": 0.32,
+    "e": 0.54
    },
    {
     "w": "in",
-    "s": 0.56,
-    "e": 0.82
+    "s": 0.54,
+    "e": 0.84
    },
    {
     "w": "old",
-    "s": 0.82,
-    "e": 1.04
+    "s": 0.84,
+    "e": 1.0
    },
    {
     "w": "urine",
-    "s": 1.04,
-    "e": 1.44
+    "s": 1.0,
+    "e": 1.3
    },
    {
     "w": "helped",
-    "s": 1.44,
-    "e": 1.96
+    "s": 1.3,
+    "e": 1.52
    },
    {
     "w": "strip",
-    "s": 1.96,
-    "e": 2.32
+    "s": 1.52,
+    "e": 1.84
    },
    {
     "w": "the",
-    "s": 2.32,
-    "e": 2.52
+    "s": 1.84,
+    "e": 2.02
    },
    {
     "w": "grease",
-    "s": 2.52,
-    "e": 2.82
+    "s": 2.02,
+    "e": 2.28
    },
    {
     "w": "and",
-    "s": 2.82,
-    "e": 3.28
+    "s": 2.28,
+    "e": 2.56
    },
    {
     "w": "whiten",
-    "s": 3.28,
-    "e": 3.7
+    "s": 2.56,
+    "e": 2.92
    },
    {
     "w": "the",
-    "s": 3.7,
-    "e": 3.84
+    "s": 2.92,
+    "e": 3.02
    },
    {
     "w": "wool.",
-    "s": 3.84,
-    "e": 4.06
+    "s": 3.02,
+    "e": 3.24
    }
   ],
-  "heard": "The ammonia in old urine helped strip the grease and whiten the wool."
+  "heard": "The ammonia in old urine helped strip the grease and whiten the wool.",
+  "match": 1.0
  },
  {
   "id": "L65",
   "chapter": 6,
   "text": "Over time, water-powered fulling mills took over much of the stamping.",
-  "dur": 4.066,
+  "dur": 3.24,
   "words": [
    {
     "w": "Over",
-    "s": 0.0,
-    "e": 0.24
+    "s": 0.08,
+    "e": 0.34
    },
    {
     "w": "time,",
-    "s": 0.24,
-    "e": 0.74
+    "s": 0.34,
+    "e": 0.62
    },
    {
     "w": "water-powered",
-    "s": 0.74,
-    "e": 1.78
+    "s": 0.62,
+    "e": 1.14
    },
    {
     "w": "fulling",
-    "s": 1.78,
-    "e": 2.22
+    "s": 1.14,
+    "e": 1.58
    },
    {
     "w": "mills",
-    "s": 2.22,
-    "e": 2.54
+    "s": 1.58,
+    "e": 1.8
    },
    {
     "w": "took",
-    "s": 2.54,
-    "e": 2.82
+    "s": 1.8,
+    "e": 2.02
    },
    {
     "w": "over",
-    "s": 2.82,
-    "e": 3.02
+    "s": 2.02,
+    "e": 2.24
    },
    {
     "w": "much",
-    "s": 3.02,
-    "e": 3.18
+    "s": 2.24,
+    "e": 2.4
    },
    {
     "w": "of",
-    "s": 3.18,
-    "e": 3.34
+    "s": 2.4,
+    "e": 2.52
    },
    {
     "w": "the",
-    "s": 3.34,
-    "e": 3.44
+    "s": 2.52,
+    "e": 2.62
    },
    {
     "w": "stamping.",
-    "s": 3.44,
-    "e": 3.98
+    "s": 2.62,
+    "e": 3.06
    }
   ],
-  "heard": "Over time, water -powered fulling mills took over much of the stamping."
+  "heard": "Over time, water -powered fulling mills took over much of the stamping.",
+  "match": 0.87
  },
  {
   "id": "L66",
   "chapter": 6,
   "text": "But the job left a mark too. Fuller, Tucker and Walker are all English surnames that come from this work.",
-  "dur": 6.763,
+  "dur": 6.18,
   "words": [
    {
     "w": "But",
-    "s": 0.0,
-    "e": 0.12
+    "s": 0.08,
+    "e": 0.28
    },
    {
     "w": "the",
-    "s": 0.12,
-    "e": 0.26
+    "s": 0.28,
+    "e": 0.4
    },
    {
     "w": "job",
-    "s": 0.26,
-    "e": 0.56
+    "s": 0.4,
+    "e": 0.66
    },
    {
     "w": "left",
-    "s": 0.56,
-    "e": 0.84
+    "s": 0.66,
+    "e": 0.9
    },
    {
     "w": "a",
-    "s": 0.84,
-    "e": 1.0
+    "s": 0.9,
+    "e": 1.06
    },
    {
     "w": "mark",
-    "s": 1.0,
-    "e": 1.18
+    "s": 1.06,
+    "e": 1.26
    },
    {
     "w": "too.",
-    "s": 1.18,
-    "e": 1.56
+    "s": 1.26,
+    "e": 1.54
    },
    {
     "w": "Fuller,",
-    "s": 2.56,
-    "e": 2.56
+    "s": 2.6,
+    "e": 2.6
    },
    {
     "w": "Tucker",
-    "s": 2.92,
-    "e": 3.2
+    "s": 3.0,
+    "e": 3.14
    },
    {
     "w": "and",
-    "s": 3.2,
-    "e": 3.52
+    "s": 3.14,
+    "e": 3.48
    },
    {
     "w": "Walker",
-    "s": 3.52,
-    "e": 3.88
+    "s": 3.48,
+    "e": 3.78
    },
    {
     "w": "are",
-    "s": 3.88,
-    "e": 4.16
+    "s": 3.78,
+    "e": 4.1
    },
    {
     "w": "all",
-    "s": 4.16,
-    "e": 4.48
+    "s": 4.1,
+    "e": 4.34
    },
    {
     "w": "English",
-    "s": 4.48,
-    "e": 4.84
+    "s": 4.34,
+    "e": 4.62
    },
    {
     "w": "surnames",
-    "s": 4.84,
-    "e": 5.46
+    "s": 4.62,
+    "e": 5.08
    },
    {
     "w": "that",
-    "s": 5.46,
-    "e": 5.66
+    "s": 5.08,
+    "e": 5.28
    },
    {
     "w": "come",
-    "s": 5.66,
-    "e": 5.88
+    "s": 5.28,
+    "e": 5.48
    },
    {
     "w": "from",
-    "s": 5.88,
-    "e": 6.08
+    "s": 5.48,
+    "e": 5.66
    },
    {
     "w": "this",
-    "s": 6.08,
-    "e": 6.24
+    "s": 5.66,
+    "e": 5.8
    },
    {
     "w": "work.",
-    "s": 6.24,
-    "e": 6.56
+    "s": 5.8,
+    "e": 6.0
    }
   ],
-  "heard": "But the job left a mark too. Fuller, Tucker and Walker are all English surnames that come from this work."
+  "heard": "But the job left a mark too. Fuller, Tucker and Walker are all English surnames that come from this work.",
+  "match": 1.0
  },
  {
   "id": "L67",
   "chapter": 7,
   "text": "Number two: the tanner.",
-  "dur": 1.492,
+  "dur": 2.3,
   "words": [
    {
     "w": "Number",
     "s": 0.0,
-    "e": 0.28
+    "e": 0.46
    },
    {
     "w": "two:",
-    "s": 0.28,
-    "e": 0.6
+    "s": 0.46,
+    "e": 0.8
    },
    {
     "w": "the",
-    "s": 0.84,
-    "e": 0.86
+    "s": 1.54,
+    "e": 1.54
    },
    {
     "w": "tanner.",
-    "s": 0.86,
-    "e": 1.34
+    "s": 1.54,
+    "e": 2.12
    }
   ],
-  "heard": "Number two, the tanner."
+  "heard": "Number two. The tanner.",
+  "match": 1.0
  },
  {
   "id": "L68",
   "chapter": 7,
   "text": "Turning animal skins into leather was one of the smelliest jobs in history.",
-  "dur": 4.803,
+  "dur": 3.6,
   "words": [
    {
     "w": "Turning",
-    "s": 0.0,
-    "e": 0.34
+    "s": 0.08,
+    "e": 0.22
    },
    {
     "w": "animal",
-    "s": 0.34,
-    "e": 0.82
+    "s": 0.22,
+    "e": 0.64
    },
    {
     "w": "skins",
-    "s": 0.82,
-    "e": 1.22
+    "s": 0.64,
+    "e": 0.9
    },
    {
     "w": "into",
-    "s": 1.22,
-    "e": 1.56
+    "s": 0.9,
+    "e": 1.16
    },
    {
     "w": "leather",
-    "s": 1.56,
-    "e": 1.9
+    "s": 1.16,
+    "e": 1.38
    },
    {
     "w": "was",
-    "s": 1.9,
-    "e": 2.48
+    "s": 1.38,
+    "e": 1.6
    },
    {
     "w": "one",
-    "s": 2.48,
-    "e": 2.68
+    "s": 1.6,
+    "e": 1.78
    },
    {
     "w": "of",
-    "s": 2.68,
-    "e": 2.78
+    "s": 1.78,
+    "e": 1.88
    },
    {
     "w": "the",
-    "s": 2.78,
-    "e": 2.9
+    "s": 1.88,
+    "e": 2.0
    },
    {
     "w": "smelliest",
-    "s": 2.9,
-    "e": 3.4
+    "s": 2.0,
+    "e": 2.66
    },
    {
     "w": "jobs",
-    "s": 3.4,
-    "e": 3.86
+    "s": 2.66,
+    "e": 2.92
    },
    {
     "w": "in",
-    "s": 3.86,
-    "e": 4.16
+    "s": 2.92,
+    "e": 3.12
    },
    {
     "w": "history.",
-    "s": 4.16,
-    "e": 4.5
+    "s": 3.12,
+    "e": 3.42
    }
   ],
-  "heard": "Turning animal skins into leather was one of the smelliest jobs in history."
+  "heard": "Turning animal skins into leather was one of the smelliest jobs in history.",
+  "match": 1.0
  },
  {
   "id": "L69",
   "chapter": 7,
   "text": "Skins were scraped, soaked for months in pits, and softened with a paste made of dung.",
-  "dur": 5.376,
+  "dur": 4.6,
   "words": [
    {
     "w": "Skins",
-    "s": 0.0,
-    "e": 0.46
+    "s": 0.08,
+    "e": 0.14
    },
    {
     "w": "were",
-    "s": 0.46,
-    "e": 0.6
+    "s": 0.14,
+    "e": 0.32
    },
    {
     "w": "scraped,",
-    "s": 0.6,
-    "e": 1.34
+    "s": 0.32,
+    "e": 0.98
    },
    {
     "w": "soaked",
-    "s": 1.44,
-    "e": 1.76
+    "s": 1.14,
+    "e": 1.38
    },
    {
     "w": "for",
-    "s": 1.76,
-    "e": 2.04
+    "s": 1.38,
+    "e": 1.68
    },
    {
     "w": "months",
-    "s": 2.04,
-    "e": 2.28
+    "s": 1.68,
+    "e": 1.92
    },
    {
     "w": "in",
-    "s": 2.28,
-    "e": 2.52
+    "s": 1.92,
+    "e": 2.16
    },
    {
     "w": "pits,",
-    "s": 2.52,
-    "e": 2.84
+    "s": 2.16,
+    "e": 2.38
    },
    {
     "w": "and",
-    "s": 3.22,
-    "e": 3.34
+    "s": 2.68,
+    "e": 2.82
    },
    {
     "w": "softened",
-    "s": 3.34,
-    "e": 3.7
+    "s": 2.82,
+    "e": 3.18
    },
    {
     "w": "with",
-    "s": 3.7,
-    "e": 3.96
+    "s": 3.18,
+    "e": 3.44
    },
    {
     "w": "a",
-    "s": 3.96,
-    "e": 4.08
+    "s": 3.44,
+    "e": 3.54
    },
    {
     "w": "paste",
-    "s": 4.08,
-    "e": 4.42
+    "s": 3.54,
+    "e": 3.82
    },
    {
     "w": "made",
-    "s": 4.42,
-    "e": 4.7
+    "s": 3.82,
+    "e": 4.04
    },
    {
     "w": "of",
-    "s": 4.7,
-    "e": 4.88
+    "s": 4.04,
+    "e": 4.28
    },
    {
     "w": "dung.",
-    "s": 4.88,
-    "e": 5.18
+    "s": 4.28,
+    "e": 4.42
    }
   ],
-  "heard": "Skins were scraped, soaked for months in pits, and softened with a paste made of dung."
+  "heard": "Skins were scraped, soaked for months in pits, and softened with a paste made of dung.",
+  "match": 1.0
  },
  {
   "id": "L70",
   "chapter": 7,
   "text": "Dog dung and pigeon droppings were favourites.",
-  "dur": 2.837,
+  "dur": 1.96,
   "words": [
    {
     "w": "Dog",
-    "s": 0.0,
-    "e": 0.32
+    "s": 0.08,
+    "e": 0.16
    },
    {
     "w": "dung",
-    "s": 0.32,
-    "e": 0.7
+    "s": 0.16,
+    "e": 0.4
    },
    {
     "w": "and",
-    "s": 0.7,
-    "e": 1.0
+    "s": 0.4,
+    "e": 0.62
    },
    {
     "w": "pigeon",
-    "s": 1.0,
-    "e": 1.28
+    "s": 0.62,
+    "e": 0.88
    },
    {
     "w": "droppings",
-    "s": 1.28,
-    "e": 1.84
+    "s": 0.88,
+    "e": 1.28
    },
    {
     "w": "were",
-    "s": 1.84,
-    "e": 2.04
+    "s": 1.28,
+    "e": 1.48
    },
    {
     "w": "favourites.",
-    "s": 2.04,
-    "e": 2.42
+    "s": 1.48,
+    "e": 1.78
    }
   ],
-  "heard": "Dog dung and pigeon droppings were favourites."
+  "heard": "Dog dung and pigeon droppings were favourites.",
+  "match": 1.0
  },
  {
   "id": "L71",
   "chapter": 7,
   "text": "The smell was so bad that towns often pushed tanners outside the walls, next to a river.",
-  "dur": 5.559,
+  "dur": 4.94,
   "words": [
    {
     "w": "The",
-    "s": 0.0,
-    "e": 0.14
-   },
-   {
-    "w": "smell",
-    "s": 0.14,
-    "e": 0.4
-   },
-   {
-    "w": "was",
-    "s": 0.4,
-    "e": 0.64
-   },
-   {
-    "w": "so",
-    "s": 0.64,
-    "e": 0.88
-   },
-   {
-    "w": "bad",
-    "s": 0.88,
-    "e": 1.22
-   },
-   {
-    "w": "that",
-    "s": 1.22,
-    "e": 1.52
-   },
-   {
-    "w": "towns",
-    "s": 1.52,
-    "e": 1.94
-   },
-   {
-    "w": "often",
-    "s": 1.94,
-    "e": 2.32
-   },
-   {
-    "w": "pushed",
-    "s": 2.32,
-    "e": 2.6
-   },
-   {
-    "w": "tanners",
-    "s": 2.6,
-    "e": 3.08
-   },
-   {
-    "w": "outside",
-    "s": 3.08,
-    "e": 3.52
-   },
-   {
-    "w": "the",
-    "s": 3.52,
-    "e": 3.76
-   },
-   {
-    "w": "walls,",
-    "s": 3.76,
-    "e": 4.18
-   },
-   {
-    "w": "next",
-    "s": 4.54,
-    "e": 4.76
-   },
-   {
-    "w": "to",
-    "s": 4.76,
-    "e": 5.04
-   },
-   {
-    "w": "a",
-    "s": 5.04,
-    "e": 5.14
-   },
-   {
-    "w": "river.",
-    "s": 5.14,
-    "e": 5.32
-   }
-  ],
-  "heard": "The smell was so bad that towns often pushed tanners outside the walls, next to a river."
- },
- {
-  "id": "L72",
-  "chapter": 7,
-  "text": "Around 1425, the brewers of Colchester complained that the tanners were soaking hides in the river they used for brewing.",
-  "dur": 8.516,
-  "words": [
-   {
-    "w": "Around",
-    "s": 0.0,
-    "e": 0.38
-   },
-   {
-    "w": "1425,",
-    "s": 0.38,
-    "e": 1.68
-   },
-   {
-    "w": "the",
-    "s": 2.38,
-    "e": 2.42
-   },
-   {
-    "w": "brewers",
-    "s": 2.42,
-    "e": 2.7
-   },
-   {
-    "w": "of",
-    "s": 2.7,
-    "e": 2.92
-   },
-   {
-    "w": "Colchester",
-    "s": 2.92,
-    "e": 3.6
-   },
-   {
-    "w": "complained",
-    "s": 3.6,
-    "e": 4.2
-   },
-   {
-    "w": "that",
-    "s": 4.2,
-    "e": 4.58
-   },
-   {
-    "w": "the",
-    "s": 4.58,
-    "e": 4.76
-   },
-   {
-    "w": "tanners",
-    "s": 4.76,
-    "e": 5.18
-   },
-   {
-    "w": "were",
-    "s": 5.18,
-    "e": 5.42
-   },
-   {
-    "w": "soaking",
-    "s": 5.42,
-    "e": 5.86
-   },
-   {
-    "w": "hides",
-    "s": 5.86,
-    "e": 6.3
-   },
-   {
-    "w": "in",
-    "s": 6.3,
-    "e": 6.6
-   },
-   {
-    "w": "the",
-    "s": 6.6,
-    "e": 6.72
-   },
-   {
-    "w": "river",
-    "s": 6.72,
-    "e": 6.98
-   },
-   {
-    "w": "they",
-    "s": 6.98,
-    "e": 7.4
-   },
-   {
-    "w": "used",
-    "s": 7.4,
-    "e": 7.7
-   },
-   {
-    "w": "for",
-    "s": 7.7,
-    "e": 7.94
-   },
-   {
-    "w": "brewing.",
-    "s": 7.94,
-    "e": 8.24
-   }
-  ],
-  "heard": "Around 1425, the brewers of Colchester complained that the tanners were soaking hides in the river they used for brewing."
- },
- {
-  "id": "L73",
-  "chapter": 7,
-  "text": "Leather was everywhere: shoes, belts, buckets, saddles. Someone had to make it.",
-  "dur": 4.927,
-  "words": [
-   {
-    "w": "Leather",
-    "s": 0.0,
+    "s": 0.08,
     "e": 0.24
    },
    {
-    "w": "was",
+    "w": "smell",
     "s": 0.24,
-    "e": 0.48
+    "e": 0.42
    },
    {
-    "w": "everywhere:",
-    "s": 0.48,
-    "e": 0.98
+    "w": "was",
+    "s": 0.42,
+    "e": 0.6
    },
    {
-    "w": "shoes,",
-    "s": 1.58,
-    "e": 1.58
+    "w": "so",
+    "s": 0.6,
+    "e": 0.86
    },
    {
-    "w": "belts,",
-    "s": 2.04,
-    "e": 2.04
+    "w": "bad",
+    "s": 0.86,
+    "e": 1.18
    },
    {
-    "w": "buckets,",
-    "s": 2.38,
-    "e": 2.56
+    "w": "that",
+    "s": 1.18,
+    "e": 1.54
    },
    {
-    "w": "saddles.",
-    "s": 2.78,
-    "e": 3.3
+    "w": "towns",
+    "s": 1.54,
+    "e": 1.8
    },
    {
-    "w": "Someone",
-    "s": 3.78,
-    "e": 3.96
+    "w": "often",
+    "s": 1.8,
+    "e": 2.18
    },
    {
-    "w": "had",
-    "s": 3.96,
+    "w": "pushed",
+    "s": 2.18,
+    "e": 2.5
+   },
+   {
+    "w": "tanners",
+    "s": 2.5,
+    "e": 2.9
+   },
+   {
+    "w": "outside",
+    "s": 2.9,
+    "e": 3.38
+   },
+   {
+    "w": "the",
+    "s": 3.38,
+    "e": 3.64
+   },
+   {
+    "w": "walls,",
+    "s": 3.64,
+    "e": 3.94
+   },
+   {
+    "w": "next",
+    "s": 4.1,
     "e": 4.26
    },
    {
     "w": "to",
     "s": 4.26,
-    "e": 4.42
-   },
-   {
-    "w": "make",
-    "s": 4.42,
-    "e": 4.62
-   },
-   {
-    "w": "it.",
-    "s": 4.62,
-    "e": 4.84
-   }
-  ],
-  "heard": "Leather was everywhere. Shoes, belts, buckets, saddles. Someone had to make it."
- },
- {
-  "id": "L74",
-  "chapter": 7,
-  "text": "But almost nobody wanted to live next door.",
-  "dur": 2.664,
-  "words": [
-   {
-    "w": "But",
-    "s": 0.0,
-    "e": 0.14
-   },
-   {
-    "w": "almost",
-    "s": 0.14,
-    "e": 0.54
-   },
-   {
-    "w": "nobody",
-    "s": 0.54,
-    "e": 1.02
-   },
-   {
-    "w": "wanted",
-    "s": 1.02,
-    "e": 1.48
-   },
-   {
-    "w": "to",
-    "s": 1.48,
-    "e": 1.66
-   },
-   {
-    "w": "live",
-    "s": 1.66,
-    "e": 1.82
-   },
-   {
-    "w": "next",
-    "s": 1.82,
-    "e": 2.1
-   },
-   {
-    "w": "door.",
-    "s": 2.1,
-    "e": 2.42
-   }
-  ],
-  "heard": "But almost nobody wanted to live next door."
- },
- {
-  "id": "L75",
-  "chapter": 8,
-  "text": "And number one... the gong farmer.",
-  "dur": 2.005,
-  "words": [
-   {
-    "w": "And",
-    "s": 0.0,
-    "e": 0.2
-   },
-   {
-    "w": "number",
-    "s": 0.2,
-    "e": 0.34
-   },
-   {
-    "w": "one...",
-    "s": 0.34,
-    "e": 1.08
-   },
-   {
-    "w": "the",
-    "s": 1.08,
-    "e": 1.08
-   },
-   {
-    "w": "gong",
-    "s": 1.08,
-    "e": 1.36
-   },
-   {
-    "w": "farmer.",
-    "s": 1.36,
-    "e": 1.68
-   }
-  ],
-  "heard": "And number one... the gong farmer."
- },
- {
-  "id": "L76",
-  "chapter": 8,
-  "text": "A \"gong\" was a toilet. And a gong farmer emptied the pits underneath them.",
-  "dur": 4.796,
-  "words": [
-   {
-    "w": "A",
-    "s": 0.0,
-    "e": 0.18
-   },
-   {
-    "w": "\"gong\"",
-    "s": 0.18,
-    "e": 0.56
-   },
-   {
-    "w": "was",
-    "s": 0.56,
-    "e": 0.88
-   },
-   {
-    "w": "a",
-    "s": 0.88,
-    "e": 1.04
-   },
-   {
-    "w": "toilet.",
-    "s": 1.04,
-    "e": 1.48
-   },
-   {
-    "w": "And",
-    "s": 2.08,
-    "e": 2.16
-   },
-   {
-    "w": "a",
-    "s": 2.16,
-    "e": 2.26
-   },
-   {
-    "w": "gong",
-    "s": 2.26,
-    "e": 2.6
-   },
-   {
-    "w": "farmer",
-    "s": 2.6,
-    "e": 3.1
-   },
-   {
-    "w": "emptied",
-    "s": 3.1,
-    "e": 3.44
-   },
-   {
-    "w": "the",
-    "s": 3.44,
-    "e": 3.66
-   },
-   {
-    "w": "pits",
-    "s": 3.66,
-    "e": 3.88
-   },
-   {
-    "w": "underneath",
-    "s": 3.88,
-    "e": 4.36
-   },
-   {
-    "w": "them.",
-    "s": 4.36,
-    "e": 4.66
-   }
-  ],
-  "heard": "A gong was a toilet. And a gong farmer emptied the pits underneath them."
- },
- {
-  "id": "L77",
-  "chapter": 8,
-  "text": "By hand. With a shovel and a bucket.",
-  "dur": 2.131,
-  "words": [
-   {
-    "w": "By",
-    "s": 0.0,
-    "e": 0.2
-   },
-   {
-    "w": "hand.",
-    "s": 0.2,
-    "e": 0.6
-   },
-   {
-    "w": "With",
-    "s": 0.84,
-    "e": 0.88
-   },
-   {
-    "w": "a",
-    "s": 0.88,
-    "e": 1.02
-   },
-   {
-    "w": "shovel",
-    "s": 1.02,
-    "e": 1.26
-   },
-   {
-    "w": "and",
-    "s": 1.26,
-    "e": 1.52
-   },
-   {
-    "w": "a",
-    "s": 1.52,
-    "e": 1.64
-   },
-   {
-    "w": "bucket.",
-    "s": 1.64,
-    "e": 1.86
-   }
-  ],
-  "heard": "By hand. With a shovel and a bucket."
- },
- {
-  "id": "L78",
-  "chapter": 8,
-  "text": "They were usually allowed to work only at night, so the waste they carried became known as \"night soil\".",
-  "dur": 6.292,
-  "words": [
-   {
-    "w": "They",
-    "s": 0.0,
-    "e": 0.14
-   },
-   {
-    "w": "were",
-    "s": 0.14,
-    "e": 0.26
-   },
-   {
-    "w": "usually",
-    "s": 0.26,
-    "e": 0.66
-   },
-   {
-    "w": "allowed",
-    "s": 0.66,
-    "e": 0.98
-   },
-   {
-    "w": "to",
-    "s": 0.98,
-    "e": 1.2
-   },
-   {
-    "w": "work",
-    "s": 1.2,
-    "e": 1.38
-   },
-   {
-    "w": "only",
-    "s": 1.38,
-    "e": 1.7
-   },
-   {
-    "w": "at",
-    "s": 1.7,
-    "e": 1.98
-   },
-   {
-    "w": "night,",
-    "s": 1.98,
-    "e": 2.3
-   },
-   {
-    "w": "so",
-    "s": 2.64,
-    "e": 2.94
-   },
-   {
-    "w": "the",
-    "s": 2.94,
-    "e": 3.12
-   },
-   {
-    "w": "waste",
-    "s": 3.12,
-    "e": 3.34
-   },
-   {
-    "w": "they",
-    "s": 3.34,
-    "e": 3.58
-   },
-   {
-    "w": "carried",
-    "s": 3.58,
-    "e": 4.04
-   },
-   {
-    "w": "became",
-    "s": 4.04,
     "e": 4.44
    },
    {
-    "w": "known",
+    "w": "a",
     "s": 4.44,
-    "e": 4.82
+    "e": 4.54
    },
    {
-    "w": "as",
-    "s": 4.82,
-    "e": 5.12
-   },
-   {
-    "w": "\"night",
-    "s": 5.12,
-    "e": 5.56
-   },
-   {
-    "w": "soil\".",
-    "s": 5.56,
-    "e": 5.98
+    "w": "river.",
+    "s": 4.54,
+    "e": 4.76
    }
   ],
-  "heard": "They were usually allowed to work only at night, so the waste they carried became known as night soil."
+  "heard": "The smell was so bad that towns often pushed tanners outside the walls, next to a river.",
+  "match": 1.0
  },
  {
-  "id": "L79",
-  "chapter": 8,
-  "text": "The pits had no fresh air, and the fumes could knock a worker out.",
-  "dur": 3.974,
+  "id": "L72",
+  "chapter": 7,
+  "text": "Around 1425, the brewers of Colchester complained that the tanners were soaking hides in the river they used for brewing.",
+  "dur": 5.98,
   "words": [
    {
-    "w": "The",
-    "s": 0.0,
-    "e": 0.16
+    "w": "Around",
+    "s": 0.08,
+    "e": 0.34
    },
    {
-    "w": "pits",
-    "s": 0.16,
-    "e": 0.38
-   },
-   {
-    "w": "had",
-    "s": 0.38,
-    "e": 0.62
-   },
-   {
-    "w": "no",
-    "s": 0.62,
-    "e": 0.86
-   },
-   {
-    "w": "fresh",
-    "s": 0.86,
-    "e": 1.14
-   },
-   {
-    "w": "air,",
-    "s": 1.14,
-    "e": 1.56
-   },
-   {
-    "w": "and",
-    "s": 1.94,
-    "e": 2.1
+    "w": "1425,",
+    "s": 0.34,
+    "e": 1.26
    },
    {
     "w": "the",
-    "s": 2.1,
-    "e": 2.22
+    "s": 1.64,
+    "e": 1.68
    },
    {
-    "w": "fumes",
-    "s": 2.22,
-    "e": 2.58
+    "w": "brewers",
+    "s": 1.68,
+    "e": 1.88
    },
    {
-    "w": "could",
-    "s": 2.58,
-    "e": 2.88
+    "w": "of",
+    "s": 1.88,
+    "e": 2.12
    },
    {
-    "w": "knock",
-    "s": 2.88,
-    "e": 3.12
+    "w": "Colchester",
+    "s": 2.12,
+    "e": 2.54
    },
    {
-    "w": "a",
-    "s": 3.12,
-    "e": 3.3
+    "w": "complained",
+    "s": 2.54,
+    "e": 3.02
    },
    {
-    "w": "worker",
-    "s": 3.3,
-    "e": 3.5
+    "w": "that",
+    "s": 3.02,
+    "e": 3.24
    },
    {
-    "w": "out.",
-    "s": 3.5,
+    "w": "the",
+    "s": 3.24,
+    "e": 3.38
+   },
+   {
+    "w": "tanners",
+    "s": 3.38,
+    "e": 3.62
+   },
+   {
+    "w": "were",
+    "s": 3.62,
     "e": 3.86
-   }
-  ],
-  "heard": "The pits had no fresh air, and the fumes could knock a worker out."
- },
- {
-  "id": "L80",
-  "chapter": 8,
-  "text": "In 1326, a Londoner known as Richard the Raker fell through the rotten boards of his toilet... and drowned in the pit below.",
-  "dur": 8.878,
-  "words": [
-   {
-    "w": "In",
-    "s": 0.0,
-    "e": 0.2
    },
    {
-    "w": "1326,",
-    "s": 0.2,
-    "e": 1.34
+    "w": "soaking",
+    "s": 3.86,
+    "e": 4.18
    },
    {
-    "w": "a",
-    "s": 1.94,
-    "e": 2.0
+    "w": "hides",
+    "s": 4.18,
+    "e": 4.48
    },
    {
-    "w": "Londoner",
-    "s": 2.0,
-    "e": 2.5
-   },
-   {
-    "w": "known",
-    "s": 2.5,
-    "e": 2.76
-   },
-   {
-    "w": "as",
-    "s": 2.76,
-    "e": 3.06
-   },
-   {
-    "w": "Richard",
-    "s": 3.06,
-    "e": 3.46
-   },
-   {
-    "w": "the",
-    "s": 3.46,
-    "e": 3.7
-   },
-   {
-    "w": "Raker",
-    "s": 3.7,
-    "e": 4.04
-   },
-   {
-    "w": "fell",
-    "s": 4.04,
-    "e": 4.38
-   },
-   {
-    "w": "through",
-    "s": 4.38,
+    "w": "in",
+    "s": 4.48,
     "e": 4.7
    },
    {
     "w": "the",
     "s": 4.7,
-    "e": 4.88
+    "e": 4.78
    },
    {
-    "w": "rotten",
-    "s": 4.88,
-    "e": 5.24
+    "w": "river",
+    "s": 4.78,
+    "e": 4.96
    },
    {
-    "w": "boards",
-    "s": 5.24,
-    "e": 5.64
+    "w": "they",
+    "s": 4.96,
+    "e": 5.14
    },
    {
-    "w": "of",
-    "s": 5.64,
-    "e": 5.84
+    "w": "used",
+    "s": 5.14,
+    "e": 5.32
    },
    {
-    "w": "his",
-    "s": 5.84,
-    "e": 5.96
+    "w": "for",
+    "s": 5.32,
+    "e": 5.56
    },
    {
-    "w": "toilet...",
-    "s": 5.96,
-    "e": 7.14
+    "w": "brewing.",
+    "s": 5.56,
+    "e": 5.8
+   }
+  ],
+  "heard": "Around 1425, the brewers of Colchester complained that the tanners were soaking hides in the river they used for brewing.",
+  "match": 1.0
+ },
+ {
+  "id": "L73",
+  "chapter": 7,
+  "text": "Leather was everywhere: shoes, belts, buckets, saddles. Someone had to make it.",
+  "dur": 5.88,
+  "words": [
+   {
+    "w": "Leather",
+    "s": 0.08,
+    "e": 0.18
    },
    {
-    "w": "and",
-    "s": 7.14,
-    "e": 7.22
+    "w": "was",
+    "s": 0.18,
+    "e": 0.56
    },
    {
-    "w": "drowned",
-    "s": 7.22,
-    "e": 7.6
+    "w": "everywhere:",
+    "s": 0.56,
+    "e": 1.14
    },
    {
-    "w": "in",
-    "s": 7.6,
-    "e": 7.92
+    "w": "shoes,",
+    "s": 1.79,
+    "e": 2.12
+   },
+   {
+    "w": "belts,",
+    "s": 2.8,
+    "e": 2.8
+   },
+   {
+    "w": "buckets,",
+    "s": 3.34,
+    "e": 3.42
+   },
+   {
+    "w": "saddles.",
+    "s": 3.76,
+    "e": 4.1
+   },
+   {
+    "w": "Someone",
+    "s": 4.66,
+    "e": 4.84
+   },
+   {
+    "w": "had",
+    "s": 4.84,
+    "e": 5.06
+   },
+   {
+    "w": "to",
+    "s": 5.06,
+    "e": 5.2
+   },
+   {
+    "w": "make",
+    "s": 5.2,
+    "e": 5.34
+   },
+   {
+    "w": "it.",
+    "s": 5.34,
+    "e": 5.7
+   }
+  ],
+  "heard": "Leather was everywhere. Shoes, belts, buckets, saddles. Someone had to make it.",
+  "match": 1.0
+ },
+ {
+  "id": "L74",
+  "chapter": 7,
+  "text": "But almost nobody wanted to live next door.",
+  "dur": 2.42,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.08,
+    "e": 0.32
+   },
+   {
+    "w": "almost",
+    "s": 0.32,
+    "e": 0.86
+   },
+   {
+    "w": "nobody",
+    "s": 0.86,
+    "e": 1.22
+   },
+   {
+    "w": "wanted",
+    "s": 1.22,
+    "e": 1.54
+   },
+   {
+    "w": "to",
+    "s": 1.54,
+    "e": 1.72
+   },
+   {
+    "w": "live",
+    "s": 1.72,
+    "e": 1.8
+   },
+   {
+    "w": "next",
+    "s": 1.8,
+    "e": 2.04
+   },
+   {
+    "w": "door.",
+    "s": 2.04,
+    "e": 2.24
+   }
+  ],
+  "heard": "But almost nobody wanted to live next door.",
+  "match": 1.0
+ },
+ {
+  "id": "L75",
+  "chapter": 8,
+  "text": "And number one... the gong farmer.",
+  "dur": 2.96,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.0,
+    "e": 0.5
+   },
+   {
+    "w": "number",
+    "s": 0.5,
+    "e": 0.76
+   },
+   {
+    "w": "one...",
+    "s": 0.76,
+    "e": 1.88
    },
    {
     "w": "the",
-    "s": 7.92,
-    "e": 8.06
+    "s": 1.88,
+    "e": 1.88
+   },
+   {
+    "w": "gong",
+    "s": 1.88,
+    "e": 2.28
+   },
+   {
+    "w": "farmer.",
+    "s": 2.28,
+    "e": 2.78
+   }
+  ],
+  "heard": "And number one... the gong farmer.",
+  "match": 1.0
+ },
+ {
+  "id": "L76",
+  "chapter": 8,
+  "text": "A \"gong\" was a toilet. And a gong farmer emptied the pits underneath them.",
+  "dur": 4.72,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.08,
+    "e": 0.3
+   },
+   {
+    "w": "\"gong\"",
+    "s": 0.3,
+    "e": 0.56
+   },
+   {
+    "w": "was",
+    "s": 0.56,
+    "e": 0.84
+   },
+   {
+    "w": "a",
+    "s": 0.84,
+    "e": 1.0
+   },
+   {
+    "w": "toilet.",
+    "s": 1.0,
+    "e": 1.32
+   },
+   {
+    "w": "And",
+    "s": 1.76,
+    "e": 1.86
+   },
+   {
+    "w": "a",
+    "s": 1.86,
+    "e": 1.94
+   },
+   {
+    "w": "gong",
+    "s": 1.94,
+    "e": 2.18
+   },
+   {
+    "w": "farmer",
+    "s": 2.18,
+    "e": 2.6
+   },
+   {
+    "w": "emptied",
+    "s": 2.6,
+    "e": 3.08
+   },
+   {
+    "w": "the",
+    "s": 3.08,
+    "e": 3.34
+   },
+   {
+    "w": "pits",
+    "s": 3.34,
+    "e": 3.56
+   },
+   {
+    "w": "underneath",
+    "s": 3.56,
+    "e": 4.06
+   },
+   {
+    "w": "them.",
+    "s": 4.06,
+    "e": 4.54
+   }
+  ],
+  "heard": "A gong was a toilet. And a gong farmer emptied the pits underneath them.",
+  "match": 1.0
+ },
+ {
+  "id": "L77",
+  "chapter": 8,
+  "text": "By hand. With a shovel and a bucket.",
+  "dur": 3.08,
+  "words": [
+   {
+    "w": "By",
+    "s": 0.08,
+    "e": 0.36
+   },
+   {
+    "w": "hand.",
+    "s": 0.36,
+    "e": 0.98
+   },
+   {
+    "w": "With",
+    "s": 1.66,
+    "e": 1.84
+   },
+   {
+    "w": "a",
+    "s": 1.84,
+    "e": 1.98
+   },
+   {
+    "w": "shovel",
+    "s": 1.98,
+    "e": 2.2
+   },
+   {
+    "w": "and",
+    "s": 2.2,
+    "e": 2.54
+   },
+   {
+    "w": "a",
+    "s": 2.54,
+    "e": 2.64
+   },
+   {
+    "w": "bucket.",
+    "s": 2.64,
+    "e": 2.9
+   }
+  ],
+  "heard": "By hand. With a shovel and a bucket.",
+  "match": 1.0
+ },
+ {
+  "id": "L78",
+  "chapter": 8,
+  "text": "They were usually allowed to work only at night, so the waste they carried became known as \"night soil\".",
+  "dur": 4.94,
+  "words": [
+   {
+    "w": "They",
+    "s": 0.08,
+    "e": 0.32
+   },
+   {
+    "w": "were",
+    "s": 0.32,
+    "e": 0.46
+   },
+   {
+    "w": "usually",
+    "s": 0.46,
+    "e": 0.78
+   },
+   {
+    "w": "allowed",
+    "s": 0.78,
+    "e": 1.08
+   },
+   {
+    "w": "to",
+    "s": 1.08,
+    "e": 1.28
+   },
+   {
+    "w": "work",
+    "s": 1.28,
+    "e": 1.48
+   },
+   {
+    "w": "only",
+    "s": 1.48,
+    "e": 1.8
+   },
+   {
+    "w": "at",
+    "s": 1.8,
+    "e": 2.04
+   },
+   {
+    "w": "night,",
+    "s": 2.04,
+    "e": 2.28
+   },
+   {
+    "w": "so",
+    "s": 2.42,
+    "e": 2.64
+   },
+   {
+    "w": "the",
+    "s": 2.64,
+    "e": 2.82
+   },
+   {
+    "w": "waste",
+    "s": 2.82,
+    "e": 2.98
+   },
+   {
+    "w": "they",
+    "s": 2.98,
+    "e": 3.18
+   },
+   {
+    "w": "carried",
+    "s": 3.18,
+    "e": 3.46
+   },
+   {
+    "w": "became",
+    "s": 3.46,
+    "e": 3.78
+   },
+   {
+    "w": "known",
+    "s": 3.78,
+    "e": 4.02
+   },
+   {
+    "w": "as",
+    "s": 4.02,
+    "e": 4.2
+   },
+   {
+    "w": "\"night",
+    "s": 4.2,
+    "e": 4.48
+   },
+   {
+    "w": "soil\".",
+    "s": 4.48,
+    "e": 4.76
+   }
+  ],
+  "heard": "They were usually allowed to work only at night, so the waste they carried became known as night soil.",
+  "match": 1.0
+ },
+ {
+  "id": "L79",
+  "chapter": 8,
+  "text": "The pits had no fresh air, and the fumes could knock a worker out.",
+  "dur": 3.86,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.08,
+    "e": 0.22
+   },
+   {
+    "w": "pits",
+    "s": 0.22,
+    "e": 0.4
+   },
+   {
+    "w": "had",
+    "s": 0.4,
+    "e": 0.62
+   },
+   {
+    "w": "no",
+    "s": 0.62,
+    "e": 0.96
+   },
+   {
+    "w": "fresh",
+    "s": 0.96,
+    "e": 1.24
+   },
+   {
+    "w": "air,",
+    "s": 1.24,
+    "e": 1.54
+   },
+   {
+    "w": "and",
+    "s": 1.8,
+    "e": 1.88
+   },
+   {
+    "w": "the",
+    "s": 1.88,
+    "e": 2.02
+   },
+   {
+    "w": "fumes",
+    "s": 2.02,
+    "e": 2.26
+   },
+   {
+    "w": "could",
+    "s": 2.26,
+    "e": 2.56
+   },
+   {
+    "w": "knock",
+    "s": 2.56,
+    "e": 2.9
+   },
+   {
+    "w": "a",
+    "s": 2.9,
+    "e": 3.12
+   },
+   {
+    "w": "worker",
+    "s": 3.12,
+    "e": 3.32
+   },
+   {
+    "w": "out.",
+    "s": 3.32,
+    "e": 3.68
+   }
+  ],
+  "heard": "The pits had no fresh air, and the fumes could knock a worker out.",
+  "match": 1.0
+ },
+ {
+  "id": "L80",
+  "chapter": 8,
+  "text": "In 1326, a Londoner known as Richard the Raker fell through the rotten boards of his toilet... and drowned in the pit below.",
+  "dur": 7.8,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.08,
+    "e": 0.26
+   },
+   {
+    "w": "1326,",
+    "s": 0.26,
+    "e": 1.08
+   },
+   {
+    "w": "a",
+    "s": 1.24,
+    "e": 1.42
+   },
+   {
+    "w": "Londoner",
+    "s": 1.42,
+    "e": 1.88
+   },
+   {
+    "w": "known",
+    "s": 1.88,
+    "e": 1.98
+   },
+   {
+    "w": "as",
+    "s": 1.98,
+    "e": 2.22
+   },
+   {
+    "w": "Richard",
+    "s": 2.22,
+    "e": 2.66
+   },
+   {
+    "w": "the",
+    "s": 2.66,
+    "e": 2.9
+   },
+   {
+    "w": "Raker",
+    "s": 2.9,
+    "e": 3.24
+   },
+   {
+    "w": "fell",
+    "s": 3.24,
+    "e": 3.84
+   },
+   {
+    "w": "through",
+    "s": 3.84,
+    "e": 4.14
+   },
+   {
+    "w": "the",
+    "s": 4.14,
+    "e": 4.34
+   },
+   {
+    "w": "rotten",
+    "s": 4.34,
+    "e": 4.64
+   },
+   {
+    "w": "boards",
+    "s": 4.64,
+    "e": 4.94
+   },
+   {
+    "w": "of",
+    "s": 4.94,
+    "e": 5.1
+   },
+   {
+    "w": "his",
+    "s": 5.1,
+    "e": 5.28
+   },
+   {
+    "w": "toilet...",
+    "s": 5.28,
+    "e": 5.64
+   },
+   {
+    "w": "and",
+    "s": 5.64,
+    "e": 6.38
+   },
+   {
+    "w": "drowned",
+    "s": 6.38,
+    "e": 6.74
+   },
+   {
+    "w": "in",
+    "s": 6.74,
+    "e": 7.08
+   },
+   {
+    "w": "the",
+    "s": 7.08,
+    "e": 7.16
    },
    {
     "w": "pit",
-    "s": 8.06,
-    "e": 8.24
+    "s": 7.16,
+    "e": 7.3
    },
    {
     "w": "below.",
-    "s": 8.24,
-    "e": 8.62
+    "s": 7.3,
+    "e": 7.62
    }
   ],
-  "heard": "In 1326, a Londoner known as Richard the Raker fell through the rotten boards of his toilet... and drowned in the pit below."
+  "heard": "In 1326, a Londoner known as Richard the Raker fell through the rotten boards of his toilet and drowned in the pit below.",
+  "match": 1.0
  },
  {
   "id": "L81",
   "chapter": 8,
   "text": "So why would anyone take this job?",
-  "dur": 2.304,
+  "dur": 1.78,
   "words": [
    {
     "w": "So",
-    "s": 0.0,
-    "e": 0.22
+    "s": 0.08,
+    "e": 0.14
    },
    {
     "w": "why",
-    "s": 0.22,
-    "e": 0.5
+    "s": 0.14,
+    "e": 0.46
    },
    {
     "w": "would",
-    "s": 0.5,
-    "e": 0.7
+    "s": 0.46,
+    "e": 0.6
    },
    {
     "w": "anyone",
-    "s": 0.7,
-    "e": 0.96
+    "s": 0.6,
+    "e": 0.86
    },
    {
     "w": "take",
-    "s": 0.96,
-    "e": 1.36
+    "s": 0.86,
+    "e": 1.16
    },
    {
     "w": "this",
-    "s": 1.36,
-    "e": 1.62
+    "s": 1.16,
+    "e": 1.34
    },
    {
     "w": "job?",
-    "s": 1.62,
-    "e": 2.02
+    "s": 1.34,
+    "e": 1.6
    }
   ],
-  "heard": "So why would anyone take this job?"
+  "heard": "So why would anyone take this job?",
+  "match": 1.0
  },
  {
   "id": "L82",
   "chapter": 8,
   "text": "Money. Gong farmers were paid far more than most workers.",
-  "dur": 3.563,
+  "dur": 3.92,
   "words": [
    {
     "w": "Money.",
-    "s": 0.0,
-    "e": 0.34
+    "s": 0.08,
+    "e": 0.42
    },
    {
     "w": "Gong",
-    "s": 0.84,
-    "e": 0.84
+    "s": 1.32,
+    "e": 1.34
    },
    {
     "w": "farmers",
-    "s": 0.84,
-    "e": 1.36
+    "s": 1.34,
+    "e": 1.7
    },
    {
     "w": "were",
-    "s": 1.36,
-    "e": 1.58
+    "s": 1.7,
+    "e": 1.92
    },
    {
     "w": "paid",
-    "s": 1.58,
-    "e": 1.78
+    "s": 1.92,
+    "e": 2.16
    },
    {
     "w": "far",
-    "s": 1.78,
-    "e": 2.12
+    "s": 2.16,
+    "e": 2.64
    },
    {
     "w": "more",
-    "s": 2.12,
-    "e": 2.36
+    "s": 2.64,
+    "e": 2.94
    },
    {
     "w": "than",
-    "s": 2.36,
-    "e": 2.56
+    "s": 2.94,
+    "e": 3.14
    },
    {
     "w": "most",
-    "s": 2.56,
-    "e": 2.78
+    "s": 3.14,
+    "e": 3.36
    },
    {
     "w": "workers.",
-    "s": 2.78,
-    "e": 3.24
+    "s": 3.36,
+    "e": 3.74
    }
   ],
-  "heard": "Money. Gong farmers were paid far more than most workers."
+  "heard": "Money. Gong farmers were paid far more than most workers.",
+  "match": 1.0
  },
  {
   "id": "L83",
   "chapter": 8,
   "text": "Because some jobs pay well... exactly because nobody else will do them.",
-  "dur": 4.75,
+  "dur": 3.92,
   "words": [
    {
     "w": "Because",
-    "s": 0.0,
-    "e": 0.24
+    "s": 0.08,
+    "e": 0.26
    },
    {
     "w": "some",
-    "s": 0.24,
+    "s": 0.26,
     "e": 0.54
    },
    {
     "w": "jobs",
     "s": 0.54,
-    "e": 0.98
+    "e": 0.8
    },
    {
     "w": "pay",
-    "s": 0.98,
-    "e": 1.28
+    "s": 0.8,
+    "e": 1.04
    },
    {
     "w": "well...",
-    "s": 1.28,
-    "e": 2.54
+    "s": 1.04,
+    "e": 1.88
    },
    {
     "w": "exactly",
-    "s": 2.54,
-    "e": 2.6
+    "s": 1.88,
+    "e": 1.92
    },
    {
     "w": "because",
-    "s": 2.6,
-    "e": 3.12
+    "s": 1.92,
+    "e": 2.4
    },
    {
     "w": "nobody",
-    "s": 3.12,
-    "e": 3.54
+    "s": 2.4,
+    "e": 2.78
    },
    {
     "w": "else",
-    "s": 3.54,
-    "e": 3.9
+    "s": 2.78,
+    "e": 3.14
    },
    {
     "w": "will",
-    "s": 3.9,
-    "e": 4.16
+    "s": 3.14,
+    "e": 3.34
    },
    {
     "w": "do",
-    "s": 4.16,
-    "e": 4.36
+    "s": 3.34,
+    "e": 3.5
    },
    {
     "w": "them.",
-    "s": 4.36,
-    "e": 4.62
+    "s": 3.5,
+    "e": 3.74
    }
   ],
-  "heard": "Because some jobs pay well... exactly because nobody else will do them."
+  "heard": "Because some jobs pay well... exactly because nobody else will do them.",
+  "match": 1.0
  },
  {
   "id": "L84",
   "chapter": 8,
   "text": "So which job would you pick? Tell us in the comments.",
-  "dur": 3.093,
+  "dur": 2.34,
   "words": [
    {
     "w": "So",
-    "s": 0.0,
-    "e": 0.2
+    "s": 0.08,
+    "e": 0.22
    },
    {
     "w": "which",
-    "s": 0.2,
+    "s": 0.22,
     "e": 0.38
    },
    {
     "w": "job",
     "s": 0.38,
-    "e": 0.74
+    "e": 0.58
    },
    {
     "w": "would",
-    "s": 0.74,
-    "e": 0.98
+    "s": 0.58,
+    "e": 0.72
    },
    {
     "w": "you",
-    "s": 0.98,
-    "e": 1.12
+    "s": 0.72,
+    "e": 0.84
    },
    {
     "w": "pick?",
-    "s": 1.12,
-    "e": 1.38
+    "s": 0.84,
+    "e": 1.02
    },
    {
     "w": "Tell",
-    "s": 1.86,
-    "e": 1.96
+    "s": 1.56,
+    "e": 1.66
    },
    {
     "w": "us",
-    "s": 1.96,
-    "e": 2.14
+    "s": 1.66,
+    "e": 1.76
    },
    {
     "w": "in",
-    "s": 2.14,
-    "e": 2.3
+    "s": 1.76,
+    "e": 1.86
    },
    {
     "w": "the",
-    "s": 2.3,
-    "e": 2.42
+    "s": 1.86,
+    "e": 1.94
    },
    {
     "w": "comments.",
-    "s": 2.42,
-    "e": 2.76
+    "s": 1.94,
+    "e": 2.16
    }
   ],
-  "heard": "So which job would you pick? Tell us in the comments."
+  "heard": "So which job would you pick? Tell us in the comments.",
+  "match": 1.0
  },
  {
   "id": "L85",
   "chapter": 8,
   "text": "And if you want more true whys, you know what to do. See you next time.",
-  "dur": 4.379,
+  "dur": 3.6,
   "words": [
    {
     "w": "And",
-    "s": 0.0,
-    "e": 0.14
+    "s": 0.08,
+    "e": 0.2
    },
    {
     "w": "if",
-    "s": 0.14,
-    "e": 0.24
+    "s": 0.2,
+    "e": 0.3
    },
    {
     "w": "you",
-    "s": 0.24,
-    "e": 0.38
+    "s": 0.3,
+    "e": 0.4
    },
    {
     "w": "want",
-    "s": 0.38,
-    "e": 0.6
+    "s": 0.4,
+    "e": 0.56
    },
    {
     "w": "more",
-    "s": 0.6,
+    "s": 0.56,
     "e": 0.86
    },
    {
     "w": "true",
     "s": 0.86,
-    "e": 1.18
+    "e": 1.08
    },
    {
     "w": "whys,",
-    "s": 1.18,
-    "e": 1.76
+    "s": 1.08,
+    "e": 1.46
    },
    {
     "w": "you",
-    "s": 1.98,
-    "e": 2.04
+    "s": 1.8,
+    "e": 1.96
    },
    {
     "w": "know",
-    "s": 2.04,
-    "e": 2.2
+    "s": 1.96,
+    "e": 2.04
    },
    {
     "w": "what",
-    "s": 2.2,
-    "e": 2.38
+    "s": 2.04,
+    "e": 2.12
    },
    {
     "w": "to",
-    "s": 2.38,
-    "e": 2.54
+    "s": 2.12,
+    "e": 2.22
    },
    {
     "w": "do.",
-    "s": 2.54,
-    "e": 2.94
+    "s": 2.22,
+    "e": 2.48
    },
    {
     "w": "See",
-    "s": 3.24,
-    "e": 3.44
+    "s": 2.86,
+    "e": 3.04
    },
    {
     "w": "you",
-    "s": 3.44,
-    "e": 3.6
+    "s": 3.04,
+    "e": 3.12
    },
    {
     "w": "next",
-    "s": 3.6,
-    "e": 3.8
+    "s": 3.12,
+    "e": 3.24
    },
    {
     "w": "time.",
-    "s": 3.8,
-    "e": 4.2
+    "s": 3.24,
+    "e": 3.42
    }
   ],
-  "heard": "And if you want more true whys, you know what to do. See you next time."
+  "heard": "And if you want more true whys, you know what to do. See you next time.",
+  "match": 1.0
  }
 ]

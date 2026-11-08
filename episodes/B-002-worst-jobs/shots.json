@@ -6,7 +6,7 @@
  ],
  "style": "T",
  "episode": "B-002",
- "duration": 401.13,
+ "duration": 371.21,
  "shots": [
   {
    "line": "L01",
@@ -74,7 +74,7 @@
    "music": "mystery",
    "id": "S000",
    "start": 0.0,
-   "dur": 3.493,
+   "dur": 3.85,
    "chapter": 0,
    "line_start": 0.0
   },
@@ -137,10 +137,10 @@
     ]
    ],
    "id": "S001",
-   "start": 3.493,
-   "dur": 2.984,
+   "start": 3.85,
+   "dur": 2.94,
    "chapter": 0,
-   "line_start": 3.493
+   "line_start": 3.85
   },
   {
    "line": "L03",
@@ -218,10 +218,10 @@
     ]
    ],
    "id": "S002",
-   "start": 6.477,
-   "dur": 5.72,
+   "start": 6.79,
+   "dur": 5.74,
    "chapter": 0,
-   "line_start": 6.477
+   "line_start": 6.79
   },
   {
    "line": "L04",
@@ -299,10 +299,10 @@
     ]
    ],
    "id": "S003",
-   "start": 12.197,
-   "dur": 3.358,
+   "start": 12.53,
+   "dur": 4.3,
    "chapter": 0,
-   "line_start": 12.197
+   "line_start": 12.53
   },
   {
    "line": "L05",
@@ -349,10 +349,10 @@
     ]
    ],
    "id": "S004",
-   "start": 15.555,
-   "dur": 2.837,
+   "start": 16.83,
+   "dur": 2.42,
    "chapter": 0,
-   "line_start": 15.555
+   "line_start": 16.83
   },
   {
    "line": "L06",
@@ -377,10 +377,10 @@
    ],
    "music": "curious",
    "id": "S005",
-   "start": 18.392,
-   "dur": 4.267,
+   "start": 19.25,
+   "dur": 5.2,
    "chapter": 0,
-   "line_start": 18.392
+   "line_start": 19.25
   },
   {
    "line": "L07",
@@ -440,10 +440,10 @@
     ]
    ],
    "id": "S006",
-   "start": 22.659,
-   "dur": 3.58,
+   "start": 24.45,
+   "dur": 4.2,
    "chapter": 0,
-   "line_start": 22.659
+   "line_start": 24.45
   },
   {
    "line": null,
@@ -457,7 +457,7 @@
    "text": "THE ALE CONNER",
    "sub": "NUMBER 8",
    "id": "S007",
-   "start": 26.239,
+   "start": 28.65,
    "dur": 2.4,
    "chapter": 1
   },
@@ -520,10 +520,10 @@
    ],
    "music": "playful",
    "id": "S008",
-   "start": 28.639,
-   "dur": 2.124,
+   "start": 31.05,
+   "dur": 2.78,
    "chapter": 1,
-   "line_start": 28.639
+   "line_start": 31.05
   },
   {
    "line": "L09",
@@ -596,10 +596,10 @@
     ]
    ],
    "id": "S009",
-   "start": 30.763,
-   "dur": 3.204,
+   "start": 33.83,
+   "dur": 2.74,
    "chapter": 1,
-   "line_start": 30.763
+   "line_start": 33.83
   },
   {
    "line": "L10",
@@ -690,10 +690,10 @@
     ]
    ],
    "id": "S010",
-   "start": 33.967,
-   "dur": 7.285,
+   "start": 36.57,
+   "dur": 6.59,
    "chapter": 1,
-   "line_start": 33.967
+   "line_start": 36.57
   },
   {
    "line": "L11",
@@ -753,10 +753,10 @@
     ]
    ],
    "id": "S011",
-   "start": 41.252,
-   "dur": 1.509,
+   "start": 43.16,
+   "dur": 1.16,
    "chapter": 1,
-   "line_start": 41.252
+   "line_start": 43.16
   },
   {
    "line": "L12",
@@ -775,10 +775,10 @@
     ]
    ],
    "id": "S012",
-   "start": 42.761,
-   "dur": 4.793,
+   "start": 44.32,
+   "dur": 4.59,
    "chapter": 1,
-   "line_start": 42.761
+   "line_start": 44.32
   },
   {
    "line": "L13",
@@ -853,10 +853,10 @@
     ]
    ],
    "id": "S013",
-   "start": 47.554,
-   "dur": 3.747,
+   "start": 48.91,
+   "dur": 3.08,
    "chapter": 1,
-   "line_start": 47.554
+   "line_start": 48.91
   },
   {
    "line": "L14",
@@ -916,10 +916,10 @@
     ]
    ],
    "id": "S014",
-   "start": 51.301,
-   "dur": 2.314,
+   "start": 51.99,
+   "dur": 2.27,
    "chapter": 1,
-   "line_start": 51.301
+   "line_start": 51.99
   },
   {
    "line": "L15",
@@ -1015,10 +1015,10 @@
     ]
    ],
    "id": "S015",
-   "start": 53.615,
-   "dur": 5.902,
+   "start": 54.26,
+   "dur": 5.1,
    "chapter": 1,
-   "line_start": 53.615
+   "line_start": 54.26
   },
   {
    "line": "L16",
@@ -1083,10 +1083,10 @@
     ]
    ],
    "id": "S016",
-   "start": 59.517,
-   "dur": 6.891,
+   "start": 59.36,
+   "dur": 5.84,
    "chapter": 1,
-   "line_start": 59.517
+   "line_start": 59.36
   },
   {
    "line": "L17",
@@ -1152,10 +1152,10 @@
     ]
    ],
    "id": "S017",
-   "start": 66.408,
-   "dur": 3.947,
+   "start": 65.2,
+   "dur": 3.24,
    "chapter": 1,
-   "line_start": 66.408
+   "line_start": 65.2
   },
   {
    "line": "L18",
@@ -1281,10 +1281,10 @@
     ]
    ],
    "id": "S018",
-   "start": 70.355,
-   "dur": 4.535,
+   "start": 68.44,
+   "dur": 3.78,
    "chapter": 1,
-   "line_start": 70.355
+   "line_start": 68.44
   },
   {
    "line": null,
@@ -1298,7 +1298,7 @@
    "text": "THE GROOM OF THE STOOL",
    "sub": "NUMBER 7",
    "id": "S019",
-   "start": 74.89,
+   "start": 72.22,
    "dur": 2.4,
    "chapter": 2
   },
@@ -1365,10 +1365,10 @@
    "part": null,
    "music": "story",
    "id": "S020",
-   "start": 77.29,
-   "dur": 2.57,
+   "start": 74.62,
+   "dur": 3.14,
    "chapter": 2,
-   "line_start": 77.29
+   "line_start": 74.62
   },
   {
    "line": "L20",
@@ -1421,10 +1421,10 @@
     ]
    ],
    "id": "S021",
-   "start": 79.86,
-   "dur": 3.233,
+   "start": 77.76,
+   "dur": 3.4,
    "chapter": 2,
-   "line_start": 79.86
+   "line_start": 77.76
   },
   {
    "line": "L21",
@@ -1496,10 +1496,10 @@
     ]
    ],
    "id": "S022",
-   "start": 83.093,
-   "dur": 4.127,
+   "start": 81.16,
+   "dur": 4.12,
    "chapter": 2,
-   "line_start": 83.093
+   "line_start": 81.16
   },
   {
    "line": "L22",
@@ -1559,10 +1559,10 @@
     ]
    ],
    "id": "S023",
-   "start": 87.22,
-   "dur": 2.556,
+   "start": 85.28,
+   "dur": 2.28,
    "chapter": 2,
-   "line_start": 87.22
+   "line_start": 85.28
   },
   {
    "line": "L23",
@@ -1634,10 +1634,10 @@
     ]
    ],
    "id": "S024",
-   "start": 89.776,
-   "dur": 6.323,
+   "start": 87.56,
+   "dur": 5.74,
    "chapter": 2,
-   "line_start": 89.776
+   "line_start": 87.56
   },
   {
    "line": "L24",
@@ -1715,10 +1715,10 @@
     ]
    ],
    "id": "S025",
-   "start": 96.099,
-   "dur": 6.881,
+   "start": 93.3,
+   "dur": 5.94,
    "chapter": 2,
-   "line_start": 96.099
+   "line_start": 93.3
   },
   {
    "line": "L25",
@@ -1811,10 +1811,10 @@
     ]
    ],
    "id": "S026",
-   "start": 102.98,
-   "dur": 2.131,
+   "start": 99.24,
+   "dur": 1.92,
    "chapter": 2,
-   "line_start": 102.98
+   "line_start": 99.24
   },
   {
    "line": "L26",
@@ -1874,10 +1874,10 @@
    ],
    "music": "tension",
    "id": "S027",
-   "start": 105.111,
-   "dur": 2.894,
+   "start": 101.16,
+   "dur": 2.6,
    "chapter": 2,
-   "line_start": 105.111
+   "line_start": 101.16
   },
   {
    "line": "L27",
@@ -1949,10 +1949,10 @@
     ]
    ],
    "id": "S028",
-   "start": 108.005,
-   "dur": 7.089,
+   "start": 103.76,
+   "dur": 5.98,
    "chapter": 2,
-   "line_start": 108.005
+   "line_start": 103.76
   },
   {
    "line": "L28",
@@ -2018,10 +2018,10 @@
     ]
    ],
    "id": "S029",
-   "start": 115.094,
-   "dur": 4.76,
+   "start": 109.74,
+   "dur": 4.24,
    "chapter": 2,
-   "line_start": 115.094
+   "line_start": 109.74
   },
   {
    "line": null,
@@ -2035,7 +2035,7 @@
    "text": "THE TOAD EATER",
    "sub": "NUMBER 6",
    "id": "S030",
-   "start": 119.854,
+   "start": 113.98,
    "dur": 2.4,
    "chapter": 3
   },
@@ -2181,10 +2181,10 @@
    ],
    "music": "playful",
    "id": "S031",
-   "start": 122.254,
-   "dur": 2.214,
+   "start": 116.38,
+   "dur": 2.86,
    "chapter": 3,
-   "line_start": 122.254
+   "line_start": 116.38
   },
   {
    "line": "L30",
@@ -2293,10 +2293,10 @@
     ]
    ],
    "id": "S032",
-   "start": 124.468,
-   "dur": 4.864,
+   "start": 119.24,
+   "dur": 4.58,
    "chapter": 3,
-   "line_start": 124.468
+   "line_start": 119.24
   },
   {
    "line": "L31",
@@ -2367,10 +2367,10 @@
     ]
    ],
    "id": "S033",
-   "start": 129.332,
-   "dur": 2.0,
+   "start": 123.82,
+   "dur": 1.64,
    "chapter": 3,
-   "line_start": 129.332
+   "line_start": 123.82
   },
   {
    "line": "L32",
@@ -2441,10 +2441,10 @@
     ]
    ],
    "id": "S034",
-   "start": 131.332,
-   "dur": 3.499,
+   "start": 125.46,
+   "dur": 3.2,
    "chapter": 3,
-   "line_start": 131.332
+   "line_start": 125.46
   },
   {
    "line": "L33",
@@ -2527,10 +2527,10 @@
     ]
    ],
    "id": "S035",
-   "start": 134.831,
-   "dur": 5.324,
+   "start": 128.66,
+   "dur": 5.19,
    "chapter": 3,
-   "line_start": 134.831
+   "line_start": 128.66
   },
   {
    "line": "L34",
@@ -2608,10 +2608,10 @@
     ]
    ],
    "id": "S036",
-   "start": 140.155,
-   "dur": 3.199,
+   "start": 133.85,
+   "dur": 3.07,
    "chapter": 3,
-   "line_start": 140.155
+   "line_start": 133.85
   },
   {
    "line": "L35",
@@ -2689,10 +2689,10 @@
     ]
    ],
    "id": "S037",
-   "start": 143.354,
-   "dur": 3.725,
+   "start": 136.92,
+   "dur": 3.22,
    "chapter": 3,
-   "line_start": 143.354
+   "line_start": 136.92
   },
   {
    "line": "L36",
@@ -2900,10 +2900,10 @@
     ]
    ],
    "id": "S038",
-   "start": 147.079,
-   "dur": 4.169,
+   "start": 140.14,
+   "dur": 3.92,
    "chapter": 3,
-   "line_start": 147.079
+   "line_start": 140.14
   },
   {
    "line": "L37",
@@ -2963,10 +2963,10 @@
     ]
    ],
    "id": "S039",
-   "start": 151.248,
-   "dur": 2.891,
+   "start": 144.06,
+   "dur": 1.98,
    "chapter": 3,
-   "line_start": 151.248
+   "line_start": 144.06
   },
   {
    "line": "L38",
@@ -2985,10 +2985,10 @@
     ]
    ],
    "id": "S040",
-   "start": 154.139,
-   "dur": 4.236,
+   "start": 146.04,
+   "dur": 4.39,
    "chapter": 3,
-   "line_start": 154.139
+   "line_start": 146.04
   },
   {
    "line": "L39",
@@ -3054,10 +3054,10 @@
     ]
    ],
    "id": "S041",
-   "start": 158.375,
-   "dur": 3.581,
+   "start": 150.43,
+   "dur": 2.84,
    "chapter": 3,
-   "line_start": 158.375
+   "line_start": 150.43
   },
   {
    "line": null,
@@ -3071,7 +3071,7 @@
    "text": "THE SIN EATER",
    "sub": "NUMBER 5",
    "id": "S042",
-   "start": 161.956,
+   "start": 153.27,
    "dur": 2.4,
    "chapter": 4
   },
@@ -3134,10 +3134,10 @@
    ],
    "music": "dark",
    "id": "S043",
-   "start": 164.356,
-   "dur": 2.069,
+   "start": 155.67,
+   "dur": 2.7,
    "chapter": 4,
-   "line_start": 164.356
+   "line_start": 155.67
   },
   {
    "line": "L41",
@@ -3183,10 +3183,10 @@
     ]
    ],
    "id": "S044",
-   "start": 166.425,
-   "dur": 1.667,
+   "start": 158.37,
+   "dur": 2.18,
    "chapter": 4,
-   "line_start": 166.425
+   "line_start": 158.37
   },
   {
    "line": "L42",
@@ -3227,10 +3227,10 @@
     ]
    ],
    "id": "S045",
-   "start": 168.092,
-   "dur": 3.044,
+   "start": 160.55,
+   "dur": 2.336,
    "chapter": 4,
-   "line_start": 168.092
+   "line_start": 160.55
   },
   {
    "line": "L42",
@@ -3252,10 +3252,10 @@
     ]
    ],
    "id": "S046",
-   "start": 171.136,
-   "dur": 4.567,
+   "start": 162.886,
+   "dur": 3.504,
    "chapter": 4,
-   "line_start": 168.092
+   "line_start": 160.55
   },
   {
    "line": "L43",
@@ -3338,10 +3338,10 @@
     ]
    ],
    "id": "S047",
-   "start": 175.703,
-   "dur": 4.373,
+   "start": 166.39,
+   "dur": 3.32,
    "chapter": 4,
-   "line_start": 175.703
+   "line_start": 166.39
   },
   {
    "line": "L44",
@@ -3413,10 +3413,10 @@
     ]
    ],
    "id": "S048",
-   "start": 180.076,
-   "dur": 3.599,
+   "start": 169.71,
+   "dur": 3.57,
    "chapter": 4,
-   "line_start": 180.076
+   "line_start": 169.71
   },
   {
    "line": "L45",
@@ -3476,10 +3476,10 @@
     ]
    ],
    "id": "S049",
-   "start": 183.675,
-   "dur": 4.859,
+   "start": 173.28,
+   "dur": 3.8,
    "chapter": 4,
-   "line_start": 183.675
+   "line_start": 173.28
   },
   {
    "line": "L46",
@@ -3544,10 +3544,10 @@
     ]
    ],
    "id": "S050",
-   "start": 188.534,
-   "dur": 3.413,
+   "start": 177.08,
+   "dur": 2.64,
    "chapter": 4,
-   "line_start": 188.534
+   "line_start": 177.08
   },
   {
    "line": "L47",
@@ -3610,10 +3610,10 @@
     ]
    ],
    "id": "S051",
-   "start": 191.947,
-   "dur": 2.36,
+   "start": 179.72,
+   "dur": 1.82,
    "chapter": 4,
-   "line_start": 191.947
+   "line_start": 179.72
   },
   {
    "line": "L47",
@@ -3706,10 +3706,10 @@
     ]
    ],
    "id": "S052",
-   "start": 194.307,
-   "dur": 2.36,
+   "start": 181.54,
+   "dur": 1.82,
    "chapter": 4,
-   "line_start": 191.947
+   "line_start": 179.72
   },
   {
    "line": "L48",
@@ -3763,10 +3763,10 @@
    "part": null,
    "tag": "HISTORIANS DISAGREE",
    "id": "S053",
-   "start": 196.667,
-   "dur": 3.916,
+   "start": 183.36,
+   "dur": 3.16,
    "chapter": 4,
-   "line_start": 196.667
+   "line_start": 183.36
   },
   {
    "line": "L49",
@@ -3827,10 +3827,10 @@
     ]
    ],
    "id": "S054",
-   "start": 200.583,
-   "dur": 5.523,
+   "start": 186.52,
+   "dur": 4.8,
    "chapter": 4,
-   "line_start": 200.583
+   "line_start": 186.52
   },
   {
    "line": null,
@@ -3844,7 +3844,7 @@
    "text": "THE SALTPETRE MAN",
    "sub": "NUMBER 4",
    "id": "S055",
-   "start": 206.106,
+   "start": 191.32,
    "dur": 2.4,
    "chapter": 5
   },
@@ -3900,10 +3900,10 @@
    "part": null,
    "music": "tension",
    "id": "S056",
-   "start": 208.506,
-   "dur": 2.41,
+   "start": 193.72,
+   "dur": 2.7,
    "chapter": 5,
-   "line_start": 208.506
+   "line_start": 193.72
   },
   {
    "line": "L51",
@@ -3969,10 +3969,10 @@
     ]
    ],
    "id": "S057",
-   "start": 210.916,
-   "dur": 3.157,
+   "start": 196.42,
+   "dur": 2.65,
    "chapter": 5,
-   "line_start": 210.916
+   "line_start": 196.42
   },
   {
    "line": "L52",
@@ -4024,10 +4024,10 @@
     ]
    ],
    "id": "S058",
-   "start": 214.073,
-   "dur": 5.01,
+   "start": 199.07,
+   "dur": 4.0,
    "chapter": 5,
-   "line_start": 214.073
+   "line_start": 199.07
   },
   {
    "line": "L53",
@@ -4086,10 +4086,10 @@
     ]
    ],
    "id": "S059",
-   "start": 219.083,
-   "dur": 4.008,
+   "start": 203.07,
+   "dur": 3.88,
    "chapter": 5,
-   "line_start": 219.083
+   "line_start": 203.07
   },
   {
    "line": "L54",
@@ -4161,10 +4161,10 @@
     ]
    ],
    "id": "S060",
-   "start": 223.091,
-   "dur": 3.218,
+   "start": 206.95,
+   "dur": 2.62,
    "chapter": 5,
-   "line_start": 223.091
+   "line_start": 206.95
   },
   {
    "line": "L55",
@@ -4183,10 +4183,10 @@
     ]
    ],
    "id": "S061",
-   "start": 226.309,
-   "dur": 6.985,
+   "start": 209.57,
+   "dur": 5.79,
    "chapter": 5,
-   "line_start": 226.309
+   "line_start": 209.57
   },
   {
    "line": "L56",
@@ -4261,10 +4261,10 @@
     ]
    ],
    "id": "S062",
-   "start": 233.294,
-   "dur": 5.867,
+   "start": 215.36,
+   "dur": 4.6,
    "chapter": 5,
-   "line_start": 233.294
+   "line_start": 215.36
   },
   {
    "line": "L57",
@@ -4342,10 +4342,10 @@
     ]
    ],
    "id": "S063",
-   "start": 239.161,
-   "dur": 4.844,
+   "start": 219.96,
+   "dur": 4.48,
    "chapter": 5,
-   "line_start": 239.161
+   "line_start": 219.96
   },
   {
    "line": "L58",
@@ -4447,10 +4447,10 @@
     ]
    ],
    "id": "S064",
-   "start": 244.005,
-   "dur": 3.947,
+   "start": 224.44,
+   "dur": 2.76,
    "chapter": 5,
-   "line_start": 244.005
+   "line_start": 224.44
   },
   {
    "line": null,
@@ -4464,7 +4464,7 @@
    "text": "THE FULLER",
    "sub": "NUMBER 3",
    "id": "S065",
-   "start": 247.952,
+   "start": 227.2,
    "dur": 2.4,
    "chapter": 6
   },
@@ -4523,10 +4523,10 @@
    "part": null,
    "music": "curious",
    "id": "S066",
-   "start": 250.352,
-   "dur": 1.757,
+   "start": 229.6,
+   "dur": 2.02,
    "chapter": 6,
-   "line_start": 250.352
+   "line_start": 229.6
   },
   {
    "line": "L60",
@@ -4586,10 +4586,10 @@
     ]
    ],
    "id": "S067",
-   "start": 252.109,
-   "dur": 4.971,
+   "start": 231.62,
+   "dur": 5.2,
    "chapter": 6,
-   "line_start": 252.109
+   "line_start": 231.62
   },
   {
    "line": "L61",
@@ -4654,10 +4654,10 @@
     ]
    ],
    "id": "S068",
-   "start": 257.08,
-   "dur": 3.91,
+   "start": 236.82,
+   "dur": 3.98,
    "chapter": 6,
-   "line_start": 257.08
+   "line_start": 236.82
   },
   {
    "line": "L62",
@@ -4730,10 +4730,10 @@
     ]
    ],
    "id": "S069",
-   "start": 260.99,
-   "dur": 5.035,
+   "start": 240.8,
+   "dur": 4.38,
    "chapter": 6,
-   "line_start": 260.99
+   "line_start": 240.8
   },
   {
    "line": "L63",
@@ -4803,10 +4803,10 @@
     ]
    ],
    "id": "S070",
-   "start": 266.025,
-   "dur": 5.589,
+   "start": 245.18,
+   "dur": 6.5,
    "chapter": 6,
-   "line_start": 266.025
+   "line_start": 245.18
   },
   {
    "line": "L64",
@@ -4872,10 +4872,10 @@
     ]
    ],
    "id": "S071",
-   "start": 271.614,
-   "dur": 4.578,
+   "start": 251.68,
+   "dur": 3.74,
    "chapter": 6,
-   "line_start": 271.614
+   "line_start": 251.68
   },
   {
    "line": "L65",
@@ -4922,10 +4922,10 @@
     ]
    ],
    "id": "S072",
-   "start": 276.192,
-   "dur": 4.386,
+   "start": 255.42,
+   "dur": 3.56,
    "chapter": 6,
-   "line_start": 276.192
+   "line_start": 255.42
   },
   {
    "line": "L66",
@@ -4944,10 +4944,10 @@
     ]
    ],
    "id": "S073",
-   "start": 280.578,
-   "dur": 7.083,
+   "start": 258.98,
+   "dur": 6.5,
    "chapter": 6,
-   "line_start": 280.578
+   "line_start": 258.98
   },
   {
    "line": null,
@@ -4961,7 +4961,7 @@
    "text": "THE TANNER",
    "sub": "NUMBER 2",
    "id": "S074",
-   "start": 287.661,
+   "start": 265.48,
    "dur": 2.4,
    "chapter": 7
   },
@@ -5024,10 +5024,10 @@
    ],
    "music": "story",
    "id": "S075",
-   "start": 290.061,
-   "dur": 1.812,
+   "start": 267.88,
+   "dur": 2.62,
    "chapter": 7,
-   "line_start": 290.061
+   "line_start": 267.88
   },
   {
    "line": "L68",
@@ -5105,10 +5105,10 @@
     ]
    ],
    "id": "S076",
-   "start": 291.873,
-   "dur": 5.123,
+   "start": 270.5,
+   "dur": 3.92,
    "chapter": 7,
-   "line_start": 291.873
+   "line_start": 270.5
   },
   {
    "line": "L69",
@@ -5169,10 +5169,10 @@
     ]
    ],
    "id": "S077",
-   "start": 296.996,
-   "dur": 5.696,
+   "start": 274.42,
+   "dur": 4.92,
    "chapter": 7,
-   "line_start": 296.996
+   "line_start": 274.42
   },
   {
    "line": "L70",
@@ -5237,10 +5237,10 @@
     ]
    ],
    "id": "S078",
-   "start": 302.692,
-   "dur": 3.157,
+   "start": 279.34,
+   "dur": 2.28,
    "chapter": 7,
-   "line_start": 302.692
+   "line_start": 279.34
   },
   {
    "line": "L71",
@@ -5301,10 +5301,10 @@
     ]
    ],
    "id": "S079",
-   "start": 305.849,
-   "dur": 5.879,
+   "start": 281.62,
+   "dur": 5.26,
    "chapter": 7,
-   "line_start": 305.849
+   "line_start": 281.62
   },
   {
    "line": "L72",
@@ -5336,10 +5336,10 @@
     ]
    ],
    "id": "S080",
-   "start": 311.728,
-   "dur": 3.093,
+   "start": 286.88,
+   "dur": 2.205,
    "chapter": 7,
-   "line_start": 311.728
+   "line_start": 286.88
   },
   {
    "line": "L72",
@@ -5361,10 +5361,10 @@
     ]
    ],
    "id": "S081",
-   "start": 314.821,
-   "dur": 5.743,
+   "start": 289.085,
+   "dur": 4.095,
    "chapter": 7,
-   "line_start": 311.728
+   "line_start": 286.88
   },
   {
    "line": "L73",
@@ -5478,10 +5478,10 @@
     ]
    ],
    "id": "S082",
-   "start": 320.564,
-   "dur": 5.247,
+   "start": 293.18,
+   "dur": 6.2,
    "chapter": 7,
-   "line_start": 320.564
+   "line_start": 293.18
   },
   {
    "line": "L74",
@@ -5579,10 +5579,10 @@
     ]
    ],
    "id": "S083",
-   "start": 325.811,
-   "dur": 2.984,
+   "start": 299.38,
+   "dur": 2.74,
    "chapter": 7,
-   "line_start": 325.811
+   "line_start": 299.38
   },
   {
    "line": null,
@@ -5596,7 +5596,7 @@
    "text": "THE GONG FARMER",
    "sub": "NUMBER 1",
    "id": "S084",
-   "start": 328.795,
+   "start": 302.12,
    "dur": 2.4,
    "chapter": 8
   },
@@ -5664,10 +5664,10 @@
    ],
    "music": "dark",
    "id": "S085",
-   "start": 331.195,
-   "dur": 2.325,
+   "start": 304.52,
+   "dur": 3.28,
    "chapter": 8,
-   "line_start": 331.195
+   "line_start": 304.52
   },
   {
    "line": "L76",
@@ -5719,10 +5719,10 @@
     ]
    ],
    "id": "S086",
-   "start": 333.52,
-   "dur": 5.116,
+   "start": 307.8,
+   "dur": 5.04,
    "chapter": 8,
-   "line_start": 333.52
+   "line_start": 307.8
   },
   {
    "line": "L77",
@@ -5782,10 +5782,10 @@
     ]
    ],
    "id": "S087",
-   "start": 338.636,
-   "dur": 2.451,
+   "start": 312.84,
+   "dur": 3.4,
    "chapter": 8,
-   "line_start": 338.636
+   "line_start": 312.84
   },
   {
    "line": "L78",
@@ -5858,10 +5858,10 @@
     ]
    ],
    "id": "S088",
-   "start": 341.087,
-   "dur": 6.612,
+   "start": 316.24,
+   "dur": 5.26,
    "chapter": 8,
-   "line_start": 341.087
+   "line_start": 316.24
   },
   {
    "line": "L79",
@@ -5928,10 +5928,10 @@
     ]
    ],
    "id": "S089",
-   "start": 347.699,
-   "dur": 4.294,
+   "start": 321.5,
+   "dur": 4.18,
    "chapter": 8,
-   "line_start": 347.699
+   "line_start": 321.5
   },
   {
    "line": "L80",
@@ -5953,10 +5953,10 @@
     ]
    ],
    "id": "S090",
-   "start": 351.993,
-   "dur": 5.059,
+   "start": 325.68,
+   "dur": 4.466,
    "chapter": 8,
-   "line_start": 351.993
+   "line_start": 325.68
   },
   {
    "line": "L80",
@@ -6006,10 +6006,10 @@
     ]
    ],
    "id": "S091",
-   "start": 357.052,
-   "dur": 4.139,
+   "start": 330.146,
+   "dur": 3.654,
    "chapter": 8,
-   "line_start": 351.993
+   "line_start": 325.68
   },
   {
    "line": "L81",
@@ -6069,10 +6069,10 @@
     ]
    ],
    "id": "S092",
-   "start": 361.191,
-   "dur": 2.874,
+   "start": 333.8,
+   "dur": 2.35,
    "chapter": 8,
-   "line_start": 361.191
+   "line_start": 333.8
   },
   {
    "line": "L82",
@@ -6139,10 +6139,10 @@
    ],
    "music": "warm",
    "id": "S093",
-   "start": 364.065,
-   "dur": 3.883,
+   "start": 336.15,
+   "dur": 4.24,
    "chapter": 8,
-   "line_start": 364.065
+   "line_start": 336.15
   },
   {
    "line": "L83",
@@ -6195,10 +6195,10 @@
    ],
    "part": null,
    "id": "S094",
-   "start": 367.948,
-   "dur": 5.07,
+   "start": 340.39,
+   "dur": 4.24,
    "chapter": 8,
-   "line_start": 367.948
+   "line_start": 340.39
   },
   {
    "line": "L84",
@@ -6264,10 +6264,10 @@
     ]
    ],
    "id": "S095",
-   "start": 373.018,
-   "dur": 3.413,
+   "start": 344.63,
+   "dur": 2.66,
    "chapter": 8,
-   "line_start": 373.018
+   "line_start": 344.63
   },
   {
    "line": "L85",
@@ -6320,10 +6320,10 @@
    ],
    "part": null,
    "id": "S096",
-   "start": 376.431,
-   "dur": 4.699,
+   "start": 347.29,
+   "dur": 3.92,
    "chapter": 8,
-   "line_start": 376.431
+   "line_start": 347.29
   },
   {
    "line": null,
@@ -6336,7 +6336,7 @@
    "dur": 20.0,
    "music": "warm",
    "id": "S097",
-   "start": 381.13,
+   "start": 351.21,
    "chapter": 8
   }
  ]

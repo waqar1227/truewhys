@@ -163,5 +163,5 @@ def shorts(ep):
 if __name__ == "__main__":
     if len(sys.argv) > 2 and sys.argv[2] == "shorts":
         shorts(sys.argv[1]); sys.exit()
-    chs = [int(c) for c in sys.argv[2].split(",")] if len(sys.argv) > 2 else list(range(8))
+    chs = [int(c) for c in sys.argv[2].split(",")] if len(sys.argv) > 2 else sorted({l["chapter"] for l in parse_lines(Path(sys.argv[1]) / "lines.txt")})
     main(sys.argv[1], chs)

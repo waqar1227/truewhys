@@ -8,7 +8,7 @@
  "episode": "B-002",
  "short": "C3",
  "title": "The Job Where You Had to Swallow a Toad",
- "duration": 44.318,
+ "duration": 40.86,
  "vertical": true,
  "shots": [
   {
@@ -195,7 +195,7 @@
    ],
    "id": "C3_S032",
    "start": 4.23,
-   "dur": 4.864,
+   "dur": 4.58,
    "chapter": 3,
    "line_start": 4.23,
    "src": "S032",
@@ -270,10 +270,10 @@
     ]
    ],
    "id": "C3_S033",
-   "start": 9.094,
-   "dur": 2.0,
+   "start": 8.81,
+   "dur": 1.64,
    "chapter": 3,
-   "line_start": 9.094,
+   "line_start": 8.81,
    "src": "S033"
   },
   {
@@ -345,10 +345,10 @@
     ]
    ],
    "id": "C3_S034",
-   "start": 11.094,
-   "dur": 3.499,
+   "start": 10.45,
+   "dur": 3.2,
    "chapter": 3,
-   "line_start": 11.094,
+   "line_start": 10.45,
    "src": "S034"
   },
   {
@@ -432,10 +432,10 @@
     ]
    ],
    "id": "C3_S035",
-   "start": 14.593,
-   "dur": 5.324,
+   "start": 13.65,
+   "dur": 5.19,
    "chapter": 3,
-   "line_start": 14.593,
+   "line_start": 13.65,
    "src": "S035"
   },
   {
@@ -514,10 +514,10 @@
     ]
    ],
    "id": "C3_S036",
-   "start": 19.917,
-   "dur": 3.199,
+   "start": 18.84,
+   "dur": 3.07,
    "chapter": 3,
-   "line_start": 19.917,
+   "line_start": 18.84,
    "src": "S036"
   },
   {
@@ -596,10 +596,10 @@
     ]
    ],
    "id": "C3_S037",
-   "start": 23.116,
-   "dur": 3.725,
+   "start": 21.91,
+   "dur": 3.22,
    "chapter": 3,
-   "line_start": 23.116,
+   "line_start": 21.91,
    "src": "S037"
   },
   {
@@ -808,10 +808,10 @@
     ]
    ],
    "id": "C3_S038",
-   "start": 26.841,
-   "dur": 4.169,
+   "start": 25.13,
+   "dur": 3.92,
    "chapter": 3,
-   "line_start": 26.841,
+   "line_start": 25.13,
    "src": "S038"
   },
   {
@@ -872,10 +872,10 @@
     ]
    ],
    "id": "C3_S039",
-   "start": 31.01,
-   "dur": 2.891,
+   "start": 29.05,
+   "dur": 1.98,
    "chapter": 3,
-   "line_start": 31.01,
+   "line_start": 29.05,
    "src": "S039"
   },
   {
@@ -895,10 +895,10 @@
     ]
    ],
    "id": "C3_S040",
-   "start": 33.901,
-   "dur": 4.236,
+   "start": 31.03,
+   "dur": 4.39,
    "chapter": 3,
-   "line_start": 33.901,
+   "line_start": 31.03,
    "src": "S040"
   },
   {
@@ -965,18 +965,18 @@
     ]
    ],
    "id": "C3_S041",
-   "start": 38.137,
-   "dur": 3.581,
+   "start": 35.42,
+   "dur": 2.84,
    "chapter": 3,
-   "line_start": 38.137,
+   "line_start": 35.42,
    "src": "S041"
   },
   {
    "id": "C3_END",
    "kind": "end",
    "line": "O1",
-   "start": 41.718,
-   "line_start": 41.868,
+   "start": 38.26,
+   "line_start": 38.41,
    "dur": 2.6,
    "chapter": null,
    "sfx": [

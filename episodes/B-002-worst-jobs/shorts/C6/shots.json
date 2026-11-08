@@ -8,7 +8,7 @@
  "episode": "B-002",
  "short": "C6",
  "title": "Why Workers Stomped on Cloth in Old Urine",
- "duration": 42.362,
+ "duration": 40.67,
  "vertical": true,
  "shots": [
   {
@@ -146,7 +146,7 @@
    ],
    "id": "C6_S067",
    "start": 4.21,
-   "dur": 4.971,
+   "dur": 5.2,
    "chapter": 6,
    "line_start": 4.21,
    "src": "S067",
@@ -215,10 +215,10 @@
     ]
    ],
    "id": "C6_S068",
-   "start": 9.181,
-   "dur": 3.91,
+   "start": 9.41,
+   "dur": 3.98,
    "chapter": 6,
-   "line_start": 9.181,
+   "line_start": 9.41,
    "src": "S068"
   },
   {
@@ -292,10 +292,10 @@
     ]
    ],
    "id": "C6_S069",
-   "start": 13.091,
-   "dur": 5.035,
+   "start": 13.39,
+   "dur": 4.38,
    "chapter": 6,
-   "line_start": 13.091,
+   "line_start": 13.39,
    "src": "S069"
   },
   {
@@ -366,10 +366,10 @@
     ]
    ],
    "id": "C6_S070",
-   "start": 18.126,
-   "dur": 5.589,
+   "start": 17.77,
+   "dur": 6.5,
    "chapter": 6,
-   "line_start": 18.126,
+   "line_start": 17.77,
    "src": "S070"
   },
   {
@@ -436,10 +436,10 @@
     ]
    ],
    "id": "C6_S071",
-   "start": 23.715,
-   "dur": 4.578,
+   "start": 24.27,
+   "dur": 3.74,
    "chapter": 6,
-   "line_start": 23.715,
+   "line_start": 24.27,
    "src": "S071"
   },
   {
@@ -487,10 +487,10 @@
     ]
    ],
    "id": "C6_S072",
-   "start": 28.293,
-   "dur": 4.386,
+   "start": 28.01,
+   "dur": 3.56,
    "chapter": 6,
-   "line_start": 28.293,
+   "line_start": 28.01,
    "src": "S072"
   },
   {
@@ -510,18 +510,18 @@
     ]
    ],
    "id": "C6_S073",
-   "start": 32.679,
-   "dur": 7.083,
+   "start": 31.57,
+   "dur": 6.5,
    "chapter": 6,
-   "line_start": 32.679,
+   "line_start": 31.57,
    "src": "S073"
   },
   {
    "id": "C6_END",
    "kind": "end",
    "line": "O1",
-   "start": 39.762,
-   "line_start": 39.912,
+   "start": 38.07,
+   "line_start": 38.22,
    "dur": 2.6,
    "chapter": null,
    "sfx": [

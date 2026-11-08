@@ -2,9 +2,8 @@
 
 ## NEXT (keep this list short; heartbeat does only these)
 Fresh session? Tools install via the environment setup script (tools/setup_env.sh). Rendered plates are not in git: fetch them from Kaggle.
-1. Sun 8 Nov ≥ 08:00 UTC: B-002 Gemini chapter voice: `python lib/voice_gemini.py episodes/B-002-worst-jobs` (9 requests; hooks already done,
-   FLAC masters in episodes/B-002-worst-jobs/voice/) → `python episodes/B-002-worst-jobs/plan.py` → `python lib/shorts.py episodes/B-002-worst-jobs`
-   → `python lib/upload_pkg.py episodes/B-002-worst-jobs <publishAt>`.
+1. DONE 8 Nov 09:30 UTC: B-002 Gemini voice (9 chapters, FLAC masters committed), plan.py (98 shots, 6:11), shorts.py (8 Shorts 38–46 s).
+   Still to do when scheduling: `python lib/upload_pkg.py episodes/B-002-worst-jobs <publishAt>`.
 2. Sun 8 Nov ≥ 15:00 UTC: post + pin the B-001 comment on 9C-9O0c6VqM (text: episodes/B-001-animal-trials/upload_meta.json "pinned_comment").
 3. Mon 9 Nov ≥ 00:30 UTC (new Kaggle week): B-002 part 2 plates: `kaggle kernels push -p notebooks/kaggle_jobs/b002/kernel_b002b --accelerator NvidiaTeslaT4`
    (dataset truewhys-ep-b002 already has job_D). Part 1 plates: `kaggle kernels output waqarahmed51/truewhys-render-b002 -p /tmp/p1` →

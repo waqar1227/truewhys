@@ -8,7 +8,7 @@
  "episode": "B-002",
  "short": "C5",
  "title": "The King's Men Who Could Dig Up Your Floor",
- "duration": 45.526,
+ "duration": 39.27,
  "vertical": true,
  "shots": [
   {
@@ -150,7 +150,7 @@
    ],
    "id": "C5_S057",
    "start": 5.89,
-   "dur": 3.157,
+   "dur": 2.65,
    "chapter": 5,
    "line_start": 5.89,
    "src": "S057",
@@ -206,10 +206,10 @@
     ]
    ],
    "id": "C5_S058",
-   "start": 9.047,
-   "dur": 5.01,
+   "start": 8.54,
+   "dur": 4.0,
    "chapter": 5,
-   "line_start": 9.047,
+   "line_start": 8.54,
    "src": "S058"
   },
   {
@@ -269,10 +269,10 @@
     ]
    ],
    "id": "C5_S059",
-   "start": 14.057,
-   "dur": 4.008,
+   "start": 12.54,
+   "dur": 3.88,
    "chapter": 5,
-   "line_start": 14.057,
+   "line_start": 12.54,
    "src": "S059"
   },
   {
@@ -345,10 +345,10 @@
     ]
    ],
    "id": "C5_S060",
-   "start": 18.065,
-   "dur": 3.218,
+   "start": 16.42,
+   "dur": 2.62,
    "chapter": 5,
-   "line_start": 18.065,
+   "line_start": 16.42,
    "src": "S060"
   },
   {
@@ -368,10 +368,10 @@
     ]
    ],
    "id": "C5_S061",
-   "start": 21.283,
-   "dur": 6.985,
+   "start": 19.04,
+   "dur": 5.79,
    "chapter": 5,
-   "line_start": 21.283,
+   "line_start": 19.04,
    "src": "S061"
   },
   {
@@ -447,10 +447,10 @@
     ]
    ],
    "id": "C5_S062",
-   "start": 28.268,
-   "dur": 5.867,
+   "start": 24.83,
+   "dur": 4.6,
    "chapter": 5,
-   "line_start": 28.268,
+   "line_start": 24.83,
    "src": "S062"
   },
   {
@@ -529,10 +529,10 @@
     ]
    ],
    "id": "C5_S063",
-   "start": 34.135,
-   "dur": 4.844,
+   "start": 29.43,
+   "dur": 4.48,
    "chapter": 5,
-   "line_start": 34.135,
+   "line_start": 29.43,
    "src": "S063"
   },
   {
@@ -635,18 +635,18 @@
     ]
    ],
    "id": "C5_S064",
-   "start": 38.979,
-   "dur": 3.947,
+   "start": 33.91,
+   "dur": 2.76,
    "chapter": 5,
-   "line_start": 38.979,
+   "line_start": 33.91,
    "src": "S064"
   },
   {
    "id": "C5_END",
    "kind": "end",
    "line": "O1",
-   "start": 42.926,
-   "line_start": 43.076,
+   "start": 36.67,
+   "line_start": 36.82,
    "dur": 2.6,
    "chapter": null,
    "sfx": [

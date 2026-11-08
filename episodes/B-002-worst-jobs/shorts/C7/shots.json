@@ -8,7 +8,7 @@
  "episode": "B-002",
  "short": "C7",
  "title": "The Smelliest Job in Medieval England",
- "duration": 43.572,
+ "duration": 38.27,
  "vertical": true,
  "shots": [
   {
@@ -169,7 +169,7 @@
    ],
    "id": "C7_S076",
    "start": 4.05,
-   "dur": 5.123,
+   "dur": 3.92,
    "chapter": 7,
    "line_start": 4.05,
    "src": "S076",
@@ -234,10 +234,10 @@
     ]
    ],
    "id": "C7_S077",
-   "start": 9.173,
-   "dur": 5.696,
+   "start": 7.97,
+   "dur": 4.92,
    "chapter": 7,
-   "line_start": 9.173,
+   "line_start": 7.97,
    "src": "S077"
   },
   {
@@ -303,10 +303,10 @@
     ]
    ],
    "id": "C7_S078",
-   "start": 14.869,
-   "dur": 3.157,
+   "start": 12.89,
+   "dur": 2.28,
    "chapter": 7,
-   "line_start": 14.869,
+   "line_start": 12.89,
    "src": "S078"
   },
   {
@@ -368,10 +368,10 @@
     ]
    ],
    "id": "C7_S079",
-   "start": 18.026,
-   "dur": 5.879,
+   "start": 15.17,
+   "dur": 5.26,
    "chapter": 7,
-   "line_start": 18.026,
+   "line_start": 15.17,
    "src": "S079"
   },
   {
@@ -404,10 +404,10 @@
     ]
    ],
    "id": "C7_S080",
-   "start": 23.905,
-   "dur": 3.093,
+   "start": 20.43,
+   "dur": 2.205,
    "chapter": 7,
-   "line_start": 23.905,
+   "line_start": 20.43,
    "src": "S080"
   },
   {
@@ -430,10 +430,10 @@
     ]
    ],
    "id": "C7_S081",
-   "start": 26.998,
-   "dur": 5.743,
+   "start": 22.635,
+   "dur": 4.095,
    "chapter": 7,
-   "line_start": 23.905,
+   "line_start": 20.43,
    "src": "S081"
   },
   {
@@ -548,10 +548,10 @@
     ]
    ],
    "id": "C7_S082",
-   "start": 32.741,
-   "dur": 5.247,
+   "start": 26.73,
+   "dur": 6.2,
    "chapter": 7,
-   "line_start": 32.741,
+   "line_start": 26.73,
    "src": "S082"
   },
   {
@@ -650,18 +650,18 @@
     ]
    ],
    "id": "C7_S083",
-   "start": 37.988,
-   "dur": 2.984,
+   "start": 32.93,
+   "dur": 2.74,
    "chapter": 7,
-   "line_start": 37.988,
+   "line_start": 32.93,
    "src": "S083"
   },
   {
    "id": "C7_END",
    "kind": "end",
    "line": "O1",
-   "start": 40.972,
-   "line_start": 41.122,
+   "start": 35.67,
+   "line_start": 35.82,
    "dur": 2.6,
    "chapter": null,
    "sfx": [
