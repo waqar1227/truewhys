@@ -13,8 +13,8 @@ Fresh session? Tools install via the environment setup script (tools/setup_env.s
 5. Cross-posting B-001 (8 Nov): Facebook Reels C0–C7 scheduled via Page token (lib/fb_post.py, ids in social/posted.json); banner scheduled 21:00 UTC.
    Trailer: send_later 15:03 UTC (yt-dlp the public video → cut 60–90 s → QA → fb_post schedule).
    EVERY heartbeat: `python lib/fb_post.py <ep> comments` (adds the YouTube-link first comment to Reels that are live).
-   TikTok: Dropbox token expired (Dropbox tokens last ~4 h) → TikTok waits for the owner's TikTok API keys (~10–11 Nov), then post all B-001 Shorts
-   with the direct API (file upload, no hosting). Owner: set Related video on B-001 Shorts.
+   TikTok: all 7 B-001 Shorts scheduled in Metricool (ids 420686149…420686951, 16:30 UTC 8 Nov → 10:30 UTC 9 Nov), owner gave a one-off fresh
+   Dropbox token; Dropbox copies deleted. From B-002 on: TikTok direct API (owner's keys ~10–11 Nov). Owner: set Related video on B-001 Shorts.
 6. Owner (8 Nov): after B-002 is finished and scheduled, and BEFORE starting episode 3: plan and make a batch of standalone viral Shorts
    (new topics, rotate categories per skill §8, strongest hooks/title patterns; same QA gate; Kaggle plates; schedule in the gaps between
    B-002's cut Shorts and episode 3; crosspost to TikTok + Facebook). Write the plan to shorts_plan.md first (5–8 ideas, ranked by hook strength).

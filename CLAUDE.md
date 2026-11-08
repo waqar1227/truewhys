@@ -132,9 +132,9 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
   not used; TikTok waits for the direct API (file upload).
 - Facebook Page token is long-lived (never expires).
 - **Facebook is posted ONLY with the Page token via the Graph API, never via Metricool** (owner, 8 Nov 2026). Reels: `POST /{page}/video_reels`
-  upload_phase=start → `POST rupload.facebook.com/video-upload/<ver>/<video_id>` with header `file_url: <Dropbox dl=1 URL>` (token injected for
-  rupload.facebook.com too) → upload_phase=finish with video_state=SCHEDULED + scheduled_publish_time + description; first comment = YouTube link.
-  Trailer: `POST /{page}/videos` (file_url, description with link, scheduled). Banner: `POST /{page}/photos` (url, caption with link, scheduled).
+  upload_phase=start → `POST rupload.facebook.com/video-upload/<ver>/<video_id>` with headers `offset: 0`, `file_size: <bytes>` and the file bytes (token injected for
+  rupload.facebook.com too; script: lib/fb_post.py) → upload_phase=finish with video_state=SCHEDULED + scheduled_publish_time + description; first comment = YouTube link.
+  Trailer: `POST /{page}/videos` (multipart source, description with link, scheduled). Banner: `POST /{page}/photos` (multipart source, caption with link, scheduled).
   If a token call fails, tell the owner exactly what failed.
 - TikTok: Metricool only until the owner's TikTok developer API keys arrive (~10–11 Nov 2026); then switch TikTok to the direct API and stop using Metricool.
 - Do not make other-platform versions beyond this unless the owner asks.

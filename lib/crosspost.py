@@ -37,7 +37,8 @@ for c in cfg["shorts"]:
     when = parse(m["publishAt"]) + dt.timedelta(minutes=30)
     title = c["title"]
     hook = c["hook"]["text"]
-    tt = f"{hook} 🤯\n\n{title}.\n\n{CTA_TT}\n\n" + " ".join(["#history", "#learnontiktok", "#weirdhistory"] + [t.lower() for t in tags[:1]] + ["#truewhys"])
+    extra = [t.lower() for t in tags if t.lower() not in ("#history", "#weirdhistory", "#learnontiktok", "#truewhys")][:1]
+    tt = f"{hook} 🤯\n\n{title}.\n\n{CTA_TT}\n\n" + " ".join(["#history", "#learnontiktok", "#weirdhistory"] + extra + ["#truewhys"])
     fb = f"{hook}\n\n{CTA_TT}\n\n" + " ".join(seo["hashtags"])
     file = str(d / "final.mp4")
     posts.append(dict(platform="tiktok", kind="video", short=c["id"], file=file, when=iso(when), text=tt, title=title[:90],
