@@ -1,12 +1,17 @@
 # STATUS (read the NEXT list first)
 
 ## NEXT (keep this list short; heartbeat does only these)
-1. Owner (YouTube Studio): set "Related video" = B-001 on the 7 Shorts (C0 5YqYpWmY7EA, C7 CPPa366kvr8, C3 ypKUcSlisP0,
-   C4 23cFCmyvtKI, C5 sJ0HEbnwoj8, C6 RI7u-NzEj5E, C1 33UzHb61eKc). All scheduled 8 Nov 16:00 → 9 Nov 10:00 UTC.
-2. Sun 8 Nov ≥ 08:00 UTC: B-002 Gemini chapter voice (`python lib/voice_gemini.py episodes/B-002-worst-jobs`, 9 requests) → `plan.py` → `lib/shorts.py`.
-3. Sun 8 Nov ≥ 15:00 UTC: post + pin the B-001 comment (text in upload_meta.json "pinned_comment").
-4. Mon 9 Nov ≥ 00:30 UTC: B-002 part 2 plates on Kaggle (dataset truewhys-ep-b002, kernel truewhys-render-b002 with JOB='job_D.json').
-5. Waiting on owner: Facebook long-lived Page token; hosting choice for Metricool (A file host / B manual). Packages in episodes/<ep>/social/.
+Fresh session? Tools install via the environment setup script (tools/setup_env.sh). Rendered plates are not in git: fetch them from Kaggle.
+1. Sun 8 Nov ≥ 08:00 UTC: B-002 Gemini chapter voice: `python lib/voice_gemini.py episodes/B-002-worst-jobs` (9 requests; hooks already done,
+   FLAC masters in episodes/B-002-worst-jobs/voice/) → `python episodes/B-002-worst-jobs/plan.py` → `python lib/shorts.py episodes/B-002-worst-jobs`
+   → `python lib/upload_pkg.py episodes/B-002-worst-jobs <publishAt>`.
+2. Sun 8 Nov ≥ 15:00 UTC: post + pin the B-001 comment on 9C-9O0c6VqM (text: episodes/B-001-animal-trials/upload_meta.json "pinned_comment").
+3. Mon 9 Nov ≥ 00:30 UTC (new Kaggle week): B-002 part 2 plates: `kaggle kernels push -p notebooks/kaggle_jobs/b002/kernel_b002b --accelerator NvidiaTeslaT4`
+   (dataset truewhys-ep-b002 already has job_D). Part 1 plates: `kaggle kernels output waqarahmed51/truewhys-render-b002 -p /tmp/p1` →
+   copy plates/*.mp4 to episodes/B-002-worst-jobs/renders/. Part 2 likewise from truewhys-render-b002b.
+4. Then B-002 final compose + QA, Shorts plates on Kaggle (tools/kaggle_dataset.sh, job like B-001's job_S/job_S2 split), compose, QA,
+   schedule on YouTube (slot: after B-001's last Short, 9 Nov 10:00 UTC → long video ≥ 10 Nov), crosspost packages.
+5. Waiting on owner: Facebook long-lived Page token; hosting choice for Metricool (A file host / B manual). Owner: set Related video on B-001 Shorts.
 
 ## History
 
