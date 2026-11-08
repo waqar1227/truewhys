@@ -13,7 +13,9 @@ Fresh session? Tools install via the environment setup script (tools/setup_env.s
 5. Cross-posting B-001 (8 Nov): Facebook Reels C0–C7 scheduled via Page token (lib/fb_post.py, ids in social/posted.json); banner scheduled 21:00 UTC.
    B-001 comment posted on YouTube 15:05 UTC (owner pins it in Studio; the API cannot pin). Trailer NOT made: YouTube blocks downloads from
    this server and the B-001 long plates were overwritten on Kaggle → owner chose to SKIP the B-001 trailer (8 Nov); B-001 Facebook = 7 Reels + banner only.
-   EVERY heartbeat: `python lib/fb_post.py <ep> comments` (adds the YouTube-link first comment to Reels that are live).
+   C0 published early on owner's request (8 Nov ~15:22 UTC: YouTube public, FB Reel live, TikTok 15:30 UTC = Metricool id 420823459).
+   FB first comments BLOCKED: Page token lacks pages_manage_engagement / pages_read_user_content (#200). Waiting for owner's new token;
+   then every heartbeat: `python lib/fb_post.py <ep> comments`.
    TikTok: all 7 B-001 Shorts scheduled in Metricool (ids 420686149…420686951, 16:30 UTC 8 Nov → 10:30 UTC 9 Nov), owner gave a one-off fresh
    Dropbox token; Dropbox copies deleted. From B-002 on: TikTok direct API (owner's keys ~10–11 Nov). Owner: set Related video on B-001 Shorts.
 6. Owner (8 Nov): after B-002 is finished and scheduled, and BEFORE starting episode 3: plan and make a batch of standalone viral Shorts
