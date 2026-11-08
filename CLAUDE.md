@@ -4,6 +4,12 @@ This repository makes the videos for a faceless animated YouTube channel modelle
 FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Films (realistic tests). Always follow the skill in
 `.claude/skills/faceless-3d-shorts/SKILL.md`. Never copy their videos, titles, characters or art.
 
+## Content ethics (owner, 8 Nov 2026): STRICT, applies to every script, title, thumbnail, caption and comment
+- Nothing unethical: no hate, mockery of groups, sexual content, gore for shock, or harmful "how-to".
+- **Never say anything against any religion, especially Islam.** No script, joke, image or title that mocks, insults or criticises a religion,
+  its prophets, holy books, practices or believers. Never depict prophets. When history involves religious institutions (e.g. medieval
+  church courts), stay neutral and factual about the events and people, never the faith itself. If a topic could offend religious viewers, skip it.
+
 ## Rule number 1: professional quality first
 - The owner wants **very professional videos**. Quality beats length and quality beats posting frequency, always.
 - Never lower quality to hit a length or a date. If rendering (Kaggle, Blender or any tool) can't deliver the quality, **make the episode shorter** or **take longer** (a long video may take 2–3 days, especially at the start).
