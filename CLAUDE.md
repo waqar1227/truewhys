@@ -124,6 +124,9 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
   "Watch the full video on YouTube — @TrueWhys"; the YouTube link goes in the Reel's first comment.
   Long videos are **never uploaded in full to Facebook**: post a 60–90 s trailer (cut from the final, same QA) with the clickable YouTube link,
   30 min after the YouTube premiere.
+- Facebook extras (owner, 8 Nov 2026): use 3–5 relevant hashtags on every Facebook post for reach. Each long video also gets a separate
+  **still image banner** post (1080×1350, attractive, title + hook in branding/ style, cast + strange object, same QA as a thumbnail), ~6 h after
+  the premiere, caption with the clickable YouTube link "Watch the full video on YouTube" + hashtags.
   Packages (captions, files) live in episodes/<ep>/social/ (built by lib/crosspost.py).
 - Metricool needs public media URLs. Hosting = Dropbox (owner, 8 Nov 2026): token is a network secret for content.dropboxapi.com and api.dropboxapi.com
   (never print it). Upload to the app folder, make a shared link (use dl=1 for the raw file), give it to Metricool, delete the file once posted.

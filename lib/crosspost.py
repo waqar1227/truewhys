@@ -49,6 +49,10 @@ if long_meta.get("publishAt"):
     fbl = f"{seo['hook']}\n\n{seo['summary']}\n\n▶ Watch the full video on YouTube: {long_url}\n\n" + " ".join(seo["hashtags"])
     posts.append(dict(platform="facebook", kind="trailer", short=None, file=str(ep / "social" / "trailer.mp4"),
                       when=iso(when), title=seo["title"], text=fbl, thumb=str(ep / "final" / "thumb_A.jpg")))
+    # still banner (owner, 8 Nov 2026): 1080x1350 image, title + hook in brand style, made + QA'd like a thumbnail; link in caption
+    bwhen = parse(long_meta["publishAt"]) + dt.timedelta(hours=6)
+    fbb = f"{seo['title']}\n\n{seo['hook']}\n\n▶ Watch the full video on YouTube: {long_url}\n\n" + " ".join(seo["hashtags"][:5])
+    posts.append(dict(platform="facebook", kind="banner", short=None, file=str(ep / "social" / "banner.jpg"), when=iso(bwhen), text=fbb))
 posts.sort(key=lambda p: p["when"])
 out = ep / "social"; out.mkdir(exist_ok=True)
 (out / "plan.json").write_text(json.dumps(dict(long_url=long_url, posts=posts), indent=1, ensure_ascii=False))

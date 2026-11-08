@@ -14,7 +14,7 @@ Fresh session? Tools install via the environment setup script (tools/setup_env.s
 5. Cross-posting unlocked (8 Nov): Facebook Page token is long-lived (owner confirmed); Dropbox token saved as network secret (tested upload/link/delete).
    Add a Dropbox step to lib/crosspost.py (upload Short → shared link with dl=1 → Metricool createScheduledPost tiktok autoPublish → delete after posting),
    then schedule B-001 Shorts' TikTok + Facebook Reels (link in first comment). B-001 Facebook trailer (60–90 s, cut from final, QA) at 15:30 UTC 8 Nov
-   = 8:30 pm PKT; no full long video on Facebook. Owner: set Related video on B-001 Shorts.
+   = 8:30 pm PKT; no full long video on Facebook. B-001 Facebook banner (social/banner.jpg, 1080×1350, QA) at 21:00 UTC 8 Nov = 2:00 am PKT 9 Nov. Owner: set Related video on B-001 Shorts.
 6. Owner (8 Nov): after B-002 is finished and scheduled, and BEFORE starting episode 3: plan and make a batch of standalone viral Shorts
    (new topics, rotate categories per skill §8, strongest hooks/title patterns; same QA gate; Kaggle plates; schedule in the gaps between
    B-002's cut Shorts and episode 3; crosspost to TikTok + Facebook). Write the plan to shorts_plan.md first (5–8 ideas, ranked by hook strength).

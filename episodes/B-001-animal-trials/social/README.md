@@ -9,6 +9,7 @@ YouTube long video: https://youtu.be/9C-9O0c6VqM
 | 2026-11-08T16:30:00Z | facebook | reel C0 | shorts/C0/final.mp4 |
 | 2026-11-08T19:30:00Z | tiktok | video C7 | shorts/C7/final.mp4 |
 | 2026-11-08T19:30:00Z | facebook | reel C7 | shorts/C7/final.mp4 |
+| 2026-11-08T21:00:00Z | facebook | banner  | social/banner.jpg |
 | 2026-11-08T22:30:00Z | tiktok | video C3 | shorts/C3/final.mp4 |
 | 2026-11-08T22:30:00Z | facebook | reel C3 | shorts/C3/final.mp4 |
 | 2026-11-09T01:30:00Z | tiktok | video C4 | shorts/C4/final.mp4 |
@@ -69,6 +70,17 @@ Watch the full video on YouTube — @TrueWhys
 Why did a medieval hangman get paid in gloves?
 
 Watch the full video on YouTube — @TrueWhys
+
+#History #MedievalHistory #TrueWhys
+```
+
+### 2026-11-08T21:00:00Z · facebook banner 
+```
+Why Medieval Courts Put Animals on Trial
+
+In 1386, a pig was dressed in a man's clothes and executed after a real court trial. It wasn't a joke — for centuries, European courts put animals on trial.
+
+▶ Watch the full video on YouTube: https://youtu.be/9C-9O0c6VqM
 
 #History #MedievalHistory #TrueWhys
 ```
