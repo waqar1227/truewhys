@@ -4,14 +4,15 @@
 Fresh session? Tools install via the environment setup script (tools/setup_env.sh). Rendered plates are not in git: fetch them from Kaggle.
 1. DONE 8 Nov 09:30 UTC: B-002 Gemini voice (9 chapters, FLAC masters committed), plan.py (98 shots, 6:11), shorts.py (8 Shorts 38–46 s).
    Still to do when scheduling: `python lib/upload_pkg.py episodes/B-002-worst-jobs <publishAt>`.
-2. Sun 8 Nov ≥ 15:00 UTC: post + pin the B-001 comment on 9C-9O0c6VqM (text: episodes/B-001-animal-trials/upload_meta.json "pinned_comment").
+2. DONE (comment posted; owner pins): post + pin the B-001 comment on 9C-9O0c6VqM (text: episodes/B-001-animal-trials/upload_meta.json "pinned_comment").
 3. Mon 9 Nov ≥ 00:30 UTC (new Kaggle week): B-002 part 2 plates: `kaggle kernels push -p notebooks/kaggle_jobs/b002/kernel_b002b --accelerator NvidiaTeslaT4`
    (dataset truewhys-ep-b002 already has job_D). Part 1 plates: `kaggle kernels output waqarahmed51/truewhys-render-b002 -p /tmp/p1` →
    copy plates/*.mp4 to episodes/B-002-worst-jobs/renders/. Part 2 likewise from truewhys-render-b002b.
 4. Then B-002 final compose + QA, Shorts plates on Kaggle (tools/kaggle_dataset.sh, job like B-001's job_S/job_S2 split), compose, QA,
    schedule on YouTube (slot: after B-001's last Short, 9 Nov 10:00 UTC → long video ≥ 10 Nov), crosspost packages.
 5. Cross-posting B-001 (8 Nov): Facebook Reels C0–C7 scheduled via Page token (lib/fb_post.py, ids in social/posted.json); banner scheduled 21:00 UTC.
-   Trailer: send_later 15:03 UTC (yt-dlp the public video → cut 60–90 s → QA → fb_post schedule).
+   B-001 comment posted on YouTube 15:05 UTC (owner pins it in Studio; the API cannot pin). Trailer NOT made: YouTube blocks downloads from
+   this server and the B-001 long plates were overwritten on Kaggle → waiting for owner's choice (re-render cold-open plates on Kaggle Mon, or skip).
    EVERY heartbeat: `python lib/fb_post.py <ep> comments` (adds the YouTube-link first comment to Reels that are live).
    TikTok: all 7 B-001 Shorts scheduled in Metricool (ids 420686149…420686951, 16:30 UTC 8 Nov → 10:30 UTC 9 Nov), owner gave a one-off fresh
    Dropbox token; Dropbox copies deleted. From B-002 on: TikTok direct API (owner's keys ~10–11 Nov). Owner: set Related video on B-001 Shorts.
