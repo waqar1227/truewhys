@@ -7,10 +7,11 @@ if ! command -v ffmpeg >/dev/null || ! command -v espeak-ng >/dev/null; then
   apt-get update -qq && apt-get install -y -qq ffmpeg espeak-ng libcairo2 libxkbcommon0 libsm6 libxi6 libxxf86vm1 libxfixes3 libxrender1 libgl1 >/dev/null
 fi
 command -v uv >/dev/null || python3 -m pip install -q uv || pip install -q uv
-if [ ! -x "$P/bin/python" ]; then
-  uv venv -q -p 3.11 "$P"
+[ -x "$P/bin/python" ] || uv venv -q -p 3.11 "$P"
+# reinstall if any part is missing (a half-filled venv used to be skipped)
+if ! "$P/bin/python" -c "import bpy, kokoro_onnx, faster_whisper, cairosvg, six, kaggle" 2>/dev/null; then
   uv pip install -q -p "$P/bin/python" cairosvg==2.9.1 kokoro-onnx==0.6.1 faster-whisper==1.2.1 kaggle==2.2.5 \
-    numpy pillow pyloudnorm scipy soundfile yt-dlp cython requests zstandard
+    numpy pillow pyloudnorm scipy soundfile yt-dlp cython requests zstandard six
   # bpy pins numpy<2 but kokoro needs numpy>=2; bpy works with numpy 2 (only a harmless import warning), so skip its pin
   uv pip install -q -p "$P/bin/python" --no-deps bpy==5.0.1
 fi
