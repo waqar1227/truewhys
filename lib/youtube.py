@@ -8,7 +8,7 @@ python lib/youtube.py upload <video.mp4> <meta.json> [thumb.jpg] [--long <video 
   pinning itself is done in YouTube Studio, the API cannot pin).
 meta.json: {"title","description","tags":[...],"categoryId":"27","publishAt":"2026-11-08T15:00:00Z",
             "playlist": "Full Stories" (optional, needs youtube scope)}
-Status: private + publishAt, madeForKids false, containsSyntheticMedia false (owner rule: cartoon = No).
+Status: private + publishAt, madeForKids false, AI/altered field not sent (owner rule: leave unset; if required, No).
 """
 import os, sys, json, urllib.request, urllib.parse, urllib.error
 
@@ -76,7 +76,7 @@ def upload(video, meta, thumb=None, long_id=None):
         if not long_id:
             sys.exit("this description needs --long <long video id>")
         m["description"] = m["description"].replace("{LONG_URL}", "https://youtu.be/" + long_id)
-    status = {"privacyStatus": "private", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": False}
+    status = {"privacyStatus": "private", "selfDeclaredMadeForKids": False}  # AI/altered field left unset (owner rule); if ever required: False, never True
     if m.get("publishAt"):
         status["publishAt"] = m["publishAt"]
     body = {"snippet": {"title": m["title"][:100], "description": m["description"][:5000], "tags": m.get("tags", [])[:30],
