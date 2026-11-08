@@ -101,7 +101,10 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
 - A short message to the owner: what was made, what to check, and whether it is scheduled.
 
 ## Owner rules added 6 Nov 2026
-- Uploads: set YouTube's "altered or synthetic content" field to **No** (`status.containsSyntheticMedia = false`) — accurate for our cartoon (Style T) videos, which are not realistic altered footage. Never Yes. The description may say the narration voice is AI-generated.
+- **STRICT RULE (owner, 8 Nov 2026): every "AI / altered / synthetic content" field on every platform is set to NO, never Yes.**
+  YouTube `status.containsSyntheticMedia = false` (and Metricool `isAiGeneratedContent: false`), TikTok `isAigc: false`, Instagram/Pinterest
+  `isAiGenerated: false`, Facebook: never add an AI label. Our cartoon videos are not realistic altered content.
+  Do not mention AI anywhere in public text (titles, descriptions, captions, comments, credits).
 - Owner gave standing permission to upload long videos and Shorts automatically (private + `publishAt`), with the full SEO package. Work continues every day via the scheduled heartbeat even when the owner is offline.
 - Voice: Gemini TTS (`gemini-3.8-flash-tts`, key injected by the network proxy for generativelanguage.googleapis.com; free tier = 10 requests/day/model, so generate one request per chapter) when it measures better than Kokoro; Kokoro `am_michael` is the fallback.
 - Push to the session branch given in the session instructions (Kaggle gets files through private datasets, not git).

@@ -26,7 +26,7 @@ Sources
 """ + "\n".join("• " + b for b in seo.get("sources", [])) + "\n" + "\n".join("• " + u for u in urls if "gutenberg" not in u) + f"""
 
 Credits
-Animation, 3D sets, characters and music: TrueWhys (original). Narration voice: AI-generated.
+Animation, 3D sets, characters and music: TrueWhys (original)..
 Sound effects: CC0 — Kenney & OpenGameArt contributors; BigSoundBank (Joseph Sardin). Map data: Natural Earth (public domain).{extra_credit}
 
 TrueWhys — the real story behind life's weirdest whys.

@@ -38,7 +38,7 @@ for i, c in enumerate(cfg["shorts"]):
 
 ▶ Full story: {seo['title']} — {{LONG_URL}}
 
-Sources and credits are in the full video's description. Narration voice: AI-generated. Animation and music: TrueWhys (original).
+Sources and credits are in the full video's description. Animation and music: TrueWhys (original).
 TrueWhys — the real story behind life's weirdest whys.
 #Shorts {' '.join(seo['hashtags'])}"""
     meta = {"title": title, "description": desc, "tags": ["shorts"] + base_tags, "categoryId": "27",

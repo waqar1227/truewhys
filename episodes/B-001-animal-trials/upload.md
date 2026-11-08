@@ -39,7 +39,7 @@ Sources
 • https://www.sciencehistory.org/stories/disappearing-pod/kangaroo-and-pig-and-monkey-and-dog-and-donkey-courts/
 
 Credits
-Animation, 3D sets, characters and music: TrueWhys (original). Narration voice: AI-generated.
+Animation, 3D sets, characters and music: TrueWhys (original).
 Sound effects: CC0 — Kenney & OpenGameArt contributors; BigSoundBank (Joseph Sardin). Map data: Natural Earth (public domain).
 
 TrueWhys — the real story behind life's weirdest whys.
