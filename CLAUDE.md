@@ -131,6 +131,12 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
 - Metricool needs public media URLs. Hosting = Dropbox (owner, 8 Nov 2026): token is a network secret for content.dropboxapi.com and api.dropboxapi.com
   (never print it). Upload to the app folder, make a shared link (use dl=1 for the raw file), give it to Metricool, delete the file once posted.
 - Facebook Page token is long-lived (never expires).
+- **Facebook is posted ONLY with the Page token via the Graph API, never via Metricool** (owner, 8 Nov 2026). Reels: `POST /{page}/video_reels`
+  upload_phase=start → `POST rupload.facebook.com/video-upload/<ver>/<video_id>` with header `file_url: <Dropbox dl=1 URL>` (token injected for
+  rupload.facebook.com too) → upload_phase=finish with video_state=SCHEDULED + scheduled_publish_time + description; first comment = YouTube link.
+  Trailer: `POST /{page}/videos` (file_url, description with link, scheduled). Banner: `POST /{page}/photos` (url, caption with link, scheduled).
+  If a token call fails, tell the owner exactly what failed.
+- TikTok: Metricool only until the owner's TikTok developer API keys arrive (~10–11 Nov 2026); then switch TikTok to the direct API and stop using Metricool.
 - Do not make other-platform versions beyond this unless the owner asks.
 
 ## Owner rule added 7 Nov 2026: save Claude usage limits
