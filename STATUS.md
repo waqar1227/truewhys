@@ -13,6 +13,7 @@ Fresh session? Tools install via the environment setup script (tools/setup_env.s
    QA each (strong visual in first 1–2 s, ≤45 s, ends with Wy ✓ card), then schedule ALL on YouTube: long video Wed 11 Nov 15:00 UTC
    (`python lib/upload_pkg.py episodes/B-002-worst-jobs 2026-11-11T15:00:00Z`, thumb_A/B, check uploaded.json "thumbnail"), Shorts +1 h then every 3 h.
    TikTok: direct API once owner's keys arrive, else Metricool at US-evening times.
+   After upload: send the owner thumb_A + thumb_B (SendUserFile) so he sets up Test & Compare in Studio (API cannot; desktop browser only).
 5. FACEBOOK PAUSED by owner (8 Nov): no Facebook work until he gives the go-ahead. Posts made with the unpublished Meta app stay hidden
    (owner tested editing + publishing them himself: still hidden). Options if he asks: Meta Business Suite manual packs, or Zapier. (Scheduled B-001 Reels C7–C1 + banner still sit in Facebook's scheduler.)
    Cross-posting B-001 (8 Nov): Facebook Reels C0–C7 scheduled via Page token (lib/fb_post.py, ids in social/posted.json); banner scheduled 21:00 UTC.
