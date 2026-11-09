@@ -55,7 +55,7 @@
      ],
      "h": 1.45,
      "face": "L",
-     "expr": "worried",
+     "expr": "surprised",
      "arms": "present",
      "hold_r": "bucket"
     },
@@ -85,7 +85,14 @@
    "dur": 4.21,
    "chapter": 6,
    "line_start": 0.15,
-   "music": "mystery"
+   "music": "mystery",
+   "pop": [
+    [
+     0.02,
+     "WASHED IN URINE?!",
+     1.45
+    ]
+   ]
   },
   {
    "line": "L60",

@@ -90,7 +90,14 @@
    "dur": 4.05,
    "chapter": 7,
    "line_start": 0.15,
-   "music": "mystery"
+   "music": "mystery",
+   "pop": [
+    [
+     0.02,
+     "TOO SMELLY!",
+     1.45
+    ]
+   ]
   },
   {
    "line": "L68",

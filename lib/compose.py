@@ -387,8 +387,9 @@ def render_shot(shot, plates, ep, W, H, lines_t, env_fn):
         if kind not in ("card", "end"):
             if shot.get("tag"):
                 gfx.tag(fr, shot["tag"], t, d, s)
-            for (tt, txt) in shot.get("pop", []):
-                gfx.pop_word(fr, txt, t, tt * d if tt <= 1 else tt, d - t, s)
+            for pw in shot.get("pop", []):
+                tt, txt = pw[0], pw[1]
+                gfx.pop_word(fr, txt, t, tt * d if tt <= 1 else tt, d - t, s, pw[2] if len(pw) > 2 else 1.0)
             if words:
                 gfx.caption(fr, words, t, s, vertical=vert)
         arr = np.asarray(fr.convert("RGB")).astype(np.float32)

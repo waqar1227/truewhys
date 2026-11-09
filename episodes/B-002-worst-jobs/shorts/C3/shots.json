@@ -67,7 +67,7 @@
      ],
      "h": 1.3,
      "face": "L",
-     "expr": "happy_closed",
+     "expr": "surprised",
      "arms": "raise",
      "hold_r": "toad"
     }
@@ -85,7 +85,14 @@
    "dur": 4.23,
    "chapter": 3,
    "line_start": 0.15,
-   "music": "mystery"
+   "music": "mystery",
+   "pop": [
+    [
+     0.02,
+     "SWALLOW IT?!",
+     1.45
+    ]
+   ]
   },
   {
    "line": "L30",

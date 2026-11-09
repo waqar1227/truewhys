@@ -156,6 +156,11 @@ def build(ep):
         h.update(id=f"{cid}_H", line=hk["id"], start=0.0, line_start=0.15, dur=round(ht["dur"] + 0.45, 3), music=first3d.get("music") or "mystery",
                  sfx=[[0, "whoosh_soft", 0.5]] + [x for x in first3d.get("sfx", []) if x[1] in ("crowd_murmur", "wind", "birds", "fire", "insects")])
         h.pop("pop", None); h.pop("tag", None)
+        if c.get("hook_pop"):  # big hook words on screen from ~0.1 s (format rule: hook visible by 0.5 s)
+            h["pop"] = [[0.02, c["hook_pop"], 1.45]]
+        for a in h.get("chars", []):  # optional stronger face for the opening frame
+            if a.get("c") in c.get("hook_expr", {}):
+                a["expr"] = c["hook_expr"][a["c"]]
         shots.append(h); t = h["dur"]
         # ---- body: line blocks back to back
         lines_in = []

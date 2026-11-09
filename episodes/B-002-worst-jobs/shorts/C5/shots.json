@@ -83,7 +83,14 @@
    "dur": 5.89,
    "chapter": 5,
    "line_start": 0.15,
-   "music": "mystery"
+   "music": "mystery",
+   "pop": [
+    [
+     0.02,
+     "YOUR FLOOR?!",
+     1.45
+    ]
+   ]
   },
   {
    "line": "L51",

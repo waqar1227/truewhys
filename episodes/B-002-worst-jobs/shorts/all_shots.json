@@ -64,7 +64,14 @@
    "start": 0.0,
    "dur": 5.65,
    "chapter": 8,
-   "line_start": 0.15
+   "line_start": 0.15,
+   "pop": [
+    [
+     0.02,
+     "BY HAND?!",
+     1.45
+    ]
+   ]
   },
   {
    "line": "L76",
@@ -637,7 +644,7 @@
      ],
      "h": 1.5,
      "face": "L",
-     "expr": "worried",
+     "expr": "surprised",
      "arms": "present",
      "hold_r": "cloth"
     }
@@ -655,7 +662,14 @@
    "dur": 4.29,
    "chapter": 2,
    "line_start": 0.15,
-   "music": "mystery"
+   "music": "mystery",
+   "pop": [
+    [
+     0.02,
+     "TOILET DUTY?!",
+     1.45
+    ]
+   ]
   },
   {
    "line": "L20",
@@ -1376,7 +1390,7 @@
      ],
      "h": 1.3,
      "face": "L",
-     "expr": "happy_closed",
+     "expr": "surprised",
      "arms": "raise",
      "hold_r": "toad"
     }
@@ -1394,7 +1408,14 @@
    "dur": 4.23,
    "chapter": 3,
    "line_start": 0.15,
-   "music": "mystery"
+   "music": "mystery",
+   "pop": [
+    [
+     0.02,
+     "SWALLOW IT?!",
+     1.45
+    ]
+   ]
   },
   {
    "line": "L30",
@@ -2319,7 +2340,14 @@
    "dur": 3.43,
    "chapter": 4,
    "line_start": 0.15,
-   "music": "mystery"
+   "music": "mystery",
+   "pop": [
+    [
+     0.02,
+     "EAT SINS?!",
+     1.45
+    ]
+   ]
   },
   {
    "line": "L41",
@@ -3027,7 +3055,14 @@
    "dur": 5.89,
    "chapter": 5,
    "line_start": 0.15,
-   "music": "mystery"
+   "music": "mystery",
+   "pop": [
+    [
+     0.02,
+     "YOUR FLOOR?!",
+     1.45
+    ]
+   ]
   },
   {
    "line": "L51",
@@ -3606,7 +3641,7 @@
      ],
      "h": 1.45,
      "face": "L",
-     "expr": "worried",
+     "expr": "surprised",
      "arms": "present",
      "hold_r": "bucket"
     },
@@ -3636,7 +3671,14 @@
    "dur": 4.21,
    "chapter": 6,
    "line_start": 0.15,
-   "music": "mystery"
+   "music": "mystery",
+   "pop": [
+    [
+     0.02,
+     "WASHED IN URINE?!",
+     1.45
+    ]
+   ]
   },
   {
    "line": "L60",
@@ -4123,7 +4165,14 @@
    "dur": 4.05,
    "chapter": 7,
    "line_start": 0.15,
-   "music": "mystery"
+   "music": "mystery",
+   "pop": [
+    [
+     0.02,
+     "TOO SMELLY!",
+     1.45
+    ]
+   ]
   },
   {
    "line": "L68",
@@ -4689,7 +4738,14 @@
    "dur": 7.17,
    "chapter": 1,
    "line_start": 0.15,
-   "music": "mystery"
+   "music": "mystery",
+   "pop": [
+    [
+     0.02,
+     "PAID TO DRINK?!",
+     1.45
+    ]
+   ]
   },
   {
    "line": "L09",

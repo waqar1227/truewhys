@@ -73,7 +73,14 @@
    "dur": 3.43,
    "chapter": 4,
    "line_start": 0.15,
-   "music": "mystery"
+   "music": "mystery",
+   "pop": [
+    [
+     0.02,
+     "EAT SINS?!",
+     1.45
+    ]
+   ]
   },
   {
    "line": "L41",

@@ -67,7 +67,7 @@
      ],
      "h": 1.5,
      "face": "L",
-     "expr": "worried",
+     "expr": "surprised",
      "arms": "present",
      "hold_r": "cloth"
     }
@@ -85,7 +85,14 @@
    "dur": 4.29,
    "chapter": 2,
    "line_start": 0.15,
-   "music": "mystery"
+   "music": "mystery",
+   "pop": [
+    [
+     0.02,
+     "TOILET DUTY?!",
+     1.45
+    ]
+   ]
   },
   {
    "line": "L20",

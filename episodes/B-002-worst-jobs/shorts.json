@@ -22,7 +22,8 @@
     "L81",
     "L82",
     "L83"
-   ]
+   ],
+   "hook_pop": "BY HAND?!"
   },
   {
    "id": "C2",
@@ -41,7 +42,11 @@
     "L26",
     "L27",
     "L28"
-   ]
+   ],
+   "hook_pop": "TOILET DUTY?!",
+   "hook_expr": {
+    "groom": "surprised"
+   }
   },
   {
    "id": "C3",
@@ -61,7 +66,11 @@
     "L37",
     "L38",
     "L39"
-   ]
+   ],
+   "hook_pop": "SWALLOW IT?!",
+   "hook_expr": {
+    "toadboy": "surprised"
+   }
   },
   {
    "id": "C4",
@@ -80,7 +89,8 @@
     "L47",
     "L48",
     "L49"
-   ]
+   ],
+   "hook_pop": "EAT SINS?!"
   },
   {
    "id": "C5",
@@ -99,7 +109,8 @@
     "L56",
     "L57",
     "L58"
-   ]
+   ],
+   "hook_pop": "YOUR FLOOR?!"
   },
   {
    "id": "C6",
@@ -116,7 +127,11 @@
     "L64",
     "L65",
     "L66"
-   ]
+   ],
+   "hook_pop": "WASHED IN URINE?!",
+   "hook_expr": {
+    "villager3": "surprised"
+   }
   },
   {
    "id": "C7",
@@ -133,7 +148,8 @@
     "L72",
     "L73",
     "L74"
-   ]
+   ],
+   "hook_pop": "TOO SMELLY!"
   },
   {
    "id": "C1",
@@ -152,7 +168,8 @@
     "L16",
     "L17",
     "L18"
-   ]
+   ],
+   "hook_pop": "PAID TO DRINK?!"
   }
  ]
 }
