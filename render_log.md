@@ -50,3 +50,4 @@
 - 12:55 UTC B-001 Shorts plates done: b001 v5 249.2 min + b001b v3 273.6 min (8.7 h, 2×T4 each), 64/64, 0 errors. Week ≈ 26.6 h.
 
 ## 9 Nov 2026 00:36 UTC: truewhys-render-b002b v1 started (B-002 chapters 4–8, job_D, 2×T4, est. ~5 h). New Kaggle week.
+## 9 Nov 2026 09:05 UTC: B-002 Shorts plates: truewhys-render-b002s1 (C5–C8, 31 shots) + b002s2 (C1–C4, 39 shots), 1080×1920, 64 spp, 2×T4 each. Part 2 (b002b) finished overnight.
