@@ -50,7 +50,7 @@ TrueWhys — the real story behind life's weirdest whys.
 
 md = [f"# Shorts upload — cut from \"{seo['title']}\"", "",
       f"Long video publishAt: {sys.argv[2]}. Shorts: +{first:g} h, then every {gap:g} h (all within 24 h). Owner rule 6 Nov 2026.", "",
-      "Each Short: private + publishAt, made for kids No, altered/synthetic content **No**, playlist \"Shorts\".",
+      "Each Short: private + publishAt, made for kids No, altered/synthetic field left unset, playlist \"Shorts\".",
       "After upload: in YouTube Studio set **Related video = the long video** on each Short (not available in the API).", "",
       "| Short | publishAt (UTC) | Title | Desc chars |", "|---|---|---|---|"]
 md += [f"| {a} | {b} | {t} | {n} |" for a, b, t, n in rows]
