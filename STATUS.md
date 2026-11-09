@@ -5,7 +5,7 @@ Fresh session? Tools install via the environment setup script (tools/setup_env.s
 1. DONE 8 Nov 09:30 UTC: B-002 Gemini voice (9 chapters, FLAC masters committed), plan.py (98 shots, 6:11), shorts.py (8 Shorts 38–46 s).
    Still to do when scheduling: `python lib/upload_pkg.py episodes/B-002-worst-jobs <publishAt>`.
 2. DONE (comment posted; owner pins): post + pin the B-001 comment on 9C-9O0c6VqM (text: episodes/B-001-animal-trials/upload_meta.json "pinned_comment").
-3. Mon 9 Nov ≥ 00:30 UTC (new Kaggle week): B-002 part 2 plates: `kaggle kernels push -p notebooks/kaggle_jobs/b002/kernel_b002b --accelerator NvidiaTeslaT4`
+3. RUNNING since 9 Nov 00:36 UTC (est. done ~06:00): B-002 part 2 plates `kaggle kernels push -p notebooks/kaggle_jobs/b002/kernel_b002b --accelerator NvidiaTeslaT4`
    (dataset truewhys-ep-b002 already has job_D). Part 1 plates: `kaggle kernels output waqarahmed51/truewhys-render-b002 -p /tmp/p1` →
    copy plates/*.mp4 to episodes/B-002-worst-jobs/renders/. Part 2 likewise from truewhys-render-b002b.
 4. (B-002: remake both thumbnails to the new click-worthy checklist in CLAUDE.md, with a phone-size check. B-002 Shorts: check each opens on a strong visual in the first 1–2 s; tighten any over 45 s.) Then B-002 final compose + QA, Shorts plates on Kaggle (tools/kaggle_dataset.sh, job like B-001's job_S/job_S2 split), compose, QA,
