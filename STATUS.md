@@ -5,11 +5,14 @@ Fresh session? Tools install via the environment setup script (tools/setup_env.s
 1. DONE 8 Nov 09:30 UTC: B-002 Gemini voice (9 chapters, FLAC masters committed), plan.py (98 shots, 6:11), shorts.py (8 Shorts 38–46 s).
    Still to do when scheduling: `python lib/upload_pkg.py episodes/B-002-worst-jobs <publishAt>`.
 2. DONE (comment posted; owner pins): post + pin the B-001 comment on 9C-9O0c6VqM (text: episodes/B-001-animal-trials/upload_meta.json "pinned_comment").
-3. RUNNING since 9 Nov 00:36 UTC (est. done ~06:00): B-002 part 2 plates `kaggle kernels push -p notebooks/kaggle_jobs/b002/kernel_b002b --accelerator NvidiaTeslaT4`
-   (dataset truewhys-ep-b002 already has job_D). Part 1 plates: `kaggle kernels output waqarahmed51/truewhys-render-b002 -p /tmp/p1` →
-   copy plates/*.mp4 to episodes/B-002-worst-jobs/renders/. Part 2 likewise from truewhys-render-b002b.
-4. (B-002 thumbnails remade to the click checklist, 9 Nov: DONE. B-002 Shorts: check each opens on a strong visual in the first 1–2 s; tighten any over 45 s.) Then B-002 final compose + QA, Shorts plates on Kaggle (tools/kaggle_dataset.sh, job like B-001's job_S/job_S2 split), compose, QA,
-   schedule on YouTube (slot: after B-001's last Short, 9 Nov 10:00 UTC → long video ≥ 10 Nov), crosspost packages.
+3. DONE 9 Nov 11:00 UTC: B-002 long video composed + QA passed (final/B-002.mp4, 6:11, −14.5 LUFS; qa.md ticked; credits.md written).
+   final/B-002.mp4 is NOT in git (200 MB): if a fresh session lacks it, re-fetch plates from Kaggle kernels truewhys-render-b002 / b002b and re-compose.
+4. NEXT: B-002 Shorts. Kernels truewhys-render-b002s1 (C5–C8) and b002s2 (C1–C4) RUNNING since 9 Nov 09:05 UTC (est. done ~14:00).
+   When COMPLETE: `kaggle kernels output waqarahmed51/truewhys-render-b002s1 -p /tmp/s1` (same for s2) → copy plates/*.mp4 into episodes/B-002-worst-jobs/renders/,
+   compose each Short: `python lib/compose.py episodes/B-002-worst-jobs --plates episodes/B-002-worst-jobs/renders --plan episodes/B-002-worst-jobs/shorts/<C>/shots.json --timing episodes/B-002-worst-jobs/shorts/timing.json --w 1080 --h 1920 --out episodes/B-002-worst-jobs/shorts/<C>/final.mp4`
+   QA each (strong visual in first 1–2 s, ≤45 s, ends with Wy ✓ card), then schedule ALL on YouTube: long video Wed 11 Nov 15:00 UTC
+   (`python lib/upload_pkg.py episodes/B-002-worst-jobs 2026-11-11T15:00:00Z`, thumb_A/B, check uploaded.json "thumbnail"), Shorts +1 h then every 3 h.
+   TikTok: direct API once owner's keys arrive, else Metricool at US-evening times.
 5. FACEBOOK PAUSED by owner (8 Nov): no Facebook work until he gives the go-ahead. Posts made with the unpublished Meta app stay hidden
    (owner tested editing + publishing them himself: still hidden). Options if he asks: Meta Business Suite manual packs, or Zapier. (Scheduled B-001 Reels C7–C1 + banner still sit in Facebook's scheduler.)
    Cross-posting B-001 (8 Nov): Facebook Reels C0–C7 scheduled via Page token (lib/fb_post.py, ids in social/posted.json); banner scheduled 21:00 UTC.

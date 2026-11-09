@@ -210,6 +210,7 @@ def map_frame(W, H, t, d, pins, villages=False, view=None):
                 d_.rectangle([x - r, y - r * 0.6, x + r, y + r], fill=hexa(C["cream"]), outline=hexa(C["ink"]), width=max(2, int(3 * s)))
                 d_.polygon([(x - r * 1.2, y - r * 0.6), (x, y - r * 1.6), (x + r * 1.2, y - r * 0.6)], fill=hexa(C["coral"]), outline=hexa(C["ink"]))
                 rr = text_img("🐀" if False else "", font("poppins", 10), C["ink"], shadow=False)
+    shown_xy = [P(*PLACES[n]) for n, tt_ in pins if n and n in PLACES and t >= tt_]
     for name, tt in pins:
         if not name or name not in PLACES or t < tt:
             continue
@@ -223,7 +224,12 @@ def map_frame(W, H, t, d, pins, villages=False, view=None):
         pd.ellipse([pw * 0.33, pw * 0.33, pw * 0.67, pw * 0.67], fill=hexa(C["cream"]))
         paste_center(f, pin, x, y - pin.height * 0.45 * kk, kk)
         lab = text_img(name.upper().replace("ST-", "SAINT-"), font("lilita", int(44 * s)), C["cream"], stroke=int(5 * s))
-        paste_center(f, lab, x, y + 40 * s, 1.0, min(1, (t - tt) / 0.3))
+        # pins close together: the eastern one's label goes beside it so nothing overlaps
+        near = [q for q in shown_xy if q != (x, y) and math.hypot(q[0] - x, q[1] - y) < 170 * s]
+        if near and x >= max(q[0] for q in near):  # the eastern pin of a close pair: label to its right
+            paste_center(f, lab, x + lab.width / 2 + 34 * s, y - 30 * s, 1.0, min(1, (t - tt) / 0.3))
+        else:
+            paste_center(f, lab, x, y + 40 * s, 1.0, min(1, (t - tt) / 0.3))
     return f
 
 
@@ -366,9 +372,11 @@ def doc_frame(W, H, t, d, doc):
             egg, _ = cast.prop_img("egg", 0.7 * s)
             paste_center(f, egg, cx + r * 0.9, cy - r * 0.9 - 20 * s * math.sin(t * 2), 1.0)
         return f
-    write_lines(f, box, lines, t, 0.45, 42)
+    # type fast enough that every document is fully written by ~70% of its shot
+    cps = max(42, sum(len(l) for l in lines) / max(0.5, 0.7 * d - 0.45))
+    write_lines(f, box, lines, t, 0.45, cps)
     if extra == "seal":
-        seal(f, x0 + pw * 0.8, y0 + ph * 0.82, t, min(d - 0.6, 0.5 + sum(len(l) for l in lines) / 42), s)
+        seal(f, x0 + pw * 0.8, y0 + ph * 0.82, t, min(d - 0.6, 0.5 + sum(len(l) for l in lines) / cps), s)
     elif extra == "eaten":
         # bite marks along the torn edge + a rat and a weevil peeking
         for i in range(7):
