@@ -10,10 +10,18 @@ W, H = 1280, 720
 OUT = "episodes/B-002-worst-jobs/final/"
 
 
-def plate(name, color=1.2, bright=1.0):
-    bg = Image.open(f"/tmp/claude-0/thumbplates/{name}.png").convert("RGBA").resize((W, H))
+def plate(shot, color=1.2, bright=0.75, blur=5):
+    """Background = a frame of the episode's own rendered plate, blurred + darkened so the cast pops (thumbnail checklist)."""
+    import subprocess, tempfile
+    t = tempfile.mktemp(suffix=".png")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", "0.5", "-i", f"episodes/B-002-worst-jobs/renders/{shot}.mp4", "-frames:v", "1", t], check=True)
+    bg = Image.open(t).convert("RGBA").resize((W, H)).filter(ImageFilter.GaussianBlur(blur))
     bg = ImageEnhance.Color(bg).enhance(color)
-    return ImageEnhance.Brightness(bg).enhance(bright)
+    bg = ImageEnhance.Brightness(bg).enhance(bright)
+    vig = Image.radial_gradient("L").resize((W, H)).point(lambda v: int(v * 0.75))
+    dark = Image.new("RGBA", (W, H), (5, 8, 16, 255)); dark.putalpha(vig)
+    bg.alpha_composite(dark)
+    return bg
 
 
 def put(f, im, cx, bottom):
@@ -41,29 +49,25 @@ def person(c, expr, arms, k, **kw):
     im, pv, u = human_frame(dict(c=c, expr=expr, arms=arms, **kw), 1.0, 2, None, 0.3)
     return im.resize((int(im.width * k), int(im.height * k)), Image.LANCZOS)
 
-# ---- A: gong farmer at the privy at night, shovel + bucket, "WORST JOB?"
-A = plate("THUMB_BACKYARD", 1.15, 1.25)
-A.alpha_composite(Image.new("RGBA", (W, H), (10, 20, 40, 40)))
-g = person("gongfarmer", "worried", "raise", 0.5, hold_r="shovel")
-put(A, glow(g, (255, 210, 140), 16), 930, H + 95)
-bk = prop("bucket", 190)
-put(A, glow(bk, (255, 210, 140), 12), 1150, H - 25)
-t = gfx.text_img("WORST JOB?", gfx.font("lilita", 138), gfx.C["yellow"], stroke=14)
-gfx.paste_center(A, t, 430, 120, 1.0, 1.0, rot=-4)
-n = gfx.text_img("#1", gfx.font("lilita", 190), gfx.C["coral"], stroke=14)
-gfx.paste_center(A, n, 300, 520, 1.0, 1.0, rot=-6)
+# ---- A (v2, click checklist): huge shocked gong farmer + glowing bucket, dark night, "WORST JOB?" + "#1"
+A = plate("S000", 1.1, 0.7)
+g = person("gongfarmer", "surprised", "both_up", 1.05)
+put(A, glow(g, (255, 210, 140), 22), 720, H + 520)
+bk = prop("bucket", 270)
+put(A, glow(bk, (140, 255, 120), 30), 1105, H - 20)
+t = gfx.text_img("WORST JOB?", gfx.font("lilita", 150), gfx.C["yellow"], stroke=16)
+gfx.paste_center(A, t, 450, 115, 1.0, 1.0, rot=-4)
+n = gfx.text_img("#1", gfx.font("lilita", 230), gfx.C["coral"], stroke=16)
+gfx.paste_center(A, n, 190, 480, 1.0, 1.0, rot=-6)
 A.convert("RGB").save(OUT + "thumb_A.jpg", quality=92)
 
-# ---- B: shocked Wy + toad boy holding up a toad at the fair, "WOULD YOU?!"
-B = plate("THUMB_FAIR", 1.2, 1.05)
-B.alpha_composite(Image.new("RGBA", (W, H), (11, 63, 76, 50)))
-wy = person("wy", "surprised", "both_up", 0.44)
-put(B, glow(wy, (255, 245, 220), 16), 260, H + 95)
-tb = person("toadboy", "worried", "present", 0.46)
-put(B, glow(tb, (255, 255, 230), 18), 900, H + 80)
-td = prop("toad", 330)
-put(B, glow(td, (255, 255, 200), 22), 650, 600)
-t2 = gfx.text_img("WOULD YOU?!", gfx.font("lilita", 140), gfx.C["cream"], stroke=14)
-gfx.paste_center(B, t2, 760, 105, 1.0, 1.0, rot=-3)
+# ---- B (v2): huge shocked boy, giant toad right at his face, "EAT IT?!"
+B = plate("S034", 1.25, 0.7)
+b = person("toadboy", "surprised", "both_up", 1.15)
+put(B, glow(b, (255, 245, 220), 20), 420, H + 560)
+td = prop("toad", 430)
+put(B, glow(td, (255, 255, 200), 26), 900, H - 90)
+t2 = gfx.text_img("EAT IT?!", gfx.font("lilita", 190), gfx.C["cream"], stroke=18)
+gfx.paste_center(B, t2, 900, 120, 1.0, 1.0, rot=-4)
 B.convert("RGB").save(OUT + "thumb_B.jpg", quality=92)
 print("ok")
