@@ -52,3 +52,5 @@
 ## 9 Nov 2026 00:36 UTC: truewhys-render-b002b v1 started (B-002 chapters 4–8, job_D, 2×T4, est. ~5 h). New Kaggle week.
 ## 9 Nov 2026 09:05 UTC: B-002 Shorts plates: truewhys-render-b002s1 (C5–C8, 31 shots) + b002s2 (C1–C4, 39 shots), 1080×1920, 64 spp, 2×T4 each. Part 2 (b002b) finished overnight.
 - 20:45 UTC B-002 Shorts plates done: b002s1 31/31 (~2.7 h), b002s2 39/39 (~3.9 h), 0 errors → ≈ 6.6 Kaggle h for the Shorts.
+## 10 Nov 2026 14:20 UTC: truewhys-render-a001 v1 (A-001 quicksand Short, 12 plates, 1080×1920, 64 spp, step 2 + interp, 2×T4)
+- 16:45 UTC done: 12/12, 0 errors, render wall 61.8 min on 2 GPUs (≈ 2.1 GPU h incl. setup).
