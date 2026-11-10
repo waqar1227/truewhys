@@ -2,7 +2,8 @@
 
 ## NEXT (keep this list short; heartbeat does only these)
 0. EVERY HEARTBEAT: `python lib/yt_stats.py` + competitor check → dated entry in research/daily_report.md (owner rule 10 Nov). Next 48 h check: 12 Nov.
-   A-001 Quicksand: DONE + SCHEDULED on YouTube (MLRRsaV4iUA, public 11 Nov 22:00 UTC = 03:00 PKT 12 Nov, QA pass, thumb set). TODO: TikTok via Metricool at 22:30 UTC 11 Nov — needs a fresh Dropbox token from the owner (old one 401); title "Why Quicksand Can't Actually Swallow You", end caption "Watch the full video on YouTube — @TrueWhys"? (standalone: use "More true whys on YouTube — @TrueWhys"). Next: A-004.
+   A-001 Quicksand: DONE + SCHEDULED on YouTube (MLRRsaV4iUA, public 11 Nov 22:00 UTC = 03:00 PKT 12 Nov, QA pass, thumb set). TODO: TikTok via Metricool at 22:30 UTC 11 Nov — needs a fresh Dropbox token from the owner (old one 401); title "Why Quicksand Can't Actually Swallow You", end caption "Watch the full video on YouTube — @TrueWhys"? (standalone: use "More true whys on YouTube — @TrueWhys").
+   NEXT EPISODE = A-004 "Why You Can't Tickle Yourself" (shorts_plan.md, category 4 Psychology). Steps: script lines.txt (25–40 s, payoff before 20 s, one person + one strange object in 1.5 s) + sources.md + topic.md → Gemini voice (direction.json) → plan.py, check stills (one contact sheet) → Kaggle render (copy notebooks/kaggle_jobs/a001) → compose → QA → schedule YouTube in the next free daily Short slot (22:00 UTC 12 Nov unless taken) + TikTok via Metricool 30 min later (needs fresh Dropbox token). Title 4–7 words, END WITH AN EMOJI (A/B vs A-001). Then A-002.
 Fresh session? Tools install via the environment setup script (tools/setup_env.sh). Rendered plates are not in git: fetch them from Kaggle.
 1. DONE 8 Nov 09:30 UTC: B-002 Gemini voice (9 chapters, FLAC masters committed), plan.py (98 shots, 6:11), shorts.py (8 Shorts 38–46 s).
    Still to do when scheduling: `python lib/upload_pkg.py episodes/B-002-worst-jobs <publishAt>`.
