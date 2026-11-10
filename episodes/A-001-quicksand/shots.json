@@ -8,7 +8,7 @@
  "episode": "A-001",
  "short": "A-001",
  "title": "What Happens If You Step Into Quicksand?",
- "duration": 41.86,
+ "duration": 40.01,
  "vertical": true,
  "shots": [
   {
@@ -99,7 +99,7 @@
    "music": "tension",
    "id": "A-001_00",
    "start": 0.0,
-   "dur": 3.569,
+   "dur": 3.56,
    "chapter": 0,
    "line_start": 0.12
   },
@@ -181,10 +181,10 @@
     ]
    ],
    "id": "A-001_01",
-   "start": 3.569,
-   "dur": 2.371,
+   "start": 3.56,
+   "dur": 2.36,
    "chapter": 0,
-   "line_start": 3.569
+   "line_start": 3.56
   },
   {
    "line": "L01",
@@ -264,10 +264,10 @@
     ]
    ],
    "id": "A-001_02",
-   "start": 5.941,
-   "dur": 2.371,
+   "start": 5.92,
+   "dur": 2.36,
    "chapter": 0,
-   "line_start": 3.569
+   "line_start": 3.56
   },
   {
    "line": "L02",
@@ -349,10 +349,10 @@
    ],
    "music": "curious",
    "id": "A-001_03",
-   "start": 8.312,
-   "dur": 5.002,
+   "start": 8.28,
+   "dur": 4.45,
    "chapter": 0,
-   "line_start": 8.312
+   "line_start": 8.28
   },
   {
    "line": "L03",
@@ -362,29 +362,29 @@
    "cam": {
     "from": {
      "pos": [
-      0.9,
-      -3.0,
-      1.5
+      0.7,
+      -1.5,
+      2.0
      ],
      "tgt": [
       0.0,
-      3.5,
-      0.45
+      3.4,
+      0.05
      ],
-     "lens": 26
+     "lens": 24
     },
     "to": {
      "pos": [
-      0.72,
-      -1.7,
-      1.29
+      0.5599999999999999,
+      -0.5199999999999999,
+      1.6099999999999999
      ],
      "tgt": [
       0.0,
-      3.5,
-      0.45
+      3.4,
+      0.05
      ],
-     "lens": 26.0
+     "lens": 24.0
     },
     "ease": "inout"
    },
@@ -425,10 +425,10 @@
     ]
    ],
    "id": "A-001_04",
-   "start": 13.314,
-   "dur": 3.441,
+   "start": 12.73,
+   "dur": 3.432,
    "chapter": 0,
-   "line_start": 13.314
+   "line_start": 12.73
   },
   {
    "line": "L03",
@@ -495,10 +495,10 @@
     ]
    ],
    "id": "A-001_05",
-   "start": 16.755,
-   "dur": 2.816,
+   "start": 16.162,
+   "dur": 2.808,
    "chapter": 0,
-   "line_start": 13.314
+   "line_start": 12.73
   },
   {
    "line": "L04",
@@ -576,10 +576,10 @@
    ],
    "music": "tension",
    "id": "A-001_06",
-   "start": 19.571,
-   "dur": 6.599,
+   "start": 18.97,
+   "dur": 5.54,
    "chapter": 0,
-   "line_start": 19.571
+   "line_start": 18.97
   },
   {
    "line": "L05",
@@ -650,10 +650,10 @@
    ],
    "music": "playful",
    "id": "A-001_07",
-   "start": 26.17,
-   "dur": 1.835,
+   "start": 24.51,
+   "dur": 1.995,
    "chapter": 0,
-   "line_start": 26.17
+   "line_start": 24.51
   },
   {
    "line": "L05",
@@ -726,10 +726,10 @@
     ]
    ],
    "id": "A-001_08",
-   "start": 28.005,
-   "dur": 3.409,
+   "start": 26.505,
+   "dur": 3.705,
    "chapter": 0,
-   "line_start": 26.17
+   "line_start": 24.51
   },
   {
    "line": "L06",
@@ -739,29 +739,29 @@
    "cam": {
     "from": {
      "pos": [
-      0.9,
-      -3.0,
-      1.5
+      0.7,
+      -1.5,
+      2.0
      ],
      "tgt": [
       0.0,
-      3.5,
-      0.45
+      3.4,
+      0.05
      ],
-     "lens": 26
+     "lens": 24
     },
     "to": {
      "pos": [
-      1.7000000000000002,
-      -2.6,
-      1.5
+      1.5,
+      -1.1,
+      2.0
      ],
      "tgt": [
       0.8,
-      3.9,
-      0.45
+      3.8,
+      0.05
      ],
-     "lens": 26
+     "lens": 24
     },
     "ease": "inout"
    },
@@ -771,7 +771,7 @@
      "at": [
       0.0,
       2.0,
-      -0.32
+      -0.18
      ],
      "h": 1.25,
      "face": "R",
@@ -785,7 +785,7 @@
       "to": [
        1.7,
        0.9,
-       -0.05
+       0.12
       ]
      }
     }
@@ -805,10 +805,10 @@
     ]
    ],
    "id": "A-001_09",
-   "start": 31.414,
-   "dur": 2.439,
+   "start": 30.21,
+   "dur": 2.78,
    "chapter": 0,
-   "line_start": 31.414
+   "line_start": 30.21
   },
   {
    "line": "L07",
@@ -887,10 +887,10 @@
    ],
    "music": "tension",
    "id": "A-001_10",
-   "start": 33.853,
-   "dur": 3.362,
+   "start": 32.99,
+   "dur": 2.772,
    "chapter": 0,
-   "line_start": 33.853
+   "line_start": 32.99
   },
   {
    "line": "L07",
@@ -960,17 +960,17 @@
     ]
    ],
    "id": "A-001_11",
-   "start": 37.215,
-   "dur": 2.242,
+   "start": 35.762,
+   "dur": 1.848,
    "chapter": 0,
-   "line_start": 33.853
+   "line_start": 32.99
   },
   {
    "id": "A-001_END",
    "kind": "end",
    "line": "O1",
-   "start": 39.457,
-   "line_start": 39.577,
+   "start": 37.61,
+   "line_start": 37.73,
    "dur": 2.4,
    "chapter": null,
    "chars": [],

@@ -192,3 +192,11 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
 - **Maximum one long video per day.** If a second one is finished the same day, schedule it (private + `publishAt`) for the next day.
 - Its cut Shorts are **scheduled after the long video**: all within 24 h of it going public, about one every 3 h (first ~1 h after).
 - Standalone Shorts keep their own daily slots in the gaps. B-002 went public 10 Nov 03:50 UTC (owner); its Shorts were moved to 05:00 → 02:00 UTC.
+
+## Owner rule added 10 Nov 2026: daily growth review and continuous improvement
+- Act as growth strategist, competitor analyst, SEO specialist and production director. Goal: maximum organic growth through continuous improvement.
+- Every day (heartbeat): run `python lib/yt_stats.py`, check every video at 24–48 h (views, retention, watch time, subs; owner pastes CTR/impressions from Studio),
+  look at competitors' latest hits (yt-dlp view counts on Rick's Clips, Zack D. Films, Ink Explainer), and add a dated entry to `research/daily_report.md`:
+  what worked, what failed and why, and the specific changes for the next video.
+- Every new video must be a deliberate improvement on the previous ones. Never repeat a strategy that underperformed without analysing and changing it;
+  test new topics, hooks, story styles, thumbnails and editing. Never prioritise quantity over quality.
