@@ -24,12 +24,10 @@ Fresh session? Tools install via the environment setup script (tools/setup_env.s
    then every heartbeat: `python lib/fb_post.py <ep> comments`.
    TikTok: all 7 B-001 Shorts scheduled in Metricool (ids 420686149…420686951, 16:30 UTC 8 Nov → 10:30 UTC 9 Nov), owner gave a one-off fresh
    Dropbox token; Dropbox copies deleted. From B-002 on: TikTok direct API (owner's keys ~10–11 Nov). Owner: set Related video on B-001 Shorts.
-6. Owner (8 Nov): after B-002 is finished and scheduled, and BEFORE starting episode 3: plan and make a batch of standalone viral Shorts
-   FOLLOW research/format_study.md: shocking visual in the first 1–2 s, 30–45 s, Zack-D topic shapes (How X works inside / What happens if /
-   Why you should never) in our toon style. Episode 3 = first "What Did ___ Actually Do All Day?" series episode (8–10 min).
-   (new topics, rotate categories per skill §8, strongest hooks/title patterns; same QA gate; Kaggle plates; schedule in the gaps between
-   B-002's cut Shorts and episode 3; crosspost to TikTok + Facebook). Write the plan to shorts_plan.md first (5–8 ideas, ranked by hook strength).
-   Include the first Style R realistic test Short (Zack D. Films FORMAT, our own original idea and models, Kaggle render) in this batch.
+6. DONE 10 Nov 01:10 UTC: shorts_plan.md written (7 standalone Shorts A-001…A-007 ranked by hook; A-003 = first Style R test).
+   NEXT: for A-001…A-007 in plan order: script + sources.md + topic.md → Kokoro draft → animatics → send all 7 to owner for approval
+   → Gemini voice (1 request/Short) → Kaggle vertical plates → compose → QA → schedule (22:00 UTC daily slots from 13 Nov). Then episode 3
+   ("What Did ___ Actually Do All Day?", 8–10 min).
 
 ## History
 
