@@ -1334,10 +1334,7 @@ def brain(cx, cy, cz, s, depth=None, pink="#F7A8B8", fold="#E27E98", cereb="#C98
     sm = mat("brainstem" + stem + str(emit), stem, rough=0.6, noise=0.05, emit=stem if emit else None, emit_strength=emit)
     # brain stem first (furthest back), then cerebellum, cerebrum, temporal lobe on top
     tube([(cx - 0.2 * s, cy + d * 0.5, cz - 0.2 * s), (cx - 0.3 * s, cy + d * 0.5, cz - 0.6 * s), (cx - 0.36 * s, cy + d * 0.5, cz - 1.15 * s)], 0.13 * s, sm, radii=[1.0, 0.9, 0.6])
-    poly(_scallop([(x, z) for x, z in CEREB], 0.05, 7), cy + d * 0.2, d * 0.8, cm, bevel=0.03 * s, axis="xz")
-    pcb = P(_scallop(CEREB, 0.05, 7))
-    bpy.data.objects.remove(bpy.context.collection.objects[-1])   # rebuild in place with the real coordinates
-    poly(pcb, cy + d * 0.2, d * 0.8, cm, bevel=0.03 * s)
+    poly(P(_scallop(CEREB, 0.05, 7)), cy + d * 0.2, d * 0.8, cm, bevel=0.03 * s)
     for k in range(4):       # cerebellum stripes
         z = cz + (-0.4 - k * 0.09) * s
         tube([(cx - 0.9 * s + 0.04 * k * s, cy + d * 0.18, z), (cx - 0.65 * s, cy + d * 0.16, z - 0.02 * s), (cx - 0.4 * s, cy + d * 0.18, z + 0.01 * s)], 0.012 * s,
@@ -1558,7 +1555,6 @@ def set_lab(variant="day"):
     for k, c in enumerate(("#FFF4E0", "#FF6B5B", "#5ED3B5")):
         box((xl + 0.22, 0.2 + k * 0.5, 3.18 + 0.14), (0.3, 0.4, 0.26), mat("boxf" + c, c, rough=0.7, noise=0.05), 0.02)
     brain(xl + 0.16, 2.6, 3.5, 0.3, depth=0.1)
-    bpy.context.collection.objects[-1]  # (brain faces -y; fine as a shelf model seen from the room)
     _plant((xl + 0.25, 3.5, 3.18), 0.4, "#FFC93C")
     box((xl + 0.35, 4.6, 0.6), (0.7, 1.4, 1.2), mat("cab", "#2A9AA2", rough=0.5, noise=0.04), 0.03)
     box((xl + 0.35, 4.6, 1.22), (0.75, 1.45, 0.05), cream, 0.02)
