@@ -170,3 +170,10 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
 - No polling loops: one background waiter per long job. Look at images only for animatic review and final QA, using one small contact sheet.
 - Keep messages to the owner short: what was done, what's next, anything he must do.
 - Gemini takes are kept as FLAC masters so a new session never spends the daily voice quota twice.
+
+## Owner rule added 10 Nov 2026: which model does what (until 17 Nov 2026, then review)
+- **Fable 5.2** (Agent tool, `model: "fable"`) only for genuinely hard work where quality gains: Style R realistic scenes (A-003 plane cabin),
+  complex new 3D sets/cutaways, final QA judgement of tricky shots. The owner resets the limit when it is reached.
+- **Normal session model** for scripts, research, voice, animatics, compose and QA.
+- **Sonnet** (`model: "sonnet"`) for routine scheduling/upload/comment/cross-post steps (heartbeat chores).
+- Tell the owner in one line whenever Fable 5.2 was used and for what.
