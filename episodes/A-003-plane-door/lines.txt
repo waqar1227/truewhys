@@ -7,3 +7,4 @@ L04|0|On most jets, the door is a plug: it's bigger than its frame, so it has to
 L05|0|But the air pushes it into the frame with about eight tonnes of force. More than a big elephant.
 L06|0|No human arms can win that fight.
 L07|0|So next time you sit by the exit... relax. The air is holding it shut.
+O1|0|Follow for more true whys.||Follow for more true whys.
