@@ -1,0 +1,643 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "There's a reason you'll never see a square plane window.",
+  "dur": 3.167,
+  "words": [
+   {
+    "w": "There's",
+    "s": 0.0,
+    "e": 0.26
+   },
+   {
+    "w": "a",
+    "s": 0.26,
+    "e": 0.34
+   },
+   {
+    "w": "reason",
+    "s": 0.34,
+    "e": 0.72
+   },
+   {
+    "w": "you'll",
+    "s": 0.72,
+    "e": 1.3
+   },
+   {
+    "w": "never",
+    "s": 1.3,
+    "e": 1.52
+   },
+   {
+    "w": "see",
+    "s": 1.52,
+    "e": 1.76
+   },
+   {
+    "w": "a",
+    "s": 1.76,
+    "e": 1.92
+   },
+   {
+    "w": "square",
+    "s": 1.92,
+    "e": 2.2
+   },
+   {
+    "w": "plane",
+    "s": 2.2,
+    "e": 2.52
+   },
+   {
+    "w": "window.",
+    "s": 2.52,
+    "e": 2.94
+   }
+  ],
+  "heard": "There's a reason you'll never see a square plane window."
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "In 1954, two Comet jets, the world's first jet airliners, broke apart in the air within months.",
+  "dur": 7.872,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "1954,",
+    "s": 0.18,
+    "e": 1.16
+   },
+   {
+    "w": "two",
+    "s": 1.78,
+    "e": 2.06
+   },
+   {
+    "w": "Comet",
+    "s": 2.06,
+    "e": 2.44
+   },
+   {
+    "w": "jets,",
+    "s": 2.44,
+    "e": 2.88
+   },
+   {
+    "w": "the",
+    "s": 3.34,
+    "e": 3.44
+   },
+   {
+    "w": "world's",
+    "s": 3.44,
+    "e": 3.84
+   },
+   {
+    "w": "first",
+    "s": 3.84,
+    "e": 4.2
+   },
+   {
+    "w": "jet",
+    "s": 4.2,
+    "e": 4.5
+   },
+   {
+    "w": "airliners,",
+    "s": 4.5,
+    "e": 5.16
+   },
+   {
+    "w": "broke",
+    "s": 5.62,
+    "e": 5.84
+   },
+   {
+    "w": "apart",
+    "s": 5.84,
+    "e": 6.3
+   },
+   {
+    "w": "in",
+    "s": 6.3,
+    "e": 6.56
+   },
+   {
+    "w": "the",
+    "s": 6.56,
+    "e": 6.68
+   },
+   {
+    "w": "air",
+    "s": 6.68,
+    "e": 6.96
+   },
+   {
+    "w": "within",
+    "s": 6.96,
+    "e": 7.22
+   },
+   {
+    "w": "months.",
+    "s": 7.22,
+    "e": 7.56
+   }
+  ],
+  "heard": "In 1954, two Comet jets, the world's first jet airliners, broke apart in the air within months."
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "To find out why, engineers sank a whole Comet in a giant water tank.",
+  "dur": 4.736,
+  "words": [
+   {
+    "w": "To",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "find",
+    "s": 0.14,
+    "e": 0.38
+   },
+   {
+    "w": "out",
+    "s": 0.38,
+    "e": 0.58
+   },
+   {
+    "w": "why,",
+    "s": 0.58,
+    "e": 1.1
+   },
+   {
+    "w": "engineers",
+    "s": 1.7,
+    "e": 1.94
+   },
+   {
+    "w": "sank",
+    "s": 1.94,
+    "e": 2.36
+   },
+   {
+    "w": "a",
+    "s": 2.36,
+    "e": 2.52
+   },
+   {
+    "w": "whole",
+    "s": 2.52,
+    "e": 2.76
+   },
+   {
+    "w": "Comet",
+    "s": 2.76,
+    "e": 3.14
+   },
+   {
+    "w": "in",
+    "s": 3.14,
+    "e": 3.38
+   },
+   {
+    "w": "a",
+    "s": 3.38,
+    "e": 3.56
+   },
+   {
+    "w": "giant",
+    "s": 3.56,
+    "e": 3.86
+   },
+   {
+    "w": "water",
+    "s": 3.86,
+    "e": 4.16
+   },
+   {
+    "w": "tank.",
+    "s": 4.16,
+    "e": 4.5
+   }
+  ],
+  "heard": "To find out why, engineers sank a whole comet in a giant water tank."
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "They pumped it up and let it down again and again, like thousands of flights.",
+  "dur": 4.501,
+  "words": [
+   {
+    "w": "They",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "pumped",
+    "s": 0.18,
+    "e": 0.42
+   },
+   {
+    "w": "it",
+    "s": 0.42,
+    "e": 0.58
+   },
+   {
+    "w": "up",
+    "s": 0.58,
+    "e": 0.74
+   },
+   {
+    "w": "and",
+    "s": 0.74,
+    "e": 0.9
+   },
+   {
+    "w": "let",
+    "s": 0.9,
+    "e": 1.02
+   },
+   {
+    "w": "it",
+    "s": 1.02,
+    "e": 1.18
+   },
+   {
+    "w": "down",
+    "s": 1.18,
+    "e": 1.36
+   },
+   {
+    "w": "again",
+    "s": 1.36,
+    "e": 1.76
+   },
+   {
+    "w": "and",
+    "s": 1.76,
+    "e": 1.94
+   },
+   {
+    "w": "again,",
+    "s": 1.94,
+    "e": 2.36
+   },
+   {
+    "w": "like",
+    "s": 2.82,
+    "e": 3.0
+   },
+   {
+    "w": "thousands",
+    "s": 3.0,
+    "e": 3.58
+   },
+   {
+    "w": "of",
+    "s": 3.58,
+    "e": 3.84
+   },
+   {
+    "w": "flights.",
+    "s": 3.84,
+    "e": 4.18
+   }
+  ],
+  "heard": "They pumped it up and let it down again and again, like thousands of flights."
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "Until a crack appeared... at the sharp corner of a squarish window.",
+  "dur": 4.086,
+  "words": [
+   {
+    "w": "Until",
+    "s": 0.0,
+    "e": 0.3
+   },
+   {
+    "w": "a",
+    "s": 0.3,
+    "e": 0.48
+   },
+   {
+    "w": "crack",
+    "s": 0.48,
+    "e": 0.74
+   },
+   {
+    "w": "appeared...",
+    "s": 0.74,
+    "e": 1.82
+   },
+   {
+    "w": "at",
+    "s": 1.82,
+    "e": 1.84
+   },
+   {
+    "w": "the",
+    "s": 1.84,
+    "e": 2.0
+   },
+   {
+    "w": "sharp",
+    "s": 2.0,
+    "e": 2.28
+   },
+   {
+    "w": "corner",
+    "s": 2.28,
+    "e": 2.6
+   },
+   {
+    "w": "of",
+    "s": 2.6,
+    "e": 2.84
+   },
+   {
+    "w": "a",
+    "s": 2.84,
+    "e": 2.94
+   },
+   {
+    "w": "squarish",
+    "s": 2.94,
+    "e": 3.42
+   },
+   {
+    "w": "window.",
+    "s": 3.42,
+    "e": 3.84
+   }
+  ],
+  "heard": "Until a crack appeared... at the sharp corner of a squarish window."
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "Stress flows around an opening like water around a rock. At a sharp corner, it piles up.",
+  "dur": 5.931,
+  "words": [
+   {
+    "w": "Stress",
+    "s": 0.0,
+    "e": 0.3
+   },
+   {
+    "w": "flows",
+    "s": 0.3,
+    "e": 0.72
+   },
+   {
+    "w": "around",
+    "s": 0.72,
+    "e": 1.06
+   },
+   {
+    "w": "an",
+    "s": 1.06,
+    "e": 1.22
+   },
+   {
+    "w": "opening",
+    "s": 1.22,
+    "e": 1.62
+   },
+   {
+    "w": "like",
+    "s": 1.62,
+    "e": 1.9
+   },
+   {
+    "w": "water",
+    "s": 1.9,
+    "e": 2.34
+   },
+   {
+    "w": "around",
+    "s": 2.34,
+    "e": 2.64
+   },
+   {
+    "w": "a",
+    "s": 2.64,
+    "e": 2.82
+   },
+   {
+    "w": "rock.",
+    "s": 2.82,
+    "e": 3.18
+   },
+   {
+    "w": "At",
+    "s": 3.64,
+    "e": 3.78
+   },
+   {
+    "w": "a",
+    "s": 3.78,
+    "e": 4.0
+   },
+   {
+    "w": "sharp",
+    "s": 4.0,
+    "e": 4.18
+   },
+   {
+    "w": "corner,",
+    "s": 4.18,
+    "e": 4.68
+   },
+   {
+    "w": "it",
+    "s": 5.0,
+    "e": 5.08
+   },
+   {
+    "w": "piles",
+    "s": 5.08,
+    "e": 5.38
+   },
+   {
+    "w": "up.",
+    "s": 5.38,
+    "e": 5.74
+   }
+  ],
+  "heard": "Stress flows around an opening like water around a rock. At a sharp corner, it piles up."
+ },
+ {
+  "id": "L06",
+  "chapter": 0,
+  "text": "Round corners spread it out. So every airliner window since has rounded corners.",
+  "dur": 5.483,
+  "words": [
+   {
+    "w": "Round",
+    "s": 0.0,
+    "e": 0.34
+   },
+   {
+    "w": "corners",
+    "s": 0.34,
+    "e": 0.8
+   },
+   {
+    "w": "spread",
+    "s": 0.8,
+    "e": 1.14
+   },
+   {
+    "w": "it",
+    "s": 1.14,
+    "e": 1.26
+   },
+   {
+    "w": "out.",
+    "s": 1.26,
+    "e": 1.56
+   },
+   {
+    "w": "So",
+    "s": 2.12,
+    "e": 2.14
+   },
+   {
+    "w": "every",
+    "s": 2.14,
+    "e": 2.48
+   },
+   {
+    "w": "airliner",
+    "s": 2.48,
+    "e": 3.04
+   },
+   {
+    "w": "window",
+    "s": 3.04,
+    "e": 3.5
+   },
+   {
+    "w": "since",
+    "s": 3.5,
+    "e": 3.9
+   },
+   {
+    "w": "has",
+    "s": 3.9,
+    "e": 4.18
+   },
+   {
+    "w": "rounded",
+    "s": 4.18,
+    "e": 4.64
+   },
+   {
+    "w": "corners.",
+    "s": 4.64,
+    "e": 5.14
+   }
+  ],
+  "heard": "Round corners spread it out. So every airliner window since has rounded corners."
+ },
+ {
+  "id": "L07",
+  "chapter": 0,
+  "text": "What other shapes around you are hiding a reason?",
+  "dur": 2.808,
+  "words": [
+   {
+    "w": "What",
+    "s": 0.0,
+    "e": 0.2
+   },
+   {
+    "w": "other",
+    "s": 0.2,
+    "e": 0.44
+   },
+   {
+    "w": "shapes",
+    "s": 0.44,
+    "e": 0.72
+   },
+   {
+    "w": "around",
+    "s": 0.72,
+    "e": 1.12
+   },
+   {
+    "w": "you",
+    "s": 1.12,
+    "e": 1.38
+   },
+   {
+    "w": "are",
+    "s": 1.38,
+    "e": 1.7
+   },
+   {
+    "w": "hiding",
+    "s": 1.7,
+    "e": 2.08
+   },
+   {
+    "w": "a",
+    "s": 2.08,
+    "e": 2.28
+   },
+   {
+    "w": "reason?",
+    "s": 2.28,
+    "e": 2.58
+   }
+  ],
+  "heard": "What other shapes around you are hiding a reason?"
+ },
+ {
+  "id": "O1",
+  "chapter": 0,
+  "text": "Follow for more true whys.",
+  "dur": 1.785,
+  "words": [
+   {
+    "w": "Follow",
+    "s": 0.0,
+    "e": 0.34
+   },
+   {
+    "w": "for",
+    "s": 0.34,
+    "e": 0.6
+   },
+   {
+    "w": "more",
+    "s": 0.6,
+    "e": 0.78
+   },
+   {
+    "w": "true",
+    "s": 0.78,
+    "e": 1.06
+   },
+   {
+    "w": "whys.",
+    "s": 1.06,
+    "e": 1.58
+   }
+  ],
+  "heard": "Follow for more true whys."
+ }
+]

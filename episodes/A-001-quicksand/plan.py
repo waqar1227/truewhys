@@ -16,8 +16,8 @@ TIDE = M([0.8, -2.5, 1.0], [0.3, 11.0, 0.6], 26)          # looking over Wy to t
 ST_WY = M([0.6, -2.4, 1.0], [0.6, 0.55, 0.78], 30)
 
 
-def WY(z=-0.55, expr="surprised", arms="both_up", **kw):
-    return A("wy", [PIT[0], PIT[1], z], 1.25, "R", expr, arms, cut=[PIT[1], 0.02], **kw)
+def WY(z=-0.55, expr="surprised", arms="both_up", face="R", **kw):
+    return A("wy", [PIT[0], PIT[1], z], 1.25, face, expr, arms, cut=[PIT[1], 0.02], **kw)
 
 
 WYS = lambda expr="happy", arms="down", **kw: A("wy", [0.6, 0.55, 0], 1.25, "R", expr, arms, talk=True, **kw)

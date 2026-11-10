@@ -1,0 +1,623 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "These soldiers broke into a castle... through the toilet.",
+  "dur": 3.246,
+  "words": [
+   {
+    "w": "These",
+    "s": 0.0,
+    "e": 0.22
+   },
+   {
+    "w": "soldiers",
+    "s": 0.22,
+    "e": 0.72
+   },
+   {
+    "w": "broke",
+    "s": 0.72,
+    "e": 1.04
+   },
+   {
+    "w": "into",
+    "s": 1.04,
+    "e": 1.28
+   },
+   {
+    "w": "a",
+    "s": 1.28,
+    "e": 1.44
+   },
+   {
+    "w": "castle...",
+    "s": 1.44,
+    "e": 2.4
+   },
+   {
+    "w": "through",
+    "s": 2.4,
+    "e": 2.48
+   },
+   {
+    "w": "the",
+    "s": 2.48,
+    "e": 2.64
+   },
+   {
+    "w": "toilet.",
+    "s": 2.64,
+    "e": 2.96
+   }
+  ],
+  "heard": "These soldiers broke into a castle... through the toilet."
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "Castle toilets were called garderobes: tiny rooms on the outer wall with a stone seat.",
+  "dur": 5.475,
+  "words": [
+   {
+    "w": "Castle",
+    "s": 0.0,
+    "e": 0.38
+   },
+   {
+    "w": "toilets",
+    "s": 0.38,
+    "e": 0.76
+   },
+   {
+    "w": "were",
+    "s": 0.76,
+    "e": 1.02
+   },
+   {
+    "w": "called",
+    "s": 1.02,
+    "e": 1.32
+   },
+   {
+    "w": "garderobes:",
+    "s": 1.32,
+    "e": 2.36
+   },
+   {
+    "w": "tiny",
+    "s": 2.68,
+    "e": 2.88
+   },
+   {
+    "w": "rooms",
+    "s": 2.88,
+    "e": 3.34
+   },
+   {
+    "w": "on",
+    "s": 3.34,
+    "e": 3.56
+   },
+   {
+    "w": "the",
+    "s": 3.56,
+    "e": 3.7
+   },
+   {
+    "w": "outer",
+    "s": 3.7,
+    "e": 3.96
+   },
+   {
+    "w": "wall",
+    "s": 3.96,
+    "e": 4.34
+   },
+   {
+    "w": "with",
+    "s": 4.34,
+    "e": 4.54
+   },
+   {
+    "w": "a",
+    "s": 4.54,
+    "e": 4.66
+   },
+   {
+    "w": "stone",
+    "s": 4.66,
+    "e": 4.98
+   },
+   {
+    "w": "seat.",
+    "s": 4.98,
+    "e": 5.32
+   }
+  ],
+  "heard": "Castle toilets were called garderobes, tiny rooms on the outer wall with a stone seat."
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "Under the seat, a chute dropped straight down the outside of the wall, often into the moat.",
+  "dur": 5.456,
+  "words": [
+   {
+    "w": "Under",
+    "s": 0.0,
+    "e": 0.24
+   },
+   {
+    "w": "the",
+    "s": 0.24,
+    "e": 0.4
+   },
+   {
+    "w": "seat,",
+    "s": 0.4,
+    "e": 0.76
+   },
+   {
+    "w": "a",
+    "s": 1.22,
+    "e": 1.28
+   },
+   {
+    "w": "chute",
+    "s": 1.28,
+    "e": 1.62
+   },
+   {
+    "w": "dropped",
+    "s": 1.62,
+    "e": 1.98
+   },
+   {
+    "w": "straight",
+    "s": 1.98,
+    "e": 2.38
+   },
+   {
+    "w": "down",
+    "s": 2.38,
+    "e": 2.66
+   },
+   {
+    "w": "the",
+    "s": 2.66,
+    "e": 2.8
+   },
+   {
+    "w": "outside",
+    "s": 2.8,
+    "e": 3.2
+   },
+   {
+    "w": "of",
+    "s": 3.2,
+    "e": 3.4
+   },
+   {
+    "w": "the",
+    "s": 3.4,
+    "e": 3.52
+   },
+   {
+    "w": "wall,",
+    "s": 3.52,
+    "e": 3.88
+   },
+   {
+    "w": "often",
+    "s": 4.4,
+    "e": 4.54
+   },
+   {
+    "w": "into",
+    "s": 4.54,
+    "e": 4.8
+   },
+   {
+    "w": "the",
+    "s": 4.8,
+    "e": 4.96
+   },
+   {
+    "w": "moat.",
+    "s": 4.96,
+    "e": 5.34
+   }
+  ],
+  "heard": "Under the seat, a chute dropped straight down the outside of the wall, often into the moat."
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "In 1204, French soldiers were besieging Ch\u00e2teau Gaillard, one of the strongest castles in Europe.",
+  "dur": 8.043,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.0,
+    "e": 0.22
+   },
+   {
+    "w": "1204,",
+    "s": 0.22,
+    "e": 1.92
+   },
+   {
+    "w": "French",
+    "s": 2.54,
+    "e": 2.62
+   },
+   {
+    "w": "soldiers",
+    "s": 2.62,
+    "e": 3.18
+   },
+   {
+    "w": "were",
+    "s": 3.18,
+    "e": 3.42
+   },
+   {
+    "w": "besieging",
+    "s": 3.42,
+    "e": 4.14
+   },
+   {
+    "w": "Ch\u00e2teau",
+    "s": 4.14,
+    "e": 4.66
+   },
+   {
+    "w": "Gaillard,",
+    "s": 4.66,
+    "e": 5.18
+   },
+   {
+    "w": "one",
+    "s": 5.76,
+    "e": 5.9
+   },
+   {
+    "w": "of",
+    "s": 5.9,
+    "e": 6.0
+   },
+   {
+    "w": "the",
+    "s": 6.0,
+    "e": 6.1
+   },
+   {
+    "w": "strongest",
+    "s": 6.1,
+    "e": 6.6
+   },
+   {
+    "w": "castles",
+    "s": 6.6,
+    "e": 7.14
+   },
+   {
+    "w": "in",
+    "s": 7.14,
+    "e": 7.5
+   },
+   {
+    "w": "Europe.",
+    "s": 7.5,
+    "e": 7.82
+   }
+  ],
+  "heard": "In 1204, French soldiers were besieging Ch\u00e2teau Gaillard, one of the strongest castles in Europe."
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "Accounts say a few men climbed up a latrine chute, got inside... and let their army in.",
+  "dur": 5.598,
+  "words": [
+   {
+    "w": "Accounts",
+    "s": 0.0,
+    "e": 0.34
+   },
+   {
+    "w": "say",
+    "s": 0.34,
+    "e": 0.66
+   },
+   {
+    "w": "a",
+    "s": 0.66,
+    "e": 0.8
+   },
+   {
+    "w": "few",
+    "s": 0.8,
+    "e": 0.94
+   },
+   {
+    "w": "men",
+    "s": 0.94,
+    "e": 1.16
+   },
+   {
+    "w": "climbed",
+    "s": 1.16,
+    "e": 1.54
+   },
+   {
+    "w": "up",
+    "s": 1.54,
+    "e": 1.76
+   },
+   {
+    "w": "a",
+    "s": 1.76,
+    "e": 1.9
+   },
+   {
+    "w": "latrine",
+    "s": 1.9,
+    "e": 2.24
+   },
+   {
+    "w": "chute,",
+    "s": 2.24,
+    "e": 2.66
+   },
+   {
+    "w": "got",
+    "s": 2.82,
+    "e": 3.06
+   },
+   {
+    "w": "inside...",
+    "s": 3.06,
+    "e": 4.28
+   },
+   {
+    "w": "and",
+    "s": 4.28,
+    "e": 4.38
+   },
+   {
+    "w": "let",
+    "s": 4.38,
+    "e": 4.58
+   },
+   {
+    "w": "their",
+    "s": 4.58,
+    "e": 4.78
+   },
+   {
+    "w": "army",
+    "s": 4.78,
+    "e": 5.14
+   },
+   {
+    "w": "in.",
+    "s": 5.14,
+    "e": 5.46
+   }
+  ],
+  "heard": "Accounts say a few men climbed up a latrine chute, got inside... and let their army in."
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "Later castles added bars and bends to their chutes.",
+  "dur": 3.155,
+  "words": [
+   {
+    "w": "Later",
+    "s": 0.0,
+    "e": 0.24
+   },
+   {
+    "w": "castles",
+    "s": 0.24,
+    "e": 0.66
+   },
+   {
+    "w": "added",
+    "s": 0.66,
+    "e": 1.14
+   },
+   {
+    "w": "bars",
+    "s": 1.14,
+    "e": 1.58
+   },
+   {
+    "w": "and",
+    "s": 1.58,
+    "e": 1.86
+   },
+   {
+    "w": "bends",
+    "s": 1.86,
+    "e": 2.12
+   },
+   {
+    "w": "to",
+    "s": 2.12,
+    "e": 2.36
+   },
+   {
+    "w": "their",
+    "s": 2.36,
+    "e": 2.48
+   },
+   {
+    "w": "chutes.",
+    "s": 2.48,
+    "e": 2.96
+   }
+  ],
+  "heard": "Later castles added bars and bends to their chutes."
+ },
+ {
+  "id": "L06",
+  "chapter": 0,
+  "text": "And some say clothes were hung in garderobes, because the smell kept the moths away.",
+  "dur": 5.135,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "some",
+    "s": 0.14,
+    "e": 0.34
+   },
+   {
+    "w": "say",
+    "s": 0.34,
+    "e": 0.66
+   },
+   {
+    "w": "clothes",
+    "s": 0.66,
+    "e": 1.14
+   },
+   {
+    "w": "were",
+    "s": 1.14,
+    "e": 1.38
+   },
+   {
+    "w": "hung",
+    "s": 1.38,
+    "e": 1.6
+   },
+   {
+    "w": "in",
+    "s": 1.6,
+    "e": 1.8
+   },
+   {
+    "w": "garderobes,",
+    "s": 1.8,
+    "e": 2.86
+   },
+   {
+    "w": "because",
+    "s": 2.88,
+    "e": 3.22
+   },
+   {
+    "w": "the",
+    "s": 3.22,
+    "e": 3.4
+   },
+   {
+    "w": "smell",
+    "s": 3.4,
+    "e": 3.74
+   },
+   {
+    "w": "kept",
+    "s": 3.74,
+    "e": 4.08
+   },
+   {
+    "w": "the",
+    "s": 4.08,
+    "e": 4.26
+   },
+   {
+    "w": "moths",
+    "s": 4.26,
+    "e": 4.54
+   },
+   {
+    "w": "away.",
+    "s": 4.54,
+    "e": 4.86
+   }
+  ],
+  "heard": "And some say clothes were hung in garderobes, because the smell kept the moths away."
+ },
+ {
+  "id": "L07",
+  "chapter": 0,
+  "text": "So, would you have climbed it?",
+  "dur": 1.443,
+  "words": [
+   {
+    "w": "So,",
+    "s": 0.0,
+    "e": 0.3
+   },
+   {
+    "w": "would",
+    "s": 0.46,
+    "e": 0.54
+   },
+   {
+    "w": "you",
+    "s": 0.54,
+    "e": 0.68
+   },
+   {
+    "w": "have",
+    "s": 0.68,
+    "e": 0.82
+   },
+   {
+    "w": "climbed",
+    "s": 0.82,
+    "e": 1.12
+   },
+   {
+    "w": "it?",
+    "s": 1.12,
+    "e": 1.34
+   }
+  ],
+  "heard": "So, would you have climbed it?"
+ },
+ {
+  "id": "O1",
+  "chapter": 0,
+  "text": "Follow for more true whys.",
+  "dur": 1.785,
+  "words": [
+   {
+    "w": "Follow",
+    "s": 0.0,
+    "e": 0.34
+   },
+   {
+    "w": "for",
+    "s": 0.34,
+    "e": 0.6
+   },
+   {
+    "w": "more",
+    "s": 0.6,
+    "e": 0.78
+   },
+   {
+    "w": "true",
+    "s": 0.78,
+    "e": 1.06
+   },
+   {
+    "w": "whys.",
+    "s": 1.06,
+    "e": 1.58
+   }
+  ],
+  "heard": "Follow for more true whys."
+ }
+]

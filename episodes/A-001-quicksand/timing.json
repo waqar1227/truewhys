@@ -630,5 +630,39 @@
    }
   ],
   "heard": "The real danger isn't the sand. It's the tide coming in. Would you stay calm?"
+ },
+ {
+  "id": "O1",
+  "chapter": 0,
+  "text": "Follow for more true whys.",
+  "dur": 1.785,
+  "words": [
+   {
+    "w": "Follow",
+    "s": 0.0,
+    "e": 0.34
+   },
+   {
+    "w": "for",
+    "s": 0.34,
+    "e": 0.6
+   },
+   {
+    "w": "more",
+    "s": 0.6,
+    "e": 0.78
+   },
+   {
+    "w": "true",
+    "s": 0.78,
+    "e": 1.06
+   },
+   {
+    "w": "whys.",
+    "s": 1.06,
+    "e": 1.58
+   }
+  ],
+  "heard": "Follow for more true whys."
  }
 ]

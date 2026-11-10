@@ -1,0 +1,954 @@
+{
+ "fps": 30,
+ "resolution": [
+  1080,
+  1920
+ ],
+ "style": "T",
+ "episode": "A-001",
+ "short": "A-001",
+ "title": "What Happens If You Step Into Quicksand?",
+ "duration": 41.86,
+ "vertical": true,
+ "shots": [
+  {
+   "line": "H1",
+   "kind": "3d",
+   "set": "marsh",
+   "variant": "tide",
+   "cam": {
+    "from": {
+     "pos": [
+      0.15,
+      -0.6,
+      0.75
+     ],
+     "tgt": [
+      0.0,
+      2.0,
+      0.35
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.1275,
+      -0.20999999999999996,
+      0.69
+     ],
+     "tgt": [
+      0.0,
+      2.0,
+      0.35
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.0,
+      2.0,
+      -0.35
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "both_up",
+     "cut": [
+      2.0,
+      0.02
+     ],
+     "blink_fast": true,
+     "walk": {
+      "to": [
+       0,
+       2.0,
+       -0.6
+      ]
+     }
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.02,
+     "SINKING?!",
+     1.45
+    ]
+   ],
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ],
+    [
+     0.1,
+     "splash",
+     0.4
+    ],
+    [
+     0,
+     "wind",
+     0.3
+    ]
+   ],
+   "music": "tension",
+   "id": "A-001_00",
+   "start": 0.0,
+   "dur": 3.569,
+   "chapter": 0,
+   "line_start": 0.12
+  },
+  {
+   "line": "L01",
+   "kind": "3d",
+   "set": "marsh",
+   "variant": "tide",
+   "cam": {
+    "from": {
+     "pos": [
+      0.15,
+      -0.6,
+      0.75
+     ],
+     "tgt": [
+      0.0,
+      2.0,
+      0.35
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.13799999999999998,
+      -0.39199999999999996,
+      0.718
+     ],
+     "tgt": [
+      0.0,
+      2.0,
+      0.35
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.0,
+      2.0,
+      -0.75
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "worried",
+     "arms": "both_up",
+     "cut": [
+      2.0,
+      0.02
+     ],
+     "walk": {
+      "to": [
+       0,
+       2.0,
+       -0.95
+      ]
+     }
+    }
+   ],
+   "part": [
+    0,
+    0.5
+   ],
+   "pop": [
+    [
+     0.15,
+     "IN MOVIES...",
+     1.0
+    ]
+   ],
+   "sfx": [
+    [
+     0.1,
+     "gulp",
+     0.4
+    ]
+   ],
+   "id": "A-001_01",
+   "start": 3.569,
+   "dur": 2.371,
+   "chapter": 0,
+   "line_start": 3.569
+  },
+  {
+   "line": "L01",
+   "kind": "3d",
+   "set": "marsh",
+   "variant": "tide",
+   "cam": {
+    "from": {
+     "pos": [
+      0.135,
+      -0.33999999999999997,
+      0.71
+     ],
+     "tgt": [
+      0.0,
+      2.0,
+      0.35
+     ],
+     "lens": 30.0
+    },
+    "to": {
+     "pos": [
+      0.15,
+      -0.6,
+      0.75
+     ],
+     "tgt": [
+      0.0,
+      2.0,
+      0.35
+     ],
+     "lens": 30
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.0,
+      2.0,
+      -0.95
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "shrug",
+     "cut": [
+      2.0,
+      0.02
+     ],
+     "walk": {
+      "to": [
+       0,
+       2.0,
+       -0.55
+      ]
+     }
+    }
+   ],
+   "part": [
+    0.5,
+    1
+   ],
+   "pop": [
+    [
+     0.25,
+     "REAL LIFE: NO",
+     1.1
+    ]
+   ],
+   "sfx": [
+    [
+     0.1,
+     "boing",
+     0.4
+    ]
+   ],
+   "id": "A-001_02",
+   "start": 5.941,
+   "dur": 2.371,
+   "chapter": 0,
+   "line_start": 3.569
+  },
+  {
+   "line": "L02",
+   "kind": "3d",
+   "set": "marsh",
+   "variant": "tide",
+   "cam": {
+    "from": {
+     "pos": [
+      0.4,
+      -0.2,
+      0.25
+     ],
+     "tgt": [
+      0.0,
+      2.0,
+      0.15
+     ],
+     "lens": 26
+    },
+    "to": {
+     "pos": [
+      0.35200000000000004,
+      0.064,
+      0.238
+     ],
+     "tgt": [
+      0.0,
+      2.0,
+      0.15
+     ],
+     "lens": 26.0
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": null,
+   "tag": "SAND + WATER",
+   "sfx": [
+    [
+     0.2,
+     "splash",
+     0.3
+    ]
+   ],
+   "music": "curious",
+   "id": "A-001_03",
+   "start": 8.312,
+   "dur": 5.002,
+   "chapter": 0,
+   "line_start": 8.312
+  },
+  {
+   "line": "L03",
+   "kind": "3d",
+   "set": "marsh",
+   "variant": "tide",
+   "cam": {
+    "from": {
+     "pos": [
+      1.2,
+      -5.5,
+      2.2
+     ],
+     "tgt": [
+      0.0,
+      3.5,
+      0.4
+     ],
+     "lens": 24
+    },
+    "to": {
+     "pos": [
+      0.96,
+      -3.7,
+      1.84
+     ],
+     "tgt": [
+      0.0,
+      3.5,
+      0.4
+     ],
+     "lens": 24.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.0,
+      2.0,
+      -0.55
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "shrug",
+     "cut": [
+      2.0,
+      0.02
+     ]
+    }
+   ],
+   "part": [
+    0,
+    0.55
+   ],
+   "pop": [
+    [
+     0.3,
+     "2× DENSER THAN YOU",
+     1.0
+    ]
+   ],
+   "sfx": [
+    [
+     0.2,
+     "pop",
+     0.4
+    ]
+   ],
+   "id": "A-001_04",
+   "start": 13.314,
+   "dur": 3.441,
+   "chapter": 0,
+   "line_start": 13.314
+  },
+  {
+   "line": "L03",
+   "kind": "3d",
+   "set": "marsh",
+   "variant": "tide",
+   "cam": {
+    "from": {
+     "pos": [
+      0.15,
+      -0.6,
+      0.75
+     ],
+     "tgt": [
+      0.0,
+      2.0,
+      0.35
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.15,
+      -0.6,
+      1.0
+     ],
+     "tgt": [
+      0.0,
+      2.0,
+      0.3
+     ],
+     "lens": 30
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.0,
+      2.0,
+      -0.55
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "down",
+     "cut": [
+      2.0,
+      0.02
+     ]
+    }
+   ],
+   "part": [
+    0.55,
+    1
+   ],
+   "tag": "STOPS AT THE WAIST",
+   "sfx": [
+    [
+     0.3,
+     "ding",
+     0.3
+    ]
+   ],
+   "id": "A-001_05",
+   "start": 16.755,
+   "dur": 2.816,
+   "chapter": 0,
+   "line_start": 13.314
+  },
+  {
+   "line": "L04",
+   "kind": "3d",
+   "set": "marsh",
+   "variant": "tide",
+   "cam": {
+    "from": {
+     "pos": [
+      0.15,
+      -0.6,
+      0.75
+     ],
+     "tgt": [
+      0.0,
+      2.0,
+      0.35
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.141,
+      -0.44399999999999995,
+      0.726
+     ],
+     "tgt": [
+      0.0,
+      2.0,
+      0.35
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout",
+    "shake": 0.025
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.0,
+      2.0,
+      -0.55
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "angry",
+     "arms": "both_up",
+     "cut": [
+      2.0,
+      0.02
+     ],
+     "blink_fast": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.55,
+     "= LIFTING A CAR",
+     1.15
+    ]
+   ],
+   "sfx": [
+    [
+     0.4,
+     "thud",
+     0.5
+    ],
+    [
+     0.6,
+     "riser",
+     0.3
+    ]
+   ],
+   "music": "tension",
+   "id": "A-001_06",
+   "start": 19.571,
+   "dur": 6.599,
+   "chapter": 0,
+   "line_start": 19.571
+  },
+  {
+   "line": "L05",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.4,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.78
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.046,
+      0.9736
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.78
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "point_r",
+     "talk": true
+    }
+   ],
+   "part": [
+    0,
+    0.35
+   ],
+   "pop": [
+    [
+     0.1,
+     "DON'T YANK",
+     1.1
+    ]
+   ],
+   "sfx": [
+    [
+     0.05,
+     "tick",
+     0.4
+    ]
+   ],
+   "music": "playful",
+   "id": "A-001_07",
+   "start": 26.17,
+   "dur": 1.835,
+   "chapter": 0,
+   "line_start": 26.17
+  },
+  {
+   "line": "L05",
+   "kind": "3d",
+   "set": "marsh",
+   "variant": "tide",
+   "cam": {
+    "from": {
+     "pos": [
+      0.15,
+      -0.6,
+      0.75
+     ],
+     "tgt": [
+      0.0,
+      2.0,
+      0.35
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.135,
+      -0.33999999999999997,
+      0.71
+     ],
+     "tgt": [
+      0.0,
+      2.0,
+      0.35
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.0,
+      2.0,
+      -0.55
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "shrug",
+     "cut": [
+      2.0,
+      0.02
+     ]
+    }
+   ],
+   "part": [
+    0.35,
+    1
+   ],
+   "pop": [
+    [
+     0.05,
+     "WIGGLE · LEAN BACK · SPREAD OUT",
+     0.9
+    ]
+   ],
+   "sfx": [
+    [
+     0.2,
+     "splash",
+     0.3
+    ]
+   ],
+   "id": "A-001_08",
+   "start": 28.005,
+   "dur": 3.409,
+   "chapter": 0,
+   "line_start": 26.17
+  },
+  {
+   "line": "L06",
+   "kind": "3d",
+   "set": "marsh",
+   "variant": "tide",
+   "cam": {
+    "from": {
+     "pos": [
+      1.2,
+      -5.5,
+      2.2
+     ],
+     "tgt": [
+      0.0,
+      3.5,
+      0.4
+     ],
+     "lens": 24
+    },
+    "to": {
+     "pos": [
+      2.0,
+      -5.1,
+      2.2
+     ],
+     "tgt": [
+      0.8,
+      3.9,
+      0.4
+     ],
+     "lens": 24
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.0,
+      2.0,
+      -0.5
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "shrug",
+     "cut": [
+      2.0,
+      0.02
+     ],
+     "walk": {
+      "to": [
+       1.7,
+       0.9,
+       -0.15
+      ]
+     }
+    }
+   ],
+   "part": null,
+   "tag": "INCH BY INCH",
+   "sfx": [
+    [
+     0.1,
+     "splash",
+     0.25
+    ],
+    [
+     0,
+     "birds",
+     0.3
+    ]
+   ],
+   "id": "A-001_09",
+   "start": 31.414,
+   "dur": 2.439,
+   "chapter": 0,
+   "line_start": 31.414
+  },
+  {
+   "line": "L07",
+   "kind": "3d",
+   "set": "marsh",
+   "variant": "tide",
+   "cam": {
+    "from": {
+     "pos": [
+      0.8,
+      -2.5,
+      1.0
+     ],
+     "tgt": [
+      0.3,
+      11.0,
+      0.6
+     ],
+     "lens": 26
+    },
+    "to": {
+     "pos": [
+      0.74,
+      -0.8800000000000001,
+      0.952
+     ],
+     "tgt": [
+      0.3,
+      11.0,
+      0.6
+     ],
+     "lens": 26.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.0,
+      2.0,
+      -0.55
+     ],
+     "h": 1.25,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down",
+     "cut": [
+      2.0,
+      0.02
+     ]
+    }
+   ],
+   "part": [
+    0,
+    0.6
+   ],
+   "pop": [
+    [
+     0.45,
+     "THE TIDE",
+     1.3
+    ]
+   ],
+   "sfx": [
+    [
+     0.1,
+     "wind",
+     0.4
+    ],
+    [
+     0.4,
+     "riser",
+     0.35
+    ]
+   ],
+   "music": "tension",
+   "id": "A-001_10",
+   "start": 33.853,
+   "dur": 3.362,
+   "chapter": 0,
+   "line_start": 33.853
+  },
+  {
+   "line": "L07",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.4,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.78
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.105,
+      0.978
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.78
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "present",
+     "talk": true
+    }
+   ],
+   "part": [
+    0.6,
+    1
+   ],
+   "pop": [
+    [
+     0.1,
+     "WOULD YOU?",
+     1.2
+    ]
+   ],
+   "sfx": [
+    [
+     0.05,
+     "hmm",
+     0.4
+    ]
+   ],
+   "id": "A-001_11",
+   "start": 37.215,
+   "dur": 2.242,
+   "chapter": 0,
+   "line_start": 33.853
+  },
+  {
+   "id": "A-001_END",
+   "kind": "end",
+   "line": "O1",
+   "start": 39.457,
+   "line_start": 39.577,
+   "dur": 2.4,
+   "chapter": null,
+   "chars": [],
+   "sfx": [
+    [
+     0,
+     "ding",
+     0.5
+    ]
+   ],
+   "music": null,
+   "set": null
+  }
+ ]
+}
