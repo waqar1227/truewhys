@@ -1,0 +1,628 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "Try to tickle yourself. Nothing happens. Why?",
+  "dur": 2.987,
+  "words": [
+   {
+    "w": "Try",
+    "s": 0.0,
+    "e": 0.22
+   },
+   {
+    "w": "to",
+    "s": 0.22,
+    "e": 0.34
+   },
+   {
+    "w": "tickle",
+    "s": 0.34,
+    "e": 0.64
+   },
+   {
+    "w": "yourself.",
+    "s": 0.64,
+    "e": 1.04
+   },
+   {
+    "w": "Nothing",
+    "s": 1.5,
+    "e": 1.7
+   },
+   {
+    "w": "happens.",
+    "s": 1.7,
+    "e": 2.18
+   },
+   {
+    "w": "Why?",
+    "s": 2.54,
+    "e": 2.72
+   }
+  ],
+  "heard": "Try to tickle yourself. Nothing happens. Why?"
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "Tickling needs one thing: surprise.",
+  "dur": 2.41,
+  "words": [
+   {
+    "w": "Tickling",
+    "s": 0.0,
+    "e": 0.4
+   },
+   {
+    "w": "needs",
+    "s": 0.4,
+    "e": 0.68
+   },
+   {
+    "w": "one",
+    "s": 0.68,
+    "e": 0.96
+   },
+   {
+    "w": "thing:",
+    "s": 0.96,
+    "e": 1.32
+   },
+   {
+    "w": "surprise.",
+    "s": 1.6,
+    "e": 1.96
+   }
+  ],
+  "heard": "Tickling needs one thing, surprise."
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "Every time you move, a part of your brain called the cerebellum predicts exactly what you'll feel...",
+  "dur": 5.81,
+  "words": [
+   {
+    "w": "Every",
+    "s": 0.0,
+    "e": 0.3
+   },
+   {
+    "w": "time",
+    "s": 0.3,
+    "e": 0.6
+   },
+   {
+    "w": "you",
+    "s": 0.6,
+    "e": 0.86
+   },
+   {
+    "w": "move,",
+    "s": 0.86,
+    "e": 1.2
+   },
+   {
+    "w": "a",
+    "s": 1.76,
+    "e": 1.82
+   },
+   {
+    "w": "part",
+    "s": 1.82,
+    "e": 2.0
+   },
+   {
+    "w": "of",
+    "s": 2.0,
+    "e": 2.14
+   },
+   {
+    "w": "your",
+    "s": 2.14,
+    "e": 2.3
+   },
+   {
+    "w": "brain",
+    "s": 2.3,
+    "e": 2.66
+   },
+   {
+    "w": "called",
+    "s": 2.66,
+    "e": 2.96
+   },
+   {
+    "w": "the",
+    "s": 2.96,
+    "e": 3.14
+   },
+   {
+    "w": "cerebellum",
+    "s": 3.14,
+    "e": 3.82
+   },
+   {
+    "w": "predicts",
+    "s": 3.82,
+    "e": 4.16
+   },
+   {
+    "w": "exactly",
+    "s": 4.16,
+    "e": 4.72
+   },
+   {
+    "w": "what",
+    "s": 4.72,
+    "e": 5.08
+   },
+   {
+    "w": "you'll",
+    "s": 5.08,
+    "e": 5.32
+   },
+   {
+    "w": "feel...",
+    "s": 5.32,
+    "e": 5.78
+   }
+  ],
+  "heard": "Every time you move, a part of your brain called the cerebellum predicts exactly what you'll feel..."
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "and turns that feeling down. So your own fingers barely register.",
+  "dur": 4.266,
+  "words": [
+   {
+    "w": "and",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "turns",
+    "s": 0.14,
+    "e": 0.44
+   },
+   {
+    "w": "that",
+    "s": 0.44,
+    "e": 0.68
+   },
+   {
+    "w": "feeling",
+    "s": 0.68,
+    "e": 1.0
+   },
+   {
+    "w": "down.",
+    "s": 1.0,
+    "e": 1.42
+   },
+   {
+    "w": "So",
+    "s": 1.94,
+    "e": 2.08
+   },
+   {
+    "w": "your",
+    "s": 2.08,
+    "e": 2.26
+   },
+   {
+    "w": "own",
+    "s": 2.26,
+    "e": 2.56
+   },
+   {
+    "w": "fingers",
+    "s": 2.56,
+    "e": 2.98
+   },
+   {
+    "w": "barely",
+    "s": 2.98,
+    "e": 3.4
+   },
+   {
+    "w": "register.",
+    "s": 3.4,
+    "e": 3.86
+   }
+  ],
+  "heard": "And turns that feeling down. So your own fingers barely register."
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "Scientists tested this with a robot. People moved one arm, and the robot copied the move onto their other hand.",
+  "dur": 7.253,
+  "words": [
+   {
+    "w": "Scientists",
+    "s": 0.0,
+    "e": 0.54
+   },
+   {
+    "w": "tested",
+    "s": 0.54,
+    "e": 1.0
+   },
+   {
+    "w": "this",
+    "s": 1.0,
+    "e": 1.34
+   },
+   {
+    "w": "with",
+    "s": 1.34,
+    "e": 1.56
+   },
+   {
+    "w": "a",
+    "s": 1.56,
+    "e": 1.7
+   },
+   {
+    "w": "robot.",
+    "s": 1.7,
+    "e": 2.14
+   },
+   {
+    "w": "People",
+    "s": 2.84,
+    "e": 3.06
+   },
+   {
+    "w": "moved",
+    "s": 3.06,
+    "e": 3.4
+   },
+   {
+    "w": "one",
+    "s": 3.4,
+    "e": 3.66
+   },
+   {
+    "w": "arm,",
+    "s": 3.66,
+    "e": 4.08
+   },
+   {
+    "w": "and",
+    "s": 4.42,
+    "e": 4.5
+   },
+   {
+    "w": "the",
+    "s": 4.5,
+    "e": 4.62
+   },
+   {
+    "w": "robot",
+    "s": 4.62,
+    "e": 5.06
+   },
+   {
+    "w": "copied",
+    "s": 5.06,
+    "e": 5.48
+   },
+   {
+    "w": "the",
+    "s": 5.48,
+    "e": 5.66
+   },
+   {
+    "w": "move",
+    "s": 5.66,
+    "e": 5.96
+   },
+   {
+    "w": "onto",
+    "s": 5.96,
+    "e": 6.2
+   },
+   {
+    "w": "their",
+    "s": 6.2,
+    "e": 6.44
+   },
+   {
+    "w": "other",
+    "s": 6.44,
+    "e": 6.68
+   },
+   {
+    "w": "hand.",
+    "s": 6.68,
+    "e": 7.04
+   }
+  ],
+  "heard": "Scientists tested this with a robot. People moved one arm, and the robot copied the move onto their other hand."
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "With no delay, it barely tickled. But add a delay of just a fifth of a second...",
+  "dur": 4.935,
+  "words": [
+   {
+    "w": "With",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "no",
+    "s": 0.18,
+    "e": 0.44
+   },
+   {
+    "w": "delay,",
+    "s": 0.44,
+    "e": 0.78
+   },
+   {
+    "w": "it",
+    "s": 0.96,
+    "e": 1.1
+   },
+   {
+    "w": "barely",
+    "s": 1.1,
+    "e": 1.4
+   },
+   {
+    "w": "tickled.",
+    "s": 1.4,
+    "e": 2.0
+   },
+   {
+    "w": "But",
+    "s": 2.46,
+    "e": 2.54
+   },
+   {
+    "w": "add",
+    "s": 2.54,
+    "e": 2.8
+   },
+   {
+    "w": "a",
+    "s": 2.8,
+    "e": 2.94
+   },
+   {
+    "w": "delay",
+    "s": 2.94,
+    "e": 3.2
+   },
+   {
+    "w": "of",
+    "s": 3.2,
+    "e": 3.44
+   },
+   {
+    "w": "just",
+    "s": 3.44,
+    "e": 3.64
+   },
+   {
+    "w": "a",
+    "s": 3.64,
+    "e": 3.82
+   },
+   {
+    "w": "fifth",
+    "s": 3.82,
+    "e": 4.0
+   },
+   {
+    "w": "of",
+    "s": 4.0,
+    "e": 4.22
+   },
+   {
+    "w": "a",
+    "s": 4.22,
+    "e": 4.36
+   },
+   {
+    "w": "second...",
+    "s": 4.36,
+    "e": 4.9
+   }
+  ],
+  "heard": "With no delay, it barely tickled. But add a delay of just a fifth of a second..."
+ },
+ {
+  "id": "L06",
+  "chapter": 0,
+  "text": "and it started to tickle again. The brain's prediction was off.",
+  "dur": 3.836,
+  "words": [
+   {
+    "w": "and",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "it",
+    "s": 0.14,
+    "e": 0.26
+   },
+   {
+    "w": "started",
+    "s": 0.26,
+    "e": 0.5
+   },
+   {
+    "w": "to",
+    "s": 0.5,
+    "e": 0.74
+   },
+   {
+    "w": "tickle",
+    "s": 0.74,
+    "e": 1.06
+   },
+   {
+    "w": "again.",
+    "s": 1.06,
+    "e": 1.44
+   },
+   {
+    "w": "The",
+    "s": 1.98,
+    "e": 2.06
+   },
+   {
+    "w": "brain's",
+    "s": 2.06,
+    "e": 2.6
+   },
+   {
+    "w": "prediction",
+    "s": 2.6,
+    "e": 2.92
+   },
+   {
+    "w": "was",
+    "s": 2.92,
+    "e": 3.28
+   },
+   {
+    "w": "off.",
+    "s": 3.28,
+    "e": 3.58
+   }
+  ],
+  "heard": "And it started to tickle again. The brain's prediction was off."
+ },
+ {
+  "id": "L07",
+  "chapter": 0,
+  "text": "Your brain ignores what it expects, so it can notice everything else. So, who's ticklish now?",
+  "dur": 5.611,
+  "words": [
+   {
+    "w": "Your",
+    "s": 0.0,
+    "e": 0.2
+   },
+   {
+    "w": "brain",
+    "s": 0.2,
+    "e": 0.5
+   },
+   {
+    "w": "ignores",
+    "s": 0.5,
+    "e": 0.96
+   },
+   {
+    "w": "what",
+    "s": 0.96,
+    "e": 1.24
+   },
+   {
+    "w": "it",
+    "s": 1.24,
+    "e": 1.36
+   },
+   {
+    "w": "expects,",
+    "s": 1.36,
+    "e": 1.76
+   },
+   {
+    "w": "so",
+    "s": 1.9,
+    "e": 2.1
+   },
+   {
+    "w": "it",
+    "s": 2.1,
+    "e": 2.2
+   },
+   {
+    "w": "can",
+    "s": 2.2,
+    "e": 2.34
+   },
+   {
+    "w": "notice",
+    "s": 2.34,
+    "e": 2.66
+   },
+   {
+    "w": "everything",
+    "s": 2.66,
+    "e": 3.1
+   },
+   {
+    "w": "else.",
+    "s": 3.1,
+    "e": 3.6
+   },
+   {
+    "w": "So,",
+    "s": 4.08,
+    "e": 4.34
+   },
+   {
+    "w": "who's",
+    "s": 4.4,
+    "e": 4.68
+   },
+   {
+    "w": "ticklish",
+    "s": 4.68,
+    "e": 5.06
+   },
+   {
+    "w": "now?",
+    "s": 5.06,
+    "e": 5.42
+   }
+  ],
+  "heard": "Your brain ignores what it expects, so it can notice everything else. So, who's ticklish now?"
+ },
+ {
+  "id": "O1",
+  "chapter": 0,
+  "text": "Follow for more true whys.",
+  "dur": 1.785,
+  "words": [
+   {
+    "w": "Follow",
+    "s": 0.0,
+    "e": 0.34
+   },
+   {
+    "w": "for",
+    "s": 0.34,
+    "e": 0.6
+   },
+   {
+    "w": "more",
+    "s": 0.6,
+    "e": 0.78
+   },
+   {
+    "w": "true",
+    "s": 0.78,
+    "e": 1.06
+   },
+   {
+    "w": "whys.",
+    "s": 1.06,
+    "e": 1.58
+   }
+  ],
+  "heard": "Follow for more true whys."
+ }
+]
