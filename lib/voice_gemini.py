@@ -64,6 +64,8 @@ def tts(text, out):
 
 def main(ep, chapters):
     ep = Path(ep)
+    if (ep / "direction.json").exists():  # per-episode voice direction {"0": "..."} (standalone Shorts etc.)
+        DIRECTION.update({int(k): v for k, v in json.loads((ep / "direction.json").read_text()).items()})
     lines = parse_lines(ep / "lines.txt")
     from faster_whisper import WhisperModel
     wm = WhisperModel("small.en", device="cpu", compute_type="int8")

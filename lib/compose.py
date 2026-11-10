@@ -361,8 +361,9 @@ def render_shot(shot, plates, ep, W, H, lines_t, env_fn):
                     draw_actor(fr, a, t, d, shot["cam"], tint, env, j, W, H, shot)
                 else:
                     draw_prop(fr, a, t, d, shot["cam"], tint, W, H)
-            if shot.get("label"):
-                pass
+            if shot.get("lens"):
+                ln = shot["lens"]
+                gfx.lens_inset(fr, ln["name"], t, d, s, [tuple(x) for x in ln.get("labels", [])], tuple(ln.get("at", (0.5, 0.47))), ln.get("rad", 0.36))
         elif kind == "card":
             fr = gfx.chapter_card(W, H, t, d, shot["num"], shot["text"], shot.get("sub"))
         elif kind == "title":

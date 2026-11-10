@@ -3,666 +3,675 @@
   "id": "H1",
   "chapter": 0,
   "text": "You're sinking into quicksand. Here's what really happens.",
-  "dur": 3.349,
+  "dur": 3.34,
   "words": [
    {
     "w": "You're",
     "s": 0.0,
-    "e": 0.24
+    "e": 0.46
    },
    {
     "w": "sinking",
-    "s": 0.24,
-    "e": 0.44
+    "s": 0.46,
+    "e": 0.64
    },
    {
     "w": "into",
-    "s": 0.44,
-    "e": 0.76
+    "s": 0.64,
+    "e": 1.14
    },
    {
     "w": "quicksand.",
-    "s": 0.76,
-    "e": 1.46
+    "s": 1.14,
+    "e": 1.66
    },
    {
     "w": "Here's",
-    "s": 1.78,
-    "e": 2.1
+    "s": 2.0,
+    "e": 2.22
    },
    {
     "w": "what",
-    "s": 2.1,
-    "e": 2.24
+    "s": 2.22,
+    "e": 2.34
    },
    {
     "w": "really",
-    "s": 2.24,
-    "e": 2.54
+    "s": 2.34,
+    "e": 2.7
    },
    {
     "w": "happens.",
-    "s": 2.54,
-    "e": 3.04
+    "s": 2.7,
+    "e": 3.16
    }
   ],
-  "heard": "You're sinking into quicksand. Here's what really happens."
+  "heard": "You're sinking into quicksand. Here's what really happens.",
+  "match": 1.0
  },
  {
   "id": "L01",
   "chapter": 0,
   "text": "In the movies, quicksand swallows people whole. In real life, it can't.",
-  "dur": 4.523,
+  "dur": 4.5,
   "words": [
    {
     "w": "In",
-    "s": 0.0,
-    "e": 0.14
+    "s": 0.08,
+    "e": 0.18
    },
    {
     "w": "the",
-    "s": 0.14,
-    "e": 0.22
+    "s": 0.18,
+    "e": 0.3
    },
    {
     "w": "movies,",
-    "s": 0.22,
-    "e": 0.62
+    "s": 0.3,
+    "e": 0.56
    },
    {
     "w": "quicksand",
-    "s": 0.82,
-    "e": 1.24
+    "s": 0.78,
+    "e": 1.08
    },
    {
     "w": "swallows",
-    "s": 1.24,
-    "e": 1.74
+    "s": 1.08,
+    "e": 1.8
    },
    {
     "w": "people",
-    "s": 1.74,
+    "s": 1.8,
     "e": 2.02
    },
    {
     "w": "whole.",
     "s": 2.02,
-    "e": 2.42
+    "e": 2.48
    },
    {
     "w": "In",
-    "s": 2.98,
-    "e": 3.06
+    "s": 2.86,
+    "e": 2.98
    },
    {
     "w": "real",
-    "s": 3.06,
-    "e": 3.34
+    "s": 2.98,
+    "e": 3.14
    },
    {
     "w": "life,",
-    "s": 3.34,
-    "e": 3.8
+    "s": 3.14,
+    "e": 3.38
    },
    {
     "w": "it",
-    "s": 3.82,
-    "e": 4.02
+    "s": 3.76,
+    "e": 3.9
    },
    {
     "w": "can't.",
-    "s": 4.02,
-    "e": 4.48
+    "s": 3.9,
+    "e": 4.32
    }
   ],
-  "heard": "In the movies, quicksand swallows people whole. In real life, it can't."
+  "heard": "In the movies, quicksand swallows people whole. In real life, it can't.",
+  "match": 1.0
  },
  {
   "id": "L02",
   "chapter": 0,
   "text": "Quicksand is sand so soaked with water that the grains stop gripping each other.",
-  "dur": 4.782,
+  "dur": 4.23,
   "words": [
    {
     "w": "Quicksand",
-    "s": 0.0,
-    "e": 0.48
+    "s": 0.08,
+    "e": 0.38
    },
    {
     "w": "is",
-    "s": 0.48,
-    "e": 0.62
+    "s": 0.38,
+    "e": 0.6
    },
    {
     "w": "sand",
-    "s": 0.62,
-    "e": 0.98
+    "s": 0.6,
+    "e": 0.88
    },
    {
     "w": "so",
-    "s": 0.98,
-    "e": 1.38
+    "s": 0.88,
+    "e": 1.26
    },
    {
     "w": "soaked",
-    "s": 1.38,
-    "e": 1.78
+    "s": 1.26,
+    "e": 1.64
    },
    {
     "w": "with",
-    "s": 1.78,
-    "e": 2.0
+    "s": 1.64,
+    "e": 1.86
    },
    {
     "w": "water",
-    "s": 2.0,
-    "e": 2.38
+    "s": 1.86,
+    "e": 2.2
    },
    {
     "w": "that",
-    "s": 2.38,
-    "e": 2.96
+    "s": 2.2,
+    "e": 2.54
    },
    {
     "w": "the",
-    "s": 2.96,
-    "e": 3.1
+    "s": 2.54,
+    "e": 2.66
    },
    {
     "w": "grains",
-    "s": 3.1,
-    "e": 3.4
+    "s": 2.66,
+    "e": 2.86
    },
    {
     "w": "stop",
-    "s": 3.4,
-    "e": 3.8
+    "s": 2.86,
+    "e": 3.26
    },
    {
     "w": "gripping",
-    "s": 3.8,
-    "e": 4.16
+    "s": 3.26,
+    "e": 3.64
    },
    {
     "w": "each",
-    "s": 4.16,
-    "e": 4.42
+    "s": 3.64,
+    "e": 3.9
    },
    {
     "w": "other.",
-    "s": 4.42,
-    "e": 4.64
+    "s": 3.9,
+    "e": 4.1
    }
   ],
-  "heard": "Quicksand is sand so soaked with water that the grains stop gripping each other."
+  "heard": "Quicksand is sand so soaked with water that the grains stop gripping each other.",
+  "match": 1.0
  },
  {
   "id": "L03",
   "chapter": 0,
   "text": "But it's about twice as dense as your body... so you float. You sink to about your waist, and stop.",
-  "dur": 6.037,
+  "dur": 6.02,
   "words": [
    {
     "w": "But",
-    "s": 0.0,
-    "e": 0.12
+    "s": 0.08,
+    "e": 0.26
    },
    {
     "w": "it's",
-    "s": 0.12,
-    "e": 0.24
+    "s": 0.26,
+    "e": 0.52
    },
    {
     "w": "about",
-    "s": 0.24,
-    "e": 0.46
+    "s": 0.52,
+    "e": 0.66
    },
    {
     "w": "twice",
-    "s": 0.46,
-    "e": 0.8
+    "s": 0.66,
+    "e": 1.02
    },
    {
     "w": "as",
-    "s": 0.8,
-    "e": 1.08
+    "s": 1.02,
+    "e": 1.32
    },
    {
     "w": "dense",
-    "s": 1.08,
-    "e": 1.34
+    "s": 1.32,
+    "e": 1.54
    },
    {
     "w": "as",
-    "s": 1.34,
-    "e": 1.58
+    "s": 1.54,
+    "e": 1.72
    },
    {
     "w": "your",
-    "s": 1.58,
-    "e": 1.74
+    "s": 1.72,
+    "e": 1.86
    },
    {
     "w": "body...",
-    "s": 1.74,
-    "e": 2.407
+    "s": 1.86,
+    "e": 2.24
    },
    {
     "w": "so",
-    "s": 2.407,
+    "s": 2.48,
     "e": 2.74
    },
    {
     "w": "you",
     "s": 2.74,
-    "e": 2.92
+    "e": 2.86
    },
    {
     "w": "float.",
-    "s": 2.92,
-    "e": 3.24
+    "s": 2.86,
+    "e": 3.04
    },
    {
     "w": "You",
-    "s": 3.86,
-    "e": 3.96
+    "s": 3.64,
+    "e": 3.82
    },
    {
     "w": "sink",
-    "s": 3.96,
-    "e": 4.2
+    "s": 3.82,
+    "e": 4.08
    },
    {
     "w": "to",
-    "s": 4.2,
-    "e": 4.42
+    "s": 4.08,
+    "e": 4.26
    },
    {
     "w": "about",
-    "s": 4.42,
-    "e": 4.66
+    "s": 4.26,
+    "e": 4.44
    },
    {
     "w": "your",
-    "s": 4.66,
-    "e": 4.86
+    "s": 4.44,
+    "e": 4.6
    },
    {
     "w": "waist,",
-    "s": 4.86,
-    "e": 5.18
+    "s": 4.6,
+    "e": 4.92
    },
    {
     "w": "and",
-    "s": 5.4,
-    "e": 5.44
+    "s": 5.32,
+    "e": 5.52
    },
    {
     "w": "stop.",
-    "s": 5.44,
-    "e": 5.76
+    "s": 5.52,
+    "e": 5.84
    }
   ],
-  "heard": "But it's about twice as dense as your body...so you float. You sink to about your waist, and stop."
+  "heard": "But it's about twice as dense as your body, so you float. You sink to about your waist, and stop.",
+  "match": 1.0
  },
  {
   "id": "L04",
   "chapter": 0,
   "text": "The bad news? It grips. Pulling one foot out fast takes about the force needed to lift a car.",
-  "dur": 6.379,
+  "dur": 5.32,
   "words": [
    {
     "w": "The",
-    "s": 0.0,
-    "e": 0.14
+    "s": 0.08,
+    "e": 0.26
    },
    {
     "w": "bad",
-    "s": 0.14,
-    "e": 0.42
+    "s": 0.26,
+    "e": 0.44
    },
    {
     "w": "news?",
-    "s": 0.42,
-    "e": 0.82
+    "s": 0.44,
+    "e": 0.64
    },
    {
     "w": "It",
-    "s": 1.36,
-    "e": 1.52
+    "s": 1.06,
+    "e": 1.32
    },
    {
     "w": "grips.",
-    "s": 1.52,
-    "e": 1.86
+    "s": 1.32,
+    "e": 1.6
    },
    {
     "w": "Pulling",
-    "s": 2.58,
-    "e": 2.84
+    "s": 2.2,
+    "e": 2.38
    },
    {
     "w": "one",
-    "s": 2.84,
-    "e": 3.04
+    "s": 2.38,
+    "e": 2.56
    },
    {
     "w": "foot",
-    "s": 3.04,
-    "e": 3.26
+    "s": 2.56,
+    "e": 2.74
    },
    {
     "w": "out",
-    "s": 3.26,
-    "e": 3.48
+    "s": 2.74,
+    "e": 2.92
    },
    {
     "w": "fast",
-    "s": 3.48,
-    "e": 3.9
+    "s": 2.92,
+    "e": 3.32
    },
    {
     "w": "takes",
-    "s": 3.9,
-    "e": 4.14
+    "s": 3.32,
+    "e": 3.56
    },
    {
     "w": "about",
-    "s": 4.14,
-    "e": 4.44
+    "s": 3.56,
+    "e": 3.78
    },
    {
     "w": "the",
-    "s": 4.44,
-    "e": 4.6
+    "s": 3.78,
+    "e": 3.94
    },
    {
     "w": "force",
-    "s": 4.6,
-    "e": 4.94
+    "s": 3.94,
+    "e": 4.18
    },
    {
     "w": "needed",
-    "s": 4.94,
-    "e": 5.24
+    "s": 4.18,
+    "e": 4.46
    },
    {
     "w": "to",
-    "s": 5.24,
-    "e": 5.5
+    "s": 4.46,
+    "e": 4.66
    },
    {
     "w": "lift",
-    "s": 5.5,
-    "e": 5.66
+    "s": 4.66,
+    "e": 4.82
    },
    {
     "w": "a",
-    "s": 5.66,
-    "e": 5.84
+    "s": 4.82,
+    "e": 5.02
    },
    {
     "w": "car.",
-    "s": 5.84,
-    "e": 6.1
+    "s": 5.02,
+    "e": 5.32
    }
   ],
-  "heard": "The bad news? It grips. Pulling one foot out fast takes about the force needed to lift a car."
+  "heard": "The bad news? It grips. Pulling one foot out fast takes about the force needed to lift a car.",
+  "match": 1.0
  },
  {
   "id": "L05",
   "chapter": 0,
   "text": "So don't yank. Wiggle your legs slowly to let water in, lean back, and spread out.",
-  "dur": 5.024,
+  "dur": 5.48,
   "words": [
    {
     "w": "So",
     "s": 0.0,
-    "e": 0.18
+    "e": 0.62
    },
    {
     "w": "don't",
-    "s": 0.18,
-    "e": 0.42
+    "s": 0.62,
+    "e": 1.08
    },
    {
     "w": "yank.",
-    "s": 0.42,
-    "e": 0.8
+    "s": 1.08,
+    "e": 1.36
    },
    {
     "w": "Wiggle",
-    "s": 1.28,
-    "e": 1.5
+    "s": 1.8,
+    "e": 1.9
    },
    {
     "w": "your",
-    "s": 1.5,
-    "e": 1.68
+    "s": 1.9,
+    "e": 2.06
    },
    {
     "w": "legs",
-    "s": 1.68,
-    "e": 1.98
+    "s": 2.06,
+    "e": 2.22
    },
    {
     "w": "slowly",
-    "s": 1.98,
-    "e": 2.36
+    "s": 2.22,
+    "e": 2.6
    },
    {
     "w": "to",
-    "s": 2.36,
-    "e": 2.68
+    "s": 2.6,
+    "e": 2.88
    },
    {
     "w": "let",
-    "s": 2.68,
-    "e": 2.84
+    "s": 2.88,
+    "e": 3.0
    },
    {
     "w": "water",
-    "s": 2.84,
-    "e": 3.16
+    "s": 3.0,
+    "e": 3.3
    },
    {
     "w": "in,",
-    "s": 3.16,
-    "e": 3.46
+    "s": 3.3,
+    "e": 3.56
    },
    {
     "w": "lean",
-    "s": 3.66,
-    "e": 3.8
+    "s": 3.88,
+    "e": 4.02
    },
    {
     "w": "back,",
-    "s": 3.8,
-    "e": 4.14
+    "s": 4.02,
+    "e": 4.3
    },
    {
     "w": "and",
-    "s": 4.3,
-    "e": 4.34
+    "s": 4.58,
+    "e": 4.64
    },
    {
     "w": "spread",
-    "s": 4.34,
-    "e": 4.62
+    "s": 4.64,
+    "e": 4.92
    },
    {
     "w": "out.",
-    "s": 4.62,
-    "e": 4.9
+    "s": 4.92,
+    "e": 5.3
    }
   ],
-  "heard": "So don't yank. Wiggle your legs slowly to let water in, lean back, and spread out."
+  "heard": "So don't yank. Wiggle your legs slowly to let water in, lean back, and spread out.",
+  "match": 1.0
  },
  {
   "id": "L06",
   "chapter": 0,
   "text": "Then float, inch by inch, to the edge.",
-  "dur": 2.219,
+  "dur": 2.56,
   "words": [
    {
     "w": "Then",
-    "s": 0.0,
-    "e": 0.2
+    "s": 0.08,
+    "e": 0.16
    },
    {
     "w": "float,",
-    "s": 0.2,
-    "e": 0.52
+    "s": 0.16,
+    "e": 0.56
    },
    {
     "w": "inch",
-    "s": 0.76,
-    "e": 0.86
-   },
-   {
-    "w": "by",
-    "s": 0.86,
+    "s": 0.84,
     "e": 1.1
    },
    {
-    "w": "inch,",
+    "w": "by",
     "s": 1.1,
-    "e": 1.34
+    "e": 1.42
    },
    {
-    "w": "to",
-    "s": 1.48,
-    "e": 1.58
-   },
-   {
-    "w": "the",
-    "s": 1.58,
+    "w": "inch,",
+    "s": 1.42,
     "e": 1.7
    },
    {
+    "w": "to",
+    "s": 1.9,
+    "e": 2.08
+   },
+   {
+    "w": "the",
+    "s": 2.08,
+    "e": 2.18
+   },
+   {
     "w": "edge.",
-    "s": 1.7,
-    "e": 1.98
+    "s": 2.18,
+    "e": 2.38
    }
   ],
-  "heard": "Then float, inch by inch, to the edge."
+  "heard": "Then float, inch by inch, to the edge.",
+  "match": 1.0
  },
  {
   "id": "L07",
   "chapter": 0,
   "text": "The real danger isn't the sand. It's the tide coming in. Would you stay calm?",
-  "dur": 5.204,
+  "dur": 4.22,
   "words": [
    {
     "w": "The",
-    "s": 0.0,
-    "e": 0.14
+    "s": 0.08,
+    "e": 0.18
    },
    {
     "w": "real",
-    "s": 0.14,
-    "e": 0.42
+    "s": 0.18,
+    "e": 0.32
    },
    {
     "w": "danger",
-    "s": 0.42,
-    "e": 0.92
+    "s": 0.32,
+    "e": 0.58
    },
    {
     "w": "isn't",
-    "s": 0.92,
-    "e": 1.28
+    "s": 0.58,
+    "e": 0.96
    },
    {
     "w": "the",
-    "s": 1.28,
-    "e": 1.44
+    "s": 0.96,
+    "e": 1.1
    },
    {
     "w": "sand.",
-    "s": 1.44,
-    "e": 1.8
+    "s": 1.1,
+    "e": 1.32
    },
    {
     "w": "It's",
-    "s": 2.26,
-    "e": 2.42
+    "s": 1.82,
+    "e": 1.98
    },
    {
     "w": "the",
-    "s": 2.42,
-    "e": 2.58
+    "s": 1.98,
+    "e": 2.14
    },
    {
     "w": "tide",
-    "s": 2.58,
-    "e": 2.92
+    "s": 2.14,
+    "e": 2.4
    },
    {
     "w": "coming",
-    "s": 2.92,
-    "e": 3.28
+    "s": 2.4,
+    "e": 2.64
    },
    {
     "w": "in.",
-    "s": 3.28,
-    "e": 3.7
+    "s": 2.64,
+    "e": 2.9
    },
    {
     "w": "Would",
-    "s": 4.08,
-    "e": 4.14
+    "s": 3.4,
+    "e": 3.48
    },
    {
     "w": "you",
-    "s": 4.14,
-    "e": 4.28
+    "s": 3.48,
+    "e": 3.62
    },
    {
     "w": "stay",
-    "s": 4.28,
-    "e": 4.56
+    "s": 3.62,
+    "e": 3.82
    },
    {
     "w": "calm?",
-    "s": 4.56,
-    "e": 4.92
+    "s": 3.82,
+    "e": 4.04
    }
   ],
-  "heard": "The real danger isn't the sand. It's the tide coming in. Would you stay calm?"
+  "heard": "The real danger isn't the sand. It's the tide coming in. Would you stay calm?",
+  "match": 1.0
  },
  {
   "id": "O1",
   "chapter": 0,
   "text": "Follow for more true whys.",
-  "dur": 1.785,
+  "dur": 1.52,
   "words": [
    {
     "w": "Follow",
-    "s": 0.0,
-    "e": 0.34
+    "s": 0.08,
+    "e": 0.38
    },
    {
     "w": "for",
-    "s": 0.34,
-    "e": 0.6
+    "s": 0.38,
+    "e": 0.62
    },
    {
     "w": "more",
-    "s": 0.6,
+    "s": 0.62,
     "e": 0.78
    },
    {
     "w": "true",
     "s": 0.78,
-    "e": 1.06
+    "e": 1.02
    },
    {
     "w": "whys.",
-    "s": 1.06,
-    "e": 1.58
+    "s": 1.02,
+    "e": 1.34
    }
   ],
-  "heard": "Follow for more true whys."
+  "heard": "Follow for more true whys.",
+  "match": 1.0
  }
 ]

@@ -404,13 +404,13 @@ def _quicksand_mat():
     def f(nt, bsdf, N, L):
         tc = N("ShaderNodeTexCoord")
         wv = N("ShaderNodeTexWave"); wv.wave_type = "RINGS"; wv.rings_direction = "Z"
-        wv.inputs["Scale"].default_value = 1.1; wv.inputs["Distortion"].default_value = 1.2; wv.inputs["Detail"].default_value = 1.0
+        wv.inputs["Scale"].default_value = 0.8; wv.inputs["Distortion"].default_value = 3.0; wv.inputs["Detail"].default_value = 1.0
         L(tc.outputs["Object"], wv.inputs["Vector"])
         nz = _noise(nt, tc.outputs["Object"], 3.0, 3.0)
-        c = _mixc(nt, wv.outputs["Fac"], "#7A5636", "#8A6440")
+        c = _mixc(nt, _math(nt, "MULTIPLY", wv.outputs["Fac"], 0.35), "#6E4E32", "#8A6440")
         L(_mixc(nt, _math(nt, "MULTIPLY", nz, 0.5), c, "#5A3E28"), bsdf.inputs["Base Color"])
         bsdf.inputs["Roughness"].default_value = 0.07
-        _bump(nt, bsdf, wv.outputs["Fac"], 0.18, 0.04)
+        _bump(nt, bsdf, nz, 0.12, 0.04)
     return nmat("quicksand", f)
 
 
@@ -640,8 +640,8 @@ def set_marsh(variant="tide"):
     poly([(x * 1.07, 2.0 + (y - 2.0) * 1.08) for x, y in outline], 0.0, 0.016, rim, axis="xy")
     o = poly(outline, 0.004, 0.016, _quicksand_mat(), axis="xy")
     ripple = mat("ripple", "#B08A5C", rough=0.1, noise=0)
-    for r in (0.5, 0.95, 1.4):
-        q = ring((0, 2, 0.022), r, 0.026, ripple)
+    for r in (0.55, 1.15):
+        q = ring((0, 2, 0.02), r, 0.014, ripple)
         q.scale = (1.0, 0.82, 0.3)
     bub = mat("qsbubble", "#9A7850", rough=0.05, noise=0)
     for bx, by, br in ((0.75, 1.55, 0.07), (-0.9, 2.3, 0.05), (0.35, 2.85, 0.06), (-0.5, 1.2, 0.045), (1.25, 2.4, 0.04), (-1.3, 1.75, 0.035)):

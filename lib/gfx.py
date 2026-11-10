@@ -522,3 +522,64 @@ def vignette(W, H, strength=0.32):
     r = np.sqrt(((x - W / 2) / (W / 2)) ** 2 + ((y - H / 2) / (H / 2)) ** 2)
     v = 1 - strength * np.clip((r - 0.55) / 0.9, 0, 1) ** 1.6
     return v.astype(np.float32)[..., None]
+
+
+# ------------------------------------------------------------------ magnifier insets (reusable, on top of a 3D plate)
+
+def _grains_scene(R, t, d):
+    """Square RGBA tile (R x R): wet sand grains. Water flows in, grains drift apart (no grip)."""
+    im = Image.new("RGBA", (R, R), hexa("#3E8FB0")); dr = ImageDraw.Draw(im)
+    rng = np.random.default_rng(7)
+    k = ease_inout(min(1.0, max(0.0, (t - 0.4) / max(0.5, d * 0.55))))      # 0 packed -> 1 loose
+    n = 9; cell = R / (n - 1.2)
+    for gy in range(n):
+        for gx in range(n):
+            j = rng.uniform(-0.18, 0.18, 2); rr = cell * rng.uniform(0.44, 0.52)
+            cx = (gx - 0.1 + j[0]) * cell; cy = (gy - 0.1 + j[1]) * cell
+            ox, oy = (cx - R / 2) * 0.16 * k, (cy - R / 2) * 0.16 * k           # spread apart
+            wob = math.sin(t * 2.4 + gx * 1.7 + gy * 0.9) * cell * 0.05 * k
+            x, y = cx + ox + wob, cy + oy + wob * 0.6
+            rr2 = rr * (1 - 0.18 * k)
+            col = ["#E3B878", "#D9A964", "#EBC58C", "#CF9E5A"][(gx * 3 + gy) % 4]
+            dr.ellipse([x - rr2 + 3, y - rr2 + 5, x + rr2 + 3, y + rr2 + 5], fill=(40, 30, 20, 70))
+            dr.ellipse([x - rr2, y - rr2, x + rr2, y + rr2], fill=hexa(col), outline=hexa(C["ink"]), width=max(2, R // 160))
+            dr.ellipse([x - rr2 * 0.55, y - rr2 * 0.6, x - rr2 * 0.1, y - rr2 * 0.2], fill=(255, 245, 220, 120))
+    for b in range(10):  # little water bubbles rising between grains
+        bx = (b * 97 % R); by = (R - (t * 120 + b * 61) * (0.5 + 0.5 * k)) % R
+        dr.ellipse([bx - 6, by - 6, bx + 6, by + 6], outline=(220, 245, 255, int(170 * k)), width=2)
+    return im
+
+
+LENS_SCENES = {"grains": _grains_scene}
+
+
+def lens_inset(f, name, t, d, s, labels=(), at=(0.5, 0.47), rad=0.36):
+    """Magnifying-glass circle with an animated close-up (LENS_SCENES[name]) over the frame.
+    labels: [(text, x, y, t_in)] in lens units (-1..1). Pops in with back_out, pops out at the end."""
+    W, H = f.size
+    a_in = back_out(min(1.0, t / 0.35)); a_out = min(1.0, max(0.0, (d - t) / 0.25))
+    sc = a_in * a_out
+    if sc <= 0.01:
+        return
+    R = int(W * rad * 2 * sc)
+    if R < 8:
+        return
+    tile = _grains_scene(int(W * rad * 2), t, d) if name == "grains" else LENS_SCENES[name](int(W * rad * 2), t, d)
+    tile = tile.resize((R, R), Image.LANCZOS)
+    mask = Image.new("L", (R, R), 0); ImageDraw.Draw(mask).ellipse([0, 0, R - 1, R - 1], fill=255)
+    cx, cy = int(W * at[0]), int(H * at[1])
+    dim = Image.new("RGBA", (W, H), (10, 20, 30, int(110 * sc))); f.alpha_composite(dim)
+    f.paste(tile, (cx - R // 2, cy - R // 2), mask)
+    d2 = ImageDraw.Draw(f)
+    rw = max(6, int(16 * s * sc))
+    d2.ellipse([cx - R // 2 - rw, cy - R // 2 - rw, cx + R // 2 + rw, cy + R // 2 + rw], outline=hexa(C["ink"]), width=rw + 4)
+    d2.ellipse([cx - R // 2 - rw // 2, cy - R // 2 - rw // 2, cx + R // 2 + rw // 2, cy + R // 2 + rw // 2], outline=hexa(C["yellow"]), width=rw)
+    hx, hy = cx + int(R * 0.36), cy + int(R * 0.36)          # handle
+    d2.line([hx, hy, hx + int(R * 0.28), hy + int(R * 0.28)], fill=hexa(C["ink"]), width=int(rw * 2.6))
+    d2.line([hx, hy, hx + int(R * 0.27), hy + int(R * 0.27)], fill=hexa(C["coral"]), width=int(rw * 1.7))
+    for txt, lx, ly, t_in in labels:
+        if t < t_in:
+            continue
+        k = back_out(min(1.0, (t - t_in) / 0.3)) * a_out
+        im = text_img(txt, font("lilita", int(54 * s)), C["cream"], stroke=int(6 * s))
+        paste_center(f, im, cx + lx * R / 2, cy + ly * R / 2, scale=max(0.01, k))
