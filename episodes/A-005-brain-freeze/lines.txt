@@ -1,0 +1,9 @@
+# A-005 v1 (10 Nov 2026), standalone Short, Style T. "How X works inside".
+H1|0|This is what brain freeze does inside your head.
+L01|0|It starts when something ice cold touches the roof of your mouth.
+L02|0|Just behind it, a big blood vessel feeding your brain suddenly widens, and blood rushes in.
+L03|0|Your skull is a closed box, so the extra blood raises the pressure... and that hurts.
+L04|0|Here's the twist: the nerve that reports that pain also covers your forehead.
+L05|0|So your brain thinks the pain is in your forehead.
+L06|0|Press your tongue to the roof of your mouth, or sip something warm, and it fades in seconds.
+L07|0|Your brain isn't frozen at all. So why does it feel like it?

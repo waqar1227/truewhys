@@ -1,0 +1,5 @@
+# Sources — A-004 Tickling
+| Claim (lines) | Sources |
+|---|---|
+| Self-produced touch is predicted and attenuated; cerebellum predicts sensory consequences (L02–L03) | Blakemore, Wolpert & Frith, "Central cancellation of self-produced tickle sensation", *Nature Neuroscience* 1:635 (1998), https://web.math.princeton.edu/~sswang/autism/blakemore_frith98_NN.pdf ; Blakemore, Wolpert & Frith, *NeuroImage* 10 (1999), https://wolpertlab.neuroscience.columbia.edu/sites/default/files/content/papers/BlaWolFri99.pdf ; Scientific American, "Why can't a person tickle himself?", https://www.scientificamerican.com/article/why-cant-a-person-tickle/ |
+| Robot interface: own movement moves a robot that strokes the other hand; delays 0–200 ms raise tickliness progressively (L04–L06) | Blakemore et al. 1999, *J Cogn Neurosci* 11:551 ("Spatio-temporal prediction modulates the perception of self-produced stimuli"), https://Gwern.net/doc/psychology/neuroscience/1999-blakemore.pdf ; ABC News, "Why Self-Tickling is Impossible", https://abcnews.go.com/Health/story?id=117038 |

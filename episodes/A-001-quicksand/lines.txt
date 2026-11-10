@@ -1,0 +1,9 @@
+# id | chapter | text (captions) || say (optional). A-001 v1 (10 Nov 2026), standalone Short, Style T. Hook = H1.
+H1|0|You're sinking into quicksand. Here's what really happens.
+L01|0|In the movies, quicksand swallows people whole. In real life, it can't.
+L02|0|Quicksand is sand so soaked with water that the grains stop gripping each other.
+L03|0|But it's about twice as dense as your body... so you float. You sink to about your waist, and stop.
+L04|0|The bad news? It grips. Pulling one foot out fast takes about the force needed to lift a car.
+L05|0|So don't yank. Wiggle your legs slowly to let water in, lean back, and spread out.
+L06|0|Then float, inch by inch, to the edge.
+L07|0|The real danger isn't the sand. It's the tide coming in. Would you stay calm?

@@ -1,0 +1,9 @@
+# A-002 v1 (10 Nov 2026), standalone Short, Style T. No gore: peeling = flaky cartoon skin.
+H1|0|Never eat this part of a polar bear.
+L01|0|Over four hundred years ago, Dutch sailors trapped in the Arctic cooked a polar bear's liver.
+L02|0|Within days, they fell sick. Then their skin began to peel off.
+L03|0|The cause was vitamin A. Tiny fish store it, seals eat the fish, and polar bears eat the seals.
+L04|0|It piles up in the bear's liver. Just one gram holds almost twice the most an adult should have in a whole day.
+L05|0|And your body can't flush the extra out quickly. So a meal of it can be poisonous.
+L06|0|Arctic hunters knew this for centuries, and left the liver alone.
+L07|0|So, would you have known?

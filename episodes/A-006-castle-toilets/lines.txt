@@ -1,0 +1,9 @@
+# A-006 v1 (10 Nov 2026), standalone Short, Style T. Clean: no filth close-ups.
+H1|0|These soldiers broke into a castle... through the toilet.
+L01|0|Castle toilets were called garderobes: tiny rooms on the outer wall with a stone seat.
+L02|0|Under the seat, a chute dropped straight down the outside of the wall, often into the moat.
+L03|0|In 1204, French soldiers were besieging Château Gaillard, one of the strongest castles in Europe.
+L04|0|Accounts say a few men climbed up a latrine chute, got inside... and let their army in.
+L05|0|Later castles added bars and bends to their chutes.
+L06|0|And some say clothes were hung in garderobes, because the smell kept the moths away.
+L07|0|So, would you have climbed it?

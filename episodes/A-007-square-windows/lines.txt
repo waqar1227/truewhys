@@ -1,0 +1,9 @@
+# A-007 v1 (10 Nov 2026), standalone Short, Style T. Respectful: no victims, no crash footage.
+H1|0|There's a reason you'll never see a square plane window.
+L01|0|In 1954, two Comet jets, the world's first jet airliners, broke apart in the air within months.
+L02|0|To find out why, engineers sank a whole Comet in a giant water tank.
+L03|0|They pumped it up and let it down again and again, like thousands of flights.
+L04|0|Until a crack appeared... at the sharp corner of a squarish window.
+L05|0|Stress flows around an opening like water around a rock. At a sharp corner, it piles up.
+L06|0|Round corners spread it out. So every airliner window since has rounded corners.
+L07|0|What other shapes around you are hiding a reason?

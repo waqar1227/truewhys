@@ -1,0 +1,9 @@
+# A-003 v1 (10 Nov 2026), standalone Short, STYLE R (first realistic test). Safety-positive: why it can't happen.
+H1|0|What happens if someone pulls this handle at thirty-five thousand feet?
+L01|0|Nothing. And here's why.
+L02|0|Up here, the cabin is pumped full of air, much thicker than the thin air outside.
+L03|0|That air pushes on every part of the plane... including the door.
+L04|0|On most jets, the door is a plug: it's bigger than its frame, so it has to move inward before it can swing out.
+L05|0|But the air pushes it into the frame with about eight tonnes of force. More than a big elephant.
+L06|0|No human arms can win that fight.
+L07|0|So next time you sit by the exit... relax. The air is holding it shut.

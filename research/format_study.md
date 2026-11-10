@@ -35,3 +35,9 @@ Source: [NamuWiki](https://en.namu.wiki/w/Ricks%20Clips).
 - TikTok's posting API (and Metricool) has **no location / country targeting**. Location tags exist only in the app and don't choose the audience.
 - What does help English-speaking reach: English captions + on-screen text, English hashtags, and **posting at US/UK evening times**
   (US 6–9 pm ET = 4–7 am PKT; UK 6–9 pm GMT = 11 pm–2 am PKT). Don't fake location or use a VPN (against TikTok rules, risks the account).
+
+## Competitor check, 10 Nov 2026 (standalone Shorts batch 1)
+- Zack D. Films ~29.3 M subs (Oct 2026), still "How X does Y" hidden-mechanism shapes (e.g. a Sept 2026 hit on how a TV quiz show
+  matches player heights, 3.7 M). Applied: every A-00x Short reveals a hidden mechanism in the middle beat (zoom-in / cutaway).
+- No fresh public data on Rick's Clips this week (trackers didn't index it). Keep the format rules above.
+Sources: [vidanalyze](https://vidanalyze.com/channel/zackdfilms/shorts), [vidIQ](https://vidiq.com/youtube-stats/channel/@zackdfilms/).
