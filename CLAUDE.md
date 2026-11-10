@@ -99,16 +99,16 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
 - After 4 weeks or 20 published Shorts: rank categories, styles and title patterns, show the owner the top 3, shift 80% of output to them, keep 20% for tests.
 
 ## Thumbnails and end screens
-- Thumbnails (long videos, 1280×720): one big expressive cast member + the strange object or place + 1–3 words in bold caps, usually a question, in Lilita One (`branding/` colours). Make 2 options per long video so the owner can use YouTube's thumbnail test.
+- Thumbnails (long videos, 1280×720): one big expressive cast member + the strange object or place + 1–3 words in bold caps, usually a question, in Lilita One (`branding/` colours). Make **3 very different options** per long video (owner, 10 Nov 2026): thumb_A is set on the video at upload; right after upload, send the owner thumb_B and thumb_C (plus A) so he runs YouTube's Test & Compare with all three.
 - **Thumbnails must be VERY click-worthy (owner, 8 Nov 2026).** Checklist for every one: a huge, extreme emotion on the face (shock/fear/disbelief,
   face ≥ 35 % of the height); ONE strange object or situation that makes people ask "why?"; max 3 words, giant, high-contrast outline, never
   repeating the title; bright saturated colours with a dark or blurred background so the subject pops; one clear focal point, no clutter;
-  readable at phone size (check a 168×94 preview before approving); curiosity gap (show the moment before the answer). Two very different
+  readable at phone size (check a 168×94 preview before approving); curiosity gap (show the moment before the answer). Three very different
   options for YouTube Test & Compare. After upload, check `uploaded.json` "thumbnail" is true; if it FAILED, tell the owner.
 - Last 2 seconds of every Short: Wy with the ✓ badge and "Follow for more true whys". Long videos: 20 s end screen with the wordmark.
 
 ## Every episode ends with
-- The animatic the owner approved, the Kaggle render log, `final/` MP4, 2 thumbnails (long videos), `upload.md`, `credits.md`, `sources.md`, and the QA checklist filled in (`qa.md`).
+- The animatic the owner approved, the Kaggle render log, `final/` MP4, 3 thumbnails (long videos), `upload.md`, `credits.md`, `sources.md`, and the QA checklist filled in (`qa.md`).
 - A short message to the owner: what was made, what to check, and whether it is scheduled.
 
 ## Owner rules added 6 Nov 2026

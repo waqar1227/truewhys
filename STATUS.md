@@ -8,7 +8,7 @@ Fresh session? Tools install via the environment setup script (tools/setup_env.s
 3. DONE 9 Nov 11:00 UTC: B-002 long video composed + QA passed (final/B-002.mp4, 6:11, −14.5 LUFS; qa.md ticked; credits.md written).
    final/B-002.mp4 is NOT in git (200 MB): if a fresh session lacks it, re-fetch plates from Kaggle kernels truewhys-render-b002 / b002b and re-compose.
 4. DONE 10 Nov 01:40 UTC: B-002 fully SCHEDULED on YouTube (private + publishAt), QA in qa.md.
-   Long h2oO3SrSUH8 Wed 11 Nov 15:00 UTC (thumb_A set; owner runs Test & Compare with thumb_B, sent 10 Nov).
+   Long h2oO3SrSUH8 Wed 11 Nov 15:00 UTC (thumb_A set; owner runs Test & Compare with thumb_B + thumb_C, sent 10 Nov; B-001 got a thumb_C too).
    Shorts: C8 FbtDoZL8vwk 16:00, C2 66iyJcnwvgY 19:00, C3 WqxkoJY4jy4 22:00, C4 qCgG6Dhqgi4 12 Nov 01:00, C5 Wu5-PLKwb48 04:00,
    C6 kk6I9g5V82Y 07:00, C7 6wDhznnQeKI 10:00, C1 TkNJsIdy7gs 13:00 UTC. Owner: set Related video = the long video on each Short (Studio).
    NEXT (first heartbeat after Wed 11 Nov 15:00 UTC): `python lib/youtube.py comment episodes/B-002-worst-jobs/upload_meta.json`, tell owner to pin it.

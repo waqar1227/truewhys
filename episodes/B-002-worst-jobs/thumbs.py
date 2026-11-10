@@ -71,3 +71,14 @@ t2 = gfx.text_img("EAT IT?!", gfx.font("lilita", 190), gfx.C["cream"], stroke=18
 gfx.paste_center(B, t2, 900, 120, 1.0, 1.0, rot=-4)
 B.convert("RGB").save(OUT + "thumb_B.jpg", quality=92)
 print("ok")
+
+# ---- C (owner asked for 3 options, 10 Nov): huge shocked Groom of the Stool holding the cloth, the king's red close stool behind, "ROYAL TOILET?!"
+Cc = plate("S021", 1.25, 0.8, 3)
+gr = person("groom", "surprised", "present", 0.78, hold_r="cloth")
+put(Cc, glow(gr, (255, 230, 170), 22), 360, H + 300)
+t3a = gfx.text_img("ROYAL", gfx.font("lilita", 150), gfx.C["cream"], stroke=16)
+t3b = gfx.text_img("TOILET?!", gfx.font("lilita", 172), gfx.C["yellow"], stroke=18)
+gfx.paste_center(Cc, t3a, 900, 110, 1.0, 1.0, rot=-4)
+gfx.paste_center(Cc, t3b, 900, 255, 1.0, 1.0, rot=-4)
+Cc.convert("RGB").save(OUT + "thumb_C.jpg", quality=92)
+print("ok C")
