@@ -17,7 +17,8 @@ UNITS_TALL = 545.0  # puppet height in units (feet to head top, without hats)
 TINT = {"dusk": (1.04, 0.93, 0.86), "night": (0.80, 0.84, 1.0), "town": (1.03, 0.97, 0.92), "church": (1.02, 0.96, 0.95),
         "day": (1.0, 0.99, 0.97), "barley": (1.02, 0.99, 0.94), "vineyard": (1.0, 1.0, 0.97), "alpine": (1.0, 1.0, 1.0)}
 ARMS = {"down": (8, 8), "point_r": (8, 82), "point_l": (82, 8), "raise": (8, 150), "both_up": (140, 140), "shrug": (52, 52),
-        "present": (30, 62), "hold": (8, 28), "chin": (8, -148), "wave": (8, 140), "slam": (8, 150)}
+        "present": (30, 62), "hold": (8, 28), "chin": (8, -148), "wave": (8, 140), "slam": (8, 150),
+        "tickle": (-50, -50)}   # tickle: both hands on his own tummy, fingers wiggling
 HUMANS = set(cast.CHARS)
 
 
@@ -46,6 +47,14 @@ def human_frame(a, t, d, env, rng_seed):
     aR = 8 + (tgt[1] - 8) * k
     if a.get("arms") == "wave":
         aR = 140 + 22 * math.sin(t * 9)
+    if a.get("arms") == "tickle":   # self-tickling: fast small wiggle of both arms
+        aL += 9 * math.sin(t * 23) * k
+        aR += 9 * math.sin(t * 23 + 1.3) * k
+    laugh = a.get("laugh")   # True, or the time (s) in the shot when the laugh starts
+    if laugh is not None and laugh is not False:
+        laugh = t >= (0 if laugh is True else float(laugh))
+    if laugh:   # laughing: arms shake with the giggles
+        aL += 6 * math.sin(t * 19); aR += 6 * math.sin(t * 19 + 0.7)
     for (gt, g) in a.get("gest", []):
         gtt = gt * d if gt <= 1 else gt
         if g == "slam" and t > gtt - 0.25:
@@ -66,6 +75,8 @@ def human_frame(a, t, d, env, rng_seed):
     if a.get("talk") and env is not None:
         v = env(t)
         mouth = "closed" if v < 0.08 else "small" if v < 0.22 else "open" if v < 0.45 else "wide"
+    if laugh:
+        mouth = ("wide", "open", "wide", "small")[int(t * 9) % 4]   # ha-ha-ha
     face = a.get("face", "R")
     look = (1 if face == "R" else -1, 0)
     if a.get("look"):
@@ -88,9 +99,9 @@ def human_frame(a, t, d, env, rng_seed):
     neck_y = fy - 248 * REF * sy
     for arm, ap, sx in ((armL, apL, -92), (armR, apR, 92)):
         can.alpha_composite(arm, (int(fx + sx * REF - ap[0]), int(neck_y + 32 * REF - ap[1])))
-    tilt = 2.2 * math.sin(t * 0.9 + rng_seed) + (5 if a.get("arms") == "shrug" else 0) * k
+    tilt = 2.2 * math.sin(t * 0.9 + rng_seed) + (5 if a.get("arms") == "shrug" else 0) * k + (5 * math.sin(t * 9.5) if laugh else 0)
     hb = head.rotate(tilt, resample=Image.BICUBIC, center=(hp[0] * REF, hp[1] * REF)) if abs(tilt) > 0.2 else head
-    bob = 4 * REF * math.sin(2 * math.pi * t / 3.1 + rng_seed + 0.6)
+    bob = 4 * REF * math.sin(2 * math.pi * t / 3.1 + rng_seed + 0.6) + (7 * REF * abs(math.sin(t * 9.5)) if laugh else 0)
     can.alpha_composite(hb, (int(fx - hp[0] * REF), int(neck_y + 16 * REF + bob - hp[1] * REF)))
     return can, (fx, fy), 545 * REF
 

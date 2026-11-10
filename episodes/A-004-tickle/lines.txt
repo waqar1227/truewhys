@@ -1,10 +1,10 @@
-# A-004 v1 (10 Nov 2026), standalone Short, Style T.
+# id | chapter | text (captions) || say (optional). A-004 v2 (10 Nov 2026), standalone Short, Style T. Hook = H1.
 H1|0|Try to tickle yourself. Nothing happens. Why?
 L01|0|Tickling needs one thing: surprise.
-L02|0|Every time you move, a part of your brain called the cerebellum predicts exactly what you'll feel...
-L03|0|and turns that feeling down. So your own fingers barely register.
-L04|0|Scientists tested this with a robot. People moved one arm, and the robot copied the move onto their other hand.
-L05|0|With no delay, it barely tickled. But add a delay of just a fifth of a second...
-L06|0|and it started to tickle again. The brain's prediction was off.
-L07|0|Your brain ignores what it expects, so it can notice everything else. So, who's ticklish now?
+L02|0|Every time you move, the back of your brain, the cerebellum, predicts exactly what you'll feel...
+L03|0|and turns that feeling down. Your own fingers can't surprise you.
+L04|0|Scientists tested it with a robot. You move one hand, and the robot copies it onto your other palm.
+L05|0|No delay? Barely a tickle. But add a delay of just a fifth of a second...
+L06|0|and the tickle comes back. The brain's guess is off.
+L07|0|Your brain mutes what it expects, so it can notice everything else. Are you ticklish?
 O1|0|Follow for more true whys.||Follow for more true whys.

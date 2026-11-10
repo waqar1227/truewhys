@@ -40,7 +40,8 @@ castle (night | day | cutaway)   A-006 garderobes. Attackers' bank is z=0 for y<
       wide     pos (-5,-16,3.5)    tgt (0,4,6)       lens 24   whole castle, siege camp in front
 
 lab    (day)   A-004 tickling. Bright cartoon neuroscience lab, room x -6..6, back wall y=5.5.
-    Bench y 1.2..2.2, top z=0.95. Robot arm base (1.2,1.7), feather tip at about (2.05,1.55,1.55).
+    Bench y 1.2..2.2, top z=0.95. Robot arm base (1.2,1.7), feather at about (2.3,1.5,1.35); wrist group "robo_wrist" (anim_lab).
+    Yellow stool (3.0,0.95), seat top z 0.77: Wy stands on it to reach the feather (A-004).
     Brain model under glass (-0.9,1.8,1.35) · big brain screen on the back wall (0,5.4,2.7)
     posters (-3.6 and 3.9, 5.4) · shelves left wall · window right wall · plants (-5.2,4.6) (5.2,0.8)
     Camera marks:
@@ -1404,16 +1405,22 @@ def _robot_arm(base, feather=True):
         sphere(j, r, coral, sub=3)
         cyl((j[0], j[1] - r * 0.9, j[2]), r * 0.5, 0.05, dark, verts=16, rot=(math.radians(90), 0, 0), bevel=0)
     sphere(J4, 0.085, teal, sub=3)
-    # gripper holding a feather
-    for sgn in (-1, 1):
-        box((J4[0] + 0.03 + sgn * 0.05, J4[1] - 0.01, J4[2] - 0.13), (0.03, 0.06, 0.2), dark, 0.01, (0, sgn * 0.2, 0))
-    if feather:
-        fm = mat("feather", "#FFC93C", rough=0.6, noise=0.05, emit="#FFC93C", emit_strength=0.25)
-        fm2 = mat("feather2", "#FFE28A", rough=0.6, noise=0.05, emit="#FFE28A", emit_strength=0.25)
-        tip = (J4[0] + 0.42, J4[1] - 0.06, J4[2] - 0.42)
-        tube([(J4[0] + 0.03, J4[1] - 0.01, J4[2] - 0.2), tip], 0.012, mat("quill", "#FFF4E0", noise=0), smooth=False)
-        o = sphere((J4[0] + 0.27, J4[1] - 0.04, J4[2] - 0.34), 0.24, fm, scale=(1.0, 0.1, 0.36), sub=3); o.rotation_euler = (0, math.radians(45), 0)
-        o = sphere((J4[0] + 0.29, J4[1] - 0.06, J4[2] - 0.35), 0.17, fm2, scale=(1.0, 0.1, 0.3), sub=3); o.rotation_euler = (0, math.radians(45), 0)
+    # gripper holding a feather: grouped at the wrist J4 ("robo_wrist") so shots can animate a stroke (anim_lab)
+    X, Y, Z = J4
+    with Group(J4) as g:
+        for sgn in (-1, 1):
+            box((0.03 + sgn * 0.05, -0.01, -0.13), (0.03, 0.06, 0.2), dark, 0.01, (0, sgn * 0.2, 0))
+        if feather:
+            fm = mat("feather", "#FFC93C", rough=0.6, noise=0.05, emit="#FFC93C", emit_strength=0.25)
+            fm2 = mat("feather2", "#FFE28A", rough=0.6, noise=0.05, emit="#FFE28A", emit_strength=0.25)
+            # big fluffy feather (reads at phone size): quill + two vane layers + soft tip curl
+            qm = mat("quill", "#FFF4E0", noise=0)
+            tube([(0.03, -0.01, -0.2), (0.3, -0.05, -0.42), (0.6, -0.08, -0.6), (0.78, -0.09, -0.66)], 0.016, qm, radii=[1.0, 0.9, 0.6, 0.3])
+            o = sphere((0.4, -0.06, -0.46), 0.38, fm, scale=(1.0, 0.07, 0.32), sub=3); o.rotation_euler = (0, math.radians(34), 0)
+            o = sphere((0.43, -0.09, -0.47), 0.27, fm2, scale=(1.0, 0.07, 0.26), sub=3); o.rotation_euler = (0, math.radians(34), 0)
+            o = sphere((0.7, -0.08, -0.62), 0.13, fm, scale=(1.0, 0.07, 0.45), sub=2); o.rotation_euler = (0, math.radians(15), 0)
+            tube([(0.08, -0.11, -0.24), (0.4, -0.115, -0.47), (0.72, -0.115, -0.64)], 0.007, qm)
+    g.root.name = "robo_wrist"
     # cable from the base to a control box
     tube([(bx - 0.25, by + 0.1, bz + 0.05), (bx - 0.5, by + 0.25, bz + 0.03), (bx - 0.75, by + 0.2, bz + 0.03), (bx - 0.95, by + 0.25, bz + 0.1)], 0.02, dark)
     box((bx - 1.1, by + 0.25, bz + 0.12), (0.4, 0.3, 0.24), teal, 0.03)
@@ -1598,7 +1605,7 @@ def set_lab(variant="day"):
     # arm rest + screen divider used in the experiment (hand goes under the feather)
     box((2.0, 1.45, BT + 0.03), (0.5, 0.3, 0.06), mat("pad", "#33414E", rough=0.8, noise=0.05), 0.025)
     # stools, rolling cart, floor rug, bin
-    for (x, y, c) in ((-1.6, 0.55, "#FF6B5B"), (2.6, 0.5, "#FFC93C")):
+    for (x, y, c) in ((-1.6, 0.55, "#FF6B5B"), (3.0, 0.95, "#FFC93C")):
         cyl((x, y, 0.36), 0.035, 0.66, steel, verts=10)
         cyl((x, y, 0.03), 0.26, 0.04, steel, verts=20)
         ring((x, y, 0.28), 0.2, 0.014, steel, 1.0)
@@ -1628,3 +1635,23 @@ def set_lab(variant="day"):
 
 
 sets.BUILDERS.update({"marsh": set_marsh, "arctic": set_arctic, "castle": set_castle, "lab": set_lab})
+
+
+def anim_lab(t, shot):
+    """Per-frame set animation for the lab (render_bg calls it when a shot has "anim").
+    anim = {"robot": "stroke", "amp": deg, "hz": strokes/s, "t0": start s}: the robot wrist strokes the feather to and fro."""
+    a = shot.get("anim") or {}
+    w = bpy.data.objects.get("robo_wrist")
+    if not w:
+        return
+    if a.get("robot") == "stroke":
+        u = max(0.0, t - a.get("t0", 0.0))
+        ramp = min(1.0, u / 0.3)
+        ang = math.radians(a.get("amp", 14)) * ramp * math.sin(2 * math.pi * a.get("hz", 2.2) * u)
+        w.rotation_euler = (0, ang, 0.35 * ang)
+    else:
+        w.rotation_euler = (0, 0, 0)
+
+
+sets.ANIMATORS = getattr(sets, "ANIMATORS", {})
+sets.ANIMATORS["lab"] = anim_lab

@@ -54,12 +54,16 @@ for s in todo:
     cam_obj = bpy.context.scene.camera
     cam = s["cam"]
     nfr = max(1, int(round(s["dur"] * FPS)))
-    static = cam.get("to") is None and not cam.get("orbit") and not cam.get("shake")
+    anim_set = getattr(sets, "ANIMATORS", {}).get(s["set"])   # moving set parts (e.g. lab robot)
+    if anim_set:
+        anim_set(0.0, s)   # resets the pose for shots without "anim"
+    animf = anim_set if s.get("anim") else None
+    static = cam.get("to") is None and not cam.get("orbit") and not cam.get("shake") and not animf
     step = a.step
     if a.interp and not static:  # interpolation only where it is invisible: slow, smooth moves, no orbit/shake
         c0, c1 = camera.cam_at(cam, 0), camera.cam_at(cam, 1)
         mv = math.dist(c0[0], c1[0]) + math.dist(c0[1], c1[1]) * 0.5 + abs(c0[2] - c1[2]) * 0.05
-        if cam.get("orbit") or cam.get("shake") or mv / max(s["dur"], 0.1) > 0.6:
+        if cam.get("orbit") or cam.get("shake") or animf or mv / max(s["dur"], 0.1) > 0.6:
             step = 1
     frames = [0] if (static or a.stills) else list(range(0, nfr, step))
     tmp = os.path.join(a.out, "_tmp_" + s["id"])
@@ -69,6 +73,8 @@ for s in todo:
     for fi in frames:
         t = fi / max(1, nfr - 1)
         pos, tgt, lens = camera.cam_at(cam, t)
+        if animf:
+            animf(fi / FPS, s)
         if cam.get("shake"):
             amp = cam["shake"]
             pos = [pos[0] + amp * math.sin(fi * 0.9), pos[1], pos[2] + amp * math.cos(fi * 1.3)]

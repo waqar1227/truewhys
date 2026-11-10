@@ -3,179 +3,177 @@
   "id": "H1",
   "chapter": 0,
   "text": "Try to tickle yourself. Nothing happens. Why?",
-  "dur": 2.987,
+  "dur": 3.74,
   "words": [
    {
     "w": "Try",
     "s": 0.0,
-    "e": 0.22
+    "e": 0.46
    },
    {
     "w": "to",
-    "s": 0.22,
-    "e": 0.34
+    "s": 0.46,
+    "e": 0.6
    },
    {
     "w": "tickle",
-    "s": 0.34,
-    "e": 0.64
+    "s": 0.6,
+    "e": 0.98
    },
    {
     "w": "yourself.",
-    "s": 0.64,
-    "e": 1.04
+    "s": 0.98,
+    "e": 1.34
    },
    {
     "w": "Nothing",
-    "s": 1.5,
-    "e": 1.7
+    "s": 1.98,
+    "e": 2.16
    },
    {
     "w": "happens.",
-    "s": 1.7,
-    "e": 2.18
+    "s": 2.16,
+    "e": 2.56
    },
    {
     "w": "Why?",
-    "s": 2.54,
-    "e": 2.72
+    "s": 3.36,
+    "e": 3.56
    }
   ],
-  "heard": "Try to tickle yourself. Nothing happens. Why?"
+  "heard": "Try to tickle yourself. Nothing happens. Why?",
+  "match": 1.0
  },
  {
   "id": "L01",
   "chapter": 0,
   "text": "Tickling needs one thing: surprise.",
-  "dur": 2.41,
+  "dur": 2.42,
   "words": [
    {
     "w": "Tickling",
-    "s": 0.0,
-    "e": 0.4
+    "s": 0.08,
+    "e": 0.24
    },
    {
     "w": "needs",
-    "s": 0.4,
-    "e": 0.68
+    "s": 0.24,
+    "e": 0.48
    },
    {
     "w": "one",
-    "s": 0.68,
-    "e": 0.96
+    "s": 0.48,
+    "e": 0.8
    },
    {
     "w": "thing:",
-    "s": 0.96,
-    "e": 1.32
+    "s": 0.8,
+    "e": 2.06
    },
    {
     "w": "surprise.",
-    "s": 1.6,
-    "e": 1.96
+    "s": 2.06,
+    "e": 2.24
    }
   ],
-  "heard": "Tickling needs one thing, surprise."
+  "heard": "Tickling needs one thing... surprise.",
+  "match": 1.0
  },
  {
   "id": "L02",
   "chapter": 0,
-  "text": "Every time you move, a part of your brain called the cerebellum predicts exactly what you'll feel...",
-  "dur": 5.81,
+  "text": "Every time you move, the back of your brain, the cerebellum, predicts exactly what you'll feel...",
+  "dur": 4.86,
   "words": [
    {
     "w": "Every",
-    "s": 0.0,
-    "e": 0.3
+    "s": 0.08,
+    "e": 0.24
    },
    {
     "w": "time",
-    "s": 0.3,
-    "e": 0.6
+    "s": 0.24,
+    "e": 0.42
    },
    {
     "w": "you",
-    "s": 0.6,
-    "e": 0.86
+    "s": 0.42,
+    "e": 0.56
    },
    {
     "w": "move,",
-    "s": 0.86,
-    "e": 1.2
-   },
-   {
-    "w": "a",
-    "s": 1.76,
-    "e": 1.82
-   },
-   {
-    "w": "part",
-    "s": 1.82,
-    "e": 2.0
-   },
-   {
-    "w": "of",
-    "s": 2.0,
-    "e": 2.14
-   },
-   {
-    "w": "your",
-    "s": 2.14,
-    "e": 2.3
-   },
-   {
-    "w": "brain",
-    "s": 2.3,
-    "e": 2.66
-   },
-   {
-    "w": "called",
-    "s": 2.66,
-    "e": 2.96
+    "s": 0.56,
+    "e": 0.7
    },
    {
     "w": "the",
-    "s": 2.96,
-    "e": 3.14
+    "s": 0.88,
+    "e": 0.92
    },
    {
-    "w": "cerebellum",
-    "s": 3.14,
-    "e": 3.82
+    "w": "back",
+    "s": 0.92,
+    "e": 1.08
+   },
+   {
+    "w": "of",
+    "s": 1.08,
+    "e": 1.2
+   },
+   {
+    "w": "your",
+    "s": 1.2,
+    "e": 1.34
+   },
+   {
+    "w": "brain,",
+    "s": 1.34,
+    "e": 1.6
+   },
+   {
+    "w": "the",
+    "s": 1.8,
+    "e": 1.84
+   },
+   {
+    "w": "cerebellum,",
+    "s": 1.84,
+    "e": 2.4
    },
    {
     "w": "predicts",
-    "s": 3.82,
-    "e": 4.16
+    "s": 2.52,
+    "e": 2.8
    },
    {
     "w": "exactly",
-    "s": 4.16,
-    "e": 4.72
+    "s": 2.8,
+    "e": 3.36
    },
    {
     "w": "what",
-    "s": 4.72,
-    "e": 5.08
+    "s": 3.36,
+    "e": 3.66
    },
    {
     "w": "you'll",
-    "s": 5.08,
-    "e": 5.32
+    "s": 3.66,
+    "e": 3.84
    },
    {
     "w": "feel...",
-    "s": 5.32,
-    "e": 5.78
+    "s": 3.84,
+    "e": 4.86
    }
   ],
-  "heard": "Every time you move, a part of your brain called the cerebellum predicts exactly what you'll feel..."
+  "heard": "Every time you move, the back of your brain, the cerebellum, predicts exactly what you'll feel...",
+  "match": 1.0
  },
  {
   "id": "L03",
   "chapter": 0,
-  "text": "and turns that feeling down. So your own fingers barely register.",
-  "dur": 4.266,
+  "text": "and turns that feeling down. Your own fingers can't surprise you.",
+  "dur": 3.66,
   "words": [
    {
     "w": "and",
@@ -185,444 +183,430 @@
    {
     "w": "turns",
     "s": 0.14,
-    "e": 0.44
+    "e": 0.4
    },
    {
     "w": "that",
-    "s": 0.44,
-    "e": 0.68
+    "s": 0.4,
+    "e": 0.6
    },
    {
     "w": "feeling",
-    "s": 0.68,
-    "e": 1.0
+    "s": 0.6,
+    "e": 0.82
    },
    {
     "w": "down.",
-    "s": 1.0,
-    "e": 1.42
+    "s": 0.82,
+    "e": 1.1
    },
    {
-    "w": "So",
-    "s": 1.94,
-    "e": 2.08
-   },
-   {
-    "w": "your",
-    "s": 2.08,
-    "e": 2.26
+    "w": "Your",
+    "s": 1.88,
+    "e": 2.0
    },
    {
     "w": "own",
-    "s": 2.26,
-    "e": 2.56
+    "s": 2.0,
+    "e": 2.16
    },
    {
     "w": "fingers",
-    "s": 2.56,
-    "e": 2.98
+    "s": 2.16,
+    "e": 2.42
    },
    {
-    "w": "barely",
-    "s": 2.98,
-    "e": 3.4
+    "w": "can't",
+    "s": 2.42,
+    "e": 2.78
    },
    {
-    "w": "register.",
-    "s": 3.4,
-    "e": 3.86
+    "w": "surprise",
+    "s": 2.78,
+    "e": 3.0
+   },
+   {
+    "w": "you.",
+    "s": 3.0,
+    "e": 3.48
    }
   ],
-  "heard": "And turns that feeling down. So your own fingers barely register."
+  "heard": "and turns that feeling down. Your own fingers can't surprise you.",
+  "match": 1.0
  },
  {
   "id": "L04",
   "chapter": 0,
-  "text": "Scientists tested this with a robot. People moved one arm, and the robot copied the move onto their other hand.",
-  "dur": 7.253,
+  "text": "Scientists tested it with a robot. You move one hand, and the robot copies it onto your other palm.",
+  "dur": 5.2,
   "words": [
    {
     "w": "Scientists",
-    "s": 0.0,
-    "e": 0.54
+    "s": 0.08,
+    "e": 0.4
    },
    {
     "w": "tested",
-    "s": 0.54,
-    "e": 1.0
+    "s": 0.4,
+    "e": 0.8
    },
    {
-    "w": "this",
-    "s": 1.0,
-    "e": 1.34
+    "w": "it",
+    "s": 0.8,
+    "e": 0.98
    },
    {
     "w": "with",
-    "s": 1.34,
+    "s": 0.98,
+    "e": 1.1
+   },
+   {
+    "w": "a",
+    "s": 1.1,
+    "e": 1.22
+   },
+   {
+    "w": "robot.",
+    "s": 1.22,
+    "e": 1.54
+   },
+   {
+    "w": "You",
+    "s": 2.04,
+    "e": 2.18
+   },
+   {
+    "w": "move",
+    "s": 2.18,
+    "e": 2.36
+   },
+   {
+    "w": "one",
+    "s": 2.36,
+    "e": 2.54
+   },
+   {
+    "w": "hand,",
+    "s": 2.54,
+    "e": 2.78
+   },
+   {
+    "w": "and",
+    "s": 3.0,
+    "e": 3.1
+   },
+   {
+    "w": "the",
+    "s": 3.1,
+    "e": 3.18
+   },
+   {
+    "w": "robot",
+    "s": 3.18,
+    "e": 3.44
+   },
+   {
+    "w": "copies",
+    "s": 3.44,
+    "e": 3.86
+   },
+   {
+    "w": "it",
+    "s": 3.86,
+    "e": 4.02
+   },
+   {
+    "w": "onto",
+    "s": 4.02,
+    "e": 4.22
+   },
+   {
+    "w": "your",
+    "s": 4.22,
+    "e": 4.46
+   },
+   {
+    "w": "other",
+    "s": 4.46,
+    "e": 4.7
+   },
+   {
+    "w": "palm.",
+    "s": 4.7,
+    "e": 5.02
+   }
+  ],
+  "heard": "Scientists tested it with a robot. You move one hand, and the robot copies it onto your other palm.",
+  "match": 1.0
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "No delay? Barely a tickle. But add a delay of just a fifth of a second...",
+  "dur": 5.0,
+  "words": [
+   {
+    "w": "No",
+    "s": 0.08,
+    "e": 0.3
+   },
+   {
+    "w": "delay?",
+    "s": 0.3,
+    "e": 0.58
+   },
+   {
+    "w": "Barely",
+    "s": 1.28,
     "e": 1.56
    },
    {
     "w": "a",
     "s": 1.56,
-    "e": 1.7
+    "e": 1.66
    },
    {
-    "w": "robot.",
-    "s": 1.7,
-    "e": 2.14
-   },
-   {
-    "w": "People",
-    "s": 2.84,
-    "e": 3.06
-   },
-   {
-    "w": "moved",
-    "s": 3.06,
-    "e": 3.4
-   },
-   {
-    "w": "one",
-    "s": 3.4,
-    "e": 3.66
-   },
-   {
-    "w": "arm,",
-    "s": 3.66,
-    "e": 4.08
-   },
-   {
-    "w": "and",
-    "s": 4.42,
-    "e": 4.5
-   },
-   {
-    "w": "the",
-    "s": 4.5,
-    "e": 4.62
-   },
-   {
-    "w": "robot",
-    "s": 4.62,
-    "e": 5.06
-   },
-   {
-    "w": "copied",
-    "s": 5.06,
-    "e": 5.48
-   },
-   {
-    "w": "the",
-    "s": 5.48,
-    "e": 5.66
-   },
-   {
-    "w": "move",
-    "s": 5.66,
-    "e": 5.96
-   },
-   {
-    "w": "onto",
-    "s": 5.96,
-    "e": 6.2
-   },
-   {
-    "w": "their",
-    "s": 6.2,
-    "e": 6.44
-   },
-   {
-    "w": "other",
-    "s": 6.44,
-    "e": 6.68
-   },
-   {
-    "w": "hand.",
-    "s": 6.68,
-    "e": 7.04
-   }
-  ],
-  "heard": "Scientists tested this with a robot. People moved one arm, and the robot copied the move onto their other hand."
- },
- {
-  "id": "L05",
-  "chapter": 0,
-  "text": "With no delay, it barely tickled. But add a delay of just a fifth of a second...",
-  "dur": 4.935,
-  "words": [
-   {
-    "w": "With",
-    "s": 0.0,
-    "e": 0.18
-   },
-   {
-    "w": "no",
-    "s": 0.18,
-    "e": 0.44
-   },
-   {
-    "w": "delay,",
-    "s": 0.44,
-    "e": 0.78
-   },
-   {
-    "w": "it",
-    "s": 0.96,
-    "e": 1.1
-   },
-   {
-    "w": "barely",
-    "s": 1.1,
-    "e": 1.4
-   },
-   {
-    "w": "tickled.",
-    "s": 1.4,
+    "w": "tickle.",
+    "s": 1.66,
     "e": 2.0
    },
    {
     "w": "But",
-    "s": 2.46,
-    "e": 2.54
+    "s": 2.4,
+    "e": 2.64
    },
    {
     "w": "add",
-    "s": 2.54,
-    "e": 2.8
+    "s": 2.64,
+    "e": 2.84
    },
    {
     "w": "a",
-    "s": 2.8,
-    "e": 2.94
+    "s": 2.84,
+    "e": 2.96
    },
    {
     "w": "delay",
-    "s": 2.94,
-    "e": 3.2
+    "s": 2.96,
+    "e": 3.18
    },
    {
     "w": "of",
-    "s": 3.2,
-    "e": 3.44
+    "s": 3.18,
+    "e": 3.34
    },
    {
     "w": "just",
-    "s": 3.44,
-    "e": 3.64
+    "s": 3.34,
+    "e": 3.48
    },
    {
     "w": "a",
-    "s": 3.64,
-    "e": 3.82
+    "s": 3.48,
+    "e": 3.72
    },
    {
     "w": "fifth",
-    "s": 3.82,
-    "e": 4.0
+    "s": 3.72,
+    "e": 3.9
    },
    {
     "w": "of",
-    "s": 4.0,
-    "e": 4.22
+    "s": 3.9,
+    "e": 4.08
    },
    {
     "w": "a",
-    "s": 4.22,
-    "e": 4.36
+    "s": 4.08,
+    "e": 4.22
    },
    {
     "w": "second...",
-    "s": 4.36,
-    "e": 4.9
+    "s": 4.22,
+    "e": 5.0
    }
   ],
-  "heard": "With no delay, it barely tickled. But add a delay of just a fifth of a second..."
+  "heard": "No delay? Barely a tickle. But add a delay of just a fifth of a second...",
+  "match": 1.0
  },
  {
   "id": "L06",
   "chapter": 0,
-  "text": "and it started to tickle again. The brain's prediction was off.",
-  "dur": 3.836,
+  "text": "and the tickle comes back. The brain's guess is off.",
+  "dur": 3.44,
   "words": [
    {
     "w": "and",
     "s": 0.0,
-    "e": 0.14
+    "e": 0.24
    },
    {
-    "w": "it",
-    "s": 0.14,
-    "e": 0.26
-   },
-   {
-    "w": "started",
-    "s": 0.26,
-    "e": 0.5
-   },
-   {
-    "w": "to",
-    "s": 0.5,
-    "e": 0.74
+    "w": "the",
+    "s": 0.24,
+    "e": 0.38
    },
    {
     "w": "tickle",
-    "s": 0.74,
-    "e": 1.06
+    "s": 0.38,
+    "e": 0.62
    },
    {
-    "w": "again.",
-    "s": 1.06,
-    "e": 1.44
+    "w": "comes",
+    "s": 0.62,
+    "e": 0.78
+   },
+   {
+    "w": "back.",
+    "s": 0.78,
+    "e": 1.08
    },
    {
     "w": "The",
-    "s": 1.98,
-    "e": 2.06
+    "s": 1.08,
+    "e": 2.0
    },
    {
     "w": "brain's",
-    "s": 2.06,
-    "e": 2.6
+    "s": 2.0,
+    "e": 2.38
    },
    {
-    "w": "prediction",
-    "s": 2.6,
+    "w": "guess",
+    "s": 2.38,
+    "e": 2.62
+   },
+   {
+    "w": "is",
+    "s": 2.62,
     "e": 2.92
    },
    {
-    "w": "was",
-    "s": 2.92,
-    "e": 3.28
-   },
-   {
     "w": "off.",
-    "s": 3.28,
-    "e": 3.58
+    "s": 2.92,
+    "e": 3.26
    }
   ],
-  "heard": "And it started to tickle again. The brain's prediction was off."
+  "heard": "and the tickle comes back. The brain's guess is off.",
+  "match": 1.0
  },
  {
   "id": "L07",
   "chapter": 0,
-  "text": "Your brain ignores what it expects, so it can notice everything else. So, who's ticklish now?",
-  "dur": 5.611,
+  "text": "Your brain mutes what it expects, so it can notice everything else. Are you ticklish?",
+  "dur": 4.58,
   "words": [
    {
     "w": "Your",
-    "s": 0.0,
-    "e": 0.2
+    "s": 0.08,
+    "e": 0.18
    },
    {
     "w": "brain",
-    "s": 0.2,
-    "e": 0.5
+    "s": 0.18,
+    "e": 0.42
    },
    {
-    "w": "ignores",
-    "s": 0.5,
-    "e": 0.96
+    "w": "mutes",
+    "s": 0.42,
+    "e": 0.72
    },
    {
     "w": "what",
-    "s": 0.96,
-    "e": 1.24
+    "s": 0.72,
+    "e": 0.92
    },
    {
     "w": "it",
-    "s": 1.24,
-    "e": 1.36
+    "s": 0.92,
+    "e": 1.02
    },
    {
     "w": "expects,",
-    "s": 1.36,
-    "e": 1.76
+    "s": 1.02,
+    "e": 1.38
    },
    {
     "w": "so",
-    "s": 1.9,
-    "e": 2.1
+    "s": 1.6,
+    "e": 1.74
    },
    {
     "w": "it",
-    "s": 2.1,
-    "e": 2.2
+    "s": 1.74,
+    "e": 1.84
    },
    {
     "w": "can",
-    "s": 2.2,
-    "e": 2.34
+    "s": 1.84,
+    "e": 1.96
    },
    {
     "w": "notice",
-    "s": 2.34,
-    "e": 2.66
+    "s": 1.96,
+    "e": 2.26
    },
    {
     "w": "everything",
-    "s": 2.66,
-    "e": 3.1
+    "s": 2.26,
+    "e": 2.64
    },
    {
     "w": "else.",
-    "s": 3.1,
-    "e": 3.6
+    "s": 2.64,
+    "e": 2.96
    },
    {
-    "w": "So,",
-    "s": 4.08,
-    "e": 4.34
+    "w": "Are",
+    "s": 3.86,
+    "e": 3.96
    },
    {
-    "w": "who's",
-    "s": 4.4,
-    "e": 4.68
+    "w": "you",
+    "s": 3.96,
+    "e": 4.1
    },
    {
-    "w": "ticklish",
-    "s": 4.68,
-    "e": 5.06
-   },
-   {
-    "w": "now?",
-    "s": 5.06,
-    "e": 5.42
+    "w": "ticklish?",
+    "s": 4.1,
+    "e": 4.4
    }
   ],
-  "heard": "Your brain ignores what it expects, so it can notice everything else. So, who's ticklish now?"
+  "heard": "Your brain mutes what it expects, so it can notice everything else. Are you ticklish?",
+  "match": 1.0
  },
  {
   "id": "O1",
   "chapter": 0,
   "text": "Follow for more true whys.",
-  "dur": 1.785,
+  "dur": 1.66,
   "words": [
    {
     "w": "Follow",
-    "s": 0.0,
-    "e": 0.34
+    "s": 0.08,
+    "e": 0.22
    },
    {
     "w": "for",
-    "s": 0.34,
-    "e": 0.6
+    "s": 0.22,
+    "e": 0.46
    },
    {
     "w": "more",
-    "s": 0.6,
-    "e": 0.78
+    "s": 0.46,
+    "e": 0.66
    },
    {
     "w": "true",
-    "s": 0.78,
-    "e": 1.06
+    "s": 0.66,
+    "e": 1.02
    },
    {
     "w": "whys.",
-    "s": 1.06,
-    "e": 1.58
+    "s": 1.02,
+    "e": 1.48
    }
   ],
-  "heard": "Follow for more true whys."
+  "heard": "Follow for more true whys.",
+  "match": 1.0
  }
 ]

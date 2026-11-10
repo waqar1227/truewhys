@@ -39,3 +39,13 @@ Helpers: `flames()` toon fire, `candle()`, `panel_wall()`, `tapestry()`.
 - Doc cards: aleassize, toady, aubrey, order1627, surnames, colchester, coroner1326 (lib/gfx.py DOCS).
 - Rank cards: `card` shots take `sub` ("NUMBER 8") for ranked-list episodes.
 - land/night: readable city wall (battlements, pointed roofs, lit windows, torches).
+
+## Added 10 Nov 2026 (A-004 tickling)
+- Set `lab` (lib/sets3.py, variant day): bright cartoon neuroscience lab — bench with a tickle robot arm holding a big feather, brain model under glass,
+  big brain screen (cerebellum highlighted) on the back wall, posters, shelves, window; yellow stool (3.0,0.95) seat z 0.77 for Wy to stand on.
+  Camera marks in the sets3 docstring; A-004 plan.py has tested marks (HOOK, ROBOT, SCREEN, POINT, WIDE).
+- Set animation hook: `sets.ANIMATORS[set](t, shot)` is called per frame by lib/render_bg.py when a shot has `"anim"`.
+  Lab: `anim={"robot": "stroke", "amp": 14, "hz": 2.4, "t0": 0}` makes the robot wrist (`robo_wrist`) stroke the feather.
+- Brain prop `sets3.brain(cx, cy, cz, s, hi_cereb=True)`: cartoon side-view brain (cerebrum, cerebellum, stem) for screens/posters/cutaways.
+- Puppet motion (lib/compose.py): arms `"tickle"` (both hands on the tummy, fast wiggle); `laugh=True` or `laugh=<seconds>` (ha-ha mouth cycle, head bounce, shaking arms).
+- Procedural music is not in git: rebuild with `python lib/music.py library/music/procedural` (seeded, identical every time).
