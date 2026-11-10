@@ -11,9 +11,9 @@ marsh  (tide | flood | dusk)   A-001 quicksand. Tidal beach at golden hour.
     cliffs + lighthouse: left, lighthouse at (-17,46) top z~17 · huts on stilts (6.8,7.5) (9.6,10.5)
     pier x=4.6, y 9..24, deck z=1.1 · dunes x>8 · sun low over the sea at right (az ~ +25 deg)
     Camera marks:
-      hero     pos (0.5,-3.6,1.75) tgt (0,2.6,0.75) lens 24   Wy waist-deep at (0,2), sea + lighthouse behind
-      wide     pos (2.2,-7.5,3.6)  tgt (-0.3,5,0.6)  lens 22   establishing, whole beach
-      low      pos (-2.6,-1.2,0.7) tgt (0.6,4.5,0.9) lens 26   low angle, tide line behind Wy
+      hero     pos (0.5,-3.6,1.9)  tgt (0,2.8,0.25) lens 24   Wy waist-deep at (0,2), sea + lighthouse behind
+      wide     pos (2.4,-7.0,2.6)  tgt (-0.4,5,0.2)  lens 24   establishing, whole beach
+      low      pos (-1.6,-1.6,0.8) tgt (0.3,4.5,0.5) lens 24   low angle, tide line behind Wy
       top      pos (0,0.6,5.2)     tgt (0,2.05,0)    lens 26   looking down on the patch (float to the edge)
 
 arctic (night)   A-002 polar bear liver. 1590s Dutch sailors' ice camp under the aurora.
@@ -193,8 +193,6 @@ def disc(loc, r, m, scale=(1, 1, 1), rot=(0, 0, 0), depth=0.02):
 def rock(loc, s, m, rz=0.0, squash=0.6):
     o = sphere(loc, s, m, scale=(1.3, 1.0, squash), sub=2)
     o.rotation_euler = (0.1 * math.sin(rz * 7), 0.1 * math.cos(rz * 5), rz)
-    for p in o.data.polygons:
-        p.use_smooth = False
     return o
 
 
@@ -310,10 +308,11 @@ def glow(loc, r, color, strength, power=2.0, color2=None, facing="y"):
     return o
 
 
-def water_mat(key, color, alpha=0.55, rough=0.06, wave=0.0, wave_scale=1.2, emit=0.0):
+def water_mat(key, color, alpha=0.55, rough=0.06, wave=0.0, wave_scale=1.2, emit=0.0, metal=0.0):
     """Toon water: glossy tinted surface, partly see-through, optional noise ripples."""
     def f(nt, bsdf, N, L):
         bsdf.inputs["Base Color"].default_value = hexrgb(color); bsdf.inputs["Roughness"].default_value = rough
+        bsdf.inputs["Metallic"].default_value = metal
         if emit:
             bsdf.inputs["Emission Color"].default_value = hexrgb(color); bsdf.inputs["Emission Strength"].default_value = emit
         if wave:
@@ -395,9 +394,9 @@ def _sand_mat(dusk):
         L(wet, r.inputs["Value"]); L(r.outputs["Result"], bsdf.inputs["Roughness"])
         # ripple marks left by the tide, parallel to the shore
         wv = N("ShaderNodeTexWave"); wv.wave_type = "BANDS"; wv.bands_direction = "Y"
-        wv.inputs["Scale"].default_value = 3.2; wv.inputs["Distortion"].default_value = 2.2; wv.inputs["Detail"].default_value = 1.0
+        wv.inputs["Scale"].default_value = 2.2; wv.inputs["Distortion"].default_value = 3.5; wv.inputs["Detail"].default_value = 1.0
         L(pos, wv.inputs["Vector"])
-        _bump(nt, bsdf, _math(nt, "ADD", _math(nt, "MULTIPLY", wv.outputs["Fac"], 0.6), n2), 0.28, 0.05)
+        _bump(nt, bsdf, _math(nt, "ADD", _math(nt, "MULTIPLY", wv.outputs["Fac"], 0.5), n2), 0.1, 0.04)
     return nmat("sand" + str(dusk), f)
 
 
@@ -405,13 +404,13 @@ def _quicksand_mat():
     def f(nt, bsdf, N, L):
         tc = N("ShaderNodeTexCoord")
         wv = N("ShaderNodeTexWave"); wv.wave_type = "RINGS"; wv.rings_direction = "Z"
-        wv.inputs["Scale"].default_value = 2.4; wv.inputs["Distortion"].default_value = 0.6; wv.inputs["Detail"].default_value = 1.0
+        wv.inputs["Scale"].default_value = 1.1; wv.inputs["Distortion"].default_value = 1.2; wv.inputs["Detail"].default_value = 1.0
         L(tc.outputs["Object"], wv.inputs["Vector"])
         nz = _noise(nt, tc.outputs["Object"], 3.0, 3.0)
-        c = _mixc(nt, wv.outputs["Fac"], "#6E4E30", "#8E6A44")
+        c = _mixc(nt, wv.outputs["Fac"], "#7A5636", "#8A6440")
         L(_mixc(nt, _math(nt, "MULTIPLY", nz, 0.5), c, "#5A3E28"), bsdf.inputs["Base Color"])
         bsdf.inputs["Roughness"].default_value = 0.07
-        _bump(nt, bsdf, wv.outputs["Fac"], 0.5, 0.06)
+        _bump(nt, bsdf, wv.outputs["Fac"], 0.18, 0.04)
     return nmat("quicksand", f)
 
 
@@ -596,8 +595,8 @@ def set_marsh(variant="tide"):
     terrain(h, -34, 34, -16, 44, 230, 200, sand)
     plane((0, 0, -0.4), (190, 190), mat("deep", "#9C7648", rough=0.9, noise=0.1))
     # sea: one glossy sheet under the sand; it shows wherever the sand dips below sea level (pools, channel, shore)
-    seac = "#3FA7B8" if not dusk else "#4E8FA8"
-    plane((0, 35, sea_z), (190, 130), water_mat("sea" + variant, seac, alpha=1.0, rough=0.09, wave=0.35, wave_scale=1.6))
+    seac = "#8FD0CC" if not dusk else "#9AA8C8"
+    plane((0, 35, sea_z), (190, 130), water_mat("sea" + variant, seac, alpha=1.0, rough=0.1, wave=0.3, wave_scale=1.6, metal=0.75))
     # foam: shoreline edge + breaking lines further out
     foam = mat("foam", "#FFFDF4", rough=0.6, emit="#FFF4E0", emit_strength=0.5, noise=0)
 
@@ -640,8 +639,8 @@ def set_marsh(variant="tide"):
     rim = mat("qsrim", "#C29A66", rough=0.75, noise=0.3, scale=5)
     poly([(x * 1.07, 2.0 + (y - 2.0) * 1.08) for x, y in outline], 0.0, 0.016, rim, axis="xy")
     o = poly(outline, 0.004, 0.016, _quicksand_mat(), axis="xy")
-    ripple = mat("ripple", "#A88052", rough=0.1, noise=0)
-    for r in (0.42, 0.74, 1.08, 1.42):
+    ripple = mat("ripple", "#B08A5C", rough=0.1, noise=0)
+    for r in (0.5, 0.95, 1.4):
         q = ring((0, 2, 0.022), r, 0.026, ripple)
         q.scale = (1.0, 0.82, 0.3)
     bub = mat("qsbubble", "#9A7850", rough=0.05, noise=0)
@@ -662,13 +661,19 @@ def set_marsh(variant="tide"):
         box((0, -0.095, 1.46), (0.055, 0.02, 0.22), mat("signk", "#1E1A18", noise=0), 0.005)
         sphere((0, -0.095, 1.29), 0.035, mat("signk", "#1E1A18", noise=0), sub=1)
     ropem = mat("ropem", "#C9B48E", rough=0.9, noise=0)
-    posts = [(-2.9, -0.2), (-1.6, -0.55), (-0.2, -0.7), (1.1, -0.55), (2.9, -0.1), (3.6, 1.4)]
+    posts = [(-2.2, -0.1), (-3.0, 1.0), (-3.3, 2.4), (2.6, -0.2), (3.2, 1.0), (3.5, 2.5)]
     for i, (px, py) in enumerate(posts):
         cyl((px, py, 0.4), 0.055, 0.9, dark, verts=8, rot=(R.uniform(-0.08, 0.08), R.uniform(-0.08, 0.08), 0))
         if i and i != 3:
             a = posts[i - 1]
             rope((a[0], a[1], 0.78), (px, py, 0.78), 0.14, ropem, 0.02)
 
+    # footprints leading in from the camera side: someone walked straight into it
+    fp = mat("footprint", "#A07C52", rough=0.25, noise=0.1)
+    for i in range(14):
+        t = i / 13
+        fx, fy = 1.6 - 1.5 * t + 0.25 * math.sin(t * 4), -8.5 + 9.0 * t
+        disc((fx + (0.13 if i % 2 else -0.13), fy, 0.004), 0.1, fp, (0.75, 1.5, 1), (0, 0, 0.15 * math.cos(t * 4)), 0.006)
     # --- beached boat, driftwood, rocks with seaweed, shells, starfish, lobster pot
     _boat((-3.9, 5.6, 0.02), (16, 4, -28))
     cyl((-2.35, 4.1, 0.25), 0.07, 0.6, dark, verts=8, rot=(0.1, 0.1, 0))
@@ -678,7 +683,7 @@ def set_marsh(variant="tide"):
         cyl((x + 0.2, y + 0.1, 0.2), 0.035, 0.5, wood, rot=(0.9, 0.3, math.radians(rz)), verts=6, r2=0.015)
     rk = mat("rock", "#7E766C", rough=0.85, noise=0.35, scale=3)
     weed = mat("weed", "#5E8A4A", rough=0.6, noise=0.2)
-    for (x, y, s) in ((-4.9, 2.6, 0.45), (-5.5, 2.9, 0.28), (5.3, 3.4, 0.5), (5.9, 3.0, 0.3), (-1.6, 8.6, 0.4), (2.4, 9.6, 0.5), (3.0, 9.9, 0.3), (-7.5, 8.5, 0.6), (0.9, -2.4, 0.22), (7.4, 5.3, 0.4)):
+    for (x, y, s) in ((-4.9, 2.6, 0.45), (-5.5, 2.9, 0.28), (5.3, 3.4, 0.5), (5.9, 3.0, 0.3), (-1.6, 8.6, 0.4), (2.4, 9.6, 0.5), (3.0, 9.9, 0.3), (-7.5, 8.5, 0.6), (7.4, 5.3, 0.4)):
         rock((x, y, 0.06), s, rk, R.random() * 3)
         if s > 0.38:
             sphere((x + 0.05, y - 0.05, 0.06 + s * 0.45), s * 0.55, weed, scale=(1.2, 0.9, 0.35), sub=2)
@@ -730,7 +735,7 @@ def set_marsh(variant="tide"):
     box((8.3, 5.4, 0.9), (0.06, 0.06, 1.8), dark, 0.01); box((9.9, 6.0, 0.95), (0.06, 0.06, 1.9), dark, 0.01)   # net drying rack
     box((9.1, 5.7, 1.25), (1.75, 0.03, 1.0), mat("net", "#3E7E8E", rough=0.95, noise=0.5, scale=14), 0, (0, 0, math.radians(20)))
     _pier(4.6, 8.6, 24.5, R, sea_z)
-    gull((4.6 - 0.95, 8.9, 1.85), 2.2); gull((4.6 + 0.95, 14.9, 1.85), -1.0); gull((-2.35, 4.1, 0.55), 0.5); gull((3.6, 1.4, 0.83), 2.6)
+    gull((4.6 - 0.95, 8.9, 1.85), 2.2); gull((4.6 + 0.95, 14.9, 1.85), -1.0); gull((-2.35, 4.1, 0.55), 0.5); gull((3.5, 2.5, 0.83), 2.6)
     # a second boat moored off the pier, sail up
     with Group((9.5, 26, sea_z - 0.1), (0, 0, 200)):
         _boat((0, 0, 0), (0, 0, 0), "#E8513A", "#FFF4E0")
@@ -741,10 +746,10 @@ def set_marsh(variant="tide"):
     if dusk:
         sky3([(0.0, "#FFB98A"), (0.06, "#FF9E86"), (0.2, "#C583A8"), (0.5, "#5B5E9E"), (1.0, "#2E3A72")], 1.0)
         sun((82, 0, 155), "#FF9A6A", 3.2, 4)
-        area((0, -8, 7), (58, 0, 0), 12, "#A8A0E8", 420)
+        area((0, -8, 7), (58, 0, 0), 12, "#C8B8F0", 1100)
         sunc, cl1, cl2 = "#FFC890", "#FF9E8A", "#C87E9E"
     else:
-        sky3([(0.0, "#FFE2A8"), (0.05, "#FFD29A"), (0.18, "#F4C2A4"), (0.42, "#8EC6E4"), (1.0, "#4E96D0")], 1.05)
+        sky3([(0.0, "#FFE2A8"), (0.06, "#FFD29A"), (0.2, "#F8C8A8"), (0.45, "#A8CCE0"), (1.0, "#5E9ED0")], 1.05)
         sun((74, 0, 155), "#FFC98A", 4.6, 4)
         area((-3, -8, 7), (58, 0, -15), 12, "#CFE0FF", 380)
         sunc, cl1, cl2 = "#FFF2C0", "#FFD9A8", "#FFB8A0"
@@ -753,7 +758,7 @@ def set_marsh(variant="tide"):
     glow((sx, sy - 3.5, sz), 26, "#FFD890" if not dusk else "#FF9E70", 2.4, 2.4, color2="#FFB070" if not dusk else "#E86A80")
     c1 = mat("cloud1", cl1, rough=1.0, emit=cl1, emit_strength=0.75, noise=0)
     c2 = mat("cloud2", cl2, rough=1.0, emit=cl2, emit_strength=0.65, noise=0)
-    for (x, z, s, m) in ((-30, 16, 5, c1), (-8, 22, 6, c1), (14, 15, 4, c2), (40, 24, 6.5, c1), (-48, 26, 6, c2), (0, 34, 5, c2), (26, 36, 5.5, c1), (-24, 40, 6, c1), (52, 12, 4, c2), (-58, 13, 5, c1)):
+    for (x, z, s, m) in ((-30, 16, 5, c1), (-8, 22, 6, c1), (14, 15, 4, c2), (40, 24, 6.5, c1), (-48, 26, 6, c2), (0, 34, 5, c2), (26, 36, 5.5, c1), (-24, 40, 6, c1), (-10, 52, 7, c2), (22, 56, 7, c1), (-36, 60, 7, c1), (4, 68, 8, c2), (52, 12, 4, c2), (-58, 13, 5, c1)):
         cloud((x, 88 + (z % 5), z), s, m, 4 if s < 6 else 5)
     bk = mat("birdk", "#4A3E4A", rough=1, noise=0)
     for (x, y, z, s) in ((-6, 40, 9, 0.6), (-4.2, 42, 9.8, 0.5), (-7.6, 44, 10.4, 0.45), (10, 50, 14, 0.7), (12, 52, 13.2, 0.55), (-20, 48, 19, 0.6)):
