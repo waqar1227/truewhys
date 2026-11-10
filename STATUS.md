@@ -1,6 +1,8 @@
 # STATUS (read the NEXT list first)
 
 ## NEXT (keep this list short; heartbeat does only these)
+0. EVERY HEARTBEAT: `python lib/yt_stats.py` + competitor check → dated entry in research/daily_report.md (owner rule 10 Nov). Next 48 h check: 12 Nov.
+   A-001 Quicksand: Gemini voice done, plates rendering on Kaggle (kernel truewhys-render-a001, started 14:20 UTC 10 Nov) → compose → QA → YouTube 11 Nov 22:00 UTC + TikTok 22:30 UTC.
 Fresh session? Tools install via the environment setup script (tools/setup_env.sh). Rendered plates are not in git: fetch them from Kaggle.
 1. DONE 8 Nov 09:30 UTC: B-002 Gemini voice (9 chapters, FLAC masters committed), plan.py (98 shots, 6:11), shorts.py (8 Shorts 38–46 s).
    Still to do when scheduling: `python lib/upload_pkg.py episodes/B-002-worst-jobs <publishAt>`.
