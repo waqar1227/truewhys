@@ -58,6 +58,12 @@ CHARS = {
                     legs="#4A3A2C", shoes="#3A2618", apron="#7A5236", hx=1.02),
     "fuller":  dict(skin="#E9B48C", hair="bald", hair_c="#6B4A32", top="#2E6FA7", collar="#FFF4E0",
                     legs="#E9B48C", shoes="#E9B48C", belt="#8A5A3B", stubble=True, hx=0.98),
+    "sailor":  dict(skin="#E9B48C", hair="wool_cap", hair_c="#B3262E", top="#2E4A6B", collar="#F3E2BC",
+                    beard="#8A5A3B", legs="#5B4636", shoes=INK, hx=1.0),
+    "scientist": dict(skin="#C98E66", hair="bun", hair_c="#2A1C1E", top="#F4F6F8", collar="#5ED3B5",
+                    legs="#24476B", shoes=INK, hx=1.0),
+    "soldier": dict(skin="#E2AE86", hair="kettle_helm", hair_c="#9AA4AE", top="#2E4FA7", collar="#FFC93C",
+                    legs="#5B4636", shoes=INK, hx=1.0),
     "sineater": dict(skin="#B9A08A", hair="hood", hair_c="#3A3440", top="#3A3440", collar="#3A3440",
                     robe=True, hx=0.96),
 }
@@ -237,6 +243,13 @@ def hair_front(s):
                 f'<path d="M-100 -244 Q-104 -360 0 -366 Q104 -360 100 -244 Z" fill="{c}"/>'
                 f'<path d="M-100 -262 Q0 -276 100 -262" fill="none" stroke="#FFC93C" stroke-width="12"/>'
                 f'<path d="M90 -270 Q170 -330 200 -270" fill="none" stroke="#FF6B5B" stroke-width="16"/>')
+    if h == "wool_cap":  # knitted sailor's cap (1590s)
+        return (f'<path d="M-150 -170 C-160 -330 160 -330 150 -170 Q0 -200 -150 -170 Z" fill="{c}"/>'
+                f'<path d="M-156 -176 Q0 -206 156 -176" fill="none" stroke="{shade(c, 0.7)}" stroke-width="26"/>')
+    if h == "kettle_helm":  # simple medieval kettle helmet (generic soldier)
+        return (f'<ellipse cx="0" cy="-226" rx="200" ry="34" fill="{c}"/>'
+                f'<path d="M-118 -232 Q-120 -330 0 -336 Q120 -330 118 -232 Z" fill="{c}"/>'
+                f'<path d="M-60 -320 Q-30 -300 -40 -250" fill="none" stroke="#FFFFFF" stroke-width="12" opacity="0.6"/>')
     if h == "leather_cap":
         return (f'<path d="M-150 -170 C-160 -300 160 -300 150 -170 Q130 -236 0 -242 Q-130 -236 -150 -170 Z" fill="{c}"/>'
                 f'<path d="M0 -290 L0 -244" stroke="{shade(c, 0.7)}" stroke-width="9"/>')
@@ -400,6 +413,17 @@ def prop_svg(name, at=(0, 0)):
     if name == "cloth":
         return (f'<g transform="translate({x},{y})"><path d="M-90 -50 Q0 -70 90 -50 L80 50 Q0 30 -80 50 Z" fill="#EDE4D0"/>'
                 f'<path d="M-60 -30 Q0 -40 60 -30 M-60 10 Q0 0 60 10" fill="none" stroke="#C9BFA8" stroke-width="7"/></g>')
+    if name == "icecream":
+        return (f'<g transform="translate({x},{y})"><path d="M-46 -40 L0 110 L46 -40 Z" fill="#E8B060"/>'
+                f'<path d="M-30 -10 L20 60 M-6 -40 L34 30 M30 -10 L-20 60" stroke="#B8803A" stroke-width="6"/>'
+                f'<circle cx="0" cy="-80" r="56" fill="#FFB8C8"/><circle cx="-26" cy="-120" r="30" fill="#FFF4E0"/>'
+                f'<path d="M-50 -46 Q0 -26 50 -46" fill="none" stroke="#FFB8C8" stroke-width="20"/></g>')
+    if name == "liver":
+        return (f'<g transform="translate({x},{y})"><path d="M-80 0 Q-90 -70 -10 -70 Q70 -80 86 -20 Q80 40 10 30 Q-60 50 -80 0 Z" fill="#9C3A3A"/>'
+                f'<path d="M-40 -40 Q0 -54 40 -44" fill="none" stroke="#D86A5A" stroke-width="10"/></g>')
+    if name == "feather":
+        return (f'<g transform="translate({x},{y}) rotate(-30)"><path d="M0 60 Q40 -40 0 -140 Q-40 -40 0 60 Z" fill="#FFC93C"/>'
+                f'<path d="M0 60 L0 -130" stroke="#C99A2E" stroke-width="6"/></g>')
     if name == "barley":
         return (f'<g transform="translate({x},{y})">' + "".join(
             f'<g transform="rotate({a})"><path d="M0 0 L0 -150" stroke="#C99A2E" stroke-width="7"/>'
@@ -576,6 +600,39 @@ def animal_img(kind, expr="neutral", mouth="closed", eyes="open", outfit=None, s
         if kind == "dog":
             p.append(f'<path d="M{hx_-10} {hy_+52} Q{hx_+5} {hy_+70} {hx_+22} {hy_+52}" fill="#E8707A" stroke-width="7"/>')
         vb = (-280, -420, 290, 20)
+    elif kind == "polar_bear":
+        fur, lidc = "#F4F1E6", "#F4F1E6"
+        for lx in (-120, -60, 60, 120):
+            p.append(f'<rect x="{lx-28}" y="-120" width="56" height="120" rx="24" fill="{shade(fur,0.92)}"/>')
+        p.append(f'<ellipse cx="-20" cy="-180" rx="190" ry="110" fill="{fur}"/>')
+        p.append(f'<path d="M-150 -230 Q-20 -270 110 -232" fill="none" stroke="#FFFFFF" stroke-width="16" opacity="0.8"/>')
+        p.append(f'<ellipse cx="150" cy="-250" rx="96" ry="80" fill="{fur}"/>')
+        p.append(f'<circle cx="96" cy="-316" r="26" fill="{fur}"/><circle cx="196" cy="-316" r="26" fill="{fur}"/>')
+        p.append(f'<ellipse cx="200" cy="-216" rx="56" ry="40" fill="{shade(fur,0.95)}"/>')
+        p.append(f'<ellipse cx="236" cy="-232" rx="18" ry="14" fill="{INK}" stroke="none"/>')
+        p.append(eye(132, -270, 15) + eye(176, -272, 14) + brow(132, -294, 14) + brow(178, -296, 13))
+        m = "M196 -196 Q214 -186 232 -198" if mouth == "closed" else "M194 -198 Q214 -166 234 -200 Z"
+        p.append(f'<path d="{m}" fill="{"none" if mouth=="closed" else "#8A2734"}" stroke-width="7"/>')
+        vb = (-240, -370, 290, 20)
+    elif kind == "seal":
+        fur, lidc = "#8C98A4", "#8C98A4"
+        p.append(f'<path d="M-200 -20 L-250 -70 L-240 10 Z" fill="{shade(fur,0.85)}"/>')
+        p.append(f'<path d="M-210 -10 Q-120 -150 60 -140 Q170 -130 160 -40 Q150 0 -210 -10 Z" fill="{fur}"/>')
+        p.append(f'<path d="M-120 -40 Q0 -70 120 -40" fill="none" stroke="#B8C2CC" stroke-width="14" opacity="0.8"/>')
+        p.append(f'<path d="M20 -50 Q40 0 70 -6 Z" fill="{shade(fur,0.85)}"/>')
+        p.append(f'<circle cx="120" cy="-140" r="62" fill="{fur}"/>')
+        p.append(eye(110, -156, 18) + eye(150, -156, 16))
+        p.append(f'<ellipse cx="166" cy="-122" rx="16" ry="11" fill="{INK}" stroke="none"/>'
+                 '<path d="M150 -116 L200 -124 M150 -110 L198 -104" stroke-width="4"/>')
+        vb = (-260, -220, 230, 20)
+    elif kind == "fish":
+        sc_, lidc = "#9FC7E0", "#9FC7E0"
+        p.append(f'<path d="M-120 -60 L-170 -110 L-170 -10 Z" fill="{shade(sc_,0.85)}"/>')
+        p.append(f'<ellipse cx="0" cy="-60" rx="130" ry="56" fill="{sc_}"/>')
+        p.append('<path d="M-60 -90 Q0 -110 60 -90" fill="none" stroke="#FFFFFF" stroke-width="10" opacity="0.7"/>')
+        p.append(eye(80, -70, 14))
+        p.append('<path d="M112 -48 Q122 -52 128 -60" fill="none" stroke-width="6"/>')
+        vb = (-190, -140, 160, 10)
     elif kind == "locust":
         g, lidc = "#9CB84A", "#9CB84A"
         p.append('<path d="M-40 -40 L-110 -110 L-150 0 M20 -40 L-20 -120 L-60 0" fill="none" stroke-width="10"/>')

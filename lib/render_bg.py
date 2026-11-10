@@ -13,6 +13,7 @@ from mathutils import Vector
 import sets, camera
 try:
     import sets2  # more sets (B-002+), registers into sets.BUILDERS
+    import sets3  # standalone Shorts batch 1 sets
 except ImportError:
     pass
 

@@ -118,7 +118,7 @@ def animal_frame(a, t, d, env, rng_seed):
         breath += 0.02 * abs(math.sin(t * 5))
     im = im.resize((im.width, int(im.height * breath)), Image.BILINEAR)
     native_h = {"pig": 380, "rat": 330, "cat": 400, "rooster": 390, "weevil": 230, "basilisk": 360, "dog": 360,
-                "bull": 400, "horse": 420, "locust": 240}[kind]
+                "bull": 400, "horse": 420, "locust": 240, "polar_bear": 390, "seal": 240, "fish": 150}[kind]
     return im, (pv[0] * REF, pv[1] * REF * breath), native_h * REF
 
 

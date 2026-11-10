@@ -18,7 +18,7 @@ SUBJ_Y = 0.43
 END_DUR = 2.6
 SUBJ_H = 0.36   # main subject height as a share of the vertical frame
 ZOOM_MAX, ZOOM_MIN = 1.6, 0.7
-ANIMALS = {"pig", "bull", "rat", "weevil", "rooster", "hen", "dog", "cat", "horse", "mouse", "locust", "toad", "sheep", "goat", "cow"}  # wider than tall
+ANIMALS = {"pig", "bull", "rat", "weevil", "rooster", "hen", "dog", "cat", "horse", "mouse", "locust", "toad", "sheep", "goat", "cow", "polar_bear", "seal", "fish"}  # wider than tall
 
 
 def est_words(text):
