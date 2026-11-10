@@ -172,6 +172,7 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
 - Gemini takes are kept as FLAC masters so a new session never spends the daily voice quota twice.
 
 ## Owner rule added 10 Nov 2026: which model does what (until 17 Nov 2026, then review)
+- **PAUSED (owner, 10 Nov 2026): do not use Fable 5.2 until the owner says so.** Use the normal model (and Sonnet for chores).
 - **Fable 5.2** (Agent tool, `model: "fable"`) only for genuinely hard work where quality gains: Style R realistic scenes (A-003 plane cabin),
   complex new 3D sets/cutaways, final QA judgement of tricky shots. The owner resets the limit when it is reached.
 - **Normal session model** for scripts, research, voice, animatics, compose and QA.
