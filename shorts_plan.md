@@ -21,8 +21,8 @@ Last categories used: B-001 = 2, B-002 = 3 (+11). This batch avoids 3 and 11 and
 
 Release order (no category twice in a row, aviation Shorts apart): A-001 (6) → A-004 (4) → A-002 (8) → A-005 (7) → A-003 (9, R) → A-006 (1) → A-007 (9).
 Slots: one per day at 22:00 UTC (US 5 pm ET / UK 10 pm), starting the first day after B-002's last cut Short (C1, Wed 11 Nov 02:00 UTC)
-that the Short has passed QA. No fixed public dates; a Short that fails QA waits. TikTok 30 min after each YouTube slot once the
-direct API keys work. Facebook: paused (owner).
+that the Short has passed QA. No fixed public dates; a Short that fails QA waits. TikTok 30 min after each YouTube slot (owner 10 Nov: every standalone Short goes to TikTok too; via Metricool + a fresh
+Dropbox token until the direct API keys work). Facebook: paused (owner).
 
 ## Beat scripts (v1, ~95–110 words each; sources checked at script stage, 2+ per claim, in each `sources.md`)
 

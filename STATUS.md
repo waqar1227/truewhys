@@ -12,10 +12,8 @@ Fresh session? Tools install via the environment setup script (tools/setup_env.s
    Shorts moved to follow within 24 h: C8 FbtDoZL8vwk 10 Nov 05:00, C2 66iyJcnwvgY 08:00, C3 WqxkoJY4jy4 11:00, C4 qCgG6Dhqgi4 14:00,
    C5 Wu5-PLKwb48 17:00, C6 kk6I9g5V82Y 20:00, C7 6wDhznnQeKI 23:00, C1 TkNJsIdy7gs 11 Nov 02:00 UTC. Owner: set Related video = the long video on each Short (Studio).
    DONE 10 Nov 04:10 UTC: B-002 comment posted (owner pins it in Studio).
-   TikTok for B-002 (owner 10 Nov: via Metricool + Dropbox links): 8 Shorts being re-composed from Kaggle plates (renders_s/, music regenerated
-   with `lib/music.py library/music/procedural`). When all 8 shorts/<C>/final.mp4 exist: ask owner for a fresh Dropbox token (lasts ~4 h),
-   upload (lib/dropbox_host.py up), schedule in Metricool (brand 7942824, captions in social/plan.json, 2/day 18:00 + 23:00 UTC, no isAigc),
-   then delete the Dropbox copies (lib/dropbox_host.py rm).
+   DONE 10 Nov 10:25 UTC: TikTok for B-002 = 4 Shorts via Metricool (owner: no more): C8 18:00, C2 23:00 UTC 10 Nov, C3 18:00, C4 23:00 UTC 11 Nov
+   (ids in social/tiktok_posted.json; Dropbox copies deleted).
 5. FACEBOOK PAUSED by owner (8 Nov): no Facebook work until he gives the go-ahead. Posts made with the unpublished Meta app stay hidden
    (owner tested editing + publishing them himself: still hidden). Options if he asks: Meta Business Suite manual packs, or Zapier. (Scheduled B-001 Reels C7–C1 + banner still sit in Facebook's scheduler.)
    Cross-posting B-001 (8 Nov): Facebook Reels C0–C7 scheduled via Page token (lib/fb_post.py, ids in social/posted.json); banner scheduled 21:00 UTC.
@@ -28,7 +26,8 @@ Fresh session? Tools install via the environment setup script (tools/setup_env.s
    Dropbox token; Dropbox copies deleted. From B-002 on: TikTok direct API (owner's keys ~10–11 Nov). Owner: set Related video on B-001 Shorts.
 6. DONE 10 Nov 01:10 UTC: shorts_plan.md written (7 standalone Shorts A-001…A-007 ranked by hook; A-003 = first Style R test).
    NEXT: for A-001…A-007 in plan order: script + sources.md + topic.md → Kokoro draft → animatics → send all 7 to owner for approval
-   → Gemini voice (1 request/Short) → Kaggle vertical plates → compose → QA → schedule (22:00 UTC daily slots from 11 Nov). Then episode 3
+   → Gemini voice (1 request/Short) → Kaggle vertical plates → compose → QA → schedule on YouTube (22:00 UTC daily slots from 11 Nov)
+   AND on TikTok via Metricool (owner 10 Nov: every standalone Short goes to TikTok too, 30 min after its YouTube slot; Dropbox link needs a fresh owner token). Then episode 3
    ("What Did ___ Actually Do All Day?", 8–10 min).
 
 ## History
