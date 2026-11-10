@@ -32,3 +32,9 @@ YouTube Analytics lags 2–3 days, so retention for new videos appears later.
 4. Standalone Shorts batch A-001…A-007 goes ahead; their 48 h numbers decide which categories get 80 % of output.
 
 **Next check:** 12 Nov (48 h numbers for all B-002 Shorts + A-001).
+
+## 10 Nov 2026 20:45 UTC (evening heartbeat)
+- **Data (yt_stats 7 d):** subs 7, views 3 277. Retention vs length is the clearest signal: Hangman gloves 24 s → 86 % viewed → 1 565 views; Lawyer rats 54 s → 46 % → 1 350; Weevils 56 s → 54 % → 33; Rooster 48 s → 51 % → 17. Long videos: B-001 7:02 keeps only 16.6 % (avg 70 s), B-002 10 views in 17 h.
+- **B-002 Shorts:** Gong farmer 226 views in 16 h; the next four (C2–C5) only 3–12 views each 3–12 h after release. Likely cause: four Shorts from the same video every 3 h compete with each other and the feed tests each one on a tiny seed audience; titles C2–C5 are vaguer (no single gross/strange object up front).
+- **Changes:** (1) Standalone Shorts aim at 25–40 s with a payoff before 20 s (A-001 is 40 s: watch whether it beats the 50 % line). (2) Next long video must hook harder in the first 30 s (B-001 lost most viewers by 70 s): open on the strangest moment, not context. (3) Proposal for the next episode's cut Shorts: space them 6–8 h apart instead of 3 h, and lead with the single strangest one. Owner rule says within 24 h, so 3–4 Shorts per day max; raise with owner before changing.
+- Competitor check: done this morning (see above), unchanged; next on 11 Nov.

@@ -2,11 +2,21 @@
  "date": "2026-11-10",
  "channel": {
   "viewCount": "3277",
-  "subscriberCount": "6",
+  "subscriberCount": "7",
   "hiddenSubscriberCount": false,
-  "videoCount": "13"
+  "videoCount": "15"
  },
  "videos": {
+  "MLRRsaV4iUA": {
+   "title": "Why Quicksand Can't Actually Swallow You",
+   "published": "2026-11-10T16:59:34Z",
+   "privacy": "private",
+   "publish_at": "2026-11-11T22:00:00Z",
+   "duration": "PT41S",
+   "views": 0,
+   "likes": 0,
+   "comments": 0
+  },
   "TkNJsIdy7gs": {
    "title": "The Medieval Job Where You Drank Ale for Work #Shorts",
    "published": "2026-11-10T01:02:12Z",
@@ -29,9 +39,9 @@
   },
   "kk6I9g5V82Y": {
    "title": "Why Workers Stomped on Cloth in Old Urine #Shorts",
-   "published": "2026-11-10T01:02:05Z",
-   "privacy": "private",
-   "publish_at": "2026-11-10T20:00:00Z",
+   "published": "2026-11-10T20:00:09Z",
+   "privacy": "public",
+   "publish_at": null,
    "duration": "PT41S",
    "views": 0,
    "likes": 0,
@@ -39,11 +49,11 @@
   },
   "Wu5-PLKwb48": {
    "title": "The King's Men Who Could Dig Up Your Floor #Shorts",
-   "published": "2026-11-10T01:02:02Z",
-   "privacy": "private",
-   "publish_at": "2026-11-10T17:00:00Z",
+   "published": "2026-11-10T17:00:22Z",
+   "privacy": "public",
+   "publish_at": null,
    "duration": "PT40S",
-   "views": 0,
+   "views": 4,
    "likes": 0,
    "comments": 0
   },
@@ -53,7 +63,7 @@
    "privacy": "public",
    "publish_at": null,
    "duration": "PT40S",
-   "views": 0,
+   "views": 3,
    "likes": 0,
    "comments": 0
   },
@@ -63,7 +73,7 @@
    "privacy": "public",
    "publish_at": null,
    "duration": "PT41S",
-   "views": 2,
+   "views": 4,
    "likes": 0,
    "comments": 0
   },
@@ -73,7 +83,7 @@
    "privacy": "public",
    "publish_at": null,
    "duration": "PT44S",
-   "views": 10,
+   "views": 12,
    "likes": 0,
    "comments": 0
   },
@@ -83,7 +93,7 @@
    "privacy": "public",
    "publish_at": null,
    "duration": "PT46S",
-   "views": 220,
+   "views": 226,
    "likes": 7,
    "comments": 0
   },
@@ -93,8 +103,8 @@
    "privacy": "public",
    "publish_at": null,
    "duration": "PT6M12S",
-   "views": 6,
-   "likes": 0,
+   "views": 10,
+   "likes": 1,
    "comments": 1
   },
   "33UzHb61eKc": {
@@ -113,9 +123,13 @@
    "privacy": "public",
    "publish_at": null,
    "duration": "PT42S",
-   "views": 7,
+   "views": 4,
    "likes": 0,
-   "comments": 0
+   "comments": 0,
+   "estimatedMinutesWatched": 2,
+   "averageViewDuration": 64,
+   "averageViewPercentage": 153.1,
+   "subscribersGained": 0
   },
   "sJ0HEbnwoj8": {
    "title": "The Weevils Who Were Offered Their Own Land #Shorts",
@@ -123,9 +137,13 @@
    "privacy": "public",
    "publish_at": null,
    "duration": "PT56S",
-   "views": 70,
+   "views": 33,
    "likes": 0,
-   "comments": 0
+   "comments": 0,
+   "estimatedMinutesWatched": 10,
+   "averageViewDuration": 30,
+   "averageViewPercentage": 54.48,
+   "subscribersGained": 0
   },
   "23cFCmyvtKI": {
    "title": "The Rooster Sentenced for Laying an Egg #Shorts",
@@ -133,9 +151,13 @@
    "privacy": "public",
    "publish_at": null,
    "duration": "PT48S",
-   "views": 62,
+   "views": 17,
    "likes": 1,
-   "comments": 0
+   "comments": 0,
+   "estimatedMinutesWatched": 4,
+   "averageViewDuration": 24,
+   "averageViewPercentage": 50.99,
+   "subscribersGained": 1
   },
   "ypKUcSlisP0": {
    "title": "The Lawyer Who Defended Rats in Court #Shorts",
@@ -143,9 +165,13 @@
    "privacy": "public",
    "publish_at": null,
    "duration": "PT54S",
-   "views": 1382,
-   "likes": 31,
-   "comments": 0
+   "views": 1350,
+   "likes": 32,
+   "comments": 0,
+   "estimatedMinutesWatched": 325,
+   "averageViewDuration": 24,
+   "averageViewPercentage": 46.02,
+   "subscribersGained": 1
   },
   "CPPa366kvr8": {
    "title": "Why the Hangman Got New Gloves #Shorts",
@@ -153,9 +179,13 @@
    "privacy": "public",
    "publish_at": null,
    "duration": "PT24S",
-   "views": 1700,
-   "likes": 22,
-   "comments": 0
+   "views": 1565,
+   "likes": 23,
+   "comments": 0,
+   "estimatedMinutesWatched": 267,
+   "averageViewDuration": 20,
+   "averageViewPercentage": 86.26,
+   "subscribersGained": 3
   },
   "5YqYpWmY7EA": {
    "title": "The Pig That Was Executed in a Man's Clothes #Shorts",
@@ -163,9 +193,13 @@
    "privacy": "public",
    "publish_at": null,
    "duration": "PT41S",
-   "views": 111,
+   "views": 70,
    "likes": 2,
-   "comments": 0
+   "comments": 0,
+   "estimatedMinutesWatched": 15,
+   "averageViewDuration": 27,
+   "averageViewPercentage": 67.83,
+   "subscribersGained": 0
   },
   "9C-9O0c6VqM": {
    "title": "Why Medieval Courts Put Animals on Trial",
@@ -173,12 +207,12 @@
    "privacy": "public",
    "publish_at": null,
    "duration": "PT7M2S",
-   "views": 1,
+   "views": 24,
    "likes": 0,
    "comments": 1,
-   "estimatedMinutesWatched": 2,
-   "averageViewDuration": 157,
-   "averageViewPercentage": 37.41,
+   "estimatedMinutesWatched": 25,
+   "averageViewDuration": 70,
+   "averageViewPercentage": 16.62,
    "subscribersGained": 0
   }
  }
