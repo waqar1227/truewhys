@@ -177,3 +177,10 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
 - **Normal session model** for scripts, research, voice, animatics, compose and QA.
 - **Sonnet** (`model: "sonnet"`) for routine scheduling/upload/comment/cross-post steps (heartbeat chores).
 - Tell the owner in one line whenever Fable 5.2 was used and for what.
+
+## Owner rule added 10 Nov 2026: save every reusable asset in the library
+- Everything made or downloaded that could be used again goes into `library/` (or `lib/` for code-built assets) and is listed in
+  `library/index.md` with what it is, how to call it, and its licence: 3D sets and camera marks, characters and poses, props, animals,
+  realistic models (`library/models/`), HDRIs (`library/hdri/`), textures, sounds, music, graphics templates, voice/caption styles.
+- Before building anything new, check `library/index.md` first and reuse or extend what exists (saves time and Claude usage).
+- Credits/licences of downloaded assets stay next to them (e.g. `library/models/credits.md`). Files over 25 MB are not committed: note where to re-download or how to rebuild them.
