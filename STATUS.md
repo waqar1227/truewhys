@@ -12,8 +12,10 @@ Fresh session? Tools install via the environment setup script (tools/setup_env.s
    Shorts moved to follow within 24 h: C8 FbtDoZL8vwk 10 Nov 05:00, C2 66iyJcnwvgY 08:00, C3 WqxkoJY4jy4 11:00, C4 qCgG6Dhqgi4 14:00,
    C5 Wu5-PLKwb48 17:00, C6 kk6I9g5V82Y 20:00, C7 6wDhznnQeKI 23:00, C1 TkNJsIdy7gs 11 Nov 02:00 UTC. Owner: set Related video = the long video on each Short (Studio).
    DONE 10 Nov 04:10 UTC: B-002 comment posted (owner pins it in Studio).
-   TikTok for B-002: when the owner's TikTok API keys arrive, post the 8 Shorts at US-evening times (needs the Short files: re-compose from
-   Kaggle plates b002s1/b002s2 if this container is gone: lib/compose.py with --plan shorts/<C>/shots.json, ~30 min each).
+   TikTok for B-002 (owner 10 Nov: via Metricool + Dropbox links): 8 Shorts being re-composed from Kaggle plates (renders_s/, music regenerated
+   with `lib/music.py library/music/procedural`). When all 8 shorts/<C>/final.mp4 exist: ask owner for a fresh Dropbox token (lasts ~4 h),
+   upload (lib/dropbox_host.py up), schedule in Metricool (brand 7942824, captions in social/plan.json, 2/day 18:00 + 23:00 UTC, no isAigc),
+   then delete the Dropbox copies (lib/dropbox_host.py rm).
 5. FACEBOOK PAUSED by owner (8 Nov): no Facebook work until he gives the go-ahead. Posts made with the unpublished Meta app stay hidden
    (owner tested editing + publishing them himself: still hidden). Options if he asks: Meta Business Suite manual packs, or Zapier. (Scheduled B-001 Reels C7–C1 + banner still sit in Facebook's scheduler.)
    Cross-posting B-001 (8 Nov): Facebook Reels C0–C7 scheduled via Page token (lib/fb_post.py, ids in social/posted.json); banner scheduled 21:00 UTC.
