@@ -184,3 +184,10 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
   realistic models (`library/models/`), HDRIs (`library/hdri/`), textures, sounds, music, graphics templates, voice/caption styles.
 - Before building anything new, check `library/index.md` first and reuse or extend what exists (saves time and Claude usage).
 - Credits/licences of downloaded assets stay next to them (e.g. `library/models/credits.md`). Files over 25 MB are not committed: note where to re-download or how to rebuild them.
+
+## Owner rule added 10 Nov 2026: publish long videos as soon as they are finished (replaces the long-video slot rule)
+- As soon as a long video passes QA (`qa.md` all ticked), upload it and **publish it straight away (public)**, not scheduled for later.
+  Then post the pinned-comment text right away (owner pins it in Studio).
+- **Maximum one long video per day.** If a second one is finished the same day, schedule it (private + `publishAt`) for the next day.
+- Its cut Shorts are **scheduled after the long video**: all within 24 h of it going public, about one every 3 h (first ~1 h after).
+- Standalone Shorts keep their own daily slots in the gaps. B-002 went public 10 Nov 03:50 UTC (owner); its Shorts were moved to 05:00 → 02:00 UTC.

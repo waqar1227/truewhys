@@ -8,10 +8,10 @@ Fresh session? Tools install via the environment setup script (tools/setup_env.s
 3. DONE 9 Nov 11:00 UTC: B-002 long video composed + QA passed (final/B-002.mp4, 6:11, −14.5 LUFS; qa.md ticked; credits.md written).
    final/B-002.mp4 is NOT in git (200 MB): if a fresh session lacks it, re-fetch plates from Kaggle kernels truewhys-render-b002 / b002b and re-compose.
 4. DONE 10 Nov 01:40 UTC: B-002 fully SCHEDULED on YouTube (private + publishAt), QA in qa.md.
-   Long h2oO3SrSUH8 Wed 11 Nov 15:00 UTC (thumb_A set; owner runs Test & Compare with thumb_B + thumb_C, sent 10 Nov; B-001 got a thumb_C too).
-   Shorts: C8 FbtDoZL8vwk 16:00, C2 66iyJcnwvgY 19:00, C3 WqxkoJY4jy4 22:00, C4 qCgG6Dhqgi4 12 Nov 01:00, C5 Wu5-PLKwb48 04:00,
-   C6 kk6I9g5V82Y 07:00, C7 6wDhznnQeKI 10:00, C1 TkNJsIdy7gs 13:00 UTC. Owner: set Related video = the long video on each Short (Studio).
-   NEXT (first heartbeat after Wed 11 Nov 15:00 UTC): `python lib/youtube.py comment episodes/B-002-worst-jobs/upload_meta.json`, tell owner to pin it.
+   Long h2oO3SrSUH8 PUBLIC since 10 Nov 03:50 UTC (owner published it early; owner runs Test & Compare with thumb_B + thumb_C).
+   Shorts moved to follow within 24 h: C8 FbtDoZL8vwk 10 Nov 05:00, C2 66iyJcnwvgY 08:00, C3 WqxkoJY4jy4 11:00, C4 qCgG6Dhqgi4 14:00,
+   C5 Wu5-PLKwb48 17:00, C6 kk6I9g5V82Y 20:00, C7 6wDhznnQeKI 23:00, C1 TkNJsIdy7gs 11 Nov 02:00 UTC. Owner: set Related video = the long video on each Short (Studio).
+   DONE 10 Nov 04:10 UTC: B-002 comment posted (owner pins it in Studio).
    TikTok for B-002: when the owner's TikTok API keys arrive, post the 8 Shorts at US-evening times (needs the Short files: re-compose from
    Kaggle plates b002s1/b002s2 if this container is gone: lib/compose.py with --plan shorts/<C>/shots.json, ~30 min each).
 5. FACEBOOK PAUSED by owner (8 Nov): no Facebook work until he gives the go-ahead. Posts made with the unpublished Meta app stay hidden
@@ -26,7 +26,7 @@ Fresh session? Tools install via the environment setup script (tools/setup_env.s
    Dropbox token; Dropbox copies deleted. From B-002 on: TikTok direct API (owner's keys ~10–11 Nov). Owner: set Related video on B-001 Shorts.
 6. DONE 10 Nov 01:10 UTC: shorts_plan.md written (7 standalone Shorts A-001…A-007 ranked by hook; A-003 = first Style R test).
    NEXT: for A-001…A-007 in plan order: script + sources.md + topic.md → Kokoro draft → animatics → send all 7 to owner for approval
-   → Gemini voice (1 request/Short) → Kaggle vertical plates → compose → QA → schedule (22:00 UTC daily slots from 13 Nov). Then episode 3
+   → Gemini voice (1 request/Short) → Kaggle vertical plates → compose → QA → schedule (22:00 UTC daily slots from 11 Nov). Then episode 3
    ("What Did ___ Actually Do All Day?", 8–10 min).
 
 ## History
