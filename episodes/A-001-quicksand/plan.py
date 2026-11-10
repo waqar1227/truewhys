@@ -39,7 +39,7 @@ S("L04", set="marsh:tide", cam=shake(CLOSE, 0.06, 0.025), chars=[WY(-0.32, "angr
 S("L05", set="study", cam=push(ST_WY, 0.12), chars=[WYS("neutral", "point_r")], part=(0, 0.35), pop=[[0.1, "DON'T YANK", 1.1]], sfx=[[0.05, "tick", 0.4]], music="playful")
 S("L05", set="marsh:tide", cam=push(CLOSE, 0.1), chars=[WY(-0.32, "neutral", "shrug")], part=(0.35, 1), pop=[[0.05, "WIGGLE · LEAN BACK · SPREAD OUT", 0.9]],
   sfx=[[0.2, "splash", 0.3]])
-S("L06", set="marsh:tide", cam=pan(WIDE, 0.8, 0.4), chars=[WY(-0.18, "happy", "shrug", walk={"to": [1.7, 0.9, 0.12]})], tag="INCH BY INCH",
+S("L06", set="marsh:tide", cam=pan(WIDE, 0.8, 0.4), chars=[WY(-0.18, "happy", "shrug", walk={"to": [1.15, 1.45, 0.08]})], tag="INCH BY INCH",
   sfx=[[0.1, "splash", 0.25], [0, "birds", 0.3]])
 S("L07", set="marsh:tide", cam=push(TIDE, 0.12), chars=[WY(-0.32, "worried", "down", face="L")], part=(0, 0.6), pop=[[0.45, "THE TIDE", 1.3]],
   sfx=[[0.1, "wind", 0.4], [0.4, "riser", 0.35]], music="tension")
