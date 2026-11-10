@@ -200,3 +200,8 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
   what worked, what failed and why, and the specific changes for the next video.
 - Every new video must be a deliberate improvement on the previous ones. Never repeat a strategy that underperformed without analysing and changing it;
   test new topics, hooks, story styles, thumbnails and editing. Never prioritise quantity over quality.
+- Study competitors' hits (hundreds of thousands to millions of views) for strategy, storytelling, editing, hooks, pacing, thumbnails, titles,
+  descriptions, SEO and engagement. Never get stuck in one style or structure: try a new creative approach regularly, based on what actually performs.
+- If a video gets few views, find the real reason (topic, hook, title/thumbnail, retention drop point, length) before making the next one.
+- Every video gets a curiosity-driven, professional thumbnail and optimised title, description, keywords and tags.
+- Think strategically, not mechanically: the job is to learn from results and make the channel more competitive every day.
