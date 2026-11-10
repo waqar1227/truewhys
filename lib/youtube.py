@@ -3,6 +3,7 @@
 
 python lib/youtube.py check                      -> verifies the refresh token and scopes
 python lib/youtube.py upload <video.mp4> <meta.json> [thumb.jpg] [--long <video id>]
+python lib/youtube.py comment <meta.json>         -> posts "pinned_comment" once the video is live
   --long fills {LONG_URL} in the description (cut Shorts). Writes uploaded.json next to meta.json and refuses to
   upload the same meta twice. Optional meta keys: "playlist" (added, created if missing), "pinned_comment" (posted;
   pinning itself is done in YouTube Studio, the API cannot pin).
@@ -117,3 +118,10 @@ if __name__ == "__main__":
         if "--long" in a:
             i = a.index("--long"); long_id = a[i + 1]; del a[i:i + 2]
         upload(a[0], a[1], a[2] if len(a) > 2 else None, long_id)
+    elif sys.argv[1] == "comment":  # python lib/youtube.py comment <meta.json>: post pinned_comment after the video is live
+        import pathlib
+        mp = pathlib.Path(sys.argv[2]); m = json.loads(mp.read_text()); up = json.loads((mp.parent / "uploaded.json").read_text())
+        tok, _ = token()
+        api("POST", "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet", tok,
+            {"snippet": {"videoId": up["video_id"], "topLevelComment": {"snippet": {"textOriginal": m["pinned_comment"]}}}})
+        print("comment posted on", up["video_id"], "(owner pins it in Studio)")
