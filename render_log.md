@@ -54,3 +54,5 @@
 - 20:45 UTC B-002 Shorts plates done: b002s1 31/31 (~2.7 h), b002s2 39/39 (~3.9 h), 0 errors → ≈ 6.6 Kaggle h for the Shorts.
 ## 10 Nov 2026 14:20 UTC: truewhys-render-a001 v1 (A-001 quicksand Short, 12 plates, 1080×1920, 64 spp, step 2 + interp, 2×T4)
 - 16:45 UTC done: 12/12, 0 errors, render wall 61.8 min on 2 GPUs (≈ 2.1 GPU h incl. setup).
+## 10 Nov 2026 21:53 UTC: truewhys-render-a004 v1 (A-004 tickling Short, 15 plates, 1080×1920, 64 spp, step 2 + interp; robot-feather shots step 1, 2×T4)
+- 11 Nov 00:17 UTC done: 15/15, 0 errors, render wall 143.2 min on 2 GPUs (≈ 4.9 GPU h incl. setup). Animated shots (step 1) cost ~2× per second, so keep animation to the shots that need it.
