@@ -42,7 +42,7 @@ def human_frame(a, t, d, env, rng_seed):
     expr = a.get("expr", "neutral")
     # arms: ease from rest into the target pose (gesture on each shot), timed gestures after
     tgt = ARMS.get(a.get("arms", "down"), ARMS["down"])
-    k = gfx.back_out(min(1, max(0, (t - 0.12) / 0.45)), 1.2)
+    k = 1.0 if a.get("posed") else gfx.back_out(min(1, max(0, (t - 0.12) / 0.45)), 1.2)   # posed: already in the pose at frame 0 (hooks)
     aL = 8 + (tgt[0] - 8) * k
     aR = 8 + (tgt[1] - 8) * k
     if a.get("arms") == "wave":

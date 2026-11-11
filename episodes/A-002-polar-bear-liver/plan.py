@@ -30,7 +30,7 @@ def PB(at=(3.0, 8.7, 0), face="R", expr="neutral", **kw):
     return A("polar_bear", list(at), 1.3, face, expr, **kw)
 
 # hook: the payoff image from frame 1: liver at the sailor's mouth, Wy lunging "STOP!"
-S("H1", set="arctic:night", cam=push(HOOK, 0.18), chars=[SAILOR("happy", "raise"), WY("surprised", "both_up", at=(1.15, 0.5, 0), blink_fast=True)], part=(0, 0.55),
+S("H1", set="arctic:night", cam=push(HOOK, 0.18), chars=[SAILOR("happy", "raise", posed=True), WY("surprised", "both_up", at=(1.15, 0.5, 0), blink_fast=True)], part=(0, 0.55),
   pop=[[0.02, "DON'T EAT IT!", 1.4]], sfx=[[0, "whoosh_soft", 0.5], [0.05, "boing", 0.35], [0, "wind", 0.3]], music="tension")
 S("H1", set="arctic:night", cam=push(TIGHT, 0.12), chars=[SAILOR("surprised", "raise")], part=(0.55, 1),
   pop=[[0.05, "POLAR BEAR LIVER", 1.0]], sfx=[[0.05, "hmm", 0.4]])

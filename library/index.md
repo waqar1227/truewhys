@@ -58,3 +58,4 @@ Helpers: `flames()` toon fire, `candle()`, `panel_wall()`, `tapestry()`.
   `foodchain` (fish → seal → polar bear, yellow nutrient dots pile up, liver glows), `peel` (friendly cartoon hand, skin flakes drift off; no gore),
   `dose` (gauge with a needle swinging past a red "limit" + a small liver cube). Helper `gfx._svg_tile(body, R, bg)` draws any SVG lens scene.
 - Cast in use: `sailor` (wool cap, 1590s) with `hold="liver"` (prop) and arms `"raise"` = liver at the mouth; animals `polar_bear`, `seal`, `fish`.
+- Puppet option `posed=True` (lib/compose.py): arms start already in the target pose at frame 0 (use on hook shots so the key prop is in place instantly).

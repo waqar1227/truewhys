@@ -57,7 +57,8 @@
      "face": "R",
      "expr": "happy",
      "arms": "raise",
-     "hold": "liver"
+     "hold": "liver",
+     "posed": true
     },
     {
      "c": "wy",
