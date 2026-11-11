@@ -104,7 +104,7 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
 - Title patterns: "The … That/Who …", "Why …", "Levels of …", "X vs Y", "What If / Would You", "How …".
 - `topic_results.md`: date, title, category, style, title pattern, 48 h / 7 d views, avg % viewed, likes (owner pastes Studio numbers).
   After 4 weeks or 20 Shorts: show the owner the top 3, shift 80 % of output to them, 20 % tests.
-- **Daily growth review** (owner master instructions 11 Nov 2026, full text `docs/growth_master.md`): its own scheduled task (fresh session,
+- **Daily growth review** (owner master instructions 11 Nov 2026, full text `docs/growth_master.md`): its own scheduled task (own Sonnet session with the repo,
   Sonnet, 07:13 UTC) runs `bash tools/daily.sh` (yt_stats: views since last check, retention 10/50/90 % + drop point, traffic sources;
   competitors.py: cached yt-dlp snapshot, breakouts, fastest growers) and appends a ≤20-line entry to `research/daily_report.md`
   (`research/report_template.md`). CTR/impressions are not in the API: use them only when the owner pastes Studio numbers.
