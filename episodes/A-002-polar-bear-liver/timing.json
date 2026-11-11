@@ -2,662 +2,591 @@
  {
   "id": "H1",
   "chapter": 0,
-  "text": "Never eat this part of a polar bear.",
-  "dur": 2.41,
+  "text": "Never eat a polar bear's liver.",
+  "dur": 2.14,
   "words": [
    {
     "w": "Never",
     "s": 0.0,
-    "e": 0.3
-   },
-   {
-    "w": "eat",
-    "s": 0.3,
-    "e": 0.62
-   },
-   {
-    "w": "this",
-    "s": 0.62,
-    "e": 0.84
-   },
-   {
-    "w": "part",
-    "s": 0.84,
-    "e": 1.16
-   },
-   {
-    "w": "of",
-    "s": 1.16,
-    "e": 1.44
-   },
-   {
-    "w": "a",
-    "s": 1.44,
-    "e": 1.58
-   },
-   {
-    "w": "polar",
-    "s": 1.58,
-    "e": 1.86
-   },
-   {
-    "w": "bear.",
-    "s": 1.86,
-    "e": 2.2
-   }
-  ],
-  "heard": "Never eat this part of a polar bear."
- },
- {
-  "id": "L01",
-  "chapter": 0,
-  "text": "Over four hundred years ago, Dutch sailors trapped in the Arctic cooked a polar bear's liver.",
-  "dur": 5.663,
-  "words": [
-   {
-    "w": "Over",
-    "s": 0.0,
-    "e": 0.24
-   },
-   {
-    "w": "four",
-    "s": 0.24,
-    "e": 0.407
-   },
-   {
-    "w": "hundred",
-    "s": 0.407,
-    "e": 0.7
-   },
-   {
-    "w": "years",
-    "s": 0.7,
-    "e": 1.16
-   },
-   {
-    "w": "ago,",
-    "s": 1.16,
-    "e": 1.64
-   },
-   {
-    "w": "Dutch",
-    "s": 2.12,
-    "e": 2.24
-   },
-   {
-    "w": "sailors",
-    "s": 2.24,
-    "e": 2.66
-   },
-   {
-    "w": "trapped",
-    "s": 2.66,
-    "e": 3.08
-   },
-   {
-    "w": "in",
-    "s": 3.08,
-    "e": 3.3
-   },
-   {
-    "w": "the",
-    "s": 3.3,
-    "e": 3.4
-   },
-   {
-    "w": "Arctic",
-    "s": 3.4,
-    "e": 3.84
-   },
-   {
-    "w": "cooked",
-    "s": 3.84,
-    "e": 4.2
-   },
-   {
-    "w": "a",
-    "s": 4.2,
-    "e": 4.42
-   },
-   {
-    "w": "polar",
-    "s": 4.42,
-    "e": 4.72
-   },
-   {
-    "w": "bear's",
-    "s": 4.72,
-    "e": 5.18
-   },
-   {
-    "w": "liver.",
-    "s": 5.18,
-    "e": 5.42
-   }
-  ],
-  "heard": "Over 400 years ago, Dutch sailors trapped in the Arctic cooked a polar bear's liver."
- },
- {
-  "id": "L02",
-  "chapter": 0,
-  "text": "Within days, they fell sick. Then their skin began to peel off.",
-  "dur": 3.979,
-  "words": [
-   {
-    "w": "Within",
-    "s": 0.0,
-    "e": 0.28
-   },
-   {
-    "w": "days,",
-    "s": 0.28,
-    "e": 0.64
-   },
-   {
-    "w": "they",
-    "s": 0.64,
-    "e": 0.92
-   },
-   {
-    "w": "fell",
-    "s": 0.92,
-    "e": 1.12
-   },
-   {
-    "w": "sick.",
-    "s": 1.12,
-    "e": 1.52
-   },
-   {
-    "w": "Then",
-    "s": 2.04,
-    "e": 2.16
-   },
-   {
-    "w": "their",
-    "s": 2.16,
-    "e": 2.32
-   },
-   {
-    "w": "skin",
-    "s": 2.32,
-    "e": 2.64
-   },
-   {
-    "w": "began",
-    "s": 2.64,
-    "e": 3.0
-   },
-   {
-    "w": "to",
-    "s": 3.0,
-    "e": 3.22
-   },
-   {
-    "w": "peel",
-    "s": 3.22,
-    "e": 3.42
-   },
-   {
-    "w": "off.",
-    "s": 3.42,
-    "e": 3.74
-   }
-  ],
-  "heard": "Within days, they fell sick. Then their skin began to peel off."
- },
- {
-  "id": "L03",
-  "chapter": 0,
-  "text": "The cause was vitamin A. Tiny fish store it, seals eat the fish, and polar bears eat the seals.",
-  "dur": 6.784,
-  "words": [
-   {
-    "w": "The",
-    "s": 0.0,
-    "e": 0.12
-   },
-   {
-    "w": "cause",
-    "s": 0.12,
-    "e": 0.46
-   },
-   {
-    "w": "was",
-    "s": 0.46,
-    "e": 0.7
-   },
-   {
-    "w": "vitamin",
-    "s": 0.7,
-    "e": 1.18
-   },
-   {
-    "w": "A.",
-    "s": 1.18,
-    "e": 1.76
-   },
-   {
-    "w": "Tiny",
-    "s": 2.26,
-    "e": 2.34
-   },
-   {
-    "w": "fish",
-    "s": 2.34,
-    "e": 2.62
-   },
-   {
-    "w": "store",
-    "s": 2.62,
-    "e": 3.04
-   },
-   {
-    "w": "it,",
-    "s": 3.04,
-    "e": 3.26
-   },
-   {
-    "w": "seals",
-    "s": 3.5,
-    "e": 3.74
-   },
-   {
-    "w": "eat",
-    "s": 3.74,
-    "e": 4.06
-   },
-   {
-    "w": "the",
-    "s": 4.06,
-    "e": 4.24
-   },
-   {
-    "w": "fish,",
-    "s": 4.24,
-    "e": 4.56
-   },
-   {
-    "w": "and",
-    "s": 4.82,
-    "e": 4.9
-   },
-   {
-    "w": "polar",
-    "s": 4.9,
-    "e": 5.24
-   },
-   {
-    "w": "bears",
-    "s": 5.24,
-    "e": 5.66
-   },
-   {
-    "w": "eat",
-    "s": 5.66,
-    "e": 5.98
-   },
-   {
-    "w": "the",
-    "s": 5.98,
-    "e": 6.16
-   },
-   {
-    "w": "seals.",
-    "s": 6.16,
-    "e": 6.48
-   }
-  ],
-  "heard": "The cause was vitamin A. Tiny fish store it, seals eat the fish, and polar bears eat the seals."
- },
- {
-  "id": "L04",
-  "chapter": 0,
-  "text": "It piles up in the bear's liver. Just one gram holds almost twice the most an adult should have in a whole day.",
-  "dur": 7.053,
-  "words": [
-   {
-    "w": "It",
-    "s": 0.0,
-    "e": 0.18
-   },
-   {
-    "w": "piles",
-    "s": 0.18,
     "e": 0.56
    },
    {
-    "w": "up",
+    "w": "eat",
     "s": 0.56,
     "e": 0.86
    },
    {
-    "w": "in",
+    "w": "a",
     "s": 0.86,
-    "e": 1.04
+    "e": 1.1
    },
    {
-    "w": "the",
-    "s": 1.04,
-    "e": 1.16
+    "w": "polar",
+    "s": 1.1,
+    "e": 1.32
    },
    {
     "w": "bear's",
-    "s": 1.16,
-    "e": 1.56
+    "s": 1.32,
+    "e": 1.7
    },
    {
     "w": "liver.",
-    "s": 1.56,
-    "e": 1.82
+    "s": 1.7,
+    "e": 1.96
+   }
+  ],
+  "heard": "Never eat a polar bear's liver.",
+  "match": 1.0
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "Over four hundred years ago, Dutch sailors stuck in the Arctic cooked one.",
+  "dur": 3.84,
+  "words": [
+   {
+    "w": "Over",
+    "s": 0.08,
+    "e": 0.32
    },
    {
-    "w": "Just",
-    "s": 2.58,
-    "e": 2.68
+    "w": "four",
+    "s": 0.32,
+    "e": 0.54
    },
    {
-    "w": "one",
-    "s": 2.68,
-    "e": 3.0
+    "w": "hundred",
+    "s": 0.54,
+    "e": 0.8
    },
    {
-    "w": "gram",
-    "s": 3.0,
-    "e": 3.3
+    "w": "years",
+    "s": 0.8,
+    "e": 1.02
    },
    {
-    "w": "holds",
-    "s": 3.3,
-    "e": 3.78
+    "w": "ago,",
+    "s": 1.02,
+    "e": 1.32
    },
    {
-    "w": "almost",
-    "s": 3.78,
-    "e": 4.22
+    "w": "Dutch",
+    "s": 1.7,
+    "e": 1.84
    },
    {
-    "w": "twice",
-    "s": 4.22,
-    "e": 4.62
+    "w": "sailors",
+    "s": 1.84,
+    "e": 2.18
    },
    {
-    "w": "the",
-    "s": 4.62,
-    "e": 4.88
-   },
-   {
-    "w": "most",
-    "s": 4.88,
-    "e": 5.12
-   },
-   {
-    "w": "an",
-    "s": 5.12,
-    "e": 5.34
-   },
-   {
-    "w": "adult",
-    "s": 5.34,
-    "e": 5.64
-   },
-   {
-    "w": "should",
-    "s": 5.64,
-    "e": 5.92
-   },
-   {
-    "w": "have",
-    "s": 5.92,
-    "e": 6.08
+    "w": "stuck",
+    "s": 2.18,
+    "e": 2.5
    },
    {
     "w": "in",
-    "s": 6.08,
-    "e": 6.22
+    "s": 2.5,
+    "e": 2.66
+   },
+   {
+    "w": "the",
+    "s": 2.66,
+    "e": 2.78
+   },
+   {
+    "w": "Arctic",
+    "s": 2.78,
+    "e": 3.0
+   },
+   {
+    "w": "cooked",
+    "s": 3.0,
+    "e": 3.28
+   },
+   {
+    "w": "one.",
+    "s": 3.28,
+    "e": 3.66
+   }
+  ],
+  "heard": "Over four hundred years ago, Dutch sailors stuck in the Arctic cooked one.",
+  "match": 1.0
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "Days later, they fell sick, and their skin began to peel.",
+  "dur": 3.32,
+  "words": [
+   {
+    "w": "Days",
+    "s": 0.08,
+    "e": 0.3
+   },
+   {
+    "w": "later,",
+    "s": 0.3,
+    "e": 0.7
+   },
+   {
+    "w": "they",
+    "s": 0.7,
+    "e": 1.0
+   },
+   {
+    "w": "fell",
+    "s": 1.0,
+    "e": 1.24
+   },
+   {
+    "w": "sick,",
+    "s": 1.24,
+    "e": 1.6
+   },
+   {
+    "w": "and",
+    "s": 1.84,
+    "e": 1.9
+   },
+   {
+    "w": "their",
+    "s": 1.9,
+    "e": 2.0
+   },
+   {
+    "w": "skin",
+    "s": 2.0,
+    "e": 2.36
+   },
+   {
+    "w": "began",
+    "s": 2.36,
+    "e": 2.62
+   },
+   {
+    "w": "to",
+    "s": 2.62,
+    "e": 2.84
+   },
+   {
+    "w": "peel.",
+    "s": 2.84,
+    "e": 3.14
+   }
+  ],
+  "heard": "Days later, they fell sick, and their skin began to peel.",
+  "match": 1.0
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "The reason? Vitamin A. Fish store it, seals eat the fish, and bears eat the seals.",
+  "dur": 6.2,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.08,
+    "e": 0.22
+   },
+   {
+    "w": "reason?",
+    "s": 0.22,
+    "e": 0.48
+   },
+   {
+    "w": "Vitamin",
+    "s": 1.24,
+    "e": 1.42
+   },
+   {
+    "w": "A.",
+    "s": 1.42,
+    "e": 1.82
+   },
+   {
+    "w": "Fish",
+    "s": 2.76,
+    "e": 2.76
+   },
+   {
+    "w": "store",
+    "s": 2.76,
+    "e": 3.2
+   },
+   {
+    "w": "it,",
+    "s": 3.2,
+    "e": 3.46
+   },
+   {
+    "w": "seals",
+    "s": 3.72,
+    "e": 3.94
+   },
+   {
+    "w": "eat",
+    "s": 3.94,
+    "e": 4.12
+   },
+   {
+    "w": "the",
+    "s": 4.12,
+    "e": 4.26
+   },
+   {
+    "w": "fish,",
+    "s": 4.26,
+    "e": 4.5
+   },
+   {
+    "w": "and",
+    "s": 4.72,
+    "e": 4.9
+   },
+   {
+    "w": "bears",
+    "s": 4.9,
+    "e": 5.24
+   },
+   {
+    "w": "eat",
+    "s": 5.24,
+    "e": 5.52
+   },
+   {
+    "w": "the",
+    "s": 5.52,
+    "e": 5.7
+   },
+   {
+    "w": "seals.",
+    "s": 5.7,
+    "e": 6.02
+   }
+  ],
+  "heard": "The reason? Vitamin A. Fish store it, seals eat the fish, and bears eat the seals.",
+  "match": 1.0
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "It piles up in the bear's liver. Just one gram holds more than an adult's limit for a whole day.",
+  "dur": 5.24,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.08,
+    "e": 0.24
+   },
+   {
+    "w": "piles",
+    "s": 0.24,
+    "e": 0.5
+   },
+   {
+    "w": "up",
+    "s": 0.5,
+    "e": 0.82
+   },
+   {
+    "w": "in",
+    "s": 0.82,
+    "e": 1.0
+   },
+   {
+    "w": "the",
+    "s": 1.0,
+    "e": 1.08
+   },
+   {
+    "w": "bear's",
+    "s": 1.08,
+    "e": 1.34
+   },
+   {
+    "w": "liver.",
+    "s": 1.34,
+    "e": 1.58
+   },
+   {
+    "w": "Just",
+    "s": 2.08,
+    "e": 2.24
+   },
+   {
+    "w": "one",
+    "s": 2.24,
+    "e": 2.58
+   },
+   {
+    "w": "gram",
+    "s": 2.58,
+    "e": 2.86
+   },
+   {
+    "w": "holds",
+    "s": 2.86,
+    "e": 3.16
+   },
+   {
+    "w": "more",
+    "s": 3.16,
+    "e": 3.4
+   },
+   {
+    "w": "than",
+    "s": 3.4,
+    "e": 3.6
+   },
+   {
+    "w": "an",
+    "s": 3.6,
+    "e": 3.72
+   },
+   {
+    "w": "adult's",
+    "s": 3.72,
+    "e": 4.14
+   },
+   {
+    "w": "limit",
+    "s": 4.14,
+    "e": 4.3
+   },
+   {
+    "w": "for",
+    "s": 4.3,
+    "e": 4.48
    },
    {
     "w": "a",
-    "s": 6.22,
-    "e": 6.3
+    "s": 4.48,
+    "e": 4.58
    },
    {
     "w": "whole",
-    "s": 6.3,
-    "e": 6.52
+    "s": 4.58,
+    "e": 4.72
    },
    {
     "w": "day.",
-    "s": 6.52,
-    "e": 6.84
+    "s": 4.72,
+    "e": 5.06
    }
   ],
-  "heard": "It piles up in the bear's liver. Just one gram holds almost twice the most an adult should have in a whole day."
+  "heard": "It piles up in the bear's liver. Just one gram holds more than an adult's limit for a whole day.",
+  "match": 1.0
  },
  {
   "id": "L05",
   "chapter": 0,
-  "text": "And your body can't flush the extra out quickly. So a meal of it can be poisonous.",
-  "dur": 5.211,
+  "text": "Your body can't get rid of the extra quickly, so one meal can make you seriously ill.",
+  "dur": 4.32,
   "words": [
    {
-    "w": "And",
-    "s": 0.0,
-    "e": 0.16
-   },
-   {
-    "w": "your",
-    "s": 0.16,
-    "e": 0.28
+    "w": "Your",
+    "s": 0.08,
+    "e": 0.32
    },
    {
     "w": "body",
-    "s": 0.28,
-    "e": 0.62
+    "s": 0.32,
+    "e": 0.52
    },
    {
     "w": "can't",
-    "s": 0.62,
+    "s": 0.52,
+    "e": 0.8
+   },
+   {
+    "w": "get",
+    "s": 0.8,
+    "e": 0.88
+   },
+   {
+    "w": "rid",
+    "s": 0.88,
+    "e": 1.0
+   },
+   {
+    "w": "of",
+    "s": 1.0,
     "e": 1.1
    },
    {
-    "w": "flush",
-    "s": 1.1,
-    "e": 1.28
-   },
-   {
     "w": "the",
-    "s": 1.28,
-    "e": 1.48
+    "s": 1.1,
+    "e": 1.22
    },
    {
     "w": "extra",
-    "s": 1.48,
-    "e": 1.86
+    "s": 1.22,
+    "e": 1.44
    },
    {
-    "w": "out",
-    "s": 1.86,
-    "e": 2.12
+    "w": "quickly,",
+    "s": 1.44,
+    "e": 1.78
    },
    {
-    "w": "quickly.",
-    "s": 2.12,
-    "e": 2.56
+    "w": "so",
+    "s": 1.8,
+    "e": 2.04
    },
    {
-    "w": "So",
+    "w": "one",
+    "s": 2.04,
+    "e": 2.36
+   },
+   {
+    "w": "meal",
+    "s": 2.36,
+    "e": 2.64
+   },
+   {
+    "w": "can",
+    "s": 2.64,
+    "e": 2.86
+   },
+   {
+    "w": "make",
+    "s": 2.86,
+    "e": 3.04
+   },
+   {
+    "w": "you",
     "s": 3.04,
     "e": 3.24
    },
    {
-    "w": "a",
+    "w": "seriously",
     "s": 3.24,
-    "e": 3.38
+    "e": 3.72
    },
    {
-    "w": "meal",
-    "s": 3.38,
-    "e": 3.62
-   },
-   {
-    "w": "of",
-    "s": 3.62,
-    "e": 3.82
-   },
-   {
-    "w": "it",
-    "s": 3.82,
-    "e": 3.98
-   },
-   {
-    "w": "can",
-    "s": 3.98,
+    "w": "ill.",
+    "s": 3.72,
     "e": 4.14
-   },
-   {
-    "w": "be",
-    "s": 4.14,
-    "e": 4.36
-   },
-   {
-    "w": "poisonous.",
-    "s": 4.36,
-    "e": 4.8
    }
   ],
-  "heard": "And your body can't flush the extra out quickly. So a meal of it can be poisonous."
+  "heard": "Your body can't get rid of the extra quickly, so one meal can make you seriously ill.",
+  "match": 1.0
  },
  {
   "id": "L06",
   "chapter": 0,
-  "text": "Arctic hunters knew this for centuries, and left the liver alone.",
-  "dur": 3.887,
+  "text": "Arctic hunters knew this for centuries, and never ate it. Would you have known?",
+  "dur": 3.7,
   "words": [
    {
     "w": "Arctic",
-    "s": 0.0,
-    "e": 0.34
+    "s": 0.08,
+    "e": 0.3
    },
    {
     "w": "hunters",
-    "s": 0.34,
-    "e": 0.78
+    "s": 0.3,
+    "e": 0.48
    },
    {
     "w": "knew",
-    "s": 0.78,
-    "e": 1.08
-   },
-   {
-    "w": "this",
-    "s": 1.08,
-    "e": 1.28
-   },
-   {
-    "w": "for",
-    "s": 1.28,
-    "e": 1.48
-   },
-   {
-    "w": "centuries,",
-    "s": 1.48,
-    "e": 1.94
-   },
-   {
-    "w": "and",
-    "s": 2.4,
-    "e": 2.6
-   },
-   {
-    "w": "left",
-    "s": 2.6,
-    "e": 2.78
-   },
-   {
-    "w": "the",
-    "s": 2.78,
-    "e": 2.98
-   },
-   {
-    "w": "liver",
-    "s": 2.98,
-    "e": 3.2
-   },
-   {
-    "w": "alone.",
-    "s": 3.2,
-    "e": 3.6
-   }
-  ],
-  "heard": "Arctic hunters knew this for centuries, and left the liver alone."
- },
- {
-  "id": "L07",
-  "chapter": 0,
-  "text": "So, would you have known?",
-  "dur": 1.259,
-  "words": [
-   {
-    "w": "So,",
-    "s": 0.0,
-    "e": 0.26
-   },
-   {
-    "w": "would",
-    "s": 0.36,
-    "e": 0.44
-   },
-   {
-    "w": "you",
-    "s": 0.44,
-    "e": 0.58
-   },
-   {
-    "w": "have",
-    "s": 0.58,
+    "s": 0.48,
     "e": 0.76
    },
    {
-    "w": "known?",
+    "w": "this",
     "s": 0.76,
-    "e": 0.98
+    "e": 0.94
+   },
+   {
+    "w": "for",
+    "s": 0.94,
+    "e": 1.12
+   },
+   {
+    "w": "centuries,",
+    "s": 1.12,
+    "e": 1.52
+   },
+   {
+    "w": "and",
+    "s": 1.62,
+    "e": 1.82
+   },
+   {
+    "w": "never",
+    "s": 1.82,
+    "e": 2.06
+   },
+   {
+    "w": "ate",
+    "s": 2.06,
+    "e": 2.26
+   },
+   {
+    "w": "it.",
+    "s": 2.26,
+    "e": 2.36
+   },
+   {
+    "w": "Would",
+    "s": 2.36,
+    "e": 3.1
+   },
+   {
+    "w": "you",
+    "s": 3.1,
+    "e": 3.24
+   },
+   {
+    "w": "have",
+    "s": 3.24,
+    "e": 3.32
+   },
+   {
+    "w": "known?",
+    "s": 3.32,
+    "e": 3.52
    }
   ],
-  "heard": "So, would you have known?"
+  "heard": "Arctic hunters knew this for centuries, and never ate it. Would you have known?",
+  "match": 1.0
  },
  {
   "id": "O1",
   "chapter": 0,
   "text": "Follow for more true whys.",
-  "dur": 1.785,
+  "dur": 1.46,
   "words": [
    {
     "w": "Follow",
-    "s": 0.0,
-    "e": 0.34
+    "s": 0.08,
+    "e": 0.18
    },
    {
     "w": "for",
-    "s": 0.34,
-    "e": 0.6
+    "s": 0.18,
+    "e": 0.4
    },
    {
     "w": "more",
-    "s": 0.6,
-    "e": 0.78
+    "s": 0.4,
+    "e": 0.58
    },
    {
     "w": "true",
-    "s": 0.78,
-    "e": 1.06
+    "s": 0.58,
+    "e": 0.82
    },
    {
     "w": "whys.",
-    "s": 1.06,
-    "e": 1.58
+    "s": 0.82,
+    "e": 1.28
    }
   ],
-  "heard": "Follow for more true whys."
+  "heard": "Follow for more true whys.",
+  "match": 1.0
  }
 ]

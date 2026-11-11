@@ -49,3 +49,12 @@ Helpers: `flames()` toon fire, `candle()`, `panel_wall()`, `tapestry()`.
 - Brain prop `sets3.brain(cx, cy, cz, s, hi_cereb=True)`: cartoon side-view brain (cerebrum, cerebellum, stem) for screens/posters/cutaways.
 - Puppet motion (lib/compose.py): arms `"tickle"` (both hands on the tummy, fast wiggle); `laugh=True` or `laugh=<seconds>` (ha-ha mouth cycle, head bounce, shaking arms).
 - Procedural music is not in git: rebuild with `python lib/music.py library/music/procedural` (seeded, identical every time).
+
+## Added 11 Nov 2026 (A-002 polar bear liver)
+- Set `arctic` (lib/sets3.py, variant night): 1590s Arctic camp — fire with tripod + pot at (0.6, 1.2), tent, sledge, crates, log seats,
+  ship held in the ice at (4.5, 17), pressure ridges, icebergs, aurora + moon. Tested camera marks in episodes/A-002-polar-bear-liver/plan.py
+  (HOOK two-shot by the fire, TIGHT sailor close, CAMP, WIDE ship + aurora, BEAR on the path to the ship with the ship behind, WYC).
+- Magnifier scenes for any 3D shot (`lens=dict(name=..., labels=[[text, x, y, t_in]], at=[x, y], rad=0.34)`, lib/gfx.LENS_SCENES):
+  `foodchain` (fish → seal → polar bear, yellow nutrient dots pile up, liver glows), `peel` (friendly cartoon hand, skin flakes drift off; no gore),
+  `dose` (gauge with a needle swinging past a red "limit" + a small liver cube). Helper `gfx._svg_tile(body, R, bg)` draws any SVG lens scene.
+- Cast in use: `sailor` (wool cap, 1590s) with `hold="liver"` (prop) and arms `"raise"` = liver at the mouth; animals `polar_bear`, `seal`, `fish`.

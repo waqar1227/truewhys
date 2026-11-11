@@ -550,7 +550,133 @@ def _grains_scene(R, t, d):
     return im
 
 
-LENS_SCENES = {"grains": _grains_scene}
+def _svg_tile(body, R, bg):
+    """Render an SVG body drawn in a 1000x1000 box (ink outlines) to an R x R RGBA tile."""
+    svg = cast._svg(f'<rect x="-50" y="-50" width="1100" height="1100" fill="{bg}" stroke="none"/>' + body, (0, 0, 1000, 1000))
+    return cast._png(svg, R / 1000.0).resize((R, R), Image.LANCZOS)
+
+
+def _foodchain_scene(R, t, d):
+    """Arctic food chain: fish -> seal -> polar bear, yellow vitamin-A dots pile up at each step (A-002)."""
+    def k(t0, dur=0.35):
+        return max(0.0, min(1.0, (t - t0) / dur))
+    st = [0.15, d * 0.33, d * 0.62]            # fish, seal, bear appear
+    b = ['<rect x="-50" y="560" width="1100" height="500" fill="#1E5E8C" stroke="none"/>',
+         '<path d="M-50 560 Q250 540 500 560 T1050 560" fill="none" stroke="#9FD8F0" stroke-width="10"/>',
+         '<path d="M500 560 L1050 560 L1050 600 L480 600 Z" fill="#EAF4FF"/>',
+         '<path d="M150 560 L450 560 L430 592 L170 592 Z" fill="#EAF4FF"/>']
+    def dots(cx, cy, n, r, kk, spread):
+        out = []
+        for i in range(int(round(n * kk))):
+            a = i * 2.39996; rr = spread * math.sqrt((i + 0.5) / n)
+            out.append(f'<circle cx="{cx + rr*math.cos(a):.0f}" cy="{cy + rr*math.sin(a)*0.7:.0f}" r="{r}" fill="#FFC93C" stroke-width="5"/>')
+        return "".join(out)
+    def arrow(x0, y0, x1, y1, kk):
+        if kk <= 0:
+            return ""
+        xe, ye = x0 + (x1 - x0) * kk, y0 + (y1 - y0) * kk
+        L = math.hypot(x1 - x0, y1 - y0); ux, uy = (x1 - x0) / L, (y1 - y0) / L
+        hd = "" if kk < 0.6 else (f'<path d="M{xe-34*ux+24*uy:.0f} {ye-34*uy-24*ux:.0f} L{xe:.0f} {ye:.0f} L{xe-34*ux-24*uy:.0f} {ye-34*uy+24*ux:.0f}" '
+                                  'fill="none" stroke="#FFF4E0" stroke-width="16"/>')
+        return f'<path d="M{x0} {y0} L{xe:.0f} {ye:.0f}" fill="none" stroke="#FFF4E0" stroke-width="16"/>' + hd
+    # fish swimming in the water, bottom
+    kf = back_out(k(st[0]))
+    if kf > 0:
+        sw = 10 * math.sin(t * 5)
+        b.append(f'<g transform="translate(330 {790+sw:.0f}) scale({0.9*kf:.2f})">'
+                 '<path d="M-120 0 L-185 -55 L-185 55 Z" fill="#7FB3D6"/><ellipse cx="0" cy="0" rx="130" ry="62" fill="#9FC7E0"/>'
+                 '<path d="M-60 -32 Q0 -52 60 -32" fill="none" stroke="#FFFFFF" stroke-width="10" opacity="0.7"/>'
+                 '<ellipse cx="72" cy="-12" rx="14" ry="16" fill="#FFFFFF" stroke-width="7"/><circle cx="76" cy="-10" r="7" fill="#1E1A24" stroke="none"/>'
+                 '</g>' + dots(320, 795 + sw, 3, 16, k(st[0] + 0.3, 0.5), 45))
+    b.append(arrow(440, 730, 420, 620, k(st[1] - 0.35, 0.35)))
+    # seal on the ice floe
+    ks = back_out(k(st[1]))
+    if ks > 0:
+        b.append(f'<g transform="translate(330 560) scale({0.8*ks:.2f})">'
+                 '<path d="M-150 -10 L-200 -60 L-190 10 Z" fill="#6E7A86"/>'
+                 '<path d="M-160 0 Q-90 -130 50 -120 Q140 -110 130 -30 Q120 0 -160 0 Z" fill="#8C98A4"/>'
+                 '<circle cx="100" cy="-120" r="52" fill="#8C98A4"/>'
+                 '<ellipse cx="94" cy="-134" rx="14" ry="17" fill="#FFFFFF" stroke-width="7"/><circle cx="98" cy="-132" r="8" fill="#1E1A24" stroke="none"/>'
+                 '<ellipse cx="140" cy="-106" rx="14" ry="10" fill="#1E1A24" stroke="none"/></g>'
+                 + dots(300, 510, 9, 14, k(st[1] + 0.3, 0.6), 60))
+    b.append(arrow(470, 470, 540, 400, k(st[2] - 0.35, 0.35)))
+    # polar bear on the ice shelf, its liver glowing with the most dots
+    kb = back_out(k(st[2]))
+    if kb > 0:
+        fur = "#F4F1E6"
+        b.append(f'<g transform="translate(650 560) scale({0.62*kb:.2f})">'
+                 + "".join(f'<rect x="{lx-26}" y="-110" width="52" height="110" rx="22" fill="#E2DED2"/>' for lx in (-110, -55, 55, 110))
+                 + f'<ellipse cx="-20" cy="-170" rx="175" ry="100" fill="{fur}"/>'
+                 f'<ellipse cx="135" cy="-235" rx="88" ry="74" fill="{fur}"/>'
+                 f'<circle cx="86" cy="-296" r="24" fill="{fur}"/><circle cx="178" cy="-296" r="24" fill="{fur}"/>'
+                 '<ellipse cx="184" cy="-204" rx="50" ry="36" fill="#E8E4D8"/><ellipse cx="216" cy="-218" rx="16" ry="12" fill="#1E1A24" stroke="none"/>'
+                 '<ellipse cx="128" cy="-252" rx="13" ry="16" fill="#FFFFFF" stroke-width="7"/><circle cx="132" cy="-250" r="7" fill="#1E1A24" stroke="none"/>'
+                 f'<path d="M-90 -190 Q-120 -230 -60 -228 Q0 -236 6 -196 Q0 -160 -50 -166 Q-90 -154 -90 -190 Z" fill="#B23A3A" opacity="{min(1, k(st[2]+0.4, 0.5)):.2f}"/>'
+                 '</g>')
+        pulse = 1 + 0.08 * math.sin(t * 9)
+        b.append(f'<circle cx="623" cy="436" r="{80*pulse*k(st[2]+0.4, 0.5):.0f}" fill="#FFC93C" opacity="0.25" stroke="none"/>')
+        b.append(dots(623, 436, 18, 11, k(st[2] + 0.5, 0.7), 60))
+    return _svg_tile("".join(b), R, "#123A5E")
+
+
+def _peel_scene(R, t, d):
+    """Friendly cartoon hand with pale skin flakes curling up and drifting off (no wounds, no gore). A-002."""
+    skin, sh = "#E9B48C", "#D49A70"
+    b = ['<ellipse cx="500" cy="980" rx="430" ry="160" fill="#1A3150" stroke="none"/>',
+         f'<path d="M330 1050 L360 640 Q370 560 430 560 L600 560 Q660 560 670 640 L700 1050 Z" fill="{skin}"/>']
+    fingers = [(392, 560, 300, -8), (468, 548, 360, -2), (548, 552, 340, 4), (624, 570, 290, 10)]
+    for (x, y, L, a) in fingers:
+        b.append(f'<g transform="rotate({a} {x} {y})"><rect x="{x-36}" y="{y-L}" width="72" height="{L+40}" rx="36" fill="{skin}"/>'
+                 f'<path d="M{x-18} {y-L+50} Q{x} {y-L+40} {x+18} {y-L+50}" fill="none" stroke="{sh}" stroke-width="7"/></g>')
+    b.append(f'<g transform="rotate(-38 330 760)"><rect x="294" y="560" width="72" height="230" rx="36" fill="{skin}"/></g>')
+    b.append(f'<path d="M420 760 Q500 800 600 760" fill="none" stroke="{sh}" stroke-width="8"/>')
+    rng = np.random.default_rng(11)
+    pts = [(rng.uniform(380, 660), rng.uniform(300, 980)) for _ in range(26)]
+    for i, (x, y) in enumerate(pts):
+        t0 = 0.25 + i * (max(0.6, d - 0.8) / len(pts))
+        u = (t - t0)
+        if u < 0:
+            continue
+        lift = min(1.0, u / 0.4)                       # flake curls up
+        fall = max(0.0, u - 0.4)                        # then drifts down and sideways
+        fx = x + 40 * math.sin(fall * 3 + i) + fall * 30 * (1 if i % 2 else -1)
+        fy = y + fall * 260
+        rot = (i * 47 + fall * 160) % 360
+        sz = 22 + (i % 4) * 6
+        op = max(0.0, 1 - fall / 2.2)
+        if op <= 0 or fy > 1080:
+            continue
+        b.append(f'<g transform="translate({fx:.0f} {fy:.0f}) rotate({rot:.0f}) scale(1 {0.4+0.6*lift:.2f})" opacity="{op:.2f}">'
+                 f'<path d="M{-sz} 0 Q0 {-sz*0.9:.0f} {sz} 0 Q0 {sz*0.5:.0f} {-sz} 0 Z" fill="#FBEEDC" stroke-width="5"/></g>')
+    return _svg_tile("".join(b), R, "#244A70")
+
+
+def _dose_scene(R, t, d):
+    """Gauge: one gram of polar bear liver vs an adult's daily vitamin-A limit; the needle swings past the limit. A-002."""
+    u = ease_out(min(1.0, max(0.0, (t - 0.3) / max(0.6, d * 0.5))))
+    val = 1.4 * u + (0.03 * math.sin(t * 22) if u > 0.95 else 0)   # 13,000-18,000 IU vs 10,000 IU limit
+    def ang(v):                                    # 0..1.6 maps to 200..340 deg (left to right over the top)
+        return math.radians(200 + 140 * min(v, 1.6) / 1.6)
+    cx, cy, r = 500, 640, 360
+    def arc(v0, v1, col):
+        a0, a1 = ang(v0), ang(v1)
+        return (f'<path d="M{cx + r*math.cos(a0):.0f} {cy + r*math.sin(a0):.0f} A{r} {r} 0 0 1 {cx + r*math.cos(a1):.0f} {cy + r*math.sin(a1):.0f}" '
+                f'fill="none" stroke="{col}" stroke-width="70" stroke-linecap="butt"/>')
+    b = [f'<circle cx="{cx}" cy="{cy}" r="{r+60}" fill="#FFF4E0"/>',
+         arc(0, 0.6, "#5ED38A"), arc(0.6, 1.0, "#FFC93C"), arc(1.0, 1.6, "#FF5B4B")]
+    a1 = ang(1.0)
+    b.append(f'<path d="M{cx + (r-60)*math.cos(a1):.0f} {cy + (r-60)*math.sin(a1):.0f} L{cx + (r+50)*math.cos(a1):.0f} {cy + (r+50)*math.sin(a1):.0f}" stroke-width="14"/>')
+    a = ang(val)
+    b.append(f'<path d="M{cx - 40*math.cos(a):.0f} {cy - 40*math.sin(a):.0f} L{cx + (r-20)*math.cos(a):.0f} {cy + (r-20)*math.sin(a):.0f}" stroke="#1E1A24" stroke-width="22"/>')
+    b.append(f'<circle cx="{cx}" cy="{cy}" r="44" fill="#FF6B5B" stroke-width="10"/>')
+    # one-gram liver cube under the gauge
+    b.append('<g transform="translate(500 850)"><path d="M-70 -40 L0 -80 L70 -40 L70 40 L0 80 L-70 40 Z" fill="#9C3A3A"/>'
+             '<path d="M-70 -40 L0 0 L70 -40 M0 0 L0 80" fill="none" stroke-width="9"/>'
+             '<path d="M-40 -48 L0 -66 L40 -48" fill="none" stroke="#D86A5A" stroke-width="10"/></g>')
+    return _svg_tile("".join(b), R, "#123A5E")
+
+
+LENS_SCENES = {"grains": _grains_scene, "foodchain": _foodchain_scene, "peel": _peel_scene, "dose": _dose_scene}
 
 
 def lens_inset(f, name, t, d, s, labels=(), at=(0.5, 0.47), rad=0.36):

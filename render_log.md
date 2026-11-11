@@ -56,3 +56,6 @@
 - 16:45 UTC done: 12/12, 0 errors, render wall 61.8 min on 2 GPUs (≈ 2.1 GPU h incl. setup).
 ## 10 Nov 2026 21:53 UTC: truewhys-render-a004 v1 (A-004 tickling Short, 15 plates, 1080×1920, 64 spp, step 2 + interp; robot-feather shots step 1, 2×T4)
 - 11 Nov 00:17 UTC done: 15/15, 0 errors, render wall 143.2 min on 2 GPUs (≈ 4.9 GPU h incl. setup). Animated shots (step 1) cost ~2× per second, so keep animation to the shots that need it.
+
+## 11 Nov 2026 11:10 UTC: truewhys-render-a002 v1 (A-002 polar bear liver Short, 15 plates, 1080×1920, 64 spp, step 2 + interp, no step-1 shots, 2×T4)
+- running; dataset waqarahmed51/truewhys-ep-a002 (flat: render_bg, sets, sets2, sets3, camera, shots.json, job_A.json).
