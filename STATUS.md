@@ -1,7 +1,7 @@
 # STATUS (read the NEXT list first)
 
 ## NEXT (keep this list short; heartbeat does only these)
-0. EVERY HEARTBEAT: `python lib/yt_stats.py` + competitor check → dated entry in research/daily_report.md (owner rule 10 Nov). Next 48 h check: 12 Nov.
+0. Daily growth review = separate scheduled task (fresh Sonnet session, 07:13 UTC): `bash tools/daily.sh` → entry in research/daily_report.md. Heartbeat does NOT repeat it; it reads the latest entry before any new script/title. 48 h check of A-001/A-004 titles (emoji test): 13–14 Nov.
    A-001 Quicksand: DONE + SCHEDULED on YouTube (MLRRsaV4iUA, public 11 Nov 22:00 UTC = 03:00 PKT 12 Nov, QA pass, thumb set). TODO: TikTok via Metricool at 22:30 UTC 11 Nov — needs a fresh Dropbox token from the owner (old one 401); title "Why Quicksand Can't Actually Swallow You", end caption "Watch the full video on YouTube — @TrueWhys"? (standalone: use "More true whys on YouTube — @TrueWhys").
    A-004 Tickling: DONE + SCHEDULED on YouTube (sdoOC7kAuRU, public 12 Nov 22:00 UTC, QA pass, thumb set; title ends with 🪶 = A/B vs A-001). TODO: TikTok via Metricool at 22:30 UTC 12 Nov (needs fresh Dropbox token). Plates: Kaggle truewhys-render-a004.
    NEXT EPISODE = A-002 "Why You Should Never Eat Polar Bear Liver" (shorts_plan.md, category 8 Animals). Same steps as A-004: lines.txt (25–40 s, payoff before 20 s) + sources.md + topic.md → Gemini voice → plan.py + stills sheet → Kaggle (copy notebooks/kaggle_jobs/a004; compose with --w 1080 --h 1920, mkdir final/ first) → QA → YouTube slot 22:00 UTC 13 Nov + TikTok +30 min. Keep animated (step 1) shots few: they double render time. Compare A-001 (no emoji) vs A-004 (emoji) at 48 h before choosing A-002 title style.
