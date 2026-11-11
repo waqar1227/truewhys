@@ -20,12 +20,12 @@ MK = {
     "dk_hero":  M([2.2, -7.4, 3.0], [-0.2, 3.0, 2.4], 22),
     "dk_deck":  M([1.3, -3.8, 1.5], [0.0, 1.6, 1.1], 28),
     "dk_close": M([0.7, -2.3, 1.35], [0.1, 0.3, 1.12], 30),
-    "dk_plank": M([0.6, -0.6, 1.6], [4.2, 2.8, 0.9], 26),
+    "dk_plank": M([-0.2, -2.2, 1.9], [3.0, 2.6, 1.55], 24),
     "dk_flag":  M([2.0, -2.0, 3.0], [0.0, 1.2, 14.2], 30),
     "dk_wheel": M([1.6, -3.4, 2.4], [0.0, -6.6, 2.0], 30),
     "dk_out":   M([-16, -12, 3.0], [0, 1, 5.0], 30),
-    "dk_chest": M([-0.3, -1.3, 1.45], [-1.6, -3.4, 0.8], 30),
-    "dk_rail":  M([0.4, -1.4, 2.0], [-36, 62, 2.0], 34),
+    "dk_chest": M([0.7, -0.4, 1.55], [-1.3, -3.1, 0.95], 28),
+    "dk_rail":  M([0.6, -1.6, 1.5], [-36, 62, 3.0], 32),
     # islet: sand mound centre (0,3), palm (1.3,4.2); dig: hole (-0.6,2.6)
     "is_hero":  M([0.4, -4.6, 1.4], [0.0, 3.2, 0.9], 26),
     "is_wide":  M([6.0, -14.0, 4.0], [0.0, 4.0, 0.5], 24),
@@ -85,7 +85,7 @@ CAP = lambda expr="smug", arms="down", at=(-0.8, 0.2, 0), face="R", **kw: A("cap
 P1 = lambda expr="happy", arms="down", at=(0.9, 0.0, 0), face="L", **kw: A("pirate", at, 1.5, face, expr, arms, **kw)
 P2 = lambda expr="smug", arms="down", at=(0.2, -0.3, 0), face="R", **kw: A("pirate2", at, 1.5, face, expr, arms, **kw)
 P3 = lambda expr="happy", arms="down", at=(1.7, 0.5, 0), face="L", **kw: A("pirate3", at, 1.45, face, expr, arms, **kw)
-QM = lambda expr="neutral", arms="present", at=(-0.9, -2.6, 0), face="R", **kw: A("quartermaster", at, 1.55, face, expr, arms, **kw)
+QM = lambda expr="neutral", arms="present", at=(-0.8, -2.5, 0), face="R", **kw: A("quartermaster", at, 1.55, face, expr, arms, **kw)
 ANNE = lambda expr="smug", arms="down", at=(-0.6, -0.2, 0), face="R", **kw: A("anne", at, 1.45, face, expr, arms, **kw)
 MARY = lambda expr="smug", arms="down", at=(0.6, -0.1, 0), face="L", **kw: A("mary", at, 1.45, face, expr, arms, **kw)
 MER = lambda expr="worried", arms="down", at=(1.0, 0.0, 0), face="L", **kw: A("merchant", at, 1.5, face, expr, arms, **kw)
@@ -133,9 +133,9 @@ S("L11", set="dk", cam=push("dk_deck", 0.1), chars=CREW("happy"), tag="NO SINGLE
 
 # ================================================================ 2 PARROTS (ch 1)
 RANK("L12", 2, "EVERY PIRATE HAD A PARROT")
-S("L12", set="pt", cam=push("pt_cages", 0.15), chars=[CAP("happy", "point_r", at=(0.3, 1.6, 0))], sfx=[(0.2, "birds", 0.5)], music="playful")
+S("L12", set="pt", cam=push("pt_cages", 0.15), chars=[CAP("happy", "point_r", at=(-0.4, 2.6, 0))], sfx=[(0.2, "birds", 0.5)], music="playful")
 S("L13", set="st", cam=push("st_wy", 0.12), chars=[WY("neutral", "shrug")], pop=[(0.2, "MOSTLY A MYTH")], sfx=[(0.15, "hmm", 0.4)])
-S("L14", set="pt", cam=push("pt_cages", 0.12), chars=[P1("happy", "present", at=(0.5, 1.6, 0), face="R", hold_l="coins")], part=(0, 0.55),
+S("L14", set="pt", cam=push("pt_cages", 0.12), chars=[P1("happy", "present", at=(-0.4, 2.6, 0), face="R", hold_l="coins")], part=(0, 0.55),
   sfx=[(0.3, "birds", 0.4)])
 S("L14", set="pt", cam=push("pt_cages", 0.1, 1.12), chars=[], part=(0.55, 1), pop=[(0.05, "CARGO TO SELL")], sfx=[(0.05, "coins", 0.5)])
 S("L15", set="pt", cam=pan("pt_hero", 0.8), chars=[MER("happy", "present", at=(0.6, 1.2, 0), face="R"), P1("happy", "point_r", at=(-1.2, 1.4, 0), face="R"),
@@ -180,7 +180,7 @@ S("L34", set="st", cam=push("st_wy", 0.12), chars=[WY("smug", "present", hold_r=
 RANK("L35", 6, "THE SKULL AND CROSSBONES")
 S("L35", set="dk", cam=push("dk_flag", 0.12), chars=[], sfx=[(0, "wind", 0.5), (0.2, "flag_flap", 0.4)], music="adventure")
 S("L36", set="st", cam=push("st_close", 0.1), chars=[WY("happy", "both_up")], pop=[(0.1, "TRUE!")], sfx=[(0.05, "ding", 0.5)])
-S("L37", set="dk", cam=push("dk_rail", 0.1), chars=[CAP("angry", "point_l", at=(-0.6, 1.0, 0), face="L")], pop=[(0.6, "SURRENDER NOW!")], sfx=[(0.5, "drum_hit", 0.5)])
+S("L37", set="dk", cam=push("dk_rail", 0.1), chars=[CAP("angry", "point_l", at=(-0.6, 1.4, 0), face="L")], pop=[(0.6, "SURRENDER NOW!")], sfx=[(0.5, "drum_hit", 0.5)])
 S("L38", set="dk", cam=shake("dk_deck", 0.1, 0.02), chars=CREW("worried"), tag="A FIGHT COULD SINK THE PRIZE", sfx=[(0.2, "cannon", 0.4)], music="tension")
 S("L39", set="dk", cam=pull("dk_out", 0.1), chars=[], pop=[(0.5, "THEY GAVE UP")], sfx=[(0, "waves", 0.4)])
 S("L40", set="dkr", cam=push("dk_flag", 0.14), chars=[], part=(0, 0.6), sfx=[(0.1, "wind", 0.5)], music="tension")
@@ -204,10 +204,10 @@ S("L46", set="is", cam=push("is_hero", 0.12), chars=[P1("angry", "point_l", at=(
 RANK("L47", 8, "PIRATES GOT INJURY INSURANCE")
 S("L47", set="dk", cam=push("dk_close", 0.12), chars=[P2("worried", "down", at=(0.2, 0.1, 0))], sfx=[(0.1, "creak", 0.4)], music="curious")
 S("L48", set="st", cam=push("st_close", 0.1), chars=[WY("surprised", "both_up")], pop=[(0.45, "TRUE!")], sfx=[(0.4, "ding", 0.5)])
-S("L49", set="dk", cam=push("dk_chest", 0.12), chars=[QM("neutral", "present", at=(-0.7, -2.6, 0), face="L")], tag="BUCCANEERS · 1670s", sfx=[(0.3, "coins", 0.4)])
+S("L49", set="dk", cam=push("dk_chest", 0.12), chars=[QM("neutral", "present", face="L")], tag="BUCCANEERS · 1670s", sfx=[(0.3, "coins", 0.4)])
 S("L50", "doc", doc="injuries", sfx=[(0, "paper", 0.6)])
 S("L51", set="dk", cam=push("dk_close", 0.12), chars=[P2("happy", "raise", at=(0.2, 0.1, 0), hold_r="coins")], pop=[(0.7, "AN EYE: 100")], sfx=[(0.6, "coins", 0.5)])
-S("L52", set="dk", cam=push("dk_chest", 0.14), chars=[QM("happy", "present", at=(-0.7, -2.6, 0), face="L", hold_r="coins")], pop=[(0.4, "A SMALL FORTUNE")],
+S("L52", set="dk", cam=push("dk_chest", 0.14), chars=[QM("happy", "present", face="L", hold_r="coins")], pop=[(0.4, "A SMALL FORTUNE")],
   sfx=[(0.3, "coins", 0.6)])
 
 # ================================================================ 9 THE CAPTAIN (ch 5)
@@ -216,7 +216,7 @@ S("L53", set="dk", cam=push("dk_wheel", 0.12), chars=[CAP("smug", "present", at=
 S("L54", set="st", cam=push("st_wy", 0.12), chars=[WY("neutral", "shrug")], pop=[(0.1, "ONLY SOMETIMES")], sfx=[(0.05, "hmm", 0.4)])
 S("L55", set="dk", cam=push("dk_deck", 0.12), chars=CREW("happy", "raise") + [CAP("worried", "down", at=(-0.4, -1.2, 0))], pop=[(0.45, "VOTE!")],
   sfx=[(0.4, "crowd_cheer", 0.5)])
-S("L56", set="dk", cam=push("dk_chest", 0.12), chars=[QM("smug", "present", at=(-0.7, -2.6, 0), face="L")], tag="THE QUARTERMASTER", part=(0, 0.5),
+S("L56", set="dk", cam=push("dk_chest", 0.12), chars=[QM("smug", "present", face="L")], tag="THE QUARTERMASTER", part=(0, 0.5),
   sfx=[(0.2, "coins", 0.4)])
 S("L56", set="dk", cam=push("dk_close", 0.1), chars=[CAP("angry", "point_r", at=(-0.3, 0.0, 0))], part=(0.5, 1), pop=[(0.1, "BATTLE: CAPTAIN'S WORD")],
   sfx=[(0.1, "drum_hit", 0.4)])
