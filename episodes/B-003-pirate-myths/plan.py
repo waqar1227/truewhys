@@ -32,6 +32,7 @@ MK = {
     "is_dig":   M([1.6, -1.6, 1.4], [-0.4, 2.6, 0.55], 30),
     # port market: parrot stall (1.6,2.2), fruit stall (-2.4,2.6)
     "pt_hero":  M([0.2, -4.4, 1.5], [0.4, 3.0, 1.4], 24),
+    "pt_mid":   M([-0.4, -2.6, 1.5], [1.2, 2.2, 1.3], 26),
     "pt_cages": M([0.4, -0.8, 1.5], [1.6, 2.2, 1.45], 30),
     # court (B-001/B-002): bench y 7.6, dock (-3.6,1.0)
     "ct_wide":  M([1.5, -9.5, 3.2], [0, 6, 2.0], 22),
@@ -133,9 +134,9 @@ S("L11", set="dk", cam=push("dk_deck", 0.1), chars=CREW("happy"), tag="NO SINGLE
 
 # ================================================================ 2 PARROTS (ch 1)
 RANK("L12", 2, "EVERY PIRATE HAD A PARROT")
-S("L12", set="pt", cam=push("pt_cages", 0.15), chars=[CAP("happy", "point_r", at=(-0.4, 2.6, 0))], sfx=[(0.2, "birds", 0.5)], music="playful")
+S("L12", set="pt", cam=push("pt_mid", 0.15), chars=[CAP("happy", "point_r", at=(0.2, 1.3, 0))], sfx=[(0.2, "birds", 0.5)], music="playful")
 S("L13", set="st", cam=push("st_wy", 0.12), chars=[WY("neutral", "shrug")], pop=[(0.2, "MOSTLY A MYTH")], sfx=[(0.15, "hmm", 0.4)])
-S("L14", set="pt", cam=push("pt_cages", 0.12), chars=[P1("happy", "present", at=(-0.4, 2.6, 0), face="R", hold_l="coins")], part=(0, 0.55),
+S("L14", set="pt", cam=push("pt_mid", 0.12), chars=[P1("happy", "present", at=(0.2, 1.3, 0), face="R", hold_l="coins")], part=(0, 0.55),
   sfx=[(0.3, "birds", 0.4)])
 S("L14", set="pt", cam=push("pt_cages", 0.1, 1.12), chars=[], part=(0.55, 1), pop=[(0.05, "CARGO TO SELL")], sfx=[(0.05, "coins", 0.5)])
 S("L15", set="pt", cam=pan("pt_hero", 0.8), chars=[MER("happy", "present", at=(0.6, 1.2, 0), face="R"), P1("happy", "point_r", at=(-1.2, 1.4, 0), face="R"),
@@ -180,7 +181,7 @@ S("L34", set="st", cam=push("st_wy", 0.12), chars=[WY("smug", "present", hold_r=
 RANK("L35", 6, "THE SKULL AND CROSSBONES")
 S("L35", set="dk", cam=push("dk_flag", 0.12), chars=[], sfx=[(0, "wind", 0.5), (0.2, "flag_flap", 0.4)], music="adventure")
 S("L36", set="st", cam=push("st_close", 0.1), chars=[WY("happy", "both_up")], pop=[(0.1, "TRUE!")], sfx=[(0.05, "ding", 0.5)])
-S("L37", set="dk", cam=push("dk_rail", 0.1), chars=[CAP("angry", "point_l", at=(-0.6, 1.4, 0), face="L")], pop=[(0.6, "SURRENDER NOW!")], sfx=[(0.5, "drum_hit", 0.5)])
+S("L37", set="dk", cam=push("dk_close", 0.12), chars=[CAP("angry", "point_l", at=(0.1, 0.1, 0), face="L")], pop=[(0.6, "SURRENDER NOW!")], sfx=[(0.5, "drum_hit", 0.5)])
 S("L38", set="dk", cam=shake("dk_deck", 0.1, 0.02), chars=CREW("worried"), tag="A FIGHT COULD SINK THE PRIZE", sfx=[(0.2, "cannon", 0.4)], music="tension")
 S("L39", set="dk", cam=pull("dk_out", 0.1), chars=[], pop=[(0.5, "THEY GAVE UP")], sfx=[(0, "waves", 0.4)])
 S("L40", set="dkr", cam=push("dk_flag", 0.14), chars=[], part=(0, 0.6), sfx=[(0.1, "wind", 0.5)], music="tension")

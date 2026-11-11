@@ -12,8 +12,12 @@
    EPISODE 3 (owner 11 Nov: start right after A-005, in parallel with the remaining Shorts): pirate myths vs truth, Ranked List
    (topic research in research/format_study.md, 11 Nov). Folder episodes/B-003-pirate-myths.
    DONE 11 Nov 15:40 UTC: script v1 (10 items, 67 lines), sources.md (2+ per claim), topic.md, Gemini voice ch0–6 (4:31) + timing.json.
-   NEXT: sets (new pirate ship deck + Caribbean port market; reuse court for the 1720 trial, marsh beach for marooning, study for Wy),
-   plan.py (~90 shots), stills contact sheet, Kaggle by chapter, compose, QA, 3 thumbnails, cut Shorts (lib/shorts.py), schedule.
+   DONE 11 Nov: sets5.py (deck/islet/port), pirate cast, docs, SFX, adventure music, plan.py (85 shots, 5:37 + 20 s end), stills checked + fixed.
+   BLOCKED 11 Nov ~16:50 UTC: Kaggle rejects KAGGLE_API_TOKEN ("Authentication required"). Owner must make a new token (kaggle.com → Settings → API →
+   Generate New Token) and save it (secure form for host api.kaggle.com, or update KAGGLE_API_TOKEN in the environment).
+   THEN: (1) A-005: `kaggle kernels output waqarahmed51/truewhys-render-a005 -p episodes/A-005-brain-freeze/renders` (pushed 15:32 UTC), compose, QA,
+   YouTube 22:00 UTC 14 Nov + TikTok. (2) B-003: dataset truewhys-ep-b003 (flat: render_bg, sets, sets2, sets3, sets5, camera, shots.json, job_A/B)
+   → push kernels notebooks/kaggle_jobs/b003/kernel_b003 (ch 0–3) + kernel_b003b (ch 4–6), ~4–5 h each in parallel.
 Fresh session? Tools install via the environment setup script (tools/setup_env.sh). Rendered plates are not in git: fetch them from Kaggle.
 1. DONE 8 Nov 09:30 UTC: B-002 Gemini voice (9 chapters, FLAC masters committed), plan.py (98 shots, 6:11), shorts.py (8 Shorts 38–46 s).
    Still to do when scheduling: `python lib/upload_pkg.py episodes/B-002-worst-jobs <publishAt>`.
