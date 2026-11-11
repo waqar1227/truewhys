@@ -205,3 +205,10 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
 - If a video gets few views, find the real reason (topic, hook, title/thumbnail, retention drop point, length) before making the next one.
 - Every video gets a curiosity-driven, professional thumbnail and optimised title, description, keywords and tags.
 - Think strategically, not mechanically: the job is to learn from results and make the channel more competitive every day.
+
+## Owner master instructions 11 Nov 2026: growth + AI-usage optimisation (full text: docs/growth_master.md)
+- Quality and factual accuracy first; never invent metrics or findings. Save usage only by removing waste.
+- Daily data comes from scripts, not AI: `bash tools/daily.sh` (yt_stats: views since last check, retention 10/50/90 % + drop point,
+  traffic sources; competitors.py: cached yt-dlp snapshot, breakouts, fastest growers). Then a ≤20-line entry in research/daily_report.md
+  using research/report_template.md. CTR/impressions are not in the API: use Studio numbers only when the owner pastes them.
+- The daily growth review runs as its own scheduled task (fresh session, Sonnet); the production heartbeat does production only.
