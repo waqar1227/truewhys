@@ -1,0 +1,5313 @@
+{
+ "fps": 30,
+ "resolution": [
+  1920,
+  1080
+ ],
+ "style": "T",
+ "episode": "B-003",
+ "duration": 337.02,
+ "shots": [
+  {
+   "line": "L01",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -2.3,
+      1.35
+     ],
+     "tgt": [
+      0.1,
+      0.3,
+      1.12
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.628,
+      -1.988,
+      1.3224
+     ],
+     "tgt": [
+      0.1,
+      0.3,
+      1.12
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate2",
+     "at": [
+      0.3,
+      0.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "smug",
+     "arms": "point_r"
+    }
+   ],
+   "part": [
+    0,
+    0.27
+   ],
+   "pop": [
+    [
+     0.05,
+     "EYE PATCHES?"
+    ]
+   ],
+   "sfx": [
+    [
+     0,
+     "whoosh",
+     0.5
+    ],
+    [
+     0,
+     "waves",
+     0.35
+    ]
+   ],
+   "music": "adventure",
+   "id": "S000",
+   "start": 0.0,
+   "dur": 1.264,
+   "chapter": 0,
+   "line_start": 0.0
+  },
+  {
+   "line": "L01",
+   "kind": "3d",
+   "set": "port",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.4,
+      -0.8,
+      1.5
+     ],
+     "tgt": [
+      1.6,
+      2.2,
+      1.45
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.544,
+      -0.44000000000000006,
+      1.494
+     ],
+     "tgt": [
+      1.6,
+      2.2,
+      1.45
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": [
+    0.27,
+    0.5
+   ],
+   "pop": [
+    [
+     0.05,
+     "PARROTS?"
+    ]
+   ],
+   "sfx": [
+    [
+     0.05,
+     "pop",
+     0.4
+    ]
+   ],
+   "id": "S001",
+   "start": 1.264,
+   "dur": 1.076,
+   "chapter": 0,
+   "line_start": 0.0
+  },
+  {
+   "line": "L01",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -0.6,
+      1.6
+     ],
+     "tgt": [
+      4.2,
+      2.8,
+      0.9
+     ],
+     "lens": 26
+    },
+    "to": {
+     "pos": [
+      1.032,
+      -0.192,
+      1.516
+     ],
+     "tgt": [
+      4.2,
+      2.8,
+      0.9
+     ],
+     "lens": 26.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "merchant",
+     "at": [
+      3.7,
+      2.6,
+      1.03
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "worried",
+     "arms": "both_up"
+    }
+   ],
+   "part": [
+    0.5,
+    0.75
+   ],
+   "pop": [
+    [
+     0.05,
+     "THE PLANK?"
+    ]
+   ],
+   "sfx": [
+    [
+     0.05,
+     "pop",
+     0.4
+    ]
+   ],
+   "id": "S002",
+   "start": 2.34,
+   "dur": 1.17,
+   "chapter": 0,
+   "line_start": 0.0
+  },
+  {
+   "line": "L01",
+   "kind": "3d",
+   "set": "islet",
+   "variant": "dig",
+   "cam": {
+    "from": {
+     "pos": [
+      1.6,
+      -1.6,
+      1.4
+     ],
+     "tgt": [
+      -0.4,
+      2.6,
+      0.55
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      1.36,
+      -1.096,
+      1.298
+     ],
+     "tgt": [
+      -0.4,
+      2.6,
+      0.55
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": [
+    0.75,
+    1
+   ],
+   "pop": [
+    [
+     0.05,
+     "BURIED TREASURE?"
+    ]
+   ],
+   "sfx": [
+    [
+     0.05,
+     "pop",
+     0.4
+    ]
+   ],
+   "id": "S003",
+   "start": 3.51,
+   "dur": 1.17,
+   "chapter": 0,
+   "line_start": 0.0
+  },
+  {
+   "line": "L02",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "sunset",
+   "cam": {
+    "from": {
+     "pos": [
+      -14.08,
+      -10.44,
+      3.24
+     ],
+     "tgt": [
+      0,
+      1,
+      5.0
+     ],
+     "lens": 30.0
+    },
+    "to": {
+     "pos": [
+      -16,
+      -12,
+      3.0
+     ],
+     "tgt": [
+      0,
+      1,
+      5.0
+     ],
+     "lens": 30
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": null,
+   "tag": "THE GOLDEN AGE OF PIRACY",
+   "sfx": [
+    [
+     0,
+     "waves",
+     0.5
+    ],
+    [
+     0.3,
+     "gulls",
+     0.3
+    ]
+   ],
+   "id": "S004",
+   "start": 4.68,
+   "dur": 3.56,
+   "chapter": 0,
+   "line_start": 4.68
+  },
+  {
+   "line": "L03",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.694,
+      0.9784
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "smug",
+     "arms": "point_r",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.5,
+     "BOOKS & MOVIES"
+    ]
+   ],
+   "sfx": [
+    [
+     0.45,
+     "pop",
+     0.4
+    ]
+   ],
+   "id": "S005",
+   "start": 8.24,
+   "dur": 3.9,
+   "chapter": 0,
+   "line_start": 8.24
+  },
+  {
+   "line": "L04",
+   "kind": "title",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "text": "10 PIRATE \"FACTS\"\nMYTH OR REAL?",
+   "sfx": [
+    [
+     0,
+     "whoosh",
+     0.7
+    ],
+    [
+     0.3,
+     "drum_hit",
+     0.6
+    ]
+   ],
+   "music": "curious",
+   "id": "S006",
+   "start": 12.14,
+   "dur": 2.8,
+   "chapter": 0,
+   "line_start": 12.14
+  },
+  {
+   "line": "L05",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      1.3,
+      -3.8,
+      1.5
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      1.105,
+      -2.9899999999999998,
+      1.44
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate",
+     "at": [
+      1.0,
+      0.4,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "pirate2",
+     "at": [
+      -0.2,
+      -0.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "pirate3",
+     "at": [
+      1.9,
+      0.9,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "quartermaster",
+     "at": [
+      -1.2,
+      0.6,
+      0
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "captain",
+     "at": [
+      -0.6,
+      -1.0,
+      0
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "smug",
+     "arms": "point_r"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.7,
+     "STRANGER THAN THE MOVIES"
+    ]
+   ],
+   "sfx": [
+    [
+     0.6,
+     "riser",
+     0.4
+    ]
+   ],
+   "id": "S007",
+   "start": 14.94,
+   "dur": 4.82,
+   "chapter": 0,
+   "line_start": 14.94
+  },
+  {
+   "line": null,
+   "kind": "card",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "num": 1,
+   "text": "PIRATES SAID \"ARRR!\"",
+   "sub": "MYTH #1",
+   "id": "S008",
+   "start": 19.76,
+   "dur": 2.4,
+   "chapter": 1
+  },
+  {
+   "line": "L06",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -2.3,
+      1.35
+     ],
+     "tgt": [
+      0.1,
+      0.3,
+      1.12
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.6399999999999999,
+      -2.04,
+      1.3270000000000002
+     ],
+     "tgt": [
+      0.1,
+      0.3,
+      1.12
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout",
+    "shake": 0.02
+   },
+   "chars": [
+    {
+     "c": "captain",
+     "at": [
+      0.1,
+      0.1,
+      0
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "angry",
+     "arms": "both_up"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.45,
+     "ARRR!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.4,
+     "boing",
+     0.4
+    ],
+    [
+     0,
+     "waves",
+     0.3
+    ]
+   ],
+   "music": "playful",
+   "id": "S009",
+   "start": 22.16,
+   "dur": 4.38,
+   "chapter": 1,
+   "line_start": 22.16
+  },
+  {
+   "line": "L07",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.745,
+      0.982
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "smug",
+     "arms": "raise",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.15,
+     "MYTH!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.1,
+     "pop",
+     0.5
+    ]
+   ],
+   "id": "S010",
+   "start": 26.54,
+   "dur": 2.16,
+   "chapter": 1,
+   "line_start": 26.54
+  },
+  {
+   "line": "L08",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "doc": "film1950",
+   "sfx": [
+    [
+     0,
+     "paper",
+     0.6
+    ]
+   ],
+   "id": "S011",
+   "start": 28.7,
+   "dur": 6.54,
+   "chapter": 1,
+   "line_start": 28.7
+  },
+  {
+   "line": "L09",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -2.3,
+      1.35
+     ],
+     "tgt": [
+      0.1,
+      0.3,
+      1.12
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.6399999999999999,
+      -2.04,
+      1.3270000000000002
+     ],
+     "tgt": [
+      0.1,
+      0.3,
+      1.12
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "captain",
+     "at": [
+      0.1,
+      0.1,
+      0
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "happy",
+     "arms": "present"
+    }
+   ],
+   "part": null,
+   "tag": "THE WEST COUNTRY, ENGLAND",
+   "pop": [
+    [
+     0.7,
+     "\"ARR\" = \"YES\""
+    ]
+   ],
+   "sfx": [
+    [
+     0.65,
+     "ding",
+     0.4
+    ]
+   ],
+   "id": "S012",
+   "start": 35.24,
+   "dur": 6.14,
+   "chapter": 1,
+   "line_start": 35.24
+  },
+  {
+   "line": "L10",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      1.3,
+      -3.8,
+      1.5
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      2.1,
+      -3.8,
+      1.5
+     ],
+     "tgt": [
+      0.8,
+      1.6,
+      1.1
+     ],
+     "lens": 28
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate",
+     "at": [
+      1.0,
+      0.4,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "wave"
+    },
+    {
+     "c": "pirate2",
+     "at": [
+      -0.2,
+      -0.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "wave"
+    },
+    {
+     "c": "pirate3",
+     "at": [
+      1.9,
+      0.9,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "wave"
+    },
+    {
+     "c": "quartermaster",
+     "at": [
+      -1.2,
+      0.6,
+      0
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "happy",
+     "arms": "wave"
+    },
+    {
+     "c": "anne",
+     "at": [
+      -1.9,
+      0.9,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "happy",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.45,
+     "FROM ALL OVER THE WORLD"
+    ]
+   ],
+   "sfx": [
+    [
+     0.3,
+     "crowd_murmur",
+     0.3
+    ]
+   ],
+   "id": "S013",
+   "start": 41.38,
+   "dur": 6.51,
+   "chapter": 1,
+   "line_start": 41.38
+  },
+  {
+   "line": "L11",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      1.3,
+      -3.8,
+      1.5
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      1.17,
+      -3.26,
+      1.46
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate",
+     "at": [
+      1.0,
+      0.4,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "pirate2",
+     "at": [
+      -0.2,
+      -0.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "pirate3",
+     "at": [
+      1.9,
+      0.9,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "quartermaster",
+     "at": [
+      -1.2,
+      0.6,
+      0
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "happy",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "tag": "NO SINGLE PIRATE VOICE",
+   "id": "S014",
+   "start": 47.89,
+   "dur": 1.9,
+   "chapter": 1,
+   "line_start": 47.89
+  },
+  {
+   "line": null,
+   "kind": "card",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "num": 2,
+   "text": "EVERY PIRATE HAD A PARROT",
+   "sub": "MYTH #2",
+   "id": "S015",
+   "start": 49.79,
+   "dur": 2.4,
+   "chapter": 1
+  },
+  {
+   "line": "L12",
+   "kind": "3d",
+   "set": "port",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.4,
+      -0.8,
+      1.5
+     ],
+     "tgt": [
+      1.6,
+      2.2,
+      1.45
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.5800000000000001,
+      -0.3500000000000001,
+      1.4925
+     ],
+     "tgt": [
+      1.6,
+      2.2,
+      1.45
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "captain",
+     "at": [
+      0.3,
+      1.6,
+      0
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "happy",
+     "arms": "point_r"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.2,
+     "birds",
+     0.5
+    ]
+   ],
+   "music": "playful",
+   "id": "S016",
+   "start": 52.19,
+   "dur": 4.1,
+   "chapter": 1,
+   "line_start": 52.19
+  },
+  {
+   "line": "L13",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "shrug",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.2,
+     "MOSTLY A MYTH"
+    ]
+   ],
+   "sfx": [
+    [
+     0.15,
+     "hmm",
+     0.4
+    ]
+   ],
+   "id": "S017",
+   "start": 56.29,
+   "dur": 1.32,
+   "chapter": 1,
+   "line_start": 56.29
+  },
+  {
+   "line": "L14",
+   "kind": "3d",
+   "set": "port",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.4,
+      -0.8,
+      1.5
+     ],
+     "tgt": [
+      1.6,
+      2.2,
+      1.45
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.544,
+      -0.44000000000000006,
+      1.494
+     ],
+     "tgt": [
+      1.6,
+      2.2,
+      1.45
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate",
+     "at": [
+      0.5,
+      1.6,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "happy",
+     "arms": "present",
+     "hold_l": "coins"
+    }
+   ],
+   "part": [
+    0,
+    0.55
+   ],
+   "sfx": [
+    [
+     0.3,
+     "birds",
+     0.4
+    ]
+   ],
+   "id": "S018",
+   "start": 57.61,
+   "dur": 3.245,
+   "chapter": 1,
+   "line_start": 57.61
+  },
+  {
+   "line": "L14",
+   "kind": "3d",
+   "set": "port",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.4,
+      -0.8,
+      1.5
+     ],
+     "tgt": [
+      1.6,
+      2.2,
+      1.45
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.52,
+      -0.5,
+      1.495
+     ],
+     "tgt": [
+      1.6,
+      2.2,
+      1.45
+     ],
+     "lens": 33.6
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": [
+    0.55,
+    1
+   ],
+   "pop": [
+    [
+     0.05,
+     "CARGO TO SELL"
+    ]
+   ],
+   "sfx": [
+    [
+     0.05,
+     "coins",
+     0.5
+    ]
+   ],
+   "id": "S019",
+   "start": 60.855,
+   "dur": 2.655,
+   "chapter": 1,
+   "line_start": 57.61
+  },
+  {
+   "line": "L15",
+   "kind": "3d",
+   "set": "port",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.2,
+      -4.4,
+      1.5
+     ],
+     "tgt": [
+      0.4,
+      3.0,
+      1.4
+     ],
+     "lens": 24
+    },
+    "to": {
+     "pos": [
+      1.0,
+      -4.4,
+      1.5
+     ],
+     "tgt": [
+      1.2000000000000002,
+      3.0,
+      1.4
+     ],
+     "lens": 24
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "merchant",
+     "at": [
+      0.6,
+      1.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "happy",
+     "arms": "present"
+    },
+    {
+     "c": "pirate",
+     "at": [
+      -1.2,
+      1.4,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "happy",
+     "arms": "point_r"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      -2.4,
+      1.8,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down"
+    },
+    {
+     "c": "villager5",
+     "at": [
+      3.0,
+      2.0,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "tag": "JAMAICA · 1680s",
+   "sfx": [
+    [
+     0,
+     "crowd_murmur",
+     0.4
+    ],
+    [
+     0.3,
+     "birds",
+     0.3
+    ]
+   ],
+   "id": "S020",
+   "start": 63.51,
+   "dur": 3.84,
+   "chapter": 1,
+   "line_start": 63.51
+  },
+  {
+   "line": "L16",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "doc": "book1883",
+   "sfx": [
+    [
+     0,
+     "paper",
+     0.6
+    ]
+   ],
+   "id": "S021",
+   "start": 67.35,
+   "dur": 5.84,
+   "chapter": 1,
+   "line_start": 67.35
+  },
+  {
+   "line": null,
+   "kind": "card",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "num": 3,
+   "text": "PIRATES WORE EYE PATCHES",
+   "sub": "MYTH #3",
+   "id": "S022",
+   "start": 73.19,
+   "dur": 2.4,
+   "chapter": 2
+  },
+  {
+   "line": "L17",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -2.3,
+      1.35
+     ],
+     "tgt": [
+      0.1,
+      0.3,
+      1.12
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.616,
+      -1.936,
+      1.3178
+     ],
+     "tgt": [
+      0.1,
+      0.3,
+      1.12
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate2",
+     "at": [
+      0.2,
+      0.1,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "smug",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "waves",
+     0.3
+    ]
+   ],
+   "music": "curious",
+   "id": "S023",
+   "start": 75.59,
+   "dur": 3.44,
+   "chapter": 2,
+   "line_start": 75.59
+  },
+  {
+   "line": "L18",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.745,
+      0.982
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "chin",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.6,
+     "BUT WHY?"
+    ]
+   ],
+   "sfx": [
+    [
+     0.5,
+     "hmm",
+     0.4
+    ]
+   ],
+   "id": "S024",
+   "start": 79.03,
+   "dur": 3.44,
+   "chapter": 2,
+   "line_start": 79.03
+  },
+  {
+   "line": "L19",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      1.3,
+      -3.8,
+      1.5
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      1.1440000000000001,
+      -3.1519999999999997,
+      1.452
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate2",
+     "at": [
+      0.2,
+      0.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "smug",
+     "arms": "point_l"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.55,
+     "ONE EYE READY FOR THE DARK"
+    ]
+   ],
+   "sfx": [
+    [
+     0.1,
+     "creak",
+     0.4
+    ]
+   ],
+   "music": "mystery",
+   "id": "S025",
+   "start": 82.47,
+   "dur": 4.72,
+   "chapter": 2,
+   "line_start": 82.47
+  },
+  {
+   "line": "L20",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -2.3,
+      1.35
+     ],
+     "tgt": [
+      0.1,
+      0.3,
+      1.12
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.628,
+      -1.988,
+      1.3224
+     ],
+     "tgt": [
+      0.1,
+      0.3,
+      1.12
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate2",
+     "at": [
+      0.2,
+      0.1,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.45,
+     "20+ MINUTES TO ADJUST"
+    ]
+   ],
+   "sfx": [
+    [
+     0.4,
+     "tick",
+     0.4
+    ]
+   ],
+   "id": "S026",
+   "start": 87.19,
+   "dur": 4.88,
+   "chapter": 2,
+   "line_start": 87.19
+  },
+  {
+   "line": "L21",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "worried",
+     "arms": "shrug",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.6,
+     "NO EVIDENCE"
+    ]
+   ],
+   "sfx": [
+    [
+     0.55,
+     "thud",
+     0.4
+    ]
+   ],
+   "id": "S027",
+   "start": 92.07,
+   "dur": 5.78,
+   "chapter": 2,
+   "line_start": 92.07
+  },
+  {
+   "line": "L22",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -2.3,
+      1.35
+     ],
+     "tgt": [
+      0.1,
+      0.3,
+      1.12
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.6399999999999999,
+      -2.04,
+      1.3270000000000002
+     ],
+     "tgt": [
+      0.1,
+      0.3,
+      1.12
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate2",
+     "at": [
+      0.2,
+      0.1,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "tag": "AN EYE LOST IN A FIGHT",
+   "music": "curious",
+   "id": "S028",
+   "start": 97.85,
+   "dur": 4.72,
+   "chapter": 2,
+   "line_start": 97.85
+  },
+  {
+   "line": null,
+   "kind": "card",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "num": 4,
+   "text": "WALKING THE PLANK",
+   "sub": "MYTH #4",
+   "id": "S029",
+   "start": 102.57,
+   "dur": 2.4,
+   "chapter": 2
+  },
+  {
+   "line": "L23",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -0.6,
+      1.6
+     ],
+     "tgt": [
+      4.2,
+      2.8,
+      0.9
+     ],
+     "lens": 26
+    },
+    "to": {
+     "pos": [
+      1.104,
+      -0.12399999999999994,
+      1.502
+     ],
+     "tgt": [
+      4.2,
+      2.8,
+      0.9
+     ],
+     "lens": 26.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "merchant",
+     "at": [
+      3.7,
+      2.6,
+      1.03
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "worried",
+     "arms": "both_up"
+    },
+    {
+     "c": "captain",
+     "at": [
+      1.2,
+      2.2,
+      0
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "angry",
+     "arms": "point_r"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.1,
+     "creak",
+     0.5
+    ],
+    [
+     0,
+     "waves",
+     0.4
+    ]
+   ],
+   "music": "tension",
+   "id": "S030",
+   "start": 104.97,
+   "dur": 4.36,
+   "chapter": 2,
+   "line_start": 104.97
+  },
+  {
+   "line": "L24",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.745,
+      0.982
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "smug",
+     "arms": "raise",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.1,
+     "ALMOST NEVER"
+    ]
+   ],
+   "sfx": [
+    [
+     0.05,
+     "pop",
+     0.5
+    ]
+   ],
+   "music": "playful",
+   "id": "S031",
+   "start": 109.33,
+   "dur": 1.2,
+   "chapter": 2,
+   "line_start": 109.33
+  },
+  {
+   "line": "L25",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      1.032,
+      -0.192,
+      1.516
+     ],
+     "tgt": [
+      4.2,
+      2.8,
+      0.9
+     ],
+     "lens": 26.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -0.6,
+      1.6
+     ],
+     "tgt": [
+      4.2,
+      2.8,
+      0.9
+     ],
+     "lens": 26
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": null,
+   "tag": "ONLY A HANDFUL OF PROVEN CASES",
+   "sfx": [
+    [
+     0,
+     "waves",
+     0.4
+    ]
+   ],
+   "id": "S032",
+   "start": 110.53,
+   "dur": 5.88,
+   "chapter": 2,
+   "line_start": 110.53
+  },
+  {
+   "line": "L26",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "present",
+     "talk": true,
+     "hold_r": "scroll"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.35,
+     "STORYBOOKS"
+    ]
+   ],
+   "sfx": [
+    [
+     0.3,
+     "paper",
+     0.5
+    ]
+   ],
+   "id": "S033",
+   "start": 116.41,
+   "dur": 4.92,
+   "chapter": 2,
+   "line_start": 116.41
+  },
+  {
+   "line": "L27",
+   "kind": "3d",
+   "set": "islet",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      6.0,
+      -14.0,
+      4.0
+     ],
+     "tgt": [
+      0.0,
+      4.0,
+      0.5
+     ],
+     "lens": 24
+    },
+    "to": {
+     "pos": [
+      4.92,
+      -10.76,
+      3.37
+     ],
+     "tgt": [
+      0.0,
+      4.0,
+      0.5
+     ],
+     "lens": 24.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate",
+     "at": [
+      -0.4,
+      3.0,
+      0.32
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.55,
+     "MAROONED"
+    ]
+   ],
+   "sfx": [
+    [
+     0,
+     "waves",
+     0.5
+    ],
+    [
+     0.3,
+     "wind",
+     0.3
+    ]
+   ],
+   "music": "mystery",
+   "id": "S034",
+   "start": 121.33,
+   "dur": 6.46,
+   "chapter": 2,
+   "line_start": 121.33
+  },
+  {
+   "line": null,
+   "kind": "card",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "num": 5,
+   "text": "BURIED TREASURE, X MARKS THE SPOT",
+   "sub": "MYTH #5",
+   "id": "S035",
+   "start": 127.79,
+   "dur": 2.4,
+   "chapter": 3
+  },
+  {
+   "line": "L28",
+   "kind": "3d",
+   "set": "islet",
+   "variant": "dig",
+   "cam": {
+    "from": {
+     "pos": [
+      1.6,
+      -1.6,
+      1.4
+     ],
+     "tgt": [
+      -0.4,
+      2.6,
+      0.55
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      1.36,
+      -1.096,
+      1.298
+     ],
+     "tgt": [
+      -0.4,
+      2.6,
+      0.55
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "captain",
+     "at": [
+      0.6,
+      1.6,
+      0.25
+     ],
+     "h": 1.6,
+     "face": "L",
+     "expr": "happy",
+     "arms": "present",
+     "hold_l": "map"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.2,
+     "shovel",
+     0.5
+    ]
+   ],
+   "music": "adventure",
+   "id": "S036",
+   "start": 130.19,
+   "dur": 4.9,
+   "chapter": 3,
+   "line_start": 130.19
+  },
+  {
+   "line": "L29",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.745,
+      0.982
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "smug",
+     "arms": "raise",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.1,
+     "MYTH!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.05,
+     "pop",
+     0.5
+    ]
+   ],
+   "id": "S037",
+   "start": 135.09,
+   "dur": 0.92,
+   "chapter": 3,
+   "line_start": 135.09
+  },
+  {
+   "line": "L30",
+   "kind": "3d",
+   "set": "port",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.2,
+      -4.4,
+      1.5
+     ],
+     "tgt": [
+      0.4,
+      3.0,
+      1.4
+     ],
+     "lens": 24
+    },
+    "to": {
+     "pos": [
+      0.224,
+      -3.5120000000000005,
+      1.488
+     ],
+     "tgt": [
+      0.4,
+      3.0,
+      1.4
+     ],
+     "lens": 24.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate",
+     "at": [
+      -0.8,
+      1.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "tankard"
+    },
+    {
+     "c": "pirate3",
+     "at": [
+      0.6,
+      1.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "coins"
+    },
+    {
+     "c": "pirate2",
+     "at": [
+      2.0,
+      1.6,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "wave"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.7,
+     "SPENT FAST"
+    ]
+   ],
+   "sfx": [
+    [
+     0.2,
+     "crowd_laugh",
+     0.4
+    ],
+    [
+     0.6,
+     "coins",
+     0.5
+    ]
+   ],
+   "music": "playful",
+   "id": "S038",
+   "start": 136.01,
+   "dur": 6.29,
+   "chapter": 3,
+   "line_start": 136.01
+  },
+  {
+   "line": "L31",
+   "kind": "3d",
+   "set": "islet",
+   "variant": "dig",
+   "cam": {
+    "from": {
+     "pos": [
+      0.4,
+      -4.6,
+      1.4
+     ],
+     "tgt": [
+      0.0,
+      3.2,
+      0.9
+     ],
+     "lens": 26
+    },
+    "to": {
+     "pos": [
+      0.35200000000000004,
+      -3.6639999999999997,
+      1.3399999999999999
+     ],
+     "tgt": [
+      0.0,
+      3.2,
+      0.9
+     ],
+     "lens": 26.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "captain",
+     "at": [
+      0.4,
+      2.0,
+      0.3
+     ],
+     "h": 1.6,
+     "face": "L",
+     "expr": "smug",
+     "arms": "present"
+    }
+   ],
+   "part": null,
+   "tag": "CAPTAIN WILLIAM KIDD",
+   "music": "mystery",
+   "id": "S039",
+   "start": 142.3,
+   "dur": 3.74,
+   "chapter": 3,
+   "line_start": 142.3
+  },
+  {
+   "line": "L32",
+   "kind": "3d",
+   "set": "islet",
+   "variant": "dig",
+   "cam": {
+    "from": {
+     "pos": [
+      1.6,
+      -1.6,
+      1.4
+     ],
+     "tgt": [
+      -0.4,
+      2.6,
+      0.55
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      1.32,
+      -1.012,
+      1.281
+     ],
+     "tgt": [
+      -0.4,
+      2.6,
+      0.55
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "captain",
+     "at": [
+      0.6,
+      1.6,
+      0.25
+     ],
+     "h": 1.6,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down",
+     "hold_r": "shovel"
+    }
+   ],
+   "part": null,
+   "tag": "GARDINERS ISLAND · 1699",
+   "sfx": [
+    [
+     0.3,
+     "shovel",
+     0.5
+    ]
+   ],
+   "id": "S040",
+   "start": 146.04,
+   "dur": 5.92,
+   "chapter": 3,
+   "line_start": 146.04
+  },
+  {
+   "line": "L33",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "doc": "kidd1699",
+   "sfx": [
+    [
+     0,
+     "paper",
+     0.6
+    ]
+   ],
+   "id": "S041",
+   "start": 151.96,
+   "dur": 3.8,
+   "chapter": 3,
+   "line_start": 151.96
+  },
+  {
+   "line": "L34",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "smug",
+     "arms": "present",
+     "talk": true,
+     "hold_r": "map"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.5,
+     "FROM STORIES"
+    ]
+   ],
+   "sfx": [
+    [
+     0.45,
+     "pop",
+     0.4
+    ]
+   ],
+   "id": "S042",
+   "start": 155.76,
+   "dur": 4.78,
+   "chapter": 3,
+   "line_start": 155.76
+  },
+  {
+   "line": null,
+   "kind": "card",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "num": 6,
+   "text": "THE SKULL AND CROSSBONES",
+   "sub": "MYTH #6",
+   "id": "S043",
+   "start": 160.54,
+   "dur": 2.4,
+   "chapter": 3
+  },
+  {
+   "line": "L35",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      2.0,
+      -2.0,
+      3.0
+     ],
+     "tgt": [
+      0.0,
+      1.2,
+      14.2
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      1.76,
+      -1.616,
+      4.343999999999999
+     ],
+     "tgt": [
+      0.0,
+      1.2,
+      14.2
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "wind",
+     0.5
+    ],
+    [
+     0.2,
+     "flag_flap",
+     0.4
+    ]
+   ],
+   "music": "adventure",
+   "id": "S044",
+   "start": 162.94,
+   "dur": 3.16,
+   "chapter": 3,
+   "line_start": 162.94
+  },
+  {
+   "line": "L36",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.745,
+      0.982
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "both_up",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.1,
+     "TRUE!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.05,
+     "ding",
+     0.5
+    ]
+   ],
+   "id": "S045",
+   "start": 166.1,
+   "dur": 2.88,
+   "chapter": 3,
+   "line_start": 166.1
+  },
+  {
+   "line": "L37",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.4,
+      -1.4,
+      2.0
+     ],
+     "tgt": [
+      -36,
+      62,
+      2.0
+     ],
+     "lens": 34
+    },
+    "to": {
+     "pos": [
+      -3.24,
+      4.9399999999999995,
+      2.0
+     ],
+     "tgt": [
+      -36,
+      62,
+      2.0
+     ],
+     "lens": 34.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "captain",
+     "at": [
+      -0.6,
+      1.0,
+      0
+     ],
+     "h": 1.6,
+     "face": "L",
+     "expr": "angry",
+     "arms": "point_l"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.6,
+     "SURRENDER NOW!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.5,
+     "drum_hit",
+     0.5
+    ]
+   ],
+   "id": "S046",
+   "start": 168.98,
+   "dur": 5.06,
+   "chapter": 3,
+   "line_start": 168.98
+  },
+  {
+   "line": "L38",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      1.3,
+      -3.8,
+      1.5
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      1.17,
+      -3.26,
+      1.46
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28.0
+    },
+    "ease": "inout",
+    "shake": 0.02
+   },
+   "chars": [
+    {
+     "c": "pirate",
+     "at": [
+      1.0,
+      0.4,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "pirate2",
+     "at": [
+      -0.2,
+      -0.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "pirate3",
+     "at": [
+      1.9,
+      0.9,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down"
+    },
+    {
+     "c": "quartermaster",
+     "at": [
+      -1.2,
+      0.6,
+      0
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "tag": "A FIGHT COULD SINK THE PRIZE",
+   "sfx": [
+    [
+     0.2,
+     "cannon",
+     0.4
+    ]
+   ],
+   "music": "tension",
+   "id": "S047",
+   "start": 174.04,
+   "dur": 4.32,
+   "chapter": 3,
+   "line_start": 174.04
+  },
+  {
+   "line": "L39",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      -14.4,
+      -10.7,
+      3.2
+     ],
+     "tgt": [
+      0,
+      1,
+      5.0
+     ],
+     "lens": 30.0
+    },
+    "to": {
+     "pos": [
+      -16,
+      -12,
+      3.0
+     ],
+     "tgt": [
+      0,
+      1,
+      5.0
+     ],
+     "lens": 30
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": null,
+   "pop": [
+    [
+     0.5,
+     "THEY GAVE UP"
+    ]
+   ],
+   "sfx": [
+    [
+     0,
+     "waves",
+     0.4
+    ]
+   ],
+   "id": "S048",
+   "start": 178.36,
+   "dur": 3.88,
+   "chapter": 3,
+   "line_start": 178.36
+  },
+  {
+   "line": "L40",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "red",
+   "cam": {
+    "from": {
+     "pos": [
+      2.0,
+      -2.0,
+      3.0
+     ],
+     "tgt": [
+      0.0,
+      1.2,
+      14.2
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      1.72,
+      -1.552,
+      4.568
+     ],
+     "tgt": [
+      0.0,
+      1.2,
+      14.2
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": [
+    0,
+    0.6
+   ],
+   "sfx": [
+    [
+     0.1,
+     "wind",
+     0.5
+    ]
+   ],
+   "music": "tension",
+   "id": "S049",
+   "start": 182.24,
+   "dur": 3.588,
+   "chapter": 3,
+   "line_start": 182.24
+  },
+  {
+   "line": "L40",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "red",
+   "cam": {
+    "from": {
+     "pos": [
+      1.3,
+      -3.8,
+      1.5
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      1.17,
+      -3.26,
+      1.46
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28.0
+    },
+    "ease": "inout",
+    "shake": 0.02
+   },
+   "chars": [
+    {
+     "c": "captain",
+     "at": [
+      0.1,
+      0.2,
+      0
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "angry",
+     "arms": "point_l"
+    }
+   ],
+   "part": [
+    0.6,
+    1
+   ],
+   "pop": [
+    [
+     0.05,
+     "NO MERCY"
+    ]
+   ],
+   "sfx": [
+    [
+     0.0,
+     "drum_hit",
+     0.6
+    ]
+   ],
+   "id": "S050",
+   "start": 185.828,
+   "dur": 2.392,
+   "chapter": 3,
+   "line_start": 182.24
+  },
+  {
+   "line": null,
+   "kind": "card",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "num": 7,
+   "text": "PIRATES HAD NO RULES",
+   "sub": "MYTH #7",
+   "id": "S051",
+   "start": 188.22,
+   "dur": 2.4,
+   "chapter": 4
+  },
+  {
+   "line": "L41",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      1.3,
+      -3.8,
+      1.5
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      1.1440000000000001,
+      -3.1519999999999997,
+      1.452
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate",
+     "at": [
+      1.0,
+      0.4,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "angry",
+     "arms": "both_up"
+    },
+    {
+     "c": "pirate2",
+     "at": [
+      -0.2,
+      -0.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "angry",
+     "arms": "both_up"
+    },
+    {
+     "c": "pirate3",
+     "at": [
+      1.9,
+      0.9,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "angry",
+     "arms": "both_up"
+    },
+    {
+     "c": "quartermaster",
+     "at": [
+      -1.2,
+      0.6,
+      0
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "angry",
+     "arms": "both_up"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.1,
+     "crowd_murmur",
+     0.4
+    ]
+   ],
+   "music": "playful",
+   "id": "S052",
+   "start": 190.62,
+   "dur": 3.04,
+   "chapter": 4,
+   "line_start": 190.62
+  },
+  {
+   "line": "L42",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "doc": "roberts",
+   "sfx": [
+    [
+     0,
+     "paper",
+     0.6
+    ]
+   ],
+   "id": "S053",
+   "start": 193.66,
+   "dur": 3.82,
+   "chapter": 4,
+   "line_start": 193.66
+  },
+  {
+   "line": "L43",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "sunset",
+   "cam": {
+    "from": {
+     "pos": [
+      1.3,
+      -3.8,
+      1.5
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      1.1440000000000001,
+      -3.1519999999999997,
+      1.452
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "captain",
+     "at": [
+      -0.6,
+      0.0,
+      0
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "point_r"
+    },
+    {
+     "c": "pirate",
+     "at": [
+      0.9,
+      0.3,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "tired",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "tag": "BARTHOLOMEW ROBERTS",
+   "pop": [
+    [
+     0.75,
+     "LIGHTS OUT: 8 PM"
+    ]
+   ],
+   "sfx": [
+    [
+     0.7,
+     "bell",
+     0.5
+    ]
+   ],
+   "id": "S054",
+   "start": 197.48,
+   "dur": 6.16,
+   "chapter": 4,
+   "line_start": 197.48
+  },
+  {
+   "line": "L44",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      1.3,
+      -3.8,
+      1.5
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      1.17,
+      -3.26,
+      1.46
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate3",
+     "at": [
+      0.6,
+      0.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "tankard"
+    },
+    {
+     "c": "pirate",
+     "at": [
+      -0.6,
+      0.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "tired",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.6,
+     "IN THE DARK"
+    ]
+   ],
+   "sfx": [
+    [
+     0.1,
+     "waves",
+     0.4
+    ],
+    [
+     0.4,
+     "drink",
+     0.4
+    ]
+   ],
+   "music": "mystery",
+   "id": "S055",
+   "start": 203.64,
+   "dur": 4.2,
+   "chapter": 4,
+   "line_start": 203.64
+  },
+  {
+   "line": "L45",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -2.3,
+      1.35
+     ],
+     "tgt": [
+      0.1,
+      0.3,
+      1.12
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.6399999999999999,
+      -2.04,
+      1.3270000000000002
+     ],
+     "tgt": [
+      0.1,
+      0.3,
+      1.12
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate",
+     "at": [
+      0.9,
+      0.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "angry",
+     "arms": "point_l"
+    },
+    {
+     "c": "pirate2",
+     "at": [
+      -0.4,
+      0.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "angry",
+     "arms": "point_r"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.55,
+     "NO GAMBLING · NO FIGHTS"
+    ]
+   ],
+   "sfx": [
+    [
+     0.1,
+     "coin_single",
+     0.5
+    ],
+    [
+     0.5,
+     "drum_hit",
+     0.4
+    ]
+   ],
+   "music": "playful",
+   "id": "S056",
+   "start": 207.84,
+   "dur": 4.24,
+   "chapter": 4,
+   "line_start": 207.84
+  },
+  {
+   "line": "L46",
+   "kind": "3d",
+   "set": "islet",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.4,
+      -4.6,
+      1.4
+     ],
+     "tgt": [
+      0.0,
+      3.2,
+      0.9
+     ],
+     "lens": 26
+    },
+    "to": {
+     "pos": [
+      0.35200000000000004,
+      -3.6639999999999997,
+      1.3399999999999999
+     ],
+     "tgt": [
+      0.0,
+      3.2,
+      0.9
+     ],
+     "lens": 26.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate",
+     "at": [
+      1.0,
+      2.6,
+      0.3
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "angry",
+     "arms": "point_l"
+    },
+    {
+     "c": "pirate2",
+     "at": [
+      -0.8,
+      2.6,
+      0.3
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "angry",
+     "arms": "point_r"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.3,
+     "SETTLE IT ON LAND"
+    ]
+   ],
+   "sfx": [
+    [
+     0,
+     "waves",
+     0.4
+    ]
+   ],
+   "id": "S057",
+   "start": 212.08,
+   "dur": 2.34,
+   "chapter": 4,
+   "line_start": 212.08
+  },
+  {
+   "line": null,
+   "kind": "card",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "num": 8,
+   "text": "PIRATES GOT INJURY INSURANCE",
+   "sub": "MYTH #8",
+   "id": "S058",
+   "start": 214.42,
+   "dur": 2.4,
+   "chapter": 4
+  },
+  {
+   "line": "L47",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -2.3,
+      1.35
+     ],
+     "tgt": [
+      0.1,
+      0.3,
+      1.12
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.628,
+      -1.988,
+      1.3224
+     ],
+     "tgt": [
+      0.1,
+      0.3,
+      1.12
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate2",
+     "at": [
+      0.2,
+      0.1,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.1,
+     "creak",
+     0.4
+    ]
+   ],
+   "music": "curious",
+   "id": "S059",
+   "start": 216.82,
+   "dur": 2.98,
+   "chapter": 4,
+   "line_start": 216.82
+  },
+  {
+   "line": "L48",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.745,
+      0.982
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "both_up",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.45,
+     "TRUE!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.4,
+     "ding",
+     0.5
+    ]
+   ],
+   "id": "S060",
+   "start": 219.8,
+   "dur": 1.96,
+   "chapter": 4,
+   "line_start": 219.8
+  },
+  {
+   "line": "L49",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.3,
+      -1.3,
+      1.45
+     ],
+     "tgt": [
+      -1.6,
+      -3.4,
+      0.8
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      -0.45599999999999996,
+      -1.552,
+      1.3719999999999999
+     ],
+     "tgt": [
+      -1.6,
+      -3.4,
+      0.8
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "quartermaster",
+     "at": [
+      -0.7,
+      -2.6,
+      0
+     ],
+     "h": 1.55,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "present"
+    }
+   ],
+   "part": null,
+   "tag": "BUCCANEERS · 1670s",
+   "sfx": [
+    [
+     0.3,
+     "coins",
+     0.4
+    ]
+   ],
+   "id": "S061",
+   "start": 221.76,
+   "dur": 6.28,
+   "chapter": 4,
+   "line_start": 221.76
+  },
+  {
+   "line": "L50",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "doc": "injuries",
+   "sfx": [
+    [
+     0,
+     "paper",
+     0.6
+    ]
+   ],
+   "id": "S062",
+   "start": 228.04,
+   "dur": 5.0,
+   "chapter": 4,
+   "line_start": 228.04
+  },
+  {
+   "line": "L51",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -2.3,
+      1.35
+     ],
+     "tgt": [
+      0.1,
+      0.3,
+      1.12
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.628,
+      -1.988,
+      1.3224
+     ],
+     "tgt": [
+      0.1,
+      0.3,
+      1.12
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate2",
+     "at": [
+      0.2,
+      0.1,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "coins"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.7,
+     "AN EYE: 100"
+    ]
+   ],
+   "sfx": [
+    [
+     0.6,
+     "coins",
+     0.5
+    ]
+   ],
+   "id": "S063",
+   "start": 233.04,
+   "dur": 4.86,
+   "chapter": 4,
+   "line_start": 233.04
+  },
+  {
+   "line": "L52",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.3,
+      -1.3,
+      1.45
+     ],
+     "tgt": [
+      -1.6,
+      -3.4,
+      0.8
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      -0.482,
+      -1.594,
+      1.359
+     ],
+     "tgt": [
+      -1.6,
+      -3.4,
+      0.8
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "quartermaster",
+     "at": [
+      -0.7,
+      -2.6,
+      0
+     ],
+     "h": 1.55,
+     "face": "L",
+     "expr": "happy",
+     "arms": "present",
+     "hold_r": "coins"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.4,
+     "A SMALL FORTUNE"
+    ]
+   ],
+   "sfx": [
+    [
+     0.3,
+     "coins",
+     0.6
+    ]
+   ],
+   "id": "S064",
+   "start": 237.9,
+   "dur": 4.64,
+   "chapter": 4,
+   "line_start": 237.9
+  },
+  {
+   "line": null,
+   "kind": "card",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "num": 9,
+   "text": "THE CAPTAIN WAS THE BOSS",
+   "sub": "MYTH #9",
+   "id": "S065",
+   "start": 242.54,
+   "dur": 2.4,
+   "chapter": 5
+  },
+  {
+   "line": "L53",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      1.6,
+      -3.4,
+      2.4
+     ],
+     "tgt": [
+      0.0,
+      -6.6,
+      2.0
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      1.4080000000000001,
+      -3.784,
+      2.352
+     ],
+     "tgt": [
+      0.0,
+      -6.6,
+      2.0
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "captain",
+     "at": [
+      0.6,
+      -6.3,
+      1.3
+     ],
+     "h": 1.6,
+     "face": "L",
+     "expr": "smug",
+     "arms": "present"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0.1,
+     "creak",
+     0.4
+    ]
+   ],
+   "music": "story",
+   "id": "S066",
+   "start": 244.94,
+   "dur": 3.56,
+   "chapter": 5,
+   "line_start": 244.94
+  },
+  {
+   "line": "L54",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "shrug",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.1,
+     "ONLY SOMETIMES"
+    ]
+   ],
+   "sfx": [
+    [
+     0.05,
+     "hmm",
+     0.4
+    ]
+   ],
+   "id": "S067",
+   "start": 248.5,
+   "dur": 1.52,
+   "chapter": 5,
+   "line_start": 248.5
+  },
+  {
+   "line": "L55",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      1.3,
+      -3.8,
+      1.5
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      1.1440000000000001,
+      -3.1519999999999997,
+      1.452
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate",
+     "at": [
+      1.0,
+      0.4,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise"
+    },
+    {
+     "c": "pirate2",
+     "at": [
+      -0.2,
+      -0.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise"
+    },
+    {
+     "c": "pirate3",
+     "at": [
+      1.9,
+      0.9,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise"
+    },
+    {
+     "c": "quartermaster",
+     "at": [
+      -1.2,
+      0.6,
+      0
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "happy",
+     "arms": "raise"
+    },
+    {
+     "c": "captain",
+     "at": [
+      -0.4,
+      -1.2,
+      0
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.45,
+     "VOTE!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.4,
+     "crowd_cheer",
+     0.5
+    ]
+   ],
+   "id": "S068",
+   "start": 250.02,
+   "dur": 4.66,
+   "chapter": 5,
+   "line_start": 250.02
+  },
+  {
+   "line": "L56",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.3,
+      -1.3,
+      1.45
+     ],
+     "tgt": [
+      -1.6,
+      -3.4,
+      0.8
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      -0.45599999999999996,
+      -1.552,
+      1.3719999999999999
+     ],
+     "tgt": [
+      -1.6,
+      -3.4,
+      0.8
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "quartermaster",
+     "at": [
+      -0.7,
+      -2.6,
+      0
+     ],
+     "h": 1.55,
+     "face": "L",
+     "expr": "smug",
+     "arms": "present"
+    }
+   ],
+   "part": [
+    0,
+    0.5
+   ],
+   "tag": "THE QUARTERMASTER",
+   "sfx": [
+    [
+     0.2,
+     "coins",
+     0.4
+    ]
+   ],
+   "id": "S069",
+   "start": 254.68,
+   "dur": 3.85,
+   "chapter": 5,
+   "line_start": 254.68
+  },
+  {
+   "line": "L56",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -2.3,
+      1.35
+     ],
+     "tgt": [
+      0.1,
+      0.3,
+      1.12
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.6399999999999999,
+      -2.04,
+      1.3270000000000002
+     ],
+     "tgt": [
+      0.1,
+      0.3,
+      1.12
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "captain",
+     "at": [
+      -0.3,
+      0.0,
+      0
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "angry",
+     "arms": "point_r"
+    }
+   ],
+   "part": [
+    0.5,
+    1
+   ],
+   "pop": [
+    [
+     0.1,
+     "BATTLE: CAPTAIN'S WORD"
+    ]
+   ],
+   "sfx": [
+    [
+     0.1,
+     "drum_hit",
+     0.4
+    ]
+   ],
+   "id": "S070",
+   "start": 258.53,
+   "dur": 3.85,
+   "chapter": 5,
+   "line_start": 254.68
+  },
+  {
+   "line": "L57",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      1.3,
+      -3.8,
+      1.5
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      1.3,
+      -3.8,
+      2.1
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate",
+     "at": [
+      1.0,
+      0.4,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise"
+    },
+    {
+     "c": "pirate2",
+     "at": [
+      -0.2,
+      -0.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise"
+    },
+    {
+     "c": "pirate3",
+     "at": [
+      1.9,
+      0.9,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise"
+    },
+    {
+     "c": "quartermaster",
+     "at": [
+      -1.2,
+      0.6,
+      0
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "happy",
+     "arms": "raise"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.6,
+     "EVERYONE GETS A VOTE"
+    ]
+   ],
+   "sfx": [
+    [
+     0.5,
+     "crowd_cheer",
+     0.4
+    ]
+   ],
+   "id": "S071",
+   "start": 262.38,
+   "dur": 5.34,
+   "chapter": 5,
+   "line_start": 262.38
+  },
+  {
+   "line": null,
+   "kind": "card",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "num": 10,
+   "text": "WOMEN PIRATES",
+   "sub": "AND FINALLY",
+   "id": "S072",
+   "start": 267.72,
+   "dur": 2.4,
+   "chapter": 5
+  },
+  {
+   "line": "L58",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -2.3,
+      1.35
+     ],
+     "tgt": [
+      0.1,
+      0.3,
+      1.12
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.628,
+      -1.988,
+      1.3224
+     ],
+     "tgt": [
+      0.1,
+      0.3,
+      1.12
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "anne",
+     "at": [
+      -0.3,
+      0.0,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "smug",
+     "arms": "down"
+    },
+    {
+     "c": "mary",
+     "at": [
+      0.7,
+      0.1,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "smug",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "waves",
+     0.3
+    ]
+   ],
+   "music": "adventure",
+   "id": "S073",
+   "start": 270.12,
+   "dur": 4.32,
+   "chapter": 5,
+   "line_start": 270.12
+  },
+  {
+   "line": "L59",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.745,
+      0.982
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "both_up",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.1,
+     "TRUE!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.05,
+     "ding",
+     0.5
+    ]
+   ],
+   "id": "S074",
+   "start": 274.44,
+   "dur": 0.64,
+   "chapter": 5,
+   "line_start": 274.44
+  },
+  {
+   "line": "L60",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      2.2,
+      -7.4,
+      3.0
+     ],
+     "tgt": [
+      -0.2,
+      3.0,
+      2.4
+     ],
+     "lens": 22
+    },
+    "to": {
+     "pos": [
+      1.864,
+      -5.944,
+      2.916
+     ],
+     "tgt": [
+      -0.2,
+      3.0,
+      2.4
+     ],
+     "lens": 22.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "anne",
+     "at": [
+      -0.6,
+      -1.6,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "happy",
+     "arms": "wave"
+    },
+    {
+     "c": "mary",
+     "at": [
+      0.6,
+      -1.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "captain",
+     "at": [
+      1.6,
+      -1.0,
+      0
+     ],
+     "h": 1.6,
+     "face": "L",
+     "expr": "smug",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "tag": "THE CARIBBEAN · 1720",
+   "sfx": [
+    [
+     0,
+     "waves",
+     0.4
+    ]
+   ],
+   "id": "S075",
+   "start": 275.08,
+   "dur": 5.72,
+   "chapter": 5,
+   "line_start": 275.08
+  },
+  {
+   "line": "L61",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -9.5,
+      3.2
+     ],
+     "tgt": [
+      0,
+      6,
+      2.0
+     ],
+     "lens": 22
+    },
+    "to": {
+     "pos": [
+      1.32,
+      -7.640000000000001,
+      3.056
+     ],
+     "tgt": [
+      0,
+      6,
+      2.0
+     ],
+     "lens": 22.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "judge",
+     "at": [
+      0,
+      7.6,
+      1.2
+     ],
+     "h": 1.6,
+     "face": "L",
+     "expr": "angry",
+     "arms": "down"
+    },
+    {
+     "c": "anne",
+     "at": [
+      -3.9,
+      1.1,
+      0.3
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "cut": [
+      -0.1,
+      1.05
+     ]
+    },
+    {
+     "c": "mary",
+     "at": [
+      -3.2,
+      1.0,
+      0.3
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "cut": [
+      -0.1,
+      1.05
+     ]
+    }
+   ],
+   "part": [
+    0,
+    0.5
+   ],
+   "tag": "JAMAICA",
+   "sfx": [
+    [
+     0.3,
+     "crowd_murmur",
+     0.4
+    ]
+   ],
+   "music": "tension",
+   "id": "S076",
+   "start": 280.8,
+   "dur": 2.74,
+   "chapter": 5,
+   "line_start": 280.8
+  },
+  {
+   "line": "L61",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": [
+    0.5,
+    1
+   ],
+   "doc": "trial1720",
+   "sfx": [
+    [
+     0.1,
+     "gavel",
+     0.7
+    ]
+   ],
+   "id": "S077",
+   "start": 283.54,
+   "dur": 2.74,
+   "chapter": 5,
+   "line_start": 280.8
+  },
+  {
+   "line": "L62",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      -2.2,
+      -3.2,
+      1.6
+     ],
+     "tgt": [
+      -3.6,
+      1.0,
+      1.1
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      -2.3400000000000003,
+      -2.7800000000000002,
+      1.55
+     ],
+     "tgt": [
+      -3.6,
+      1.0,
+      1.1
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "anne",
+     "at": [
+      -3.9,
+      1.1,
+      0.3
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down",
+     "cut": [
+      -0.1,
+      1.05
+     ]
+    },
+    {
+     "c": "mary",
+     "at": [
+      -3.2,
+      1.0,
+      0.3
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down",
+     "cut": [
+      -0.1,
+      1.05
+     ]
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.7,
+     "EXECUTION STOPPED"
+    ]
+   ],
+   "sfx": [
+    [
+     0.6,
+     "crowd_gasp",
+     0.5
+    ]
+   ],
+   "id": "S078",
+   "start": 286.28,
+   "dur": 4.38,
+   "chapter": 5,
+   "line_start": 286.28
+  },
+  {
+   "line": "L63",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "sunset",
+   "cam": {
+    "from": {
+     "pos": [
+      -13.76,
+      -10.18,
+      3.2800000000000002
+     ],
+     "tgt": [
+      0,
+      1,
+      5.0
+     ],
+     "lens": 30.0
+    },
+    "to": {
+     "pos": [
+      -16,
+      -12,
+      3.0
+     ],
+     "tgt": [
+      0,
+      1,
+      5.0
+     ],
+     "lens": 30
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": null,
+   "pop": [
+    [
+     0.75,
+     "FATE: UNKNOWN"
+    ]
+   ],
+   "sfx": [
+    [
+     0,
+     "waves",
+     0.5
+    ],
+    [
+     0.4,
+     "gulls",
+     0.3
+    ]
+   ],
+   "music": "mystery",
+   "id": "S079",
+   "start": 290.66,
+   "dur": 6.32,
+   "chapter": 5,
+   "line_start": 290.66
+  },
+  {
+   "line": "L64",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.75
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "smug",
+     "arms": "shrug",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.2,
+     "MYTHS"
+    ]
+   ],
+   "sfx": [
+    [
+     0.15,
+     "pop",
+     0.4
+    ]
+   ],
+   "music": "warm",
+   "id": "S080",
+   "start": 296.98,
+   "dur": 7.66,
+   "chapter": 6,
+   "line_start": 296.98
+  },
+  {
+   "line": "L65",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      1.3,
+      -3.8,
+      1.5
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28
+    },
+    "to": {
+     "pos": [
+      1.1440000000000001,
+      -3.1519999999999997,
+      1.452
+     ],
+     "tgt": [
+      0.0,
+      1.6,
+      1.1
+     ],
+     "lens": 28.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate",
+     "at": [
+      1.0,
+      0.4,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise"
+    },
+    {
+     "c": "pirate2",
+     "at": [
+      -0.2,
+      -0.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise"
+    },
+    {
+     "c": "pirate3",
+     "at": [
+      1.9,
+      0.9,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise"
+    },
+    {
+     "c": "quartermaster",
+     "at": [
+      -1.2,
+      0.6,
+      0
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "happy",
+     "arms": "raise"
+    },
+    {
+     "c": "anne",
+     "at": [
+      -1.9,
+      0.9,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "happy",
+     "arms": "wave"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.6,
+     "ALL REAL!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.5,
+     "crowd_cheer",
+     0.4
+    ]
+   ],
+   "id": "S081",
+   "start": 304.64,
+   "dur": 6.26,
+   "chapter": 6,
+   "line_start": 304.64
+  },
+  {
+   "line": "L66",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "sunset",
+   "cam": {
+    "from": {
+     "pos": [
+      2.2,
+      -7.4,
+      3.0
+     ],
+     "tgt": [
+      -0.2,
+      3.0,
+      2.4
+     ],
+     "lens": 22
+    },
+    "to": {
+     "pos": [
+      2.2,
+      -7.4,
+      4.0
+     ],
+     "tgt": [
+      -0.2,
+      3.0,
+      2.4
+     ],
+     "lens": 22
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "waves",
+     0.4
+    ],
+    [
+     0.3,
+     "gulls",
+     0.3
+    ]
+   ],
+   "id": "S082",
+   "start": 310.9,
+   "dur": 3.24,
+   "chapter": 6,
+   "line_start": 310.9
+  },
+  {
+   "line": "L67",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.694,
+      0.9784
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.82
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "point_r",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.55,
+     "WHICH ONE?"
+    ]
+   ],
+   "sfx": [
+    [
+     0.5,
+     "pop",
+     0.4
+    ]
+   ],
+   "id": "S083",
+   "start": 314.14,
+   "dur": 2.88,
+   "chapter": 6,
+   "line_start": 314.14
+  },
+  {
+   "line": null,
+   "kind": "end",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "dur": 20.0,
+   "music": "warm",
+   "id": "S084",
+   "start": 317.02,
+   "chapter": 6
+  }
+ ]
+}

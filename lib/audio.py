@@ -21,11 +21,15 @@ SFX = {  # name -> file (CC0: Kenney/OpenGameArt packs, BigSoundBank by Joseph S
     "insects": "bsb/fly__bumblebee-1_1000.mp3", "fire": "bsb/fire__big-branching-fire-1_0987.mp3",
     "wind": "bsb/wind__wind_0595.mp3", "birds": "bsb/birds__wake-birds-3_0999.mp3", "owl": "bsb/owl__tawny-owl-2_1764.mp3",
     "drum_hit": "bsb/drum__bass-tom-1_2338.mp3", "chewing": "bsb/rat__rat-nibbling_0185.mp3", "dog": "bsb/dog__barking-dog-2_2954.mp3",
+    # B-003 (sea): BigSoundBank CC0
+    "waves": "bsb/birds__sea-waves-and-seagulls_0267.mp3", "gulls": "bsb/birds__sea-waves-and-seagulls_0267.mp3",
+    "bell": "bsb/bell__small-bell-1_0292.mp3", "crowd_cheer": "bsb/applause__applause-1_2363.mp3",
 }
 PACK_GLOBS = {"page_turn": "**/bookFlip1.ogg", "quill": "**/scratch_001.ogg", "footsteps": "**/footstep0*.ogg", "door": "**/doorOpen_1.ogg",
               "pop": "**/drop_002.ogg", "ding": "**/confirmation_001.ogg", "sparkle": "**/glass_001.ogg", "boing": "**/spring_01.ogg",
-              "thud": "**/wooden_01.ogg", "tick": "**/tick_001.ogg", "hmm": "**/question_001.ogg"}
-AMBIENT = {"crowd_murmur", "wind", "birds", "fire", "insects", "room_tone", "footsteps", "chewing"}
+              "thud": "**/wooden_01.ogg", "tick": "**/tick_001.ogg", "hmm": "**/question_001.ogg",
+              "creak": "**/creak2.ogg", "flag_flap": "**/cloth3.ogg", "cannon": "**/explosion.ogg"}
+AMBIENT = {"crowd_murmur", "wind", "birds", "fire", "insects", "room_tone", "footsteps", "chewing", "waves", "gulls"}
 
 
 @functools.lru_cache(maxsize=128)

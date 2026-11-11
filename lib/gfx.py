@@ -339,6 +339,12 @@ DOCS = {
     "order1627": ("ROYAL ORDER · 1627", ["Saltpetre men may dig in stables,", "dove-houses and cellars.", "Owners must leave those floors", "as loose, open earth, ready", "for the next digging."], "seal"),
     "surnames": ("SURNAMES FROM THIS JOB", ["FULLER", "TUCKER", "WALKER", "", "All mean someone who fulled cloth."], "paper"),
     "colchester": ("COLCHESTER · c. 1425", ["The brewers complain: the tanners", "soak their hides in the river", "the brewers draw their water from."], "seal"),
+    "film1950": ("TREASURE ISLAND · THE 1950 FILM", ["Long John Silver is played in a", "big West Country accent.", "", "In the West Country, \"arr\"", "can simply mean \"yes\"."], "paper"),
+    "book1883": ("TREASURE ISLAND · 1883", ["Robert Louis Stevenson's novel:", "a pirate cook with a parrot,", "a map, and an X for the treasure."], "paper"),
+    "kidd1699": ("GARDINERS ISLAND · 1699", ["Captain Kidd's buried treasure is", "dug up by the governor's men", "and sent to London as evidence."], "seal"),
+    "roberts": ("ARTICLES OF BARTHOLOMEW ROBERTS · c.1720", ["Every man has a vote.", "No gaming for money, with cards or dice.", "Lights and candles out at eight o'clock.", "Drinking after that: on the open deck.", "No fighting on board:", "quarrels are ended on shore."], "seal"),
+    "injuries": ("BUCCANEERS' ARTICLES · 1670s", ["Paid from the shared loot, in pieces of eight:", "", "Right arm: 600     Left arm: 500", "Right leg: 500     Left leg: 400", "An eye: 100          A finger: 100"], "paper"),
+    "trial1720": ("SPANISH TOWN, JAMAICA · NOVEMBER 1720", ["The trial of Mary Read and Anne Bonny", "for piracy.", "", "Verdict: guilty.", "Sentence: to be hanged."], "seal"),
     "coroner1326": ("LONDON CORONER'S ROLL · 1326", ["Richard le Rakiere was seated on", "the latrine in his house; the planks", "being rotten gave way, and he fell", "in and was drowned."], "seal"),
 }
 

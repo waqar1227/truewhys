@@ -16,6 +16,7 @@ try:
     import sets3  # standalone Shorts batch 1 sets
 except ImportError:
     pass
+import sets5  # B-003 pirate sets (deck, islet, port); fails loudly if broken
 
 ap = argparse.ArgumentParser()
 ap.add_argument("shots"); ap.add_argument("out")

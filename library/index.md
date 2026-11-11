@@ -65,3 +65,16 @@ Helpers: `flames()` toon fire, `candle()`, `panel_wall()`, `tapestry()`.
   an artery under the brain and the facial nerve; cold spreads on the palate / the artery swells with blood + pressure arrows / the nerve lights to the forehead.
   Reusable for any "inside your head/body" explainer (headaches, sinuses, hiccups).
 - Cast expression `"pain"` (lib/cast.py): eyes squeezed shut (> <), brows pinched, gritted-teeth grimace. Study close mark STC in A-005 plan.py.
+
+## Added 11 Nov 2026 (B-003 pirate myths)
+- lib/sets5.py (imported by render_bg): set `deck` (day | sunset | night | red): 1710s pirate ship deck at sea, cannons, wheel on the
+  quarterdeck, 3 masts with billowing sails + rigging, crow's nest, Jolly Roger (red variant = red flag), chest, barrels, cannonballs,
+  coiled rope, THE PLANK over the starboard rail, horizon island + merchant ship. Set `islet` (day | dig | sunset): tiny palm island
+  (dig = hole, half-buried chest with gold, shovel). Set `port` (day): Caribbean port market with 3D parrots in cages, fruit stall, harbour.
+  Camera marks in the sets5 docstring and B-003 plan.py. Helpers: `palm()`, `sail_mesh()`, `far_ship()`, `_parrot3d()`, `_cage()`.
+- Cast (lib/cast.py): captain (tricorn, red coat), pirate / pirate2 (eye patch) / pirate3 (bandanas), quartermaster, anne, mary
+  (long hair + bandana / tricorn), merchant. New hair styles tricorn, tricorn_long, bandana, bandana_long; `patch=True` spec flag.
+  Props: map (treasure map with X), coins (gold pile), flag (small Jolly Roger).
+- Docs (lib/gfx.DOCS): film1950, book1883, kidd1699, roberts, injuries, trial1720.
+- Sounds (lib/audio.py, CC0): waves, gulls (BigSoundBank sea waves + seagulls), bell (small bell), crowd_cheer (applause), creak, flag_flap, cannon (Kenney/OpenGameArt packs).
+- Music mood `adventure` (lib/music.py): jaunty sea-shanty feel, original, code-generated.

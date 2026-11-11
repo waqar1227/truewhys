@@ -64,6 +64,23 @@ CHARS = {
                     legs="#24476B", shoes=INK, hx=1.0),
     "soldier": dict(skin="#E2AE86", hair="kettle_helm", hair_c="#9AA4AE", top="#2E4FA7", collar="#FFC93C",
                     legs="#5B4636", shoes=INK, hx=1.0),
+    # ---- B-003 pirate cast (generic 1700s characters; no real person's likeness)
+    "captain": dict(skin="#E2AE86", hair="tricorn", hair_c="#1E1A24", top="#9C1F2C", collar="#FFC93C",
+                    legs="#2A2A36", shoes=INK, belt="#1E1A24", beard="#2A1C1E", hx=1.06),
+    "pirate":  dict(skin="#D79C72", hair="bandana", hair_c="#C8282C", top="#EDE4CE", collar="#C9A27A",
+                    legs="#5B4636", shoes=INK, belt="#5B3A29", stubble=True, hx=1.0),
+    "pirate2": dict(skin="#8D5A3C", hair="bandana", hair_c="#2E6FA7", top="#3E8E5E", collar="#F3E2BC",
+                    legs="#4A3A2C", shoes=INK, belt="#7A5236", beard="#2A1C1E", patch=True, hx=1.02),
+    "pirate3": dict(skin="#F2C09A", hair="bandana", hair_c="#FFC93C", top="#2E4A6B", collar="#F3E2BC",
+                    legs="#5B4636", shoes=INK, belt="#3A2618", stubble=True, hx=0.98),
+    "quartermaster": dict(skin="#C98E66", hair="brim_hat", hair_c="#3E5A4A", top="#3E6E5E", collar="#F3E2BC",
+                    legs="#4A3A2C", shoes=INK, belt="#3A2618", beard="#8A8A8A", hx=1.04),
+    "anne":    dict(skin="#F2C8A8", hair="bandana_long", hair_c="#1E3A6E", hair2="#C8562E", top="#EDE4CE", collar="#9C1F2C",
+                    legs="#3A3A4A", shoes=INK, belt="#9C1F2C", hx=0.97),
+    "mary":    dict(skin="#E9B48C", hair="tricorn_long", hair_c="#4A2F22", hair2="#6B4A32", top="#6E3A8C", collar="#F3E2BC",
+                    legs="#3A3A4A", shoes=INK, belt="#3A2618", hx=0.97),
+    "merchant": dict(skin="#F0C9A8", hair="brim_hat", hair_c="#20243A", top="#1F5C8C", collar="#FFFFFF",
+                    legs="#20243A", shoes=INK, belt="#FFC93C", hx=1.02),
     "sineater": dict(skin="#B9A08A", hair="hood", hair_c="#3A3440", top="#3A3440", collar="#3A3440",
                     robe=True, hx=0.96),
 }
@@ -192,6 +209,8 @@ def mouth_svg(expr, mouth):
 
 def hair_back(s):
     h, c = s["hair"], s["hair_c"]
+    if h in ("bandana_long", "tricorn_long"):   # long hair hanging behind (colour hair2)
+        return f'<path d="M-160 -170 C-190 -320 190 -320 160 -170 L176 -30 Q120 10 90 -40 L-90 -40 Q-120 10 -176 -30 Z" fill="{s.get("hair2", c)}"/>'
     if h == "coif":
         return f'<path d="M-170 -150 C-176 -300 176 -300 170 -150 L176 -10 L-176 -10 Z" fill="{c}"/>'
     if h == "hood":
@@ -257,6 +276,17 @@ def hair_front(s):
         return (f'<ellipse cx="0" cy="-226" rx="200" ry="34" fill="{c}"/>'
                 f'<path d="M-118 -232 Q-120 -330 0 -336 Q120 -330 118 -232 Z" fill="{c}"/>'
                 f'<path d="M-60 -320 Q-30 -300 -40 -250" fill="none" stroke="#FFFFFF" stroke-width="12" opacity="0.6"/>')
+    if h in ("tricorn", "tricorn_long"):   # 1700s three-cornered hat with gold trim
+        return (f'<path d="M-120 -250 Q-110 -350 0 -352 Q110 -350 120 -250 Z" fill="{shade(c, 0.85)}"/>'
+                f'<path d="M-222 -268 Q-150 -232 -60 -226 L0 -186 L60 -226 Q150 -232 222 -268 Q200 -196 120 -200 L0 -170 L-120 -200 Q-200 -196 -222 -268 Z" fill="{c}"/>'
+                f'<path d="M-222 -268 Q-150 -232 -60 -226 L0 -186 L60 -226 Q150 -232 222 -268" fill="none" stroke="#FFC93C" stroke-width="12"/>'
+                f'<path d="M-222 -268 Q-150 -232 -60 -226 L0 -186 L60 -226 Q150 -232 222 -268" fill="none" stroke-width="4"/>')
+    if h in ("bandana", "bandana_long"):   # cloth tied over the head, knot and tails at the back (screen left)
+        return (f'<path d="M-152 -150 C-160 -300 160 -300 152 -150 Q0 -190 -152 -150 Z" fill="{c}"/>'
+                f'<path d="M-120 -230 Q0 -250 120 -230" fill="none" stroke="{shade(c, 1.3)}" stroke-width="10" opacity="0.7"/>'
+                f'<circle cx="-150" cy="-170" r="22" fill="{c}"/>'
+                f'<path d="M-160 -165 Q-210 -140 -220 -90 L-190 -96 Q-180 -140 -150 -160 Z" fill="{c}"/>'
+                f'<path d="M-150 -165 Q-180 -110 -170 -60 L-145 -72 Q-150 -120 -140 -160 Z" fill="{shade(c, 0.85)}"/>')
     if h == "leather_cap":
         return (f'<path d="M-150 -170 C-160 -300 160 -300 150 -170 Q130 -236 0 -242 Q-130 -236 -150 -170 Z" fill="{c}"/>'
                 f'<path d="M0 -290 L0 -244" stroke="{shade(c, 0.7)}" stroke-width="9"/>')
@@ -282,6 +312,9 @@ def head_img(cid, expr="neutral", mouth="closed", eyes="open", look=(0, 0), scal
         parts.append(f'<path d="M-52 -96 Q-20 -112 0 -98 Q20 -112 52 -96 Q30 -84 0 -90 Q-30 -84 -52 -96 Z" fill="{s["beard"]}"/>')
     parts.append(mouth_svg(expr, mouth))
     parts.append(hair_front(s))
+    if s.get("patch"):   # eye patch over the screen-left eye, strap round the head
+        parts.append('<path d="M-150 -200 L150 -120" fill="none" stroke-width="10"/>'
+                     '<ellipse cx="-58" cy="-146" rx="44" ry="40" fill="#1E1A24"/>')
     return _png(_svg("".join(parts), (-215, -470, 215, 90)), scale), (215, 470)  # image, pivot (px at scale 1)
 
 
@@ -425,6 +458,19 @@ def prop_svg(name, at=(0, 0)):
                 f'<path d="M-30 -10 L20 60 M-6 -40 L34 30 M30 -10 L-20 60" stroke="#B8803A" stroke-width="6"/>'
                 f'<circle cx="0" cy="-80" r="56" fill="#FFB8C8"/><circle cx="-26" cy="-120" r="30" fill="#FFF4E0"/>'
                 f'<path d="M-50 -46 Q0 -26 50 -46" fill="none" stroke="#FFB8C8" stroke-width="20"/></g>')
+    if name == "map":   # treasure map with a dotted path and a red X
+        return (f'<g transform="translate({x},{y})"><path d="M-110 -70 L100 -84 L112 80 L-100 92 Z" fill="#F3E2BC"/>'
+                f'<path d="M-70 50 Q-30 -20 10 20 Q40 50 60 -30" fill="none" stroke="#A8865A" stroke-width="7" stroke-dasharray="14 10"/>'
+                f'<path d="M48 -46 L76 -18 M76 -46 L48 -18" stroke="#C8282C" stroke-width="12"/>'
+                f'<path d="M-90 -50 Q-60 -64 -40 -40 Q-60 -20 -90 -30 Z" fill="#9FC8A0" stroke-width="5"/></g>')
+    if name == "coins":
+        return (f'<g transform="translate({x},{y})">' + "".join(
+            f'<ellipse cx="{cx}" cy="{cy}" rx="30" ry="12" fill="#FFC93C" stroke-width="6"/>' for cx, cy in ((-30, 40), (20, 44), (-6, 26), (24, 14), (-24, 8), (0, -6))) + '</g>')
+    if name == "flag":   # small Jolly Roger on a stick
+        return (f'<g transform="translate({x},{y})"><path d="M-6 120 L-6 -140" stroke-width="12"/>'
+                f'<rect x="-6" y="-140" width="140" height="96" fill="#1E1A24"/>'
+                f'<circle cx="64" cy="-104" r="22" fill="#F4F0E6" stroke="none"/><rect x="52" y="-90" width="24" height="12" fill="#F4F0E6" stroke="none"/>'
+                f'<path d="M34 -64 L94 -54 M34 -54 L94 -64" stroke="#F4F0E6" stroke-width="8"/></g>')
     if name == "liver":
         return (f'<g transform="translate({x},{y})"><path d="M-80 0 Q-90 -70 -10 -70 Q70 -80 86 -20 Q80 40 10 30 Q-60 50 -80 0 Z" fill="#9C3A3A"/>'
                 f'<path d="M-40 -40 Q0 -54 40 -44" fill="none" stroke="#D86A5A" stroke-width="10"/></g>')
