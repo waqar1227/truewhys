@@ -4,11 +4,10 @@
 0. Daily growth review = separate scheduled task (fresh Sonnet session, 07:13 UTC): `bash tools/daily.sh` → entry in research/daily_report.md. Heartbeat does NOT repeat it; it reads the latest entry before any new script/title. 48 h check of A-001/A-004 titles (emoji test): 13–14 Nov.
    A-001 Quicksand: DONE + SCHEDULED on YouTube (MLRRsaV4iUA, public 11 Nov 22:00 UTC = 03:00 PKT 12 Nov, QA pass, thumb set). TikTok SCHEDULED via Metricool 22:30 UTC 11 Nov (id 424053522; final re-composed from Kaggle plates); title "Why Quicksand Can't Actually Swallow You", end caption "Watch the full video on YouTube — @TrueWhys"? (standalone: use "More true whys on YouTube — @TrueWhys").
    A-004 Tickling: DONE + SCHEDULED on YouTube (sdoOC7kAuRU, public 12 Nov 22:00 UTC, QA pass, thumb set; title ends with 🪶 = A/B vs A-001). TikTok SCHEDULED via Metricool 22:30 UTC 12 Nov (id 424045584). Plates: Kaggle truewhys-render-a004.
-   A-002 Polar bear liver (IN PROGRESS, 11 Nov): script v2 (33 s voice, payoff image in frame 1), Gemini master voice/ch0.flac, plan.py (15 shots, 35.3 s), stills checked,
-   Kaggle truewhys-render-a002 v1 pushed 11:10 UTC (~2 h). NEXT: `kaggle kernels output waqarahmed51/truewhys-render-a002 -p episodes/A-002-polar-bear-liver/renders`
-   → mkdir final; `python lib/compose.py episodes/A-002-polar-bear-liver --plates episodes/A-002-polar-bear-liver/renders/plates --out episodes/A-002-polar-bear-liver/final/A-002.mp4 --w 1080 --h 1920`
-   → QA (qa.md) → `python lib/youtube.py upload final/A-002.mp4 upload_meta.json final/thumb.jpg` (publishAt 22:00 UTC 13 Nov) → TikTok 22:30 UTC 13 Nov (Metricool + fresh Dropbox token).
-   Title has no emoji; if the A-001/A-004 48 h test (13–14 Nov) says the emoji wins, edit the A-002 title.
+   A-002 Polar bear liver: DONE + SCHEDULED (o-dGmxKGKoY, public 13 Nov 22:00 UTC, QA pass, thumb set, no emoji in title). TikTok SCHEDULED 22:30 UTC 13 Nov (Metricool 424396234). Plates: Kaggle truewhys-render-a002.
+   If the A-001/A-004 48 h emoji test (13–14 Nov) favours the emoji, edit the A-002 title.
+   A-008 Steel (owner-made, flat 2D): end card swapped to the Wy ✓ card; YouTube zCkUEA4t5iQ public 11 Nov 14:00 UTC; TikTok 15:00 UTC (Metricool 424394467).
+   NEXT EPISODE = A-005 Brain freeze (shorts_plan.md, category 7). Same steps as A-002; YouTube slot 22:00 UTC 14 Nov (≥ 6 h from others) + TikTok +30 min.
 Fresh session? Tools install via the environment setup script (tools/setup_env.sh). Rendered plates are not in git: fetch them from Kaggle.
 1. DONE 8 Nov 09:30 UTC: B-002 Gemini voice (9 chapters, FLAC masters committed), plan.py (98 shots, 6:11), shorts.py (8 Shorts 38–46 s).
    Still to do when scheduling: `python lib/upload_pkg.py episodes/B-002-worst-jobs <publishAt>`.
