@@ -11,6 +11,9 @@
    NEXT: fetch plates → compose --w 1080 --h 1920 → QA → YouTube 22:00 UTC 14 Nov (upload_meta ready) → TikTok 22:30 UTC.
    EPISODE 3 (owner 11 Nov: start right after A-005, in parallel with the remaining Shorts): pirate myths vs truth, Ranked List
    (topic research in research/format_study.md, 11 Nov). Folder episodes/B-003-pirate-myths.
+   DONE 11 Nov 15:40 UTC: script v1 (10 items, 67 lines), sources.md (2+ per claim), topic.md, Gemini voice ch0–6 (4:31) + timing.json.
+   NEXT: sets (new pirate ship deck + Caribbean port market; reuse court for the 1720 trial, marsh beach for marooning, study for Wy),
+   plan.py (~90 shots), stills contact sheet, Kaggle by chapter, compose, QA, 3 thumbnails, cut Shorts (lib/shorts.py), schedule.
 Fresh session? Tools install via the environment setup script (tools/setup_env.sh). Rendered plates are not in git: fetch them from Kaggle.
 1. DONE 8 Nov 09:30 UTC: B-002 Gemini voice (9 chapters, FLAC masters committed), plan.py (98 shots, 6:11), shorts.py (8 Shorts 38–46 s).
    Still to do when scheduling: `python lib/upload_pkg.py episodes/B-002-worst-jobs <publishAt>`.

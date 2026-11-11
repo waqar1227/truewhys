@@ -1,0 +1,70 @@
+# id | chapter | text (captions) || say (pronunciation for the voice, optional)
+# B-003 v1 (11 Nov 2026). Ranked list: 10 pirate "facts", myth or real, from mild to the biggest surprise. Each item = one Short.
+# Chapters = Gemini requests (7): 0 intro, 1 items 1–2, 2 items 3–4, 3 items 5–6, 4 items 7–8, 5 items 9–10, 6 outro.
+L01|0|Eye patches. Parrots. Walking the plank. Buried treasure.
+L02|0|Everything we think we know about pirates... came from somewhere.
+L03|0|But a lot of it came from books and movies, not from real pirates.
+L04|0|Today we check ten famous pirate "facts".
+L05|0|Some are total myths. And some are real... and much stranger than the movies.
+L06|1|Number one: pirates talked like this. Arrr!
+L07|1|Myth. Almost certainly.
+L08|1|That accent comes from one actor: Robert Newton, who played Long John Silver in a 1950 Treasure Island film.
+L09|1|He used a big version of the accent from his home in the West Country of England, where "arr" can simply mean "yes".
+L10|1|Real pirates came from all over the world: England, Wales, Africa, the Netherlands, the Caribbean...
+L11|1|so there was no single pirate voice.
+L12|1|Number two: every pirate had a parrot on his shoulder.
+L13|1|Mostly a myth.
+L14|1|Sailors did bring parrots back from the tropics. But for pirates, a parrot was usually cargo, something to sell.
+L15|1|In the port markets of Jamaica, exotic birds were sold for good money.
+L16|1|The famous shoulder parrot comes from a book: Long John Silver's parrot in Treasure Island, from 1883.
+L17|2|Number three: pirates wore eye patches.
+L18|2|Some did. But probably not for the reason you've heard.
+L19|2|There's a popular theory: keep one eye covered, so it's ready for the dark below deck.
+L20|2|Your eyes really do need many minutes to adjust to darkness, so the trick could work.
+L21|2|But historians have found no letters, diaries or pictures of pirates actually doing it.
+L22|2|Most pirates who wore a patch simply covered an eye they had lost in a fight or an accident.
+L23|2|Number four: pirates made prisoners walk the plank.
+L24|2|Almost never.
+L25|2|Historians can prove only a handful of cases, and most are from long after the famous pirates were gone.
+L26|2|The plank became famous thanks to storybooks, and then Treasure Island and Peter Pan.
+L27|2|The real punishment pirates feared was marooning: being left alone on a tiny island, with almost nothing.
+L28|3|Number five: pirates buried their treasure, and drew a map with an X.
+L29|3|Myth.
+L30|3|Pirates usually spent their loot fast, on food, drink and fun in port. Why hide it in the sand?
+L31|3|There is one famous exception: Captain William Kidd.
+L32|3|In 1699, knowing he was hunted, he buried some treasure on Gardiners Island, near New York.
+L33|3|It was dug up the same year, and used as evidence against him.
+L34|3|And treasure maps with an X? They come from stories, most of all Treasure Island.
+L35|3|Number six: pirates flew the skull and crossbones.
+L36|3|True! But the reason will surprise you.
+L37|3|The flag wasn't for show. It was a warning: surrender now, and nobody gets hurt.
+L38|3|A real fight could sink the ship pirates wanted to steal, and kill their own crew.
+L39|3|So the scarier the flag, the more often ships simply gave up.
+L40|3|And if a ship refused, some pirates raised a red flag instead. That meant: no mercy.
+L41|4|Number seven: pirates had no rules.
+L42|4|Myth. Pirates signed written rules called articles.
+L43|4|One famous pirate, Bartholomew Roberts, had a crew rule: lights and candles out at eight o'clock at night.
+L44|4|Want to keep drinking after that? Go and sit on the open deck, in the dark.
+L45|4|His crew couldn't gamble for money on board, and they couldn't fight each other on the ship.
+L46|4|Arguments were settled on land instead.
+L47|4|Number eight: pirates got injury insurance.
+L48|4|Believe it or not... true.
+L49|4|One buccaneer crew in the 1670s agreed on a price list for injuries, paid from the shared loot.
+L50|4|Lose your right arm? Six hundred pieces of eight. Your left arm, five hundred.
+L51|4|A right leg, five hundred. An eye or a finger, one hundred.
+L52|4|A small fortune for an ordinary sailor, agreed before the voyage even began.
+L53|5|Number nine: the captain was the boss.
+L54|5|Only sometimes.
+L55|5|On many pirate ships, the crew voted for their captain... and could vote him out.
+L56|5|In battle, his word was law. But the rest of the time, another elected officer, the quartermaster, handled food, loot and fights.
+L57|5|On a navy ship, you obeyed or you were punished. On a pirate ship, you got a vote.
+L58|5|And number ten: some of the most famous pirates were women.
+L59|5|True.
+L60|5|In 1720, Anne Bonny and Mary Read sailed with the pirate Calico Jack in the Caribbean.
+L61|5|When their ship was captured, the two women were put on trial in Jamaica... and both were sentenced to hang.
+L62|5|But they told the court they were expecting babies, so their executions were stopped.
+L63|5|Mary Read died in prison the next year. And Anne Bonny? Nobody knows for sure what happened to her.
+L64|6|So: no "arrr", few parrots, almost no planks, and hardly any buried treasure.
+L65|6|But written rules, injury insurance, elections, and women pirates? All real.
+L66|6|The real pirates were stranger than the movies ever showed.
+L67|6|Which one surprised you the most? Tell us in the comments.
