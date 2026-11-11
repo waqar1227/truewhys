@@ -1,0 +1,953 @@
+{
+ "fps": 30,
+ "resolution": [
+  1080,
+  1920
+ ],
+ "style": "T",
+ "episode": "A-005",
+ "short": "A-005",
+ "title": "What Brain Freeze Does Inside Your Head",
+ "duration": 32.35,
+ "vertical": true,
+ "shots": [
+  {
+   "line": "H1",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.62,
+      -0.95,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.95
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.6176,
+      -0.77,
+      0.994
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.95
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "pain",
+     "arms": "point_r",
+     "talk": true,
+     "posed": true,
+     "blink_fast": true,
+     "hold": "icecream"
+    }
+   ],
+   "part": [
+    0,
+    0.5
+   ],
+   "pop": [
+    [
+     0.02,
+     "BRAIN FREEZE!",
+     1.4
+    ]
+   ],
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ],
+    [
+     0.05,
+     "boing",
+     0.35
+    ]
+   ],
+   "music": "playful",
+   "id": "A-005_00",
+   "start": 0.0,
+   "dur": 1.86,
+   "chapter": 0,
+   "line_start": 0.12
+  },
+  {
+   "line": "H1",
+   "kind": "3d",
+   "set": "lab",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.3,
+      2.6,
+      2.2
+     ],
+     "tgt": [
+      -0.4,
+      5.4,
+      2.72
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      -0.315,
+      3.02,
+      2.278
+     ],
+     "tgt": [
+      -0.4,
+      5.4,
+      2.72
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": [
+    0.5,
+    1
+   ],
+   "pop": [
+    [
+     0.05,
+     "INSIDE YOUR HEAD",
+     1.05
+    ]
+   ],
+   "sfx": [
+    [
+     0.05,
+     "ding",
+     0.35
+    ]
+   ],
+   "id": "A-005_01",
+   "start": 1.86,
+   "dur": 1.86,
+   "chapter": 0,
+   "line_start": 0.0
+  },
+  {
+   "line": "L01",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.4,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.78
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.105,
+      0.978
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.78
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "raise",
+     "talk": true,
+     "hold": "icecream"
+    }
+   ],
+   "part": null,
+   "lens": {
+    "name": "headx_cold",
+    "at": [
+     0.5,
+     0.42
+    ],
+    "rad": 0.34
+   },
+   "pop": [
+    [
+     0.1,
+     "ICE COLD!",
+     1.15
+    ]
+   ],
+   "sfx": [
+    [
+     0.1,
+     "pop",
+     0.35
+    ]
+   ],
+   "music": "curious",
+   "id": "A-005_02",
+   "start": 3.72,
+   "dur": 2.42,
+   "chapter": 0,
+   "line_start": 3.72
+  },
+  {
+   "line": "L02",
+   "kind": "3d",
+   "set": "lab",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.55,
+      -0.15,
+      1.45
+     ],
+     "tgt": [
+      -0.9,
+      1.8,
+      1.3
+     ],
+     "lens": 32
+    },
+    "to": {
+     "pos": [
+      -0.6025,
+      0.1425,
+      1.4275
+     ],
+     "tgt": [
+      -0.9,
+      1.8,
+      1.3
+     ],
+     "lens": 32.0
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": [
+    0,
+    0.35
+   ],
+   "tag": "SCIENTISTS FOUND",
+   "sfx": [
+    [
+     0.05,
+     "tick",
+     0.35
+    ]
+   ],
+   "id": "A-005_03",
+   "start": 6.14,
+   "dur": 1.778,
+   "chapter": 0,
+   "line_start": 6.14
+  },
+  {
+   "line": "L02",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.4,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.78
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.1639999999999997,
+      0.9824
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.78
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "talk": true
+    }
+   ],
+   "part": [
+    0.35,
+    1
+   ],
+   "lens": {
+    "name": "headx_vessel",
+    "at": [
+     0.5,
+     0.42
+    ],
+    "rad": 0.34
+   },
+   "pop": [
+    [
+     0.4,
+     "BLOOD RUSHES IN",
+     1.0
+    ]
+   ],
+   "sfx": [
+    [
+     0.3,
+     "riser",
+     0.35
+    ]
+   ],
+   "music": "tension",
+   "id": "A-005_04",
+   "start": 7.918,
+   "dur": 3.302,
+   "chapter": 0,
+   "line_start": 6.14
+  },
+  {
+   "line": "L03",
+   "kind": "3d",
+   "set": "lab",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.5920000000000001,
+      0.08399999999999999,
+      1.432
+     ],
+     "tgt": [
+      -0.9,
+      1.8,
+      1.3
+     ],
+     "lens": 32.0
+    },
+    "to": {
+     "pos": [
+      -0.55,
+      -0.15,
+      1.45
+     ],
+     "tgt": [
+      -0.9,
+      1.8,
+      1.3
+     ],
+     "lens": 32
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": [
+    0,
+    0.55
+   ],
+   "pop": [
+    [
+     0.25,
+     "CLOSED BOX",
+     1.15
+    ]
+   ],
+   "sfx": [
+    [
+     0.1,
+     "thud",
+     0.4
+    ]
+   ],
+   "id": "A-005_05",
+   "start": 11.22,
+   "dur": 2.519,
+   "chapter": 0,
+   "line_start": 11.22
+  },
+  {
+   "line": "L03",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.62,
+      -0.95,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.95
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.618,
+      -0.7999999999999999,
+      0.995
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.95
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout",
+    "shake": 0.03
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "angry",
+     "arms": "chin",
+     "talk": true,
+     "blink_fast": true
+    }
+   ],
+   "part": [
+    0.55,
+    1
+   ],
+   "pop": [
+    [
+     0.05,
+     "OUCH!",
+     1.4
+    ]
+   ],
+   "sfx": [
+    [
+     0.0,
+     "boing",
+     0.4
+    ]
+   ],
+   "id": "A-005_06",
+   "start": 13.739,
+   "dur": 2.061,
+   "chapter": 0,
+   "line_start": 11.22
+  },
+  {
+   "line": "L04",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.4,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.78
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.105,
+      0.978
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.78
+     ],
+     "lens": 34.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "lens": {
+    "name": "headx_nerve",
+    "at": [
+     0.5,
+     0.42
+    ],
+    "rad": 0.34
+   },
+   "tag": "SAME NERVE",
+   "sfx": [
+    [
+     0.2,
+     "whoosh_soft",
+     0.3
+    ],
+    [
+     1.6,
+     "ding",
+     0.35
+    ]
+   ],
+   "music": "curious",
+   "id": "A-005_07",
+   "start": 15.8,
+   "dur": 3.47,
+   "chapter": 0,
+   "line_start": 15.8
+  },
+  {
+   "line": "L05",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.62,
+      -0.95,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.95
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.6176,
+      -0.77,
+      0.994
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.95
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "chin",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.1,
+     "WRONG PLACE!",
+     1.15
+    ]
+   ],
+   "sfx": [
+    [
+     0.05,
+     "boing",
+     0.4
+    ]
+   ],
+   "id": "A-005_08",
+   "start": 19.27,
+   "dur": 1.74,
+   "chapter": 0,
+   "line_start": 19.27
+  },
+  {
+   "line": "L06",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.62,
+      -0.95,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.95
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.618,
+      -0.7999999999999999,
+      0.995
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.95
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "present",
+     "talk": true
+    }
+   ],
+   "part": [
+    0,
+    0.5
+   ],
+   "pop": [
+    [
+     0.1,
+     "TONGUE UP",
+     1.2
+    ]
+   ],
+   "sfx": [
+    [
+     0.05,
+     "pop",
+     0.35
+    ]
+   ],
+   "music": "playful",
+   "id": "A-005_09",
+   "start": 21.01,
+   "dur": 2.44,
+   "chapter": 0,
+   "line_start": 21.01
+  },
+  {
+   "line": "L06",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.618,
+      -0.7999999999999999,
+      0.995
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.95
+     ],
+     "lens": 30.0
+    },
+    "to": {
+     "pos": [
+      0.62,
+      -0.95,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.95
+     ],
+     "lens": 30
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "hold",
+     "talk": true,
+     "hold": "bowl"
+    }
+   ],
+   "part": [
+    0.5,
+    1
+   ],
+   "pop": [
+    [
+     0.05,
+     "SIP SOMETHING WARM",
+     0.95
+    ]
+   ],
+   "sfx": [
+    [
+     0.1,
+     "drink",
+     0.4
+    ]
+   ],
+   "id": "A-005_10",
+   "start": 23.45,
+   "dur": 2.44,
+   "chapter": 0,
+   "line_start": 21.01
+  },
+  {
+   "line": "L07",
+   "kind": "3d",
+   "set": "lab",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.312,
+      2.936,
+      2.2624
+     ],
+     "tgt": [
+      -0.4,
+      5.4,
+      2.72
+     ],
+     "lens": 30.0
+    },
+    "to": {
+     "pos": [
+      -0.3,
+      2.6,
+      2.2
+     ],
+     "tgt": [
+      -0.4,
+      5.4,
+      2.72
+     ],
+     "lens": 30
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": [
+    0,
+    0.5
+   ],
+   "pop": [
+    [
+     0.1,
+     "NOT FROZEN",
+     1.15
+    ]
+   ],
+   "sfx": [
+    [
+     0.05,
+     "tick",
+     0.35
+    ]
+   ],
+   "music": "warm",
+   "id": "A-005_11",
+   "start": 25.89,
+   "dur": 2.03,
+   "chapter": 0,
+   "line_start": 25.89
+  },
+  {
+   "line": "L07",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.62,
+      -0.95,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.95
+     ],
+     "lens": 30
+    },
+    "to": {
+     "pos": [
+      0.6176,
+      -0.77,
+      0.994
+     ],
+     "tgt": [
+      0.6,
+      0.55,
+      0.95
+     ],
+     "lens": 30.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "smug",
+     "arms": "point_r",
+     "talk": true
+    }
+   ],
+   "part": [
+    0.5,
+    1
+   ],
+   "pop": [
+    [
+     0.1,
+     "YOU TOO?",
+     1.3
+    ]
+   ],
+   "sfx": [
+    [
+     0.05,
+     "hmm",
+     0.4
+    ]
+   ],
+   "id": "A-005_12",
+   "start": 27.92,
+   "dur": 2.03,
+   "chapter": 0,
+   "line_start": 25.89
+  },
+  {
+   "id": "A-005_END",
+   "kind": "end",
+   "line": "O1",
+   "start": 29.95,
+   "line_start": 30.07,
+   "dur": 2.4,
+   "chapter": null,
+   "chars": [],
+   "sfx": [
+    [
+     0,
+     "ding",
+     0.5
+    ]
+   ],
+   "music": null,
+   "set": null
+  }
+ ]
+}

@@ -59,3 +59,9 @@ Helpers: `flames()` toon fire, `candle()`, `panel_wall()`, `tapestry()`.
   `dose` (gauge with a needle swinging past a red "limit" + a small liver cube). Helper `gfx._svg_tile(body, R, bg)` draws any SVG lens scene.
 - Cast in use: `sailor` (wool cap, 1590s) with `hold="liver"` (prop) and arms `"raise"` = liver at the mouth; animals `polar_bear`, `seal`, `fish`.
 - Puppet option `posed=True` (lib/compose.py): arms start already in the target pose at frame 0 (use on hook shots so the key prop is in place instantly).
+
+## Added 11 Nov 2026 (A-005 brain freeze)
+- Magnifier scenes `headx_cold`, `headx_vessel`, `headx_nerve` (lib/gfx.LENS_SCENES): side cross-section of a cartoon head with brain, palate,
+  an artery under the brain and the facial nerve; cold spreads on the palate / the artery swells with blood + pressure arrows / the nerve lights to the forehead.
+  Reusable for any "inside your head/body" explainer (headaches, sinuses, hiccups).
+- Cast expression `"pain"` (lib/cast.py): eyes squeezed shut (> <), brows pinched, gritted-teeth grimace. Study close mark STC in A-005 plan.py.

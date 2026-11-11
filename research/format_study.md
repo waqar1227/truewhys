@@ -41,3 +41,14 @@ Source: [NamuWiki](https://en.namu.wiki/w/Ricks%20Clips).
   matches player heights, 3.7 M). Applied: every A-00x Short reveals a hidden mechanism in the middle beat (zoom-in / cutaway).
 - No fresh public data on Rick's Clips this week (trackers didn't index it). Keep the format rules above.
 Sources: [vidanalyze](https://vidanalyze.com/channel/zackdfilms/shorts), [vidIQ](https://vidiq.com/youtube-stats/channel/@zackdfilms/).
+
+## Topic check for episode 3 (11 Nov 2026, yt-dlp snapshots + YouTube search; format only, never copy)
+- Ink Explainer "What Did Ancient Humans Actually Do All Day?" 18 M is a huge outlier (next best 2 M). But YouTube search shows many
+  clones of the title ("What Did Vikings/Knights Actually Do All Day?") from small channels with 10–300 views: the bare title copy does not carry.
+- Pirates/sailors = proven big demand in our exact niche: Sam O'Nella "Why It Sucked to Be a Pirate" 19.9 M, CGP Grey "Why Surrendering to
+  Pirates Was Actually Genius" 11.4 M + "The Pirate Captain Wasn't Really the Boss" 12 M, Rick's Clips "Why Sailors Carried Storm Oil" 15 M and
+  "Levels of Pirate Cannonballs" 9.5 M, Animagraffs sailing ships 7–15 M, Tasting History pirate food 3.2 M. Myth-busting angle: NatGeo "Five
+  Pirate Myths That Are Actually True" 1 M, MythBusters pirate specials 0.3–0.6 M. Misconception lists: Sam O'Nella 23.7 M, CGP Grey 13.8 M.
+- Rick's Clips Shorts breakouts keep the "one strange real object/custom" shape (ancient jar 33 M, storm oil 15 M, grave bell 12 M).
+- Decision: episode 3 = Ranked List of pirate myths vs truth (each item = one stand-alone Short with a strange object/custom hook),
+  our own angle (myth → what really happened), not CGP Grey's democracy angle or Sam O'Nella's "why it sucked".

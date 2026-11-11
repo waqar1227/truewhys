@@ -7,7 +7,10 @@
    A-002 Polar bear liver: DONE + SCHEDULED (o-dGmxKGKoY, public 13 Nov 22:00 UTC, QA pass, thumb set, no emoji in title). TikTok SCHEDULED 22:30 UTC 13 Nov (Metricool 424396234). Plates: Kaggle truewhys-render-a002.
    If the A-001/A-004 48 h emoji test (13–14 Nov) favours the emoji, edit the A-002 title.
    A-008 Steel (owner-made, flat 2D): end card swapped to the Wy ✓ card; YouTube zCkUEA4t5iQ public 11 Nov 14:00 UTC; TikTok 15:00 UTC (Metricool 424394467).
-   NEXT EPISODE = A-005 Brain freeze (shorts_plan.md, category 7). Same steps as A-002; YouTube slot 22:00 UTC 14 Nov (≥ 6 h from others) + TikTok +30 min.
+   A-005 Brain freeze (IN PROGRESS 11 Nov): script v2 (32 s), Gemini voice, plan.py (14 shots), stills checked, Kaggle truewhys-render-a005 pushed 15:32 UTC.
+   NEXT: fetch plates → compose --w 1080 --h 1920 → QA → YouTube 22:00 UTC 14 Nov (upload_meta ready) → TikTok 22:30 UTC.
+   EPISODE 3 (owner 11 Nov: start right after A-005, in parallel with the remaining Shorts): pirate myths vs truth, Ranked List
+   (topic research in research/format_study.md, 11 Nov). Folder episodes/B-003-pirate-myths.
 Fresh session? Tools install via the environment setup script (tools/setup_env.sh). Rendered plates are not in git: fetch them from Kaggle.
 1. DONE 8 Nov 09:30 UTC: B-002 Gemini voice (9 chapters, FLAC masters committed), plan.py (98 shots, 6:11), shorts.py (8 Shorts 38–46 s).
    Still to do when scheduling: `python lib/upload_pkg.py episodes/B-002-worst-jobs <publishAt>`.

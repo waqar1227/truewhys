@@ -679,6 +679,57 @@ def _dose_scene(R, t, d):
 LENS_SCENES = {"grains": _grains_scene, "foodchain": _foodchain_scene, "peel": _peel_scene, "dose": _dose_scene}
 
 
+def _headx(R, t, d, stage):
+    """Cross-section of a cartoon head (facing right): brain, palate, an artery under the brain, the facial nerve. A-005.
+    stage "cold": ice cream on the palate, frost spreads; "vessel": the artery swells, blood dots rush in, pressure arrows;
+    "nerve": the nerve lights up from the palate to the forehead, which flashes red."""
+    def k(t0, dur=0.5):
+        return max(0.0, min(1.0, (t - t0) / dur))
+    skin, ink = "#F4C6A0", "#1E1A24"
+    b = [f'<path d="M260 900 L260 760 Q170 700 180 520 Q190 230 470 170 Q760 120 820 390 Q840 470 800 520 L850 600 Q860 620 820 625 '
+         f'L810 690 Q800 760 720 770 L640 780 L640 900 Z" fill="{skin}"/>',
+         '<path d="M300 470 Q300 250 490 230 Q680 220 690 410 Q660 510 540 515 Q390 535 300 470 Z" fill="#F7A8B8"/>',
+         '<path d="M360 330 Q420 300 450 350 Q500 290 560 330 Q600 300 640 350 M380 420 Q440 380 480 430 Q540 380 600 430 Q630 400 660 430" '
+         'fill="none" stroke="#E27E98" stroke-width="12"/>',
+         '<path d="M560 640 Q680 610 800 630" fill="none" stroke-width="12"/>',              # palate (roof of the mouth)
+         '<path d="M560 650 Q700 700 812 660" fill="#B23A4A"/>']                              # mouth
+    if stage == "cold":
+        kk = k(0.3, 0.8)
+        b.append(f'<g transform="translate(930 650) rotate(-95) scale(0.95)"><path d="M-46 -40 L0 110 L46 -40 Z" fill="#E8B060"/>'
+                 '<circle cx="0" cy="-80" r="56" fill="#FFB8C8"/><circle cx="-26" cy="-120" r="30" fill="#FFF4E0"/></g>')
+        for i in range(int(14 * kk)):
+            x = 600 + i * 15; y = 628 - 6 * math.sin(i)
+            b.append(f'<path d="M{x} {y} l-10 -26 M{x} {y} l12 -24 M{x} {y} l0 -30" stroke="#7FD4FF" stroke-width="7"/>')
+        b.append(f'<path d="M560 636 Q680 606 800 626" fill="none" stroke="#7FD4FF" stroke-width="{22*kk:.0f}" opacity="0.8"/>')
+    vk = k(0.25, max(0.6, d * 0.45)) if stage == "vessel" else (1.0 if stage == "nerve" else 0.0)
+    w = 22 + 30 * vk + (6 * math.sin(t * 10) if stage == "vessel" and vk > 0.5 else 0)
+    b.append(f'<path d="M420 900 Q430 700 470 600 Q510 530 600 540" fill="none" stroke="{ink}" stroke-width="{w+12:.0f}"/>'
+             f'<path d="M420 900 Q430 700 470 600 Q510 530 600 540" fill="none" stroke="#E0433C" stroke-width="{w:.0f}"/>')
+    if stage == "vessel":
+        for i in range(8):                       # blood rushing up the vessel
+            u = ((t * 0.9 + i / 8) % 1.0)
+            x = 420 + 10 * u + 170 * u ** 2.2; y = 900 - 360 * u ** 0.9
+            b.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="10" fill="#FFB0A8" stroke="none" opacity="{min(1, vk*1.5):.2f}"/>')
+        pk = k(d * 0.55, 0.5)
+        for (x, y, a) in ((300, 260, -135), (720, 250, -45), (250, 500, 180), (790, 430, 0)):
+            if pk > 0:
+                b.append(f'<g transform="translate({x} {y}) rotate({a}) scale({pk:.2f})"><path d="M0 -18 L60 -18 L60 -40 L100 0 L60 40 L60 18 L0 18 Z" fill="#FFC93C"/></g>')
+    if stage == "nerve":
+        nk = k(0.2, max(0.6, d * 0.45))
+        path = "M640 630 Q690 560 700 480 Q705 400 770 300"
+        b.append(f'<path d="{path}" fill="none" stroke="#FFC93C" stroke-width="16" stroke-dasharray="{600*nk:.0f} 600" opacity="0.95"/>')
+        if nk >= 1:
+            fl = 0.55 + 0.45 * abs(math.sin(t * 8))
+            b.append(f'<circle cx="770" cy="290" r="{70*fl:.0f}" fill="#FF5B4B" opacity="0.55" stroke="none"/>'
+                     '<path d="M770 230 L745 290 L780 290 L755 350" fill="none" stroke="#FFF4E0" stroke-width="12"/>')
+    b.append('<ellipse cx="752" cy="440" rx="28" ry="36" fill="#FFFFFF" stroke-width="9"/><circle cx="764" cy="444" r="13" fill="#1E1A24" stroke="none"/>')
+    return _svg_tile("".join(b), R, "#123A5E")
+
+
+LENS_SCENES.update({"headx_cold": lambda R, t, d: _headx(R, t, d, "cold"), "headx_vessel": lambda R, t, d: _headx(R, t, d, "vessel"),
+                    "headx_nerve": lambda R, t, d: _headx(R, t, d, "nerve")})
+
+
 def lens_inset(f, name, t, d, s, labels=(), at=(0.5, 0.47), rad=0.36):
     """Magnifying-glass circle with an animated close-up (LENS_SCENES[name]) over the frame.
     labels: [(text, x, y, t_in)] in lens units (-1..1). Pops in with back_out, pops out at the end."""

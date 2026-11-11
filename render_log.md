@@ -60,3 +60,6 @@
 ## 11 Nov 2026 11:10 UTC: truewhys-render-a002 v1 (A-002 polar bear liver Short, 15 plates, 1080×1920, 64 spp, step 2 + interp, no step-1 shots, 2×T4)
 - 11 Nov 12:10 UTC done: 14/14 plates (+ 2D end card), 0 errors, render wall 55.6 min on 2 GPUs (≈ 2.0 GPU h incl. setup). No step-1 shots → half the A-004 time.
 - dataset waqarahmed51/truewhys-ep-a002 (flat: render_bg, sets, sets2, sets3, camera, shots.json, job_A.json).
+
+## 11 Nov 2026 15:32 UTC: truewhys-render-a005 v1 (A-005 brain freeze Short, 13 plates, 1080×1920, 64 spp, step 2 + interp, no step-1 shots, 2×T4)
+- running; dataset waqarahmed51/truewhys-ep-a005.

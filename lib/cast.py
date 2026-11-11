@@ -115,6 +115,9 @@ def eyes_svg(expr, eyes, look, skin):
     out = []
     for side, cx in ((-1, -58), (1, 62)):
         cy = -146
+        if expr == "pain":   # squeezed shut: > <
+            out.append(f'<path d="M{cx-30*side} {cy-26} L{cx+24*side} {cy} L{cx-30*side} {cy+26}" fill="none" stroke-width="11"/>')
+            continue
         if eyes == "closed" or expr == "happy_closed":
             out.append(f'<path d="M{cx-34} {cy+4} Q{cx} {cy+30} {cx+34} {cy+4}" fill="none" stroke-width="10"/>')
             continue
@@ -152,6 +155,7 @@ def brows_svg(expr):
         "smug":      ("M-92 -206 Q-62 -222 -30 -212", "M32 -230 Q64 -250 94 -226"),
         "sad":       ("M-92 -204 Q-60 -210 -30 -228", "M32 -228 Q64 -210 94 -204"),
         "tired":     ("M-92 -204 Q-62 -214 -30 -208", "M32 -208 Q64 -214 94 -204"),
+        "pain":      ("M-94 -200 Q-60 -206 -26 -226", "M26 -226 Q60 -206 94 -200"),
     }
     a, b = B.get(expr, B["neutral"])
     return f'<path d="{a}" fill="none" stroke-width="11"/><path d="{b}" fill="none" stroke-width="11"/>'
@@ -160,6 +164,9 @@ def brows_svg(expr):
 def mouth_svg(expr, mouth):
     """mouth: closed/small/open/wide (talking shapes) shaped by the expression."""
     dark, tongue = "#8A2734", "#E8707A"
+    if expr == "pain":   # gritted-teeth grimace (ignores talk shapes)
+        return ('<path d="M-38 -76 Q0 -86 38 -76 L36 -50 Q0 -42 -36 -50 Z" fill="#FFFFFF" stroke-width="9"/>'
+                '<path d="M-37 -63 Q0 -66 37 -63 M-14 -82 L-14 -46 M12 -82 L12 -46" fill="none" stroke-width="5"/>')
     frown = expr in ("worried", "sad", "angry")
     if expr == "surprised" and mouth == "closed":
         mouth = "small"
