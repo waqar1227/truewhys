@@ -1,7 +1,7 @@
 # Fable 5.2 sprint: Style F (flat 2D), 12–14 Nov 2026 (owner instruction, 12 Nov 2026 ~07:00 UTC)
 
 Why: Kaggle GPU is blocked (account anam318 not phone-verified), so Style T 3D finals cannot be rendered.
-Owner: make as many outstanding videos as possible with Fable 5.2, long or Shorts (Fable decides), in the same flat 2D
+Owner (update 12 Nov): Fable picks the best style (flat 2D, Style T 3D on CPU if it reaches pro quality in time, or a mix). Was: in the same flat 2D
 style as A-008 "The Accident That Invented Steel" (that Short was made solely by Fable 5.2). All scheduled 12–14 Nov, none later.
 
 ## Style F (flat 2D), reference: episodes/A-008-steel/final/thumb.jpg
