@@ -604,7 +604,7 @@ class Video:
         if end and "O1" in s.T:
             o = s.T["O1"]
             s.voice0["O1"] = t + 0.17
-            out.append(dict(id=f"{s.sid}_END", line="O1", fn=end_card, part=(0, 1), cam=lambda c: (W / 2, H / 2, 1.0, 0.0), sfx=[(0.0, "whoosh_soft", 0.45), (0.42, "ding", 0.5)],
+            out.append(dict(id=f"{s.sid}_END", line="O1", fn=end_card, part=(0, 1), cam=lambda c: (W / 2, H / 2, 1.0, 0.0), sfx=[(0.0, "whoosh_soft", 0.4), (1.28, "ding", 0.42)],
                             music=None, tr="cut", cap=False, cap_y=None, name="end", start=round(t, 4), dur=round(max(s.end_dur, o["dur"] + 0.75), 4), kind="end",
                             line_start=round(t + 0.12, 4)))
             t += out[-1]["dur"]
@@ -701,8 +701,8 @@ class Video:
             g.circle(tr[1][0], tr[1][1], r + 9, None, PAL["yellow"], lw=8, a=1 - kk)
         else:
             s._draw_shot(g, sh, gt)
-        if tr == "flash" and lt < 0.2:
-            c.set_source_rgba(1, 1, 1, 0.85 * (1 - lt / 0.2)); c.paint()
+        if tr == "flash" and lt < 0.14:
+            c.set_source_rgba(1, 1, 1, 0.42 * (1 - lt / 0.14)); c.paint()
         if sh["kind"] != "end":
             vignette(g)
             if sh["cap"]:
@@ -937,8 +937,8 @@ def end_card(g, c):
     sq = 1 + 0.10 * math.sin(seg(t, 0.05, 0.6) * math.pi) * (1 - seg(t, 0.05, 0.6))
     wy_bust(g, c.gt, W / 2, H + 30 + (1 - kw) * 1000, 2.45, talk=c.env, sq=sq)
     bx, by = W / 2 + 335, hy + 286
-    check_badge(g, bx, by, 138, pop(t, 0.42, 0.4, 2.4))
-    kb = seg(t, 0.42, 0.5)
+    check_badge(g, bx, by, 138, pop(t, 1.26, 0.4, 2.4))
+    kb = seg(t, 1.26, 0.5)
     if 0 < kb < 1:
         for i in range(8):
             a0 = i * TAU / 8

@@ -55,17 +55,9 @@ def cup_straw(col="#BFE6F2"):
 
 
 def parlour(g, t, lights=1.0):
-    """Ice-cream shop at night: dark teal tiled wall, display freezer on the left, neon cone sign, pendant lamps, warm floor."""
+    """Ice-cream shop at night: dark teal tiled wall, display freezer and jar shelf on the left, pendant lamps, warm floor."""
     room(g, wall=("#092B37", "#0F4553"), floor=("#5C3B2E", "#33211C"), fy=1480)
     with g.layer(0.94):
-        # neon cone sign on the wall (right)
-        nx, ny = 905, 1010
-        fl = 0.85 + 0.15 * math.sin(t * 9) * (1 if (t * 0.7) % 1 > 0.08 else 0.2)
-        g.rings(nx, ny, 250, "#5ED3B5", a=0.05 * lights * fl, n=4)
-        g.circle(nx, ny, 118, "#0B3A47", INK)
-        g.circle(nx, ny, 100, None, mix("#5ED3B5", "#FFFFFF", 0.25 * fl), lw=9)
-        g.poly([(nx - 30, ny + 2), (nx + 30, ny + 2), (nx, ny + 72)], None, "#FFC93C", lw=9, r=4)
-        g.circle(nx, ny - 26, 36, None, "#FF8FA8", lw=9)
         # shelf with jars (left, above the freezer)
         g.rect(-80, 962, 420, 22, "#7A4B2E", r=6)
         for i, c_ in enumerate(("#FF8FA8", "#5ED3B5", "#FFC93C")):
@@ -73,7 +65,7 @@ def parlour(g, t, lights=1.0):
             g.rect(x, 872, 74, 90, c_, r=(10, 10, 14, 14)); g.rect(x - 5, 856, 84, 22, "#FFF4E0", r=8)
             g.line([(x + 14, 890), (x + 14, 940)], "#FFFFFF", 8, a=0.4)
     lamp(g, 190, 705, t, on=lights, r=470)
-    lamp(g, 900, 640, t + 1.3, on=lights, r=380, sc=0.86)
+    lamp(g, 905, 560, t + 1.3, on=lights, r=330, sc=0.8)
     # display freezer
     x0 = -70
     g.rect(x0, 1228, 520, 262, "#C4574A", r=(22, 22, 0, 0))

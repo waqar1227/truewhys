@@ -17,6 +17,7 @@ V = Video(EP, title=("WHAT BRAIN FREEZE DOES", "INSIDE YOUR HEAD"),
           music="curious")
 WX, WFY, WS = 590, 1578, 1.5
 HEADC = (WX, WFY - 327 * WS)                      # Wy's head centre in the parlour shots
+HOLDX = (160, -232)                               # the cone held out to the side, clear of the head
 SCI = Char(skin="#F1C9A5", top="#F6F2EA", hair="side", hair_col="#3B2A20", glasses=INK, outfit=[coat()], legs="#2F3A56", seed=2)
 VOL = Char(skin="#8D5A3B", top="#FFC93C", hair="curly", hair_col="#2A1C1E", hat="headband", hat_col="#5ED3B5", outfit=[stripes("#FF6B5B")], seed=4, legs="#27536B")
 
@@ -70,7 +71,7 @@ def ice_crown(g, t, k):
             g.line([(-6, 0), (0, -h_ * 1.0)], "#FFFFFF", 6, a=0.8)
 
 
-def wy(g, c, expr="pain", arms=("temple", "hold_up"), hold=(None, cone()), fk=1.0, shiver=1.0, glow=0.0, **kw):
+def wy(g, c, expr="pain", arms=("temple", HOLDX), hold=(None, cone()), fk=1.0, shiver=1.0, glow=0.0, **kw):
     WY.draw(g, c.gt, WX, WFY, sc=WS, face=1, turn=kw.pop("turn", 0.18), expr=expr, arms=arms, hold=hold, shiver=shiver * (fk > 0.05),
             head_fx=frost(fk, glow), tint=("#A9D8F2", 0.3 * fk), **kw)
 
@@ -131,8 +132,6 @@ def s_lab(g, c):
     wince = seg(t, 0.75, 0.2)
     VOL.draw(g, c.gt, 205, 1582, sc=1.22, face=1, turn=0.3, expr="cold" if wince > 0.5 else "neutral", arms=("down", "sip"), hold=(None, cup_straw()),
              shiver=1.0 * (wince > 0.5), tint=("#A9D8F2", 0.25 * wince))
-    if wince > 0.5:
-        pain_marks(g, 205, 1582 - 327 * 1.22 - 150, 26, t, n=3, col="#8FD8FF", a0=-2.2, a1=-0.9, sc=0.9)
     pt = amix("hold", (-150, -330), ease_io(seg(t, c.w("big") - 0.3, 0.4)))
     SCI.draw(g, c.gt, 905, 1586, sc=1.26, face=-1, turn=0.35, expr="surprised" if kb > 0.3 else "think", arms=("hip", pt), look=(0.6, -0.2))
     # highlight ring on the vessel
@@ -188,7 +187,7 @@ def s_hurts(g, c):
     t = c.t
     parlour(g, c.gt)
     th = 0.6 + 0.4 * math.sin(TAU * 2.6 * c.gt)
-    wy(g, c, arms=("temple", amix("hold_up", "hold", ease_out(seg(t, 0, 0.3)))), fk=1.0, glow=th, sweat=1.0)
+    wy(g, c, arms=("temple", HOLDX), fk=1.0, glow=th, sweat=1.0)
     ice_crown(g, t, 9)
     pain_marks(g, HEADC[0] - 20, HEADC[1], 250, c.gt, n=3, col="#FF6B5B", a0=2.75, a1=3.75, sc=1.5)
     pain_marks(g, HEADC[0] + 20, HEADC[1], 250, c.gt + 0.3, n=3, col="#FF6B5B", a0=-0.6, a1=0.35, sc=1.5)
@@ -290,29 +289,29 @@ def s_confused(g, c):
 def s_you(g, c):
     t = c.t
     parlour(g, c.gt)
-    wy(g, c, expr="smug", arms=("hip", amix("hold", "reach", ease_out(seg(t, 0.05, 0.35)))), hold=(None, cone()), fk=0, shiver=0, turn=0.1,
+    wy(g, c, expr="smug", arms=("hip", amix(HOLDX, "reach", ease_out(seg(t, 0.05, 0.35)))), hold=(None, cone()), fk=0, shiver=0, turn=0.1,
        lean=0.05 * ease_out(seg(t, 0.05, 0.35)), look=(0.2, 0.1))
     qmark(g, HEADC[0] - 255, HEADC[1] - 150, 190, PAL["yellow"], -0.25, pop(t, c.w("you") - 0.15, 0.3))
 
 
 WYCAM = lambda z0, z1, shake=0.0: roi((WX, HEADC[1] + 90), z0, z1, sy=1170, shake=shake, cut=False)
-V.shot("H1", s_hook, part=(0, "inside"), cam=WYCAM(1.0, 1.1), sfx=[(0.0, "freeze", 0.6), (0.0, "whoosh_soft", 0.35), ("freeze", "sparkle", 0.3)], music="curious", tr="cut")
+V.shot("H1", s_hook, part=(0, "inside"), cam=WYCAM(1.12, 1.24), sfx=[(0.0, "freeze", 0.45), (0.0, "whoosh_soft", 0.35), ("freeze", "sparkle", 0.3)], music="curious", tr="cut")
 V.shot("H1", s_reveal, part=("inside", 1), cam=roi(BRAIN_PT, 0.98, 1.06, sy=1140), sfx=[(0.0, "whoosh", 0.5), (0.3, "bloop", 0.35)], tr=("iris", (WX, HEADC[1] - 20), 0.55))
-V.shot("L01", s_cold, cam=roi((720, 660), 1.5, 1.72, sy=1280), sfx=[("ice", "whoosh_soft", 0.4), ("hits", "thud", 0.5), (("hits", 0.04), "freeze", 0.6)])
+V.shot("L01", s_cold, cam=roi((720, 660), 1.5, 1.72, sy=1280), sfx=[("ice", "whoosh_soft", 0.4), ("hits", "thud", 0.5), (("hits", 0.04), "freeze", 0.45)])
 V.shot("L02", s_lab, part=(0, "suddenly"), cam=roi((548, 1150), 1.0, 1.16, sy=1180, cut=False), sfx=[(0.0, "pop", 0.35), (0.7, "boing", 0.25), ("big", "bloop", 0.4)])
-V.shot("L02", s_vessel, part=("suddenly", 1), cam=roi(ARTERY_PT, 1.5, 1.68, sy=1290), sfx=[(0.0, "whoosh_soft", 0.3), ("widens", "swell", 0.7), ("blood#1", "rush", 0.55)])
+V.shot("L02", s_vessel, part=("suddenly", 1), cam=roi(ARTERY_PT, 1.5, 1.68, sy=1290), sfx=[(0.0, "whoosh_soft", 0.3), ("widens", "swell", 0.45), ("blood#1", "rush", 0.34)])
 V.shot("L03", s_box, part=(0, "so"), cam=roi(BRAIN_PT, 1.04, 1.1, sy=1150), sfx=[("skull", "thud", 0.45), ("closed", "tick", 0.4), (("closed", 0.14), "tick", 0.4),
                                                                               (("closed", 0.28), "tick", 0.4), ("box", "click", 0.6)])
 V.shot("L03", s_pressure, part=("so", "and"), cam=roi(BRAIN_PT, 1.1, 1.24, sy=1160, shake=lambda c: 0.8 * ease_io(seg(c.t, 0.4, 1.0))),
-       sfx=[(0.0, "riser", 0.4), ("pressure", "heartbeat", 0.6)], music="tension")
-V.shot("L03", s_hurts, part=("and", 1), cam=WYCAM(1.16, 1.24, shake=0.9), sfx=[(0.0, "sting", 0.55), (0.02, "boing", 0.3)], tr="flash")
-V.shot("L04", s_nerve, cam=roi((700, 560), 1.5, 1.42, sy=1300, pt1=(760, 400)), sfx=[("nerve", "zap", 0.45), ("reports", "bloop", 0.3), ("also", "zap", 0.45), ("forehead", "sting", 0.3)])
+       sfx=[(0.0, "riser", 0.4), ("pressure", "heartbeat", 0.45)], music="tension")
+V.shot("L03", s_hurts, part=("and", 1), cam=WYCAM(1.16, 1.24, shake=0.9), sfx=[(0.0, "sting", 0.38), (0.02, "boing", 0.3)], tr="flash")
+V.shot("L04", s_nerve, cam=roi((700, 560), 1.5, 1.42, sy=1300, pt1=(760, 400)), sfx=[("nerve", "zap", 0.32), ("reports", "bloop", 0.3), ("also", "zap", 0.32), ("forehead", "sting", 0.22)])
 V.shot("L05", s_blame, cam=roi((700, 300), 1.42, 1.56, sy=1200), sfx=[(0.0, "pop", 0.35), ("blames", "hmm", 0.5)])
 V.shot("L06", s_tongue, part=(0, "or"), cam=roi((690, 680), 1.6, 1.78, sy=1280), sfx=[("tongue", "pop", 0.4), ("roof", "melt", 0.45)], music="warm")
 V.shot("L06", s_sip, part=("or", "and"), cam=WYCAM(1.12, 1.2), sfx=[(0.05, "drink", 0.5)])
 V.shot("L06", s_fades, part=("and", 1), cam=WYCAM(1.2, 1.08), sfx=[("fades", "melt", 0.5), ("seconds", "sparkle", 0.4)])
 V.shot("L07", s_notfrozen, part=(0, "Just"), cam=roi(BRAIN_PT, 1.2, 1.3, sy=1170), sfx=[("isn't", "pop", 0.4), ("frozen", "click", 0.45)], music="playful")
-V.shot("L07", s_confused, part=("Just", "Does"), cam=roi(BRAIN_PT, 1.3, 1.38, sy=1190), sfx=[(0.0, "confuse", 0.55)])
+V.shot("L07", s_confused, part=("Just", "Does"), cam=roi(BRAIN_PT, 1.3, 1.38, sy=1190), sfx=[(0.0, "confuse", 0.3)])
 V.shot("L07", s_you, part=("Does", 1), cam=WYCAM(1.1, 1.2), sfx=[(0.0, "whoosh_soft", 0.35), ("you", "hmm", 0.45)])
 V.build()
 
