@@ -215,3 +215,4 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
   traffic sources; competitors.py: cached yt-dlp snapshot, breakouts, fastest growers). Then a ≤20-line entry in research/daily_report.md
   using research/report_template.md. CTR/impressions are not in the API: use Studio numbers only when the owner pastes them.
 - The daily growth review runs as its own scheduled task (fresh session, Sonnet); the production heartbeat does production only.
+- 12 Nov 2026: 'Fable 5.2 is PAUSED' replaced by owner: Fable enabled for the Style F sprint (docs/fable_sprint.md).

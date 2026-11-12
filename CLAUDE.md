@@ -25,6 +25,8 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
 ## Styles and rendering
 - **Style T (Toon), main:** original cast in real 3D toon scenes. This session: research, script, voice, animatic, previews, compositing,
   sound, QA. **Final frames render on Kaggle GPU.** No GPU here: previews/stills only (low samples). Never ship a CPU render as final.
+- **Style F (Flat 2D), owner 12 Nov 2026:** code-drawn flat vector animation like A-008 Steel, CPU-rendered here; allowed as final
+  (no Kaggle needed). Same quality gate. Details: `docs/fable_sprint.md`.
 - **Style R (Realistic 3D):** test Short every 2 weeks, also on Kaggle. 3D people: build stylised characters in Blender, else Sketchfab
   CC0/CC-BY rigged people, else free CC0 packs (e.g. Quaternius). **No Mixamo** (never ask for it).
 - Kaggle (account **anam318**; run `/opt/c3d/bin/python tools/kaggle_px.py`, token is a proxy-injected secret): private dataset `anam318/truewhys-ep-<id>` + private GPU kernel `truewhys-render-<id>`
@@ -117,4 +119,5 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
 - Fresh session per new episode; everything needed is in git or re-downloadable from Kaggle.
 - Scripts for deterministic work, AI for judgement. No polling loops (one background waiter per job). Look at images only for the
   animatic/stills check and final QA, using one small contact sheet. Don't re-read, re-research or re-generate what is saved.
-- Models: normal model for scripts, research, voice, animatics, compose and QA; Sonnet for routine chores. Fable 5.2 is PAUSED.
+- Models: normal model for scripts, research, voice, animatics, compose and QA; Sonnet for routine chores.
+  **Fable 5.2 ENABLED (owner 12 Nov 2026)** for the Style F (flat 2D, like A-008 Steel) sprint while Kaggle is blocked: `docs/fable_sprint.md`.

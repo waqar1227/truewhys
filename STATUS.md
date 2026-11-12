@@ -1,6 +1,8 @@
 # STATUS (read the NEXT list first)
 
 ## NEXT (keep this list short; heartbeat does only these)
+** 12 Nov 07:00 UTC: KAGGLE PAUSED (anam318 not phone-verified). Owner: Fable 5.2 sprint in Style F (flat 2D, like A-008), videos scheduled
+   12–14 Nov only: docs/fable_sprint.md. Style T work (A-005 3D, B-003 pirates) is saved below; resume when Kaggle works.
 0. Daily growth review = separate scheduled task (fresh Sonnet session, 07:13 UTC): `bash tools/daily.sh` → entry in research/daily_report.md. Heartbeat does NOT repeat it; it reads the latest entry before any new script/title. 48 h check of A-001/A-004 titles (emoji test): 13–14 Nov.
    A-001 Quicksand: DONE + SCHEDULED on YouTube (MLRRsaV4iUA, public 11 Nov 22:00 UTC = 03:00 PKT 12 Nov, QA pass, thumb set). TikTok SCHEDULED via Metricool 22:30 UTC 11 Nov (id 424053522; final re-composed from Kaggle plates); title "Why Quicksand Can't Actually Swallow You", end caption "Watch the full video on YouTube — @TrueWhys"? (standalone: use "More true whys on YouTube — @TrueWhys").
    A-004 Tickling: DONE + SCHEDULED on YouTube (sdoOC7kAuRU, public 12 Nov 22:00 UTC, QA pass, thumb set; title ends with 🪶 = A/B vs A-001). TikTok SCHEDULED via Metricool 22:30 UTC 12 Nov (id 424045584). Plates: Kaggle truewhys-render-a004.
