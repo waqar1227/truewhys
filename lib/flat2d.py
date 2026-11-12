@@ -642,8 +642,11 @@ class Video:
             sf_ = []
             for e in sh["sfx"]:
                 off, nm, g = e if len(e) == 3 else (e[0], e[1], 0.4)
-                if isinstance(off, str):
-                    off = s.word_t(sh["line"], off) - sh["start"]
+                if isinstance(off, tuple):      # (word, delta seconds)
+                    off = s.word_t(sh["line"], *off[0].split("#")[:1], int(off[0].split("#")[1]) if "#" in off[0] else 0) - sh["start"] + off[1]
+                elif isinstance(off, str):
+                    wd, n = (off.split("#") + ["0"])[:2]
+                    off = s.word_t(sh["line"], wd, int(n)) - sh["start"]
                 sf_.append([clamp(off / sh["dur"], 0, 1) if sh["dur"] > 0 else 0, nm, g])
             if sh["music"]: mood = sh["music"]
             shots.append(dict(id=sh["id"], kind=sh["kind"], start=sh["start"], dur=sh["dur"], line=sh["line"], line_start=sh["line_start"], sfx=sf_,

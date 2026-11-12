@@ -29,6 +29,7 @@ PACK_GLOBS = {"page_turn": "**/bookFlip1.ogg", "quill": "**/scratch_001.ogg", "f
               "pop": "**/drop_002.ogg", "ding": "**/confirmation_001.ogg", "sparkle": "**/glass_001.ogg", "boing": "**/spring_01.ogg",
               "thud": "**/wooden_01.ogg", "tick": "**/tick_001.ogg", "hmm": "**/question_001.ogg",
               "creak": "**/creak2.ogg", "flag_flap": "**/cloth3.ogg", "cannon": "**/explosion.ogg"}
+GEN = {}  # name -> function returning a stereo float32 array (in-house synthesised effects, see lib/sfxgen.py)
 AMBIENT = {"crowd_murmur", "wind", "birds", "fire", "insects", "room_tone", "footsteps", "chewing", "waves", "gulls"}
 
 
@@ -40,6 +41,8 @@ def load(path):
 
 
 def sfx(name):
+    if name in GEN:
+        return GEN[name]()
     if name == "riser":
         n = int(2.0 * SR); t = np.arange(n) / SR
         x = np.random.default_rng(1).normal(0, 1, n) * (t / 2.0) ** 2
