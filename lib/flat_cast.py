@@ -478,10 +478,10 @@ def wy_bust(g, t, x, y, s=1.0, talk=0.0, sq=1.0, look=(0.25, -0.3)):
                     else:
                         ry = 48 * (0.25 + 0.75 * blk)
                         g.ellipse(ex, 226, 36, ry, "#FFFFFF", INK, lw=9)
-                        with g.clip(circle=(ex, 226, 60)):
+                        with g.clip(ellipse=(ex, 226, 36, ry)):
                             px, py = ex + 8 + (look[0] - 0.25) * 14, 216 + (look[1] + 0.3) * 14
-                            if blk > 0.6:
-                                g.circle(px, py, 21, INK, None); g.circle(px + 8, py - 10, 7.5, "#FFFFFF", None)
+                            g.circle(px, py, 21, INK, None); g.circle(px + 8, py - 10, 7.5, "#FFFFFF", None)
+                        g.ellipse(ex, 226, 36, ry, None, INK, lw=9)
                 g.ellipse(96, 292, 26, 16, "#F2918A", None, a=0.8); g.ellipse(306, 292, 26, 16, "#F2918A", None, a=0.8)
                 k = clamp(0.5 + 0.9 * (talk - 0.25)) if talk > 0.02 else 0.5
                 lo, up = 322 + 36 * k, 312 - 4 * k

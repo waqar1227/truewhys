@@ -361,3 +361,224 @@ def _brain_face(g, t, kind, arm):
         g.limb(f"M664 396 Q{lerp(676, 716, k)} {lerp(404, 360, k)} {hx} {hy}", "#F7A9BC", 17, lw=5.5)
         g.circle(hx, hy, 15, "#F7A9BC", INK, lw=5.5)
         g.limb([(hx + 6, hy - 8), (hx + 30 * k, hy - 34 * k)], "#F7A9BC", 9, lw=5)
+
+
+# ------------------------------------------------------------------ sky, aircraft, hangar tank, stress diagram (A-007, A-003)
+
+
+def cloud(g, x, y, s=1.0, col="#DDF0F3", stroke=INK):
+    with g.at(x, y, 0, s):
+        pts = [(-112, 8, 50), (-50, -24, 66), (28, -12, 58), (98, 12, 46)]
+        if stroke:
+            for cx, cy, r in pts: g.circle(cx, cy, r, col, stroke, lw=13)
+            g.rect(-160, 4, 304, 56, col, stroke, lw=13, r=28)
+        for cx, cy, r in pts: g.circle(cx, cy, r, col, None)
+        g.rect(-160, 4, 304, 56, col, None, r=28)
+
+
+def sky(g, t, top="#081F33", bot="#17607A", stars=46, clouds=True, speed=70.0, seed=7):
+    """Dusk sky with twinkling stars and clouds drifting left on parallax layers (the aircraft flies right)."""
+    g.fill_all(g.lgrad(0, 0, 0, H, top, bot))
+    R = rnd(seed)
+    with g.layer(0.3):
+        for i in range(stars):
+            x, y, r, ph = R.uniform(-200, W + 200), R.uniform(-200, H * 0.85), R.uniform(2, 5), R.uniform(0, 6)
+            g.circle(x, y, r, "#FFFFFF", None, a=0.35 + 0.3 * math.sin(t * 2 + ph))
+    if clouds:
+        for y, s_, dep, sp in ((300, 0.6, 0.4, 0.25), (540, 0.8, 0.5, 0.35), (1000, 1.05, 0.7, 0.6), (1760, 1.25, 0.85, 0.8), (1500, 1.5, 1.0, 1.0)):
+            with g.layer(dep):
+                x = (R.uniform(0, 1900) - t * speed * sp) % 1900 - 400
+                cloud(g, x, y, s_, mix("#DDF0F3", bot, 0.6 - 0.5 * dep), None if dep < 0.6 else INK)
+
+
+def plane(g, t, x, y, s=1.0, win="square", n=9, body="#E8EEF2", stripe="#FF6B5B", faces=False, bob=True, wing=True, fin=True, swell=0.0):
+    """Chunky side-view jet airliner flying right (1950s Comet feel: engines buried in the wing root). win = square | round."""
+    yy = y + (10 * math.sin(t * 1.3) if bob else 0)
+    lw0 = g.lw
+    with g.at(x, yy, 0.012 * math.sin(t * 0.9) if bob else 0, s):
+        g.lw = 6.5
+        if fin:
+            g.poly([(-372, -44), (-468, -206), (-388, -206), (-282, -58)], stripe, r=10)
+            g.poly([(-392, -4), (-512, -34), (-470, -52), (-340, -30)], shade(body, -0.18), r=8)
+        if wing:
+            g.poly([(-30, -30), (60, -30), (-10, -96), (-70, -96)], shade(body, -0.3), r=8)
+        with g.at(0, 0, 0, 1, 1 + 0.07 * swell):
+            d = "M-410 -58 C-486 -50 -490 44 -410 62 L300 72 C400 72 470 46 482 10 C470 -40 400 -72 300 -72 Z"
+            g.path(d, body)
+            with g.clip(d):
+                g.rect(-520, 30, 1040, 60, shade(body, -0.16), None)
+                g.rect(-520, 8, 1040, 16, stripe, None)
+            g.path(d, None, INK)
+            g.path("M392 -44 C430 -40 452 -22 462 -4 L404 -4 Z", "#0E3A47")
+            x0, x1 = -300, 330
+            for i in range(n):
+                wx = x0 + (x1 - x0) * i / (n - 1)
+                g.rect(wx - 21, -50, 42, 42, "#0E3A47", r=3 if win == "square" else 15)
+                if faces and i % 2 == 1:
+                    g.circle(wx, -24, 12, ("#F4C6A0", "#8D5A3B", "#E3A679")[i % 3], None)
+                g.line([(wx - 12, -42), (wx - 4, -42)], "#FFFFFF", 4, a=0.5)
+        if wing:
+            g.poly([(-60, 26), (120, 26), (-70, 214), (-196, 214)], shade(body, -0.08), r=12)
+            g.ellipse(52, 44, 26, 13, "#3A3F4A"); g.ellipse(-2, 60, 26, 13, "#3A3F4A")
+    g.lw = lw0
+
+
+def poly_part(pts, k):
+    """First fraction k (by length) of a polyline."""
+    if k <= 0: return [pts[0], pts[0]]
+    L = [math.hypot(b[0] - a[0], b[1] - a[1]) for a, b in zip(pts, pts[1:])]
+    tot, out, acc = sum(L) * min(1.0, k), [pts[0]], 0.0
+    for (a, b), l in zip(zip(pts, pts[1:]), L):
+        if acc + l <= tot:
+            out.append(b); acc += l
+        else:
+            u = (tot - acc) / max(1e-9, l)
+            out.append((a[0] + (b[0] - a[0]) * u, a[1] + (b[1] - a[1]) * u)); break
+    return out
+
+
+def crack(g, x, y, k, s=1.0, ang=0.0, col=INK):
+    """A crack growing from (x, y) (k 0..1), with two side branches."""
+    if k <= 0: return
+    with g.at(x, y, ang, s):
+        main = [(0, 0), (36, -48), (26, -96), (82, -132), (66, -190), (126, -236), (116, -304), (168, -352)]
+        pts = poly_part(main, k)
+        g.line(pts, "#FFFFFF", 17, a=0.35); g.line(pts, col, 9)
+        for (i0, br, k0) in ((2, [(26, -96), (-22, -128), (-30, -170)], 0.35), (4, [(66, -190), (112, -200), (150, -182)], 0.6)):
+            kk = clamp((k - k0) / 0.3)
+            if kk > 0: g.line(poly_part(br, kk), col, 6.5)
+        tx, ty = pts[-1]
+        if k < 1: sparkle(g, tx, ty, 26, "#FFF4E0", k * 9)
+
+
+def fuselage_skin(g, y_top=860, panel="#B9C9D4", water=0.0):
+    """Close-up of aircraft skin filling the frame below a curved top edge: panel lines and rivets."""
+    col = mix(panel, "#3F9CC0", 0.45 * water)
+    g.path(f"M-700 {y_top + 90} Q540 {y_top - 70} 1780 {y_top + 90} L1780 2700 L-700 2700 Z", col)
+    g.line(f"M-700 {y_top + 122} Q540 {y_top - 38} 1780 {y_top + 122}", "#FFFFFF", 10, a=0.35)
+    for yy in (y_top + 250, y_top + 760, y_top + 1100):
+        g.line([(-700, yy), (1780, yy)], shade(col, -0.25), 5)
+        for i in range(-10, 30):
+            g.circle(i * 62 + 20, yy - 22, 5.5, shade(col, -0.3), None); g.circle(i * 62 + 20, yy + 22, 5.5, shade(col, -0.3), None)
+    for xx in (-140, 1220):
+        g.line([(xx, y_top + 20), (xx, 2700)], shade(col, -0.25), 5)
+
+
+def big_window(g, cx, cy, a=200, m=0.0, glass="#0E3A47", inside=None, rim="#7F8E99"):
+    """One large cabin window on the skin; m: 0 = square corners .. 1 = rounded. inside(g) draws behind the glass (clipped)."""
+    r0, r1 = lerp(10, a * 0.62, m), lerp(4, a * 0.55, m)
+    g.rect(cx - a - 34, cy - a - 34, 2 * a + 68, 2 * a + 68, rim, r=r0 + 26)
+    g.rect(cx - a, cy - a, 2 * a, 2 * a, glass, r=r1)
+    if inside:
+        c = g.c
+        c.save(); g._rr(cx - a, cy - a, 2 * a, 2 * a, r1); c.clip()
+        inside(g)
+        c.restore()
+    g.line([(cx - a + 40, cy - a + 60), (cx - a + 40 + a * 0.5, cy - a + 60 - a * 0.28)], "#FFFFFF", 16, a=0.28)
+    g.rect(cx - a, cy - a, 2 * a, 2 * a, None, INK, r=r1)
+
+
+def hangar(g, t, fy=1500):
+    g.fill_all(g.lgrad(0, 0, 0, H, "#0A2233", "#14404F"))
+    with g.layer(0.9):
+        for i in range(-2, 9):
+            g.line([(i * 190 - 60, -300), (i * 190 + 60, fy)], "#FFFFFF", 9, a=0.045)
+        for yy in (560, 700):
+            g.line([(-500, yy), (W + 500, yy)], "#FFFFFF", 9, a=0.05)
+    lamp(g, 250, 600, t, col="#FFC93C", light="#FFE9A8", r=400, sc=0.9); lamp(g, 830, 600, t + 0.7, col="#FFC93C", light="#FFE9A8", r=400, sc=0.9)
+    g.rect(-600, fy, W + 1200, 1400, g.lgrad(0, fy, 0, fy + 500, "#3B4858", "#222B37"), None)
+    g.line([(-600, fy), (W + 600, fy)], INK, 8)
+
+
+TANK = (40, 905, 1000, 560)     # x, y, w, h of the water tank front
+
+
+def tank_back(g, t):
+    x, y, w, h = TANK
+    g.rect(x - 22, y - 26, w + 44, h + 52, "#7F8E99", r=26)
+    g.rect(x, y, w, h, g.lgrad(0, y, 0, y + h, "#2FA4C8", "#17688E"), r=10)
+
+
+def tank_front(g, t, splash=0.0):
+    """Water tint over whatever is in the tank, surface waves, bubbles, glass shine, frame."""
+    x, y, w, h = TANK
+    c = g.c
+    c.save(); c.new_path(); c.rectangle(x, y, w, h); c.clip()
+    g.rect(x, y + 34, w, h, "#2FA4C8", None, a=0.34)
+    pts = [(x + i * 20, y + 34 + (7 + 14 * splash) * math.sin(i * 0.55 + t * 3.2) + (4 * math.sin(i * 1.3 - t * 2))) for i in range(int(w / 20) + 2)]
+    g.poly(pts + [(x + w, y - 5), (x, y - 5)], "#0D2A3A", None)
+    g.line(pts, "#BFF1FF", 8)
+    R = rnd(11)
+    for i in range(16):
+        bx, ph, sp, r = R.uniform(x + 30, x + w - 30), R.random(), R.uniform(0.25, 0.5), R.uniform(6, 15)
+        u = (ph + t * sp) % 1.0
+        g.circle(bx + 10 * math.sin(t * 2 + i), y + h - u * (h - 50), r, None, "#BFF1FF", lw=4, a=0.75 * math.sin(u * math.pi))
+    for i in range(4):
+        g.line([(x + 110 + i * 250, y + 44), (x + 30 + i * 250, y + h)], "#FFFFFF", 46, a=0.05)
+    c.restore()
+    g.rect(x, y, w, h, None, INK, r=10)
+    g.rect(x - 22, y - 26, w + 44, h + 52, None, INK, r=26)
+    for bx in (x - 4, x + w + 4):
+        for by in (y + 20, y + h / 2, y + h - 20):
+            g.circle(bx, by, 8, "#AEB8C2", INK, lw=4)
+
+
+def _sup(cx, cy, a, n, grow=0.0, steps=72):
+    """Superellipse outline points (n = 2 circle, large n = square) with radius a + grow."""
+    out = []
+    for i in range(steps + 1):
+        th = TAU * i / steps
+        cs, sn = math.cos(th), math.sin(th)
+        r = (abs(cs) ** n + abs(sn) ** n) ** (-1.0 / n)
+        out.append((cx + (a * r + grow * (1 + 0.0)) * cs, cy + (a * r + grow) * sn))
+    return out
+
+
+def stress_field(g, t, cx, cy, a=190, m=0.0, hot=1.0, nlines=9, span=560, col="#FFF4E0", speed=220.0, water=False, hole=True, glow=True):
+    """Flow lines (stress) streaming left to right around an opening. m: 0 = sharp square, 1 = rounded.
+    With sharp corners the lines crowd together at the corners and glow red (hot 0..1); rounded spreads them evenly."""
+    n = lerp(9.0, 2.6, m)
+    crowd = (1 - m) * hot
+    if glow and crowd > 0.02:
+        th = 0.75 + 0.25 * math.sin(TAU * 2.2 * t)
+        for sx_, sy_ in ((1, -1), (1, 1), (-1, -1), (-1, 1)):
+            g.glow(cx + sx_ * a * 0.93, cy + sy_ * a * 0.93, 150 * crowd * th, "#FF3B30", 0.8 * crowd)
+    for side in (-1, 1):
+        for k in range(nlines):
+            gap = 26 + k * 40
+            pts = []
+            for i in range(81):
+                x = cx - span + i * (2 * span) / 80
+                u = (x - cx) / a
+                # height of the opening's edge above the centre line at this x (0 outside the opening)
+                e = a * (max(0.0, 1 - abs(u) ** n)) ** (1.0 / n) if abs(u) < 1 else 0.0
+                # smooth approach before/after the opening
+                ap = math.exp(-((max(0.0, abs(u) - 1.0)) / (1.05 + 0.25 * m)) ** 2) if abs(u) >= 1 else 1.0
+                edge = max(e, a * ap * (0.86 if abs(u) >= 1 else 0.0) * math.exp(-k * 0.5))
+                cw = math.exp(-((abs(u) - 0.96) / 0.2) ** 2)             # near the corners
+                gk = gap * (1 - 0.62 * crowd * cw) * (1 + 0.25 * (1 - cw) * crowd)
+                base = (k + 0.5) * 44 * (1 - math.exp(-((abs(u)) / 2.1) ** 2) * 0.0)
+                y = max(base, edge + gk)
+                pts.append((x, cy + side * y))
+            heat = clamp(crowd * math.exp(-k * 0.42))
+            c_ = "#69C7F0" if water else mix(col, "#FF5B4B", heat)
+            g.line(pts, c_, 8 if not water else 7, a=0.95, dash=([34, 22], -t * speed))
+    if hole:
+        g.poly(_sup(cx, cy, a + 20, n), "#7F8E99", INK, lw=7)
+        g.poly(_sup(cx, cy, a, n), "#0E3A47", INK, lw=7)
+
+
+def newspaper(g, x, y, s=1.0, rot=0.0, head="COMET MYSTERY", sub="WHY?", year="1954"):
+    with g.at(x, y, rot, s):
+        g.rect(-330, -420, 660, 840, "#2A1C1E", None, r=10, a=0.25)
+        g.rect(-340, -436, 660, 840, "#FFF4E0", r=10)
+        g.text("THE DAILY NEWS", -10, -372, 62, INK, stroke=None)
+        g.line([(-300, -326), (280, -326)], INK, 6); g.line([(-300, -312), (280, -312)], INK, 3)
+        g.text(year, 216, -280, 34, INK, stroke=None, font="Poppins", bold=True)
+        g.text(head, -10, -196, 92 if len(head) < 14 else 76, INK, stroke=None)
+        g.rect(-300, -120, 300, 230, "#C9D6DC", INK, lw=5, r=6)
+        with g.at(-150, 6, -0.1, 0.27):
+            plane(g, 0, 0, 0, 1.0, bob=False)
+        g.text(sub, 150, -8, 150, "#FF5B4B", sw=22, rot=-0.12)
+        for i in range(6):
+            g.rect(-300, 150 + i * 40, 560 if i % 3 else 470, 16, shade("#FFF4E0", -0.28), None, r=6)

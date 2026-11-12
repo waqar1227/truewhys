@@ -529,6 +529,20 @@ def look_at(x, y, z, sy=1250, sx=W / 2):
     return (x - (sx - W / 2) / z, y - (sy - H / 2) / z, z)
 
 
+def roi(p0, z0, z1=None, sy=1250, shake=0.0, p1=None, sx=W / 2):
+    """Camera keeping design point p0 (travelling to p1) at screen position (sx, sy) while zooming z0 -> z1. shake: number or fn(c)."""
+    p1 = p1 or p0
+    z1 = z0 if z1 is None else z1
+
+    def cam(c):
+        k = ease_io(c.u)
+        z = lerp(z0, z1, k)
+        x, y, _ = look_at(lerp(p0[0], p1[0], k), lerp(p0[1], p1[1], k), z, sy, sx)
+        s_ = shake(c) if callable(shake) else shake
+        return (x + 4 * wig(c.gt, 0.13, 1) + s_ * 14 * wig(c.gt, 9.0, 3), y + 4 * wig(c.gt, 0.1, 2) + s_ * 14 * wig(c.gt, 8.0, 5), z, 0.0)
+    return cam
+
+
 def camkf(keys, ease=ease_io):
     """Keyframed camera: [(u, (x, y, z)), ...] with u = 0..1 of the shot."""
     def cam(c):
