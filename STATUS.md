@@ -1,6 +1,12 @@
 # STATUS (read the NEXT list first)
 
 ## NEXT (keep this list short; heartbeat does only these)
+** FABLE SPRINT (Style F, flat 2D) — owned by ONE long-running sprint session (started 12 Nov 07:00 UTC). Heartbeat sessions: do NOT make or
+   upload sprint videos; only read this block. Engine: lib/flat2d.py (+ flat_cast, flat_sets, flat_fx, sfxgen); each episode: `python episodes/<ep>/make.py render`.
+   DONE: A-005 Brain freeze (Style F): YouTube 8hsKNMLOhAw PUBLIC 12 Nov 16:00 UTC, thumb set, QA pass; TikTok Metricool 425987798 at 17:40 UTC 12 Nov.
+   NEXT slots (UTC, standalone Shorts, >=6 h apart): 13 Nov 04:00 A-007 Square windows · 13 Nov 10:00 A-006 Castle toilets · 13 Nov 16:00 new ·
+   14 Nov 04:00 A-003 Plane door · 14 Nov 10:00 / 16:00 / 22:00 new topics. Taken: A-004 12 Nov 22:00, A-002 13 Nov 22:00. Nothing after 14 Nov 23:59 UTC.
+   TikTok needs a fresh Dropbox token each time (lasts ~4 h): ask the owner with the secure form when Dropbox answers 401.
 ** 12 Nov growth review: titles with ONE named object + "Why/Accident" claim get the fastest starts (A-001, A-008); name the object in cut-Short titles of B-003, avoid vague "job" titles (research/daily_report.md).
 ** 12 Nov 07:00 UTC: KAGGLE PAUSED (anam318 not phone-verified). Owner: Fable 5.2 sprint in Style F (flat 2D, like A-008), videos scheduled
    12–14 Nov only: docs/fable_sprint.md. Style T work (A-005 3D, B-003 pirates) is saved below; resume when Kaggle works.
