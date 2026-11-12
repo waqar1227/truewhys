@@ -67,6 +67,9 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
      all of them within ~24 h of the long video, each with the long video as "Related video" (owner sets it in Studio).
   3. **Standalone Shorts:** at least **6 hours** away from any other video or Short.
   4. Maximum one long video per day; never two cut Shorts from the same video back to back with nothing else possible in between.
+- **Category (owner 12 Nov 2026): choose per video** (`categoryId` in seo.json / upload_meta.json, required): body, nature, animals,
+  science, inventions → **28 Science & Technology**; history stories, jobs, myths, "Would you survive" → **24 Entertainment**;
+  dry how-it-works lessons → 27 Education. Cut Shorts take their long video's category. Change existing ones: `tools/yt_category.py`.
 - After a long video goes public, post the pinned-comment text (owner pins it in Studio). Long videos: 3 very different thumbnails;
   A goes on the video, then send the owner A, B and C for YouTube's Test & Compare.
 - Rendered MP4s are not committed (`.gitignore`); files over 25 MB are not committed (say where to re-download or how to rebuild).

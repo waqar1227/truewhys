@@ -7,7 +7,7 @@ python lib/youtube.py comment <meta.json>         -> posts "pinned_comment" once
   --long fills {LONG_URL} in the description (cut Shorts). Writes uploaded.json next to meta.json and refuses to
   upload the same meta twice. Optional meta keys: "playlist" (added, created if missing), "pinned_comment" (posted;
   pinning itself is done in YouTube Studio, the API cannot pin).
-meta.json: {"title","description","tags":[...],"categoryId":"27","publishAt":"2026-11-08T15:00:00Z",
+meta.json: {"title","description","tags":[...],"categoryId":"28" (required, chosen per video),"publishAt":"2026-11-08T15:00:00Z",
             "playlist": "Full Stories" (optional, needs youtube scope)}
 Status: private + publishAt, madeForKids false, AI/altered field not sent (owner rule: leave unset; if required, No).
 """
@@ -82,7 +82,7 @@ def upload(video, meta, thumb=None, long_id=None):
     if m.get("publishAt"):
         status["publishAt"] = m["publishAt"]
     body = {"snippet": {"title": m["title"][:100], "description": m["description"][:5000], "tags": m.get("tags", [])[:30],
-                        "categoryId": m.get("categoryId", "27"), "defaultLanguage": "en", "defaultAudioLanguage": "en"},
+                        "categoryId": m["categoryId"], "defaultLanguage": "en", "defaultAudioLanguage": "en"},
             "status": status}
     size = os.path.getsize(video)
     st, hd, _ = api("POST", "https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status", tok, body,

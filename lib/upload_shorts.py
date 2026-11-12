@@ -41,7 +41,7 @@ for i, c in enumerate(cfg["shorts"]):
 Sources and credits are in the full video's description. Animation and music: TrueWhys (original).
 TrueWhys — the real story behind life's weirdest whys.
 #Shorts {' '.join(seo['hashtags'])}"""
-    meta = {"title": title, "description": desc, "tags": ["shorts"] + base_tags, "categoryId": "27",
+    meta = {"title": title, "description": desc, "tags": ["shorts"] + base_tags, "categoryId": seo.get("categoryId") or json.loads((ep / "upload_meta.json").read_text())["categoryId"],
             "publishAt": at.strftime("%Y-%m-%dT%H:%M:%SZ"), "playlist": "Shorts", "short": c["id"],
             "video": f"shorts/{c['id']}/final.mp4", "related": "long video (set in YouTube Studio)"}
     d = ep / "shorts" / c["id"]; d.mkdir(parents=True, exist_ok=True)

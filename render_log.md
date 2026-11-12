@@ -72,3 +72,5 @@
 - 12 Nov ~03:36 UTC: all 3 v1 runs (a005, b003, b003b) ERROR after ~30 s: no GPU (nvidia-smi not found) and no internet (Blender download failed).
   Cause: account anam318 is not phone-verified on Kaggle (needed for GPU + internet). 0 GPU h used. Re-push the same 3 kernels once verified.
 - 12 Nov ~12:35 UTC: retried truewhys-render-a005 (v2): same ERROR (no GPU, no internet). anam318 still not phone-verified. 0 GPU h.
+- 12 Nov ~17:25 UTC: owner phone-verified anam318 → GPU works. a005 v3 ran ~5 min then was DELETED (A-005 already published in Style F by the Fable sprint; plates not needed).
+- 12 Nov ~17:35 UTC: truewhys-render-b003 v2 (ch 0–3) + truewhys-render-b003b v2 (ch 4–6) RUNNING on 2×T4 sessions (Kaggle limit: 2 GPU sessions at once). b003c (Shorts) waits for a free slot.

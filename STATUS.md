@@ -8,7 +8,8 @@
    14 Nov 04:00 A-003 Plane door · 14 Nov 10:00 / 16:00 / 22:00 new topics. Taken: A-004 12 Nov 22:00, A-002 13 Nov 22:00. Nothing after 14 Nov 23:59 UTC.
    TikTok needs a fresh Dropbox token each time (lasts ~4 h): ask the owner with the secure form when Dropbox answers 401.
 ** 12 Nov growth review: titles with ONE named object + "Why/Accident" claim get the fastest starts (A-001, A-008); name the object in cut-Short titles of B-003, avoid vague "job" titles (research/daily_report.md).
-** 12 Nov 07:00 UTC: KAGGLE PAUSED (anam318 not phone-verified). Owner: Fable 5.2 sprint in Style F (flat 2D, like A-008), videos scheduled
+** 12 Nov 17:35 UTC: KAGGLE WORKS again (anam318 phone-verified; max 2 GPU sessions at once). B-003 kernels b003 + b003b v2 RUNNING; then push kernel_b003c.
+** 12 Nov 07:00 UTC (old): KAGGLE PAUSED. Owner: Fable 5.2 sprint in Style F (flat 2D, like A-008), videos scheduled
    12–14 Nov only: docs/fable_sprint.md. Style T work (A-005 3D, B-003 pirates) is saved below; resume when Kaggle works.
 0. Daily growth review = separate scheduled task (fresh Sonnet session, 07:13 UTC): `bash tools/daily.sh` → entry in research/daily_report.md. Heartbeat does NOT repeat it; it reads the latest entry before any new script/title. 48 h check of A-001/A-004 titles (emoji test): 13–14 Nov.
    A-001 Quicksand: DONE + SCHEDULED on YouTube (MLRRsaV4iUA, public 11 Nov 22:00 UTC = 03:00 PKT 12 Nov, QA pass, thumb set). TikTok SCHEDULED via Metricool 22:30 UTC 11 Nov (id 424053522; final re-composed from Kaggle plates); title "Why Quicksand Can't Actually Swallow You", end caption "Watch the full video on YouTube — @TrueWhys"? (standalone: use "More true whys on YouTube — @TrueWhys").

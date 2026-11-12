@@ -31,7 +31,7 @@ Sound effects: CC0 — Kenney & OpenGameArt contributors; BigSoundBank (Joseph S
 
 TrueWhys — the real story behind life's weirdest whys.
 {' '.join(seo['hashtags'])}"""
-meta = {"title": seo["title"], "description": desc, "tags": seo["tags"], "categoryId": "27", "publishAt": publish, "playlist": seo.get("playlist"),
+meta = {"title": seo["title"], "description": desc, "tags": seo["tags"], "categoryId": seo["categoryId"], "publishAt": publish, "playlist": seo.get("playlist"),
         "pinned_comment": seo["pinned"]}
 (ep / "upload_meta.json").write_text(json.dumps(meta, indent=1, ensure_ascii=False))
 (ep / "upload.md").write_text(f"""# Upload — {seo['title']}
@@ -40,7 +40,7 @@ meta = {"title": seo["title"], "description": desc, "tags": seo["tags"], "catego
 - **Alt title (A/B):** {seo['title_alt']}
 - **Thumbnails:** final/thumb_A.jpg ("GUILTY?"), final/thumb_B.jpg ("ON TRIAL?!") — use YouTube's Test & Compare
 - **Schedule:** private → publishAt {publish}
-- **Category:** Education (27) · Made for kids: No · Altered/synthetic field: left unset
+- **Category:** {seo["categoryId"]} (chosen per video, see CLAUDE.md) · Made for kids: No · Altered/synthetic field: left unset
 - **Playlist:** {seo.get('playlist')}
 - **Tags:** {', '.join(seo['tags'])}
 - **Pinned comment:** {seo['pinned']}
