@@ -69,3 +69,5 @@
 - truewhys-render-a005 v1 (anam318): re-render of the 13 A-005 plates, 1080×1920, 64 spp, step 2 + interp; dataset anam318/truewhys-ep-a005. Running.
 - truewhys-render-b003 v1 (ch 0–3) + truewhys-render-b003b v1 (ch 4–6): B-003 long plates, 1920×1080, 64 spp, step 2 + interp; dataset anam318/truewhys-ep-b003 (also holds shorts_shots.json + job_C.json). Running.
 - Next: truewhys-render-b003c (job_C, 10 cut Shorts, 1080×1920) once a GPU slot frees.
+- 12 Nov ~03:36 UTC: all 3 v1 runs (a005, b003, b003b) ERROR after ~30 s: no GPU (nvidia-smi not found) and no internet (Blender download failed).
+  Cause: account anam318 is not phone-verified on Kaggle (needed for GPU + internet). 0 GPU h used. Re-push the same 3 kernels once verified.

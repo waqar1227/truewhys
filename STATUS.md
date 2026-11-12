@@ -17,7 +17,8 @@
    Generate New Token) and save it (secure form for host api.kaggle.com, or update KAGGLE_API_TOKEN in the environment).
    12 Nov: Kaggle account is now anam318 (owner). Token = network secret for api.kaggle.com; use `/opt/c3d/bin/python tools/kaggle_px.py <kaggle args>`.
    Old waqarahmed51 A-005 output unreachable → A-005 re-rendered: anam318/truewhys-render-a005 v1 RUNNING. B-003: dataset anam318/truewhys-ep-b003 ready,
-   kernels truewhys-render-b003 + b003b v1 RUNNING (pushed 12 Nov). Waiter: `tools/kaggle_wait.sh k=dir ...`. Then push notebooks/kaggle_jobs/b003/kernel_b003c (Shorts).
+   kernels truewhys-render-b003 + b003b v1 pushed 12 Nov. ALL 3 FAILED (no GPU, no internet): owner must PHONE-VERIFY anam318
+   (kaggle.com → Settings → Phone verification). Then re-push kernel_a005, kernel_b003, kernel_b003b (datasets are ready). Waiter: `tools/kaggle_wait.sh k=dir ...`. Then push notebooks/kaggle_jobs/b003/kernel_b003c (Shorts).
    THEN: (1) A-005: `kaggle kernels output waqarahmed51/truewhys-render-a005 -p episodes/A-005-brain-freeze/renders` (pushed 15:32 UTC), compose, QA,
    YouTube 22:00 UTC 14 Nov + TikTok. (2) B-003: dataset truewhys-ep-b003 (flat: render_bg, sets, sets2, sets3, sets5, camera, shots.json, job_A/B)
    → push kernels notebooks/kaggle_jobs/b003/kernel_b003 (ch 0–3) + kernel_b003b (ch 4–6), ~4–5 h each in parallel.
