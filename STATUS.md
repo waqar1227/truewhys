@@ -15,6 +15,11 @@
    DONE 11 Nov: sets5.py (deck/islet/port), pirate cast, docs, SFX, adventure music, plan.py (85 shots, 5:37 + 20 s end), stills checked + fixed.
    BLOCKED 11 Nov ~16:50 UTC: Kaggle rejects KAGGLE_API_TOKEN ("Authentication required"). Owner must make a new token (kaggle.com → Settings → API →
    Generate New Token) and save it (secure form for host api.kaggle.com, or update KAGGLE_API_TOKEN in the environment).
+   STILL BLOCKED 12 Nov: env KAGGLE_API_TOKEN in this session still rejected; owner also saved a token in the secure form (network secret for
+   api.kaggle.com). With it, API calls return 200 but private kernels are "not found"/"kernels.get denied" = token not accepted for waqarahmed51.
+   Note: the CLI checks the token itself (sends it in the request body), so a proxy-injected secret alone does not satisfy the CLI.
+   Fix: owner generates a NEW token at kaggle.com → Settings → API → "Generate New Token" (logged in as waqarahmed51), puts it in the
+   environment variable KAGGLE_API_TOKEN (claude.ai → environment "Truewhys" → Environment variables), then starts a new session.
    THEN: (1) A-005: `kaggle kernels output waqarahmed51/truewhys-render-a005 -p episodes/A-005-brain-freeze/renders` (pushed 15:32 UTC), compose, QA,
    YouTube 22:00 UTC 14 Nov + TikTok. (2) B-003: dataset truewhys-ep-b003 (flat: render_bg, sets, sets2, sets3, sets5, camera, shots.json, job_A/B)
    → push kernels notebooks/kaggle_jobs/b003/kernel_b003 (ch 0–3) + kernel_b003b (ch 4–6), ~4–5 h each in parallel.
