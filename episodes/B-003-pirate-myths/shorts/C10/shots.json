@@ -1,0 +1,488 @@
+{
+ "fps": 30,
+ "resolution": [
+  1080,
+  1920
+ ],
+ "style": "T",
+ "episode": "B-003",
+ "short": "C10",
+ "title": "The Women Pirates Who Escaped the Noose",
+ "duration": 27.47,
+ "vertical": true,
+ "shots": [
+  {
+   "line": "H10",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      -2.2,
+      -3.2,
+      1.6
+     ],
+     "tgt": [
+      -3.513,
+      0.972,
+      0.75
+     ],
+     "lens": 70.31
+    },
+    "to": {
+     "pos": [
+      -2.34,
+      -2.78,
+      1.55
+     ],
+     "tgt": [
+      -3.515,
+      0.975,
+      0.778
+     ],
+     "lens": 70.31
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "anne",
+     "at": [
+      -3.9,
+      1.1,
+      0.3
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down",
+     "cut": [
+      -0.1,
+      1.05
+     ]
+    },
+    {
+     "c": "mary",
+     "at": [
+      -3.2,
+      1.0,
+      0.3
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down",
+     "cut": [
+      -0.1,
+      1.05
+     ]
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ]
+   ],
+   "id": "C10_H",
+   "start": 0.0,
+   "dur": 2.97,
+   "chapter": 5,
+   "line_start": 0.15,
+   "music": "mystery",
+   "pop": [
+    [
+     0.02,
+     "WOMEN PIRATES",
+     1.45
+    ]
+   ]
+  },
+  {
+   "line": "L60",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      2.2,
+      -7.4,
+      3.0
+     ],
+     "tgt": [
+      -0.354,
+      2.082,
+      -1.223
+     ],
+     "lens": 58.43
+    },
+    "to": {
+     "pos": [
+      1.864,
+      -5.944,
+      2.916
+     ],
+     "tgt": [
+      -0.425,
+      2.186,
+      -0.716
+     ],
+     "lens": 58.43
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "anne",
+     "at": [
+      -0.6,
+      -1.6,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "happy",
+     "arms": "wave"
+    },
+    {
+     "c": "mary",
+     "at": [
+      0.6,
+      -1.4,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "captain",
+     "at": [
+      1.6,
+      -1.0,
+      0
+     ],
+     "h": 1.6,
+     "face": "L",
+     "expr": "smug",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "tag": "THE CARIBBEAN \u00b7 1720",
+   "sfx": [
+    [
+     0,
+     "waves",
+     0.4
+    ]
+   ],
+   "id": "C10_S075",
+   "start": 2.97,
+   "dur": 5.72,
+   "chapter": 5,
+   "line_start": 2.97,
+   "src": "S075",
+   "music": "mystery"
+  },
+  {
+   "line": "L61",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      1.5,
+      -9.5,
+      3.2
+     ],
+     "tgt": [
+      -3.381,
+      4.938,
+      -0.217
+     ],
+     "lens": 61.6
+    },
+    "to": {
+     "pos": [
+      1.32,
+      -7.640000000000001,
+      3.056
+     ],
+     "tgt": [
+      -3.446,
+      4.859,
+      -0.099
+     ],
+     "lens": 61.6
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "judge",
+     "at": [
+      0,
+      7.6,
+      1.2
+     ],
+     "h": 1.6,
+     "face": "L",
+     "expr": "angry",
+     "arms": "down"
+    },
+    {
+     "c": "anne",
+     "at": [
+      -3.9,
+      1.1,
+      0.3
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "cut": [
+      -0.1,
+      1.05
+     ]
+    },
+    {
+     "c": "mary",
+     "at": [
+      -3.2,
+      1.0,
+      0.3
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down",
+     "cut": [
+      -0.1,
+      1.05
+     ]
+    }
+   ],
+   "part": [
+    0,
+    0.5
+   ],
+   "tag": "JAMAICA",
+   "sfx": [
+    [
+     0.3,
+     "crowd_murmur",
+     0.4
+    ]
+   ],
+   "music": "tension",
+   "id": "C10_S076",
+   "start": 8.69,
+   "dur": 2.74,
+   "chapter": 5,
+   "line_start": 8.69,
+   "src": "S076"
+  },
+  {
+   "line": "L61",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": [
+    0.5,
+    1
+   ],
+   "doc": "trial1720",
+   "sfx": [
+    [
+     0.1,
+     "gavel",
+     0.7
+    ]
+   ],
+   "id": "C10_S077",
+   "start": 11.43,
+   "dur": 2.74,
+   "chapter": 5,
+   "line_start": 8.69,
+   "src": "S077"
+  },
+  {
+   "line": "L62",
+   "kind": "3d",
+   "set": "court",
+   "variant": "town",
+   "cam": {
+    "from": {
+     "pos": [
+      -2.2,
+      -3.2,
+      1.6
+     ],
+     "tgt": [
+      -3.513,
+      0.972,
+      0.75
+     ],
+     "lens": 70.31
+    },
+    "to": {
+     "pos": [
+      -2.3400000000000003,
+      -2.7800000000000002,
+      1.55
+     ],
+     "tgt": [
+      -3.515,
+      0.975,
+      0.778
+     ],
+     "lens": 70.31
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "anne",
+     "at": [
+      -3.9,
+      1.1,
+      0.3
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down",
+     "cut": [
+      -0.1,
+      1.05
+     ]
+    },
+    {
+     "c": "mary",
+     "at": [
+      -3.2,
+      1.0,
+      0.3
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down",
+     "cut": [
+      -0.1,
+      1.05
+     ]
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.7,
+     "EXECUTION STOPPED"
+    ]
+   ],
+   "sfx": [
+    [
+     0.6,
+     "crowd_gasp",
+     0.5
+    ]
+   ],
+   "id": "C10_S078",
+   "start": 14.17,
+   "dur": 4.38,
+   "chapter": 5,
+   "line_start": 14.17,
+   "src": "S078"
+  },
+  {
+   "line": "L63",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "sunset",
+   "cam": {
+    "from": {
+     "pos": [
+      -13.76,
+      -10.18,
+      3.2800000000000002
+     ],
+     "tgt": [
+      0,
+      1,
+      5.0
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      -16,
+      -12,
+      3.0
+     ],
+     "tgt": [
+      0,
+      1,
+      5.0
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": null,
+   "pop": [
+    [
+     0.75,
+     "FATE: UNKNOWN"
+    ]
+   ],
+   "sfx": [
+    [
+     0,
+     "waves",
+     0.5
+    ],
+    [
+     0.4,
+     "gulls",
+     0.3
+    ]
+   ],
+   "music": "mystery",
+   "id": "C10_S079",
+   "start": 18.55,
+   "dur": 6.32,
+   "chapter": 5,
+   "line_start": 18.55,
+   "src": "S079"
+  },
+  {
+   "id": "C10_END",
+   "kind": "end",
+   "line": "O1",
+   "start": 24.87,
+   "line_start": 25.02,
+   "dur": 2.6,
+   "chapter": null,
+   "sfx": [
+    [
+     0,
+     "ding",
+     0.5
+    ]
+   ],
+   "music": null
+  }
+ ]
+}

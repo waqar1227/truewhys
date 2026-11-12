@@ -1,0 +1,476 @@
+{
+ "fps": 30,
+ "resolution": [
+  1080,
+  1920
+ ],
+ "style": "T",
+ "episode": "B-003",
+ "short": "C1",
+ "title": "Pirates Never Actually Said \"Arrr\"",
+ "duration": 29.76,
+ "vertical": true,
+ "shots": [
+  {
+   "line": "H1",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -2.3,
+      1.35
+     ],
+     "tgt": [
+      0.08,
+      0.179,
+      0.549
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.64,
+      -2.04,
+      1.327
+     ],
+     "tgt": [
+      0.08,
+      0.179,
+      0.57
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "captain",
+     "at": [
+      0.1,
+      0.1,
+      0
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "happy",
+     "arms": "present"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ]
+   ],
+   "id": "C1_H",
+   "start": 0.0,
+   "dur": 3.91,
+   "chapter": 1,
+   "line_start": 0.15,
+   "music": "mystery",
+   "pop": [
+    [
+     0.02,
+     "ARRR?!",
+     1.45
+    ]
+   ]
+  },
+  {
+   "line": "L07",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.0,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.491,
+      0.428
+     ],
+     "lens": 56.0
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -1.745,
+      0.982
+     ],
+     "tgt": [
+      0.6,
+      0.493,
+      0.448
+     ],
+     "lens": 56.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "smug",
+     "arms": "raise",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.15,
+     "MYTH!"
+    ]
+   ],
+   "sfx": [
+    [
+     0.1,
+     "pop",
+     0.5
+    ]
+   ],
+   "id": "C1_S010",
+   "start": 3.91,
+   "dur": 2.16,
+   "chapter": 1,
+   "line_start": 3.91,
+   "src": "S010",
+   "music": "mystery"
+  },
+  {
+   "line": "L08",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "doc": "film1950",
+   "sfx": [
+    [
+     0,
+     "paper",
+     0.6
+    ]
+   ],
+   "id": "C1_S011",
+   "start": 6.07,
+   "dur": 6.54,
+   "chapter": 1,
+   "line_start": 6.07,
+   "src": "S011"
+  },
+  {
+   "line": "L09",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -2.3,
+      1.35
+     ],
+     "tgt": [
+      0.08,
+      0.179,
+      0.549
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.6399999999999999,
+      -2.04,
+      1.3270000000000002
+     ],
+     "tgt": [
+      0.08,
+      0.179,
+      0.57
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "captain",
+     "at": [
+      0.1,
+      0.1,
+      0
+     ],
+     "h": 1.6,
+     "face": "R",
+     "expr": "happy",
+     "arms": "present"
+    }
+   ],
+   "part": null,
+   "tag": "THE WEST COUNTRY, ENGLAND",
+   "pop": [
+    [
+     0.7,
+     "\"ARR\" = \"YES\""
+    ]
+   ],
+   "sfx": [
+    [
+     0.65,
+     "ding",
+     0.4
+    ]
+   ],
+   "id": "C1_S012",
+   "start": 12.61,
+   "dur": 6.14,
+   "chapter": 1,
+   "line_start": 12.61,
+   "src": "S012"
+  },
+  {
+   "line": "L10",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      1.3,
+      -3.8,
+      1.5
+     ],
+     "tgt": [
+      -0.786,
+      1.138,
+      -0.008
+     ],
+     "lens": 40.38
+    },
+    "to": {
+     "pos": [
+      2.1,
+      -3.8,
+      1.5
+     ],
+     "tgt": [
+      -0.714,
+      0.783,
+      0.057
+     ],
+     "lens": 40.38
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate",
+     "at": [
+      1.0,
+      0.4,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "wave"
+    },
+    {
+     "c": "pirate2",
+     "at": [
+      -0.2,
+      -0.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "wave"
+    },
+    {
+     "c": "pirate3",
+     "at": [
+      1.9,
+      0.9,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "wave"
+    },
+    {
+     "c": "quartermaster",
+     "at": [
+      -1.2,
+      0.6,
+      0
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "happy",
+     "arms": "wave"
+    },
+    {
+     "c": "anne",
+     "at": [
+      -1.9,
+      0.9,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "happy",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.45,
+     "FROM ALL OVER THE WORLD"
+    ]
+   ],
+   "sfx": [
+    [
+     0.3,
+     "crowd_murmur",
+     0.3
+    ]
+   ],
+   "id": "C1_S013",
+   "start": 18.75,
+   "dur": 6.51,
+   "chapter": 1,
+   "line_start": 18.75,
+   "src": "S013"
+  },
+  {
+   "line": "L11",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      1.3,
+      -3.8,
+      1.5
+     ],
+     "tgt": [
+      -0.446,
+      1.271,
+      0.001
+     ],
+     "lens": 44.43
+    },
+    "to": {
+     "pos": [
+      1.17,
+      -3.26,
+      1.46
+     ],
+     "tgt": [
+      -0.459,
+      1.262,
+      0.04
+     ],
+     "lens": 44.43
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate",
+     "at": [
+      1.0,
+      0.4,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "pirate2",
+     "at": [
+      -0.2,
+      -0.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "pirate3",
+     "at": [
+      1.9,
+      0.9,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    },
+    {
+     "c": "quartermaster",
+     "at": [
+      -1.2,
+      0.6,
+      0
+     ],
+     "h": 1.55,
+     "face": "R",
+     "expr": "happy",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "tag": "NO SINGLE PIRATE VOICE",
+   "id": "C1_S014",
+   "start": 25.26,
+   "dur": 1.9,
+   "chapter": 1,
+   "line_start": 25.26,
+   "src": "S014"
+  },
+  {
+   "id": "C1_END",
+   "kind": "end",
+   "line": "O1",
+   "start": 27.16,
+   "line_start": 27.31,
+   "dur": 2.6,
+   "chapter": null,
+   "sfx": [
+    [
+     0,
+     "ding",
+     0.5
+    ]
+   ],
+   "music": null
+  }
+ ]
+}

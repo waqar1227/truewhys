@@ -1,0 +1,421 @@
+{
+ "fps": 30,
+ "resolution": [
+  1080,
+  1920
+ ],
+ "style": "T",
+ "episode": "B-003",
+ "short": "C5",
+ "title": "Why Pirates Almost Never Buried Treasure",
+ "duration": 30.94,
+ "vertical": true,
+ "shots": [
+  {
+   "line": "H5",
+   "kind": "3d",
+   "set": "islet",
+   "variant": "dig",
+   "cam": {
+    "from": {
+     "pos": [
+      1.6,
+      -1.6,
+      1.4
+     ],
+     "tgt": [
+      0.215,
+      2.833,
+      0.511
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      1.4,
+      -1.18,
+      1.315
+     ],
+     "tgt": [
+      0.241,
+      2.847,
+      0.568
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "captain",
+     "at": [
+      0.6,
+      1.6,
+      0.25
+     ],
+     "h": 1.6,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down",
+     "hold_r": "shovel"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ]
+   ],
+   "id": "C5_H",
+   "start": 0.0,
+   "dur": 3.81,
+   "chapter": 3,
+   "line_start": 0.15,
+   "music": "mystery",
+   "pop": [
+    [
+     0.02,
+     "NO TREASURE?",
+     1.45
+    ]
+   ]
+  },
+  {
+   "line": "L30",
+   "kind": "3d",
+   "set": "port",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.2,
+      -4.4,
+      1.5
+     ],
+     "tgt": [
+      -0.232,
+      2.837,
+      -0.001
+     ],
+     "lens": 67.2
+    },
+    "to": {
+     "pos": [
+      0.224,
+      -3.5120000000000005,
+      1.488
+     ],
+     "tgt": [
+      -0.26,
+      2.817,
+      0.019
+     ],
+     "lens": 67.2
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate",
+     "at": [
+      -0.8,
+      1.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "tankard"
+    },
+    {
+     "c": "pirate3",
+     "at": [
+      0.6,
+      1.2,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "coins"
+    },
+    {
+     "c": "pirate2",
+     "at": [
+      2.0,
+      1.6,
+      0
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "happy",
+     "arms": "wave"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.7,
+     "SPENT FAST"
+    ]
+   ],
+   "sfx": [
+    [
+     0.2,
+     "crowd_laugh",
+     0.4
+    ],
+    [
+     0.6,
+     "coins",
+     0.5
+    ]
+   ],
+   "music": "playful",
+   "id": "C5_S038",
+   "start": 3.81,
+   "dur": 6.29,
+   "chapter": 3,
+   "line_start": 3.81,
+   "src": "S038"
+  },
+  {
+   "line": "L31",
+   "kind": "3d",
+   "set": "islet",
+   "variant": "dig",
+   "cam": {
+    "from": {
+     "pos": [
+      0.4,
+      -4.6,
+      1.4
+     ],
+     "tgt": [
+      0.4,
+      3.182,
+      0.565
+     ],
+     "lens": 72.8
+    },
+    "to": {
+     "pos": [
+      0.35200000000000004,
+      -3.6639999999999997,
+      1.3399999999999999
+     ],
+     "tgt": [
+      0.41,
+      3.186,
+      0.626
+     ],
+     "lens": 72.8
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "captain",
+     "at": [
+      0.4,
+      2.0,
+      0.3
+     ],
+     "h": 1.6,
+     "face": "L",
+     "expr": "smug",
+     "arms": "present"
+    }
+   ],
+   "part": null,
+   "tag": "CAPTAIN WILLIAM KIDD",
+   "music": "mystery",
+   "id": "C5_S039",
+   "start": 10.1,
+   "dur": 3.74,
+   "chapter": 3,
+   "line_start": 10.1,
+   "src": "S039"
+  },
+  {
+   "line": "L32",
+   "kind": "3d",
+   "set": "islet",
+   "variant": "dig",
+   "cam": {
+    "from": {
+     "pos": [
+      1.6,
+      -1.6,
+      1.4
+     ],
+     "tgt": [
+      0.215,
+      2.833,
+      0.511
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      1.32,
+      -1.012,
+      1.281
+     ],
+     "tgt": [
+      0.255,
+      2.852,
+      0.592
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "captain",
+     "at": [
+      0.6,
+      1.6,
+      0.25
+     ],
+     "h": 1.6,
+     "face": "L",
+     "expr": "worried",
+     "arms": "down",
+     "hold_r": "shovel"
+    }
+   ],
+   "part": null,
+   "tag": "GARDINERS ISLAND \u00b7 1699",
+   "sfx": [
+    [
+     0.3,
+     "shovel",
+     0.5
+    ]
+   ],
+   "id": "C5_S040",
+   "start": 13.84,
+   "dur": 5.92,
+   "chapter": 3,
+   "line_start": 13.84,
+   "src": "S040"
+  },
+  {
+   "line": "L33",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "doc": "kidd1699",
+   "sfx": [
+    [
+     0,
+     "paper",
+     0.6
+    ]
+   ],
+   "id": "C5_S041",
+   "start": 19.76,
+   "dur": 3.8,
+   "chapter": 3,
+   "line_start": 19.76,
+   "src": "S041"
+  },
+  {
+   "line": "L34",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.501,
+      0.391
+     ],
+     "lens": 59.34
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.504,
+      0.42
+     ],
+     "lens": 59.34
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "smug",
+     "arms": "present",
+     "talk": true,
+     "hold_r": "map"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.5,
+     "FROM STORIES"
+    ]
+   ],
+   "sfx": [
+    [
+     0.45,
+     "pop",
+     0.4
+    ]
+   ],
+   "id": "C5_S042",
+   "start": 23.56,
+   "dur": 4.78,
+   "chapter": 3,
+   "line_start": 23.56,
+   "src": "S042"
+  },
+  {
+   "id": "C5_END",
+   "kind": "end",
+   "line": "O1",
+   "start": 28.34,
+   "line_start": 28.49,
+   "dur": 2.6,
+   "chapter": null,
+   "sfx": [
+    [
+     0,
+     "ding",
+     0.5
+    ]
+   ],
+   "music": null
+  }
+ ]
+}

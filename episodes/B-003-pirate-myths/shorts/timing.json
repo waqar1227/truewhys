@@ -1,0 +1,5322 @@
+[
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "Eye patches. Parrots. Walking the plank. Buried treasure.",
+  "dur": 4.36,
+  "words": [
+   {
+    "w": "Eye",
+    "s": 0.0,
+    "e": 0.56
+   },
+   {
+    "w": "patches.",
+    "s": 0.56,
+    "e": 0.98
+   },
+   {
+    "w": "Parrots.",
+    "s": 1.7,
+    "e": 2.06
+   },
+   {
+    "w": "Walking",
+    "s": 2.7,
+    "e": 2.7
+   },
+   {
+    "w": "the",
+    "s": 2.7,
+    "e": 2.9
+   },
+   {
+    "w": "plank.",
+    "s": 2.9,
+    "e": 3.16
+   },
+   {
+    "w": "Buried",
+    "s": 3.64,
+    "e": 3.86
+   },
+   {
+    "w": "treasure.",
+    "s": 3.86,
+    "e": 4.18
+   }
+  ],
+  "heard": "Eye patches. Parrots. Walking the plank. Buried treasure.",
+  "match": 1.0
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "Everything we think we know about pirates... came from somewhere.",
+  "dur": 3.24,
+  "words": [
+   {
+    "w": "Everything",
+    "s": 0.08,
+    "e": 0.38
+   },
+   {
+    "w": "we",
+    "s": 0.38,
+    "e": 0.64
+   },
+   {
+    "w": "think",
+    "s": 0.64,
+    "e": 0.82
+   },
+   {
+    "w": "we",
+    "s": 0.82,
+    "e": 0.96
+   },
+   {
+    "w": "know",
+    "s": 0.96,
+    "e": 1.18
+   },
+   {
+    "w": "about",
+    "s": 1.18,
+    "e": 1.34
+   },
+   {
+    "w": "pirates...",
+    "s": 1.34,
+    "e": 2.36
+   },
+   {
+    "w": "came",
+    "s": 2.36,
+    "e": 2.44
+   },
+   {
+    "w": "from",
+    "s": 2.44,
+    "e": 2.64
+   },
+   {
+    "w": "somewhere.",
+    "s": 2.64,
+    "e": 3.06
+   }
+  ],
+  "heard": "Everything we think we know about pirates... came from somewhere.",
+  "match": 1.0
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "But a lot of it came from books and movies, not from real pirates.",
+  "dur": 3.58,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.08,
+    "e": 0.18
+   },
+   {
+    "w": "a",
+    "s": 0.18,
+    "e": 0.32
+   },
+   {
+    "w": "lot",
+    "s": 0.32,
+    "e": 0.46
+   },
+   {
+    "w": "of",
+    "s": 0.46,
+    "e": 0.56
+   },
+   {
+    "w": "it",
+    "s": 0.56,
+    "e": 0.68
+   },
+   {
+    "w": "came",
+    "s": 0.68,
+    "e": 0.82
+   },
+   {
+    "w": "from",
+    "s": 0.82,
+    "e": 1.04
+   },
+   {
+    "w": "books",
+    "s": 1.04,
+    "e": 1.24
+   },
+   {
+    "w": "and",
+    "s": 1.24,
+    "e": 1.44
+   },
+   {
+    "w": "movies,",
+    "s": 1.44,
+    "e": 1.76
+   },
+   {
+    "w": "not",
+    "s": 2.18,
+    "e": 2.32
+   },
+   {
+    "w": "from",
+    "s": 2.32,
+    "e": 2.64
+   },
+   {
+    "w": "real",
+    "s": 2.64,
+    "e": 2.96
+   },
+   {
+    "w": "pirates.",
+    "s": 2.96,
+    "e": 3.4
+   }
+  ],
+  "heard": "But a lot of it came from books and movies, not from real pirates.",
+  "match": 1.0
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "Today we check ten famous pirate \"facts\".",
+  "dur": 2.48,
+  "words": [
+   {
+    "w": "Today",
+    "s": 0.08,
+    "e": 0.2
+   },
+   {
+    "w": "we",
+    "s": 0.2,
+    "e": 0.4
+   },
+   {
+    "w": "check",
+    "s": 0.4,
+    "e": 0.64
+   },
+   {
+    "w": "ten",
+    "s": 0.64,
+    "e": 0.98
+   },
+   {
+    "w": "famous",
+    "s": 0.98,
+    "e": 1.56
+   },
+   {
+    "w": "pirate",
+    "s": 1.56,
+    "e": 1.92
+   },
+   {
+    "w": "\"facts\".",
+    "s": 1.92,
+    "e": 2.3
+   }
+  ],
+  "heard": "Today we check ten famous pirate facts.",
+  "match": 1.0
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "Some are total myths. And some are real... and much stranger than the movies.",
+  "dur": 4.5,
+  "words": [
+   {
+    "w": "Some",
+    "s": 0.08,
+    "e": 0.12
+   },
+   {
+    "w": "are",
+    "s": 0.12,
+    "e": 0.26
+   },
+   {
+    "w": "total",
+    "s": 0.26,
+    "e": 0.5
+   },
+   {
+    "w": "myths.",
+    "s": 0.5,
+    "e": 0.82
+   },
+   {
+    "w": "And",
+    "s": 1.46,
+    "e": 1.6
+   },
+   {
+    "w": "some",
+    "s": 1.6,
+    "e": 1.76
+   },
+   {
+    "w": "are",
+    "s": 1.76,
+    "e": 1.92
+   },
+   {
+    "w": "real...",
+    "s": 1.92,
+    "e": 2.86
+   },
+   {
+    "w": "and",
+    "s": 2.86,
+    "e": 2.96
+   },
+   {
+    "w": "much",
+    "s": 2.96,
+    "e": 3.28
+   },
+   {
+    "w": "stranger",
+    "s": 3.28,
+    "e": 3.72
+   },
+   {
+    "w": "than",
+    "s": 3.72,
+    "e": 4.02
+   },
+   {
+    "w": "the",
+    "s": 4.02,
+    "e": 4.12
+   },
+   {
+    "w": "movies.",
+    "s": 4.12,
+    "e": 4.32
+   }
+  ],
+  "heard": "Some are total myths. And some are real... and much stranger than the movies.",
+  "match": 1.0
+ },
+ {
+  "id": "L06",
+  "chapter": 1,
+  "text": "Number one: pirates talked like this. Arrr!",
+  "dur": 4.06,
+  "words": [
+   {
+    "w": "Number",
+    "s": 0.0,
+    "e": 0.38
+   },
+   {
+    "w": "one:",
+    "s": 0.38,
+    "e": 0.74
+   },
+   {
+    "w": "pirates",
+    "s": 1.5,
+    "e": 1.5
+   },
+   {
+    "w": "talked",
+    "s": 1.5,
+    "e": 1.82
+   },
+   {
+    "w": "like",
+    "s": 1.82,
+    "e": 2.08
+   },
+   {
+    "w": "this.",
+    "s": 2.08,
+    "e": 2.68
+   },
+   {
+    "w": "Arrr!",
+    "s": 3.32,
+    "e": 3.88
+   }
+  ],
+  "heard": "Number one. Pirates talked like this. Arrr!",
+  "match": 1.0
+ },
+ {
+  "id": "L07",
+  "chapter": 1,
+  "text": "Myth. Almost certainly.",
+  "dur": 1.84,
+  "words": [
+   {
+    "w": "Myth.",
+    "s": 0.08,
+    "e": 0.62
+   },
+   {
+    "w": "Almost",
+    "s": 1.12,
+    "e": 1.32
+   },
+   {
+    "w": "certainly.",
+    "s": 1.32,
+    "e": 1.66
+   }
+  ],
+  "heard": "Myth. Almost certainly.",
+  "match": 1.0
+ },
+ {
+  "id": "L08",
+  "chapter": 1,
+  "text": "That accent comes from one actor: Robert Newton, who played Long John Silver in a 1950 Treasure Island film.",
+  "dur": 6.22,
+  "words": [
+   {
+    "w": "That",
+    "s": 0.08,
+    "e": 0.24
+   },
+   {
+    "w": "accent",
+    "s": 0.24,
+    "e": 0.5
+   },
+   {
+    "w": "comes",
+    "s": 0.5,
+    "e": 0.76
+   },
+   {
+    "w": "from",
+    "s": 0.76,
+    "e": 1.04
+   },
+   {
+    "w": "one",
+    "s": 1.04,
+    "e": 1.36
+   },
+   {
+    "w": "actor:",
+    "s": 1.36,
+    "e": 1.74
+   },
+   {
+    "w": "Robert",
+    "s": 2.18,
+    "e": 2.3
+   },
+   {
+    "w": "Newton,",
+    "s": 2.3,
+    "e": 2.6
+   },
+   {
+    "w": "who",
+    "s": 2.9,
+    "e": 2.94
+   },
+   {
+    "w": "played",
+    "s": 2.94,
+    "e": 3.14
+   },
+   {
+    "w": "Long",
+    "s": 3.14,
+    "e": 3.44
+   },
+   {
+    "w": "John",
+    "s": 3.44,
+    "e": 3.68
+   },
+   {
+    "w": "Silver",
+    "s": 3.68,
+    "e": 3.98
+   },
+   {
+    "w": "in",
+    "s": 3.98,
+    "e": 4.28
+   },
+   {
+    "w": "a",
+    "s": 4.28,
+    "e": 4.4
+   },
+   {
+    "w": "1950",
+    "s": 4.4,
+    "e": 4.92
+   },
+   {
+    "w": "Treasure",
+    "s": 4.92,
+    "e": 5.32
+   },
+   {
+    "w": "Island",
+    "s": 5.32,
+    "e": 5.68
+   },
+   {
+    "w": "film.",
+    "s": 5.68,
+    "e": 6.04
+   }
+  ],
+  "heard": "That accent comes from one actor, Robert Newton, who played Long John Silver in a 1950 Treasure Island film.",
+  "match": 1.0
+ },
+ {
+  "id": "L09",
+  "chapter": 1,
+  "text": "He used a big version of the accent from his home in the West Country of England, where \"arr\" can simply mean \"yes\".",
+  "dur": 5.82,
+  "words": [
+   {
+    "w": "He",
+    "s": 0.08,
+    "e": 0.26
+   },
+   {
+    "w": "used",
+    "s": 0.26,
+    "e": 0.4
+   },
+   {
+    "w": "a",
+    "s": 0.4,
+    "e": 0.56
+   },
+   {
+    "w": "big",
+    "s": 0.56,
+    "e": 0.76
+   },
+   {
+    "w": "version",
+    "s": 0.76,
+    "e": 1.04
+   },
+   {
+    "w": "of",
+    "s": 1.04,
+    "e": 1.22
+   },
+   {
+    "w": "the",
+    "s": 1.22,
+    "e": 1.34
+   },
+   {
+    "w": "accent",
+    "s": 1.34,
+    "e": 1.64
+   },
+   {
+    "w": "from",
+    "s": 1.64,
+    "e": 1.88
+   },
+   {
+    "w": "his",
+    "s": 1.88,
+    "e": 2.0
+   },
+   {
+    "w": "home",
+    "s": 2.0,
+    "e": 2.2
+   },
+   {
+    "w": "in",
+    "s": 2.2,
+    "e": 2.38
+   },
+   {
+    "w": "the",
+    "s": 2.38,
+    "e": 2.48
+   },
+   {
+    "w": "West",
+    "s": 2.48,
+    "e": 2.66
+   },
+   {
+    "w": "Country",
+    "s": 2.66,
+    "e": 2.94
+   },
+   {
+    "w": "of",
+    "s": 2.94,
+    "e": 3.14
+   },
+   {
+    "w": "England,",
+    "s": 3.14,
+    "e": 3.42
+   },
+   {
+    "w": "where",
+    "s": 3.78,
+    "e": 3.96
+   },
+   {
+    "w": "\"arr\"",
+    "s": 3.96,
+    "e": 4.68
+   },
+   {
+    "w": "can",
+    "s": 4.68,
+    "e": 4.88
+   },
+   {
+    "w": "simply",
+    "s": 4.88,
+    "e": 5.14
+   },
+   {
+    "w": "mean",
+    "s": 5.14,
+    "e": 5.36
+   },
+   {
+    "w": "\"yes\".",
+    "s": 5.36,
+    "e": 5.64
+   }
+  ],
+  "heard": "He used a big version of the accent from his home in the West Country of England, where arrr can simply mean yes.",
+  "match": 0.957
+ },
+ {
+  "id": "L10",
+  "chapter": 1,
+  "text": "Real pirates came from all over the world: England, Wales, Africa, the Netherlands, the Caribbean...",
+  "dur": 5.94,
+  "words": [
+   {
+    "w": "Real",
+    "s": 0.08,
+    "e": 0.4
+   },
+   {
+    "w": "pirates",
+    "s": 0.4,
+    "e": 0.72
+   },
+   {
+    "w": "came",
+    "s": 0.72,
+    "e": 0.98
+   },
+   {
+    "w": "from",
+    "s": 0.98,
+    "e": 1.16
+   },
+   {
+    "w": "all",
+    "s": 1.16,
+    "e": 1.4
+   },
+   {
+    "w": "over",
+    "s": 1.4,
+    "e": 1.54
+   },
+   {
+    "w": "the",
+    "s": 1.54,
+    "e": 1.66
+   },
+   {
+    "w": "world:",
+    "s": 1.66,
+    "e": 1.94
+   },
+   {
+    "w": "England,",
+    "s": 2.5,
+    "e": 2.76
+   },
+   {
+    "w": "Wales,",
+    "s": 3.02,
+    "e": 3.22
+   },
+   {
+    "w": "Africa,",
+    "s": 3.68,
+    "e": 3.88
+   },
+   {
+    "w": "the",
+    "s": 4.2,
+    "e": 4.26
+   },
+   {
+    "w": "Netherlands,",
+    "s": 4.26,
+    "e": 4.56
+   },
+   {
+    "w": "the",
+    "s": 4.96,
+    "e": 4.98
+   },
+   {
+    "w": "Caribbean...",
+    "s": 4.98,
+    "e": 5.94
+   }
+  ],
+  "heard": "Real pirates came from all over the world. England, Wales, Africa, the Netherlands, the Caribbean...",
+  "match": 1.0
+ },
+ {
+  "id": "L11",
+  "chapter": 1,
+  "text": "so there was no single pirate voice.",
+  "dur": 1.58,
+  "words": [
+   {
+    "w": "so",
+    "s": 0.0,
+    "e": 0.02
+   },
+   {
+    "w": "there",
+    "s": 0.02,
+    "e": 0.28
+   },
+   {
+    "w": "was",
+    "s": 0.28,
+    "e": 0.44
+   },
+   {
+    "w": "no",
+    "s": 0.44,
+    "e": 0.62
+   },
+   {
+    "w": "single",
+    "s": 0.62,
+    "e": 0.96
+   },
+   {
+    "w": "pirate",
+    "s": 0.96,
+    "e": 1.26
+   },
+   {
+    "w": "voice.",
+    "s": 1.26,
+    "e": 1.58
+   }
+  ],
+  "heard": "so there was no single pirate voice.",
+  "match": 1.0
+ },
+ {
+  "id": "L12",
+  "chapter": 1,
+  "text": "Number two: every pirate had a parrot on his shoulder.",
+  "dur": 3.78,
+  "words": [
+   {
+    "w": "Number",
+    "s": 0.0,
+    "e": 1.02
+   },
+   {
+    "w": "two:",
+    "s": 1.02,
+    "e": 1.32
+   },
+   {
+    "w": "every",
+    "s": 2.0,
+    "e": 2.0
+   },
+   {
+    "w": "pirate",
+    "s": 2.0,
+    "e": 2.34
+   },
+   {
+    "w": "had",
+    "s": 2.34,
+    "e": 2.6
+   },
+   {
+    "w": "a",
+    "s": 2.6,
+    "e": 2.74
+   },
+   {
+    "w": "parrot",
+    "s": 2.74,
+    "e": 3.02
+   },
+   {
+    "w": "on",
+    "s": 3.02,
+    "e": 3.18
+   },
+   {
+    "w": "his",
+    "s": 3.18,
+    "e": 3.3
+   },
+   {
+    "w": "shoulder.",
+    "s": 3.3,
+    "e": 3.6
+   }
+  ],
+  "heard": "Number two. Every pirate had a parrot on his shoulder.",
+  "match": 1.0
+ },
+ {
+  "id": "L13",
+  "chapter": 1,
+  "text": "Mostly a myth.",
+  "dur": 1.0,
+  "words": [
+   {
+    "w": "Mostly",
+    "s": 0.08,
+    "e": 0.4
+   },
+   {
+    "w": "a",
+    "s": 0.4,
+    "e": 0.58
+   },
+   {
+    "w": "myth.",
+    "s": 0.58,
+    "e": 0.82
+   }
+  ],
+  "heard": "Mostly a myth.",
+  "match": 1.0
+ },
+ {
+  "id": "L14",
+  "chapter": 1,
+  "text": "Sailors did bring parrots back from the tropics. But for pirates, a parrot was usually cargo, something to sell.",
+  "dur": 5.58,
+  "words": [
+   {
+    "w": "Sailors",
+    "s": 0.08,
+    "e": 0.28
+   },
+   {
+    "w": "did",
+    "s": 0.28,
+    "e": 0.52
+   },
+   {
+    "w": "bring",
+    "s": 0.52,
+    "e": 0.8
+   },
+   {
+    "w": "parrots",
+    "s": 0.8,
+    "e": 1.16
+   },
+   {
+    "w": "back",
+    "s": 1.16,
+    "e": 1.36
+   },
+   {
+    "w": "from",
+    "s": 1.36,
+    "e": 1.54
+   },
+   {
+    "w": "the",
+    "s": 1.54,
+    "e": 1.64
+   },
+   {
+    "w": "tropics.",
+    "s": 1.64,
+    "e": 2.06
+   },
+   {
+    "w": "But",
+    "s": 2.4,
+    "e": 2.54
+   },
+   {
+    "w": "for",
+    "s": 2.54,
+    "e": 2.68
+   },
+   {
+    "w": "pirates,",
+    "s": 2.68,
+    "e": 3.06
+   },
+   {
+    "w": "a",
+    "s": 3.32,
+    "e": 3.32
+   },
+   {
+    "w": "parrot",
+    "s": 3.32,
+    "e": 3.58
+   },
+   {
+    "w": "was",
+    "s": 3.58,
+    "e": 3.74
+   },
+   {
+    "w": "usually",
+    "s": 3.74,
+    "e": 4.12
+   },
+   {
+    "w": "cargo,",
+    "s": 4.12,
+    "e": 4.48
+   },
+   {
+    "w": "something",
+    "s": 4.84,
+    "e": 4.94
+   },
+   {
+    "w": "to",
+    "s": 4.94,
+    "e": 5.18
+   },
+   {
+    "w": "sell.",
+    "s": 5.18,
+    "e": 5.4
+   }
+  ],
+  "heard": "Sailors did bring parrots back from the tropics. But for pirates, a parrot was usually cargo, something to sell.",
+  "match": 1.0
+ },
+ {
+  "id": "L15",
+  "chapter": 1,
+  "text": "In the port markets of Jamaica, exotic birds were sold for good money.",
+  "dur": 3.52,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.08,
+    "e": 0.26
+   },
+   {
+    "w": "the",
+    "s": 0.26,
+    "e": 0.34
+   },
+   {
+    "w": "port",
+    "s": 0.34,
+    "e": 0.5
+   },
+   {
+    "w": "markets",
+    "s": 0.5,
+    "e": 0.78
+   },
+   {
+    "w": "of",
+    "s": 0.78,
+    "e": 0.94
+   },
+   {
+    "w": "Jamaica,",
+    "s": 0.94,
+    "e": 1.26
+   },
+   {
+    "w": "exotic",
+    "s": 1.58,
+    "e": 1.88
+   },
+   {
+    "w": "birds",
+    "s": 1.88,
+    "e": 2.2
+   },
+   {
+    "w": "were",
+    "s": 2.2,
+    "e": 2.42
+   },
+   {
+    "w": "sold",
+    "s": 2.42,
+    "e": 2.68
+   },
+   {
+    "w": "for",
+    "s": 2.68,
+    "e": 2.9
+   },
+   {
+    "w": "good",
+    "s": 2.9,
+    "e": 3.08
+   },
+   {
+    "w": "money.",
+    "s": 3.08,
+    "e": 3.34
+   }
+  ],
+  "heard": "In the port markets of Jamaica, exotic birds were sold for good money.",
+  "match": 1.0
+ },
+ {
+  "id": "L16",
+  "chapter": 1,
+  "text": "The famous shoulder parrot comes from a book: Long John Silver's parrot in Treasure Island, from 1883.",
+  "dur": 5.52,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.08,
+    "e": 0.28
+   },
+   {
+    "w": "famous",
+    "s": 0.28,
+    "e": 0.54
+   },
+   {
+    "w": "shoulder",
+    "s": 0.54,
+    "e": 0.84
+   },
+   {
+    "w": "parrot",
+    "s": 0.84,
+    "e": 1.24
+   },
+   {
+    "w": "comes",
+    "s": 1.24,
+    "e": 1.48
+   },
+   {
+    "w": "from",
+    "s": 1.48,
+    "e": 1.72
+   },
+   {
+    "w": "a",
+    "s": 1.72,
+    "e": 1.86
+   },
+   {
+    "w": "book:",
+    "s": 1.86,
+    "e": 2.06
+   },
+   {
+    "w": "Long",
+    "s": 2.68,
+    "e": 2.7
+   },
+   {
+    "w": "John",
+    "s": 2.7,
+    "e": 2.88
+   },
+   {
+    "w": "Silver's",
+    "s": 2.88,
+    "e": 3.3
+   },
+   {
+    "w": "parrot",
+    "s": 3.3,
+    "e": 3.58
+   },
+   {
+    "w": "in",
+    "s": 3.58,
+    "e": 3.78
+   },
+   {
+    "w": "Treasure",
+    "s": 3.78,
+    "e": 4.02
+   },
+   {
+    "w": "Island,",
+    "s": 4.02,
+    "e": 4.38
+   },
+   {
+    "w": "from",
+    "s": 4.56,
+    "e": 4.68
+   },
+   {
+    "w": "1883.",
+    "s": 4.68,
+    "e": 5.34
+   }
+  ],
+  "heard": "The famous shoulder parrot comes from a book, Long John Silver's parrot in Treasure Island, from 1883.",
+  "match": 1.0
+ },
+ {
+  "id": "L17",
+  "chapter": 2,
+  "text": "Number three: pirates wore eye patches.",
+  "dur": 3.12,
+  "words": [
+   {
+    "w": "Number",
+    "s": 0.0,
+    "e": 0.4
+   },
+   {
+    "w": "three:",
+    "s": 0.4,
+    "e": 0.78
+   },
+   {
+    "w": "pirates",
+    "s": 1.72,
+    "e": 1.72
+   },
+   {
+    "w": "wore",
+    "s": 1.72,
+    "e": 2.12
+   },
+   {
+    "w": "eye",
+    "s": 2.12,
+    "e": 2.54
+   },
+   {
+    "w": "patches.",
+    "s": 2.54,
+    "e": 2.94
+   }
+  ],
+  "heard": "Number three. Pirates wore eye patches.",
+  "match": 1.0
+ },
+ {
+  "id": "L18",
+  "chapter": 2,
+  "text": "Some did. But probably not for the reason you've heard.",
+  "dur": 3.12,
+  "words": [
+   {
+    "w": "Some",
+    "s": 0.08,
+    "e": 0.18
+   },
+   {
+    "w": "did.",
+    "s": 0.18,
+    "e": 0.4
+   },
+   {
+    "w": "But",
+    "s": 0.84,
+    "e": 1.02
+   },
+   {
+    "w": "probably",
+    "s": 1.02,
+    "e": 1.64
+   },
+   {
+    "w": "not",
+    "s": 1.64,
+    "e": 1.94
+   },
+   {
+    "w": "for",
+    "s": 1.94,
+    "e": 2.12
+   },
+   {
+    "w": "the",
+    "s": 2.12,
+    "e": 2.24
+   },
+   {
+    "w": "reason",
+    "s": 2.24,
+    "e": 2.44
+   },
+   {
+    "w": "you've",
+    "s": 2.44,
+    "e": 2.74
+   },
+   {
+    "w": "heard.",
+    "s": 2.74,
+    "e": 2.94
+   }
+  ],
+  "heard": "Some did. But probably not for the reason you've heard.",
+  "match": 1.0
+ },
+ {
+  "id": "L19",
+  "chapter": 2,
+  "text": "There's a popular theory: keep one eye covered, so it's ready for the dark below deck.",
+  "dur": 4.4,
+  "words": [
+   {
+    "w": "There's",
+    "s": 0.08,
+    "e": 0.26
+   },
+   {
+    "w": "a",
+    "s": 0.26,
+    "e": 0.38
+   },
+   {
+    "w": "popular",
+    "s": 0.38,
+    "e": 0.72
+   },
+   {
+    "w": "theory:",
+    "s": 0.72,
+    "e": 1.18
+   },
+   {
+    "w": "keep",
+    "s": 1.6,
+    "e": 1.7
+   },
+   {
+    "w": "one",
+    "s": 1.7,
+    "e": 2.02
+   },
+   {
+    "w": "eye",
+    "s": 2.02,
+    "e": 2.22
+   },
+   {
+    "w": "covered,",
+    "s": 2.22,
+    "e": 2.58
+   },
+   {
+    "w": "so",
+    "s": 2.66,
+    "e": 2.84
+   },
+   {
+    "w": "it's",
+    "s": 2.84,
+    "e": 3.0
+   },
+   {
+    "w": "ready",
+    "s": 3.0,
+    "e": 3.16
+   },
+   {
+    "w": "for",
+    "s": 3.16,
+    "e": 3.36
+   },
+   {
+    "w": "the",
+    "s": 3.36,
+    "e": 3.5
+   },
+   {
+    "w": "dark",
+    "s": 3.5,
+    "e": 3.72
+   },
+   {
+    "w": "below",
+    "s": 3.72,
+    "e": 4.0
+   },
+   {
+    "w": "deck.",
+    "s": 4.0,
+    "e": 4.22
+   }
+  ],
+  "heard": "There's a popular theory. Keep one eye covered, so it's ready for the dark below deck.",
+  "match": 1.0
+ },
+ {
+  "id": "L20",
+  "chapter": 2,
+  "text": "Your eyes really do need many minutes to adjust to darkness, so the trick could work.",
+  "dur": 4.56,
+  "words": [
+   {
+    "w": "Your",
+    "s": 0.08,
+    "e": 0.18
+   },
+   {
+    "w": "eyes",
+    "s": 0.18,
+    "e": 0.48
+   },
+   {
+    "w": "really",
+    "s": 0.48,
+    "e": 0.86
+   },
+   {
+    "w": "do",
+    "s": 0.86,
+    "e": 1.12
+   },
+   {
+    "w": "need",
+    "s": 1.12,
+    "e": 1.34
+   },
+   {
+    "w": "many",
+    "s": 1.34,
+    "e": 1.64
+   },
+   {
+    "w": "minutes",
+    "s": 1.64,
+    "e": 1.96
+   },
+   {
+    "w": "to",
+    "s": 1.96,
+    "e": 2.14
+   },
+   {
+    "w": "adjust",
+    "s": 2.14,
+    "e": 2.46
+   },
+   {
+    "w": "to",
+    "s": 2.46,
+    "e": 2.64
+   },
+   {
+    "w": "darkness,",
+    "s": 2.64,
+    "e": 2.96
+   },
+   {
+    "w": "so",
+    "s": 3.06,
+    "e": 3.28
+   },
+   {
+    "w": "the",
+    "s": 3.28,
+    "e": 3.44
+   },
+   {
+    "w": "trick",
+    "s": 3.44,
+    "e": 3.68
+   },
+   {
+    "w": "could",
+    "s": 3.68,
+    "e": 4.04
+   },
+   {
+    "w": "work.",
+    "s": 4.04,
+    "e": 4.38
+   }
+  ],
+  "heard": "Your eyes really do need many minutes to adjust to darkness, so the trick could work.",
+  "match": 1.0
+ },
+ {
+  "id": "L21",
+  "chapter": 2,
+  "text": "But historians have found no letters, diaries or pictures of pirates actually doing it.",
+  "dur": 5.46,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.08,
+    "e": 0.34
+   },
+   {
+    "w": "historians",
+    "s": 0.34,
+    "e": 0.82
+   },
+   {
+    "w": "have",
+    "s": 0.82,
+    "e": 1.2
+   },
+   {
+    "w": "found",
+    "s": 1.2,
+    "e": 1.42
+   },
+   {
+    "w": "no",
+    "s": 1.42,
+    "e": 1.62
+   },
+   {
+    "w": "letters,",
+    "s": 1.62,
+    "e": 2.1
+   },
+   {
+    "w": "diaries",
+    "s": 2.36,
+    "e": 2.72
+   },
+   {
+    "w": "or",
+    "s": 2.72,
+    "e": 3.06
+   },
+   {
+    "w": "pictures",
+    "s": 3.06,
+    "e": 3.4
+   },
+   {
+    "w": "of",
+    "s": 3.4,
+    "e": 3.7
+   },
+   {
+    "w": "pirates",
+    "s": 3.7,
+    "e": 4.1
+   },
+   {
+    "w": "actually",
+    "s": 4.1,
+    "e": 4.66
+   },
+   {
+    "w": "doing",
+    "s": 4.66,
+    "e": 4.98
+   },
+   {
+    "w": "it.",
+    "s": 4.98,
+    "e": 5.28
+   }
+  ],
+  "heard": "But historians have found no letters, diaries or pictures of pirates actually doing it.",
+  "match": 1.0
+ },
+ {
+  "id": "L22",
+  "chapter": 2,
+  "text": "Most pirates who wore a patch simply covered an eye they had lost in a fight or an accident.",
+  "dur": 4.4,
+  "words": [
+   {
+    "w": "Most",
+    "s": 0.08,
+    "e": 0.28
+   },
+   {
+    "w": "pirates",
+    "s": 0.28,
+    "e": 0.62
+   },
+   {
+    "w": "who",
+    "s": 0.62,
+    "e": 0.8
+   },
+   {
+    "w": "wore",
+    "s": 0.8,
+    "e": 1.02
+   },
+   {
+    "w": "a",
+    "s": 1.02,
+    "e": 1.12
+   },
+   {
+    "w": "patch",
+    "s": 1.12,
+    "e": 1.32
+   },
+   {
+    "w": "simply",
+    "s": 1.32,
+    "e": 1.64
+   },
+   {
+    "w": "covered",
+    "s": 1.64,
+    "e": 2.0
+   },
+   {
+    "w": "an",
+    "s": 2.0,
+    "e": 2.16
+   },
+   {
+    "w": "eye",
+    "s": 2.16,
+    "e": 2.4
+   },
+   {
+    "w": "they",
+    "s": 2.4,
+    "e": 2.58
+   },
+   {
+    "w": "had",
+    "s": 2.58,
+    "e": 2.66
+   },
+   {
+    "w": "lost",
+    "s": 2.66,
+    "e": 2.96
+   },
+   {
+    "w": "in",
+    "s": 2.96,
+    "e": 3.2
+   },
+   {
+    "w": "a",
+    "s": 3.2,
+    "e": 3.32
+   },
+   {
+    "w": "fight",
+    "s": 3.32,
+    "e": 3.58
+   },
+   {
+    "w": "or",
+    "s": 3.58,
+    "e": 3.86
+   },
+   {
+    "w": "an",
+    "s": 3.86,
+    "e": 3.96
+   },
+   {
+    "w": "accident.",
+    "s": 3.96,
+    "e": 4.4
+   }
+  ],
+  "heard": "Most pirates who wore a patch simply covered an eye they had lost in a fight or an accident.",
+  "match": 1.0
+ },
+ {
+  "id": "L23",
+  "chapter": 2,
+  "text": "Number four: pirates made prisoners walk the plank.",
+  "dur": 4.04,
+  "words": [
+   {
+    "w": "Number",
+    "s": 0.0,
+    "e": 0.96
+   },
+   {
+    "w": "four:",
+    "s": 0.96,
+    "e": 1.28
+   },
+   {
+    "w": "pirates",
+    "s": 2.12,
+    "e": 2.12
+   },
+   {
+    "w": "made",
+    "s": 2.12,
+    "e": 2.38
+   },
+   {
+    "w": "prisoners",
+    "s": 2.38,
+    "e": 2.86
+   },
+   {
+    "w": "walk",
+    "s": 2.86,
+    "e": 3.32
+   },
+   {
+    "w": "the",
+    "s": 3.32,
+    "e": 3.6
+   },
+   {
+    "w": "plank.",
+    "s": 3.6,
+    "e": 3.86
+   }
+  ],
+  "heard": "Number four. Pirates made prisoners walk the plank.",
+  "match": 1.0
+ },
+ {
+  "id": "L24",
+  "chapter": 2,
+  "text": "Almost never.",
+  "dur": 0.88,
+  "words": [
+   {
+    "w": "Almost",
+    "s": 0.08,
+    "e": 0.38
+   },
+   {
+    "w": "never.",
+    "s": 0.38,
+    "e": 0.7
+   }
+  ],
+  "heard": "Almost never.",
+  "match": 1.0
+ },
+ {
+  "id": "L25",
+  "chapter": 2,
+  "text": "Historians can prove only a handful of cases, and most are from long after the famous pirates were gone.",
+  "dur": 5.56,
+  "words": [
+   {
+    "w": "Historians",
+    "s": 0.08,
+    "e": 0.44
+   },
+   {
+    "w": "can",
+    "s": 0.44,
+    "e": 0.66
+   },
+   {
+    "w": "prove",
+    "s": 0.66,
+    "e": 0.84
+   },
+   {
+    "w": "only",
+    "s": 0.84,
+    "e": 1.1
+   },
+   {
+    "w": "a",
+    "s": 1.1,
+    "e": 1.26
+   },
+   {
+    "w": "handful",
+    "s": 1.26,
+    "e": 1.58
+   },
+   {
+    "w": "of",
+    "s": 1.58,
+    "e": 1.78
+   },
+   {
+    "w": "cases,",
+    "s": 1.78,
+    "e": 2.02
+   },
+   {
+    "w": "and",
+    "s": 2.32,
+    "e": 2.58
+   },
+   {
+    "w": "most",
+    "s": 2.58,
+    "e": 2.86
+   },
+   {
+    "w": "are",
+    "s": 2.86,
+    "e": 3.06
+   },
+   {
+    "w": "from",
+    "s": 3.06,
+    "e": 3.28
+   },
+   {
+    "w": "long",
+    "s": 3.28,
+    "e": 3.64
+   },
+   {
+    "w": "after",
+    "s": 3.64,
+    "e": 4.08
+   },
+   {
+    "w": "the",
+    "s": 4.08,
+    "e": 4.26
+   },
+   {
+    "w": "famous",
+    "s": 4.26,
+    "e": 4.56
+   },
+   {
+    "w": "pirates",
+    "s": 4.56,
+    "e": 4.9
+   },
+   {
+    "w": "were",
+    "s": 4.9,
+    "e": 5.08
+   },
+   {
+    "w": "gone.",
+    "s": 5.08,
+    "e": 5.38
+   }
+  ],
+  "heard": "Historians can prove only a handful of cases, and most are from long after the famous pirates were gone.",
+  "match": 1.0
+ },
+ {
+  "id": "L26",
+  "chapter": 2,
+  "text": "The plank became famous thanks to storybooks, and then Treasure Island and Peter Pan.",
+  "dur": 4.6,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.08,
+    "e": 0.2
+   },
+   {
+    "w": "plank",
+    "s": 0.2,
+    "e": 0.38
+   },
+   {
+    "w": "became",
+    "s": 0.38,
+    "e": 0.66
+   },
+   {
+    "w": "famous",
+    "s": 0.66,
+    "e": 1.04
+   },
+   {
+    "w": "thanks",
+    "s": 1.04,
+    "e": 1.24
+   },
+   {
+    "w": "to",
+    "s": 1.24,
+    "e": 1.48
+   },
+   {
+    "w": "storybooks,",
+    "s": 1.48,
+    "e": 2.04
+   },
+   {
+    "w": "and",
+    "s": 2.34,
+    "e": 2.36
+   },
+   {
+    "w": "then",
+    "s": 2.36,
+    "e": 2.5
+   },
+   {
+    "w": "Treasure",
+    "s": 2.5,
+    "e": 2.96
+   },
+   {
+    "w": "Island",
+    "s": 2.96,
+    "e": 3.48
+   },
+   {
+    "w": "and",
+    "s": 3.48,
+    "e": 3.88
+   },
+   {
+    "w": "Peter",
+    "s": 3.88,
+    "e": 4.12
+   },
+   {
+    "w": "Pan.",
+    "s": 4.12,
+    "e": 4.42
+   }
+  ],
+  "heard": "The plank became famous thanks to storybooks, and then Treasure Island and Peter Pan.",
+  "match": 1.0
+ },
+ {
+  "id": "L27",
+  "chapter": 2,
+  "text": "The real punishment pirates feared was marooning: being left alone on a tiny island, with almost nothing.",
+  "dur": 6.14,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.08,
+    "e": 0.22
+   },
+   {
+    "w": "real",
+    "s": 0.22,
+    "e": 0.54
+   },
+   {
+    "w": "punishment",
+    "s": 0.54,
+    "e": 0.96
+   },
+   {
+    "w": "pirates",
+    "s": 0.96,
+    "e": 1.34
+   },
+   {
+    "w": "feared",
+    "s": 1.34,
+    "e": 1.66
+   },
+   {
+    "w": "was",
+    "s": 1.66,
+    "e": 2.04
+   },
+   {
+    "w": "marooning:",
+    "s": 2.04,
+    "e": 2.76
+   },
+   {
+    "w": "being",
+    "s": 2.94,
+    "e": 3.18
+   },
+   {
+    "w": "left",
+    "s": 3.18,
+    "e": 3.36
+   },
+   {
+    "w": "alone",
+    "s": 3.36,
+    "e": 3.7
+   },
+   {
+    "w": "on",
+    "s": 3.7,
+    "e": 3.96
+   },
+   {
+    "w": "a",
+    "s": 3.96,
+    "e": 4.12
+   },
+   {
+    "w": "tiny",
+    "s": 4.12,
+    "e": 4.5
+   },
+   {
+    "w": "island,",
+    "s": 4.5,
+    "e": 4.96
+   },
+   {
+    "w": "with",
+    "s": 5.24,
+    "e": 5.46
+   },
+   {
+    "w": "almost",
+    "s": 5.46,
+    "e": 5.66
+   },
+   {
+    "w": "nothing.",
+    "s": 5.66,
+    "e": 5.96
+   }
+  ],
+  "heard": "The real punishment pirates feared was marooning, being left alone on a tiny island, with almost nothing.",
+  "match": 1.0
+ },
+ {
+  "id": "L28",
+  "chapter": 3,
+  "text": "Number five: pirates buried their treasure, and drew a map with an X.",
+  "dur": 4.58,
+  "words": [
+   {
+    "w": "Number",
+    "s": 0.0,
+    "e": 0.48
+   },
+   {
+    "w": "five:",
+    "s": 0.48,
+    "e": 0.94
+   },
+   {
+    "w": "pirates",
+    "s": 1.8,
+    "e": 1.8
+   },
+   {
+    "w": "buried",
+    "s": 1.8,
+    "e": 2.14
+   },
+   {
+    "w": "their",
+    "s": 2.14,
+    "e": 2.44
+   },
+   {
+    "w": "treasure,",
+    "s": 2.44,
+    "e": 2.8
+   },
+   {
+    "w": "and",
+    "s": 2.98,
+    "e": 3.12
+   },
+   {
+    "w": "drew",
+    "s": 3.12,
+    "e": 3.34
+   },
+   {
+    "w": "a",
+    "s": 3.34,
+    "e": 3.5
+   },
+   {
+    "w": "map",
+    "s": 3.5,
+    "e": 3.66
+   },
+   {
+    "w": "with",
+    "s": 3.66,
+    "e": 3.9
+   },
+   {
+    "w": "an",
+    "s": 3.9,
+    "e": 4.04
+   },
+   {
+    "w": "X.",
+    "s": 4.04,
+    "e": 4.4
+   }
+  ],
+  "heard": "Number five. Pirates buried their treasure, and drew a map with an X.",
+  "match": 1.0
+ },
+ {
+  "id": "L29",
+  "chapter": 3,
+  "text": "Myth.",
+  "dur": 0.6,
+  "words": [
+   {
+    "w": "Myth.",
+    "s": 0.08,
+    "e": 0.42
+   }
+  ],
+  "heard": "Myth.",
+  "match": 1.0
+ },
+ {
+  "id": "L30",
+  "chapter": 3,
+  "text": "Pirates usually spent their loot fast, on food, drink and fun in port. Why hide it in the sand?",
+  "dur": 5.72,
+  "words": [
+   {
+    "w": "Pirates",
+    "s": 0.08,
+    "e": 0.08
+   },
+   {
+    "w": "usually",
+    "s": 0.08,
+    "e": 0.34
+   },
+   {
+    "w": "spent",
+    "s": 0.34,
+    "e": 0.72
+   },
+   {
+    "w": "their",
+    "s": 0.72,
+    "e": 0.9
+   },
+   {
+    "w": "loot",
+    "s": 0.9,
+    "e": 1.06
+   },
+   {
+    "w": "fast,",
+    "s": 1.06,
+    "e": 1.46
+   },
+   {
+    "w": "on",
+    "s": 1.82,
+    "e": 1.96
+   },
+   {
+    "w": "food,",
+    "s": 1.96,
+    "e": 2.3
+   },
+   {
+    "w": "drink",
+    "s": 2.54,
+    "e": 2.68
+   },
+   {
+    "w": "and",
+    "s": 2.68,
+    "e": 2.96
+   },
+   {
+    "w": "fun",
+    "s": 2.96,
+    "e": 3.2
+   },
+   {
+    "w": "in",
+    "s": 3.2,
+    "e": 3.4
+   },
+   {
+    "w": "port.",
+    "s": 3.4,
+    "e": 3.58
+   },
+   {
+    "w": "Why",
+    "s": 4.18,
+    "e": 4.44
+   },
+   {
+    "w": "hide",
+    "s": 4.44,
+    "e": 4.82
+   },
+   {
+    "w": "it",
+    "s": 4.82,
+    "e": 4.96
+   },
+   {
+    "w": "in",
+    "s": 4.96,
+    "e": 5.08
+   },
+   {
+    "w": "the",
+    "s": 5.08,
+    "e": 5.24
+   },
+   {
+    "w": "sand?",
+    "s": 5.24,
+    "e": 5.54
+   }
+  ],
+  "heard": "Pirates usually spent their loot fast, on food, drink and fun in port. Why hide it in the sand?",
+  "match": 1.0
+ },
+ {
+  "id": "L31",
+  "chapter": 3,
+  "text": "There is one famous exception: Captain William Kidd.",
+  "dur": 3.42,
+  "words": [
+   {
+    "w": "There",
+    "s": 0.08,
+    "e": 0.3
+   },
+   {
+    "w": "is",
+    "s": 0.3,
+    "e": 0.52
+   },
+   {
+    "w": "one",
+    "s": 0.52,
+    "e": 0.9
+   },
+   {
+    "w": "famous",
+    "s": 0.9,
+    "e": 1.32
+   },
+   {
+    "w": "exception:",
+    "s": 1.32,
+    "e": 1.78
+   },
+   {
+    "w": "Captain",
+    "s": 2.28,
+    "e": 2.46
+   },
+   {
+    "w": "William",
+    "s": 2.46,
+    "e": 2.94
+   },
+   {
+    "w": "Kidd.",
+    "s": 2.94,
+    "e": 3.24
+   }
+  ],
+  "heard": "There is one famous exception. Captain William Kidd.",
+  "match": 1.0
+ },
+ {
+  "id": "L32",
+  "chapter": 3,
+  "text": "In 1699, knowing he was hunted, he buried some treasure on Gardiners Island, near New York.",
+  "dur": 5.6,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.08,
+    "e": 0.22
+   },
+   {
+    "w": "1699,",
+    "s": 0.22,
+    "e": 1.08
+   },
+   {
+    "w": "knowing",
+    "s": 1.34,
+    "e": 1.6
+   },
+   {
+    "w": "he",
+    "s": 1.6,
+    "e": 1.84
+   },
+   {
+    "w": "was",
+    "s": 1.84,
+    "e": 1.98
+   },
+   {
+    "w": "hunted,",
+    "s": 1.98,
+    "e": 2.24
+   },
+   {
+    "w": "he",
+    "s": 2.64,
+    "e": 2.78
+   },
+   {
+    "w": "buried",
+    "s": 2.78,
+    "e": 3.02
+   },
+   {
+    "w": "some",
+    "s": 3.02,
+    "e": 3.26
+   },
+   {
+    "w": "treasure",
+    "s": 3.26,
+    "e": 3.54
+   },
+   {
+    "w": "on",
+    "s": 3.54,
+    "e": 3.84
+   },
+   {
+    "w": "Gardiners",
+    "s": 3.84,
+    "e": 4.2
+   },
+   {
+    "w": "Island,",
+    "s": 4.2,
+    "e": 4.58
+   },
+   {
+    "w": "near",
+    "s": 4.86,
+    "e": 5.0
+   },
+   {
+    "w": "New",
+    "s": 5.0,
+    "e": 5.16
+   },
+   {
+    "w": "York.",
+    "s": 5.16,
+    "e": 5.42
+   }
+  ],
+  "heard": "In 1699, knowing he was hunted, he buried some treasure on Gardiners Island, near New York.",
+  "match": 1.0
+ },
+ {
+  "id": "L33",
+  "chapter": 3,
+  "text": "It was dug up the same year, and used as evidence against him.",
+  "dur": 3.48,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.08,
+    "e": 0.24
+   },
+   {
+    "w": "was",
+    "s": 0.24,
+    "e": 0.34
+   },
+   {
+    "w": "dug",
+    "s": 0.34,
+    "e": 0.54
+   },
+   {
+    "w": "up",
+    "s": 0.54,
+    "e": 0.7
+   },
+   {
+    "w": "the",
+    "s": 0.7,
+    "e": 0.86
+   },
+   {
+    "w": "same",
+    "s": 0.86,
+    "e": 1.14
+   },
+   {
+    "w": "year,",
+    "s": 1.14,
+    "e": 1.46
+   },
+   {
+    "w": "and",
+    "s": 1.64,
+    "e": 1.76
+   },
+   {
+    "w": "used",
+    "s": 1.76,
+    "e": 2.06
+   },
+   {
+    "w": "as",
+    "s": 2.06,
+    "e": 2.24
+   },
+   {
+    "w": "evidence",
+    "s": 2.24,
+    "e": 2.6
+   },
+   {
+    "w": "against",
+    "s": 2.6,
+    "e": 2.98
+   },
+   {
+    "w": "him.",
+    "s": 2.98,
+    "e": 3.3
+   }
+  ],
+  "heard": "It was dug up the same year, and used as evidence against him.",
+  "match": 1.0
+ },
+ {
+  "id": "L34",
+  "chapter": 3,
+  "text": "And treasure maps with an X? They come from stories, most of all Treasure Island.",
+  "dur": 4.46,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.08,
+    "e": 0.32
+   },
+   {
+    "w": "treasure",
+    "s": 0.32,
+    "e": 0.56
+   },
+   {
+    "w": "maps",
+    "s": 0.56,
+    "e": 0.84
+   },
+   {
+    "w": "with",
+    "s": 0.84,
+    "e": 1.04
+   },
+   {
+    "w": "an",
+    "s": 1.04,
+    "e": 1.16
+   },
+   {
+    "w": "X?",
+    "s": 1.16,
+    "e": 1.36
+   },
+   {
+    "w": "They",
+    "s": 1.66,
+    "e": 1.92
+   },
+   {
+    "w": "come",
+    "s": 1.92,
+    "e": 2.04
+   },
+   {
+    "w": "from",
+    "s": 2.04,
+    "e": 2.26
+   },
+   {
+    "w": "stories,",
+    "s": 2.26,
+    "e": 2.56
+   },
+   {
+    "w": "most",
+    "s": 3.12,
+    "e": 3.28
+   },
+   {
+    "w": "of",
+    "s": 3.28,
+    "e": 3.4
+   },
+   {
+    "w": "all",
+    "s": 3.4,
+    "e": 3.48
+   },
+   {
+    "w": "Treasure",
+    "s": 3.48,
+    "e": 3.88
+   },
+   {
+    "w": "Island.",
+    "s": 3.88,
+    "e": 4.28
+   }
+  ],
+  "heard": "And treasure maps with an X? They come from stories. Most of all, treasure island.",
+  "match": 1.0
+ },
+ {
+  "id": "L35",
+  "chapter": 3,
+  "text": "Number six: pirates flew the skull and crossbones.",
+  "dur": 2.84,
+  "words": [
+   {
+    "w": "Number",
+    "s": 0.08,
+    "e": 0.08
+   },
+   {
+    "w": "six:",
+    "s": 0.08,
+    "e": 0.46
+   },
+   {
+    "w": "pirates",
+    "s": 1.24,
+    "e": 1.24
+   },
+   {
+    "w": "flew",
+    "s": 1.24,
+    "e": 1.52
+   },
+   {
+    "w": "the",
+    "s": 1.52,
+    "e": 1.74
+   },
+   {
+    "w": "skull",
+    "s": 1.74,
+    "e": 1.94
+   },
+   {
+    "w": "and",
+    "s": 1.94,
+    "e": 2.16
+   },
+   {
+    "w": "crossbones.",
+    "s": 2.16,
+    "e": 2.66
+   }
+  ],
+  "heard": "Number six. Pirates flew the skull and crossbones.",
+  "match": 1.0
+ },
+ {
+  "id": "L36",
+  "chapter": 3,
+  "text": "True! But the reason will surprise you.",
+  "dur": 2.56,
+  "words": [
+   {
+    "w": "True!",
+    "s": 0.08,
+    "e": 0.42
+   },
+   {
+    "w": "But",
+    "s": 0.94,
+    "e": 1.14
+   },
+   {
+    "w": "the",
+    "s": 1.14,
+    "e": 1.22
+   },
+   {
+    "w": "reason",
+    "s": 1.22,
+    "e": 1.46
+   },
+   {
+    "w": "will",
+    "s": 1.46,
+    "e": 1.72
+   },
+   {
+    "w": "surprise",
+    "s": 1.72,
+    "e": 2.06
+   },
+   {
+    "w": "you.",
+    "s": 2.06,
+    "e": 2.38
+   }
+  ],
+  "heard": "True! But the reason will surprise you.",
+  "match": 1.0
+ },
+ {
+  "id": "L37",
+  "chapter": 3,
+  "text": "The flag wasn't for show. It was a warning: surrender now, and nobody gets hurt.",
+  "dur": 4.74,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.08,
+    "e": 0.3
+   },
+   {
+    "w": "flag",
+    "s": 0.3,
+    "e": 0.54
+   },
+   {
+    "w": "wasn't",
+    "s": 0.54,
+    "e": 0.78
+   },
+   {
+    "w": "for",
+    "s": 0.78,
+    "e": 0.96
+   },
+   {
+    "w": "show.",
+    "s": 0.96,
+    "e": 1.22
+   },
+   {
+    "w": "It",
+    "s": 1.54,
+    "e": 1.64
+   },
+   {
+    "w": "was",
+    "s": 1.64,
+    "e": 1.72
+   },
+   {
+    "w": "a",
+    "s": 1.72,
+    "e": 1.86
+   },
+   {
+    "w": "warning:",
+    "s": 1.86,
+    "e": 2.16
+   },
+   {
+    "w": "surrender",
+    "s": 2.86,
+    "e": 3.12
+   },
+   {
+    "w": "now,",
+    "s": 3.12,
+    "e": 3.44
+   },
+   {
+    "w": "and",
+    "s": 3.7,
+    "e": 3.8
+   },
+   {
+    "w": "nobody",
+    "s": 3.8,
+    "e": 4.02
+   },
+   {
+    "w": "gets",
+    "s": 4.02,
+    "e": 4.32
+   },
+   {
+    "w": "hurt.",
+    "s": 4.32,
+    "e": 4.56
+   }
+  ],
+  "heard": "The flag wasn't for show. It was a warning. Surrender now, and nobody gets hurt.",
+  "match": 1.0
+ },
+ {
+  "id": "L38",
+  "chapter": 3,
+  "text": "A real fight could sink the ship pirates wanted to steal, and kill their own crew.",
+  "dur": 4.0,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.08,
+    "e": 0.24
+   },
+   {
+    "w": "real",
+    "s": 0.24,
+    "e": 0.42
+   },
+   {
+    "w": "fight",
+    "s": 0.42,
+    "e": 0.7
+   },
+   {
+    "w": "could",
+    "s": 0.7,
+    "e": 0.88
+   },
+   {
+    "w": "sink",
+    "s": 0.88,
+    "e": 1.18
+   },
+   {
+    "w": "the",
+    "s": 1.18,
+    "e": 1.4
+   },
+   {
+    "w": "ship",
+    "s": 1.4,
+    "e": 1.58
+   },
+   {
+    "w": "pirates",
+    "s": 1.58,
+    "e": 1.9
+   },
+   {
+    "w": "wanted",
+    "s": 1.9,
+    "e": 2.16
+   },
+   {
+    "w": "to",
+    "s": 2.16,
+    "e": 2.34
+   },
+   {
+    "w": "steal,",
+    "s": 2.34,
+    "e": 2.6
+   },
+   {
+    "w": "and",
+    "s": 2.8,
+    "e": 3.0
+   },
+   {
+    "w": "kill",
+    "s": 3.0,
+    "e": 3.22
+   },
+   {
+    "w": "their",
+    "s": 3.22,
+    "e": 3.4
+   },
+   {
+    "w": "own",
+    "s": 3.4,
+    "e": 3.56
+   },
+   {
+    "w": "crew.",
+    "s": 3.56,
+    "e": 3.82
+   }
+  ],
+  "heard": "A real fight could sink the ship pirates wanted to steal, and kill their own crew.",
+  "match": 1.0
+ },
+ {
+  "id": "L39",
+  "chapter": 3,
+  "text": "So the scarier the flag, the more often ships simply gave up.",
+  "dur": 3.56,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.08,
+    "e": 0.3
+   },
+   {
+    "w": "the",
+    "s": 0.3,
+    "e": 0.44
+   },
+   {
+    "w": "scarier",
+    "s": 0.44,
+    "e": 0.84
+   },
+   {
+    "w": "the",
+    "s": 0.84,
+    "e": 1.02
+   },
+   {
+    "w": "flag,",
+    "s": 1.02,
+    "e": 1.34
+   },
+   {
+    "w": "the",
+    "s": 1.64,
+    "e": 1.74
+   },
+   {
+    "w": "more",
+    "s": 1.74,
+    "e": 1.88
+   },
+   {
+    "w": "often",
+    "s": 1.88,
+    "e": 2.22
+   },
+   {
+    "w": "ships",
+    "s": 2.22,
+    "e": 2.48
+   },
+   {
+    "w": "simply",
+    "s": 2.48,
+    "e": 2.92
+   },
+   {
+    "w": "gave",
+    "s": 2.92,
+    "e": 3.16
+   },
+   {
+    "w": "up.",
+    "s": 3.16,
+    "e": 3.38
+   }
+  ],
+  "heard": "So the scarier the flag, the more often ships simply gave up.",
+  "match": 1.0
+ },
+ {
+  "id": "L40",
+  "chapter": 3,
+  "text": "And if a ship refused, some pirates raised a red flag instead. That meant: no mercy.",
+  "dur": 5.66,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.08,
+    "e": 0.34
+   },
+   {
+    "w": "if",
+    "s": 0.34,
+    "e": 0.44
+   },
+   {
+    "w": "a",
+    "s": 0.44,
+    "e": 0.52
+   },
+   {
+    "w": "ship",
+    "s": 0.52,
+    "e": 0.68
+   },
+   {
+    "w": "refused,",
+    "s": 0.68,
+    "e": 1.14
+   },
+   {
+    "w": "some",
+    "s": 1.64,
+    "e": 1.74
+   },
+   {
+    "w": "pirates",
+    "s": 1.74,
+    "e": 2.1
+   },
+   {
+    "w": "raised",
+    "s": 2.1,
+    "e": 2.46
+   },
+   {
+    "w": "a",
+    "s": 2.46,
+    "e": 2.68
+   },
+   {
+    "w": "red",
+    "s": 2.68,
+    "e": 2.96
+   },
+   {
+    "w": "flag",
+    "s": 2.96,
+    "e": 3.32
+   },
+   {
+    "w": "instead.",
+    "s": 3.32,
+    "e": 3.7
+   },
+   {
+    "w": "That",
+    "s": 4.26,
+    "e": 4.42
+   },
+   {
+    "w": "meant:",
+    "s": 4.42,
+    "e": 4.62
+   },
+   {
+    "w": "no",
+    "s": 4.62,
+    "e": 5.22
+   },
+   {
+    "w": "mercy.",
+    "s": 5.22,
+    "e": 5.48
+   }
+  ],
+  "heard": "And if a ship refused, some pirates raised a red flag instead. That meant no mercy. Subs by www .zeoranger",
+  "match": 0.889
+ },
+ {
+  "id": "L41",
+  "chapter": 4,
+  "text": "Number seven: pirates had no rules.",
+  "dur": 2.72,
+  "words": [
+   {
+    "w": "Number",
+    "s": 0.0,
+    "e": 0.4
+   },
+   {
+    "w": "seven:",
+    "s": 0.4,
+    "e": 0.8
+   },
+   {
+    "w": "pirates",
+    "s": 1.64,
+    "e": 1.64
+   },
+   {
+    "w": "had",
+    "s": 1.64,
+    "e": 1.88
+   },
+   {
+    "w": "no",
+    "s": 1.88,
+    "e": 2.16
+   },
+   {
+    "w": "rules.",
+    "s": 2.16,
+    "e": 2.54
+   }
+  ],
+  "heard": "Number seven. Pirates had no rules.",
+  "match": 1.0
+ },
+ {
+  "id": "L42",
+  "chapter": 4,
+  "text": "Myth. Pirates signed written rules called articles.",
+  "dur": 3.5,
+  "words": [
+   {
+    "w": "Myth.",
+    "s": 0.08,
+    "e": 0.32
+   },
+   {
+    "w": "Pirates",
+    "s": 1.36,
+    "e": 1.36
+   },
+   {
+    "w": "signed",
+    "s": 1.36,
+    "e": 1.76
+   },
+   {
+    "w": "written",
+    "s": 1.76,
+    "e": 2.08
+   },
+   {
+    "w": "rules",
+    "s": 2.08,
+    "e": 2.56
+   },
+   {
+    "w": "called",
+    "s": 2.56,
+    "e": 2.88
+   },
+   {
+    "w": "articles.",
+    "s": 2.88,
+    "e": 3.32
+   }
+  ],
+  "heard": "Myth. Pirates signed written rules called articles.",
+  "match": 1.0
+ },
+ {
+  "id": "L43",
+  "chapter": 4,
+  "text": "One famous pirate, Bartholomew Roberts, had a crew rule: lights and candles out at eight o'clock at night.",
+  "dur": 5.84,
+  "words": [
+   {
+    "w": "One",
+    "s": 0.08,
+    "e": 0.3
+   },
+   {
+    "w": "famous",
+    "s": 0.3,
+    "e": 0.64
+   },
+   {
+    "w": "pirate,",
+    "s": 0.64,
+    "e": 1.0
+   },
+   {
+    "w": "Bartholomew",
+    "s": 1.3,
+    "e": 1.7
+   },
+   {
+    "w": "Roberts,",
+    "s": 1.7,
+    "e": 2.02
+   },
+   {
+    "w": "had",
+    "s": 2.18,
+    "e": 2.4
+   },
+   {
+    "w": "a",
+    "s": 2.4,
+    "e": 2.58
+   },
+   {
+    "w": "crew",
+    "s": 2.58,
+    "e": 2.72
+   },
+   {
+    "w": "rule:",
+    "s": 2.72,
+    "e": 3.06
+   },
+   {
+    "w": "lights",
+    "s": 3.06,
+    "e": 3.62
+   },
+   {
+    "w": "and",
+    "s": 3.62,
+    "e": 3.86
+   },
+   {
+    "w": "candles",
+    "s": 3.86,
+    "e": 4.2
+   },
+   {
+    "w": "out",
+    "s": 4.2,
+    "e": 4.46
+   },
+   {
+    "w": "at",
+    "s": 4.46,
+    "e": 4.7
+   },
+   {
+    "w": "eight",
+    "s": 4.7,
+    "e": 4.94
+   },
+   {
+    "w": "o'clock",
+    "s": 4.94,
+    "e": 5.26
+   },
+   {
+    "w": "at",
+    "s": 5.26,
+    "e": 5.44
+   },
+   {
+    "w": "night.",
+    "s": 5.44,
+    "e": 5.66
+   }
+  ],
+  "heard": "One famous pirate, Bartholomew Roberts, had a crew rule lights and candles out at eight o 'clock at night.",
+  "match": 0.919
+ },
+ {
+  "id": "L44",
+  "chapter": 4,
+  "text": "Want to keep drinking after that? Go and sit on the open deck, in the dark.",
+  "dur": 3.88,
+  "words": [
+   {
+    "w": "Want",
+    "s": 0.08,
+    "e": 0.16
+   },
+   {
+    "w": "to",
+    "s": 0.16,
+    "e": 0.24
+   },
+   {
+    "w": "keep",
+    "s": 0.24,
+    "e": 0.36
+   },
+   {
+    "w": "drinking",
+    "s": 0.36,
+    "e": 0.6
+   },
+   {
+    "w": "after",
+    "s": 0.6,
+    "e": 0.88
+   },
+   {
+    "w": "that?",
+    "s": 0.88,
+    "e": 1.12
+   },
+   {
+    "w": "Go",
+    "s": 1.64,
+    "e": 1.76
+   },
+   {
+    "w": "and",
+    "s": 1.76,
+    "e": 1.9
+   },
+   {
+    "w": "sit",
+    "s": 1.9,
+    "e": 2.06
+   },
+   {
+    "w": "on",
+    "s": 2.06,
+    "e": 2.2
+   },
+   {
+    "w": "the",
+    "s": 2.2,
+    "e": 2.28
+   },
+   {
+    "w": "open",
+    "s": 2.28,
+    "e": 2.6
+   },
+   {
+    "w": "deck,",
+    "s": 2.6,
+    "e": 2.84
+   },
+   {
+    "w": "in",
+    "s": 3.3,
+    "e": 3.42
+   },
+   {
+    "w": "the",
+    "s": 3.42,
+    "e": 3.5
+   },
+   {
+    "w": "dark.",
+    "s": 3.5,
+    "e": 3.7
+   }
+  ],
+  "heard": "Want to keep drinking after that? Go and sit on the open deck, in the dark.",
+  "match": 1.0
+ },
+ {
+  "id": "L45",
+  "chapter": 4,
+  "text": "His crew couldn't gamble for money on board, and they couldn't fight each other on the ship.",
+  "dur": 3.92,
+  "words": [
+   {
+    "w": "His",
+    "s": 0.08,
+    "e": 0.24
+   },
+   {
+    "w": "crew",
+    "s": 0.24,
+    "e": 0.48
+   },
+   {
+    "w": "couldn't",
+    "s": 0.48,
+    "e": 0.82
+   },
+   {
+    "w": "gamble",
+    "s": 0.82,
+    "e": 1.06
+   },
+   {
+    "w": "for",
+    "s": 1.06,
+    "e": 1.28
+   },
+   {
+    "w": "money",
+    "s": 1.28,
+    "e": 1.46
+   },
+   {
+    "w": "on",
+    "s": 1.46,
+    "e": 1.68
+   },
+   {
+    "w": "board,",
+    "s": 1.68,
+    "e": 1.94
+   },
+   {
+    "w": "and",
+    "s": 2.12,
+    "e": 2.4
+   },
+   {
+    "w": "they",
+    "s": 2.4,
+    "e": 2.52
+   },
+   {
+    "w": "couldn't",
+    "s": 2.52,
+    "e": 2.76
+   },
+   {
+    "w": "fight",
+    "s": 2.76,
+    "e": 2.94
+   },
+   {
+    "w": "each",
+    "s": 2.94,
+    "e": 3.12
+   },
+   {
+    "w": "other",
+    "s": 3.12,
+    "e": 3.24
+   },
+   {
+    "w": "on",
+    "s": 3.24,
+    "e": 3.42
+   },
+   {
+    "w": "the",
+    "s": 3.42,
+    "e": 3.56
+   },
+   {
+    "w": "ship.",
+    "s": 3.56,
+    "e": 3.74
+   }
+  ],
+  "heard": "His crew couldn't gamble for money on board, and they couldn't fight each other on the ship.",
+  "match": 1.0
+ },
+ {
+  "id": "L46",
+  "chapter": 4,
+  "text": "Arguments were settled on land instead.",
+  "dur": 2.02,
+  "words": [
+   {
+    "w": "Arguments",
+    "s": 0.08,
+    "e": 0.32
+   },
+   {
+    "w": "were",
+    "s": 0.32,
+    "e": 0.56
+   },
+   {
+    "w": "settled",
+    "s": 0.56,
+    "e": 0.84
+   },
+   {
+    "w": "on",
+    "s": 0.84,
+    "e": 1.1
+   },
+   {
+    "w": "land",
+    "s": 1.1,
+    "e": 1.42
+   },
+   {
+    "w": "instead.",
+    "s": 1.42,
+    "e": 1.84
+   }
+  ],
+  "heard": "Arguments were settled on land instead.",
+  "match": 1.0
+ },
+ {
+  "id": "L47",
+  "chapter": 4,
+  "text": "Number eight: pirates got injury insurance.",
+  "dur": 2.66,
+  "words": [
+   {
+    "w": "Number",
+    "s": 0.08,
+    "e": 0.2
+   },
+   {
+    "w": "eight:",
+    "s": 0.2,
+    "e": 0.46
+   },
+   {
+    "w": "pirates",
+    "s": 1.28,
+    "e": 1.28
+   },
+   {
+    "w": "got",
+    "s": 1.28,
+    "e": 1.52
+   },
+   {
+    "w": "injury",
+    "s": 1.52,
+    "e": 1.94
+   },
+   {
+    "w": "insurance.",
+    "s": 1.94,
+    "e": 2.48
+   }
+  ],
+  "heard": "Number eight. Pirates got injury insurance.",
+  "match": 1.0
+ },
+ {
+  "id": "L48",
+  "chapter": 4,
+  "text": "Believe it or not... true.",
+  "dur": 1.64,
+  "words": [
+   {
+    "w": "Believe",
+    "s": 0.08,
+    "e": 0.28
+   },
+   {
+    "w": "it",
+    "s": 0.28,
+    "e": 0.42
+   },
+   {
+    "w": "or",
+    "s": 0.42,
+    "e": 0.52
+   },
+   {
+    "w": "not...",
+    "s": 0.52,
+    "e": 1.42
+   },
+   {
+    "w": "true.",
+    "s": 1.42,
+    "e": 1.46
+   }
+  ],
+  "heard": "Believe it or not... true.",
+  "match": 1.0
+ },
+ {
+  "id": "L49",
+  "chapter": 4,
+  "text": "One buccaneer crew in the 1670s agreed on a price list for injuries, paid from the shared loot.",
+  "dur": 5.96,
+  "words": [
+   {
+    "w": "One",
+    "s": 0.08,
+    "e": 0.58
+   },
+   {
+    "w": "buccaneer",
+    "s": 0.58,
+    "e": 1.04
+   },
+   {
+    "w": "crew",
+    "s": 1.04,
+    "e": 1.24
+   },
+   {
+    "w": "in",
+    "s": 1.24,
+    "e": 1.42
+   },
+   {
+    "w": "the",
+    "s": 1.42,
+    "e": 1.52
+   },
+   {
+    "w": "1670s",
+    "s": 1.52,
+    "e": 2.42
+   },
+   {
+    "w": "agreed",
+    "s": 2.42,
+    "e": 2.68
+   },
+   {
+    "w": "on",
+    "s": 2.68,
+    "e": 2.96
+   },
+   {
+    "w": "a",
+    "s": 2.96,
+    "e": 3.12
+   },
+   {
+    "w": "price",
+    "s": 3.12,
+    "e": 3.48
+   },
+   {
+    "w": "list",
+    "s": 3.48,
+    "e": 3.8
+   },
+   {
+    "w": "for",
+    "s": 3.8,
+    "e": 4.04
+   },
+   {
+    "w": "injuries,",
+    "s": 4.04,
+    "e": 4.42
+   },
+   {
+    "w": "paid",
+    "s": 4.68,
+    "e": 5.0
+   },
+   {
+    "w": "from",
+    "s": 5.0,
+    "e": 5.24
+   },
+   {
+    "w": "the",
+    "s": 5.24,
+    "e": 5.34
+   },
+   {
+    "w": "shared",
+    "s": 5.34,
+    "e": 5.52
+   },
+   {
+    "w": "loot.",
+    "s": 5.52,
+    "e": 5.78
+   }
+  ],
+  "heard": "One buccaneer crew in the 1670s agreed on a price list for injuries, paid from the shared loot.",
+  "match": 1.0
+ },
+ {
+  "id": "L50",
+  "chapter": 4,
+  "text": "Lose your right arm? Six hundred pieces of eight. Your left arm, five hundred.",
+  "dur": 4.68,
+  "words": [
+   {
+    "w": "Lose",
+    "s": 0.08,
+    "e": 0.18
+   },
+   {
+    "w": "your",
+    "s": 0.18,
+    "e": 0.34
+   },
+   {
+    "w": "right",
+    "s": 0.34,
+    "e": 0.48
+   },
+   {
+    "w": "arm?",
+    "s": 0.48,
+    "e": 0.68
+   },
+   {
+    "w": "Six",
+    "s": 1.38,
+    "e": 1.42
+   },
+   {
+    "w": "hundred",
+    "s": 1.42,
+    "e": 1.7
+   },
+   {
+    "w": "pieces",
+    "s": 1.7,
+    "e": 2.02
+   },
+   {
+    "w": "of",
+    "s": 2.02,
+    "e": 2.18
+   },
+   {
+    "w": "eight.",
+    "s": 2.18,
+    "e": 2.3
+   },
+   {
+    "w": "Your",
+    "s": 2.92,
+    "e": 3.12
+   },
+   {
+    "w": "left",
+    "s": 3.12,
+    "e": 3.26
+   },
+   {
+    "w": "arm,",
+    "s": 3.26,
+    "e": 3.5
+   },
+   {
+    "w": "five",
+    "s": 4.08,
+    "e": 4.22
+   },
+   {
+    "w": "hundred.",
+    "s": 4.22,
+    "e": 4.5
+   }
+  ],
+  "heard": "Lose your right arm? Six hundred pieces of eight. Your left arm? Five hundred.",
+  "match": 1.0
+ },
+ {
+  "id": "L51",
+  "chapter": 4,
+  "text": "A right leg, five hundred. An eye or a finger, one hundred.",
+  "dur": 4.54,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.08,
+    "e": 0.28
+   },
+   {
+    "w": "right",
+    "s": 0.28,
+    "e": 0.4
+   },
+   {
+    "w": "leg,",
+    "s": 0.4,
+    "e": 0.66
+   },
+   {
+    "w": "five",
+    "s": 1.2,
+    "e": 1.38
+   },
+   {
+    "w": "hundred.",
+    "s": 1.38,
+    "e": 1.66
+   },
+   {
+    "w": "An",
+    "s": 2.24,
+    "e": 2.44
+   },
+   {
+    "w": "eye",
+    "s": 2.44,
+    "e": 2.74
+   },
+   {
+    "w": "or",
+    "s": 2.74,
+    "e": 2.94
+   },
+   {
+    "w": "a",
+    "s": 2.94,
+    "e": 3.06
+   },
+   {
+    "w": "finger,",
+    "s": 3.06,
+    "e": 3.24
+   },
+   {
+    "w": "one",
+    "s": 3.86,
+    "e": 4.02
+   },
+   {
+    "w": "hundred.",
+    "s": 4.02,
+    "e": 4.36
+   }
+  ],
+  "heard": "A right leg? Five hundred. An eye or a finger? One hundred.",
+  "match": 1.0
+ },
+ {
+  "id": "L52",
+  "chapter": 4,
+  "text": "A small fortune for an ordinary sailor, agreed before the voyage even began.",
+  "dur": 4.32,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.08,
+    "e": 0.24
+   },
+   {
+    "w": "small",
+    "s": 0.24,
+    "e": 0.62
+   },
+   {
+    "w": "fortune",
+    "s": 0.62,
+    "e": 0.96
+   },
+   {
+    "w": "for",
+    "s": 0.96,
+    "e": 1.22
+   },
+   {
+    "w": "an",
+    "s": 1.22,
+    "e": 1.34
+   },
+   {
+    "w": "ordinary",
+    "s": 1.34,
+    "e": 1.7
+   },
+   {
+    "w": "sailor,",
+    "s": 1.7,
+    "e": 2.08
+   },
+   {
+    "w": "agreed",
+    "s": 2.4,
+    "e": 2.74
+   },
+   {
+    "w": "before",
+    "s": 2.74,
+    "e": 3.16
+   },
+   {
+    "w": "the",
+    "s": 3.16,
+    "e": 3.3
+   },
+   {
+    "w": "voyage",
+    "s": 3.3,
+    "e": 3.58
+   },
+   {
+    "w": "even",
+    "s": 3.58,
+    "e": 3.8
+   },
+   {
+    "w": "began.",
+    "s": 3.8,
+    "e": 4.14
+   }
+  ],
+  "heard": "A small fortune for an ordinary sailor, agreed before the voyage even began.",
+  "match": 1.0
+ },
+ {
+  "id": "L53",
+  "chapter": 5,
+  "text": "Number nine: the captain was the boss.",
+  "dur": 3.24,
+  "words": [
+   {
+    "w": "Number",
+    "s": 0.0,
+    "e": 0.42
+   },
+   {
+    "w": "nine:",
+    "s": 0.42,
+    "e": 0.72
+   },
+   {
+    "w": "the",
+    "s": 1.5,
+    "e": 1.5
+   },
+   {
+    "w": "captain",
+    "s": 1.5,
+    "e": 1.9
+   },
+   {
+    "w": "was",
+    "s": 1.9,
+    "e": 2.48
+   },
+   {
+    "w": "the",
+    "s": 2.48,
+    "e": 2.78
+   },
+   {
+    "w": "boss.",
+    "s": 2.78,
+    "e": 3.06
+   }
+  ],
+  "heard": "Number nine. The captain was the boss.",
+  "match": 1.0
+ },
+ {
+  "id": "L54",
+  "chapter": 5,
+  "text": "Only sometimes.",
+  "dur": 1.2,
+  "words": [
+   {
+    "w": "Only",
+    "s": 0.08,
+    "e": 0.34
+   },
+   {
+    "w": "sometimes.",
+    "s": 0.34,
+    "e": 1.02
+   }
+  ],
+  "heard": "Only sometimes.",
+  "match": 1.0
+ },
+ {
+  "id": "L55",
+  "chapter": 5,
+  "text": "On many pirate ships, the crew voted for their captain... and could vote him out.",
+  "dur": 4.34,
+  "words": [
+   {
+    "w": "On",
+    "s": 0.08,
+    "e": 0.28
+   },
+   {
+    "w": "many",
+    "s": 0.28,
+    "e": 0.48
+   },
+   {
+    "w": "pirate",
+    "s": 0.48,
+    "e": 0.7
+   },
+   {
+    "w": "ships,",
+    "s": 0.7,
+    "e": 0.98
+   },
+   {
+    "w": "the",
+    "s": 1.38,
+    "e": 1.5
+   },
+   {
+    "w": "crew",
+    "s": 1.5,
+    "e": 1.68
+   },
+   {
+    "w": "voted",
+    "s": 1.68,
+    "e": 2.02
+   },
+   {
+    "w": "for",
+    "s": 2.02,
+    "e": 2.26
+   },
+   {
+    "w": "their",
+    "s": 2.26,
+    "e": 2.4
+   },
+   {
+    "w": "captain...",
+    "s": 2.4,
+    "e": 3.3
+   },
+   {
+    "w": "and",
+    "s": 3.3,
+    "e": 3.36
+   },
+   {
+    "w": "could",
+    "s": 3.36,
+    "e": 3.66
+   },
+   {
+    "w": "vote",
+    "s": 3.66,
+    "e": 3.88
+   },
+   {
+    "w": "him",
+    "s": 3.88,
+    "e": 3.98
+   },
+   {
+    "w": "out.",
+    "s": 3.98,
+    "e": 4.16
+   }
+  ],
+  "heard": "On many pirate ships, the crew voted for their captain... and could vote him out.",
+  "match": 1.0
+ },
+ {
+  "id": "L56",
+  "chapter": 5,
+  "text": "In battle, his word was law. But the rest of the time, another elected officer, the quartermaster, handled food, loot and fights.",
+  "dur": 7.38,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.08,
+    "e": 0.36
+   },
+   {
+    "w": "battle,",
+    "s": 0.36,
+    "e": 0.58
+   },
+   {
+    "w": "his",
+    "s": 0.7,
+    "e": 0.84
+   },
+   {
+    "w": "word",
+    "s": 0.84,
+    "e": 1.02
+   },
+   {
+    "w": "was",
+    "s": 1.02,
+    "e": 1.2
+   },
+   {
+    "w": "law.",
+    "s": 1.2,
+    "e": 1.48
+   },
+   {
+    "w": "But",
+    "s": 1.78,
+    "e": 1.98
+   },
+   {
+    "w": "the",
+    "s": 1.98,
+    "e": 2.08
+   },
+   {
+    "w": "rest",
+    "s": 2.08,
+    "e": 2.22
+   },
+   {
+    "w": "of",
+    "s": 2.22,
+    "e": 2.38
+   },
+   {
+    "w": "the",
+    "s": 2.38,
+    "e": 2.48
+   },
+   {
+    "w": "time,",
+    "s": 2.48,
+    "e": 2.72
+   },
+   {
+    "w": "another",
+    "s": 2.98,
+    "e": 3.3
+   },
+   {
+    "w": "elected",
+    "s": 3.3,
+    "e": 3.66
+   },
+   {
+    "w": "officer,",
+    "s": 3.66,
+    "e": 4.04
+   },
+   {
+    "w": "the",
+    "s": 4.34,
+    "e": 4.48
+   },
+   {
+    "w": "quartermaster,",
+    "s": 4.48,
+    "e": 4.9
+   },
+   {
+    "w": "handled",
+    "s": 5.16,
+    "e": 5.56
+   },
+   {
+    "w": "food,",
+    "s": 5.56,
+    "e": 6.0
+   },
+   {
+    "w": "loot",
+    "s": 6.48,
+    "e": 6.5
+   },
+   {
+    "w": "and",
+    "s": 6.5,
+    "e": 6.9
+   },
+   {
+    "w": "fights.",
+    "s": 6.9,
+    "e": 7.2
+   }
+  ],
+  "heard": "In battle, his word was law. But the rest of the time, another elected officer, the quartermaster, handled food, loot and fights.",
+  "match": 1.0
+ },
+ {
+  "id": "L57",
+  "chapter": 5,
+  "text": "On a navy ship, you obeyed or you were punished. On a pirate ship, you got a vote.",
+  "dur": 5.02,
+  "words": [
+   {
+    "w": "On",
+    "s": 0.08,
+    "e": 0.24
+   },
+   {
+    "w": "a",
+    "s": 0.24,
+    "e": 0.36
+   },
+   {
+    "w": "navy",
+    "s": 0.36,
+    "e": 0.48
+   },
+   {
+    "w": "ship,",
+    "s": 0.48,
+    "e": 0.74
+   },
+   {
+    "w": "you",
+    "s": 0.92,
+    "e": 1.06
+   },
+   {
+    "w": "obeyed",
+    "s": 1.06,
+    "e": 1.48
+   },
+   {
+    "w": "or",
+    "s": 1.48,
+    "e": 1.72
+   },
+   {
+    "w": "you",
+    "s": 1.72,
+    "e": 1.86
+   },
+   {
+    "w": "were",
+    "s": 1.86,
+    "e": 2.0
+   },
+   {
+    "w": "punished.",
+    "s": 2.0,
+    "e": 2.44
+   },
+   {
+    "w": "On",
+    "s": 3.0,
+    "e": 3.14
+   },
+   {
+    "w": "a",
+    "s": 3.14,
+    "e": 3.22
+   },
+   {
+    "w": "pirate",
+    "s": 3.22,
+    "e": 3.4
+   },
+   {
+    "w": "ship,",
+    "s": 3.4,
+    "e": 3.68
+   },
+   {
+    "w": "you",
+    "s": 4.12,
+    "e": 4.42
+   },
+   {
+    "w": "got",
+    "s": 4.42,
+    "e": 4.54
+   },
+   {
+    "w": "a",
+    "s": 4.54,
+    "e": 4.68
+   },
+   {
+    "w": "vote.",
+    "s": 4.68,
+    "e": 4.84
+   }
+  ],
+  "heard": "On a navy ship, you obeyed or you were punished. On a pirate ship, you got a vote.",
+  "match": 1.0
+ },
+ {
+  "id": "L58",
+  "chapter": 5,
+  "text": "And number ten: some of the most famous pirates were women.",
+  "dur": 4.0,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.08,
+    "e": 0.3
+   },
+   {
+    "w": "number",
+    "s": 0.3,
+    "e": 0.42
+   },
+   {
+    "w": "ten:",
+    "s": 0.42,
+    "e": 0.76
+   },
+   {
+    "w": "some",
+    "s": 1.28,
+    "e": 1.52
+   },
+   {
+    "w": "of",
+    "s": 1.52,
+    "e": 1.64
+   },
+   {
+    "w": "the",
+    "s": 1.64,
+    "e": 1.8
+   },
+   {
+    "w": "most",
+    "s": 1.8,
+    "e": 2.02
+   },
+   {
+    "w": "famous",
+    "s": 2.02,
+    "e": 2.44
+   },
+   {
+    "w": "pirates",
+    "s": 2.44,
+    "e": 2.9
+   },
+   {
+    "w": "were",
+    "s": 2.9,
+    "e": 3.46
+   },
+   {
+    "w": "women.",
+    "s": 3.46,
+    "e": 3.82
+   }
+  ],
+  "heard": "And number ten. Some of the most famous pirates were women.",
+  "match": 1.0
+ },
+ {
+  "id": "L59",
+  "chapter": 5,
+  "text": "True.",
+  "dur": 0.32,
+  "words": [
+   {
+    "w": "True.",
+    "s": 0.08,
+    "e": 0.14
+   }
+  ],
+  "heard": "True.",
+  "match": 1.0
+ },
+ {
+  "id": "L60",
+  "chapter": 5,
+  "text": "In 1720, Anne Bonny and Mary Read sailed with the pirate Calico Jack in the Caribbean.",
+  "dur": 5.4,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.08,
+    "e": 0.26
+   },
+   {
+    "w": "1720,",
+    "s": 0.26,
+    "e": 1.06
+   },
+   {
+    "w": "Anne",
+    "s": 1.56,
+    "e": 1.62
+   },
+   {
+    "w": "Bonny",
+    "s": 1.62,
+    "e": 1.96
+   },
+   {
+    "w": "and",
+    "s": 1.96,
+    "e": 2.16
+   },
+   {
+    "w": "Mary",
+    "s": 2.16,
+    "e": 2.4
+   },
+   {
+    "w": "Read",
+    "s": 2.4,
+    "e": 2.62
+   },
+   {
+    "w": "sailed",
+    "s": 2.62,
+    "e": 2.92
+   },
+   {
+    "w": "with",
+    "s": 2.92,
+    "e": 3.16
+   },
+   {
+    "w": "the",
+    "s": 3.16,
+    "e": 3.32
+   },
+   {
+    "w": "pirate",
+    "s": 3.32,
+    "e": 3.7
+   },
+   {
+    "w": "Calico",
+    "s": 3.7,
+    "e": 4.2
+   },
+   {
+    "w": "Jack",
+    "s": 4.2,
+    "e": 4.46
+   },
+   {
+    "w": "in",
+    "s": 4.46,
+    "e": 4.74
+   },
+   {
+    "w": "the",
+    "s": 4.74,
+    "e": 4.88
+   },
+   {
+    "w": "Caribbean.",
+    "s": 4.88,
+    "e": 5.22
+   }
+  ],
+  "heard": "In 1720, Anne Bonny and Mary Read sailed with the pirate Calico Jack in the Caribbean.",
+  "match": 1.0
+ },
+ {
+  "id": "L61",
+  "chapter": 5,
+  "text": "When their ship was captured, the two women were put on trial in Jamaica... and both were sentenced to hang.",
+  "dur": 5.16,
+  "words": [
+   {
+    "w": "When",
+    "s": 0.08,
+    "e": 0.24
+   },
+   {
+    "w": "their",
+    "s": 0.24,
+    "e": 0.34
+   },
+   {
+    "w": "ship",
+    "s": 0.34,
+    "e": 0.44
+   },
+   {
+    "w": "was",
+    "s": 0.44,
+    "e": 0.58
+   },
+   {
+    "w": "captured,",
+    "s": 0.58,
+    "e": 0.94
+   },
+   {
+    "w": "the",
+    "s": 1.32,
+    "e": 1.44
+   },
+   {
+    "w": "two",
+    "s": 1.44,
+    "e": 1.58
+   },
+   {
+    "w": "women",
+    "s": 1.58,
+    "e": 1.76
+   },
+   {
+    "w": "were",
+    "s": 1.76,
+    "e": 1.94
+   },
+   {
+    "w": "put",
+    "s": 1.94,
+    "e": 2.1
+   },
+   {
+    "w": "on",
+    "s": 2.1,
+    "e": 2.26
+   },
+   {
+    "w": "trial",
+    "s": 2.26,
+    "e": 2.56
+   },
+   {
+    "w": "in",
+    "s": 2.56,
+    "e": 2.74
+   },
+   {
+    "w": "Jamaica...",
+    "s": 2.74,
+    "e": 3.62
+   },
+   {
+    "w": "and",
+    "s": 3.62,
+    "e": 3.72
+   },
+   {
+    "w": "both",
+    "s": 3.72,
+    "e": 3.92
+   },
+   {
+    "w": "were",
+    "s": 3.92,
+    "e": 4.2
+   },
+   {
+    "w": "sentenced",
+    "s": 4.2,
+    "e": 4.48
+   },
+   {
+    "w": "to",
+    "s": 4.48,
+    "e": 4.74
+   },
+   {
+    "w": "hang.",
+    "s": 4.74,
+    "e": 4.98
+   }
+  ],
+  "heard": "When the ship was captured, the two women were put on trial in Jamaica... and both were sentenced to hang.",
+  "match": 0.95
+ },
+ {
+  "id": "L62",
+  "chapter": 5,
+  "text": "But they told the court they were expecting babies, so their executions were stopped.",
+  "dur": 4.06,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.08,
+    "e": 0.26
+   },
+   {
+    "w": "they",
+    "s": 0.26,
+    "e": 0.6
+   },
+   {
+    "w": "told",
+    "s": 0.6,
+    "e": 0.76
+   },
+   {
+    "w": "the",
+    "s": 0.76,
+    "e": 0.92
+   },
+   {
+    "w": "court",
+    "s": 0.92,
+    "e": 1.06
+   },
+   {
+    "w": "they",
+    "s": 1.06,
+    "e": 1.22
+   },
+   {
+    "w": "were",
+    "s": 1.22,
+    "e": 1.32
+   },
+   {
+    "w": "expecting",
+    "s": 1.32,
+    "e": 1.66
+   },
+   {
+    "w": "babies,",
+    "s": 1.66,
+    "e": 2.04
+   },
+   {
+    "w": "so",
+    "s": 2.4,
+    "e": 2.64
+   },
+   {
+    "w": "their",
+    "s": 2.64,
+    "e": 2.78
+   },
+   {
+    "w": "executions",
+    "s": 2.78,
+    "e": 3.22
+   },
+   {
+    "w": "were",
+    "s": 3.22,
+    "e": 3.56
+   },
+   {
+    "w": "stopped.",
+    "s": 3.56,
+    "e": 3.88
+   }
+  ],
+  "heard": "But they told the court they were expecting babies, so their executions were stopped.",
+  "match": 1.0
+ },
+ {
+  "id": "L63",
+  "chapter": 5,
+  "text": "Mary Read died in prison the next year. And Anne Bonny? Nobody knows for sure what happened to her.",
+  "dur": 6.0,
+  "words": [
+   {
+    "w": "Mary",
+    "s": 0.08,
+    "e": 0.28
+   },
+   {
+    "w": "Read",
+    "s": 0.28,
+    "e": 0.46
+   },
+   {
+    "w": "died",
+    "s": 0.46,
+    "e": 0.66
+   },
+   {
+    "w": "in",
+    "s": 0.66,
+    "e": 0.86
+   },
+   {
+    "w": "prison",
+    "s": 0.86,
+    "e": 1.02
+   },
+   {
+    "w": "the",
+    "s": 1.02,
+    "e": 1.18
+   },
+   {
+    "w": "next",
+    "s": 1.18,
+    "e": 1.4
+   },
+   {
+    "w": "year.",
+    "s": 1.4,
+    "e": 1.72
+   },
+   {
+    "w": "And",
+    "s": 2.56,
+    "e": 2.66
+   },
+   {
+    "w": "Anne",
+    "s": 2.66,
+    "e": 2.88
+   },
+   {
+    "w": "Bonny?",
+    "s": 2.88,
+    "e": 3.18
+   },
+   {
+    "w": "Nobody",
+    "s": 4.26,
+    "e": 4.46
+   },
+   {
+    "w": "knows",
+    "s": 4.46,
+    "e": 4.72
+   },
+   {
+    "w": "for",
+    "s": 4.72,
+    "e": 4.94
+   },
+   {
+    "w": "sure",
+    "s": 4.94,
+    "e": 5.18
+   },
+   {
+    "w": "what",
+    "s": 5.18,
+    "e": 5.36
+   },
+   {
+    "w": "happened",
+    "s": 5.36,
+    "e": 5.56
+   },
+   {
+    "w": "to",
+    "s": 5.56,
+    "e": 5.74
+   },
+   {
+    "w": "her.",
+    "s": 5.74,
+    "e": 5.82
+   }
+  ],
+  "heard": "Mary Read died in prison the next year. And Anne Bonny? Nobody knows for sure what happened to her.",
+  "match": 1.0
+ },
+ {
+  "id": "L64",
+  "chapter": 6,
+  "text": "So: no \"arrr\", few parrots, almost no planks, and hardly any buried treasure.",
+  "dur": 7.34,
+  "words": [
+   {
+    "w": "So:",
+    "s": 0.0,
+    "e": 0.5
+   },
+   {
+    "w": "no",
+    "s": 1.2,
+    "e": 1.56
+   },
+   {
+    "w": "\"arrr\",",
+    "s": 1.56,
+    "e": 2.82
+   },
+   {
+    "w": "few",
+    "s": 2.82,
+    "e": 3.1
+   },
+   {
+    "w": "parrots,",
+    "s": 3.1,
+    "e": 3.58
+   },
+   {
+    "w": "almost",
+    "s": 4.06,
+    "e": 4.3
+   },
+   {
+    "w": "no",
+    "s": 4.3,
+    "e": 4.8
+   },
+   {
+    "w": "planks,",
+    "s": 4.8,
+    "e": 5.26
+   },
+   {
+    "w": "and",
+    "s": 5.64,
+    "e": 5.84
+   },
+   {
+    "w": "hardly",
+    "s": 5.84,
+    "e": 6.18
+   },
+   {
+    "w": "any",
+    "s": 6.18,
+    "e": 6.56
+   },
+   {
+    "w": "buried",
+    "s": 6.56,
+    "e": 6.82
+   },
+   {
+    "w": "treasure.",
+    "s": 6.82,
+    "e": 7.16
+   }
+  ],
+  "heard": "So, no r, few parrots, almost no planks, and hardly any buried treasure.",
+  "match": 0.923
+ },
+ {
+  "id": "L65",
+  "chapter": 6,
+  "text": "But written rules, injury insurance, elections, and women pirates? All real.",
+  "dur": 5.94,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.08,
+    "e": 0.26
+   },
+   {
+    "w": "written",
+    "s": 0.26,
+    "e": 0.8
+   },
+   {
+    "w": "rules,",
+    "s": 0.8,
+    "e": 1.26
+   },
+   {
+    "w": "injury",
+    "s": 1.78,
+    "e": 2.0
+   },
+   {
+    "w": "insurance,",
+    "s": 2.0,
+    "e": 2.48
+   },
+   {
+    "w": "elections,",
+    "s": 2.92,
+    "e": 3.36
+   },
+   {
+    "w": "and",
+    "s": 3.86,
+    "e": 3.96
+   },
+   {
+    "w": "women",
+    "s": 3.96,
+    "e": 4.26
+   },
+   {
+    "w": "pirates?",
+    "s": 4.26,
+    "e": 4.76
+   },
+   {
+    "w": "All",
+    "s": 5.44,
+    "e": 5.52
+   },
+   {
+    "w": "real.",
+    "s": 5.52,
+    "e": 5.76
+   }
+  ],
+  "heard": "But written rules, injury insurance, elections, and women pirates? All real.",
+  "match": 1.0
+ },
+ {
+  "id": "L66",
+  "chapter": 6,
+  "text": "The real pirates were stranger than the movies ever showed.",
+  "dur": 2.92,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.08,
+    "e": 0.32
+   },
+   {
+    "w": "real",
+    "s": 0.32,
+    "e": 0.52
+   },
+   {
+    "w": "pirates",
+    "s": 0.52,
+    "e": 0.88
+   },
+   {
+    "w": "were",
+    "s": 0.88,
+    "e": 1.1
+   },
+   {
+    "w": "stranger",
+    "s": 1.1,
+    "e": 1.42
+   },
+   {
+    "w": "than",
+    "s": 1.42,
+    "e": 1.66
+   },
+   {
+    "w": "the",
+    "s": 1.66,
+    "e": 1.76
+   },
+   {
+    "w": "movies",
+    "s": 1.76,
+    "e": 2.0
+   },
+   {
+    "w": "ever",
+    "s": 2.0,
+    "e": 2.3
+   },
+   {
+    "w": "showed.",
+    "s": 2.3,
+    "e": 2.74
+   }
+  ],
+  "heard": "The real pirates were stranger than the movies ever showed.",
+  "match": 1.0
+ },
+ {
+  "id": "L67",
+  "chapter": 6,
+  "text": "Which one surprised you the most? Tell us in the comments.",
+  "dur": 2.56,
+  "words": [
+   {
+    "w": "Which",
+    "s": 0.08,
+    "e": 0.2
+   },
+   {
+    "w": "one",
+    "s": 0.2,
+    "e": 0.34
+   },
+   {
+    "w": "surprised",
+    "s": 0.34,
+    "e": 0.66
+   },
+   {
+    "w": "you",
+    "s": 0.66,
+    "e": 0.86
+   },
+   {
+    "w": "the",
+    "s": 0.86,
+    "e": 0.94
+   },
+   {
+    "w": "most?",
+    "s": 0.94,
+    "e": 1.18
+   },
+   {
+    "w": "Tell",
+    "s": 1.78,
+    "e": 1.86
+   },
+   {
+    "w": "us",
+    "s": 1.86,
+    "e": 1.98
+   },
+   {
+    "w": "in",
+    "s": 1.98,
+    "e": 2.08
+   },
+   {
+    "w": "the",
+    "s": 2.08,
+    "e": 2.18
+   },
+   {
+    "w": "comments.",
+    "s": 2.18,
+    "e": 2.38
+   }
+  ],
+  "heard": "Which one surprised you the most? Tell us in the comments.",
+  "match": 1.0
+ },
+ {
+  "id": "H1",
+  "chapter": null,
+  "text": "Pirates never really talked like this. Arrr!",
+  "dur": 3.46,
+  "words": [
+   {
+    "w": "Pirates",
+    "s": 0.0,
+    "e": 0.62
+   },
+   {
+    "w": "never",
+    "s": 0.62,
+    "e": 0.92
+   },
+   {
+    "w": "really",
+    "s": 0.92,
+    "e": 1.28
+   },
+   {
+    "w": "talked",
+    "s": 1.28,
+    "e": 1.64
+   },
+   {
+    "w": "like",
+    "s": 1.64,
+    "e": 1.94
+   },
+   {
+    "w": "this.",
+    "s": 1.94,
+    "e": 2.56
+   },
+   {
+    "w": "Arrr!",
+    "s": 2.84,
+    "e": 3.26
+   }
+  ],
+  "heard": "Pirates never really talked like this. Arrr!",
+  "match": 1.0
+ },
+ {
+  "id": "H2",
+  "chapter": null,
+  "text": "Most pirates never had a parrot on their shoulder.",
+  "dur": 2.74,
+  "words": [
+   {
+    "w": "Most",
+    "s": 0.08,
+    "e": 0.38
+   },
+   {
+    "w": "pirates",
+    "s": 0.38,
+    "e": 0.74
+   },
+   {
+    "w": "never",
+    "s": 0.74,
+    "e": 1.08
+   },
+   {
+    "w": "had",
+    "s": 1.08,
+    "e": 1.38
+   },
+   {
+    "w": "a",
+    "s": 1.38,
+    "e": 1.66
+   },
+   {
+    "w": "parrot",
+    "s": 1.66,
+    "e": 1.92
+   },
+   {
+    "w": "on",
+    "s": 1.92,
+    "e": 2.1
+   },
+   {
+    "w": "their",
+    "s": 2.1,
+    "e": 2.26
+   },
+   {
+    "w": "shoulder.",
+    "s": 2.26,
+    "e": 2.54
+   }
+  ],
+  "heard": "Most pirates never had a parrot on their shoulder.",
+  "match": 1.0
+ },
+ {
+  "id": "H3",
+  "chapter": null,
+  "text": "Pirates wore eye patches... but probably not for the reason you think.",
+  "dur": 3.6,
+  "words": [
+   {
+    "w": "Pirates",
+    "s": 0.08,
+    "e": 0.2
+   },
+   {
+    "w": "wore",
+    "s": 0.2,
+    "e": 0.46
+   },
+   {
+    "w": "eye",
+    "s": 0.46,
+    "e": 0.7
+   },
+   {
+    "w": "patches...",
+    "s": 0.7,
+    "e": 0.98
+   },
+   {
+    "w": "but",
+    "s": 1.38,
+    "e": 1.62
+   },
+   {
+    "w": "probably",
+    "s": 1.62,
+    "e": 2.22
+   },
+   {
+    "w": "not",
+    "s": 2.22,
+    "e": 2.5
+   },
+   {
+    "w": "for",
+    "s": 2.5,
+    "e": 2.68
+   },
+   {
+    "w": "the",
+    "s": 2.68,
+    "e": 2.8
+   },
+   {
+    "w": "reason",
+    "s": 2.8,
+    "e": 2.94
+   },
+   {
+    "w": "you",
+    "s": 2.94,
+    "e": 3.16
+   },
+   {
+    "w": "think.",
+    "s": 3.16,
+    "e": 3.4
+   }
+  ],
+  "heard": "Pirates wore eye patches, but probably not for the reason you think.",
+  "match": 1.0
+ },
+ {
+  "id": "H4",
+  "chapter": null,
+  "text": "Pirates almost never made anyone walk the plank.",
+  "dur": 2.58,
+  "words": [
+   {
+    "w": "Pirates",
+    "s": 0.08,
+    "e": 0.28
+   },
+   {
+    "w": "almost",
+    "s": 0.28,
+    "e": 0.62
+   },
+   {
+    "w": "never",
+    "s": 0.62,
+    "e": 1.04
+   },
+   {
+    "w": "made",
+    "s": 1.04,
+    "e": 1.32
+   },
+   {
+    "w": "anyone",
+    "s": 1.32,
+    "e": 1.64
+   },
+   {
+    "w": "walk",
+    "s": 1.64,
+    "e": 1.94
+   },
+   {
+    "w": "the",
+    "s": 1.94,
+    "e": 2.14
+   },
+   {
+    "w": "plank.",
+    "s": 2.14,
+    "e": 2.38
+   }
+  ],
+  "heard": "Pirates almost never made anyone walk the plank.",
+  "match": 1.0
+ },
+ {
+  "id": "H5",
+  "chapter": null,
+  "text": "Pirates almost never buried their treasure. Here's why.",
+  "dur": 3.36,
+  "words": [
+   {
+    "w": "Pirates",
+    "s": 0.08,
+    "e": 0.44
+   },
+   {
+    "w": "almost",
+    "s": 0.44,
+    "e": 0.84
+   },
+   {
+    "w": "never",
+    "s": 0.84,
+    "e": 1.26
+   },
+   {
+    "w": "buried",
+    "s": 1.26,
+    "e": 1.64
+   },
+   {
+    "w": "their",
+    "s": 1.64,
+    "e": 1.86
+   },
+   {
+    "w": "treasure.",
+    "s": 1.86,
+    "e": 2.16
+   },
+   {
+    "w": "Here's",
+    "s": 2.68,
+    "e": 2.9
+   },
+   {
+    "w": "why.",
+    "s": 2.9,
+    "e": 3.16
+   }
+  ],
+  "heard": "Pirates almost never buried their treasure. Here's why.",
+  "match": 1.0
+ },
+ {
+  "id": "H6",
+  "chapter": null,
+  "text": "The pirate flag wasn't for show. It was a deal.",
+  "dur": 2.8,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.08,
+    "e": 0.16
+   },
+   {
+    "w": "pirate",
+    "s": 0.16,
+    "e": 0.46
+   },
+   {
+    "w": "flag",
+    "s": 0.46,
+    "e": 0.78
+   },
+   {
+    "w": "wasn't",
+    "s": 0.78,
+    "e": 1.14
+   },
+   {
+    "w": "for",
+    "s": 1.14,
+    "e": 1.34
+   },
+   {
+    "w": "show.",
+    "s": 1.34,
+    "e": 1.58
+   },
+   {
+    "w": "It",
+    "s": 2.04,
+    "e": 2.14
+   },
+   {
+    "w": "was",
+    "s": 2.14,
+    "e": 2.26
+   },
+   {
+    "w": "a",
+    "s": 2.26,
+    "e": 2.42
+   },
+   {
+    "w": "deal.",
+    "s": 2.42,
+    "e": 2.6
+   }
+  ],
+  "heard": "The pirate flag wasn't for show. It was a deal.",
+  "match": 1.0
+ },
+ {
+  "id": "H7",
+  "chapter": null,
+  "text": "Pirates had a bedtime. Lights out at eight.",
+  "dur": 2.46,
+  "words": [
+   {
+    "w": "Pirates",
+    "s": 0.08,
+    "e": 0.08
+   },
+   {
+    "w": "had",
+    "s": 0.08,
+    "e": 0.34
+   },
+   {
+    "w": "a",
+    "s": 0.34,
+    "e": 0.48
+   },
+   {
+    "w": "bedtime.",
+    "s": 0.48,
+    "e": 0.94
+   },
+   {
+    "w": "Lights",
+    "s": 1.56,
+    "e": 1.62
+   },
+   {
+    "w": "out",
+    "s": 1.62,
+    "e": 1.9
+   },
+   {
+    "w": "at",
+    "s": 1.9,
+    "e": 2.06
+   },
+   {
+    "w": "eight.",
+    "s": 2.06,
+    "e": 2.26
+   }
+  ],
+  "heard": "Pirates had a bedtime. Lights out at eight.",
+  "match": 1.0
+ },
+ {
+  "id": "H8",
+  "chapter": null,
+  "text": "Pirates had injury insurance. Seriously.",
+  "dur": 3.06,
+  "words": [
+   {
+    "w": "Pirates",
+    "s": 0.08,
+    "e": 0.34
+   },
+   {
+    "w": "had",
+    "s": 0.34,
+    "e": 0.58
+   },
+   {
+    "w": "injury",
+    "s": 0.58,
+    "e": 0.96
+   },
+   {
+    "w": "insurance.",
+    "s": 0.96,
+    "e": 1.5
+   },
+   {
+    "w": "Seriously.",
+    "s": 2.04,
+    "e": 2.74
+   }
+  ],
+  "heard": "Pirates had injury insurance. Seriously.",
+  "match": 0.909
+ },
+ {
+  "id": "H9",
+  "chapter": null,
+  "text": "On a pirate ship, the crew could fire the captain.",
+  "dur": 2.86,
+  "words": [
+   {
+    "w": "On",
+    "s": 0.32,
+    "e": 0.56
+   },
+   {
+    "w": "a",
+    "s": 0.56,
+    "e": 0.68
+   },
+   {
+    "w": "pirate",
+    "s": 0.68,
+    "e": 0.88
+   },
+   {
+    "w": "ship,",
+    "s": 0.88,
+    "e": 1.14
+   },
+   {
+    "w": "the",
+    "s": 1.42,
+    "e": 1.48
+   },
+   {
+    "w": "crew",
+    "s": 1.48,
+    "e": 1.66
+   },
+   {
+    "w": "could",
+    "s": 1.66,
+    "e": 1.82
+   },
+   {
+    "w": "fire",
+    "s": 1.82,
+    "e": 2.1
+   },
+   {
+    "w": "the",
+    "s": 2.1,
+    "e": 2.34
+   },
+   {
+    "w": "captain.",
+    "s": 2.34,
+    "e": 2.66
+   }
+  ],
+  "heard": "On a pirate ship, the crew could fire the captain.",
+  "match": 1.0
+ },
+ {
+  "id": "H10",
+  "chapter": null,
+  "text": "Two of the most famous pirates in history were women.",
+  "dur": 2.52,
+  "words": [
+   {
+    "w": "Two",
+    "s": 0.08,
+    "e": 0.1
+   },
+   {
+    "w": "of",
+    "s": 0.1,
+    "e": 0.2
+   },
+   {
+    "w": "the",
+    "s": 0.2,
+    "e": 0.26
+   },
+   {
+    "w": "most",
+    "s": 0.26,
+    "e": 0.4
+   },
+   {
+    "w": "famous",
+    "s": 0.4,
+    "e": 0.8
+   },
+   {
+    "w": "pirates",
+    "s": 0.8,
+    "e": 1.18
+   },
+   {
+    "w": "in",
+    "s": 1.18,
+    "e": 1.36
+   },
+   {
+    "w": "history",
+    "s": 1.36,
+    "e": 1.68
+   },
+   {
+    "w": "were",
+    "s": 1.68,
+    "e": 2.02
+   },
+   {
+    "w": "women.",
+    "s": 2.02,
+    "e": 2.32
+   }
+  ],
+  "heard": "Two of the most famous pirates in history were women.",
+  "match": 1.0
+ },
+ {
+  "id": "O1",
+  "chapter": null,
+  "text": "Full story on TrueWhys.",
+  "dur": 1.64,
+  "words": [
+   {
+    "w": "Full",
+    "s": 0.08,
+    "e": 0.14
+   },
+   {
+    "w": "story",
+    "s": 0.14,
+    "e": 0.46
+   },
+   {
+    "w": "on",
+    "s": 0.46,
+    "e": 0.76
+   },
+   {
+    "w": "TrueWhys.",
+    "s": 0.76,
+    "e": 1.44
+   }
+  ],
+  "heard": "Full story on TrueWhys.",
+  "match": 1.0
+ }
+]

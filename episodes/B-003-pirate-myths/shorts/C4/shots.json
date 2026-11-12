@@ -1,0 +1,302 @@
+{
+ "fps": 30,
+ "resolution": [
+  1080,
+  1920
+ ],
+ "style": "T",
+ "episode": "B-003",
+ "short": "C4",
+ "title": "Pirates Almost Never Made Anyone Walk the Plank",
+ "duration": 22.89,
+ "vertical": true,
+ "shots": [
+  {
+   "line": "H4",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.501,
+      0.391
+     ],
+     "lens": 59.34
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.285,
+      0.975
+     ],
+     "tgt": [
+      0.6,
+      0.503,
+      0.415
+     ],
+     "lens": 59.34
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "present",
+     "talk": true,
+     "hold_r": "scroll"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ]
+   ],
+   "id": "C4_H",
+   "start": 0.0,
+   "dur": 3.03,
+   "chapter": 2,
+   "line_start": 0.15,
+   "music": "mystery",
+   "pop": [
+    [
+     0.02,
+     "NO PLANK?!",
+     1.45
+    ]
+   ]
+  },
+  {
+   "line": "L25",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.184,
+      -1.624,
+      1.8579999999999999
+     ],
+     "tgt": [
+      3.0,
+      2.6,
+      1.55
+     ],
+     "lens": 42.0
+    },
+    "to": {
+     "pos": [
+      -0.2,
+      -2.2,
+      1.9
+     ],
+     "tgt": [
+      3.0,
+      2.6,
+      1.55
+     ],
+     "lens": 42.0
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": null,
+   "tag": "ONLY A HANDFUL OF PROVEN CASES",
+   "sfx": [
+    [
+     0,
+     "waves",
+     0.4
+    ]
+   ],
+   "id": "C4_S032",
+   "start": 3.03,
+   "dur": 5.88,
+   "chapter": 2,
+   "line_start": 3.03,
+   "src": "S032",
+   "music": "mystery"
+  },
+  {
+   "line": "L26",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.501,
+      0.391
+     ],
+     "lens": 59.34
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.504,
+      0.42
+     ],
+     "lens": 59.34
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "happy",
+     "arms": "present",
+     "talk": true,
+     "hold_r": "scroll"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.35,
+     "STORYBOOKS"
+    ]
+   ],
+   "sfx": [
+    [
+     0.3,
+     "paper",
+     0.5
+    ]
+   ],
+   "id": "C4_S033",
+   "start": 8.91,
+   "dur": 4.92,
+   "chapter": 2,
+   "line_start": 8.91,
+   "src": "S033"
+  },
+  {
+   "line": "L27",
+   "kind": "3d",
+   "set": "islet",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      6.0,
+      -14.0,
+      4.0
+     ],
+     "tgt": [
+      -0.624,
+      3.595,
+      -0.333
+     ],
+     "lens": 67.2
+    },
+    "to": {
+     "pos": [
+      4.92,
+      -10.76,
+      3.37
+     ],
+     "tgt": [
+      -0.646,
+      3.637,
+      -0.102
+     ],
+     "lens": 67.2
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate",
+     "at": [
+      -0.4,
+      3.0,
+      0.32
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "worried",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.55,
+     "MAROONED"
+    ]
+   ],
+   "sfx": [
+    [
+     0,
+     "waves",
+     0.5
+    ],
+    [
+     0.3,
+     "wind",
+     0.3
+    ]
+   ],
+   "music": "mystery",
+   "id": "C4_S034",
+   "start": 13.83,
+   "dur": 6.46,
+   "chapter": 2,
+   "line_start": 13.83,
+   "src": "S034"
+  },
+  {
+   "id": "C4_END",
+   "kind": "end",
+   "line": "O1",
+   "start": 20.29,
+   "line_start": 20.44,
+   "dur": 2.6,
+   "chapter": null,
+   "sfx": [
+    [
+     0,
+     "ding",
+     0.5
+    ]
+   ],
+   "music": null
+  }
+ ]
+}

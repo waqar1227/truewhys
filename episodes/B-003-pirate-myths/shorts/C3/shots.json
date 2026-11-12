@@ -1,0 +1,369 @@
+{
+ "fps": 30,
+ "resolution": [
+  1080,
+  1920
+ ],
+ "style": "T",
+ "episode": "B-003",
+ "short": "C3",
+ "title": "The Real Reason Pirates Wore Eye Patches",
+ "duration": 26.75,
+ "vertical": true,
+ "shots": [
+  {
+   "line": "H3",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -2.3,
+      1.35
+     ],
+     "tgt": [
+      0.182,
+      0.185,
+      0.494
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.64,
+      -2.04,
+      1.327
+     ],
+     "tgt": [
+      0.183,
+      0.183,
+      0.516
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate2",
+     "at": [
+      0.2,
+      0.1,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ]
+   ],
+   "id": "C3_H",
+   "start": 0.0,
+   "dur": 4.05,
+   "chapter": 2,
+   "line_start": 0.15,
+   "music": "mystery",
+   "pop": [
+    [
+     0.02,
+     "WHY THE PATCH?",
+     1.45
+    ]
+   ]
+  },
+  {
+   "line": "L19",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      1.3,
+      -3.8,
+      1.5
+     ],
+     "tgt": [
+      -0.197,
+      1.37,
+      0.073
+     ],
+     "lens": 62.26
+    },
+    "to": {
+     "pos": [
+      1.1440000000000001,
+      -3.1519999999999997,
+      1.452
+     ],
+     "tgt": [
+      -0.206,
+      1.357,
+      0.088
+     ],
+     "lens": 62.26
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate2",
+     "at": [
+      0.2,
+      0.0,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "smug",
+     "arms": "point_l"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.55,
+     "ONE EYE READY FOR THE DARK"
+    ]
+   ],
+   "sfx": [
+    [
+     0.1,
+     "creak",
+     0.4
+    ]
+   ],
+   "music": "mystery",
+   "id": "C3_S025",
+   "start": 4.05,
+   "dur": 4.72,
+   "chapter": 2,
+   "line_start": 4.05,
+   "src": "S025"
+  },
+  {
+   "line": "L20",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "night",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -2.3,
+      1.35
+     ],
+     "tgt": [
+      0.182,
+      0.185,
+      0.494
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.628,
+      -1.988,
+      1.3224
+     ],
+     "tgt": [
+      0.183,
+      0.183,
+      0.52
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate2",
+     "at": [
+      0.2,
+      0.1,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "surprised",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.45,
+     "20+ MINUTES TO ADJUST"
+    ]
+   ],
+   "sfx": [
+    [
+     0.4,
+     "tick",
+     0.4
+    ]
+   ],
+   "id": "C3_S026",
+   "start": 8.77,
+   "dur": 4.88,
+   "chapter": 2,
+   "line_start": 8.77,
+   "src": "S026"
+  },
+  {
+   "line": "L21",
+   "kind": "3d",
+   "set": "study",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.6,
+      -2.6,
+      1.0
+     ],
+     "tgt": [
+      0.6,
+      0.501,
+      0.391
+     ],
+     "lens": 59.34
+    },
+    "to": {
+     "pos": [
+      0.6,
+      -2.222,
+      0.97
+     ],
+     "tgt": [
+      0.6,
+      0.504,
+      0.42
+     ],
+     "lens": 59.34
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "wy",
+     "at": [
+      0.6,
+      0.55,
+      0
+     ],
+     "h": 1.25,
+     "face": "R",
+     "expr": "worried",
+     "arms": "shrug",
+     "talk": true
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.6,
+     "NO EVIDENCE"
+    ]
+   ],
+   "sfx": [
+    [
+     0.55,
+     "thud",
+     0.4
+    ]
+   ],
+   "id": "C3_S027",
+   "start": 13.65,
+   "dur": 5.78,
+   "chapter": 2,
+   "line_start": 13.65,
+   "src": "S027"
+  },
+  {
+   "line": "L22",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -2.3,
+      1.35
+     ],
+     "tgt": [
+      0.182,
+      0.185,
+      0.494
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.6399999999999999,
+      -2.04,
+      1.3270000000000002
+     ],
+     "tgt": [
+      0.183,
+      0.183,
+      0.516
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate2",
+     "at": [
+      0.2,
+      0.1,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "tag": "AN EYE LOST IN A FIGHT",
+   "music": "curious",
+   "id": "C3_S028",
+   "start": 19.43,
+   "dur": 4.72,
+   "chapter": 2,
+   "line_start": 19.43,
+   "src": "S028"
+  },
+  {
+   "id": "C3_END",
+   "kind": "end",
+   "line": "O1",
+   "start": 24.15,
+   "line_start": 24.3,
+   "dur": 2.6,
+   "chapter": null,
+   "sfx": [
+    [
+     0,
+     "ding",
+     0.5
+    ]
+   ],
+   "music": null
+  }
+ ]
+}

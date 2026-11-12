@@ -1,0 +1,567 @@
+[
+ {
+  "id": "H1",
+  "chapter": null,
+  "text": "Pirates never really talked like this. Arrr!",
+  "dur": 3.46,
+  "words": [
+   {
+    "w": "Pirates",
+    "s": 0.0,
+    "e": 0.62
+   },
+   {
+    "w": "never",
+    "s": 0.62,
+    "e": 0.92
+   },
+   {
+    "w": "really",
+    "s": 0.92,
+    "e": 1.28
+   },
+   {
+    "w": "talked",
+    "s": 1.28,
+    "e": 1.64
+   },
+   {
+    "w": "like",
+    "s": 1.64,
+    "e": 1.94
+   },
+   {
+    "w": "this.",
+    "s": 1.94,
+    "e": 2.56
+   },
+   {
+    "w": "Arrr!",
+    "s": 2.84,
+    "e": 3.26
+   }
+  ],
+  "heard": "Pirates never really talked like this. Arrr!",
+  "match": 1.0
+ },
+ {
+  "id": "H2",
+  "chapter": null,
+  "text": "Most pirates never had a parrot on their shoulder.",
+  "dur": 2.74,
+  "words": [
+   {
+    "w": "Most",
+    "s": 0.08,
+    "e": 0.38
+   },
+   {
+    "w": "pirates",
+    "s": 0.38,
+    "e": 0.74
+   },
+   {
+    "w": "never",
+    "s": 0.74,
+    "e": 1.08
+   },
+   {
+    "w": "had",
+    "s": 1.08,
+    "e": 1.38
+   },
+   {
+    "w": "a",
+    "s": 1.38,
+    "e": 1.66
+   },
+   {
+    "w": "parrot",
+    "s": 1.66,
+    "e": 1.92
+   },
+   {
+    "w": "on",
+    "s": 1.92,
+    "e": 2.1
+   },
+   {
+    "w": "their",
+    "s": 2.1,
+    "e": 2.26
+   },
+   {
+    "w": "shoulder.",
+    "s": 2.26,
+    "e": 2.54
+   }
+  ],
+  "heard": "Most pirates never had a parrot on their shoulder.",
+  "match": 1.0
+ },
+ {
+  "id": "H3",
+  "chapter": null,
+  "text": "Pirates wore eye patches... but probably not for the reason you think.",
+  "dur": 3.6,
+  "words": [
+   {
+    "w": "Pirates",
+    "s": 0.08,
+    "e": 0.2
+   },
+   {
+    "w": "wore",
+    "s": 0.2,
+    "e": 0.46
+   },
+   {
+    "w": "eye",
+    "s": 0.46,
+    "e": 0.7
+   },
+   {
+    "w": "patches...",
+    "s": 0.7,
+    "e": 0.98
+   },
+   {
+    "w": "but",
+    "s": 1.38,
+    "e": 1.62
+   },
+   {
+    "w": "probably",
+    "s": 1.62,
+    "e": 2.22
+   },
+   {
+    "w": "not",
+    "s": 2.22,
+    "e": 2.5
+   },
+   {
+    "w": "for",
+    "s": 2.5,
+    "e": 2.68
+   },
+   {
+    "w": "the",
+    "s": 2.68,
+    "e": 2.8
+   },
+   {
+    "w": "reason",
+    "s": 2.8,
+    "e": 2.94
+   },
+   {
+    "w": "you",
+    "s": 2.94,
+    "e": 3.16
+   },
+   {
+    "w": "think.",
+    "s": 3.16,
+    "e": 3.4
+   }
+  ],
+  "heard": "Pirates wore eye patches, but probably not for the reason you think.",
+  "match": 1.0
+ },
+ {
+  "id": "H4",
+  "chapter": null,
+  "text": "Pirates almost never made anyone walk the plank.",
+  "dur": 2.58,
+  "words": [
+   {
+    "w": "Pirates",
+    "s": 0.08,
+    "e": 0.28
+   },
+   {
+    "w": "almost",
+    "s": 0.28,
+    "e": 0.62
+   },
+   {
+    "w": "never",
+    "s": 0.62,
+    "e": 1.04
+   },
+   {
+    "w": "made",
+    "s": 1.04,
+    "e": 1.32
+   },
+   {
+    "w": "anyone",
+    "s": 1.32,
+    "e": 1.64
+   },
+   {
+    "w": "walk",
+    "s": 1.64,
+    "e": 1.94
+   },
+   {
+    "w": "the",
+    "s": 1.94,
+    "e": 2.14
+   },
+   {
+    "w": "plank.",
+    "s": 2.14,
+    "e": 2.38
+   }
+  ],
+  "heard": "Pirates almost never made anyone walk the plank.",
+  "match": 1.0
+ },
+ {
+  "id": "H5",
+  "chapter": null,
+  "text": "Pirates almost never buried their treasure. Here's why.",
+  "dur": 3.36,
+  "words": [
+   {
+    "w": "Pirates",
+    "s": 0.08,
+    "e": 0.44
+   },
+   {
+    "w": "almost",
+    "s": 0.44,
+    "e": 0.84
+   },
+   {
+    "w": "never",
+    "s": 0.84,
+    "e": 1.26
+   },
+   {
+    "w": "buried",
+    "s": 1.26,
+    "e": 1.64
+   },
+   {
+    "w": "their",
+    "s": 1.64,
+    "e": 1.86
+   },
+   {
+    "w": "treasure.",
+    "s": 1.86,
+    "e": 2.16
+   },
+   {
+    "w": "Here's",
+    "s": 2.68,
+    "e": 2.9
+   },
+   {
+    "w": "why.",
+    "s": 2.9,
+    "e": 3.16
+   }
+  ],
+  "heard": "Pirates almost never buried their treasure. Here's why.",
+  "match": 1.0
+ },
+ {
+  "id": "H6",
+  "chapter": null,
+  "text": "The pirate flag wasn't for show. It was a deal.",
+  "dur": 2.8,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.08,
+    "e": 0.16
+   },
+   {
+    "w": "pirate",
+    "s": 0.16,
+    "e": 0.46
+   },
+   {
+    "w": "flag",
+    "s": 0.46,
+    "e": 0.78
+   },
+   {
+    "w": "wasn't",
+    "s": 0.78,
+    "e": 1.14
+   },
+   {
+    "w": "for",
+    "s": 1.14,
+    "e": 1.34
+   },
+   {
+    "w": "show.",
+    "s": 1.34,
+    "e": 1.58
+   },
+   {
+    "w": "It",
+    "s": 2.04,
+    "e": 2.14
+   },
+   {
+    "w": "was",
+    "s": 2.14,
+    "e": 2.26
+   },
+   {
+    "w": "a",
+    "s": 2.26,
+    "e": 2.42
+   },
+   {
+    "w": "deal.",
+    "s": 2.42,
+    "e": 2.6
+   }
+  ],
+  "heard": "The pirate flag wasn't for show. It was a deal.",
+  "match": 1.0
+ },
+ {
+  "id": "H7",
+  "chapter": null,
+  "text": "Pirates had a bedtime. Lights out at eight.",
+  "dur": 2.46,
+  "words": [
+   {
+    "w": "Pirates",
+    "s": 0.08,
+    "e": 0.08
+   },
+   {
+    "w": "had",
+    "s": 0.08,
+    "e": 0.34
+   },
+   {
+    "w": "a",
+    "s": 0.34,
+    "e": 0.48
+   },
+   {
+    "w": "bedtime.",
+    "s": 0.48,
+    "e": 0.94
+   },
+   {
+    "w": "Lights",
+    "s": 1.56,
+    "e": 1.62
+   },
+   {
+    "w": "out",
+    "s": 1.62,
+    "e": 1.9
+   },
+   {
+    "w": "at",
+    "s": 1.9,
+    "e": 2.06
+   },
+   {
+    "w": "eight.",
+    "s": 2.06,
+    "e": 2.26
+   }
+  ],
+  "heard": "Pirates had a bedtime. Lights out at eight.",
+  "match": 1.0
+ },
+ {
+  "id": "H8",
+  "chapter": null,
+  "text": "Pirates had injury insurance. Seriously.",
+  "dur": 3.06,
+  "words": [
+   {
+    "w": "Pirates",
+    "s": 0.08,
+    "e": 0.34
+   },
+   {
+    "w": "had",
+    "s": 0.34,
+    "e": 0.58
+   },
+   {
+    "w": "injury",
+    "s": 0.58,
+    "e": 0.96
+   },
+   {
+    "w": "insurance.",
+    "s": 0.96,
+    "e": 1.5
+   },
+   {
+    "w": "Seriously.",
+    "s": 2.04,
+    "e": 2.74
+   }
+  ],
+  "heard": "Pirates had injury insurance. Seriously.",
+  "match": 0.909
+ },
+ {
+  "id": "H9",
+  "chapter": null,
+  "text": "On a pirate ship, the crew could fire the captain.",
+  "dur": 2.86,
+  "words": [
+   {
+    "w": "On",
+    "s": 0.32,
+    "e": 0.56
+   },
+   {
+    "w": "a",
+    "s": 0.56,
+    "e": 0.68
+   },
+   {
+    "w": "pirate",
+    "s": 0.68,
+    "e": 0.88
+   },
+   {
+    "w": "ship,",
+    "s": 0.88,
+    "e": 1.14
+   },
+   {
+    "w": "the",
+    "s": 1.42,
+    "e": 1.48
+   },
+   {
+    "w": "crew",
+    "s": 1.48,
+    "e": 1.66
+   },
+   {
+    "w": "could",
+    "s": 1.66,
+    "e": 1.82
+   },
+   {
+    "w": "fire",
+    "s": 1.82,
+    "e": 2.1
+   },
+   {
+    "w": "the",
+    "s": 2.1,
+    "e": 2.34
+   },
+   {
+    "w": "captain.",
+    "s": 2.34,
+    "e": 2.66
+   }
+  ],
+  "heard": "On a pirate ship, the crew could fire the captain.",
+  "match": 1.0
+ },
+ {
+  "id": "H10",
+  "chapter": null,
+  "text": "Two of the most famous pirates in history were women.",
+  "dur": 2.52,
+  "words": [
+   {
+    "w": "Two",
+    "s": 0.08,
+    "e": 0.1
+   },
+   {
+    "w": "of",
+    "s": 0.1,
+    "e": 0.2
+   },
+   {
+    "w": "the",
+    "s": 0.2,
+    "e": 0.26
+   },
+   {
+    "w": "most",
+    "s": 0.26,
+    "e": 0.4
+   },
+   {
+    "w": "famous",
+    "s": 0.4,
+    "e": 0.8
+   },
+   {
+    "w": "pirates",
+    "s": 0.8,
+    "e": 1.18
+   },
+   {
+    "w": "in",
+    "s": 1.18,
+    "e": 1.36
+   },
+   {
+    "w": "history",
+    "s": 1.36,
+    "e": 1.68
+   },
+   {
+    "w": "were",
+    "s": 1.68,
+    "e": 2.02
+   },
+   {
+    "w": "women.",
+    "s": 2.02,
+    "e": 2.32
+   }
+  ],
+  "heard": "Two of the most famous pirates in history were women.",
+  "match": 1.0
+ },
+ {
+  "id": "O1",
+  "chapter": null,
+  "text": "Full story on TrueWhys.",
+  "dur": 1.64,
+  "words": [
+   {
+    "w": "Full",
+    "s": 0.08,
+    "e": 0.14
+   },
+   {
+    "w": "story",
+    "s": 0.14,
+    "e": 0.46
+   },
+   {
+    "w": "on",
+    "s": 0.46,
+    "e": 0.76
+   },
+   {
+    "w": "TrueWhys.",
+    "s": 0.76,
+    "e": 1.44
+   }
+  ],
+  "heard": "Full story on TrueWhys.",
+  "match": 1.0
+ }
+]

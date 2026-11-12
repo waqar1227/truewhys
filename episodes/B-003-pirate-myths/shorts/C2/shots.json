@@ -1,0 +1,366 @@
+{
+ "fps": 30,
+ "resolution": [
+  1080,
+  1920
+ ],
+ "style": "T",
+ "episode": "B-003",
+ "short": "C2",
+ "title": "Why Pirates Didn't Really Have Parrots",
+ "duration": 21.37,
+ "vertical": true,
+ "shots": [
+  {
+   "line": "H2",
+   "kind": "3d",
+   "set": "port",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.4,
+      -2.6,
+      1.5
+     ],
+     "tgt": [
+      0.344,
+      2.236,
+      0.195
+     ],
+     "lens": 61.47
+    },
+    "to": {
+     "pos": [
+      -0.24,
+      -2.12,
+      1.48
+     ],
+     "tgt": [
+      0.319,
+      2.222,
+      0.215
+     ],
+     "lens": 61.47
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate",
+     "at": [
+      0.2,
+      1.3,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "happy",
+     "arms": "present",
+     "hold_l": "coins"
+    }
+   ],
+   "part": [
+    0,
+    0.55
+   ],
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ],
+    [
+     0.3,
+     "birds",
+     0.4
+    ]
+   ],
+   "id": "C2_H",
+   "start": 0.0,
+   "dur": 3.19,
+   "chapter": 1,
+   "line_start": 0.15,
+   "music": "mystery",
+   "pop": [
+    [
+     0.02,
+     "NO PARROT?",
+     1.45
+    ]
+   ]
+  },
+  {
+   "line": "L14",
+   "kind": "3d",
+   "set": "port",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      -0.4,
+      -2.6,
+      1.5
+     ],
+     "tgt": [
+      0.344,
+      2.236,
+      0.195
+     ],
+     "lens": 61.47
+    },
+    "to": {
+     "pos": [
+      -0.20800000000000002,
+      -2.024,
+      1.476
+     ],
+     "tgt": [
+      0.313,
+      2.219,
+      0.218
+     ],
+     "lens": 61.47
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate",
+     "at": [
+      0.2,
+      1.3,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "happy",
+     "arms": "present",
+     "hold_l": "coins"
+    }
+   ],
+   "part": [
+    0,
+    0.55
+   ],
+   "sfx": [
+    [
+     0.3,
+     "birds",
+     0.4
+    ]
+   ],
+   "id": "C2_S018",
+   "start": 3.19,
+   "dur": 3.245,
+   "chapter": 1,
+   "line_start": 3.19,
+   "src": "S018",
+   "music": "mystery"
+  },
+  {
+   "line": "L14",
+   "kind": "3d",
+   "set": "port",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.4,
+      -0.8,
+      1.5
+     ],
+     "tgt": [
+      1.6,
+      2.2,
+      1.45
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.52,
+      -0.5,
+      1.495
+     ],
+     "tgt": [
+      1.6,
+      2.2,
+      1.45
+     ],
+     "lens": 58.8
+    },
+    "ease": "inout"
+   },
+   "chars": [],
+   "part": [
+    0.55,
+    1
+   ],
+   "pop": [
+    [
+     0.05,
+     "CARGO TO SELL"
+    ]
+   ],
+   "sfx": [
+    [
+     0.05,
+     "coins",
+     0.5
+    ]
+   ],
+   "id": "C2_S019",
+   "start": 6.435,
+   "dur": 2.655,
+   "chapter": 1,
+   "line_start": 3.19,
+   "src": "S019"
+  },
+  {
+   "line": "L15",
+   "kind": "3d",
+   "set": "port",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.2,
+      -4.4,
+      1.5
+     ],
+     "tgt": [
+      -0.096,
+      2.72,
+      -0.509
+     ],
+     "lens": 30.02
+    },
+    "to": {
+     "pos": [
+      1.0,
+      -4.4,
+      1.5
+     ],
+     "tgt": [
+      -0.232,
+      2.622,
+      -0.496
+     ],
+     "lens": 30.02
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "merchant",
+     "at": [
+      0.6,
+      1.2,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "happy",
+     "arms": "present"
+    },
+    {
+     "c": "pirate",
+     "at": [
+      -1.2,
+      1.4,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "happy",
+     "arms": "point_r"
+    },
+    {
+     "c": "villager2",
+     "at": [
+      -2.4,
+      1.8,
+      0
+     ],
+     "h": 1.45,
+     "face": "R",
+     "expr": "neutral",
+     "arms": "down"
+    },
+    {
+     "c": "villager5",
+     "at": [
+      3.0,
+      2.0,
+      0
+     ],
+     "h": 1.45,
+     "face": "L",
+     "expr": "happy",
+     "arms": "down"
+    }
+   ],
+   "part": null,
+   "tag": "JAMAICA \u00b7 1680s",
+   "sfx": [
+    [
+     0,
+     "crowd_murmur",
+     0.4
+    ],
+    [
+     0.3,
+     "birds",
+     0.3
+    ]
+   ],
+   "id": "C2_S020",
+   "start": 9.09,
+   "dur": 3.84,
+   "chapter": 1,
+   "line_start": 9.09,
+   "src": "S020"
+  },
+  {
+   "line": "L16",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "doc": "book1883",
+   "sfx": [
+    [
+     0,
+     "paper",
+     0.6
+    ]
+   ],
+   "id": "C2_S021",
+   "start": 12.93,
+   "dur": 5.84,
+   "chapter": 1,
+   "line_start": 12.93,
+   "src": "S021"
+  },
+  {
+   "id": "C2_END",
+   "kind": "end",
+   "line": "O1",
+   "start": 18.77,
+   "line_start": 18.92,
+   "dur": 2.6,
+   "chapter": null,
+   "sfx": [
+    [
+     0,
+     "ding",
+     0.5
+    ]
+   ],
+   "music": null
+  }
+ ]
+}

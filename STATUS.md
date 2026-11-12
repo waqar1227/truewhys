@@ -18,6 +18,10 @@
    THEN: (1) A-005: `kaggle kernels output waqarahmed51/truewhys-render-a005 -p episodes/A-005-brain-freeze/renders` (pushed 15:32 UTC), compose, QA,
    YouTube 22:00 UTC 14 Nov + TikTok. (2) B-003: dataset truewhys-ep-b003 (flat: render_bg, sets, sets2, sets3, sets5, camera, shots.json, job_A/B)
    → push kernels notebooks/kaggle_jobs/b003/kernel_b003 (ch 0–3) + kernel_b003b (ch 4–6), ~4–5 h each in parallel.
+   DONE 12 Nov: shorts.json (10 cut Shorts C1–C10, 21–31 s, one per myth), hook voice (voice/hooks.flac, 1 Gemini request), lib/shorts.py plans.
+   NOTE hooks: whisper split put the end of "Seriously" (H8) at the start of H9. If audio/lines is rebuilt from hooks.flac, move the first
+   0.6 s of H9.wav onto the end of H8.wav (timing_hooks.json already has the corrected timings).
+   Shorts plates need a 3rd Kaggle job (shorts/all_shots.json, 1080×1920) after the long-video plates.
 Fresh session? Tools install via the environment setup script (tools/setup_env.sh). Rendered plates are not in git: fetch them from Kaggle.
 1. DONE 8 Nov 09:30 UTC: B-002 Gemini voice (9 chapters, FLAC masters committed), plan.py (98 shots, 6:11), shorts.py (8 Shorts 38–46 s).
    Still to do when scheduling: `python lib/upload_pkg.py episodes/B-002-worst-jobs <publishAt>`.

@@ -1,0 +1,331 @@
+{
+ "fps": 30,
+ "resolution": [
+  1080,
+  1920
+ ],
+ "style": "T",
+ "episode": "B-003",
+ "short": "C8",
+ "title": "Pirates Had Injury Insurance",
+ "duration": 26.89,
+ "vertical": true,
+ "shots": [
+  {
+   "line": "H8",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -2.3,
+      1.35
+     ],
+     "tgt": [
+      0.182,
+      0.185,
+      0.494
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.64,
+      -2.04,
+      1.327
+     ],
+     "tgt": [
+      0.183,
+      0.183,
+      0.516
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate2",
+     "at": [
+      0.2,
+      0.1,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "coins"
+    }
+   ],
+   "part": null,
+   "sfx": [
+    [
+     0,
+     "whoosh_soft",
+     0.5
+    ]
+   ],
+   "id": "C8_H",
+   "start": 0.0,
+   "dur": 3.51,
+   "chapter": 4,
+   "line_start": 0.15,
+   "music": "mystery",
+   "pop": [
+    [
+     0.02,
+     "INSURANCE?!",
+     1.45
+    ]
+   ]
+  },
+  {
+   "line": "L49",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -0.4,
+      1.55
+     ],
+     "tgt": [
+      -1.14,
+      -2.976,
+      0.275
+     ],
+     "lens": 49.0
+    },
+    "to": {
+     "pos": [
+      0.45999999999999996,
+      -0.724,
+      1.478
+     ],
+     "tgt": [
+      -1.138,
+      -2.977,
+      0.299
+     ],
+     "lens": 49.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "quartermaster",
+     "at": [
+      -0.8,
+      -2.5,
+      0
+     ],
+     "h": 1.55,
+     "face": "L",
+     "expr": "neutral",
+     "arms": "present"
+    }
+   ],
+   "part": null,
+   "tag": "BUCCANEERS \u00b7 1670s",
+   "sfx": [
+    [
+     0.3,
+     "coins",
+     0.4
+    ]
+   ],
+   "id": "C8_S061",
+   "start": 3.51,
+   "dur": 6.28,
+   "chapter": 4,
+   "line_start": 3.51,
+   "src": "S061",
+   "music": "mystery"
+  },
+  {
+   "line": "L50",
+   "kind": "doc",
+   "set": null,
+   "variant": null,
+   "cam": null,
+   "chars": [],
+   "part": null,
+   "doc": "injuries",
+   "sfx": [
+    [
+     0,
+     "paper",
+     0.6
+    ]
+   ],
+   "id": "C8_S062",
+   "start": 9.79,
+   "dur": 5.0,
+   "chapter": 4,
+   "line_start": 9.79,
+   "src": "S062"
+  },
+  {
+   "line": "L51",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -2.3,
+      1.35
+     ],
+     "tgt": [
+      0.182,
+      0.185,
+      0.494
+     ],
+     "lens": 52.5
+    },
+    "to": {
+     "pos": [
+      0.628,
+      -1.988,
+      1.3224
+     ],
+     "tgt": [
+      0.183,
+      0.183,
+      0.52
+     ],
+     "lens": 52.5
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "pirate2",
+     "at": [
+      0.2,
+      0.1,
+      0
+     ],
+     "h": 1.5,
+     "face": "R",
+     "expr": "happy",
+     "arms": "raise",
+     "hold_r": "coins"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.7,
+     "AN EYE: 100"
+    ]
+   ],
+   "sfx": [
+    [
+     0.6,
+     "coins",
+     0.5
+    ]
+   ],
+   "id": "C8_S063",
+   "start": 14.79,
+   "dur": 4.86,
+   "chapter": 4,
+   "line_start": 14.79,
+   "src": "S063"
+  },
+  {
+   "line": "L52",
+   "kind": "3d",
+   "set": "deck",
+   "variant": "day",
+   "cam": {
+    "from": {
+     "pos": [
+      0.7,
+      -0.4,
+      1.55
+     ],
+     "tgt": [
+      -1.14,
+      -2.976,
+      0.275
+     ],
+     "lens": 49.0
+    },
+    "to": {
+     "pos": [
+      0.41999999999999993,
+      -0.778,
+      1.466
+     ],
+     "tgt": [
+      -1.138,
+      -2.977,
+      0.302
+     ],
+     "lens": 49.0
+    },
+    "ease": "inout"
+   },
+   "chars": [
+    {
+     "c": "quartermaster",
+     "at": [
+      -0.8,
+      -2.5,
+      0
+     ],
+     "h": 1.55,
+     "face": "L",
+     "expr": "happy",
+     "arms": "present",
+     "hold_r": "coins"
+    }
+   ],
+   "part": null,
+   "pop": [
+    [
+     0.4,
+     "A SMALL FORTUNE"
+    ]
+   ],
+   "sfx": [
+    [
+     0.3,
+     "coins",
+     0.6
+    ]
+   ],
+   "id": "C8_S064",
+   "start": 19.65,
+   "dur": 4.64,
+   "chapter": 4,
+   "line_start": 19.65,
+   "src": "S064"
+  },
+  {
+   "id": "C8_END",
+   "kind": "end",
+   "line": "O1",
+   "start": 24.29,
+   "line_start": 24.44,
+   "dur": 2.6,
+   "chapter": null,
+   "sfx": [
+    [
+     0,
+     "ding",
+     0.5
+    ]
+   ],
+   "music": null
+  }
+ ]
+}

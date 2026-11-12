@@ -1,0 +1,160 @@
+{
+ "note": "Cut Shorts from B-003 (one per myth). Release order = list order is set at scheduling (strongest first). Related video = B-003.",
+ "outro": {
+  "id": "O1",
+  "text": "Full story on TrueWhys.",
+  "say": "Full story on True Whys."
+ },
+ "shorts": [
+  {
+   "id": "C1",
+   "title": "Pirates Never Actually Said \"Arrr\"",
+   "hook": {
+    "id": "H1",
+    "text": "Pirates never really talked like this. Arrr!"
+   },
+   "lines": [
+    "L07",
+    "L08",
+    "L09",
+    "L10",
+    "L11"
+   ],
+   "hook_pop": "ARRR?!"
+  },
+  {
+   "id": "C2",
+   "title": "Why Pirates Didn't Really Have Parrots",
+   "hook": {
+    "id": "H2",
+    "text": "Most pirates never had a parrot on their shoulder."
+   },
+   "lines": [
+    "L14",
+    "L15",
+    "L16"
+   ],
+   "hook_pop": "NO PARROT?"
+  },
+  {
+   "id": "C3",
+   "title": "The Real Reason Pirates Wore Eye Patches",
+   "hook": {
+    "id": "H3",
+    "text": "Pirates wore eye patches... but probably not for the reason you think."
+   },
+   "lines": [
+    "L19",
+    "L20",
+    "L21",
+    "L22"
+   ],
+   "hook_pop": "WHY THE PATCH?"
+  },
+  {
+   "id": "C4",
+   "title": "Pirates Almost Never Made Anyone Walk the Plank",
+   "hook": {
+    "id": "H4",
+    "text": "Pirates almost never made anyone walk the plank."
+   },
+   "lines": [
+    "L25",
+    "L26",
+    "L27"
+   ],
+   "hook_pop": "NO PLANK?!"
+  },
+  {
+   "id": "C5",
+   "title": "Why Pirates Almost Never Buried Treasure",
+   "hook": {
+    "id": "H5",
+    "text": "Pirates almost never buried their treasure. Here's why."
+   },
+   "lines": [
+    "L30",
+    "L31",
+    "L32",
+    "L33",
+    "L34"
+   ],
+   "hook_pop": "NO TREASURE?"
+  },
+  {
+   "id": "C6",
+   "title": "The Real Reason Pirates Flew the Skull and Crossbones",
+   "hook": {
+    "id": "H6",
+    "text": "The pirate flag wasn't for show. It was a deal."
+   },
+   "lines": [
+    "L37",
+    "L38",
+    "L39",
+    "L40"
+   ],
+   "hook_pop": "A DEAL?"
+  },
+  {
+   "id": "C7",
+   "title": "Pirates Had a Bedtime",
+   "hook": {
+    "id": "H7",
+    "text": "Pirates had a bedtime. Lights out at eight."
+   },
+   "lines": [
+    "L42",
+    "L43",
+    "L44",
+    "L45",
+    "L46"
+   ],
+   "hook_pop": "LIGHTS OUT?!"
+  },
+  {
+   "id": "C8",
+   "title": "Pirates Had Injury Insurance",
+   "hook": {
+    "id": "H8",
+    "text": "Pirates had injury insurance. Seriously."
+   },
+   "lines": [
+    "L49",
+    "L50",
+    "L51",
+    "L52"
+   ],
+   "hook_pop": "INSURANCE?!"
+  },
+  {
+   "id": "C9",
+   "title": "The Pirate Crew Could Fire the Captain",
+   "hook": {
+    "id": "H9",
+    "text": "On a pirate ship, the crew could fire the captain."
+   },
+   "lines": [
+    "L55",
+    "L56",
+    "L57"
+   ],
+   "hook_pop": "FIRE HIM?!"
+  },
+  {
+   "id": "C10",
+   "title": "The Women Pirates Who Escaped the Noose",
+   "hook": {
+    "id": "H10",
+    "text": "Two of the most famous pirates in history were women."
+   },
+   "lines": [
+    "L60",
+    "L61",
+    "L62",
+    "L63"
+   ],
+   "hook_pop": "WOMEN PIRATES"
+  }
+ ]
+}
