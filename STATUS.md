@@ -1,6 +1,7 @@
 # STATUS (read the NEXT list first)
 
 ## NEXT (keep this list short; heartbeat does only these)
+** 12 Nov growth review: titles with ONE named object + "Why/Accident" claim get the fastest starts (A-001, A-008); name the object in cut-Short titles of B-003, avoid vague "job" titles (research/daily_report.md).
 ** 12 Nov 07:00 UTC: KAGGLE PAUSED (anam318 not phone-verified). Owner: Fable 5.2 sprint in Style F (flat 2D, like A-008), videos scheduled
    12–14 Nov only: docs/fable_sprint.md. Style T work (A-005 3D, B-003 pirates) is saved below; resume when Kaggle works.
 0. Daily growth review = separate scheduled task (fresh Sonnet session, 07:13 UTC): `bash tools/daily.sh` → entry in research/daily_report.md. Heartbeat does NOT repeat it; it reads the latest entry before any new script/title. 48 h check of A-001/A-004 titles (emoji test): 13–14 Nov.

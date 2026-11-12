@@ -48,7 +48,7 @@ def main(force=False):
         before = {i["id"]: i for i in old.get(name, []) if isinstance(old.get(name), list)}
         L.append(f"## {name}")
         newi = [i for i in items if before and i["id"] not in before]
-        grow = sorted(((i["views"] or 0) - (before[i["id"]]["views"] or 0), i) for i in items if i["id"] in before)
+        grow = sorted((((i["views"] or 0) - (before[i["id"]]["views"] or 0), i) for i in items if i["id"] in before), key=lambda t: t[0])
         grow = [g for g in grow[::-1] if g[0] > 0][:3]
         top = sorted((i for i in items if (i["views"] or 0) >= BREAKOUT), key=lambda i: -(i["views"] or 0))[:5]
         L.append("- Breakouts (latest uploads): " + ("; ".join(f"\"{i['title']}\" {i['views']/1e6:.1f} M" for i in top) or "none"))
