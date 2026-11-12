@@ -27,7 +27,7 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
   sound, QA. **Final frames render on Kaggle GPU.** No GPU here: previews/stills only (low samples). Never ship a CPU render as final.
 - **Style R (Realistic 3D):** test Short every 2 weeks, also on Kaggle. 3D people: build stylised characters in Blender, else Sketchfab
   CC0/CC-BY rigged people, else free CC0 packs (e.g. Quaternius). **No Mixamo** (never ask for it).
-- Kaggle (`/opt/c3d/bin/kaggle`): private dataset `$KAGGLE_USERNAME/truewhys-ep-<id>` + private GPU kernel `truewhys-render-<id>`
+- Kaggle (account **anam318**; run `/opt/c3d/bin/python tools/kaggle_px.py`, token is a proxy-injected secret): private dataset `anam318/truewhys-ep-<id>` + private GPU kernel `truewhys-render-<id>`
   (`is_private`, `enable_gpu`, `enable_internet`, dataset source), `kaggle kernels push -p <dir> --accelerator NvidiaTeslaT4`; copy the
   latest `notebooks/kaggle_jobs/<ep>/`. One background waiter, then `kaggle kernels output` into `episodes/<id>/renders/`.
   Under 12 h per run, ~30 GPU h per week, log each run in `render_log.md`. Kaggle keeps only each kernel's latest output.

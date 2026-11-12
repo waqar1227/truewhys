@@ -63,3 +63,9 @@
 
 ## 11 Nov 2026 15:32 UTC: truewhys-render-a005 v1 (A-005 brain freeze Short, 13 plates, 1080×1920, 64 spp, step 2 + interp, no step-1 shots, 2×T4)
 - running; dataset waqarahmed51/truewhys-ep-a005.
+
+## 12 Nov 2026: account switch to anam318 (owner; old waqarahmed51 token gone, its A-005 v1 output unreachable)
+- Kaggle token is a proxy-injected network secret for api.kaggle.com; run the CLI via `tools/kaggle_px.py` (same args as `kaggle`).
+- truewhys-render-a005 v1 (anam318): re-render of the 13 A-005 plates, 1080×1920, 64 spp, step 2 + interp; dataset anam318/truewhys-ep-a005. Running.
+- truewhys-render-b003 v1 (ch 0–3) + truewhys-render-b003b v1 (ch 4–6): B-003 long plates, 1920×1080, 64 spp, step 2 + interp; dataset anam318/truewhys-ep-b003 (also holds shorts_shots.json + job_C.json). Running.
+- Next: truewhys-render-b003c (job_C, 10 cut Shorts, 1080×1920) once a GPU slot frees.
