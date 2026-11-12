@@ -1074,51 +1074,61 @@
   {
    "line": "H4",
    "kind": "3d",
-   "set": "study",
+   "set": "deck",
    "variant": "day",
    "cam": {
     "from": {
      "pos": [
-      0.6,
-      -2.6,
-      1.0
+      -0.2,
+      -2.2,
+      1.9
      ],
      "tgt": [
-      0.6,
-      0.501,
-      0.391
+      2.432,
+      2.786,
+      0.627
      ],
-     "lens": 59.34
+     "lens": 51.83
     },
     "to": {
      "pos": [
-      0.6,
-      -2.285,
-      0.975
+      0.12,
+      -1.72,
+      1.865
      ],
      "tgt": [
-      0.6,
-      0.503,
-      0.415
+      2.426,
+      2.788,
+      0.672
      ],
-     "lens": 59.34
+     "lens": 51.83
     },
     "ease": "inout"
    },
    "chars": [
     {
-     "c": "wy",
+     "c": "merchant",
      "at": [
-      0.6,
-      0.55,
+      3.7,
+      2.6,
+      1.03
+     ],
+     "h": 1.5,
+     "face": "L",
+     "expr": "worried",
+     "arms": "both_up"
+    },
+    {
+     "c": "captain",
+     "at": [
+      1.2,
+      2.2,
       0
      ],
-     "h": 1.25,
+     "h": 1.6,
      "face": "R",
-     "expr": "happy",
-     "arms": "present",
-     "talk": true,
-     "hold_r": "scroll"
+     "expr": "angry",
+     "arms": "point_r"
     }
    ],
    "part": null,
@@ -1129,12 +1139,12 @@
      0.5
     ]
    ],
+   "music": "tension",
    "id": "C4_H",
    "start": 0.0,
    "dur": 3.03,
    "chapter": 2,
    "line_start": 0.15,
-   "music": "mystery",
    "pop": [
     [
      0.02,
@@ -1193,7 +1203,7 @@
    "chapter": 2,
    "line_start": 3.03,
    "src": "S032",
-   "music": "mystery"
+   "music": "tension"
   },
   {
    "line": "L26",

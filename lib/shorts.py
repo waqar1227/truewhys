@@ -145,7 +145,8 @@ def build(ep):
         shots = []
         t = 0.0
         # ---- hook: the first 3D shot of the Short, slow push-in, new line
-        first3d = pick_hook(sel, c.get("hook_shot"))
+        # hook_shot may name any 3D shot of the long video (e.g. the item's opening image whose line is not in the Short)
+        first3d = pick_hook(sel + [s for s in plan["shots"] if s["id"] == c.get("hook_shot") and s not in sel], c.get("hook_shot"))
         hk = c["hook"]
         ht = timing.get(hk["id"]) or extra[hk["id"]]
         h = copy.deepcopy(first3d)
