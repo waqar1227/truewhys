@@ -76,7 +76,10 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
 
 ## Cross-posting (YouTube always first)
 - **Facebook: PAUSED** until the owner says so (details in `docs/rules_history.md`).
-- **TikTok:** every Short (cut and standalone) 30 min after its YouTube slot, via Metricool (brand 7942824, timezone Asia/Karachi):
+- **TikTok: PAUSED (owner 13 Nov 2026)** until the owner asks again: no TikTok/Metricool posts, no Dropbox token requests.
+- **Kaggle is shared (owner 13 Nov 2026)** with other sessions: only touch this episode's own datasets/kernels, never delete or stop
+  another session's kernel, and if the 2-GPU-session limit is hit, wait instead of freeing a slot.
+- (when TikTok resumes) **TikTok:** every Short (cut and standalone) 30 min after its YouTube slot, via Metricool (brand 7942824, timezone Asia/Karachi):
   `python lib/dropbox_host.py up <mp4>` → `createScheduledPost` with that URL (Metricool copies the file) → `dropbox_host.py rm`.
   The Dropbox token lasts ~4 h: ask the owner for a fresh one (secure credential form) when it returns 401. Switch to TikTok's direct API
   when the owner's developer keys arrive. Captions in English, end with "More true whys on YouTube — @TrueWhys", 3–5 hashtags;

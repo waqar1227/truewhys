@@ -1,6 +1,9 @@
 # STATUS (read the NEXT list first)
 
 ## NEXT (keep this list short; heartbeat does only these)
+** 13 Nov owner: TikTok PAUSED (no posts, no Dropbox requests) until he asks. Kaggle is shared with other sessions: never stop/delete their kernels.
+** B-003 pirates: long Am8epkS94Hw scheduled 14 Nov 15:00 UTC (QA pass). After 08:00 UTC 14 Nov (API quota reset): `python tools/yt_finish.py episodes/B-003-pirate-myths episodes/B-003-pirate-myths/final/thumb_A.jpg`,
+   then upload cut Shorts (tools/compose_shorts.sh builds them; metas in shorts/C*/upload_meta.json): C1–C6 on 14 Nov, C7–C10 after 08:00 UTC 15 Nov (C7 before 09:00). Owner: Related video + Test & Compare A/B/C.
 ** 13 Nov growth review: body/science Shorts with one named object start fastest (Brain freeze 1 125 views in 15 h); emoji A/B (A-004 🪶) is inconclusive (different topic/timing), don't change A-002's title on it (research/daily_report.md).
 ** FABLE SPRINT (Style F, flat 2D) — STOPPED 13 Nov 08:30 UTC on the owner's instruction ("finish what is started, no new work"). 4 Shorts made:
    A-005 Brain freeze: YouTube 8hsKNMLOhAw PUBLIC 12 Nov 16:00 UTC; TikTok Metricool 425987798 (posted 12 Nov 17:40 UTC).
