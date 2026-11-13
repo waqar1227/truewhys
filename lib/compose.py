@@ -467,7 +467,7 @@ def main():
         segs.append(cur)
     # resumable: segments live in COMPOSE_RESUME (if set); a finished segment gets a .done marker and is skipped next time
     rd = os.environ.get("COMPOSE_RESUME")
-    tmp = Path(rd) if rd else Path(tempfile.mkdtemp(prefix="tw_"))
+    tmp = Path(rd).resolve() if rd else Path(tempfile.mkdtemp(prefix="tw_"))
     tmp.mkdir(parents=True, exist_ok=True)
     jobs = [(sg, a.plates, str(ep), a.w, a.h, str(tmp / f"seg{i:03d}.mp4"), str(plan_p), str(timing_p)) for i, sg in enumerate(segs)]
     outs = [j[5] for j in jobs if Path(j[5] + ".done").exists()]
