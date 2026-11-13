@@ -803,3 +803,175 @@ def crowd(g, t, y=1830, n=6, cheer=1.0, col="#2F5FA8"):
             else:
                 g.limb([(86, 20), (118, -120)], col, 30, lw=5)
                 torch(g, 122, -160, t + i, 0.7)
+
+
+# ------------------------------------------------------------------ airliner cabin, fuselage tube section, plug-door diagram, elephant (A-003)
+
+DOOR = (430, 930, 330, 610)             # exit door on the cabin wall: x, y, w, h
+HANDLE = (596, 1290)
+
+
+def seat(g, x, y, col="#2F6F8C", front=False):
+    """Airliner seat seen from the side, facing right; (x, y) = floor under the seat back. front=True draws only the parts in front of a sitter."""
+    if not front:
+        with g.at(x, y - 110, -0.09):
+            g.rect(-40, -340, 84, 350, col, r=(36, 36, 10, 10))
+            g.rect(-34, -330, 72, 76, "#FFF4E0", r=(30, 30, 8, 8))
+        g.rect(x + 60, y - 30, 26, 34, "#3A3F4A", r=4)
+    g.rect(x - 34, y - 112, 250, 86, col, r=(20, 40, 30, 20))
+    if front:
+        g.rect(x - 10, y - 196, 196, 30, "#AEB8C2", r=14)
+        g.rect(x + 150, y - 172, 22, 66, "#AEB8C2", r=6)
+
+
+def cabin(g, t, pull=0.0, alarm=0.0, sign=True):
+    """Night-flight airliner cabin, side view: wall panels, overhead bins with reading lights, the exit door (window, red handle), carpet."""
+    g.fill_all(g.lgrad(0, 0, 0, H, "#24404F", "#3B6072"))
+    with g.layer(0.96):
+        for x in range(-300, 1500, 300):
+            g.line([(x, 700), (x, 1560)], INK, 4, a=0.18)
+        g.rect(-600, 500, 2300, 200, "#1B3140", None); g.line([(-600, 700), (1700, 700)], INK, 7)
+        for x in (60, 360, 660, 960):
+            g.rect(x - 110, 536, 220, 128, None, shade("#1B3140", 0.12), lw=5, r=18)
+            g.rings(x, 730, 150, "#FFE9A8", a=0.05, n=3); g.ellipse(x, 706, 26, 9, "#FFE9A8")
+    # passenger window (left)
+    g.rect(92, 990, 150, 196, "#AEB8C2", r=70); g.rect(108, 1006, 118, 164, "#0B2233", r=56)
+    for i in range(2):
+        cx = (t * 160 + i * 190) % 330 - 60
+        g.c.save(); g._rr(108, 1006, 118, 164, 56); g.c.clip()
+        g.ellipse(108 + cx, 1130 - i * 40, 46, 16, "#DDF0F3", None, a=0.8)
+        g.c.restore()
+    g.rect(108, 1006, 118, 164, None, INK, r=56)
+    # exit door
+    dx, dy, dw, dh = DOOR
+    if alarm > 0:
+        g.glow(dx + dw / 2, dy + dh / 2, 520, "#FF3B30", 0.35 * alarm * (0.6 + 0.4 * math.sin(t * 10)))
+    g.rect(dx - 22, dy - 22, dw + 44, dh + 44, "#1B3140", r=64)
+    g.rect(dx, dy, dw, dh, "#5B8296", r=48)
+    g.rect(dx + 26, dy + 26, dw - 52, dh - 52, None, shade("#5B8296", -0.22), lw=6, r=30)
+    g.rect(dx + 96, dy + 70, 138, 176, "#AEB8C2", r=60); g.rect(dx + 110, dy + 84, 110, 148, "#0B2233", r=48)
+    g.circle(dx + 190, dy + 130, 4, "#FFFFFF", None, a=0.8); g.circle(dx + 140, dy + 190, 3, "#FFFFFF", None, a=0.6)
+    g.rect(dx + 110, dy + 84, 110, 148, None, INK, r=48)
+    hx, hy = HANDLE
+    g.rect(hx - 104, hy - 56, 208, 112, "#FFC93C", r=14)
+    with g.clip(rect=(hx - 104, hy - 56, 208, 112)):
+        for i in range(-3, 9):
+            g.poly([(hx - 130 + i * 44, hy + 60), (hx - 108 + i * 44, hy + 60), (hx - 60 + i * 44, hy - 60), (hx - 82 + i * 44, hy - 60)], INK, None)
+    g.rect(hx - 104, hy - 56, 208, 112, None, INK, r=14)
+    with g.at(hx - 60, hy, -0.10 * pull + 0.012 * math.sin(t * 38) * pull):
+        g.rect(-18, -22, 170, 44, "#FF5B4B", r=22)
+        g.circle(0, 0, 26, "#DCE6EA")
+    if sign:
+        sx_, sy_ = dx + dw + 150, dy + 36
+        g.rings(sx_, sy_, 150, "#5ED3B5", a=0.06, n=3)
+        g.rect(sx_ - 92, sy_ - 34, 184, 68, "#1F8A6E", r=14)
+        g.text("EXIT", sx_, sy_ + 2, 52, "#FFFFFF", stroke=None)
+    g.rect(-600, 1560, 2300, 900, g.lgrad(0, 1560, 0, 2000, "#1F3442", "#14232D"), None)
+    g.line([(-600, 1560), (1700, 1560)], INK, 8)
+    for x in range(-200, 1400, 150):
+        g.line([(x, 1580), (x - 60, 2000)], "#FFFFFF", 4, a=0.04)
+
+
+def air_dots(g, t, box, n, seed=1, col="#BFE6F2", r=7, a=0.8, jig=10.0):
+    R = rnd(seed)
+    x0, y0, x1, y1 = box
+    for i in range(n):
+        x, y, ph = R.uniform(x0, x1), R.uniform(y0, y1), R.uniform(0, 6.3)
+        g.circle(x + jig * math.sin(t * 2.3 + ph), y + jig * math.cos(t * 1.9 + ph * 1.7), r, col, None, a=a)
+
+
+TUBE = (540, 1270, 340)                 # fuselage cross-section: centre x, y, radius
+
+
+def tube_section(g, t, arrows=0.0, door=0.0):
+    """Front-view cut through the fuselage: thick air inside (many dots), thin air outside, pressure arrows on the skin; door = highlight on the right."""
+    sky(g, t, top="#061525", bot="#163E55", clouds=False)
+    cx, cy, r = TUBE
+    air_dots(g, t, (-100, 780, 1180, 1800), 16, seed=4, a=0.5, r=6)
+    g.circle(cx, cy, r + 26, "#DCE6EA")
+    g.circle(cx, cy, r, "#2F5A6B", INK, lw=6)
+    with g.clip(circle=(cx, cy, r - 4)):
+        air_dots(g, t, (cx - r, cy - r, cx + r, cy + r), 150, seed=9, a=0.85, r=7, jig=8)
+        g.rect(cx - r, cy + 120, 2 * r, 2 * r, "#1B3140", None); g.line([(cx - r, cy + 120), (cx + r, cy + 120)], INK, 7)
+        for i, sx_ in enumerate((-215, -130, -45, 45, 130, 215)):
+            g.rect(cx + sx_ - 36, cy + 10, 72, 112, "#2F6F8C", r=(22, 22, 6, 6))
+            g.circle(cx + sx_, cy - 14, 28, ("#F4C6A0", "#8D5A3B", "#E3A679", "#F1C9A5", "#C98F62", "#F4C6A0")[i], INK, lw=5)
+    if arrows > 0:
+        for i in range(12):
+            ang = i * TAU / 12 + 0.26
+            kk = ease_out(clamp(arrows * 1.5 - i * 0.04)) * (0.85 + 0.15 * math.sin(TAU * 1.8 * t + i))
+            arrow(g, cx + (r - 150) * math.cos(ang), cy + (r - 150) * math.sin(ang), cx + (r - 18) * math.cos(ang), cy + (r - 18) * math.sin(ang),
+                  PAL["yellow"], 24, 2.2, kk, lw=5.5)
+    if door > 0:
+        c = g.c
+        c.new_path(); c.arc(cx, cy, r + 13, -0.42, 0.42)
+        c.set_source_rgba(*rgba(INK)); c.set_line_width(44); c.stroke()
+        c.new_path(); c.arc(cx, cy, r + 13, -0.40, 0.40)
+        c.set_source_rgba(*rgba("#FF5B4B", 0.6 + 0.4 * math.sin(t * 8))); c.set_line_width(26); c.stroke()
+        g.circle(cx + r + 14, cy, 150 - 20 * door, None, PAL["yellow"], lw=11, a=door)
+
+
+PLUG_Y = (1150, 1250)                   # outer and inner face of the wall in the plug-door diagram
+
+
+def plug_diagram(g, t, shift=0.0, press=0.0, blocked=0.0, labels=1.0, ghost=0.0):
+    """Top-view cut through the door: the door is a plug, wider on the cabin side than the hole in the wall.
+    shift: door offset in px (negative = outward, positive = into the cabin). press 0..1: cabin air arrows pushing it into the frame."""
+    y0, y1 = PLUG_Y
+    g.fill_all("#071A2B")
+    air_dots(g, t, (-100, 760, 1180, y0 - 30), 9, seed=5, a=0.45, r=6)
+    g.rect(-600, y1, 2300, 1200, g.lgrad(0, y1, 0, 1900, "#2F5A6B", "#1F3F4E"), None)
+    air_dots(g, t, (-60, y1 + 30, 1140, 1840), 120, seed=8, a=0.8, r=7, jig=8)
+    g.poly([(-600, y0), (360, y0), (316, y1), (-600, y1)], "#DCE6EA")
+    g.poly([(720, y0), (1700, y0), (1700, y1), (764, y1)], "#DCE6EA")
+    sq = 1 - 0.04 * press * (0.6 + 0.4 * math.sin(TAU * 2 * t))
+    dy = shift - 6 * press
+    d = [(366, y0 + dy), (714, y0 + dy), (756, y1 + dy), (324, y1 + dy)]
+    if ghost > 0:
+        g.poly([(366, y0 - 150), (714, y0 - 150), (756, y1 - 150), (324, y1 - 150)], None, PAL["cream"], lw=6, a=0.0)
+    g.poly(d, "#5B8296", r=6)
+    g.rect(470, y0 + dy + 30, 140, 40, "#0B2233", r=16)
+    g.rect(500, y1 + dy - 4, 80, 34, "#FF5B4B", r=12)
+    if press > 0:
+        for i, x in enumerate((380, 460, 540, 620, 700)):
+            kk = ease_out(clamp(press * 1.4 - i * 0.06)) * (0.85 + 0.15 * math.sin(TAU * 2 * t + i))
+            arrow(g, x, y1 + 300, x, y1 + 60 + dy, PAL["yellow"], 34, 2.1, kk, lw=6)
+    if blocked > 0:
+        for x in (345, 735):
+            k = pop(blocked, 0.0, 0.3)
+            with g.at(x, (y0 + y1) / 2, 0, k):
+                g.line([(-26, -26), (26, 26)], INK, 26); g.line([(26, -26), (-26, 26)], INK, 26)
+                g.line([(-26, -26), (26, 26)], "#FF5B4B", 14); g.line([(26, -26), (-26, 26)], "#FF5B4B", 14)
+    if labels > 0:
+        g.text("OUTSIDE: THIN AIR", 540, 930, 56, PAL["cream"], sw=12, a=labels)
+        g.text("CABIN: THICK AIR", 540, 1690, 56, PAL["cream"], sw=12, a=labels)
+
+
+def elephant(g, x, y, s=1.0, t=0.0, happy=True):
+    """Cute front-view sitting elephant; (x, y) = ground under it."""
+    lw0 = g.lw
+    with g.at(x, y, 0.02 * math.sin(t * 1.4), s):
+        g.lw = 7
+        c1, c2 = "#8FA3B5", "#7A8FA2"
+        g.ellipse(0, 14, 300, 44, INK, None, a=0.28)
+        for sx_ in (-150, 150):
+            g.rect(sx_ - 66, -150, 132, 160, c2, r=(40, 40, 46, 46))
+            for i in (-1, 0, 1):
+                g.ellipse(sx_ + i * 34, -4, 15, 11, "#FFF4E0", INK, lw=4)
+        g.ellipse(0, -250, 250, 250, c1)
+        g.ellipse(0, -190, 150, 150, shade(c1, 0.14), None)
+        fl = 0.06 * math.sin(t * 2.2)
+        for sd in (-1, 1):
+            with g.at(sd * 150, -520, sd * fl):
+                g.path(f"M0 -130 C{sd * 210} -200 {sd * 250} 40 {sd * 120} 150 C{sd * 60} 120 {sd * 20} 60 0 20 Z", c2)
+                g.path(f"M{sd * 20} -90 C{sd * 150} -140 {sd * 190} 20 {sd * 110} 104 C{sd * 70} 80 {sd * 40} 40 {sd * 24} 10 Z", "#F2A6A0", None, a=0.7)
+        g.ellipse(0, -530, 176, 160, c1)
+        g.path("M-40 -470 C-52 -380 -70 -330 -50 -270 C-36 -226 24 -226 34 -268 C44 -300 20 -318 4 -300", None, INK, lw=64)
+        g.path("M-40 -470 C-52 -380 -70 -330 -50 -270 C-36 -226 24 -226 34 -268 C44 -300 20 -318 4 -300", None, c1, lw=50)
+        for sd in (-1, 1):
+            g.path(f"M{sd * 62} -470 q{sd * 34} 44 {sd * 12} 84", None, INK, lw=30); g.path(f"M{sd * 62} -470 q{sd * 34} 44 {sd * 12} 84", None, "#FFF4E0", lw=17)
+            g.ellipse(sd * 74, -560, 22, 28, "#FFFFFF")
+            g.circle(sd * 74 + 3, -556, 13, INK, None); g.circle(sd * 74 - 2, -562, 4.5, "#FFFFFF", None)
+            g.circle(sd * 120, -500, 22, "#F2918A", None, a=0.55)
+            g.line(f"M{sd * 48} -604 Q{sd * 76} -622 {sd * 102} -602", INK, 8)
+    g.lw = lw0
