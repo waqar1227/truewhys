@@ -99,3 +99,8 @@ All original (TrueWhys). One episode = `episodes/<ep>/make.py` (`sheet` | `big <
   bloop, click, shimmer, chime.
 - **Tools:** `tools/voice_check.py <ep>` (finds clipped or misheard narration lines before rendering), `tools/yt_finish.py <ep>` (retry thumbnail/playlist after an
   API quota error), `lib/voice_gemini.py` now cuts lines at the real pauses (it used to drop a line's first word when whisper swallowed it).
+
+## Comedy sounds (added 13 Nov 2026, BigSoundBank CC0, credits in library/sfx/bsb/credits.json)
+- laugh__* (5 real laughter clips: layer 2–3 for an audience laugh), honk__trumpet-horn-for-bike-* (cartoon honk; cut single honks), burp__*, boing__boing-cartoon-*,
+  wings__* (bird wing flaps), skid__screeching-tires-4 (cartoon skid), scream__howling-of-a-boy, ducks__ducks. Example use: comedy/sample2/make_sample2.py (build_audio).
+- Comedy cast (sample only, not final): comedy/sample2/toon.py — Benny (TrueWhys egg-head style, run/walk poses) and the Goose (run, flap, munch, phone).
