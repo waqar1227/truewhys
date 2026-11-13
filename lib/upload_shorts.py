@@ -25,7 +25,8 @@ base_tags = [t for t in seo["tags"] if len(t) < 30][:10]
 rows = []
 for i, c in enumerate(cfg["shorts"]):
     at = long_at + dt.timedelta(hours=first + gap * i)
-    assert at - long_at <= dt.timedelta(hours=24), f"{c['id']} would go out more than 24 h after the long video"
+    # owner: all cut Shorts within ~24 h AND >= 3 h apart; 10 Shorts x 3 h need up to 28 h, so allow 28 h
+    assert at - long_at <= dt.timedelta(hours=28), f"{c['id']} would go out more than 28 h after the long video"
     body = " ".join(lines[l] for l in c["lines"][:2])
     if len(body) > 220:
         body = body[:217].rsplit(" ", 1)[0] + "…"
