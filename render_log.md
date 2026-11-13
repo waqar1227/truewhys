@@ -74,3 +74,5 @@
 - 12 Nov ~12:35 UTC: retried truewhys-render-a005 (v2): same ERROR (no GPU, no internet). anam318 still not phone-verified. 0 GPU h.
 - 12 Nov ~17:25 UTC: owner phone-verified anam318 → GPU works. a005 v3 ran ~5 min then was DELETED (A-005 already published in Style F by the Fable sprint; plates not needed).
 - 12 Nov ~17:35 UTC: truewhys-render-b003 v2 (ch 0–3) + truewhys-render-b003b v2 (ch 4–6) RUNNING on 2×T4 sessions (Kaggle limit: 2 GPU sessions at once). b003c (Shorts) waits for a free slot.
+- 13 Nov 03:40 UTC: b003 v2 COMPLETE (202 min, 2×T4, 43 plates) + b003b v2 COMPLETE (143 min, 28 plates) → renders/plates (71/71 3d shots). ~11.5 GPU h.
+- 13 Nov 03:41 UTC: truewhys-render-b003c v1 (10 cut Shorts, shorts_shots.json, 1080×1920) RUNNING.
