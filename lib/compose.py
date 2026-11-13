@@ -465,11 +465,19 @@ def main():
             segs.append(cur); cur, acc = [], 0
     if cur:
         segs.append(cur)
-    tmp = Path(tempfile.mkdtemp(prefix="tw_"))
+    # resumable: segments live in COMPOSE_RESUME (if set); a finished segment gets a .done marker and is skipped next time
+    rd = os.environ.get("COMPOSE_RESUME")
+    tmp = Path(rd) if rd else Path(tempfile.mkdtemp(prefix="tw_"))
+    tmp.mkdir(parents=True, exist_ok=True)
     jobs = [(sg, a.plates, str(ep), a.w, a.h, str(tmp / f"seg{i:03d}.mp4"), str(plan_p), str(timing_p)) for i, sg in enumerate(segs)]
+    outs = [j[5] for j in jobs if Path(j[5] + ".done").exists()]
+    todo = [j for j in jobs if not Path(j[5] + ".done").exists()]
+    print(f"segments: {len(jobs)} total, {len(outs)} already done", flush=True)
     from multiprocessing import Pool
     with Pool(a.workers) as pool:
-        outs = sorted(pool.map(_worker, jobs))
+        for o in pool.imap_unordered(_worker, todo):
+            Path(o + ".done").touch(); outs.append(o); print("seg done", Path(o).name, flush=True)
+    outs = sorted(outs)
     lst = tmp / "list.txt"
     lst.write_text("".join(f"file '{o}'\n" for o in outs))
     video = tmp / "video.mp4"
@@ -481,7 +489,8 @@ def main():
         build_mix(ep, plan, str(wav))
         subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(video), "-i", str(wav), "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
                         "-shortest", "-movflags", "+faststart", a.out], check=True)
-    shutil.rmtree(tmp, ignore_errors=True)
+    if not rd:
+        shutil.rmtree(tmp, ignore_errors=True)
     print("wrote", a.out)
 
 
