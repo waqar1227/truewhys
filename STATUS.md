@@ -8,11 +8,14 @@
    A-006 Castle toilet: YouTube iW60L9Pap5k scheduled 13 Nov 10:00 UTC (thumb, playlist, category 24). TikTok NOT yet posted (see below).
    A-003 Plane door: YouTube bE1TP9JlAzs scheduled 13 Nov 16:00 UTC (thumb, playlist, category 28). TikTok NOT yet posted (see below).
    Still taken: A-002 13 Nov 22:00 UTC. Free standalone slots left unused: 14 Nov 04:00, 10:00, 16:00, 22:00 (no new sprint videos unless the owner asks).
-   OPEN, waits for the owner: TikTok for A-006 and A-003. Needs (1) a fresh Dropbox token (secure form, hosts content.dropboxapi.com + api.dropboxapi.com) and
-   (2) his approval click on the Metricool prompt. Then per Short: `python lib/dropbox_host.py up episodes/<ep>/final/<ID>.mp4 <ID>.mp4` → Metricool
-   createScheduledPost (TikTok, text = upload_meta.json "tiktok_caption", title = YouTube title, never set isAigc) → `python lib/dropbox_host.py rm <ID>.mp4`
-   → social/tiktok_posted.json. Also `python lib/dropbox_host.py rm A-007.mp4` (old copy). Finals are only in the sprint session's container; rebuild if lost:
-   `python lib/voice_gemini.py episodes/<ep>` (from the FLAC master, no new request) then `python episodes/<ep>/make.py render`.
+   OPEN (13 Nov 13:30 UTC): TikTok for A-006 and A-003. Files ARE on Dropbox already (fresh token 13 Nov 13:29 UTC; public links stay valid
+   until the files are deleted): A-006 https://www.dropbox.com/scl/fi/w5oc17vvy71z6mn5k4nun/A-006.mp4?rlkey=ooy8sm3ka8tiqwoz9pda145h1&dl=1
+   A-003 https://www.dropbox.com/scl/fi/48gg2tgzbmhw2n0cp9wzz/A-003.mp4?rlkey=yuh94dfmrhhyzjisxvij4uh81&dl=1
+   BLOCKED: the Metricool connector failed to connect (503) after the model switch. Owner: reconnect Metricool at claude.ai/customize/connectors and start
+   a new session (or retry here). Then Metricool createScheduledPost (brand 7942824, Asia/Karachi, TikTok only, text = upload_meta.json "tiktok_caption",
+   tiktokData.title = YouTube title, never set isAigc): A-003 at 16:30 UTC 13 Nov if still ahead (else next free time); A-006 slot 10:30 UTC is past →
+   19:30 UTC 13 Nov suggested (US/UK evening, 3 h from other TikToks). Record ids in episodes/<ep>/social/tiktok_posted.json, then
+   `python lib/dropbox_host.py rm A-006.mp4` / `A-003.mp4` (needs a valid Dropbox token; else the owner deletes them in Dropbox). Old A-007 copy deleted.
    Style F engine and assets: library/index.md ("Style F" section). Scripted but not made: none. Ideas noted for later: dazzle ships, Centralia, cat righting reflex.
 ** 12 Nov growth review: titles with ONE named object + "Why/Accident" claim get the fastest starts (A-001, A-008); name the object in cut-Short titles of B-003, avoid vague "job" titles (research/daily_report.md).
 ** 12 Nov 17:35 UTC: KAGGLE WORKS again (anam318 phone-verified; max 2 GPU sessions at once). B-003 kernels b003 + b003b v2 RUNNING; then push kernel_b003c.
