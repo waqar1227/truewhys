@@ -78,3 +78,24 @@ Helpers: `flames()` toon fire, `candle()`, `panel_wall()`, `tapestry()`.
 - Docs (lib/gfx.DOCS): film1950, book1883, kidd1699, roberts, injuries, trial1720.
 - Sounds (lib/audio.py, CC0): waves, gulls (BigSoundBank sea waves + seagulls), bell (small bell), crowd_cheer (applause), creak, flag_flap, cannon (Kenney/OpenGameArt packs).
 - Music mood `adventure` (lib/music.py): jaunty sea-shanty feel, original, code-generated.
+
+## Style F (flat 2D, drawn in code, CPU only) — added 12–13 Nov 2026 (A-005, A-007, A-006, A-003)
+All original (TrueWhys). One episode = `episodes/<ep>/make.py` (`sheet` | `big <t,t>` | `render`); needs `timing.json` + `audio/lines` from lib/voice_gemini.py.
+- **Engine `lib/flat2d.py`:** cairo vector drawing (`G`: circle, rect, poly, path strings, limb, glow, rings, text with sticker outline), easing/pop/keyframes,
+  path sampling (`path_at`, `path_part`), camera helpers (`roi`, `push`, `look_at`, parallax `g.layer`), `Video` (shots split by spoken words:
+  `part=(0, "word")`, `"word#1"` = second match; SFX by word; music moods), word-by-word captions (Lilita One, yellow key words), hook title block,
+  transitions (punch, flash, iris), Wy end card (`end_card`), contact sheets (`V.sheet`), parallel render + mix (`V.render`), `measure(mp4)` for qa.md.
+- **Cast `lib/flat_cast.py`:** `Char(...)` chunky characters: 20 expressions (`EXPR`), arm poses (`ARM`, `amix`), held props, blinks, breathing, hats (headband,
+  beanie, cap, pilot, hardhat, kettle helmet, crown, top hat, chef, goggles), hair styles, beard/moustache/glasses, outfit layers (apron, collar, coat, tie, belt,
+  buttons, badge, stripes, tunic, armor, scarf). `WY` (full-body mascot) and `wy_bust` (exactly the logo drawing, blinks and talks).
+- **Effects `lib/flat_fx.py`:** wall tiles, `room`, pendant `lamp`, snow/flakes, sparkles, bolts, pain marks, chunky `arrow`, steam, burst, `ring_wave`, `flame`,
+  `no_sign`, pressure `gauge`, `qmark`.
+- **Sets and props `lib/flat_sets.py`:** `parlour` (ice-cream shop), `lab` + `monitor`, `xray_bg`, head `cutaway` (brain, skull, artery, nerve, tongue; animatable
+  state), `sky` + `cloud`, side-view `plane` (square or round windows), `fuselage_skin` + `big_window` + `crack`, `hangar` + water `tank_back/tank_front`,
+  `stress_field` (flow lines round a square/rounded opening), `newspaper`, castle: `castle_wall` (garderobe box + chute, or gate with drawbridge), `garderobe_room`,
+  `chute_section`, `castle_hill`, `tent`, `crowd`, `torch`, `moon`, `stone`, `merlons`; aviation: `cabin` + `seat`, `tube_section`, `plug_diagram`, `air_dots`;
+  `elephant`. Props for hands: `cone`, `mug`, `cup_straw`.
+- **Sounds `lib/sfxgen.py`:** in-house synthesised effects registered with lib/audio (use by name): freeze, zap, swell, rush, heartbeat, sting, melt, confuse,
+  bloop, click, shimmer, chime.
+- **Tools:** `tools/voice_check.py <ep>` (finds clipped or misheard narration lines before rendering), `tools/yt_finish.py <ep>` (retry thumbnail/playlist after an
+  API quota error), `lib/voice_gemini.py` now cuts lines at the real pauses (it used to drop a line's first word when whisper swallowed it).
