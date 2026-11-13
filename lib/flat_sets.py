@@ -582,3 +582,224 @@ def newspaper(g, x, y, s=1.0, rot=0.0, head="COMET MYSTERY", sub="WHY?", year="1
         g.text(sub, 150, -8, 150, "#FF5B4B", sw=22, rot=-0.12)
         for i in range(6):
             g.rect(-300, 150 + i * 40, 560 if i % 3 else 470, 16, shade("#FFF4E0", -0.28), None, r=6)
+
+
+# ------------------------------------------------------------------ castle sets (A-006): exterior wall, garderobe room, chute section, hill castle
+
+from flat_fx import flame, qmark
+
+
+def stone(g, x, y, w, h, col="#66727F", r=0, tile=(120, 56), a=0.17, lw=4, outline=True):
+    """Stone-block surface: fill + faint block outlines (clipped to the shape)."""
+    g.rect(x, y, w, h, col, None, r=r)
+    c = g.c
+    c.save(); g._rr(x, y, w, h, r); c.clip()
+    tiles(g, x - 70, y - 12, x + w + 70, y + h + 12, tile[0], tile[1], gap=10, col=INK, a=a, r=8, lw=lw)
+    c.restore()
+    if outline: g.rect(x, y, w, h, None, INK, r=r)
+
+
+def merlons(g, x0, x1, y, w=74, h=58, gap=52, col="#66727F"):
+    x = x0
+    while x + w <= x1 + 1:
+        g.rect(x, y - h, w, h + 10, col, r=(8, 8, 0, 0)); g.rect(x + 3, y - 4, w - 6, 16, col, None)
+        x += w + gap
+
+
+def torch(g, x, y, t, s=1.0):
+    g.rings(x, y - 40 * s, 240 * s, "#FFB060", a=0.07, n=3)
+    g.line([(x, y + 56 * s), (x, y - 6 * s)], INK, 24 * s); g.line([(x, y + 56 * s), (x, y - 6 * s)], "#7A4B2E", 11 * s)
+    flame(g, x, y - 4 * s, 56 * s, 96 * s, t, seed=x * 0.01)
+
+
+def moon(g, x, y, r=110):
+    g.rings(x, y, r * 2.7, "#FFF4E0", a=0.05, n=3)
+    g.circle(x, y, r, "#FFF1D0")
+    g.circle(x - r * 0.32, y - r * 0.2, r * 0.19, "#EBD9B0", None); g.circle(x + r * 0.26, y + r * 0.3, r * 0.13, "#EBD9B0", None)
+    g.circle(x + r * 0.2, y - r * 0.42, r * 0.09, "#EBD9B0", None)
+
+
+WALL_TOP, WALL_FOOT = 860, 1560
+GBOX = (600, 1000, 240, 200)            # garderobe box on the exterior wall: x, y, w, h
+CHUTE = (640, 1200, 160, 300)           # its stone chute down the wall; the outlet is at the bottom
+OUTLET = (720, 1500)                    # bottom centre of the chute outlet
+
+
+def castle_wall(g, t, gate=None, hl=0.0, box=True):
+    """Night exterior: tower, curtain wall with battlements, garderobe box + chute (or a gate with drawbridge: gate = 0..1 open), bank and moat."""
+    sky(g, t, top="#071728", bot="#1E4A63", clouds=False)
+    with g.layer(0.5):
+        moon(g, 880, 330)
+    stone(g, -90, 640, 340, 940, "#566270")
+    merlons(g, -90, 250, 640, col="#566270")
+    g.rect(64, 830, 46, 112, "#FFC56B", r=22); g.glow(87, 886, 160, "#FFB060", 0.35)
+    stone(g, 236, WALL_TOP, 1000, WALL_FOOT - WALL_TOP, "#66727F")
+    merlons(g, 250, 1230, WALL_TOP)
+    g.rect(236, WALL_FOOT - 120, 1000, 120, INK, None, a=0.16)
+    if gate is None and box:
+        bx, by, bw, bh = GBOX
+        cx, cy, cw, ch = CHUTE
+        stone(g, cx, cy, cw, ch, "#707C89", tile=(90, 50))
+        g.path(f"M{cx + 22} {cy + ch} L{cx + 22} {cy + ch - 62} Q{cx + cw / 2} {cy + ch - 130} {cx + cw - 22} {cy + ch - 62} L{cx + cw - 22} {cy + ch} Z", "#141A22")
+        for sx_ in (bx + 14, bx + bw - 74):
+            g.poly([(sx_, by + bh), (sx_ + 60, by + bh), (sx_ + 30, by + bh + 56)], "#566270", r=6)
+        stone(g, bx, by, bw, bh, "#7C8895", tile=(100, 52))
+        g.poly([(bx - 16, by + 6), (bx + bw / 2, by - 64), (bx + bw + 16, by + 6)], "#B0503E", r=8)
+        g.rect(bx + bw / 2 - 13, by + 54, 26, 78, "#141A22", r=13)
+        if hl > 0:
+            g.circle(bx + bw / 2, by + bh / 2 + 20, 235 - 30 * hl, None, PAL["yellow"], lw=12, a=hl * (0.75 + 0.25 * math.sin(t * 9)))
+    if gate is not None:
+        k = ease_io(gate)
+        g.path("M430 1560 L430 1290 Q565 1130 700 1290 L700 1560 Z", "#141A22")
+        g.glow(565, 1440, 190, "#FFB060", 0.55 * k)
+        for i in range(5):                                  # raised portcullis
+            g.line([(462 + i * 52, 1210), (462 + i * 52, 1320 - 70 * k)], "#3A3F4A", 10)
+        top_y, bot_y = 1560 - 370 * (1 - k), 1560 + 250 * k
+        g.poly([(438, top_y), (692, top_y), (692 + 60 * k, bot_y), (438 - 60 * k, bot_y)], "#8C5A3C", r=6)
+        for i in range(1, 5):
+            yy = top_y + (bot_y - top_y) * i / 5
+            g.line([(438 - 60 * k * i / 5, yy), (692 + 60 * k * i / 5, yy)], shade("#8C5A3C", -0.3), 5)
+        for sx_, ex_ in ((440, 438 - 60 * k), (690, 692 + 60 * k)):
+            g.line([(sx_, 1250), (ex_, bot_y if k > 0.05 else top_y)], "#AEB8C2", 6, dash=([14, 10], 0))
+    for x in (330, 1010):
+        torch(g, x, 1160 if gate is None else 1100, t, 0.9)
+    g.rect(-600, WALL_FOOT, 2300, 120, "#34432F", None); g.line([(-600, WALL_FOOT), (1700, WALL_FOOT)], INK, 8)
+    g.rect(-600, WALL_FOOT + 96, 2300, 800, g.lgrad(0, WALL_FOOT + 96, 0, 2100, "#1D5A72", "#0C2C40"), None)
+    g.line([(-600, WALL_FOOT + 96), (1700, WALL_FOOT + 96)], INK, 6)
+    for i in range(7):
+        x = (i * 263 + t * 26) % 1500 - 200
+        g.line([(x, WALL_FOOT + 150 + (i % 3) * 70), (x + 120, WALL_FOOT + 150 + (i % 3) * 70)], "#BFF1FF", 7, a=0.28)
+
+
+SEAT_Y, HOLE = 1312, (640, 1312, 132, 27)        # top of the stone seat; the hole (x, y, rx, ry)
+
+
+def garderobe_room(g, t, clothes=False):
+    """Inside the garderobe: stone walls, slit window with moonlight, door, candle, stone bench with the hole."""
+    g.fill_all(g.lgrad(0, 0, 0, H, "#333B49", "#535C6D"))
+    with g.layer(0.94):
+        tiles(g, -400, -200, W + 400, 1620, 170, 84, gap=12, col=INK, a=0.17, r=10, lw=4)
+    g.rect(912, 900, 58, 250, "#1E4A63", r=29)
+    g.poly([(912, 900), (970, 900), (800, 1560), (560, 1560)], "#BFE6F2", None, a=0.07)
+    g.rect(52, 980, 290, 590, "#7A4B2E", r=(145, 145, 0, 0))
+    for x in (124, 196, 268):
+        g.line([(x, 1010), (x, 1560)], shade("#7A4B2E", -0.3), 5)
+    for y in (1130, 1400):
+        g.rect(52, y, 290, 30, "#3A3F4A", None); g.line([(52, y), (342, y)], INK, 4); g.line([(52, y + 30), (342, y + 30)], INK, 4)
+    g.circle(300, 1290, 20, None, "#AEB8C2", lw=9)
+    g.rings(430, 1090, 330, "#FFB060", a=0.07, n=3)
+    g.rect(398, 1150, 64, 16, "#3A3F4A", r=6); g.rect(418, 1092, 24, 60, "#FFF4E0", r=6)
+    flame(g, 430, 1094, 34, 62, t, seed=2.0)
+    if clothes:
+        g.rect(520, 930, 360, 20, "#7A4B2E", r=8)
+        for i, (c_, x) in enumerate((("#B0413E", 580), ("#2F5FA8", 700), ("#7A4B8C", 820))):
+            sw = 0.04 * math.sin(t * 1.6 + i)
+            with g.at(x, 950, sw):
+                g.line([(0, -6), (0, 16)], INK, 8)
+                g.path("M-58 20 Q0 -6 58 20 L72 250 Q0 276 -72 250 Z", c_)
+                g.line([(-20, 60), (-24, 236)], shade(c_, -0.25), 5); g.line([(22, 60), (26, 236)], shade(c_, -0.25), 5)
+    g.rect(-600, 1560, 2300, 900, g.lgrad(0, 1560, 0, 2000, "#5A3F30", "#33241C"), None)
+    g.line([(-600, 1560), (1700, 1560)], INK, 8)
+    for y in (1650, 1760):
+        g.line([(-600, y), (1700, y)], INK, 4, a=0.25)
+    stone(g, 420, SEAT_Y + 18, 760, 250, "#7F8A97")
+    g.rect(392, SEAT_Y - 28, 820, 60, "#9BA6B2", r=12)
+    hx, hy, rx, ry = HOLE
+    g.ellipse(hx, hy, rx, ry, "#12171D")
+
+
+def chute_section(g, t, bars=0.0, bend=0.0, drop=None):
+    """Cut through the castle wall: lit passage (left), garderobe box hanging outside (right), seat, chute, moat.
+    bars 0..1: iron bars at the outlet; bend 0..1: the chute gets a zigzag; drop 0..1: a marker travels down the chute."""
+    g.fill_all(g.lgrad(0, 0, 0, H, "#071728", "#1E4A63"))
+    with g.layer(0.5):
+        moon(g, 930, 400, 80)
+    g.rect(-600, 760, 1010, 400, g.lgrad(0, 760, 0, 1160, "#5A4636", "#3B2E25"), None)          # passage inside the castle
+    g.rect(-600, 1140, 1010, 30, "#7A4B2E", None); g.line([(-600, 1140), (410, 1140)], INK, 6)
+    torch(g, 150, 960, t, 0.8)
+    stone(g, 400, 640, 330, 1000, "#8A93A0", tile=(110, 54))                                        # wall in section
+    g.rect(400, 930, 330, 210, "#4B3B30", None)                                                     # doorway through the wall
+    g.line([(400, 930), (730, 930)], INK, 6); g.line([(400, 1140), (730, 1140)], INK, 6)
+    stone(g, 720, 1140, 170, 340, "#7F8A97", tile=(90, 50))                                         # chute shaft on the outer face
+    g.poly([(890, 1140), (980, 1140), (890, 1250)], "#707C89", r=6)
+    stone(g, 700, 860, 300, 290, "#8A93A0", tile=(100, 52))                                         # the garderobe box
+    g.poly([(684, 866), (850, 790), (1016, 866)], "#B0503E", r=8)
+    g.rect(724, 900, 250, 226, "#4B3B30", r=8)
+    g.rect(952, 950, 30, 80, "#1E4A63", r=14)
+    g.rect(800, 1060, 174, 70, "#9BA6B2", r=8)                                                      # the seat
+    ch = [(850, 1066), (850, 1200), (lerp(850, 772, bend), 1262), (lerp(850, 772, bend), 1356), (850, 1418), (850, 1482)]
+    g.line(ch, "#12171D", 46)
+    if drop is not None and 0 < drop < 1:
+        L = [math.hypot(b[0] - a[0], b[1] - a[1]) for a, b in zip(ch, ch[1:])]
+        d = drop * sum(L)
+        for (a, b), l in zip(zip(ch, ch[1:]), L):
+            if d <= l:
+                px, py = a[0] + (b[0] - a[0]) * d / l, a[1] + (b[1] - a[1]) * d / l
+                g.poly([(px - 17, py - 14), (px + 17, py - 14), (px, py + 16)], PAL["yellow"], lw=4.5, r=3)
+                break
+            d -= l
+    if bars > 0:
+        for i in range(4):
+            k = back_out(clamp(bars * 1.6 - i * 0.18), 2.0)
+            if k > 0:
+                g.line([(808 + i * 28, 1482 - 46 * k), (808 + i * 28, 1482)], INK, 13); g.line([(808 + i * 28, 1482 - 46 * k), (808 + i * 28, 1482)], "#AEB8C2", 6)
+    g.rect(730, 1560, 1100, 60, "#34432F", None); g.line([(730, 1560), (1800, 1560)], INK, 7)
+    g.rect(-600, 1600, 2400, 700, g.lgrad(0, 1600, 0, 2100, "#1D5A72", "#0C2C40"), None); g.line([(-600, 1600), (1800, 1600)], INK, 6)
+    g.rect(-600, 1600, 1000, 700, "#3B2E25", None); g.line([(400, 1600), (400, 2400)], INK, 6)
+
+
+def castle_hill(g, t, lit=1.0):
+    """A mighty castle on a chalk cliff at dusk (three rings of wall, towers, keep), with a siege-camp foreground strip."""
+    sky(g, t, top="#0A1E38", bot="#2E6079", speed=16)
+    with g.layer(0.5):
+        moon(g, 190, 360, 86)
+    with g.layer(0.8):
+        g.path("M-400 1330 Q120 1130 560 1260 T1500 1230 L1500 2200 L-400 2200 Z", "#16394B", None)
+    g.path("M-40 1620 Q150 1150 470 1075 Q560 1058 650 1080 Q930 1160 1110 1620 Z", "#2F5F4C")
+    g.path("M650 1080 Q930 1160 1110 1620 L880 1620 Q820 1300 650 1080 Z", "#D6CDB2")
+    g.line("M740 1210 Q800 1330 830 1470", shade("#D6CDB2", -0.2), 6); g.line("M880 1330 Q930 1440 960 1560", shade("#D6CDB2", -0.2), 6)
+    for (x, y, w, h, c_) in ((170, 1010, 700, 120, "#6E7A87"), (250, 920, 540, 110, "#7C8895"), (330, 835, 380, 100, "#8A96A2")):
+        stone(g, x, y, w, h, c_, tile=(84, 40), lw=3)
+        merlons(g, x + 6, x + w - 6, y, w=44, h=34, gap=30, col=c_)
+    for (x, y, w, h) in ((150, 930, 96, 210), (790, 930, 96, 210), (232, 850, 84, 190), (724, 850, 84, 190)):
+        stone(g, x, y, w, h, "#7C8895", tile=(60, 36), lw=3, r=(10, 10, 0, 0))
+        g.poly([(x - 12, y + 6), (x + w / 2, y - 92), (x + w + 12, y + 6)], "#B0503E", r=8)
+        g.rect(x + w / 2 - 9, y + 60, 18, 50, "#FFC56B", r=9, a=lit)
+    stone(g, 452, 650, 136, 200, "#98A3AF", tile=(70, 38), lw=3, r=(12, 12, 0, 0))
+    merlons(g, 452, 588, 650, w=30, h=28, gap=23, col="#98A3AF")
+    g.line([(520, 624), (520, 520)], INK, 9)
+    fw = 8 * math.sin(t * 5)
+    g.path(f"M520 524 Q560 {514 + fw} 606 {534 - fw} Q566 {556 + fw} 520 568 Z", "#B0413E")
+    for (x, y) in ((500, 720), (540, 780)):
+        g.rect(x, y, 20, 46, "#FFC56B", r=10, a=lit)
+    g.rect(-600, 1600, 2300, 800, g.lgrad(0, 1600, 0, 2000, "#2A4734", "#16291F"), None)
+    g.line([(-600, 1600), (1700, 1600)], INK, 8)
+
+
+def tent(g, x, y, s=1.0, col="#F1E6CC", stripe="#2F5FA8"):
+    with g.at(x, y, 0, s):
+        g.poly([(-150, 0), (0, -210), (150, 0)], col, r=8)
+        with g.clip(d="M-150 0 L0 -210 L150 0 Z"):
+            for i in (-2, 0, 2):
+                g.poly([(i * 44 - 16, 0), (i * 10 - 4, -210), (i * 10 + 4, -210), (i * 44 + 16, 0)], stripe, None)
+        g.poly([(-150, 0), (0, -210), (150, 0)], None, INK, r=8)
+        g.poly([(-34, 0), (0, -120), (34, 0)], "#2A1C1E", None, r=4)
+        g.line([(0, -210), (0, -262)], INK, 8)
+        g.path("M0 -262 L52 -246 L0 -228 Z", stripe)
+
+
+def crowd(g, t, y=1830, n=6, cheer=1.0, col="#2F5FA8"):
+    """Row of soldiers seen from behind (helmets, spears, torches) cheering."""
+    for i in range(n):
+        x = 80 + i * 186 + (i % 2) * 20
+        b = 18 * abs(math.sin(t * 5.2 + i * 1.3)) * cheer
+        with g.at(x, y - b):
+            g.rect(-70, -40, 140, 300, col, r=(60, 60, 0, 0))
+            g.path("M-78 -40 C-78 -150 78 -150 78 -40 Z", "#AEB8C2")
+            g.path("M-104 -34 Q0 -62 104 -34 Q0 -18 -104 -34 Z", "#AEB8C2")
+            if i % 2 == 0:
+                g.line([(96, 60), (112, -250)], INK, 14); g.line([(96, 60), (112, -250)], "#7A4B2E", 6)
+                g.poly([(112, -250), (96, -300), (122, -330), (138, -292)], "#DCE6EA", lw=5, r=3)
+            else:
+                g.limb([(86, 20), (118, -120)], col, 30, lw=5)
+                torch(g, 122, -160, t + i, 0.7)

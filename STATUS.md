@@ -3,10 +3,16 @@
 ## NEXT (keep this list short; heartbeat does only these)
 ** FABLE SPRINT (Style F, flat 2D) — owned by ONE long-running sprint session (started 12 Nov 07:00 UTC). Heartbeat sessions: do NOT make or
    upload sprint videos; only read this block. Engine: lib/flat2d.py (+ flat_cast, flat_sets, flat_fx, sfxgen); each episode: `python episodes/<ep>/make.py render`.
-   DONE: A-005 Brain freeze (Style F): YouTube 8hsKNMLOhAw PUBLIC 12 Nov 16:00 UTC, thumb set, QA pass; TikTok Metricool 425987798 at 17:40 UTC 12 Nov.
-   NEXT slots (UTC, standalone Shorts, >=6 h apart): 13 Nov 04:00 A-007 Square windows · 13 Nov 10:00 A-006 Castle toilets · 13 Nov 16:00 new ·
-   14 Nov 04:00 A-003 Plane door · 14 Nov 10:00 / 16:00 / 22:00 new topics. Taken: A-004 12 Nov 22:00, A-002 13 Nov 22:00. Nothing after 14 Nov 23:59 UTC.
-   TikTok needs a fresh Dropbox token each time (lasts ~4 h): ask the owner with the secure form when Dropbox answers 401.
+   DONE: A-005 Brain freeze: YouTube 8hsKNMLOhAw PUBLIC 12 Nov 16:00 UTC, thumb set; TikTok Metricool 425987798 (17:40 UTC 12 Nov).
+   DONE: A-007 Square windows: YouTube WHd_m81cbpE publishAt 13 Nov 04:00 UTC. OPEN: thumbnail + playlist + category 28 failed (YouTube API quota
+         exceeded 12 Nov) → after 08:00 UTC run `python tools/yt_finish.py episodes/A-007-square-windows` and `python tools/yt_category.py WHd_m81cbpE 28`.
+         TikTok NOT scheduled yet: file is on Dropbox (A-007.mp4, link in this session); Metricool call needs the owner's approval click.
+   READY (QA pass, 13 Nov 03:40 UTC): A-006 "The Castle Toilet That Let an Army In" (final/A-006.mp4 here, rebuild: make.py render) → upload after
+         08:00 UTC for publishAt 13 Nov 10:00 UTC (must be uploaded by 09:00), category 24; TikTok 10:30 UTC (caption in upload_meta.json "tiktok_caption").
+   NEXT: A-003 Plane door (voice done) → 13 Nov 16:00 UTC (upload by 15:00) · new topics → 14 Nov 04:00 (not animals), 10:00, 16:00, 22:00.
+   Taken: A-002 13 Nov 22:00. Nothing after 14 Nov 23:59 UTC. Before each upload: list scheduled videos (tools/yt_list.py) to keep 6 h gaps.
+   BLOCKERS for the owner: (1) Metricool/TikTok posts need his approval click in this session (prompt appears when he opens it);
+   (2) Dropbox token lasts ~4 h (secure form when Dropbox answers 401). The session only works in short bursts (usage limit); hourly keep-alive task resumes it.
 ** 12 Nov growth review: titles with ONE named object + "Why/Accident" claim get the fastest starts (A-001, A-008); name the object in cut-Short titles of B-003, avoid vague "job" titles (research/daily_report.md).
 ** 12 Nov 17:35 UTC: KAGGLE WORKS again (anam318 phone-verified; max 2 GPU sessions at once). B-003 kernels b003 + b003b v2 RUNNING; then push kernel_b003c.
 ** 12 Nov 07:00 UTC (old): KAGGLE PAUSED. Owner: Fable 5.2 sprint in Style F (flat 2D, like A-008), videos scheduled

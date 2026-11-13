@@ -36,6 +36,28 @@ def master(cw):
         fl.parent.mkdir(exist_ok=True)
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(cw), "-compression_level", "8", str(fl)], check=True)
 
+def _silence(a, sr, lo, hi, thr=0.035):
+    """Longest quiet stretch (start, end) in seconds between lo and hi, or None if there is no real pause."""
+    hop = int(0.01 * sr)
+    i0, i1 = max(0, int(lo * sr)), min(len(a), int(hi * sr))
+    n = (i1 - i0) // hop
+    if n < 8:
+        return None
+    rms = np.sqrt((a[i0:i0 + n * hop].reshape(n, hop) ** 2).mean(1))
+    quiet = rms < thr * (np.percentile(np.abs(a), 99) or 1.0)
+    best, cur = None, None
+    for k in range(n + 1):
+        if k < n and quiet[k]:
+            cur = (cur[0], k + 1) if cur else (k, k + 1)
+        else:
+            if cur and (best is None or cur[1] - cur[0] > best[1] - best[0]):
+                best = cur
+            cur = None
+    if not best or (best[1] - best[0]) < 10:
+        return None
+    return (i0 / sr + best[0] * 0.01, i0 / sr + best[1] * 0.01)
+
+
 def prompt_for(chapter, says):
     return ("# AUDIO PROFILE: The Narrator\nA warm, charismatic male storyteller for a hit animated history channel.\n\n"
             "## THE SCENE\nA cosy studio. He is telling a true, astonishing story to a friend, half amazed himself.\n\n"
@@ -93,19 +115,27 @@ def main(ep, chapters):
             for w in l["text"].split():
                 cap_words.append(w); owner.append(i)
         al = align(" ".join(cap_words), ww, len(a) / sr)
-        # line boundaries: cut in the middle of the gap between lines
+        # line boundaries: cut inside the real pause between lines (found by loudness), not at whisper's word times:
+        # whisper sometimes swallows the first word of a line (zero length), which used to cut that word off.
         firsts = [next(k for k, o in enumerate(owner) if o == i) for i in range(len(L))]
         lasts = [max(k for k, o in enumerate(owner) if o == i) for i in range(len(L))]
-        cuts = [0.0]
+        bounds = []
         for i in range(len(L) - 1):
-            cuts.append((al[lasts[i]]["e"] + al[firsts[i + 1]]["s"]) / 2)
-        cuts.append(len(a) / sr)
+            f = firsts[i + 1]
+            zero = f < lasts[i + 1] and al[f + 1]["s"] - al[f]["s"] < 0.03
+            sil = _silence(a, sr, al[lasts[i]]["e"] - 0.05, (al[f + 1]["s"] if zero else al[f]["s"]) + 0.05)
+            if sil:
+                e_i, s_n = min(sil[1], sil[0] + 0.18), max(sil[0], sil[1] - 0.08)
+                if zero:
+                    al[f]["s"], al[f]["e"] = round(s_n + 0.08, 3), al[f + 1]["s"]
+            else:
+                mid = (al[lasts[i]]["e"] + al[f]["s"]) / 2
+                e_i, s_n = min(mid, al[lasts[i]]["e"] + 0.18), max(mid, al[f]["s"] - 0.08)
+            bounds.append((e_i, s_n))
         heard_all = " ".join(w["w"] for w in ww)
         for i, l in enumerate(L):
-            s0, s1 = cuts[i], cuts[i + 1]
-            # trim to speech with small pads
-            w0, w1 = al[firsts[i]]["s"], al[lasts[i]]["e"]
-            s0 = max(s0, w0 - 0.08); s1 = min(s1, w1 + 0.18)
+            s0 = max(0.0, al[firsts[0]]["s"] - 0.08) if i == 0 else bounds[i - 1][1]
+            s1 = min(len(a) / sr, al[lasts[-1]]["e"] + 0.18) if i == len(L) - 1 else bounds[i][0]
             seg = a[int(s0 * sr):int(s1 * sr)]
             sf.write(ep / f"audio/lines/{l['id']}.wav", seg, sr)
             words = [dict(w=al[k]["w"], s=round(al[k]["s"] - s0, 3), e=round(al[k]["e"] - s0, 3)) for k in range(firsts[i], lasts[i] + 1)]
