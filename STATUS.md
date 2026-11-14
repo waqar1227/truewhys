@@ -1,6 +1,7 @@
 # STATUS (read the NEXT list first)
 
 ## NEXT (keep this list short; heartbeat does only these)
+** 14 Nov owner: NO NEW PRODUCTION until his go-ahead. Only finish B-003 (long + 10 cut Shorts) and its uploads. Test & Compare package sent (3 thumbs + 3 titles).
 ** 13 Nov owner: TikTok PAUSED (no posts, no Dropbox requests) until he asks. Kaggle is shared with other sessions: never stop/delete their kernels.
 ** B-003 pirates: long Am8epkS94Hw scheduled 14 Nov 15:00 UTC (QA pass). After 08:00 UTC 14 Nov (API quota reset): `python tools/yt_finish.py episodes/B-003-pirate-myths episodes/B-003-pirate-myths/final/thumb_A.jpg`,
    then upload cut Shorts C1–C5 (14 Nov, 16:00→04:00 UTC slots). After 08:00 UTC 15 Nov upload C6–C10 (slots 10:00, 13:00, 16:00, 19:00, 22:00 UTC 15 Nov;
