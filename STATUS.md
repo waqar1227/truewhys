@@ -4,10 +4,10 @@
 ** 14 Nov growth review: "Why [everyday object] …" Shorts start best (windows 1 108, plane door 436); name the object + Why/How claim in B-003 cut-Short titles (research/daily_report.md).
 ** 14 Nov owner: NO NEW PRODUCTION until his go-ahead. Only finish B-003 (long + 10 cut Shorts) and its uploads. Test & Compare package sent (3 thumbs + 3 titles).
 ** 13 Nov owner: TikTok PAUSED (no posts, no Dropbox requests) until he asks. Kaggle is shared with other sessions: never stop/delete their kernels.
-** B-003 pirates: long Am8epkS94Hw scheduled 14 Nov 15:00 UTC (QA pass). After 08:00 UTC 14 Nov (API quota reset): `python tools/yt_finish.py episodes/B-003-pirate-myths episodes/B-003-pirate-myths/final/thumb_A.jpg`,
-   then upload cut Shorts C1–C5 (14 Nov, 16:00→04:00 UTC slots). After 08:00 UTC 15 Nov upload C6–C10 (slots 10:00, 13:00, 16:00, 19:00, 22:00 UTC 15 Nov;
-   moved because the YouTube API quota allows ~6 uploads/day). Upload: `python lib/youtube.py upload <ep>/shorts/<C>/final.mp4 <ep>/shorts/<C>/upload_meta.json <hook thumb> --long Am8epkS94Hw`.
-   Shorts QA: C1–C6, C10 composed + checked 14 Nov 00:55 (hook by frame 1, captions, Wy end card, −14.3…−14.5 LUFS); C7–C9 composing. Owner: Related video + Test & Compare A/B/C.
+** B-003 pirates: long Am8epkS94Hw public 14 Nov 15:00 UTC (QA pass; API thumbnail refused 403 forbidden: owner sets A / Test & Compare in Studio).
+   Cut Shorts uploaded: C1 4WCGHoL-cAM 16:00, C2 50PTfQtFLqo 19:00, C3 9xDx3zIt27k 22:00 UTC 14 Nov; C4 nd7RqqpeDfE 01:00, C5 iSMOk8JC7_Q 04:00 UTC 15 Nov.
+   NEXT: after 08:00 UTC 15 Nov upload C6–C10 (slots 10/13/16/19/22:00 UTC 15 Nov) with `python lib/youtube.py upload <ep>/shorts/<C>/final.mp4 <ep>/shorts/<C>/upload_meta.json <ep>/shorts/<C>/thumb.jpg --long Am8epkS94Hw`;
+   C7–C9 composing (tools/compose_shorts.sh, resumable) → QA + thumb.jpg first. Then B-003 is DONE; no new production until owner go-ahead.
 ** 13 Nov growth review: body/science Shorts with one named object start fastest (Brain freeze 1 125 views in 15 h); emoji A/B (A-004 🪶) is inconclusive (different topic/timing), don't change A-002's title on it (research/daily_report.md).
 ** FABLE SPRINT (Style F, flat 2D) — STOPPED 13 Nov 08:30 UTC on the owner's instruction ("finish what is started, no new work"). 4 Shorts made:
    A-005 Brain freeze: YouTube 8hsKNMLOhAw PUBLIC 12 Nov 16:00 UTC; TikTok Metricool 425987798 (posted 12 Nov 17:40 UTC).

@@ -17,3 +17,12 @@ masters, then restore timing.json from git), music (`python lib/music.py library
 - [x] YouTube category 24 (Entertainment, owner rule 12 Nov); no AI/altered field; no AI mention in title, description or tags.
 - [x] 3 very different thumbnails (final/thumb_A "NOT BLIND?!" eye patch, B "NO TREASURE?!" captain + coins, C "VOTED OUT?!"), readable at 168×94.
 Result: PASS → YouTube private + publishAt 2026-11-14T15:00:00Z with thumb_A; owner gets A/B/C for Test & Compare.
+
+## Cut Shorts (10), checked 14 Nov 2026
+- [x] Composed at 1080×1920 from Kaggle plates (truewhys-render-b003c, 48/48), re-composed vertically (no crops); hook voice H8/H9 split fixed.
+- [x] Each opens with its hook words on screen by frame 1: ARRR?! / NO PARROT? / WHY THE PATCH? / NO PLANK?! / NO TREASURE? / A DEAL? / LIGHTS OUT?! / INSURANCE?! / FIRE HIM?! / WOMEN PIRATES.
+- [x] Length 21–31 s; loudness −14.3…−14.5 LUFS; captions readable; last ~2.6 s = Wy ✓ "Follow for more true whys" (contact sheet C1–C6, C10).
+- [x] Description links the long video (https://youtu.be/Am8epkS94Hw); category 24; thumbnail = hook frame (set via API, true).
+- Uploaded 14 Nov: C1 4WCGHoL-cAM 16:00, C2 50PTfQtFLqo 19:00, C3 9xDx3zIt27k 22:00 UTC 14 Nov; C4 nd7RqqpeDfE 01:00, C5 iSMOk8JC7_Q 04:00 UTC 15 Nov.
+- C6–C10: upload after 08:00 UTC 15 Nov (slots 10:00, 13:00, 16:00, 19:00, 22:00 UTC 15 Nov). C7–C9 QA when composed.
+- Long-video thumbnail via API: 403 forbidden (youtube.thumbnail) on 14 Nov, while Shorts thumbnails work → likely Test & Compare active in Studio.
