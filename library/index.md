@@ -107,4 +107,4 @@ All original (TrueWhys). One episode = `episodes/<ep>/make.py` (`sheet` | `big <
 - lib/cast2.py (owner-approved direction D3, 15 Nov 2026; v2.1 after owner feedback: fairer skin, head ~1/4, irises, ears, lips, fingers): cast v2 vector puppets (lids + brows,
   nose, neck, hands with thumb, no cheeks). `figure_svg(cid, expr, pose_l, pose_r)`, `png(svg, viewbox, scale)`; cast: wy, captain, doctor,
   worker, guard, noble, modern; expressions deadpan/smug/suspicious/shocked/bored/angry. Sample sheet: library/cast/cast_v2_sheet.jpg
-  (`python lib/cast2.py <out>`). Original, code-drawn (TrueWhys). NOT for use in a video until the owner approves the sheet.
+  (`python lib/cast2.py <out>`). Original, code-drawn (TrueWhys). APPROVED by the owner 15 Nov (v2.1): use for all new videos.
