@@ -1,6 +1,9 @@
 # STATUS (read the NEXT list first)
 
 ## NEXT (keep this list short; heartbeat does only these)
+** AUDIT PLAN (docs/audit/2026-11-15_channel_audit.md §7–8): P1 housekeeping from 16 Nov (python tools/yt_apply_fixes.py --apply after 08:00 UTC;
+   B-002 description, channel text, playlists, SRT captions, yt_stats). Buffer 20 Nov–3 Dec in 2 waves (wave 1 = 20–26 Nov; wave 2 only after 48 h data
+   on 2–3 new-standard Shorts). Standards first: waiting for owner D1–D5 (asked 15 Nov 06:10) before any buffer render. Tell audit "P1 done" + approved D-items.
 ** 14 Nov growth review: "Why [everyday object] …" Shorts start best (windows 1 108, plane door 436); name the object + Why/How claim in B-003 cut-Short titles (research/daily_report.md).
 ** 15 Nov owner: follow the AUDIT session strictly (wait for its report, branch claude/zen-knuth-ypcfhk docs/audit/); keep 14 days of content scheduled ahead, produce only until then. (old 14 Nov: no new production —replaced) Only finish B-003 (long + 10 cut Shorts) and its uploads. Test & Compare package sent (3 thumbs + 3 titles).
 ** 13 Nov owner: TikTok PAUSED (no posts, no Dropbox requests) until he asks. Kaggle is shared with other sessions: never stop/delete their kernels.
