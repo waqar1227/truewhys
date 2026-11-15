@@ -1,0 +1,667 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "This cat is falling upside down. In 1894, scientists said what it does next was impossible.",
+  "dur": 6.2,
+  "words": [
+   {
+    "w": "This",
+    "s": 0.0,
+    "e": 0.4
+   },
+   {
+    "w": "cat",
+    "s": 0.4,
+    "e": 0.62
+   },
+   {
+    "w": "is",
+    "s": 0.62,
+    "e": 0.76
+   },
+   {
+    "w": "falling",
+    "s": 0.76,
+    "e": 1.06
+   },
+   {
+    "w": "upside",
+    "s": 1.06,
+    "e": 1.34
+   },
+   {
+    "w": "down.",
+    "s": 1.34,
+    "e": 1.74
+   },
+   {
+    "w": "In",
+    "s": 2.26,
+    "e": 2.36
+   },
+   {
+    "w": "1894,",
+    "s": 2.36,
+    "e": 3.26
+   },
+   {
+    "w": "scientists",
+    "s": 3.6,
+    "e": 3.82
+   },
+   {
+    "w": "said",
+    "s": 3.82,
+    "e": 4.12
+   },
+   {
+    "w": "what",
+    "s": 4.12,
+    "e": 4.32
+   },
+   {
+    "w": "it",
+    "s": 4.32,
+    "e": 4.46
+   },
+   {
+    "w": "does",
+    "s": 4.46,
+    "e": 4.66
+   },
+   {
+    "w": "next",
+    "s": 4.66,
+    "e": 4.98
+   },
+   {
+    "w": "was",
+    "s": 4.98,
+    "e": 5.26
+   },
+   {
+    "w": "impossible.",
+    "s": 5.26,
+    "e": 5.94
+   }
+  ],
+  "heard": "This cat is falling upside down. In 1894, scientists said what it does next was impossible.",
+  "match": 1.0
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "In Paris, \u00c9tienne-Jules Marey photographed a falling cat with a super-fast camera.",
+  "dur": 4.7,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.05,
+    "e": 0.19
+   },
+   {
+    "w": "Paris,",
+    "s": 0.19,
+    "e": 0.51
+   },
+   {
+    "w": "\u00c9tienne-Jules",
+    "s": 0.51,
+    "e": 1.45
+   },
+   {
+    "w": "Marey",
+    "s": 1.45,
+    "e": 2.05
+   },
+   {
+    "w": "photographed",
+    "s": 2.05,
+    "e": 2.41
+   },
+   {
+    "w": "a",
+    "s": 2.41,
+    "e": 2.69
+   },
+   {
+    "w": "falling",
+    "s": 2.69,
+    "e": 2.95
+   },
+   {
+    "w": "cat",
+    "s": 2.95,
+    "e": 3.23
+   },
+   {
+    "w": "with",
+    "s": 3.23,
+    "e": 3.41
+   },
+   {
+    "w": "a",
+    "s": 3.41,
+    "e": 3.55
+   },
+   {
+    "w": "super-fast",
+    "s": 3.55,
+    "e": 4.09
+   },
+   {
+    "w": "camera.",
+    "s": 4.09,
+    "e": 4.49
+   }
+  ],
+  "heard": "In Paris, \u00c9tienne -Jules Marey photographed a falling cat with a super -fast camera.",
+  "match": 0.769
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "It starts upside down, not spinning. Then, somehow, it turns right over.",
+  "dur": 4.36,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.07,
+    "e": 0.15
+   },
+   {
+    "w": "starts",
+    "s": 0.15,
+    "e": 0.39
+   },
+   {
+    "w": "upside",
+    "s": 0.39,
+    "e": 0.71
+   },
+   {
+    "w": "down,",
+    "s": 0.71,
+    "e": 1.05
+   },
+   {
+    "w": "not",
+    "s": 1.31,
+    "e": 1.43
+   },
+   {
+    "w": "spinning.",
+    "s": 1.43,
+    "e": 1.79
+   },
+   {
+    "w": "Then,",
+    "s": 2.23,
+    "e": 2.39
+   },
+   {
+    "w": "somehow,",
+    "s": 2.41,
+    "e": 2.89
+   },
+   {
+    "w": "it",
+    "s": 3.07,
+    "e": 3.19
+   },
+   {
+    "w": "turns",
+    "s": 3.19,
+    "e": 3.51
+   },
+   {
+    "w": "right",
+    "s": 3.51,
+    "e": 3.85
+   },
+   {
+    "w": "over.",
+    "s": 3.85,
+    "e": 4.15
+   }
+  ],
+  "heard": "It starts upside down, not spinning. Then, somehow, it turns right over.",
+  "match": 1.0
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "Physicists were baffled. With nothing to push against, how do you start turning?",
+  "dur": 3.58,
+  "words": [
+   {
+    "w": "Physicists",
+    "s": 0.1,
+    "e": 0.46
+   },
+   {
+    "w": "were",
+    "s": 0.46,
+    "e": 0.62
+   },
+   {
+    "w": "baffled.",
+    "s": 0.62,
+    "e": 0.94
+   },
+   {
+    "w": "With",
+    "s": 1.26,
+    "e": 1.38
+   },
+   {
+    "w": "nothing",
+    "s": 1.38,
+    "e": 1.64
+   },
+   {
+    "w": "to",
+    "s": 1.64,
+    "e": 1.82
+   },
+   {
+    "w": "push",
+    "s": 1.82,
+    "e": 1.98
+   },
+   {
+    "w": "against,",
+    "s": 1.98,
+    "e": 2.2
+   },
+   {
+    "w": "how",
+    "s": 2.38,
+    "e": 2.5
+   },
+   {
+    "w": "do",
+    "s": 2.5,
+    "e": 2.6
+   },
+   {
+    "w": "you",
+    "s": 2.6,
+    "e": 2.7
+   },
+   {
+    "w": "start",
+    "s": 2.7,
+    "e": 2.92
+   },
+   {
+    "w": "turning?",
+    "s": 2.92,
+    "e": 3.32
+   }
+  ],
+  "heard": "Physicists were baffled. With nothing to push against, how do you start turning?",
+  "match": 1.0
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "Some said it must have pushed off the hand that let it go.",
+  "dur": 2.46,
+  "words": [
+   {
+    "w": "Some",
+    "s": 0.03,
+    "e": 0.31
+   },
+   {
+    "w": "said",
+    "s": 0.31,
+    "e": 0.51
+   },
+   {
+    "w": "it",
+    "s": 0.51,
+    "e": 0.59
+   },
+   {
+    "w": "must",
+    "s": 0.59,
+    "e": 0.69
+   },
+   {
+    "w": "have",
+    "s": 0.69,
+    "e": 0.85
+   },
+   {
+    "w": "pushed",
+    "s": 0.85,
+    "e": 1.07
+   },
+   {
+    "w": "off",
+    "s": 1.07,
+    "e": 1.25
+   },
+   {
+    "w": "the",
+    "s": 1.25,
+    "e": 1.41
+   },
+   {
+    "w": "hand",
+    "s": 1.41,
+    "e": 1.63
+   },
+   {
+    "w": "that",
+    "s": 1.63,
+    "e": 1.79
+   },
+   {
+    "w": "let",
+    "s": 1.79,
+    "e": 1.93
+   },
+   {
+    "w": "it",
+    "s": 1.93,
+    "e": 2.03
+   },
+   {
+    "w": "go.",
+    "s": 2.03,
+    "e": 2.25
+   }
+  ],
+  "heard": "Some said it must have pushed off the hand that let it go.",
+  "match": 1.0
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "The real trick took until 1969 to explain. The cat bends in the middle,",
+  "dur": 4.81,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.03,
+    "e": 0.39
+   },
+   {
+    "w": "real",
+    "s": 0.39,
+    "e": 0.57
+   },
+   {
+    "w": "trick",
+    "s": 0.57,
+    "e": 0.83
+   },
+   {
+    "w": "took",
+    "s": 0.83,
+    "e": 0.99
+   },
+   {
+    "w": "until",
+    "s": 0.99,
+    "e": 1.23
+   },
+   {
+    "w": "1969",
+    "s": 1.23,
+    "e": 1.99
+   },
+   {
+    "w": "to",
+    "s": 1.99,
+    "e": 2.53
+   },
+   {
+    "w": "explain.",
+    "s": 2.53,
+    "e": 2.91
+   },
+   {
+    "w": "The",
+    "s": 3.59,
+    "e": 3.85
+   },
+   {
+    "w": "cat",
+    "s": 3.85,
+    "e": 4.01
+   },
+   {
+    "w": "bends",
+    "s": 4.01,
+    "e": 4.33
+   },
+   {
+    "w": "in",
+    "s": 4.33,
+    "e": 4.51
+   },
+   {
+    "w": "the",
+    "s": 4.51,
+    "e": 4.61
+   },
+   {
+    "w": "middle,",
+    "s": 4.61,
+    "e": 4.81
+   }
+  ],
+  "heard": "The real trick took until 1969 to explain. The cat bends in the middle,",
+  "match": 1.0
+ },
+ {
+  "id": "L06",
+  "chapter": 0,
+  "text": "and twists its front half one way, and its back half the other. No push needed.",
+  "dur": 4.39,
+  "words": [
+   {
+    "w": "and",
+    "s": 0.0,
+    "e": 0.38
+   },
+   {
+    "w": "twists",
+    "s": 0.38,
+    "e": 0.66
+   },
+   {
+    "w": "its",
+    "s": 0.66,
+    "e": 0.94
+   },
+   {
+    "w": "front",
+    "s": 0.94,
+    "e": 1.18
+   },
+   {
+    "w": "half",
+    "s": 1.18,
+    "e": 1.4
+   },
+   {
+    "w": "one",
+    "s": 1.4,
+    "e": 1.66
+   },
+   {
+    "w": "way,",
+    "s": 1.66,
+    "e": 1.88
+   },
+   {
+    "w": "and",
+    "s": 2.0,
+    "e": 2.04
+   },
+   {
+    "w": "its",
+    "s": 2.04,
+    "e": 2.2
+   },
+   {
+    "w": "back",
+    "s": 2.2,
+    "e": 2.4
+   },
+   {
+    "w": "half",
+    "s": 2.4,
+    "e": 2.64
+   },
+   {
+    "w": "the",
+    "s": 2.64,
+    "e": 2.84
+   },
+   {
+    "w": "other.",
+    "s": 2.84,
+    "e": 3.06
+   },
+   {
+    "w": "No",
+    "s": 3.5,
+    "e": 3.7
+   },
+   {
+    "w": "push",
+    "s": 3.7,
+    "e": 3.88
+   },
+   {
+    "w": "needed.",
+    "s": 3.88,
+    "e": 4.18
+   }
+  ],
+  "heard": "and twists its front half one way, and its back half the other. No push needed.",
+  "match": 1.0
+ },
+ {
+  "id": "L07",
+  "chapter": 0,
+  "text": "Its total spin stays zero, but it still lands on its feet.",
+  "dur": 3.38,
+  "words": [
+   {
+    "w": "Its",
+    "s": 0.07,
+    "e": 0.23
+   },
+   {
+    "w": "total",
+    "s": 0.23,
+    "e": 0.51
+   },
+   {
+    "w": "spin",
+    "s": 0.51,
+    "e": 0.83
+   },
+   {
+    "w": "stays",
+    "s": 0.83,
+    "e": 1.13
+   },
+   {
+    "w": "zero,",
+    "s": 1.13,
+    "e": 1.57
+   },
+   {
+    "w": "but",
+    "s": 1.83,
+    "e": 1.99
+   },
+   {
+    "w": "it",
+    "s": 1.99,
+    "e": 2.09
+   },
+   {
+    "w": "still",
+    "s": 2.09,
+    "e": 2.33
+   },
+   {
+    "w": "lands",
+    "s": 2.33,
+    "e": 2.61
+   },
+   {
+    "w": "on",
+    "s": 2.61,
+    "e": 2.79
+   },
+   {
+    "w": "its",
+    "s": 2.79,
+    "e": 2.93
+   },
+   {
+    "w": "feet.",
+    "s": 2.93,
+    "e": 3.15
+   }
+  ],
+  "heard": "Its total spin stays zero, but it still lands on its feet.",
+  "match": 1.0
+ },
+ {
+  "id": "L08",
+  "chapter": 0,
+  "text": "So... could you do that in mid-air?",
+  "dur": 2.0,
+  "words": [
+   {
+    "w": "So...",
+    "s": 0.24,
+    "e": 0.68
+   },
+   {
+    "w": "could",
+    "s": 0.68,
+    "e": 0.74
+   },
+   {
+    "w": "you",
+    "s": 0.74,
+    "e": 0.9
+   },
+   {
+    "w": "do",
+    "s": 0.9,
+    "e": 1.2
+   },
+   {
+    "w": "that",
+    "s": 1.2,
+    "e": 1.4
+   },
+   {
+    "w": "in",
+    "s": 1.4,
+    "e": 1.54
+   },
+   {
+    "w": "mid-air?",
+    "s": 1.54,
+    "e": 1.82
+   }
+  ],
+  "heard": "So... could you do that in mid -air?",
+  "match": 0.8
+ }
+]

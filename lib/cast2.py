@@ -44,6 +44,8 @@ CAST = {
                      legs="#1A2236", shoes=INK, moustache="#5B3A29", jaw=0.4, prop=None, buttons=True),
     "gent":     dict(name="Gentleman", skin="#F3D0B5", iris="#5B3A29", face="square", hair="tophat", hair_c="#22181B", top="#3A3046", top2="#F4F1EA",
                      legs="#4A4A55", shoes=INK, beard="#7A5236", coat=True, jaw=0.3, prop=None),
+    "prof":     dict(name="Professor", skin="#F1CDB0", iris="#4A6A5C", face="round", hair="bald", hair_c="#C9CED6", top="#7A5A3A", top2="#F4F1EA",
+                     legs="#4A3A2C", shoes=INK, beard="#D8DCE0", glasses=True, coat=True, jaw=0.0, prop=None),
     "modern":   dict(name="Everyman", skin="#D8A580", iris="#4A2E1E", face="round", hair="short", hair_c="#22181B", top="#3E8E5E", top2="#2A2A38",
                      legs="#3A4A66", shoes="#F4F1EA", hoodie=True, jaw=0.2, prop="phone"),
 }
@@ -151,6 +153,10 @@ def _head(s, e):
         p.append(f'<path d="M-{w+8} -540 Q-{w+4} -600 -40 -650 Q0 -700 40 -650 Q{w+4} -600 {w+8} -540 Z" fill="{hc}"/>'
                  f'<path d="M-{w+18} -540 L{w+18} -540" stroke-width="12"/><circle cx="0" cy="-690" r="9" fill="#C9CED6"/>'
                  f'<path d="M0 -620 L12 -598 L0 -576 L-12 -598 Z" fill="#C9CED6" stroke-width="4"/>')
+    elif h == "bald":       # bald crown with grey side hair
+        for sd in (-1, 1):
+            p.append(f'<path d="M{sd*w} -500 Q{sd*(w+6)} -560 {sd*(w-24)} -572 Q{sd*(w-14)} -540 {sd*(w-6)} -500 Z" fill="{hc}"/>')
+        p.append(f'<path d="M-30 -578 Q0 -586 30 -578" fill="none" stroke="#FFFFFF" stroke-width="6" opacity="0.5"/>')
     elif h == "tophat":
         p.append(f'<path d="M-{w} -528 Q-{w+4} -600 0 -602 Q{w+4} -600 {w} -528 Q40 -566 0 -566 Q-40 -566 -{w} -528 Z" fill="#7A5236"/>'
                  f'<rect x="-60" y="-720" width="120" height="150" rx="8" fill="{hc}"/><path d="M-92 -570 L92 -570" stroke-width="16"/>'

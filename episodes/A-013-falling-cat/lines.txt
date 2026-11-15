@@ -1,0 +1,10 @@
+# A-013 v1 (15 Nov 2026), standalone Short, Style F + cast v2.1. Animal welfare: no one drops a cat on screen; the cat jumps by itself and lands softly.
+H1|0|This cat is falling upside down. In 1894, scientists said what it does next was impossible.
+L01|0|In Paris, Étienne-Jules Marey photographed a falling cat with a super-fast camera.
+L02|0|It starts upside down, not spinning. Then, somehow, it turns right over.
+L03|0|Physicists were baffled. With nothing to push against, how do you start turning?
+L04|0|Some said it must have pushed off the hand that let it go.
+L05|0|The real trick took until 1969 to explain. The cat bends in the middle,
+L06|0|and twists its front half one way, and its back half the other. No push needed.
+L07|0|Its total spin stays zero, but it still lands on its feet.
+L08|0|So... could you do that in mid-air?
