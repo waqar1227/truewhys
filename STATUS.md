@@ -1,6 +1,11 @@
 # STATUS (read the NEXT list first)
 
 ## NEXT (keep this list short; heartbeat does only these)
+** 15 Nov owner: GO for new production, strictly per the audit (docs/audit/2026-11-15_channel_audit.md §4, §6, §7, §8). Always keep ≥14 days scheduled.
+   Cast v2.1 APPROVED (lib/cast2.py, library/cast/cast_v2_sheet.jpg). D2 no end card, D3 cast v2, D4 posted stay + strict religion screen.
+   Scheduled now: B-003 Shorts to 19 Nov 16:00 UTC. Wave 1 = 20–26 Nov (long Fri 20 Nov 15:00 UTC if ready, else Style F Shorts hold slots and
+   the long moves to Fri 27); Shorts daily 16:00 UTC, never two within 12 h. Wave 2 (27 Nov–3 Dec) only after 48 h data on 2–3 new-standard Shorts.
+   16 Nov after 08:00 UTC: P1 (`python tools/yt_apply_fixes.py --apply`, B-002 description, channel text, playlists, yt_stats, SRT) then tell audit "P1 done".
 ** AUDIT PLAN (docs/audit/2026-11-15_channel_audit.md §7–8): P1 housekeeping from 16 Nov (python tools/yt_apply_fixes.py --apply after 08:00 UTC;
    B-002 description, channel text, playlists, SRT captions, yt_stats). Buffer 20 Nov–3 Dec in 2 waves (wave 1 = 20–26 Nov; wave 2 only after 48 h data
    on 2–3 new-standard Shorts). Standards first: waiting for owner D1–D5 (asked 15 Nov 06:10) before any buffer render. Tell audit "P1 done" + approved D-items.
