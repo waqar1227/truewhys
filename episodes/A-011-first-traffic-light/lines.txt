@@ -1,0 +1,10 @@
+# A-011 v1 (15 Nov 2026), standalone Short, Style F + cast v2.1. Respectful: the explosion is a flash and smoke; the injured policeman is never shown hurt.
+H1|0|This is the world's first traffic light. And it's about to explode.
+L01|0|London, 1868. Outside Parliament, horses and carriages are causing chaos.
+L02|0|So a railway engineer, John Peake Knight, borrows an idea from trains.
+L03|0|By day, swinging arms, like a railway signal. By night, gas lamps: red and green.
+L04|0|A policeman works it by hand, with a lever.
+L05|0|About a month later, gas leaks into the post... and the lamp explodes. The policeman is hurt.
+L06|0|London scraps it. Traffic lights don't come back for about sixty years.
+L07|0|But the red and green came straight from the railways, and they never left.
+L08|0|Would you have stood next to it?

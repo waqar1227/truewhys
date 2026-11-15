@@ -39,6 +39,11 @@ CAST = {
                      legs="#3A3A44", shoes=INK, moustache="#5B3A29", jaw=0.5, prop="spear"),
     "noble":    dict(name="Noble", skin="#F8DFCC", iris="#3E8E7A", face="long", hair="crown_long", hair_c="#7A3E1E", top="#5B3A8C", top2="#FFC93C",
                      legs="#5B3A8C", shoes=INK, gown=True, jaw=0.0, prop="scroll", female=True),
+    # added 15 Nov 2026 (same v2.1 rules) for Victorian stories
+    "bobby":    dict(name="Constable", skin="#EFC6A6", iris="#4A6A8C", face="long", hair="custodian", hair_c="#1F2A44", top="#1F2A44", top2="#C9CED6",
+                     legs="#1A2236", shoes=INK, moustache="#5B3A29", jaw=0.4, prop=None, buttons=True),
+    "gent":     dict(name="Gentleman", skin="#F3D0B5", iris="#5B3A29", face="square", hair="tophat", hair_c="#22181B", top="#3A3046", top2="#F4F1EA",
+                     legs="#4A4A55", shoes=INK, beard="#7A5236", coat=True, jaw=0.3, prop=None),
     "modern":   dict(name="Everyman", skin="#D8A580", iris="#4A2E1E", face="round", hair="short", hair_c="#22181B", top="#3E8E5E", top2="#2A2A38",
                      legs="#3A4A66", shoes="#F4F1EA", hoodie=True, jaw=0.2, prop="phone"),
 }
@@ -142,6 +147,14 @@ def _head(s, e):
     elif h == "crown_long":
         p.append(f'<path d="M-{w} -520 Q-{w} -606 0 -606 Q{w} -606 {w} -520 Q20 -576 0 -566 Q-20 -576 -{w} -520 Z" fill="{hc}"/>'
                  f'<path d="M-44 -592 L-50 -636 L-24 -612 L0 -646 L24 -612 L50 -636 L44 -592 Z" fill="{s["top2"]}"/>')
+    elif h == "custodian":   # Victorian police helmet: tall dome, badge
+        p.append(f'<path d="M-{w+8} -540 Q-{w+4} -600 -40 -650 Q0 -700 40 -650 Q{w+4} -600 {w+8} -540 Z" fill="{hc}"/>'
+                 f'<path d="M-{w+18} -540 L{w+18} -540" stroke-width="12"/><circle cx="0" cy="-690" r="9" fill="#C9CED6"/>'
+                 f'<path d="M0 -620 L12 -598 L0 -576 L-12 -598 Z" fill="#C9CED6" stroke-width="4"/>')
+    elif h == "tophat":
+        p.append(f'<path d="M-{w} -528 Q-{w+4} -600 0 -602 Q{w+4} -600 {w} -528 Q40 -566 0 -566 Q-40 -566 -{w} -528 Z" fill="#7A5236"/>'
+                 f'<rect x="-60" y="-720" width="120" height="150" rx="8" fill="{hc}"/><path d="M-92 -570 L92 -570" stroke-width="16"/>'
+                 f'<rect x="-60" y="-610" width="120" height="20" fill="#8E2430" stroke-width="5"/>')
     if h in ("short", "curl", "bun", "crown_long"):
         dk = shade(hc, 0.72 if hc not in ("#22181B", "#1E1A24") else 1.6)
         p.append(f'<path d="M-30 -592 Q-20 -574 -36 -560 M6 -598 Q14 -580 2 -566 M36 -590 Q46 -574 36 -560" fill="none" stroke="{dk}" stroke-width="4"/>')
@@ -182,6 +195,9 @@ def _body(s):
     if not (s.get("coat") or s.get("hoodie") or s.get("gown")):
         p.append(f'<path d="M-24 -398 L0 -360 L24 -398" fill="{t2}" stroke-width="6"/>')
         p.append(f'<path d="M-{hw} -214 L{hw} -214" stroke="{shade(lg, 0.7)}" stroke-width="14"/>')
+    if s.get("buttons"):
+        for yy in (-370, -330, -290, -250):
+            p.append(f'<circle cx="0" cy="{yy}" r="7" fill="{t2}" stroke-width="3"/>')
     if s.get("badge"):
         p.append('<circle cx="44" cy="-330" r="17" fill="#FFC93C" stroke-width="6"/><path d="M36 -330 L42 -324 L53 -337" fill="none" stroke-width="6"/>')
     return "".join(p)

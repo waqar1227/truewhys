@@ -1,0 +1,632 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "This is the world's first traffic light. And it's about to explode.",
+  "dur": 4.84,
+  "words": [
+   {
+    "w": "This",
+    "s": 0.0,
+    "e": 0.46
+   },
+   {
+    "w": "is",
+    "s": 0.46,
+    "e": 0.92
+   },
+   {
+    "w": "the",
+    "s": 0.92,
+    "e": 1.1
+   },
+   {
+    "w": "world's",
+    "s": 1.1,
+    "e": 1.48
+   },
+   {
+    "w": "first",
+    "s": 1.48,
+    "e": 1.82
+   },
+   {
+    "w": "traffic",
+    "s": 1.82,
+    "e": 2.28
+   },
+   {
+    "w": "light.",
+    "s": 2.28,
+    "e": 2.58
+   },
+   {
+    "w": "And",
+    "s": 3.0,
+    "e": 3.18
+   },
+   {
+    "w": "it's",
+    "s": 3.18,
+    "e": 3.54
+   },
+   {
+    "w": "about",
+    "s": 3.54,
+    "e": 3.78
+   },
+   {
+    "w": "to",
+    "s": 3.78,
+    "e": 4.0
+   },
+   {
+    "w": "explode.",
+    "s": 4.0,
+    "e": 4.5
+   }
+  ],
+  "heard": "This is the world's first traffic light. And it's about to explode.",
+  "match": 1.0
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "London, 1868. Outside Parliament, horses and carriages are causing chaos.",
+  "dur": 5.11,
+  "words": [
+   {
+    "w": "London,",
+    "s": 0.41,
+    "e": 0.41
+   },
+   {
+    "w": "1868.",
+    "s": 0.57,
+    "e": 1.37
+   },
+   {
+    "w": "Outside",
+    "s": 1.99,
+    "e": 2.09
+   },
+   {
+    "w": "Parliament,",
+    "s": 2.09,
+    "e": 2.51
+   },
+   {
+    "w": "horses",
+    "s": 3.03,
+    "e": 3.17
+   },
+   {
+    "w": "and",
+    "s": 3.17,
+    "e": 3.43
+   },
+   {
+    "w": "carriages",
+    "s": 3.43,
+    "e": 3.77
+   },
+   {
+    "w": "are",
+    "s": 3.77,
+    "e": 3.95
+   },
+   {
+    "w": "causing",
+    "s": 3.95,
+    "e": 4.27
+   },
+   {
+    "w": "chaos.",
+    "s": 4.27,
+    "e": 4.77
+   }
+  ],
+  "heard": "London, 1868. Outside Parliament, horses and carriages are causing chaos.",
+  "match": 1.0
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "So a railway engineer, John Peake Knight, borrows an idea from trains.",
+  "dur": 4.09,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.09,
+    "e": 0.19
+   },
+   {
+    "w": "a",
+    "s": 0.19,
+    "e": 0.37
+   },
+   {
+    "w": "railway",
+    "s": 0.37,
+    "e": 0.67
+   },
+   {
+    "w": "engineer,",
+    "s": 0.67,
+    "e": 1.13
+   },
+   {
+    "w": "John",
+    "s": 1.39,
+    "e": 1.53
+   },
+   {
+    "w": "Peake",
+    "s": 1.53,
+    "e": 1.79
+   },
+   {
+    "w": "Knight,",
+    "s": 1.79,
+    "e": 2.01
+   },
+   {
+    "w": "borrows",
+    "s": 2.33,
+    "e": 2.73
+   },
+   {
+    "w": "an",
+    "s": 2.73,
+    "e": 2.77
+   },
+   {
+    "w": "idea",
+    "s": 2.77,
+    "e": 3.09
+   },
+   {
+    "w": "from",
+    "s": 3.09,
+    "e": 3.35
+   },
+   {
+    "w": "trains.",
+    "s": 3.35,
+    "e": 3.79
+   }
+  ],
+  "heard": "So a railway engineer, John Peake Knight, borrows an idea from trains.",
+  "match": 1.0
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "By day, swinging arms, like a railway signal. By night, gas lamps: red and green.",
+  "dur": 5.47,
+  "words": [
+   {
+    "w": "By",
+    "s": 0.13,
+    "e": 0.17
+   },
+   {
+    "w": "day,",
+    "s": 0.17,
+    "e": 0.41
+   },
+   {
+    "w": "swinging",
+    "s": 0.63,
+    "e": 0.89
+   },
+   {
+    "w": "arms,",
+    "s": 0.89,
+    "e": 1.27
+   },
+   {
+    "w": "like",
+    "s": 1.41,
+    "e": 1.49
+   },
+   {
+    "w": "a",
+    "s": 1.49,
+    "e": 1.63
+   },
+   {
+    "w": "railway",
+    "s": 1.63,
+    "e": 1.87
+   },
+   {
+    "w": "signal.",
+    "s": 1.87,
+    "e": 2.23
+   },
+   {
+    "w": "By",
+    "s": 2.61,
+    "e": 2.77
+   },
+   {
+    "w": "night,",
+    "s": 2.77,
+    "e": 3.05
+   },
+   {
+    "w": "gas",
+    "s": 3.47,
+    "e": 3.59
+   },
+   {
+    "w": "lamps:",
+    "s": 3.59,
+    "e": 3.95
+   },
+   {
+    "w": "red",
+    "s": 4.49,
+    "e": 4.73
+   },
+   {
+    "w": "and",
+    "s": 4.73,
+    "e": 5.05
+   },
+   {
+    "w": "green.",
+    "s": 5.05,
+    "e": 5.33
+   }
+  ],
+  "heard": "By day, swinging arms, like a railway signal. By night, gas lamps, red and green.",
+  "match": 1.0
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "A policeman works it by hand, with a lever.",
+  "dur": 2.21,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.03,
+    "e": 0.19
+   },
+   {
+    "w": "policeman",
+    "s": 0.19,
+    "e": 0.47
+   },
+   {
+    "w": "works",
+    "s": 0.47,
+    "e": 0.81
+   },
+   {
+    "w": "it",
+    "s": 0.81,
+    "e": 0.99
+   },
+   {
+    "w": "by",
+    "s": 0.99,
+    "e": 1.15
+   },
+   {
+    "w": "hand,",
+    "s": 1.15,
+    "e": 1.43
+   },
+   {
+    "w": "with",
+    "s": 1.55,
+    "e": 1.71
+   },
+   {
+    "w": "a",
+    "s": 1.71,
+    "e": 1.81
+   },
+   {
+    "w": "lever.",
+    "s": 1.81,
+    "e": 1.97
+   }
+  ],
+  "heard": "A policeman works it by hand, with a lever.",
+  "match": 1.0
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "About a month later, gas leaks into the post... and the lamp explodes. The policeman is hurt.",
+  "dur": 5.58,
+  "words": [
+   {
+    "w": "About",
+    "s": 0.05,
+    "e": 0.21
+   },
+   {
+    "w": "a",
+    "s": 0.21,
+    "e": 0.33
+   },
+   {
+    "w": "month",
+    "s": 0.33,
+    "e": 0.49
+   },
+   {
+    "w": "later,",
+    "s": 0.49,
+    "e": 0.83
+   },
+   {
+    "w": "gas",
+    "s": 1.21,
+    "e": 1.39
+   },
+   {
+    "w": "leaks",
+    "s": 1.39,
+    "e": 1.73
+   },
+   {
+    "w": "into",
+    "s": 1.73,
+    "e": 2.01
+   },
+   {
+    "w": "the",
+    "s": 2.01,
+    "e": 2.19
+   },
+   {
+    "w": "post...",
+    "s": 2.19,
+    "e": 2.43
+   },
+   {
+    "w": "and",
+    "s": 2.75,
+    "e": 2.91
+   },
+   {
+    "w": "the",
+    "s": 2.91,
+    "e": 3.03
+   },
+   {
+    "w": "lamp",
+    "s": 3.03,
+    "e": 3.25
+   },
+   {
+    "w": "explodes.",
+    "s": 3.25,
+    "e": 3.99
+   },
+   {
+    "w": "The",
+    "s": 4.55,
+    "e": 4.67
+   },
+   {
+    "w": "policeman",
+    "s": 4.67,
+    "e": 4.99
+   },
+   {
+    "w": "is",
+    "s": 4.99,
+    "e": 5.19
+   },
+   {
+    "w": "hurt.",
+    "s": 5.19,
+    "e": 5.41
+   }
+  ],
+  "heard": "About a month later, gas leaks into the post, and the lamp explodes. The policeman is hurt.",
+  "match": 1.0
+ },
+ {
+  "id": "L06",
+  "chapter": 0,
+  "text": "London scraps it. Traffic lights don't come back for about sixty years.",
+  "dur": 3.65,
+  "words": [
+   {
+    "w": "London",
+    "s": 0.03,
+    "e": 0.43
+   },
+   {
+    "w": "scraps",
+    "s": 0.43,
+    "e": 0.79
+   },
+   {
+    "w": "it.",
+    "s": 0.79,
+    "e": 1.19
+   },
+   {
+    "w": "Traffic",
+    "s": 1.69,
+    "e": 1.69
+   },
+   {
+    "w": "lights",
+    "s": 1.69,
+    "e": 1.91
+   },
+   {
+    "w": "don't",
+    "s": 1.91,
+    "e": 2.15
+   },
+   {
+    "w": "come",
+    "s": 2.15,
+    "e": 2.29
+   },
+   {
+    "w": "back",
+    "s": 2.29,
+    "e": 2.47
+   },
+   {
+    "w": "for",
+    "s": 2.47,
+    "e": 2.61
+   },
+   {
+    "w": "about",
+    "s": 2.61,
+    "e": 2.75
+   },
+   {
+    "w": "sixty",
+    "s": 2.75,
+    "e": 2.99
+   },
+   {
+    "w": "years.",
+    "s": 2.99,
+    "e": 3.39
+   }
+  ],
+  "heard": "London scraps it. Traffic lights don't come back for about sixty years.",
+  "match": 1.0
+ },
+ {
+  "id": "L07",
+  "chapter": 0,
+  "text": "But the red and green came straight from the railways, and they never left.",
+  "dur": 3.45,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.03,
+    "e": 0.21
+   },
+   {
+    "w": "the",
+    "s": 0.21,
+    "e": 0.35
+   },
+   {
+    "w": "red",
+    "s": 0.35,
+    "e": 0.49
+   },
+   {
+    "w": "and",
+    "s": 0.49,
+    "e": 0.61
+   },
+   {
+    "w": "green",
+    "s": 0.61,
+    "e": 0.83
+   },
+   {
+    "w": "came",
+    "s": 0.83,
+    "e": 1.09
+   },
+   {
+    "w": "straight",
+    "s": 1.09,
+    "e": 1.49
+   },
+   {
+    "w": "from",
+    "s": 1.49,
+    "e": 1.69
+   },
+   {
+    "w": "the",
+    "s": 1.69,
+    "e": 1.79
+   },
+   {
+    "w": "railways,",
+    "s": 1.79,
+    "e": 2.09
+   },
+   {
+    "w": "and",
+    "s": 2.49,
+    "e": 2.63
+   },
+   {
+    "w": "they",
+    "s": 2.63,
+    "e": 2.75
+   },
+   {
+    "w": "never",
+    "s": 2.75,
+    "e": 2.93
+   },
+   {
+    "w": "left.",
+    "s": 2.93,
+    "e": 3.21
+   }
+  ],
+  "heard": "But the red and green came straight from the railways, and they never left.",
+  "match": 1.0
+ },
+ {
+  "id": "L08",
+  "chapter": 0,
+  "text": "Would you have stood next to it?",
+  "dur": 1.21,
+  "words": [
+   {
+    "w": "Would",
+    "s": 0.07,
+    "e": 0.19
+   },
+   {
+    "w": "you",
+    "s": 0.19,
+    "e": 0.31
+   },
+   {
+    "w": "have",
+    "s": 0.31,
+    "e": 0.41
+   },
+   {
+    "w": "stood",
+    "s": 0.41,
+    "e": 0.55
+   },
+   {
+    "w": "next",
+    "s": 0.55,
+    "e": 0.75
+   },
+   {
+    "w": "to",
+    "s": 0.75,
+    "e": 0.93
+   },
+   {
+    "w": "it?",
+    "s": 0.93,
+    "e": 1.03
+   }
+  ],
+  "heard": "Would you have stood next to it?",
+  "match": 1.0
+ }
+]
