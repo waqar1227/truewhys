@@ -1,0 +1,142 @@
+{
+ "at": "2026-11-15T06:03:52.081283+00:00",
+ "videos": 31,
+ "checks": {
+  "V1a no '#Shorts' in titles": {
+   "ok": false,
+   "fail": [
+    "The Medieval Job Where You Drank Ale for Work #Shorts",
+    "The Smelliest Job in Medieval England #Shorts",
+    "Why Workers Stomped on Cloth in Old Urine #Shorts",
+    "The King's Men Who Could Dig Up Your Floor #Shorts",
+    "The Man Paid to Eat a Dead Man's Sins #Shorts",
+    "The Job Where You Had to Swallow a Toad #Shorts",
+    "The King's Toilet Servant Who Became Powerful #Shorts",
+    "The Worst Job in Old England: The Gong Farmer #Shorts",
+    "The Pig of Falaise: A Real Medieval Trial #Shorts",
+    "Why the Church Put Bugs on Trial #Shorts",
+    "The Weevils Who Were Offered Their Own Land #Shorts",
+    "The Rooster Sentenced for Laying an Egg #Shorts"
+   ],
+   "note": ""
+  },
+  "V1b titles = fixes file (or script-checked variant)": {
+   "ok": false,
+   "fail": [
+    "TkNJsIdy7gs now 'The Medieval Job Where You Drank Ale for Work #Shorts' | proposed 'Why Everyone Hated the Man Paid to Taste Ale'",
+    "6wDhznnQeKI now 'The Smelliest Job in Medieval England #Shorts' | proposed 'Why Towns Pushed Tanners Outside the Walls'",
+    "kk6I9g5V82Y now 'Why Workers Stomped on Cloth in Old Urine #Shorts' | proposed 'Why Workers Stomped on Cloth in Old Urine'",
+    "Wu5-PLKwb48 now 'The King's Men Who Could Dig Up Your Floor #Shorts' | proposed 'Why the King's Men Could Dig Up Your Floor'",
+    "qCgG6Dhqgi4 now 'The Man Paid to Eat a Dead Man's Sins #Shorts' | proposed 'The Man Paid to Eat a Dead Man's Sins'",
+    "WqxkoJY4jy4 now 'The Job Where You Had to Swallow a Toad #Shorts' | proposed 'The Toad-Swallowing Job Behind the Word \"Toady\"'",
+    "66iyJcnwvgY now 'The King's Toilet Servant Who Became Powerful #Shorts' | proposed 'Why the King's Toilet Servant Was So Powerful'",
+    "FbtDoZL8vwk now 'The Worst Job in Old England: The Gong Farmer #Shorts' | proposed 'Why Gong Farmers Could Only Work at Night'",
+    "33UzHb61eKc now 'The Pig of Falaise: A Real Medieval Trial #Shorts' | proposed 'Why a French Town Put a Pig on Trial'",
+    "RI7u-NzEj5E now 'Why the Church Put Bugs on Trial #Shorts' | proposed 'Why Medieval Courts Put Insects on Trial'",
+    "sJ0HEbnwoj8 now 'The Weevils Who Were Offered Their Own Land #Shorts' | proposed 'Why a Court Offered Weevils Their Own Land'",
+    "23cFCmyvtKI now 'The Rooster Sentenced for Laying an Egg #Shorts' | proposed 'Why a Rooster Was Burned for Laying an Egg'"
+   ],
+   "note": "a differing title is fine if it is an open question and true to the script"
+  },
+  "V2a tags: >=15 and 300-500 chars": {
+   "ok": false,
+   "fail": [
+    "o-dGmxKGKoY 11 tags, 209 ch | Why You Should Never Eat Polar Bear Live",
+    "bE1TP9JlAzs 12 tags, 203 ch | Why a Plane Door Won't Open Mid-Flight",
+    "iW60L9Pap5k 12 tags, 202 ch | The Castle Toilet That Let an Army In",
+    "WHd_m81cbpE 12 tags, 212 ch | Why Plane Windows Are Never Square",
+    "sdoOC7kAuRU 11 tags, 182 ch | Why You Can't Tickle Yourself 🪶",
+    "8hsKNMLOhAw 10 tags, 172 ch | What Brain Freeze Does Inside Your Head",
+    "MLRRsaV4iUA 10 tags, 187 ch | Why Quicksand Can't Actually Swallow You",
+    "zCkUEA4t5iQ 12 tags, 206 ch | The Accident That Invented Steel",
+    "TkNJsIdy7gs 11 tags, 166 ch | The Medieval Job Where You Drank Ale for",
+    "6wDhznnQeKI 11 tags, 166 ch | The Smelliest Job in Medieval England #S",
+    "kk6I9g5V82Y 11 tags, 166 ch | Why Workers Stomped on Cloth in Old Urin",
+    "Wu5-PLKwb48 11 tags, 166 ch | The King's Men Who Could Dig Up Your Flo"
+   ],
+   "note": ""
+  },
+  "V2b no two Shorts share one tag list": {
+   "ok": false,
+   "fail": [
+    "TkNJsIdy7gs,6wDhznnQeKI,kk6I9g5V82Y,Wu5-PLKwb48,qCgG6Dhqgi4,WqxkoJY4jy4,66iyJcnwvgY,FbtDoZL8vwk",
+    "33UzHb61eKc,RI7u-NzEj5E,sJ0HEbnwoj8,23cFCmyvtKI,ypKUcSlisP0,CPPa366kvr8,5YqYpWmY7EA"
+   ],
+   "note": ""
+  },
+  "V3a exactly 3 hashtags, topic first": {
+   "ok": false,
+   "fail": [
+    "o-dGmxKGKoY ['#Shorts', '#PolarBear', '#Arctic', '#Science', '#TrueWhys']",
+    "bE1TP9JlAzs ['#Shorts', '#Aviation', '#Science', '#Planes', '#TrueWhys']",
+    "iW60L9Pap5k ['#Shorts', '#History', '#Castle', '#MedievalHistory', '#TrueWhys']",
+    "WHd_m81cbpE ['#Shorts', '#Aviation', '#Engineering', '#Science', '#TrueWhys']",
+    "sdoOC7kAuRU ['#Shorts', '#Tickle', '#Brain', '#Science', '#TrueWhys']",
+    "8hsKNMLOhAw ['#Shorts', '#BrainFreeze', '#Science', '#Body', '#TrueWhys']",
+    "MLRRsaV4iUA ['#Shorts', '#Quicksand', '#Survival', '#Science', '#TrueWhys']",
+    "zCkUEA4t5iQ ['#shorts', '#TrueWhys', '#history', '#steel', '#ancienthistory']",
+    "TkNJsIdy7gs ['#Shorts', '#History', '#EnglishHistory', '#TrueWhys']",
+    "6wDhznnQeKI ['#Shorts', '#History', '#EnglishHistory', '#TrueWhys']",
+    "kk6I9g5V82Y ['#Shorts', '#History', '#EnglishHistory', '#TrueWhys']",
+    "Wu5-PLKwb48 ['#Shorts', '#History', '#EnglishHistory', '#TrueWhys']"
+   ],
+   "note": ""
+  },
+  "V3b cut Shorts link a long video": {
+   "ok": true,
+   "fail": [],
+   "note": ""
+  },
+  "V4 B-002 description clean": {
+   "ok": false,
+   "fail": [
+    "'#8' style chapters",
+    "broken wikipedia link"
+   ],
+   "note": ""
+  },
+  "V5 channel text has no schedule promise": {
+   "ok": false,
+   "fail": [
+    "every day",
+    "8–12 minute"
+   ],
+   "note": ""
+  },
+  "V6a every long video in 'Full Stories'": {
+   "ok": false,
+   "fail": [
+    "10 Pirate Myths You Still Believe (And What Was Real)"
+   ],
+   "note": ""
+  },
+  "V6b at least 5 topic playlists, none empty": {
+   "ok": false,
+   "fail": [
+    "only 0 topic playlists: ['Shorts', 'Full Stories']"
+   ],
+   "note": ""
+  },
+  "V7 schedule: >=12 h apart, Shorts 16:00 UTC, long Fri 15:00 UTC": {
+   "ok": true,
+   "fail": [],
+   "note": "0 scheduled; applies only if the owner approved D1/D5"
+  },
+  "V8 code + files": {
+   "ok": false,
+   "fail": [
+    "upload_shorts.py still adds #Shorts to titles",
+    "yt_stats.py lacks engagedViews",
+    "yt_stats.py lacks relativeRetentionPerformance",
+    "topic_results.md missing",
+    "branding/TrueWhys_channel_text.md missing"
+   ],
+   "note": ""
+  },
+  "V9 no synthetic-media field, no AI wording": {
+   "ok": true,
+   "fail": [],
+   "note": ""
+  }
+ }
+}
