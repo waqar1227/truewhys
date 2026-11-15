@@ -1,0 +1,10 @@
+# A-012 v1 (15 Nov 2026), standalone Short, Style F + cast v2.1. Safety topic told calmly: no one is shown choking.
+H1|0|There's a tiny hole in this pen cap. And it's not for the ink.
+L01|0|People chew caps. And now and then, someone breathes one in by accident.
+L02|0|A smooth cap can plug an airway like a cork.
+L03|0|So a safety standard says: caps on pens that kids might use need a way for air to get through.
+L04|0|At least eight litres of air a minute, even with the cap stuck.
+L05|0|That's why the hole is there. Or the cap is made too big to swallow.
+L06|0|The hole in the side of the pen? Different job. It lets air in, so the ink keeps flowing.
+L07|0|So one hole helps the pen. The other one helps you breathe.
+L08|0|Still chewing yours?

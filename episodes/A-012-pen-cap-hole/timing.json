@@ -1,0 +1,687 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "There's a tiny hole in this pen cap. And it's not for the ink.",
+  "dur": 4.33,
+  "words": [
+   {
+    "w": "There's",
+    "s": 0.0,
+    "e": 0.42
+   },
+   {
+    "w": "a",
+    "s": 0.42,
+    "e": 0.66
+   },
+   {
+    "w": "tiny",
+    "s": 0.66,
+    "e": 1.02
+   },
+   {
+    "w": "hole",
+    "s": 1.02,
+    "e": 1.42
+   },
+   {
+    "w": "in",
+    "s": 1.42,
+    "e": 1.66
+   },
+   {
+    "w": "this",
+    "s": 1.66,
+    "e": 1.84
+   },
+   {
+    "w": "pen",
+    "s": 1.84,
+    "e": 2.08
+   },
+   {
+    "w": "cap.",
+    "s": 2.08,
+    "e": 2.42
+   },
+   {
+    "w": "And",
+    "s": 2.94,
+    "e": 3.02
+   },
+   {
+    "w": "it's",
+    "s": 3.02,
+    "e": 3.32
+   },
+   {
+    "w": "not",
+    "s": 3.32,
+    "e": 3.54
+   },
+   {
+    "w": "for",
+    "s": 3.54,
+    "e": 3.78
+   },
+   {
+    "w": "the",
+    "s": 3.78,
+    "e": 3.92
+   },
+   {
+    "w": "ink.",
+    "s": 3.92,
+    "e": 4.12
+   }
+  ],
+  "heard": "There's a tiny hole in this pen cap. And it's not for the ink.",
+  "match": 1.0
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "People chew caps. And now and then, someone breathes one in by accident.",
+  "dur": 4.24,
+  "words": [
+   {
+    "w": "People",
+    "s": 0.03,
+    "e": 0.27
+   },
+   {
+    "w": "chew",
+    "s": 0.27,
+    "e": 0.47
+   },
+   {
+    "w": "caps.",
+    "s": 0.47,
+    "e": 0.79
+   },
+   {
+    "w": "And",
+    "s": 1.25,
+    "e": 1.41
+   },
+   {
+    "w": "now",
+    "s": 1.41,
+    "e": 1.61
+   },
+   {
+    "w": "and",
+    "s": 1.61,
+    "e": 1.75
+   },
+   {
+    "w": "then,",
+    "s": 1.75,
+    "e": 2.01
+   },
+   {
+    "w": "someone",
+    "s": 2.25,
+    "e": 2.57
+   },
+   {
+    "w": "breathes",
+    "s": 2.57,
+    "e": 2.99
+   },
+   {
+    "w": "one",
+    "s": 2.99,
+    "e": 3.13
+   },
+   {
+    "w": "in",
+    "s": 3.13,
+    "e": 3.31
+   },
+   {
+    "w": "by",
+    "s": 3.31,
+    "e": 3.49
+   },
+   {
+    "w": "accident.",
+    "s": 3.49,
+    "e": 3.95
+   }
+  ],
+  "heard": "People chew caps. And now and then, someone breathes one in by accident.",
+  "match": 1.0
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "A smooth cap can plug an airway like a cork.",
+  "dur": 2.69,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.05,
+    "e": 0.17
+   },
+   {
+    "w": "smooth",
+    "s": 0.17,
+    "e": 0.43
+   },
+   {
+    "w": "cap",
+    "s": 0.43,
+    "e": 0.69
+   },
+   {
+    "w": "can",
+    "s": 0.69,
+    "e": 0.91
+   },
+   {
+    "w": "plug",
+    "s": 0.91,
+    "e": 1.17
+   },
+   {
+    "w": "an",
+    "s": 1.17,
+    "e": 1.39
+   },
+   {
+    "w": "airway",
+    "s": 1.39,
+    "e": 1.73
+   },
+   {
+    "w": "like",
+    "s": 1.73,
+    "e": 1.91
+   },
+   {
+    "w": "a",
+    "s": 1.91,
+    "e": 2.09
+   },
+   {
+    "w": "cork.",
+    "s": 2.09,
+    "e": 2.39
+   }
+  ],
+  "heard": "A smooth cap can plug an airway like a cork.",
+  "match": 1.0
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "So a safety standard says: caps on pens that kids might use need a way for air to get through.",
+  "dur": 5.44,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.03,
+    "e": 0.23
+   },
+   {
+    "w": "a",
+    "s": 0.23,
+    "e": 0.49
+   },
+   {
+    "w": "safety",
+    "s": 0.49,
+    "e": 0.79
+   },
+   {
+    "w": "standard",
+    "s": 0.79,
+    "e": 1.31
+   },
+   {
+    "w": "says:",
+    "s": 1.31,
+    "e": 1.59
+   },
+   {
+    "w": "caps",
+    "s": 1.59,
+    "e": 1.95
+   },
+   {
+    "w": "on",
+    "s": 1.95,
+    "e": 2.19
+   },
+   {
+    "w": "pens",
+    "s": 2.19,
+    "e": 2.43
+   },
+   {
+    "w": "that",
+    "s": 2.43,
+    "e": 2.65
+   },
+   {
+    "w": "kids",
+    "s": 2.65,
+    "e": 2.87
+   },
+   {
+    "w": "might",
+    "s": 2.87,
+    "e": 3.09
+   },
+   {
+    "w": "use",
+    "s": 3.09,
+    "e": 3.47
+   },
+   {
+    "w": "need",
+    "s": 3.47,
+    "e": 3.85
+   },
+   {
+    "w": "a",
+    "s": 3.85,
+    "e": 3.99
+   },
+   {
+    "w": "way",
+    "s": 3.99,
+    "e": 4.11
+   },
+   {
+    "w": "for",
+    "s": 4.11,
+    "e": 4.35
+   },
+   {
+    "w": "air",
+    "s": 4.35,
+    "e": 4.61
+   },
+   {
+    "w": "to",
+    "s": 4.61,
+    "e": 4.77
+   },
+   {
+    "w": "get",
+    "s": 4.77,
+    "e": 4.89
+   },
+   {
+    "w": "through.",
+    "s": 4.89,
+    "e": 5.23
+   }
+  ],
+  "heard": "So a safety standard says caps on pens that kids might use need a way for air to get through.",
+  "match": 1.0
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "At least eight litres of air a minute, even with the cap stuck.",
+  "dur": 3.63,
+  "words": [
+   {
+    "w": "At",
+    "s": 0.06,
+    "e": 0.18
+   },
+   {
+    "w": "least",
+    "s": 0.18,
+    "e": 0.34
+   },
+   {
+    "w": "eight",
+    "s": 0.34,
+    "e": 0.72
+   },
+   {
+    "w": "litres",
+    "s": 0.72,
+    "e": 1.06
+   },
+   {
+    "w": "of",
+    "s": 1.06,
+    "e": 1.34
+   },
+   {
+    "w": "air",
+    "s": 1.34,
+    "e": 1.56
+   },
+   {
+    "w": "a",
+    "s": 1.56,
+    "e": 1.78
+   },
+   {
+    "w": "minute,",
+    "s": 1.78,
+    "e": 2.14
+   },
+   {
+    "w": "even",
+    "s": 2.4,
+    "e": 2.6
+   },
+   {
+    "w": "with",
+    "s": 2.6,
+    "e": 2.72
+   },
+   {
+    "w": "the",
+    "s": 2.72,
+    "e": 2.84
+   },
+   {
+    "w": "cap",
+    "s": 2.84,
+    "e": 3.0
+   },
+   {
+    "w": "stuck.",
+    "s": 3.0,
+    "e": 3.36
+   }
+  ],
+  "heard": "At least eight litres of air a minute, even with the cap stuck.",
+  "match": 1.0
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "That's why the hole is there. Or the cap is made too big to swallow.",
+  "dur": 3.78,
+  "words": [
+   {
+    "w": "That's",
+    "s": 0.03,
+    "e": 0.39
+   },
+   {
+    "w": "why",
+    "s": 0.39,
+    "e": 0.51
+   },
+   {
+    "w": "the",
+    "s": 0.51,
+    "e": 0.61
+   },
+   {
+    "w": "hole",
+    "s": 0.61,
+    "e": 0.75
+   },
+   {
+    "w": "is",
+    "s": 0.75,
+    "e": 0.89
+   },
+   {
+    "w": "there.",
+    "s": 0.89,
+    "e": 1.15
+   },
+   {
+    "w": "Or",
+    "s": 1.73,
+    "e": 1.97
+   },
+   {
+    "w": "the",
+    "s": 1.97,
+    "e": 2.13
+   },
+   {
+    "w": "cap",
+    "s": 2.13,
+    "e": 2.31
+   },
+   {
+    "w": "is",
+    "s": 2.31,
+    "e": 2.47
+   },
+   {
+    "w": "made",
+    "s": 2.47,
+    "e": 2.65
+   },
+   {
+    "w": "too",
+    "s": 2.65,
+    "e": 2.87
+   },
+   {
+    "w": "big",
+    "s": 2.87,
+    "e": 3.03
+   },
+   {
+    "w": "to",
+    "s": 3.03,
+    "e": 3.19
+   },
+   {
+    "w": "swallow.",
+    "s": 3.19,
+    "e": 3.49
+   }
+  ],
+  "heard": "That's why the hole is there. Or the cap is made too big to swallow.",
+  "match": 1.0
+ },
+ {
+  "id": "L06",
+  "chapter": 0,
+  "text": "The hole in the side of the pen? Different job. It lets air in, so the ink keeps flowing.",
+  "dur": 5.16,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.03,
+    "e": 0.43
+   },
+   {
+    "w": "hole",
+    "s": 0.43,
+    "e": 0.61
+   },
+   {
+    "w": "in",
+    "s": 0.61,
+    "e": 0.79
+   },
+   {
+    "w": "the",
+    "s": 0.79,
+    "e": 0.91
+   },
+   {
+    "w": "side",
+    "s": 0.91,
+    "e": 1.07
+   },
+   {
+    "w": "of",
+    "s": 1.07,
+    "e": 1.19
+   },
+   {
+    "w": "the",
+    "s": 1.19,
+    "e": 1.27
+   },
+   {
+    "w": "pen?",
+    "s": 1.27,
+    "e": 1.49
+   },
+   {
+    "w": "Different",
+    "s": 2.09,
+    "e": 2.19
+   },
+   {
+    "w": "job.",
+    "s": 2.19,
+    "e": 2.47
+   },
+   {
+    "w": "It",
+    "s": 2.93,
+    "e": 3.01
+   },
+   {
+    "w": "lets",
+    "s": 3.01,
+    "e": 3.15
+   },
+   {
+    "w": "air",
+    "s": 3.15,
+    "e": 3.49
+   },
+   {
+    "w": "in,",
+    "s": 3.49,
+    "e": 3.79
+   },
+   {
+    "w": "so",
+    "s": 3.93,
+    "e": 4.03
+   },
+   {
+    "w": "the",
+    "s": 4.03,
+    "e": 4.15
+   },
+   {
+    "w": "ink",
+    "s": 4.15,
+    "e": 4.31
+   },
+   {
+    "w": "keeps",
+    "s": 4.31,
+    "e": 4.53
+   },
+   {
+    "w": "flowing.",
+    "s": 4.53,
+    "e": 4.91
+   }
+  ],
+  "heard": "The hole in the side of the pen? Different job. It lets air in, so the ink keeps flowing.",
+  "match": 1.0
+ },
+ {
+  "id": "L07",
+  "chapter": 0,
+  "text": "So one hole helps the pen. The other one helps you breathe.",
+  "dur": 3.19,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.06,
+    "e": 0.24
+   },
+   {
+    "w": "one",
+    "s": 0.24,
+    "e": 0.66
+   },
+   {
+    "w": "hole",
+    "s": 0.66,
+    "e": 0.86
+   },
+   {
+    "w": "helps",
+    "s": 0.86,
+    "e": 1.08
+   },
+   {
+    "w": "the",
+    "s": 1.08,
+    "e": 1.22
+   },
+   {
+    "w": "pen.",
+    "s": 1.22,
+    "e": 1.42
+   },
+   {
+    "w": "The",
+    "s": 2.02,
+    "e": 2.12
+   },
+   {
+    "w": "other",
+    "s": 2.12,
+    "e": 2.26
+   },
+   {
+    "w": "one",
+    "s": 2.26,
+    "e": 2.4
+   },
+   {
+    "w": "helps",
+    "s": 2.4,
+    "e": 2.6
+   },
+   {
+    "w": "you",
+    "s": 2.6,
+    "e": 2.72
+   },
+   {
+    "w": "breathe.",
+    "s": 2.72,
+    "e": 2.92
+   }
+  ],
+  "heard": "So one hole helps the pen. The other one helps you breathe.",
+  "match": 1.0
+ },
+ {
+  "id": "L08",
+  "chapter": 0,
+  "text": "Still chewing yours?",
+  "dur": 0.87,
+  "words": [
+   {
+    "w": "Still",
+    "s": 0.07,
+    "e": 0.27
+   },
+   {
+    "w": "chewing",
+    "s": 0.27,
+    "e": 0.49
+   },
+   {
+    "w": "yours?",
+    "s": 0.49,
+    "e": 0.69
+   }
+  ],
+  "heard": "Still chewing yours?",
+  "match": 1.0
+ }
+]

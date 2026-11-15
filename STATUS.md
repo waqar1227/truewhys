@@ -1,6 +1,14 @@
 # STATUS (read the NEXT list first)
 
 ## NEXT (keep this list short; heartbeat does only these)
+** 15 Nov 13:40 UTC (production session): STANDARDS DONE + WAVE 1 HALF SCHEDULED. Composers: lib/cast2_flat.py (cast v2.1 in Style F), no end card (corner badge),
+   `V.qa_numbers()` frame-1 check (library/index.md). Style T still has the 3D cast v1 → new videos are Style F until a 3D cast v2 exists.
+   Long video can't pass QA by Fri 20 Nov → per order: Style F standalone Shorts hold 20–26 Nov 16:00 UTC; long video L4 → Fri 27 Nov 15:00 UTC.
+   SCHEDULED (private + publishAt, thumbs, playlists): A-009 Vending machine 5XdQYTPzwxU 20 Nov · A-010 Wrinkly fingers AshEYTYzMyI 21 Nov ·
+   A-011 First traffic light yyBUc7aM2lA 22 Nov · A-012 Pen cap hole 1r8faDAYoTQ 23 Nov (all 16:00 UTC). Buffer now to 23 Nov.
+   NEXT: A-013 cat righting reflex (8 Animals) 24 Nov · A-014 golf-ball dimples (9 Science) 25 Nov · A-015 onions/tears (7 Body) 26 Nov (template: episodes/A-009 make.py).
+   16 Nov after 08:00 UTC: P1 (`python tools/yt_apply_fixes.py` dry run → `--apply`, B-002 description, channel text, playlists, yt_stats, topic_results, SRT, verify.py)
+   then tell audit session_01BQj2DeVVBA9LqPEcBBQjhd "P1 done". Wave 2 (L4 long + cut Shorts + 2 standalone, 27 Nov–3 Dec) only after 48 h data on A-009/A-010 (≈ 23 Nov).
 ** 15 Nov owner: GO for new production, strictly per the audit (docs/audit/2026-11-15_channel_audit.md §4, §6, §7, §8). Always keep ≥14 days scheduled.
    Cast v2.1 APPROVED (lib/cast2.py, library/cast/cast_v2_sheet.jpg). D2 no end card, D3 cast v2, D4 posted stay + strict religion screen.
    Scheduled now: B-003 Shorts to 19 Nov 16:00 UTC. Wave 1 = 20–26 Nov (long Fri 20 Nov 15:00 UTC if ready, else Style F Shorts hold slots and
