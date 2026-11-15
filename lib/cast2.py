@@ -27,19 +27,19 @@ def shade(hexc, f):
 
 # role = hat/uniform + one prop (audit: role by hat, uniform and one prop)
 CAST = {
-    "wy":       dict(name="Wy", skin="#F1C3A0", hair="curl", hair_c="#5B3A29", top="#FF6B5B", top2="#FFF4E0",
+    "wy":       dict(name="Wy", skin="#F6D5BC", iris="#5B3A29", face="round", hair="curl", hair_c="#5B3A29", top="#FF6B5B", top2="#FFF4E0",
                      legs="#24476B", shoes=INK, badge=True, jaw=0.0, prop=None),
-    "captain":  dict(name="Captain", skin="#D99D74", hair="tricorn", hair_c="#1E1A24", top="#8E2430", top2="#E8C46A",
+    "captain":  dict(name="Captain", skin="#EBC09E", iris="#3E6A8C", face="square", hair="tricorn", hair_c="#1E1A24", top="#8E2430", top2="#E8C46A",
                      legs="#2A2A38", shoes=INK, beard="#3A2416", coat=True, jaw=0.3, prop="spyglass"),
-    "doctor":   dict(name="Doctor", skin="#8D5A3B", hair="bun", hair_c="#1E1A24", top="#F4F1EA", top2="#3E7CB1",
+    "doctor":   dict(name="Doctor", skin="#C99470", iris="#4A2E1E", face="long", hair="bun", hair_c="#1E1A24", top="#F4F1EA", top2="#3E7CB1",
                      legs="#2E3B52", shoes="#3A2618", coat=True, glasses=True, jaw=0.0, prop="clipboard", female=True),
-    "worker":   dict(name="Worker", skin="#C98E66", hair="hood", hair_c="#6E6650", top="#8A6A44", top2="#C9A27A",
+    "worker":   dict(name="Worker", skin="#E9BC98", iris="#5E7A4A", face="square", hair="hood", hair_c="#6E6650", top="#8A6A44", top2="#C9A27A",
                      legs="#4A3A2C", shoes="#2A1A10", stubble=True, apron="#7A5236", jaw=0.4, prop="shovel"),
-    "guard":    dict(name="Guard", skin="#E2AE86", hair="helmet", hair_c="#9AA3AD", top="#2F4F6F", top2="#C9A23A",
+    "guard":    dict(name="Guard", skin="#F2CFB2", iris="#5B7A9C", face="long", hair="helmet", hair_c="#9AA3AD", top="#2F4F6F", top2="#C9A23A",
                      legs="#3A3A44", shoes=INK, moustache="#5B3A29", jaw=0.5, prop="spear"),
-    "noble":    dict(name="Noble", skin="#EDC2A0", hair="crown_long", hair_c="#7A3E1E", top="#5B3A8C", top2="#FFC93C",
+    "noble":    dict(name="Noble", skin="#F8DFCC", iris="#3E8E7A", face="long", hair="crown_long", hair_c="#7A3E1E", top="#5B3A8C", top2="#FFC93C",
                      legs="#5B3A8C", shoes=INK, gown=True, jaw=0.0, prop="scroll", female=True),
-    "modern":   dict(name="Everyman", skin="#B97A55", hair="short", hair_c="#22181B", top="#3E8E5E", top2="#2A2A38",
+    "modern":   dict(name="Everyman", skin="#D8A580", iris="#4A2E1E", face="round", hair="short", hair_c="#22181B", top="#3E8E5E", top2="#2A2A38",
                      legs="#3A4A66", shoes="#F4F1EA", hoodie=True, jaw=0.2, prop="phone"),
 }
 
@@ -57,7 +57,9 @@ EXPR = {
 def _head(s, e):
     """Head centred at (0,-505): slightly tall rounded box with a jaw; ~190 units tall incl. hair."""
     skin = s["skin"]; jaw = s.get("jaw", 0.2); fem = s.get("female")
-    w = 66 if fem else 70
+    face = s.get("face", "round")
+    w = (62 if fem else 66) + {"round": 6, "square": 4, "long": -4}[face]
+    jaw = {"round": 0.0, "square": 0.9, "long": 0.4}[face] if "jaw" not in s or face != "round" else jaw
     p = []
     # back hair / hood
     hc = s["hair_c"]
@@ -71,20 +73,25 @@ def _head(s, e):
     jx = w - 10 * jaw
     p.append(f'<path d="M-{w} -520 Q-{w} -588 0 -590 Q{w} -588 {w} -520 L{w} -480 Q{jx} -430 0 -424 Q-{jx} -430 -{w} -480 Z" fill="{skin}"/>')
     # ear
-    p.append(f'<path d="M{w-4} -510 Q{w+16} -508 {w+12} -488 Q{w+6} -478 {w-2} -482" fill="{skin}"/>')
+    for sd in (-1, 1):
+        p.append(f'<path d="M{sd*(w-4)} -514 Q{sd*(w+18)} -514 {sd*(w+14)} -490 Q{sd*(w+8)} -478 {sd*(w-2)} -482" fill="{skin}"/>'
+                 f'<path d="M{sd*(w+2)} -506 Q{sd*(w+10)} -500 {sd*(w+4)} -490" fill="none" stroke-width="4"/>')
     if s.get("stubble"):
         p.append(f'<path d="M-{w-4} -486 Q-{jx-6} -434 0 -430 Q{jx-6} -434 {w-4} -486 Q30 -458 0 -462 Q-30 -458 -{w-4} -486 Z" fill="{shade(skin, 0.8)}" stroke="none"/>')
     # eyes (small, with lids)
-    lid = e.get("lid", 0.45); lx, ly = e.get("look", (0, 0)); pr = 7 * e.get("pupil", 1.0)
+    lid = e.get("lid", 0.45); lx, ly = e.get("look", (0, 0)); pr = 6.5 * e.get("pupil", 1.0)
     for i, cx in enumerate((-26, 26)):
-        cy, rx, ry = -515, 13, 15
-        p.append(f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="#FFFFFF" stroke-width="6"/>')
-        p.append(f'<circle cx="{cx + 5*lx}" cy="{cy + 2 + 3*ly}" r="{pr}" fill="{INK}" stroke="none"/>')
+        cy, rx, ry = -515, 13, 11
+        p.append(f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="#FFFFFF" stroke-width="5"/>')
+        ix, iy = cx + 4*lx, cy + 1 + 2*ly
+        p.append(f'<circle cx="{ix}" cy="{iy}" r="{pr}" fill="{s.get("iris", "#5B3A29")}" stroke="none"/>'
+                 f'<circle cx="{ix}" cy="{iy}" r="{pr*0.45:.1f}" fill="{INK}" stroke="none"/>'
+                 f'<circle cx="{ix+2.5}" cy="{iy-2.5}" r="1.8" fill="#FFFFFF" stroke="none"/>')
         if lid > 0.01:
             ly0 = cy - ry - 2 + (2 * ry + 2) * lid
             p.append(f'<path d="M{cx-rx-3} {cy-ry-4} L{cx+rx+3} {cy-ry-4} L{cx+rx+3} {ly0} L{cx-rx-3} {ly0} Z" fill="{skin}" stroke="none"/>')
-            p.append(f'<path d="M{cx-rx-1} {ly0} L{cx+rx+1} {ly0}" stroke-width="6"/>')
-            p.append(f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="none" stroke-width="6"/>')
+            p.append(f'<path d="M{cx-rx-1} {ly0} L{cx+rx+1} {ly0}" stroke-width="5"/>')
+            p.append(f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="none" stroke-width="5"/>')
         (di, do) = e["brow"][i]
         inner, outer = (cx + 12, cx - 16) if i == 0 else (cx - 12, cx + 16)
         p.append(f'<path d="M{outer} {-540 + do} L{inner} {-540 + di}" fill="none" stroke-width="9"/>')
@@ -92,7 +99,9 @@ def _head(s, e):
         p.append('<rect x="-45" y="-532" width="38" height="32" rx="9" fill="none" stroke-width="6"/>'
                  '<rect x="7" y="-532" width="38" height="32" rx="9" fill="none" stroke-width="6"/><path d="M-7 -518 L7 -518" stroke-width="6"/>')
     # nose
-    p.append(f'<path d="M2 -508 Q10 -486 -2 -482" fill="none" stroke-width="6"/>')
+    p.append(f'<path d="M0 -510 L7 -488 Q2 -482 -6 -484" fill="none" stroke-width="5"/>'
+             f'<path d="M-9 -488 Q-12 -483 -7 -481" fill="none" stroke-width="4"/>'
+             f'<path d="M1 -506 L6 -490 L1 -490 Z" fill="{shade(skin, 0.88)}" stroke="none"/>')
     # beard / moustache
     if s.get("beard"):
         b = s["beard"]
@@ -108,7 +117,9 @@ def _head(s, e):
     elif m == "grit":
         p.append(f'<path d="{M[m]}" fill="#FFFFFF" stroke-width="6"/><path d="M-15 -456 L15 -456" stroke-width="3"/>')
     else:
-        p.append(f'<path d="{M[m]}" fill="none" stroke-width="7"/>')
+        p.append(f'<path d="{M[m]}" fill="none" stroke-width="6"/>')
+        if not (s.get("beard") or s.get("moustache")):
+            p.append(f'<path d="M-9 -451 Q0 -446 9 -451" fill="none" stroke="{shade(skin, 0.78)}" stroke-width="5"/>')
     # front hair / hats
     h = s["hair"]
     if h == "curl":   # Wy: short brown hair + the question-mark curl
@@ -131,7 +142,17 @@ def _head(s, e):
     elif h == "crown_long":
         p.append(f'<path d="M-{w} -520 Q-{w} -606 0 -606 Q{w} -606 {w} -520 Q20 -576 0 -566 Q-20 -576 -{w} -520 Z" fill="{hc}"/>'
                  f'<path d="M-44 -592 L-50 -636 L-24 -612 L0 -646 L24 -612 L50 -636 L44 -592 Z" fill="{s["top2"]}"/>')
+    if h in ("short", "curl", "bun", "crown_long"):
+        dk = shade(hc, 0.72 if hc not in ("#22181B", "#1E1A24") else 1.6)
+        p.append(f'<path d="M-30 -592 Q-20 -574 -36 -560 M6 -598 Q14 -580 2 -566 M36 -590 Q46 -574 36 -560" fill="none" stroke="{dk}" stroke-width="4"/>')
     return "".join(p)
+
+
+HEAD_K = 0.8  # v2.1: head scaled about the neck so it is ~1/4 of body height (owner: "closer to human")
+
+
+def _head_scaled(s, e):
+    return f'<g transform="translate(0,-404) scale({HEAD_K}) translate(0,404)">{_head(s, e)}</g>'
 
 
 def _body(s):
@@ -187,8 +208,9 @@ def _arm(s, side, pose):
          f'<path d="{seg(ex, ey, hx, hy, 19, 16)}" fill="{sleeve}"/>',
          f'<path d="M{ex-17} {ey} A17 17 0 0 0 {ex+17} {ey}" fill="none" stroke="{sleeve}" stroke-width="2"/>']
     # mitten hand with a thumb (bigger: reads at phone size)
-    p.append(f'<path d="M{hx-17} {hy-6} Q{hx-20} {hy+30} {hx} {hy+32} Q{hx+20} {hy+30} {hx+17} {hy-6} Q{hx} {hy-14} {hx-17} {hy-6} Z" fill="{skin}"/>'
-             f'<path d="M{hx-side*15} {hy+2} Q{hx-side*32} {hy+6} {hx-side*24} {hy+20}" fill="{skin}" stroke-width="6"/>')
+    p.append(f'<path d="M{hx-16} {hy-6} Q{hx-19} {hy+30} {hx} {hy+32} Q{hx+19} {hy+30} {hx+16} {hy-6} Q{hx} {hy-14} {hx-16} {hy-6} Z" fill="{skin}"/>'
+             f'<path d="M{hx-side*14} {hy+2} Q{hx-side*30} {hy+6} {hx-side*22} {hy+20}" fill="{skin}" stroke-width="5"/>'
+             f'<path d="M{hx-7} {hy+12} L{hx-7} {hy+28} M{hx+1} {hy+13} L{hx+1} {hy+30} M{hx+9} {hy+12} L{hx+9} {hy+27}" fill="none" stroke-width="3.5"/>')
     return "".join(p), (hx, hy + 12)
 
 
@@ -218,7 +240,7 @@ def figure_svg(cid, expr="deadpan", pose_l="down", pose_r="hold"):
     prop = _prop(s["prop"], hand) if s.get("prop") else ""
     back = prop if s.get("prop") in ("shovel", "spear") else ""
     front = "" if back else prop
-    return back + _body(s) + al + _head(s, e) + ar + front
+    return back + _body(s) + al + _head_scaled(s, e) + ar + front
 
 
 def png(svg_body, vb, scale=1.0, bg=None):
@@ -239,7 +261,7 @@ def model_sheet(out):
         f = ImageFont.truetype("library/fonts/LilitaOne-Regular.ttf", 34); f2 = ImageFont.truetype("library/fonts/LilitaOne-Regular.ttf", 22)
     except OSError:
         f = f2 = ImageFont.load_default()
-    d.text((24, 16), "TrueWhys cast v2 — sample sheet (for owner approval)", fill="#22181B", font=f)
+    d.text((24, 16), "TrueWhys cast v2.1 — sample sheet (owner feedback: fairer skin, closer to human)", fill="#22181B", font=f)
     for i, cid in enumerate(order):
         im = png(figure_svg(cid, "deadpan", "down", "hold"), (-150, -680, 300, 700), 1.0)
         sheet.alpha_composite(im, (i * cw, 60))
@@ -252,7 +274,7 @@ def model_sheet(out):
             im = png(_head(CAST[cid], EXPR[ex]), (-115, -660, 230, 250), 0.62)
             sheet.alpha_composite(im, (20 + j * 345 + (k % 3) * 108, 875 + (k % 2) * 0))
     # heights guide: Wy v1 vs v2 proportions note
-    d.text((24, 1180), "Proportions: head ~1/3 of height, eyes with lids + brows, nose, neck + shoulders, hands with a thumb, no cheeks.",
+    d.text((24, 1180), "v2.1: head ~1/4 of height, coloured eyes with lids + brows, shaped nose, ears, lips, varied face shapes, hair strands, fingers.",
            fill="#5B3A29", font=f2)
     d.text((24, 1220), "Role by hat + outfit + one prop. Thick ink outline, flat colours, our palette. Wy keeps his curl, coral shirt and yellow check badge.",
            fill="#5B3A29", font=f2)
