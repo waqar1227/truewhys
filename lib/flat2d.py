@@ -575,8 +575,10 @@ class Ctx:
 
 
 class Video:
-    def __init__(s, ep, title=None, keys=(), gap=0.22, lead=0.12, music="curious", cap_y=0.40, title_out=None, end_dur=2.6, sid=None):
+    def __init__(s, ep, title=None, keys=(), gap=0.22, lead=0.12, music="curious", cap_y=0.40, title_out=None, end_dur=2.6, sid=None, endcard=False, badge=0.7):
         s.ep = Path(ep)
+        # owner D2 (15 Nov 2026): no full-screen end card on new Shorts; story to the last frame + small Wy check badge (<= 0.7 s)
+        s.endcard, s.badge = endcard, badge
         s.T = {t["id"]: t for t in json.loads((s.ep / "timing.json").read_text())}
         s.title, s.keys, s.gap, s.lead, s.music0, s.cap_y = title, {k.lower() for k in keys}, gap, lead, music, cap_y
         s.title_out, s.end_dur = title_out, end_dur
@@ -615,7 +617,7 @@ class Video:
                 out.append(dict(d, id=f"{s.sid}_{k:02d}", start=round(t + a, 4), dur=round(b - a, 4), kind="3d", line_start=round(t + v0 - 0.05, 4)))
                 k += 1
             t += full
-        if end and "O1" in s.T:
+        if end and s.endcard and "O1" in s.T:
             o = s.T["O1"]
             s.voice0["O1"] = t + 0.17
             out.append(dict(id=f"{s.sid}_END", line="O1", fn=end_card, part=(0, 1), cam=lambda c: (W / 2, H / 2, 1.0, 0.0), sfx=[(0.0, "whoosh_soft", 0.4), (1.28, "ding", 0.42)],
@@ -698,6 +700,10 @@ class Video:
         k = max(j for j, sh in enumerate(s.shots) if sh["start"] <= gt + 1e-6)
         sh = s.shots[k]
         c = g.c
+        try:
+            import cast2_flat; cast2_flat.DRAWN.clear()
+        except ImportError:
+            pass
         c.set_matrix(g.base); c.reset_clip()
         c.set_source_rgba(*rgba(INK)); c.paint()
         tr = sh["tr"]
@@ -725,7 +731,24 @@ class Video:
             if s.title:
                 t_out = s.title_out if s.title_out is not None else s.shots[1]["start"] if len(s.shots) > 1 else 2.5
                 draw_title(g, s.title, gt, t_out)
+            if not s.endcard and s.badge and gt >= s.duration - s.badge:
+                corner_badge(g, gt - (s.duration - s.badge))
         return bytes(s.surf.get_data())
+
+    # ---- QA numbers (audit §6.3): frame-1 character height, first cut, shots, end-card seconds
+    def qa_numbers(s, still_out=None):
+        import cast2_flat
+        s.frame(0)
+        h1 = cast2_flat.visible_height_frac(H, W)
+        if still_out:
+            s.still(0, still_out, 0.5)
+        cuts = [sh["start"] for sh in s.shots[1:] if sh["kind"] != "end"]
+        ends = sum(sh["dur"] for sh in s.shots if sh["kind"] == "end")
+        out = dict(frame1_char_height=round(h1, 3), frame1_ok=h1 >= 0.45, first_cut_s=round(cuts[0], 2) if cuts else None,
+                   shots=len([x for x in s.shots if x["kind"] != "end"]), end_card_s=round(ends, 2), duration=s.duration,
+                   max_shot_s=round(max(x["dur"] for x in s.shots), 2))
+        print(out)
+        return out
 
     # ---- outputs
     def sheet(s, out, times=None, cols=6, scale=0.25, per_shot=2):
@@ -930,6 +953,18 @@ def check_badge(g, x, y, r, k=1.0):
     with g.at(x, y, 0, k):
         g.circle(0, 0, r, PAL["yellow"], INK, lw=r * 0.2)
         g.line([(-0.45 * r, 0.02 * r), (-0.10 * r, 0.36 * r), (0.50 * r, -0.34 * r)], INK, r * 0.26)
+
+
+def corner_badge(g, t, x=W - 118, y=262, r=64):
+    """Owner D2: small Wy check badge in the top-right corner during the final line (<= 0.7 s)."""
+    from flat_cast import wy_bust
+    k = pop(t, 0.0, 0.25, 2.2)
+    with g.screen():
+        g.circle(x, y, r * 1.25 * k, PAL["teal"], INK, lw=8)
+        g.c.save(); g.c.new_path(); g.c.arc(x, y, max(1, r * 1.25 * k - 4), 0, TAU); g.c.clip()
+        wy_bust(g, t, x, y + r * 1.9 * k, 0.30 * k)
+        g.c.restore()
+        check_badge(g, x + r * 0.95, y + r * 0.85, r * 0.42, k)
 
 
 def end_card(g, c):

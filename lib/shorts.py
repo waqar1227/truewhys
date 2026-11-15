@@ -3,7 +3,7 @@
 python lib/shorts.py episodes/<ep>            -> episodes/<ep>/shorts/<CID>/shots.json for every Short,
                                                  plus episodes/<ep>/shorts/all_shots.json (one plan for the Kaggle render)
 Each Short = hook shot (new narration line) + the long video's shots for the chosen lines (re-timed back to back)
-+ a 2.6 s Wy end card with the outro line. Every 3D camera is re-aimed for 9:16: same position and tilt,
++ (owner D2) no end card: the story runs to the last frame, small check badge in the final 0.7 s. Every 3D camera is re-aimed for 9:16: same position and tilt,
 longer lens (LENS_K), turned towards the main actor so the subject fills the tall frame.
 """
 import sys, os, json, math, copy
@@ -17,6 +17,7 @@ VW, VH = 1080, 1920
 SUBJ_Y = 0.43
 END_DUR = 2.6
 SUBJ_H = 0.36   # main subject height as a share of the vertical frame
+HOOK_H = 0.48   # frame 1 (hook shot): audit §6.3 asks >= 45 %
 ZOOM_MAX, ZOOM_MIN = 1.6, 0.7
 ANIMALS = {"pig", "bull", "rat", "weevil", "rooster", "hen", "dog", "cat", "horse", "mouse", "locust", "toad", "sheep", "goat", "cow", "polar_bear", "seal", "fish"}  # wider than tall
 
@@ -34,7 +35,7 @@ def fake_timing(lid, text):
     return dict(id=lid, text=text, dur=round(t + 0.2, 3), words=out, estimated=True)
 
 
-def reaim(cam, chars, W=1920, H=1080):
+def reaim(cam, chars, W=1920, H=1080, subj_h=SUBJ_H):
     """Turn the camera (both keys) towards the main actor(s) and lengthen the lens for 9:16."""
     cam = copy.deepcopy(cam)
     if not chars:
@@ -77,7 +78,7 @@ def reaim(cam, chars, W=1920, H=1080):
             if pr:
                 frac = max(ppm * h for x, ppm, h, wf in pr) / VH
                 spread = max(x + ppm * h * wf for x, ppm, h, wf in pr) - min(x - ppm * h * wf for x, ppm, h, wf in pr)
-                k = min(ZOOM_MAX, SUBJ_H / frac) if frac < SUBJ_H - 0.02 else 1.0
+                k = min(ZOOM_MAX, subj_h / frac) if frac < subj_h - 0.02 else 1.0
                 k = max(ZOOM_MIN, min(k, 0.86 * VW / max(spread, 1)))
                 if any(wf > 0.5 for x, ppm, h, wf in pr):  # animals are drawn behind their anchor: keep room for the body
                     k = min(k, 1.2)
@@ -184,14 +185,19 @@ def build(ep):
                 shots.append(n)
             t = round(le + off, 3)
         shots[1]["music"] = shots[1].get("music") or h["music"]
-        # ---- end card
-        o = cfg["outro"]
-        shots.append(dict(id=f"{cid}_END", kind="end", line=o["id"], start=t, line_start=round(t + 0.15, 3), dur=END_DUR, chapter=None,
-                          sfx=[[0, "ding", 0.5]], music=None))
-        t += END_DUR
+        # ---- ending: owner D2 (15 Nov 2026) = no full-screen end card; story to the last frame + small check badge (last 0.7 s).
+        # The old 2.6 s Wy card only if shorts.json sets "endcard": true (legacy).
+        if cfg.get("endcard"):
+            o = cfg["outro"]
+            shots.append(dict(id=f"{cid}_END", kind="end", line=o["id"], start=t, line_start=round(t + 0.15, 3), dur=END_DUR, chapter=None,
+                              sfx=[[0, "ding", 0.5]], music=None))
+            t += END_DUR
+        else:
+            shots[-1]["badge"] = 0.7
         for s in shots:
             if s["kind"] == "3d":
-                s["cam"] = reaim(s["cam"], s.get("chars", []))
+                # audit §6.3 first-frame rule: the hook's subject fills >= 45 % of the frame height
+                s["cam"] = reaim(s["cam"], s.get("chars", []), subj_h=HOOK_H if s["id"].endswith("_H") else SUBJ_H)
         p = dict(fps=plan.get("fps", 30), resolution=[VW, VH], style=plan.get("style"), episode=plan.get("episode"), short=cid,
                  title=c["title"], duration=round(t, 3), vertical=True, shots=shots)
         (root / cid).mkdir(exist_ok=True)

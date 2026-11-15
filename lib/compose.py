@@ -333,6 +333,23 @@ def short_end(W, H, t, d):
     return f
 
 
+_BADGE = {}
+
+
+def corner_badge(fr, t, s=1.0):
+    """Owner D2: small yellow check badge (brand) in the top-right corner during the final <= 0.7 s of a Short."""
+    from PIL import ImageDraw
+    k = min(1.0, t / 0.2); k = 1 - (1 - k) ** 3
+    S = max(8, int(150 * s * k))
+    im = _BADGE.get(S)
+    if im is None:
+        im = Image.new("RGBA", (150, 150)); g = ImageDraw.Draw(im)
+        g.ellipse((8, 8, 142, 142), fill="#FFC93C", outline="#22181B", width=10)
+        g.line([(42, 78), (66, 102), (110, 52)], fill="#22181B", width=14, joint="curve")
+        im = _BADGE[S] = im.resize((S, S), Image.LANCZOS)
+    fr.alpha_composite(im, (int(fr.width - 48 * s - 75 * s - S / 2), int(150 * s + 75 * s - S / 2)))
+
+
 def render_shot(shot, plates, ep, W, H, lines_t, env_fn):
     vert = H > W
     s = W / 1080 if vert else W / 1920
@@ -404,6 +421,8 @@ def render_shot(shot, plates, ep, W, H, lines_t, env_fn):
                 gfx.pop_word(fr, txt, t, tt * d if tt <= 1 else tt, d - t, s, pw[2] if len(pw) > 2 else 1.0)
             if words:
                 gfx.caption(fr, words, t, s, vertical=vert)
+        if vert and shot.get("badge") and t >= d - shot["badge"]:
+            corner_badge(fr, t - (d - shot["badge"]), s)
         arr = np.asarray(fr.convert("RGB")).astype(np.float32)
         if kind == "3d":
             arr *= vig

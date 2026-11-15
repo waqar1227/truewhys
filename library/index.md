@@ -108,3 +108,9 @@ All original (TrueWhys). One episode = `episodes/<ep>/make.py` (`sheet` | `big <
   nose, neck, hands with thumb, no cheeks). `figure_svg(cid, expr, pose_l, pose_r)`, `png(svg, viewbox, scale)`; cast: wy, captain, doctor,
   worker, guard, noble, modern; expressions deadpan/smug/suspicious/shocked/bored/angry. Sample sheet: library/cast/cast_v2_sheet.jpg
   (`python lib/cast2.py <out>`). Original, code-drawn (TrueWhys). APPROVED by the owner 15 Nov (v2.1): use for all new videos.
+- **New standards in the composers (15 Nov 2026, audit §6.3, owner D2/D3):** `lib/cast2_flat.py` `char2(g, cid, x, y, h, expr, pose_l, pose_r, t=c.gt, flip)`
+  draws cast v2.1 inside Style F (cached raster, auto blink + breathing; extra expressions blink/worried/curious). `flat2d.Video` has no end card by default
+  (`endcard=False`; small Wy ✓ corner badge in the final 0.7 s, `badge=`); `V.qa_numbers("frame1.jpg")` prints frame-1 character height (must be ≥ 0.45),
+  first cut, shot count, end-card seconds (0) for qa.md. `lib/shorts.py` (Style T cut Shorts): no end card unless shorts.json `"endcard": true`, corner badge
+  in the last 0.7 s (compose.py), hook shot re-aimed so the subject fills 48 % of the height. Style T still uses the 3D cast v1: a 3D cast v2 is needed
+  before new Style T videos (until then new videos are Style F).
