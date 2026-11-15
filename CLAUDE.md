@@ -60,6 +60,11 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
 ## Owner rules, 15 Nov 2026 (take precedence over older rules below)
 - **Audit session first:** follow the TrueWhys audit session's plan and instructions strictly (report: branch claude/zen-knuth-ypcfhk, docs/audit/).
   Wait for its report before new decisions; where it changes an older rule here, the audit wins (ethics and quality rules always stay).
+- **D3 APPROVED (owner, 15 Nov, via audit chat): cast v2.** Same kind of cast redrawn older and drier (head ~1/3 of body height,
+  smaller eyes with lids and brows, no rosy cheeks, neck + shoulders, hands that hold things, deadpan default); Wy stays as brand/logo
+  with the same older proportions and stops presenting from the desk in Shorts. Must not look like Rick's Clips or Ink Explainer.
+  Style R test (every 2 weeks): MPFB 2 humans (stylised) + Quaternius animations (CC0), plain studio backdrop in our colours, Kaggle.
+  **The owner sees one sample sheet (6 cast + Wy) before any video uses cast v2.** D1, D2, D4, D5: not yet decided (insects Short on hold).
 - **14-day buffer:** always keep 14 days of content scheduled in advance on YouTube. Produce only until 14 days ahead are scheduled,
   then stop production; resume when the buffer drops below 14 days.
 
