@@ -21,7 +21,7 @@ for ln in (ep / "lines.txt").read_text().splitlines():
         p = ln.split("|")
         lines[p[0]] = p[2]
 
-base_tags = [t for t in seo["tags"] if len(t) < 30][:10]
+base_tags = [t for t in seo["tags"] if len(t) < 30][:8]  # per-Short tags (shorts.json "tags") come first (audit §5)
 rows = []
 for i, c in enumerate(cfg["shorts"]):
     at = long_at + dt.timedelta(hours=first + gap * i)
@@ -32,17 +32,18 @@ for i, c in enumerate(cfg["shorts"]):
         body = body[:217].rsplit(" ", 1)[0] + "…"
     if body[-1] in ":;,":
         body = body[:-1] + "…"
-    title = c["title"]
-    if len(title) + 8 <= 100:
-        title += " #Shorts"
+    title = c["title"]  # audit 15 Nov: never add "#Shorts" to titles
     desc = f"""{c['hook']['text']} {body}
 
 ▶ Full story: {seo['title']} — {{LONG_URL}}
 
 Sources and credits are in the full video's description. Animation and music: TrueWhys (original).
 TrueWhys — the real story behind life's weirdest whys.
-#Shorts {' '.join(seo['hashtags'])}"""
-    meta = {"title": title, "description": desc, "tags": ["shorts"] + base_tags, "categoryId": seo.get("categoryId") or json.loads((ep / "upload_meta.json").read_text())["categoryId"],
+
+More true whys: https://www.youtube.com/@truewhys?sub_confirmation=1
+
+{' '.join((c.get('hashtags') or seo['hashtags'])[:3])}"""
+    meta = {"title": title, "description": desc, "tags": (c.get("tags") or []) + [t for t in base_tags if t not in (c.get("tags") or [])], "categoryId": seo.get("categoryId") or json.loads((ep / "upload_meta.json").read_text())["categoryId"],
             "publishAt": at.strftime("%Y-%m-%dT%H:%M:%SZ"), "playlist": "Shorts", "short": c["id"],
             "video": f"shorts/{c['id']}/final.mp4", "related": "long video (set in YouTube Studio)"}
     d = ep / "shorts" / c["id"]; d.mkdir(parents=True, exist_ok=True)
