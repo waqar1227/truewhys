@@ -1,0 +1,577 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "His drink is stuck. So he starts rocking the machine.",
+  "dur": 3.45,
+  "words": [
+   {
+    "w": "His",
+    "s": 0.0,
+    "e": 0.34
+   },
+   {
+    "w": "drink",
+    "s": 0.34,
+    "e": 0.72
+   },
+   {
+    "w": "is",
+    "s": 0.72,
+    "e": 1.08
+   },
+   {
+    "w": "stuck.",
+    "s": 1.08,
+    "e": 1.48
+   },
+   {
+    "w": "So",
+    "s": 2.0,
+    "e": 2.04
+   },
+   {
+    "w": "he",
+    "s": 2.04,
+    "e": 2.2
+   },
+   {
+    "w": "starts",
+    "s": 2.2,
+    "e": 2.48
+   },
+   {
+    "w": "rocking",
+    "s": 2.48,
+    "e": 2.8
+   },
+   {
+    "w": "the",
+    "s": 2.8,
+    "e": 2.98
+   },
+   {
+    "w": "machine.",
+    "s": 2.98,
+    "e": 3.28
+   }
+  ],
+  "heard": "His drink is stuck. So he starts rocking the machine.",
+  "match": 1.0
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "Bad idea. By 1995, US safety officials knew of at least thirty-seven people killed exactly like this.",
+  "dur": 7.23,
+  "words": [
+   {
+    "w": "Bad",
+    "s": 0.12,
+    "e": 0.36
+   },
+   {
+    "w": "idea.",
+    "s": 0.36,
+    "e": 0.92
+   },
+   {
+    "w": "By",
+    "s": 1.4,
+    "e": 1.42
+   },
+   {
+    "w": "1995,",
+    "s": 1.42,
+    "e": 2.36
+   },
+   {
+    "w": "US",
+    "s": 2.7,
+    "e": 2.84
+   },
+   {
+    "w": "safety",
+    "s": 2.84,
+    "e": 3.22
+   },
+   {
+    "w": "officials",
+    "s": 3.22,
+    "e": 3.64
+   },
+   {
+    "w": "knew",
+    "s": 3.64,
+    "e": 3.9
+   },
+   {
+    "w": "of",
+    "s": 3.9,
+    "e": 4.04
+   },
+   {
+    "w": "at",
+    "s": 4.04,
+    "e": 4.14
+   },
+   {
+    "w": "least",
+    "s": 4.14,
+    "e": 4.34
+   },
+   {
+    "w": "thirty-seven",
+    "s": 4.34,
+    "e": 5.14
+   },
+   {
+    "w": "people",
+    "s": 5.14,
+    "e": 5.42
+   },
+   {
+    "w": "killed",
+    "s": 5.42,
+    "e": 5.78
+   },
+   {
+    "w": "exactly",
+    "s": 5.78,
+    "e": 6.34
+   },
+   {
+    "w": "like",
+    "s": 6.34,
+    "e": 6.76
+   },
+   {
+    "w": "this.",
+    "s": 6.76,
+    "e": 7.02
+   }
+  ],
+  "heard": "Bad idea. By 1995, US safety officials knew of at least thirty -seven people killed exactly like this.",
+  "match": 0.914
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "And over a hundred more injured.",
+  "dur": 1.4,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.06,
+    "e": 0.14
+   },
+   {
+    "w": "over",
+    "s": 0.14,
+    "e": 0.3
+   },
+   {
+    "w": "a",
+    "s": 0.3,
+    "e": 0.42
+   },
+   {
+    "w": "hundred",
+    "s": 0.42,
+    "e": 0.64
+   },
+   {
+    "w": "more",
+    "s": 0.64,
+    "e": 0.88
+   },
+   {
+    "w": "injured.",
+    "s": 0.88,
+    "e": 1.16
+   }
+  ],
+  "heard": "And over a hundred more injured.",
+  "match": 1.0
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "Most of them were after a free drink, or their money back.",
+  "dur": 2.47,
+  "words": [
+   {
+    "w": "Most",
+    "s": 0.08,
+    "e": 0.22
+   },
+   {
+    "w": "of",
+    "s": 0.22,
+    "e": 0.4
+   },
+   {
+    "w": "them",
+    "s": 0.4,
+    "e": 0.48
+   },
+   {
+    "w": "were",
+    "s": 0.48,
+    "e": 0.6
+   },
+   {
+    "w": "after",
+    "s": 0.6,
+    "e": 0.82
+   },
+   {
+    "w": "a",
+    "s": 0.82,
+    "e": 1.0
+   },
+   {
+    "w": "free",
+    "s": 1.0,
+    "e": 1.16
+   },
+   {
+    "w": "drink,",
+    "s": 1.16,
+    "e": 1.48
+   },
+   {
+    "w": "or",
+    "s": 1.68,
+    "e": 1.76
+   },
+   {
+    "w": "their",
+    "s": 1.76,
+    "e": 1.86
+   },
+   {
+    "w": "money",
+    "s": 1.86,
+    "e": 2.02
+   },
+   {
+    "w": "back.",
+    "s": 2.02,
+    "e": 2.3
+   }
+  ],
+  "heard": "Most of them were after a free drink, or their money back.",
+  "match": 1.0
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "So one maker fitted a lock: tip the machine, and it stops giving anything out.",
+  "dur": 4.63,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.06,
+    "e": 0.2
+   },
+   {
+    "w": "one",
+    "s": 0.2,
+    "e": 0.54
+   },
+   {
+    "w": "maker",
+    "s": 0.54,
+    "e": 0.86
+   },
+   {
+    "w": "fitted",
+    "s": 0.86,
+    "e": 1.16
+   },
+   {
+    "w": "a",
+    "s": 1.16,
+    "e": 1.48
+   },
+   {
+    "w": "lock:",
+    "s": 1.48,
+    "e": 1.8
+   },
+   {
+    "w": "tip",
+    "s": 2.34,
+    "e": 2.34
+   },
+   {
+    "w": "the",
+    "s": 2.34,
+    "e": 2.5
+   },
+   {
+    "w": "machine,",
+    "s": 2.5,
+    "e": 2.8
+   },
+   {
+    "w": "and",
+    "s": 3.04,
+    "e": 3.14
+   },
+   {
+    "w": "it",
+    "s": 3.14,
+    "e": 3.28
+   },
+   {
+    "w": "stops",
+    "s": 3.28,
+    "e": 3.62
+   },
+   {
+    "w": "giving",
+    "s": 3.62,
+    "e": 3.9
+   },
+   {
+    "w": "anything",
+    "s": 3.9,
+    "e": 4.22
+   },
+   {
+    "w": "out.",
+    "s": 4.22,
+    "e": 4.46
+   }
+  ],
+  "heard": "So one maker fitted a lock. Tip the machine, and it stops giving anything out.",
+  "match": 1.0
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "Rocking it now wins you nothing.",
+  "dur": 1.95,
+  "words": [
+   {
+    "w": "Rocking",
+    "s": 0.19,
+    "e": 0.43
+   },
+   {
+    "w": "it",
+    "s": 0.43,
+    "e": 0.53
+   },
+   {
+    "w": "now",
+    "s": 0.53,
+    "e": 0.81
+   },
+   {
+    "w": "wins",
+    "s": 0.81,
+    "e": 1.15
+   },
+   {
+    "w": "you",
+    "s": 1.15,
+    "e": 1.33
+   },
+   {
+    "w": "nothing.",
+    "s": 1.33,
+    "e": 1.67
+   }
+  ],
+  "heard": "Rocking it now wins you nothing.",
+  "match": 1.0
+ },
+ {
+  "id": "L06",
+  "chapter": 0,
+  "text": "Then came the warning sticker: never rock or tilt, the machine can fall over.",
+  "dur": 4.33,
+  "words": [
+   {
+    "w": "Then",
+    "s": 0.06,
+    "e": 0.24
+   },
+   {
+    "w": "came",
+    "s": 0.24,
+    "e": 0.48
+   },
+   {
+    "w": "the",
+    "s": 0.48,
+    "e": 0.66
+   },
+   {
+    "w": "warning",
+    "s": 0.66,
+    "e": 0.88
+   },
+   {
+    "w": "sticker:",
+    "s": 0.88,
+    "e": 1.26
+   },
+   {
+    "w": "never",
+    "s": 1.76,
+    "e": 1.96
+   },
+   {
+    "w": "rock",
+    "s": 1.96,
+    "e": 2.3
+   },
+   {
+    "w": "or",
+    "s": 2.3,
+    "e": 2.58
+   },
+   {
+    "w": "tilt,",
+    "s": 2.58,
+    "e": 2.8
+   },
+   {
+    "w": "the",
+    "s": 3.06,
+    "e": 3.26
+   },
+   {
+    "w": "machine",
+    "s": 3.26,
+    "e": 3.52
+   },
+   {
+    "w": "can",
+    "s": 3.52,
+    "e": 3.72
+   },
+   {
+    "w": "fall",
+    "s": 3.72,
+    "e": 3.92
+   },
+   {
+    "w": "over.",
+    "s": 3.92,
+    "e": 4.18
+   }
+  ],
+  "heard": "Then came the warning sticker. Never rock or tilt, the machine can fall over.",
+  "match": 1.0
+ },
+ {
+  "id": "L07",
+  "chapter": 0,
+  "text": "It isn't protecting the drinks. It's protecting you.",
+  "dur": 2.81,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.03,
+    "e": 0.25
+   },
+   {
+    "w": "isn't",
+    "s": 0.25,
+    "e": 0.47
+   },
+   {
+    "w": "protecting",
+    "s": 0.47,
+    "e": 0.79
+   },
+   {
+    "w": "the",
+    "s": 0.79,
+    "e": 1.01
+   },
+   {
+    "w": "drinks.",
+    "s": 1.01,
+    "e": 1.25
+   },
+   {
+    "w": "It's",
+    "s": 1.63,
+    "e": 1.83
+   },
+   {
+    "w": "protecting",
+    "s": 1.83,
+    "e": 2.25
+   },
+   {
+    "w": "you.",
+    "s": 2.25,
+    "e": 2.59
+   }
+  ],
+  "heard": "It isn't protecting the drinks. It's protecting you.",
+  "match": 1.0
+ },
+ {
+  "id": "L08",
+  "chapter": 0,
+  "text": "So... your drink is stuck. Do you walk away?",
+  "dur": 2.69,
+  "words": [
+   {
+    "w": "So...",
+    "s": 0.03,
+    "e": 0.29
+   },
+   {
+    "w": "your",
+    "s": 0.29,
+    "e": 0.85
+   },
+   {
+    "w": "drink",
+    "s": 0.85,
+    "e": 1.05
+   },
+   {
+    "w": "is",
+    "s": 1.05,
+    "e": 1.21
+   },
+   {
+    "w": "stuck.",
+    "s": 1.21,
+    "e": 1.45
+   },
+   {
+    "w": "Do",
+    "s": 2.01,
+    "e": 2.05
+   },
+   {
+    "w": "you",
+    "s": 2.05,
+    "e": 2.13
+   },
+   {
+    "w": "walk",
+    "s": 2.13,
+    "e": 2.27
+   },
+   {
+    "w": "away?",
+    "s": 2.27,
+    "e": 2.51
+   }
+  ],
+  "heard": "So your drink is stuck. Do you walk away?",
+  "match": 1.0
+ }
+]

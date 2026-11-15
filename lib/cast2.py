@@ -188,7 +188,7 @@ def _body(s):
 
 
 def _arm(s, side, pose):
-    """side -1 = screen left. Two-segment arm (shoulder -> elbow -> hand). pose: down | hold (elbow bent, hand at chest) | point."""
+    """side -1 = screen left. Two-segment arm (shoulder -> elbow -> hand). pose: down | hold | point | reach_r | reach_l | up | hip."""
     sx = side * (74 if s.get("female") else 82)
     sleeve, skin = s["top"], s["skin"]
     sy = -384
@@ -196,6 +196,14 @@ def _arm(s, side, pose):
         ex, ey, hx, hy = sx + side * 16, -300, sx + side * 20, -212
     elif pose == "hold":
         ex, ey, hx, hy = sx + side * 20, -292, sx - side * 10, -270
+    elif pose == "reach_r":   # both hands to screen right at chest height (grabbing / pushing something beside them)
+        ex, ey, hx, hy = (sx + 80, -350, sx + 170, -345) if side > 0 else (-20, -300, 150, -330)
+    elif pose == "reach_l":
+        ex, ey, hx, hy = (sx - 80, -350, sx - 170, -345) if side < 0 else (20, -300, -150, -330)
+    elif pose == "up":        # hands up (shock, surrender)
+        ex, ey, hx, hy = sx + side * 60, -440, sx + side * 70, -560
+    elif pose == "hip":
+        ex, ey, hx, hy = sx + side * 62, -300, sx + side * 18, -236
     else:  # point
         ex, ey, hx, hy = sx + side * 70, -360, sx + side * 140, -380
     def seg(x0, y0, x1, y1, w0, w1):
@@ -233,8 +241,10 @@ def _prop(name, at):
     return P.get(name, "")
 
 
-def figure_svg(cid, expr="deadpan", pose_l="down", pose_r="hold"):
+def figure_svg(cid, expr="deadpan", pose_l="down", pose_r="hold", prop=True):
     s = CAST[cid]; e = EXPR[expr]
+    if not prop:
+        s = dict(s, prop=None)
     al, _ = _arm(s, -1, pose_l)
     ar, hand = _arm(s, 1, pose_r if s.get("prop") else "down")
     prop = _prop(s["prop"], hand) if s.get("prop") else ""

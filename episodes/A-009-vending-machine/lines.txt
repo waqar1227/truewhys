@@ -1,0 +1,10 @@
+# A-009 v1 (15 Nov 2026), standalone Short, Style F + cast v2.1. Respectful: no victims shown, no machine landing on anyone.
+H1|0|His drink is stuck. So he starts rocking the machine.
+L01|0|Bad idea. By 1995, US safety officials knew of at least thirty-seven people killed exactly like this.
+L02|0|And over a hundred more injured.
+L03|0|Most of them were after a free drink, or their money back.
+L04|0|So one maker fitted a lock: tip the machine, and it stops giving anything out.
+L05|0|Rocking it now wins you nothing.
+L06|0|Then came the warning sticker: never rock or tilt, the machine can fall over.
+L07|0|It isn't protecting the drinks. It's protecting you.
+L08|0|So... your drink is stuck. Do you walk away?

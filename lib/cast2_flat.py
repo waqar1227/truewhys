@@ -24,14 +24,14 @@ cast2.EXPR.setdefault("worried", dict(lid=0.25, brow=((-12, 4), (-12, 4)), mouth
 cast2.EXPR.setdefault("curious", dict(lid=0.2, brow=((-4, -10), (6, 0)), mouth="side", look=(1, 0)))
 
 
-def _surface(cid, expr, pl, pr, scale):
-    key = (cid, expr, pl, pr, scale)
+def _surface(cid, expr, pl, pr, scale, prop=True):
+    key = (cid, expr, pl, pr, scale, prop)
     s = _CACHE.get(key)
     if s is None:
         x0, y0, w, h = VB
         svg = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{x0} {y0} {w} {h}" width="{w}" height="{h}">'
                f'<g stroke="{cast2.INK}" stroke-width="{cast2.SW}" stroke-linejoin="round" stroke-linecap="round">'
-               f'{cast2.figure_svg(cid, expr, pl, pr)}</g></svg>')
+               f'{cast2.figure_svg(cid, expr, pl, pr, prop)}</g></svg>')
         png = cairosvg.svg2png(bytestring=svg.encode(), scale=scale)
         s = cairo.ImageSurface.create_from_png(io.BytesIO(png))
         if len(_CACHE) > 400:
@@ -49,7 +49,7 @@ def _blinking(t, seed):
 
 
 def char2(g, cid, x, y, h=900.0, expr="deadpan", pose_l="down", pose_r="hold", t=None, flip=False, rot=0.0, breathe=True, a=1.0,
-          blink=True, squash=0.0):
+          blink=True, squash=0.0, prop=None):
     """Draw cast v2.1 character `cid` with feet at (x, y), `h` design units tall."""
     k = h / NOMINAL_H
     dev = abs(g.c.get_matrix().xx) or 1.0           # current device scale (camera zoom)
@@ -57,7 +57,8 @@ def char2(g, cid, x, y, h=900.0, expr="deadpan", pose_l="down", pose_r="hold", t
     scale = min(4.0, max(0.25, math.ceil(want * 4) / 4))   # quantised raster scale (>= on-screen size)
     seed = sum(map(ord, cid))
     e = "blink" if blink and _blinking(t, seed) and expr not in ("shocked",) else expr
-    surf = _surface(cid, e, pose_l, pose_r, scale)
+    prop = (pose_r in ("hold", "down", "point")) if prop is None else prop   # hide the role prop when the hands grab or wave
+    surf = _surface(cid, e, pose_l, pose_r, scale, prop)
     br = 1 + (0.012 * math.sin((t or 0) * 2.4 + seed) if breathe and t is not None else 0)
     sy = br * (1 - squash); sx = (1 + squash * 0.6) / br ** 0.5
     c = g.c
