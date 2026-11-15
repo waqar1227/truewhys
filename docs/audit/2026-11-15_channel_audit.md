@@ -394,3 +394,34 @@ stayed fine but relative retention < 0.5 → pacing; all fine but no growth → 
 - V10 After new production: frame 1 of each new Short (public frame image) shows the object and a character ≥ 45 % of the
   height; the last frame is not a full-screen card (if D2 is approved).
 - V11 Two weeks later: the §4 targets, from the Analytics API.
+
+---
+
+## 8. Addendum 15 Nov 06:05 UTC — the 14-day buffer (as reported by the production session)
+
+The production session reports that the owner decided: follow the audit, and keep 14 days of content scheduled ahead, then stop.
+C6–C10 now run one per day, 15–19 Nov at 16:00 UTC. The buffer therefore covers **20 Nov – 3 Dec**:
+
+| Date (UTC) | 15:00 | 16:00 |
+|---|---|---|
+| Fri 20 Nov | Long video L4 | — |
+| Sat 21 – Tue 24 Nov | | L4 cut Shorts 1–4 (3 if only 3 are strong; then a standalone on Tue) |
+| Wed 25, Thu 26 Nov | | Standalone S1, S2 |
+| Fri 27 Nov | Long video L5 | — |
+| Sat 28 Nov – Tue 1 Dec | | L5 cut Shorts 1–4 |
+| Wed 2, Thu 3 Dec | | Standalone S3, S4 |
+
+Total: 2 long videos, 6–8 cut Shorts, 4–6 standalone Shorts.
+
+How to fill it without losing the learning loop (important):
+1. **Standards before volume.** First the composer changes (first frame, no end card if D2 is approved) and the cast v2 sheet
+   (if D3 is approved). Nothing for the buffer is rendered in the old look.
+2. **Two waves, not one batch.** Wave 1 = 20–26 Nov. Wave 2 = 27 Nov – 3 Dec, and its scripts and first frames are only locked
+   after the first 2–3 new-standard Shorts have 48 h of data (stayed %, relative retention at 10 %). If 14 days are produced
+   blind and the new first frames still lose 50 % of viewers, all 14 days repeat the same mistake.
+3. **Quality beats the date** (rule number 1). If L4 is not ready for Fri 20 Nov, standalone Shorts (Style F, no Kaggle) keep the
+   daily 16:00 slot and L4 moves to Fri 27 Nov. Never fill a slot with a video that fails the §6.3 numbers.
+4. **Quota:** at most 5 uploads per day; spread the buffer uploads over several days; do the P1 edits on the lighter days.
+5. Topics for the buffer: standalone = "Why [everyday object / body / machine] …"; long videos = one series, chosen so that at
+   least 3 items are strong enough to stand alone as Shorts.
+Check V7 in `verify.py` already tests this calendar (≥ 12 h apart, Shorts 16:00 UTC, long Fri 15:00 UTC).
