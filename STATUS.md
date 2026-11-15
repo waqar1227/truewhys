@@ -1,7 +1,7 @@
 # STATUS (read the NEXT list first)
 
 ## NEXT (keep this list short; heartbeat does only these)
-** 15 Nov 17:30 UTC (production session_01BQj2DdBXfG9cs6NCxGLzLV, heartbeat trig_011YPm2X38BQdtanjoj4zLT6 now fires here 08:44/20:44 UTC):
+** 15 Nov 17:30 UTC (production session_01BQj2DdBXfG9cs6NCxGLzLV, heartbeat trig_01SWZ2Dh2pi68Lv1aDMZXkZz fires here 08:44/20:44 UTC):
    DONE: A-016 onions + A-017 cloudy ice: scripts, topic.md (titles, religion clear), sources.md (2+ each), Gemini voice (35.5 s / 39.6 s, voice_check clean).
    DONE (P1 local): lib/yt_stats.py §6.8 (stayed %, rel. retention 10/50/90, Shorts-feed views, countries; test on 16 Nov), topic_results.md + tools/topic_results.py,
    branding/TrueWhys_channel_text.md (no schedule promise). lib/upload_shorts.py already had no "#Shorts" + per-Short tags.
