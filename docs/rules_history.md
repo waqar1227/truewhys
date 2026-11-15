@@ -216,3 +216,6 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
   using research/report_template.md. CTR/impressions are not in the API: use Studio numbers only when the owner pastes them.
 - The daily growth review runs as its own scheduled task (fresh session, Sonnet); the production heartbeat does production only.
 - 12 Nov 2026: 'Fable 5.2 is PAUSED' replaced by owner: Fable enabled for the Style F sprint (docs/fable_sprint.md).
+- 15 Nov 2026 (owner D2): replaced "Last 2 s of every Short: Wy with ✓ badge + 'Follow for more true whys'" by: no full-screen end card on new Shorts,
+  story to the last frame + loop, small Wy ✓ corner badge (≤ 0.7 s). Posted Shorts unchanged.
+- 15 Nov 2026 (owner D4): B-001 long + "Church Put Bugs on Trial" + "Weevils" stay public unchanged; stricter religion screen for all new topics.

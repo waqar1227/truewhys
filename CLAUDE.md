@@ -6,6 +6,12 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
 
 ## Content ethics (STRICT: every script, title, thumbnail, caption, comment)
 - Nothing unethical: no hate, mockery of groups, sexual content, gore for shock, or harmful "how-to".
+- **Owner 15 Nov 2026 (his words): "strictly careful about religions, and never against Islam, and no kufr things."** For every new topic
+  write "religion check: clear" in topic.md. Skip: any topic about motives, money, power or mistakes of a religious institution or its people;
+  anything that mocks or questions a faith, God, prophets, angels, holy books, worship or believers; shirk, magic, fortune-telling, spirits,
+  curses, or rituals about sins/souls/afterlife shown as real or admirable (e.g. no new "sin eater" topic); gods/myths of old religions as a topic.
+  No jokes, captions, faces or thumbnails at the expense of anything religious; religious buildings/clothing only as neutral background.
+  If unsure, drop the topic or ask the owner. Already-posted videos stay as they are (owner D4, 15 Nov).
 - **Never say anything against any religion, especially Islam.** Nothing that mocks, insults or criticises a religion, its prophets,
   holy books, practices or believers. Never depict prophets. With religious institutions in history, stay neutral and factual about
   events and people, never the faith. If a topic could offend religious viewers, skip it.
@@ -64,7 +70,7 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
   smaller eyes with lids and brows, no rosy cheeks, neck + shoulders, hands that hold things, deadpan default); Wy stays as brand/logo
   with the same older proportions and stops presenting from the desk in Shorts. Must not look like Rick's Clips or Ink Explainer.
   Style R test (every 2 weeks): MPFB 2 humans (stylised) + Quaternius animations (CC0), plain studio backdrop in our colours, Kaggle.
-  **The owner sees one sample sheet (6 cast + Wy) before any video uses cast v2.** D1, D2, D4, D5: not yet decided (insects Short on hold).
+  **The owner sees one sample sheet (6 cast + Wy) before any video uses cast v2.** D2 approved (end card, above); D4 decided (posted videos stay); D1 + D5 acted on via the audit (owner: follow the audit strictly).
 - **14-day buffer:** always keep 14 days of content scheduled in advance on YouTube. Produce only until 14 days ahead are scheduled,
   then stop production; resume when the buffer drops below 14 days.
 
@@ -108,7 +114,9 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
 - Thumbnails (long, 1280×720): one big cast face with an extreme emotion (face ≥ 35 % of height) + ONE strange object/situation + max
   3 giant words (Lilita One, high-contrast outline, never repeating the title), bright subject on a dark/blurred background, one focal
   point, readable at 168×94, curiosity gap. Shorts: hook frame thumbnail.
-- Last 2 s of every Short: Wy with ✓ badge + "Follow for more true whys". Long videos: 20 s end screen with the wordmark.
+- **Shorts end (owner D2, 15 Nov):** no full-screen end card on new Shorts. The story runs to the last frame, the last shot matches the first
+  so it loops, and the sign-off is a small Wy ✓ badge in a corner during the final line (0.7 s max). Already-posted Shorts stay as they are.
+  Long videos: 20 s end screen with the wordmark.
 - Every episode ends with: approved animatic, Kaggle render log, `final/` MP4, thumbnails, `upload_meta.json`, `credits.md`, `sources.md`, `qa.md`,
   and a short message to the owner (what was made, what to check, when it is scheduled).
 

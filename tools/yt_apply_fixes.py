@@ -14,7 +14,9 @@ OUT = Path("docs/audit/applied.json")
 SUB = "More true whys: https://www.youtube.com/@truewhys?sub_confirmation=1"
 # script check 15 Nov: all proposed titles are supported (ale conner: hook "So why did everyone hate him?" + L15)
 OVERRIDE = {}
-HOLD = {"RI7u-NzEj5E": "owner decision D4 (religion rule review)"}
+HOLD = {}
+# owner D4 (15 Nov): posted religion-adjacent Shorts keep their title wording; only "#Shorts" is removed (tags + 3 hashtags still applied)
+OVERRIDE["RI7u-NzEj5E"] = "Why the Church Put Bugs on Trial"
 TAG = re.compile(r"(?<![\w/#])#[A-Za-z][\w]*")  # hashtags only; '#8' chapter markers and URL fragments are left alone
 
 
