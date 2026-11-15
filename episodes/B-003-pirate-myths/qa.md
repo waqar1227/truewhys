@@ -26,3 +26,8 @@ Result: PASS → YouTube private + publishAt 2026-11-14T15:00:00Z with thumb_A; 
 - Uploaded 14 Nov: C1 4WCGHoL-cAM 16:00, C2 50PTfQtFLqo 19:00, C3 9xDx3zIt27k 22:00 UTC 14 Nov; C4 nd7RqqpeDfE 01:00, C5 iSMOk8JC7_Q 04:00 UTC 15 Nov.
 - C6–C10: upload after 08:00 UTC 15 Nov (slots 10:00, 13:00, 16:00, 19:00, 22:00 UTC 15 Nov). C7–C9 QA when composed.
 - Long-video thumbnail via API: 403 forbidden (youtube.thumbnail) on 14 Nov, while Shorts thumbnails work → likely Test & Compare active in Studio.
+- 15 Nov: C7–C9 composed. Owner D2 applied to the unposted C6–C10 (tools/trim_endcard.py): full-screen end card removed, story to the last
+  frame, small Wy ✓ corner badge in the final 0.7 s, 0.3 s audio fade. Contact sheet C6–C10 checked (hook by frame 1, badge visible, no card);
+  21.0–24.9 s, −14.2…−14.6 LUFS. New titles (Why/How, no "#Shorts"), 3 topic hashtags, specific tags first.
+- Uploaded 15 Nov, one per day at 16:00 UTC (owner, per audit): C6 SVAKhIs2w0Y 15 Nov, C7 PQDcJuv570Y 16 Nov, C8 cLtK1MIprGs 17 Nov,
+  C9 YL5gMoQVH7w 18 Nov, C10 e3VksvQ5-Gk 19 Nov. B-003 COMPLETE (long + 10 cut Shorts).
