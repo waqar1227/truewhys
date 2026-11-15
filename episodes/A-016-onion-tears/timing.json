@@ -1,0 +1,637 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "He's cutting an onion. And the onion is fighting back.",
+  "dur": 3.63,
+  "words": [
+   {
+    "w": "He's",
+    "s": 0.0,
+    "e": 0.58
+   },
+   {
+    "w": "cutting",
+    "s": 0.58,
+    "e": 0.82
+   },
+   {
+    "w": "an",
+    "s": 0.82,
+    "e": 1.08
+   },
+   {
+    "w": "onion.",
+    "s": 1.08,
+    "e": 1.42
+   },
+   {
+    "w": "And",
+    "s": 1.74,
+    "e": 1.92
+   },
+   {
+    "w": "the",
+    "s": 1.92,
+    "e": 2.06
+   },
+   {
+    "w": "onion",
+    "s": 2.06,
+    "e": 2.38
+   },
+   {
+    "w": "is",
+    "s": 2.38,
+    "e": 2.76
+   },
+   {
+    "w": "fighting",
+    "s": 2.76,
+    "e": 3.0
+   },
+   {
+    "w": "back.",
+    "s": 3.0,
+    "e": 3.4
+   }
+  ],
+  "heard": "He's cutting an onion, and the onion is fighting back.",
+  "match": 1.0
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "Every slice breaks open the onion's cells.",
+  "dur": 2.43,
+  "words": [
+   {
+    "w": "Every",
+    "s": 0.12,
+    "e": 0.36
+   },
+   {
+    "w": "slice",
+    "s": 0.36,
+    "e": 0.7
+   },
+   {
+    "w": "breaks",
+    "s": 0.7,
+    "e": 1.0
+   },
+   {
+    "w": "open",
+    "s": 1.0,
+    "e": 1.3
+   },
+   {
+    "w": "the",
+    "s": 1.3,
+    "e": 1.5
+   },
+   {
+    "w": "onion's",
+    "s": 1.5,
+    "e": 1.9
+   },
+   {
+    "w": "cells.",
+    "s": 1.9,
+    "e": 2.12
+   }
+  ],
+  "heard": "Every slice breaks open the onion's cells.",
+  "match": 1.0
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "Inside, a chemical and an enzyme were kept apart. Now they mix.",
+  "dur": 3.94,
+  "words": [
+   {
+    "w": "Inside,",
+    "s": 0.1,
+    "e": 0.38
+   },
+   {
+    "w": "a",
+    "s": 0.62,
+    "e": 0.78
+   },
+   {
+    "w": "chemical",
+    "s": 0.78,
+    "e": 1.06
+   },
+   {
+    "w": "and",
+    "s": 1.06,
+    "e": 1.36
+   },
+   {
+    "w": "an",
+    "s": 1.36,
+    "e": 1.48
+   },
+   {
+    "w": "enzyme",
+    "s": 1.48,
+    "e": 1.82
+   },
+   {
+    "w": "were",
+    "s": 1.82,
+    "e": 2.0
+   },
+   {
+    "w": "kept",
+    "s": 2.0,
+    "e": 2.14
+   },
+   {
+    "w": "apart.",
+    "s": 2.14,
+    "e": 2.5
+   },
+   {
+    "w": "Now",
+    "s": 3.04,
+    "e": 3.16
+   },
+   {
+    "w": "they",
+    "s": 3.16,
+    "e": 3.36
+   },
+   {
+    "w": "mix.",
+    "s": 3.36,
+    "e": 3.62
+   }
+  ],
+  "heard": "Inside, a chemical and an enzyme were kept apart. Now they mix.",
+  "match": 1.0
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "A second enzyme turns them into a gas, and it drifts up... straight into his eyes.",
+  "dur": 5.14,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.03,
+    "e": 0.21
+   },
+   {
+    "w": "second",
+    "s": 0.21,
+    "e": 0.43
+   },
+   {
+    "w": "enzyme",
+    "s": 0.43,
+    "e": 0.81
+   },
+   {
+    "w": "turns",
+    "s": 0.81,
+    "e": 1.09
+   },
+   {
+    "w": "them",
+    "s": 1.09,
+    "e": 1.23
+   },
+   {
+    "w": "into",
+    "s": 1.23,
+    "e": 1.41
+   },
+   {
+    "w": "a",
+    "s": 1.41,
+    "e": 1.59
+   },
+   {
+    "w": "gas,",
+    "s": 1.59,
+    "e": 1.95
+   },
+   {
+    "w": "and",
+    "s": 2.33,
+    "e": 2.69
+   },
+   {
+    "w": "it",
+    "s": 2.69,
+    "e": 2.83
+   },
+   {
+    "w": "drifts",
+    "s": 2.83,
+    "e": 3.15
+   },
+   {
+    "w": "up...",
+    "s": 3.15,
+    "e": 4.09
+   },
+   {
+    "w": "straight",
+    "s": 4.09,
+    "e": 4.27
+   },
+   {
+    "w": "into",
+    "s": 4.27,
+    "e": 4.49
+   },
+   {
+    "w": "his",
+    "s": 4.49,
+    "e": 4.65
+   },
+   {
+    "w": "eyes.",
+    "s": 4.65,
+    "e": 4.87
+   }
+  ],
+  "heard": "A second enzyme turns them into a gas, and it drifts up... straight into his eyes.",
+  "match": 1.0
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "It hits the nerves on the surface of the eye, and they sound the alarm.",
+  "dur": 3.54,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.03,
+    "e": 0.25
+   },
+   {
+    "w": "hits",
+    "s": 0.25,
+    "e": 0.41
+   },
+   {
+    "w": "the",
+    "s": 0.41,
+    "e": 0.57
+   },
+   {
+    "w": "nerves",
+    "s": 0.57,
+    "e": 0.73
+   },
+   {
+    "w": "on",
+    "s": 0.73,
+    "e": 0.91
+   },
+   {
+    "w": "the",
+    "s": 0.91,
+    "e": 1.05
+   },
+   {
+    "w": "surface",
+    "s": 1.05,
+    "e": 1.25
+   },
+   {
+    "w": "of",
+    "s": 1.25,
+    "e": 1.47
+   },
+   {
+    "w": "the",
+    "s": 1.47,
+    "e": 1.57
+   },
+   {
+    "w": "eye,",
+    "s": 1.57,
+    "e": 1.75
+   },
+   {
+    "w": "and",
+    "s": 2.07,
+    "e": 2.25
+   },
+   {
+    "w": "they",
+    "s": 2.25,
+    "e": 2.37
+   },
+   {
+    "w": "sound",
+    "s": 2.37,
+    "e": 2.77
+   },
+   {
+    "w": "the",
+    "s": 2.77,
+    "e": 2.99
+   },
+   {
+    "w": "alarm.",
+    "s": 2.99,
+    "e": 3.37
+   }
+  ],
+  "heard": "It hits the nerves on the surface of the eye, and they sound the alarm.",
+  "match": 1.0
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "So the tear glands flood the eye to wash it away.",
+  "dur": 2.31,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.03,
+    "e": 0.25
+   },
+   {
+    "w": "the",
+    "s": 0.25,
+    "e": 0.39
+   },
+   {
+    "w": "tear",
+    "s": 0.39,
+    "e": 0.55
+   },
+   {
+    "w": "glands",
+    "s": 0.55,
+    "e": 0.83
+   },
+   {
+    "w": "flood",
+    "s": 0.83,
+    "e": 1.11
+   },
+   {
+    "w": "the",
+    "s": 1.11,
+    "e": 1.27
+   },
+   {
+    "w": "eye",
+    "s": 1.27,
+    "e": 1.41
+   },
+   {
+    "w": "to",
+    "s": 1.41,
+    "e": 1.57
+   },
+   {
+    "w": "wash",
+    "s": 1.57,
+    "e": 1.73
+   },
+   {
+    "w": "it",
+    "s": 1.73,
+    "e": 1.85
+   },
+   {
+    "w": "away.",
+    "s": 1.85,
+    "e": 2.11
+   }
+  ],
+  "heard": "So the tear glands flood the eye to wash it away.",
+  "match": 1.0
+ },
+ {
+  "id": "L06",
+  "chapter": 0,
+  "text": "In 2002, scientists in Japan found that second enzyme.",
+  "dur": 3.45,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.05,
+    "e": 0.19
+   },
+   {
+    "w": "2002,",
+    "s": 0.19,
+    "e": 0.83
+   },
+   {
+    "w": "scientists",
+    "s": 1.15,
+    "e": 1.41
+   },
+   {
+    "w": "in",
+    "s": 1.41,
+    "e": 1.69
+   },
+   {
+    "w": "Japan",
+    "s": 1.69,
+    "e": 1.97
+   },
+   {
+    "w": "found",
+    "s": 1.97,
+    "e": 2.39
+   },
+   {
+    "w": "that",
+    "s": 2.39,
+    "e": 2.61
+   },
+   {
+    "w": "second",
+    "s": 2.61,
+    "e": 2.87
+   },
+   {
+    "w": "enzyme.",
+    "s": 2.87,
+    "e": 3.23
+   }
+  ],
+  "heard": "In 2002, scientists in Japan found that second enzyme.",
+  "match": 1.0
+ },
+ {
+  "id": "L07",
+  "chapter": 0,
+  "text": "It even won them an Ig Nobel Prize.",
+  "dur": 2.07,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.03,
+    "e": 0.27
+   },
+   {
+    "w": "even",
+    "s": 0.27,
+    "e": 0.47
+   },
+   {
+    "w": "won",
+    "s": 0.47,
+    "e": 0.67
+   },
+   {
+    "w": "them",
+    "s": 0.67,
+    "e": 0.81
+   },
+   {
+    "w": "an",
+    "s": 0.81,
+    "e": 0.97
+   },
+   {
+    "w": "Ig",
+    "s": 0.97,
+    "e": 1.11
+   },
+   {
+    "w": "Nobel",
+    "s": 1.11,
+    "e": 1.37
+   },
+   {
+    "w": "Prize.",
+    "s": 1.37,
+    "e": 1.75
+   }
+  ],
+  "heard": "It even won them an Ig Nobel Prize.",
+  "match": 1.0
+ },
+ {
+  "id": "L08",
+  "chapter": 0,
+  "text": "So those tears aren't sadness. It's the onion's defence.",
+  "dur": 3.7,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.03,
+    "e": 0.53
+   },
+   {
+    "w": "those",
+    "s": 0.53,
+    "e": 0.75
+   },
+   {
+    "w": "tears",
+    "s": 0.75,
+    "e": 1.01
+   },
+   {
+    "w": "aren't",
+    "s": 1.01,
+    "e": 1.41
+   },
+   {
+    "w": "sadness.",
+    "s": 1.41,
+    "e": 1.79
+   },
+   {
+    "w": "It's",
+    "s": 2.33,
+    "e": 2.41
+   },
+   {
+    "w": "the",
+    "s": 2.41,
+    "e": 2.53
+   },
+   {
+    "w": "onion's",
+    "s": 2.53,
+    "e": 3.03
+   },
+   {
+    "w": "defence.",
+    "s": 3.03,
+    "e": 3.33
+   }
+  ],
+  "heard": "So those tears aren't sadness. It's the onion's defence.",
+  "match": 1.0
+ },
+ {
+  "id": "L09",
+  "chapter": 0,
+  "text": "Would you eat an onion that can't make you cry?",
+  "dur": 2.2,
+  "words": [
+   {
+    "w": "Would",
+    "s": 0.1,
+    "e": 0.16
+   },
+   {
+    "w": "you",
+    "s": 0.16,
+    "e": 0.32
+   },
+   {
+    "w": "eat",
+    "s": 0.32,
+    "e": 0.46
+   },
+   {
+    "w": "an",
+    "s": 0.46,
+    "e": 0.62
+   },
+   {
+    "w": "onion",
+    "s": 0.62,
+    "e": 0.88
+   },
+   {
+    "w": "that",
+    "s": 0.88,
+    "e": 1.12
+   },
+   {
+    "w": "can't",
+    "s": 1.12,
+    "e": 1.54
+   },
+   {
+    "w": "make",
+    "s": 1.54,
+    "e": 1.66
+   },
+   {
+    "w": "you",
+    "s": 1.66,
+    "e": 1.82
+   },
+   {
+    "w": "cry?",
+    "s": 1.82,
+    "e": 2.02
+   }
+  ],
+  "heard": "Would you eat an onion that can't make you cry?",
+  "match": 1.0
+ }
+]

@@ -1,0 +1,11 @@
+# A-016 v1 (15 Nov 2026), standalone Short, Style R (close-to-human 3D, audit §6.2) = owner A/B test B1. Written fresh (not the 2D A-015 idea).
+H1|0|He's cutting an onion. And the onion is fighting back.
+L01|0|Every slice breaks open the onion's cells.
+L02|0|Inside, a chemical and an enzyme were kept apart. Now they mix.
+L03|0|A second enzyme turns them into a gas, and it drifts up... straight into his eyes.
+L04|0|It hits the nerves on the surface of the eye, and they sound the alarm.
+L05|0|So the tear glands flood the eye to wash it away.
+L06|0|In 2002, scientists in Japan found that second enzyme.
+L07|0|It even won them an Ig Nobel Prize.
+L08|0|So those tears aren't sadness. It's the onion's defence.
+L09|0|Would you eat an onion that can't make you cry?

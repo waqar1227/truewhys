@@ -1,0 +1,10 @@
+# Sources — A-016 Why Onions Make You Cry
+| Claim (lines) | Sources |
+|---|---|
+| Cutting breaks the onion's cells; a sulphur compound (amino-acid sulfoxide) and the enzyme alliinase are kept apart and mix when cells break (L01–L02) | Library of Congress, Everyday Mysteries "Why does chopping an onion make you cry?", https://www.loc.gov/everyday-mysteries/food-and-nutrition/item/why-does-chopping-an-onion-make-you-cry/ ; Imai et al., "An onion enzyme that makes the eyes water", Nature 419, 685 (2002), https://www.nature.com/articles/419685a ; review "Understanding the Onion Lachrymatory Factor" (2024), https://aminer.org/pub/66b46ef301d2a3fbfc9dca2e |
+| A second enzyme, lachrymatory-factor synthase, turns the product (1-propenesulfenic acid) into the tear gas syn-propanethial-S-oxide, which is volatile and reaches the eyes (L03) | Imai et al. 2002 (above) ; LoC (above) ; Live Science "Why does slicing onions make you cry?", https://www.livescience.com/32299-why-does-slicing-onions-make-me-cry.html |
+| The gas stimulates sensory nerves of the cornea; the tear glands release tears to wash it out (L04–L05) | LoC (above) ; Live Science (above) |
+| The enzyme was found in 2002 by Shinsuke Imai and colleagues at House Foods, Japan (L06) | Nature 419, 685 (above) ; PubMed 12384686, https://pubmed.ncbi.nlm.nih.gov/12384686/ |
+| The finding won the 2013 Ig Nobel Prize in Chemistry (L07) | Scientific American blog "IgNobels 2013: The Tearless Onion", https://blogs.scientificamerican.com/scicurious-brain/ignobels-2013-the-tearless-onion/ ; Japan Times 13 Sep 2013 "Studies on mouse rehab music, onion tears win Ig Nobels", https://www.japantimes.co.jp/news/2013/09/13/national/studies-on-mouse-rehab-music-onion-tears-win-ig-nobels ; Improbable Research interview 2015, https://improbable.com/2015/10/28/interview-with-the-tearless-onion-inventors/ |
+| "Tearless onion" idea: suppressing the synthase could give an onion that does not make eyes water (L09, question only) | Imai et al. 2002 (above) |
+Not claimed: numbers of cells, how far the gas travels, tips or remedies.

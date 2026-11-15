@@ -1,0 +1,707 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "She filled the tray with clear water. So why is the ice cloudy?",
+  "dur": 4.94,
+  "words": [
+   {
+    "w": "She",
+    "s": 0.0,
+    "e": 0.38
+   },
+   {
+    "w": "filled",
+    "s": 0.38,
+    "e": 0.66
+   },
+   {
+    "w": "the",
+    "s": 0.66,
+    "e": 0.88
+   },
+   {
+    "w": "tray",
+    "s": 0.88,
+    "e": 1.12
+   },
+   {
+    "w": "with",
+    "s": 1.12,
+    "e": 1.4
+   },
+   {
+    "w": "clear",
+    "s": 1.4,
+    "e": 1.78
+   },
+   {
+    "w": "water.",
+    "s": 1.78,
+    "e": 2.22
+   },
+   {
+    "w": "So",
+    "s": 2.84,
+    "e": 2.9
+   },
+   {
+    "w": "why",
+    "s": 2.9,
+    "e": 3.52
+   },
+   {
+    "w": "is",
+    "s": 3.52,
+    "e": 3.76
+   },
+   {
+    "w": "the",
+    "s": 3.76,
+    "e": 3.88
+   },
+   {
+    "w": "ice",
+    "s": 3.88,
+    "e": 4.16
+   },
+   {
+    "w": "cloudy?",
+    "s": 4.16,
+    "e": 4.6
+   }
+  ],
+  "heard": "She filled the tray with clear water. So why is the ice cloudy?",
+  "match": 1.0
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "Water carries air you can't see, dissolved inside it.",
+  "dur": 3.13,
+  "words": [
+   {
+    "w": "Water",
+    "s": 0.06,
+    "e": 0.28
+   },
+   {
+    "w": "carries",
+    "s": 0.28,
+    "e": 0.66
+   },
+   {
+    "w": "air",
+    "s": 0.66,
+    "e": 0.88
+   },
+   {
+    "w": "you",
+    "s": 0.88,
+    "e": 1.08
+   },
+   {
+    "w": "can't",
+    "s": 1.08,
+    "e": 1.36
+   },
+   {
+    "w": "see,",
+    "s": 1.36,
+    "e": 1.56
+   },
+   {
+    "w": "dissolved",
+    "s": 1.76,
+    "e": 2.06
+   },
+   {
+    "w": "inside",
+    "s": 2.06,
+    "e": 2.54
+   },
+   {
+    "w": "it.",
+    "s": 2.54,
+    "e": 3.0
+   }
+  ],
+  "heard": "Water carries air you can't see, dissolved inside it.",
+  "match": 1.0
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "But ice has almost no room for air.",
+  "dur": 2.36,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.03,
+    "e": 0.21
+   },
+   {
+    "w": "ice",
+    "s": 0.21,
+    "e": 0.55
+   },
+   {
+    "w": "has",
+    "s": 0.55,
+    "e": 0.83
+   },
+   {
+    "w": "almost",
+    "s": 0.83,
+    "e": 1.21
+   },
+   {
+    "w": "no",
+    "s": 1.21,
+    "e": 1.51
+   },
+   {
+    "w": "room",
+    "s": 1.51,
+    "e": 1.73
+   },
+   {
+    "w": "for",
+    "s": 1.73,
+    "e": 1.95
+   },
+   {
+    "w": "air.",
+    "s": 1.95,
+    "e": 2.17
+   }
+  ],
+  "heard": "But ice has almost no room for air.",
+  "match": 1.0
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "In a freezer, the cube freezes from the outside in.",
+  "dur": 3.13,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.05,
+    "e": 0.17
+   },
+   {
+    "w": "a",
+    "s": 0.17,
+    "e": 0.27
+   },
+   {
+    "w": "freezer,",
+    "s": 0.27,
+    "e": 0.51
+   },
+   {
+    "w": "the",
+    "s": 0.89,
+    "e": 1.01
+   },
+   {
+    "w": "cube",
+    "s": 1.01,
+    "e": 1.25
+   },
+   {
+    "w": "freezes",
+    "s": 1.25,
+    "e": 1.63
+   },
+   {
+    "w": "from",
+    "s": 1.63,
+    "e": 1.91
+   },
+   {
+    "w": "the",
+    "s": 1.91,
+    "e": 2.07
+   },
+   {
+    "w": "outside",
+    "s": 2.07,
+    "e": 2.59
+   },
+   {
+    "w": "in.",
+    "s": 2.59,
+    "e": 2.97
+   }
+  ],
+  "heard": "In a freezer, the cube freezes from the outside in.",
+  "match": 1.0
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "Each new layer of ice pushes the air towards the middle.",
+  "dur": 3.01,
+  "words": [
+   {
+    "w": "Each",
+    "s": 0.07,
+    "e": 0.23
+   },
+   {
+    "w": "new",
+    "s": 0.23,
+    "e": 0.53
+   },
+   {
+    "w": "layer",
+    "s": 0.53,
+    "e": 0.77
+   },
+   {
+    "w": "of",
+    "s": 0.77,
+    "e": 0.97
+   },
+   {
+    "w": "ice",
+    "s": 0.97,
+    "e": 1.17
+   },
+   {
+    "w": "pushes",
+    "s": 1.17,
+    "e": 1.67
+   },
+   {
+    "w": "the",
+    "s": 1.67,
+    "e": 1.93
+   },
+   {
+    "w": "air",
+    "s": 1.93,
+    "e": 2.15
+   },
+   {
+    "w": "towards",
+    "s": 2.15,
+    "e": 2.43
+   },
+   {
+    "w": "the",
+    "s": 2.43,
+    "e": 2.65
+   },
+   {
+    "w": "middle.",
+    "s": 2.65,
+    "e": 2.83
+   }
+  ],
+  "heard": "Each new layer of ice pushes the air towards the middle.",
+  "match": 1.0
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "The middle freezes last, so the air has nowhere to go.",
+  "dur": 2.88,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.03,
+    "e": 0.21
+   },
+   {
+    "w": "middle",
+    "s": 0.21,
+    "e": 0.41
+   },
+   {
+    "w": "freezes",
+    "s": 0.41,
+    "e": 0.73
+   },
+   {
+    "w": "last,",
+    "s": 0.73,
+    "e": 1.17
+   },
+   {
+    "w": "so",
+    "s": 1.37,
+    "e": 1.63
+   },
+   {
+    "w": "the",
+    "s": 1.63,
+    "e": 1.73
+   },
+   {
+    "w": "air",
+    "s": 1.73,
+    "e": 1.95
+   },
+   {
+    "w": "has",
+    "s": 1.95,
+    "e": 2.13
+   },
+   {
+    "w": "nowhere",
+    "s": 2.13,
+    "e": 2.31
+   },
+   {
+    "w": "to",
+    "s": 2.31,
+    "e": 2.47
+   },
+   {
+    "w": "go.",
+    "s": 2.47,
+    "e": 2.69
+   }
+  ],
+  "heard": "The middle freezes last, so the air has nowhere to go.",
+  "match": 1.0
+ },
+ {
+  "id": "L06",
+  "chapter": 0,
+  "text": "It's trapped as tiny bubbles, and they scatter the light. That's the cloud.",
+  "dur": 4.51,
+  "words": [
+   {
+    "w": "It's",
+    "s": 0.03,
+    "e": 0.29
+   },
+   {
+    "w": "trapped",
+    "s": 0.29,
+    "e": 0.63
+   },
+   {
+    "w": "as",
+    "s": 0.63,
+    "e": 0.95
+   },
+   {
+    "w": "tiny",
+    "s": 0.95,
+    "e": 1.47
+   },
+   {
+    "w": "bubbles,",
+    "s": 1.47,
+    "e": 1.85
+   },
+   {
+    "w": "and",
+    "s": 2.07,
+    "e": 2.25
+   },
+   {
+    "w": "they",
+    "s": 2.25,
+    "e": 2.49
+   },
+   {
+    "w": "scatter",
+    "s": 2.49,
+    "e": 2.75
+   },
+   {
+    "w": "the",
+    "s": 2.75,
+    "e": 2.95
+   },
+   {
+    "w": "light.",
+    "s": 2.95,
+    "e": 3.15
+   },
+   {
+    "w": "That's",
+    "s": 3.15,
+    "e": 3.89
+   },
+   {
+    "w": "the",
+    "s": 3.89,
+    "e": 3.99
+   },
+   {
+    "w": "cloud.",
+    "s": 3.99,
+    "e": 4.27
+   }
+  ],
+  "heard": "It's trapped as tiny bubbles, and they scatter the light. That's the cloud.",
+  "match": 1.0
+ },
+ {
+  "id": "L07",
+  "chapter": 0,
+  "text": "A still lake freezes from the top down. The air escapes, so lake ice can be clear.",
+  "dur": 4.82,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.03,
+    "e": 0.23
+   },
+   {
+    "w": "still",
+    "s": 0.23,
+    "e": 0.47
+   },
+   {
+    "w": "lake",
+    "s": 0.47,
+    "e": 0.73
+   },
+   {
+    "w": "freezes",
+    "s": 0.73,
+    "e": 1.03
+   },
+   {
+    "w": "from",
+    "s": 1.03,
+    "e": 1.29
+   },
+   {
+    "w": "the",
+    "s": 1.29,
+    "e": 1.43
+   },
+   {
+    "w": "top",
+    "s": 1.43,
+    "e": 1.61
+   },
+   {
+    "w": "down.",
+    "s": 1.61,
+    "e": 1.99
+   },
+   {
+    "w": "The",
+    "s": 2.55,
+    "e": 2.59
+   },
+   {
+    "w": "air",
+    "s": 2.59,
+    "e": 2.73
+   },
+   {
+    "w": "escapes,",
+    "s": 2.73,
+    "e": 3.05
+   },
+   {
+    "w": "so",
+    "s": 3.41,
+    "e": 3.59
+   },
+   {
+    "w": "lake",
+    "s": 3.59,
+    "e": 3.83
+   },
+   {
+    "w": "ice",
+    "s": 3.83,
+    "e": 4.05
+   },
+   {
+    "w": "can",
+    "s": 4.05,
+    "e": 4.25
+   },
+   {
+    "w": "be",
+    "s": 4.25,
+    "e": 4.39
+   },
+   {
+    "w": "clear.",
+    "s": 4.39,
+    "e": 4.61
+   }
+  ],
+  "heard": "A still lake freezes from the top down. The air escapes, so lake ice can be clear.",
+  "match": 1.0
+ },
+ {
+  "id": "L08",
+  "chapter": 0,
+  "text": "That's the trick behind perfectly clear ice: freeze it from one side only.",
+  "dur": 4.28,
+  "words": [
+   {
+    "w": "That's",
+    "s": 0.06,
+    "e": 0.3
+   },
+   {
+    "w": "the",
+    "s": 0.3,
+    "e": 0.4
+   },
+   {
+    "w": "trick",
+    "s": 0.4,
+    "e": 0.58
+   },
+   {
+    "w": "behind",
+    "s": 0.58,
+    "e": 0.94
+   },
+   {
+    "w": "perfectly",
+    "s": 0.94,
+    "e": 1.5
+   },
+   {
+    "w": "clear",
+    "s": 1.5,
+    "e": 1.9
+   },
+   {
+    "w": "ice:",
+    "s": 1.9,
+    "e": 2.22
+   },
+   {
+    "w": "freeze",
+    "s": 2.62,
+    "e": 2.78
+   },
+   {
+    "w": "it",
+    "s": 2.78,
+    "e": 2.94
+   },
+   {
+    "w": "from",
+    "s": 2.94,
+    "e": 3.14
+   },
+   {
+    "w": "one",
+    "s": 3.14,
+    "e": 3.42
+   },
+   {
+    "w": "side",
+    "s": 3.42,
+    "e": 3.72
+   },
+   {
+    "w": "only.",
+    "s": 3.72,
+    "e": 4.08
+   }
+  ],
+  "heard": "That's the trick behind perfectly clear ice. Freeze it from one side only.",
+  "match": 1.0
+ },
+ {
+  "id": "L09",
+  "chapter": 0,
+  "text": "So that cloud in your drink is just air that couldn't get out. Did you know?",
+  "dur": 3.61,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.03,
+    "e": 0.23
+   },
+   {
+    "w": "that",
+    "s": 0.23,
+    "e": 0.49
+   },
+   {
+    "w": "cloud",
+    "s": 0.49,
+    "e": 0.73
+   },
+   {
+    "w": "in",
+    "s": 0.73,
+    "e": 0.89
+   },
+   {
+    "w": "your",
+    "s": 0.89,
+    "e": 1.01
+   },
+   {
+    "w": "drink",
+    "s": 1.01,
+    "e": 1.21
+   },
+   {
+    "w": "is",
+    "s": 1.21,
+    "e": 1.55
+   },
+   {
+    "w": "just",
+    "s": 1.55,
+    "e": 1.69
+   },
+   {
+    "w": "air",
+    "s": 1.69,
+    "e": 1.93
+   },
+   {
+    "w": "that",
+    "s": 1.93,
+    "e": 2.11
+   },
+   {
+    "w": "couldn't",
+    "s": 2.11,
+    "e": 2.29
+   },
+   {
+    "w": "get",
+    "s": 2.29,
+    "e": 2.39
+   },
+   {
+    "w": "out.",
+    "s": 2.39,
+    "e": 2.61
+   },
+   {
+    "w": "Did",
+    "s": 3.07,
+    "e": 3.21
+   },
+   {
+    "w": "you",
+    "s": 3.21,
+    "e": 3.31
+   },
+   {
+    "w": "know?",
+    "s": 3.31,
+    "e": 3.43
+   }
+  ],
+  "heard": "So that cloud in your drink is just air that couldn't get out. Did you know?",
+  "match": 1.0
+ }
+]

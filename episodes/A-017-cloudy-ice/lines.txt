@@ -1,0 +1,11 @@
+# A-017 v1 (15 Nov 2026), standalone Short, Style R (close-to-human 3D, audit §6.2) = owner A/B test B2. Written fresh.
+H1|0|She filled the tray with clear water. So why is the ice cloudy?
+L01|0|Water carries air you can't see, dissolved inside it.
+L02|0|But ice has almost no room for air.
+L03|0|In a freezer, the cube freezes from the outside in.
+L04|0|Each new layer of ice pushes the air towards the middle.
+L05|0|The middle freezes last, so the air has nowhere to go.
+L06|0|It's trapped as tiny bubbles, and they scatter the light. That's the cloud.
+L07|0|A still lake freezes from the top down. The air escapes, so lake ice can be clear.
+L08|0|That's the trick behind perfectly clear ice: freeze it from one side only.
+L09|0|So that cloud in your drink is just air that couldn't get out. Did you know?
