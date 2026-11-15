@@ -1,0 +1,263 @@
+"""TrueWhys cast v2 (owner-approved direction D3, 15 Nov 2026; audit report §6.1).
+
+Older, drier proportions than cast v1 (lib/cast.py): head ~1/3 of body height, smaller eyes with lids and
+brows, a nose, no rosy cheeks, neck + shoulders, mitten hands with a thumb, deadpan default expression.
+Same brand rules: thick dark ink outline, flat colours + one shade, our skin tones and palette.
+Not Rick's Clips (white round heads, stick limbs) and not Ink Explainer (messy-hair stick people).
+
+Units: feet at y=0, head top at about y=-600. figure_svg() returns an SVG group; png() renders it.
+python lib/cast2.py <out.png>  -> model sheet: 6 cast + Wy, full body + expression row
+"""
+import io, sys
+import cairosvg
+from PIL import Image
+
+INK = "#22181B"
+SW = 9
+
+
+def shade(hexc, f):
+    h = hexc.lstrip("#"); r, g, b = (int(h[i:i + 2], 16) for i in (0, 2, 4))
+    if f < 1:
+        r, g, b = (int(c * f) for c in (r, g, b))
+    else:
+        r, g, b = (int(c + (255 - c) * (f - 1)) for c in (r, g, b))
+    return f"#{r:02X}{g:02X}{b:02X}"
+
+
+# role = hat/uniform + one prop (audit: role by hat, uniform and one prop)
+CAST = {
+    "wy":       dict(name="Wy", skin="#F1C3A0", hair="curl", hair_c="#5B3A29", top="#FF6B5B", top2="#FFF4E0",
+                     legs="#24476B", shoes=INK, badge=True, jaw=0.0, prop=None),
+    "captain":  dict(name="Captain", skin="#D99D74", hair="tricorn", hair_c="#1E1A24", top="#8E2430", top2="#E8C46A",
+                     legs="#2A2A38", shoes=INK, beard="#3A2416", coat=True, jaw=0.3, prop="spyglass"),
+    "doctor":   dict(name="Doctor", skin="#8D5A3B", hair="bun", hair_c="#1E1A24", top="#F4F1EA", top2="#3E7CB1",
+                     legs="#2E3B52", shoes="#3A2618", coat=True, glasses=True, jaw=0.0, prop="clipboard", female=True),
+    "worker":   dict(name="Worker", skin="#C98E66", hair="hood", hair_c="#6E6650", top="#8A6A44", top2="#C9A27A",
+                     legs="#4A3A2C", shoes="#2A1A10", stubble=True, apron="#7A5236", jaw=0.4, prop="shovel"),
+    "guard":    dict(name="Guard", skin="#E2AE86", hair="helmet", hair_c="#9AA3AD", top="#2F4F6F", top2="#C9A23A",
+                     legs="#3A3A44", shoes=INK, moustache="#5B3A29", jaw=0.5, prop="spear"),
+    "noble":    dict(name="Noble", skin="#EDC2A0", hair="crown_long", hair_c="#7A3E1E", top="#5B3A8C", top2="#FFC93C",
+                     legs="#5B3A8C", shoes=INK, gown=True, jaw=0.0, prop="scroll", female=True),
+    "modern":   dict(name="Everyman", skin="#B97A55", hair="short", hair_c="#22181B", top="#3E8E5E", top2="#2A2A38",
+                     legs="#3A4A66", shoes="#F4F1EA", hoodie=True, jaw=0.2, prop="phone"),
+}
+
+# expressions: eyelid height (0 = fully open, 1 = closed), brow shapes (left, right) as (inner_dy, outer_dy), mouth
+EXPR = {
+    "deadpan":    dict(lid=0.45, brow=((0, 0), (0, 0)), mouth="flat"),
+    "smug":       dict(lid=0.55, brow=((4, -2), (-14, -6)), mouth="smirk"),
+    "suspicious": dict(lid=0.6, brow=((10, 0), (-10, -4)), mouth="side", look=(-1, 0)),
+    "shocked":    dict(lid=0.0, brow=((-16, -12), (-16, -12)), mouth="o", pupil=0.7),
+    "bored":      dict(lid=0.7, brow=((2, 4), (2, 4)), mouth="flat_down"),
+    "angry":      dict(lid=0.35, brow=((14, -6), (14, -6)), mouth="grit"),
+}
+
+
+def _head(s, e):
+    """Head centred at (0,-505): slightly tall rounded box with a jaw; ~190 units tall incl. hair."""
+    skin = s["skin"]; jaw = s.get("jaw", 0.2); fem = s.get("female")
+    w = 66 if fem else 70
+    p = []
+    # back hair / hood
+    hc = s["hair_c"]
+    if s["hair"] == "hood":
+        p.append(f'<path d="M-92 -430 Q-104 -560 0 -600 Q104 -560 92 -430 Q60 -410 0 -412 Q-60 -410 -92 -430 Z" fill="{hc}"/>')
+    if s["hair"] in ("bun", "crown_long"):
+        p.append(f'<path d="M-80 -470 Q-96 -590 0 -598 Q96 -590 80 -470 Q86 -400 60 -380 L-60 -380 Q-86 -400 -80 -470 Z" fill="{hc}"/>')
+    # neck
+    p.append(f'<path d="M-24 -440 L-26 -400 L26 -400 L24 -440 Z" fill="{shade(skin, 0.86)}"/>')
+    # face: rounded top, squarer jaw for jaw>0
+    jx = w - 10 * jaw
+    p.append(f'<path d="M-{w} -520 Q-{w} -588 0 -590 Q{w} -588 {w} -520 L{w} -480 Q{jx} -430 0 -424 Q-{jx} -430 -{w} -480 Z" fill="{skin}"/>')
+    # ear
+    p.append(f'<path d="M{w-4} -510 Q{w+16} -508 {w+12} -488 Q{w+6} -478 {w-2} -482" fill="{skin}"/>')
+    if s.get("stubble"):
+        p.append(f'<path d="M-{w-4} -486 Q-{jx-6} -434 0 -430 Q{jx-6} -434 {w-4} -486 Q30 -458 0 -462 Q-30 -458 -{w-4} -486 Z" fill="{shade(skin, 0.8)}" stroke="none"/>')
+    # eyes (small, with lids)
+    lid = e.get("lid", 0.45); lx, ly = e.get("look", (0, 0)); pr = 7 * e.get("pupil", 1.0)
+    for i, cx in enumerate((-26, 26)):
+        cy, rx, ry = -515, 13, 15
+        p.append(f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="#FFFFFF" stroke-width="6"/>')
+        p.append(f'<circle cx="{cx + 5*lx}" cy="{cy + 2 + 3*ly}" r="{pr}" fill="{INK}" stroke="none"/>')
+        if lid > 0.01:
+            ly0 = cy - ry - 2 + (2 * ry + 2) * lid
+            p.append(f'<path d="M{cx-rx-3} {cy-ry-4} L{cx+rx+3} {cy-ry-4} L{cx+rx+3} {ly0} L{cx-rx-3} {ly0} Z" fill="{skin}" stroke="none"/>')
+            p.append(f'<path d="M{cx-rx-1} {ly0} L{cx+rx+1} {ly0}" stroke-width="6"/>')
+            p.append(f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="none" stroke-width="6"/>')
+        (di, do) = e["brow"][i]
+        inner, outer = (cx + 12, cx - 16) if i == 0 else (cx - 12, cx + 16)
+        p.append(f'<path d="M{outer} {-540 + do} L{inner} {-540 + di}" fill="none" stroke-width="9"/>')
+    if s.get("glasses"):
+        p.append('<rect x="-45" y="-532" width="38" height="32" rx="9" fill="none" stroke-width="6"/>'
+                 '<rect x="7" y="-532" width="38" height="32" rx="9" fill="none" stroke-width="6"/><path d="M-7 -518 L7 -518" stroke-width="6"/>')
+    # nose
+    p.append(f'<path d="M2 -508 Q10 -486 -2 -482" fill="none" stroke-width="6"/>')
+    # beard / moustache
+    if s.get("beard"):
+        b = s["beard"]
+        p.append(f'<path d="M-{w} -486 Q-{jx} -412 0 -404 Q{jx} -412 {w} -486 Q40 -468 22 -470 Q0 -462 -22 -470 Q-40 -468 -{w} -486 Z" fill="{b}"/>')
+    if s.get("moustache"):
+        p.append(f'<path d="M-26 -470 Q-12 -480 0 -472 Q12 -480 26 -470 Q12 -464 0 -468 Q-12 -464 -26 -470 Z" fill="{s["moustache"]}"/>')
+    # mouth
+    m = e["mouth"]
+    M = {"flat": "M-14 -458 L14 -458", "flat_down": "M-14 -455 Q0 -460 14 -455", "smirk": "M-12 -458 Q8 -456 18 -466",
+         "side": "M-6 -458 L16 -460", "grit": "M-16 -462 L16 -462 L14 -450 L-14 -450 Z"}
+    if m == "o":
+        p.append('<ellipse cx="0" cy="-456" rx="9" ry="12" fill="#6E2430" stroke-width="6"/>')
+    elif m == "grit":
+        p.append(f'<path d="{M[m]}" fill="#FFFFFF" stroke-width="6"/><path d="M-15 -456 L15 -456" stroke-width="3"/>')
+    else:
+        p.append(f'<path d="{M[m]}" fill="none" stroke-width="7"/>')
+    # front hair / hats
+    h = s["hair"]
+    if h == "curl":   # Wy: short brown hair + the question-mark curl
+        p.append(f'<path d="M-{w} -528 Q-{w} -600 0 -600 Q{w} -600 {w} -528 Q40 -566 0 -566 Q-40 -566 -{w} -528 Z" fill="{hc}"/>')
+        p.append(f'<path d="M-6 -600 Q-6 -650 26 -648 Q56 -644 46 -618 Q38 -600 18 -606" fill="none" stroke="{hc}" stroke-width="14"/>'
+                 f'<path d="M-6 -600 Q-6 -650 26 -648 Q56 -644 46 -618 Q38 -600 18 -606" fill="none" stroke-width="4"/>')
+    elif h == "short":
+        p.append(f'<path d="M-{w} -522 Q-{w+4} -604 0 -602 Q{w+4} -604 {w} -522 Q50 -572 10 -568 Q-40 -572 -{w} -522 Z" fill="{hc}"/>')
+    elif h == "tricorn":
+        p.append(f'<path d="M-112 -556 Q0 -536 112 -556 Q86 -600 50 -598 Q30 -640 0 -640 Q-30 -640 -50 -598 Q-86 -600 -112 -556 Z" fill="{hc}"/>'
+                 f'<path d="M-104 -560 Q0 -542 104 -560" fill="none" stroke="{s["top2"]}" stroke-width="7"/>')
+    elif h == "bun":
+        p.append(f'<path d="M-{w} -520 Q-{w} -604 0 -604 Q{w} -604 {w} -520 Q30 -566 -10 -560 Q-50 -556 -{w} -520 Z" fill="{hc}"/>'
+                 f'<circle cx="0" cy="-616" r="26" fill="{hc}"/>')
+    elif h == "hood":
+        p.append(f'<path d="M-{w+6} -500 Q-{w+10} -606 0 -606 Q{w+10} -606 {w+6} -500 Q{w-4} -560 0 -568 Q-{w-4} -560 -{w+6} -500 Z" fill="{hc}"/>')
+    elif h == "helmet":
+        p.append(f'<path d="M-{w+12} -536 Q-{w+8} -626 0 -628 Q{w+8} -626 {w+12} -536 Z" fill="{hc}"/>'
+                 f'<path d="M-{w+22} -536 L{w+22} -536" stroke-width="14"/><path d="M0 -628 L0 -540" stroke="{shade(hc, 0.75)}" stroke-width="10"/>')
+    elif h == "crown_long":
+        p.append(f'<path d="M-{w} -520 Q-{w} -606 0 -606 Q{w} -606 {w} -520 Q20 -576 0 -566 Q-20 -576 -{w} -520 Z" fill="{hc}"/>'
+                 f'<path d="M-44 -592 L-50 -636 L-24 -612 L0 -646 L24 -612 L50 -636 L44 -592 Z" fill="{s["top2"]}"/>')
+    return "".join(p)
+
+
+def _body(s):
+    top, t2, lg, sh = s["top"], s["top2"], s["legs"], s["shoes"]
+    fem = s.get("female")
+    p = []
+    # legs + shoes
+    if not s.get("gown"):
+        p.append(f'<path d="M-46 -210 L-50 -14 L-14 -14 L-6 -190 L6 -190 L14 -14 L50 -14 L46 -210 Z" fill="{lg}"/>')
+        p.append(f'<path d="M-58 0 Q-60 -26 -30 -24 L-12 -24 L-12 0 Z" fill="{sh}"/><path d="M58 0 Q60 -26 30 -24 L12 -24 L12 0 Z" fill="{sh}"/>')
+    # torso with shoulders (trapezoid), slightly narrower for female characters
+    sw, hw = (82, 58) if fem else (92, 62)
+    if s.get("gown"):
+        p.append(f'<path d="M-{sw} -390 Q-{sw+6} -330 -{hw} -260 L-110 -8 Q0 6 110 -8 L{hw} -260 Q{sw+6} -330 {sw} -390 Q0 -408 -{sw} -390 Z" fill="{top}"/>')
+        p.append(f'<path d="M-{hw} -262 Q0 -246 {hw} -262" fill="none" stroke="{t2}" stroke-width="12"/>')
+    else:
+        p.append(f'<path d="M-{sw} -390 Q-{sw+6} -330 -{hw} -200 L{hw} -200 Q{sw+6} -330 {sw} -390 Q0 -408 -{sw} -390 Z" fill="{top}"/>')
+    if s.get("coat"):   # long open coat (captain, doctor)
+        p.append(f'<path d="M-{sw} -390 Q-{sw+8} -260 -{hw+14} -120 L-14 -120 L-10 -392 Z" fill="{top}"/>'
+                 f'<path d="M{sw} -390 Q{sw+8} -260 {hw+14} -120 L14 -120 L10 -392 Z" fill="{top}"/>'
+                 f'<path d="M-10 -392 L0 -300 L10 -392 Z" fill="{t2}"/>')
+    if s.get("hoodie"):
+        p.append(f'<path d="M-50 -394 Q0 -360 50 -394" fill="none" stroke="{shade(top, 0.7)}" stroke-width="14"/>'
+                 f'<path d="M-48 -260 L48 -260 L44 -216 L-44 -216 Z" fill="{shade(top, 0.85)}" stroke-width="6"/>')
+    if s.get("apron"):
+        p.append(f'<path d="M-46 -330 L46 -330 L54 -150 L-54 -150 Z" fill="{s["apron"]}" stroke-width="7"/>')
+    if not (s.get("coat") or s.get("hoodie") or s.get("gown")):
+        p.append(f'<path d="M-24 -398 L0 -360 L24 -398" fill="{t2}" stroke-width="6"/>')
+        p.append(f'<path d="M-{hw} -214 L{hw} -214" stroke="{shade(lg, 0.7)}" stroke-width="14"/>')
+    if s.get("badge"):
+        p.append('<circle cx="44" cy="-330" r="17" fill="#FFC93C" stroke-width="6"/><path d="M36 -330 L42 -324 L53 -337" fill="none" stroke-width="6"/>')
+    return "".join(p)
+
+
+def _arm(s, side, pose):
+    """side -1 = screen left. Two-segment arm (shoulder -> elbow -> hand). pose: down | hold (elbow bent, hand at chest) | point."""
+    sx = side * (74 if s.get("female") else 82)
+    sleeve, skin = s["top"], s["skin"]
+    sy = -384
+    if pose == "down":
+        ex, ey, hx, hy = sx + side * 16, -300, sx + side * 20, -212
+    elif pose == "hold":
+        ex, ey, hx, hy = sx + side * 20, -292, sx - side * 10, -270
+    else:  # point
+        ex, ey, hx, hy = sx + side * 70, -360, sx + side * 140, -380
+    def seg(x0, y0, x1, y1, w0, w1):
+        import math
+        dx, dy = x1 - x0, y1 - y0; L = math.hypot(dx, dy) or 1; nx, ny = -dy / L, dx / L
+        return (f'M{x0+nx*w0:.1f} {y0+ny*w0:.1f} L{x1+nx*w1:.1f} {y1+ny*w1:.1f} L{x1-nx*w1:.1f} {y1-ny*w1:.1f} '
+                f'L{x0-nx*w0:.1f} {y0-ny*w0:.1f} Z')
+    p = [f'<path d="{seg(sx, sy, ex, ey, 22, 19)}" fill="{sleeve}"/>',
+         f'<circle cx="{ex}" cy="{ey}" r="19" fill="{sleeve}" stroke="none"/>',
+         f'<path d="{seg(ex, ey, hx, hy, 19, 16)}" fill="{sleeve}"/>',
+         f'<path d="M{ex-17} {ey} A17 17 0 0 0 {ex+17} {ey}" fill="none" stroke="{sleeve}" stroke-width="2"/>']
+    # mitten hand with a thumb (bigger: reads at phone size)
+    p.append(f'<path d="M{hx-17} {hy-6} Q{hx-20} {hy+30} {hx} {hy+32} Q{hx+20} {hy+30} {hx+17} {hy-6} Q{hx} {hy-14} {hx-17} {hy-6} Z" fill="{skin}"/>'
+             f'<path d="M{hx-side*15} {hy+2} Q{hx-side*32} {hy+6} {hx-side*24} {hy+20}" fill="{skin}" stroke-width="6"/>')
+    return "".join(p), (hx, hy + 12)
+
+
+def _prop(name, at):
+    x, y = at
+    P = {
+        "spyglass": f'<rect x="{x-6}" y="{y-60}" width="22" height="80" rx="6" fill="#C9A23A" transform="rotate(-20 {x} {y})"/>'
+                    f'<rect x="{x-9}" y="{y-66}" width="28" height="18" rx="5" fill="#7A5236" transform="rotate(-20 {x} {y})"/>',
+        "clipboard": f'<rect x="{x-30}" y="{y-56}" width="60" height="78" rx="6" fill="#B07A4A"/>'
+                     f'<rect x="{x-22}" y="{y-44}" width="44" height="58" fill="#FFFFFF" stroke-width="5"/>'
+                     f'<path d="M{x-14} {y-30} L{x+14} {y-30} M{x-14} {y-16} L{x+10} {y-16} M{x-14} {y-2} L{x+12} {y-2}" stroke-width="4"/>',
+        "shovel": f'<path d="M{x} {y-150} L{x} {y+150}" stroke="#7A5236" stroke-width="12"/><path d="M{x} {y-150} L{x} {y+150}" stroke-width="3"/>'
+                  f'<path d="M{x-26} {y+150} L{x+26} {y+150} L{x+20} {y+210} Q{x} {y+226} {x-20} {y+210} Z" fill="#9AA3AD"/>',
+        "spear": f'<path d="M{x} {y-260} L{x} {y+200}" stroke="#7A5236" stroke-width="10"/><path d="M{x} {y-260} L{x} {y+200}" stroke-width="3"/>'
+                 f'<path d="M{x} {y-320} L{x+16} {y-262} L{x-16} {y-262} Z" fill="#C8CED6"/>',
+        "scroll": f'<rect x="{x-38}" y="{y-14}" width="76" height="30" rx="6" fill="#F3E2BC"/>'
+                  f'<circle cx="{x-38}" cy="{y+1}" r="15" fill="#E6CF9E"/><circle cx="{x+38}" cy="{y+1}" r="15" fill="#E6CF9E"/>',
+        "phone": f'<rect x="{x-14}" y="{y-40}" width="28" height="50" rx="6" fill="#22181B"/><rect x="{x-9}" y="{y-34}" width="18" height="36" rx="3" fill="#7FC8E8" stroke="none"/>',
+    }
+    return P.get(name, "")
+
+
+def figure_svg(cid, expr="deadpan", pose_l="down", pose_r="hold"):
+    s = CAST[cid]; e = EXPR[expr]
+    al, _ = _arm(s, -1, pose_l)
+    ar, hand = _arm(s, 1, pose_r if s.get("prop") else "down")
+    prop = _prop(s["prop"], hand) if s.get("prop") else ""
+    back = prop if s.get("prop") in ("shovel", "spear") else ""
+    front = "" if back else prop
+    return back + _body(s) + al + _head(s, e) + ar + front
+
+
+def png(svg_body, vb, scale=1.0, bg=None):
+    x0, y0, w, h = vb
+    rect = f'<rect x="{x0}" y="{y0}" width="{w}" height="{h}" fill="{bg}"/>' if bg else ""
+    svg = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{x0} {y0} {w} {h}" width="{w}" height="{h}">{rect}'
+           f'<g stroke="{INK}" stroke-width="{SW}" stroke-linejoin="round" stroke-linecap="round">{svg_body}</g></svg>')
+    return Image.open(io.BytesIO(cairosvg.svg2png(bytestring=svg.encode(), scale=scale))).convert("RGBA")
+
+
+def model_sheet(out):
+    from PIL import ImageDraw, ImageFont
+    order = ["wy", "captain", "doctor", "worker", "guard", "noble", "modern"]
+    cw, W = 300, 300 * 7
+    sheet = Image.new("RGBA", (W, 1300), "#F3EBDD")
+    d = ImageDraw.Draw(sheet)
+    try:
+        f = ImageFont.truetype("library/fonts/LilitaOne-Regular.ttf", 34); f2 = ImageFont.truetype("library/fonts/LilitaOne-Regular.ttf", 22)
+    except OSError:
+        f = f2 = ImageFont.load_default()
+    d.text((24, 16), "TrueWhys cast v2 — sample sheet (for owner approval)", fill="#22181B", font=f)
+    for i, cid in enumerate(order):
+        im = png(figure_svg(cid, "deadpan", "down", "hold"), (-150, -680, 300, 700), 1.0)
+        sheet.alpha_composite(im, (i * cw, 60))
+        d.text((i * cw + 20, 760), CAST[cid]["name"], fill="#22181B", font=f2)
+    d.text((24, 800), "Expressions (deadpan default; emotion spikes on the key word)", fill="#22181B", font=f2)
+    exprs = ["deadpan", "smug", "suspicious", "shocked", "bored", "angry"]
+    for j, ex in enumerate(exprs):
+        d.text((60 + j * 345, 840), ex, fill="#22181B", font=f2)
+        for k, cid in enumerate(["captain", "doctor", "modern"]):
+            im = png(_head(CAST[cid], EXPR[ex]), (-115, -660, 230, 250), 0.62)
+            sheet.alpha_composite(im, (20 + j * 345 + (k % 3) * 108, 875 + (k % 2) * 0))
+    # heights guide: Wy v1 vs v2 proportions note
+    d.text((24, 1180), "Proportions: head ~1/3 of height, eyes with lids + brows, nose, neck + shoulders, hands with a thumb, no cheeks.",
+           fill="#5B3A29", font=f2)
+    d.text((24, 1220), "Role by hat + outfit + one prop. Thick ink outline, flat colours, our palette. Wy keeps his curl, coral shirt and yellow check badge.",
+           fill="#5B3A29", font=f2)
+    sheet.convert("RGB").save(out, quality=92)
+
+
+if __name__ == "__main__":
+    model_sheet(sys.argv[1] if len(sys.argv) > 1 else "library/cast/cast_v2_sheet.jpg")

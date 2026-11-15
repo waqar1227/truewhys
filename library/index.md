@@ -104,3 +104,7 @@ All original (TrueWhys). One episode = `episodes/<ep>/make.py` (`sheet` | `big <
 - laugh__* (5 real laughter clips: layer 2–3 for an audience laugh), honk__trumpet-horn-for-bike-* (cartoon honk; cut single honks), burp__*, boing__boing-cartoon-*,
   wings__* (bird wing flaps), skid__screeching-tires-4 (cartoon skid), scream__howling-of-a-boy, ducks__ducks. Example use: comedy/sample2/make_sample2.py (build_audio).
 - Comedy cast (sample only, not final): comedy/sample2/toon.py — Benny (TrueWhys egg-head style, run/walk poses) and the Goose (run, flap, munch, phone).
+- lib/cast2.py (owner-approved direction D3, 15 Nov 2026): cast v2 vector puppets, older/drier proportions (head ~1/3 height, lids + brows,
+  nose, neck, hands with thumb, no cheeks). `figure_svg(cid, expr, pose_l, pose_r)`, `png(svg, viewbox, scale)`; cast: wy, captain, doctor,
+  worker, guard, noble, modern; expressions deadpan/smug/suspicious/shocked/bored/angry. Sample sheet: library/cast/cast_v2_sheet.jpg
+  (`python lib/cast2.py <out>`). Original, code-drawn (TrueWhys). NOT for use in a video until the owner approves the sheet.
