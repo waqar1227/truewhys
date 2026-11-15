@@ -1,6 +1,19 @@
 # STATUS (read the NEXT list first)
 
 ## NEXT (keep this list short; heartbeat does only these)
+** 15 Nov 17:10 UTC — OWNER STYLE A/B TEST (relayed by the audit session, owner's words in its chat): 4 standalone "Why [everyday thing]" Shorts, cat 28, 30–40 s,
+   same title pattern/hook/voice/music/no end card/16:00 UTC, 4 different topics + separately written scripts. Order A-B-B-A, right after the pirate Shorts:
+   Sat 21 Nov A1 = A-010 Wrinkly fingers (2D cast v2.1, already scheduled; 45 s) · Sun 22 Nov B1 = Style R 3D "Why onions make you cry" (A-016, TO MAKE) ·
+   Mon 23 Nov B2 = Style R 3D "Why ice cubes are cloudy" (A-017, TO MAKE) · Tue 24 Nov A2 = A-012 Pen cap hole (2D, now scheduled 23 Nov → move to 24 Nov).
+   Then A-011 Traffic light 22 Nov → 25 Nov and A-013 Falling cat 24 Nov → 26 Nov. RESCHEDULE ONLY WHEN B1+B2 HAVE PASSED QA (videos.update status.publishAt,
+   ~50 units each; order: A-013→26, A-012→24, A-011→25, then upload B1/B2 at 22/23). If a B Short can't pass QA by its day, swap with the next A and tell the owner.
+   Style R build (owner-APPROVED sheet): docs/audit/style_r/ (README, build.py, specs, zipls.py; MPFB 2.0.18 + MakeHuman CC0 assets, asset server slow → zipls.py),
+   docs/audit/review/style_r_cast_sheet.jpg. Audit §6.2: studio backdrop in our colours (navy→coral/cream, NOT cyan), one hero prop, shots macro → person → cross-section → result;
+   stylised CG only (no photoreal skin/real likeness); poses must move (keyframed rig bones/expressions; no frozen characters); stills/animatic here, FINALS ON KAGGLE GPU
+   (anam318, tools/kaggle_px.py, shared: never touch other kernels), ~1 GPU h per Short. Same Gemini voice + music level as the 2D Shorts; frame-1 rule; corner badge, no end card.
+   Record all 4 in topic_results.md (style tag F-v2.1 vs R); compare at 48 h and 7 d (views, stayed %, avg % viewed, rel. retention 10 %, subs, likes, comments) → report to owner.
+** A-014 Golf-ball dimples: script, sources, voice (voice/ch0.flac) and animatic done (episodes/A-014-golf-ball-dimples, stills checked once, not yet fixed/rendered).
+   PARKED: it would fall in wave 2 (after 26 Nov) → finish/render only after the 48 h data on the new-standard Shorts (≈ 23 Nov), then schedule.
 ** 15 Nov 13:40 UTC (production session): STANDARDS DONE + WAVE 1 HALF SCHEDULED. Composers: lib/cast2_flat.py (cast v2.1 in Style F), no end card (corner badge),
    `V.qa_numbers()` frame-1 check (library/index.md). Style T still has the 3D cast v1 → new videos are Style F until a 3D cast v2 exists.
    Long video can't pass QA by Fri 20 Nov → per order: Style F standalone Shorts hold 20–26 Nov 16:00 UTC; long video L4 → Fri 27 Nov 15:00 UTC.

@@ -1,0 +1,667 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "Golfers once thought a smooth ball would fly the furthest. They were wrong.",
+  "dur": 4.26,
+  "words": [
+   {
+    "w": "Golfers",
+    "s": 0.0,
+    "e": 0.64
+   },
+   {
+    "w": "once",
+    "s": 0.64,
+    "e": 0.84
+   },
+   {
+    "w": "thought",
+    "s": 0.84,
+    "e": 1.14
+   },
+   {
+    "w": "a",
+    "s": 1.14,
+    "e": 1.32
+   },
+   {
+    "w": "smooth",
+    "s": 1.32,
+    "e": 1.7
+   },
+   {
+    "w": "ball",
+    "s": 1.7,
+    "e": 1.98
+   },
+   {
+    "w": "would",
+    "s": 1.98,
+    "e": 2.16
+   },
+   {
+    "w": "fly",
+    "s": 2.16,
+    "e": 2.46
+   },
+   {
+    "w": "the",
+    "s": 2.46,
+    "e": 2.6
+   },
+   {
+    "w": "furthest.",
+    "s": 2.6,
+    "e": 3.12
+   },
+   {
+    "w": "They",
+    "s": 3.6,
+    "e": 3.7
+   },
+   {
+    "w": "were",
+    "s": 3.7,
+    "e": 3.86
+   },
+   {
+    "w": "wrong.",
+    "s": 3.86,
+    "e": 4.12
+   }
+  ],
+  "heard": "Golfers once thought a smooth ball would fly the furthest. They were wrong.",
+  "match": 1.0
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "In the 1800s, golf balls were made of gutta-percha, a hard tree sap, and new ones came out smooth.",
+  "dur": 5.33,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.1,
+    "e": 0.2
+   },
+   {
+    "w": "the",
+    "s": 0.2,
+    "e": 0.3
+   },
+   {
+    "w": "1800s,",
+    "s": 0.3,
+    "e": 1.14
+   },
+   {
+    "w": "golf",
+    "s": 1.22,
+    "e": 1.3
+   },
+   {
+    "w": "balls",
+    "s": 1.3,
+    "e": 1.52
+   },
+   {
+    "w": "were",
+    "s": 1.52,
+    "e": 1.7
+   },
+   {
+    "w": "made",
+    "s": 1.7,
+    "e": 1.84
+   },
+   {
+    "w": "of",
+    "s": 1.84,
+    "e": 2.02
+   },
+   {
+    "w": "gutta-percha,",
+    "s": 2.02,
+    "e": 2.88
+   },
+   {
+    "w": "a",
+    "s": 2.88,
+    "e": 2.98
+   },
+   {
+    "w": "hard",
+    "s": 2.98,
+    "e": 3.2
+   },
+   {
+    "w": "tree",
+    "s": 3.2,
+    "e": 3.46
+   },
+   {
+    "w": "sap,",
+    "s": 3.46,
+    "e": 3.7
+   },
+   {
+    "w": "and",
+    "s": 4.06,
+    "e": 4.18
+   },
+   {
+    "w": "new",
+    "s": 4.18,
+    "e": 4.32
+   },
+   {
+    "w": "ones",
+    "s": 4.32,
+    "e": 4.5
+   },
+   {
+    "w": "came",
+    "s": 4.5,
+    "e": 4.68
+   },
+   {
+    "w": "out",
+    "s": 4.68,
+    "e": 4.82
+   },
+   {
+    "w": "smooth.",
+    "s": 4.82,
+    "e": 5.12
+   }
+  ],
+  "heard": "In the 1800s, golf balls were made of gutta -percha, a hard tree sap, and new ones came out smooth.",
+  "match": 0.923
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "But players noticed something odd: old, beaten-up balls flew further than new ones.",
+  "dur": 5.15,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.03,
+    "e": 0.19
+   },
+   {
+    "w": "players",
+    "s": 0.19,
+    "e": 0.49
+   },
+   {
+    "w": "noticed",
+    "s": 0.49,
+    "e": 0.85
+   },
+   {
+    "w": "something",
+    "s": 0.85,
+    "e": 1.23
+   },
+   {
+    "w": "odd:",
+    "s": 1.23,
+    "e": 1.65
+   },
+   {
+    "w": "old,",
+    "s": 2.33,
+    "e": 2.63
+   },
+   {
+    "w": "beaten-up",
+    "s": 2.63,
+    "e": 3.29
+   },
+   {
+    "w": "balls",
+    "s": 3.29,
+    "e": 3.57
+   },
+   {
+    "w": "flew",
+    "s": 3.57,
+    "e": 3.89
+   },
+   {
+    "w": "further",
+    "s": 3.89,
+    "e": 4.27
+   },
+   {
+    "w": "than",
+    "s": 4.27,
+    "e": 4.53
+   },
+   {
+    "w": "new",
+    "s": 4.53,
+    "e": 4.67
+   },
+   {
+    "w": "ones.",
+    "s": 4.67,
+    "e": 4.95
+   }
+  ],
+  "heard": "But players noticed something odd. Old, beaten -up balls flew further than new ones.",
+  "match": 0.889
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "So makers started hammering dents into brand-new balls.",
+  "dur": 2.95,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.03,
+    "e": 0.27
+   },
+   {
+    "w": "makers",
+    "s": 0.27,
+    "e": 0.51
+   },
+   {
+    "w": "started",
+    "s": 0.51,
+    "e": 0.89
+   },
+   {
+    "w": "hammering",
+    "s": 0.89,
+    "e": 1.49
+   },
+   {
+    "w": "dents",
+    "s": 1.49,
+    "e": 1.79
+   },
+   {
+    "w": "into",
+    "s": 1.79,
+    "e": 2.01
+   },
+   {
+    "w": "brand-new",
+    "s": 2.01,
+    "e": 2.39
+   },
+   {
+    "w": "balls.",
+    "s": 2.39,
+    "e": 2.63
+   }
+  ],
+  "heard": "So makers started hammering dents into brand -new balls.",
+  "match": 0.824
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "By the early 1900s, those dents had become neat little dimples.",
+  "dur": 3.86,
+  "words": [
+   {
+    "w": "By",
+    "s": 0.03,
+    "e": 0.25
+   },
+   {
+    "w": "the",
+    "s": 0.25,
+    "e": 0.39
+   },
+   {
+    "w": "early",
+    "s": 0.39,
+    "e": 0.57
+   },
+   {
+    "w": "1900s,",
+    "s": 0.57,
+    "e": 1.57
+   },
+   {
+    "w": "those",
+    "s": 1.57,
+    "e": 1.87
+   },
+   {
+    "w": "dents",
+    "s": 1.87,
+    "e": 2.25
+   },
+   {
+    "w": "had",
+    "s": 2.25,
+    "e": 2.45
+   },
+   {
+    "w": "become",
+    "s": 2.45,
+    "e": 2.75
+   },
+   {
+    "w": "neat",
+    "s": 2.75,
+    "e": 2.97
+   },
+   {
+    "w": "little",
+    "s": 2.97,
+    "e": 3.27
+   },
+   {
+    "w": "dimples.",
+    "s": 3.27,
+    "e": 3.59
+   }
+  ],
+  "heard": "By the early 1900s, those dents had become neat little dimples.",
+  "match": 1.0
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "Here's the trick: dimples stir up a thin layer of air that clings to the ball for longer.",
+  "dur": 4.72,
+  "words": [
+   {
+    "w": "Here's",
+    "s": 0.03,
+    "e": 0.25
+   },
+   {
+    "w": "the",
+    "s": 0.25,
+    "e": 0.35
+   },
+   {
+    "w": "trick:",
+    "s": 0.35,
+    "e": 0.57
+   },
+   {
+    "w": "dimples",
+    "s": 1.25,
+    "e": 1.49
+   },
+   {
+    "w": "stir",
+    "s": 1.49,
+    "e": 1.73
+   },
+   {
+    "w": "up",
+    "s": 1.73,
+    "e": 1.87
+   },
+   {
+    "w": "a",
+    "s": 1.87,
+    "e": 2.07
+   },
+   {
+    "w": "thin",
+    "s": 2.07,
+    "e": 2.31
+   },
+   {
+    "w": "layer",
+    "s": 2.31,
+    "e": 2.55
+   },
+   {
+    "w": "of",
+    "s": 2.55,
+    "e": 2.77
+   },
+   {
+    "w": "air",
+    "s": 2.77,
+    "e": 2.97
+   },
+   {
+    "w": "that",
+    "s": 2.97,
+    "e": 3.19
+   },
+   {
+    "w": "clings",
+    "s": 3.19,
+    "e": 3.57
+   },
+   {
+    "w": "to",
+    "s": 3.57,
+    "e": 3.77
+   },
+   {
+    "w": "the",
+    "s": 3.77,
+    "e": 3.89
+   },
+   {
+    "w": "ball",
+    "s": 3.89,
+    "e": 4.03
+   },
+   {
+    "w": "for",
+    "s": 4.03,
+    "e": 4.21
+   },
+   {
+    "w": "longer.",
+    "s": 4.21,
+    "e": 4.51
+   }
+  ],
+  "heard": "Here's the trick. Dimples stir up a thin layer of air that clings to the ball for longer.",
+  "match": 1.0
+ },
+ {
+  "id": "L06",
+  "chapter": 0,
+  "text": "So the wake behind it is smaller, and there's less drag.",
+  "dur": 2.67,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.03,
+    "e": 0.21
+   },
+   {
+    "w": "the",
+    "s": 0.21,
+    "e": 0.33
+   },
+   {
+    "w": "wake",
+    "s": 0.33,
+    "e": 0.53
+   },
+   {
+    "w": "behind",
+    "s": 0.53,
+    "e": 0.87
+   },
+   {
+    "w": "it",
+    "s": 0.87,
+    "e": 1.05
+   },
+   {
+    "w": "is",
+    "s": 1.05,
+    "e": 1.19
+   },
+   {
+    "w": "smaller,",
+    "s": 1.19,
+    "e": 1.45
+   },
+   {
+    "w": "and",
+    "s": 1.69,
+    "e": 1.75
+   },
+   {
+    "w": "there's",
+    "s": 1.75,
+    "e": 1.97
+   },
+   {
+    "w": "less",
+    "s": 1.97,
+    "e": 2.13
+   },
+   {
+    "w": "drag.",
+    "s": 2.13,
+    "e": 2.47
+   }
+  ],
+  "heard": "So the wake behind it is smaller, and there's less drag.",
+  "match": 1.0
+ },
+ {
+  "id": "L07",
+  "chapter": 0,
+  "text": "That's why every golf ball has hundreds of dimples. Smooth would fall short.",
+  "dur": 3.77,
+  "words": [
+   {
+    "w": "That's",
+    "s": 0.07,
+    "e": 0.23
+   },
+   {
+    "w": "why",
+    "s": 0.23,
+    "e": 0.35
+   },
+   {
+    "w": "every",
+    "s": 0.35,
+    "e": 0.67
+   },
+   {
+    "w": "golf",
+    "s": 0.67,
+    "e": 0.89
+   },
+   {
+    "w": "ball",
+    "s": 0.89,
+    "e": 1.09
+   },
+   {
+    "w": "has",
+    "s": 1.09,
+    "e": 1.31
+   },
+   {
+    "w": "hundreds",
+    "s": 1.31,
+    "e": 1.63
+   },
+   {
+    "w": "of",
+    "s": 1.63,
+    "e": 1.85
+   },
+   {
+    "w": "dimples.",
+    "s": 1.85,
+    "e": 2.15
+   },
+   {
+    "w": "Smooth",
+    "s": 2.89,
+    "e": 2.91
+   },
+   {
+    "w": "would",
+    "s": 2.91,
+    "e": 3.13
+   },
+   {
+    "w": "fall",
+    "s": 3.13,
+    "e": 3.35
+   },
+   {
+    "w": "short.",
+    "s": 3.35,
+    "e": 3.61
+   }
+  ],
+  "heard": "That's why every golf ball has hundreds of dimples. Smooth would fall short.",
+  "match": 1.0
+ },
+ {
+  "id": "L08",
+  "chapter": 0,
+  "text": "So... would you still pick the shiny new one?",
+  "dur": 2.51,
+  "words": [
+   {
+    "w": "So...",
+    "s": 0.55,
+    "e": 0.99
+   },
+   {
+    "w": "would",
+    "s": 0.99,
+    "e": 1.05
+   },
+   {
+    "w": "you",
+    "s": 1.05,
+    "e": 1.17
+   },
+   {
+    "w": "still",
+    "s": 1.17,
+    "e": 1.39
+   },
+   {
+    "w": "pick",
+    "s": 1.39,
+    "e": 1.59
+   },
+   {
+    "w": "the",
+    "s": 1.59,
+    "e": 1.79
+   },
+   {
+    "w": "shiny",
+    "s": 1.79,
+    "e": 1.97
+   },
+   {
+    "w": "new",
+    "s": 1.97,
+    "e": 2.19
+   },
+   {
+    "w": "one?",
+    "s": 2.19,
+    "e": 2.33
+   }
+  ],
+  "heard": "So... would you still pick the shiny new one?",
+  "match": 1.0
+ }
+]

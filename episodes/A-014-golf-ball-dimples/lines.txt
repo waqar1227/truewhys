@@ -1,0 +1,10 @@
+# A-014 v1 (15 Nov 2026), standalone Short, Style F + cast v2.1. Disputed details left out (who patented dimples first; exact distance gain).
+H1|0|Golfers once thought a smooth ball would fly the furthest. They were wrong.
+L01|0|In the 1800s, golf balls were made of gutta-percha, a hard tree sap, and new ones came out smooth.
+L02|0|But players noticed something odd: old, beaten-up balls flew further than new ones.
+L03|0|So makers started hammering dents into brand-new balls.
+L04|0|By the early 1900s, those dents had become neat little dimples.
+L05|0|Here's the trick: dimples stir up a thin layer of air that clings to the ball for longer.
+L06|0|So the wake behind it is smaller, and there's less drag.
+L07|0|That's why every golf ball has hundreds of dimples. Smooth would fall short.
+L08|0|So... would you still pick the shiny new one?
