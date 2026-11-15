@@ -2,12 +2,12 @@
 
 ## NEXT (keep this list short; heartbeat does only these)
 ** 14 Nov growth review: "Why [everyday object] …" Shorts start best (windows 1 108, plane door 436); name the object + Why/How claim in B-003 cut-Short titles (research/daily_report.md).
-** 14 Nov owner: NO NEW PRODUCTION until his go-ahead. Only finish B-003 (long + 10 cut Shorts) and its uploads. Test & Compare package sent (3 thumbs + 3 titles).
+** 15 Nov owner: follow the AUDIT session strictly (wait for its report, branch claude/zen-knuth-ypcfhk docs/audit/); keep 14 days of content scheduled ahead, produce only until then. (old 14 Nov: no new production —replaced) Only finish B-003 (long + 10 cut Shorts) and its uploads. Test & Compare package sent (3 thumbs + 3 titles).
 ** 13 Nov owner: TikTok PAUSED (no posts, no Dropbox requests) until he asks. Kaggle is shared with other sessions: never stop/delete their kernels.
 ** B-003 pirates: long Am8epkS94Hw public 14 Nov 15:00 UTC (QA pass; API thumbnail refused 403 forbidden: owner sets A / Test & Compare in Studio).
    Cut Shorts uploaded: C1 4WCGHoL-cAM 16:00, C2 50PTfQtFLqo 19:00, C3 9xDx3zIt27k 22:00 UTC 14 Nov; C4 nd7RqqpeDfE 01:00, C5 iSMOk8JC7_Q 04:00 UTC 15 Nov.
-   PENDING OWNER: audit (15 Nov) recommends C6–C10 ONE PER DAY 15–19 Nov 16:00 UTC instead of every 3 h; if no OK by upload time keep his 3 h rule (publishAt can move later while private).
-   Pinned-comment text posted 14 Nov 20:45 UTC (owner pins it). NEXT: after 08:00 UTC 15 Nov upload C6–C10 (slots 10/13/16/19/22:00 UTC 15 Nov) with `python lib/youtube.py upload <ep>/shorts/<C>/final.mp4 <ep>/shorts/<C>/upload_meta.json <ep>/shorts/<C>/thumb.jpg --long Am8epkS94Hw`;
+   OWNER OK (15 Nov, per audit): C6–C10 ONE PER DAY at 16:00 UTC: C6 15 Nov, C7 16, C8 17, C9 18, C10 19 Nov (metas updated). Upload all 5 after 08:00 UTC 15 Nov.
+   Pinned-comment text posted 14 Nov 20:45 UTC (owner pins it). NEXT: after 08:00 UTC 15 Nov upload C6–C10 (publishAt in each upload_meta.json) with `python lib/youtube.py upload <ep>/shorts/<C>/final.mp4 <ep>/shorts/<C>/upload_meta.json <ep>/shorts/<C>/thumb.jpg --long Am8epkS94Hw`;
    C7–C9 composing (tools/compose_shorts.sh, resumable) → QA + thumb.jpg first. Then B-003 is DONE; no new production until owner go-ahead.
 ** 13 Nov growth review: body/science Shorts with one named object start fastest (Brain freeze 1 125 views in 15 h); emoji A/B (A-004 🪶) is inconclusive (different topic/timing), don't change A-002's title on it (research/daily_report.md).
 ** FABLE SPRINT (Style F, flat 2D) — STOPPED 13 Nov 08:30 UTC on the owner's instruction ("finish what is started, no new work"). 4 Shorts made:

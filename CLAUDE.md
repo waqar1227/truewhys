@@ -57,6 +57,12 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
 - Music: only `library/music` or original code-generated music.
 - If a YouTube call fails with `invalid_grant`, tell the owner the token needs renewing (guide Part 10.4).
 
+## Owner rules, 15 Nov 2026 (take precedence over older rules below)
+- **Audit session first:** follow the TrueWhys audit session's plan and instructions strictly (report: branch claude/zen-knuth-ypcfhk, docs/audit/).
+  Wait for its report before new decisions; where it changes an older rule here, the audit wins (ethics and quality rules always stay).
+- **14-day buffer:** always keep 14 days of content scheduled in advance on YouTube. Produce only until 14 days ahead are scheduled,
+  then stop production; resume when the buffer drops below 14 days.
+
 ## Uploading and scheduling (owner's standing permission; no owner preview needed)
 - As soon as a video passes QA, upload it with `python lib/youtube.py upload <mp4> <upload_meta.json> <thumb>` (title, description, tags
   from `upload_meta.json`), **private + `publishAt`**, full SEO package, thumbnail set; check `uploaded.json` "thumbnail": true (if not, tell the owner).
