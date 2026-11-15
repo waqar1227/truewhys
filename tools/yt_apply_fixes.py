@@ -12,8 +12,8 @@ from youtube import token, api
 FIX = json.loads(Path("docs/audit/metadata_fixes.json").read_text())["fixes"]
 OUT = Path("docs/audit/applied.json")
 SUB = "More true whys: https://www.youtube.com/@truewhys?sub_confirmation=1"
-# script check 15 Nov: the script never says the ale conner was hated (it says saltpetre men were) -> keep the old title without #Shorts
-OVERRIDE = {"TkNJsIdy7gs": "The Medieval Job Where You Drank Ale for Work"}
+# script check 15 Nov: all proposed titles are supported (ale conner: hook "So why did everyone hate him?" + L15)
+OVERRIDE = {}
 HOLD = {"RI7u-NzEj5E": "owner decision D4 (religion rule review)"}
 TAG = re.compile(r"(?<![\w/#])#[A-Za-z][\w]*")  # hashtags only; '#8' chapter markers and URL fragments are left alone
 
