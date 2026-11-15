@@ -1,0 +1,11 @@
+# A-010 v1 (15 Nov 2026), standalone Short, Style F + cast v2.1. Honest about the open question (2013 result vs 2014 replication).
+H1|0|His fingers went wrinkly. His face didn't. Why?
+L01|0|For years, people thought skin just soaks up water and swells.
+L02|0|Then doctors noticed something odd: when the nerve to a finger was damaged, that finger stayed smooth.
+L03|0|So it isn't the water. It's your body doing it on purpose.
+L04|0|Your nerves tell tiny blood vessels under the skin to shrink, and the skin folds into grooves.
+L05|0|But why? In 2013, scientists in England timed people moving wet marbles.
+L06|1|With wrinkly fingers, they were twelve percent faster. Like the grooves on a tyre, for your hands.
+L07|0|Then a team in Berlin tried again... and found no difference at all.
+L08|0|So the wrinkles are real. Why we have them is still an argument.
+L09|1|Tyre grooves... or a fluke? Next time you're in the bath, you decide.

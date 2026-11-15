@@ -1,0 +1,767 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "His fingers went wrinkly. His face didn't. Why?",
+  "dur": 3.76,
+  "words": [
+   {
+    "w": "His",
+    "s": 0.0,
+    "e": 0.4
+   },
+   {
+    "w": "fingers",
+    "s": 0.4,
+    "e": 0.72
+   },
+   {
+    "w": "went",
+    "s": 0.72,
+    "e": 0.98
+   },
+   {
+    "w": "wrinkly.",
+    "s": 0.98,
+    "e": 1.4
+   },
+   {
+    "w": "His",
+    "s": 1.9,
+    "e": 2.04
+   },
+   {
+    "w": "face",
+    "s": 2.04,
+    "e": 2.24
+   },
+   {
+    "w": "didn't.",
+    "s": 2.24,
+    "e": 2.76
+   },
+   {
+    "w": "Why?",
+    "s": 3.3,
+    "e": 3.5
+   }
+  ],
+  "heard": "His fingers went wrinkly. His face didn't. Why?",
+  "match": 1.0
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "For years, people thought skin just soaks up water and swells.",
+  "dur": 3.1,
+  "words": [
+   {
+    "w": "For",
+    "s": 0.22,
+    "e": 0.38
+   },
+   {
+    "w": "years,",
+    "s": 0.38,
+    "e": 0.68
+   },
+   {
+    "w": "people",
+    "s": 0.82,
+    "e": 0.96
+   },
+   {
+    "w": "thought",
+    "s": 0.96,
+    "e": 1.18
+   },
+   {
+    "w": "skin",
+    "s": 1.18,
+    "e": 1.42
+   },
+   {
+    "w": "just",
+    "s": 1.42,
+    "e": 1.62
+   },
+   {
+    "w": "soaks",
+    "s": 1.62,
+    "e": 2.02
+   },
+   {
+    "w": "up",
+    "s": 2.02,
+    "e": 2.14
+   },
+   {
+    "w": "water",
+    "s": 2.14,
+    "e": 2.36
+   },
+   {
+    "w": "and",
+    "s": 2.36,
+    "e": 2.54
+   },
+   {
+    "w": "swells.",
+    "s": 2.54,
+    "e": 2.84
+   }
+  ],
+  "heard": "For years, people thought skin just soaks up water and swells.",
+  "match": 1.0
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "Then doctors noticed something odd: when the nerve to a finger was damaged, that finger stayed smooth.",
+  "dur": 5.22,
+  "words": [
+   {
+    "w": "Then",
+    "s": 0.06,
+    "e": 0.2
+   },
+   {
+    "w": "doctors",
+    "s": 0.2,
+    "e": 0.48
+   },
+   {
+    "w": "noticed",
+    "s": 0.48,
+    "e": 0.7
+   },
+   {
+    "w": "something",
+    "s": 0.7,
+    "e": 1.04
+   },
+   {
+    "w": "odd:",
+    "s": 1.04,
+    "e": 1.32
+   },
+   {
+    "w": "when",
+    "s": 2.1,
+    "e": 2.24
+   },
+   {
+    "w": "the",
+    "s": 2.24,
+    "e": 2.36
+   },
+   {
+    "w": "nerve",
+    "s": 2.36,
+    "e": 2.54
+   },
+   {
+    "w": "to",
+    "s": 2.54,
+    "e": 2.7
+   },
+   {
+    "w": "a",
+    "s": 2.7,
+    "e": 2.82
+   },
+   {
+    "w": "finger",
+    "s": 2.82,
+    "e": 3.0
+   },
+   {
+    "w": "was",
+    "s": 3.0,
+    "e": 3.18
+   },
+   {
+    "w": "damaged,",
+    "s": 3.18,
+    "e": 3.62
+   },
+   {
+    "w": "that",
+    "s": 3.94,
+    "e": 4.1
+   },
+   {
+    "w": "finger",
+    "s": 4.1,
+    "e": 4.36
+   },
+   {
+    "w": "stayed",
+    "s": 4.36,
+    "e": 4.66
+   },
+   {
+    "w": "smooth.",
+    "s": 4.66,
+    "e": 5.06
+   }
+  ],
+  "heard": "Then doctors noticed something odd. When the nerve to a finger was damaged, that finger stayed smooth.",
+  "match": 1.0
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "So it isn't the water. It's your body doing it on purpose.",
+  "dur": 3.39,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.03,
+    "e": 0.19
+   },
+   {
+    "w": "it",
+    "s": 0.19,
+    "e": 0.29
+   },
+   {
+    "w": "isn't",
+    "s": 0.29,
+    "e": 0.51
+   },
+   {
+    "w": "the",
+    "s": 0.51,
+    "e": 0.67
+   },
+   {
+    "w": "water.",
+    "s": 0.67,
+    "e": 0.91
+   },
+   {
+    "w": "It's",
+    "s": 1.89,
+    "e": 2.15
+   },
+   {
+    "w": "your",
+    "s": 2.15,
+    "e": 2.21
+   },
+   {
+    "w": "body",
+    "s": 2.21,
+    "e": 2.37
+   },
+   {
+    "w": "doing",
+    "s": 2.37,
+    "e": 2.57
+   },
+   {
+    "w": "it",
+    "s": 2.57,
+    "e": 2.73
+   },
+   {
+    "w": "on",
+    "s": 2.73,
+    "e": 2.85
+   },
+   {
+    "w": "purpose.",
+    "s": 2.85,
+    "e": 3.11
+   }
+  ],
+  "heard": "So it isn't the water. It's your body doing it on purpose.",
+  "match": 1.0
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "Your nerves tell tiny blood vessels under the skin to shrink, and the skin folds into grooves.",
+  "dur": 4.54,
+  "words": [
+   {
+    "w": "Your",
+    "s": 0.15,
+    "e": 0.29
+   },
+   {
+    "w": "nerves",
+    "s": 0.29,
+    "e": 0.55
+   },
+   {
+    "w": "tell",
+    "s": 0.55,
+    "e": 0.71
+   },
+   {
+    "w": "tiny",
+    "s": 0.71,
+    "e": 1.05
+   },
+   {
+    "w": "blood",
+    "s": 1.05,
+    "e": 1.27
+   },
+   {
+    "w": "vessels",
+    "s": 1.27,
+    "e": 1.55
+   },
+   {
+    "w": "under",
+    "s": 1.55,
+    "e": 1.79
+   },
+   {
+    "w": "the",
+    "s": 1.79,
+    "e": 1.91
+   },
+   {
+    "w": "skin",
+    "s": 1.91,
+    "e": 2.11
+   },
+   {
+    "w": "to",
+    "s": 2.11,
+    "e": 2.27
+   },
+   {
+    "w": "shrink,",
+    "s": 2.27,
+    "e": 2.55
+   },
+   {
+    "w": "and",
+    "s": 2.89,
+    "e": 3.19
+   },
+   {
+    "w": "the",
+    "s": 3.19,
+    "e": 3.27
+   },
+   {
+    "w": "skin",
+    "s": 3.27,
+    "e": 3.53
+   },
+   {
+    "w": "folds",
+    "s": 3.53,
+    "e": 3.81
+   },
+   {
+    "w": "into",
+    "s": 3.81,
+    "e": 4.01
+   },
+   {
+    "w": "grooves.",
+    "s": 4.01,
+    "e": 4.33
+   }
+  ],
+  "heard": "Your nerves tell tiny blood vessels under the skin to shrink, and the skin folds into grooves.",
+  "match": 1.0
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "But why? In 2013, scientists in England timed people moving wet marbles.",
+  "dur": 4.56,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.03,
+    "e": 0.21
+   },
+   {
+    "w": "why?",
+    "s": 0.21,
+    "e": 0.37
+   },
+   {
+    "w": "In",
+    "s": 1.11,
+    "e": 1.33
+   },
+   {
+    "w": "2013,",
+    "s": 1.33,
+    "e": 1.75
+   },
+   {
+    "w": "scientists",
+    "s": 2.09,
+    "e": 2.37
+   },
+   {
+    "w": "in",
+    "s": 2.37,
+    "e": 2.59
+   },
+   {
+    "w": "England",
+    "s": 2.59,
+    "e": 2.87
+   },
+   {
+    "w": "timed",
+    "s": 2.87,
+    "e": 3.19
+   },
+   {
+    "w": "people",
+    "s": 3.19,
+    "e": 3.47
+   },
+   {
+    "w": "moving",
+    "s": 3.47,
+    "e": 3.77
+   },
+   {
+    "w": "wet",
+    "s": 3.77,
+    "e": 3.95
+   },
+   {
+    "w": "marbles.",
+    "s": 3.95,
+    "e": 4.29
+   }
+  ],
+  "heard": "But why? In 2013, scientists in England timed people moving wet marbles.",
+  "match": 1.0
+ },
+ {
+  "id": "L06",
+  "chapter": 1,
+  "text": "With wrinkly fingers, they were twelve percent faster. Like the grooves on a tyre, for your hands.",
+  "dur": 6.03,
+  "words": [
+   {
+    "w": "With",
+    "s": 0.0,
+    "e": 0.46
+   },
+   {
+    "w": "wrinkly",
+    "s": 0.46,
+    "e": 0.94
+   },
+   {
+    "w": "fingers,",
+    "s": 0.94,
+    "e": 1.28
+   },
+   {
+    "w": "they",
+    "s": 1.52,
+    "e": 1.62
+   },
+   {
+    "w": "were",
+    "s": 1.62,
+    "e": 1.82
+   },
+   {
+    "w": "twelve",
+    "s": 1.82,
+    "e": 2.36
+   },
+   {
+    "w": "percent",
+    "s": 2.36,
+    "e": 2.84
+   },
+   {
+    "w": "faster.",
+    "s": 2.84,
+    "e": 3.36
+   },
+   {
+    "w": "Like",
+    "s": 3.74,
+    "e": 3.86
+   },
+   {
+    "w": "the",
+    "s": 3.86,
+    "e": 4.14
+   },
+   {
+    "w": "grooves",
+    "s": 4.14,
+    "e": 4.58
+   },
+   {
+    "w": "on",
+    "s": 4.58,
+    "e": 4.72
+   },
+   {
+    "w": "a",
+    "s": 4.72,
+    "e": 4.84
+   },
+   {
+    "w": "tyre,",
+    "s": 4.84,
+    "e": 5.08
+   },
+   {
+    "w": "for",
+    "s": 5.32,
+    "e": 5.32
+   },
+   {
+    "w": "your",
+    "s": 5.32,
+    "e": 5.46
+   },
+   {
+    "w": "hands.",
+    "s": 5.46,
+    "e": 5.76
+   }
+  ],
+  "heard": "With wrinkly fingers, they were twelve percent faster. Like the grooves on a tyre, for your hands.",
+  "match": 1.0
+ },
+ {
+  "id": "L07",
+  "chapter": 0,
+  "text": "Then a team in Berlin tried again... and found no difference at all.",
+  "dur": 3.2,
+  "words": [
+   {
+    "w": "Then",
+    "s": 0.07,
+    "e": 0.21
+   },
+   {
+    "w": "a",
+    "s": 0.21,
+    "e": 0.33
+   },
+   {
+    "w": "team",
+    "s": 0.33,
+    "e": 0.45
+   },
+   {
+    "w": "in",
+    "s": 0.45,
+    "e": 0.57
+   },
+   {
+    "w": "Berlin",
+    "s": 0.57,
+    "e": 0.77
+   },
+   {
+    "w": "tried",
+    "s": 0.77,
+    "e": 1.01
+   },
+   {
+    "w": "again...",
+    "s": 1.01,
+    "e": 2.05
+   },
+   {
+    "w": "and",
+    "s": 2.05,
+    "e": 2.13
+   },
+   {
+    "w": "found",
+    "s": 2.13,
+    "e": 2.27
+   },
+   {
+    "w": "no",
+    "s": 2.27,
+    "e": 2.41
+   },
+   {
+    "w": "difference",
+    "s": 2.41,
+    "e": 2.63
+   },
+   {
+    "w": "at",
+    "s": 2.63,
+    "e": 2.77
+   },
+   {
+    "w": "all.",
+    "s": 2.77,
+    "e": 3.07
+   }
+  ],
+  "heard": "Then a team in Berlin tried again... and found no difference at all.",
+  "match": 1.0
+ },
+ {
+  "id": "L08",
+  "chapter": 0,
+  "text": "So the wrinkles are real. Why we have them is still an argument.",
+  "dur": 3.58,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.03,
+    "e": 0.23
+   },
+   {
+    "w": "the",
+    "s": 0.23,
+    "e": 0.33
+   },
+   {
+    "w": "wrinkles",
+    "s": 0.33,
+    "e": 0.49
+   },
+   {
+    "w": "are",
+    "s": 0.49,
+    "e": 0.69
+   },
+   {
+    "w": "real.",
+    "s": 0.69,
+    "e": 0.91
+   },
+   {
+    "w": "Why",
+    "s": 1.89,
+    "e": 2.13
+   },
+   {
+    "w": "we",
+    "s": 2.13,
+    "e": 2.29
+   },
+   {
+    "w": "have",
+    "s": 2.29,
+    "e": 2.49
+   },
+   {
+    "w": "them",
+    "s": 2.49,
+    "e": 2.65
+   },
+   {
+    "w": "is",
+    "s": 2.65,
+    "e": 2.79
+   },
+   {
+    "w": "still",
+    "s": 2.79,
+    "e": 2.99
+   },
+   {
+    "w": "an",
+    "s": 2.99,
+    "e": 3.11
+   },
+   {
+    "w": "argument.",
+    "s": 3.11,
+    "e": 3.41
+   }
+  ],
+  "heard": "So the wrinkles are real. Why we have them is still an argument.",
+  "match": 1.0
+ },
+ {
+  "id": "L09",
+  "chapter": 1,
+  "text": "Tyre grooves... or a fluke? Next time you're in the bath, you decide.",
+  "dur": 4.7,
+  "words": [
+   {
+    "w": "Tyre",
+    "s": 0.14,
+    "e": 0.42
+   },
+   {
+    "w": "grooves...",
+    "s": 0.42,
+    "e": 0.96
+   },
+   {
+    "w": "or",
+    "s": 0.96,
+    "e": 1.44
+   },
+   {
+    "w": "a",
+    "s": 1.44,
+    "e": 1.6
+   },
+   {
+    "w": "fluke?",
+    "s": 1.6,
+    "e": 1.94
+   },
+   {
+    "w": "Next",
+    "s": 2.64,
+    "e": 2.82
+   },
+   {
+    "w": "time",
+    "s": 2.82,
+    "e": 3.02
+   },
+   {
+    "w": "you're",
+    "s": 3.02,
+    "e": 3.18
+   },
+   {
+    "w": "in",
+    "s": 3.18,
+    "e": 3.26
+   },
+   {
+    "w": "the",
+    "s": 3.26,
+    "e": 3.32
+   },
+   {
+    "w": "bath,",
+    "s": 3.32,
+    "e": 3.6
+   },
+   {
+    "w": "you",
+    "s": 4.04,
+    "e": 4.18
+   },
+   {
+    "w": "decide.",
+    "s": 4.18,
+    "e": 4.52
+   }
+  ],
+  "heard": "Tyre grooves or a fluke? Next time you're in the bath, you decide. Subs",
+  "match": 0.963
+ }
+]
