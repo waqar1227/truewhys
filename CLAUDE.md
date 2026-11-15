@@ -70,6 +70,7 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
   smaller eyes with lids and brows, no rosy cheeks, neck + shoulders, hands that hold things, deadpan default); Wy stays as brand/logo
   with the same older proportions and stops presenting from the desk in Shorts. Must not look like Rick's Clips or Ink Explainer.
   Style R test (every 2 weeks): MPFB 2 humans (stylised) + Quaternius animations (CC0), plain studio backdrop in our colours, Kaggle.
+  **Style R sample cast sheet APPROVED by the owner (15 Nov)**: docs/audit/review/style_r_cast_sheet.jpg + docs/audit/style_r/README.md (branch claude/zen-knuth-ypcfhk).
   **Cast v2.1 sheet APPROVED by the owner (15 Nov): library/cast/cast_v2_sheet.jpg, lib/cast2.py. Use it for all new videos.** D2 approved (end card, above); D4 decided (posted videos stay); D1 + D5 acted on via the audit (owner: follow the audit strictly).
 - **14-day buffer:** always keep 14 days of content scheduled in advance on YouTube. Produce only until 14 days ahead are scheduled,
   then stop production; resume when the buffer drops below 14 days.
