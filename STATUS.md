@@ -1,13 +1,15 @@
 # STATUS (read the NEXT list first)
 
 ## NEXT (keep this list short; heartbeat does only these)
-** 16 Nov 05:20 UTC (production session_01BQj2DdBXfG9cs6NCxGLzLV; heartbeat trig_01SWZ2Dh2pi68Lv1aDMZXkZz 08:44/20:44 UTC fires here):
-   A-016/A-017 animatics done + checked (frame-1 char height 0.77/0.71). Kaggle finals: a016 v2 RUNNING (all 16 shots); a017 v1 gave only the 6 prop
-   shots (MPFB bug, frames kept in renders/frames), a017 v2 RUNNING for the 10 missing shots. One waiter (ALL=1 tools/kaggle_wait.sh a016=... a017=...).
-   NEXT: when frames are in → make.py render <ep>/renders/frames → QA (qa.md, contact sheet, frame-1 numbers) → thumbnails →
-   reschedule A-013→26, A-012→24, A-011→25 Nov, then upload A-016 (22 Nov) + A-017 (23 Nov) 16:00 UTC.
-   16 Nov after 08:00 UTC: P1 YouTube part (yt_apply_fixes dry run → --apply, B-002 description, channel description from branding file, playlists,
-   SRT if quota, verify.py) → send audit session "P1 done" (+ my session id) before 22:00 UTC.
+** 16 Nov 09:20 UTC (production session_01BQj2DdBXfG9cs6NCxGLzLV; heartbeat trig_01SWZ2Dh2pi68Lv1aDMZXkZz 08:44/20:44 UTC fires here):
+   P1 DONE + reported to the audit session (verify.py 12/13; V1b = owner D4 title). A-017 Kaggle finals composed, QA PASS (qa.md, final/thumb.jpg).
+   A-016: QA found knife hidden + title over face on frame 1 → hook_cut + loop_q fixed in scene.py, a016 v3 RUNNING (only those 2 shots; waiter downloads
+   into renders/, other 14 shots already there).
+   NEXT: a016 v3 frames → make.py render episodes/A-016-onion-tears/renders/frames → contact sheet + frame-1 check → qa.md + final/thumb.jpg →
+   videos.update publishAt: A-013 bHC7F6nNwWM → 2026-11-26, A-012 1r8faDAYoTQ → 24, A-011 yyBUc7aM2lA → 25 Nov (16:00 UTC) →
+   upload A-016 (22 Nov 16:00) + A-017 (23 Nov 16:00) with lib/youtube.py; check "thumbnail": true; topic_results.md rows; tell the owner.
+   17 Nov: SRT captions for the 3 long videos (no uploads that day); after 04:00 UTC run `python tools/yt_apply_fixes.py --apply` (6 B-003 fixes due).
+   Wave 2 (27 Nov–3 Dec) only after 48 h data on A-009/A-010 (A-010 public 21 Nov 16:00 → data 23 Nov).
 ** 15 Nov 17:10 UTC — OWNER STYLE A/B TEST (relayed by the audit session, owner's words in its chat): 4 standalone "Why [everyday thing]" Shorts, cat 28, 30–40 s,
    same title pattern/hook/voice/music/no end card/16:00 UTC, 4 different topics + separately written scripts. Order A-B-B-A, right after the pirate Shorts:
    Sat 21 Nov A1 = A-010 Wrinkly fingers (2D cast v2.1, already scheduled; 45 s) · Sun 22 Nov B1 = Style R 3D "Why onions make you cry" (A-016, TO MAKE) ·
