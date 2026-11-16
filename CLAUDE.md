@@ -61,6 +61,8 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
 - Sketchfab: CC0 or CC-BY only (skip NC, ND, Editorial, NoAI), header `Authorization: Token $SKETCHFAB_API_TOKEN`; if download is refused,
   ask the owner for a manual download; CC-BY credit in the description; on 429 wait.
 - Music: only `library/music` or original code-generated music.
+- **YouTube quota (resets 08:00 UTC):** if a YouTube job fails with `quotaExceeded`, list it under "AFTER YOUTUBE QUOTA RESET" at the top of
+  STATUS.md NEXT and do that list first after the next reset (owner 16 Nov: never forget the AI field = No on all videos).
 - If a YouTube call fails with `invalid_grant`, tell the owner the token needs renewing (guide Part 10.4).
 
 ## Owner rules, 15 Nov 2026 (take precedence over older rules below)

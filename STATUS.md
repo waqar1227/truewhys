@@ -1,6 +1,13 @@
 # STATUS (read the NEXT list first)
 
 ## NEXT (keep this list short; heartbeat does only these)
+!! AFTER YOUTUBE QUOTA RESET (08:00 UTC daily) — DO FIRST, before anything else, then tick here:
+   [ ] 1. AI field = No on ALL videos: `python3 tools/yt_ai_no.py` (dry run) → `python3 tools/yt_ai_no.py --apply`; re-run dry run until "0 not yet No".
+   [ ] 2. thumbnails.set final/thumb_v2.jpg on the 7 scheduled Shorts (A-009..A-013, A-016, A-017).
+   [ ] 3. `python tools/yt_apply_fixes.py --apply` (6 B-003 fixes).
+   [ ] 4. SRT captions on the 3 long videos (B-001 9C-9O0c6VqM, B-002 h2oO3SrSUH8, B-003 Am8epkS94Hw).
+   [ ] 5. `python3 docs/audit/verify.py` → commit, push, short message to the owner.
+   If quota runs out midway: leave the unticked items here for the next reset.
 ** 16 Nov 11:20 UTC (production session_01BQj2DdBXfG9cs6NCxGLzLV; heartbeat trig_01SWZ2Dh2pi68Lv1aDMZXkZz 08:44/20:44 UTC fires here):
    STYLE A/B TEST SETTLED. A-016 v3 (fixed hook_cut + loop_q) QA PASS; A-017 QA PASS. Rescheduled A-012 1r8faDAYoTQ → 24 Nov, A-011 yyBUc7aM2lA → 25,
    A-013 bHC7F6nNwWM → 26. UPLOADED A-016 pwVCqe756X8 → 22 Nov 16:00 UTC, A-017 S8zIxiPXHpE → 23 Nov 16:00 UTC ("thumbnail": true, playlist Why Does That Happen?).
