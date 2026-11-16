@@ -1,5 +1,5 @@
 {
- "at": "2026-11-16T08:48:35.404348+00:00",
+ "at": "2026-11-16T09:12:14.926465+00:00",
  "videos": 41,
  "checks": {
   "V1a no '#Shorts' in titles": {
@@ -15,10 +15,8 @@
    "note": "a differing title is fine if it is an open question and true to the script"
   },
   "V2a tags: >=15 and 300-500 chars": {
-   "ok": false,
-   "fail": [
-    "e3VksvQ5-Gk 13 tags, 195 ch | The Two Pirates Who Escaped the Noose"
-   ],
+   "ok": true,
+   "fail": [],
    "note": ""
   },
   "V2b no two Shorts share one tag list": {
