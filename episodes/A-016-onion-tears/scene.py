@@ -137,14 +137,17 @@ def life(h, n, seed=1, blinks=True):
 # ------------------------------------------------------------------ shots
 def hook_cut(sh, cam, n):
     h, ct, halves, kn = kitchen(onion_gap=0.004)
-    chop_keys(ct, 0, n_chops=2, period=14)
+    # QA 16 Nov: onion hand stays low on the far (+X) side so its forearm never hides the knife; camera on the knife side;
+    # the man sits lower in frame so the frame-1 title is above his head
+    ct["handL"].location = (0.13, -0.47, TOP + 0.05)
+    chop_keys(ct, 0, n_chops=2, period=14, x=-0.075)
     split_halves(halves, 7, 16)
     Hm.face(h["keys"], 0, squint=0.3, brows_inner=0.2); Hm.face(h["keys"], 18, squint=0.85, brows_inner=0.7, frown=0.4, sneer=0.3)
     key_obj(ct["look"], 0, loc=(0, -0.42, TOP)); key_obj(ct["look"], n, loc=(0.02, -0.5, TOP + 0.05))
     tear_on(h, 1, 14, n)
     gp = P.gas_puffs(ONION + Vector((0, 0, 0.06)), n=26, spread=0.03, size=0.008)
     puffs_rise(gp, n, ONION + Vector((0, 0, 0.05)), TOP + 0.45, drift=(0.02, 0.06), t0=10, speed=0.8)
-    cam_move(cam, n, ((0.26, -1.08, TOP + 0.40), (0.0, -0.30, TOP + 0.42), 40), ((0.23, -1.0, TOP + 0.41), (0.0, -0.30, TOP + 0.43), 42),
+    cam_move(cam, n, ((-0.30, -1.10, TOP + 0.36), (0.0, -0.28, TOP + 0.495), 38), ((-0.27, -1.02, TOP + 0.37), (0.0, -0.28, TOP + 0.505), 40),
              focus=(0, -0.3, TOP + 0.3), fstop=8)
     life(h, n, blinks=False)
 
@@ -384,10 +387,11 @@ def loop_q(sh, cam, n):
     key_obj(ct["handR"], 0, loc=(-0.03, -0.27, TOP + 0.06))
     Hm.hold(h, halves[1], "L", offset=(0, 0, -0.035)); Hm.grip(h, "L", 0.6, 0.5)
     key_obj(ct["handL"], 0, loc=(0.10, -0.42, TOP + 0.07)); key_obj(ct["handL"], 16, loc=(0.13, -0.40, TOP + 0.30))
-    key_obj(ct["look"], 0, loc=(0.1, -0.5, TOP + 0.2)); key_obj(ct["look"], 14, loc=(0.25, -1.4, TOP + 0.55))
+    key_obj(ct["look"], 0, loc=(0.0, -0.5, TOP + 0.2)); key_obj(ct["look"], 14, loc=(-0.25, -1.4, TOP + 0.55))   # glances at the camera side
     Hm.face(h["keys"], 0, squint=0.4, brows_inner=0.3); Hm.face(h["keys"], 16, browL_up=0.9, smile=0.35, squint=0.2)
     life(h, n, 6)
-    cam_move(cam, n, ((0.23, -1.0, TOP + 0.41), (0.0, -0.30, TOP + 0.43), 42), ((0.26, -1.08, TOP + 0.40), (0.0, -0.30, TOP + 0.42), 40),
+    # ends on hook_cut's opening camera so the Short loops (QA 16 Nov)
+    cam_move(cam, n, ((-0.25, -1.0, TOP + 0.38), (0.0, -0.28, TOP + 0.49), 40), ((-0.30, -1.10, TOP + 0.36), (0.0, -0.28, TOP + 0.495), 38),
              focus=(0, -0.3, TOP + 0.3), fstop=8)
 
 
