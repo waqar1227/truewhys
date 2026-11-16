@@ -24,4 +24,4 @@ TrueWhys "true whys" "why facts" "science explained" "history explained" "weird 
 - Change it here first, then apply with the API (~50 quota units) and record the date below.
 
 ## Applied
-- (pending: 16 Nov 2026 after 08:00 UTC, P1)
+- 16 Nov 2026 ~09:00 UTC: description applied (channels.update); keywords kept as they were.
