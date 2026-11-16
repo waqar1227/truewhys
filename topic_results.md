@@ -37,5 +37,5 @@ CTR/impressions: only from Studio numbers the owner pastes.
 | scheduled | A-012 (A/B: A2) | (scheduled) | A standalone | 10 Objects | F-v2.1 | Why … | - | - | - | - | - | - |
 | scheduled | A-013 | (scheduled) | A standalone | 8 Nature | F-v2.1 | Why … | - | - | - | - | - | - |
 
-Owner style A/B test rows to add when uploaded: A-016 Why Onions Make You Cry (B1, 8 Nature, R, 22 Nov) · A-017 Why Ice Cubes Are Cloudy (B2, 9 Science, R, 23 Nov).
+Owner style A/B test, UPLOADED 16 Nov (rows appear once public): A-016 Why Onions Make You Cry pwVCqe756X8 (B1, 8 Nature, R, 22 Nov) · A-017 Why Ice Cubes Are Cloudy S8zIxiPXHpE (B2, 9 Science, R, 23 Nov).
 Compare at 48 h and 7 d: views, stayed %, avg % viewed, rel. retention 10 %, subs, likes, comments → report to the owner.

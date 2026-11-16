@@ -1,13 +1,10 @@
 # STATUS (read the NEXT list first)
 
 ## NEXT (keep this list short; heartbeat does only these)
-** 16 Nov 09:20 UTC (production session_01BQj2DdBXfG9cs6NCxGLzLV; heartbeat trig_01SWZ2Dh2pi68Lv1aDMZXkZz 08:44/20:44 UTC fires here):
-   P1 DONE + reported to the audit session (verify.py 12/13; V1b = owner D4 title). A-017 Kaggle finals composed, QA PASS (qa.md, final/thumb.jpg).
-   A-016: QA found knife hidden + title over face on frame 1 → hook_cut + loop_q fixed in scene.py, a016 v3 RUNNING (only those 2 shots; waiter downloads
-   into renders/, other 14 shots already there).
-   NEXT: a016 v3 frames → make.py render episodes/A-016-onion-tears/renders/frames → contact sheet + frame-1 check → qa.md + final/thumb.jpg →
-   videos.update publishAt: A-013 bHC7F6nNwWM → 2026-11-26, A-012 1r8faDAYoTQ → 24, A-011 yyBUc7aM2lA → 25 Nov (16:00 UTC) →
-   upload A-016 (22 Nov 16:00) + A-017 (23 Nov 16:00) with lib/youtube.py; check "thumbnail": true; topic_results.md rows; tell the owner.
+** 16 Nov 11:20 UTC (production session_01BQj2DdBXfG9cs6NCxGLzLV; heartbeat trig_01SWZ2Dh2pi68Lv1aDMZXkZz 08:44/20:44 UTC fires here):
+   STYLE A/B TEST SETTLED. A-016 v3 (fixed hook_cut + loop_q) QA PASS; A-017 QA PASS. Rescheduled A-012 1r8faDAYoTQ → 24 Nov, A-011 yyBUc7aM2lA → 25,
+   A-013 bHC7F6nNwWM → 26. UPLOADED A-016 pwVCqe756X8 → 22 Nov 16:00 UTC, A-017 S8zIxiPXHpE → 23 Nov 16:00 UTC ("thumbnail": true, playlist Why Does That Happen?).
+   Schedule: A-009 20 · A-010 21 · A-016 22 · A-017 23 · A-012 24 · A-011 25 · A-013 26 Nov (all 16:00 UTC). Buffer to 26 Nov.
    17 Nov BEFORE 12:00 UTC (audit cross-check moved there): SRT captions for the 3 long videos; after 04:00 UTC `python tools/yt_apply_fixes.py --apply` (6 B-003 fixes); B1/B2 schedule settled.
    Wave 2 (27 Nov–3 Dec) only after 48 h data on A-009/A-010 (A-010 public 21 Nov 16:00 → data 23 Nov).
 ** 15 Nov 17:10 UTC — OWNER STYLE A/B TEST (relayed by the audit session, owner's words in its chat): 4 standalone "Why [everyday thing]" Shorts, cat 28, 30–40 s,
