@@ -1,13 +1,10 @@
 # STATUS (read the NEXT list first)
 
 ## NEXT (keep this list short; heartbeat does only these)
-** 16 Nov 02:05 UTC (production session_01BQj2DdBXfG9cs6NCxGLzLV; heartbeat trig_01SWZ2Dh2pi68Lv1aDMZXkZz 08:44/20:44 UTC fires here):
-   Owner allowed MPFB → installed (docs/audit/style_r/install_mpfb.py). MakeHuman asset server DOWN (502) → people built with our own code on the MPFB body:
-   lib/style_r/sr_human.py (eyes, hair layer, clothes layers + hems, brows driven by expression keys, IK hand/head controls, blink/face helpers).
-   A-016 + A-017: make.py (shot timing, captions/title/badge/sound via flat2d.Video + lib/srplate.py), scene.py (16 shots each), shots.json, upload_meta, credits.
-   Stills checked (2 rounds each). Animatics rendering here (renders_anim/, 360x640, every 3rd frame; one background job, A-016 then A-017).
-   NEXT: make.py anim (animatic.mp4) + sheet → check → Kaggle finals: tools/kaggle_style_r.sh a016|a017 <ep> '{"w":1080,"h":1920,"samples":64,"step":1,"mblur":true}' <mpfb.zip>
-   (zip: re-download, sha256 c075b3e9…2dad, see README) → kernels push → one waiter → make.py render renders/ → QA (qa.md, frame-1 numbers) →
+** 16 Nov 05:20 UTC (production session_01BQj2DdBXfG9cs6NCxGLzLV; heartbeat trig_01SWZ2Dh2pi68Lv1aDMZXkZz 08:44/20:44 UTC fires here):
+   A-016/A-017 animatics done + checked (frame-1 char height 0.77/0.71). Kaggle finals: a016 v2 RUNNING (all 16 shots); a017 v1 gave only the 6 prop
+   shots (MPFB bug, frames kept in renders/frames), a017 v2 RUNNING for the 10 missing shots. One waiter (ALL=1 tools/kaggle_wait.sh a016=... a017=...).
+   NEXT: when frames are in → make.py render <ep>/renders/frames → QA (qa.md, contact sheet, frame-1 numbers) → thumbnails →
    reschedule A-013→26, A-012→24, A-011→25 Nov, then upload A-016 (22 Nov) + A-017 (23 Nov) 16:00 UTC.
    16 Nov after 08:00 UTC: P1 YouTube part (yt_apply_fixes dry run → --apply, B-002 description, channel description from branding file, playlists,
    SRT if quota, verify.py) → send audit session "P1 done" (+ my session id) before 22:00 UTC.
