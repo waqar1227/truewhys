@@ -1,5 +1,5 @@
 """In-house synthesised sound effects (numpy only, original). Importing this registers them with lib/audio (audio.GEN),
-so a shot can use them by name like any library sound: freeze, zap, swell, rush, heartbeat, sting, melt, confuse, bloop, click, shimmer, chime."""
+so a shot can use them by name like any library sound: chop, alarm, hiss, freeze, zap, swell, rush, heartbeat, sting, melt, confuse, bloop, click, shimmer, chime."""
 import functools
 import numpy as np
 import audio
@@ -147,5 +147,39 @@ def chime():
     return _st(_bell(1318.5, 1.2, 0.4) + 0.6 * _bell(1975.5, 1.0, 0.3), 0.6)
 
 
+@functools.lru_cache(maxsize=None)
+def chop():
+    """Knife through something crisp onto a wooden board: wet crunch + low wooden knock."""
+    rng = np.random.default_rng(12)
+    x = np.zeros(int(0.35 * SR)); t = _t(0.35)
+    crunch = rng.normal(0, 1, int(0.06 * SR)) * np.exp(-_t(0.06) / 0.018)
+    from scipy.signal import butter, lfilter
+    b, a = butter(2, [1800 / (SR / 2), 7000 / (SR / 2)], "band"); _put(x, lfilter(b, a, crunch) * 1.2, 0.0)
+    knock = (np.sin(2 * np.pi * 180 * t) + 0.5 * np.sin(2 * np.pi * 410 * t)) * np.exp(-t / 0.035)
+    _put(x, knock * 0.9, 0.045)
+    return _st(x, 0.8)
+
+
+@functools.lru_cache(maxsize=None)
+def alarm():
+    """Two short soft alert beeps (nerve 'alarm'), not harsh."""
+    x = np.zeros(int(0.7 * SR))
+    for k in range(2):
+        d = _t(0.14); _put(x, np.sin(2 * np.pi * 880 * d) * np.minimum(1, d / 0.01) * np.exp(-d / 0.09), 0.05 + k * 0.25)
+    return _st(x, 0.5)
+
+
+@functools.lru_cache(maxsize=None)
+def hiss():
+    """Soft rising gas hiss."""
+    rng = np.random.default_rng(13)
+    n = int(1.6 * SR); t = np.arange(n) / SR
+    from scipy.signal import butter, lfilter
+    b, a = butter(2, [3000 / (SR / 2), 9000 / (SR / 2)], "band")
+    y = lfilter(b, a, rng.normal(0, 1, n)) * np.minimum(1, t / 0.6) * np.exp(-np.maximum(0, t - 1.0) / 0.25)
+    return _st(y, 0.4)
+
+
+audio.GEN.update(chop=chop, alarm=alarm, hiss=hiss)
 audio.GEN.update(freeze=freeze, zap=zap, swell=swell, rush=rush, heartbeat=heartbeat, sting=sting, melt=melt, confuse=confuse, bloop=bloop,
                  click=click, shimmer=shimmer, chime=chime)

@@ -197,7 +197,7 @@ def build(spec, name="person"):
         p.use_smooth = True
     body.modifiers.new("smooth", "SUBSURF").levels = 0
     body.modifiers["smooth"].render_levels = 1
-    clothes = [_cloth_layer(body, rig, k, push) for k, push in ((1, 0.006), (2, 0.006), (3, 0.008))]
+    clothes = [_cloth_layer(body, rig, k, push, iters=it) for k, push, it in ((1, spec.get("shirt_push", 0.009), 30), (2, 0.006, 12), (3, 0.008, 12))]
     hair = None
     if style != "bald":
         body.data.materials.append(hm)            # index 4 = hair on the scalp (also under the hair layer)
@@ -504,7 +504,7 @@ def controls(h):
         t = bpy.data.objects.new(f"{h['body'].name}_hand{side}", None); bpy.context.scene.collection.objects.link(t)
         t.location = wr; t.empty_display_size = 0.04
         p = bpy.data.objects.new(f"{h['body'].name}_pole{side}", None); bpy.context.scene.collection.objects.link(p)
-        p.location = el + Vector((0.0, 0.35, -0.05))
+        p.location = el + Vector((0.18 if side == "L" else -0.18, 0.30, -0.35))
         c = rig.pose.bones[f"lowerarm02.{side}"].constraints.new("IK")
         c.target = t; c.pole_target = p; c.chain_count = 4; c.pole_angle = math.radians(-90 if side == "L" else -90)
         c.use_stretch = False

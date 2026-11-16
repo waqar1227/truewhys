@@ -212,13 +212,33 @@ def cells(loc=(0, 0, 0), nx=5, nz=4, s=0.5, seed=3):
     return out
 
 
+def wisp(name, color, alpha=0.35, glow=1.2):
+    """Soft gas blob: denser and glowing in the middle, fading to nothing at the edge (no bubble rim)."""
+    from sr_common import _M
+    key = ("W", name, str(color), alpha, glow)
+    if key in _M:
+        return _M[key]
+    m = bpy.data.materials.new(name); m.use_nodes = True
+    nt = m.node_tree; nt.nodes.clear(); N = nt.nodes.new; L = nt.links.new
+    lw = N("ShaderNodeLayerWeight"); lw.inputs["Blend"].default_value = 0.5
+    pw = N("ShaderNodeMath"); pw.operation = "POWER"; pw.inputs[1].default_value = 3.0; L(lw.outputs["Facing"], pw.inputs[0])
+    inv = N("ShaderNodeMath"); inv.operation = "SUBTRACT"; inv.inputs[0].default_value = 1.0; L(pw.outputs[0], inv.inputs[1])
+    mul = N("ShaderNodeMath"); mul.operation = "MULTIPLY"; mul.inputs[1].default_value = alpha; L(inv.outputs[0], mul.inputs[0])
+    tr = N("ShaderNodeBsdfTransparent")
+    em = N("ShaderNodeEmission"); em.inputs["Color"].default_value = srgb(color); em.inputs["Strength"].default_value = glow
+    mx = N("ShaderNodeMixShader"); L(mul.outputs[0], mx.inputs["Fac"]); L(tr.outputs[0], mx.inputs[1]); L(em.outputs[0], mx.inputs[2])
+    o = N("ShaderNodeOutputMaterial"); L(mx.outputs[0], o.inputs["Surface"])
+    _M[key] = m
+    return m
+
+
 def gas_puffs(origin=(0, 0, 0), n=60, spread=0.06, seed=7, color="#C8F5D2", size=0.012):
-    """Small glowing translucent wisps for the tear gas; shot code moves them up (returns list of objects)."""
+    """Soft glowing gas wisps for the tear gas (big, see-through blobs); shot code moves them (returns list of objects)."""
     rnd = random.Random(seed)
-    m = ghost("gas", color, glow=2.2, core=0.15, power=1.2)
+    m = wisp("gas", color, alpha=0.13, glow=1.6)
     out = []
     for i in range(n):
-        bpy.ops.mesh.primitive_ico_sphere_add(radius=size * (0.6 + rnd.random()), subdivisions=2,
+        bpy.ops.mesh.primitive_ico_sphere_add(radius=size * (1.0 + 1.2 * rnd.random()), subdivisions=3,
                                               location=(origin[0] + rnd.gauss(0, spread), origin[1] + rnd.gauss(0, spread * 0.6), origin[2]))
         o = bpy.context.object; o.name = f"gas_{i}"; o.data.materials.append(m)
         for p in o.data.polygons:
