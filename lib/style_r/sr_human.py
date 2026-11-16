@@ -489,3 +489,60 @@ def expr(keys, name, value, frame=None):
 def relax_arms(rig, frame=None, out=38):
     for side, s in (("L", 1), ("R", -1)):
         pose(rig, f"upperarm01.{side}", (0, 0, -out * s), frame)
+
+
+# ------------------------------------------------------------------ controls (animate empties, not bones)
+
+def controls(h):
+    """IK hand targets + pole targets and a head look-at target. Returns dict(handL, handR, look) empties (world space).
+    Move/key the empties to animate: hands reach, head turns (influence 0.7 so the neck shares it)."""
+    rig = h["rig"]; B = rig.data.bones
+    out = {}
+    for side in ("L", "R"):
+        wr = rig.matrix_world @ B[f"wrist.{side}"].head_local
+        el = rig.matrix_world @ B[f"lowerarm01.{side}"].head_local
+        t = bpy.data.objects.new(f"{h['body'].name}_hand{side}", None); bpy.context.scene.collection.objects.link(t)
+        t.location = wr; t.empty_display_size = 0.04
+        p = bpy.data.objects.new(f"{h['body'].name}_pole{side}", None); bpy.context.scene.collection.objects.link(p)
+        p.location = el + Vector((0.0, 0.35, -0.05))
+        c = rig.pose.bones[f"lowerarm02.{side}"].constraints.new("IK")
+        c.target = t; c.pole_target = p; c.chain_count = 4; c.pole_angle = math.radians(-90 if side == "L" else -90)
+        c.use_stretch = False
+        out[f"hand{side}"] = t; out[f"pole{side}"] = p
+    hd = rig.matrix_world @ B["head"].head_local
+    lk = bpy.data.objects.new(f"{h['body'].name}_look", None); bpy.context.scene.collection.objects.link(lk)
+    lk.location = hd + Vector((0, -1.0, 0.08))
+    for bn, inf in (("neck02", 0.35), ("head", 0.7)):
+        if bn in rig.pose.bones:
+            m3 = B[bn].matrix_local.to_3x3()
+            fwd = Vector((0, -1, 0))                       # the face looks along world -Y in rest
+            axes = {"TRACK_X": m3.col[0], "TRACK_NEGATIVE_X": -m3.col[0], "TRACK_Z": m3.col[2], "TRACK_NEGATIVE_Z": -m3.col[2]}
+            ax = max(axes, key=lambda k: axes[k].dot(fwd))
+            c = rig.pose.bones[bn].constraints.new("DAMPED_TRACK"); c.target = lk; c.track_axis = ax; c.influence = inf
+    out["look"] = lk
+    return out
+
+
+def key_loc(o, frame, loc):
+    o.location = loc; o.keyframe_insert("location", frame=frame)
+
+
+def blink(keys, f0, dur=5):
+    """Quick natural blink starting at frame f0."""
+    for side in ("left", "right"):
+        expr(keys, f"eye-{side}-closure", 0.0, f0)
+        expr(keys, f"eye-{side}-closure", 1.0, f0 + dur // 2)
+        expr(keys, f"eye-{side}-closure", 0.0, f0 + dur)
+
+
+def face(keys, frame, **w):
+    """Key a set of expression units at once, e.g. face(keys, 12, squint=0.6, brows_up=0.3, smile=0.2).
+    Aliases: squint, wide, brows_up, brows_down, brows_inner, smile, open, frown, purse, sneer."""
+    alias = {"squint": ["eye-left-slit", "eye-right-slit"], "wide": ["eye-left-opened-up", "eye-right-opened-up"],
+             "brows_up": ["eyebrows-left-up", "eyebrows-right-up"], "brows_down": ["eyebrows-left-down", "eyebrows-right-down"],
+             "brows_inner": ["eyebrows-left-inner-up", "eyebrows-right-inner-up"], "smile": ["mouth-corner-puller"], "open": ["mouth-open"],
+             "frown": ["mouth-depression"], "purse": ["mouth-pursing"], "sneer": ["nose-left-elevation", "nose-right-elevation"],
+             "close": ["eye-left-closure", "eye-right-closure"], "browL_up": ["eyebrows-left-up"]}
+    for k, v in w.items():
+        for u in alias.get(k, [k]):
+            expr(keys, u, v, frame)
