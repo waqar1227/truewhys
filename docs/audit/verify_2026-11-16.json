@@ -1,0 +1,75 @@
+{
+ "at": "2026-11-16T08:48:35.404348+00:00",
+ "videos": 41,
+ "checks": {
+  "V1a no '#Shorts' in titles": {
+   "ok": true,
+   "fail": [],
+   "note": ""
+  },
+  "V1b titles = fixes file (or script-checked variant)": {
+   "ok": false,
+   "fail": [
+    "RI7u-NzEj5E now 'Why the Church Put Bugs on Trial' | proposed 'Why Medieval Courts Put Insects on Trial'"
+   ],
+   "note": "a differing title is fine if it is an open question and true to the script"
+  },
+  "V2a tags: >=15 and 300-500 chars": {
+   "ok": false,
+   "fail": [
+    "e3VksvQ5-Gk 13 tags, 195 ch | The Two Pirates Who Escaped the Noose"
+   ],
+   "note": ""
+  },
+  "V2b no two Shorts share one tag list": {
+   "ok": true,
+   "fail": [],
+   "note": ""
+  },
+  "V3a exactly 3 hashtags, topic first": {
+   "ok": true,
+   "fail": [],
+   "note": ""
+  },
+  "V3b cut Shorts link a long video": {
+   "ok": true,
+   "fail": [],
+   "note": ""
+  },
+  "V4 B-002 description clean": {
+   "ok": true,
+   "fail": [],
+   "note": ""
+  },
+  "V5 channel text has no schedule promise": {
+   "ok": true,
+   "fail": [],
+   "note": ""
+  },
+  "V6a every long video in 'Full Stories'": {
+   "ok": true,
+   "fail": [],
+   "note": ""
+  },
+  "V6b at least 5 topic playlists, none empty": {
+   "ok": true,
+   "fail": [],
+   "note": ""
+  },
+  "V7 schedule: >=12 h apart, Shorts 16:00 UTC, long Fri 15:00 UTC": {
+   "ok": true,
+   "fail": [],
+   "note": "9 scheduled; applies only if the owner approved D1/D5"
+  },
+  "V8 code + files": {
+   "ok": true,
+   "fail": [],
+   "note": ""
+  },
+  "V9 no synthetic-media field, no AI wording": {
+   "ok": true,
+   "fail": [],
+   "note": ""
+  }
+ }
+}
