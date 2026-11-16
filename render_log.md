@@ -76,3 +76,9 @@
 - 12 Nov ~17:35 UTC: truewhys-render-b003 v2 (ch 0–3) + truewhys-render-b003b v2 (ch 4–6) RUNNING on 2×T4 sessions (Kaggle limit: 2 GPU sessions at once). b003c (Shorts) waits for a free slot.
 - 13 Nov 03:40 UTC: b003 v2 COMPLETE (202 min, 2×T4, 43 plates) + b003b v2 COMPLETE (143 min, 28 plates) → renders/plates (71/71 3d shots). ~11.5 GPU h.
 - 13 Nov 03:41 UTC: truewhys-render-b003c v1 (10 cut Shorts, shorts_shots.json, 1080×1920) RUNNING.
+
+## 16 Nov 2026 02:54 UTC: Style R test Shorts (owner A/B test B1/B2), first Style R runs with MPFB people
+- truewhys-render-a016 v1 (A-016 onions, 16 shots, 1060 frames) + truewhys-render-a017 v1 (A-017 cloudy ice, 16 shots, 1194 frames):
+  1080×1920, Cycles 128 spp adaptive + denoise, motion blur, JPEG q95, 2×T4 each (shots split by --part), deadline 10.5 h.
+  Datasets anam318/truewhys-ep-a016 / -a017 (scene.py, shots.json, lib/style_r/sr_*.py, camera.py, mpfb.zip, job.json); kernel notebooks/kaggle_jobs/style_r/render.py
+  (built by tools/kaggle_style_r.sh). Fix: tools/kaggle_px.py re-authenticates after its patch (kaggle 2.2.5 authenticates at import).

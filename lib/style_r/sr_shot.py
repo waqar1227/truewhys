@@ -101,6 +101,8 @@ def run(shots_fns, argv):
         d = os.path.join(OUT, sh["name"]); os.makedirs(d, exist_ok=True)
         frames = [int(n * AT)] if AT is not None else list(range(0, n, STEP))
         for f in frames:
+            if os.environ.get("TW_DEADLINE") and time.time() > float(os.environ["TW_DEADLINE"]):
+                print("DEADLINE reached, stopping", flush=True); log.write("DEADLINE\n"); return
             fn = os.path.join(d, f"f_{f:04d}.{ext}")
             if os.path.exists(fn):
                 continue

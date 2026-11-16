@@ -19,7 +19,7 @@ out = '/kaggle/working/frames'; os.makedirs(out, exist_ok=True)
 ngpu = int(subprocess.run("nvidia-smi -L | wc -l", shell=True, capture_output=True, text=True).stdout.strip() or 1)
 procs = []
 for i in range(ngpu):
-    env = dict(os.environ, CUDA_VISIBLE_DEVICES=str(i))
+    env = dict(os.environ, CUDA_VISIBLE_DEVICES=str(i), TW_DEADLINE=str(t0 + job.get("deadline", 37800)))
     cmd = [B, '-b', '--python', f'{W}/scene.py', '--', f'{W}/shots.json', out, '--w', str(job['w']), '--h', str(job['h']),
            '--samples', str(job['samples']), '--step', str(job.get('step', 1)), '--gpu', '--part', f'{i}/{ngpu}', '--jpg'] + (['--mblur'] if job.get('mblur') else [])
     if job.get('shots'):

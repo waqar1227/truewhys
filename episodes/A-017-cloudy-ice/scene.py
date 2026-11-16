@@ -40,16 +40,16 @@ def presenter():
     return h, ct
 
 
-def held_cube(ct, cloud=1.0, side="R", s=0.05, bubbles=0):
+def held_cube(h, cloud=1.0, side="R", s=0.045, bubbles=0):
     c, bs = P.ice_cube((0, 0, 0), s, cloud=cloud, bubbles=bubbles)
-    c.parent = ct[f"hand{side}"]; c.location = (0.0, -0.07, 0.065); c.rotation_euler = (0.3, 0.2, 0.4)
+    c.rotation_euler = (0.3, 0.2, 0.4); Hm.hold(h, c, side, offset=(0, -0.01, 0.0)); Hm.grip(h, side, 0.55, 0.55)
     return c
 
 
 def hook_cube(sh, cam, n):
     counter_set()
     h, ct = presenter(); ec = h["eye_c"]
-    held_cube(ct)
+    held_cube(h)
     hp = Vector((ec.x - 0.13, ec.y - 0.30, ec.z - 0.13))
     key_obj(ct["handR"], 0, loc=hp + Vector((0, 0, -0.03))); key_obj(ct["handR"], n, loc=hp)
     key_obj(ct["look"], 0, loc=hp + Vector((0, -0.2, 0)))
@@ -111,8 +111,8 @@ def no_room(sh, cam, n):
 
 
 def freezer(sh, cam, n):
-    studio(bottom="#5E88B0", glow=0.18)
-    P.counter((0, -0.75, 0), w=1.4, d=0.55, top="#C9DDEB", top2="#B5CCDD", body="#1F3A68")
+    studio(bottom="#2E5C8A", glow=0.18)
+    P.counter((0, -0.75, 0), w=1.4, d=0.55, top="#7FA3C2", top2="#6E93B3", body="#1F3A68")
     base, items = P.ice_tray(TRAY + Vector((-0.14, 0, 0)), cubes=False, water=0.9)
     rnd = random.Random(7); fm = C.pbr("frost", "#FFFFFF", 0.3, emit="#E6F5FF", estr=1.5)
     for k in range(40):   # frost sparkles appearing around the tray edge
@@ -226,7 +226,7 @@ def one_side(sh, cam, n):
 def clear_cube(sh, cam, n):
     counter_set(tray=False)
     h, ct = presenter(); ec = h["eye_c"]
-    held_cube(ct, cloud=0.0)
+    held_cube(h, cloud=0.0)
     hp = Vector((ec.x - 0.13, ec.y - 0.30, ec.z - 0.13))
     key_obj(ct["handR"], 0, loc=hp + Vector((0, 0, -0.06))); key_obj(ct["handR"], 12, loc=hp)
     key_obj(ct["look"], 0, loc=hp + Vector((0, -0.2, 0))); key_obj(ct["look"], n, loc=(0.1, -1.4, ec.z))
@@ -239,7 +239,7 @@ def drink_loop(sh, cam, n):
     counter_set(tray=True, jug=False)
     h, ct = presenter(); ec = h["eye_c"]
     g, liq, cs = P.drink((0.0, -0.40, TOP), r=0.04, h=0.11, cubes=3, cloud=1.0)
-    c = held_cube(ct)
+    c = held_cube(h)
     key_obj(ct["handR"], 0, loc=(0.0, -0.42, TOP + 0.16)); key_obj(ct["handR"], n, loc=(0.0, -0.42, TOP + 0.24))
     key_obj(ct["look"], 0, loc=(0, -0.42, TOP + 0.1)); key_obj(ct["look"], n, loc=(0, -0.42, TOP + 0.24))
     Hm.face(h["keys"], 0, smile=0.2); Hm.face(h["keys"], n, smile=0.4, brows_up=0.3)
@@ -250,7 +250,7 @@ def drink_loop(sh, cam, n):
 def loop_end(sh, cam, n):
     counter_set()
     h, ct = presenter(); ec = h["eye_c"]
-    held_cube(ct)
+    held_cube(h)
     hp = Vector((ec.x - 0.13, ec.y - 0.30, ec.z - 0.13))
     key_obj(ct["handR"], 0, loc=hp + Vector((0, 0, -0.05))); key_obj(ct["handR"], n, loc=hp + Vector((0, 0, -0.03)))
     key_obj(ct["look"], 0, loc=(0.1, -1.4, ec.z)); key_obj(ct["look"], n, loc=hp + Vector((0, -0.2, 0)))

@@ -546,3 +546,31 @@ def face(keys, frame, **w):
     for k, v in w.items():
         for u in alias.get(k, [k]):
             expr(keys, u, v, frame)
+
+
+def grip(h, side="R", amt=0.8, thumb=0.5, frame=None, axis=0, sign=1):
+    """Curl the fingers into a holding grip (amt 0 = open, 1 = fist). Thumb curls less."""
+    rig = h["rig"]
+    for f in range(1, 6):
+        for j in range(1, 4):
+            pb = rig.pose.bones.get(f"finger{f}-{j}.{side}")
+            if pb is None:
+                continue
+            a = (thumb if f == 1 else amt) * (35 if j == 1 else 55) * sign
+            r = [0.0, 0.0, 0.0]; r[axis] = math.radians(a)
+            pb.rotation_mode = "XYZ"; pb.rotation_euler = r
+            if frame is not None:
+                pb.keyframe_insert("rotation_euler", frame=frame)
+
+
+def hold(h, obj, side="R", offset=(0, 0, 0)):
+    """Put obj in the hand: at the point between thumb tip and index knuckle, parented to the wrist bone (follows IK)."""
+    rig = h["rig"]; bpy.context.view_layer.update()
+    pb = rig.pose.bones
+    a = rig.matrix_world @ pb[f"finger1-3.{side}"].tail if f"finger1-3.{side}" in pb else rig.matrix_world @ pb[f"wrist.{side}"].tail
+    b = rig.matrix_world @ pb[f"finger2-1.{side}"].head if f"finger2-1.{side}" in pb else a
+    c = (a + b) / 2 + Vector(offset)
+    obj.parent = None; obj.location = c
+    bpy.context.view_layer.update()
+    mw = obj.matrix_world.copy(); obj.parent = rig; obj.parent_type = "BONE"; obj.parent_bone = f"wrist.{side}"; obj.matrix_world = mw
+    return c

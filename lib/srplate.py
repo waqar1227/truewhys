@@ -9,7 +9,7 @@ _cache = {}
 def plate(rdir, name, fallback="#14213D"):
     rdir = Path(rdir)
     def fn(g, c):
-        import cairo
+        import cairocffi as cairo
         from PIL import Image
         files = _cache.get(name)
         if files is None:

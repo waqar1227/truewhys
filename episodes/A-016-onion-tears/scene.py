@@ -89,7 +89,8 @@ def kitchen(man=True, onion_gap=0.03, bg=("#14213D", "#FF6B5B")):
         ct["look"].location = (0, -0.42, TOP)
     kn = P.knife((0, 0, 0), (0, 0, 0))
     if man:
-        kn.parent = ct["handR"]; kn.location = (0.0, -0.035, -0.01); kn.rotation_euler = (math.radians(0), 0, math.radians(-90))
+        kn.rotation_euler = (math.radians(0), 0, math.radians(-90)); Hm.hold(h, kn, "R", offset=(0, -0.062, 0.0))
+        Hm.grip(h, "R", 0.85, 0.6); Hm.grip(h, "L", 0.35, 0.3)
     else:
         kn.location = (-0.16, -0.36, TOP + 0.03); kn.rotation_euler = (math.radians(90), 0, math.radians(-75))
     P.lights((0, -0.35, TOP + 0.25), key=900, rim=800, scale=0.8)
@@ -143,7 +144,7 @@ def hook_cut(sh, cam, n):
     tear_on(h, 1, 14, n)
     gp = P.gas_puffs(ONION + Vector((0, 0, 0.06)), n=26, spread=0.03, size=0.008)
     puffs_rise(gp, n, ONION + Vector((0, 0, 0.05)), TOP + 0.45, drift=(0.02, 0.06), t0=10, speed=0.8)
-    cam_move(cam, n, ((0.26, -1.08, TOP + 0.30), (0.0, -0.30, TOP + 0.30), 40), ((0.23, -1.0, TOP + 0.31), (0.0, -0.30, TOP + 0.31), 42),
+    cam_move(cam, n, ((0.26, -1.08, TOP + 0.40), (0.0, -0.30, TOP + 0.42), 40), ((0.23, -1.0, TOP + 0.41), (0.0, -0.30, TOP + 0.43), 42),
              focus=(0, -0.3, TOP + 0.3), fstop=8)
     life(h, n, blinks=False)
 
@@ -157,7 +158,7 @@ def fight_back(sh, cam, n):
     tear_on(h, 1, 0, n); tear_on(h, -1, 10, n, "tear2")
     gp = P.gas_puffs(ONION, n=46, spread=0.04, size=0.009)
     puffs_rise(gp, n, ONION + Vector((0, 0, 0.05)), TOP + 0.62, drift=(0.0, 0.25), speed=1.2)
-    cam_move(cam, n, ((0.23, -1.0, TOP + 0.31), (0.0, -0.30, TOP + 0.33), 42), ((0.16, -0.90, TOP + 0.36), (0.0, -0.20, TOP + 0.45), 48),
+    cam_move(cam, n, ((0.23, -1.0, TOP + 0.41), (0.0, -0.30, TOP + 0.43), 42), ((0.16, -0.90, TOP + 0.42), (0.0, -0.20, TOP + 0.48), 48),
              focus=(0, -0.2, TOP + 0.5), fstop=8)
 
 
@@ -300,7 +301,7 @@ def lab(n, face_keys=None):
     halves = P.onion(ONION + Vector((0.18, 0, -0.024)), cut=True, gap=0.03)
     h = Hm.build(dict(SCI, loc=(0, -0.08, 0)), "sci"); ct = Hm.controls(h)
     fl, liq = flask((0, 0, 0), glow=4.0)
-    fl.parent = ct["handR"]; fl.location = (0.0, -0.04, 0.02)
+    Hm.hold(h, fl, "R", offset=(0, 0, -0.06)); Hm.grip(h, "R", 0.7, 0.5); Hm.grip(h, "L", 0.3, 0.3)
     ct["handL"].location = (0.16, -0.40, TOP + 0.05)
     P.lights((0, -0.35, TOP + 0.35), key=650, rim=800, fill=150, scale=0.8)
     return h, ct, fl, halves
@@ -381,12 +382,12 @@ def defence(sh, cam, n):
 def loop_q(sh, cam, n):
     h, ct, halves, kn = kitchen(onion_gap=0.035)
     key_obj(ct["handR"], 0, loc=(-0.03, -0.27, TOP + 0.06))
-    halves[1].parent = ct["handL"]; halves[1].location = (0.0, -0.03, 0.03)
+    Hm.hold(h, halves[1], "L", offset=(0, 0, -0.035)); Hm.grip(h, "L", 0.6, 0.5)
     key_obj(ct["handL"], 0, loc=(0.10, -0.42, TOP + 0.07)); key_obj(ct["handL"], 16, loc=(0.13, -0.40, TOP + 0.30))
     key_obj(ct["look"], 0, loc=(0.1, -0.5, TOP + 0.2)); key_obj(ct["look"], 14, loc=(0.25, -1.4, TOP + 0.55))
     Hm.face(h["keys"], 0, squint=0.4, brows_inner=0.3); Hm.face(h["keys"], 16, browL_up=0.9, smile=0.35, squint=0.2)
     life(h, n, 6)
-    cam_move(cam, n, ((0.23, -1.0, TOP + 0.31), (0.0, -0.30, TOP + 0.31), 42), ((0.26, -1.08, TOP + 0.30), (0.0, -0.30, TOP + 0.30), 40),
+    cam_move(cam, n, ((0.23, -1.0, TOP + 0.41), (0.0, -0.30, TOP + 0.43), 42), ((0.26, -1.08, TOP + 0.40), (0.0, -0.30, TOP + 0.42), 40),
              focus=(0, -0.3, TOP + 0.3), fstop=8)
 
 
