@@ -99,6 +99,20 @@ def run(shots_fns, argv):
         if JPG:
             sc.render.image_settings.file_format = "JPEG"; sc.render.image_settings.quality = 95
         d = os.path.join(OUT, sh["name"]); os.makedirs(d, exist_ok=True)
+        if "--measure" in argv:   # audit §6.3: visible character height on the shot's first frame (fraction of frame height)
+            from bpy_extras.object_utils import world_to_camera_view
+            sc.frame_set(0); dg = bpy.context.evaluated_depsgraph_get(); ys = []
+            for o in sc.objects:
+                if o.type == "MESH" and o.name.split("_")[0] in ("man", "sci", "pres"):
+                    e = o.evaluated_get(dg); me = e.to_mesh()
+                    for v in list(me.vertices)[::7]:
+                        q = world_to_camera_view(sc, sc.camera, e.matrix_world @ v.co)
+                        if q.z > 0 and 0 <= q.x <= 1:
+                            ys.append(min(max(q.y, 0.0), 1.0))
+                    e.to_mesh_clear()
+            hgt = (max(ys) - min(ys)) if ys else 0.0
+            print(f"MEASURE {sh['name']} frame1_char_height={hgt:.3f}", flush=True); log.write(f"MEASURE {sh['name']} {hgt:.3f}\n")
+            continue
         frames = [int(n * AT)] if AT is not None else list(range(0, n, STEP))
         for f in frames:
             if os.environ.get("TW_DEADLINE") and time.time() > float(os.environ["TW_DEADLINE"]):
