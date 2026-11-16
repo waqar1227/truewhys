@@ -86,3 +86,5 @@
 - 16 Nov 04:43 UTC: a017 v1 COMPLETE (96 min, 2×T4 ≈ 3.2 GPU h) but only the 6 shots without people rendered (same MPFB bug):
   cube_macro, no_room, xsec_start, xsec_trapped, scatter, lake_clear → renders/frames (kept locally; Kaggle keeps only the latest output).
 - 16 Nov 05:15 UTC: a017 v2 pushed with the fixed kernel, job "shots" = the 10 missing shots.
+- 16 Nov ~08:45 UTC: a016 v2 COMPLETE (302.5 min, 2×T4 ≈ 10.1 GPU h, all 16 shots) + a017 v2 COMPLETE (166.3 min, 2×T4 ≈ 5.5 GPU h, the 10 missing shots).
+  All frames in renders/frames (A-016 1060, A-017 1194). Total Style R test this week ≈ 18.8 GPU h.
