@@ -219,3 +219,5 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
 - 15 Nov 2026 (owner D2): replaced "Last 2 s of every Short: Wy with ✓ badge + 'Follow for more true whys'" by: no full-screen end card on new Shorts,
   story to the last frame + loop, small Wy ✓ corner badge (≤ 0.7 s). Posted Shorts unchanged.
 - 15 Nov 2026 (owner D4): B-001 long + "Church Put Bugs on Trial" + "Weevils" stay public unchanged; stricter religion screen for all new topics.
+- 16 Nov 2026 (owner): the "leave the AI field blank" rule above is REPLACED: always set it to No (YouTube containsSyntheticMedia=false).
+  Shorts thumbnail rule changed from "hook frame" to a custom thumbnail with one engaging hook/suspense text line.

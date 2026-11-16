@@ -97,7 +97,7 @@ All original (TrueWhys). One episode = `episodes/<ep>/make.py` (`sheet` | `big <
   `elephant`. Props for hands: `cone`, `mug`, `cup_straw`.
 - **Sounds `lib/sfxgen.py`:** in-house synthesised effects registered with lib/audio (use by name): freeze, zap, swell, rush, heartbeat, sting, melt, confuse,
   bloop, click, shimmer, chime.
-- **Tools:** `tools/voice_check.py <ep>` (finds clipped or misheard narration lines before rendering), `tools/yt_finish.py <ep>` (retry thumbnail/playlist after an
+- **Tools:** `tools/voice_check.py <ep>` (finds clipped or misheard narration lines before rendering), `tools/yt_finish.py <ep>` (retry thumbnail/playlist after an `tools/short_thumb.py` (Shorts thumbnail: clean frame + one hook/suspense line, owner rule 16 Nov), `tools/yt_ai_no.py` (sets the AI/altered field to No on every video).
   API quota error), `lib/voice_gemini.py` now cuts lines at the real pauses (it used to drop a line's first word when whisper swallowed it).
 
 ## Comedy sounds (added 13 Nov 2026, BigSoundBank CC0, credits in library/sfx/bsb/credits.json)

@@ -3,7 +3,7 @@ python tools/yt_apply_fixes.py            -> dry run: prints what would change (
 python tools/yt_apply_fixes.py --apply    -> videos.update (~50 units each), before/after saved to docs/audit/applied.json
 Rules (audit §5): only fixes whose `apply` time has passed; title only if the script supports it (OVERRIDE below);
 tags replaced; description keeps its text, every hashtag is removed, then the subscribe line + exactly 3 hashtags are added.
-Never sends the altered/synthetic field. Skips videos waiting for an owner decision (HOLD)."""
+Snippet only (the altered/synthetic field is set to No separately, tools/yt_ai_no.py). Skips videos waiting for an owner decision (HOLD)."""
 import sys, json, re, datetime as dt
 from pathlib import Path
 sys.path.insert(0, "lib")

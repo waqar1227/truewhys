@@ -40,7 +40,7 @@ meta = {"title": seo["title"], "description": desc, "tags": seo["tags"], "catego
 - **Alt title (A/B):** {seo['title_alt']}
 - **Thumbnails:** final/thumb_A.jpg ("GUILTY?"), final/thumb_B.jpg ("ON TRIAL?!") — use YouTube's Test & Compare
 - **Schedule:** private → publishAt {publish}
-- **Category:** {seo["categoryId"]} (chosen per video, see CLAUDE.md) · Made for kids: No · Altered/synthetic field: left unset
+- **Category:** {seo["categoryId"]} (chosen per video, see CLAUDE.md) · Made for kids: No · Altered/synthetic field: No
 - **Playlist:** {seo.get('playlist')}
 - **Tags:** {', '.join(seo['tags'])}
 - **Pinned comment:** {seo['pinned']}

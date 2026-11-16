@@ -92,8 +92,7 @@ videos, scripts, titles, characters, art, voice or branding.
 5. **Free, licensed assets only**, every one in `credits.md`.
 6. **No real people's likeness, no logos, no gore.**
 7. **Variety:** rotate categories, backgrounds, cast and title patterns.
-8. **Disclosure:** tick "altered or synthetic content" only for realistic footage that
-   could be mistaken for real events (Style R). Cartoon (Style T) normally doesn't need it.
+8. **Disclosure (owner 16 Nov 2026):** the "altered or synthetic content" field is always set to **No** (never blank, never Yes), all styles.
 
 ---
 
@@ -212,8 +211,8 @@ Folder: `episodes/A-<NNN>-<slug>/`
 ## 6. Pipeline — Style R realistic Short (test every 2 weeks)
 Same steps 1–4 and 6, then realistic Blender scenes per shot (Blender-made or Sketchfab characters, Poly
 Haven HDRIs/props, X-ray and cutaway looks, rigid-body physics), rendered on Kaggle GPU
-with `notebooks/render_kaggle.ipynb`. Captions and edit as §5. Tick the
-"altered or synthetic content" box at upload when footage could pass as real.
+with `notebooks/render_kaggle.ipynb`. Captions and edit as §5. The
+"altered or synthetic content" field is set to No (owner rule, §8 above).
 
 **Looks that render well without heavy simulation:** X-ray / cutaway (fresnel-emission
 skin, opaque organs), slow motion (stretched keys + motion blur), scale shots (tiny

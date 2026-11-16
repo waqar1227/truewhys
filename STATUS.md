@@ -5,7 +5,10 @@
    STYLE A/B TEST SETTLED. A-016 v3 (fixed hook_cut + loop_q) QA PASS; A-017 QA PASS. Rescheduled A-012 1r8faDAYoTQ → 24 Nov, A-011 yyBUc7aM2lA → 25,
    A-013 bHC7F6nNwWM → 26. UPLOADED A-016 pwVCqe756X8 → 22 Nov 16:00 UTC, A-017 S8zIxiPXHpE → 23 Nov 16:00 UTC ("thumbnail": true, playlist Why Does That Happen?).
    Schedule: A-009 20 · A-010 21 · A-016 22 · A-017 23 · A-012 24 · A-011 25 · A-013 26 Nov (all 16:00 UTC). Buffer to 26 Nov.
-   17 Nov BEFORE 12:00 UTC (audit cross-check moved there): SRT captions for the 3 long videos; after 04:00 UTC `python tools/yt_apply_fixes.py --apply` (6 B-003 fixes); B1/B2 schedule settled.
+   OWNER RULES 16 Nov (saved in CLAUDE.md): AI field always No (lib/youtube.py sends containsSyntheticMedia=false); Shorts get a custom thumbnail with
+   ONE hook/suspense line (tools/short_thumb.py → final/thumb_v2.jpg, made for A-009..A-013, A-016, A-017). YouTube quota ran out 16 Nov →
+   17 Nov 08:05 UTC reminder: yt_apply_fixes --apply, SRT captions, `tools/yt_ai_no.py --apply` (43 videos), thumbnails.set thumb_v2 on the 7 Shorts.
+   17 Nov 08:05–12:00 UTC (quota resets 08:00; audit cross-check 12:00): SRT captions for the 3 long videos; `python tools/yt_apply_fixes.py --apply` (6 B-003 fixes); B1/B2 schedule settled.
    Wave 2 (27 Nov–3 Dec) only after 48 h data on A-009/A-010 (A-010 public 21 Nov 16:00 → data 23 Nov).
 ** 15 Nov 17:10 UTC — OWNER STYLE A/B TEST (relayed by the audit session, owner's words in its chat): 4 standalone "Why [everyday thing]" Shorts, cat 28, 30–40 s,
    same title pattern/hook/voice/music/no end card/16:00 UTC, 4 different topics + separately written scripts. Order A-B-B-A, right after the pirate Shorts:

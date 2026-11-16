@@ -15,8 +15,8 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
 - **Never say anything against any religion, especially Islam.** Nothing that mocks, insults or criticises a religion, its prophets,
   holy books, practices or believers. Never depict prophets. With religious institutions in history, stay neutral and factual about
   events and people, never the faith. If a topic could offend religious viewers, skip it.
-- **AI fields:** never fill any "AI / altered / synthetic content" field on any platform (YouTube: omit `status.containsSyntheticMedia`;
-  TikTok: omit `isAigc`). Only if a platform makes it mandatory, set **No**. Never mention AI in public text.
+- **AI fields (owner 16 Nov 2026, replaces "leave blank"): always set the "AI / altered / synthetic content" field to No, never leave it blank,
+  never Yes.** YouTube: send `status.containsSyntheticMedia: false` on every upload (lib/youtube.py does it); TikTok: `isAigc: false`. Never mention AI in public text.
 
 ## Rule number 1: professional quality first
 - Quality beats length and posting frequency, always. Never lower quality for a length or date: make it shorter or take longer.
@@ -114,7 +114,8 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
   a compilation every 4 weeks.
 - Thumbnails (long, 1280×720): one big cast face with an extreme emotion (face ≥ 35 % of height) + ONE strange object/situation + max
   3 giant words (Lilita One, high-contrast outline, never repeating the title), bright subject on a dark/blurred background, one focal
-  point, readable at 168×94, curiosity gap. Shorts: hook frame thumbnail.
+  point, readable at 168×94, curiosity gap. **Shorts (owner 16 Nov 2026): always set a custom thumbnail** = a strong frame from the Short
+  + ONE engaging text line (the Short's own hook text, or a short suspense line that makes people want to click; never the title word for word, no clickbait lies).
 - **Shorts end (owner D2, 15 Nov):** no full-screen end card on new Shorts. The story runs to the last frame, the last shot matches the first
   so it loops, and the sign-off is a small Wy ✓ badge in a corner during the final line (0.7 s max). Already-posted Shorts stay as they are.
   Long videos: 20 s end screen with the wordmark.
