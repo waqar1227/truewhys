@@ -88,3 +88,5 @@
 - 16 Nov 05:15 UTC: a017 v2 pushed with the fixed kernel, job "shots" = the 10 missing shots.
 - 16 Nov ~08:45 UTC: a016 v2 COMPLETE (302.5 min, 2×T4 ≈ 10.1 GPU h, all 16 shots) + a017 v2 COMPLETE (166.3 min, 2×T4 ≈ 5.5 GPU h, the 10 missing shots).
   All frames in renders/frames (A-016 1060, A-017 1194). Total Style R test this week ≈ 18.8 GPU h.
+- 16 Nov ~10:35 UTC: a016 v3 pushed (job "shots" = hook_cut, loop_q after the QA fix: knife in front, title clear of face).
+  11:02 UTC COMPLETE (22.7 min, 2×T4 ≈ 0.8 GPU h; hook_cut 54 + loop_q 80 frames). Total this week ≈ 19.6 GPU h.
