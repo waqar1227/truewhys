@@ -12,9 +12,23 @@ if not os.path.exists('/tmp/blender/blender'):
 subprocess.run('apt-get -qq install -y libxkbcommon0 libsm6 libxi6 libxxf86vm1 libxfixes3 libxrender1 libgl1 >/dev/null 2>&1', shell=True)
 B = '/tmp/blender/blender'
 W = '/tmp/work'; shutil.copytree(D, W, dirs_exist_ok=True)          # writable copy, scripts side by side
-inst = ('import bpy,addon_utils;bpy.ops.extensions.package_install_files(filepath="%s/mpfb.zip", repo="user_default", enable_on_install=True);'
-        'print("MPFB", addon_utils.enable("bl_ext.user_default.mpfb", default_set=True) is not None)' % W)
-print(subprocess.run([B, '-b', '--python-expr', inst], capture_output=True, text=True).stdout[-400:], flush=True)
+# MPFB: Kaggle unpacks .zip files inside datasets, so the package is uploaded as mpfb_zip.bin (copied back to .zip here);
+# if a .zip was unpacked anyway, copy the folder holding blender_manifest.toml straight into the user extensions repo.
+EXT = os.path.expanduser('~/.config/blender/5.0/extensions/user_default/mpfb')
+binf = glob.glob(f'{D}/**/mpfb_zip.bin', recursive=True) + glob.glob(f'{D}/**/mpfb.zip', recursive=True)
+if binf:
+    shutil.copy(binf[0], '/tmp/mpfb.zip')
+    inst = ('import bpy,addon_utils;bpy.ops.extensions.package_install_files(filepath="/tmp/mpfb.zip", repo="user_default", enable_on_install=True);'
+            'print("MPFB", addon_utils.enable("bl_ext.user_default.mpfb", default_set=True) is not None)')
+    print(subprocess.run([B, '-b', '--python-expr', inst], capture_output=True, text=True).stdout[-600:], flush=True)
+if not os.path.exists(EXT):
+    man = [m for m in glob.glob('/kaggle/input/**/blender_manifest.toml', recursive=True) if 'mpfb' in open(m).read().lower()]
+    if man:
+        shutil.copytree(os.path.dirname(man[0]), EXT, dirs_exist_ok=True)
+        print("MPFB copied from", os.path.dirname(man[0]), flush=True)
+chk = subprocess.run([B, '-b', '--python-expr', 'import addon_utils;print("MPFB_OK", addon_utils.enable("bl_ext.user_default.mpfb", default_set=True) is not None)'],
+                     capture_output=True, text=True).stdout
+print([l for l in chk.splitlines() if 'MPFB_OK' in l], flush=True)
 out = '/kaggle/working/frames'; os.makedirs(out, exist_ok=True)
 ngpu = int(subprocess.run("nvidia-smi -L | wc -l", shell=True, capture_output=True, text=True).stdout.strip() or 1)
 procs = []
