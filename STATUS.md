@@ -1,16 +1,16 @@
 # STATUS (read the NEXT list first)
 
 ## NEXT (keep this list short; heartbeat does only these)
-** 15 Nov 17:30 UTC (production session_01BQj2DdBXfG9cs6NCxGLzLV, heartbeat trig_01SWZ2Dh2pi68Lv1aDMZXkZz fires here 08:44/20:44 UTC):
-   DONE: A-016 onions + A-017 cloudy ice: scripts, topic.md (titles, religion clear), sources.md (2+ each), Gemini voice (35.5 s / 39.6 s, voice_check clean).
-   DONE (P1 local): lib/yt_stats.py §6.8 (stayed %, rel. retention 10/50/90, Shorts-feed views, countries; test on 16 Nov), topic_results.md + tools/topic_results.py,
-   branding/TrueWhys_channel_text.md (no schedule promise). lib/upload_shorts.py already had no "#Shorts" + per-Short tags.
-   Style R props in code: lib/style_r/sr_props.py (navy→coral cyc, lights, counter, cut onion with rings, knife, board, cells, tear gas, eye macro, tear, medal,
-   ice cube cloudy/clear, tray, freezing cross-section, lake, drink); props stills checked 3 rounds.
-   BLOCKED: installing MPFB 2.0.18 into bpy (needed for the owner-approved Style R humans) was refused twice by the session's safety check → asked the owner
-   to allow it. When allowed: install (docs/audit/style_r/README.md), zipls.py the CC0 assets, build cast + shot files, stills, animatic, Kaggle, QA.
-   NEXT 16 Nov after 08:00 UTC: P1 YouTube part (yt_apply_fixes dry run → --apply, B-002 description, channel description from branding file, playlists,
-   SRT if quota, verify.py) → send audit session "P1 done" before 22:00 UTC.
+** 16 Nov 02:05 UTC (production session_01BQj2DdBXfG9cs6NCxGLzLV; heartbeat trig_01SWZ2Dh2pi68Lv1aDMZXkZz 08:44/20:44 UTC fires here):
+   Owner allowed MPFB → installed (docs/audit/style_r/install_mpfb.py). MakeHuman asset server DOWN (502) → people built with our own code on the MPFB body:
+   lib/style_r/sr_human.py (eyes, hair layer, clothes layers + hems, brows driven by expression keys, IK hand/head controls, blink/face helpers).
+   A-016 + A-017: make.py (shot timing, captions/title/badge/sound via flat2d.Video + lib/srplate.py), scene.py (16 shots each), shots.json, upload_meta, credits.
+   Stills checked (2 rounds each). Animatics rendering here (renders_anim/, 360x640, every 3rd frame; one background job, A-016 then A-017).
+   NEXT: make.py anim (animatic.mp4) + sheet → check → Kaggle finals: tools/kaggle_style_r.sh a016|a017 <ep> '{"w":1080,"h":1920,"samples":64,"step":1,"mblur":true}' <mpfb.zip>
+   (zip: re-download, sha256 c075b3e9…2dad, see README) → kernels push → one waiter → make.py render renders/ → QA (qa.md, frame-1 numbers) →
+   reschedule A-013→26, A-012→24, A-011→25 Nov, then upload A-016 (22 Nov) + A-017 (23 Nov) 16:00 UTC.
+   16 Nov after 08:00 UTC: P1 YouTube part (yt_apply_fixes dry run → --apply, B-002 description, channel description from branding file, playlists,
+   SRT if quota, verify.py) → send audit session "P1 done" (+ my session id) before 22:00 UTC.
 ** 15 Nov 17:10 UTC — OWNER STYLE A/B TEST (relayed by the audit session, owner's words in its chat): 4 standalone "Why [everyday thing]" Shorts, cat 28, 30–40 s,
    same title pattern/hook/voice/music/no end card/16:00 UTC, 4 different topics + separately written scripts. Order A-B-B-A, right after the pirate Shorts:
    Sat 21 Nov A1 = A-010 Wrinkly fingers (2D cast v2.1, already scheduled; 45 s) · Sun 22 Nov B1 = Style R 3D "Why onions make you cry" (A-016, TO MAKE) ·

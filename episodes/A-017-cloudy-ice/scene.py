@@ -40,9 +40,9 @@ def presenter():
     return h, ct
 
 
-def held_cube(ct, cloud=1.0, side="R", s=0.042, bubbles=0):
+def held_cube(ct, cloud=1.0, side="R", s=0.05, bubbles=0):
     c, bs = P.ice_cube((0, 0, 0), s, cloud=cloud, bubbles=bubbles)
-    c.parent = ct[f"hand{side}"]; c.location = (0.0, -0.035, 0.035); c.rotation_euler = (0.3, 0.2, 0.4)
+    c.parent = ct[f"hand{side}"]; c.location = (0.0, -0.07, 0.065); c.rotation_euler = (0.3, 0.2, 0.4)
     return c
 
 
