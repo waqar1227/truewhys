@@ -82,3 +82,7 @@
   1080×1920, Cycles 128 spp adaptive + denoise, motion blur, JPEG q95, 2×T4 each (shots split by --part), deadline 10.5 h.
   Datasets anam318/truewhys-ep-a016 / -a017 (scene.py, shots.json, lib/style_r/sr_*.py, camera.py, mpfb.zip, job.json); kernel notebooks/kaggle_jobs/style_r/render.py
   (built by tools/kaggle_style_r.sh). Fix: tools/kaggle_px.py re-authenticates after its patch (kaggle 2.2.5 authenticates at import).
+- 16 Nov ~03:00 UTC: a016 v1 ERROR after ~2 min (Kaggle auto-extracted mpfb.zip → "No such file"). Fix: upload as mpfb_zip.bin + folder fallback in render.py. a016 v2 pushed.
+- 16 Nov 04:43 UTC: a017 v1 COMPLETE (96 min, 2×T4 ≈ 3.2 GPU h) but only the 6 shots without people rendered (same MPFB bug):
+  cube_macro, no_room, xsec_start, xsec_trapped, scatter, lake_clear → renders/frames (kept locally; Kaggle keeps only the latest output).
+- 16 Nov 05:15 UTC: a017 v2 pushed with the fixed kernel, job "shots" = the 10 missing shots.
