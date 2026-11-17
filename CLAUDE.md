@@ -142,9 +142,15 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
 - Every new video carries a specific, evidence-based improvement; diagnose before changing (discovery vs packaging vs hook/retention);
   never repeat an unsuccessful strategy without analysis; never invent metrics or findings.
 
-## Saving Claude usage (never at the cost of quality)
-- Production heartbeat: twice a day (08:44 and 20:44 UTC); reads only the NEXT list at the top of `STATUS.md`, does production only
-  (not the growth review), reads the latest daily_report entry before any new script/title.
+## Saving Claude usage (never at the cost of quality) — owner 17 Nov 2026: "do all which is best, but no compromise on quality"
+- **Scheduled jobs always start a FRESH session** (create_new_session_on_fire); never bind them to a long chat (a long chat re-reads its whole history on every wake).
+- Production heartbeat: **once a day, 08:20 UTC** (right after the YouTube quota reset; normal model). It first does the "AFTER YOUTUBE QUOTA RESET" list,
+  then only the NEXT list at the top of `STATUS.md`. **If nothing is due, stop within 3 tool calls** (no reports, no edits). Twice a day only while a
+  Kaggle render or a QA-passed upload is waiting (then add a one-shot reminder, not a second daily run).
+- Growth review: fresh Sonnet session, 07:13 UTC, reads only its listed files.
+- One-off reminders go into the NEXT list (the daily heartbeat picks them up) instead of extra scheduled wake-ups.
+- Do YouTube API work in ONE batch right after the 08:00 UTC reset; never run the same update twice (scripts record what they did).
+- Sessions read only what the task needs: STATUS NEXT, the episode folder, the files a script names. Never re-read whole docs, never re-run research that is saved.
 - Fresh session per new episode; everything needed is in git or re-downloadable from Kaggle.
 - Scripts for deterministic work, AI for judgement. No polling loops (one background waiter per job). Look at images only for the
   animatic/stills check and final QA, using one small contact sheet. Don't re-read, re-research or re-generate what is saved.
