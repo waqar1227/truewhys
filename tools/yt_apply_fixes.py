@@ -49,7 +49,9 @@ def main(apply):
             title = re.sub(r"\s*#Shorts\b", "", title).strip()
             body = {k: s[k] for k in ("title", "description", "tags", "categoryId", "defaultLanguage", "defaultAudioLanguage") if k in s}
             body.update(title=title, tags=f["tags"], description=new_desc(s["description"], f["hashtags"]))
-            ch = [k for k in ("title", "tags", "description") if body.get(k) != s.get(k)]
+            ch = [k for k in ("title", "description") if body.get(k) != s.get(k)]
+            if sorted(x.lower() for x in body.get("tags", [])) != sorted(x.lower() for x in s.get("tags", [])):  # YouTube reorders tags
+                ch.insert(1, "tags")
             print(f["id"], f["episode"], f["kind"], "changes:", ch, "|", s["title"][:45], "->", title[:45])
             if apply and ch:
                 api("PUT", "https://www.googleapis.com/youtube/v3/videos?part=snippet", tok, {"id": f["id"], "snippet": body})
