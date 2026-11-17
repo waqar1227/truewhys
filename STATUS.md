@@ -1,6 +1,8 @@
 # STATUS (read the NEXT list first)
 
 ## NEXT (keep this list short; heartbeat does only these)
+(17 Nov 13:30 UTC, owner: save usage, no quality loss) Production heartbeat is now a FRESH session every day at 08:20 UTC (trig_01KmphpMjsqsSR6MfFr8EBMw);
+growth review a fresh Sonnet session at 07:13 UTC (trig_01AJ9hU3mRUzg8EbRcRFe6R6). Old bound tasks disabled. Messages for production: put them HERE in NEXT.
 !! AFTER YOUTUBE QUOTA RESET (08:00 UTC daily) — DO FIRST, before anything else, then tick here:
    [x] 1. AI field = No on ALL 43 videos (17 Nov 08:10; tools/yt_ai_no.py; YouTube's GET hides "false", so proof = docs/audit/ai_no.json, dry run says 0 left).
    [x] 2. thumb_v2 set on the 7 scheduled Shorts (17 Nov; uploaded.json thumbnail_file updated).
@@ -9,7 +11,7 @@
           after 18 Nov 08:00 UTC: `python3 tools/make_srt.py episodes/B-001-animal-trials --upload 9C-9O0c6VqM`, same for B-002 h2oO3SrSUH8, B-003 Am8epkS94Hw (~400 units each).
    [ ] 5. `python3 docs/audit/verify.py` (needs quota) → commit, push, short message to the owner.
    If quota runs out midway: leave the unticked items here for the next reset.
-** 16 Nov 11:20 UTC (production session_01BQj2DdBXfG9cs6NCxGLzLV; heartbeat trig_01SWZ2Dh2pi68Lv1aDMZXkZz 08:44/20:44 UTC fires here):
+** 16 Nov 11:20 UTC (production session_01BQj2DdBXfG9cs6NCxGLzLV; old heartbeat disabled 17 Nov):
    STYLE A/B TEST SETTLED. A-016 v3 (fixed hook_cut + loop_q) QA PASS; A-017 QA PASS. Rescheduled A-012 1r8faDAYoTQ → 24 Nov, A-011 yyBUc7aM2lA → 25,
    A-013 bHC7F6nNwWM → 26. UPLOADED A-016 pwVCqe756X8 → 22 Nov 16:00 UTC, A-017 S8zIxiPXHpE → 23 Nov 16:00 UTC ("thumbnail": true, playlist Why Does That Happen?).
    Schedule: A-009 20 · A-010 21 · A-016 22 · A-017 23 · A-012 24 · A-011 25 · A-013 26 Nov (all 16:00 UTC). Buffer to 26 Nov.
