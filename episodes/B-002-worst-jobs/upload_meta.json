@@ -26,5 +26,9 @@
  "categoryId": "27",
  "publishAt": "2026-11-11T15:00:00Z",
  "playlist": "Full Stories",
- "pinned_comment": "Which of these 8 jobs would you pick if you HAD to choose one? 🍺🚽🐸🍞⛏️🧺🐄💩 Tell us — and what why should Wy answer next?"
+ "pinned_comment": "Which of these 8 jobs would you pick if you HAD to choose one? 🍺🚽🐸🍞⛏️🧺🐄💩 Tell us — and what why should Wy answer next?",
+ "ai_disclosure": {
+  "synthetic": false,
+  "reason": "Not realistic: animated/stylised CG, generic TTS narrator imitating no real person, code-made music (docs/ai_disclosure.md test, 18 Nov 2026)."
+ }
 }

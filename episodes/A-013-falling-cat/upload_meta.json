@@ -1,6 +1,6 @@
 {
  "title": "The Falling Cat That Broke Physics",
- "description": "How does a falling cat turn over in mid-air? In Paris in 1894, \u00c9tienne-Jules Marey photographed a falling cat with a super-fast camera: it starts upside down, not spinning, and still turns right over. Physicists were baffled. With nothing to push against, how do you start turning? Some said it pushed off the hand that let it go. The real trick took until 1969 to explain: the cat bends in the middle and twists its front half one way and its back half the other. Its total spin stays zero, but it lands on its feet.\n\nCould you do that in mid-air?\n\nMore true whys: https://www.youtube.com/@truewhys?sub_confirmation=1\n\nSources: The Public Domain Review, \"Photographs of a Falling Cat (1894)\"; BBC Science Focus, \"The enduring puzzle of why cats always land on their feet\"; Kane & Scher, International Journal of Solids and Structures (1969).\nPlease never drop a cat: no animal was dropped for this video (it is drawn).\nAnimation, music and sound: TrueWhys (original). Fonts: Lilita One (Open Font License).\n#cats #physics #didyouknow",
+ "description": "How does a falling cat turn over in mid-air? In Paris in 1894, Étienne-Jules Marey photographed a falling cat with a super-fast camera: it starts upside down, not spinning, and still turns right over. Physicists were baffled. With nothing to push against, how do you start turning? Some said it pushed off the hand that let it go. The real trick took until 1969 to explain: the cat bends in the middle and twists its front half one way and its back half the other. Its total spin stays zero, but it lands on its feet.\n\nCould you do that in mid-air?\n\nMore true whys: https://www.youtube.com/@truewhys?sub_confirmation=1\n\nSources: The Public Domain Review, \"Photographs of a Falling Cat (1894)\"; BBC Science Focus, \"The enduring puzzle of why cats always land on their feet\"; Kane & Scher, International Journal of Solids and Structures (1969).\nPlease never drop a cat: no animal was dropped for this video (it is drawn).\nAnimation, music and sound: TrueWhys (original). Fonts: Lilita One (Open Font License).\n#cats #physics #didyouknow",
  "tags": [
   "the falling cat that broke physics",
   "why cats land on their feet",
@@ -25,5 +25,9 @@
  "publishAt": "2026-11-24T16:00:00Z",
  "playlist": "Why Does That Happen? (Science and Body)",
  "video": "final/A-013.mp4",
- "style": "F (flat 2D) + cast v2.1"
+ "style": "F (flat 2D) + cast v2.1",
+ "ai_disclosure": {
+  "synthetic": false,
+  "reason": "Not realistic: animated/stylised CG, generic TTS narrator imitating no real person, code-made music (docs/ai_disclosure.md test, 18 Nov 2026)."
+ }
 }

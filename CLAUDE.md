@@ -15,8 +15,13 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
 - **Never say anything against any religion, especially Islam.** Nothing that mocks, insults or criticises a religion, its prophets,
   holy books, practices or believers. Never depict prophets. With religious institutions in history, stay neutral and factual about
   events and people, never the faith. If a topic could offend religious viewers, skip it.
-- **AI fields (owner 16 Nov 2026, replaces "leave blank"): always set the "AI / altered / synthetic content" field to No, never leave it blank,
-  never Yes.** YouTube: send `status.containsSyntheticMedia: false` on every upload (lib/youtube.py does it); TikTok: `isAigc: false`. Never mention AI in public text.
+- **AI disclosure (owner 18 Nov 2026, replaces "always No"; applies to ALL past and future videos):** the Production Manager decides YouTube's
+  "altered or synthetic content" field **per video** from YouTube's official rule and the video's real content, using the test in
+  `docs/ai_disclosure.md` (Yes only for realistic AI content: photoreal people/places/events, real person shown saying/doing what they didn't,
+  voice clone, altered real footage, AI music as the focus; unsure → Yes). Never Yes just because AI tools were used, never No just because it looks original.
+  Write it in `upload_meta.json` `"ai_disclosure": {"synthetic": bool, "reason": "..."}` and tick it in qa.md; lib/youtube.py refuses an upload
+  without it; add the video to the register (docs/ai_disclosure.md/.json). Re-read YouTube's Help page (answer 14328491) when its policy changes
+  and re-check the register. Never mention AI in public text. TikTok (when resumed): same decision for `isAigc`.
 
 ## Rule number 1: professional quality first
 - Quality beats length and posting frequency, always. Never lower quality for a length or date: make it shorter or take longer.

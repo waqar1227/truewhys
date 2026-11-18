@@ -17,5 +17,9 @@
  "publishAt": "2026-11-12T16:00:00Z",
  "playlist": "Shorts",
  "video": "final/A-005.mp4",
- "style": "F (flat 2D)"
+ "style": "F (flat 2D)",
+ "ai_disclosure": {
+  "synthetic": false,
+  "reason": "Not realistic: animated/stylised CG, generic TTS narrator imitating no real person, code-made music (docs/ai_disclosure.md test, 18 Nov 2026)."
+ }
 }

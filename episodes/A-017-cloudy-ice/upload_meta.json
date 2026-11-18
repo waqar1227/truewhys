@@ -27,5 +27,9 @@
  "publishAt": "2026-11-23T16:00:00Z",
  "playlist": "Why Does That Happen? (Science and Body)",
  "video": "final/A-017.mp4",
- "style": "R (close-to-human 3D)"
+ "style": "R (close-to-human 3D)",
+ "ai_disclosure": {
+  "synthetic": false,
+  "reason": "Not realistic: animated/stylised CG, generic TTS narrator imitating no real person, code-made music (docs/ai_disclosure.md test, 18 Nov 2026)."
+ }
 }

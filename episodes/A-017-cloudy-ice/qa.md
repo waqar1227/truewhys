@@ -13,3 +13,4 @@ after downloading frames from Kaggle kernel truewhys-render-a017 — note: v1 ho
 - [x] Metadata (audit §5/§6.6): title 24 chars, no "#Shorts", 20 tags, 3 hashtags topic first, subscribe line, category 28, playlist "Why Does That Happen?".
       Thumbnail: final/thumb.jpg (hook frame).
 Result: PASS → YouTube 2026-11-23 16:00 UTC (after A-016 passes too; then A-012 → 24, A-011 → 25, A-013 → 26 Nov).
+- [x] AI disclosure (docs/ai_disclosure.md test, 18 Nov): **No**: stylised CG people on a plain studio backdrop, generic TTS narrator, code-made music; nothing could pass as real footage.

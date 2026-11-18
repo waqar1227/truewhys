@@ -21,5 +21,9 @@
  "publishAt": "2026-11-14T15:00:00Z",
  "playlist": "Full Stories",
  "video": "final/B-003.mp4",
- "pinned_comment": "Which pirate myth surprised you the most? Our pick: the injury insurance price list. 🏴‍☠️"
+ "pinned_comment": "Which pirate myth surprised you the most? Our pick: the injury insurance price list. 🏴‍☠️",
+ "ai_disclosure": {
+  "synthetic": false,
+  "reason": "Not realistic: animated/stylised CG, generic TTS narrator imitating no real person, code-made music (docs/ai_disclosure.md test, 18 Nov 2026)."
+ }
 }

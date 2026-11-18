@@ -9,7 +9,7 @@ python lib/youtube.py comment <meta.json>         -> posts "pinned_comment" once
   pinning itself is done in YouTube Studio, the API cannot pin).
 meta.json: {"title","description","tags":[...],"categoryId":"28" (required, chosen per video),"publishAt":"2026-11-08T15:00:00Z",
             "playlist": "Full Stories" (optional, needs youtube scope)}
-Status: private + publishAt, madeForKids false, AI/altered field always No (owner 16 Nov 2026).
+Status: private + publishAt, madeForKids false, AI/altered field from upload_meta ai_disclosure (owner 18 Nov 2026, docs/ai_disclosure.md).
 """
 import os, sys, json, urllib.request, urllib.parse, urllib.error
 
@@ -78,7 +78,11 @@ def upload(video, meta, thumb=None, long_id=None):
         if not long_id:
             sys.exit("this description needs --long <long video id>")
         m["description"] = m["description"].replace("{LONG_URL}", "https://youtu.be/" + long_id)
-    status = {"privacyStatus": "private", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": False}  # owner 16 Nov: AI/altered field always No, never blank
+    # owner 18 Nov 2026: AI/altered disclosure is decided per video (docs/ai_disclosure.md) and must be written in upload_meta.json
+    ad = m.get("ai_disclosure")
+    if not isinstance(ad, dict) or not isinstance(ad.get("synthetic"), bool) or not ad.get("reason"):
+        sys.exit('upload_meta.json needs "ai_disclosure": {"synthetic": true/false, "reason": "..."} (test in docs/ai_disclosure.md)')
+    status = {"privacyStatus": "private", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": ad["synthetic"]}
     if m.get("publishAt"):
         status["publishAt"] = m["publishAt"]
     body = {"snippet": {"title": m["title"][:100], "description": m["description"][:5000], "tags": m.get("tags", [])[:30],

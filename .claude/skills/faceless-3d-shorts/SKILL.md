@@ -92,7 +92,8 @@ videos, scripts, titles, characters, art, voice or branding.
 5. **Free, licensed assets only**, every one in `credits.md`.
 6. **No real people's likeness, no logos, no gore.**
 7. **Variety:** rotate categories, backgrounds, cast and title patterns.
-8. **Disclosure (owner 16 Nov 2026):** the "altered or synthetic content" field is always set to **No** (never blank, never Yes), all styles.
+8. **Disclosure (owner 18 Nov 2026):** decide "altered or synthetic content" per video with the test in `docs/ai_disclosure.md`
+   (Yes only for realistic AI content); write `ai_disclosure` in upload_meta.json, tick it in qa.md, add the video to the register.
 
 ---
 
@@ -211,8 +212,8 @@ Folder: `episodes/A-<NNN>-<slug>/`
 ## 6. Pipeline — Style R realistic Short (test every 2 weeks)
 Same steps 1–4 and 6, then realistic Blender scenes per shot (Blender-made or Sketchfab characters, Poly
 Haven HDRIs/props, X-ray and cutaway looks, rigid-body physics), rendered on Kaggle GPU
-with `notebooks/render_kaggle.ipynb`. Captions and edit as §5. The
-"altered or synthetic content" field is set to No (owner rule, §8 above).
+with `notebooks/render_kaggle.ipynb`. Captions and edit as §5. Decide the
+"altered or synthetic content" field with the test in docs/ai_disclosure.md (§8 above): photoreal footage → Yes.
 
 **Looks that render well without heavy simulation:** X-ray / cutaway (fresnel-emission
 skin, opaque organs), slow motion (stretched keys + motion blur), scale shots (tiny
@@ -296,6 +297,7 @@ winners, keep 20% for tests.
 - [ ] Owner approved the animatic before the final render
 - [ ] Hook in the first 3 s (Shorts) / 30 s (long); title question answered by the end; no filler
 - [ ] A visual change at least every 3 s (Shorts) / 5 s (long); retention beat every 30–45 s (long)
+- [ ] AI disclosure decided with the docs/ai_disclosure.md test; `ai_disclosure` written in upload_meta.json; video added to the register
 - [ ] Motion is eased and smooth; no frozen characters; mouths in sync; no jitter or popping
 - [ ] Final frames are full-resolution Kaggle renders; no blurry, stretched or upscaled images
 - [ ] Consistent cast, lighting and colour across all shots
