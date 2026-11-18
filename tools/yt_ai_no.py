@@ -1,4 +1,4 @@
-"""Owner rule 16 Nov 2026: the AI/altered/synthetic field is always No on every video (never blank).
+"""Applies the AI/altered disclosure decision from docs/ai_disclosure.json (owner 18 Nov 2026: per-video decision; today every video is No).
 python tools/yt_ai_no.py          -> dry run: lists videos whose field is not yet No (~2 units per 50 videos)
 python tools/yt_ai_no.py --apply  -> videos.update part=status (~50 units each); keeps privacy, publishAt, license etc. unchanged."""
 import sys, json, datetime as dt
