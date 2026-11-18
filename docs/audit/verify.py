@@ -29,6 +29,8 @@ V = []
 for i in range(0, len(ids), 50):
     V += get("videos?part=snippet,status,contentDetails,statistics&id=" + ",".join(ids[i:i + 50])).get("items", [])
 PL = get("playlists?part=snippet,contentDetails&mine=true&maxResults=50").get("items", [])
+if not V:
+    sys.exit("ABORT: 0 videos read (YouTube API quota exhausted or error) - results would be meaningless")
 fixes = {f["id"]: f for f in json.load(open(os.path.join(ROOT, "docs/audit/metadata_fixes.json")))["fixes"]}
 
 
