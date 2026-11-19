@@ -27,6 +27,10 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
 - Quality beats length and posting frequency, always. Never lower quality for a length or date: make it shorter or take longer.
 - Long videos start at 5–8 min, growing to 8–12 min as the asset library grows. Daily posting is not required; public text never promises a schedule.
 - Every video passes the animatic check and the professional QA gate (skill §2b, §9, `qa.md` all ticked) before upload. Amateur → fix or cut.
+- **Originality / YouTube "inauthentic content" (YPP monetization; checked 19 Nov 2026):** AI narration is allowed, but templated, near-identical,
+  mass-produced videos lose monetization. Every video needs its own researched script (sources.md), its own set, props and staging (never the
+  same scene re-skinned), a real explanation or story, and visible variety between consecutive uploads (setting, cast mix, camera, music mood,
+  structure). Never re-upload or lightly re-edit an existing video; cut Shorts must be re-composed with their own hook. Quality over quantity.
 - Factual accuracy: verify every claim against reliable sources (2+ in `sources.md`); never present unverified information as confirmed.
 
 ## About the owner

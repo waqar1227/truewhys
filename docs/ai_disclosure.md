@@ -79,3 +79,8 @@ Unsure → **Yes** (disclosing never hurts reach or money; a missing disclosure 
 - Live check: 43/43 videos read from the API, none marked Yes by YouTube.
 - **Result: all 43 stay No.** If YouTube ever auto-labels a video (its detection may notice synthetic narration), **leave YouTube's label as it is**:
   a label never limits reach or money, and accepting it avoids any dispute. Re-check this register whenever the Help page changes.
+
+## Owner's ChatGPT advice, checked independently 19 Nov 2026
+Same conclusion reached on our own evidence (above): cartoon/stylised videos with a generic TTS narrator → **No**; realistic fabricated footage
+or a real person's voice → Yes. Its extra point is right and separate: YouTube's monetization rule on "inauthentic" (mass-produced/repetitive)
+content (support.google.com/youtube/answer/1311392, renamed from "repetitious content" 15 Jul 2025). Added as a QA rule in CLAUDE.md + skill §9.

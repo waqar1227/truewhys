@@ -297,6 +297,7 @@ winners, keep 20% for tests.
 - [ ] Owner approved the animatic before the final render
 - [ ] Hook in the first 3 s (Shorts) / 30 s (long); title question answered by the end; no filler
 - [ ] A visual change at least every 3 s (Shorts) / 5 s (long); retention beat every 30–45 s (long)
+- [ ] Originality: own researched script, own set/props/staging, clearly different from the last 3 uploads (YPP inauthentic-content rule)
 - [ ] AI disclosure decided with the docs/ai_disclosure.md test; `ai_disclosure` written in upload_meta.json; video added to the register
 - [ ] Motion is eased and smooth; no frozen characters; mouths in sync; no jitter or popping
 - [ ] Final frames are full-resolution Kaggle renders; no blurry, stretched or upscaled images
