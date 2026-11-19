@@ -12,6 +12,18 @@ deleted (they had no repo; the 18/19 Nov runs did not happen). Plan: L4 Fri 27 N
           after 18 Nov 08:00 UTC: `python3 tools/make_srt.py episodes/B-001-animal-trials --upload 9C-9O0c6VqM`, same for B-002 h2oO3SrSUH8, B-003 Am8epkS94Hw (~400 units each).
    [ ] 5. `python3 docs/audit/verify.py` (needs quota) → commit, push, short message to the owner.
    If quota runs out midway: leave the unticked items here for the next reset.
+** L4 = B-004 "Why Everyday Things Are Shaped So Weirdly" (working title) — production session_01BQj2Dd62mCxqrytuRaL8gE, started 19 Nov.
+   Style F + cast v2.1, 1920x1080, 6:17 (narration 5:20 + chapter breaks + 20 s end screen), cat 28. Slot Fri 27 Nov 15:00 UTC.
+   Cut Shorts (vertical, rewritten, §6.3): C1 coin ridges/Newton · C2 stop signs were yellow · C3 bottle cap 21 teeth → Gillette · C4 round manholes;
+   slots Sat 28, Sun 29, Mon 30 Nov, Tue 1 Dec 16:00 UTC.
+   DONE 19 Nov: topic.md (10 titles, religion check: clear), sources.md (2+ per claim), lines.txt, Gemini voice ch0–8 (FLAC in voice/; 10 requests used
+   19 Nov), make.py (71 shots, 9 chapters, end screen), animatic/stills.jpg checked once. New: lib/flat_shapes.py props, 10 cast v2.1 roles in lib/cast2.py,
+   flat2d 16:9 via TW_FLAT_SIZE.
+   NEXT (in order): 1) 20 Nov after 08:00 UTC: quota items 4–5 above first. 2) Polish animatic: split the 24 shots > 5.5 s (`make.py qa` lists them),
+   better England map (O04), square-lid fall (C202), bigger characters in street wides; render `make.py animatic`, watch it once.
+   3) Shorts: write 4 vertical scripts (20–35 s, frame-1 rule, answer in last 5 s, loop, corner badge) + record hooks with Gemini (≤10 req/day).
+   4) 22/23 Nov: `bash tools/daily.sh`, read research/stats/<date>.md (A-009/A-010 48 h) → lock title (shortlist in topic.md), hook, first frames.
+   5) Final render (CPU, Style F), 3 thumbnails, seo/upload_meta (ai_disclosure), qa.md, SRT. 6) Upload L4 25 Nov (+captions), Shorts 26–27 Nov (≤5 uploads/day).
 ** 16 Nov 11:20 UTC (production session_01BQj2DdBXfG9cs6NCxGLzLV; old heartbeat disabled 17 Nov):
    STYLE A/B TEST SETTLED. A-016 v3 (fixed hook_cut + loop_q) QA PASS; A-017 QA PASS. Rescheduled A-012 1r8faDAYoTQ → 24 Nov, A-011 yyBUc7aM2lA → 25,
    A-013 bHC7F6nNwWM → 26. UPLOADED A-016 pwVCqe756X8 → 22 Nov 16:00 UTC, A-017 S8zIxiPXHpE → 23 Nov 16:00 UTC ("thumbnail": true, playlist Why Does That Happen?).

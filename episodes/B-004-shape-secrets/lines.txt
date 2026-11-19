@@ -1,7 +1,7 @@
 # id | chapter | text (captions) || say (pronunciation for the voice, optional)
 # B-004 v1 (19 Nov 2026). L4 long video, Style F + cast v2.1. Six everyday shapes, each one a scene with a person, a place, a year and the object.
 # Structure: cold open story → six "why is it shaped like that?" mysteries (each starts with its picture and question, never "number one") → payoff.
-# Chapters = Gemini requests (8): 0 cold open, 1 coins, 2 manholes, 3 stop signs, 4 paper bags, 5 bottle caps, 6 crackers, 7 ending.
+# Chapters = Gemini requests (9): 0 cold open, 1 coins, 2 manholes, 3 stop signs, 4 paper bags, 5 bottle caps, 8 plug prongs (added for length, before crackers), 6 crackers, 7 ending.
 # Clip candidates (cut Shorts, rewritten for vertical): C1 coins (ch1), C2 stop sign yellow (ch3), C3 bottle cap 21 teeth (ch5), C4 manhole (ch2).
 O01|0|London, 1696. A man sits by a candle with a pair of scissors... and snips the edge off a silver coin.
 O02|0|Just a sliver. Then the next coin. And the next.
@@ -49,6 +49,12 @@ C505|5|But over the years, makers settled on twenty-one. Enough to hold the fizz
 C506|5|Painter even sold the bottle opener.
 C507|5|And one of his salesmen got some famous advice. Painter told him: invent something that people use once, throw away, and buy again.
 C508|5|That salesman was King Gillette. A few years later, he had the idea for the throwaway razor blade.
+P01|8|Next, something hiding behind your sofa. Why do the flat prongs on an American plug have little holes?
+P02|8|The first answer was clever. Some early sockets had tiny bumps inside that clicked into the holes, so the plug wouldn't slip out.
+P03|8|But open most sockets today, and there's no bump at all. The prongs are just gripped by springy metal.
+P04|8|So what are the holes for now? The official standard answers in one dry line: the hole is optional, and it's for manufacturing.
+P05|8|The holes help hold the metal prongs in place while the plastic plug is moulded around them.
+P06|8|Sometimes the strangest shape has the most boring answer.
 C601|6|Last one. It's on your plate. Why do crackers have little holes?
 C602|6|It isn't decoration. When cracker dough bakes, the water inside turns to steam.
 C603|6|With nowhere to go, the steam blows bubbles, and the cracker puffs up like a pillow.

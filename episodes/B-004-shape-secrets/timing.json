@@ -4165,6 +4165,611 @@
   "match": 1.0
  },
  {
+  "id": "P01",
+  "chapter": 8,
+  "text": "Next, something hiding behind your sofa. Why do the flat prongs on an American plug have little holes?",
+  "dur": 6.59,
+  "words": [
+   {
+    "w": "Next,",
+    "s": 0.0,
+    "e": 0.52
+   },
+   {
+    "w": "something",
+    "s": 1.06,
+    "e": 1.26
+   },
+   {
+    "w": "hiding",
+    "s": 1.26,
+    "e": 1.54
+   },
+   {
+    "w": "behind",
+    "s": 1.54,
+    "e": 1.84
+   },
+   {
+    "w": "your",
+    "s": 1.84,
+    "e": 2.0
+   },
+   {
+    "w": "sofa.",
+    "s": 2.0,
+    "e": 2.28
+   },
+   {
+    "w": "Why",
+    "s": 3.16,
+    "e": 3.26
+   },
+   {
+    "w": "do",
+    "s": 3.26,
+    "e": 3.4
+   },
+   {
+    "w": "the",
+    "s": 3.4,
+    "e": 3.56
+   },
+   {
+    "w": "flat",
+    "s": 3.56,
+    "e": 3.84
+   },
+   {
+    "w": "prongs",
+    "s": 3.84,
+    "e": 4.24
+   },
+   {
+    "w": "on",
+    "s": 4.24,
+    "e": 4.48
+   },
+   {
+    "w": "an",
+    "s": 4.48,
+    "e": 4.66
+   },
+   {
+    "w": "American",
+    "s": 4.66,
+    "e": 4.94
+   },
+   {
+    "w": "plug",
+    "s": 4.94,
+    "e": 5.3
+   },
+   {
+    "w": "have",
+    "s": 5.3,
+    "e": 5.7
+   },
+   {
+    "w": "little",
+    "s": 5.7,
+    "e": 5.92
+   },
+   {
+    "w": "holes?",
+    "s": 5.92,
+    "e": 6.22
+   }
+  ],
+  "heard": "Next, something hiding behind your sofa. Why do the flat prongs on an American plug have little holes?",
+  "match": 1.0
+ },
+ {
+  "id": "P02",
+  "chapter": 8,
+  "text": "The first answer was clever. Some early sockets had tiny bumps inside that clicked into the holes, so the plug wouldn't slip out.",
+  "dur": 7.1,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.03,
+    "e": 0.29
+   },
+   {
+    "w": "first",
+    "s": 0.29,
+    "e": 0.49
+   },
+   {
+    "w": "answer",
+    "s": 0.49,
+    "e": 0.81
+   },
+   {
+    "w": "was",
+    "s": 0.81,
+    "e": 1.01
+   },
+   {
+    "w": "clever.",
+    "s": 1.01,
+    "e": 1.29
+   },
+   {
+    "w": "Some",
+    "s": 1.85,
+    "e": 2.01
+   },
+   {
+    "w": "early",
+    "s": 2.01,
+    "e": 2.37
+   },
+   {
+    "w": "sockets",
+    "s": 2.37,
+    "e": 2.67
+   },
+   {
+    "w": "had",
+    "s": 2.67,
+    "e": 2.93
+   },
+   {
+    "w": "tiny",
+    "s": 2.93,
+    "e": 3.33
+   },
+   {
+    "w": "bumps",
+    "s": 3.33,
+    "e": 3.61
+   },
+   {
+    "w": "inside",
+    "s": 3.61,
+    "e": 4.13
+   },
+   {
+    "w": "that",
+    "s": 4.13,
+    "e": 4.47
+   },
+   {
+    "w": "clicked",
+    "s": 4.47,
+    "e": 4.77
+   },
+   {
+    "w": "into",
+    "s": 4.77,
+    "e": 5.05
+   },
+   {
+    "w": "the",
+    "s": 5.05,
+    "e": 5.19
+   },
+   {
+    "w": "holes,",
+    "s": 5.19,
+    "e": 5.49
+   },
+   {
+    "w": "so",
+    "s": 5.67,
+    "e": 5.85
+   },
+   {
+    "w": "the",
+    "s": 5.85,
+    "e": 5.97
+   },
+   {
+    "w": "plug",
+    "s": 5.97,
+    "e": 6.19
+   },
+   {
+    "w": "wouldn't",
+    "s": 6.19,
+    "e": 6.43
+   },
+   {
+    "w": "slip",
+    "s": 6.43,
+    "e": 6.63
+   },
+   {
+    "w": "out.",
+    "s": 6.63,
+    "e": 6.97
+   }
+  ],
+  "heard": "The first answer was clever. Some early sockets had tiny bumps inside that clicked into the holes, so the plug wouldn't slip out.",
+  "match": 1.0
+ },
+ {
+  "id": "P03",
+  "chapter": 8,
+  "text": "But open most sockets today, and there's no bump at all. The prongs are just gripped by springy metal.",
+  "dur": 5.82,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.03,
+    "e": 0.25
+   },
+   {
+    "w": "open",
+    "s": 0.25,
+    "e": 0.53
+   },
+   {
+    "w": "most",
+    "s": 0.53,
+    "e": 0.71
+   },
+   {
+    "w": "sockets",
+    "s": 0.71,
+    "e": 1.01
+   },
+   {
+    "w": "today,",
+    "s": 1.01,
+    "e": 1.43
+   },
+   {
+    "w": "and",
+    "s": 1.89,
+    "e": 2.13
+   },
+   {
+    "w": "there's",
+    "s": 2.13,
+    "e": 2.29
+   },
+   {
+    "w": "no",
+    "s": 2.29,
+    "e": 2.47
+   },
+   {
+    "w": "bump",
+    "s": 2.47,
+    "e": 2.75
+   },
+   {
+    "w": "at",
+    "s": 2.75,
+    "e": 2.89
+   },
+   {
+    "w": "all.",
+    "s": 2.89,
+    "e": 3.19
+   },
+   {
+    "w": "The",
+    "s": 3.77,
+    "e": 3.91
+   },
+   {
+    "w": "prongs",
+    "s": 3.91,
+    "e": 4.17
+   },
+   {
+    "w": "are",
+    "s": 4.17,
+    "e": 4.31
+   },
+   {
+    "w": "just",
+    "s": 4.31,
+    "e": 4.47
+   },
+   {
+    "w": "gripped",
+    "s": 4.47,
+    "e": 4.75
+   },
+   {
+    "w": "by",
+    "s": 4.75,
+    "e": 5.01
+   },
+   {
+    "w": "springy",
+    "s": 5.01,
+    "e": 5.47
+   },
+   {
+    "w": "metal.",
+    "s": 5.47,
+    "e": 5.59
+   }
+  ],
+  "heard": "But open most sockets today, and there's no bump at all. The prongs are just gripped by springy metal.",
+  "match": 1.0
+ },
+ {
+  "id": "P04",
+  "chapter": 8,
+  "text": "So what are the holes for now? The official standard answers in one dry line: the hole is optional, and it's for manufacturing.",
+  "dur": 7.95,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.03,
+    "e": 0.27
+   },
+   {
+    "w": "what",
+    "s": 0.27,
+    "e": 0.45
+   },
+   {
+    "w": "are",
+    "s": 0.45,
+    "e": 0.55
+   },
+   {
+    "w": "the",
+    "s": 0.55,
+    "e": 0.65
+   },
+   {
+    "w": "holes",
+    "s": 0.65,
+    "e": 0.83
+   },
+   {
+    "w": "for",
+    "s": 0.83,
+    "e": 1.11
+   },
+   {
+    "w": "now?",
+    "s": 1.11,
+    "e": 1.43
+   },
+   {
+    "w": "The",
+    "s": 2.31,
+    "e": 2.57
+   },
+   {
+    "w": "official",
+    "s": 2.57,
+    "e": 2.89
+   },
+   {
+    "w": "standard",
+    "s": 2.89,
+    "e": 3.27
+   },
+   {
+    "w": "answers",
+    "s": 3.27,
+    "e": 3.65
+   },
+   {
+    "w": "in",
+    "s": 3.65,
+    "e": 3.93
+   },
+   {
+    "w": "one",
+    "s": 3.93,
+    "e": 4.25
+   },
+   {
+    "w": "dry",
+    "s": 4.25,
+    "e": 4.55
+   },
+   {
+    "w": "line:",
+    "s": 4.55,
+    "e": 4.85
+   },
+   {
+    "w": "the",
+    "s": 5.53,
+    "e": 5.73
+   },
+   {
+    "w": "hole",
+    "s": 5.73,
+    "e": 5.91
+   },
+   {
+    "w": "is",
+    "s": 5.91,
+    "e": 6.05
+   },
+   {
+    "w": "optional,",
+    "s": 6.05,
+    "e": 6.41
+   },
+   {
+    "w": "and",
+    "s": 6.67,
+    "e": 6.85
+   },
+   {
+    "w": "it's",
+    "s": 6.85,
+    "e": 6.95
+   },
+   {
+    "w": "for",
+    "s": 6.95,
+    "e": 7.09
+   },
+   {
+    "w": "manufacturing.",
+    "s": 7.09,
+    "e": 7.57
+   }
+  ],
+  "heard": "So what are the holes for now? The official standard answers in one dry line. The hole is optional, and it's for manufacturing.",
+  "match": 1.0
+ },
+ {
+  "id": "P05",
+  "chapter": 8,
+  "text": "The holes help hold the metal prongs in place while the plastic plug is moulded around them.",
+  "dur": 4.92,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.03,
+    "e": 0.61
+   },
+   {
+    "w": "holes",
+    "s": 0.61,
+    "e": 0.87
+   },
+   {
+    "w": "help",
+    "s": 0.87,
+    "e": 1.11
+   },
+   {
+    "w": "hold",
+    "s": 1.11,
+    "e": 1.39
+   },
+   {
+    "w": "the",
+    "s": 1.39,
+    "e": 1.55
+   },
+   {
+    "w": "metal",
+    "s": 1.55,
+    "e": 1.73
+   },
+   {
+    "w": "prongs",
+    "s": 1.73,
+    "e": 2.05
+   },
+   {
+    "w": "in",
+    "s": 2.05,
+    "e": 2.19
+   },
+   {
+    "w": "place",
+    "s": 2.19,
+    "e": 2.49
+   },
+   {
+    "w": "while",
+    "s": 2.49,
+    "e": 2.93
+   },
+   {
+    "w": "the",
+    "s": 2.93,
+    "e": 3.07
+   },
+   {
+    "w": "plastic",
+    "s": 3.07,
+    "e": 3.41
+   },
+   {
+    "w": "plug",
+    "s": 3.41,
+    "e": 3.73
+   },
+   {
+    "w": "is",
+    "s": 3.73,
+    "e": 3.93
+   },
+   {
+    "w": "moulded",
+    "s": 3.93,
+    "e": 4.27
+   },
+   {
+    "w": "around",
+    "s": 4.27,
+    "e": 4.47
+   },
+   {
+    "w": "them.",
+    "s": 4.47,
+    "e": 4.79
+   }
+  ],
+  "heard": "The holes help hold the metal prongs in place while the plastic plug is moulded around them.",
+  "match": 1.0
+ },
+ {
+  "id": "P06",
+  "chapter": 8,
+  "text": "Sometimes the strangest shape has the most boring answer.",
+  "dur": 2.89,
+  "words": [
+   {
+    "w": "Sometimes",
+    "s": 0.11,
+    "e": 0.45
+   },
+   {
+    "w": "the",
+    "s": 0.45,
+    "e": 0.73
+   },
+   {
+    "w": "strangest",
+    "s": 0.73,
+    "e": 1.15
+   },
+   {
+    "w": "shape",
+    "s": 1.15,
+    "e": 1.37
+   },
+   {
+    "w": "has",
+    "s": 1.37,
+    "e": 1.89
+   },
+   {
+    "w": "the",
+    "s": 1.89,
+    "e": 2.01
+   },
+   {
+    "w": "most",
+    "s": 2.01,
+    "e": 2.15
+   },
+   {
+    "w": "boring",
+    "s": 2.15,
+    "e": 2.39
+   },
+   {
+    "w": "answer.",
+    "s": 2.39,
+    "e": 2.71
+   }
+  ],
+  "heard": "Sometimes the strangest shape has the most boring answer.",
+  "match": 1.0
+ },
+ {
   "id": "C601",
   "chapter": 6,
   "text": "Last one. It's on your plate. Why do crackers have little holes?",

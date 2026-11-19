@@ -53,8 +53,7 @@ def coin(g, x, y, r, metal="silver", ridges=True, clip=0.0, rot=0.0, face="head"
             g.ellipse(-r * 0.35, -r * 0.4, r * 0.28, r * 0.12, "#FFFFFF", None, a=0.55 * glint, rot=-0.6)
         if clip > 0:
             g.c.restore()
-            xc = r * 1.2 - r * 0.55 * clip - r * 0.2 - r * 1.2 + r * 1.2
-            xc = r - r * 0.55 * clip - r * 0.2 + r * 0.2
+            xc = r - r * 0.55 * clip
             h = math.sqrt(max(0.0, r * r - xc * xc))
             g.line([(xc, -h), (xc, h)], INK, max(4, r * 0.06))
 

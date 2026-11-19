@@ -53,3 +53,10 @@
 
 ## Not used (could not verify well enough)
 - Pencil hexagon reasons; plug-prong holes (NEMA calls them optional/manufacturing); Newton in disguise in taverns; exact year 24→21 teeth.
+
+## Plug prongs (ch 8, added 19 Nov for length)
+- Early (Hubbell-type) sockets had bumps/detents that caught the holes; most modern sockets have none, prongs held by friction of the spring contacts;
+  NEMA: the hole is optional and intended for manufacturing purposes only; holes hold the blades while the plastic body is moulded (UL expert):
+  - HowStuffWorks, "Why do electrical prongs have holes in them?" — https://home.howstuffworks.com/two-flat-prong-plug-holes.htm
+  - Mental Floss, "Why do electrical plugs have holes in the prongs?" — https://www.mentalfloss.com/culture/design/why-do-electrical-plugs-have-holes-in-the-prongs
+  - SlashGear, "What are the holes in electrical plug prongs for?" — https://www.slashgear.com/1850521/electrical-plug-prongs-holes-use-explained-what-for
