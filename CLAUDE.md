@@ -21,7 +21,7 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
   voice clone, altered real footage, AI music as the focus; unsure → Yes). Never Yes just because AI tools were used, never No just because it looks original.
   Write it in `upload_meta.json` `"ai_disclosure": {"synthetic": bool, "reason": "..."}` and tick it in qa.md; lib/youtube.py refuses an upload
   without it; add the video to the register (docs/ai_disclosure.md/.json). Re-read YouTube's Help page (answer 14328491) when its policy changes
-  and re-check the register. Never mention AI in public text. TikTok (when resumed): same decision for `isAigc`.
+  and re-check the register; if YouTube itself labels a video, leave its label. Never mention AI in public text. TikTok (when resumed): same decision for `isAigc`.
 
 ## Rule number 1: professional quality first
 - Quality beats length and posting frequency, always. Never lower quality for a length or date: make it shorter or take longer.

@@ -68,3 +68,14 @@ Unsure → **Yes** (disclosing never hurts reach or money; a missing disclosure 
 | PQDcJuv570Y | B-003-pirate-myths/C7 | Why One Pirate Captain Gave His Crew a Bedtime | T | **No** |
 | cLtK1MIprGs | B-003-pirate-myths/C8 | Why Pirates Got Paid for Losing an Arm | T | **No** |
 | YL5gMoQVH7w | B-003-pirate-myths/C9 | How Pirate Crews Could Vote Out Their Captain | T | **No** |
+
+## Second check, 19 Nov 2026 (owner: "double check ... I just not want any trouble")
+- Re-read YouTube Help 14328491 + "How this content was made" 15447836: no 2026 change; disclosure is for content that **seems realistic**;
+  "non-realistic content that's made with AI" needs none; non-photorealistic/animated AI content may only get a description label.
+- Looked at a frame of every episode (one contact sheet): all flat 2D / 3D toon cartoons; A-016/A-017 are plainly computer-made people on a
+  plain studio backdrop doing generic actions (no real person, place or event) → cannot be mistaken for real footage.
+- Searched code and credits: no AI image/video generation anywhere, no photos or real footage, no voice clone or "sound like X" prompt
+  (Gemini TTS "Charon" / Kokoro, generic narrator), music code-generated (lib/music.py), maps = Natural Earth outlines drawn as cartoons.
+- Live check: 43/43 videos read from the API, none marked Yes by YouTube.
+- **Result: all 43 stay No.** If YouTube ever auto-labels a video (its detection may notice synthetic narration), **leave YouTube's label as it is**:
+  a label never limits reach or money, and accepting it avoids any dispute. Re-check this register whenever the Help page changes.
