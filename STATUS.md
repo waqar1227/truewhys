@@ -1,8 +1,9 @@
 # STATUS (read the NEXT list first)
 
 ## NEXT (keep this list short; heartbeat does only these)
-(17 Nov 13:30 UTC, owner: save usage, no quality loss) Production heartbeat is now a FRESH session every day at 08:20 UTC (trig_01KmphpMjsqsSR6MfFr8EBMw);
-growth review a fresh Sonnet session at 07:13 UTC (trig_01AJ9hU3mRUzg8EbRcRFe6R6). Old bound tasks disabled. Messages for production: put them HERE in NEXT.
+(19 Nov 10:25 UTC) EPISODE L4 (long video + 3–4 cut Shorts) is made in session_01BQj2Dd62mCxqrytuRaL8gE; the daily heartbeat 08:20 UTC wakes it
+(trig_01U9ha9sUaxEmdjvYwdNiuef). Growth review: session_01BQj2Ddx5onh4fxoyVPNSuk (Sonnet) 07:13 UTC (trig_011uF6VcThSztFE5aQ3rWwSv). Old fresh-session tasks
+deleted (they had no repo; the 18/19 Nov runs did not happen). Plan: L4 Fri 27 Nov 15:00 UTC; cut Shorts Sat 28 – Tue 1 Dec 16:00 UTC (audit §4).
 !! AFTER YOUTUBE QUOTA RESET (08:00 UTC daily) — DO FIRST, before anything else, then tick here:
    [x] 1. AI field = No on ALL 43 videos (17 Nov 08:10; tools/yt_ai_no.py; YouTube's GET hides "false", so proof = docs/audit/ai_no.json, dry run says 0 left).
    [x] 2. thumb_v2 set on the 7 scheduled Shorts (17 Nov; uploaded.json thumbnail_file updated).

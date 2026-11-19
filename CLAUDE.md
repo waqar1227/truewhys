@@ -152,7 +152,9 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
   never repeat an unsuccessful strategy without analysis; never invent metrics or findings.
 
 ## Saving Claude usage (never at the cost of quality) — owner 17 Nov 2026: "do all which is best, but no compromise on quality"
-- **Scheduled jobs always start a FRESH session** (create_new_session_on_fire); never bind them to a long chat (a long chat re-reads its whole history on every wake).
+- **Scheduled jobs wake a SMALL dedicated session that has the repo attached** (create_session with source_url + outcome_branch, then a scheduled task with
+  persistent_session_id). Never bind them to a long chat (it re-reads its whole history on every wake). Do NOT use create_new_session_on_fire: those
+  sessions start without the repo, and the server stops main-model runs there (found 18–19 Nov). Start a new episode session for each episode.
 - Production heartbeat: **once a day, 08:20 UTC** (right after the YouTube quota reset; normal model). It first does the "AFTER YOUTUBE QUOTA RESET" list,
   then only the NEXT list at the top of `STATUS.md`. **If nothing is due, stop within 3 tool calls** (no reports, no edits). Twice a day only while a
   Kaggle render or a QA-passed upload is waiting (then add a one-shot reminder, not a second daily run).
