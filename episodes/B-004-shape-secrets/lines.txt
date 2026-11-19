@@ -1,0 +1,62 @@
+# id | chapter | text (captions) || say (pronunciation for the voice, optional)
+# B-004 v1 (19 Nov 2026). L4 long video, Style F + cast v2.1. Six everyday shapes, each one a scene with a person, a place, a year and the object.
+# Structure: cold open story → six "why is it shaped like that?" mysteries (each starts with its picture and question, never "number one") → payoff.
+# Chapters = Gemini requests (8): 0 cold open, 1 coins, 2 manholes, 3 stop signs, 4 paper bags, 5 bottle caps, 6 crackers, 7 ending.
+# Clip candidates (cut Shorts, rewritten for vertical): C1 coins (ch1), C2 stop sign yellow (ch3), C3 bottle cap 21 teeth (ch5), C4 manhole (ch2).
+O01|0|London, 1696. A man sits by a candle with a pair of scissors... and snips the edge off a silver coin.
+O02|0|Just a sliver. Then the next coin. And the next.
+O03|0|He melts the silver slivers into a lump, and spends the shaved coins as if nothing happened.
+O04|0|All over England, people are doing this. And the man sent to stop them... is Isaac Newton.
+O05|0|His answer is still in your pocket today. So is the answer to stop signs, manholes, bottle caps and crackers.
+O06|0|Because almost every strange shape around you was a fix for problems somebody had.
+C101|1|So why do so many coins have tiny ridges on the edge?
+C102|1|Most coins in English pockets were old ones, hammered out by hand. They were never perfectly round, so nobody noticed a missing edge.
+C103|1|Clipping was so serious it counted as treason. You could be hanged for it.
+C104|1|In 1696, England called in the old hammered coins and replaced them with machine-made ones, with patterned edges.
+C105|1|Now, if someone trimmed a coin, the pattern was gone. Anyone could see it in a second.
+C106|1|Newton ran the Mint's hunt for coin criminals. He collected the evidence against one of London's most famous forgers, William Chaloner.
+C107|1|In 1699, Chaloner was hanged.
+C108|1|Today, an American dime or quarter has no silver in it at all. There's nothing worth shaving.
+C109|1|So why keep the ridges? Partly tradition... and partly your fingers. A dime and a penny are almost the same size. With your eyes closed, the ridges tell you which is which.
+C201|2|Now look down. Why is almost every manhole cover round?
+C202|2|Try this with a square one. Turn it on its side, and the long diagonal fits right through the hole.
+C203|2|Clang. A heavy iron lid falls into the sewer... maybe onto a worker.
+C204|2|A circle is the same width in every direction. However you turn it, it can never fall through its own hole.
+C205|2|A round lid is also easy to roll, instead of lifting it. And it drops back in at any angle.
+C206|2|A rounded triangle, called a Reuleaux triangle, is the same width in every direction too.||A rounded triangle, called a roo-LOH triangle, is the same width in every direction too.
+C207|2|Engineers just found the circle easier to make.
+C301|3|Now, the stop sign. Why does it have eight sides?
+C302|3|In 1923, a group of American road engineers had a strange idea: the more sides a sign has, the more dangerous the place.
+C303|3|A circle, with endless sides, meant a railway crossing: the deadliest spot of all.
+C304|3|Eight sides meant stop. A diamond meant caution. A square meant care. A rectangle was just information.
+C305|3|And here's the twist. For about thirty years, most American stop signs weren't red.
+C306|3|They were yellow, with black letters.
+C307|3|Red paint faded in the sun. A pale pink sign is easy to miss, and that's dangerous.
+C308|3|Only in 1954, when paint and reflective material lasted, did the stop sign finally turn red.
+C401|4|Next, the grocery bag. Why does a paper bag have a flat, square bottom?
+C402|4|Early paper bags were like big envelopes. Flat, pointed at the bottom... and they fell over.
+C403|4|In the late 1860s, Margaret Knight worked in a paper bag factory in Massachusetts.
+C404|4|She built a wooden model of a machine that folded and glued a bag with a flat bottom.
+C405|4|She took it to a machine shop to have it made in iron. And a man named Charles Annan saw it... and patented it first.
+C406|4|In court, Annan's argument was simple: a woman couldn't possibly design a machine like this.
+C407|4|Knight brought her drawings, her notes and her diary.
+C408|4|In 1871, she won. The patent was hers. And the bag that stands up on its own is still her design.
+C501|5|Now count the teeth on a bottle cap. Twenty-one. Almost every time.
+C502|5|In the 1880s, soda and beer bottles were sealed with corks and wire. The gas leaked, and the drink went flat.
+C503|5|In 1892, in Baltimore, William Painter patented a metal cap with a crimped skirt, like a little crown.
+C504|5|His first caps had twenty-four teeth.
+C505|5|But over the years, makers settled on twenty-one. Enough to hold the fizz in, and still easy to pop off with an opener.
+C506|5|Painter even sold the bottle opener.
+C507|5|And one of his salesmen got some famous advice. Painter told him: invent something that people use once, throw away, and buy again.
+C508|5|That salesman was King Gillette. A few years later, he had the idea for the throwaway razor blade.
+C601|6|Last one. It's on your plate. Why do crackers have little holes?
+C602|6|It isn't decoration. When cracker dough bakes, the water inside turns to steam.
+C603|6|With nowhere to go, the steam blows bubbles, and the cracker puffs up like a pillow.
+C604|6|So bakers poke holes into the dough before it goes into the oven. It's called docking.
+C605|6|The steam escapes through the holes, and the cracker stays flat and crisp.
+C606|6|Too few holes, and it puffs. Too many, and it turns hard and dry. The pattern is measured, not random.
+E01|7|Ridges that catch thieves. A lid that can't fall in. A colour that waited thirty years. A bag that won in court.
+E02|7|A cap that started a razor company. And holes that let a cracker breathe.
+E03|7|None of these shapes are an accident.
+E04|7|So next time you pick up a coin, run your thumb along the edge. You're touching the trap Newton set for thieves.
+E05|7|Which shape around you should we explain next? Tell us in the comments.

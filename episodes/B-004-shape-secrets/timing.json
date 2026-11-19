@@ -1,0 +1,5117 @@
+[
+ {
+  "id": "O01",
+  "chapter": 0,
+  "text": "London, 1696. A man sits by a candle with a pair of scissors... and snips the edge off a silver coin.",
+  "dur": 8.86,
+  "words": [
+   {
+    "w": "London,",
+    "s": 0.0,
+    "e": 0.78
+   },
+   {
+    "w": "1696.",
+    "s": 0.98,
+    "e": 2.32
+   },
+   {
+    "w": "A",
+    "s": 3.26,
+    "e": 3.26
+   },
+   {
+    "w": "man",
+    "s": 3.26,
+    "e": 3.46
+   },
+   {
+    "w": "sits",
+    "s": 3.46,
+    "e": 3.72
+   },
+   {
+    "w": "by",
+    "s": 3.72,
+    "e": 4.02
+   },
+   {
+    "w": "a",
+    "s": 4.02,
+    "e": 4.16
+   },
+   {
+    "w": "candle",
+    "s": 4.16,
+    "e": 4.48
+   },
+   {
+    "w": "with",
+    "s": 4.48,
+    "e": 4.7
+   },
+   {
+    "w": "a",
+    "s": 4.7,
+    "e": 4.8
+   },
+   {
+    "w": "pair",
+    "s": 4.8,
+    "e": 4.98
+   },
+   {
+    "w": "of",
+    "s": 4.98,
+    "e": 5.14
+   },
+   {
+    "w": "scissors...",
+    "s": 5.14,
+    "e": 6.38
+   },
+   {
+    "w": "and",
+    "s": 6.38,
+    "e": 6.38
+   },
+   {
+    "w": "snips",
+    "s": 6.38,
+    "e": 6.86
+   },
+   {
+    "w": "the",
+    "s": 6.86,
+    "e": 7.1
+   },
+   {
+    "w": "edge",
+    "s": 7.1,
+    "e": 7.48
+   },
+   {
+    "w": "off",
+    "s": 7.48,
+    "e": 7.86
+   },
+   {
+    "w": "a",
+    "s": 7.86,
+    "e": 8.08
+   },
+   {
+    "w": "silver",
+    "s": 8.08,
+    "e": 8.3
+   },
+   {
+    "w": "coin.",
+    "s": 8.3,
+    "e": 8.66
+   }
+  ],
+  "heard": "London, 1696. A man sits by a candle with a pair of scissors... and snips the edge off a silver coin.",
+  "match": 1.0
+ },
+ {
+  "id": "O02",
+  "chapter": 0,
+  "text": "Just a sliver. Then the next coin. And the next.",
+  "dur": 3.08,
+  "words": [
+   {
+    "w": "Just",
+    "s": 0.09,
+    "e": 0.19
+   },
+   {
+    "w": "a",
+    "s": 0.19,
+    "e": 0.37
+   },
+   {
+    "w": "sliver.",
+    "s": 0.37,
+    "e": 0.57
+   },
+   {
+    "w": "Then",
+    "s": 1.17,
+    "e": 1.27
+   },
+   {
+    "w": "the",
+    "s": 1.27,
+    "e": 1.39
+   },
+   {
+    "w": "next",
+    "s": 1.39,
+    "e": 1.59
+   },
+   {
+    "w": "coin.",
+    "s": 1.59,
+    "e": 1.81
+   },
+   {
+    "w": "And",
+    "s": 2.29,
+    "e": 2.43
+   },
+   {
+    "w": "the",
+    "s": 2.43,
+    "e": 2.53
+   },
+   {
+    "w": "next.",
+    "s": 2.53,
+    "e": 2.73
+   }
+  ],
+  "heard": "Just a sliver. Then the next coin. And the next.",
+  "match": 1.0
+ },
+ {
+  "id": "O03",
+  "chapter": 0,
+  "text": "He melts the silver slivers into a lump, and spends the shaved coins as if nothing happened.",
+  "dur": 5.9,
+  "words": [
+   {
+    "w": "He",
+    "s": 0.03,
+    "e": 0.37
+   },
+   {
+    "w": "melts",
+    "s": 0.37,
+    "e": 0.65
+   },
+   {
+    "w": "the",
+    "s": 0.65,
+    "e": 0.95
+   },
+   {
+    "w": "silver",
+    "s": 0.95,
+    "e": 1.21
+   },
+   {
+    "w": "slivers",
+    "s": 1.21,
+    "e": 1.57
+   },
+   {
+    "w": "into",
+    "s": 1.57,
+    "e": 1.87
+   },
+   {
+    "w": "a",
+    "s": 1.87,
+    "e": 2.11
+   },
+   {
+    "w": "lump,",
+    "s": 2.11,
+    "e": 2.33
+   },
+   {
+    "w": "and",
+    "s": 2.73,
+    "e": 2.95
+   },
+   {
+    "w": "spends",
+    "s": 2.95,
+    "e": 3.29
+   },
+   {
+    "w": "the",
+    "s": 3.29,
+    "e": 3.57
+   },
+   {
+    "w": "shaved",
+    "s": 3.57,
+    "e": 3.77
+   },
+   {
+    "w": "coins",
+    "s": 3.77,
+    "e": 4.13
+   },
+   {
+    "w": "as",
+    "s": 4.13,
+    "e": 4.43
+   },
+   {
+    "w": "if",
+    "s": 4.43,
+    "e": 4.61
+   },
+   {
+    "w": "nothing",
+    "s": 4.61,
+    "e": 4.99
+   },
+   {
+    "w": "happened.",
+    "s": 4.99,
+    "e": 5.63
+   }
+  ],
+  "heard": "He melts the silver slivers into a lump, and spends the shaved coins as if nothing happened.",
+  "match": 1.0
+ },
+ {
+  "id": "O04",
+  "chapter": 0,
+  "text": "All over England, people are doing this. And the man sent to stop them... is Isaac Newton.",
+  "dur": 5.66,
+  "words": [
+   {
+    "w": "All",
+    "s": 0.03,
+    "e": 0.39
+   },
+   {
+    "w": "over",
+    "s": 0.39,
+    "e": 0.67
+   },
+   {
+    "w": "England,",
+    "s": 0.67,
+    "e": 0.97
+   },
+   {
+    "w": "people",
+    "s": 1.11,
+    "e": 1.23
+   },
+   {
+    "w": "are",
+    "s": 1.23,
+    "e": 1.41
+   },
+   {
+    "w": "doing",
+    "s": 1.41,
+    "e": 1.57
+   },
+   {
+    "w": "this.",
+    "s": 1.57,
+    "e": 1.85
+   },
+   {
+    "w": "And",
+    "s": 2.45,
+    "e": 2.63
+   },
+   {
+    "w": "the",
+    "s": 2.63,
+    "e": 2.73
+   },
+   {
+    "w": "man",
+    "s": 2.73,
+    "e": 2.89
+   },
+   {
+    "w": "sent",
+    "s": 2.89,
+    "e": 3.11
+   },
+   {
+    "w": "to",
+    "s": 3.11,
+    "e": 3.27
+   },
+   {
+    "w": "stop",
+    "s": 3.27,
+    "e": 3.49
+   },
+   {
+    "w": "them...",
+    "s": 3.49,
+    "e": 4.51
+   },
+   {
+    "w": "is",
+    "s": 4.51,
+    "e": 4.63
+   },
+   {
+    "w": "Isaac",
+    "s": 4.63,
+    "e": 5.05
+   },
+   {
+    "w": "Newton.",
+    "s": 5.05,
+    "e": 5.31
+   }
+  ],
+  "heard": "All over England, people are doing this. And the man sent to stop them... is Isaac Newton.",
+  "match": 1.0
+ },
+ {
+  "id": "O05",
+  "chapter": 0,
+  "text": "His answer is still in your pocket today. So is the answer to stop signs, manholes, bottle caps and crackers.",
+  "dur": 6.16,
+  "words": [
+   {
+    "w": "His",
+    "s": 0.03,
+    "e": 0.21
+   },
+   {
+    "w": "answer",
+    "s": 0.21,
+    "e": 0.41
+   },
+   {
+    "w": "is",
+    "s": 0.41,
+    "e": 0.61
+   },
+   {
+    "w": "still",
+    "s": 0.61,
+    "e": 0.81
+   },
+   {
+    "w": "in",
+    "s": 0.81,
+    "e": 0.95
+   },
+   {
+    "w": "your",
+    "s": 0.95,
+    "e": 1.05
+   },
+   {
+    "w": "pocket",
+    "s": 1.05,
+    "e": 1.25
+   },
+   {
+    "w": "today.",
+    "s": 1.25,
+    "e": 1.63
+   },
+   {
+    "w": "So",
+    "s": 1.63,
+    "e": 2.43
+   },
+   {
+    "w": "is",
+    "s": 2.43,
+    "e": 2.57
+   },
+   {
+    "w": "the",
+    "s": 2.57,
+    "e": 2.71
+   },
+   {
+    "w": "answer",
+    "s": 2.71,
+    "e": 2.93
+   },
+   {
+    "w": "to",
+    "s": 2.93,
+    "e": 3.11
+   },
+   {
+    "w": "stop",
+    "s": 3.11,
+    "e": 3.37
+   },
+   {
+    "w": "signs,",
+    "s": 3.37,
+    "e": 3.81
+   },
+   {
+    "w": "manholes,",
+    "s": 4.23,
+    "e": 4.59
+   },
+   {
+    "w": "bottle",
+    "s": 4.89,
+    "e": 4.95
+   },
+   {
+    "w": "caps",
+    "s": 4.95,
+    "e": 5.25
+   },
+   {
+    "w": "and",
+    "s": 5.25,
+    "e": 5.51
+   },
+   {
+    "w": "crackers.",
+    "s": 5.51,
+    "e": 5.97
+   }
+  ],
+  "heard": "His answer is still in your pocket today. So is the answer to stop signs, manholes, bottle caps and crackers.",
+  "match": 1.0
+ },
+ {
+  "id": "O06",
+  "chapter": 0,
+  "text": "Because almost every strange shape around you was a fix for problems somebody had.",
+  "dur": 4.34,
+  "words": [
+   {
+    "w": "Because",
+    "s": 0.06,
+    "e": 0.24
+   },
+   {
+    "w": "almost",
+    "s": 0.24,
+    "e": 0.58
+   },
+   {
+    "w": "every",
+    "s": 0.58,
+    "e": 1.0
+   },
+   {
+    "w": "strange",
+    "s": 1.0,
+    "e": 1.36
+   },
+   {
+    "w": "shape",
+    "s": 1.36,
+    "e": 1.68
+   },
+   {
+    "w": "around",
+    "s": 1.68,
+    "e": 1.94
+   },
+   {
+    "w": "you",
+    "s": 1.94,
+    "e": 2.14
+   },
+   {
+    "w": "was",
+    "s": 2.14,
+    "e": 2.32
+   },
+   {
+    "w": "a",
+    "s": 2.32,
+    "e": 2.44
+   },
+   {
+    "w": "fix",
+    "s": 2.44,
+    "e": 2.7
+   },
+   {
+    "w": "for",
+    "s": 2.7,
+    "e": 3.08
+   },
+   {
+    "w": "problems",
+    "s": 3.08,
+    "e": 3.46
+   },
+   {
+    "w": "somebody",
+    "s": 3.46,
+    "e": 3.82
+   },
+   {
+    "w": "had.",
+    "s": 3.82,
+    "e": 4.16
+   }
+  ],
+  "heard": "Because almost every strange shape around you was a fix for problems somebody had.",
+  "match": 1.0
+ },
+ {
+  "id": "C101",
+  "chapter": 1,
+  "text": "So why do so many coins have tiny ridges on the edge?",
+  "dur": 3.59,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.0,
+    "e": 0.44
+   },
+   {
+    "w": "why",
+    "s": 0.44,
+    "e": 0.68
+   },
+   {
+    "w": "do",
+    "s": 0.68,
+    "e": 0.82
+   },
+   {
+    "w": "so",
+    "s": 0.82,
+    "e": 1.02
+   },
+   {
+    "w": "many",
+    "s": 1.02,
+    "e": 1.26
+   },
+   {
+    "w": "coins",
+    "s": 1.26,
+    "e": 1.62
+   },
+   {
+    "w": "have",
+    "s": 1.62,
+    "e": 1.9
+   },
+   {
+    "w": "tiny",
+    "s": 1.9,
+    "e": 2.34
+   },
+   {
+    "w": "ridges",
+    "s": 2.34,
+    "e": 2.86
+   },
+   {
+    "w": "on",
+    "s": 2.86,
+    "e": 3.0
+   },
+   {
+    "w": "the",
+    "s": 3.0,
+    "e": 3.12
+   },
+   {
+    "w": "edge?",
+    "s": 3.12,
+    "e": 3.36
+   }
+  ],
+  "heard": "So why do so many coins have tiny ridges on the edge?",
+  "match": 1.0
+ },
+ {
+  "id": "C102",
+  "chapter": 1,
+  "text": "Most coins in English pockets were old ones, hammered out by hand. They were never perfectly round, so nobody noticed a missing edge.",
+  "dur": 7.48,
+  "words": [
+   {
+    "w": "Most",
+    "s": 0.15,
+    "e": 0.31
+   },
+   {
+    "w": "coins",
+    "s": 0.31,
+    "e": 0.63
+   },
+   {
+    "w": "in",
+    "s": 0.63,
+    "e": 0.87
+   },
+   {
+    "w": "English",
+    "s": 0.87,
+    "e": 1.11
+   },
+   {
+    "w": "pockets",
+    "s": 1.11,
+    "e": 1.49
+   },
+   {
+    "w": "were",
+    "s": 1.49,
+    "e": 1.75
+   },
+   {
+    "w": "old",
+    "s": 1.75,
+    "e": 2.09
+   },
+   {
+    "w": "ones,",
+    "s": 2.09,
+    "e": 2.37
+   },
+   {
+    "w": "hammered",
+    "s": 2.61,
+    "e": 2.85
+   },
+   {
+    "w": "out",
+    "s": 2.85,
+    "e": 3.05
+   },
+   {
+    "w": "by",
+    "s": 3.05,
+    "e": 3.23
+   },
+   {
+    "w": "hand.",
+    "s": 3.23,
+    "e": 3.49
+   },
+   {
+    "w": "They",
+    "s": 4.03,
+    "e": 4.11
+   },
+   {
+    "w": "were",
+    "s": 4.11,
+    "e": 4.21
+   },
+   {
+    "w": "never",
+    "s": 4.21,
+    "e": 4.39
+   },
+   {
+    "w": "perfectly",
+    "s": 4.39,
+    "e": 4.85
+   },
+   {
+    "w": "round,",
+    "s": 4.85,
+    "e": 5.21
+   },
+   {
+    "w": "so",
+    "s": 5.59,
+    "e": 5.79
+   },
+   {
+    "w": "nobody",
+    "s": 5.79,
+    "e": 6.03
+   },
+   {
+    "w": "noticed",
+    "s": 6.03,
+    "e": 6.41
+   },
+   {
+    "w": "a",
+    "s": 6.41,
+    "e": 6.63
+   },
+   {
+    "w": "missing",
+    "s": 6.63,
+    "e": 6.89
+   },
+   {
+    "w": "edge.",
+    "s": 6.89,
+    "e": 7.29
+   }
+  ],
+  "heard": "Most coins in English pockets were old ones, hammered out by hand. They were never perfectly round, so nobody noticed a missing edge.",
+  "match": 1.0
+ },
+ {
+  "id": "C103",
+  "chapter": 1,
+  "text": "Clipping was so serious it counted as treason. You could be hanged for it.",
+  "dur": 4.12,
+  "words": [
+   {
+    "w": "Clipping",
+    "s": 0.03,
+    "e": 0.37
+   },
+   {
+    "w": "was",
+    "s": 0.37,
+    "e": 0.51
+   },
+   {
+    "w": "so",
+    "s": 0.51,
+    "e": 0.71
+   },
+   {
+    "w": "serious",
+    "s": 0.71,
+    "e": 1.15
+   },
+   {
+    "w": "it",
+    "s": 1.15,
+    "e": 1.37
+   },
+   {
+    "w": "counted",
+    "s": 1.37,
+    "e": 1.67
+   },
+   {
+    "w": "as",
+    "s": 1.67,
+    "e": 1.95
+   },
+   {
+    "w": "treason.",
+    "s": 1.95,
+    "e": 2.37
+   },
+   {
+    "w": "You",
+    "s": 2.77,
+    "e": 2.85
+   },
+   {
+    "w": "could",
+    "s": 2.85,
+    "e": 2.95
+   },
+   {
+    "w": "be",
+    "s": 2.95,
+    "e": 3.09
+   },
+   {
+    "w": "hanged",
+    "s": 3.09,
+    "e": 3.39
+   },
+   {
+    "w": "for",
+    "s": 3.39,
+    "e": 3.69
+   },
+   {
+    "w": "it.",
+    "s": 3.69,
+    "e": 3.99
+   }
+  ],
+  "heard": "Clipping was so serious it counted as treason. You could be hanged for it.",
+  "match": 1.0
+ },
+ {
+  "id": "C104",
+  "chapter": 1,
+  "text": "In 1696, England called in the old hammered coins and replaced them with machine-made ones, with patterned edges.",
+  "dur": 6.88,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.03,
+    "e": 0.21
+   },
+   {
+    "w": "1696,",
+    "s": 0.21,
+    "e": 1.05
+   },
+   {
+    "w": "England",
+    "s": 1.55,
+    "e": 1.65
+   },
+   {
+    "w": "called",
+    "s": 1.65,
+    "e": 1.99
+   },
+   {
+    "w": "in",
+    "s": 1.99,
+    "e": 2.19
+   },
+   {
+    "w": "the",
+    "s": 2.19,
+    "e": 2.31
+   },
+   {
+    "w": "old",
+    "s": 2.31,
+    "e": 2.63
+   },
+   {
+    "w": "hammered",
+    "s": 2.63,
+    "e": 2.93
+   },
+   {
+    "w": "coins",
+    "s": 2.93,
+    "e": 3.35
+   },
+   {
+    "w": "and",
+    "s": 3.35,
+    "e": 3.59
+   },
+   {
+    "w": "replaced",
+    "s": 3.59,
+    "e": 3.89
+   },
+   {
+    "w": "them",
+    "s": 3.89,
+    "e": 4.13
+   },
+   {
+    "w": "with",
+    "s": 4.13,
+    "e": 4.55
+   },
+   {
+    "w": "machine-made",
+    "s": 4.55,
+    "e": 5.19
+   },
+   {
+    "w": "ones,",
+    "s": 5.19,
+    "e": 5.51
+   },
+   {
+    "w": "with",
+    "s": 5.73,
+    "e": 5.87
+   },
+   {
+    "w": "patterned",
+    "s": 5.87,
+    "e": 6.37
+   },
+   {
+    "w": "edges.",
+    "s": 6.37,
+    "e": 6.63
+   }
+  ],
+  "heard": "In 1696, England called in the old hammered coins and replaced them with machine -made ones, with patterned edges.",
+  "match": 0.919
+ },
+ {
+  "id": "C105",
+  "chapter": 1,
+  "text": "Now, if someone trimmed a coin, the pattern was gone. Anyone could see it in a second.",
+  "dur": 4.59,
+  "words": [
+   {
+    "w": "Now,",
+    "s": 0.05,
+    "e": 0.25
+   },
+   {
+    "w": "if",
+    "s": 0.33,
+    "e": 0.37
+   },
+   {
+    "w": "someone",
+    "s": 0.37,
+    "e": 0.63
+   },
+   {
+    "w": "trimmed",
+    "s": 0.63,
+    "e": 0.87
+   },
+   {
+    "w": "a",
+    "s": 0.87,
+    "e": 1.03
+   },
+   {
+    "w": "coin,",
+    "s": 1.03,
+    "e": 1.23
+   },
+   {
+    "w": "the",
+    "s": 1.59,
+    "e": 1.73
+   },
+   {
+    "w": "pattern",
+    "s": 1.73,
+    "e": 2.03
+   },
+   {
+    "w": "was",
+    "s": 2.03,
+    "e": 2.29
+   },
+   {
+    "w": "gone.",
+    "s": 2.29,
+    "e": 2.69
+   },
+   {
+    "w": "Anyone",
+    "s": 3.27,
+    "e": 3.43
+   },
+   {
+    "w": "could",
+    "s": 3.43,
+    "e": 3.67
+   },
+   {
+    "w": "see",
+    "s": 3.67,
+    "e": 3.87
+   },
+   {
+    "w": "it",
+    "s": 3.87,
+    "e": 3.95
+   },
+   {
+    "w": "in",
+    "s": 3.95,
+    "e": 4.05
+   },
+   {
+    "w": "a",
+    "s": 4.05,
+    "e": 4.17
+   },
+   {
+    "w": "second.",
+    "s": 4.17,
+    "e": 4.41
+   }
+  ],
+  "heard": "Now, if someone trimmed a coin, the pattern was gone. Anyone could see it in a second.",
+  "match": 1.0
+ },
+ {
+  "id": "C106",
+  "chapter": 1,
+  "text": "Newton ran the Mint's hunt for coin criminals. He collected the evidence against one of London's most famous forgers, William Chaloner.",
+  "dur": 6.94,
+  "words": [
+   {
+    "w": "Newton",
+    "s": 0.03,
+    "e": 0.41
+   },
+   {
+    "w": "ran",
+    "s": 0.41,
+    "e": 0.73
+   },
+   {
+    "w": "the",
+    "s": 0.73,
+    "e": 0.95
+   },
+   {
+    "w": "Mint's",
+    "s": 0.95,
+    "e": 1.21
+   },
+   {
+    "w": "hunt",
+    "s": 1.21,
+    "e": 1.35
+   },
+   {
+    "w": "for",
+    "s": 1.35,
+    "e": 1.59
+   },
+   {
+    "w": "coin",
+    "s": 1.59,
+    "e": 1.85
+   },
+   {
+    "w": "criminals.",
+    "s": 1.85,
+    "e": 2.29
+   },
+   {
+    "w": "He",
+    "s": 2.77,
+    "e": 2.93
+   },
+   {
+    "w": "collected",
+    "s": 2.93,
+    "e": 3.17
+   },
+   {
+    "w": "the",
+    "s": 3.17,
+    "e": 3.41
+   },
+   {
+    "w": "evidence",
+    "s": 3.41,
+    "e": 3.69
+   },
+   {
+    "w": "against",
+    "s": 3.69,
+    "e": 3.95
+   },
+   {
+    "w": "one",
+    "s": 3.95,
+    "e": 4.17
+   },
+   {
+    "w": "of",
+    "s": 4.17,
+    "e": 4.31
+   },
+   {
+    "w": "London's",
+    "s": 4.31,
+    "e": 4.63
+   },
+   {
+    "w": "most",
+    "s": 4.63,
+    "e": 4.77
+   },
+   {
+    "w": "famous",
+    "s": 4.77,
+    "e": 5.19
+   },
+   {
+    "w": "forgers,",
+    "s": 5.19,
+    "e": 5.71
+   },
+   {
+    "w": "William",
+    "s": 5.99,
+    "e": 6.25
+   },
+   {
+    "w": "Chaloner.",
+    "s": 6.25,
+    "e": 6.71
+   }
+  ],
+  "heard": "Newton ran the Mint's hunt for coin criminals. He collected the evidence against one of London's most famous forgers, William Chaloner.",
+  "match": 1.0
+ },
+ {
+  "id": "C107",
+  "chapter": 1,
+  "text": "In 1699, Chaloner was hanged.",
+  "dur": 2.78,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.04,
+    "e": 0.16
+   },
+   {
+    "w": "1699,",
+    "s": 0.16,
+    "e": 0.96
+   },
+   {
+    "w": "Chaloner",
+    "s": 1.6,
+    "e": 1.88
+   },
+   {
+    "w": "was",
+    "s": 1.88,
+    "e": 2.2
+   },
+   {
+    "w": "hanged.",
+    "s": 2.2,
+    "e": 2.52
+   }
+  ],
+  "heard": "In 1699, Chaloner was hanged.",
+  "match": 1.0
+ },
+ {
+  "id": "C108",
+  "chapter": 1,
+  "text": "Today, an American dime or quarter has no silver in it at all. There's nothing worth shaving.",
+  "dur": 4.92,
+  "words": [
+   {
+    "w": "Today,",
+    "s": 0.09,
+    "e": 0.33
+   },
+   {
+    "w": "an",
+    "s": 0.61,
+    "e": 0.83
+   },
+   {
+    "w": "American",
+    "s": 0.83,
+    "e": 1.15
+   },
+   {
+    "w": "dime",
+    "s": 1.15,
+    "e": 1.49
+   },
+   {
+    "w": "or",
+    "s": 1.49,
+    "e": 1.73
+   },
+   {
+    "w": "quarter",
+    "s": 1.73,
+    "e": 2.07
+   },
+   {
+    "w": "has",
+    "s": 2.07,
+    "e": 2.29
+   },
+   {
+    "w": "no",
+    "s": 2.29,
+    "e": 2.41
+   },
+   {
+    "w": "silver",
+    "s": 2.41,
+    "e": 2.73
+   },
+   {
+    "w": "in",
+    "s": 2.73,
+    "e": 2.95
+   },
+   {
+    "w": "it",
+    "s": 2.95,
+    "e": 3.07
+   },
+   {
+    "w": "at",
+    "s": 3.07,
+    "e": 3.17
+   },
+   {
+    "w": "all.",
+    "s": 3.17,
+    "e": 3.41
+   },
+   {
+    "w": "There's",
+    "s": 3.75,
+    "e": 3.91
+   },
+   {
+    "w": "nothing",
+    "s": 3.91,
+    "e": 4.05
+   },
+   {
+    "w": "worth",
+    "s": 4.05,
+    "e": 4.29
+   },
+   {
+    "w": "shaving.",
+    "s": 4.29,
+    "e": 4.63
+   }
+  ],
+  "heard": "Today, an American dime or quarter has no silver in it at all. There's nothing worth shaving.",
+  "match": 1.0
+ },
+ {
+  "id": "C109",
+  "chapter": 1,
+  "text": "So why keep the ridges? Partly tradition... and partly your fingers. A dime and a penny are almost the same size. With your eyes closed, the ridges tell you which is which.",
+  "dur": 9.53,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.07,
+    "e": 0.21
+   },
+   {
+    "w": "why",
+    "s": 0.21,
+    "e": 0.45
+   },
+   {
+    "w": "keep",
+    "s": 0.45,
+    "e": 0.61
+   },
+   {
+    "w": "the",
+    "s": 0.61,
+    "e": 0.75
+   },
+   {
+    "w": "ridges?",
+    "s": 0.75,
+    "e": 1.05
+   },
+   {
+    "w": "Partly",
+    "s": 1.73,
+    "e": 1.99
+   },
+   {
+    "w": "tradition...",
+    "s": 1.99,
+    "e": 2.31
+   },
+   {
+    "w": "and",
+    "s": 2.31,
+    "e": 3.07
+   },
+   {
+    "w": "partly",
+    "s": 3.07,
+    "e": 3.51
+   },
+   {
+    "w": "your",
+    "s": 3.51,
+    "e": 3.69
+   },
+   {
+    "w": "fingers.",
+    "s": 3.69,
+    "e": 3.91
+   },
+   {
+    "w": "A",
+    "s": 4.49,
+    "e": 4.67
+   },
+   {
+    "w": "dime",
+    "s": 4.67,
+    "e": 4.93
+   },
+   {
+    "w": "and",
+    "s": 4.93,
+    "e": 5.09
+   },
+   {
+    "w": "a",
+    "s": 5.09,
+    "e": 5.19
+   },
+   {
+    "w": "penny",
+    "s": 5.19,
+    "e": 5.37
+   },
+   {
+    "w": "are",
+    "s": 5.37,
+    "e": 5.55
+   },
+   {
+    "w": "almost",
+    "s": 5.55,
+    "e": 5.75
+   },
+   {
+    "w": "the",
+    "s": 5.75,
+    "e": 5.93
+   },
+   {
+    "w": "same",
+    "s": 5.93,
+    "e": 6.09
+   },
+   {
+    "w": "size.",
+    "s": 6.09,
+    "e": 6.45
+   },
+   {
+    "w": "With",
+    "s": 6.89,
+    "e": 7.03
+   },
+   {
+    "w": "your",
+    "s": 7.03,
+    "e": 7.13
+   },
+   {
+    "w": "eyes",
+    "s": 7.13,
+    "e": 7.29
+   },
+   {
+    "w": "closed,",
+    "s": 7.29,
+    "e": 7.63
+   },
+   {
+    "w": "the",
+    "s": 8.03,
+    "e": 8.11
+   },
+   {
+    "w": "ridges",
+    "s": 8.11,
+    "e": 8.45
+   },
+   {
+    "w": "tell",
+    "s": 8.45,
+    "e": 8.67
+   },
+   {
+    "w": "you",
+    "s": 8.67,
+    "e": 8.85
+   },
+   {
+    "w": "which",
+    "s": 8.85,
+    "e": 9.01
+   },
+   {
+    "w": "is",
+    "s": 9.01,
+    "e": 9.17
+   },
+   {
+    "w": "which.",
+    "s": 9.17,
+    "e": 9.35
+   }
+  ],
+  "heard": "So why keep the ridges? Partly tradition and partly your fingers. A dime and a penny are almost the same size. With your eyes closed, the ridges tell you which is which.",
+  "match": 1.0
+ },
+ {
+  "id": "C201",
+  "chapter": 2,
+  "text": "Now look down. Why is almost every manhole cover round?",
+  "dur": 4.19,
+  "words": [
+   {
+    "w": "Now",
+    "s": 0.0,
+    "e": 0.44
+   },
+   {
+    "w": "look",
+    "s": 0.44,
+    "e": 0.96
+   },
+   {
+    "w": "down.",
+    "s": 0.96,
+    "e": 1.32
+   },
+   {
+    "w": "Why",
+    "s": 2.0,
+    "e": 2.12
+   },
+   {
+    "w": "is",
+    "s": 2.12,
+    "e": 2.36
+   },
+   {
+    "w": "almost",
+    "s": 2.36,
+    "e": 2.6
+   },
+   {
+    "w": "every",
+    "s": 2.6,
+    "e": 3.02
+   },
+   {
+    "w": "manhole",
+    "s": 3.02,
+    "e": 3.44
+   },
+   {
+    "w": "cover",
+    "s": 3.44,
+    "e": 3.74
+   },
+   {
+    "w": "round?",
+    "s": 3.74,
+    "e": 4.06
+   }
+  ],
+  "heard": "Now look down. Why is almost every manhole cover round?",
+  "match": 1.0
+ },
+ {
+  "id": "C202",
+  "chapter": 2,
+  "text": "Try this with a square one. Turn it on its side, and the long diagonal fits right through the hole.",
+  "dur": 5.02,
+  "words": [
+   {
+    "w": "Try",
+    "s": 0.04,
+    "e": 0.24
+   },
+   {
+    "w": "this",
+    "s": 0.24,
+    "e": 0.38
+   },
+   {
+    "w": "with",
+    "s": 0.38,
+    "e": 0.52
+   },
+   {
+    "w": "a",
+    "s": 0.52,
+    "e": 0.64
+   },
+   {
+    "w": "square",
+    "s": 0.64,
+    "e": 0.8
+   },
+   {
+    "w": "one.",
+    "s": 0.8,
+    "e": 1.08
+   },
+   {
+    "w": "Turn",
+    "s": 1.62,
+    "e": 1.74
+   },
+   {
+    "w": "it",
+    "s": 1.74,
+    "e": 1.86
+   },
+   {
+    "w": "on",
+    "s": 1.86,
+    "e": 1.94
+   },
+   {
+    "w": "its",
+    "s": 1.94,
+    "e": 2.08
+   },
+   {
+    "w": "side,",
+    "s": 2.08,
+    "e": 2.34
+   },
+   {
+    "w": "and",
+    "s": 2.62,
+    "e": 2.78
+   },
+   {
+    "w": "the",
+    "s": 2.78,
+    "e": 2.92
+   },
+   {
+    "w": "long",
+    "s": 2.92,
+    "e": 3.22
+   },
+   {
+    "w": "diagonal",
+    "s": 3.22,
+    "e": 3.7
+   },
+   {
+    "w": "fits",
+    "s": 3.7,
+    "e": 4.0
+   },
+   {
+    "w": "right",
+    "s": 4.0,
+    "e": 4.34
+   },
+   {
+    "w": "through",
+    "s": 4.34,
+    "e": 4.54
+   },
+   {
+    "w": "the",
+    "s": 4.54,
+    "e": 4.7
+   },
+   {
+    "w": "hole.",
+    "s": 4.7,
+    "e": 4.86
+   }
+  ],
+  "heard": "Try this with a square one. Turn it on its side, and the long diagonal fits right through the hole.",
+  "match": 1.0
+ },
+ {
+  "id": "C203",
+  "chapter": 2,
+  "text": "Clang. A heavy iron lid falls into the sewer... maybe onto a worker.",
+  "dur": 4.77,
+  "words": [
+   {
+    "w": "Clang.",
+    "s": 0.18,
+    "e": 0.3
+   },
+   {
+    "w": "A",
+    "s": 0.9,
+    "e": 1.1
+   },
+   {
+    "w": "heavy",
+    "s": 1.1,
+    "e": 1.38
+   },
+   {
+    "w": "iron",
+    "s": 1.38,
+    "e": 1.74
+   },
+   {
+    "w": "lid",
+    "s": 1.74,
+    "e": 1.98
+   },
+   {
+    "w": "falls",
+    "s": 1.98,
+    "e": 2.22
+   },
+   {
+    "w": "into",
+    "s": 2.22,
+    "e": 2.42
+   },
+   {
+    "w": "the",
+    "s": 2.42,
+    "e": 2.6
+   },
+   {
+    "w": "sewer...",
+    "s": 2.6,
+    "e": 3.74
+   },
+   {
+    "w": "maybe",
+    "s": 3.74,
+    "e": 3.86
+   },
+   {
+    "w": "onto",
+    "s": 3.86,
+    "e": 4.1
+   },
+   {
+    "w": "a",
+    "s": 4.1,
+    "e": 4.3
+   },
+   {
+    "w": "worker.",
+    "s": 4.3,
+    "e": 4.5
+   }
+  ],
+  "heard": "Clang. A heavy iron lid falls into the sewer... maybe onto a worker.",
+  "match": 1.0
+ },
+ {
+  "id": "C204",
+  "chapter": 2,
+  "text": "A circle is the same width in every direction. However you turn it, it can never fall through its own hole.",
+  "dur": 5.96,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.03,
+    "e": 0.27
+   },
+   {
+    "w": "circle",
+    "s": 0.27,
+    "e": 0.57
+   },
+   {
+    "w": "is",
+    "s": 0.57,
+    "e": 0.95
+   },
+   {
+    "w": "the",
+    "s": 0.95,
+    "e": 1.15
+   },
+   {
+    "w": "same",
+    "s": 1.15,
+    "e": 1.41
+   },
+   {
+    "w": "width",
+    "s": 1.41,
+    "e": 1.67
+   },
+   {
+    "w": "in",
+    "s": 1.67,
+    "e": 1.93
+   },
+   {
+    "w": "every",
+    "s": 1.93,
+    "e": 2.27
+   },
+   {
+    "w": "direction.",
+    "s": 2.27,
+    "e": 2.71
+   },
+   {
+    "w": "However",
+    "s": 3.25,
+    "e": 3.49
+   },
+   {
+    "w": "you",
+    "s": 3.49,
+    "e": 3.75
+   },
+   {
+    "w": "turn",
+    "s": 3.75,
+    "e": 3.91
+   },
+   {
+    "w": "it,",
+    "s": 3.91,
+    "e": 4.07
+   },
+   {
+    "w": "it",
+    "s": 4.29,
+    "e": 4.41
+   },
+   {
+    "w": "can",
+    "s": 4.41,
+    "e": 4.55
+   },
+   {
+    "w": "never",
+    "s": 4.55,
+    "e": 4.79
+   },
+   {
+    "w": "fall",
+    "s": 4.79,
+    "e": 5.07
+   },
+   {
+    "w": "through",
+    "s": 5.07,
+    "e": 5.25
+   },
+   {
+    "w": "its",
+    "s": 5.25,
+    "e": 5.37
+   },
+   {
+    "w": "own",
+    "s": 5.37,
+    "e": 5.53
+   },
+   {
+    "w": "hole.",
+    "s": 5.53,
+    "e": 5.79
+   }
+  ],
+  "heard": "A circle is the same width in every direction. However you turn it, it can never fall through its own hole.",
+  "match": 1.0
+ },
+ {
+  "id": "C205",
+  "chapter": 2,
+  "text": "A round lid is also easy to roll, instead of lifting it. And it drops back in at any angle.",
+  "dur": 5.4,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.06,
+    "e": 0.16
+   },
+   {
+    "w": "round",
+    "s": 0.16,
+    "e": 0.36
+   },
+   {
+    "w": "lid",
+    "s": 0.36,
+    "e": 0.52
+   },
+   {
+    "w": "is",
+    "s": 0.52,
+    "e": 0.66
+   },
+   {
+    "w": "also",
+    "s": 0.66,
+    "e": 0.84
+   },
+   {
+    "w": "easy",
+    "s": 0.84,
+    "e": 1.0
+   },
+   {
+    "w": "to",
+    "s": 1.0,
+    "e": 1.22
+   },
+   {
+    "w": "roll,",
+    "s": 1.22,
+    "e": 1.46
+   },
+   {
+    "w": "instead",
+    "s": 1.66,
+    "e": 1.9
+   },
+   {
+    "w": "of",
+    "s": 1.9,
+    "e": 2.04
+   },
+   {
+    "w": "lifting",
+    "s": 2.04,
+    "e": 2.18
+   },
+   {
+    "w": "it.",
+    "s": 2.18,
+    "e": 2.58
+   },
+   {
+    "w": "And",
+    "s": 3.12,
+    "e": 3.38
+   },
+   {
+    "w": "it",
+    "s": 3.38,
+    "e": 3.76
+   },
+   {
+    "w": "drops",
+    "s": 3.76,
+    "e": 3.98
+   },
+   {
+    "w": "back",
+    "s": 3.98,
+    "e": 4.24
+   },
+   {
+    "w": "in",
+    "s": 4.24,
+    "e": 4.48
+   },
+   {
+    "w": "at",
+    "s": 4.48,
+    "e": 4.7
+   },
+   {
+    "w": "any",
+    "s": 4.7,
+    "e": 4.92
+   },
+   {
+    "w": "angle.",
+    "s": 4.92,
+    "e": 5.22
+   }
+  ],
+  "heard": "A round lid is also easy to roll, instead of lifting it. And it drops back in at any angle.",
+  "match": 1.0
+ },
+ {
+  "id": "C206",
+  "chapter": 2,
+  "text": "A rounded triangle, called a Reuleaux triangle, is the same width in every direction too.",
+  "dur": 4.66,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.03,
+    "e": 0.47
+   },
+   {
+    "w": "rounded",
+    "s": 0.47,
+    "e": 0.73
+   },
+   {
+    "w": "triangle,",
+    "s": 0.73,
+    "e": 1.27
+   },
+   {
+    "w": "called",
+    "s": 1.47,
+    "e": 1.57
+   },
+   {
+    "w": "a",
+    "s": 1.57,
+    "e": 1.77
+   },
+   {
+    "w": "Reuleaux",
+    "s": 1.77,
+    "e": 2.21
+   },
+   {
+    "w": "triangle,",
+    "s": 2.21,
+    "e": 2.47
+   },
+   {
+    "w": "is",
+    "s": 2.71,
+    "e": 2.93
+   },
+   {
+    "w": "the",
+    "s": 2.93,
+    "e": 3.11
+   },
+   {
+    "w": "same",
+    "s": 3.11,
+    "e": 3.33
+   },
+   {
+    "w": "width",
+    "s": 3.33,
+    "e": 3.53
+   },
+   {
+    "w": "in",
+    "s": 3.53,
+    "e": 3.67
+   },
+   {
+    "w": "every",
+    "s": 3.67,
+    "e": 3.85
+   },
+   {
+    "w": "direction",
+    "s": 3.85,
+    "e": 4.13
+   },
+   {
+    "w": "too.",
+    "s": 4.13,
+    "e": 4.51
+   }
+  ],
+  "heard": "A rounded triangle, called a Reuleaux triangle, is the same width in every direction too.",
+  "match": 1.0
+ },
+ {
+  "id": "C207",
+  "chapter": 2,
+  "text": "Engineers just found the circle easier to make.",
+  "dur": 2.03,
+  "words": [
+   {
+    "w": "Engineers",
+    "s": 0.23,
+    "e": 0.35
+   },
+   {
+    "w": "just",
+    "s": 0.35,
+    "e": 0.69
+   },
+   {
+    "w": "found",
+    "s": 0.69,
+    "e": 0.93
+   },
+   {
+    "w": "the",
+    "s": 0.93,
+    "e": 1.07
+   },
+   {
+    "w": "circle",
+    "s": 1.07,
+    "e": 1.29
+   },
+   {
+    "w": "easier",
+    "s": 1.29,
+    "e": 1.47
+   },
+   {
+    "w": "to",
+    "s": 1.47,
+    "e": 1.67
+   },
+   {
+    "w": "make.",
+    "s": 1.67,
+    "e": 1.85
+   }
+  ],
+  "heard": "Engineers just found the circle easier to make.",
+  "match": 1.0
+ },
+ {
+  "id": "C301",
+  "chapter": 3,
+  "text": "Now, the stop sign. Why does it have eight sides?",
+  "dur": 4.4,
+  "words": [
+   {
+    "w": "Now,",
+    "s": 0.0,
+    "e": 0.48
+   },
+   {
+    "w": "the",
+    "s": 0.82,
+    "e": 0.94
+   },
+   {
+    "w": "stop",
+    "s": 0.94,
+    "e": 1.24
+   },
+   {
+    "w": "sign.",
+    "s": 1.24,
+    "e": 1.56
+   },
+   {
+    "w": "Why",
+    "s": 2.26,
+    "e": 2.44
+   },
+   {
+    "w": "does",
+    "s": 2.44,
+    "e": 2.64
+   },
+   {
+    "w": "it",
+    "s": 2.64,
+    "e": 2.76
+   },
+   {
+    "w": "have",
+    "s": 2.76,
+    "e": 3.14
+   },
+   {
+    "w": "eight",
+    "s": 3.14,
+    "e": 3.62
+   },
+   {
+    "w": "sides?",
+    "s": 3.62,
+    "e": 4.02
+   }
+  ],
+  "heard": "Now, the stop sign. Why does it have eight sides?",
+  "match": 1.0
+ },
+ {
+  "id": "C302",
+  "chapter": 3,
+  "text": "In 1923, a group of American road engineers had a strange idea: the more sides a sign has, the more dangerous the place.",
+  "dur": 8.87,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.04,
+    "e": 0.2
+   },
+   {
+    "w": "1923,",
+    "s": 0.2,
+    "e": 0.86
+   },
+   {
+    "w": "a",
+    "s": 1.52,
+    "e": 1.6
+   },
+   {
+    "w": "group",
+    "s": 1.6,
+    "e": 1.8
+   },
+   {
+    "w": "of",
+    "s": 1.8,
+    "e": 1.98
+   },
+   {
+    "w": "American",
+    "s": 1.98,
+    "e": 2.5
+   },
+   {
+    "w": "road",
+    "s": 2.5,
+    "e": 2.86
+   },
+   {
+    "w": "engineers",
+    "s": 2.86,
+    "e": 3.22
+   },
+   {
+    "w": "had",
+    "s": 3.22,
+    "e": 3.48
+   },
+   {
+    "w": "a",
+    "s": 3.48,
+    "e": 3.82
+   },
+   {
+    "w": "strange",
+    "s": 3.82,
+    "e": 4.12
+   },
+   {
+    "w": "idea:",
+    "s": 4.12,
+    "e": 4.7
+   },
+   {
+    "w": "the",
+    "s": 5.36,
+    "e": 5.46
+   },
+   {
+    "w": "more",
+    "s": 5.46,
+    "e": 5.64
+   },
+   {
+    "w": "sides",
+    "s": 5.64,
+    "e": 6.02
+   },
+   {
+    "w": "a",
+    "s": 6.02,
+    "e": 6.2
+   },
+   {
+    "w": "sign",
+    "s": 6.2,
+    "e": 6.4
+   },
+   {
+    "w": "has,",
+    "s": 6.4,
+    "e": 6.78
+   },
+   {
+    "w": "the",
+    "s": 7.2,
+    "e": 7.34
+   },
+   {
+    "w": "more",
+    "s": 7.34,
+    "e": 7.52
+   },
+   {
+    "w": "dangerous",
+    "s": 7.52,
+    "e": 8.06
+   },
+   {
+    "w": "the",
+    "s": 8.06,
+    "e": 8.3
+   },
+   {
+    "w": "place.",
+    "s": 8.3,
+    "e": 8.54
+   }
+  ],
+  "heard": "In 1923, a group of American road engineers had a strange idea. The more sides a sign has, the more dangerous the place.",
+  "match": 1.0
+ },
+ {
+  "id": "C303",
+  "chapter": 3,
+  "text": "A circle, with endless sides, meant a railway crossing: the deadliest spot of all.",
+  "dur": 4.87,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.03,
+    "e": 0.23
+   },
+   {
+    "w": "circle,",
+    "s": 0.23,
+    "e": 0.49
+   },
+   {
+    "w": "with",
+    "s": 0.79,
+    "e": 0.91
+   },
+   {
+    "w": "endless",
+    "s": 0.91,
+    "e": 1.37
+   },
+   {
+    "w": "sides,",
+    "s": 1.37,
+    "e": 1.73
+   },
+   {
+    "w": "meant",
+    "s": 2.07,
+    "e": 2.17
+   },
+   {
+    "w": "a",
+    "s": 2.17,
+    "e": 2.31
+   },
+   {
+    "w": "railway",
+    "s": 2.31,
+    "e": 2.55
+   },
+   {
+    "w": "crossing:",
+    "s": 2.55,
+    "e": 2.99
+   },
+   {
+    "w": "the",
+    "s": 3.41,
+    "e": 3.55
+   },
+   {
+    "w": "deadliest",
+    "s": 3.55,
+    "e": 3.97
+   },
+   {
+    "w": "spot",
+    "s": 3.97,
+    "e": 4.33
+   },
+   {
+    "w": "of",
+    "s": 4.33,
+    "e": 4.45
+   },
+   {
+    "w": "all.",
+    "s": 4.45,
+    "e": 4.71
+   }
+  ],
+  "heard": "A circle, with endless sides, meant a railway crossing, the deadliest spot of all.",
+  "match": 1.0
+ },
+ {
+  "id": "C304",
+  "chapter": 3,
+  "text": "Eight sides meant stop. A diamond meant caution. A square meant care. A rectangle was just information.",
+  "dur": 7.04,
+  "words": [
+   {
+    "w": "Eight",
+    "s": 0.09,
+    "e": 0.23
+   },
+   {
+    "w": "sides",
+    "s": 0.23,
+    "e": 0.67
+   },
+   {
+    "w": "meant",
+    "s": 0.67,
+    "e": 1.19
+   },
+   {
+    "w": "stop.",
+    "s": 1.19,
+    "e": 1.51
+   },
+   {
+    "w": "A",
+    "s": 2.17,
+    "e": 2.33
+   },
+   {
+    "w": "diamond",
+    "s": 2.33,
+    "e": 2.65
+   },
+   {
+    "w": "meant",
+    "s": 2.65,
+    "e": 2.93
+   },
+   {
+    "w": "caution.",
+    "s": 2.93,
+    "e": 3.33
+   },
+   {
+    "w": "A",
+    "s": 3.75,
+    "e": 3.93
+   },
+   {
+    "w": "square",
+    "s": 3.93,
+    "e": 4.33
+   },
+   {
+    "w": "meant",
+    "s": 4.33,
+    "e": 4.63
+   },
+   {
+    "w": "care.",
+    "s": 4.63,
+    "e": 4.97
+   },
+   {
+    "w": "A",
+    "s": 5.43,
+    "e": 5.53
+   },
+   {
+    "w": "rectangle",
+    "s": 5.53,
+    "e": 5.87
+   },
+   {
+    "w": "was",
+    "s": 5.87,
+    "e": 6.15
+   },
+   {
+    "w": "just",
+    "s": 6.15,
+    "e": 6.31
+   },
+   {
+    "w": "information.",
+    "s": 6.31,
+    "e": 6.67
+   }
+  ],
+  "heard": "Eight sides meant stop. A diamond meant caution. A square meant care. A rectangle was just information.",
+  "match": 1.0
+ },
+ {
+  "id": "C305",
+  "chapter": 3,
+  "text": "And here's the twist. For about thirty years, most American stop signs weren't red.",
+  "dur": 5.0,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.05,
+    "e": 0.19
+   },
+   {
+    "w": "here's",
+    "s": 0.19,
+    "e": 0.49
+   },
+   {
+    "w": "the",
+    "s": 0.49,
+    "e": 0.59
+   },
+   {
+    "w": "twist.",
+    "s": 0.59,
+    "e": 0.85
+   },
+   {
+    "w": "For",
+    "s": 1.39,
+    "e": 1.55
+   },
+   {
+    "w": "about",
+    "s": 1.55,
+    "e": 1.75
+   },
+   {
+    "w": "thirty",
+    "s": 1.75,
+    "e": 2.17
+   },
+   {
+    "w": "years,",
+    "s": 2.17,
+    "e": 2.61
+   },
+   {
+    "w": "most",
+    "s": 2.85,
+    "e": 2.95
+   },
+   {
+    "w": "American",
+    "s": 2.95,
+    "e": 3.29
+   },
+   {
+    "w": "stop",
+    "s": 3.29,
+    "e": 3.59
+   },
+   {
+    "w": "signs",
+    "s": 3.59,
+    "e": 3.87
+   },
+   {
+    "w": "weren't",
+    "s": 3.87,
+    "e": 4.55
+   },
+   {
+    "w": "red.",
+    "s": 4.55,
+    "e": 4.77
+   }
+  ],
+  "heard": "And here's the twist. For about thirty years, most American stop signs weren't red.",
+  "match": 1.0
+ },
+ {
+  "id": "C306",
+  "chapter": 3,
+  "text": "They were yellow, with black letters.",
+  "dur": 2.04,
+  "words": [
+   {
+    "w": "They",
+    "s": 0.05,
+    "e": 0.19
+   },
+   {
+    "w": "were",
+    "s": 0.19,
+    "e": 0.35
+   },
+   {
+    "w": "yellow,",
+    "s": 0.35,
+    "e": 0.77
+   },
+   {
+    "w": "with",
+    "s": 1.03,
+    "e": 1.15
+   },
+   {
+    "w": "black",
+    "s": 1.15,
+    "e": 1.39
+   },
+   {
+    "w": "letters.",
+    "s": 1.39,
+    "e": 1.77
+   }
+  ],
+  "heard": "They were yellow, with black letters.",
+  "match": 1.0
+ },
+ {
+  "id": "C307",
+  "chapter": 3,
+  "text": "Red paint faded in the sun. A pale pink sign is easy to miss, and that's dangerous.",
+  "dur": 4.84,
+  "words": [
+   {
+    "w": "Red",
+    "s": 0.11,
+    "e": 0.25
+   },
+   {
+    "w": "paint",
+    "s": 0.25,
+    "e": 0.45
+   },
+   {
+    "w": "faded",
+    "s": 0.45,
+    "e": 0.73
+   },
+   {
+    "w": "in",
+    "s": 0.73,
+    "e": 0.93
+   },
+   {
+    "w": "the",
+    "s": 0.93,
+    "e": 1.03
+   },
+   {
+    "w": "sun.",
+    "s": 1.03,
+    "e": 1.19
+   },
+   {
+    "w": "A",
+    "s": 1.65,
+    "e": 1.79
+   },
+   {
+    "w": "pale",
+    "s": 1.79,
+    "e": 1.99
+   },
+   {
+    "w": "pink",
+    "s": 1.99,
+    "e": 2.21
+   },
+   {
+    "w": "sign",
+    "s": 2.21,
+    "e": 2.49
+   },
+   {
+    "w": "is",
+    "s": 2.49,
+    "e": 2.65
+   },
+   {
+    "w": "easy",
+    "s": 2.65,
+    "e": 2.89
+   },
+   {
+    "w": "to",
+    "s": 2.89,
+    "e": 3.07
+   },
+   {
+    "w": "miss,",
+    "s": 3.07,
+    "e": 3.27
+   },
+   {
+    "w": "and",
+    "s": 3.51,
+    "e": 3.53
+   },
+   {
+    "w": "that's",
+    "s": 3.53,
+    "e": 3.87
+   },
+   {
+    "w": "dangerous.",
+    "s": 3.87,
+    "e": 4.39
+   }
+  ],
+  "heard": "Red paint faded in the sun. A pale pink sign is easy to miss, and that's dangerous.",
+  "match": 1.0
+ },
+ {
+  "id": "C308",
+  "chapter": 3,
+  "text": "Only in 1954, when paint and reflective material lasted, did the stop sign finally turn red.",
+  "dur": 5.77,
+  "words": [
+   {
+    "w": "Only",
+    "s": 0.05,
+    "e": 0.37
+   },
+   {
+    "w": "in",
+    "s": 0.37,
+    "e": 0.53
+   },
+   {
+    "w": "1954,",
+    "s": 0.53,
+    "e": 1.27
+   },
+   {
+    "w": "when",
+    "s": 1.65,
+    "e": 1.83
+   },
+   {
+    "w": "paint",
+    "s": 1.83,
+    "e": 2.09
+   },
+   {
+    "w": "and",
+    "s": 2.09,
+    "e": 2.27
+   },
+   {
+    "w": "reflective",
+    "s": 2.27,
+    "e": 2.63
+   },
+   {
+    "w": "material",
+    "s": 2.63,
+    "e": 3.09
+   },
+   {
+    "w": "lasted,",
+    "s": 3.09,
+    "e": 3.45
+   },
+   {
+    "w": "did",
+    "s": 3.91,
+    "e": 4.03
+   },
+   {
+    "w": "the",
+    "s": 4.03,
+    "e": 4.17
+   },
+   {
+    "w": "stop",
+    "s": 4.17,
+    "e": 4.37
+   },
+   {
+    "w": "sign",
+    "s": 4.37,
+    "e": 4.59
+   },
+   {
+    "w": "finally",
+    "s": 4.59,
+    "e": 5.07
+   },
+   {
+    "w": "turn",
+    "s": 5.07,
+    "e": 5.37
+   },
+   {
+    "w": "red.",
+    "s": 5.37,
+    "e": 5.59
+   }
+  ],
+  "heard": "Only in 1954, when paint and reflective material lasted, did the stop sign finally turn red.",
+  "match": 1.0
+ },
+ {
+  "id": "C401",
+  "chapter": 4,
+  "text": "Next, the grocery bag. Why does a paper bag have a flat, square bottom?",
+  "dur": 4.75,
+  "words": [
+   {
+    "w": "Next,",
+    "s": 0.0,
+    "e": 0.48
+   },
+   {
+    "w": "the",
+    "s": 0.84,
+    "e": 0.86
+   },
+   {
+    "w": "grocery",
+    "s": 0.86,
+    "e": 1.1
+   },
+   {
+    "w": "bag.",
+    "s": 1.1,
+    "e": 1.44
+   },
+   {
+    "w": "Why",
+    "s": 2.18,
+    "e": 2.24
+   },
+   {
+    "w": "does",
+    "s": 2.24,
+    "e": 2.4
+   },
+   {
+    "w": "a",
+    "s": 2.4,
+    "e": 2.56
+   },
+   {
+    "w": "paper",
+    "s": 2.56,
+    "e": 2.84
+   },
+   {
+    "w": "bag",
+    "s": 2.84,
+    "e": 3.18
+   },
+   {
+    "w": "have",
+    "s": 3.18,
+    "e": 3.34
+   },
+   {
+    "w": "a",
+    "s": 3.34,
+    "e": 3.66
+   },
+   {
+    "w": "flat,",
+    "s": 3.66,
+    "e": 3.88
+   },
+   {
+    "w": "square",
+    "s": 3.9,
+    "e": 4.28
+   },
+   {
+    "w": "bottom?",
+    "s": 4.28,
+    "e": 4.56
+   }
+  ],
+  "heard": "Next, the grocery bag. Why does a paper bag have a flat, square bottom?",
+  "match": 1.0
+ },
+ {
+  "id": "C402",
+  "chapter": 4,
+  "text": "Early paper bags were like big envelopes. Flat, pointed at the bottom... and they fell over.",
+  "dur": 5.52,
+  "words": [
+   {
+    "w": "Early",
+    "s": 0.04,
+    "e": 0.28
+   },
+   {
+    "w": "paper",
+    "s": 0.28,
+    "e": 0.5
+   },
+   {
+    "w": "bags",
+    "s": 0.5,
+    "e": 0.74
+   },
+   {
+    "w": "were",
+    "s": 0.74,
+    "e": 0.9
+   },
+   {
+    "w": "like",
+    "s": 0.9,
+    "e": 1.08
+   },
+   {
+    "w": "big",
+    "s": 1.08,
+    "e": 1.38
+   },
+   {
+    "w": "envelopes.",
+    "s": 1.38,
+    "e": 2.06
+   },
+   {
+    "w": "Flat,",
+    "s": 2.68,
+    "e": 2.78
+   },
+   {
+    "w": "pointed",
+    "s": 3.12,
+    "e": 3.44
+   },
+   {
+    "w": "at",
+    "s": 3.44,
+    "e": 3.66
+   },
+   {
+    "w": "the",
+    "s": 3.66,
+    "e": 3.78
+   },
+   {
+    "w": "bottom...",
+    "s": 3.78,
+    "e": 4.4
+   },
+   {
+    "w": "and",
+    "s": 4.4,
+    "e": 4.52
+   },
+   {
+    "w": "they",
+    "s": 4.52,
+    "e": 4.7
+   },
+   {
+    "w": "fell",
+    "s": 4.7,
+    "e": 4.98
+   },
+   {
+    "w": "over.",
+    "s": 4.98,
+    "e": 5.3
+   }
+  ],
+  "heard": "Early paper bags were like big envelopes. Flat, pointed at the bottom... and they fell over.",
+  "match": 1.0
+ },
+ {
+  "id": "C403",
+  "chapter": 4,
+  "text": "In the late 1860s, Margaret Knight worked in a paper bag factory in Massachusetts.",
+  "dur": 4.62,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.05,
+    "e": 0.17
+   },
+   {
+    "w": "the",
+    "s": 0.17,
+    "e": 0.29
+   },
+   {
+    "w": "late",
+    "s": 0.29,
+    "e": 0.41
+   },
+   {
+    "w": "1860s,",
+    "s": 0.41,
+    "e": 1.49
+   },
+   {
+    "w": "Margaret",
+    "s": 1.77,
+    "e": 1.89
+   },
+   {
+    "w": "Knight",
+    "s": 1.89,
+    "e": 2.09
+   },
+   {
+    "w": "worked",
+    "s": 2.09,
+    "e": 2.33
+   },
+   {
+    "w": "in",
+    "s": 2.33,
+    "e": 2.49
+   },
+   {
+    "w": "a",
+    "s": 2.49,
+    "e": 2.63
+   },
+   {
+    "w": "paper",
+    "s": 2.63,
+    "e": 2.89
+   },
+   {
+    "w": "bag",
+    "s": 2.89,
+    "e": 3.17
+   },
+   {
+    "w": "factory",
+    "s": 3.17,
+    "e": 3.57
+   },
+   {
+    "w": "in",
+    "s": 3.57,
+    "e": 3.73
+   },
+   {
+    "w": "Massachusetts.",
+    "s": 3.73,
+    "e": 4.17
+   }
+  ],
+  "heard": "In the late 1860s, Margaret Knight worked in a paper bag factory in Massachusetts.",
+  "match": 1.0
+ },
+ {
+  "id": "C404",
+  "chapter": 4,
+  "text": "She built a wooden model of a machine that folded and glued a bag with a flat bottom.",
+  "dur": 3.96,
+  "words": [
+   {
+    "w": "She",
+    "s": 0.11,
+    "e": 0.19
+   },
+   {
+    "w": "built",
+    "s": 0.19,
+    "e": 0.29
+   },
+   {
+    "w": "a",
+    "s": 0.29,
+    "e": 0.43
+   },
+   {
+    "w": "wooden",
+    "s": 0.43,
+    "e": 0.61
+   },
+   {
+    "w": "model",
+    "s": 0.61,
+    "e": 0.81
+   },
+   {
+    "w": "of",
+    "s": 0.81,
+    "e": 0.97
+   },
+   {
+    "w": "a",
+    "s": 0.97,
+    "e": 1.09
+   },
+   {
+    "w": "machine",
+    "s": 1.09,
+    "e": 1.37
+   },
+   {
+    "w": "that",
+    "s": 1.37,
+    "e": 1.57
+   },
+   {
+    "w": "folded",
+    "s": 1.57,
+    "e": 1.89
+   },
+   {
+    "w": "and",
+    "s": 1.89,
+    "e": 2.21
+   },
+   {
+    "w": "glued",
+    "s": 2.21,
+    "e": 2.43
+   },
+   {
+    "w": "a",
+    "s": 2.43,
+    "e": 2.59
+   },
+   {
+    "w": "bag",
+    "s": 2.59,
+    "e": 2.75
+   },
+   {
+    "w": "with",
+    "s": 2.75,
+    "e": 2.93
+   },
+   {
+    "w": "a",
+    "s": 2.93,
+    "e": 3.05
+   },
+   {
+    "w": "flat",
+    "s": 3.05,
+    "e": 3.43
+   },
+   {
+    "w": "bottom.",
+    "s": 3.43,
+    "e": 3.75
+   }
+  ],
+  "heard": "She built a wooden model of a machine that folded and glued a bag with a flat bottom.",
+  "match": 1.0
+ },
+ {
+  "id": "C405",
+  "chapter": 4,
+  "text": "She took it to a machine shop to have it made in iron. And a man named Charles Annan saw it... and patented it first.",
+  "dur": 6.94,
+  "words": [
+   {
+    "w": "She",
+    "s": 0.03,
+    "e": 0.21
+   },
+   {
+    "w": "took",
+    "s": 0.21,
+    "e": 0.35
+   },
+   {
+    "w": "it",
+    "s": 0.35,
+    "e": 0.45
+   },
+   {
+    "w": "to",
+    "s": 0.45,
+    "e": 0.51
+   },
+   {
+    "w": "a",
+    "s": 0.51,
+    "e": 0.63
+   },
+   {
+    "w": "machine",
+    "s": 0.63,
+    "e": 0.83
+   },
+   {
+    "w": "shop",
+    "s": 0.83,
+    "e": 1.05
+   },
+   {
+    "w": "to",
+    "s": 1.05,
+    "e": 1.19
+   },
+   {
+    "w": "have",
+    "s": 1.19,
+    "e": 1.31
+   },
+   {
+    "w": "it",
+    "s": 1.31,
+    "e": 1.41
+   },
+   {
+    "w": "made",
+    "s": 1.41,
+    "e": 1.53
+   },
+   {
+    "w": "in",
+    "s": 1.53,
+    "e": 1.67
+   },
+   {
+    "w": "iron.",
+    "s": 1.67,
+    "e": 2.01
+   },
+   {
+    "w": "And",
+    "s": 2.67,
+    "e": 2.79
+   },
+   {
+    "w": "a",
+    "s": 2.79,
+    "e": 2.89
+   },
+   {
+    "w": "man",
+    "s": 2.89,
+    "e": 3.07
+   },
+   {
+    "w": "named",
+    "s": 3.07,
+    "e": 3.31
+   },
+   {
+    "w": "Charles",
+    "s": 3.31,
+    "e": 3.81
+   },
+   {
+    "w": "Annan",
+    "s": 3.81,
+    "e": 4.19
+   },
+   {
+    "w": "saw",
+    "s": 4.19,
+    "e": 4.51
+   },
+   {
+    "w": "it...",
+    "s": 4.51,
+    "e": 5.49
+   },
+   {
+    "w": "and",
+    "s": 5.49,
+    "e": 5.65
+   },
+   {
+    "w": "patented",
+    "s": 5.65,
+    "e": 5.99
+   },
+   {
+    "w": "it",
+    "s": 5.99,
+    "e": 6.27
+   },
+   {
+    "w": "first.",
+    "s": 6.27,
+    "e": 6.57
+   }
+  ],
+  "heard": "She took it to a machine shop to have it made in iron. And a man named Charles Annan saw it... and patented it first.",
+  "match": 1.0
+ },
+ {
+  "id": "C406",
+  "chapter": 4,
+  "text": "In court, Annan's argument was simple: a woman couldn't possibly design a machine like this.",
+  "dur": 4.8,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.03,
+    "e": 0.23
+   },
+   {
+    "w": "court,",
+    "s": 0.23,
+    "e": 0.45
+   },
+   {
+    "w": "Annan's",
+    "s": 0.91,
+    "e": 1.11
+   },
+   {
+    "w": "argument",
+    "s": 1.11,
+    "e": 1.35
+   },
+   {
+    "w": "was",
+    "s": 1.35,
+    "e": 1.55
+   },
+   {
+    "w": "simple:",
+    "s": 1.55,
+    "e": 1.83
+   },
+   {
+    "w": "a",
+    "s": 2.37,
+    "e": 2.39
+   },
+   {
+    "w": "woman",
+    "s": 2.39,
+    "e": 2.61
+   },
+   {
+    "w": "couldn't",
+    "s": 2.61,
+    "e": 3.15
+   },
+   {
+    "w": "possibly",
+    "s": 3.15,
+    "e": 3.47
+   },
+   {
+    "w": "design",
+    "s": 3.47,
+    "e": 3.85
+   },
+   {
+    "w": "a",
+    "s": 3.85,
+    "e": 3.97
+   },
+   {
+    "w": "machine",
+    "s": 3.97,
+    "e": 4.15
+   },
+   {
+    "w": "like",
+    "s": 4.15,
+    "e": 4.35
+   },
+   {
+    "w": "this.",
+    "s": 4.35,
+    "e": 4.67
+   }
+  ],
+  "heard": "In court, Annan's argument was simple. A woman couldn't possibly design a machine like this.",
+  "match": 1.0
+ },
+ {
+  "id": "C407",
+  "chapter": 4,
+  "text": "Knight brought her drawings, her notes and her diary.",
+  "dur": 2.78,
+  "words": [
+   {
+    "w": "Knight",
+    "s": 0.08,
+    "e": 0.27
+   },
+   {
+    "w": "brought",
+    "s": 0.27,
+    "e": 0.51
+   },
+   {
+    "w": "her",
+    "s": 0.51,
+    "e": 0.69
+   },
+   {
+    "w": "drawings,",
+    "s": 0.69,
+    "e": 1.09
+   },
+   {
+    "w": "her",
+    "s": 1.39,
+    "e": 1.43
+   },
+   {
+    "w": "notes",
+    "s": 1.43,
+    "e": 1.73
+   },
+   {
+    "w": "and",
+    "s": 1.73,
+    "e": 2.03
+   },
+   {
+    "w": "her",
+    "s": 2.03,
+    "e": 2.19
+   },
+   {
+    "w": "diary.",
+    "s": 2.19,
+    "e": 2.49
+   }
+  ],
+  "heard": "Knight brought her drawings, her notes and her diary.",
+  "match": 1.0
+ },
+ {
+  "id": "C408",
+  "chapter": 4,
+  "text": "In 1871, she won. The patent was hers. And the bag that stands up on its own is still her design.",
+  "dur": 6.77,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.07,
+    "e": 0.17
+   },
+   {
+    "w": "1871,",
+    "s": 0.17,
+    "e": 1.11
+   },
+   {
+    "w": "she",
+    "s": 1.65,
+    "e": 1.71
+   },
+   {
+    "w": "won.",
+    "s": 1.71,
+    "e": 1.93
+   },
+   {
+    "w": "The",
+    "s": 2.57,
+    "e": 2.67
+   },
+   {
+    "w": "patent",
+    "s": 2.67,
+    "e": 2.89
+   },
+   {
+    "w": "was",
+    "s": 2.89,
+    "e": 3.23
+   },
+   {
+    "w": "hers.",
+    "s": 3.23,
+    "e": 3.47
+   },
+   {
+    "w": "And",
+    "s": 4.15,
+    "e": 4.31
+   },
+   {
+    "w": "the",
+    "s": 4.31,
+    "e": 4.41
+   },
+   {
+    "w": "bag",
+    "s": 4.41,
+    "e": 4.61
+   },
+   {
+    "w": "that",
+    "s": 4.61,
+    "e": 4.77
+   },
+   {
+    "w": "stands",
+    "s": 4.77,
+    "e": 4.93
+   },
+   {
+    "w": "up",
+    "s": 4.93,
+    "e": 5.11
+   },
+   {
+    "w": "on",
+    "s": 5.11,
+    "e": 5.21
+   },
+   {
+    "w": "its",
+    "s": 5.21,
+    "e": 5.31
+   },
+   {
+    "w": "own",
+    "s": 5.31,
+    "e": 5.53
+   },
+   {
+    "w": "is",
+    "s": 5.53,
+    "e": 5.81
+   },
+   {
+    "w": "still",
+    "s": 5.81,
+    "e": 6.11
+   },
+   {
+    "w": "her",
+    "s": 6.11,
+    "e": 6.33
+   },
+   {
+    "w": "design.",
+    "s": 6.33,
+    "e": 6.59
+   }
+  ],
+  "heard": "In 1871, she won. The patent was hers. And the bag that stands up on its own is still her design.",
+  "match": 1.0
+ },
+ {
+  "id": "C501",
+  "chapter": 5,
+  "text": "Now count the teeth on a bottle cap. Twenty-one. Almost every time.",
+  "dur": 4.27,
+  "words": [
+   {
+    "w": "Now",
+    "s": 0.0,
+    "e": 0.42
+   },
+   {
+    "w": "count",
+    "s": 0.42,
+    "e": 0.7
+   },
+   {
+    "w": "the",
+    "s": 0.7,
+    "e": 0.88
+   },
+   {
+    "w": "teeth",
+    "s": 0.88,
+    "e": 1.0
+   },
+   {
+    "w": "on",
+    "s": 1.0,
+    "e": 1.2
+   },
+   {
+    "w": "a",
+    "s": 1.2,
+    "e": 1.32
+   },
+   {
+    "w": "bottle",
+    "s": 1.32,
+    "e": 1.5
+   },
+   {
+    "w": "cap.",
+    "s": 1.5,
+    "e": 1.72
+   },
+   {
+    "w": "Twenty-one.",
+    "s": 1.72,
+    "e": 3.3
+   },
+   {
+    "w": "Almost",
+    "s": 3.3,
+    "e": 3.54
+   },
+   {
+    "w": "every",
+    "s": 3.54,
+    "e": 3.88
+   },
+   {
+    "w": "time.",
+    "s": 3.88,
+    "e": 4.12
+   }
+  ],
+  "heard": "Now count the teeth on a bottle cap. Twenty -one. Almost every time.",
+  "match": 0.88
+ },
+ {
+  "id": "C502",
+  "chapter": 5,
+  "text": "In the 1880s, soda and beer bottles were sealed with corks and wire. The gas leaked, and the drink went flat.",
+  "dur": 6.06,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.08,
+    "e": 0.16
+   },
+   {
+    "w": "the",
+    "s": 0.16,
+    "e": 0.24
+   },
+   {
+    "w": "1880s,",
+    "s": 0.24,
+    "e": 1.1
+   },
+   {
+    "w": "soda",
+    "s": 1.28,
+    "e": 1.46
+   },
+   {
+    "w": "and",
+    "s": 1.46,
+    "e": 1.68
+   },
+   {
+    "w": "beer",
+    "s": 1.68,
+    "e": 1.88
+   },
+   {
+    "w": "bottles",
+    "s": 1.88,
+    "e": 2.16
+   },
+   {
+    "w": "were",
+    "s": 2.16,
+    "e": 2.4
+   },
+   {
+    "w": "sealed",
+    "s": 2.4,
+    "e": 2.62
+   },
+   {
+    "w": "with",
+    "s": 2.62,
+    "e": 2.84
+   },
+   {
+    "w": "corks",
+    "s": 2.84,
+    "e": 3.22
+   },
+   {
+    "w": "and",
+    "s": 3.22,
+    "e": 3.38
+   },
+   {
+    "w": "wire.",
+    "s": 3.38,
+    "e": 3.72
+   },
+   {
+    "w": "The",
+    "s": 4.16,
+    "e": 4.24
+   },
+   {
+    "w": "gas",
+    "s": 4.24,
+    "e": 4.48
+   },
+   {
+    "w": "leaked,",
+    "s": 4.48,
+    "e": 4.8
+   },
+   {
+    "w": "and",
+    "s": 5.0,
+    "e": 5.08
+   },
+   {
+    "w": "the",
+    "s": 5.08,
+    "e": 5.22
+   },
+   {
+    "w": "drink",
+    "s": 5.22,
+    "e": 5.4
+   },
+   {
+    "w": "went",
+    "s": 5.4,
+    "e": 5.58
+   },
+   {
+    "w": "flat.",
+    "s": 5.58,
+    "e": 5.88
+   }
+  ],
+  "heard": "In the 1880s, soda and beer bottles were sealed with corks and wire. The gas leaked, and the drink went flat.",
+  "match": 1.0
+ },
+ {
+  "id": "C503",
+  "chapter": 5,
+  "text": "In 1892, in Baltimore, William Painter patented a metal cap with a crimped skirt, like a little crown.",
+  "dur": 6.24,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.07,
+    "e": 0.17
+   },
+   {
+    "w": "1892,",
+    "s": 0.17,
+    "e": 0.93
+   },
+   {
+    "w": "in",
+    "s": 1.11,
+    "e": 1.21
+   },
+   {
+    "w": "Baltimore,",
+    "s": 1.21,
+    "e": 1.61
+   },
+   {
+    "w": "William",
+    "s": 2.15,
+    "e": 2.35
+   },
+   {
+    "w": "Painter",
+    "s": 2.35,
+    "e": 2.65
+   },
+   {
+    "w": "patented",
+    "s": 2.65,
+    "e": 3.11
+   },
+   {
+    "w": "a",
+    "s": 3.11,
+    "e": 3.41
+   },
+   {
+    "w": "metal",
+    "s": 3.41,
+    "e": 3.69
+   },
+   {
+    "w": "cap",
+    "s": 3.69,
+    "e": 3.97
+   },
+   {
+    "w": "with",
+    "s": 3.97,
+    "e": 4.19
+   },
+   {
+    "w": "a",
+    "s": 4.19,
+    "e": 4.35
+   },
+   {
+    "w": "crimped",
+    "s": 4.35,
+    "e": 4.59
+   },
+   {
+    "w": "skirt,",
+    "s": 4.59,
+    "e": 4.83
+   },
+   {
+    "w": "like",
+    "s": 5.29,
+    "e": 5.47
+   },
+   {
+    "w": "a",
+    "s": 5.47,
+    "e": 5.61
+   },
+   {
+    "w": "little",
+    "s": 5.61,
+    "e": 5.77
+   },
+   {
+    "w": "crown.",
+    "s": 5.77,
+    "e": 6.03
+   }
+  ],
+  "heard": "In 1892, in Baltimore, William Painter patented a metal cap with a crimped skirt, like a little crown.",
+  "match": 1.0
+ },
+ {
+  "id": "C504",
+  "chapter": 5,
+  "text": "His first caps had twenty-four teeth.",
+  "dur": 1.84,
+  "words": [
+   {
+    "w": "His",
+    "s": 0.04,
+    "e": 0.16
+   },
+   {
+    "w": "first",
+    "s": 0.16,
+    "e": 0.34
+   },
+   {
+    "w": "caps",
+    "s": 0.34,
+    "e": 0.58
+   },
+   {
+    "w": "had",
+    "s": 0.58,
+    "e": 0.84
+   },
+   {
+    "w": "twenty-four",
+    "s": 0.84,
+    "e": 1.46
+   },
+   {
+    "w": "teeth.",
+    "s": 1.46,
+    "e": 1.7
+   }
+  ],
+  "heard": "His first caps had twenty -four teeth.",
+  "match": 0.769
+ },
+ {
+  "id": "C505",
+  "chapter": 5,
+  "text": "But over the years, makers settled on twenty-one. Enough to hold the fizz in, and still easy to pop off with an opener.",
+  "dur": 5.88,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.03,
+    "e": 0.15
+   },
+   {
+    "w": "over",
+    "s": 0.15,
+    "e": 0.29
+   },
+   {
+    "w": "the",
+    "s": 0.29,
+    "e": 0.43
+   },
+   {
+    "w": "years,",
+    "s": 0.43,
+    "e": 0.67
+   },
+   {
+    "w": "makers",
+    "s": 0.97,
+    "e": 1.09
+   },
+   {
+    "w": "settled",
+    "s": 1.09,
+    "e": 1.43
+   },
+   {
+    "w": "on",
+    "s": 1.43,
+    "e": 1.69
+   },
+   {
+    "w": "twenty-one.",
+    "s": 1.69,
+    "e": 2.77
+   },
+   {
+    "w": "Enough",
+    "s": 2.77,
+    "e": 2.95
+   },
+   {
+    "w": "to",
+    "s": 2.95,
+    "e": 3.15
+   },
+   {
+    "w": "hold",
+    "s": 3.15,
+    "e": 3.31
+   },
+   {
+    "w": "the",
+    "s": 3.31,
+    "e": 3.45
+   },
+   {
+    "w": "fizz",
+    "s": 3.45,
+    "e": 3.61
+   },
+   {
+    "w": "in,",
+    "s": 3.61,
+    "e": 3.81
+   },
+   {
+    "w": "and",
+    "s": 3.89,
+    "e": 4.03
+   },
+   {
+    "w": "still",
+    "s": 4.03,
+    "e": 4.29
+   },
+   {
+    "w": "easy",
+    "s": 4.29,
+    "e": 4.55
+   },
+   {
+    "w": "to",
+    "s": 4.55,
+    "e": 4.79
+   },
+   {
+    "w": "pop",
+    "s": 4.79,
+    "e": 4.99
+   },
+   {
+    "w": "off",
+    "s": 4.99,
+    "e": 5.15
+   },
+   {
+    "w": "with",
+    "s": 5.15,
+    "e": 5.31
+   },
+   {
+    "w": "an",
+    "s": 5.31,
+    "e": 5.45
+   },
+   {
+    "w": "opener.",
+    "s": 5.45,
+    "e": 5.65
+   }
+  ],
+  "heard": "But over the years, makers settled on twenty -one. Enough to hold the fizz in, and still easy to pop off with an opener.",
+  "match": 0.936
+ },
+ {
+  "id": "C506",
+  "chapter": 5,
+  "text": "Painter even sold the bottle opener.",
+  "dur": 1.57,
+  "words": [
+   {
+    "w": "Painter",
+    "s": 0.03,
+    "e": 0.33
+   },
+   {
+    "w": "even",
+    "s": 0.33,
+    "e": 0.67
+   },
+   {
+    "w": "sold",
+    "s": 0.67,
+    "e": 0.89
+   },
+   {
+    "w": "the",
+    "s": 0.89,
+    "e": 1.05
+   },
+   {
+    "w": "bottle",
+    "s": 1.05,
+    "e": 1.29
+   },
+   {
+    "w": "opener.",
+    "s": 1.29,
+    "e": 1.57
+   }
+  ],
+  "heard": "Painter even sold the bottle opener.",
+  "match": 1.0
+ },
+ {
+  "id": "C507",
+  "chapter": 5,
+  "text": "And one of his salesmen got some famous advice. Painter told him: invent something that people use once, throw away, and buy again.",
+  "dur": 7.89,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.0,
+    "e": 0.68
+   },
+   {
+    "w": "one",
+    "s": 0.68,
+    "e": 0.82
+   },
+   {
+    "w": "of",
+    "s": 0.82,
+    "e": 0.9
+   },
+   {
+    "w": "his",
+    "s": 0.9,
+    "e": 1.0
+   },
+   {
+    "w": "salesmen",
+    "s": 1.0,
+    "e": 1.38
+   },
+   {
+    "w": "got",
+    "s": 1.38,
+    "e": 1.58
+   },
+   {
+    "w": "some",
+    "s": 1.58,
+    "e": 1.76
+   },
+   {
+    "w": "famous",
+    "s": 1.76,
+    "e": 2.1
+   },
+   {
+    "w": "advice.",
+    "s": 2.1,
+    "e": 2.62
+   },
+   {
+    "w": "Painter",
+    "s": 3.36,
+    "e": 3.42
+   },
+   {
+    "w": "told",
+    "s": 3.42,
+    "e": 3.66
+   },
+   {
+    "w": "him:",
+    "s": 3.66,
+    "e": 3.86
+   },
+   {
+    "w": "invent",
+    "s": 3.86,
+    "e": 4.4
+   },
+   {
+    "w": "something",
+    "s": 4.4,
+    "e": 4.76
+   },
+   {
+    "w": "that",
+    "s": 4.76,
+    "e": 4.98
+   },
+   {
+    "w": "people",
+    "s": 4.98,
+    "e": 5.22
+   },
+   {
+    "w": "use",
+    "s": 5.22,
+    "e": 5.6
+   },
+   {
+    "w": "once,",
+    "s": 5.6,
+    "e": 6.0
+   },
+   {
+    "w": "throw",
+    "s": 6.4,
+    "e": 6.54
+   },
+   {
+    "w": "away,",
+    "s": 6.54,
+    "e": 6.84
+   },
+   {
+    "w": "and",
+    "s": 7.02,
+    "e": 7.2
+   },
+   {
+    "w": "buy",
+    "s": 7.2,
+    "e": 7.4
+   },
+   {
+    "w": "again.",
+    "s": 7.4,
+    "e": 7.68
+   }
+  ],
+  "heard": "And one of his salesmen got some famous advice. Painter told him invent something that people use once, throw away, and buy again.",
+  "match": 1.0
+ },
+ {
+  "id": "C508",
+  "chapter": 5,
+  "text": "That salesman was King Gillette. A few years later, he had the idea for the throwaway razor blade.",
+  "dur": 5.21,
+  "words": [
+   {
+    "w": "That",
+    "s": 0.09,
+    "e": 0.21
+   },
+   {
+    "w": "salesman",
+    "s": 0.21,
+    "e": 0.59
+   },
+   {
+    "w": "was",
+    "s": 0.59,
+    "e": 0.87
+   },
+   {
+    "w": "King",
+    "s": 0.87,
+    "e": 1.13
+   },
+   {
+    "w": "Gillette.",
+    "s": 1.13,
+    "e": 1.49
+   },
+   {
+    "w": "A",
+    "s": 2.11,
+    "e": 2.19
+   },
+   {
+    "w": "few",
+    "s": 2.19,
+    "e": 2.33
+   },
+   {
+    "w": "years",
+    "s": 2.33,
+    "e": 2.47
+   },
+   {
+    "w": "later,",
+    "s": 2.47,
+    "e": 2.75
+   },
+   {
+    "w": "he",
+    "s": 2.75,
+    "e": 3.17
+   },
+   {
+    "w": "had",
+    "s": 3.17,
+    "e": 3.29
+   },
+   {
+    "w": "the",
+    "s": 3.29,
+    "e": 3.41
+   },
+   {
+    "w": "idea",
+    "s": 3.41,
+    "e": 3.69
+   },
+   {
+    "w": "for",
+    "s": 3.69,
+    "e": 3.93
+   },
+   {
+    "w": "the",
+    "s": 3.93,
+    "e": 4.09
+   },
+   {
+    "w": "throwaway",
+    "s": 4.09,
+    "e": 4.53
+   },
+   {
+    "w": "razor",
+    "s": 4.53,
+    "e": 4.81
+   },
+   {
+    "w": "blade.",
+    "s": 4.81,
+    "e": 5.03
+   }
+  ],
+  "heard": "That salesman was King Gillette. A few years later, he had the idea for the throwaway razor blade.",
+  "match": 1.0
+ },
+ {
+  "id": "C601",
+  "chapter": 6,
+  "text": "Last one. It's on your plate. Why do crackers have little holes?",
+  "dur": 4.94,
+  "words": [
+   {
+    "w": "Last",
+    "s": 0.0,
+    "e": 0.4
+   },
+   {
+    "w": "one.",
+    "s": 0.4,
+    "e": 0.76
+   },
+   {
+    "w": "It's",
+    "s": 1.12,
+    "e": 1.34
+   },
+   {
+    "w": "on",
+    "s": 1.34,
+    "e": 1.6
+   },
+   {
+    "w": "your",
+    "s": 1.6,
+    "e": 1.86
+   },
+   {
+    "w": "plate.",
+    "s": 1.86,
+    "e": 2.2
+   },
+   {
+    "w": "Why",
+    "s": 3.18,
+    "e": 3.28
+   },
+   {
+    "w": "do",
+    "s": 3.28,
+    "e": 3.46
+   },
+   {
+    "w": "crackers",
+    "s": 3.46,
+    "e": 3.92
+   },
+   {
+    "w": "have",
+    "s": 3.92,
+    "e": 4.08
+   },
+   {
+    "w": "little",
+    "s": 4.08,
+    "e": 4.32
+   },
+   {
+    "w": "holes?",
+    "s": 4.32,
+    "e": 4.64
+   }
+  ],
+  "heard": "Last one. It's on your plate. Why do crackers have little holes?",
+  "match": 1.0
+ },
+ {
+  "id": "C602",
+  "chapter": 6,
+  "text": "It isn't decoration. When cracker dough bakes, the water inside turns to steam.",
+  "dur": 5.17,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.03,
+    "e": 0.19
+   },
+   {
+    "w": "isn't",
+    "s": 0.19,
+    "e": 0.55
+   },
+   {
+    "w": "decoration.",
+    "s": 0.55,
+    "e": 1.01
+   },
+   {
+    "w": "When",
+    "s": 1.71,
+    "e": 1.91
+   },
+   {
+    "w": "cracker",
+    "s": 1.91,
+    "e": 2.37
+   },
+   {
+    "w": "dough",
+    "s": 2.37,
+    "e": 2.53
+   },
+   {
+    "w": "bakes,",
+    "s": 2.53,
+    "e": 2.89
+   },
+   {
+    "w": "the",
+    "s": 3.13,
+    "e": 3.29
+   },
+   {
+    "w": "water",
+    "s": 3.29,
+    "e": 3.53
+   },
+   {
+    "w": "inside",
+    "s": 3.53,
+    "e": 4.09
+   },
+   {
+    "w": "turns",
+    "s": 4.09,
+    "e": 4.45
+   },
+   {
+    "w": "to",
+    "s": 4.45,
+    "e": 4.65
+   },
+   {
+    "w": "steam.",
+    "s": 4.65,
+    "e": 4.99
+   }
+  ],
+  "heard": "It isn't decoration. When cracker dough bakes, the water inside turns to steam.",
+  "match": 1.0
+ },
+ {
+  "id": "C603",
+  "chapter": 6,
+  "text": "With nowhere to go, the steam blows bubbles, and the cracker puffs up like a pillow.",
+  "dur": 5.0,
+  "words": [
+   {
+    "w": "With",
+    "s": 0.03,
+    "e": 0.27
+   },
+   {
+    "w": "nowhere",
+    "s": 0.27,
+    "e": 0.43
+   },
+   {
+    "w": "to",
+    "s": 0.43,
+    "e": 0.63
+   },
+   {
+    "w": "go,",
+    "s": 0.63,
+    "e": 0.85
+   },
+   {
+    "w": "the",
+    "s": 1.19,
+    "e": 1.31
+   },
+   {
+    "w": "steam",
+    "s": 1.31,
+    "e": 1.65
+   },
+   {
+    "w": "blows",
+    "s": 1.65,
+    "e": 1.93
+   },
+   {
+    "w": "bubbles,",
+    "s": 1.93,
+    "e": 2.31
+   },
+   {
+    "w": "and",
+    "s": 2.75,
+    "e": 3.01
+   },
+   {
+    "w": "the",
+    "s": 3.01,
+    "e": 3.13
+   },
+   {
+    "w": "cracker",
+    "s": 3.13,
+    "e": 3.55
+   },
+   {
+    "w": "puffs",
+    "s": 3.55,
+    "e": 3.89
+   },
+   {
+    "w": "up",
+    "s": 3.89,
+    "e": 4.11
+   },
+   {
+    "w": "like",
+    "s": 4.11,
+    "e": 4.27
+   },
+   {
+    "w": "a",
+    "s": 4.27,
+    "e": 4.41
+   },
+   {
+    "w": "pillow.",
+    "s": 4.41,
+    "e": 4.71
+   }
+  ],
+  "heard": "With nowhere to go, the steam blows bubbles, and the cracker puffs up like a pillow.",
+  "match": 1.0
+ },
+ {
+  "id": "C604",
+  "chapter": 6,
+  "text": "So bakers poke holes into the dough before it goes into the oven. It's called docking.",
+  "dur": 4.8,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.12,
+    "e": 0.3
+   },
+   {
+    "w": "bakers",
+    "s": 0.3,
+    "e": 0.82
+   },
+   {
+    "w": "poke",
+    "s": 0.82,
+    "e": 1.06
+   },
+   {
+    "w": "holes",
+    "s": 1.06,
+    "e": 1.4
+   },
+   {
+    "w": "into",
+    "s": 1.4,
+    "e": 1.66
+   },
+   {
+    "w": "the",
+    "s": 1.66,
+    "e": 1.84
+   },
+   {
+    "w": "dough",
+    "s": 1.84,
+    "e": 2.04
+   },
+   {
+    "w": "before",
+    "s": 2.04,
+    "e": 2.46
+   },
+   {
+    "w": "it",
+    "s": 2.46,
+    "e": 2.68
+   },
+   {
+    "w": "goes",
+    "s": 2.68,
+    "e": 2.84
+   },
+   {
+    "w": "into",
+    "s": 2.84,
+    "e": 3.04
+   },
+   {
+    "w": "the",
+    "s": 3.04,
+    "e": 3.16
+   },
+   {
+    "w": "oven.",
+    "s": 3.16,
+    "e": 3.34
+   },
+   {
+    "w": "It's",
+    "s": 3.84,
+    "e": 4.0
+   },
+   {
+    "w": "called",
+    "s": 4.0,
+    "e": 4.16
+   },
+   {
+    "w": "docking.",
+    "s": 4.16,
+    "e": 4.52
+   }
+  ],
+  "heard": "So bakers poke holes into the dough before it goes into the oven. It's called docking.",
+  "match": 1.0
+ },
+ {
+  "id": "C605",
+  "chapter": 6,
+  "text": "The steam escapes through the holes, and the cracker stays flat and crisp.",
+  "dur": 4.11,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.03,
+    "e": 0.21
+   },
+   {
+    "w": "steam",
+    "s": 0.21,
+    "e": 0.45
+   },
+   {
+    "w": "escapes",
+    "s": 0.45,
+    "e": 0.81
+   },
+   {
+    "w": "through",
+    "s": 0.81,
+    "e": 1.03
+   },
+   {
+    "w": "the",
+    "s": 1.03,
+    "e": 1.17
+   },
+   {
+    "w": "holes,",
+    "s": 1.17,
+    "e": 1.43
+   },
+   {
+    "w": "and",
+    "s": 1.69,
+    "e": 1.83
+   },
+   {
+    "w": "the",
+    "s": 1.83,
+    "e": 1.93
+   },
+   {
+    "w": "cracker",
+    "s": 1.93,
+    "e": 2.31
+   },
+   {
+    "w": "stays",
+    "s": 2.31,
+    "e": 2.51
+   },
+   {
+    "w": "flat",
+    "s": 2.51,
+    "e": 2.97
+   },
+   {
+    "w": "and",
+    "s": 2.97,
+    "e": 3.41
+   },
+   {
+    "w": "crisp.",
+    "s": 3.41,
+    "e": 3.81
+   }
+  ],
+  "heard": "The steam escapes through the holes, and the cracker stays flat and crisp.",
+  "match": 1.0
+ },
+ {
+  "id": "C606",
+  "chapter": 6,
+  "text": "Too few holes, and it puffs. Too many, and it turns hard and dry. The pattern is measured, not random.",
+  "dur": 6.91,
+  "words": [
+   {
+    "w": "Too",
+    "s": 0.03,
+    "e": 0.23
+   },
+   {
+    "w": "few",
+    "s": 0.23,
+    "e": 0.45
+   },
+   {
+    "w": "holes,",
+    "s": 0.45,
+    "e": 0.73
+   },
+   {
+    "w": "and",
+    "s": 0.91,
+    "e": 1.01
+   },
+   {
+    "w": "it",
+    "s": 1.01,
+    "e": 1.11
+   },
+   {
+    "w": "puffs.",
+    "s": 1.11,
+    "e": 1.37
+   },
+   {
+    "w": "Too",
+    "s": 1.79,
+    "e": 1.93
+   },
+   {
+    "w": "many,",
+    "s": 1.93,
+    "e": 2.17
+   },
+   {
+    "w": "and",
+    "s": 2.45,
+    "e": 2.69
+   },
+   {
+    "w": "it",
+    "s": 2.69,
+    "e": 2.77
+   },
+   {
+    "w": "turns",
+    "s": 2.77,
+    "e": 2.97
+   },
+   {
+    "w": "hard",
+    "s": 2.97,
+    "e": 3.31
+   },
+   {
+    "w": "and",
+    "s": 3.31,
+    "e": 3.61
+   },
+   {
+    "w": "dry.",
+    "s": 3.61,
+    "e": 3.93
+   },
+   {
+    "w": "The",
+    "s": 4.57,
+    "e": 4.73
+   },
+   {
+    "w": "pattern",
+    "s": 4.73,
+    "e": 5.09
+   },
+   {
+    "w": "is",
+    "s": 5.09,
+    "e": 5.31
+   },
+   {
+    "w": "measured,",
+    "s": 5.31,
+    "e": 5.75
+   },
+   {
+    "w": "not",
+    "s": 6.13,
+    "e": 6.39
+   },
+   {
+    "w": "random.",
+    "s": 6.39,
+    "e": 6.73
+   }
+  ],
+  "heard": "Too few holes, and it puffs. Too many, and it turns hard and dry. The pattern is measured, not random.",
+  "match": 1.0
+ },
+ {
+  "id": "E01",
+  "chapter": 7,
+  "text": "Ridges that catch thieves. A lid that can't fall in. A colour that waited thirty years. A bag that won in court.",
+  "dur": 7.12,
+  "words": [
+   {
+    "w": "Ridges",
+    "s": 0.0,
+    "e": 0.5
+   },
+   {
+    "w": "that",
+    "s": 0.5,
+    "e": 0.74
+   },
+   {
+    "w": "catch",
+    "s": 0.74,
+    "e": 1.06
+   },
+   {
+    "w": "thieves.",
+    "s": 1.06,
+    "e": 1.46
+   },
+   {
+    "w": "A",
+    "s": 1.98,
+    "e": 2.02
+   },
+   {
+    "w": "lid",
+    "s": 2.02,
+    "e": 2.22
+   },
+   {
+    "w": "that",
+    "s": 2.22,
+    "e": 2.44
+   },
+   {
+    "w": "can't",
+    "s": 2.44,
+    "e": 2.76
+   },
+   {
+    "w": "fall",
+    "s": 2.76,
+    "e": 2.94
+   },
+   {
+    "w": "in.",
+    "s": 2.94,
+    "e": 3.24
+   },
+   {
+    "w": "A",
+    "s": 3.64,
+    "e": 3.76
+   },
+   {
+    "w": "colour",
+    "s": 3.76,
+    "e": 3.96
+   },
+   {
+    "w": "that",
+    "s": 3.96,
+    "e": 4.24
+   },
+   {
+    "w": "waited",
+    "s": 4.24,
+    "e": 4.48
+   },
+   {
+    "w": "thirty",
+    "s": 4.48,
+    "e": 4.82
+   },
+   {
+    "w": "years.",
+    "s": 4.82,
+    "e": 5.16
+   },
+   {
+    "w": "A",
+    "s": 5.64,
+    "e": 5.74
+   },
+   {
+    "w": "bag",
+    "s": 5.74,
+    "e": 6.02
+   },
+   {
+    "w": "that",
+    "s": 6.02,
+    "e": 6.24
+   },
+   {
+    "w": "won",
+    "s": 6.24,
+    "e": 6.44
+   },
+   {
+    "w": "in",
+    "s": 6.44,
+    "e": 6.6
+   },
+   {
+    "w": "court.",
+    "s": 6.6,
+    "e": 6.86
+   }
+  ],
+  "heard": "Ridges that catch thieves. A lid that can't fall in. A colour that waited thirty years. A bag that won in court.",
+  "match": 1.0
+ },
+ {
+  "id": "E02",
+  "chapter": 7,
+  "text": "A cap that started a razor company. And holes that let a cracker breathe.",
+  "dur": 4.24,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.07,
+    "e": 0.17
+   },
+   {
+    "w": "cap",
+    "s": 0.17,
+    "e": 0.39
+   },
+   {
+    "w": "that",
+    "s": 0.39,
+    "e": 0.61
+   },
+   {
+    "w": "started",
+    "s": 0.61,
+    "e": 0.91
+   },
+   {
+    "w": "a",
+    "s": 0.91,
+    "e": 1.09
+   },
+   {
+    "w": "razor",
+    "s": 1.09,
+    "e": 1.37
+   },
+   {
+    "w": "company.",
+    "s": 1.37,
+    "e": 1.73
+   },
+   {
+    "w": "And",
+    "s": 2.29,
+    "e": 2.39
+   },
+   {
+    "w": "holes",
+    "s": 2.39,
+    "e": 2.69
+   },
+   {
+    "w": "that",
+    "s": 2.69,
+    "e": 2.99
+   },
+   {
+    "w": "let",
+    "s": 2.99,
+    "e": 3.11
+   },
+   {
+    "w": "a",
+    "s": 3.11,
+    "e": 3.23
+   },
+   {
+    "w": "cracker",
+    "s": 3.23,
+    "e": 3.61
+   },
+   {
+    "w": "breathe.",
+    "s": 3.61,
+    "e": 3.89
+   }
+  ],
+  "heard": "A cap that started a razor company. And holes that let a cracker breathe.",
+  "match": 1.0
+ },
+ {
+  "id": "E03",
+  "chapter": 7,
+  "text": "None of these shapes are an accident.",
+  "dur": 1.74,
+  "words": [
+   {
+    "w": "None",
+    "s": 0.17,
+    "e": 0.27
+   },
+   {
+    "w": "of",
+    "s": 0.27,
+    "e": 0.45
+   },
+   {
+    "w": "these",
+    "s": 0.45,
+    "e": 0.59
+   },
+   {
+    "w": "shapes",
+    "s": 0.59,
+    "e": 0.83
+   },
+   {
+    "w": "are",
+    "s": 0.83,
+    "e": 1.03
+   },
+   {
+    "w": "an",
+    "s": 1.03,
+    "e": 1.11
+   },
+   {
+    "w": "accident.",
+    "s": 1.11,
+    "e": 1.49
+   }
+  ],
+  "heard": "None of these shapes are an accident.",
+  "match": 1.0
+ },
+ {
+  "id": "E04",
+  "chapter": 7,
+  "text": "So next time you pick up a coin, run your thumb along the edge. You're touching the trap Newton set for thieves.",
+  "dur": 6.27,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.21,
+    "e": 0.35
+   },
+   {
+    "w": "next",
+    "s": 0.35,
+    "e": 0.63
+   },
+   {
+    "w": "time",
+    "s": 0.63,
+    "e": 0.87
+   },
+   {
+    "w": "you",
+    "s": 0.87,
+    "e": 1.01
+   },
+   {
+    "w": "pick",
+    "s": 1.01,
+    "e": 1.17
+   },
+   {
+    "w": "up",
+    "s": 1.17,
+    "e": 1.29
+   },
+   {
+    "w": "a",
+    "s": 1.29,
+    "e": 1.43
+   },
+   {
+    "w": "coin,",
+    "s": 1.43,
+    "e": 1.69
+   },
+   {
+    "w": "run",
+    "s": 2.09,
+    "e": 2.25
+   },
+   {
+    "w": "your",
+    "s": 2.25,
+    "e": 2.43
+   },
+   {
+    "w": "thumb",
+    "s": 2.43,
+    "e": 2.67
+   },
+   {
+    "w": "along",
+    "s": 2.67,
+    "e": 2.89
+   },
+   {
+    "w": "the",
+    "s": 2.89,
+    "e": 3.07
+   },
+   {
+    "w": "edge.",
+    "s": 3.07,
+    "e": 3.33
+   },
+   {
+    "w": "You're",
+    "s": 3.85,
+    "e": 4.03
+   },
+   {
+    "w": "touching",
+    "s": 4.03,
+    "e": 4.33
+   },
+   {
+    "w": "the",
+    "s": 4.33,
+    "e": 4.53
+   },
+   {
+    "w": "trap",
+    "s": 4.53,
+    "e": 4.83
+   },
+   {
+    "w": "Newton",
+    "s": 4.83,
+    "e": 5.09
+   },
+   {
+    "w": "set",
+    "s": 5.09,
+    "e": 5.45
+   },
+   {
+    "w": "for",
+    "s": 5.45,
+    "e": 5.63
+   },
+   {
+    "w": "thieves.",
+    "s": 5.63,
+    "e": 5.95
+   }
+  ],
+  "heard": "So next time you pick up a coin, run your thumb along the edge. You're touching the trap Newton set for thieves.",
+  "match": 1.0
+ },
+ {
+  "id": "E05",
+  "chapter": 7,
+  "text": "Which shape around you should we explain next? Tell us in the comments.",
+  "dur": 3.53,
+  "words": [
+   {
+    "w": "Which",
+    "s": 0.03,
+    "e": 0.25
+   },
+   {
+    "w": "shape",
+    "s": 0.25,
+    "e": 0.49
+   },
+   {
+    "w": "around",
+    "s": 0.49,
+    "e": 0.81
+   },
+   {
+    "w": "you",
+    "s": 0.81,
+    "e": 1.09
+   },
+   {
+    "w": "should",
+    "s": 1.09,
+    "e": 1.25
+   },
+   {
+    "w": "we",
+    "s": 1.25,
+    "e": 1.39
+   },
+   {
+    "w": "explain",
+    "s": 1.39,
+    "e": 1.69
+   },
+   {
+    "w": "next?",
+    "s": 1.69,
+    "e": 2.07
+   },
+   {
+    "w": "Tell",
+    "s": 2.59,
+    "e": 2.71
+   },
+   {
+    "w": "us",
+    "s": 2.71,
+    "e": 2.87
+   },
+   {
+    "w": "in",
+    "s": 2.87,
+    "e": 3.01
+   },
+   {
+    "w": "the",
+    "s": 3.01,
+    "e": 3.11
+   },
+   {
+    "w": "comments.",
+    "s": 3.11,
+    "e": 3.35
+   }
+  ],
+  "heard": "Which shape around you should we explain next? Tell us in the comments.",
+  "match": 1.0
+ }
+]

@@ -20,6 +20,8 @@ import cairocffi as cairo
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "lib"))
 W, H, FPS = 1080, 1920, 30
+if os.environ.get("TW_FLAT_SIZE"):          # long videos (B-004+): TW_FLAT_SIZE=1920x1080 set before importing flat2d
+    W, H = (int(v) for v in os.environ["TW_FLAT_SIZE"].lower().split("x"))
 TAU = math.tau
 PAL = dict(teal="#0F6B78", deep="#0B3F4C", navy="#10263B", yellow="#FFC93C", coral="#FF6B5B", cream="#FFF4E0", ink="#2A1C1E",
            mint="#5ED3B5", white="#FFFFFF", black="#000000")
@@ -575,10 +577,10 @@ class Ctx:
 
 
 class Video:
-    def __init__(s, ep, title=None, keys=(), gap=0.22, lead=0.12, music="curious", cap_y=0.40, title_out=None, end_dur=2.6, sid=None, endcard=False, badge=0.7):
+    def __init__(s, ep, title=None, keys=(), gap=0.22, lead=0.12, music="curious", cap_y=0.40, title_out=None, end_dur=2.6, sid=None, endcard=False, badge=0.7, cap_size=118):
         s.ep = Path(ep)
         # owner D2 (15 Nov 2026): no full-screen end card on new Shorts; story to the last frame + small Wy check badge (<= 0.7 s)
-        s.endcard, s.badge = endcard, badge
+        s.endcard, s.badge, s.cap_size = endcard, badge, cap_size
         s.T = {t["id"]: t for t in json.loads((s.ep / "timing.json").read_text())}
         s.title, s.keys, s.gap, s.lead, s.music0, s.cap_y = title, {k.lower() for k in keys}, gap, lead, music, cap_y
         s.title_out, s.end_dur = title_out, end_dur
@@ -727,7 +729,7 @@ class Video:
             vignette(g)
             if sh["cap"]:
                 s.words()
-                draw_caption(g, s._chunks, gt, s.keys, (sh["cap_y"] or s.cap_y) * H)
+                draw_caption(g, s._chunks, gt, s.keys, (sh["cap_y"] or s.cap_y) * H, s.cap_size)
             if s.title:
                 t_out = s.title_out if s.title_out is not None else s.shots[1]["start"] if len(s.shots) > 1 else 2.5
                 draw_title(g, s.title, gt, t_out)

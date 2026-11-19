@@ -48,6 +48,27 @@ CAST = {
                      legs="#4A3A2C", shoes=INK, beard="#D8DCE0", glasses=True, coat=True, jaw=0.0, prop=None),
     "modern":   dict(name="Everyman", skin="#D8A580", iris="#4A2E1E", face="round", hair="short", hair_c="#22181B", top="#3E8E5E", top2="#2A2A38",
                      legs="#3A4A66", shoes="#F4F1EA", hoodie=True, jaw=0.2, prop="phone"),
+    # added 19 Nov 2026 for B-004 "shapes" (same v2.1 rules: role by hat, uniform and one prop)
+    "clipper":  dict(name="Clipper", skin="#E9BC98", iris="#4A3A2C", face="square", hair="flatcap", hair_c="#6E6650", top="#6E5A44", top2="#C9A27A",
+                     legs="#3A3026", shoes="#2A1A10", stubble=True, jaw=0.4, prop=None),
+    "newton":   dict(name="Newton", skin="#F3D0B5", iris="#4A5A6A", face="long", hair="periwig", hair_c="#E6E1D6", top="#6E2A30", top2="#F4F1EA",
+                     legs="#3A2A2A", shoes=INK, coat=True, jaw=0.2, prop=None),
+    "chaloner": dict(name="Chaloner", skin="#EFC6A6", iris="#5B3A29", face="square", hair="tricorn", hair_c="#22181B", top="#4E6A3A", top2="#E8C46A",
+                     legs="#2A2A38", shoes=INK, coat=True, moustache="#3A2416", jaw=0.3, prop=None),
+    "engineer": dict(name="Engineer", skin="#F1CDB0", iris="#3E5A7A", face="square", hair="fedora", hair_c="#7A6A5A", top="#4A5A7A", top2="#F4F1EA",
+                     legs="#3A3A44", shoes=INK, glasses=True, jaw=0.3, prop=None),
+    "sewer":    dict(name="Sewer worker", skin="#C99470", iris="#4A2E1E", face="round", hair="hardhat", hair_c="#FFC93C", top="#FF8A3D", top2="#E6E6E6",
+                     legs="#2E3B52", shoes="#2A1A10", jaw=0.2, prop=None, buttons=True),
+    "knight":   dict(name="Margaret", skin="#F6D5BC", iris="#4A6A5C", face="long", hair="bun", hair_c="#5B3A29", top="#2F5F6A", top2="#F4F1EA",
+                     legs="#2F5F6A", shoes=INK, gown=True, jaw=0.0, prop=None, female=True),
+    "annan":    dict(name="Annan", skin="#EBC09E", iris="#3E3E3E", face="square", hair="tophat", hair_c="#22181B", top="#4A4A55", top2="#F4F1EA",
+                     legs="#3A3A44", shoes=INK, moustache="#22181B", coat=True, jaw=0.5, prop=None),
+    "painter":  dict(name="Painter", skin="#F3D0B5", iris="#5B3A29", face="round", hair="bald", hair_c="#B8B0A6", top="#2F3A4F", top2="#F4F1EA",
+                     legs="#2F3A4F", shoes=INK, beard="#C9C2B8", coat=True, jaw=0.0, prop=None),
+    "gillette": dict(name="Salesman", skin="#EFC6A6", iris="#3E6A8C", face="long", hair="short", hair_c="#3A2416", top="#5A4A3A", top2="#F4F1EA",
+                     legs="#4A3A2C", shoes=INK, moustache="#3A2416", coat=True, jaw=0.3, prop=None),
+    "baker":    dict(name="Baker", skin="#D8A580", iris="#4A2E1E", face="round", hair="chef", hair_c="#22181B", top="#FFFFFF", top2="#FF6B5B",
+                     legs="#3A3A44", shoes=INK, apron="#F4F1EA", jaw=0.2, prop=None, female=True),
 }
 
 # expressions: eyelid height (0 = fully open, 1 = closed), brow shapes (left, right) as (inner_dy, outer_dy), mouth
@@ -72,6 +93,11 @@ def _head(s, e):
     hc = s["hair_c"]
     if s["hair"] == "hood":
         p.append(f'<path d="M-92 -430 Q-104 -560 0 -600 Q104 -560 92 -430 Q60 -410 0 -412 Q-60 -410 -92 -430 Z" fill="{hc}"/>')
+    if s["hair"] == "periwig":   # 1690s long curled wig (B-004): falls past the shoulders
+        p.append(f'<path d="M-96 -470 Q-112 -600 0 -606 Q112 -600 96 -470 Q112 -400 92 -360 Q60 -346 40 -372 L-40 -372 Q-60 -346 -92 -360 Q-112 -400 -96 -470 Z" fill="{hc}"/>')
+        for sd in (-1, 1):
+            for yy in (-470, -430, -392):
+                p.append(f'<path d="M{sd*96} {yy} Q{sd*112} {yy+18} {sd*94} {yy+34}" fill="none" stroke="{shade(hc, 0.8)}" stroke-width="5"/>')
     if s["hair"] in ("bun", "crown_long"):
         p.append(f'<path d="M-80 -470 Q-96 -590 0 -598 Q96 -590 80 -470 Q86 -400 60 -380 L-60 -380 Q-86 -400 -80 -470 Z" fill="{hc}"/>')
     # neck
@@ -161,6 +187,24 @@ def _head(s, e):
         p.append(f'<path d="M-{w} -528 Q-{w+4} -600 0 -602 Q{w+4} -600 {w} -528 Q40 -566 0 -566 Q-40 -566 -{w} -528 Z" fill="#7A5236"/>'
                  f'<rect x="-60" y="-720" width="120" height="150" rx="8" fill="{hc}"/><path d="M-92 -570 L92 -570" stroke-width="16"/>'
                  f'<rect x="-60" y="-610" width="120" height="20" fill="#8E2430" stroke-width="5"/>')
+    elif h == "periwig":
+        p.append(f'<path d="M-{w+8} -500 Q-{w+12} -612 0 -612 Q{w+12} -612 {w+8} -500 Q{w-6} -572 0 -572 Q-{w-6} -572 -{w+8} -500 Z" fill="{hc}"/>'
+                 f'<path d="M-40 -590 Q-30 -606 -14 -594 M8 -598 Q20 -612 34 -598" fill="none" stroke="{shade(hc, 0.8)}" stroke-width="5"/>')
+    elif h == "fedora":     # 1920s hat with a band
+        p.append(f'<path d="M-{w} -528 Q-{w+4} -590 0 -592 Q{w+4} -590 {w} -528 Q40 -560 0 -560 Q-40 -560 -{w} -528 Z" fill="#5B3A29"/>'
+                 f'<path d="M-62 -584 Q-60 -654 -20 -646 Q0 -632 20 -646 Q60 -654 62 -584 Z" fill="{hc}"/>'
+                 f'<rect x="-62" y="-600" width="124" height="18" fill="#22181B" stroke-width="4"/><path d="M-104 -582 Q0 -570 104 -582" stroke-width="14"/>')
+    elif h == "hardhat":
+        p.append(f'<path d="M-{w+10} -540 Q-{w+6} -640 0 -642 Q{w+6} -640 {w+10} -540 Z" fill="{hc}"/>'
+                 f'<path d="M-{w+26} -540 L{w+26} -540" stroke-width="16"/><path d="M-{w+24} -540 L{w+24} -540" stroke="{hc}" stroke-width="8"/>'
+                 f'<path d="M0 -640 L0 -548" stroke="{shade(hc, 0.8)}" stroke-width="12"/>')
+    elif h == "chef":
+        p.append(f'<path d="M-{w} -528 Q-{w+4} -590 0 -592 Q{w+4} -590 {w} -528 Q40 -560 0 -560 Q-40 -560 -{w} -528 Z" fill="{hc}"/>'
+                 f'<path d="M-64 -572 L-64 -620 Q-100 -640 -80 -680 Q-60 -712 -20 -694 Q0 -730 30 -706 Q70 -716 82 -680 Q96 -640 64 -620 L64 -572 Z" fill="#FFFFFF"/>'
+                 f'<path d="M-64 -596 L64 -596" stroke="#DCE6EA" stroke-width="6"/>')
+    elif h == "flatcap":
+        p.append(f'<path d="M-{w} -524 Q-{w+4} -590 0 -592 Q{w+4} -590 {w} -524 Q40 -556 0 -556 Q-40 -556 -{w} -524 Z" fill="#5B4636"/>'
+                 f'<path d="M-{w+6} -548 Q-{w+2} -620 0 -618 Q{w+20} -616 {w+34} -560 Q20 -544 -{w+6} -548 Z" fill="{hc}"/>')
     if h in ("short", "curl", "bun", "crown_long"):
         dk = shade(hc, 0.72 if hc not in ("#22181B", "#1E1A24") else 1.6)
         p.append(f'<path d="M-30 -592 Q-20 -574 -36 -560 M6 -598 Q14 -580 2 -566 M36 -590 Q46 -574 36 -560" fill="none" stroke="{dk}" stroke-width="4"/>')
