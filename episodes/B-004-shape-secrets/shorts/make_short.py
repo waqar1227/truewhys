@@ -111,7 +111,7 @@ def bubble(g, x, y, txt, k, col="#FFFFFF", tail=-1, size=60):
 def c1_hook(g, c):
     """Frame 1: giant silver coin mid-snip filling the frame, the clipper close behind it."""
     room1696(g, c.gt)
-    char2(g, "clipper", 330, 2350, 1900, "suspicious", "reach_r", "reach_r", t=c.gt)
+    char2(g, "clipper", 330, 2560, 1900, "suspicious", "reach_r", "reach_r", t=c.gt)
     candle(g, 900, 1500, 1.3, c.gt)
     k = 0.35 + 0.15 * math.sin(c.gt * 4)
     coin(g, 600, 1060, 300, "silver", ridges=False, clip=k, face="head", glint=1.0)
@@ -195,7 +195,7 @@ def c1_snip_test(g, c):
 def c1_trap(g, c):
     """Last shot = the coin from frame 1 (loop), now with ridges and a glowing rim."""
     room1696(g, c.gt)
-    char2(g, "clipper", 330, 2350, 1900, "shocked" if c.t > c.w("trap") - 0.2 else "suspicious", "reach_r", "reach_r", t=c.gt)
+    char2(g, "clipper", 330, 2560, 1900, "shocked" if c.t > c.w("trap") - 0.2 else "suspicious", "reach_r", "reach_r", t=c.gt)
     candle(g, 900, 1500, 1.3, c.gt)
     coin(g, 600, 1060, 300, "silver", ridges=True, face="head", glint=1.0)
     g.circle(600, 1060, 300, None, PAL["yellow"], lw=16, a=ease_out(seg(c.t, c.w("trap") - 0.2, 0.4)))
@@ -206,7 +206,7 @@ def c1_trap(g, c):
 def c2_hook(g, c):
     road1920(g, c.gt)
     road_sign(g, 640, 820, 330, "octagon", "#F2C14E", "STOP", INK, post=900, border=INK)
-    char2(g, "engineer", 260, 2400, 1700, "suspicious", "down", "point", t=c.gt)
+    char2(g, "engineer", 260, 2560, 1700, "suspicious", "down", "point", t=c.gt)
 
 
 def c2_engineers(g, c):
@@ -264,15 +264,15 @@ def c2_pink(g, c):
     """Last shot loops to frame 1: the same road, sign and engineer."""
     road1920(g, c.gt)
     road_sign(g, 640, 820, 330, "octagon", "#D7263D", "STOP", post=900, fade=1.0)
-    char2(g, "engineer", 260, 2400, 1700, "deadpan" if c.t < c.w("miss") - 0.3 else "shocked", "down", "point", t=c.gt)
+    char2(g, "engineer", 260, 2560, 1700, "deadpan" if c.t < c.w("miss") - 0.3 else "shocked", "down", "point", t=c.gt)
 
 
 # ------------------------------------------------------------------ C3 bottle caps
 def c3_hook(g, c):
     studio(g, c.gt, "#D7263D", "#5A1020")
-    char2(g, "modern", 300, 2500, 1800, "suspicious", "down", "point", t=c.gt, prop=False)
+    char2(g, "modern", 800, 2560, 1800, "suspicious", "point", "down", t=c.gt, prop=False, flip=True)
     n = min(21, int(c.gt * 9))
-    bottle_cap(g, 650, 820, 380, 21, hi=n - 1)
+    bottle_cap(g, 400, 1150, 340, 21, hi=n - 1)
 
 
 def c3_count(g, c):
@@ -312,7 +312,7 @@ def c3_advice(g, c):
 
 def c3_gillette(g, c):
     studio(g, c.gt, "#5E6C8A", "#26304A")
-    char2(g, "gillette", 540, 2350, 1750, "smug", "down", "point", t=c.gt)
+    char2(g, "gillette", 540, 2560, 1750, "smug", "down", "point", t=c.gt)
     label(g, "KING GILLETTE", W / 2, 420, 110, k=pop(c.t, c.w("King") - 0.1, 0.3))
     razor_blade(g, 540, 640, 1.4 * back_out(seg(c.t, c.w("Gillette") - 0.1, 0.35), 1.6) + 0.01, -0.1, glint=0.6)
 
@@ -329,11 +329,11 @@ def c3_21(g, c):
 def c3_end(g, c):
     """Last shot loops to frame 1: the same man and the same 21-tooth cap; fizz vs opener."""
     studio(g, c.gt, "#D7263D", "#5A1020")
-    char2(g, "modern", 300, 2500, 1800, "smug" if c.t > c.w("pop") - 0.3 else "curious", "down", "point", t=c.gt, prop=False)
-    bottle_cap(g, 650, 820, 380, 21, hi_all=1.0)
+    char2(g, "modern", 800, 2560, 1800, "smug" if c.t > c.w("pop") - 0.3 else "curious", "point", "down", t=c.gt, prop=False, flip=True)
+    bottle_cap(g, 400, 1150, 340, 21, hi_all=1.0)
     with g.screen():
-        g.text("FIZZ IN", 650, 330, 80, PAL["cream"], sw=14, sc=pop(c.t, c.w("fizz") - 0.2, 0.3))
-        g.text("EASY OFF", 650, 1320, 80, PAL["yellow"], sw=14, sc=pop(c.t, c.w("pop") - 0.2, 0.3))
+        g.text("FIZZ IN", 400, 700, 80, PAL["cream"], sw=14, sc=pop(c.t, c.w("fizz") - 0.2, 0.3))
+        g.text("EASY OFF", 400, 1600, 80, PAL["yellow"], sw=14, sc=pop(c.t, c.w("pop") - 0.2, 0.3))
 
 
 # ------------------------------------------------------------------ C4 manholes
@@ -450,14 +450,14 @@ def build():
                   keys={"twenty-one", "21", "1892", "baltimore", "crown", "twenty-four", "24", "gillette", "fizz", "pop"})
         V.shot("H1", c3_hook, sfx=[(0.3, "tick", 0.3)])
         V.shot("L01", c3_count, (0, "Why"), sfx=[(0.1, "tick", 0.3)])
-        V.shot("L01", c3_hook, ("Why", 1), cam=push(1.1, 1.15, (650, 820)))
+        V.shot("L01", c3_hook, ("Why", 1), cam=push(1.1, 1.15, (500, 1100)))
         V.shot("L02", c3_painter, (0, "like"), sfx=[("crimped", "click", 0.4)])
         V.shot("L02", c3_crown, ("like", 1))
         V.shot("L03", c3_24, sfx=[(0.1, "ding", 0.4)])
-        V.shot("L04", c3_advice, (0, "His"), music="curious")
-        V.shot("L04", c3_gillette, ("His", 1), sfx=[("Gillette", "shimmer", 0.45)])
+        V.shot("L04", c3_advice, (0, "His#1"), music="curious")
+        V.shot("L04", c3_gillette, ("His#1", 1), sfx=[("Gillette", "shimmer", 0.45)])
         V.shot("L05", c3_21, (0, "Enough"), sfx=[("twenty-one", "ding", 0.45)])
-        V.shot("L05", c3_end, ("Enough", 1), cam=push(1.0, 1.04, (650, 820)), sfx=[("pop", "pop", 0.45)])
+        V.shot("L05", c3_end, ("Enough", 1), cam=push(1.0, 1.04, (500, 1100)), sfx=[("pop", "pop", 0.45)])
     else:
         V = Video(EP, title=("WHY IS EVERY MANHOLE", "COVER ROUND?"), cap_y=0.72, music="playful", sid="B004C4",
                   keys={"round", "square", "edge", "diagonal", "clang", "circle", "width", "never", "roll"})
@@ -468,7 +468,46 @@ def build():
         V.shot("L03", c4_circle, sfx=[("same", "ding", 0.35)])
         V.shot("L04", c4_never, sfx=[("never", "ding", 0.4)])
         V.shot("L05", c4_end, cam=push(1.0, 1.04, (640, 1200)), sfx=[("square", "hmm", 0.35)])
-    return V.build()
+    V.build()
+    split_long(V)
+    return V
+
+
+def _cont(fn, sh0):
+    """Run a scene with the clock of the original (unsplit) shot, so its animations continue across the cut."""
+    def f(g, c):
+        off = c.sh["start"] - sh0["start"]
+        c.sh = dict(c.sh, start=sh0["start"]); c.t += off; c.T = sh0["dur"]; c.u = clamp(c.t / c.T) if c.T > 0 else 0
+        fn(g, c)
+    return f
+
+
+def split_long(V, maxd=2.5):
+    out = []
+    for sh in V.shots:
+        if sh["kind"] == "end" or sh["dur"] <= maxd + 0.5:
+            out.append(sh); continue
+        n = math.ceil(sh["dur"] / maxd)
+        edges = [round((sh["start"] + sh["dur"] * k / n) * FPS) / FPS for k in range(n + 1)]
+        for k in range(n):
+            part = dict(sh, start=edges[k], dur=edges[k + 1] - edges[k])
+            part["sfx"] = []
+            for e in sh["sfx"]:                      # each sound effect goes to the piece that contains its moment
+                off, nm = e[0], e[1]
+                t_abs = (V.word_t(sh["line"], *((off.split("#")[0], int(off.split("#")[1])) if "#" in off else (off, 0)))
+                         if isinstance(off, str) else sh["start"] + off)
+                if edges[k] <= t_abs < edges[k + 1] or (k == n - 1 and t_abs >= edges[-1]):
+                    part["sfx"].append(e if isinstance(off, str) else (t_abs - edges[k],) + tuple(e[1:]))
+            if k:
+                part["fn"] = _cont(sh["fn"], sh)
+                part["tr"] = "cut"
+                part["music"] = None
+                part["cam"] = push(1.16, 1.2, (540, 1050)) if k % 2 else push(0.96, 1.0, (540, 960))
+            out.append(part)
+    # keep every SFX on its own word: SFX of the first part with word anchors are fine; numeric offsets beyond the part move along
+    for i, sh in enumerate(out):
+        sh["id"] = f"{V.sid}_{i:02d}"
+    V.shots = out
 
 
 if __name__ == "__main__":

@@ -1,0 +1,402 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "Why were stop signs once yellow?",
+  "dur": 2.74,
+  "words": [
+   {
+    "w": "Why",
+    "s": 0.0,
+    "e": 0.48
+   },
+   {
+    "w": "were",
+    "s": 0.48,
+    "e": 0.72
+   },
+   {
+    "w": "stop",
+    "s": 0.72,
+    "e": 1.1
+   },
+   {
+    "w": "signs",
+    "s": 1.1,
+    "e": 1.66
+   },
+   {
+    "w": "once",
+    "s": 1.66,
+    "e": 2.04
+   },
+   {
+    "w": "yellow?",
+    "s": 2.04,
+    "e": 2.5
+   }
+  ],
+  "heard": "Why were stop signs once yellow?",
+  "match": 1.0
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "In 1923, American road engineers made a rule: the more sides, the more danger.",
+  "dur": 5.42,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.07,
+    "e": 0.17
+   },
+   {
+    "w": "1923,",
+    "s": 0.17,
+    "e": 0.91
+   },
+   {
+    "w": "American",
+    "s": 1.21,
+    "e": 1.71
+   },
+   {
+    "w": "road",
+    "s": 1.71,
+    "e": 2.01
+   },
+   {
+    "w": "engineers",
+    "s": 2.01,
+    "e": 2.45
+   },
+   {
+    "w": "made",
+    "s": 2.45,
+    "e": 2.79
+   },
+   {
+    "w": "a",
+    "s": 2.79,
+    "e": 2.93
+   },
+   {
+    "w": "rule:",
+    "s": 2.93,
+    "e": 3.19
+   },
+   {
+    "w": "the",
+    "s": 3.59,
+    "e": 3.67
+   },
+   {
+    "w": "more",
+    "s": 3.67,
+    "e": 3.87
+   },
+   {
+    "w": "sides,",
+    "s": 3.87,
+    "e": 4.25
+   },
+   {
+    "w": "the",
+    "s": 4.67,
+    "e": 4.71
+   },
+   {
+    "w": "more",
+    "s": 4.71,
+    "e": 4.87
+   },
+   {
+    "w": "danger.",
+    "s": 4.87,
+    "e": 5.25
+   }
+  ],
+  "heard": "In 1923, American road engineers made a rule. The more sides, the more danger.",
+  "match": 1.0
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "A circle for railway crossings. Eight sides for stop.",
+  "dur": 3.25,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.03,
+    "e": 0.21
+   },
+   {
+    "w": "circle",
+    "s": 0.21,
+    "e": 0.45
+   },
+   {
+    "w": "for",
+    "s": 0.45,
+    "e": 0.75
+   },
+   {
+    "w": "railway",
+    "s": 0.75,
+    "e": 1.05
+   },
+   {
+    "w": "crossings.",
+    "s": 1.05,
+    "e": 1.51
+   },
+   {
+    "w": "Eight",
+    "s": 1.97,
+    "e": 2.07
+   },
+   {
+    "w": "sides",
+    "s": 2.07,
+    "e": 2.47
+   },
+   {
+    "w": "for",
+    "s": 2.47,
+    "e": 2.83
+   },
+   {
+    "w": "stop.",
+    "s": 2.83,
+    "e": 3.07
+   }
+  ],
+  "heard": "A circle for railway crossings. Eight sides for stop.",
+  "match": 1.0
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "And for about thirty years, most stop signs were yellow, with black letters.",
+  "dur": 4.43,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.03,
+    "e": 0.19
+   },
+   {
+    "w": "for",
+    "s": 0.19,
+    "e": 0.33
+   },
+   {
+    "w": "about",
+    "s": 0.33,
+    "e": 0.51
+   },
+   {
+    "w": "thirty",
+    "s": 0.51,
+    "e": 0.75
+   },
+   {
+    "w": "years,",
+    "s": 0.75,
+    "e": 1.05
+   },
+   {
+    "w": "most",
+    "s": 1.35,
+    "e": 1.49
+   },
+   {
+    "w": "stop",
+    "s": 1.49,
+    "e": 1.85
+   },
+   {
+    "w": "signs",
+    "s": 1.85,
+    "e": 2.11
+   },
+   {
+    "w": "were",
+    "s": 2.11,
+    "e": 2.41
+   },
+   {
+    "w": "yellow,",
+    "s": 2.41,
+    "e": 2.89
+   },
+   {
+    "w": "with",
+    "s": 3.39,
+    "e": 3.49
+   },
+   {
+    "w": "black",
+    "s": 3.49,
+    "e": 3.75
+   },
+   {
+    "w": "letters.",
+    "s": 3.75,
+    "e": 4.17
+   }
+  ],
+  "heard": "And for about thirty years, most stop signs were yellow, with black letters.",
+  "match": 1.0
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "Red would be better. So why wait until 1954?",
+  "dur": 3.27,
+  "words": [
+   {
+    "w": "Red",
+    "s": 0.05,
+    "e": 0.29
+   },
+   {
+    "w": "would",
+    "s": 0.29,
+    "e": 0.47
+   },
+   {
+    "w": "be",
+    "s": 0.47,
+    "e": 0.61
+   },
+   {
+    "w": "better.",
+    "s": 0.61,
+    "e": 0.83
+   },
+   {
+    "w": "So",
+    "s": 1.17,
+    "e": 1.25
+   },
+   {
+    "w": "why",
+    "s": 1.25,
+    "e": 1.47
+   },
+   {
+    "w": "wait",
+    "s": 1.47,
+    "e": 1.73
+   },
+   {
+    "w": "until",
+    "s": 1.73,
+    "e": 2.03
+   },
+   {
+    "w": "1954?",
+    "s": 2.03,
+    "e": 2.79
+   }
+  ],
+  "heard": "Red would be better. So why wait until 1954?",
+  "match": 1.0
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "Because red paint faded in the sun. And a pale pink stop sign is easy to miss.",
+  "dur": 5.24,
+  "words": [
+   {
+    "w": "Because",
+    "s": 0.06,
+    "e": 0.26
+   },
+   {
+    "w": "red",
+    "s": 0.26,
+    "e": 0.52
+   },
+   {
+    "w": "paint",
+    "s": 0.52,
+    "e": 0.82
+   },
+   {
+    "w": "faded",
+    "s": 0.82,
+    "e": 1.24
+   },
+   {
+    "w": "in",
+    "s": 1.24,
+    "e": 1.58
+   },
+   {
+    "w": "the",
+    "s": 1.58,
+    "e": 1.76
+   },
+   {
+    "w": "sun.",
+    "s": 1.76,
+    "e": 2.0
+   },
+   {
+    "w": "And",
+    "s": 2.42,
+    "e": 2.52
+   },
+   {
+    "w": "a",
+    "s": 2.52,
+    "e": 2.62
+   },
+   {
+    "w": "pale",
+    "s": 2.62,
+    "e": 2.9
+   },
+   {
+    "w": "pink",
+    "s": 2.9,
+    "e": 3.16
+   },
+   {
+    "w": "stop",
+    "s": 3.16,
+    "e": 3.5
+   },
+   {
+    "w": "sign",
+    "s": 3.5,
+    "e": 3.82
+   },
+   {
+    "w": "is",
+    "s": 3.82,
+    "e": 4.16
+   },
+   {
+    "w": "easy",
+    "s": 4.16,
+    "e": 4.68
+   },
+   {
+    "w": "to",
+    "s": 4.68,
+    "e": 4.86
+   },
+   {
+    "w": "miss.",
+    "s": 4.86,
+    "e": 5.06
+   }
+  ],
+  "heard": "Because red paint faded in the sun. And a pale pink stop sign is easy to miss.",
+  "match": 1.0
+ }
+]

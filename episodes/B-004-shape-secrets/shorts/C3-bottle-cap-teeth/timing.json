@@ -1,0 +1,417 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "Count the teeth on a bottle cap.",
+  "dur": 1.51,
+  "words": [
+   {
+    "w": "Count",
+    "s": 0.0,
+    "e": 0.4
+   },
+   {
+    "w": "the",
+    "s": 0.4,
+    "e": 0.56
+   },
+   {
+    "w": "teeth",
+    "s": 0.56,
+    "e": 0.68
+   },
+   {
+    "w": "on",
+    "s": 0.68,
+    "e": 0.88
+   },
+   {
+    "w": "a",
+    "s": 0.88,
+    "e": 1.0
+   },
+   {
+    "w": "bottle",
+    "s": 1.0,
+    "e": 1.2
+   },
+   {
+    "w": "cap.",
+    "s": 1.2,
+    "e": 1.46
+   }
+  ],
+  "heard": "Count the teeth on a bottle cap.",
+  "match": 1.0
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "Twenty-one. Almost every time. Why twenty-one?",
+  "dur": 5.1,
+  "words": [
+   {
+    "w": "Twenty-one.",
+    "s": 0.03,
+    "e": 1.67
+   },
+   {
+    "w": "Almost",
+    "s": 1.67,
+    "e": 1.85
+   },
+   {
+    "w": "every",
+    "s": 1.85,
+    "e": 2.33
+   },
+   {
+    "w": "time.",
+    "s": 2.33,
+    "e": 2.69
+   },
+   {
+    "w": "Why",
+    "s": 3.49,
+    "e": 3.69
+   },
+   {
+    "w": "twenty-one?",
+    "s": 3.69,
+    "e": 5.05
+   }
+  ],
+  "heard": "Twenty -one. Almost every time. Why twenty -one? In",
+  "match": 0.533
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "In 1892, in Baltimore, William Painter patented a crimped metal cap, like a little crown.",
+  "dur": 5.43,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.03,
+    "e": 0.23
+   },
+   {
+    "w": "1892,",
+    "s": 0.23,
+    "e": 1.09
+   },
+   {
+    "w": "in",
+    "s": 1.27,
+    "e": 1.29
+   },
+   {
+    "w": "Baltimore,",
+    "s": 1.29,
+    "e": 1.71
+   },
+   {
+    "w": "William",
+    "s": 2.11,
+    "e": 2.27
+   },
+   {
+    "w": "Painter",
+    "s": 2.27,
+    "e": 2.57
+   },
+   {
+    "w": "patented",
+    "s": 2.57,
+    "e": 3.03
+   },
+   {
+    "w": "a",
+    "s": 3.03,
+    "e": 3.33
+   },
+   {
+    "w": "crimped",
+    "s": 3.33,
+    "e": 3.69
+   },
+   {
+    "w": "metal",
+    "s": 3.69,
+    "e": 3.95
+   },
+   {
+    "w": "cap,",
+    "s": 3.95,
+    "e": 4.25
+   },
+   {
+    "w": "like",
+    "s": 4.57,
+    "e": 4.67
+   },
+   {
+    "w": "a",
+    "s": 4.67,
+    "e": 4.79
+   },
+   {
+    "w": "little",
+    "s": 4.79,
+    "e": 4.89
+   },
+   {
+    "w": "crown.",
+    "s": 4.89,
+    "e": 5.17
+   }
+  ],
+  "heard": "In 1892, in Baltimore, William Painter patented a crimped metal cap, like a little crown.",
+  "match": 1.0
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "His first caps had twenty-four teeth.",
+  "dur": 1.92,
+  "words": [
+   {
+    "w": "His",
+    "s": 0.13,
+    "e": 0.25
+   },
+   {
+    "w": "first",
+    "s": 0.25,
+    "e": 0.45
+   },
+   {
+    "w": "caps",
+    "s": 0.45,
+    "e": 0.73
+   },
+   {
+    "w": "had",
+    "s": 0.73,
+    "e": 1.03
+   },
+   {
+    "w": "twenty-four",
+    "s": 1.03,
+    "e": 1.55
+   },
+   {
+    "w": "teeth.",
+    "s": 1.55,
+    "e": 1.79
+   }
+  ],
+  "heard": "His first caps had twenty -four teeth.",
+  "match": 0.769
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "One of his salesmen got some advice: invent something people use once and throw away. His name? King Gillette.",
+  "dur": 8.36,
+  "words": [
+   {
+    "w": "One",
+    "s": 0.03,
+    "e": 0.27
+   },
+   {
+    "w": "of",
+    "s": 0.27,
+    "e": 0.35
+   },
+   {
+    "w": "his",
+    "s": 0.35,
+    "e": 0.45
+   },
+   {
+    "w": "salesmen",
+    "s": 0.45,
+    "e": 0.89
+   },
+   {
+    "w": "got",
+    "s": 0.89,
+    "e": 1.09
+   },
+   {
+    "w": "some",
+    "s": 1.09,
+    "e": 1.27
+   },
+   {
+    "w": "advice:",
+    "s": 1.27,
+    "e": 1.61
+   },
+   {
+    "w": "invent",
+    "s": 2.57,
+    "e": 2.89
+   },
+   {
+    "w": "something",
+    "s": 2.89,
+    "e": 3.23
+   },
+   {
+    "w": "people",
+    "s": 3.23,
+    "e": 3.57
+   },
+   {
+    "w": "use",
+    "s": 3.57,
+    "e": 3.99
+   },
+   {
+    "w": "once",
+    "s": 3.99,
+    "e": 4.37
+   },
+   {
+    "w": "and",
+    "s": 4.37,
+    "e": 4.73
+   },
+   {
+    "w": "throw",
+    "s": 4.73,
+    "e": 5.05
+   },
+   {
+    "w": "away.",
+    "s": 5.05,
+    "e": 5.41
+   },
+   {
+    "w": "His",
+    "s": 6.15,
+    "e": 6.35
+   },
+   {
+    "w": "name?",
+    "s": 6.35,
+    "e": 6.59
+   },
+   {
+    "w": "King",
+    "s": 7.39,
+    "e": 7.61
+   },
+   {
+    "w": "Gillette.",
+    "s": 7.61,
+    "e": 8.15
+   }
+  ],
+  "heard": "One of his salesmen got some advice. Invent something people use once and throw away. His name? King Gillette.",
+  "match": 1.0
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "And the teeth? Makers settled on twenty-one. Enough to hold the fizz, and still easy to pop off.",
+  "dur": 5.33,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.03,
+    "e": 0.19
+   },
+   {
+    "w": "the",
+    "s": 0.19,
+    "e": 0.29
+   },
+   {
+    "w": "teeth?",
+    "s": 0.29,
+    "e": 0.49
+   },
+   {
+    "w": "Makers",
+    "s": 1.27,
+    "e": 1.27
+   },
+   {
+    "w": "settled",
+    "s": 1.27,
+    "e": 1.49
+   },
+   {
+    "w": "on",
+    "s": 1.49,
+    "e": 1.73
+   },
+   {
+    "w": "twenty-one.",
+    "s": 1.73,
+    "e": 2.75
+   },
+   {
+    "w": "Enough",
+    "s": 2.75,
+    "e": 2.89
+   },
+   {
+    "w": "to",
+    "s": 2.89,
+    "e": 3.05
+   },
+   {
+    "w": "hold",
+    "s": 3.05,
+    "e": 3.17
+   },
+   {
+    "w": "the",
+    "s": 3.17,
+    "e": 3.45
+   },
+   {
+    "w": "fizz,",
+    "s": 3.45,
+    "e": 3.61
+   },
+   {
+    "w": "and",
+    "s": 3.83,
+    "e": 4.01
+   },
+   {
+    "w": "still",
+    "s": 4.01,
+    "e": 4.29
+   },
+   {
+    "w": "easy",
+    "s": 4.29,
+    "e": 4.59
+   },
+   {
+    "w": "to",
+    "s": 4.59,
+    "e": 4.79
+   },
+   {
+    "w": "pop",
+    "s": 4.79,
+    "e": 4.95
+   },
+   {
+    "w": "off.",
+    "s": 4.95,
+    "e": 5.15
+   }
+  ],
+  "heard": "And the teeth? Makers settled on twenty -one. Enough to hold the fizz, and still easy to pop off.",
+  "match": 0.919
+ }
+]

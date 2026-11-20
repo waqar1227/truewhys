@@ -8,7 +8,7 @@ deleted (they had no repo; the 18/19 Nov runs did not happen). Plan: L4 Fri 27 N
    [x] 1. AI field = No on ALL 43 videos (17 Nov 08:10; tools/yt_ai_no.py; YouTube's GET hides "false", so proof = docs/audit/ai_no.json, dry run says 0 left).
    [x] 2. thumb_v2 set on the 7 scheduled Shorts (17 Nov; uploaded.json thumbnail_file updated).
    [x] 3. yt_apply_fixes --apply: the 6 B-003 fixes done (17 Nov; script now ignores tag order).
-   [ ] 4. SRT captions: files READY (episodes/B-00*/final/captions_en.srt, timing matches live length ±1 s). Quota ran out again 17 Nov ~08:20 →
+   [~] 4. (20 Nov 09:44: B-001 DONE, caption id saved by YouTube; quotaExceeded again → B-002 + B-003 still to do) SRT captions: files READY (episodes/B-00*/final/captions_en.srt, timing matches live length ±1 s). Quota ran out again 17 Nov ~08:20 →
           after 18 Nov 08:00 UTC: `python3 tools/make_srt.py episodes/B-001-animal-trials --upload 9C-9O0c6VqM`, same for B-002 h2oO3SrSUH8, B-003 Am8epkS94Hw (~400 units each).
    [ ] 5. `python3 docs/audit/verify.py` (needs quota) → commit, push, short message to the owner.
    If quota runs out midway: leave the unticked items here for the next reset.
@@ -19,7 +19,9 @@ deleted (they had no repo; the 18/19 Nov runs did not happen). Plan: L4 Fri 27 N
    DONE 19 Nov: topic.md (10 titles, religion check: clear), sources.md (2+ per claim), lines.txt, Gemini voice ch0–8 (FLAC in voice/; 10 requests used
    19 Nov), make.py (71 shots, 9 chapters, end screen), animatic/stills.jpg checked once. New: lib/flat_shapes.py props, 10 cast v2.1 roles in lib/cast2.py,
    flat2d 16:9 via TW_FLAT_SIZE.
-   NEXT (in order): 1) 20 Nov after 08:00 UTC: quota items 4–5 above first. 2) Polish animatic: split the 24 shots > 5.5 s (`make.py qa` lists them),
+   20 Nov: animatic polished (99 shots, every shot ≤ 5.9 s; GB map, square-lid top view, CLANG cut-away), animatic/animatic.mp4 rendered (6:17, −14.5 LUFS);
+   draft thumbs A/B/C (thumbs.py); 4 Shorts scripted + voiced (Gemini 4 req 20 Nov) + composed (shorts/make_short.py C1..C4: frame-1 0.56–0.70, shots ≤ 3 s, 25–30 s, badge, loop).
+   NEXT (in order): 1) next reset 08:00 UTC: quota items 4 (B-002, B-003 captions) + 5 first. 2) Polish animatic: split the 24 shots > 5.5 s (`make.py qa` lists them),
    better England map (O04), square-lid fall (C202), bigger characters in street wides; render `make.py animatic`, watch it once.
    3) Shorts: write 4 vertical scripts (20–35 s, frame-1 rule, answer in last 5 s, loop, corner badge) + record hooks with Gemini (≤10 req/day).
    4) 22/23 Nov: `bash tools/daily.sh`, read research/stats/<date>.md (A-009/A-010 48 h) → lock title (shortlist in topic.md), hook, first frames.
