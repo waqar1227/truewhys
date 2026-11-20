@@ -114,3 +114,13 @@ All original (TrueWhys). One episode = `episodes/<ep>/make.py` (`sheet` | `big <
   first cut, shot count, end-card seconds (0) for qa.md. `lib/shorts.py` (Style T cut Shorts): no end card unless shorts.json `"endcard": true`, corner badge
   in the last 0.7 s (compose.py), hook shot re-aimed so the subject fills 48 % of the height. Style T still uses the 3D cast v1: a 3D cast v2 is needed
   before new Style T videos (until then new videos are Style F).
+
+## Added 19–20 Nov 2026 (B-004, A-018)
+- `lib/flat_shapes.py` (Style F props): coin (ridged/smooth/clipped), coin_edge (ridged/trimmed/clad), scissors, candle, steam, manhole (circle/square/Reuleaux),
+  road_sign (octagon/circle/diamond/square/rect, fade), paper_bag (envelope or flat-bottomed), bottle (cork/crown, fizz), bottle_cap (n teeth, counting highlight),
+  cracker (holes, puff), razor_blade, ngon_pts, reuleaux_pts. Original (TrueWhys).
+- `lib/flat2d.py`: 16:9 long videos with `TW_FLAT_SIZE=1920x1080` (set before import); `Video(cap_size=…)`.
+- `lib/cast2.py`: 10 more cast v2.1 roles (clipper, newton, chaloner, engineer, sewer, knight, annan, painter, gillette, baker) + hats periwig, fedora, hardhat, chef, flatcap.
+- `episodes/B-004-shape-secrets/shorts/make_short.py` `split_long(V)`: splits long Short shots into 1.5–2.5 s cuts with alternating framings, story clock and SFX kept.
+- `lib/style_r/sr_walls.py` (Style R): wavy_wall (crinkle-crankle, running bond, per-brick colour), straight_wall (1–2 bricks, piers, topple pivot),
+  paper_sheet (flat or zigzag), fruit_tree (espalier), sun_disc, arrow3d. `lib/srplate.py` plate(zoom=, t0=): punch-in cuts inside one rendered shot.
