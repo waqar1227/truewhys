@@ -11,7 +11,7 @@ deleted (they had no repo; the 18/19 Nov runs did not happen). Plan: L4 Fri 27 N
    [~] 4. (20 Nov 09:44: B-001 DONE, caption id saved by YouTube; quotaExceeded again → B-002 + B-003 still to do) SRT captions: files READY (episodes/B-00*/final/captions_en.srt, timing matches live length ±1 s). Quota ran out again 17 Nov ~08:20 →
           after 18 Nov 08:00 UTC: `python3 tools/make_srt.py episodes/B-001-animal-trials --upload 9C-9O0c6VqM`, same for B-002 h2oO3SrSUH8, B-003 Am8epkS94Hw (~400 units each).
    [ ] 5. `python3 docs/audit/verify.py` (needs quota) → commit, push, short message to the owner.
-   [ ] 0. FIRST (20 Nov QA PASS): upload A-018 → `python lib/youtube.py upload episodes/A-018-wavy-walls/final/A-018.mp4 episodes/A-018-wavy-walls/upload_meta.json
+   [~] 0. A-018 UPLOADED 20 Nov 20:00 UTC (jN10Y403ZOA, private, publishAt 27 Nov 16:00 UTC, register + topic_results done). LEFT: `python tools/yt_finish.py episodes/A-018-wavy-walls episodes/A-018-wavy-walls/final/thumb_v2.jpg` (thumbnail + playlist failed: quota). Old note: upload A-018 → `python lib/youtube.py upload episodes/A-018-wavy-walls/final/A-018.mp4 episodes/A-018-wavy-walls/upload_meta.json
           episodes/A-018-wavy-walls/final/thumb_v2.jpg` (publishAt Fri 27 Nov 16:00 UTC, ai_disclosure No); check uploaded.json "thumbnail": true;
           then add its id to docs/ai_disclosure.md/.json and topic_results.md. (Video is rebuilt from renders/ by `make.py render` if final/ is gone; frames are not in git → Kaggle output a018 v2.)
    If quota runs out midway: leave the unticked items here for the next reset.

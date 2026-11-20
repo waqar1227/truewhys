@@ -40,6 +40,7 @@ Unsure → **Yes** (disclosing never hurts reach or money; a missing disclosure 
 | bHC7F6nNwWM | A-013-falling-cat | The Falling Cat That Broke Physics | F | **No** |
 | pwVCqe756X8 | A-016-onion-tears | Why Onions Make You Cry | R | **No** |
 | S8zIxiPXHpE | A-017-cloudy-ice | Why Ice Cubes Are Cloudy | R | **No** |
+| jN10Y403ZOA | A-018-wavy-walls | Why Is This English Wall So Wiggly? | R | **No** |
 | 9C-9O0c6VqM | B-001-animal-trials | Why Medieval Courts Put Animals on Trial | T | **No** |
 | 5YqYpWmY7EA | B-001-animal-trials/C0 | Why a Pig Was Executed in a Man's Clothes | T | **No** |
 | 33UzHb61eKc | B-001-animal-trials/C1 | Why a French Town Put a Pig on Trial | T | **No** |

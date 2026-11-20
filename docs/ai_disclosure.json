@@ -342,5 +342,13 @@
   "synthetic": false,
   "reason": "Not realistic: animated/stylised CG; generic TTS narrator imitating no real person; code-made music; no AI images/footage, no voice clone, no real-footage edits.",
   "decided": "2026-11-18"
+ },
+ "jN10Y403ZOA": {
+  "episode": "A-018-wavy-walls",
+  "title": "Why Is This English Wall So Wiggly?",
+  "style": "R: stylised CG people (MPFB), plain studio backdrop, clearly computer-made",
+  "synthetic": false,
+  "reason": "Not realistic: animated/stylised CG; generic TTS narrator imitating no real person; code-made music; no AI images/footage, no voice clone, no real-footage edits.",
+  "decided": "2026-11-20"
  }
 }
