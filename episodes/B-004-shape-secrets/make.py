@@ -224,7 +224,7 @@ def s_open(g, c):
     if k > 0:
         with g.at(1180 + 90 * ease_out(k), 640 + 160 * ease_in(k), 2 * k):
             g.path("M-8 -50 Q6 0 -8 50 L4 50 Q16 0 4 -50 Z", SILVER, INK, lw=4)
-    if c.t < 2.2:
+    if c.gt < 2.2:
         with g.screen():
             g.text("LONDON · 1696", W / 2, 120, 92, PAL["cream"], sw=18, depth=8, sc=pop(c.t, 0.0, 0.3))
 
@@ -269,10 +269,16 @@ def s_spend(g, c):
 
 def s_england(g, c):
     studio(g, c.gt, "#2F5F6A", "#10263B")
-    path = ("M820 120 Q900 90 960 150 Q1040 140 1020 230 Q1100 300 1060 380 Q1140 470 1100 560 Q1180 640 1140 760 Q1220 860 1080 900 "
-            "Q920 960 780 900 Q700 940 640 880 Q720 800 700 720 Q640 640 700 560 Q640 480 720 420 Q660 340 740 280 Q700 200 820 120 Z")
-    g.path(path, "#9DBF7A", INK, lw=10)
-    pts = [(860, 820), (940, 760), (800, 700), (1000, 640), (880, 560), (760, 500), (980, 450), (900, 380), (840, 300), (1040, 820), (720, 800), (1060, 720)]
+    GB = [(900, 130), (960, 118), (1012, 150), (992, 200), (1032, 232), (1002, 290), (962, 302), (1002, 342), (1042, 382), (1062, 452),
+          (1102, 522), (1092, 562), (1152, 602), (1182, 662), (1162, 702), (1202, 742), (1182, 792), (1122, 822), (1082, 862), (1002, 872),
+          (922, 882), (842, 902), (762, 942), (700, 962), (732, 922), (802, 882), (852, 852), (832, 812), (782, 802), (762, 762), (812, 732),
+          (782, 692), (822, 642), (862, 622), (842, 572), (882, 522), (852, 472), (822, 432), (862, 382), (832, 332), (872, 282), (842, 242), (872, 192)]
+    g.poly([(x + 8, y + 14) for x, y in GB], "#0B2A36", None, a=0.5, r=10)
+    g.poly(GB, "#9DBF7A", INK, lw=10, r=10)
+    g.circle(1120, 800, 16, PAL["cream"], INK, lw=5)
+    with g.screen():
+        g.text("LONDON", 1240, 806, 40, PAL["cream"], sw=8)
+    pts = [(1080, 760), (960, 820), (880, 720), (1000, 640), (1080, 560), (920, 560), (980, 460), (930, 380), (940, 250), (1140, 700), (800, 900), (1050, 860)]
     for i, (x, y) in enumerate(pts):
         k = pop(c.t, 0.25 + i * 0.22, 0.3)
         if k > 0:
@@ -312,7 +318,10 @@ def s_montage(g, c):
     items = [("stop", 300), ("manhole", 660), ("cap", 1000), ("cracker", 1340), ("bag", 1650)]
     words = ["stop", "manholes", "bottle", "crackers", "crackers"]
     for i, (nm, x) in enumerate(items):
-        t0 = c.w(words[i]) - 0.15 if i < 4 else c.w("crackers") + 0.15
+        try:
+            t0 = c.w(words[i]) - 0.15 if i < 4 else c.w("crackers") + 0.15
+        except KeyError:                       # reused in another line: everything already on screen, gently bobbing
+            t0 = -1.0
         k = back_out(seg(c.t, t0, 0.35), 1.7)
         if k <= 0: continue
         with g.at(x, 520, 0.08 * math.sin(c.gt * 2 + i), k):
@@ -477,11 +486,10 @@ def s_blind(g, c):
     char2(g, "modern", 420, 1450, 1150, "blink" if c.t > c.w("eyes") - 0.2 else "curious", "down", "reach_r", t=c.gt, prop=False, blink=False)
     coin(g, 1050, 520, 150, "silver", ridges=True, face="value")
     coin(g, 1500, 520, 160, "copper", ridges=False, face="value")
-    k = ease_io(seg(c.t, c.w("ridges", 0) - 0.4, 0.8)) if c.t > 0 else 0
     with g.screen():
         g.text("DIME", 1050, 760, 60, PAL["cream"], sw=10, sc=pop(c.t, c.w("dime") - 0.1, 0.3))
         g.text("PENNY", 1500, 760, 60, PAL["cream"], sw=10, sc=pop(c.t, c.w("penny") - 0.1, 0.3))
-    if c.t > c.w("ridges") - 0.3:
+    if c.t > c.w("ridges", 1) - 0.3:
         g.circle(1050, 520, 175, None, PAL["yellow"], lw=14, a=0.6 + 0.4 * math.sin(c.gt * 8))
         check(g, 1190, 360, 50, seg(c.t, c.w("which") - 0.2, 0.3))
 
@@ -489,26 +497,39 @@ def s_blind(g, c):
 # ------------------------------------------------------------------ manholes (ch 2)
 def s_street_q(g, c):
     street(g, c.gt)
-    char2(g, "modern", 520, 1150, 760, "curious", "down", "point", t=c.gt, prop=False)
+    char2(g, "modern", 560, 1330, 1020, "curious", "down", "point", t=c.gt, prop=False)
     manhole(g, 1150, 900, 230, tilt=0.36)
     qmark(g, 1150, 600, 170, PAL["yellow"], 0.1, pop(c.t, c.w("round") - 0.2, 0.3))
     banner(g, c, "MANHOLE COVERS")
 
 
 def s_square_fall(g, c, shape="square"):
-    studio(g, c.gt, "#4A505A", "#22262E")
-    r = 260
-    k_turn = ease_io(seg(c.t, c.w("side") - 0.4, 0.9)) if shape == "square" else 0
-    k_fall = ease_in(seg(c.t, c.w("through") - 0.2, 0.7)) if shape == "square" else 0
-    g.poly([(960 + px, 600 + py) for px, py in ngon_pts(4, r * 1.25, math.pi / 4)], "#8A8F98", INK, lw=10)
-    g.poly([(960 + px, 600 + py) for px, py in ngon_pts(4, r * 1.12, math.pi / 4)], "#141820", INK, lw=6)
-    # the lid seen from the top: it turns 45 degrees, then its side view (thin bar) slides along the diagonal
-    with g.at(960, 600 + 900 * k_fall, (math.pi / 4) * k_turn, 1.0, 1.0 - 0.85 * k_turn):
-        g.poly(ngon_pts(4, r * 1.12, math.pi / 4), IRON, INK, lw=10)
-    if k_turn > 0.5:
-        g.line([(960 - r * 1.12 * 1.414 / 1.414 * 1.0, 600 - r * 1.12), (960 + r * 1.12, 600 + r * 1.12)], PAL["yellow"], 8, dash=([20, 16], 0), a=k_turn)
-        label(g, "DIAGONAL > SIDE", W / 2, 140, 72, k=pop(c.t, c.w("diagonal") - 0.2, 0.3))
-
+    """Top view: square hole; the lid is turned on its edge (seen as a bar) and lined up with the hole's long diagonal -> it drops in."""
+    g.fill_all(g.lgrad(0, 0, 0, H, "#9AA3AD", "#7E8790"))
+    for i in range(-1, 12):
+        for j in range(-1, 7):
+            g.rect(i * 180 + (90 if j % 2 else 0), j * 180, 176, 176, "#A9B1BA", None, r=6, a=0.6)
+    r = 230
+    cx, cy = 960, 560
+    g.poly([(cx + px, cy + py) for px, py in ngon_pts(4, r * 1.30, math.pi / 4)], "#5E6470", INK, lw=10)
+    g.poly([(cx + px, cy + py) for px, py in ngon_pts(4, r * 1.18, math.pi / 4)], "#141820", INK, lw=6)
+    k_edge = ease_io(seg(c.t, c.w("side") - 0.5, 0.8))          # lid tips onto its edge -> becomes a bar
+    k_turn = ease_io(seg(c.t, c.w("diagonal") - 0.6, 0.8))      # bar turns onto the diagonal
+    k_fall = ease_in(seg(c.t, c.w("through") - 0.1, 0.6))
+    side = r * 1.18 * 1.414 * 0.98
+    with g.at(cx - 520 * (1 - k_edge) * 0, cy, (math.pi / 4) * k_turn, 1 - 0.55 * k_fall, 1 - 0.55 * k_fall):
+        th = lerp(side, 34, k_edge)
+        g.rc(0, 0, side, th, mix("#C9A27A", "#22181B", k_fall), INK, lw=8, r=6, a=1 - 0.6 * k_fall)
+        if k_edge < 0.9:
+            for i in range(-3, 4):
+                g.line([(-side * 0.4, i * th * 0.12), (side * 0.4, i * th * 0.12)], "#8A6A44", 6, a=1 - k_edge)
+    if k_turn > 0.2:
+        d = r * 1.18 * 1.414
+        g.line([(cx - d, cy), (cx + d, cy)], PAL["yellow"], 8, dash=([22, 16], 0), a=min(1, k_turn * 1.5))
+        with g.screen():
+            g.text("DIAGONAL", cx + 360, cy - 60, 54, PAL["yellow"], sw=10, sc=k_turn)
+            g.text("LID", cx - 240, cy + 230, 54, PAL["cream"], sw=10, sc=k_turn)
+    label(g, "IT FITS!", W / 2, 140, 96, "#FF6B5B", k=pop(c.t, c.w("through") - 0.1, 0.3))
 
 def s_clang(g, c):
     """Side cut-away: the square lid falls down the shaft towards a worker."""
@@ -579,7 +600,7 @@ def s_engineer_shrug(g, c):
 def s_stop_q(g, c):
     street(g, c.gt)
     road_sign(g, 1260, 380, 210, "octagon", post=520)
-    char2(g, "modern", 600, 1200, 820, "suspicious", "down", "point", t=c.gt, prop=False)
+    char2(g, "modern", 620, 1380, 1050, "suspicious", "down", "point", t=c.gt, prop=False)
     with g.screen():
         for i, (px, py) in enumerate(ngon_pts(8, 250, math.pi / 8)):
             k = pop(c.t, c.w("eight") + i * 0.07 - 0.2, 0.2)
@@ -1039,6 +1060,115 @@ def s_endscreen(g, c):
     check_badge(g, W / 2 + 170, 980, 52, pop(c.t, 0.8, 0.4, 2.4))
 
 
+# ------------------------------------------------------------------ extra shots (split long lines, 20 Nov)
+def s_pattern(g, c):
+    """Close-up: a machine-made coin turning so its patterned edge faces us."""
+    pocket_bg(g, c.gt)
+    k = ease_io(seg(c.t, 0.1, 1.0))
+    coin(g, 960, 540, 300, "silver", ridges=True, face="head", sx=max(0.08, 1 - 0.92 * k), glint=1 - k)
+    if k > 0.85:
+        coin_edge(g, 960, 540, 1400, 260, "silver", ridges=True)
+    label(g, "PATTERNED EDGES", W / 2, 120, 84, k=pop(c.t, c.w("patterned") - 0.15, 0.3))
+
+
+def s_tradition(g, c):
+    studio(g, c.gt, "#5E6C8A", "#26304A")
+    with g.at(560, 560, 0, back_out(seg(c.t, 0.05, 0.4), 1.6)):
+        coin(g, 0, 0, 190, "silver", True, face="head")
+    with g.screen():
+        g.text("TRADITION", 560, 830, 70, PAL["cream"], sw=12, sc=pop(c.t, c.w("tradition") - 0.1, 0.3))
+    k = back_out(seg(c.t, c.w("fingers") - 0.3, 0.4), 1.6)
+    if k > 0:
+        with g.at(1360, 560, 0, k):                                    # fingertip touching an edge
+            coin_edge(g, 0, 60, 520, 120, "silver", ridges=True)
+            g.rc(0, -110, 160, 220, CAST_SKIN, INK, lw=9, r=80)
+            g.rc(0, -170, 96, 80, "#F2DCCB", INK, lw=5, r=36)
+        with g.screen():
+            g.text("FINGERS", 1360, 830, 70, PAL["yellow"], sw=12, sc=k)
+
+
+def s_drop_in(g, c):
+    """The round lid drops back into its hole at any angle (low street view)."""
+    street(g, c.gt)
+    k = ease_io(seg(c.t, 0.2, 1.0))
+    manhole(g, 960, 900, 300, tilt=0.36, lid=True, lift=260 * (1 - k), lid_rot=2.0 * (1 - k))
+    if k > 0.97:
+        ring_wave(g, 960, 900, 300, 420, seg(c.t, 1.2, 0.5), "#FFF4E0", 10)
+        check(g, 1400, 520, 60, seg(c.t, 1.2, 0.3))
+    label(g, "ANY ANGLE", W / 2, 140, 90, k=pop(c.t, c.w("angle") - 0.3, 0.3))
+
+
+def s_sides_chart(g, c):
+    studio(g, c.gt, "#B85A3E", "#4A1E14")
+    rows = [("rect", 4, "#F4F1EA"), ("square", 4, "#F4F1EA"), ("diamond", 4, "#F2C14E"), ("octagon", 8, "#F2C14E"), ("circle", 99, "#F4F1EA")]
+    for i, (sh, n, col) in enumerate(rows):
+        k = back_out(seg(c.t, 0.15 + i * 0.35, 0.35), 1.6)
+        if k <= 0: continue
+        x = 260 + i * 350
+        with g.at(x, 560 - i * 40, 0, k):
+            road_sign(g, 0, 0, 110, sh, col, "", border=INK)
+    ka = ease_out(seg(c.t, c.w("dangerous") - 0.6, 0.8))
+    arrow(g, 220, 860, 220 + 1480 * ka, 700, "#FF5B4B", w=26, k=ka)
+    with g.screen():
+        g.text("MORE DANGER", 1500, 650, 60, "#FFF4E0", sw=12, sc=pop(c.t, c.w("dangerous") - 0.2, 0.3))
+
+
+def s_paint_lab(g, c):
+    road1920(g, c.gt)
+    table(g, 1100, 760, 1000)
+    with g.at(900, 760):                                               # paint can + reflective sheet
+        g.rc(0, -90, 170, 180, "#9AA3AD", INK, lw=7, r=10); g.rc(0, -90, 170, 70, "#D7263D", INK, lw=5)
+        g.text("RED", 0, -84, 40, "#FFF4E0", stroke=None)
+    with g.at(1300, 640, 0.05):
+        g.rc(0, 0, 300, 220, "#D7263D", INK, lw=8, r=12)
+        for i in range(8):
+            g.circle(-110 + (i % 4) * 72, -50 + (i // 4) * 100, 18, "#FFB0B0", None, a=0.4 + 0.4 * math.sin(c.gt * 6 + i))
+    char2(g, "engineer", 460, 1420, 1100, "smug", "down", "point", t=c.gt)
+    label(g, "LASTS!", 1300, 330, 90, k=pop(c.t, c.w("lasted") - 0.2, 0.3))
+
+
+def s_bag_stand(g, c):
+    kitchen(g, c.gt)
+    paper_bag(g, 1000, 800, 1.8, "flat")
+    for i in range(3):
+        g.circle(940 + i * 70, 470 - (i % 2) * 30, 42, ["#FF6B5B", "#FFC93C", "#5ED3B5"][i], INK, lw=6)
+    char2(g, "knight", 480, 1420, 1050, "smug", "down", "hold", t=c.gt)
+    label(g, "STILL HER DESIGN", 1300, 160, 80, k=pop(c.t, c.w("design") - 0.3, 0.3))
+
+
+def s_fizz(g, c):
+    """Cut-away bottle neck: the crown's teeth bite the lip and hold the gas in."""
+    studio(g, c.gt, "#2F5F6A", "#10263B")
+    with g.at(960, 980, 0, 1.9):
+        bottle(g, 0, 0, 1.0, stopper="crown", fizz=1.0, t=c.gt)
+    for sd in (-1, 1):
+        arrow(g, 960 + sd * 300, 120, 960 + sd * 110, 120, PAL["yellow"], w=20, k=ease_out(seg(c.t, 0.2, 0.4)))
+    with g.screen():
+        g.text("HOLDS THE FIZZ", 960, 1000 - 40, 64, PAL["cream"], sw=12, sc=pop(c.t, c.w("fizz") - 0.2, 0.3))
+
+
+def s_salesmen(g, c):
+    workshop1892(g, c.gt)
+    char2(g, "painter", 1250, 1430, 1050, "deadpan", "down", "down", t=c.gt, flip=True)
+    for i in range(3):
+        char2(g, "gillette" if i == 1 else "gent", 380 + i * 260, 1450, 980, "curious" if i == 1 else "bored", "down", "down", t=c.gt)
+    label(g, "SALESMEN", 760, 150, 80, k=pop(c.t, c.w("salesmen") - 0.2, 0.3))
+
+
+def s_plug_old(g, c):
+    studio(g, c.gt, "#B85A3E", "#4A1E14")
+    plug(g, 960, 520, 2.2)
+    label(g, "CLEVER", W / 2, 140, 100, k=pop(c.t, c.w("clever") - 0.2, 0.3))
+    sparkles(g, c.gt, [(850, 330), (1070, 330)], r=24)
+
+
+def s_holes_q(g, c):
+    kitchen(g, c.gt)
+    plug(g, 1250, 520, 1.5)
+    char2(g, "modern", 620, 1400, 1080, "suspicious", "down", "point", t=c.gt, prop=False)
+    qmark(g, 1250, 200, 140, PAL["yellow"], 0.1, pop(c.t, c.w("now") - 0.2, 0.3))
+
+
 # ------------------------------------------------------------------ the cut
 def P(lid, fn, part=(0, 1), **kw):
     V.shot(lid, fn, part=part, **kw)
@@ -1047,7 +1177,8 @@ def P(lid, fn, part=(0, 1), **kw):
 Z = lambda z0, z1, f: push(z0, z1, f)
 
 # cold open
-P("O01", s_open, (0, "snips"), cam=Z(1.0, 1.06, (1000, 600)), tr="cut", music="mystery", sfx=[(0.3, "tick", 0.25)])
+P("O01", s_open, (0, "with"), cam=Z(1.0, 1.06, (1000, 600)), tr="cut", music="mystery", sfx=[(0.3, "tick", 0.25)])
+P("O01", s_open, ("with", "snips"), cam=Z(1.6, 1.7, (1080, 620)))
 P("O01", s_snipclose, ("snips", 1), cam=Z(1.04, 1.0, (960, 600)), sfx=[("snips", "click", 0.5)])
 P("O02", s_snipclose, cam=Z(1.0, 1.08, (960, 600)), sfx=[(0.1, "click", 0.4), (0.5, "click", 0.4), (0.8, "click", 0.4)])
 P("O03", s_melt, (0, "spends"), cam=Z(1.0, 1.05, (900, 500)), sfx=[(0.3, "melt", 0.4)])
@@ -1056,7 +1187,8 @@ P("O04", s_england, (0, "And"), cam=Z(1.0, 1.05, (900, 520)), sfx=[(0.3, "pop", 
 P("O04", s_newton, ("And", 1), cam=Z(1.0, 1.08, (900, 420)), tr=("iris", (900, 420), 0.5), sfx=[("Isaac", "sting", 0.45)])
 P("O05", s_pocket, (0, "So"), cam=Z(1.0, 1.06, (960, 560)), music="curious", sfx=[(0.1, "shimmer", 0.4)])
 P("O05", s_montage, ("So", 1), sfx=[("stop", "pop", 0.4), ("manholes", "pop", 0.4), ("bottle", "pop", 0.4), ("crackers", "pop", 0.4)])
-P("O06", s_problems, cam=Z(1.0, 1.05, (960, 540)), sfx=[("fix", "chime", 0.4)])
+P("O06", s_montage, (0, "was"), cam=Z(1.3, 1.35, (960, 520)))
+P("O06", s_problems, ("was", 1), cam=Z(1.0, 1.05, (960, 540)), sfx=[("fix", "chime", 0.4)])
 V.pause["O06"] = CH_PAUSE
 # coins
 P("C101", s_coin_q, (0, "ridges"), tr="flash", sfx=[(0.2, "whoosh", 0.4)])
@@ -1064,58 +1196,80 @@ P("C101", s_edge_macro, ("ridges", 1), cam=Z(1.0, 1.1, (960, 520)))
 P("C102", s_hammer, (0, "They"), music="story", sfx=[(0.2, "drum_hit", 0.25)])
 P("C102", s_wobbly, ("They", 1), cam=Z(1.0, 1.05, (960, 520)))
 P("C103", s_treason, cam=Z(1.0, 1.06, (1200, 520)), sfx=[("treason", "drum_hit", 0.45)])
-P("C104", s_press, cam=Z(1.0, 1.05, (960, 420)), sfx=[(0.4, "drum_hit", 0.25)])
+P("C104", s_hammer, (0, "replaced"), cam=Z(1.2, 1.25, (1100, 600)))
+P("C104", s_press, ("replaced", "patterned"), cam=Z(1.0, 1.05, (960, 420)), sfx=[(0.4, "drum_hit", 0.25)])
+P("C104", s_pattern, ("patterned", 1), sfx=[(0.1, "shimmer", 0.35)])
 P("C105", s_trim_test, cam=Z(1.0, 1.06, (960, 480)), sfx=[("Anyone", "ding", 0.4)])
 P("C106", s_newton_desk, (0, "He"), cam=Z(1.0, 1.05, (900, 500)))
 P("C106", s_chaloner, ("He", 1), cam=Z(1.0, 1.06, (960, 600)), sfx=[("Chaloner", "sting", 0.4)])
 P("C107", s_candle_out, music="dark", sfx=[("hanged", "whoosh_soft", 0.4)])
 P("C108", s_clad, music="curious", tr="flash")
-P("C109", s_blind, cam=Z(1.0, 1.05, (1200, 540)), sfx=[("ridges", "shimmer", 0.4)])
+P("C109", s_edge_macro, (0, "Partly"), cam=Z(1.1, 1.0, (960, 520)))
+P("C109", s_tradition, ("Partly", "A"), sfx=[("fingers", "pop", 0.35)])
+P("C109", s_blind, ("A", "With"), cam=Z(1.0, 1.04, (1200, 540)))
+P("C109", s_blind, ("With", 1), cam=Z(1.35, 1.45, (1100, 560)), sfx=[("ridges#1", "shimmer", 0.4)])
 V.pause["C109"] = CH_PAUSE
 # manholes
 P("C201", s_street_q, tr="flash", music="playful", sfx=[(0.2, "whoosh", 0.4)])
 P("C202", s_square_fall, cam=Z(1.0, 1.04, (960, 600)), sfx=[("side", "creak", 0.35)])
 P("C203", s_clang, sfx=[("Clang", "drum_hit", 0.6)])
-P("C204", s_width, cam=Z(1.0, 1.04, (960, 560)), sfx=[("never", "ding", 0.4)])
-P("C205", s_roll, cam=Z(1.0, 1.03, (900, 760)))
+P("C204", s_width, (0, "However"), cam=Z(1.0, 1.04, (960, 560)))
+P("C204", s_width, ("However", 1), cam=Z(1.3, 1.36, (960, 560)), sfx=[("never", "ding", 0.4)])
+P("C205", s_roll, (0, "And"), cam=Z(1.0, 1.03, (900, 760)))
+P("C205", s_drop_in, ("And", 1), sfx=[(1.2, "drum_hit", 0.3)])
 P("C206", s_reuleaux, music="curious")
 P("C207", s_engineer_shrug)
 V.pause["C207"] = CH_PAUSE
 # stop signs
 P("C301", s_stop_q, tr="flash", music="curious", sfx=[(0.2, "whoosh", 0.4)])
-P("C302", s_1923, cam=Z(1.0, 1.05, (960, 600)), music="story")
+P("C302", s_1923, (0, "the"), cam=Z(1.0, 1.05, (960, 600)), music="story")
+P("C302", s_sides_chart, ("the", 1), sfx=[("dangerous", "sting", 0.35)])
 P("C303", s_railway, sfx=[(0.3, "rush", 0.35)])
-P("C304", s_shapes_row, sfx=[("stop", "pop", 0.4), ("caution", "pop", 0.4), ("care", "pop", 0.4), ("information", "pop", 0.4)])
+P("C304", s_shapes_row, (0, "A#1"), cam=Z(1.25, 1.3, (560, 560)), sfx=[("stop", "pop", 0.4), ("caution", "pop", 0.4)])
+P("C304", s_shapes_row, ("A#1", 1), sfx=[("care", "pop", 0.4), ("information", "pop", 0.4)])
 P("C305", s_twist, cam=Z(1.0, 1.08, (1180, 400)), music="tension", sfx=[("twist", "sting", 0.45)])
 P("C306", s_yellow, sfx=[(0.0, "swell", 0.4)])
 P("C307", s_fade, music="curious", sfx=[("miss", "rush", 0.3)])
-P("C308", s_1954, cam=Z(1.0, 1.05, (960, 400)), sfx=[("red", "chime", 0.45)])
+P("C308", s_paint_lab, (0, "did"), cam=Z(1.0, 1.04, (1000, 560)))
+P("C308", s_1954, ("did", 1), cam=Z(1.0, 1.05, (960, 400)), sfx=[("red", "chime", 0.45)])
 V.pause["C308"] = CH_PAUSE
 # paper bags
 P("C401", s_bag_q, tr="flash", music="story", sfx=[(0.2, "whoosh", 0.4)])
-P("C402", s_envelope, sfx=[("fell", "bloop", 0.4)])
+P("C402", s_envelope, (0, "Flat"), cam=Z(1.45, 1.5, (1000, 560)))
+P("C402", s_envelope, ("Flat", 1), sfx=[("fell", "bloop", 0.4)])
 P("C403", s_knight_factory, cam=Z(1.0, 1.05, (760, 600)))
 P("C404", s_model, cam=Z(1.0, 1.04, (1000, 600)), sfx=[(0.5, "creak", 0.3)])
-P("C405", s_annan, music="tension", sfx=[("patented", "sting", 0.45)])
+P("C405", s_annan, (0, "And"), cam=Z(1.3, 1.35, (800, 600)), music="tension")
+P("C405", s_annan, ("And", 1), sfx=[("patented", "sting", 0.45)])
 P("C406", s_court, cam=Z(1.0, 1.04, (1200, 500)), sfx=[(0.1, "gavel", 0.4), ("woman", "hmm", 0.35)])
 P("C407", s_evidence, sfx=[("drawings", "pop", 0.4), ("notes", "pop", 0.4), ("diary", "pop", 0.4)])
-P("C408", s_won, music="warm", sfx=[("won", "chime", 0.5)])
+P("C408", s_won, (0, "And"), music="warm", sfx=[("won", "chime", 0.5)])
+P("C408", s_bag_stand, ("And", 1), cam=Z(1.0, 1.05, (1000, 600)))
 V.pause["C408"] = CH_PAUSE
 # bottle caps
 P("C501", s_cap_count, tr="flash", music="playful", sfx=[(0.6, "tick", 0.3)])
-P("C502", s_cork, cam=Z(1.0, 1.05, (960, 500)), sfx=[(0.4, "pop", 0.35)])
-P("C503", s_painter, cam=Z(1.0, 1.05, (1100, 520)), sfx=[("crimped", "click", 0.4)])
+P("C502", s_cork, (0, "The#1"), cam=Z(1.0, 1.05, (960, 500)), sfx=[(0.4, "pop", 0.35)])
+P("C502", s_cork, ("The#1", 1), cam=Z(1.6, 1.7, (960, 420)))
+P("C503", s_painter, (0, "patented"), cam=Z(1.0, 1.04, (900, 520)))
+P("C503", s_painter, ("patented", 1), cam=Z(1.6, 1.7, (1150, 520)), sfx=[("crimped", "click", 0.4)])
 P("C504", s_24, sfx=[(0.1, "ding", 0.4)])
-P("C505", s_21, sfx=[("twenty-one", "ding", 0.45)])
+P("C505", s_21, (0, "Enough"), sfx=[("twenty-one", "ding", 0.45)])
+P("C505", s_fizz, ("Enough", 1))
 P("C506", s_opener, sfx=[(0.3, "pop", 0.45)])
-P("C507", s_advice, cam=Z(1.0, 1.04, (960, 500)), music="curious")
-P("C508", s_gillette, cam=Z(1.0, 1.05, (1100, 500)), sfx=[("razor", "shimmer", 0.45)])
+P("C507", s_salesmen, (0, "Painter"), music="curious")
+P("C507", s_advice, ("Painter", 1), cam=Z(1.0, 1.04, (960, 500)))
+P("C508", s_gillette, (0, "A"), cam=Z(1.3, 1.35, (700, 520)))
+P("C508", s_gillette, ("A", 1), cam=Z(1.0, 1.05, (1100, 500)), sfx=[("razor", "shimmer", 0.45)])
 V.pause["C508"] = CH_PAUSE
 # plug prongs
-P("P01", s_plug_q, tr="flash", music="playful", sfx=[(0.2, "whoosh", 0.4)])
-P("P02", s_socket_bump, sfx=[("clicked", "click", 0.5)])
-P("P03", s_no_bump, cam=Z(1.0, 1.04, (960, 540)))
-P("P04", s_standard, cam=Z(1.0, 1.05, (960, 560)), music="curious", sfx=[("optional", "ding", 0.35)])
+P("P01", s_plug_q, (0, "Why"), tr="flash", music="playful", sfx=[(0.2, "whoosh", 0.4)])
+P("P01", s_plug_q, ("Why", 1), cam=Z(1.7, 1.8, (1200, 480)))
+P("P02", s_plug_old, (0, "Some"))
+P("P02", s_socket_bump, ("Some", 1), sfx=[("clicked", "click", 0.5)])
+P("P03", s_no_bump, (0, "The"), cam=Z(1.0, 1.04, (960, 540)))
+P("P03", s_no_bump, ("The", 1), cam=Z(1.5, 1.6, (960, 560)))
+P("P04", s_holes_q, (0, "The#1"), music="curious")
+P("P04", s_standard, ("The#1", 1), cam=Z(1.0, 1.05, (960, 560)), sfx=[("optional", "ding", 0.35)])
 P("P05", s_mould)
 P("P06", s_boring, cam=Z(1.0, 1.05, (900, 600)))
 V.pause["P06"] = CH_PAUSE
@@ -1125,13 +1279,17 @@ P("C602", s_oven_steam, cam=Z(1.0, 1.04, (1200, 560)))
 P("C603", s_puff, sfx=[("pillow", "boing", 0.3)])
 P("C604", s_docking, sfx=[(0.3, "tick", 0.3)])
 P("C605", s_escape, cam=Z(1.0, 1.04, (960, 560)), sfx=[("crisp", "ding", 0.4)])
-P("C606", s_holes_compare)
+P("C606", s_holes_compare, (0, "Too#1"), cam=Z(1.6, 1.65, (420, 600)))
+P("C606", s_holes_compare, ("Too#1", "The"), cam=Z(1.6, 1.65, (1500, 600)))
+P("C606", s_holes_compare, ("The", 1))
 V.pause["C606"] = CH_PAUSE
 # ending
-P("E01", lambda g, c: s_recap(g, c, R1), music="warm", tr="flash")
+P("E01", lambda g, c: s_recap(g, c, R1), (0, "A#1"), cam=Z(1.5, 1.55, (520, 540)), music="warm", tr="flash")
+P("E01", lambda g, c: s_recap(g, c, R1), ("A#1", 1))
 P("E02", lambda g, c: s_recap(g, c, R2))
 P("E03", s_accident, sfx=[("accident", "drum_hit", 0.4)])
-P("E04", s_thumb, cam=Z(1.0, 1.05, (860, 520)))
+P("E04", s_thumb, (0, "You're"), cam=Z(1.3, 1.35, (700, 480)))
+P("E04", s_thumb, ("You're", 1), cam=Z(1.0, 1.05, (860, 520)))
 P("E05", s_next, sfx=[("comments", "pop", 0.4)])
 V.build()
 
