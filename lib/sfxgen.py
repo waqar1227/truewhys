@@ -144,7 +144,9 @@ def shimmer():
 
 @functools.lru_cache(maxsize=None)
 def chime():
-    return _st(_bell(1318.5, 1.2, 0.4) + 0.6 * _bell(1975.5, 1.0, 0.3), 0.6)
+    a = _bell(1318.5, 1.2, 0.4); b = _bell(1975.5, 1.0, 0.3)
+    a[:len(b)] += 0.6 * b          # second bell is shorter: add it onto the start (fixed 20 Nov)
+    return _st(a, 0.6)
 
 
 @functools.lru_cache(maxsize=None)

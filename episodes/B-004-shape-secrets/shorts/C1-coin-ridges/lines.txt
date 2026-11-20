@@ -1,0 +1,7 @@
+# B-004 C1 (cut Short, rewritten for vertical, audit §6.3). Frame 1: giant silver coin being snipped, clipper reacting. Answer in the last 5 s; loops to the coin.
+H1|0|Why do coins have tiny ridges?
+L01|0|London, 1696. People snip slivers off silver coins... and spend them anyway.
+L02|0|It's treason. But hand-made coins are never perfectly round, so nobody notices.
+L03|0|So England makes new coins by machine, with patterned edges. And Isaac Newton hunts the clippers.
+L04|0|Now, one snip, and the pattern is gone.
+L05|0|Those ridges were a trap for thieves. Would you have spotted it?

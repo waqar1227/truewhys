@@ -1,0 +1,7 @@
+# B-004 C4 (cut Short, rewritten). Frame 1: worker lifting a SQUARE manhole lid over the hole, looking worried. Answer (constant width) in the last 5 s; loops to the lid.
+H1|0|Why is every manhole cover round?
+L01|0|Try it with a square one. Lift it, turn it on its edge...
+L02|0|and it slides right down the long diagonal. Clang. Onto whoever is below.
+L03|0|Now try a circle. However you turn it, it's the same width.
+L04|0|So it can never fall through its own hole. And you can roll it.
+L05|0|That's why they're round. Would you stand under a square one?

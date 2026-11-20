@@ -1,0 +1,7 @@
+# B-004 C3 (cut Short, rewritten). Frame 1: a giant bottle cap filling the frame, teeth being counted, a man squinting. Answer (21 = fizz vs opening) in the last 5 s.
+H1|0|Count the teeth on a bottle cap.
+L01|0|Twenty-one. Almost every time. Why twenty-one?
+L02|0|In 1892, in Baltimore, William Painter patented a crimped metal cap, like a little crown.
+L03|0|His first caps had twenty-four teeth.
+L04|0|One of his salesmen got some advice: invent something people use once and throw away. His name? King Gillette.
+L05|0|And the teeth? Makers settled on twenty-one. Enough to hold the fizz, and still easy to pop off.
