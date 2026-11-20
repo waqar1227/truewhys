@@ -198,7 +198,7 @@ def sun_disc(loc=(0, 3, 4), r=0.45, strength=12.0):
 
 def arrow3d(name, start, end, r=0.025, col="#FFC93C"):
     """Glowing arrow from start to end (cylinder shaft + cone head)."""
-    m = C.pbr("arrow_" + col, col, 0.4, emit=col, estr=2.5)
+    m = C.pbr("arrow_" + col, col, 0.4, emit=col, estr=0.8)
     a, b = Vector(start), Vector(end); d = b - a; L = d.length
     head = min(0.12, L * 0.35)
     shaft = C.cyl(name + "_shaft", r, L - head, (0, 0, (L - head) / 2), mat=m, verts=16)

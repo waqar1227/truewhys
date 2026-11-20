@@ -91,3 +91,5 @@
 - 16 Nov ~10:35 UTC: a016 v3 pushed (job "shots" = hook_cut, loop_q after the QA fix: knife in front, title clear of face).
   11:02 UTC COMPLETE (22.7 min, 2×T4 ≈ 0.8 GPU h; hook_cut 54 + loop_q 80 frames). Total this week ≈ 19.6 GPU h.
 - 20 Nov 17:01 UTC: a018 v1 pushed (A-018 wavy walls, Style R, 10 shots / 955 frames, 1080×1920, Cycles 64 spp + motion blur, 2×T4). Dataset anam318/truewhys-ep-a018, kernel truewhys-render-a018.
+- 20 Nov 18:09 UTC: a018 v1 COMPLETE (2×T4, part0 54 min + part1 51 min ≈ 1.75 GPU h, all 10 shots, 955 frames) → episodes/A-018-wavy-walls/renders.
+- 20 Nov 18:13 UTC: a018 v2 pushed (QA fixes: brighter studio, no black backdrop edges, coral brace arrows, hand rests on the wall; all 10 shots).

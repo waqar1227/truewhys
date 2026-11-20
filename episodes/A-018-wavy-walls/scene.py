@@ -19,11 +19,11 @@ argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else sys.argv[1:]
 GARD = dict(macro={"gender": 1, "age": 0.62, "muscle": 0.5, "weight": 0.55, "proportions": 0.55, "height": 0.5}, skin="#E2AE8A",
             hair="#8A8178", shirt="#3F6E8C", trousers="#5A4A36", shoes="#3A2A20", iris="#4A6A5C", sleeve="long")
 AMP, WAVE, HT = 0.32, 2.4, 1.40
-BG = ("#14213D", "#E7C9A0")
+BG = ("#2E5E86", "#F0D2A8")          # brighter: QA 20 Nov (no near-black top in the frame)
 
 
 def set_stage(top=BG[0], bottom=BG[1], mid=None, y0=8.5):
-    P.world(top, 0.3); P.studio(top=top, bottom=bottom, mid=mid, y0=y0)
+    P.world(top, 0.6); P.studio(top=top, bottom=bottom, mid=mid or "#E7A07A", y0=y0, glow=0.55, height=18.0, width=40.0)
 
 
 def side_wall(x0=0.45, y0=0.0, L=9.0):
@@ -50,7 +50,7 @@ def hook_wall(sh, cam, n):
     set_stage()
     w, pt = side_wall(0.42, 0.0)
     h, ct = gardener((0.12, 0.05, 0), rot_z=-12)
-    hp = Vector((pt(1.05).x - 0.02, pt(1.05).y, HT + 0.06))
+    hp = Vector((pt(1.05).x - 0.03, pt(1.05).y, HT - 0.02))   # pulls the palm down onto the coping
     ct["handL"].location = hp; Hm.grip(h, "L", 0.25, 0.2)
     ct["handR"].location = (-0.22, -0.02, 0.98)
     key_obj(ct["look"], 0, loc=(-0.5, -1.6, 1.55)); key_obj(ct["look"], int(n * 0.55), loc=(0.9, 0.6, 1.35)); key_obj(ct["look"], n, loc=(0.8, 0.9, 1.3))   # eyes us, then glances at the wall
@@ -62,7 +62,7 @@ def hook_wall(sh, cam, n):
 
 
 def aerial_snake(sh, cam, n):
-    set_stage(y0=8.0)
+    set_stage(y0=16.0)
     Wl.wavy_wall("wall", (0, 1.0, 0), L=12.0, height=HT, amp=AMP, wave=WAVE)
     h, ct = gardener((-1.2, 0.35, 0), rot_z=0)
     Hm.face(h["keys"], 0, brows_up=0.3)
@@ -90,7 +90,7 @@ def push_test(sh, cam, n):
 
 def thin_topple(sh, cam, n):
     """A straight wall only one brick thick wobbles in the wind and falls flat."""
-    set_stage(bottom="#D9C3A5")
+    set_stage(bottom="#D9C3A5", y0=4.0)
     wl = Wl.straight_wall("thin", (0, 0.4, 0), L=2.6, height=HT, thick=1)
     fo = W_(sh, "over", 1.3)
     key_obj(wl, 0, rot=(0, 0, 0)); key_obj(wl, max(1, fo - 22), rot=(math.radians(-2.5), 0, 0)); key_obj(wl, max(2, fo - 14), rot=(math.radians(3), 0, 0))
@@ -109,7 +109,7 @@ def thin_topple(sh, cam, n):
 
 def thick_pillars(sh, cam, n):
     """To stand, a straight wall needs two bricks of thickness plus pillars: it rises, then the pillars pop in."""
-    set_stage(bottom="#D9C3A5")
+    set_stage(bottom="#D9C3A5", y0=4.0)
     wl = Wl.straight_wall("thick", (0, 0.4, 0), L=3.0, height=HT, thick=2, piers=3)
     fp = W_(sh, "pillars", 2.4); ft = W_(sh, "two", 1.0)
     kids = [o for o in wl.children if "pier" in o.name]
@@ -132,7 +132,7 @@ def brace_top(sh, cam, n):
     for i, x in enumerate(xs):
         y = 0.3 + AMP * math.sin(2 * math.pi * x / WAVE)
         sd = 1 if math.sin(2 * math.pi * x / WAVE) > 0 else -1          # arrow on the convex side, pointing into the bend
-        a = Wl.arrow3d(f"ar{i}", (x, y + sd * 0.55, HT + 0.15), (x, y + sd * 0.12, HT + 0.15), r=0.03)
+        a = Wl.arrow3d(f"ar{i}", (x, y + sd * 0.95, HT + 0.2), (x, y + sd * 0.14, HT + 0.2), r=0.07, col="#FF6B5B")
         f0 = fb - 6 + i * 5
         key_obj(a, 0, scale=0.0); key_obj(a, max(1, f0), scale=0.0); key_obj(a, f0 + 6, scale=1.2); key_obj(a, f0 + 9, scale=1.0)
     P.lights((0, 0.3, 1.0), key=1100, rim=900, scale=1.4)
@@ -157,7 +157,7 @@ def paper_demo(sh, cam, n):
 
 def sun_pockets(sh, cam, n):
     """The sun swings over; the hollows of the curves glow warm and the fruit trees in them ripen. The gardener picks one."""
-    set_stage(top="#1F3A68", bottom="#F2D2A0", y0=4.0)
+    set_stage(top="#3A6E9A", bottom="#F2D2A0", y0=4.0)
     Wl.wavy_wall("wall", (0, 0.5, 0), L=7.0, height=HT, amp=AMP, wave=WAVE)
     pockets = [x for x in (-WAVE * 0.75, WAVE * 0.25, WAVE * 1.25)]
     for i, x in enumerate(pockets):
@@ -213,7 +213,7 @@ def loop_q(sh, cam, n):
     set_stage()
     w, pt = side_wall(0.42, 0.0)
     h, ct = gardener((0.12, 0.05, 0), rot_z=-12)
-    ct["handL"].location = Vector((pt(1.05).x - 0.02, pt(1.05).y, HT + 0.06)); Hm.grip(h, "L", 0.25, 0.2)
+    ct["handL"].location = Vector((pt(1.05).x - 0.03, pt(1.05).y, HT - 0.02)); Hm.grip(h, "L", 0.25, 0.2)
     key_obj(ct["handR"], 0, loc=(-0.22, -0.02, 0.98)); key_obj(ct["handR"], int(n * 0.5), loc=(-0.20, -0.12, 1.12))
     key_obj(ct["look"], 0, loc=(-0.3, -1.6, 1.5))
     Hm.face(h["keys"], 0, smile=0.3, browL_up=0.4); Hm.face(h["keys"], int(n * 0.5), browL_up=0.9, smile=0.45, squint=0.2)
