@@ -1,0 +1,532 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "Why is this English wall so wiggly?",
+  "dur": 2.32,
+  "words": [
+   {
+    "w": "Why",
+    "s": 0.0,
+    "e": 0.4
+   },
+   {
+    "w": "is",
+    "s": 0.4,
+    "e": 0.64
+   },
+   {
+    "w": "this",
+    "s": 0.64,
+    "e": 0.8
+   },
+   {
+    "w": "English",
+    "s": 0.8,
+    "e": 1.1
+   },
+   {
+    "w": "wall",
+    "s": 1.1,
+    "e": 1.36
+   },
+   {
+    "w": "so",
+    "s": 1.36,
+    "e": 1.66
+   },
+   {
+    "w": "wiggly?",
+    "s": 1.66,
+    "e": 2.16
+   }
+  ],
+  "heard": "Why is this English wall so wiggly?",
+  "match": 1.0
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "It looks like the builder got it wrong. But this wall is just one brick thick... and it doesn't fall over.",
+  "dur": 6.03,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.03,
+    "e": 0.25
+   },
+   {
+    "w": "looks",
+    "s": 0.25,
+    "e": 0.45
+   },
+   {
+    "w": "like",
+    "s": 0.45,
+    "e": 0.65
+   },
+   {
+    "w": "the",
+    "s": 0.65,
+    "e": 0.79
+   },
+   {
+    "w": "builder",
+    "s": 0.79,
+    "e": 0.97
+   },
+   {
+    "w": "got",
+    "s": 0.97,
+    "e": 1.17
+   },
+   {
+    "w": "it",
+    "s": 1.17,
+    "e": 1.31
+   },
+   {
+    "w": "wrong.",
+    "s": 1.31,
+    "e": 1.55
+   },
+   {
+    "w": "But",
+    "s": 2.09,
+    "e": 2.27
+   },
+   {
+    "w": "this",
+    "s": 2.27,
+    "e": 2.45
+   },
+   {
+    "w": "wall",
+    "s": 2.45,
+    "e": 2.67
+   },
+   {
+    "w": "is",
+    "s": 2.67,
+    "e": 3.07
+   },
+   {
+    "w": "just",
+    "s": 3.07,
+    "e": 3.27
+   },
+   {
+    "w": "one",
+    "s": 3.27,
+    "e": 3.65
+   },
+   {
+    "w": "brick",
+    "s": 3.65,
+    "e": 3.99
+   },
+   {
+    "w": "thick...",
+    "s": 3.99,
+    "e": 4.37
+   },
+   {
+    "w": "and",
+    "s": 4.91,
+    "e": 5.13
+   },
+   {
+    "w": "it",
+    "s": 5.13,
+    "e": 5.23
+   },
+   {
+    "w": "doesn't",
+    "s": 5.23,
+    "e": 5.41
+   },
+   {
+    "w": "fall",
+    "s": 5.41,
+    "e": 5.55
+   },
+   {
+    "w": "over.",
+    "s": 5.55,
+    "e": 5.83
+   }
+  ],
+  "heard": "It looks like the builder got it wrong. But this wall is just one brick thick, and it doesn't fall over.",
+  "match": 1.0
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "A straight wall that thin would blow over. It would need two bricks of thickness, plus pillars to hold it up.",
+  "dur": 5.52,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.03,
+    "e": 0.25
+   },
+   {
+    "w": "straight",
+    "s": 0.25,
+    "e": 0.59
+   },
+   {
+    "w": "wall",
+    "s": 0.59,
+    "e": 0.83
+   },
+   {
+    "w": "that",
+    "s": 0.83,
+    "e": 1.03
+   },
+   {
+    "w": "thin",
+    "s": 1.03,
+    "e": 1.27
+   },
+   {
+    "w": "would",
+    "s": 1.27,
+    "e": 1.45
+   },
+   {
+    "w": "blow",
+    "s": 1.45,
+    "e": 1.71
+   },
+   {
+    "w": "over.",
+    "s": 1.71,
+    "e": 1.97
+   },
+   {
+    "w": "It",
+    "s": 2.27,
+    "e": 2.39
+   },
+   {
+    "w": "would",
+    "s": 2.39,
+    "e": 2.51
+   },
+   {
+    "w": "need",
+    "s": 2.51,
+    "e": 2.71
+   },
+   {
+    "w": "two",
+    "s": 2.71,
+    "e": 3.09
+   },
+   {
+    "w": "bricks",
+    "s": 3.09,
+    "e": 3.33
+   },
+   {
+    "w": "of",
+    "s": 3.33,
+    "e": 3.49
+   },
+   {
+    "w": "thickness,",
+    "s": 3.49,
+    "e": 3.85
+   },
+   {
+    "w": "plus",
+    "s": 4.03,
+    "e": 4.21
+   },
+   {
+    "w": "pillars",
+    "s": 4.21,
+    "e": 4.61
+   },
+   {
+    "w": "to",
+    "s": 4.61,
+    "e": 4.93
+   },
+   {
+    "w": "hold",
+    "s": 4.93,
+    "e": 5.03
+   },
+   {
+    "w": "it",
+    "s": 5.03,
+    "e": 5.15
+   },
+   {
+    "w": "up.",
+    "s": 5.15,
+    "e": 5.37
+   }
+  ],
+  "heard": "A straight wall that thin would blow over. It would need two bricks of thickness, plus pillars to hold it up.",
+  "match": 1.0
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "Here, every curve braces the next one, like a folded sheet of paper standing on its edge.",
+  "dur": 5.16,
+  "words": [
+   {
+    "w": "Here,",
+    "s": 0.03,
+    "e": 0.29
+   },
+   {
+    "w": "every",
+    "s": 0.67,
+    "e": 1.01
+   },
+   {
+    "w": "curve",
+    "s": 1.01,
+    "e": 1.39
+   },
+   {
+    "w": "braces",
+    "s": 1.39,
+    "e": 1.79
+   },
+   {
+    "w": "the",
+    "s": 1.79,
+    "e": 2.03
+   },
+   {
+    "w": "next",
+    "s": 2.03,
+    "e": 2.17
+   },
+   {
+    "w": "one,",
+    "s": 2.17,
+    "e": 2.39
+   },
+   {
+    "w": "like",
+    "s": 2.65,
+    "e": 2.85
+   },
+   {
+    "w": "a",
+    "s": 2.85,
+    "e": 3.01
+   },
+   {
+    "w": "folded",
+    "s": 3.01,
+    "e": 3.33
+   },
+   {
+    "w": "sheet",
+    "s": 3.33,
+    "e": 3.59
+   },
+   {
+    "w": "of",
+    "s": 3.59,
+    "e": 3.73
+   },
+   {
+    "w": "paper",
+    "s": 3.73,
+    "e": 4.01
+   },
+   {
+    "w": "standing",
+    "s": 4.01,
+    "e": 4.33
+   },
+   {
+    "w": "on",
+    "s": 4.33,
+    "e": 4.57
+   },
+   {
+    "w": "its",
+    "s": 4.57,
+    "e": 4.71
+   },
+   {
+    "w": "edge.",
+    "s": 4.71,
+    "e": 4.99
+   }
+  ],
+  "heard": "Here, every curve braces the next one, like a folded sheet of paper standing on its edge.",
+  "match": 1.0
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "Bonus: the curves catch the sun, making warm pockets for fruit trees.",
+  "dur": 4.4,
+  "words": [
+   {
+    "w": "Bonus:",
+    "s": 0.32,
+    "e": 0.32
+   },
+   {
+    "w": "the",
+    "s": 0.78,
+    "e": 0.92
+   },
+   {
+    "w": "curves",
+    "s": 0.92,
+    "e": 1.18
+   },
+   {
+    "w": "catch",
+    "s": 1.18,
+    "e": 1.42
+   },
+   {
+    "w": "the",
+    "s": 1.42,
+    "e": 1.66
+   },
+   {
+    "w": "sun,",
+    "s": 1.66,
+    "e": 1.94
+   },
+   {
+    "w": "making",
+    "s": 2.26,
+    "e": 2.48
+   },
+   {
+    "w": "warm",
+    "s": 2.48,
+    "e": 2.9
+   },
+   {
+    "w": "pockets",
+    "s": 2.9,
+    "e": 3.34
+   },
+   {
+    "w": "for",
+    "s": 3.34,
+    "e": 3.64
+   },
+   {
+    "w": "fruit",
+    "s": 3.64,
+    "e": 3.86
+   },
+   {
+    "w": "trees.",
+    "s": 3.86,
+    "e": 4.12
+   }
+  ],
+  "heard": "Bonus, the curves catch the sun, making warm pockets for fruit trees.",
+  "match": 1.0
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "So the wiggly wall stands on its own, and uses fewer bricks. Wiggly beats straight. Agree?",
+  "dur": 6.35,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.03,
+    "e": 0.27
+   },
+   {
+    "w": "the",
+    "s": 0.27,
+    "e": 0.53
+   },
+   {
+    "w": "wiggly",
+    "s": 0.53,
+    "e": 0.83
+   },
+   {
+    "w": "wall",
+    "s": 0.83,
+    "e": 1.05
+   },
+   {
+    "w": "stands",
+    "s": 1.05,
+    "e": 1.35
+   },
+   {
+    "w": "on",
+    "s": 1.35,
+    "e": 1.53
+   },
+   {
+    "w": "its",
+    "s": 1.53,
+    "e": 1.67
+   },
+   {
+    "w": "own,",
+    "s": 1.67,
+    "e": 1.89
+   },
+   {
+    "w": "and",
+    "s": 2.13,
+    "e": 2.41
+   },
+   {
+    "w": "uses",
+    "s": 2.41,
+    "e": 2.69
+   },
+   {
+    "w": "fewer",
+    "s": 2.69,
+    "e": 2.99
+   },
+   {
+    "w": "bricks.",
+    "s": 2.99,
+    "e": 3.39
+   },
+   {
+    "w": "Wiggly",
+    "s": 4.23,
+    "e": 4.49
+   },
+   {
+    "w": "beats",
+    "s": 4.49,
+    "e": 4.85
+   },
+   {
+    "w": "straight.",
+    "s": 4.85,
+    "e": 5.23
+   },
+   {
+    "w": "Agree?",
+    "s": 6.01,
+    "e": 6.17
+   }
+  ],
+  "heard": "So the wiggly wall stands on its own, and uses fewer bricks. Wiggly beats straight. Agree?",
+  "match": 1.0
+ }
+]

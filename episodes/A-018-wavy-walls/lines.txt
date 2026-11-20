@@ -1,0 +1,7 @@
+# A-018 v1 (20 Nov 2026), standalone Short, Style R (close-to-human 3D, audit §6.2), owner request 20 Nov (idea seen on another channel: own script, own staging).
+H1|0|Why is this English wall so wiggly?
+L01|0|It looks like the builder got it wrong. But this wall is just one brick thick... and it doesn't fall over.
+L02|0|A straight wall that thin would blow over. It would need two bricks of thickness, plus pillars to hold it up.
+L03|0|Here, every curve braces the next one, like a folded sheet of paper standing on its edge.
+L04|0|Bonus: the curves catch the sun, making warm pockets for fruit trees.
+L05|0|So the wiggly wall stands on its own, and uses fewer bricks. Wiggly beats straight. Agree?

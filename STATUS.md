@@ -14,10 +14,16 @@ deleted (they had no repo; the 18/19 Nov runs did not happen). Plan: L4 Fri 27 N
    If quota runs out midway: leave the unticked items here for the next reset.
 ** OWNER 20 Nov: from the NEXT long episode (L5) on, make a teaser Community post 1–2 days before each long video (rule in CLAUDE.md;
    files in episodes/<ep>/social/post/, owner posts it from the app; the API can't). Not needed for L4.
+** OWNER 20 Nov: NEW Style R Short A-018 "Why Is This English Wall So Wiggly?" (crinkle-crankle walls; idea from a Short he sent, own script/staging),
+   scheduled BEFORE L4; owner allowed L4 to move after it. NEW CALENDAR: A-018 Fri 27 Nov 16:00 UTC · L4 Sat 28 Nov 15:00 UTC ·
+   L4 cut Shorts Sun 29, Mon 30 Nov, Tue 1, Wed 2 Dec 16:00 UTC (all ≥ 12 h apart). A-018 status: topic/sources/script/voice done 20 Nov,
+   scene.py + make.py built (lib/style_r/sr_walls.py new), low-res animatic rendering; NEXT: check animatic → Kaggle final
+   (tools/kaggle_style_r.sh a018 episodes/A-018-wavy-walls '{"w":1080,"h":1920,"samples":64,"step":1,"mblur":true}' <mpfb zip from dataset truewhys-ep-a016>)
+   → compose → QA → upload (thumb via tools/short_thumb.py, ai_disclosure decided per docs/ai_disclosure.md: stylised CG, check).
 ** L4 = B-004 "Why Everyday Things Are Shaped So Weirdly" (working title) — production session_01BQj2Dd62mCxqrytuRaL8gE, started 19 Nov.
-   Style F + cast v2.1, 1920x1080, 6:17 (narration 5:20 + chapter breaks + 20 s end screen), cat 28. Slot Fri 27 Nov 15:00 UTC.
+   Style F + cast v2.1, 1920x1080, 6:17 (narration 5:20 + chapter breaks + 20 s end screen), cat 28. Slot Sat 28 Nov 15:00 UTC (moved for A-018, owner 20 Nov).
    Cut Shorts (vertical, rewritten, §6.3): C1 coin ridges/Newton · C2 stop signs were yellow · C3 bottle cap 21 teeth → Gillette · C4 round manholes;
-   slots Sat 28, Sun 29, Mon 30 Nov, Tue 1 Dec 16:00 UTC.
+   slots Sun 29, Mon 30 Nov, Tue 1, Wed 2 Dec 16:00 UTC (moved one day, owner 20 Nov).
    DONE 19 Nov: topic.md (10 titles, religion check: clear), sources.md (2+ per claim), lines.txt, Gemini voice ch0–8 (FLAC in voice/; 10 requests used
    19 Nov), make.py (71 shots, 9 chapters, end screen), animatic/stills.jpg checked once. New: lib/flat_shapes.py props, 10 cast v2.1 roles in lib/cast2.py,
    flat2d 16:9 via TW_FLAT_SIZE.
