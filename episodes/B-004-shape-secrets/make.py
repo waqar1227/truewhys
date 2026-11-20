@@ -532,21 +532,24 @@ def s_square_fall(g, c, shape="square"):
     label(g, "IT FITS!", W / 2, 140, 96, "#FF6B5B", k=pop(c.t, c.w("through") - 0.1, 0.3))
 
 def s_clang(g, c):
-    """Side cut-away: the square lid falls down the shaft towards a worker."""
-    g.fill_all(g.lgrad(0, 0, 0, H, "#3A3F48", "#151820"))
-    g.rect(-100, 0, W + 200, 200, "#4A505A", INK, lw=8)
-    g.rect(760, 0, 400, H, "#0E1116", None)
-    g.rect(700, 0, 60, H, "#6E6650", INK, lw=6); g.rect(1160, 0, 60, H, "#6E6650", INK, lw=6)
-    for i in range(10):
-        g.line([(800, 60 + i * 110), (1120, 60 + i * 110)], "#9AA3AD", 8, a=0.4)
-    k = ease_in(seg(c.t, 0.0, 0.8))
-    with g.at(960, 120 + 640 * k, 0.3 + 2.4 * k):
-        g.rc(0, 0, 380, 50, IRON, INK, lw=8, r=6)
-    char2(g, "sewer", 960, 1500, 640, "shocked" if c.t > 0.4 else "deadpan", "up", "up", t=c.gt)
+    """Side cut-away: the square lid drops down the shaft and slams just above a worker in the sewer."""
+    g.fill_all(g.lgrad(0, 0, 0, H, "#5A6270", "#2A303A"))
+    g.rect(-100, 0, W + 200, 180, "#8A8F98", INK, lw=8)                  # street surface
+    g.rect(-100, 700, W + 200, 400, "#3A4A3E", INK, lw=8)                # sewer tunnel
+    g.ellipse(960, 980, 900, 60, "#4E7A6A", None, a=0.7)                 # water
+    for x in (200, 1720):
+        g.rc(x, 760, 120, 120, "#6E6650", INK, lw=6, r=60)               # pipes
+    g.rect(760, 180, 400, 520, "#141820", None)                          # shaft
+    g.rect(700, 180, 60, 520, "#9A8F7A", INK, lw=6); g.rect(1160, 180, 60, 520, "#9A8F7A", INK, lw=6)
+    for i in range(5):
+        g.line([(800, 230 + i * 100), (1120, 230 + i * 100)], "#C9CED6", 8, a=0.6)
+    k = ease_in(seg(c.t, 0.0, 0.7))
+    with g.at(960, 120 + 520 * k, 0.3 + 2.0 * k):
+        g.rc(0, 0, 380, 50, "#6E7480", INK, lw=8, r=6)
+    char2(g, "sewer", 1180, 1060, 520, "shocked" if c.t > 0.5 else "deadpan", "up", "up", t=c.gt)
     if c.t > c.w("Clang") - 0.05:
-        burst(g, 960, 760, 120, 260, 12, PAL["yellow"], 14, k=seg(c.t, c.w("Clang"), 0.3))
-        label(g, "CLANG!", 1450, 400, 120, k=pop(c.t, c.w("Clang") - 0.05, 0.25), rot=0.1)
-
+        burst(g, 960, 650, 120, 280, 12, PAL["yellow"], 14, k=seg(c.t, c.w("Clang"), 0.35))
+        label(g, "CLANG!", 1450, 330, 130, k=pop(c.t, c.w("Clang") - 0.05, 0.25), rot=0.1)
 
 def s_width(g, c):
     studio(g, c.gt, "#1590A0", "#0B3F4C")
