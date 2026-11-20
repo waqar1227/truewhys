@@ -93,3 +93,4 @@
 - 20 Nov 17:01 UTC: a018 v1 pushed (A-018 wavy walls, Style R, 10 shots / 955 frames, 1080×1920, Cycles 64 spp + motion blur, 2×T4). Dataset anam318/truewhys-ep-a018, kernel truewhys-render-a018.
 - 20 Nov 18:09 UTC: a018 v1 COMPLETE (2×T4, part0 54 min + part1 51 min ≈ 1.75 GPU h, all 10 shots, 955 frames) → episodes/A-018-wavy-walls/renders.
 - 20 Nov 18:13 UTC: a018 v2 pushed (QA fixes: brighter studio, no black backdrop edges, coral brace arrows, hand rests on the wall; all 10 shots).
+- 20 Nov 19:50 UTC: a018 v2 COMPLETE (2×T4, 82 + 71 min ≈ 2.55 GPU h, 955 frames). Week total Style R ≈ 23.9 GPU h.

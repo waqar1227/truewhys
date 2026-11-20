@@ -11,13 +11,15 @@ deleted (they had no repo; the 18/19 Nov runs did not happen). Plan: L4 Fri 27 N
    [~] 4. (20 Nov 09:44: B-001 DONE, caption id saved by YouTube; quotaExceeded again → B-002 + B-003 still to do) SRT captions: files READY (episodes/B-00*/final/captions_en.srt, timing matches live length ±1 s). Quota ran out again 17 Nov ~08:20 →
           after 18 Nov 08:00 UTC: `python3 tools/make_srt.py episodes/B-001-animal-trials --upload 9C-9O0c6VqM`, same for B-002 h2oO3SrSUH8, B-003 Am8epkS94Hw (~400 units each).
    [ ] 5. `python3 docs/audit/verify.py` (needs quota) → commit, push, short message to the owner.
+   [ ] 0. FIRST (20 Nov QA PASS): upload A-018 → `python lib/youtube.py upload episodes/A-018-wavy-walls/final/A-018.mp4 episodes/A-018-wavy-walls/upload_meta.json
+          episodes/A-018-wavy-walls/final/thumb_v2.jpg` (publishAt Fri 27 Nov 16:00 UTC, ai_disclosure No); check uploaded.json "thumbnail": true;
+          then add its id to docs/ai_disclosure.md/.json and topic_results.md. (Video is rebuilt from renders/ by `make.py render` if final/ is gone; frames are not in git → Kaggle output a018 v2.)
    If quota runs out midway: leave the unticked items here for the next reset.
 ** OWNER 20 Nov: from the NEXT long episode (L5) on, make a teaser Community post 1–2 days before each long video (rule in CLAUDE.md;
    files in episodes/<ep>/social/post/, owner posts it from the app; the API can't). Not needed for L4.
 ** OWNER 20 Nov: NEW Style R Short A-018 "Why Is This English Wall So Wiggly?" (crinkle-crankle walls; idea from a Short he sent, own script/staging),
    scheduled BEFORE L4; owner allowed L4 to move after it. NEW CALENDAR: A-018 Fri 27 Nov 16:00 UTC · L4 Sat 28 Nov 15:00 UTC ·
-   L4 cut Shorts Sun 29, Mon 30 Nov, Tue 1, Wed 2 Dec 16:00 UTC (all ≥ 12 h apart). A-018 status: topic/sources/script/voice done 20 Nov,
-   scene.py + make.py built (lib/style_r/sr_walls.py new), low-res animatic rendering; NEXT: check animatic → Kaggle final
+   L4 cut Shorts Sun 29, Mon 30 Nov, Tue 1, Wed 2 Dec 16:00 UTC (all ≥ 12 h apart). A-018 status 20 Nov 20:00: QA PASS (final/A-018.mp4 31.8 s, Kaggle a018 v2), upload at the next reset (item 0 above). Old note: Kaggle final
    (tools/kaggle_style_r.sh a018 episodes/A-018-wavy-walls '{"w":1080,"h":1920,"samples":64,"step":1,"mblur":true}' <mpfb zip from dataset truewhys-ep-a016>)
    → compose → QA → upload (thumb via tools/short_thumb.py, ai_disclosure decided per docs/ai_disclosure.md: stylised CG, check).
 ** L4 = B-004 "Why Everyday Things Are Shaped So Weirdly" (working title) — production session_01BQj2Dd62mCxqrytuRaL8gE, started 19 Nov.
