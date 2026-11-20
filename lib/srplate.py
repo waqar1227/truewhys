@@ -6,7 +6,8 @@ from flat2d import FPS, W, H
 _cache = {}
 
 
-def plate(rdir, name, fallback="#14213D"):
+def plate(rdir, name, fallback="#14213D", zoom=None, t0=None):
+    """zoom=(z0, z1, (fx, fy)): punch-in on the plate (for cuts inside one rendered shot); t0(c) -> start time of the rendered shot."""
     rdir = Path(rdir)
     def fn(g, c):
         import cairocffi as cairo
@@ -16,7 +17,7 @@ def plate(rdir, name, fallback="#14213D"):
             files = sorted(list((rdir / name).glob("f_*.png")) + list((rdir / name).glob("f_*.jpg"))); _cache[name] = files
         if not files:
             g.fill_all(fallback); g.text(name, W / 2, H / 2, 70, "#FFFFFF"); return
-        fr = int(c.t * FPS)
+        fr = int(((c.gt - t0(c)) if t0 else c.t) * FPS)
         nums = [int(f.stem[2:]) for f in files]
         k = max([i for i, n in enumerate(nums) if n <= fr] or [0])
         key = (name, nums[k])
@@ -27,5 +28,9 @@ def plate(rdir, name, fallback="#14213D"):
             for kk in [x for x in _cache if isinstance(x, tuple) and x[0] == name and x != key]:
                 del _cache[kk]
             _cache[key] = surf
-        cc = g.c; cc.save(); cc.identity_matrix(); cc.set_source_surface(_cache[key], 0, 0); cc.paint(); cc.restore()
+        cc = g.c; cc.save(); cc.identity_matrix()
+        if zoom:
+            z = zoom[0] + (zoom[1] - zoom[0]) * c.u; fx, fy = zoom[2]
+            cc.translate(fx, fy); cc.scale(z, z); cc.translate(-fx, -fy)
+        cc.set_source_surface(_cache[key], 0, 0); cc.get_source().set_filter(cairo.FILTER_GOOD); cc.paint(); cc.restore()
     return fn

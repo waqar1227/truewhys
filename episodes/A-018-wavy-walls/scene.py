@@ -142,15 +142,16 @@ def brace_top(sh, cam, n):
 def paper_demo(sh, cam, n):
     """On a table: a flat sheet stood on its edge falls over; the same sheet folded into a zigzag stands."""
     set_stage(bottom="#E7C9A0")
-    P.counter((0, 0.0, 0), w=1.2, d=0.6, top="#F1E8DA", top2="#E6D8C4")
-    top = 0.92
-    flat = Wl.paper_sheet("flat", (-0.18, -0.02, top), zigzag=False, rot_z=0)
-    zz = Wl.paper_sheet("zig", (0.18, -0.02, top), zigzag=True, folds=6, angle=40, rot_z=math.radians(-30))
+    top = 0.0                                     # on the studio floor: nothing in front of the paper
+    C.rbox("mat", (0.70, 0.50, 0.006), (0, 0.02, 0.003), mat=C.pbr("cutmat", "#2F5B4A", 0.8), bevel=0.003)
+    top = 0.006
+    flat = Wl.paper_sheet("flat", (-0.10, 0.04, top), zigzag=False, rot_z=0)
+    zz = Wl.paper_sheet("zig", (0.10, -0.02, top), zigzag=True, folds=6, angle=58, rot_z=math.radians(-55))
     fp = W_(sh, "paper", 0.6)
     key_obj(flat, 0, rot=(0, 0, 0)); key_obj(flat, fp + 2, rot=(math.radians(-4), 0, 0)); key_obj(flat, fp + 14, rot=(math.radians(-90), 0, 0))
     key_obj(zz, 0, scale=(0.4, 1, 1)); key_obj(zz, fp + 10, scale=(0.4, 1, 1)); key_obj(zz, fp + 22, scale=(1, 1, 1))
-    P.lights((0, -0.05, top + 0.2), key=650, rim=700, scale=0.7)
-    cam_move(cam, n, ((0.05, -0.95, top + 0.62), (0.03, 0.0, top + 0.08), 45), ((0.10, -0.88, top + 0.58), (0.05, 0.0, top + 0.08), 48),
+    P.lights((0, -0.05, top + 0.2), key=500, rim=600, scale=0.6)
+    cam_move(cam, n, ((0.0, -0.85, top + 0.45), (0.0, 0.02, top + 0.12), 55), ((0.03, -0.78, top + 0.42), (0.02, 0.02, top + 0.12), 58),
              focus=(0.1, -0.02, top + 0.1), fstop=4)
 
 
