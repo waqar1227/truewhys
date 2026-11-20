@@ -12,6 +12,8 @@ deleted (they had no repo; the 18/19 Nov runs did not happen). Plan: L4 Fri 27 N
           after 18 Nov 08:00 UTC: `python3 tools/make_srt.py episodes/B-001-animal-trials --upload 9C-9O0c6VqM`, same for B-002 h2oO3SrSUH8, B-003 Am8epkS94Hw (~400 units each).
    [ ] 5. `python3 docs/audit/verify.py` (needs quota) → commit, push, short message to the owner.
    If quota runs out midway: leave the unticked items here for the next reset.
+** OWNER 20 Nov: from the NEXT long episode (L5) on, make a teaser Community post 1–2 days before each long video (rule in CLAUDE.md;
+   files in episodes/<ep>/social/post/, owner posts it from the app; the API can't). Not needed for L4.
 ** L4 = B-004 "Why Everyday Things Are Shaped So Weirdly" (working title) — production session_01BQj2Dd62mCxqrytuRaL8gE, started 19 Nov.
    Style F + cast v2.1, 1920x1080, 6:17 (narration 5:20 + chapter breaks + 20 s end screen), cat 28. Slot Fri 27 Nov 15:00 UTC.
    Cut Shorts (vertical, rewritten, §6.3): C1 coin ridges/Newton · C2 stop signs were yellow · C3 bottle cap 21 teeth → Gillette · C4 round manholes;

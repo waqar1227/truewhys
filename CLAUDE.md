@@ -99,6 +99,9 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
 - **Category (owner 12 Nov 2026): choose per video** (`categoryId` in seo.json / upload_meta.json, required): body, nature, animals,
   science, inventions → **28 Science & Technology**; history stories, jobs, myths, "Would you survive" → **24 Entertainment**;
   dry how-it-works lessons → 27 Education. Cut Shorts take their long video's category. Change existing ones: `tools/yt_category.py`.
+- **Teaser post (owner 20 Nov 2026), from the episode after L4:** for every new long video, make 1 teaser Community post (our own cast/art,
+  one picture + short text + optional poll, curiosity gap, no real people, no copied clips) to go up 1–2 days before it publishes. YouTube's API cannot
+  create Posts, so leave it in `episodes/<ep>/social/post/` (post.jpg + post.txt) and tell the owner the day to post it (YouTube app: + → Post).
 - After a long video goes public, post the pinned-comment text (owner pins it in Studio). Long videos: 3 very different thumbnails;
   A goes on the video, then send the owner A, B and C for YouTube's Test & Compare.
 - Rendered MP4s are not committed (`.gitignore`); files over 25 MB are not committed (say where to re-download or how to rebuild).
