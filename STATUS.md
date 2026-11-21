@@ -8,10 +8,11 @@ deleted (they had no repo; the 18/19 Nov runs did not happen). Plan: L4 Fri 27 N
    [x] 1. AI field = No on ALL 43 videos (17 Nov 08:10; tools/yt_ai_no.py; YouTube's GET hides "false", so proof = docs/audit/ai_no.json, dry run says 0 left).
    [x] 2. thumb_v2 set on the 7 scheduled Shorts (17 Nov; uploaded.json thumbnail_file updated).
    [x] 3. yt_apply_fixes --apply: the 6 B-003 fixes done (17 Nov; script now ignores tag order).
-   [~] 4. (20 Nov 09:44: B-001 DONE, caption id saved by YouTube; quotaExceeded again → B-002 + B-003 still to do) SRT captions: files READY (episodes/B-00*/final/captions_en.srt, timing matches live length ±1 s). Quota ran out again 17 Nov ~08:20 →
+   [x] 4. (21 Nov 08:04: B-001, B-002, B-003 captions ALL uploaded) SRT captions: files READY (episodes/B-00*/final/captions_en.srt, timing matches live length ±1 s). Quota ran out again 17 Nov ~08:20 →
           after 18 Nov 08:00 UTC: `python3 tools/make_srt.py episodes/B-001-animal-trials --upload 9C-9O0c6VqM`, same for B-002 h2oO3SrSUH8, B-003 Am8epkS94Hw (~400 units each).
-   [ ] 5. `python3 docs/audit/verify.py` (needs quota) → commit, push, short message to the owner.
-   [~] 0. A-018 UPLOADED 20 Nov 20:00 UTC (jN10Y403ZOA, private, publishAt 27 Nov 16:00 UTC, register + topic_results done). LEFT: `python tools/yt_finish.py episodes/A-018-wavy-walls episodes/A-018-wavy-walls/final/thumb_v2.jpg` (thumbnail + playlist failed: quota). Old note: upload A-018 → `python lib/youtube.py upload episodes/A-018-wavy-walls/final/A-018.mp4 episodes/A-018-wavy-walls/upload_meta.json
+   [x] 5. verify.py 21 Nov 08:04: 12/13 PASS (docs/audit/verify_2026-11-21.json). Only V1b: RI7u-NzEj5E title 'Why the Church Put Bugs on Trial' vs proposed
+          'Why Medieval Courts Put Insects on Trial' — left as is (owner D4: posted videos stay); owner may say 'change it' (videos.update, ~50 units).
+   [x] 0. (21 Nov 08:03: thumbnail + playlist set, AI field No applied) A-018 UPLOADED 20 Nov 20:00 UTC (jN10Y403ZOA, private, publishAt 27 Nov 16:00 UTC, register + topic_results done). LEFT: `python tools/yt_finish.py episodes/A-018-wavy-walls episodes/A-018-wavy-walls/final/thumb_v2.jpg` (thumbnail + playlist failed: quota). Old note: upload A-018 → `python lib/youtube.py upload episodes/A-018-wavy-walls/final/A-018.mp4 episodes/A-018-wavy-walls/upload_meta.json
           episodes/A-018-wavy-walls/final/thumb_v2.jpg` (publishAt Fri 27 Nov 16:00 UTC, ai_disclosure No); check uploaded.json "thumbnail": true;
           then add its id to docs/ai_disclosure.md/.json and topic_results.md. (Video is rebuilt from renders/ by `make.py render` if final/ is gone; frames are not in git → Kaggle output a018 v2.)
    If quota runs out midway: leave the unticked items here for the next reset.
