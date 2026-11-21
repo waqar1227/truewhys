@@ -1,0 +1,15 @@
+# A-020 sources (checked 21 Nov 2026)
+- GTA 6 released 19 Nov 2026 (PS5, Xbox Series X|S); delays: from fall 2025 to 26 May 2026, then to 19 Nov 2026:
+  - Rockstar Newswire, "Grand Theft Auto VI is now set to launch November 19, 2026" — https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026
+  - The Detroit News (18 Nov 2026) — https://www.detroitnews.com/story/tech/2026/11/18/when-does-gta-6-online-come-out-grand-theft-auto-vi-release-ps5-xbox/92843185007/
+  - Fragster, "GTA 6 is out now" — https://www.fragster.com/gta-6-launch-november-2026/
+  - GIGA (May 2026 date) — https://www.giga.de/games/es-ist-ein-echtes-wunder-dass-gta-6-ueberhaupt-erscheint--01JVCMG8SNV9CT8APGY2XCX2KN
+- GTA V released Sept 2013; Rockstar's studios worked as one team on Red Dead Redemption 2 (2014–2018), released 26 Oct 2018:
+  - Wikipedia, "Development of Red Dead Redemption 2" — https://en.wikipedia.org/wiki/Development_of_Red_Dead_Redemption_2
+  - Destructoid, "How long has Rockstar been working on GTA 6: a timeline" — https://destructoid.com/how-long-has-rockstar-been-working-on-gta-6-a-timeline
+  - Gameranx, "GTA 6 was delayed because of Red Dead Redemption 2" — https://gameranx.com/updates/id/564387/article/gta-6-was-delayed-because-of-red-dead-redemption-2-but-it-still-took-eight-years/
+- GTA V sales: 215 million+ (May 2025), 220–225 million (2026) → "more than two hundred million":
+  - PC Gamer — https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-5-has-now-sold-an-incredible-220-million-copies
+  - GamingBolt (215 million) — https://gamingbolt.com/?p=619489
+- First GTA 6 trailer (Dec 2023): 93 million views in 24 hours (YouTube record for a non-music launch):
+  - Take-Two / press reports via Sportskeeda and Insider Gaming (search results 21 Nov 2026); GTA 6 Times timeline — https://gta6times.com/gta-6/updates

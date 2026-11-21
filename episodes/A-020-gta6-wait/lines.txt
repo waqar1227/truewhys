@@ -1,0 +1,8 @@
+# A-020 v1 (21 Nov 2026), standalone Short, Style F + cast v2.1 (owner request: GTA 6 is trending). Only facts with 2+ sources; no Rockstar art, logos or characters.
+H1|0|Why did we wait thirteen years for GTA 6?
+L01|0|GTA 5 came out in 2013. Fans thought the next one would take a few years.
+L02|0|But Rockstar put its studios together on one giant western instead: Red Dead Redemption 2. It took until 2018.
+L03|0|Meanwhile, GTA 5 just... kept selling. More than two hundred million copies.
+L04|0|When the first GTA 6 trailer finally dropped in 2023, it got ninety-three million views in a single day.
+L05|0|Then it was delayed. Twice. First to May 2026... then to November.
+L06|0|Thirteen years: one huge western, a game that never stopped selling, and two delays. Worth the wait?

@@ -40,3 +40,4 @@ CTR/impressions: only from Studio numbers the owner pastes.
 Owner style A/B test, UPLOADED 16 Nov (rows appear once public): A-016 Why Onions Make You Cry pwVCqe756X8 (B1, 8 Nature, R, 22 Nov) · A-017 Why Ice Cubes Are Cloudy S8zIxiPXHpE (B2, 9 Science, R, 23 Nov).
 Compare at 48 h and 7 d: views, stayed %, avg % viewed, rel. retention 10 %, subs, likes, comments → report to the owner.
 Scheduled 20 Nov: A-018 Why Is This English Wall So Wiggly? jN10Y403ZOA (standalone, 9 Science/engineering, R, Why …, Fri 27 Nov 16:00 UTC; teaser for L4 shapes series).
+Scheduled 21 Nov: A-020 Why We Waited 13 Years for GTA 6 jIFcT7oUqlw (standalone, gaming/trend test, F-v2.1, Why …, 21 Nov 16:00 UTC, owner request). A-010 (A/B A1) moved to 3 Dec 16:00 UTC by the owner.
