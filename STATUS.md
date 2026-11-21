@@ -23,6 +23,12 @@ deleted (they had no repo; the 18/19 Nov runs did not happen). Plan: L4 Fri 27 N
    L4 cut Shorts Sun 29, Mon 30 Nov, Tue 1, Wed 2 Dec 16:00 UTC (all ≥ 12 h apart). A-018 status 20 Nov 20:00: QA PASS (final/A-018.mp4 31.8 s, Kaggle a018 v2), upload at the next reset (item 0 above). Old note: Kaggle final
    (tools/kaggle_style_r.sh a018 episodes/A-018-wavy-walls '{"w":1080,"h":1920,"samples":64,"step":1,"mblur":true}' <mpfb zip from dataset truewhys-ep-a016>)
    → compose → QA → upload (thumb via tools/short_thumb.py, ai_disclosure decided per docs/ai_disclosure.md: stylised CG, check).
+** OWNER 21 Nov — NEW STANDING PLAN (CLAUDE.md): 5 videos/week = 1 long (Sat 15:00 UTC) + 4 Shorts (Sun/Tue/Wed/Thu 16:00 UTC; 1–2 cut from the long,
+   rest TRENDING standalone). Keep 1 month scheduled, then stop. Never change already-scheduled videos after the A-016 move (last change).
+   CALENDAR: Sat 21 Nov 13:00 A-020 GTA6 F (owner time) · Sun 22 A-021 GTA6 R (making now) · Mon 23 A-017 · Tue 24 A-012 · Wed 25 A-011 · Thu 26 A-013 ·
+   Fri 27 A-018 (all already scheduled, keep) · Sat 28 15:00 L4 · Sun 29 L4-C1 coins · Tue 1 Dec L4-C2 stop signs · Wed 2 Dec A-019 ambulance ·
+   Thu 3 Dec A-010 (scheduled) · Sat 5 Dec 15:00 L5 · Sun 6 Dec A-016 onions (moved, owner) · Tue 8/Wed 9/Thu 10 Dec: 1–2 L5 cut + trending ·
+   then weekly to ~21 Dec (1 month). L4-C3 caps + L4-C4 manholes are made but NOT scheduled (spare; only 2 cut Shorts per long).
 ** OWNER 21 Nov: he changed A-020 (jIFcT7oUqlw) himself in Studio (time, title, tags etc.). DO NOT change or 'fix' anything on that video;
    upload_meta.json there is the old version — never re-apply it, and treat any verify.py difference for this video as owner-approved.
 ** OWNER 21 Nov (08:00 UTC): GTA 6 trend Short A-020 made + QA PASS + uploaded jIFcT7oUqlw → TODAY 21 Nov 16:00 UTC (cat 20 Gaming).

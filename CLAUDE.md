@@ -83,8 +83,11 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
   Style R test (every 2 weeks): MPFB 2 humans (stylised) + Quaternius animations (CC0), plain studio backdrop in our colours, Kaggle.
   **Style R sample cast sheet APPROVED by the owner (15 Nov)**: docs/audit/review/style_r_cast_sheet.jpg + docs/audit/style_r/README.md (branch claude/zen-knuth-ypcfhk).
   **Cast v2.1 sheet APPROVED by the owner (15 Nov): library/cast/cast_v2_sheet.jpg, lib/cast2.py. Use it for all new videos.** D2 approved (end card, above); D4 decided (posted videos stay); D1 + D5 acted on via the audit (owner: follow the audit strictly).
-- **14-day buffer:** always keep 14 days of content scheduled in advance on YouTube. Produce only until 14 days ahead are scheduled,
-  then stop production; resume when the buffer drops below 14 days.
+- **WEEKLY PLAN + 1-MONTH BUFFER (owner 21 Nov 2026, replaces the 14-day buffer and older per-week counts):** exactly **5 videos a week: 1 long episode +
+  4 Shorts** (1 or 2 cut from that week's long episode, the rest standalone Shorts on **trending topics**). Nothing more. Week shape: long **Sat 15:00 UTC**;
+  Shorts **Sun, Tue, Wed, Thu 16:00 UTC** (Mon + Fri free; ≥ 23 h between any two videos). Always keep **1 month scheduled ahead**; when a month is
+  scheduled, stop production; resume when it drops below. **Never change a video that is already scheduled** (no reschedules/swaps) after
+  21 Nov 2026 (the A-016 move to the end is the last change).
 
 ## Uploading and scheduling (owner's standing permission; no owner preview needed)
 - As soon as a video passes QA, upload it with `python lib/youtube.py upload <mp4> <upload_meta.json> <thumb>` (title, description, tags
