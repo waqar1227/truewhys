@@ -22,6 +22,10 @@ deleted (they had no repo; the 18/19 Nov runs did not happen). Plan: L4 Fri 27 N
    L4 cut Shorts Sun 29, Mon 30 Nov, Tue 1, Wed 2 Dec 16:00 UTC (all ≥ 12 h apart). A-018 status 20 Nov 20:00: QA PASS (final/A-018.mp4 31.8 s, Kaggle a018 v2), upload at the next reset (item 0 above). Old note: Kaggle final
    (tools/kaggle_style_r.sh a018 episodes/A-018-wavy-walls '{"w":1080,"h":1920,"samples":64,"step":1,"mblur":true}' <mpfb zip from dataset truewhys-ep-a016>)
    → compose → QA → upload (thumb via tools/short_thumb.py, ai_disclosure decided per docs/ai_disclosure.md: stylised CG, check).
+** OWNER 21 Nov — NEXT ASSIGNMENT after L4 + its Shorts are done/scheduled: standalone Style R Short A-019 "Why is AMBULANCE written backwards?"
+   (mirror writing so drivers read it in the rear-view mirror). Close-to-human 3D people (Style R, stylised CG as A-016/A-018 — not photoreal, so AI label stays No
+   unless the test says otherwise), own research (2+ sources), generic ambulance (no real service logos/livery), Kaggle final.
+   Planned slot: Thu 3 Dec 16:00 UTC (≥ 12 h after the last L4 cut Short on Wed 2 Dec). Gemini voice = 1 request.
 ** L4 = B-004 "Why Everyday Things Are Shaped So Weirdly" (working title) — production session_01BQj2Dd62mCxqrytuRaL8gE, started 19 Nov.
    Style F + cast v2.1, 1920x1080, 6:17 (narration 5:20 + chapter breaks + 20 s end screen), cat 28. Slot Sat 28 Nov 15:00 UTC (moved for A-018, owner 20 Nov).
    Cut Shorts (vertical, rewritten, §6.3): C1 coin ridges/Newton · C2 stop signs were yellow · C3 bottle cap 21 teeth → Gillette · C4 round manholes;
