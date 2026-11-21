@@ -36,5 +36,6 @@
  "ai_disclosure": {
   "synthetic": false,
   "reason": "Not realistic: flat 2D cartoon animation, generic TTS narrator imitating no real person, code-made music (docs/ai_disclosure.md test, 21 Nov 2026)."
- }
+ },
+ "owner_edited_in_studio": "2026-11-21: owner changed time/title/tags in Studio; live values win, do not re-apply this file"
 }

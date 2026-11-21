@@ -23,6 +23,8 @@ deleted (they had no repo; the 18/19 Nov runs did not happen). Plan: L4 Fri 27 N
    L4 cut Shorts Sun 29, Mon 30 Nov, Tue 1, Wed 2 Dec 16:00 UTC (all ≥ 12 h apart). A-018 status 20 Nov 20:00: QA PASS (final/A-018.mp4 31.8 s, Kaggle a018 v2), upload at the next reset (item 0 above). Old note: Kaggle final
    (tools/kaggle_style_r.sh a018 episodes/A-018-wavy-walls '{"w":1080,"h":1920,"samples":64,"step":1,"mblur":true}' <mpfb zip from dataset truewhys-ep-a016>)
    → compose → QA → upload (thumb via tools/short_thumb.py, ai_disclosure decided per docs/ai_disclosure.md: stylised CG, check).
+** OWNER 21 Nov: he changed A-020 (jIFcT7oUqlw) himself in Studio (time, title, tags etc.). DO NOT change or 'fix' anything on that video;
+   upload_meta.json there is the old version — never re-apply it, and treat any verify.py difference for this video as owner-approved.
 ** OWNER 21 Nov (08:00 UTC): GTA 6 trend Short A-020 made + QA PASS + uploaded jIFcT7oUqlw → TODAY 21 Nov 16:00 UTC (cat 20 Gaming).
    A-010 Wrinkly fingers (A/B test A1) moved to Thu 3 Dec 16:00 UTC (tools/yt_reschedule.py, owner: 'put today's video in the last date slot').
    A/B test order is now B1 22, B2 23, A2 24 Nov, A1 3 Dec: compare each at 48 h / 7 d as before. Ambulance Short A-019 → Fri 4 Dec 16:00 UTC.
