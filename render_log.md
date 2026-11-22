@@ -97,3 +97,4 @@
 - 22 Nov 02:04 UTC: a021 v1 pushed (A-021 GTA 6 PC, Style R, 9 shots / 1174 frames, 1080×1920, 64 spp + mblur, 2×T4).
 - 22 Nov 04:02 UTC: a021 v1 COMPLETE (109.4 min wall, 2×T4 ≈ 3.65 GPU h, all 9 shots / 1174 frames) → episodes/A-021-gta6-pc/renders. QA FAIL (clothing clipping, barefoot, close-up) → not uploaded.
 - 22 Nov ~04:4x UTC: a021 v2 pushed (QA fixes; shots pc_nothing, console_win, pedestals_a, pedestals_b, report_2027). Next: v3 hook_pc + loop_q (arms down, tighter camera).
+- 22 Nov 04:4x UTC: a021b v1 COMPLETE (24.6 min wall, 2×T4 ≈ 0.8 GPU h; hook_pc 97 + loop_q 151 frames) → renders.
