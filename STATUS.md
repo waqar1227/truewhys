@@ -19,7 +19,8 @@ TASKS in order:
 1. OWNER (told 22 Nov): Studio → Related video = L4 (dgmYB0zPALw) on PtETjFRHH24 and cXgM0GJELw0.
 2. 48-h checks into topic_results.md (stayed %, rel. retention 10 %, drop point): A-021 on 24 Nov, A-017 25 Nov, A-012 26, A-011 27, A-013 28,
    A-018 29 Nov (`python3 lib/yt_stats.py 7`). Compare Style R (A-016/17/18/21) vs Style F.
-3. A-019 + A-022 (Style R): script/voice/animatic done, Kaggle renders a019/a022 queued 22 Nov. When renders are in: `python make.py render renders`
+3. A-019 + A-022 (Style R): script/voice/animatic done, Kaggle renders a019/a022 pushed 22 Nov 15:00/15:55, still QUEUED 17:16 UTC (shared GPU busy; wait, never free a slot).
+   Check: `/opt/c3d/bin/python tools/kaggle_px.py kernels status anam318/truewhys-render-a019` (and a022); if COMPLETE: `ALL=1 bash tools/kaggle_wait.sh a019=episodes/A-019-ambulance/renders a022=episodes/A-022-padlock-hole/renders`. When renders are in: `python make.py render renders`
    (each episode), QA (qa.md, one contact sheet), short thumb (tools/short_thumb.py), upload private+publishAt (upload_meta.json), SRT upload.
    QA watch-outs: female cast in tight tops (keep modest; A-019 mirror_demo), mirror reflection legible, rain visible in A-022 gate_rain.
 4. L5 = episodes/B-005-annoying-science "Why Toast Lands Butter-Side Down, Shoelaces Untie and Earbuds Tangle" (L5 session, 22 Nov): script, sources,
