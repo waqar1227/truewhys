@@ -1,0 +1,7 @@
+# A-019 v1 (22 Nov 2026), standalone Short, Style R (close-to-human 3D). Own research/script/cast/staging. Facts 2+ sources (sources.md).
+H1|0|Why is ambulance written backwards?
+L01|0|It's not a mistake. It's written for one person: the driver stuck right in front of it.
+L02|0|When a siren screams behind you, you don't turn around. You glance up... at your mirror.
+L03|0|And a mirror flips everything left to right. A normal word would look backwards.
+L04|0|So the word is printed flipped. The official US ambulance spec even requires it.
+L05|0|Backwards on the van... but in your mirror, it reads AMBULANCE. Did you ever notice?

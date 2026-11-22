@@ -95,7 +95,7 @@ All original (TrueWhys). One episode = `episodes/<ep>/make.py` (`sheet` | `big <
   `stress_field` (flow lines round a square/rounded opening), `newspaper`, castle: `castle_wall` (garderobe box + chute, or gate with drawbridge), `garderobe_room`,
   `chute_section`, `castle_hill`, `tent`, `crowd`, `torch`, `moon`, `stone`, `merlons`; aviation: `cabin` + `seat`, `tube_section`, `plug_diagram`, `air_dots`;
   `elephant`. Props for hands: `cone`, `mug`, `cup_straw`.
-- **Sounds `lib/sfxgen.py`:** in-house synthesised effects registered with lib/audio (use by name): freeze, zap, swell, rush, heartbeat, sting, melt, confuse,
+- **Sounds `lib/sfxgen.py`:** in-house synthesised effects registered with lib/audio (use by name): siren, siren_yelp (generic emergency siren wail / yelp, A-019), freeze, zap, swell, rush, heartbeat, sting, melt, confuse,
   bloop, click, shimmer, chime.
 - **Tools:** `tools/voice_check.py <ep>` (finds clipped or misheard narration lines before rendering), `tools/yt_finish.py <ep>` (retry thumbnail/playlist after an `tools/short_thumb.py` (Shorts thumbnail: clean frame + one hook/suspense line, owner rule 16 Nov), `tools/yt_ai_no.py` (sets the AI/altered field to No on every video).
   API quota error), `lib/voice_gemini.py` now cuts lines at the real pauses (it used to drop a line's first word when whisper swallowed it).
@@ -128,3 +128,6 @@ All original (TrueWhys). One episode = `episodes/<ep>/make.py` (`sheet` | `big <
 - `episodes/B-004-shape-secrets/shorts/make_short.py` `split_long(V)`: splits long Short shots into 1.5–2.5 s cuts with alternating framings, story clock and SFX kept.
 - `lib/style_r/sr_walls.py` (Style R): wavy_wall (crinkle-crankle, running bond, per-brick colour), straight_wall (1–2 bricks, piers, topple pivot),
   paper_sheet (flat or zigzag), fruit_tree (espalier), sun_disc, arrow3d. `lib/srplate.py` plate(zoom=, t0=): punch-in cuts inside one rendered shot.
+- **Style R vehicles + real mirror (A-019, `episodes/A-019-ambulance/scene.py`):** `ambulance(F, x, n)` generic box ambulance (mirrored 3D word, flashing red/blue
+  lights via `flasher()`), `car(CF, n, mirror_to, eye)` hatchback whose rear-view mirror is aimed to reflect a point into an eye (ray-traced, reads correctly),
+  `text3d()` 3D block lettering (Poppins ExtraBold; mirror/both-sides), `set_stage(road=True)` studio + road strip. Copy into lib/style_r when reused.

@@ -185,3 +185,27 @@ def hiss():
 audio.GEN.update(chop=chop, alarm=alarm, hiss=hiss)
 audio.GEN.update(freeze=freeze, zap=zap, swell=swell, rush=rush, heartbeat=heartbeat, sting=sting, melt=melt, confuse=confuse, bloop=bloop,
                  click=click, shimmer=shimmer, chime=chime)
+
+
+@functools.lru_cache(maxsize=None)
+def siren():
+    """Generic emergency siren (original synth, 2.4 s): rising-falling 'wail' with soft harmonics and a slight doppler swell. Not any real service's tone."""
+    t = _t(2.4)
+    f = 700 + 450 * (0.5 - 0.5 * np.cos(2 * np.pi * t / 1.2))          # wail 700-1150 Hz, 1.2 s cycle
+    ph = 2 * np.pi * np.cumsum(f) / SR
+    y = np.sin(ph) + 0.35 * np.sin(2 * ph) + 0.15 * np.sin(3 * ph)
+    env = np.minimum(1, t / 0.15) * (0.75 + 0.25 * np.sin(np.pi * t / 2.4)) * np.minimum(1, (2.4 - t) / 0.3)
+    return _st(y * env, 0.45)
+
+
+@functools.lru_cache(maxsize=None)
+def siren_yelp():
+    """Fast 'yelp' siren burst (original synth, 0.9 s) for a hit at frame 0."""
+    t = _t(0.9)
+    f = 750 + 400 * (0.5 - 0.5 * np.cos(2 * np.pi * t / 0.18))
+    ph = 2 * np.pi * np.cumsum(f) / SR
+    y = (np.sin(ph) + 0.3 * np.sin(2 * ph)) * np.minimum(1, t / 0.02) * np.minimum(1, (0.9 - t) / 0.2)
+    return _st(y, 0.5)
+
+
+audio.GEN.update(siren=siren, siren_yelp=siren_yelp)

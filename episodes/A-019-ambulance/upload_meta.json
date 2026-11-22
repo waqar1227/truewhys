@@ -1,0 +1,17 @@
+{
+ "title": "Why Is AMBULANCE Written Backwards?",
+ "description": "Why is the word AMBULANCE written backwards on the front of an ambulance? It isn't a mistake. It's written for one person: the driver stuck right in front of it. When a siren sounds behind you, you don't turn around, you glance up at your rear-view mirror. A mirror flips everything left to right, so a normal word would look backwards. That's why the word is printed flipped: in your mirror it reads AMBULANCE. The official US ambulance specification (KKK-A-1822) even requires the front word to be mirror imaged.\n\nDid you ever notice it?\n\nMore true whys: https://www.youtube.com/@truewhys?sub_confirmation=1\n\nSources: Wikipedia, \"Mirror writing\"; Hewitt, Conceptual Physics (ch. 28); ScienceABC, \"Why mirrors reverse left and right\"; GSA KKK-A-1822 Federal Specification for the Star-of-Life Ambulance (front markings).\nAnimation, music and sound: TrueWhys (original). 3D people made with MPFB / MakeHuman (CC0). Fonts: Lilita One, Poppins (Open Font License).\n#ambulance #didyouknow #science",
+ "tags": ["why is ambulance written backwards", "ambulance written backwards", "ambulance backwards", "why is ambulance spelled backwards",
+          "ambulance mirror writing", "mirror writing", "mirror image text", "rear view mirror", "why ambulance word is reversed", "ambulance",
+          "ambulance facts", "emergency vehicle", "siren", "mirror flips left and right", "why do mirrors flip", "everyday science",
+          "science facts", "fun facts", "did you know", "TrueWhys"],
+ "categoryId": "28",
+ "publishAt": "2026-12-05T18:00:00Z",
+ "playlist": "Why Does That Happen? (Science and Body)",
+ "video": "final/A-019.mp4",
+ "style": "R (close-to-human 3D)",
+ "ai_disclosure": {
+  "synthetic": false,
+  "reason": "Not realistic: stylised CG people and a toy-like code-built ambulance on a plain studio backdrop (clearly animated), generic TTS narrator imitating no real person, code-made music (docs/ai_disclosure.md test, 22 Nov 2026)."
+ }
+}
