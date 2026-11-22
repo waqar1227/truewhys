@@ -1,0 +1,8 @@
+# A-021 v1 (21 Nov 2026), standalone Short, Style R (close-to-human 3D), owner request: second GTA 6 Short, Zack-D-like. Facts 2+ sources; no Rockstar art/logos/characters.
+H1|0|Why can't you play GTA 6 on PC yet?
+L01|0|November 19th, 2026. GTA 6 comes out on PlayStation and Xbox. PC players get... nothing.
+L02|0|But this isn't new. GTA 5 hit consoles in 2013. PC players waited until 2015.
+L03|0|Red Dead Redemption 2? Consoles in 2018. PC, a year later.
+L04|0|Take-Two's boss says Rockstar always starts on console, to serve its core players first.
+L05|0|One report says PC could come in early 2027. But nothing is official yet.
+L06|0|Console first, PC later. It's Rockstar's pattern. Are you still waiting?
