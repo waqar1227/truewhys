@@ -160,6 +160,8 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
   Sonnet, 07:13 UTC) runs `bash tools/daily.sh` (yt_stats: views since last check, retention 10/50/90 % + drop point, traffic sources;
   competitors.py: cached yt-dlp snapshot, breakouts, fastest growers) and appends a ≤20-line entry to `research/daily_report.md`
   (`research/report_template.md`). CTR/impressions are not in the API: use them only when the owner pastes Studio numbers.
+- **Competitor audience (22 Nov, docs/competitor_targeting.md):** never use other creators' names in titles/tags/descriptions/hashtags; win
+  their viewers with similar-interest topics (competitors.py radar), real search keywords, 3 relevant hashtags, and better hooks/packaging.
 - Every new video carries a specific, evidence-based improvement; diagnose before changing (discovery vs packaging vs hook/retention);
   never repeat an unsuccessful strategy without analysis; never invent metrics or findings.
 
