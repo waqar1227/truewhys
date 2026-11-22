@@ -1,0 +1,462 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "What's this tiny hole in a padlock for?",
+  "dur": 2.31,
+  "words": [
+   {
+    "w": "What's",
+    "s": 0.0,
+    "e": 0.4
+   },
+   {
+    "w": "this",
+    "s": 0.4,
+    "e": 0.56
+   },
+   {
+    "w": "tiny",
+    "s": 0.56,
+    "e": 0.88
+   },
+   {
+    "w": "hole",
+    "s": 0.88,
+    "e": 1.14
+   },
+   {
+    "w": "in",
+    "s": 1.14,
+    "e": 1.34
+   },
+   {
+    "w": "a",
+    "s": 1.34,
+    "e": 1.48
+   },
+   {
+    "w": "padlock",
+    "s": 1.48,
+    "e": 1.82
+   },
+   {
+    "w": "for?",
+    "s": 1.82,
+    "e": 2.14
+   }
+  ],
+  "heard": "What's this tiny hole on a padlock for?",
+  "match": 0.875
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "It's not a keyhole. But without it, this lock could break from the inside.",
+  "dur": 4.15,
+  "words": [
+   {
+    "w": "It's",
+    "s": 0.06,
+    "e": 0.18
+   },
+   {
+    "w": "not",
+    "s": 0.18,
+    "e": 0.3
+   },
+   {
+    "w": "a",
+    "s": 0.3,
+    "e": 0.4
+   },
+   {
+    "w": "keyhole.",
+    "s": 0.4,
+    "e": 0.78
+   },
+   {
+    "w": "But",
+    "s": 1.34,
+    "e": 1.5
+   },
+   {
+    "w": "without",
+    "s": 1.5,
+    "e": 1.78
+   },
+   {
+    "w": "it,",
+    "s": 1.78,
+    "e": 2.04
+   },
+   {
+    "w": "this",
+    "s": 2.18,
+    "e": 2.4
+   },
+   {
+    "w": "lock",
+    "s": 2.4,
+    "e": 2.62
+   },
+   {
+    "w": "could",
+    "s": 2.62,
+    "e": 2.8
+   },
+   {
+    "w": "break",
+    "s": 2.8,
+    "e": 3.02
+   },
+   {
+    "w": "from",
+    "s": 3.02,
+    "e": 3.22
+   },
+   {
+    "w": "the",
+    "s": 3.22,
+    "e": 3.36
+   },
+   {
+    "w": "inside.",
+    "s": 3.36,
+    "e": 3.8
+   }
+  ],
+  "heard": "It's not a keyhole. But without it, this lock could break from the inside.",
+  "match": 1.0
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "Padlocks live outdoors. Rain sneaks in around the shackle... and has nowhere to go.",
+  "dur": 4.63,
+  "words": [
+   {
+    "w": "Padlocks",
+    "s": 0.2,
+    "e": 0.48
+   },
+   {
+    "w": "live",
+    "s": 0.48,
+    "e": 0.7
+   },
+   {
+    "w": "outdoors.",
+    "s": 0.7,
+    "e": 1.1
+   },
+   {
+    "w": "Rain",
+    "s": 1.86,
+    "e": 1.98
+   },
+   {
+    "w": "sneaks",
+    "s": 1.98,
+    "e": 2.4
+   },
+   {
+    "w": "in",
+    "s": 2.4,
+    "e": 2.52
+   },
+   {
+    "w": "around",
+    "s": 2.52,
+    "e": 2.7
+   },
+   {
+    "w": "the",
+    "s": 2.7,
+    "e": 2.86
+   },
+   {
+    "w": "shackle...",
+    "s": 2.86,
+    "e": 3.18
+   },
+   {
+    "w": "and",
+    "s": 3.18,
+    "e": 3.48
+   },
+   {
+    "w": "has",
+    "s": 3.48,
+    "e": 3.62
+   },
+   {
+    "w": "nowhere",
+    "s": 3.62,
+    "e": 3.92
+   },
+   {
+    "w": "to",
+    "s": 3.92,
+    "e": 4.16
+   },
+   {
+    "w": "go.",
+    "s": 4.16,
+    "e": 4.5
+   }
+  ],
+  "heard": "Padlocks live outdoors. Rain sneaks in around the shackle and has nowhere to go.",
+  "match": 1.0
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "Trapped water rusts the parts. And in winter, it freezes, and the lock jams solid.",
+  "dur": 4.82,
+  "words": [
+   {
+    "w": "Trapped",
+    "s": 0.22,
+    "e": 0.34
+   },
+   {
+    "w": "water",
+    "s": 0.34,
+    "e": 0.7
+   },
+   {
+    "w": "rusts",
+    "s": 0.7,
+    "e": 1.08
+   },
+   {
+    "w": "the",
+    "s": 1.08,
+    "e": 1.18
+   },
+   {
+    "w": "parts.",
+    "s": 1.18,
+    "e": 1.46
+   },
+   {
+    "w": "And",
+    "s": 1.88,
+    "e": 1.98
+   },
+   {
+    "w": "in",
+    "s": 1.98,
+    "e": 2.1
+   },
+   {
+    "w": "winter,",
+    "s": 2.1,
+    "e": 2.34
+   },
+   {
+    "w": "it",
+    "s": 2.62,
+    "e": 2.82
+   },
+   {
+    "w": "freezes,",
+    "s": 2.82,
+    "e": 3.14
+   },
+   {
+    "w": "and",
+    "s": 3.14,
+    "e": 3.52
+   },
+   {
+    "w": "the",
+    "s": 3.52,
+    "e": 3.64
+   },
+   {
+    "w": "lock",
+    "s": 3.64,
+    "e": 3.92
+   },
+   {
+    "w": "jams",
+    "s": 3.92,
+    "e": 4.18
+   },
+   {
+    "w": "solid.",
+    "s": 4.18,
+    "e": 4.64
+   }
+  ],
+  "heard": "Trapped water rusts the parts. And in winter, it freezes and the lock jams solid.",
+  "match": 1.0
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "That's why it sits at the bottom. It isn't for a key...",
+  "dur": 2.87,
+  "words": [
+   {
+    "w": "That's",
+    "s": 0.03,
+    "e": 0.35
+   },
+   {
+    "w": "why",
+    "s": 0.35,
+    "e": 0.51
+   },
+   {
+    "w": "it",
+    "s": 0.51,
+    "e": 0.65
+   },
+   {
+    "w": "sits",
+    "s": 0.65,
+    "e": 0.81
+   },
+   {
+    "w": "at",
+    "s": 0.81,
+    "e": 0.95
+   },
+   {
+    "w": "the",
+    "s": 0.95,
+    "e": 1.05
+   },
+   {
+    "w": "bottom.",
+    "s": 1.05,
+    "e": 1.25
+   },
+   {
+    "w": "It",
+    "s": 1.71,
+    "e": 1.85
+   },
+   {
+    "w": "isn't",
+    "s": 1.85,
+    "e": 2.09
+   },
+   {
+    "w": "for",
+    "s": 2.09,
+    "e": 2.25
+   },
+   {
+    "w": "a",
+    "s": 2.25,
+    "e": 2.41
+   },
+   {
+    "w": "key...",
+    "s": 2.41,
+    "e": 2.61
+   }
+  ],
+  "heard": "That's why it sits at the bottom. It isn't for a key.",
+  "match": 1.0
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "It's a drain. Gravity pulls the water out before it can rust or freeze. Ever noticed it?",
+  "dur": 4.78,
+  "words": [
+   {
+    "w": "It's",
+    "s": 0.06,
+    "e": 0.22
+   },
+   {
+    "w": "a",
+    "s": 0.22,
+    "e": 0.32
+   },
+   {
+    "w": "drain.",
+    "s": 0.32,
+    "e": 0.6
+   },
+   {
+    "w": "Gravity",
+    "s": 1.36,
+    "e": 1.58
+   },
+   {
+    "w": "pulls",
+    "s": 1.58,
+    "e": 1.92
+   },
+   {
+    "w": "the",
+    "s": 1.92,
+    "e": 2.06
+   },
+   {
+    "w": "water",
+    "s": 2.06,
+    "e": 2.24
+   },
+   {
+    "w": "out",
+    "s": 2.24,
+    "e": 2.48
+   },
+   {
+    "w": "before",
+    "s": 2.48,
+    "e": 2.68
+   },
+   {
+    "w": "it",
+    "s": 2.68,
+    "e": 2.82
+   },
+   {
+    "w": "can",
+    "s": 2.82,
+    "e": 2.92
+   },
+   {
+    "w": "rust",
+    "s": 2.92,
+    "e": 3.14
+   },
+   {
+    "w": "or",
+    "s": 3.14,
+    "e": 3.3
+   },
+   {
+    "w": "freeze.",
+    "s": 3.3,
+    "e": 3.54
+   },
+   {
+    "w": "Ever",
+    "s": 4.04,
+    "e": 4.16
+   },
+   {
+    "w": "noticed",
+    "s": 4.16,
+    "e": 4.4
+   },
+   {
+    "w": "it?",
+    "s": 4.4,
+    "e": 4.6
+   }
+  ],
+  "heard": "It's a drain. Gravity pulls the water out before it can rust or freeze. Ever noticed it?",
+  "match": 1.0
+ }
+]

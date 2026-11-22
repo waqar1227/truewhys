@@ -1,0 +1,7 @@
+# A-022 v1 (22 Nov 2026), standalone Short, Style R. Own research/script/cast/staging. Facts 2+ sources (sources.md).
+H1|0|What's this tiny hole in a padlock for?
+L01|0|It's not a keyhole. But without it, this lock could break from the inside.
+L02|0|Padlocks live outdoors. Rain sneaks in around the shackle... and has nowhere to go.
+L03|0|Trapped water rusts the parts. And in winter, it freezes, and the lock jams solid.
+L04|0|That's why it sits at the bottom. It isn't for a key...
+L05|0|It's a drain. Gravity pulls the water out before it can rust or freeze. Ever noticed it?

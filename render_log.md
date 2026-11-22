@@ -101,3 +101,4 @@
 - 22 Nov 05:48 UTC: a021 v2 COMPLETE (80.3 min wall, 2×T4 ≈ 2.7 GPU h, 5 shots). 05:51 UTC a021b v2 pushed (console_win elbow poles + pc_nothing arms down, wider).
 - 22 Nov 06:44 UTC: a021b v2 COMPLETE (29.2 min wall, 2×T4 ≈ 1.0 GPU h; console_win + pc_nothing). A-021 total ≈ 8.2 GPU h (v1 3.65 + v2 2.7 + b1 0.8 + b2 1.0). QA PASS → uploaded sx0H9Hm0KxA.
 - 22 Nov 15:00 UTC: a019 v1 pushed (A-019 ambulance, Style R, 10 shots / 838 frames, 1080×1920, Cycles 64 spp + mblur, 2×T4). Dataset anam318/truewhys-ep-a019, kernel truewhys-render-a019 (dataset now also carries Poppins-ExtraBold.ttf for 3D lettering).
+- 22 Nov 15:5x UTC: a022 v1 pushed (A-022 padlock hole, Style R, 10 shots / 774 frames, 64 spp + mblur, 2×T4). a019 v1 still QUEUED since 15:00 (GPU slots busy; waiting, not freeing any).
