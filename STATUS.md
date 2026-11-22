@@ -28,7 +28,8 @@ deleted (they had no repo; the 18/19 Nov runs did not happen). Plan: L4 Fri 27 N
    CALENDAR (owner 22 Nov: 1 post/day max, Mon+Wed free, long Sun 17:00 UTC, Shorts Tue/Thu/Fri/Sat 18:00 UTC; docs/posting_times.md):
    SCHEDULED (never move): Sat 21 A-020 · Sun 22 A-021 · Mon 23 A-017 · Tue 24 A-012 · Wed 25 A-011 · Thu 26 A-013 · Fri 27 A-018 · Thu 3 Dec A-010 (16:00) ·
    Sun 6 Dec A-016 (16:00).
-   TO MAKE: Sun 29 Nov 17:00 L4 · Tue 1 Dec 18:00 L4-C1 · Fri 4 Dec 18:00 L4-C2 · Sat 5 Dec 18:00 A-019 ambulance (R) ·
+   UPLOADED 22 Nov: Tue 1 Dec L4-C1 PtETjFRHH24 · Fri 4 Dec L4-C2 cXgM0GJELw0 (no captions, SRT up).
+   TO MAKE: Sun 29 Nov 17:00 L4 (final rendering, no captions) · Sat 5 Dec 18:00 A-019 ambulance (R) ·
    Mon 7 Dec 17:00 L5 (one-off Monday: Sun 6 is taken by A-016) · Tue 8, Thu 10, Fri 11 Dec 18:00 Shorts (L5 cut + trending) · Sat 12 free ·
    Sun 13 Dec 17:00 L6 · Tue 15, Thu 17, Fri 18, Sat 19 Dec Shorts · Sun 20 Dec 17:00 L7 → 30 days filled (to ~21 Dec), then STOP.
    L4-C3 caps + L4-C4 manholes are made but NOT scheduled (spare).

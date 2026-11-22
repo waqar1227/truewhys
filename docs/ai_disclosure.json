@@ -366,5 +366,21 @@
   "synthetic": false,
   "reason": "Not realistic: stylised CG people on a plain studio backdrop; generic TTS narrator imitating no real person; code-made music; no real person, place or event depicted realistically.",
   "decided": "2026-11-22"
+ },
+ "PtETjFRHH24": {
+  "episode": "B-004-shape-secrets/shorts/C1-coin-ridges",
+  "title": "Why Do Coins Have Ridges?",
+  "style": "F: flat 2D cartoon (cast v2.2)",
+  "synthetic": false,
+  "reason": "Not realistic: flat 2D cartoon; generic TTS narrator imitating no real person; code-made music; no AI images/footage, no voice clone.",
+  "decided": "2026-11-22"
+ },
+ "cXgM0GJELw0": {
+  "episode": "B-004-shape-secrets/shorts/C2-yellow-stop-signs",
+  "title": "Why Stop Signs Used to Be Yellow",
+  "style": "F: flat 2D cartoon (cast v2.2)",
+  "synthetic": false,
+  "reason": "Not realistic: flat 2D cartoon; generic TTS narrator imitating no real person; code-made music; no AI images/footage, no voice clone.",
+  "decided": "2026-11-22"
  }
 }

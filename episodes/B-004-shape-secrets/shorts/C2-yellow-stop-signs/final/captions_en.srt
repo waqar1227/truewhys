@@ -1,0 +1,51 @@
+1
+00:00:00,070 --> 00:00:02,070
+Stop signs used to be yellow.
+
+2
+00:00:02,750 --> 00:00:04,030
+So why did they turn red?
+
+3
+00:00:04,530 --> 00:00:07,130
+In 1923, American road engineers made a
+
+4
+00:00:07,130 --> 00:00:09,380
+rule: the more sides, the more danger.
+
+5
+00:00:09,680 --> 00:00:11,200
+A circle for railway crossings.
+
+6
+00:00:11,660 --> 00:00:13,040
+Eight sides for stop.
+
+7
+00:00:13,340 --> 00:00:15,420
+And for about thirty years, most stop
+
+8
+00:00:15,420 --> 00:00:17,410
+signs were yellow, with black letters.
+
+9
+00:00:17,810 --> 00:00:18,710
+Red would be better.
+
+10
+00:00:19,190 --> 00:00:21,610
+So why wait until 1954?
+
+11
+00:00:22,090 --> 00:00:24,350
+Because red paint faded in the sun.
+
+12
+00:00:24,770 --> 00:00:26,630
+And a pale pink stop sign is easy
+
+13
+00:00:26,630 --> 00:00:27,190
+to miss.
