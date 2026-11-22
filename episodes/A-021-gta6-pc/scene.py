@@ -18,7 +18,7 @@ argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else sys.argv[1:]
 PCG = dict(macro={"gender": 1, "age": 0.40, "muscle": 0.5, "weight": 0.5, "proportions": 0.6, "height": 0.55}, skin="#E2AE8A",
            hair="#2A170C", shirt="#2E2E3A", trousers="#3A4A66", shoes="#F4F1EA", iris="#4A3A2C", sleeve="long")      # PC player, dark hoodie
 CON = dict(macro={"gender": 1, "age": 0.36, "muscle": 0.55, "weight": 0.55, "proportions": 0.6, "height": 0.5}, skin="#B9805A",
-           hair="#1A1410", shirt="#FF6B5B", trousers="#2B3440", shoes="#2A2420", iris="#3A2416")                         # console player, coral tee
+           hair="#1A1410", shirt="#FF6B5B", trousers="#2B3440", shoes="#F4F1EA", iris="#3A2416")                         # console player, coral tee
 BOSS = dict(macro={"gender": 1, "age": 0.62, "muscle": 0.45, "weight": 0.6, "proportions": 0.55, "height": 0.5}, skin="#EBC09E",
             hair="#8A8178", shirt="#2F3A4F", trousers="#2F3A4F", shoes="#1A1A1A", iris="#3E5A7A", sleeve="long")         # generic exec in a dark suit
 BG = ("#2E5E86", "#F0D2A8")
@@ -105,14 +105,14 @@ def at_desk(n, screen_col="#3A4A7A", strength=1.4, look0=None):
     set_stage(flip=True)
     scr = pc_desk((0.35, 0.0, 0), screen_col=screen_col, strength=strength)
     h, ct = person(PCG, (-0.55, -0.45, 0), 180, "man")
-    ct["handR"].location = (-0.33, -0.22, DESK_H + 0.07); ct["handL"].location = (-0.78, -0.40, 0.98)
-    Hm.grip(h, "R", 0.4, 0.3)
+    ct["handR"].location = (-0.36, -0.40, 0.86); ct["handL"].location = (-0.76, -0.42, 0.86)      # arms down (reaching to the desk folds the sleeve)
+    Hm.grip(h, "R", 0.25, 0.2); Hm.grip(h, "L", 0.25, 0.2)
     P.lights((-0.2, -0.2, 1.2), key=700, rim=900)
     return h, ct
 
 
 MON = (0.35, 0.10, 1.25)
-CAMP = (0.62, 1.20, 1.50); CAMT = (-0.50, -0.45, 1.30)
+CAMP = (0.15, 0.95, 1.55); CAMT = (-0.55, -0.45, 1.36)
 
 
 def hook_pc(sh, cam, n):
@@ -121,22 +121,23 @@ def hook_pc(sh, cam, n):
     key_obj(ct["look"], 0, loc=(CAMP[0], CAMP[1], 1.55)); key_obj(ct["look"], int(n * 0.6), loc=MON)
     Hm.face(h["keys"], 0, frown=0.5, brows_inner=0.6, squint=0.3); Hm.face(h["keys"], int(n * 0.6), frown=0.6, brows_down=0.5)
     life(h, n, 1, blinks=False)
-    cam_move(cam, n, (CAMP, CAMT, 42), ((0.58, 1.10, 1.50), CAMT, 44), focus=(-0.55, -0.45, 1.5), fstop=4.5)
+    cam_move(cam, n, (CAMP, CAMT, 44), ((0.11, 0.86, 1.55), CAMT, 47), focus=(-0.55, -0.45, 1.5), fstop=4.5)
 
 
 def console_win(sh, cam, n):
     set_stage(bottom="#F2D2A0", flip=True)
     tv_stand((0.0, 0.6, 0), col="#FFB15B", strength=3.5)
     h, ct = person(CON, (0.0, -0.55, 0), 180, "man")                   # faces the TV (+Y): right hand on +X
-    pad = controller(); Hm.hold(h, pad, "R", offset=(0, 0, 0))
-    key_obj(ct["handR"], 0, loc=(0.08, -0.35, 1.05)); key_obj(ct["handL"], 0, loc=(-0.08, -0.35, 1.05))
+    pad = controller(); pad.rotation_euler = (math.radians(70), 0, 0)
+    Hm.grip(h, "R", 0.55, 0.35); Hm.grip(h, "L", 0.55, 0.35)
     fu = W_(sh, "playstation", 2.0)
-    key_obj(ct["handR"], fu, loc=(0.08, -0.35, 1.05)); key_obj(ct["handR"], fu + 8, loc=(0.25, -0.5, 1.75))
-    key_obj(ct["handL"], fu, loc=(-0.08, -0.35, 1.05)); key_obj(ct["handL"], fu + 8, loc=(-0.25, -0.5, 1.75))
+    for f, z, y in ((0, 1.10, -0.36), (fu, 1.10, -0.36), (fu + 8, 1.72, -0.46), (n, 1.74, -0.46)):
+        key_obj(ct["handR"], f, loc=(0.09, y, z)); key_obj(ct["handL"], f, loc=(-0.09, y, z))
+        key_obj(pad, f, loc=(0.0, y + 0.03, z + 0.02))
     key_obj(ct["look"], 0, loc=(0, 0.6, 1.0)); key_obj(ct["look"], fu + 8, loc=(0, 0.6, 1.4))
     Hm.face(h["keys"], 0, smile=0.4, brows_up=0.3); Hm.face(h["keys"], fu + 8, smile=0.9, wide=0.3, brows_up=0.6)
     P.lights((0, 0.0, 1.0), key=700, rim=1000)
-    cam_move(cam, n, ((1.35, 0.95, 1.35), (0.0, -0.55, 1.30), 30), ((1.25, 0.85, 1.36), (0.0, -0.55, 1.32), 32), fstop=5.6)
+    cam_move(cam, n, ((1.05, 0.80, 1.40), (0.0, -0.50, 1.28), 34), ((0.98, 0.72, 1.41), (0.0, -0.50, 1.30), 36), fstop=5.6)
 
 
 def pc_nothing(sh, cam, n):
@@ -144,10 +145,11 @@ def pc_nothing(sh, cam, n):
     h, ct = at_desk(n, screen_col="#2A3050", strength=1.0)
     key_obj(ct["look"], 0, loc=MON)
     fn = W_(sh, "nothing", 1.0)
-    Hm.face(h["keys"], 0, brows_up=0.4, wide=0.3); Hm.face(h["keys"], fn + 4, frown=0.7, brows_inner=0.8, squint=0.2)
-    ec = Vector((-0.55, -0.38, 1.60))                 # face (he faces +Y; rest-pose eye data is not rotated)
-    cam_move(cam, n, ((-0.12, 0.42, 1.64), (ec.x, ec.y, ec.z - 0.07), 48), ((-0.14, 0.36, 1.64), (ec.x, ec.y, ec.z - 0.07), 52),
-             focus=ec, fstop=3.5)
+    Hm.face(h["keys"], 0, brows_up=0.4, wide=0.3); Hm.face(h["keys"], fn + 4, frown=0.7, brows_inner=0.35, squint=0.2)
+    key_obj(ct["handR"], 0, loc=(-0.33, -0.22, DESK_H + 0.07)); key_obj(ct["handR"], fn + 6, loc=(-0.36, -0.40, 0.86))
+    key_obj(ct["handL"], 0, loc=(-0.78, -0.40, 0.98)); key_obj(ct["handL"], fn + 6, loc=(-0.76, -0.42, 0.86))
+    tg = (-0.55, -0.45, 1.42)                          # medium shot (chest up), never a face close-up (collar/hair edges show)
+    cam_move(cam, n, ((0.05, 0.75, 1.55), tg, 50), ((0.02, 0.68, 1.55), tg, 54), focus=(-0.55, -0.40, 1.55), fstop=4.0)
 
 
 def shrug_pc(sh, cam, n):
@@ -164,20 +166,20 @@ def shrug_pc(sh, cam, n):
 
 def _pedestals(cam, n, sh, w1, w2, colA="#3E7CB1", colB="#5ED3B5"):
     set_stage(bottom="#F0D2A8")
-    ta = pedestal("pedA", (-0.35, 0.3, 0), 0.6); tb = pedestal("pedB", (0.55, 0.3, 0), 0.6, col="#FFE3B8")
+    ta = pedestal("pedA", (-0.20, 0.3, 0), 0.75); tb = pedestal("pedB", (0.48, 0.3, 0), 0.75, col="#FFE3B8")
     a = game_box("boxA", ta + Vector((0, 0, 0)), colA); b = game_box("boxB", tb + Vector((0, 0, 0)), colB)
     fa, fb = W_(sh, w1, 0.5), W_(sh, w2, 2.0)
     key_obj(a, 0, scale=0.0); key_obj(a, max(1, fa - 4), scale=0.0); key_obj(a, fa + 4, scale=2.6); key_obj(a, fa + 8, scale=2.3, rot=(0, 0, 0))
     key_obj(a, n, rot=(0, 0, math.radians(25)))
     key_obj(b, 0, scale=0.0); key_obj(b, max(1, fb - 4), scale=0.0); key_obj(b, fb + 4, scale=2.6); key_obj(b, fb + 8, scale=2.3, rot=(0, 0, 0))
     key_obj(b, n, rot=(0, 0, math.radians(-25)))
-    h, ct = person(PCG, (-1.05, -0.15, 0), 25, "man")
-    ct["handR"].location = (-1.25, -0.35, 0.92)
-    key_obj(ct["handL"], 0, loc=(-0.85, -0.35, 0.92)); key_obj(ct["handL"], max(2, fb), loc=(-0.60, -0.25, 1.25))
-    key_obj(ct["look"], 0, loc=(-0.35, 0.3, 1.0)); key_obj(ct["look"], max(2, fb), loc=(0.55, 0.3, 1.0))
+    h, ct = person(PCG, (-0.82, -0.15, 0), 25, "man")
+    ct["handR"].location = (-1.02, -0.35, 0.92)
+    key_obj(ct["handL"], 0, loc=(-0.62, -0.35, 0.92)); key_obj(ct["handL"], max(2, fb), loc=(-0.40, -0.25, 1.25))
+    key_obj(ct["look"], 0, loc=(-0.20, 0.3, 1.1)); key_obj(ct["look"], max(2, fb), loc=(0.48, 0.3, 1.1))
     Hm.face(h["keys"], 0, brows_up=0.3); Hm.face(h["keys"], max(2, fb), frown=0.4, brows_inner=0.5)
     P.lights((0, 0.0, 1.0), key=1000, rim=900, scale=1.2)
-    cam_move(cam, n, ((-0.25, -2.15, 1.15), (-0.2, 0.1, 0.95), 30), ((-0.25, -2.0, 1.16), (-0.2, 0.1, 0.96), 31), fstop=8)
+    cam_move(cam, n, ((-0.17, -2.05, 1.20), (-0.17, 0.1, 1.05), 32), ((-0.17, -1.92, 1.21), (-0.17, 0.1, 1.06), 33), fstop=8)
 
 
 def pedestals_a(sh, cam, n):
@@ -206,13 +208,18 @@ def boss(sh, cam, n):
 
 def report_2027(sh, cam, n):
     h, ct = at_desk(n, screen_col="#5ED3B5", strength=1.6)
-    C.rbox("calendar", (0.5, 0.02, 0.6), (-1.15, 0.45, 1.45), mat=C.pbr("cal", "#FFF4E0", 0.6), bevel=0.01)
-    C.rbox("calband", (0.5, 0.025, 0.14), (-1.15, 0.44, 1.68), mat=C.pbr("calband", "#FF6B5B", 0.5), bevel=0.005)
+    C.rbox("calendar", (0.5, 0.02, 0.6), (-1.02, 0.35, 1.45), mat=C.pbr("cal", "#FFF4E0", 0.6), bevel=0.01)
+    C.rbox("calband", (0.5, 0.025, 0.14), (-1.02, 0.365, 1.68), mat=C.pbr("calband", "#FF6B5B", 0.5), bevel=0.005)
+    for r in range(3):
+        for c in range(4):
+            q = C.pbr("calq", "#C9B8A0", 0.6) if (r, c) != (2, 3) else C.pbr("calhit", "#FF6B5B", 0.5, emit="#FF6B5B", estr=0.6)
+            C.rbox("calday", (0.09, 0.03, 0.09), (-1.185 + c * 0.11, 0.37, 1.53 - r * 0.12), mat=q, bevel=0.004)
     fo = W_(sh, "official", 3.0)
-    key_obj(ct["look"], 0, loc=(-1.15, 0.45, 1.45)); key_obj(ct["look"], max(2, fo), loc=(CAMP[0], CAMP[1], 1.55))
-    key_obj(ct["handL"], 0, loc=(-0.78, -0.40, 0.98)); key_obj(ct["handL"], 10, loc=(-1.0, 0.05, 1.40)); key_obj(ct["handL"], max(12, fo), loc=(-0.78, -0.40, 0.98))
+    ct["handR"].location = (-0.36, -0.40, 0.86)
+    key_obj(ct["look"], 0, loc=(-1.02, 0.35, 1.45)); key_obj(ct["look"], max(2, fo), loc=(CAMP[0], CAMP[1], 1.55))
+    key_obj(ct["handL"], 0, loc=(-0.78, -0.40, 0.98)); key_obj(ct["handL"], 10, loc=(-0.92, -0.02, 1.40)); key_obj(ct["handL"], max(12, fo), loc=(-0.78, -0.40, 0.98))
     Hm.face(h["keys"], 0, brows_up=0.5, smile=0.3); Hm.face(h["keys"], max(2, fo), frown=0.4, brows_inner=0.5, smile=0.0)
-    cam_move(cam, n, ((0.30, 1.25, 1.55), (-0.80, -0.20, 1.40), 30), ((0.26, 1.15, 1.55), (-0.80, -0.20, 1.41), 32), fstop=5.6)
+    cam_move(cam, n, ((0.10, 1.05, 1.55), (-0.80, -0.05, 1.38), 32), ((0.06, 0.96, 1.55), (-0.80, -0.05, 1.39), 34), fstop=5.6)
 
 
 def loop_q(sh, cam, n):
@@ -221,7 +228,7 @@ def loop_q(sh, cam, n):
     key_obj(ct["look"], 0, loc=MON); key_obj(ct["look"], int(n * 0.4), loc=(CAMP[0], CAMP[1], 1.55))
     Hm.face(h["keys"], 0, frown=0.3, brows_inner=0.4); Hm.face(h["keys"], int(n * 0.5), browL_up=0.9, smile=0.25, squint=0.2)
     life(h, n, 6)
-    cam_move(cam, n, ((0.56, 1.05, 1.50), CAMT, 45), (CAMP, CAMT, 42), focus=(-0.55, -0.45, 1.5), fstop=4.5)
+    cam_move(cam, n, ((0.10, 0.80, 1.55), CAMT, 48), (CAMP, CAMT, 44), focus=(-0.55, -0.45, 1.5), fstop=4.5)
 
 
 SHOTS = {f.__name__: f for f in (hook_pc, console_win, pc_nothing, shrug_pc, pedestals_a, pedestals_b, boss, report_2027, loop_q)}
