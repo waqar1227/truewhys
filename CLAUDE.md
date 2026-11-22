@@ -88,8 +88,11 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
   not need the many, but I need the high quality": highest quality, highest engagement, **first 3 seconds the most engaging part**, re-check the
   characters (arms, left/right turns) and the QA gate. Week shape (from research 22 Nov, audience US/UK/PH/CA/AU, docs/posting_times.md):
   long **Sun 17:00 UTC**; Shorts **Tue, Thu, Fri, Sat 18:00 UTC**; Mon + Wed free; ≥ 23 h between any two posts. Always keep **1 month (30 days)
-  scheduled ahead**; when it is, stop production; resume when it drops below. **Never change a video that is already scheduled** (the A-016 move
-  to 6 Dec on 22 Nov was the last change); fit new videos around the scheduled ones.
+  scheduled ahead**; when it is, stop production; resume when it drops below. **Never change a video that is already scheduled**, with ONE
+  exception (owner 22 Nov): **trend swap** — when a topic is going viral (a competitor's video exploding, a big news/game/sport moment), make our own
+  original Short on it and publish it the SAME day (publishAt ≥ 1 h after upload); if a video is already scheduled that day, move that one to the
+  next free slot at the end of the schedule (tools/yt_reschedule.py). Still max one post per day and strictly 4 Shorts + 1 long per week;
+  a week with no long video may have 5 Shorts.
 
 ## Uploading and scheduling (owner's standing permission; no owner preview needed)
 - As soon as a video passes QA, upload it with `python lib/youtube.py upload <mp4> <upload_meta.json> <thumb>` (title, description, tags
