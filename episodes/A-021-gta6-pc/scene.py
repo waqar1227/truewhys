@@ -128,6 +128,8 @@ def console_win(sh, cam, n):
     set_stage(bottom="#F2D2A0", flip=True)
     tv_stand((0.0, 0.6, 0), col="#FFB15B", strength=3.5)
     h, ct = person(CON, (0.0, -0.55, 0), 180, "man")                   # faces the TV (+Y): right hand on +X
+    for sd, sx in (("R", 1), ("L", -1)):                              # poles behind the elbows (controls() assumes a person facing -Y)
+        ct["pole" + sd].location = (sx * 0.45, -0.85, 1.05)
     pad = controller(); pad.rotation_euler = (math.radians(70), 0, 0)
     Hm.grip(h, "R", 0.55, 0.35); Hm.grip(h, "L", 0.55, 0.35)
     fu = W_(sh, "playstation", 2.0)
@@ -137,7 +139,7 @@ def console_win(sh, cam, n):
     key_obj(ct["look"], 0, loc=(0, 0.6, 1.0)); key_obj(ct["look"], fu + 8, loc=(0, 0.6, 1.4))
     Hm.face(h["keys"], 0, smile=0.4, brows_up=0.3); Hm.face(h["keys"], fu + 8, smile=0.9, wide=0.3, brows_up=0.6)
     P.lights((0, 0.0, 1.0), key=700, rim=1000)
-    cam_move(cam, n, ((1.05, 0.80, 1.40), (0.0, -0.50, 1.28), 34), ((0.98, 0.72, 1.41), (0.0, -0.50, 1.30), 36), fstop=5.6)
+    cam_move(cam, n, ((0.95, 0.70, 1.45), (0.0, -0.50, 1.38), 38), ((0.90, 0.64, 1.46), (0.0, -0.50, 1.40), 40), fstop=5.6)
 
 
 def pc_nothing(sh, cam, n):
@@ -146,10 +148,10 @@ def pc_nothing(sh, cam, n):
     key_obj(ct["look"], 0, loc=MON)
     fn = W_(sh, "nothing", 1.0)
     Hm.face(h["keys"], 0, brows_up=0.4, wide=0.3); Hm.face(h["keys"], fn + 4, frown=0.7, brows_inner=0.35, squint=0.2)
-    key_obj(ct["handR"], 0, loc=(-0.33, -0.22, DESK_H + 0.07)); key_obj(ct["handR"], fn + 6, loc=(-0.36, -0.40, 0.86))
-    key_obj(ct["handL"], 0, loc=(-0.78, -0.40, 0.98)); key_obj(ct["handL"], fn + 6, loc=(-0.76, -0.42, 0.86))
+    key_obj(ct["handR"], 0, loc=(-0.36, -0.40, 0.86)); key_obj(ct["handR"], fn + 6, loc=(-0.36, -0.42, 0.84))
+    key_obj(ct["handL"], 0, loc=(-0.76, -0.42, 0.86)); key_obj(ct["handL"], fn + 6, loc=(-0.80, -0.36, 0.95))
     tg = (-0.55, -0.45, 1.42)                          # medium shot (chest up), never a face close-up (collar/hair edges show)
-    cam_move(cam, n, ((0.05, 0.75, 1.55), tg, 50), ((0.02, 0.68, 1.55), tg, 54), focus=(-0.55, -0.40, 1.55), fstop=4.0)
+    cam_move(cam, n, ((0.10, 0.85, 1.55), tg, 42), ((0.08, 0.79, 1.55), tg, 45), focus=(-0.55, -0.40, 1.55), fstop=4.0)
 
 
 def shrug_pc(sh, cam, n):
