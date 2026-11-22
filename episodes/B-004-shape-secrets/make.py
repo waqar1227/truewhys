@@ -12,7 +12,7 @@ from cast2_flat import char2
 from flat_fx import qmark, no_sign, sparkles, arrow, burst, ring_wave
 from flat_shapes import *
 
-V = Video(EP, title=None, cap_y=0.885, cap_size=74, badge=0, music="mystery",
+V = Video(EP, title=None, cap_y=0.885, cap_size=74, badge=0, music="mystery", captions=False,
           keys={"ridges", "treason", "hanged", "newton", "chaloner", "silver", "round", "width", "fall", "reuleaux", "circle", "eight", "sides",
                 "yellow", "red", "1954", "1923", "flat", "square", "won", "1871", "knight", "twenty-one", "21", "24", "gillette", "razor",
                 "holes", "steam", "docking", "puffs", "optional", "manufacturing", "accident", "1696", "1699", "clang", "trap", "bump"})

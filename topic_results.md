@@ -42,3 +42,7 @@ Compare at 48 h and 7 d: views, stayed %, avg % viewed, rel. retention 10 %, sub
 Scheduled 20 Nov: A-018 Why Is This English Wall So Wiggly? jN10Y403ZOA (standalone, 9 Science/engineering, R, Why …, Fri 27 Nov 16:00 UTC; teaser for L4 shapes series).
 Scheduled 21 Nov: A-020 Why We Waited 13 Years for GTA 6 jIFcT7oUqlw (standalone, gaming/trend test, F-v2.1, Why …, 21 Nov 16:00 UTC, owner request). A-010 (A/B A1) moved to 3 Dec 16:00 UTC by the owner.
 Scheduled 22 Nov: A-021 Why Can't You Play GTA 6 on PC Yet? sx0H9Hm0KxA (standalone, gaming/trend, Style R, Why …, 22 Nov 16:00 UTC, owner request). A-016 onions moved to 6 Dec 16:00 UTC (last allowed change).
+
+## Captions test (owner 22 Nov: auto-dubbing in 21 languages; on-screen English text)
+Long videos from L4: no burned-in word captions (SRT uploaded instead). Shorts: alternate ON / OFF for 4 weeks, then compare
+stayed %, avg % viewed and views from non-English countries (yt_stats country table). Planned: C1 coins ON (1 Dec) · C2 stop signs OFF (4 Dec) · A-019 ON (5 Dec) · then alternate.

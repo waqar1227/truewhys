@@ -577,12 +577,14 @@ class Ctx:
 
 
 class Video:
-    def __init__(s, ep, title=None, keys=(), gap=0.22, lead=0.12, music="curious", cap_y=0.40, title_out=None, end_dur=2.6, sid=None, endcard=False, badge=0.7, cap_size=118):
+    def __init__(s, ep, title=None, keys=(), gap=0.22, lead=0.12, music="curious", cap_y=0.40, title_out=None, end_dur=2.6, sid=None, endcard=False, badge=0.7, cap_size=118, captions=None):
         s.ep = Path(ep)
         # owner D2 (15 Nov 2026): no full-screen end card on new Shorts; story to the last frame + small Wy check badge (<= 0.7 s)
         s.endcard, s.badge, s.cap_size = endcard, badge, cap_size
         s.T = {t["id"]: t for t in json.loads((s.ep / "timing.json").read_text())}
         s.title, s.keys, s.gap, s.lead, s.music0, s.cap_y = title, {k.lower() for k in keys}, gap, lead, music, cap_y
+        # burned-in word captions: off for long videos from 22 Nov (auto-dubbing in 21 languages; captions go up as an SRT instead)
+        s.captions = (os.environ.get("TW_CAPTIONS", "1") != "0") if captions is None else captions
         s.title_out, s.end_dur = title_out, end_dur
         s.sid = sid or s.ep.name[:5]
         s.decl, s.shots, s.pause = [], [], {}
@@ -727,7 +729,7 @@ class Video:
             c.set_source_rgba(1, 1, 1, 0.42 * (1 - lt / 0.14)); c.paint()
         if sh["kind"] != "end":
             vignette(g)
-            if sh["cap"]:
+            if sh["cap"] and s.captions:
                 s.words()
                 draw_caption(g, s._chunks, gt, s.keys, (sh["cap_y"] or s.cap_y) * H, s.cap_size)
             if s.title:
