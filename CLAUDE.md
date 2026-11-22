@@ -24,6 +24,9 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
   and re-check the register; if YouTube itself labels a video, leave its label. Never mention AI in public text. TikTok (when resumed): same decision for `isAigc`.
 
 ## Rule number 1: professional quality first
+- **Owner 22 Nov (final word):** "I did not want many more, but I want quality videos." Learn from our analytics before every video
+  (research/why_not_viral.md, research/stats, topic_results.md): better topic, hook, title, description, thumbnail, tags each time; full effort,
+  no filler, nothing average gets uploaded.
 - Quality beats length and posting frequency, always. Never lower quality for a length or date: make it shorter or take longer.
 - Long videos start at 5–8 min, growing to 8–12 min as the asset library grows. Daily posting is not required; public text never promises a schedule.
 - Every video passes the animatic check and the professional QA gate (skill §2b, §9, `qa.md` all ticked) before upload. Amateur → fix or cut.
