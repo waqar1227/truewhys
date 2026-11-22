@@ -99,3 +99,4 @@
 - 22 Nov ~04:4x UTC: a021 v2 pushed (QA fixes; shots pc_nothing, console_win, pedestals_a, pedestals_b, report_2027). Next: v3 hook_pc + loop_q (arms down, tighter camera).
 - 22 Nov 04:4x UTC: a021b v1 COMPLETE (24.6 min wall, 2×T4 ≈ 0.8 GPU h; hook_pc 97 + loop_q 151 frames) → renders.
 - 22 Nov 05:48 UTC: a021 v2 COMPLETE (80.3 min wall, 2×T4 ≈ 2.7 GPU h, 5 shots). 05:51 UTC a021b v2 pushed (console_win elbow poles + pc_nothing arms down, wider).
+- 22 Nov 06:44 UTC: a021b v2 COMPLETE (29.2 min wall, 2×T4 ≈ 1.0 GPU h; console_win + pc_nothing). A-021 total ≈ 8.2 GPU h (v1 3.65 + v2 2.7 + b1 0.8 + b2 1.0). QA PASS → uploaded sx0H9Hm0KxA.

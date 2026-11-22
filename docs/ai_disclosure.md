@@ -42,6 +42,7 @@ Unsure → **Yes** (disclosing never hurts reach or money; a missing disclosure 
 | S8zIxiPXHpE | A-017-cloudy-ice | Why Ice Cubes Are Cloudy | R | **No** |
 | jN10Y403ZOA | A-018-wavy-walls | Why Is This English Wall So Wiggly? | R | **No** |
 | jIFcT7oUqlw | A-020-gta6-wait | Why We Waited 13 Years for GTA 6 | F | **No** |
+| sx0H9Hm0KxA | A-021-gta6-pc | Why Can't You Play GTA 6 on PC Yet? | R | **No** |
 | 9C-9O0c6VqM | B-001-animal-trials | Why Medieval Courts Put Animals on Trial | T | **No** |
 | 5YqYpWmY7EA | B-001-animal-trials/C0 | Why a Pig Was Executed in a Man's Clothes | T | **No** |
 | 33UzHb61eKc | B-001-animal-trials/C1 | Why a French Town Put a Pig on Trial | T | **No** |

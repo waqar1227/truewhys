@@ -177,7 +177,7 @@
  },
  "sdoOC7kAuRU": {
   "episode": "A-004-tickle",
-  "title": "Why You Can't Tickle Yourself 🪶",
+  "title": "Why You Can't Tickle Yourself \ud83e\udeb6",
   "style": "T: 3D toon cartoon (Blender)",
   "synthetic": false,
   "reason": "Not realistic: animated/stylised CG; generic TTS narrator imitating no real person; code-made music; no AI images/footage, no voice clone, no real-footage edits.",
@@ -358,5 +358,13 @@
   "synthetic": false,
   "reason": "Not realistic: flat 2D cartoon; generic TTS narrator imitating no real person; code-made music; no AI images/footage, no voice clone, no real-footage edits.",
   "decided": "2026-11-21"
+ },
+ "sx0H9Hm0KxA": {
+  "episode": "A-021-gta6-pc",
+  "title": "Why Can't You Play GTA 6 on PC Yet?",
+  "style": "R: stylised 3D CG (MPFB, studio)",
+  "synthetic": false,
+  "reason": "Not realistic: stylised CG people on a plain studio backdrop; generic TTS narrator imitating no real person; code-made music; no real person, place or event depicted realistically.",
+  "decided": "2026-11-22"
  }
 }
