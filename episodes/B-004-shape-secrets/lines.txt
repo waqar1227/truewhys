@@ -3,8 +3,8 @@
 # Structure: cold open story → six "why is it shaped like that?" mysteries (each starts with its picture and question, never "number one") → payoff.
 # Chapters = Gemini requests (9): 0 cold open, 1 coins, 2 manholes, 3 stop signs, 4 paper bags, 5 bottle caps, 8 plug prongs (added for length, before crackers), 6 crackers, 7 ending.
 # Clip candidates (cut Shorts, rewritten for vertical): C1 coins (ch1), C2 stop sign yellow (ch3), C3 bottle cap 21 teeth (ch5), C4 manhole (ch2).
-O01|0|London, 1696. A man sits by a candle with a pair of scissors... and snips the edge off a silver coin.
-O02|0|Just a sliver. Then the next coin. And the next.
+O01|0|London, 1696. This man could be hanged for what he's doing with these scissors.
+O02|0|He snips the edge off a silver coin. Just a sliver. Then the next coin. And the next.
 O03|0|He melts the silver slivers into a lump, and spends the shaved coins as if nothing happened.
 O04|0|All over England, people are doing this. And the man sent to stop them... is Isaac Newton.
 O05|0|His answer is still in your pocket today. So is the answer to stop signs, manholes, bottle caps and crackers.

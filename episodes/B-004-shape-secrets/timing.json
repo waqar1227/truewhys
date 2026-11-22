@@ -2,278 +2,283 @@
  {
   "id": "O01",
   "chapter": 0,
-  "text": "London, 1696. A man sits by a candle with a pair of scissors... and snips the edge off a silver coin.",
-  "dur": 8.86,
+  "text": "London, 1696. This man could be hanged for what he's doing with these scissors.",
+  "dur": 5.58,
   "words": [
    {
     "w": "London,",
     "s": 0.0,
-    "e": 0.78
+    "e": 0.66
    },
    {
     "w": "1696.",
     "s": 0.98,
-    "e": 2.32
+    "e": 2.04
    },
    {
-    "w": "A",
-    "s": 3.26,
-    "e": 3.26
+    "w": "This",
+    "s": 2.78,
+    "e": 2.84
    },
    {
     "w": "man",
-    "s": 3.26,
-    "e": 3.46
+    "s": 2.84,
+    "e": 3.08
    },
    {
-    "w": "sits",
-    "s": 3.46,
-    "e": 3.72
+    "w": "could",
+    "s": 3.08,
+    "e": 3.28
    },
    {
-    "w": "by",
-    "s": 3.72,
-    "e": 4.02
+    "w": "be",
+    "s": 3.28,
+    "e": 3.5
    },
    {
-    "w": "a",
-    "s": 4.02,
-    "e": 4.16
+    "w": "hanged",
+    "s": 3.5,
+    "e": 3.86
    },
    {
-    "w": "candle",
-    "s": 4.16,
-    "e": 4.48
+    "w": "for",
+    "s": 3.86,
+    "e": 4.14
+   },
+   {
+    "w": "what",
+    "s": 4.14,
+    "e": 4.28
+   },
+   {
+    "w": "he's",
+    "s": 4.28,
+    "e": 4.44
+   },
+   {
+    "w": "doing",
+    "s": 4.44,
+    "e": 4.62
    },
    {
     "w": "with",
-    "s": 4.48,
-    "e": 4.7
+    "s": 4.62,
+    "e": 4.84
    },
    {
-    "w": "a",
-    "s": 4.7,
-    "e": 4.8
+    "w": "these",
+    "s": 4.84,
+    "e": 5.02
    },
    {
-    "w": "pair",
-    "s": 4.8,
-    "e": 4.98
-   },
-   {
-    "w": "of",
-    "s": 4.98,
-    "e": 5.14
-   },
-   {
-    "w": "scissors...",
-    "s": 5.14,
-    "e": 6.38
-   },
-   {
-    "w": "and",
-    "s": 6.38,
-    "e": 6.38
-   },
-   {
-    "w": "snips",
-    "s": 6.38,
-    "e": 6.86
-   },
-   {
-    "w": "the",
-    "s": 6.86,
-    "e": 7.1
-   },
-   {
-    "w": "edge",
-    "s": 7.1,
-    "e": 7.48
-   },
-   {
-    "w": "off",
-    "s": 7.48,
-    "e": 7.86
-   },
-   {
-    "w": "a",
-    "s": 7.86,
-    "e": 8.08
-   },
-   {
-    "w": "silver",
-    "s": 8.08,
-    "e": 8.3
-   },
-   {
-    "w": "coin.",
-    "s": 8.3,
-    "e": 8.66
+    "w": "scissors.",
+    "s": 5.02,
+    "e": 5.28
    }
   ],
-  "heard": "London, 1696. A man sits by a candle with a pair of scissors... and snips the edge off a silver coin.",
+  "heard": "London, 1696. This man could be hanged for what he's doing with these scissors.",
   "match": 1.0
  },
  {
   "id": "O02",
   "chapter": 0,
-  "text": "Just a sliver. Then the next coin. And the next.",
-  "dur": 3.08,
+  "text": "He snips the edge off a silver coin. Just a sliver. Then the next coin. And the next.",
+  "dur": 5.05,
   "words": [
    {
-    "w": "Just",
-    "s": 0.09,
-    "e": 0.19
+    "w": "He",
+    "s": 0.05,
+    "e": 0.17
+   },
+   {
+    "w": "snips",
+    "s": 0.17,
+    "e": 0.45
+   },
+   {
+    "w": "the",
+    "s": 0.45,
+    "e": 0.65
+   },
+   {
+    "w": "edge",
+    "s": 0.65,
+    "e": 0.91
+   },
+   {
+    "w": "off",
+    "s": 0.91,
+    "e": 1.15
    },
    {
     "w": "a",
-    "s": 0.19,
-    "e": 0.37
+    "s": 1.15,
+    "e": 1.33
    },
    {
-    "w": "sliver.",
-    "s": 0.37,
-    "e": 0.57
-   },
-   {
-    "w": "Then",
-    "s": 1.17,
-    "e": 1.27
-   },
-   {
-    "w": "the",
-    "s": 1.27,
-    "e": 1.39
-   },
-   {
-    "w": "next",
-    "s": 1.39,
-    "e": 1.59
+    "w": "silver",
+    "s": 1.33,
+    "e": 1.55
    },
    {
     "w": "coin.",
-    "s": 1.59,
-    "e": 1.81
+    "s": 1.55,
+    "e": 1.87
    },
    {
-    "w": "And",
-    "s": 2.29,
-    "e": 2.43
+    "w": "Just",
+    "s": 2.33,
+    "e": 2.45
+   },
+   {
+    "w": "a",
+    "s": 2.45,
+    "e": 2.61
+   },
+   {
+    "w": "sliver.",
+    "s": 2.61,
+    "e": 2.83
+   },
+   {
+    "w": "Then",
+    "s": 3.27,
+    "e": 3.41
    },
    {
     "w": "the",
-    "s": 2.43,
-    "e": 2.53
+    "s": 3.41,
+    "e": 3.53
+   },
+   {
+    "w": "next",
+    "s": 3.53,
+    "e": 3.69
+   },
+   {
+    "w": "coin.",
+    "s": 3.69,
+    "e": 3.91
+   },
+   {
+    "w": "And",
+    "s": 4.37,
+    "e": 4.49
+   },
+   {
+    "w": "the",
+    "s": 4.49,
+    "e": 4.59
    },
    {
     "w": "next.",
-    "s": 2.53,
-    "e": 2.73
+    "s": 4.59,
+    "e": 4.79
    }
   ],
-  "heard": "Just a sliver. Then the next coin. And the next.",
+  "heard": "He snips the edge off a silver coin, just a sliver, then the next coin, and the next.",
   "match": 1.0
  },
  {
   "id": "O03",
   "chapter": 0,
   "text": "He melts the silver slivers into a lump, and spends the shaved coins as if nothing happened.",
-  "dur": 5.9,
+  "dur": 4.76,
   "words": [
    {
     "w": "He",
     "s": 0.03,
-    "e": 0.37
+    "e": 0.35
    },
    {
     "w": "melts",
-    "s": 0.37,
-    "e": 0.65
+    "s": 0.35,
+    "e": 0.55
    },
    {
     "w": "the",
-    "s": 0.65,
-    "e": 0.95
+    "s": 0.55,
+    "e": 0.83
    },
    {
     "w": "silver",
-    "s": 0.95,
-    "e": 1.21
+    "s": 0.83,
+    "e": 1.03
    },
    {
     "w": "slivers",
-    "s": 1.21,
-    "e": 1.57
+    "s": 1.03,
+    "e": 1.33
    },
    {
     "w": "into",
-    "s": 1.57,
-    "e": 1.87
+    "s": 1.33,
+    "e": 1.61
    },
    {
     "w": "a",
-    "s": 1.87,
-    "e": 2.11
+    "s": 1.61,
+    "e": 1.81
    },
    {
     "w": "lump,",
-    "s": 2.11,
-    "e": 2.33
+    "s": 1.81,
+    "e": 2.01
    },
    {
     "w": "and",
-    "s": 2.73,
-    "e": 2.95
+    "s": 2.01,
+    "e": 2.41
    },
    {
     "w": "spends",
-    "s": 2.95,
-    "e": 3.29
+    "s": 2.41,
+    "e": 2.65
    },
    {
     "w": "the",
-    "s": 3.29,
-    "e": 3.57
+    "s": 2.65,
+    "e": 2.91
    },
    {
     "w": "shaved",
-    "s": 3.57,
-    "e": 3.77
+    "s": 2.91,
+    "e": 3.19
    },
    {
     "w": "coins",
-    "s": 3.77,
-    "e": 4.13
+    "s": 3.19,
+    "e": 3.67
    },
    {
     "w": "as",
-    "s": 4.13,
-    "e": 4.43
+    "s": 3.67,
+    "e": 3.83
    },
    {
     "w": "if",
-    "s": 4.43,
-    "e": 4.61
+    "s": 3.83,
+    "e": 3.97
    },
    {
     "w": "nothing",
-    "s": 4.61,
-    "e": 4.99
+    "s": 3.97,
+    "e": 4.23
    },
    {
     "w": "happened.",
-    "s": 4.99,
-    "e": 5.63
+    "s": 4.23,
+    "e": 4.57
    }
   ],
-  "heard": "He melts the silver slivers into a lump, and spends the shaved coins as if nothing happened.",
+  "heard": "He melts the silver slivers into a lump and spends the shaved coins as if nothing happened.",
   "match": 1.0
  },
  {
   "id": "O04",
   "chapter": 0,
   "text": "All over England, people are doing this. And the man sent to stop them... is Isaac Newton.",
-  "dur": 5.66,
+  "dur": 5.62,
   "words": [
    {
     "w": "All",
@@ -283,92 +288,92 @@
    {
     "w": "over",
     "s": 0.39,
-    "e": 0.67
+    "e": 0.71
    },
    {
     "w": "England,",
-    "s": 0.67,
-    "e": 0.97
+    "s": 0.71,
+    "e": 1.13
    },
    {
     "w": "people",
-    "s": 1.11,
-    "e": 1.23
+    "s": 1.13,
+    "e": 1.43
    },
    {
     "w": "are",
-    "s": 1.23,
-    "e": 1.41
+    "s": 1.43,
+    "e": 1.67
    },
    {
     "w": "doing",
-    "s": 1.41,
-    "e": 1.57
+    "s": 1.67,
+    "e": 1.85
    },
    {
     "w": "this.",
-    "s": 1.57,
-    "e": 1.85
+    "s": 1.85,
+    "e": 2.15
    },
    {
     "w": "And",
     "s": 2.45,
-    "e": 2.63
+    "e": 2.69
    },
    {
     "w": "the",
-    "s": 2.63,
-    "e": 2.73
+    "s": 2.69,
+    "e": 2.79
    },
    {
     "w": "man",
-    "s": 2.73,
-    "e": 2.89
+    "s": 2.79,
+    "e": 2.97
    },
    {
     "w": "sent",
-    "s": 2.89,
-    "e": 3.11
+    "s": 2.97,
+    "e": 3.17
    },
    {
     "w": "to",
-    "s": 3.11,
-    "e": 3.27
+    "s": 3.17,
+    "e": 3.33
    },
    {
     "w": "stop",
-    "s": 3.27,
-    "e": 3.49
+    "s": 3.33,
+    "e": 3.55
    },
    {
     "w": "them...",
-    "s": 3.49,
-    "e": 4.51
+    "s": 3.55,
+    "e": 3.83
    },
    {
     "w": "is",
-    "s": 4.51,
-    "e": 4.63
+    "s": 3.83,
+    "e": 4.55
    },
    {
     "w": "Isaac",
-    "s": 4.63,
-    "e": 5.05
+    "s": 4.55,
+    "e": 4.99
    },
    {
     "w": "Newton.",
-    "s": 5.05,
-    "e": 5.31
+    "s": 4.99,
+    "e": 5.29
    }
   ],
-  "heard": "All over England, people are doing this. And the man sent to stop them... is Isaac Newton.",
+  "heard": "All over England people are doing this, and the man sent to stop them is Isaac Newton.",
   "match": 1.0
  },
  {
   "id": "O05",
   "chapter": 0,
   "text": "His answer is still in your pocket today. So is the answer to stop signs, manholes, bottle caps and crackers.",
-  "dur": 6.16,
+  "dur": 5.76,
   "words": [
    {
     "w": "His",
@@ -378,180 +383,180 @@
    {
     "w": "answer",
     "s": 0.21,
-    "e": 0.41
+    "e": 0.45
    },
    {
     "w": "is",
-    "s": 0.41,
-    "e": 0.61
+    "s": 0.45,
+    "e": 0.63
    },
    {
     "w": "still",
-    "s": 0.61,
-    "e": 0.81
+    "s": 0.63,
+    "e": 0.79
    },
    {
     "w": "in",
-    "s": 0.81,
-    "e": 0.95
+    "s": 0.79,
+    "e": 0.93
    },
    {
     "w": "your",
-    "s": 0.95,
-    "e": 1.05
+    "s": 0.93,
+    "e": 1.03
    },
    {
     "w": "pocket",
-    "s": 1.05,
-    "e": 1.25
+    "s": 1.03,
+    "e": 1.27
    },
    {
     "w": "today.",
-    "s": 1.25,
-    "e": 1.63
+    "s": 1.27,
+    "e": 1.59
    },
    {
     "w": "So",
-    "s": 1.63,
-    "e": 2.43
+    "s": 2.21,
+    "e": 2.37
    },
    {
     "w": "is",
-    "s": 2.43,
-    "e": 2.57
+    "s": 2.37,
+    "e": 2.49
    },
    {
     "w": "the",
-    "s": 2.57,
-    "e": 2.71
+    "s": 2.49,
+    "e": 2.63
    },
    {
     "w": "answer",
-    "s": 2.71,
-    "e": 2.93
+    "s": 2.63,
+    "e": 2.85
    },
    {
     "w": "to",
-    "s": 2.93,
-    "e": 3.11
+    "s": 2.85,
+    "e": 3.05
    },
    {
     "w": "stop",
-    "s": 3.11,
-    "e": 3.37
+    "s": 3.05,
+    "e": 3.33
    },
    {
     "w": "signs,",
-    "s": 3.37,
-    "e": 3.81
+    "s": 3.33,
+    "e": 3.71
    },
    {
     "w": "manholes,",
-    "s": 4.23,
-    "e": 4.59
+    "s": 4.03,
+    "e": 4.37
    },
    {
     "w": "bottle",
-    "s": 4.89,
-    "e": 4.95
+    "s": 4.37,
+    "e": 4.71
    },
    {
     "w": "caps",
-    "s": 4.95,
-    "e": 5.25
+    "s": 4.71,
+    "e": 5.01
    },
    {
     "w": "and",
-    "s": 5.25,
-    "e": 5.51
+    "s": 5.15,
+    "e": 5.15
    },
    {
     "w": "crackers.",
-    "s": 5.51,
-    "e": 5.97
+    "s": 5.15,
+    "e": 5.59
    }
   ],
-  "heard": "His answer is still in your pocket today. So is the answer to stop signs, manholes, bottle caps and crackers.",
+  "heard": "His answer is still in your pocket today. So is the answer to stop signs, manholes, bottle caps, and crackers,",
   "match": 1.0
  },
  {
   "id": "O06",
   "chapter": 0,
   "text": "Because almost every strange shape around you was a fix for problems somebody had.",
-  "dur": 4.34,
+  "dur": 4.27,
   "words": [
    {
     "w": "Because",
-    "s": 0.06,
-    "e": 0.24
+    "s": 0.03,
+    "e": 0.31
    },
    {
     "w": "almost",
-    "s": 0.24,
-    "e": 0.58
+    "s": 0.31,
+    "e": 0.59
    },
    {
     "w": "every",
-    "s": 0.58,
-    "e": 1.0
+    "s": 0.59,
+    "e": 0.97
    },
    {
     "w": "strange",
-    "s": 1.0,
-    "e": 1.36
+    "s": 0.97,
+    "e": 1.37
    },
    {
     "w": "shape",
-    "s": 1.36,
-    "e": 1.68
+    "s": 1.37,
+    "e": 1.67
    },
    {
     "w": "around",
-    "s": 1.68,
-    "e": 1.94
+    "s": 1.67,
+    "e": 1.95
    },
    {
     "w": "you",
-    "s": 1.94,
-    "e": 2.14
+    "s": 1.95,
+    "e": 2.17
    },
    {
     "w": "was",
-    "s": 2.14,
-    "e": 2.32
+    "s": 2.17,
+    "e": 2.53
    },
    {
     "w": "a",
-    "s": 2.32,
-    "e": 2.44
+    "s": 2.53,
+    "e": 2.67
    },
    {
     "w": "fix",
-    "s": 2.44,
-    "e": 2.7
+    "s": 2.67,
+    "e": 2.83
    },
    {
     "w": "for",
-    "s": 2.7,
-    "e": 3.08
+    "s": 2.83,
+    "e": 3.09
    },
    {
     "w": "problems",
-    "s": 3.08,
-    "e": 3.46
+    "s": 3.09,
+    "e": 3.49
    },
    {
     "w": "somebody",
-    "s": 3.46,
-    "e": 3.82
+    "s": 3.49,
+    "e": 3.81
    },
    {
     "w": "had.",
-    "s": 3.82,
-    "e": 4.16
+    "s": 3.81,
+    "e": 4.09
    }
   ],
-  "heard": "Because almost every strange shape around you was a fix for problems somebody had.",
+  "heard": "because almost every strange shape around you was a fix for problems somebody had.",
   "match": 1.0
  },
  {

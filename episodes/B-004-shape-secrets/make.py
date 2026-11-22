@@ -214,19 +214,24 @@ def slivers(g, x, y, n):
 def s_open(g, c):
     """Frame 1: the clipper snipping a silver coin by candlelight, big and close."""
     room1696(g, c.gt)
-    char2(g, "clipper", 720, 1480, 1250, "suspicious" if c.t < c.w("snips") else "smug", "reach_r", "reach_r", t=c.gt)
+    try:
+        tsn = c.w("snips")
+    except Exception:
+        tsn = 1e9                                                     # O01 shots: no snip yet (the hook line)
+    char2(g, "clipper", 720, 1480, 1250, "suspicious" if c.t < tsn else "smug", "reach_r", "reach_r", t=c.gt)
     table(g, 960, 820, 1500)
     candle(g, 1420, 820, 1.25, c.gt)
     coin_pile(g, 560, 800, 8, c.gt)
-    k = seg(c.t, c.w("snips") - 0.1, 0.5)
+    k = seg(c.t, tsn - 0.1, 0.5)
     coin(g, 1050, 640, 120, "silver", ridges=False, clip=ease_out(k), face="head", glint=1.0)
     scissors(g, 1110 + 30 * ease_out(k), 640, 1.15, 1 - ease_out(k), rot=math.pi)
     if k > 0:
         with g.at(1180 + 90 * ease_out(k), 640 + 160 * ease_in(k), 2 * k):
             g.path("M-8 -50 Q6 0 -8 50 L4 50 Q16 0 4 -50 Z", SILVER, INK, lw=4)
-    if c.gt < 2.2:
+    if c.gt < 4.2:                                                   # hook on screen from frame 1 (owner 22 Nov: first 3 s strongest)
         with g.screen():
-            g.text("LONDON · 1696", W / 2, 120, 92, PAL["cream"], sw=18, depth=8, sc=pop(c.t, 0.0, 0.3))
+            g.text("HANGED FOR THIS?", W / 2, 120, 104, "#FF6B5B", sw=20, depth=9, sc=pop(c.gt + 0.25, 0.0, 0.25))
+            g.text("LONDON · 1696", W / 2, 215, 54, PAL["cream"], sw=12, depth=5, sc=pop(c.gt + 0.25, 0.1, 0.25))
 
 
 def s_snipclose(g, c):
@@ -1180,10 +1185,11 @@ def P(lid, fn, part=(0, 1), **kw):
 Z = lambda z0, z1, f: push(z0, z1, f)
 
 # cold open
-P("O01", s_open, (0, "with"), cam=Z(1.0, 1.06, (1000, 600)), tr="cut", music="mystery", sfx=[(0.3, "tick", 0.25)])
-P("O01", s_open, ("with", "snips"), cam=Z(1.6, 1.7, (1080, 620)))
-P("O01", s_snipclose, ("snips", 1), cam=Z(1.04, 1.0, (960, 600)), sfx=[("snips", "click", 0.5)])
-P("O02", s_snipclose, cam=Z(1.0, 1.08, (960, 600)), sfx=[(0.1, "click", 0.4), (0.5, "click", 0.4), (0.8, "click", 0.4)])
+P("O01", s_open, (0, "hanged"), cam=Z(1.12, 1.18, (1000, 470)), tr="cut", music="mystery", sfx=[(0.0, "thud", 0.35)])
+P("O01", s_open, ("hanged", "scissors"), cam=Z(1.55, 1.65, (960, 520)), sfx=[("hanged", "gavel", 0.3)])
+P("O01", s_open, ("scissors", 1), cam=Z(2.2, 2.3, (1090, 640)))
+P("O02", s_open, (0, "Just"), cam=Z(1.6, 1.5, (1060, 630)), sfx=[("snips", "click", 0.5)])
+P("O02", s_snipclose, ("Just", 1), cam=Z(1.0, 1.08, (960, 600)), sfx=[(0.1, "click", 0.4), (0.5, "click", 0.4), (0.8, "click", 0.4)])
 P("O03", s_melt, (0, "spends"), cam=Z(1.0, 1.05, (900, 500)), sfx=[(0.3, "melt", 0.4)])
 P("O03", s_spend, ("spends", 1), cam=Z(1.0, 1.04, (1000, 560)), sfx=[(0.2, "coin_single", 0.4)])
 P("O04", s_england, (0, "And"), cam=Z(1.0, 1.05, (900, 520)), sfx=[(0.3, "pop", 0.35)])

@@ -109,6 +109,9 @@ def main(ep, chapters):
         a, sr = sf.read(cw, dtype="float32")
         segs, _ = wm.transcribe(str(cw), word_timestamps=True, language="en", initial_prompt=" ".join(l["text"] for l in L))
         ww = [dict(w=w.word.strip(), s=w.start, e=w.end) for s in segs for w in (s.words or [])]
+        if len(ww) < 0.6 * sum(len(l["text"].split()) for l in L):      # whisper sometimes derails on the prompt: retry plain
+            segs, _ = wm.transcribe(str(cw), word_timestamps=True, language="en")
+            ww = [dict(w=w.word.strip(), s=w.start, e=w.end) for s in segs for w in (s.words or [])]
         # align all caption words of the chapter to whisper words
         cap_words, owner = [], []
         for i, l in enumerate(L):

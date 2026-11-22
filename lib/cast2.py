@@ -8,6 +8,7 @@ Not Rick's Clips (white round heads, stick limbs) and not Ink Explainer (messy-h
 Units: feet at y=0, head top at about y=-600. figure_svg() returns an SVG group; png() renders it.
 python lib/cast2.py <out.png>  -> model sheet: 6 cast + Wy, full body + expression row
 """
+import math
 import io, sys
 import cairosvg
 from PIL import Image
@@ -82,7 +83,8 @@ EXPR = {
 }
 
 
-def _head(s, e):
+def _head(s, e, view="front"):
+    """view "3q": three-quarter turn towards screen right (features shift right, far eye narrower, near ear hidden)."""
     """Head centred at (0,-505): slightly tall rounded box with a jaw; ~190 units tall incl. hair."""
     skin = s["skin"]; jaw = s.get("jaw", 0.2); fem = s.get("female")
     face = s.get("face", "round")
@@ -106,15 +108,18 @@ def _head(s, e):
     jx = w - 10 * jaw
     p.append(f'<path d="M-{w} -520 Q-{w} -588 0 -590 Q{w} -588 {w} -520 L{w} -480 Q{jx} -430 0 -424 Q-{jx} -430 -{w} -480 Z" fill="{skin}"/>')
     # ear
-    for sd in (-1, 1):
+    for sd in ((-1,) if view == "3q" else (-1, 1)):
         p.append(f'<path d="M{sd*(w-4)} -514 Q{sd*(w+18)} -514 {sd*(w+14)} -490 Q{sd*(w+8)} -478 {sd*(w-2)} -482" fill="{skin}"/>'
                  f'<path d="M{sd*(w+2)} -506 Q{sd*(w+10)} -500 {sd*(w+4)} -490" fill="none" stroke-width="4"/>')
     if s.get("stubble"):
         p.append(f'<path d="M-{w-4} -486 Q-{jx-6} -434 0 -430 Q{jx-6} -434 {w-4} -486 Q30 -458 0 -462 Q-30 -458 -{w-4} -486 Z" fill="{shade(skin, 0.8)}" stroke="none"/>')
+    fi = len(p)
     # eyes (small, with lids)
     lid = e.get("lid", 0.45); lx, ly = e.get("look", (0, 0)); pr = 6.5 * e.get("pupil", 1.0)
     for i, cx in enumerate((-26, 26)):
         cy, rx, ry = -515, 13, 11
+        if view == "3q" and i == 1:              # the eye on the turning side foreshortens
+            rx = 10.0
         p.append(f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="#FFFFFF" stroke-width="5"/>')
         ix, iy = cx + 4*lx, cy + 1 + 2*ly
         p.append(f'<circle cx="{ix}" cy="{iy}" r="{pr}" fill="{s.get("iris", "#5B3A29")}" stroke="none"/>'
@@ -138,7 +143,9 @@ def _head(s, e):
     # beard / moustache
     if s.get("beard"):
         b = s["beard"]
-        p.append(f'<path d="M-{w} -486 Q-{jx} -412 0 -404 Q{jx} -412 {w} -486 Q40 -468 22 -470 Q0 -462 -22 -470 Q-40 -468 -{w} -486 Z" fill="{b}"/>')
+        beard_svg = f'<path d="M-{w} -486 Q-{jx} -412 0 -404 Q{jx} -412 {w} -486 Q40 -468 22 -470 Q0 -462 -22 -470 Q-40 -468 -{w} -486 Z" fill="{b}"/>'
+        if view != "3q":
+            p.append(beard_svg)
     if s.get("moustache"):
         p.append(f'<path d="M-26 -470 Q-12 -480 0 -472 Q12 -480 26 -470 Q12 -464 0 -468 Q-12 -464 -26 -470 Z" fill="{s["moustache"]}"/>')
     # mouth
@@ -153,6 +160,9 @@ def _head(s, e):
         p.append(f'<path d="{M[m]}" fill="none" stroke-width="6"/>')
         if not (s.get("beard") or s.get("moustache")):
             p.append(f'<path d="M-9 -451 Q0 -446 9 -451" fill="none" stroke="{shade(skin, 0.78)}" stroke-width="5"/>')
+    if view == "3q":
+        bs = [beard_svg] if s.get("beard") else []
+        p[fi:] = bs + [f'<g transform="translate(12,0)">' + "".join(p[fi:]) + '</g>']
     # front hair / hats
     h = s["hair"]
     if h == "curl":   # Wy: short brown hair + the question-mark curl
@@ -214,8 +224,8 @@ def _head(s, e):
 HEAD_K = 0.8  # v2.1: head scaled about the neck so it is ~1/4 of body height (owner: "closer to human")
 
 
-def _head_scaled(s, e):
-    return f'<g transform="translate(0,-404) scale({HEAD_K}) translate(0,404)">{_head(s, e)}</g>'
+def _head_scaled(s, e, view="front"):
+    return f'<g transform="translate(0,-404) scale({HEAD_K}) translate(0,404)">{_head(s, e, view)}</g>'
 
 
 def _body(s):
@@ -253,38 +263,69 @@ def _body(s):
     return "".join(p)
 
 
+# arm poses (v2.2): elbow + hand offsets from the shoulder for the SCREEN-RIGHT arm (side +1); mirrored for side -1.
+# Poses can be blended: pose = (name_a, name_b, u) gives a smooth in-between (char2/pose_at use this for gradual moves).
+ARM = {
+    "down":    ((14, 86), (20, 172)),
+    "hold":    ((22, 92), (-12, 112)),
+    "hip":     ((60, 84), (12, 146)),
+    "point":   ((72, 22), (150, 2)),
+    "up":      ((56, -60), (66, -176)),
+    "wave":    ((70, 20), (78, -110)),
+    "shrug":   ((64, 70), (118, 30)),
+    "explain": ((40, 88), (104, 88)),
+    "count":   ((44, 90), (36, -6)),
+    "think":   ((40, 100), (-70, -26)),
+    "reach_r": ((80, 34), (170, 39)),
+    "reach_l": ((-80, 34), (-170, 39)),
+}
+PALM = {"wave", "shrug", "explain", "up"}          # open hand facing out
+
+
+def _arm_pts(side, pose):
+    if isinstance(pose, (tuple, list)):
+        (ea, ha), (eb, hb) = ARM[pose[0]], ARM[pose[1]]
+        u = pose[2]; u = u * u * (3 - 2 * u)
+        e = (ea[0] + (eb[0] - ea[0]) * u, ea[1] + (eb[1] - ea[1]) * u); h = (ha[0] + (hb[0] - ha[0]) * u, ha[1] + (hb[1] - ha[1]) * u)
+        name = pose[1] if u > 0.5 else pose[0]
+    else:
+        if pose == "reach_l" and side > 0:        # far arm crosses the body (same targets as v2.1)
+            e, h = (-46, 124), (-232, 54)
+        elif pose == "reach_r" and side < 0:
+            e, h = (46, 124), (232, 54)
+        else:
+            e, h = ARM.get(pose, ARM["down"])
+        name = pose
+    if pose in ("reach_l", "reach_r") or (isinstance(pose, (tuple, list)) and set(pose[:2]) & {"reach_l", "reach_r"}):
+        return (e[0], e[1]), (h[0], h[1]), name          # these are screen-space, not mirrored
+    return (side * e[0], e[1]), (side * h[0], h[1]), name
+
+
 def _arm(s, side, pose):
-    """side -1 = screen left. Two-segment arm (shoulder -> elbow -> hand). pose: down | hold | point | reach_r | reach_l | up | hip."""
+    """side -1 = screen left. Smooth bent sleeve (shoulder -> elbow -> wrist) + a hand turned along the forearm."""
     sx = side * (74 if s.get("female") else 82)
     sleeve, skin = s["top"], s["skin"]
     sy = -384
-    if pose == "down":
-        ex, ey, hx, hy = sx + side * 16, -300, sx + side * 20, -212
-    elif pose == "hold":
-        ex, ey, hx, hy = sx + side * 20, -292, sx - side * 10, -270
-    elif pose == "reach_r":   # both hands to screen right at chest height (grabbing / pushing something beside them)
-        ex, ey, hx, hy = (sx + 80, -350, sx + 170, -345) if side > 0 else (-20, -300, 150, -330)
-    elif pose == "reach_l":
-        ex, ey, hx, hy = (sx - 80, -350, sx - 170, -345) if side < 0 else (20, -300, -150, -330)
-    elif pose == "up":        # hands up (shock, surrender)
-        ex, ey, hx, hy = sx + side * 60, -440, sx + side * 70, -560
-    elif pose == "hip":
-        ex, ey, hx, hy = sx + side * 62, -300, sx + side * 18, -236
-    else:  # point
-        ex, ey, hx, hy = sx + side * 70, -360, sx + side * 140, -380
-    def seg(x0, y0, x1, y1, w0, w1):
-        import math
-        dx, dy = x1 - x0, y1 - y0; L = math.hypot(dx, dy) or 1; nx, ny = -dy / L, dx / L
-        return (f'M{x0+nx*w0:.1f} {y0+ny*w0:.1f} L{x1+nx*w1:.1f} {y1+ny*w1:.1f} L{x1-nx*w1:.1f} {y1-ny*w1:.1f} '
-                f'L{x0-nx*w0:.1f} {y0-ny*w0:.1f} Z')
-    p = [f'<path d="{seg(sx, sy, ex, ey, 22, 19)}" fill="{sleeve}"/>',
-         f'<circle cx="{ex}" cy="{ey}" r="19" fill="{sleeve}" stroke="none"/>',
-         f'<path d="{seg(ex, ey, hx, hy, 19, 16)}" fill="{sleeve}"/>',
-         f'<path d="M{ex-17} {ey} A17 17 0 0 0 {ex+17} {ey}" fill="none" stroke="{sleeve}" stroke-width="2"/>']
-    # mitten hand with a thumb (bigger: reads at phone size)
-    p.append(f'<path d="M{hx-16} {hy-6} Q{hx-19} {hy+30} {hx} {hy+32} Q{hx+19} {hy+30} {hx+16} {hy-6} Q{hx} {hy-14} {hx-16} {hy-6} Z" fill="{skin}"/>'
-             f'<path d="M{hx-side*14} {hy+2} Q{hx-side*30} {hy+6} {hx-side*22} {hy+20}" fill="{skin}" stroke-width="5"/>'
-             f'<path d="M{hx-7} {hy+12} L{hx-7} {hy+28} M{hx+1} {hy+13} L{hx+1} {hy+30} M{hx+9} {hy+12} L{hx+9} {hy+27}" fill="none" stroke-width="3.5"/>')
+    (ex, ey), (hx, hy), name = _arm_pts(side, pose)
+    ex, ey, hx, hy = sx + ex, sy + ey, sx + hx, sy + hy
+    sx, sy = sx - side * 10, sy + 8                                    # sleeve starts inside the shoulder line (no bulge)
+    cx, cy = 2 * ex - (sx + hx) / 2, 2 * ey - (sy + hy) / 2           # control point so the curve passes through the elbow
+    path = f"M{sx} {sy} Q{cx:.1f} {cy:.1f} {hx:.1f} {hy:.1f}"
+    W = 34
+    p = [f'<path d="{path}" fill="none" stroke-width="{W + 2 * SW}"/>',
+         f'<path d="{path}" fill="none" stroke="{sleeve}" stroke-width="{W}"/>']
+    # forearm direction -> hand rotation (hand drawn pointing +y in local space)
+    fx, fy = hx - ex, hy - ey
+    ang = math.degrees(math.atan2(fy, fx)) - 90
+    palm = name in PALM
+    hand = (f'<path d="M-17 -4 Q-20 34 0 36 Q20 34 17 -4 Q0 -12 -17 -4 Z" fill="{skin}"/>'
+            f'<path d="M{-side*15} 4 Q{-side*31} 8 {-side*23} 22" fill="{skin}" stroke-width="5"/>')
+    hand += ('<path d="M-8 14 L-8 32 M0 15 L0 34 M8 14 L8 31" fill="none" stroke-width="3.5"/>' if not palm else
+             f'<path d="M-6 16 Q0 22 6 16" fill="none" stroke="{shade(skin, 0.75)}" stroke-width="4"/>')
+    if name == "count":
+        hand += f'<path d="M-4 -2 L-6 -40 Q0 -48 6 -40 L6 -2 Z" fill="{skin}"/>'
+    p.append(f'<g transform="translate({hx:.1f},{hy:.1f}) rotate({ang:.1f})">{hand}</g>')
+    p.append(f'<path d="M{hx - 18:.1f} {hy:.1f} L{hx + 18:.1f} {hy:.1f}" transform="rotate({ang:.1f} {hx:.1f} {hy:.1f})" stroke="{shade(sleeve, 0.7)}" stroke-width="6"/>')
     return "".join(p), (hx, hy + 12)
 
 
@@ -307,15 +348,18 @@ def _prop(name, at):
     return P.get(name, "")
 
 
-def figure_svg(cid, expr="deadpan", pose_l="down", pose_r="hold", prop=True):
+def figure_svg(cid, expr="deadpan", pose_l="down", pose_r="hold", prop=True, view="front"):
+    """view "3q" = three-quarter turn to screen right (flip the drawing to face left): the far (screen-left) arm goes behind the body."""
     s = CAST[cid]; e = EXPR[expr]
     if not prop:
         s = dict(s, prop=None)
     al, _ = _arm(s, -1, pose_l)
-    ar, hand = _arm(s, 1, pose_r if s.get("prop") else "down")
+    ar, hand = _arm(s, 1, pose_r)
     prop = _prop(s["prop"], hand) if s.get("prop") else ""
     back = prop if s.get("prop") in ("shovel", "spear") else ""
     front = "" if back else prop
+    if view == "3q":                             # turned to screen right: the screen-right arm is the far arm (behind the body)
+        return back + ar + front + f'<g transform="translate(5,0) scale(0.93,1)">{_body(s)}</g>' + _head_scaled(s, e, view) + al
     return back + _body(s) + al + _head_scaled(s, e) + ar + front
 
 
