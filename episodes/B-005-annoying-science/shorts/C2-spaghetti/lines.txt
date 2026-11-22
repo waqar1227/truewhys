@@ -1,0 +1,7 @@
+# B-005 C2 (cut Short, rewritten for vertical). Frame 1: hands bending a spaghetti stick that bursts into 3 pieces, "NEVER IN TWO?". Loops to the bend.
+H1|0|Try snapping spaghetti into two pieces. You can't.
+L01|0|It breaks into three or more, almost every time. Even Richard Feynman couldn't explain why.
+L02|0|When the stick snaps in the middle, each half springs back.
+L03|0|That sends a bending wave down the pieces... and they snap again.
+L04|0|In 2018, a team at MIT found the trick: twist it almost a full turn first, then bend.
+L05|0|The twist soaks up the wave, and it breaks cleanly in two. Now try it.

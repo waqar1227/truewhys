@@ -1,0 +1,7 @@
+# B-005 C1 (cut Short, rewritten for vertical). Frame 1: toast already tumbling off the table, shocked face, "NOT BAD LUCK?". Answer by the end; loops to the toast.
+H1|0|Your toast lands butter-side down... and a physicist proved it's your table's fault.
+L01|0|Toast sliding off a table doesn't fall flat. It tips at the edge and starts to spin.
+L02|0|From a normal table, there's only time for about half a turn.
+L03|0|And half a turn flips the buttered side to the bottom.
+L04|0|To land butter-up, you'd need a table about three meters tall.
+L05|0|Or push it off fast. So... how tall is your table?

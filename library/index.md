@@ -131,3 +131,11 @@ All original (TrueWhys). One episode = `episodes/<ep>/make.py` (`sheet` | `big <
 - **Style R vehicles + real mirror (A-019, `episodes/A-019-ambulance/scene.py`):** `ambulance(F, x, n)` generic box ambulance (mirrored 3D word, flashing red/blue
   lights via `flasher()`), `car(CF, n, mirror_to, eye)` hatchback whose rear-view mirror is aimed to reflect a point into an eye (ray-traced, reads correctly),
   `text3d()` 3D block lettering (Poppins ExtraBold; mirror/both-sides), `set_stage(road=True)` studio + road strip. Copy into lib/style_r when reused.
+- lib/flat_annoy.py (B-005, 22 Nov 2026): Style F everyday-science props: toast (side/top, buttered), plate, table_side, ruler_v (height marker),
+  sneaker + bow_knot (loosen / swing / twist=weak knot / undone), earbud(s) (neat → tangled), tumble_box (rotating clear box with string),
+  spaghetti (bend, twist stripes) + fist, curtain (shower curtain with bulge/weights), mug, coffee_drop (drying ring or even stain), cereal_loop, bowl_top.
+  `from flat_annoy import *` (TW_FLAT_SIZE set before import). Original, code-drawn (TrueWhys).
+- lib/cast2.py additions (B-005, 22 Nov): "physicist" (lab coat, glasses) and "runner" (bun, coral sports top). Same v2.1/v2.2 rules.
+- episodes/B-005-annoying-science/make.py sets reusable by copy: kitchen_am (morning kitchen), lab (physics lab wall), night_kitchen, bathroom + tub
+  + bath_cut (side cut-away of a shower with vortex), cafe (top-view wooden table), breakfast (tablecloth), drop_cut (cross-section of a drying drop),
+  milk_side (meniscus cross-section).

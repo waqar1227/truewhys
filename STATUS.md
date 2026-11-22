@@ -22,8 +22,9 @@ TASKS in order:
 3. A-019 + A-022 (Style R): script/voice/animatic done, Kaggle renders a019/a022 queued 22 Nov. When renders are in: `python make.py render renders`
    (each episode), QA (qa.md, one contact sheet), short thumb (tools/short_thumb.py), upload private+publishAt (upload_meta.json), SRT upload.
    QA watch-outs: female cast in tight tops (keep modest; A-019 mirror_demo), mirror reflection legible, rain visible in A-022 gate_rain.
-4. L5 (fresh episode session): topic = everyday object/science with search demand (competitors.py radar), research 2+ sources, cast v2.2,
-   no captions, hook rules, 3 thumbnails, SRT, teaser post files in episodes/<ep>/social/post/.
+4. L5 = episodes/B-005-annoying-science "Why Toast Lands Butter-Side Down, Shoelaces Untie and Earbuds Tangle" (L5 session, 22 Nov): script, sources,
+   8/9 Gemini chapters, all scenes, 3 thumbs, teaser post (social/post, owner posts Sat 5 Dec), 2 cut Shorts built (C1 toast Tue 8, C2 spaghetti Thu 10 Dec).
+   L5 session resumes 23 Nov after 08:00 UTC: Gemini ch8 + Short voices (3 requests) → render, QA, SRT, upload (publishAt 7 Dec 17:00 UTC).
 5. Trending standalone Shorts: pick on the day from Google Trends/competitor radar; trend swap rule if something goes viral.
 Never: change A-020 (owner edited) · move scheduled videos except a trend swap · creator names in metadata.
 

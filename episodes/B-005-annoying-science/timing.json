@@ -1,0 +1,5427 @@
+[
+ {
+  "id": "O01",
+  "chapter": 0,
+  "text": "Your toast lands butter-side down. And it's not bad luck.",
+  "dur": 3.55,
+  "words": [
+   {
+    "w": "Your",
+    "s": 0.0,
+    "e": 0.42
+   },
+   {
+    "w": "toast",
+    "s": 0.42,
+    "e": 0.72
+   },
+   {
+    "w": "lands",
+    "s": 0.72,
+    "e": 0.98
+   },
+   {
+    "w": "butter-side",
+    "s": 0.98,
+    "e": 1.46
+   },
+   {
+    "w": "down.",
+    "s": 1.46,
+    "e": 1.76
+   },
+   {
+    "w": "And",
+    "s": 2.36,
+    "e": 2.5
+   },
+   {
+    "w": "it's",
+    "s": 2.5,
+    "e": 2.7
+   },
+   {
+    "w": "not",
+    "s": 2.7,
+    "e": 2.9
+   },
+   {
+    "w": "bad",
+    "s": 2.9,
+    "e": 3.14
+   },
+   {
+    "w": "luck.",
+    "s": 3.14,
+    "e": 3.42
+   }
+  ],
+  "heard": "Your toast lands butter -side down. And it's not bad luck.",
+  "match": 0.857
+ },
+ {
+  "id": "O02",
+  "chapter": 0,
+  "text": "A physicist worked out the real culprit: the height of your kitchen table.",
+  "dur": 3.8,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.03,
+    "e": 0.23
+   },
+   {
+    "w": "physicist",
+    "s": 0.23,
+    "e": 0.57
+   },
+   {
+    "w": "worked",
+    "s": 0.57,
+    "e": 0.97
+   },
+   {
+    "w": "out",
+    "s": 0.97,
+    "e": 1.17
+   },
+   {
+    "w": "the",
+    "s": 1.17,
+    "e": 1.31
+   },
+   {
+    "w": "real",
+    "s": 1.31,
+    "e": 1.57
+   },
+   {
+    "w": "culprit:",
+    "s": 1.57,
+    "e": 1.91
+   },
+   {
+    "w": "the",
+    "s": 2.37,
+    "e": 2.47
+   },
+   {
+    "w": "height",
+    "s": 2.47,
+    "e": 2.67
+   },
+   {
+    "w": "of",
+    "s": 2.67,
+    "e": 2.93
+   },
+   {
+    "w": "your",
+    "s": 2.93,
+    "e": 3.05
+   },
+   {
+    "w": "kitchen",
+    "s": 3.05,
+    "e": 3.29
+   },
+   {
+    "w": "table.",
+    "s": 3.29,
+    "e": 3.63
+   }
+  ],
+  "heard": "A physicist worked out the real culprit. The height of your kitchen table.",
+  "match": 1.0
+ },
+ {
+  "id": "O03",
+  "chapter": 0,
+  "text": "And it's not just toast. Your shoelaces, your earbuds, even your spaghetti follow hidden rules.",
+  "dur": 5.22,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.06,
+    "e": 0.18
+   },
+   {
+    "w": "it's",
+    "s": 0.18,
+    "e": 0.32
+   },
+   {
+    "w": "not",
+    "s": 0.32,
+    "e": 0.44
+   },
+   {
+    "w": "just",
+    "s": 0.44,
+    "e": 0.62
+   },
+   {
+    "w": "toast.",
+    "s": 0.62,
+    "e": 0.9
+   },
+   {
+    "w": "Your",
+    "s": 1.3,
+    "e": 1.36
+   },
+   {
+    "w": "shoelaces,",
+    "s": 1.36,
+    "e": 1.86
+   },
+   {
+    "w": "your",
+    "s": 2.18,
+    "e": 2.2
+   },
+   {
+    "w": "earbuds,",
+    "s": 2.2,
+    "e": 2.66
+   },
+   {
+    "w": "even",
+    "s": 3.1,
+    "e": 3.3
+   },
+   {
+    "w": "your",
+    "s": 3.3,
+    "e": 3.48
+   },
+   {
+    "w": "spaghetti",
+    "s": 3.48,
+    "e": 3.94
+   },
+   {
+    "w": "follow",
+    "s": 3.94,
+    "e": 4.36
+   },
+   {
+    "w": "hidden",
+    "s": 4.36,
+    "e": 4.56
+   },
+   {
+    "w": "rules.",
+    "s": 4.56,
+    "e": 5.02
+   }
+  ],
+  "heard": "And it's not just toast. Your shoelaces, your earbuds, even your spaghetti follow hidden rules.",
+  "match": 1.0
+ },
+ {
+  "id": "O04",
+  "chapter": 0,
+  "text": "Scientists tested every one of them, with treadmills, spinning boxes, and two weeks of computer time... on a shower curtain.",
+  "dur": 7.44,
+  "words": [
+   {
+    "w": "Scientists",
+    "s": 0.32,
+    "e": 0.4
+   },
+   {
+    "w": "tested",
+    "s": 0.4,
+    "e": 0.98
+   },
+   {
+    "w": "every",
+    "s": 0.98,
+    "e": 1.46
+   },
+   {
+    "w": "one",
+    "s": 1.46,
+    "e": 1.68
+   },
+   {
+    "w": "of",
+    "s": 1.68,
+    "e": 1.78
+   },
+   {
+    "w": "them,",
+    "s": 1.78,
+    "e": 2.0
+   },
+   {
+    "w": "with",
+    "s": 2.4,
+    "e": 2.64
+   },
+   {
+    "w": "treadmills,",
+    "s": 2.64,
+    "e": 3.28
+   },
+   {
+    "w": "spinning",
+    "s": 3.48,
+    "e": 3.64
+   },
+   {
+    "w": "boxes,",
+    "s": 3.64,
+    "e": 4.04
+   },
+   {
+    "w": "and",
+    "s": 4.54,
+    "e": 4.68
+   },
+   {
+    "w": "two",
+    "s": 4.68,
+    "e": 4.94
+   },
+   {
+    "w": "weeks",
+    "s": 4.94,
+    "e": 5.18
+   },
+   {
+    "w": "of",
+    "s": 5.18,
+    "e": 5.38
+   },
+   {
+    "w": "computer",
+    "s": 5.38,
+    "e": 5.64
+   },
+   {
+    "w": "time...",
+    "s": 5.64,
+    "e": 6.64
+   },
+   {
+    "w": "on",
+    "s": 6.64,
+    "e": 6.74
+   },
+   {
+    "w": "a",
+    "s": 6.74,
+    "e": 6.82
+   },
+   {
+    "w": "shower",
+    "s": 6.82,
+    "e": 6.96
+   },
+   {
+    "w": "curtain.",
+    "s": 6.96,
+    "e": 7.22
+   }
+  ],
+  "heard": "Scientists tested every one of them, with treadmills, spinning boxes, and two weeks of computer time... on a shower curtain.",
+  "match": 1.0
+ },
+ {
+  "id": "O05",
+  "chapter": 0,
+  "text": "So why does everyday stuff seem to work against you? Let's start with that toast.",
+  "dur": 4.67,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.03,
+    "e": 0.23
+   },
+   {
+    "w": "why",
+    "s": 0.23,
+    "e": 0.41
+   },
+   {
+    "w": "does",
+    "s": 0.41,
+    "e": 0.75
+   },
+   {
+    "w": "everyday",
+    "s": 0.75,
+    "e": 1.23
+   },
+   {
+    "w": "stuff",
+    "s": 1.23,
+    "e": 1.73
+   },
+   {
+    "w": "seem",
+    "s": 1.73,
+    "e": 2.01
+   },
+   {
+    "w": "to",
+    "s": 2.01,
+    "e": 2.17
+   },
+   {
+    "w": "work",
+    "s": 2.17,
+    "e": 2.35
+   },
+   {
+    "w": "against",
+    "s": 2.35,
+    "e": 2.67
+   },
+   {
+    "w": "you?",
+    "s": 2.67,
+    "e": 2.93
+   },
+   {
+    "w": "Let's",
+    "s": 3.69,
+    "e": 3.91
+   },
+   {
+    "w": "start",
+    "s": 3.91,
+    "e": 4.05
+   },
+   {
+    "w": "with",
+    "s": 4.05,
+    "e": 4.17
+   },
+   {
+    "w": "that",
+    "s": 4.17,
+    "e": 4.31
+   },
+   {
+    "w": "toast.",
+    "s": 4.31,
+    "e": 4.49
+   }
+  ],
+  "heard": "So why does everyday stuff seem to work against you? Let's start with that toast.",
+  "match": 1.0
+ },
+ {
+  "id": "T01",
+  "chapter": 1,
+  "text": "Push a slice of toast off a table, and watch closely.",
+  "dur": 3.42,
+  "words": [
+   {
+    "w": "Push",
+    "s": 0.0,
+    "e": 0.4
+   },
+   {
+    "w": "a",
+    "s": 0.4,
+    "e": 0.62
+   },
+   {
+    "w": "slice",
+    "s": 0.62,
+    "e": 0.78
+   },
+   {
+    "w": "of",
+    "s": 0.78,
+    "e": 1.12
+   },
+   {
+    "w": "toast",
+    "s": 1.12,
+    "e": 1.38
+   },
+   {
+    "w": "off",
+    "s": 1.38,
+    "e": 1.7
+   },
+   {
+    "w": "a",
+    "s": 1.7,
+    "e": 1.86
+   },
+   {
+    "w": "table,",
+    "s": 1.86,
+    "e": 2.1
+   },
+   {
+    "w": "and",
+    "s": 2.36,
+    "e": 2.4
+   },
+   {
+    "w": "watch",
+    "s": 2.4,
+    "e": 2.68
+   },
+   {
+    "w": "closely.",
+    "s": 2.68,
+    "e": 3.22
+   }
+  ],
+  "heard": "Push a slice of toast off a table, and watch closely.",
+  "match": 1.0
+ },
+ {
+  "id": "T02",
+  "chapter": 1,
+  "text": "It doesn't fall flat. As it tips over the edge, it starts to spin.",
+  "dur": 4.27,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.04,
+    "e": 0.22
+   },
+   {
+    "w": "doesn't",
+    "s": 0.22,
+    "e": 0.46
+   },
+   {
+    "w": "fall",
+    "s": 0.46,
+    "e": 0.66
+   },
+   {
+    "w": "flat.",
+    "s": 0.66,
+    "e": 1.06
+   },
+   {
+    "w": "As",
+    "s": 1.56,
+    "e": 1.76
+   },
+   {
+    "w": "it",
+    "s": 1.76,
+    "e": 1.9
+   },
+   {
+    "w": "tips",
+    "s": 1.9,
+    "e": 2.12
+   },
+   {
+    "w": "over",
+    "s": 2.12,
+    "e": 2.4
+   },
+   {
+    "w": "the",
+    "s": 2.4,
+    "e": 2.54
+   },
+   {
+    "w": "edge,",
+    "s": 2.54,
+    "e": 2.8
+   },
+   {
+    "w": "it",
+    "s": 3.08,
+    "e": 3.22
+   },
+   {
+    "w": "starts",
+    "s": 3.22,
+    "e": 3.44
+   },
+   {
+    "w": "to",
+    "s": 3.44,
+    "e": 3.68
+   },
+   {
+    "w": "spin.",
+    "s": 3.68,
+    "e": 4.04
+   }
+  ],
+  "heard": "It doesn't fall flat. As it tips over the edge, it starts to spin.",
+  "match": 1.0
+ },
+ {
+  "id": "T03",
+  "chapter": 1,
+  "text": "In 1995, the British physicist Robert Matthews worked out how much.",
+  "dur": 4.58,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.07,
+    "e": 0.19
+   },
+   {
+    "w": "1995,",
+    "s": 0.19,
+    "e": 0.93
+   },
+   {
+    "w": "the",
+    "s": 1.33,
+    "e": 1.41
+   },
+   {
+    "w": "British",
+    "s": 1.41,
+    "e": 1.65
+   },
+   {
+    "w": "physicist",
+    "s": 1.65,
+    "e": 2.13
+   },
+   {
+    "w": "Robert",
+    "s": 2.13,
+    "e": 2.55
+   },
+   {
+    "w": "Matthews",
+    "s": 2.55,
+    "e": 3.01
+   },
+   {
+    "w": "worked",
+    "s": 3.01,
+    "e": 3.45
+   },
+   {
+    "w": "out",
+    "s": 3.45,
+    "e": 3.71
+   },
+   {
+    "w": "how",
+    "s": 3.71,
+    "e": 3.99
+   },
+   {
+    "w": "much.",
+    "s": 3.99,
+    "e": 4.27
+   }
+  ],
+  "heard": "In 1995, the British physicist Robert Matthews worked out how much.",
+  "match": 1.0
+ },
+ {
+  "id": "T04",
+  "chapter": 1,
+  "text": "From a normal table, the fall is so short that the toast only has time for about half a turn.",
+  "dur": 5.18,
+  "words": [
+   {
+    "w": "From",
+    "s": 0.03,
+    "e": 0.19
+   },
+   {
+    "w": "a",
+    "s": 0.19,
+    "e": 0.29
+   },
+   {
+    "w": "normal",
+    "s": 0.29,
+    "e": 0.49
+   },
+   {
+    "w": "table,",
+    "s": 0.49,
+    "e": 0.79
+   },
+   {
+    "w": "the",
+    "s": 1.09,
+    "e": 1.29
+   },
+   {
+    "w": "fall",
+    "s": 1.29,
+    "e": 1.53
+   },
+   {
+    "w": "is",
+    "s": 1.53,
+    "e": 1.75
+   },
+   {
+    "w": "so",
+    "s": 1.75,
+    "e": 2.09
+   },
+   {
+    "w": "short",
+    "s": 2.09,
+    "e": 2.49
+   },
+   {
+    "w": "that",
+    "s": 2.49,
+    "e": 2.71
+   },
+   {
+    "w": "the",
+    "s": 2.71,
+    "e": 2.85
+   },
+   {
+    "w": "toast",
+    "s": 2.85,
+    "e": 3.07
+   },
+   {
+    "w": "only",
+    "s": 3.07,
+    "e": 3.33
+   },
+   {
+    "w": "has",
+    "s": 3.33,
+    "e": 3.59
+   },
+   {
+    "w": "time",
+    "s": 3.59,
+    "e": 3.85
+   },
+   {
+    "w": "for",
+    "s": 3.85,
+    "e": 4.07
+   },
+   {
+    "w": "about",
+    "s": 4.07,
+    "e": 4.25
+   },
+   {
+    "w": "half",
+    "s": 4.25,
+    "e": 4.53
+   },
+   {
+    "w": "a",
+    "s": 4.53,
+    "e": 4.73
+   },
+   {
+    "w": "turn.",
+    "s": 4.73,
+    "e": 4.95
+   }
+  ],
+  "heard": "From a normal table, the fall is so short that the toast only has time for about half a turn.",
+  "match": 1.0
+ },
+ {
+  "id": "T05",
+  "chapter": 1,
+  "text": "And half a turn means the side that started on top, the buttered side, ends up on the bottom.",
+  "dur": 4.87,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.03,
+    "e": 0.21
+   },
+   {
+    "w": "half",
+    "s": 0.21,
+    "e": 0.37
+   },
+   {
+    "w": "a",
+    "s": 0.37,
+    "e": 0.51
+   },
+   {
+    "w": "turn",
+    "s": 0.51,
+    "e": 0.69
+   },
+   {
+    "w": "means",
+    "s": 0.69,
+    "e": 0.91
+   },
+   {
+    "w": "the",
+    "s": 0.91,
+    "e": 1.17
+   },
+   {
+    "w": "side",
+    "s": 1.17,
+    "e": 1.37
+   },
+   {
+    "w": "that",
+    "s": 1.37,
+    "e": 1.51
+   },
+   {
+    "w": "started",
+    "s": 1.51,
+    "e": 1.81
+   },
+   {
+    "w": "on",
+    "s": 1.81,
+    "e": 2.03
+   },
+   {
+    "w": "top,",
+    "s": 2.03,
+    "e": 2.27
+   },
+   {
+    "w": "the",
+    "s": 2.59,
+    "e": 2.73
+   },
+   {
+    "w": "buttered",
+    "s": 2.73,
+    "e": 3.05
+   },
+   {
+    "w": "side,",
+    "s": 3.05,
+    "e": 3.41
+   },
+   {
+    "w": "ends",
+    "s": 3.63,
+    "e": 4.01
+   },
+   {
+    "w": "up",
+    "s": 4.01,
+    "e": 4.19
+   },
+   {
+    "w": "on",
+    "s": 4.19,
+    "e": 4.31
+   },
+   {
+    "w": "the",
+    "s": 4.31,
+    "e": 4.41
+   },
+   {
+    "w": "bottom.",
+    "s": 4.41,
+    "e": 4.65
+   }
+  ],
+  "heard": "And half a turn means the side that started on top, the buttered side, ends up on the bottom.",
+  "match": 1.0
+ },
+ {
+  "id": "T06",
+  "chapter": 1,
+  "text": "So can you beat it? With a taller table, yes. About three meters tall, high enough for a full turn.",
+  "dur": 5.52,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.03,
+    "e": 0.17
+   },
+   {
+    "w": "can",
+    "s": 0.17,
+    "e": 0.27
+   },
+   {
+    "w": "you",
+    "s": 0.27,
+    "e": 0.39
+   },
+   {
+    "w": "beat",
+    "s": 0.39,
+    "e": 0.51
+   },
+   {
+    "w": "it?",
+    "s": 0.51,
+    "e": 0.71
+   },
+   {
+    "w": "With",
+    "s": 0.71,
+    "e": 1.39
+   },
+   {
+    "w": "a",
+    "s": 1.39,
+    "e": 1.49
+   },
+   {
+    "w": "taller",
+    "s": 1.49,
+    "e": 1.73
+   },
+   {
+    "w": "table,",
+    "s": 1.73,
+    "e": 2.11
+   },
+   {
+    "w": "yes.",
+    "s": 2.33,
+    "e": 2.43
+   },
+   {
+    "w": "About",
+    "s": 3.05,
+    "e": 3.09
+   },
+   {
+    "w": "three",
+    "s": 3.09,
+    "e": 3.35
+   },
+   {
+    "w": "meters",
+    "s": 3.35,
+    "e": 3.61
+   },
+   {
+    "w": "tall,",
+    "s": 3.61,
+    "e": 3.91
+   },
+   {
+    "w": "high",
+    "s": 4.07,
+    "e": 4.23
+   },
+   {
+    "w": "enough",
+    "s": 4.23,
+    "e": 4.43
+   },
+   {
+    "w": "for",
+    "s": 4.43,
+    "e": 4.63
+   },
+   {
+    "w": "a",
+    "s": 4.63,
+    "e": 4.75
+   },
+   {
+    "w": "full",
+    "s": 4.75,
+    "e": 4.99
+   },
+   {
+    "w": "turn.",
+    "s": 4.99,
+    "e": 5.31
+   }
+  ],
+  "heard": "So can you beat it? With a taller table, yes. About three meters tall, high enough for a full turn.",
+  "match": 1.0
+ },
+ {
+  "id": "T07",
+  "chapter": 1,
+  "text": "Or push it off fast. Toast that shoots off quickly doesn't spin enough to flip.",
+  "dur": 4.54,
+  "words": [
+   {
+    "w": "Or",
+    "s": 0.04,
+    "e": 0.24
+   },
+   {
+    "w": "push",
+    "s": 0.24,
+    "e": 0.48
+   },
+   {
+    "w": "it",
+    "s": 0.48,
+    "e": 0.6
+   },
+   {
+    "w": "off",
+    "s": 0.6,
+    "e": 0.76
+   },
+   {
+    "w": "fast.",
+    "s": 0.76,
+    "e": 1.06
+   },
+   {
+    "w": "Toast",
+    "s": 1.92,
+    "e": 2.0
+   },
+   {
+    "w": "that",
+    "s": 2.0,
+    "e": 2.28
+   },
+   {
+    "w": "shoots",
+    "s": 2.28,
+    "e": 2.56
+   },
+   {
+    "w": "off",
+    "s": 2.56,
+    "e": 2.84
+   },
+   {
+    "w": "quickly",
+    "s": 2.84,
+    "e": 3.16
+   },
+   {
+    "w": "doesn't",
+    "s": 3.16,
+    "e": 3.58
+   },
+   {
+    "w": "spin",
+    "s": 3.58,
+    "e": 3.78
+   },
+   {
+    "w": "enough",
+    "s": 3.78,
+    "e": 4.0
+   },
+   {
+    "w": "to",
+    "s": 4.0,
+    "e": 4.16
+   },
+   {
+    "w": "flip.",
+    "s": 4.16,
+    "e": 4.36
+   }
+  ],
+  "heard": "Or push it off fast. Toast that shoots off quickly doesn't spin enough to flip.",
+  "match": 1.0
+ },
+ {
+  "id": "T08",
+  "chapter": 1,
+  "text": "Matthews won an Ig Nobel Prize for this: a prize for research that makes people laugh, and then think.",
+  "dur": 5.74,
+  "words": [
+   {
+    "w": "Matthews",
+    "s": 0.2,
+    "e": 0.36
+   },
+   {
+    "w": "won",
+    "s": 0.36,
+    "e": 0.62
+   },
+   {
+    "w": "an",
+    "s": 0.62,
+    "e": 0.8
+   },
+   {
+    "w": "Ig",
+    "s": 0.8,
+    "e": 1.06
+   },
+   {
+    "w": "Nobel",
+    "s": 1.06,
+    "e": 1.4
+   },
+   {
+    "w": "Prize",
+    "s": 1.4,
+    "e": 1.84
+   },
+   {
+    "w": "for",
+    "s": 1.84,
+    "e": 2.06
+   },
+   {
+    "w": "this:",
+    "s": 2.06,
+    "e": 2.26
+   },
+   {
+    "w": "a",
+    "s": 2.68,
+    "e": 2.86
+   },
+   {
+    "w": "prize",
+    "s": 2.86,
+    "e": 3.08
+   },
+   {
+    "w": "for",
+    "s": 3.08,
+    "e": 3.28
+   },
+   {
+    "w": "research",
+    "s": 3.28,
+    "e": 3.6
+   },
+   {
+    "w": "that",
+    "s": 3.6,
+    "e": 3.84
+   },
+   {
+    "w": "makes",
+    "s": 3.84,
+    "e": 4.0
+   },
+   {
+    "w": "people",
+    "s": 4.0,
+    "e": 4.26
+   },
+   {
+    "w": "laugh,",
+    "s": 4.26,
+    "e": 4.62
+   },
+   {
+    "w": "and",
+    "s": 5.04,
+    "e": 5.2
+   },
+   {
+    "w": "then",
+    "s": 5.2,
+    "e": 5.32
+   },
+   {
+    "w": "think.",
+    "s": 5.32,
+    "e": 5.56
+   }
+  ],
+  "heard": "Matthews won an Ig Nobel Prize for this, a prize for research that makes people laugh, and then think.",
+  "match": 1.0
+ },
+ {
+  "id": "S01",
+  "chapter": 2,
+  "text": "Now look down. Why do shoelaces come undone, even when you tie them tight?",
+  "dur": 5.04,
+  "words": [
+   {
+    "w": "Now",
+    "s": 0.0,
+    "e": 0.4
+   },
+   {
+    "w": "look",
+    "s": 0.4,
+    "e": 0.58
+   },
+   {
+    "w": "down.",
+    "s": 0.58,
+    "e": 0.88
+   },
+   {
+    "w": "Why",
+    "s": 1.78,
+    "e": 1.88
+   },
+   {
+    "w": "do",
+    "s": 1.88,
+    "e": 2.08
+   },
+   {
+    "w": "shoelaces",
+    "s": 2.08,
+    "e": 2.74
+   },
+   {
+    "w": "come",
+    "s": 2.74,
+    "e": 3.04
+   },
+   {
+    "w": "undone,",
+    "s": 3.04,
+    "e": 3.46
+   },
+   {
+    "w": "even",
+    "s": 3.9,
+    "e": 4.08
+   },
+   {
+    "w": "when",
+    "s": 4.08,
+    "e": 4.22
+   },
+   {
+    "w": "you",
+    "s": 4.22,
+    "e": 4.34
+   },
+   {
+    "w": "tie",
+    "s": 4.34,
+    "e": 4.48
+   },
+   {
+    "w": "them",
+    "s": 4.48,
+    "e": 4.64
+   },
+   {
+    "w": "tight?",
+    "s": 4.64,
+    "e": 4.9
+   }
+  ],
+  "heard": "Now look down. Why do shoelaces come undone, even when you tie them tight?",
+  "match": 1.0
+ },
+ {
+  "id": "S02",
+  "chapter": 2,
+  "text": "In 2017, engineers at the University of California, Berkeley, filmed a runner's shoes in slow motion on a treadmill.",
+  "dur": 6.86,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.05,
+    "e": 0.17
+   },
+   {
+    "w": "2017,",
+    "s": 0.17,
+    "e": 1.09
+   },
+   {
+    "w": "engineers",
+    "s": 1.63,
+    "e": 1.81
+   },
+   {
+    "w": "at",
+    "s": 1.81,
+    "e": 2.17
+   },
+   {
+    "w": "the",
+    "s": 2.17,
+    "e": 2.25
+   },
+   {
+    "w": "University",
+    "s": 2.25,
+    "e": 2.57
+   },
+   {
+    "w": "of",
+    "s": 2.57,
+    "e": 2.79
+   },
+   {
+    "w": "California,",
+    "s": 2.79,
+    "e": 3.27
+   },
+   {
+    "w": "Berkeley,",
+    "s": 3.45,
+    "e": 3.73
+   },
+   {
+    "w": "filmed",
+    "s": 4.05,
+    "e": 4.29
+   },
+   {
+    "w": "a",
+    "s": 4.29,
+    "e": 4.49
+   },
+   {
+    "w": "runner's",
+    "s": 4.49,
+    "e": 4.91
+   },
+   {
+    "w": "shoes",
+    "s": 4.91,
+    "e": 5.07
+   },
+   {
+    "w": "in",
+    "s": 5.07,
+    "e": 5.29
+   },
+   {
+    "w": "slow",
+    "s": 5.29,
+    "e": 5.67
+   },
+   {
+    "w": "motion",
+    "s": 5.67,
+    "e": 6.01
+   },
+   {
+    "w": "on",
+    "s": 6.01,
+    "e": 6.19
+   },
+   {
+    "w": "a",
+    "s": 6.19,
+    "e": 6.33
+   },
+   {
+    "w": "treadmill.",
+    "s": 6.33,
+    "e": 6.63
+   }
+  ],
+  "heard": "In 2017, engineers at the University of California, Berkeley, filmed a runner's shoes in slow motion on a treadmill.",
+  "match": 1.0
+ },
+ {
+  "id": "S03",
+  "chapter": 2,
+  "text": "Every time a running foot hits the ground, it strikes at about seven times the force of gravity.",
+  "dur": 4.95,
+  "words": [
+   {
+    "w": "Every",
+    "s": 0.06,
+    "e": 0.26
+   },
+   {
+    "w": "time",
+    "s": 0.26,
+    "e": 0.42
+   },
+   {
+    "w": "a",
+    "s": 0.42,
+    "e": 0.58
+   },
+   {
+    "w": "running",
+    "s": 0.58,
+    "e": 0.84
+   },
+   {
+    "w": "foot",
+    "s": 0.84,
+    "e": 1.14
+   },
+   {
+    "w": "hits",
+    "s": 1.14,
+    "e": 1.42
+   },
+   {
+    "w": "the",
+    "s": 1.42,
+    "e": 1.58
+   },
+   {
+    "w": "ground,",
+    "s": 1.58,
+    "e": 1.86
+   },
+   {
+    "w": "it",
+    "s": 2.12,
+    "e": 2.28
+   },
+   {
+    "w": "strikes",
+    "s": 2.28,
+    "e": 2.64
+   },
+   {
+    "w": "at",
+    "s": 2.64,
+    "e": 2.82
+   },
+   {
+    "w": "about",
+    "s": 2.82,
+    "e": 3.0
+   },
+   {
+    "w": "seven",
+    "s": 3.0,
+    "e": 3.5
+   },
+   {
+    "w": "times",
+    "s": 3.5,
+    "e": 3.86
+   },
+   {
+    "w": "the",
+    "s": 3.86,
+    "e": 4.06
+   },
+   {
+    "w": "force",
+    "s": 4.06,
+    "e": 4.22
+   },
+   {
+    "w": "of",
+    "s": 4.22,
+    "e": 4.4
+   },
+   {
+    "w": "gravity.",
+    "s": 4.4,
+    "e": 4.76
+   }
+  ],
+  "heard": "Every time a running foot hits the ground, it strikes at about seven times the force of gravity.",
+  "match": 1.0
+ },
+ {
+  "id": "S04",
+  "chapter": 2,
+  "text": "Each hit squeezes the knot and loosens it, just a little.",
+  "dur": 3.17,
+  "words": [
+   {
+    "w": "Each",
+    "s": 0.05,
+    "e": 0.23
+   },
+   {
+    "w": "hit",
+    "s": 0.23,
+    "e": 0.43
+   },
+   {
+    "w": "squeezes",
+    "s": 0.43,
+    "e": 1.07
+   },
+   {
+    "w": "the",
+    "s": 1.07,
+    "e": 1.25
+   },
+   {
+    "w": "knot",
+    "s": 1.25,
+    "e": 1.43
+   },
+   {
+    "w": "and",
+    "s": 1.43,
+    "e": 1.67
+   },
+   {
+    "w": "loosens",
+    "s": 1.67,
+    "e": 2.01
+   },
+   {
+    "w": "it,",
+    "s": 2.01,
+    "e": 2.21
+   },
+   {
+    "w": "just",
+    "s": 2.33,
+    "e": 2.57
+   },
+   {
+    "w": "a",
+    "s": 2.57,
+    "e": 2.79
+   },
+   {
+    "w": "little.",
+    "s": 2.79,
+    "e": 2.95
+   }
+  ],
+  "heard": "Each hit squeezes the knot and loosens it, just a little.",
+  "match": 1.0
+ },
+ {
+  "id": "S05",
+  "chapter": 2,
+  "text": "Meanwhile, the swinging leg whips the free ends of the laces back and forth, like a tug of war.",
+  "dur": 4.59,
+  "words": [
+   {
+    "w": "Meanwhile,",
+    "s": 0.1,
+    "e": 0.34
+   },
+   {
+    "w": "the",
+    "s": 0.7,
+    "e": 0.78
+   },
+   {
+    "w": "swinging",
+    "s": 0.78,
+    "e": 1.08
+   },
+   {
+    "w": "leg",
+    "s": 1.08,
+    "e": 1.44
+   },
+   {
+    "w": "whips",
+    "s": 1.44,
+    "e": 1.78
+   },
+   {
+    "w": "the",
+    "s": 1.78,
+    "e": 1.98
+   },
+   {
+    "w": "free",
+    "s": 1.98,
+    "e": 2.2
+   },
+   {
+    "w": "ends",
+    "s": 2.2,
+    "e": 2.4
+   },
+   {
+    "w": "of",
+    "s": 2.4,
+    "e": 2.54
+   },
+   {
+    "w": "the",
+    "s": 2.54,
+    "e": 2.66
+   },
+   {
+    "w": "laces",
+    "s": 2.66,
+    "e": 2.9
+   },
+   {
+    "w": "back",
+    "s": 2.9,
+    "e": 3.26
+   },
+   {
+    "w": "and",
+    "s": 3.26,
+    "e": 3.44
+   },
+   {
+    "w": "forth,",
+    "s": 3.44,
+    "e": 3.62
+   },
+   {
+    "w": "like",
+    "s": 3.78,
+    "e": 3.8
+   },
+   {
+    "w": "a",
+    "s": 3.8,
+    "e": 3.96
+   },
+   {
+    "w": "tug",
+    "s": 3.96,
+    "e": 4.06
+   },
+   {
+    "w": "of",
+    "s": 4.06,
+    "e": 4.16
+   },
+   {
+    "w": "war.",
+    "s": 4.16,
+    "e": 4.4
+   }
+  ],
+  "heard": "Meanwhile, the swinging leg whips the free ends of the laces back and forth, like a tug of war.",
+  "match": 1.0
+ },
+ {
+  "id": "S06",
+  "chapter": 2,
+  "text": "Neither one alone was enough. Stomping didn't undo the knot. Swinging didn't either. But together...",
+  "dur": 6.37,
+  "words": [
+   {
+    "w": "Neither",
+    "s": 0.03,
+    "e": 0.47
+   },
+   {
+    "w": "one",
+    "s": 0.47,
+    "e": 0.75
+   },
+   {
+    "w": "alone",
+    "s": 0.75,
+    "e": 1.03
+   },
+   {
+    "w": "was",
+    "s": 1.03,
+    "e": 1.27
+   },
+   {
+    "w": "enough.",
+    "s": 1.27,
+    "e": 1.59
+   },
+   {
+    "w": "Stomping",
+    "s": 2.13,
+    "e": 2.43
+   },
+   {
+    "w": "didn't",
+    "s": 2.43,
+    "e": 2.67
+   },
+   {
+    "w": "undo",
+    "s": 2.67,
+    "e": 2.93
+   },
+   {
+    "w": "the",
+    "s": 2.93,
+    "e": 3.07
+   },
+   {
+    "w": "knot.",
+    "s": 3.07,
+    "e": 3.25
+   },
+   {
+    "w": "Swinging",
+    "s": 3.57,
+    "e": 4.01
+   },
+   {
+    "w": "didn't",
+    "s": 4.01,
+    "e": 4.45
+   },
+   {
+    "w": "either.",
+    "s": 4.45,
+    "e": 4.69
+   },
+   {
+    "w": "But",
+    "s": 5.07,
+    "e": 5.15
+   },
+   {
+    "w": "together...",
+    "s": 5.93,
+    "e": 6.37
+   }
+  ],
+  "heard": "Neither one alone was enough. Stomping didn't undo the knot. Swinging didn't either. But together...",
+  "match": 1.0
+ },
+ {
+  "id": "S07",
+  "chapter": 2,
+  "text": "Once the knot started to slip, it fell apart in as few as two strides.",
+  "dur": 4.07,
+  "words": [
+   {
+    "w": "Once",
+    "s": 0.0,
+    "e": 0.16
+   },
+   {
+    "w": "the",
+    "s": 0.16,
+    "e": 0.36
+   },
+   {
+    "w": "knot",
+    "s": 0.36,
+    "e": 0.52
+   },
+   {
+    "w": "started",
+    "s": 0.52,
+    "e": 0.92
+   },
+   {
+    "w": "to",
+    "s": 0.92,
+    "e": 1.14
+   },
+   {
+    "w": "slip,",
+    "s": 1.14,
+    "e": 1.34
+   },
+   {
+    "w": "it",
+    "s": 1.68,
+    "e": 1.72
+   },
+   {
+    "w": "fell",
+    "s": 1.72,
+    "e": 1.96
+   },
+   {
+    "w": "apart",
+    "s": 1.96,
+    "e": 2.28
+   },
+   {
+    "w": "in",
+    "s": 2.28,
+    "e": 2.46
+   },
+   {
+    "w": "as",
+    "s": 2.46,
+    "e": 2.58
+   },
+   {
+    "w": "few",
+    "s": 2.58,
+    "e": 2.8
+   },
+   {
+    "w": "as",
+    "s": 2.8,
+    "e": 2.98
+   },
+   {
+    "w": "two",
+    "s": 2.98,
+    "e": 3.32
+   },
+   {
+    "w": "strides.",
+    "s": 3.32,
+    "e": 3.7
+   }
+  ],
+  "heard": "Once the knot started to slip, it fell apart in as few as two strides.",
+  "match": 1.0
+ },
+ {
+  "id": "S08",
+  "chapter": 2,
+  "text": "They also found that a knot that twists when you pull it tight is the weak kind. A knot that lies flat holds on longer.",
+  "dur": 6.16,
+  "words": [
+   {
+    "w": "They",
+    "s": 0.04,
+    "e": 0.24
+   },
+   {
+    "w": "also",
+    "s": 0.24,
+    "e": 0.48
+   },
+   {
+    "w": "found",
+    "s": 0.48,
+    "e": 0.72
+   },
+   {
+    "w": "that",
+    "s": 0.72,
+    "e": 0.88
+   },
+   {
+    "w": "a",
+    "s": 0.88,
+    "e": 1.04
+   },
+   {
+    "w": "knot",
+    "s": 1.04,
+    "e": 1.2
+   },
+   {
+    "w": "that",
+    "s": 1.2,
+    "e": 1.4
+   },
+   {
+    "w": "twists",
+    "s": 1.4,
+    "e": 1.74
+   },
+   {
+    "w": "when",
+    "s": 1.74,
+    "e": 2.02
+   },
+   {
+    "w": "you",
+    "s": 2.02,
+    "e": 2.16
+   },
+   {
+    "w": "pull",
+    "s": 2.16,
+    "e": 2.32
+   },
+   {
+    "w": "it",
+    "s": 2.32,
+    "e": 2.46
+   },
+   {
+    "w": "tight",
+    "s": 2.46,
+    "e": 2.68
+   },
+   {
+    "w": "is",
+    "s": 2.68,
+    "e": 3.0
+   },
+   {
+    "w": "the",
+    "s": 3.0,
+    "e": 3.16
+   },
+   {
+    "w": "weak",
+    "s": 3.16,
+    "e": 3.36
+   },
+   {
+    "w": "kind.",
+    "s": 3.36,
+    "e": 3.64
+   },
+   {
+    "w": "A",
+    "s": 4.14,
+    "e": 4.34
+   },
+   {
+    "w": "knot",
+    "s": 4.34,
+    "e": 4.46
+   },
+   {
+    "w": "that",
+    "s": 4.46,
+    "e": 4.6
+   },
+   {
+    "w": "lies",
+    "s": 4.6,
+    "e": 4.82
+   },
+   {
+    "w": "flat",
+    "s": 4.82,
+    "e": 5.14
+   },
+   {
+    "w": "holds",
+    "s": 5.14,
+    "e": 5.42
+   },
+   {
+    "w": "on",
+    "s": 5.42,
+    "e": 5.62
+   },
+   {
+    "w": "longer.",
+    "s": 5.62,
+    "e": 5.96
+   }
+  ],
+  "heard": "They also found that a knot that twists when you pull it tight is the weak kind. A knot that lies flat holds on longer.",
+  "match": 1.0
+ },
+ {
+  "id": "S09",
+  "chapter": 2,
+  "text": "But even the strong knot fails in the end. It just takes longer.",
+  "dur": 3.03,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.07,
+    "e": 0.15
+   },
+   {
+    "w": "even",
+    "s": 0.15,
+    "e": 0.33
+   },
+   {
+    "w": "the",
+    "s": 0.33,
+    "e": 0.49
+   },
+   {
+    "w": "strong",
+    "s": 0.49,
+    "e": 0.71
+   },
+   {
+    "w": "knot",
+    "s": 0.71,
+    "e": 0.95
+   },
+   {
+    "w": "fails",
+    "s": 0.95,
+    "e": 1.17
+   },
+   {
+    "w": "in",
+    "s": 1.17,
+    "e": 1.37
+   },
+   {
+    "w": "the",
+    "s": 1.37,
+    "e": 1.47
+   },
+   {
+    "w": "end.",
+    "s": 1.47,
+    "e": 1.69
+   },
+   {
+    "w": "It",
+    "s": 2.13,
+    "e": 2.23
+   },
+   {
+    "w": "just",
+    "s": 2.23,
+    "e": 2.35
+   },
+   {
+    "w": "takes",
+    "s": 2.35,
+    "e": 2.61
+   },
+   {
+    "w": "longer.",
+    "s": 2.61,
+    "e": 2.85
+   }
+  ],
+  "heard": "But even the strong knot fails in the end. It just takes longer.",
+  "match": 1.0
+ },
+ {
+  "id": "E01",
+  "chapter": 3,
+  "text": "Next mystery. You put tidy earbuds in your pocket. You take them out, and they're a knotted mess. How?",
+  "dur": 6.86,
+  "words": [
+   {
+    "w": "Next",
+    "s": 0.0,
+    "e": 0.52
+   },
+   {
+    "w": "mystery.",
+    "s": 0.52,
+    "e": 0.94
+   },
+   {
+    "w": "You",
+    "s": 1.66,
+    "e": 1.66
+   },
+   {
+    "w": "put",
+    "s": 1.66,
+    "e": 1.82
+   },
+   {
+    "w": "tidy",
+    "s": 1.82,
+    "e": 2.28
+   },
+   {
+    "w": "earbuds",
+    "s": 2.28,
+    "e": 2.78
+   },
+   {
+    "w": "in",
+    "s": 2.78,
+    "e": 2.94
+   },
+   {
+    "w": "your",
+    "s": 2.94,
+    "e": 3.08
+   },
+   {
+    "w": "pocket.",
+    "s": 3.08,
+    "e": 3.36
+   },
+   {
+    "w": "You",
+    "s": 3.82,
+    "e": 3.94
+   },
+   {
+    "w": "take",
+    "s": 3.94,
+    "e": 4.1
+   },
+   {
+    "w": "them",
+    "s": 4.1,
+    "e": 4.18
+   },
+   {
+    "w": "out,",
+    "s": 4.18,
+    "e": 4.4
+   },
+   {
+    "w": "and",
+    "s": 4.7,
+    "e": 4.86
+   },
+   {
+    "w": "they're",
+    "s": 4.86,
+    "e": 5.02
+   },
+   {
+    "w": "a",
+    "s": 5.02,
+    "e": 5.16
+   },
+   {
+    "w": "knotted",
+    "s": 5.16,
+    "e": 5.46
+   },
+   {
+    "w": "mess.",
+    "s": 5.46,
+    "e": 5.82
+   },
+   {
+    "w": "How?",
+    "s": 6.38,
+    "e": 6.54
+   }
+  ],
+  "heard": "Next mystery. You put tidy earbuds in your pocket. You take them out, and they're a knotted mess. How?",
+  "match": 1.0
+ },
+ {
+  "id": "E02",
+  "chapter": 3,
+  "text": "In 2007, two physicists in California put a piece of string in a box and spun it for ten seconds.",
+  "dur": 6.38,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.07,
+    "e": 0.17
+   },
+   {
+    "w": "2007,",
+    "s": 0.17,
+    "e": 0.83
+   },
+   {
+    "w": "two",
+    "s": 1.37,
+    "e": 1.55
+   },
+   {
+    "w": "physicists",
+    "s": 1.55,
+    "e": 1.89
+   },
+   {
+    "w": "in",
+    "s": 1.89,
+    "e": 2.23
+   },
+   {
+    "w": "California",
+    "s": 2.23,
+    "e": 2.71
+   },
+   {
+    "w": "put",
+    "s": 2.71,
+    "e": 3.17
+   },
+   {
+    "w": "a",
+    "s": 3.17,
+    "e": 3.29
+   },
+   {
+    "w": "piece",
+    "s": 3.29,
+    "e": 3.43
+   },
+   {
+    "w": "of",
+    "s": 3.43,
+    "e": 3.61
+   },
+   {
+    "w": "string",
+    "s": 3.61,
+    "e": 3.91
+   },
+   {
+    "w": "in",
+    "s": 3.91,
+    "e": 4.15
+   },
+   {
+    "w": "a",
+    "s": 4.15,
+    "e": 4.27
+   },
+   {
+    "w": "box",
+    "s": 4.27,
+    "e": 4.55
+   },
+   {
+    "w": "and",
+    "s": 4.55,
+    "e": 4.95
+   },
+   {
+    "w": "spun",
+    "s": 4.95,
+    "e": 5.17
+   },
+   {
+    "w": "it",
+    "s": 5.17,
+    "e": 5.29
+   },
+   {
+    "w": "for",
+    "s": 5.29,
+    "e": 5.47
+   },
+   {
+    "w": "ten",
+    "s": 5.47,
+    "e": 5.73
+   },
+   {
+    "w": "seconds.",
+    "s": 5.73,
+    "e": 6.17
+   }
+  ],
+  "heard": "In 2007, two physicists in California put a piece of string in a box and spun it for ten seconds.",
+  "match": 1.0
+ },
+ {
+  "id": "E03",
+  "chapter": 3,
+  "text": "Then they did it again. And again. More than three thousand times.",
+  "dur": 4.4,
+  "words": [
+   {
+    "w": "Then",
+    "s": 0.03,
+    "e": 0.31
+   },
+   {
+    "w": "they",
+    "s": 0.31,
+    "e": 0.47
+   },
+   {
+    "w": "did",
+    "s": 0.47,
+    "e": 0.59
+   },
+   {
+    "w": "it",
+    "s": 0.59,
+    "e": 0.71
+   },
+   {
+    "w": "again.",
+    "s": 0.71,
+    "e": 0.93
+   },
+   {
+    "w": "And",
+    "s": 1.51,
+    "e": 1.61
+   },
+   {
+    "w": "again.",
+    "s": 1.61,
+    "e": 1.85
+   },
+   {
+    "w": "More",
+    "s": 2.41,
+    "e": 2.53
+   },
+   {
+    "w": "than",
+    "s": 2.53,
+    "e": 2.75
+   },
+   {
+    "w": "three",
+    "s": 2.75,
+    "e": 3.13
+   },
+   {
+    "w": "thousand",
+    "s": 3.13,
+    "e": 3.61
+   },
+   {
+    "w": "times.",
+    "s": 3.61,
+    "e": 4.17
+   }
+  ],
+  "heard": "Then they did it again. And again. More than three thousand times.",
+  "match": 1.0
+ },
+ {
+  "id": "E04",
+  "chapter": 3,
+  "text": "Strings shorter than forty-six centimeters never knotted at all.",
+  "dur": 3.33,
+  "words": [
+   {
+    "w": "Strings",
+    "s": 0.24,
+    "e": 0.42
+   },
+   {
+    "w": "shorter",
+    "s": 0.42,
+    "e": 0.72
+   },
+   {
+    "w": "than",
+    "s": 0.72,
+    "e": 0.96
+   },
+   {
+    "w": "forty-six",
+    "s": 0.96,
+    "e": 1.46
+   },
+   {
+    "w": "centimeters",
+    "s": 1.46,
+    "e": 1.82
+   },
+   {
+    "w": "never",
+    "s": 1.82,
+    "e": 2.48
+   },
+   {
+    "w": "knotted",
+    "s": 2.48,
+    "e": 2.78
+   },
+   {
+    "w": "at",
+    "s": 2.78,
+    "e": 2.94
+   },
+   {
+    "w": "all.",
+    "s": 2.94,
+    "e": 3.18
+   }
+  ],
+  "heard": "Strings shorter than forty -six centimeters never knotted at all.",
+  "match": 0.842
+ },
+ {
+  "id": "E05",
+  "chapter": 3,
+  "text": "But longer strings knotted in about half of the tumbles, some in complicated knots, within seconds.",
+  "dur": 5.19,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.03,
+    "e": 0.19
+   },
+   {
+    "w": "longer",
+    "s": 0.19,
+    "e": 0.47
+   },
+   {
+    "w": "strings",
+    "s": 0.47,
+    "e": 0.85
+   },
+   {
+    "w": "knotted",
+    "s": 0.85,
+    "e": 1.25
+   },
+   {
+    "w": "in",
+    "s": 1.25,
+    "e": 1.41
+   },
+   {
+    "w": "about",
+    "s": 1.41,
+    "e": 1.63
+   },
+   {
+    "w": "half",
+    "s": 1.63,
+    "e": 1.95
+   },
+   {
+    "w": "of",
+    "s": 1.95,
+    "e": 2.15
+   },
+   {
+    "w": "the",
+    "s": 2.15,
+    "e": 2.29
+   },
+   {
+    "w": "tumbles,",
+    "s": 2.29,
+    "e": 2.55
+   },
+   {
+    "w": "some",
+    "s": 2.89,
+    "e": 3.11
+   },
+   {
+    "w": "in",
+    "s": 3.11,
+    "e": 3.37
+   },
+   {
+    "w": "complicated",
+    "s": 3.37,
+    "e": 3.85
+   },
+   {
+    "w": "knots,",
+    "s": 3.85,
+    "e": 4.35
+   },
+   {
+    "w": "within",
+    "s": 4.47,
+    "e": 4.73
+   },
+   {
+    "w": "seconds.",
+    "s": 4.73,
+    "e": 5.19
+   }
+  ],
+  "heard": "But longer strings knotted in about half of the tumbles, some in complicated knots, within seconds.",
+  "match": 1.0
+ },
+ {
+  "id": "E06",
+  "chapter": 3,
+  "text": "The reason: the loose end keeps wandering over and under the rest of the string. Every crossing is a chance to tie a knot.",
+  "dur": 7.37,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.0,
+    "e": 0.84
+   },
+   {
+    "w": "reason:",
+    "s": 0.84,
+    "e": 1.08
+   },
+   {
+    "w": "the",
+    "s": 1.62,
+    "e": 1.8
+   },
+   {
+    "w": "loose",
+    "s": 1.8,
+    "e": 1.98
+   },
+   {
+    "w": "end",
+    "s": 1.98,
+    "e": 2.2
+   },
+   {
+    "w": "keeps",
+    "s": 2.2,
+    "e": 2.42
+   },
+   {
+    "w": "wandering",
+    "s": 2.42,
+    "e": 2.86
+   },
+   {
+    "w": "over",
+    "s": 2.86,
+    "e": 3.26
+   },
+   {
+    "w": "and",
+    "s": 3.26,
+    "e": 3.52
+   },
+   {
+    "w": "under",
+    "s": 3.52,
+    "e": 3.82
+   },
+   {
+    "w": "the",
+    "s": 3.82,
+    "e": 3.96
+   },
+   {
+    "w": "rest",
+    "s": 3.96,
+    "e": 4.1
+   },
+   {
+    "w": "of",
+    "s": 4.1,
+    "e": 4.28
+   },
+   {
+    "w": "the",
+    "s": 4.28,
+    "e": 4.36
+   },
+   {
+    "w": "string.",
+    "s": 4.36,
+    "e": 4.6
+   },
+   {
+    "w": "Every",
+    "s": 5.16,
+    "e": 5.46
+   },
+   {
+    "w": "crossing",
+    "s": 5.46,
+    "e": 5.86
+   },
+   {
+    "w": "is",
+    "s": 5.86,
+    "e": 6.2
+   },
+   {
+    "w": "a",
+    "s": 6.2,
+    "e": 6.36
+   },
+   {
+    "w": "chance",
+    "s": 6.36,
+    "e": 6.5
+   },
+   {
+    "w": "to",
+    "s": 6.5,
+    "e": 6.74
+   },
+   {
+    "w": "tie",
+    "s": 6.74,
+    "e": 6.94
+   },
+   {
+    "w": "a",
+    "s": 6.94,
+    "e": 7.08
+   },
+   {
+    "w": "knot.",
+    "s": 7.08,
+    "e": 7.18
+   }
+  ],
+  "heard": "The reason? The loose end keeps wandering over and under the rest of the string. Every crossing is a chance to tie a knot.",
+  "match": 1.0
+ },
+ {
+  "id": "E07",
+  "chapter": 3,
+  "text": "Longer and floppier means more chances. A very flexible string knotted in eighty-five percent of the tumbles.",
+  "dur": 6.34,
+  "words": [
+   {
+    "w": "Longer",
+    "s": 0.04,
+    "e": 0.42
+   },
+   {
+    "w": "and",
+    "s": 0.42,
+    "e": 0.56
+   },
+   {
+    "w": "floppier",
+    "s": 0.56,
+    "e": 0.98
+   },
+   {
+    "w": "means",
+    "s": 0.98,
+    "e": 1.32
+   },
+   {
+    "w": "more",
+    "s": 1.32,
+    "e": 1.54
+   },
+   {
+    "w": "chances.",
+    "s": 1.54,
+    "e": 1.88
+   },
+   {
+    "w": "A",
+    "s": 2.48,
+    "e": 2.62
+   },
+   {
+    "w": "very",
+    "s": 2.62,
+    "e": 2.84
+   },
+   {
+    "w": "flexible",
+    "s": 2.84,
+    "e": 3.32
+   },
+   {
+    "w": "string",
+    "s": 3.32,
+    "e": 3.68
+   },
+   {
+    "w": "knotted",
+    "s": 3.68,
+    "e": 4.1
+   },
+   {
+    "w": "in",
+    "s": 4.1,
+    "e": 4.38
+   },
+   {
+    "w": "eighty-five",
+    "s": 4.38,
+    "e": 5.12
+   },
+   {
+    "w": "percent",
+    "s": 5.12,
+    "e": 5.44
+   },
+   {
+    "w": "of",
+    "s": 5.44,
+    "e": 5.68
+   },
+   {
+    "w": "the",
+    "s": 5.68,
+    "e": 5.8
+   },
+   {
+    "w": "tumbles.",
+    "s": 5.8,
+    "e": 6.06
+   }
+  ],
+  "heard": "Longer and floppier means more chances. A very flexible string knotted in eighty -five percent of the tumbles.",
+  "match": 0.914
+ },
+ {
+  "id": "E08",
+  "chapter": 3,
+  "text": "So a long, floppy cable in your pocket is almost asking to be tied.",
+  "dur": 3.7,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.04,
+    "e": 0.24
+   },
+   {
+    "w": "a",
+    "s": 0.24,
+    "e": 0.38
+   },
+   {
+    "w": "long,",
+    "s": 0.38,
+    "e": 0.6
+   },
+   {
+    "w": "floppy",
+    "s": 0.88,
+    "e": 0.96
+   },
+   {
+    "w": "cable",
+    "s": 0.96,
+    "e": 1.24
+   },
+   {
+    "w": "in",
+    "s": 1.24,
+    "e": 1.38
+   },
+   {
+    "w": "your",
+    "s": 1.38,
+    "e": 1.46
+   },
+   {
+    "w": "pocket",
+    "s": 1.46,
+    "e": 1.72
+   },
+   {
+    "w": "is",
+    "s": 1.72,
+    "e": 2.26
+   },
+   {
+    "w": "almost",
+    "s": 2.26,
+    "e": 2.48
+   },
+   {
+    "w": "asking",
+    "s": 2.48,
+    "e": 2.96
+   },
+   {
+    "w": "to",
+    "s": 2.96,
+    "e": 3.2
+   },
+   {
+    "w": "be",
+    "s": 3.2,
+    "e": 3.3
+   },
+   {
+    "w": "tied.",
+    "s": 3.3,
+    "e": 3.52
+   }
+  ],
+  "heard": "So a long, floppy cable in your pocket is almost asking to be tied.",
+  "match": 1.0
+ },
+ {
+  "id": "P01",
+  "chapter": 4,
+  "text": "Try this. Snap one stick of dry spaghetti into just two pieces.",
+  "dur": 5.03,
+  "words": [
+   {
+    "w": "Try",
+    "s": 0.0,
+    "e": 0.34
+   },
+   {
+    "w": "this.",
+    "s": 0.34,
+    "e": 0.64
+   },
+   {
+    "w": "Snap",
+    "s": 1.52,
+    "e": 1.52
+   },
+   {
+    "w": "one",
+    "s": 1.52,
+    "e": 1.96
+   },
+   {
+    "w": "stick",
+    "s": 1.96,
+    "e": 2.4
+   },
+   {
+    "w": "of",
+    "s": 2.4,
+    "e": 2.7
+   },
+   {
+    "w": "dry",
+    "s": 2.7,
+    "e": 2.86
+   },
+   {
+    "w": "spaghetti",
+    "s": 2.86,
+    "e": 3.32
+   },
+   {
+    "w": "into",
+    "s": 3.32,
+    "e": 3.66
+   },
+   {
+    "w": "just",
+    "s": 3.66,
+    "e": 4.0
+   },
+   {
+    "w": "two",
+    "s": 4.0,
+    "e": 4.36
+   },
+   {
+    "w": "pieces.",
+    "s": 4.36,
+    "e": 4.74
+   }
+  ],
+  "heard": "Try this. Snap one stick of dry spaghetti into just two pieces.",
+  "match": 1.0
+ },
+ {
+  "id": "P02",
+  "chapter": 4,
+  "text": "It almost never works. It breaks into three pieces, or more.",
+  "dur": 4.27,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.03,
+    "e": 0.25
+   },
+   {
+    "w": "almost",
+    "s": 0.25,
+    "e": 0.49
+   },
+   {
+    "w": "never",
+    "s": 0.49,
+    "e": 0.91
+   },
+   {
+    "w": "works.",
+    "s": 0.91,
+    "e": 1.31
+   },
+   {
+    "w": "It",
+    "s": 1.89,
+    "e": 2.01
+   },
+   {
+    "w": "breaks",
+    "s": 2.01,
+    "e": 2.21
+   },
+   {
+    "w": "into",
+    "s": 2.21,
+    "e": 2.47
+   },
+   {
+    "w": "three",
+    "s": 2.47,
+    "e": 2.85
+   },
+   {
+    "w": "pieces,",
+    "s": 2.85,
+    "e": 3.29
+   },
+   {
+    "w": "or",
+    "s": 3.43,
+    "e": 3.69
+   },
+   {
+    "w": "more.",
+    "s": 3.69,
+    "e": 3.99
+   }
+  ],
+  "heard": "It almost never works. It breaks into three pieces, or more.",
+  "match": 1.0
+ },
+ {
+  "id": "P03",
+  "chapter": 4,
+  "text": "The famous physicist Richard Feynman once spent a good part of an evening breaking spaghetti, trying to explain it.",
+  "dur": 6.1,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.03,
+    "e": 0.25
+   },
+   {
+    "w": "famous",
+    "s": 0.25,
+    "e": 0.59
+   },
+   {
+    "w": "physicist",
+    "s": 0.59,
+    "e": 1.09
+   },
+   {
+    "w": "Richard",
+    "s": 1.09,
+    "e": 1.45
+   },
+   {
+    "w": "Feynman",
+    "s": 1.45,
+    "e": 1.89
+   },
+   {
+    "w": "once",
+    "s": 1.89,
+    "e": 2.39
+   },
+   {
+    "w": "spent",
+    "s": 2.39,
+    "e": 2.61
+   },
+   {
+    "w": "a",
+    "s": 2.61,
+    "e": 2.75
+   },
+   {
+    "w": "good",
+    "s": 2.75,
+    "e": 2.93
+   },
+   {
+    "w": "part",
+    "s": 2.93,
+    "e": 3.15
+   },
+   {
+    "w": "of",
+    "s": 3.15,
+    "e": 3.25
+   },
+   {
+    "w": "an",
+    "s": 3.25,
+    "e": 3.41
+   },
+   {
+    "w": "evening",
+    "s": 3.41,
+    "e": 3.69
+   },
+   {
+    "w": "breaking",
+    "s": 3.69,
+    "e": 4.23
+   },
+   {
+    "w": "spaghetti,",
+    "s": 4.23,
+    "e": 4.75
+   },
+   {
+    "w": "trying",
+    "s": 4.97,
+    "e": 5.21
+   },
+   {
+    "w": "to",
+    "s": 5.21,
+    "e": 5.35
+   },
+   {
+    "w": "explain",
+    "s": 5.35,
+    "e": 5.71
+   },
+   {
+    "w": "it.",
+    "s": 5.71,
+    "e": 5.97
+   }
+  ],
+  "heard": "The famous physicist Richard Feynman once spent a good part of an evening breaking spaghetti, trying to explain it.",
+  "match": 1.0
+ },
+ {
+  "id": "P04",
+  "chapter": 4,
+  "text": "In 2005, two French scientists finally cracked it.",
+  "dur": 3.62,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.03,
+    "e": 0.19
+   },
+   {
+    "w": "2005,",
+    "s": 0.19,
+    "e": 0.81
+   },
+   {
+    "w": "two",
+    "s": 1.35,
+    "e": 1.45
+   },
+   {
+    "w": "French",
+    "s": 1.45,
+    "e": 1.75
+   },
+   {
+    "w": "scientists",
+    "s": 1.75,
+    "e": 2.31
+   },
+   {
+    "w": "finally",
+    "s": 2.31,
+    "e": 2.91
+   },
+   {
+    "w": "cracked",
+    "s": 2.91,
+    "e": 3.21
+   },
+   {
+    "w": "it.",
+    "s": 3.21,
+    "e": 3.49
+   }
+  ],
+  "heard": "In 2005, two French scientists finally cracked it.",
+  "match": 1.0
+ },
+ {
+  "id": "P05",
+  "chapter": 4,
+  "text": "When the stick snaps near the middle, each half springs back, and that sends a wave of bending down the pieces.",
+  "dur": 6.34,
+  "words": [
+   {
+    "w": "When",
+    "s": 0.03,
+    "e": 0.21
+   },
+   {
+    "w": "the",
+    "s": 0.21,
+    "e": 0.37
+   },
+   {
+    "w": "stick",
+    "s": 0.37,
+    "e": 0.55
+   },
+   {
+    "w": "snaps",
+    "s": 0.55,
+    "e": 0.97
+   },
+   {
+    "w": "near",
+    "s": 0.97,
+    "e": 1.15
+   },
+   {
+    "w": "the",
+    "s": 1.15,
+    "e": 1.31
+   },
+   {
+    "w": "middle,",
+    "s": 1.31,
+    "e": 1.57
+   },
+   {
+    "w": "each",
+    "s": 1.99,
+    "e": 2.19
+   },
+   {
+    "w": "half",
+    "s": 2.19,
+    "e": 2.49
+   },
+   {
+    "w": "springs",
+    "s": 2.49,
+    "e": 2.83
+   },
+   {
+    "w": "back,",
+    "s": 2.83,
+    "e": 3.27
+   },
+   {
+    "w": "and",
+    "s": 3.61,
+    "e": 3.77
+   },
+   {
+    "w": "that",
+    "s": 3.77,
+    "e": 3.95
+   },
+   {
+    "w": "sends",
+    "s": 3.95,
+    "e": 4.23
+   },
+   {
+    "w": "a",
+    "s": 4.23,
+    "e": 4.43
+   },
+   {
+    "w": "wave",
+    "s": 4.43,
+    "e": 4.59
+   },
+   {
+    "w": "of",
+    "s": 4.59,
+    "e": 4.89
+   },
+   {
+    "w": "bending",
+    "s": 4.89,
+    "e": 5.25
+   },
+   {
+    "w": "down",
+    "s": 5.25,
+    "e": 5.57
+   },
+   {
+    "w": "the",
+    "s": 5.57,
+    "e": 5.73
+   },
+   {
+    "w": "pieces.",
+    "s": 5.73,
+    "e": 6.05
+   }
+  ],
+  "heard": "When the stick snaps near the middle, each half springs back, and that sends a wave of bending down the pieces.",
+  "match": 1.0
+ },
+ {
+  "id": "P06",
+  "chapter": 4,
+  "text": "The wave bends them even more than before... and they snap again.",
+  "dur": 4.39,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.03,
+    "e": 0.17
+   },
+   {
+    "w": "wave",
+    "s": 0.17,
+    "e": 0.43
+   },
+   {
+    "w": "bends",
+    "s": 0.43,
+    "e": 0.73
+   },
+   {
+    "w": "them",
+    "s": 0.73,
+    "e": 0.93
+   },
+   {
+    "w": "even",
+    "s": 0.93,
+    "e": 1.19
+   },
+   {
+    "w": "more",
+    "s": 1.19,
+    "e": 1.55
+   },
+   {
+    "w": "than",
+    "s": 1.55,
+    "e": 1.79
+   },
+   {
+    "w": "before...",
+    "s": 1.79,
+    "e": 2.17
+   },
+   {
+    "w": "and",
+    "s": 2.55,
+    "e": 3.09
+   },
+   {
+    "w": "they",
+    "s": 3.09,
+    "e": 3.59
+   },
+   {
+    "w": "snap",
+    "s": 3.59,
+    "e": 3.81
+   },
+   {
+    "w": "again.",
+    "s": 3.81,
+    "e": 4.15
+   }
+  ],
+  "heard": "The wave bends them even more than before, and they snap again.",
+  "match": 1.0
+ },
+ {
+  "id": "P07",
+  "chapter": 4,
+  "text": "Then in 2018, a team at MIT found the trick: twist the spaghetti first, almost a full turn, and then bend it.",
+  "dur": 8.18,
+  "words": [
+   {
+    "w": "Then",
+    "s": 0.05,
+    "e": 0.19
+   },
+   {
+    "w": "in",
+    "s": 0.19,
+    "e": 0.33
+   },
+   {
+    "w": "2018,",
+    "s": 0.33,
+    "e": 0.91
+   },
+   {
+    "w": "a",
+    "s": 1.47,
+    "e": 1.47
+   },
+   {
+    "w": "team",
+    "s": 1.47,
+    "e": 1.65
+   },
+   {
+    "w": "at",
+    "s": 1.65,
+    "e": 1.81
+   },
+   {
+    "w": "MIT",
+    "s": 1.81,
+    "e": 2.19
+   },
+   {
+    "w": "found",
+    "s": 2.19,
+    "e": 2.81
+   },
+   {
+    "w": "the",
+    "s": 2.81,
+    "e": 3.05
+   },
+   {
+    "w": "trick:",
+    "s": 3.05,
+    "e": 3.35
+   },
+   {
+    "w": "twist",
+    "s": 4.07,
+    "e": 4.25
+   },
+   {
+    "w": "the",
+    "s": 4.25,
+    "e": 4.49
+   },
+   {
+    "w": "spaghetti",
+    "s": 4.49,
+    "e": 4.81
+   },
+   {
+    "w": "first,",
+    "s": 4.81,
+    "e": 5.21
+   },
+   {
+    "w": "almost",
+    "s": 5.63,
+    "e": 5.85
+   },
+   {
+    "w": "a",
+    "s": 5.85,
+    "e": 6.05
+   },
+   {
+    "w": "full",
+    "s": 6.05,
+    "e": 6.39
+   },
+   {
+    "w": "turn,",
+    "s": 6.39,
+    "e": 6.75
+   },
+   {
+    "w": "and",
+    "s": 7.09,
+    "e": 7.31
+   },
+   {
+    "w": "then",
+    "s": 7.31,
+    "e": 7.59
+   },
+   {
+    "w": "bend",
+    "s": 7.59,
+    "e": 7.83
+   },
+   {
+    "w": "it.",
+    "s": 7.83,
+    "e": 8.05
+   }
+  ],
+  "heard": "Then in 2018, a team at MIT found the trick. Twist the spaghetti first, almost a full turn, and then bend it.",
+  "match": 1.0
+ },
+ {
+  "id": "P08",
+  "chapter": 4,
+  "text": "The twist soaks up the snap-back, and the stick breaks cleanly in two.",
+  "dur": 3.8,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.03,
+    "e": 0.19
+   },
+   {
+    "w": "twist",
+    "s": 0.19,
+    "e": 0.51
+   },
+   {
+    "w": "soaks",
+    "s": 0.51,
+    "e": 0.93
+   },
+   {
+    "w": "up",
+    "s": 0.93,
+    "e": 1.05
+   },
+   {
+    "w": "the",
+    "s": 1.05,
+    "e": 1.21
+   },
+   {
+    "w": "snap-back,",
+    "s": 1.21,
+    "e": 2.01
+   },
+   {
+    "w": "and",
+    "s": 2.01,
+    "e": 2.17
+   },
+   {
+    "w": "the",
+    "s": 2.17,
+    "e": 2.29
+   },
+   {
+    "w": "stick",
+    "s": 2.29,
+    "e": 2.51
+   },
+   {
+    "w": "breaks",
+    "s": 2.51,
+    "e": 2.85
+   },
+   {
+    "w": "cleanly",
+    "s": 2.85,
+    "e": 3.31
+   },
+   {
+    "w": "in",
+    "s": 3.31,
+    "e": 3.43
+   },
+   {
+    "w": "two.",
+    "s": 3.43,
+    "e": 3.59
+   }
+  ],
+  "heard": "The twist soaks up the snap -back, and the stick breaks cleanly in two.",
+  "match": 0.889
+ },
+ {
+  "id": "P09",
+  "chapter": 4,
+  "text": "They built a special machine to do it. So, good luck at dinner.",
+  "dur": 3.37,
+  "words": [
+   {
+    "w": "They",
+    "s": 0.03,
+    "e": 0.21
+   },
+   {
+    "w": "built",
+    "s": 0.21,
+    "e": 0.33
+   },
+   {
+    "w": "a",
+    "s": 0.33,
+    "e": 0.51
+   },
+   {
+    "w": "special",
+    "s": 0.51,
+    "e": 0.75
+   },
+   {
+    "w": "machine",
+    "s": 0.75,
+    "e": 1.03
+   },
+   {
+    "w": "to",
+    "s": 1.03,
+    "e": 1.21
+   },
+   {
+    "w": "do",
+    "s": 1.21,
+    "e": 1.35
+   },
+   {
+    "w": "it.",
+    "s": 1.35,
+    "e": 1.53
+   },
+   {
+    "w": "So,",
+    "s": 1.91,
+    "e": 2.03
+   },
+   {
+    "w": "good",
+    "s": 2.33,
+    "e": 2.75
+   },
+   {
+    "w": "luck",
+    "s": 2.75,
+    "e": 2.89
+   },
+   {
+    "w": "at",
+    "s": 2.89,
+    "e": 3.07
+   },
+   {
+    "w": "dinner.",
+    "s": 3.07,
+    "e": 3.19
+   }
+  ],
+  "heard": "They built a special machine to do it. So, good luck at dinner.",
+  "match": 1.0
+ },
+ {
+  "id": "C01",
+  "chapter": 5,
+  "text": "Now, the bathroom. You turn on the shower, and the curtain creeps in and sticks to your legs. Why?",
+  "dur": 6.62,
+  "words": [
+   {
+    "w": "Now,",
+    "s": 0.0,
+    "e": 0.62
+   },
+   {
+    "w": "the",
+    "s": 0.94,
+    "e": 1.08
+   },
+   {
+    "w": "bathroom.",
+    "s": 1.08,
+    "e": 1.46
+   },
+   {
+    "w": "You",
+    "s": 1.98,
+    "e": 2.16
+   },
+   {
+    "w": "turn",
+    "s": 2.16,
+    "e": 2.3
+   },
+   {
+    "w": "on",
+    "s": 2.3,
+    "e": 2.46
+   },
+   {
+    "w": "the",
+    "s": 2.46,
+    "e": 2.56
+   },
+   {
+    "w": "shower,",
+    "s": 2.56,
+    "e": 2.8
+   },
+   {
+    "w": "and",
+    "s": 3.06,
+    "e": 3.16
+   },
+   {
+    "w": "the",
+    "s": 3.16,
+    "e": 3.3
+   },
+   {
+    "w": "curtain",
+    "s": 3.3,
+    "e": 3.58
+   },
+   {
+    "w": "creeps",
+    "s": 3.58,
+    "e": 4.08
+   },
+   {
+    "w": "in",
+    "s": 4.08,
+    "e": 4.38
+   },
+   {
+    "w": "and",
+    "s": 4.38,
+    "e": 4.6
+   },
+   {
+    "w": "sticks",
+    "s": 4.6,
+    "e": 4.9
+   },
+   {
+    "w": "to",
+    "s": 4.9,
+    "e": 5.12
+   },
+   {
+    "w": "your",
+    "s": 5.12,
+    "e": 5.22
+   },
+   {
+    "w": "legs.",
+    "s": 5.22,
+    "e": 5.42
+   },
+   {
+    "w": "Why?",
+    "s": 6.14,
+    "e": 6.38
+   }
+  ],
+  "heard": "Now, the bathroom. You turn on the shower, and the curtain creeps in and sticks to your legs. Why?",
+  "match": 1.0
+ },
+ {
+  "id": "C02",
+  "chapter": 5,
+  "text": "For years, people blamed hot air rising, or the fast-moving water.",
+  "dur": 3.85,
+  "words": [
+   {
+    "w": "For",
+    "s": 0.03,
+    "e": 0.27
+   },
+   {
+    "w": "years,",
+    "s": 0.27,
+    "e": 0.49
+   },
+   {
+    "w": "people",
+    "s": 0.75,
+    "e": 0.93
+   },
+   {
+    "w": "blamed",
+    "s": 0.93,
+    "e": 1.33
+   },
+   {
+    "w": "hot",
+    "s": 1.33,
+    "e": 1.63
+   },
+   {
+    "w": "air",
+    "s": 1.63,
+    "e": 1.79
+   },
+   {
+    "w": "rising,",
+    "s": 1.79,
+    "e": 2.29
+   },
+   {
+    "w": "or",
+    "s": 2.49,
+    "e": 2.71
+   },
+   {
+    "w": "the",
+    "s": 2.71,
+    "e": 2.85
+   },
+   {
+    "w": "fast-moving",
+    "s": 2.85,
+    "e": 3.25
+   },
+   {
+    "w": "water.",
+    "s": 3.25,
+    "e": 3.59
+   }
+  ],
+  "heard": "For years, people blamed hot air rising, or the fast -moving water.",
+  "match": 0.87
+ },
+ {
+  "id": "C03",
+  "chapter": 5,
+  "text": "But the curtain gets pulled in by a cold shower too.",
+  "dur": 2.98,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.04,
+    "e": 0.2
+   },
+   {
+    "w": "the",
+    "s": 0.2,
+    "e": 0.68
+   },
+   {
+    "w": "curtain",
+    "s": 0.68,
+    "e": 0.94
+   },
+   {
+    "w": "gets",
+    "s": 0.94,
+    "e": 1.16
+   },
+   {
+    "w": "pulled",
+    "s": 1.16,
+    "e": 1.4
+   },
+   {
+    "w": "in",
+    "s": 1.4,
+    "e": 1.58
+   },
+   {
+    "w": "by",
+    "s": 1.58,
+    "e": 1.82
+   },
+   {
+    "w": "a",
+    "s": 1.82,
+    "e": 2.04
+   },
+   {
+    "w": "cold",
+    "s": 2.04,
+    "e": 2.2
+   },
+   {
+    "w": "shower",
+    "s": 2.2,
+    "e": 2.48
+   },
+   {
+    "w": "too.",
+    "s": 2.48,
+    "e": 2.8
+   }
+  ],
+  "heard": "But the curtain gets pulled in by a cold shower too.",
+  "match": 1.0
+ },
+ {
+  "id": "C04",
+  "chapter": 5,
+  "text": "In 2001, engineer David Schmidt split a virtual bathroom into fifty thousand tiny cells, and let his home computer run for two weeks.",
+  "dur": 7.89,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.03,
+    "e": 0.17
+   },
+   {
+    "w": "2001,",
+    "s": 0.17,
+    "e": 0.77
+   },
+   {
+    "w": "engineer",
+    "s": 1.03,
+    "e": 1.21
+   },
+   {
+    "w": "David",
+    "s": 1.21,
+    "e": 1.75
+   },
+   {
+    "w": "Schmidt",
+    "s": 1.75,
+    "e": 2.05
+   },
+   {
+    "w": "split",
+    "s": 2.05,
+    "e": 2.37
+   },
+   {
+    "w": "a",
+    "s": 2.37,
+    "e": 2.55
+   },
+   {
+    "w": "virtual",
+    "s": 2.55,
+    "e": 2.83
+   },
+   {
+    "w": "bathroom",
+    "s": 2.83,
+    "e": 3.21
+   },
+   {
+    "w": "into",
+    "s": 3.21,
+    "e": 3.47
+   },
+   {
+    "w": "fifty",
+    "s": 3.47,
+    "e": 4.03
+   },
+   {
+    "w": "thousand",
+    "s": 4.03,
+    "e": 4.65
+   },
+   {
+    "w": "tiny",
+    "s": 4.65,
+    "e": 5.01
+   },
+   {
+    "w": "cells,",
+    "s": 5.01,
+    "e": 5.35
+   },
+   {
+    "w": "and",
+    "s": 5.59,
+    "e": 5.81
+   },
+   {
+    "w": "let",
+    "s": 5.81,
+    "e": 5.93
+   },
+   {
+    "w": "his",
+    "s": 5.93,
+    "e": 6.07
+   },
+   {
+    "w": "home",
+    "s": 6.07,
+    "e": 6.23
+   },
+   {
+    "w": "computer",
+    "s": 6.23,
+    "e": 6.55
+   },
+   {
+    "w": "run",
+    "s": 6.55,
+    "e": 6.85
+   },
+   {
+    "w": "for",
+    "s": 6.85,
+    "e": 7.11
+   },
+   {
+    "w": "two",
+    "s": 7.11,
+    "e": 7.33
+   },
+   {
+    "w": "weeks.",
+    "s": 7.33,
+    "e": 7.65
+   }
+  ],
+  "heard": "In 2001, engineer David Schmidt split a virtual bathroom into fifty thousand tiny cells, and let his home computer run for two weeks.",
+  "match": 1.0
+ },
+ {
+  "id": "C05",
+  "chapter": 5,
+  "text": "All that, for thirty seconds of shower time.",
+  "dur": 2.67,
+  "words": [
+   {
+    "w": "All",
+    "s": 0.03,
+    "e": 0.37
+   },
+   {
+    "w": "that,",
+    "s": 0.37,
+    "e": 0.61
+   },
+   {
+    "w": "for",
+    "s": 0.75,
+    "e": 0.93
+   },
+   {
+    "w": "thirty",
+    "s": 0.93,
+    "e": 1.41
+   },
+   {
+    "w": "seconds",
+    "s": 1.41,
+    "e": 1.87
+   },
+   {
+    "w": "of",
+    "s": 1.87,
+    "e": 2.05
+   },
+   {
+    "w": "shower",
+    "s": 2.05,
+    "e": 2.21
+   },
+   {
+    "w": "time.",
+    "s": 2.21,
+    "e": 2.49
+   }
+  ],
+  "heard": "All that, for thirty seconds of shower time.",
+  "match": 1.0
+ },
+ {
+  "id": "C06",
+  "chapter": 5,
+  "text": "The answer: the spray drives a spinning vortex of air, like a little sideways whirlwind.",
+  "dur": 5.87,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.03,
+    "e": 0.53
+   },
+   {
+    "w": "answer:",
+    "s": 0.53,
+    "e": 0.75
+   },
+   {
+    "w": "the",
+    "s": 1.43,
+    "e": 1.49
+   },
+   {
+    "w": "spray",
+    "s": 1.49,
+    "e": 1.77
+   },
+   {
+    "w": "drives",
+    "s": 1.77,
+    "e": 2.13
+   },
+   {
+    "w": "a",
+    "s": 2.13,
+    "e": 2.31
+   },
+   {
+    "w": "spinning",
+    "s": 2.31,
+    "e": 2.73
+   },
+   {
+    "w": "vortex",
+    "s": 2.73,
+    "e": 3.27
+   },
+   {
+    "w": "of",
+    "s": 3.27,
+    "e": 3.57
+   },
+   {
+    "w": "air,",
+    "s": 3.57,
+    "e": 3.71
+   },
+   {
+    "w": "like",
+    "s": 4.05,
+    "e": 4.19
+   },
+   {
+    "w": "a",
+    "s": 4.19,
+    "e": 4.45
+   },
+   {
+    "w": "little",
+    "s": 4.45,
+    "e": 4.63
+   },
+   {
+    "w": "sideways",
+    "s": 4.63,
+    "e": 5.15
+   },
+   {
+    "w": "whirlwind.",
+    "s": 5.15,
+    "e": 5.67
+   }
+  ],
+  "heard": "The answer? The spray drives a spinning vortex of air, like a little sideways whirlwind.",
+  "match": 1.0
+ },
+ {
+  "id": "C07",
+  "chapter": 5,
+  "text": "The middle of that whirlwind has low pressure, and low pressure pulls the light curtain in.",
+  "dur": 4.55,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.06,
+    "e": 0.14
+   },
+   {
+    "w": "middle",
+    "s": 0.14,
+    "e": 0.28
+   },
+   {
+    "w": "of",
+    "s": 0.28,
+    "e": 0.44
+   },
+   {
+    "w": "that",
+    "s": 0.44,
+    "e": 0.56
+   },
+   {
+    "w": "whirlwind",
+    "s": 0.56,
+    "e": 0.9
+   },
+   {
+    "w": "has",
+    "s": 0.9,
+    "e": 1.24
+   },
+   {
+    "w": "low",
+    "s": 1.24,
+    "e": 1.48
+   },
+   {
+    "w": "pressure,",
+    "s": 1.48,
+    "e": 1.82
+   },
+   {
+    "w": "and",
+    "s": 2.14,
+    "e": 2.28
+   },
+   {
+    "w": "low",
+    "s": 2.28,
+    "e": 2.52
+   },
+   {
+    "w": "pressure",
+    "s": 2.52,
+    "e": 2.88
+   },
+   {
+    "w": "pulls",
+    "s": 2.88,
+    "e": 3.22
+   },
+   {
+    "w": "the",
+    "s": 3.22,
+    "e": 3.44
+   },
+   {
+    "w": "light",
+    "s": 3.44,
+    "e": 3.66
+   },
+   {
+    "w": "curtain",
+    "s": 3.66,
+    "e": 3.94
+   },
+   {
+    "w": "in.",
+    "s": 3.94,
+    "e": 4.32
+   }
+  ],
+  "heard": "The middle of that whirlwind has low pressure, and low pressure pulls the light curtain in.",
+  "match": 1.0
+ },
+ {
+  "id": "C08",
+  "chapter": 5,
+  "text": "His fix? Weights in the hem of the curtain. And yes, this won an Ig Nobel Prize too.",
+  "dur": 5.62,
+  "words": [
+   {
+    "w": "His",
+    "s": 0.04,
+    "e": 0.26
+   },
+   {
+    "w": "fix?",
+    "s": 0.26,
+    "e": 0.48
+   },
+   {
+    "w": "Weights",
+    "s": 1.04,
+    "e": 1.26
+   },
+   {
+    "w": "in",
+    "s": 1.26,
+    "e": 1.42
+   },
+   {
+    "w": "the",
+    "s": 1.42,
+    "e": 1.54
+   },
+   {
+    "w": "hem",
+    "s": 1.54,
+    "e": 1.66
+   },
+   {
+    "w": "of",
+    "s": 1.66,
+    "e": 1.76
+   },
+   {
+    "w": "the",
+    "s": 1.76,
+    "e": 1.88
+   },
+   {
+    "w": "curtain.",
+    "s": 1.88,
+    "e": 2.08
+   },
+   {
+    "w": "And",
+    "s": 2.84,
+    "e": 3.02
+   },
+   {
+    "w": "yes,",
+    "s": 3.02,
+    "e": 3.22
+   },
+   {
+    "w": "this",
+    "s": 3.72,
+    "e": 3.86
+   },
+   {
+    "w": "won",
+    "s": 3.86,
+    "e": 4.14
+   },
+   {
+    "w": "an",
+    "s": 4.14,
+    "e": 4.36
+   },
+   {
+    "w": "Ig",
+    "s": 4.36,
+    "e": 4.48
+   },
+   {
+    "w": "Nobel",
+    "s": 4.48,
+    "e": 4.74
+   },
+   {
+    "w": "Prize",
+    "s": 4.74,
+    "e": 5.16
+   },
+   {
+    "w": "too.",
+    "s": 5.16,
+    "e": 5.44
+   }
+  ],
+  "heard": "His fix? Weights in the hem of the curtain. And yes, this won an Ig Nobel Prize too.",
+  "match": 1.0
+ },
+ {
+  "id": "R01",
+  "chapter": 6,
+  "text": "Spill a drop of coffee and let it dry. You get a dark ring, not a brown spot. Why only the edge?",
+  "dur": 7.22,
+  "words": [
+   {
+    "w": "Spill",
+    "s": 0.0,
+    "e": 0.48
+   },
+   {
+    "w": "a",
+    "s": 0.48,
+    "e": 0.6
+   },
+   {
+    "w": "drop",
+    "s": 0.6,
+    "e": 0.74
+   },
+   {
+    "w": "of",
+    "s": 0.74,
+    "e": 0.94
+   },
+   {
+    "w": "coffee",
+    "s": 0.94,
+    "e": 1.24
+   },
+   {
+    "w": "and",
+    "s": 1.24,
+    "e": 1.6
+   },
+   {
+    "w": "let",
+    "s": 1.6,
+    "e": 1.74
+   },
+   {
+    "w": "it",
+    "s": 1.74,
+    "e": 1.88
+   },
+   {
+    "w": "dry.",
+    "s": 1.88,
+    "e": 2.1
+   },
+   {
+    "w": "You",
+    "s": 2.6,
+    "e": 2.84
+   },
+   {
+    "w": "get",
+    "s": 2.84,
+    "e": 2.98
+   },
+   {
+    "w": "a",
+    "s": 2.98,
+    "e": 3.14
+   },
+   {
+    "w": "dark",
+    "s": 3.14,
+    "e": 3.38
+   },
+   {
+    "w": "ring,",
+    "s": 3.38,
+    "e": 3.78
+   },
+   {
+    "w": "not",
+    "s": 3.96,
+    "e": 4.16
+   },
+   {
+    "w": "a",
+    "s": 4.16,
+    "e": 4.34
+   },
+   {
+    "w": "brown",
+    "s": 4.34,
+    "e": 4.52
+   },
+   {
+    "w": "spot.",
+    "s": 4.52,
+    "e": 4.96
+   },
+   {
+    "w": "Why",
+    "s": 5.72,
+    "e": 6.0
+   },
+   {
+    "w": "only",
+    "s": 6.0,
+    "e": 6.4
+   },
+   {
+    "w": "the",
+    "s": 6.4,
+    "e": 6.64
+   },
+   {
+    "w": "edge?",
+    "s": 6.64,
+    "e": 6.88
+   }
+  ],
+  "heard": "Spill a drop of coffee and let it dry. You get a dark ring, not a brown spot. Why only the edge?",
+  "match": 1.0
+ },
+ {
+  "id": "R02",
+  "chapter": 6,
+  "text": "In 1997, physicists in Chicago published the answer in the journal Nature.",
+  "dur": 4.63,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.03,
+    "e": 0.27
+   },
+   {
+    "w": "1997,",
+    "s": 0.27,
+    "e": 0.91
+   },
+   {
+    "w": "physicists",
+    "s": 1.31,
+    "e": 1.49
+   },
+   {
+    "w": "in",
+    "s": 1.49,
+    "e": 1.95
+   },
+   {
+    "w": "Chicago",
+    "s": 1.95,
+    "e": 2.31
+   },
+   {
+    "w": "published",
+    "s": 2.31,
+    "e": 2.83
+   },
+   {
+    "w": "the",
+    "s": 2.83,
+    "e": 3.07
+   },
+   {
+    "w": "answer",
+    "s": 3.07,
+    "e": 3.35
+   },
+   {
+    "w": "in",
+    "s": 3.35,
+    "e": 3.57
+   },
+   {
+    "w": "the",
+    "s": 3.57,
+    "e": 3.67
+   },
+   {
+    "w": "journal",
+    "s": 3.67,
+    "e": 3.93
+   },
+   {
+    "w": "Nature.",
+    "s": 3.93,
+    "e": 4.29
+   }
+  ],
+  "heard": "In 1997, physicists in Chicago published the answer in the journal Nature.",
+  "match": 1.0
+ },
+ {
+  "id": "R03",
+  "chapter": 6,
+  "text": "As the drop dries, its edge gets stuck to the table.",
+  "dur": 3.08,
+  "words": [
+   {
+    "w": "As",
+    "s": 0.08,
+    "e": 0.2
+   },
+   {
+    "w": "the",
+    "s": 0.2,
+    "e": 0.34
+   },
+   {
+    "w": "drop",
+    "s": 0.34,
+    "e": 0.56
+   },
+   {
+    "w": "dries,",
+    "s": 0.56,
+    "e": 1.04
+   },
+   {
+    "w": "its",
+    "s": 1.2,
+    "e": 1.32
+   },
+   {
+    "w": "edge",
+    "s": 1.32,
+    "e": 1.64
+   },
+   {
+    "w": "gets",
+    "s": 1.64,
+    "e": 1.84
+   },
+   {
+    "w": "stuck",
+    "s": 1.84,
+    "e": 2.16
+   },
+   {
+    "w": "to",
+    "s": 2.16,
+    "e": 2.4
+   },
+   {
+    "w": "the",
+    "s": 2.4,
+    "e": 2.52
+   },
+   {
+    "w": "table.",
+    "s": 2.52,
+    "e": 2.88
+   }
+  ],
+  "heard": "As the drop dries, its edge gets stuck to the table.",
+  "match": 1.0
+ },
+ {
+  "id": "R04",
+  "chapter": 6,
+  "text": "The edge dries fastest, so water flows outward from the middle to replace it.",
+  "dur": 4.22,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.03,
+    "e": 0.19
+   },
+   {
+    "w": "edge",
+    "s": 0.19,
+    "e": 0.41
+   },
+   {
+    "w": "dries",
+    "s": 0.41,
+    "e": 0.75
+   },
+   {
+    "w": "fastest,",
+    "s": 0.75,
+    "e": 1.15
+   },
+   {
+    "w": "so",
+    "s": 1.35,
+    "e": 1.61
+   },
+   {
+    "w": "water",
+    "s": 1.61,
+    "e": 1.87
+   },
+   {
+    "w": "flows",
+    "s": 1.87,
+    "e": 2.19
+   },
+   {
+    "w": "outward",
+    "s": 2.19,
+    "e": 2.57
+   },
+   {
+    "w": "from",
+    "s": 2.57,
+    "e": 2.89
+   },
+   {
+    "w": "the",
+    "s": 2.89,
+    "e": 3.05
+   },
+   {
+    "w": "middle",
+    "s": 3.05,
+    "e": 3.25
+   },
+   {
+    "w": "to",
+    "s": 3.25,
+    "e": 3.49
+   },
+   {
+    "w": "replace",
+    "s": 3.49,
+    "e": 3.75
+   },
+   {
+    "w": "it.",
+    "s": 3.75,
+    "e": 4.09
+   }
+  ],
+  "heard": "The edge dries fastest, so water flows outward from the middle to replace it.",
+  "match": 1.0
+ },
+ {
+  "id": "R05",
+  "chapter": 6,
+  "text": "That flow carries the tiny coffee grains with it, and dumps almost all of them at the rim.",
+  "dur": 5.1,
+  "words": [
+   {
+    "w": "That",
+    "s": 0.03,
+    "e": 0.29
+   },
+   {
+    "w": "flow",
+    "s": 0.29,
+    "e": 0.65
+   },
+   {
+    "w": "carries",
+    "s": 0.65,
+    "e": 1.03
+   },
+   {
+    "w": "the",
+    "s": 1.03,
+    "e": 1.23
+   },
+   {
+    "w": "tiny",
+    "s": 1.23,
+    "e": 1.57
+   },
+   {
+    "w": "coffee",
+    "s": 1.57,
+    "e": 2.01
+   },
+   {
+    "w": "grains",
+    "s": 2.01,
+    "e": 2.29
+   },
+   {
+    "w": "with",
+    "s": 2.29,
+    "e": 2.55
+   },
+   {
+    "w": "it,",
+    "s": 2.55,
+    "e": 2.83
+   },
+   {
+    "w": "and",
+    "s": 2.89,
+    "e": 3.21
+   },
+   {
+    "w": "dumps",
+    "s": 3.21,
+    "e": 3.43
+   },
+   {
+    "w": "almost",
+    "s": 3.43,
+    "e": 3.77
+   },
+   {
+    "w": "all",
+    "s": 3.77,
+    "e": 4.15
+   },
+   {
+    "w": "of",
+    "s": 4.15,
+    "e": 4.29
+   },
+   {
+    "w": "them",
+    "s": 4.29,
+    "e": 4.39
+   },
+   {
+    "w": "at",
+    "s": 4.39,
+    "e": 4.51
+   },
+   {
+    "w": "the",
+    "s": 4.51,
+    "e": 4.63
+   },
+   {
+    "w": "rim.",
+    "s": 4.63,
+    "e": 4.85
+   }
+  ],
+  "heard": "That flow carries the tiny coffee grains with it, and dumps almost all of them at the rim.",
+  "match": 1.0
+ },
+ {
+  "id": "R06",
+  "chapter": 6,
+  "text": "Then in 2011, a team in Pennsylvania found a way to stop it: change the shape of the particles.",
+  "dur": 5.68,
+  "words": [
+   {
+    "w": "Then",
+    "s": 0.06,
+    "e": 0.32
+   },
+   {
+    "w": "in",
+    "s": 0.32,
+    "e": 0.5
+   },
+   {
+    "w": "2011,",
+    "s": 0.5,
+    "e": 1.0
+   },
+   {
+    "w": "a",
+    "s": 1.44,
+    "e": 1.52
+   },
+   {
+    "w": "team",
+    "s": 1.52,
+    "e": 1.7
+   },
+   {
+    "w": "in",
+    "s": 1.7,
+    "e": 1.86
+   },
+   {
+    "w": "Pennsylvania",
+    "s": 1.86,
+    "e": 2.26
+   },
+   {
+    "w": "found",
+    "s": 2.26,
+    "e": 2.66
+   },
+   {
+    "w": "a",
+    "s": 2.66,
+    "e": 2.8
+   },
+   {
+    "w": "way",
+    "s": 2.8,
+    "e": 2.86
+   },
+   {
+    "w": "to",
+    "s": 2.86,
+    "e": 3.02
+   },
+   {
+    "w": "stop",
+    "s": 3.02,
+    "e": 3.3
+   },
+   {
+    "w": "it:",
+    "s": 3.3,
+    "e": 3.5
+   },
+   {
+    "w": "change",
+    "s": 3.9,
+    "e": 4.06
+   },
+   {
+    "w": "the",
+    "s": 4.06,
+    "e": 4.3
+   },
+   {
+    "w": "shape",
+    "s": 4.3,
+    "e": 4.54
+   },
+   {
+    "w": "of",
+    "s": 4.54,
+    "e": 4.76
+   },
+   {
+    "w": "the",
+    "s": 4.76,
+    "e": 4.88
+   },
+   {
+    "w": "particles.",
+    "s": 4.88,
+    "e": 5.4
+   }
+  ],
+  "heard": "Then in 2011, a team in Pennsylvania found a way to stop it. Change the shape of the particles.",
+  "match": 1.0
+ },
+ {
+  "id": "R07",
+  "chapter": 6,
+  "text": "Stretched, egg-shaped particles grab onto each other at the surface, and dry evenly. No ring.",
+  "dur": 5.53,
+  "words": [
+   {
+    "w": "Stretched,",
+    "s": 0.26,
+    "e": 0.52
+   },
+   {
+    "w": "egg-shaped",
+    "s": 0.52,
+    "e": 1.16
+   },
+   {
+    "w": "particles",
+    "s": 1.16,
+    "e": 1.68
+   },
+   {
+    "w": "grab",
+    "s": 1.68,
+    "e": 2.06
+   },
+   {
+    "w": "onto",
+    "s": 2.06,
+    "e": 2.32
+   },
+   {
+    "w": "each",
+    "s": 2.32,
+    "e": 2.52
+   },
+   {
+    "w": "other",
+    "s": 2.52,
+    "e": 2.66
+   },
+   {
+    "w": "at",
+    "s": 2.66,
+    "e": 2.84
+   },
+   {
+    "w": "the",
+    "s": 2.84,
+    "e": 2.98
+   },
+   {
+    "w": "surface,",
+    "s": 2.98,
+    "e": 3.28
+   },
+   {
+    "w": "and",
+    "s": 3.5,
+    "e": 3.6
+   },
+   {
+    "w": "dry",
+    "s": 3.6,
+    "e": 3.84
+   },
+   {
+    "w": "evenly.",
+    "s": 3.84,
+    "e": 4.3
+   },
+   {
+    "w": "No",
+    "s": 4.92,
+    "e": 5.04
+   },
+   {
+    "w": "ring.",
+    "s": 5.04,
+    "e": 5.26
+   }
+  ],
+  "heard": "Stretched, egg -shaped particles grab onto each other at the surface, and dry evenly. No ring.",
+  "match": 0.903
+ },
+ {
+  "id": "R08",
+  "chapter": 6,
+  "text": "Printers and paint makers care about this a lot. A ring is the last thing you want in ink.",
+  "dur": 4.74,
+  "words": [
+   {
+    "w": "Printers",
+    "s": 0.04,
+    "e": 0.44
+   },
+   {
+    "w": "and",
+    "s": 0.44,
+    "e": 0.58
+   },
+   {
+    "w": "paint",
+    "s": 0.58,
+    "e": 0.8
+   },
+   {
+    "w": "makers",
+    "s": 0.8,
+    "e": 1.08
+   },
+   {
+    "w": "care",
+    "s": 1.08,
+    "e": 1.32
+   },
+   {
+    "w": "about",
+    "s": 1.32,
+    "e": 1.54
+   },
+   {
+    "w": "this",
+    "s": 1.54,
+    "e": 1.76
+   },
+   {
+    "w": "a",
+    "s": 1.76,
+    "e": 1.98
+   },
+   {
+    "w": "lot.",
+    "s": 1.98,
+    "e": 2.26
+   },
+   {
+    "w": "A",
+    "s": 2.74,
+    "e": 2.86
+   },
+   {
+    "w": "ring",
+    "s": 2.86,
+    "e": 3.08
+   },
+   {
+    "w": "is",
+    "s": 3.08,
+    "e": 3.32
+   },
+   {
+    "w": "the",
+    "s": 3.32,
+    "e": 3.48
+   },
+   {
+    "w": "last",
+    "s": 3.48,
+    "e": 3.72
+   },
+   {
+    "w": "thing",
+    "s": 3.72,
+    "e": 3.94
+   },
+   {
+    "w": "you",
+    "s": 3.94,
+    "e": 4.06
+   },
+   {
+    "w": "want",
+    "s": 4.06,
+    "e": 4.26
+   },
+   {
+    "w": "in",
+    "s": 4.26,
+    "e": 4.42
+   },
+   {
+    "w": "ink.",
+    "s": 4.42,
+    "e": 4.56
+   }
+  ],
+  "heard": "Printers and paint makers care about this a lot. A ring is the last thing you want in ink.",
+  "match": 1.0
+ },
+ {
+  "id": "K01",
+  "chapter": 7,
+  "text": "Last one, at breakfast. Why do the last few cereal loops in your bowl clump together, or cling to the side?",
+  "dur": 6.96,
+  "words": [
+   {
+    "w": "Last",
+    "s": 0.0,
+    "e": 0.54
+   },
+   {
+    "w": "one,",
+    "s": 0.54,
+    "e": 0.86
+   },
+   {
+    "w": "at",
+    "s": 1.08,
+    "e": 1.2
+   },
+   {
+    "w": "breakfast.",
+    "s": 1.2,
+    "e": 1.58
+   },
+   {
+    "w": "Why",
+    "s": 2.42,
+    "e": 2.46
+   },
+   {
+    "w": "do",
+    "s": 2.46,
+    "e": 2.56
+   },
+   {
+    "w": "the",
+    "s": 2.56,
+    "e": 2.7
+   },
+   {
+    "w": "last",
+    "s": 2.7,
+    "e": 2.96
+   },
+   {
+    "w": "few",
+    "s": 2.96,
+    "e": 3.3
+   },
+   {
+    "w": "cereal",
+    "s": 3.3,
+    "e": 3.82
+   },
+   {
+    "w": "loops",
+    "s": 3.82,
+    "e": 4.1
+   },
+   {
+    "w": "in",
+    "s": 4.1,
+    "e": 4.26
+   },
+   {
+    "w": "your",
+    "s": 4.26,
+    "e": 4.4
+   },
+   {
+    "w": "bowl",
+    "s": 4.4,
+    "e": 4.6
+   },
+   {
+    "w": "clump",
+    "s": 4.6,
+    "e": 5.0
+   },
+   {
+    "w": "together,",
+    "s": 5.0,
+    "e": 5.38
+   },
+   {
+    "w": "or",
+    "s": 5.62,
+    "e": 5.76
+   },
+   {
+    "w": "cling",
+    "s": 5.76,
+    "e": 6.1
+   },
+   {
+    "w": "to",
+    "s": 6.1,
+    "e": 6.28
+   },
+   {
+    "w": "the",
+    "s": 6.28,
+    "e": 6.4
+   },
+   {
+    "w": "side?",
+    "s": 6.4,
+    "e": 6.72
+   }
+  ],
+  "heard": "Last one, at breakfast. Why do the last few cereal loops in your bowl clump together, or cling to the side?",
+  "match": 1.0
+ },
+ {
+  "id": "K02",
+  "chapter": 7,
+  "text": "In 2005, two applied mathematicians explained it in a physics journal.",
+  "dur": 4.14,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.03,
+    "e": 0.19
+   },
+   {
+    "w": "2005,",
+    "s": 0.19,
+    "e": 0.91
+   },
+   {
+    "w": "two",
+    "s": 1.25,
+    "e": 1.39
+   },
+   {
+    "w": "applied",
+    "s": 1.39,
+    "e": 1.77
+   },
+   {
+    "w": "mathematicians",
+    "s": 1.77,
+    "e": 2.47
+   },
+   {
+    "w": "explained",
+    "s": 2.47,
+    "e": 2.85
+   },
+   {
+    "w": "it",
+    "s": 2.85,
+    "e": 3.01
+   },
+   {
+    "w": "in",
+    "s": 3.01,
+    "e": 3.15
+   },
+   {
+    "w": "a",
+    "s": 3.15,
+    "e": 3.33
+   },
+   {
+    "w": "physics",
+    "s": 3.33,
+    "e": 3.53
+   },
+   {
+    "w": "journal.",
+    "s": 3.53,
+    "e": 3.97
+   }
+  ],
+  "heard": "In 2005, two applied mathematicians explained it in a physics journal.",
+  "match": 1.0
+ },
+ {
+  "id": "K03",
+  "chapter": 7,
+  "text": "Milk doesn't lie flat. Around every floating loop, the surface curves up a little, making a tiny slope.",
+  "dur": 6.42,
+  "words": [
+   {
+    "w": "Milk",
+    "s": 0.16,
+    "e": 0.3
+   },
+   {
+    "w": "doesn't",
+    "s": 0.3,
+    "e": 0.7
+   },
+   {
+    "w": "lie",
+    "s": 0.7,
+    "e": 0.88
+   },
+   {
+    "w": "flat.",
+    "s": 0.88,
+    "e": 1.28
+   },
+   {
+    "w": "Around",
+    "s": 1.7,
+    "e": 1.92
+   },
+   {
+    "w": "every",
+    "s": 1.92,
+    "e": 2.36
+   },
+   {
+    "w": "floating",
+    "s": 2.36,
+    "e": 2.66
+   },
+   {
+    "w": "loop,",
+    "s": 2.66,
+    "e": 2.92
+   },
+   {
+    "w": "the",
+    "s": 3.08,
+    "e": 3.34
+   },
+   {
+    "w": "surface",
+    "s": 3.34,
+    "e": 3.66
+   },
+   {
+    "w": "curves",
+    "s": 3.66,
+    "e": 4.16
+   },
+   {
+    "w": "up",
+    "s": 4.16,
+    "e": 4.42
+   },
+   {
+    "w": "a",
+    "s": 4.42,
+    "e": 4.52
+   },
+   {
+    "w": "little,",
+    "s": 4.52,
+    "e": 4.68
+   },
+   {
+    "w": "making",
+    "s": 4.9,
+    "e": 5.06
+   },
+   {
+    "w": "a",
+    "s": 5.06,
+    "e": 5.3
+   },
+   {
+    "w": "tiny",
+    "s": 5.3,
+    "e": 5.68
+   },
+   {
+    "w": "slope.",
+    "s": 5.68,
+    "e": 6.16
+   }
+  ],
+  "heard": "Milk doesn't lie flat. Around every floating loop, the surface curves up a little, making a tiny slope.",
+  "match": 1.0
+ },
+ {
+  "id": "K04",
+  "chapter": 7,
+  "text": "A floating loop drifts up that slope, toward the next loop, and the two pull together.",
+  "dur": 4.65,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.05,
+    "e": 0.17
+   },
+   {
+    "w": "floating",
+    "s": 0.17,
+    "e": 0.45
+   },
+   {
+    "w": "loop",
+    "s": 0.45,
+    "e": 0.69
+   },
+   {
+    "w": "drifts",
+    "s": 0.69,
+    "e": 1.07
+   },
+   {
+    "w": "up",
+    "s": 1.07,
+    "e": 1.33
+   },
+   {
+    "w": "that",
+    "s": 1.33,
+    "e": 1.59
+   },
+   {
+    "w": "slope,",
+    "s": 1.59,
+    "e": 1.93
+   },
+   {
+    "w": "toward",
+    "s": 2.15,
+    "e": 2.43
+   },
+   {
+    "w": "the",
+    "s": 2.43,
+    "e": 2.63
+   },
+   {
+    "w": "next",
+    "s": 2.63,
+    "e": 2.79
+   },
+   {
+    "w": "loop,",
+    "s": 2.79,
+    "e": 3.05
+   },
+   {
+    "w": "and",
+    "s": 3.33,
+    "e": 3.53
+   },
+   {
+    "w": "the",
+    "s": 3.53,
+    "e": 3.65
+   },
+   {
+    "w": "two",
+    "s": 3.65,
+    "e": 3.83
+   },
+   {
+    "w": "pull",
+    "s": 3.83,
+    "e": 4.17
+   },
+   {
+    "w": "together.",
+    "s": 4.17,
+    "e": 4.65
+   }
+  ],
+  "heard": "A floating loop drifts up that slope, toward the next loop, and the two pull together.",
+  "match": 1.0
+ },
+ {
+  "id": "K05",
+  "chapter": 7,
+  "text": "The bowl's edge curves up the same way, so loops near the side slide over and stick to it.",
+  "dur": 5.43,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.0,
+    "e": 0.9
+   },
+   {
+    "w": "bowl's",
+    "s": 0.9,
+    "e": 1.14
+   },
+   {
+    "w": "edge",
+    "s": 1.14,
+    "e": 1.32
+   },
+   {
+    "w": "curves",
+    "s": 1.32,
+    "e": 1.58
+   },
+   {
+    "w": "up",
+    "s": 1.58,
+    "e": 1.76
+   },
+   {
+    "w": "the",
+    "s": 1.76,
+    "e": 1.88
+   },
+   {
+    "w": "same",
+    "s": 1.88,
+    "e": 2.06
+   },
+   {
+    "w": "way,",
+    "s": 2.06,
+    "e": 2.34
+   },
+   {
+    "w": "so",
+    "s": 2.52,
+    "e": 2.74
+   },
+   {
+    "w": "loops",
+    "s": 2.74,
+    "e": 3.02
+   },
+   {
+    "w": "near",
+    "s": 3.02,
+    "e": 3.22
+   },
+   {
+    "w": "the",
+    "s": 3.22,
+    "e": 3.4
+   },
+   {
+    "w": "side",
+    "s": 3.4,
+    "e": 3.68
+   },
+   {
+    "w": "slide",
+    "s": 3.68,
+    "e": 4.08
+   },
+   {
+    "w": "over",
+    "s": 4.08,
+    "e": 4.38
+   },
+   {
+    "w": "and",
+    "s": 4.38,
+    "e": 4.6
+   },
+   {
+    "w": "stick",
+    "s": 4.6,
+    "e": 4.86
+   },
+   {
+    "w": "to",
+    "s": 4.86,
+    "e": 5.08
+   },
+   {
+    "w": "it.",
+    "s": 5.08,
+    "e": 5.3
+   }
+  ],
+  "heard": "The bowl's edge curves up the same way, so loops near the side slide over and stick to it.",
+  "match": 1.0
+ },
+ {
+  "id": "K06",
+  "chapter": 7,
+  "text": "Same trick, much smaller: it helps scientists study how tiny parts could build themselves.",
+  "dur": 5.1,
+  "words": [
+   {
+    "w": "Same",
+    "s": 0.08,
+    "e": 0.3
+   },
+   {
+    "w": "trick,",
+    "s": 0.3,
+    "e": 0.56
+   },
+   {
+    "w": "much",
+    "s": 0.96,
+    "e": 1.12
+   },
+   {
+    "w": "smaller:",
+    "s": 1.12,
+    "e": 1.56
+   },
+   {
+    "w": "it",
+    "s": 2.02,
+    "e": 2.06
+   },
+   {
+    "w": "helps",
+    "s": 2.06,
+    "e": 2.26
+   },
+   {
+    "w": "scientists",
+    "s": 2.26,
+    "e": 2.68
+   },
+   {
+    "w": "study",
+    "s": 2.68,
+    "e": 3.0
+   },
+   {
+    "w": "how",
+    "s": 3.0,
+    "e": 3.24
+   },
+   {
+    "w": "tiny",
+    "s": 3.24,
+    "e": 3.56
+   },
+   {
+    "w": "parts",
+    "s": 3.56,
+    "e": 3.94
+   },
+   {
+    "w": "could",
+    "s": 3.94,
+    "e": 4.28
+   },
+   {
+    "w": "build",
+    "s": 4.28,
+    "e": 4.5
+   },
+   {
+    "w": "themselves.",
+    "s": 4.5,
+    "e": 4.92
+   }
+  ],
+  "heard": "Same trick, much smaller. It helps scientists study how tiny parts could build themselves.",
+  "match": 1.0
+ }
+]

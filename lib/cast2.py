@@ -70,6 +70,11 @@ CAST = {
                      legs="#4A3A2C", shoes=INK, moustache="#3A2416", coat=True, jaw=0.3, prop=None),
     "baker":    dict(name="Baker", skin="#D8A580", iris="#4A2E1E", face="round", hair="chef", hair_c="#22181B", top="#FFFFFF", top2="#FF6B5B",
                      legs="#3A3A44", shoes=INK, apron="#F4F1EA", jaw=0.2, prop=None, female=True),
+    # added 22 Nov 2026 for B-005 "annoying science" (same v2.1 rules)
+    "physicist": dict(name="Physicist", skin="#C68E6A", iris="#3A2A1E", face="square", hair="short", hair_c="#1E1A24", top="#F4F1EA", top2="#3E8E7A",
+                     legs="#2E3B52", shoes=INK, glasses=True, coat=True, jaw=0.3, prop=None),
+    "runner":   dict(name="Runner", skin="#F1CDB0", iris="#3E6A5C", face="round", hair="bun", hair_c="#7A3E1E", top="#FF6B5B", top2="#FFC93C",
+                     legs="#24476B", shoes="#F4F1EA", jaw=0.0, prop=None, female=True),
 }
 
 # expressions: eyelid height (0 = fully open, 1 = closed), brow shapes (left, right) as (inner_dy, outer_dy), mouth

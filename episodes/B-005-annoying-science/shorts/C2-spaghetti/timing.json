@@ -1,0 +1,451 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "Try snapping spaghetti into two pieces. You can't.",
+  "dur": 3.084,
+  "words": [
+   {
+    "w": "Try",
+    "s": 0.0,
+    "e": 0.26
+   },
+   {
+    "w": "snapping",
+    "s": 0.26,
+    "e": 0.72
+   },
+   {
+    "w": "spaghetti",
+    "s": 0.72,
+    "e": 1.18
+   },
+   {
+    "w": "into",
+    "s": 1.18,
+    "e": 1.4
+   },
+   {
+    "w": "two",
+    "s": 1.4,
+    "e": 1.66
+   },
+   {
+    "w": "pieces.",
+    "s": 1.66,
+    "e": 2.02
+   },
+   {
+    "w": "You",
+    "s": 2.54,
+    "e": 2.66
+   },
+   {
+    "w": "can't.",
+    "s": 2.66,
+    "e": 3.02
+   }
+  ],
+  "heard": "Try snapping spaghetti into two pieces. You can't."
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "It breaks into three or more, almost every time. Even Richard Feynman couldn't explain why.",
+  "dur": 5.76,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "breaks",
+    "s": 0.14,
+    "e": 0.38
+   },
+   {
+    "w": "into",
+    "s": 0.38,
+    "e": 0.64
+   },
+   {
+    "w": "three",
+    "s": 0.64,
+    "e": 0.94
+   },
+   {
+    "w": "or",
+    "s": 0.94,
+    "e": 1.08
+   },
+   {
+    "w": "more,",
+    "s": 1.08,
+    "e": 1.44
+   },
+   {
+    "w": "almost",
+    "s": 1.66,
+    "e": 1.92
+   },
+   {
+    "w": "every",
+    "s": 1.92,
+    "e": 2.32
+   },
+   {
+    "w": "time.",
+    "s": 2.32,
+    "e": 2.78
+   },
+   {
+    "w": "Even",
+    "s": 3.38,
+    "e": 3.56
+   },
+   {
+    "w": "Richard",
+    "s": 3.56,
+    "e": 3.96
+   },
+   {
+    "w": "Feynman",
+    "s": 3.96,
+    "e": 4.42
+   },
+   {
+    "w": "couldn't",
+    "s": 4.42,
+    "e": 4.74
+   },
+   {
+    "w": "explain",
+    "s": 4.74,
+    "e": 5.12
+   },
+   {
+    "w": "why.",
+    "s": 5.12,
+    "e": 5.52
+   }
+  ],
+  "heard": "It breaks into three or more, almost every time. Even Richard Feynman couldn't explain why."
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "When the stick snaps in the middle, each half springs back.",
+  "dur": 3.08,
+  "words": [
+   {
+    "w": "When",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "the",
+    "s": 0.14,
+    "e": 0.28
+   },
+   {
+    "w": "stick",
+    "s": 0.28,
+    "e": 0.44
+   },
+   {
+    "w": "snaps",
+    "s": 0.44,
+    "e": 0.82
+   },
+   {
+    "w": "in",
+    "s": 0.82,
+    "e": 1.02
+   },
+   {
+    "w": "the",
+    "s": 1.02,
+    "e": 1.12
+   },
+   {
+    "w": "middle,",
+    "s": 1.12,
+    "e": 1.42
+   },
+   {
+    "w": "each",
+    "s": 1.74,
+    "e": 1.88
+   },
+   {
+    "w": "half",
+    "s": 1.88,
+    "e": 2.14
+   },
+   {
+    "w": "springs",
+    "s": 2.14,
+    "e": 2.44
+   },
+   {
+    "w": "back.",
+    "s": 2.44,
+    "e": 2.86
+   }
+  ],
+  "heard": "When the stick snaps in the middle, each half springs back."
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "That sends a bending wave down the pieces... and they snap again.",
+  "dur": 3.736,
+  "words": [
+   {
+    "w": "That",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "sends",
+    "s": 0.18,
+    "e": 0.46
+   },
+   {
+    "w": "a",
+    "s": 0.46,
+    "e": 0.64
+   },
+   {
+    "w": "bending",
+    "s": 0.64,
+    "e": 0.96
+   },
+   {
+    "w": "wave",
+    "s": 0.96,
+    "e": 1.34
+   },
+   {
+    "w": "down",
+    "s": 1.34,
+    "e": 1.62
+   },
+   {
+    "w": "the",
+    "s": 1.62,
+    "e": 1.78
+   },
+   {
+    "w": "pieces...",
+    "s": 1.78,
+    "e": 2.7
+   },
+   {
+    "w": "and",
+    "s": 2.7,
+    "e": 2.8
+   },
+   {
+    "w": "they",
+    "s": 2.8,
+    "e": 2.92
+   },
+   {
+    "w": "snap",
+    "s": 2.92,
+    "e": 3.2
+   },
+   {
+    "w": "again.",
+    "s": 3.2,
+    "e": 3.54
+   }
+  ],
+  "heard": "That sends a bending wave down the pieces... and they snap again."
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "In 2018, a team at MIT found the trick: twist it almost a full turn first, then bend.",
+  "dur": 6.869,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.0,
+    "e": 0.16
+   },
+   {
+    "w": "2018,",
+    "s": 0.16,
+    "e": 0.96
+   },
+   {
+    "w": "a",
+    "s": 1.46,
+    "e": 1.58
+   },
+   {
+    "w": "team",
+    "s": 1.58,
+    "e": 1.88
+   },
+   {
+    "w": "at",
+    "s": 1.88,
+    "e": 2.06
+   },
+   {
+    "w": "MIT",
+    "s": 2.06,
+    "e": 2.5
+   },
+   {
+    "w": "found",
+    "s": 2.5,
+    "e": 3.02
+   },
+   {
+    "w": "the",
+    "s": 3.02,
+    "e": 3.22
+   },
+   {
+    "w": "trick:",
+    "s": 3.22,
+    "e": 3.54
+   },
+   {
+    "w": "twist",
+    "s": 4.12,
+    "e": 4.16
+   },
+   {
+    "w": "it",
+    "s": 4.16,
+    "e": 4.34
+   },
+   {
+    "w": "almost",
+    "s": 4.34,
+    "e": 4.66
+   },
+   {
+    "w": "a",
+    "s": 4.66,
+    "e": 4.88
+   },
+   {
+    "w": "full",
+    "s": 4.88,
+    "e": 5.16
+   },
+   {
+    "w": "turn",
+    "s": 5.16,
+    "e": 5.48
+   },
+   {
+    "w": "first,",
+    "s": 5.48,
+    "e": 5.84
+   },
+   {
+    "w": "then",
+    "s": 6.06,
+    "e": 6.3
+   },
+   {
+    "w": "bend.",
+    "s": 6.3,
+    "e": 6.56
+   }
+  ],
+  "heard": "In 2018, a team at MIT found the trick. Twist it almost a full turn first, then bend."
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "The twist soaks up the wave, and it breaks cleanly in two. Now try it.",
+  "dur": 4.123,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "twist",
+    "s": 0.14,
+    "e": 0.36
+   },
+   {
+    "w": "soaks",
+    "s": 0.36,
+    "e": 0.76
+   },
+   {
+    "w": "up",
+    "s": 0.76,
+    "e": 0.88
+   },
+   {
+    "w": "the",
+    "s": 0.88,
+    "e": 1.0
+   },
+   {
+    "w": "wave,",
+    "s": 1.0,
+    "e": 1.3
+   },
+   {
+    "w": "and",
+    "s": 1.48,
+    "e": 1.5
+   },
+   {
+    "w": "it",
+    "s": 1.5,
+    "e": 1.62
+   },
+   {
+    "w": "breaks",
+    "s": 1.62,
+    "e": 1.82
+   },
+   {
+    "w": "cleanly",
+    "s": 1.82,
+    "e": 2.34
+   },
+   {
+    "w": "in",
+    "s": 2.34,
+    "e": 2.5
+   },
+   {
+    "w": "two.",
+    "s": 2.5,
+    "e": 2.78
+   },
+   {
+    "w": "Now",
+    "s": 3.28,
+    "e": 3.44
+   },
+   {
+    "w": "try",
+    "s": 3.44,
+    "e": 3.78
+   },
+   {
+    "w": "it.",
+    "s": 3.78,
+    "e": 4.02
+   }
+  ],
+  "heard": "The twist soaks up the wave, and it breaks cleanly in two. Now try it."
+ }
+]

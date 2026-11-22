@@ -1,0 +1,69 @@
+# id | chapter | text (captions) || say (pronunciation for the voice, optional)
+# B-005 v1 (22 Nov 2026). L5 long video, Style F + cast v2.2. Seven everyday annoyances, each one a real experiment.
+# Chapters = Gemini requests (9): 0 cold open, 1 toast, 2 shoelaces, 3 earbuds, 4 spaghetti, 5 shower curtain, 6 coffee ring, 7 cereal, 8 ending.
+# Clip candidates: C1 toast (ch1), C2 shoelaces (ch2), C3 spaghetti (ch4), C4 shower curtain (ch5).
+O01|0|Your toast lands butter-side down. And it's not bad luck.
+O02|0|A physicist worked out the real culprit: the height of your kitchen table.
+O03|0|And it's not just toast. Your shoelaces, your earbuds, even your spaghetti follow hidden rules.
+O04|0|Scientists tested every one of them, with treadmills, spinning boxes, and two weeks of computer time... on a shower curtain.
+O05|0|So why does everyday stuff seem to work against you? Let's start with that toast.
+T01|1|Push a slice of toast off a table, and watch closely.
+T02|1|It doesn't fall flat. As it tips over the edge, it starts to spin.
+T03|1|In 1995, the British physicist Robert Matthews worked out how much.
+T04|1|From a normal table, the fall is so short that the toast only has time for about half a turn.
+T05|1|And half a turn means the side that started on top, the buttered side, ends up on the bottom.
+T06|1|So can you beat it? With a taller table, yes. About three meters tall, high enough for a full turn.
+T07|1|Or push it off fast. Toast that shoots off quickly doesn't spin enough to flip.
+T08|1|Matthews won an Ig Nobel Prize for this: a prize for research that makes people laugh, and then think.||Matthews won an Ig No-bell Prize for this: a prize for research that makes people laugh, and then think.
+S01|2|Now look down. Why do shoelaces come undone, even when you tie them tight?
+S02|2|In 2017, engineers at the University of California, Berkeley, filmed a runner's shoes in slow motion on a treadmill.
+S03|2|Every time a running foot hits the ground, it strikes at about seven times the force of gravity.
+S04|2|Each hit squeezes the knot and loosens it, just a little.
+S05|2|Meanwhile, the swinging leg whips the free ends of the laces back and forth, like a tug of war.
+S06|2|Neither one alone was enough. Stomping didn't undo the knot. Swinging didn't either. But together...
+S07|2|Once the knot started to slip, it fell apart in as few as two strides.
+S08|2|They also found that a knot that twists when you pull it tight is the weak kind. A knot that lies flat holds on longer.
+S09|2|But even the strong knot fails in the end. It just takes longer.
+E01|3|Next mystery. You put tidy earbuds in your pocket. You take them out, and they're a knotted mess. How?
+E02|3|In 2007, two physicists in California put a piece of string in a box and spun it for ten seconds.
+E03|3|Then they did it again. And again. More than three thousand times.
+E04|3|Strings shorter than forty-six centimeters never knotted at all.
+E05|3|But longer strings knotted in about half of the tumbles, some in complicated knots, within seconds.
+E06|3|The reason: the loose end keeps wandering over and under the rest of the string. Every crossing is a chance to tie a knot.
+E07|3|Longer and floppier means more chances. A very flexible string knotted in eighty-five percent of the tumbles.
+E08|3|So a long, floppy cable in your pocket is almost asking to be tied.
+P01|4|Try this. Snap one stick of dry spaghetti into just two pieces.
+P02|4|It almost never works. It breaks into three pieces, or more.
+P03|4|The famous physicist Richard Feynman once spent a good part of an evening breaking spaghetti, trying to explain it.
+P04|4|In 2005, two French scientists finally cracked it.
+P05|4|When the stick snaps near the middle, each half springs back, and that sends a wave of bending down the pieces.
+P06|4|The wave bends them even more than before... and they snap again.
+P07|4|Then in 2018, a team at MIT found the trick: twist the spaghetti first, almost a full turn, and then bend it.
+P08|4|The twist soaks up the snap-back, and the stick breaks cleanly in two.
+P09|4|They built a special machine to do it. So, good luck at dinner.
+C01|5|Now, the bathroom. You turn on the shower, and the curtain creeps in and sticks to your legs. Why?
+C02|5|For years, people blamed hot air rising, or the fast-moving water.
+C03|5|But the curtain gets pulled in by a cold shower too.
+C04|5|In 2001, engineer David Schmidt split a virtual bathroom into fifty thousand tiny cells, and let his home computer run for two weeks.
+C05|5|All that, for thirty seconds of shower time.
+C06|5|The answer: the spray drives a spinning vortex of air, like a little sideways whirlwind.
+C07|5|The middle of that whirlwind has low pressure, and low pressure pulls the light curtain in.
+C08|5|His fix? Weights in the hem of the curtain. And yes, this won an Ig Nobel Prize too.||His fix? Weights in the hem of the curtain. And yes, this won an Ig No-bell Prize too.
+R01|6|Spill a drop of coffee and let it dry. You get a dark ring, not a brown spot. Why only the edge?
+R02|6|In 1997, physicists in Chicago published the answer in the journal Nature.
+R03|6|As the drop dries, its edge gets stuck to the table.
+R04|6|The edge dries fastest, so water flows outward from the middle to replace it.
+R05|6|That flow carries the tiny coffee grains with it, and dumps almost all of them at the rim.
+R06|6|Then in 2011, a team in Pennsylvania found a way to stop it: change the shape of the particles.
+R07|6|Stretched, egg-shaped particles grab onto each other at the surface, and dry evenly. No ring.
+R08|6|Printers and paint makers care about this a lot. A ring is the last thing you want in ink.
+K01|7|Last one, at breakfast. Why do the last few cereal loops in your bowl clump together, or cling to the side?
+K02|7|In 2005, two applied mathematicians explained it in a physics journal.
+K03|7|Milk doesn't lie flat. Around every floating loop, the surface curves up a little, making a tiny slope.
+K04|7|A floating loop drifts up that slope, toward the next loop, and the two pull together.
+K05|7|The bowl's edge curves up the same way, so loops near the side slide over and stick to it.
+K06|7|Same trick, much smaller: it helps scientists study how tiny parts could build themselves.
+N01|8|So it's not a curse. Toast loses to table height, laces to seven g's of impact, earbuds to a wandering end.||So it's not a curse. Toast loses to table height, laces to seven gees of impact, earbuds to a wandering end.
+N02|8|Spaghetti to a snap-back wave, the curtain to a tiny whirlwind, coffee to a flow, and cereal to the curve of the milk.
+N03|8|Every annoying thing has a reason. Somebody just had to stop and measure it.
+N04|8|Which one will you test first? Tell us in the comments.
