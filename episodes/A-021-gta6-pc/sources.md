@@ -1,0 +1,12 @@
+# A-021 sources (checked 21 Nov 2026)
+- GTA 6 launched 19 Nov 2026 on PS5 and Xbox Series X|S only; no PC version/date announced:
+  - Rockstar Newswire (launch date) — https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026
+  - HuffPost UK, "GTA 6: when will it be released on PC?" — https://www.huffingtonpost.co.uk/entry/gta-6-pc-release-date_uk_6afee383e4b0976dc49fb0b8
+  - Yahoo News UK — https://uk.news.yahoo.com/gta-6-finally-released-pc-121820988.html
+- Zelnick (Take-Two CEO) to Bloomberg: Rockstar always starts on console, serving the core audience first:
+  - Dork, "GTA 6 PC release: Strauss Zelnick comments explained" — https://readdork.com/gaming/gta-6-pc-release-date-strauss-zelnick-comments-3c82467b1a
+  - Vice, "When is GTA 6 coming to PC?" — https://www.vice.com/en/article/gta-6-pc-online-release-date/
+- GamesBeat report (four sources): PC targeted for Q1 2027; Rockstar did not comment:
+  - Fenix Bazaar summary — https://fenixbazaar.com/2026/11/03/gta-6-pc-release/ ; HuffPost UK (above)
+- GTA V: consoles Sept 2013, PC 14 Apr 2015 (HuffPost UK above; Wikipedia "Grand Theft Auto V"). RDR2: consoles 26 Oct 2018, PC 5 Nov 2019:
+  - TechRadar — https://www.techradar.com/news/red-dead-redemption-2-pc-confirmed-for-november-5 ; GameSpot — https://www.gamespot.com/articles/red-dead-redemption-2-coming-to-pc-google-stadia-s/1100-6470338
