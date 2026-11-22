@@ -163,6 +163,8 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
   Sonnet, 07:13 UTC) runs `bash tools/daily.sh` (yt_stats: views since last check, retention 10/50/90 % + drop point, traffic sources;
   competitors.py: cached yt-dlp snapshot, breakouts, fastest growers) and appends a ≤20-line entry to `research/daily_report.md`
   (`research/report_template.md`). CTR/impressions are not in the API: use them only when the owner pastes Studio numbers.
+- **Why not viral (22 Nov, research/why_not_viral.md):** frame 1 = action + emotion + ≤ 4-word question; line 2 raises stakes (never
+  background); answer in the last 3 s + loop; 48-h check of stayed %, rel. retention 10 %, drop point on every video.
 - **Growth strategy (22 Nov, docs/growth_strategy.md):** Shorts 22–35 s; topics = everyday object/body/trending, ≤ 2 of one theme in a row;
   every cut Short links its long video ("Related video", owner sets); one packaging test at a time; diagnose before changing.
 - **Competitor audience (22 Nov, docs/competitor_targeting.md):** never use other creators' names in titles/tags/descriptions/hashtags; win

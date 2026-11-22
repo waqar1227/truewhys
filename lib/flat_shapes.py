@@ -48,7 +48,7 @@ def coin(g, x, y, r, metal="silver", ridges=True, clip=0.0, rot=0.0, face="head"
             g.path(f"M{-r*0.28} {r*0.45} Q{-r*0.35} {r*0.05} {-r*0.18} {-r*0.18} Q{-r*0.10} {-r*0.48} {r*0.12} {-r*0.46} Q{r*0.32} {-r*0.40} {r*0.30} {-r*0.18}"
                    f" L{r*0.38} {-r*0.04} L{r*0.28} {r*0.02} Q{r*0.30} {r*0.22} {r*0.12} {r*0.24} L{r*0.14} {r*0.45} Z", dk, None, a=0.55)
         elif face == "value":
-            g.text("10", 0, r * 0.08, r * 0.7, dk, stroke=None)
+            g.text("1" if metal == "copper" else "10", 0, r * 0.08, r * 0.7, dk, stroke=None)   # penny = 1 cent
         if glint > 0:
             g.ellipse(-r * 0.35, -r * 0.4, r * 0.28, r * 0.12, "#FFFFFF", None, a=0.55 * glint, rot=-0.6)
         if clip > 0:
