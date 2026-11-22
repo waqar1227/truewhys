@@ -44,5 +44,5 @@ Scheduled 21 Nov: A-020 Why We Waited 13 Years for GTA 6 jIFcT7oUqlw (standalone
 Scheduled 22 Nov: A-021 Why Can't You Play GTA 6 on PC Yet? sx0H9Hm0KxA (standalone, gaming/trend, Style R, Why …, 22 Nov 16:00 UTC, owner request). A-016 onions moved to 6 Dec 16:00 UTC (last allowed change).
 
 ## Captions test (owner 22 Nov: auto-dubbing in 21 languages; on-screen English text)
-Long videos from L4: no burned-in word captions (SRT uploaded instead). Shorts: alternate ON / OFF for 4 weeks, then compare
-stayed %, avg % viewed and views from non-English countries (yt_stats country table). Planned: C1 coins ON (1 Dec) · C2 stop signs OFF (4 Dec) · A-019 ON (5 Dec) · then alternate.
+Owner decided (22 Nov): NO burned-in word captions on ALL new videos (long + Shorts), SRT uploaded instead. Test cancelled.
+Watch from C1 (1 Dec): stayed %, avg % viewed and views from non-English countries vs the captioned Shorts before it.

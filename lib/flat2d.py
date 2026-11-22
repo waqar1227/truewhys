@@ -584,7 +584,7 @@ class Video:
         s.T = {t["id"]: t for t in json.loads((s.ep / "timing.json").read_text())}
         s.title, s.keys, s.gap, s.lead, s.music0, s.cap_y = title, {k.lower() for k in keys}, gap, lead, music, cap_y
         # burned-in word captions: off for long videos from 22 Nov (auto-dubbing in 21 languages; captions go up as an SRT instead)
-        s.captions = (os.environ.get("TW_CAPTIONS", "1") != "0") if captions is None else captions
+        s.captions = (os.environ.get("TW_CAPTIONS", "0") == "1") if captions is None else captions   # owner 22 Nov: off for ALL videos
         s.title_out, s.end_dur = title_out, end_dur
         s.sid = sid or s.ep.name[:5]
         s.decl, s.shots, s.pause = [], [], {}

@@ -135,10 +135,10 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
   3 giant words (Lilita One, high-contrast outline, never repeating the title), bright subject on a dark/blurred background, one focal
   point, readable at 168×94, curiosity gap. **Shorts (owner 16 Nov 2026): always set a custom thumbnail** = a strong frame from the Short
   + ONE engaging text line (the Short's own hook text, or a short suspense line that makes people want to click; never the title word for word, no clickbait lies).
-- **On-screen English text (owner 22 Nov; YouTube auto-dubs our videos into 21 languages):** long videos have NO burned-in word captions
-  (`Video(captions=False)`); captions go up as an SRT (tools/make_srt.py --upload) so YouTube can translate them. Keep in-picture text to a few
-  short labels (years, names, numbers, the 3-second hook question). Shorts: 4-week test, alternate captions on/off (log in topic_results.md,
-  compare stayed %, avg % viewed and non-English-country views), then decide with the numbers.
+- **No burned-in word captions (owner 22 Nov, all videos, long + Shorts):** videos are auto-dubbed into 21 languages; viewers can switch on
+  YouTube subtitles. Engine default is captions off (`TW_CAPTIONS=1` only for old re-renders). Upload an SRT for every video
+  (tools/make_srt.py --upload <id>) so YouTube can translate it. Keep in-picture English to a minimum: the 3-second hook question and a few
+  short labels (years, names, numbers).
 - **Shorts end (owner D2, 15 Nov):** no full-screen end card on new Shorts. The story runs to the last frame, the last shot matches the first
   so it loops, and the sign-off is a small Wy ✓ badge in a corner during the final line (0.7 s max). Already-posted Shorts stay as they are.
   Long videos: 20 s end screen with the wordmark.
