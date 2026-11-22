@@ -6,14 +6,16 @@ Rules added 22 Nov (all in CLAUDE.md): 5 posts/week, 1 per day, Mon+Wed free, lo
 (docs/posting_times.md) · trend swap allowed · NO burned-in captions (SRT upload) · research/why_not_viral.md production rules ·
 docs/growth_strategy.md · docs/competitor_targeting.md (never creator names in metadata) · cast v2.2 (arms/turns) · 30 days scheduled → STOP.
 
-CALENDAR (UTC). Scheduled: Sun 22 A-021 · Mon 23 A-017 · Tue 24 A-012 · Wed 25 A-011 · Thu 26 A-013 · Fri 27 A-018 · Sun 29 17:00 L4 B-004 ·
+CALENDAR (UTC). Scheduled: Sun 22 A-021 · Mon 23 A-017 · Tue 24 A-012 · Wed 25 A-011 · Thu 26 A-013 · Fri 27 A-018 · Sun 29 17:00 L4 dgmYB0zPALw ·
 Tue 1 Dec 18:00 L4-C1 PtETjFRHH24 · Thu 3 Dec 16:00 A-010 · Fri 4 Dec 18:00 L4-C2 cXgM0GJELw0 · Sun 6 Dec 16:00 A-016.
 TO MAKE: Sat 5 Dec 18:00 A-019 ambulance (Style R) · Mon 7 Dec 17:00 L5 (one-off Monday) + teaser Community post for Sat 5 Dec ·
 Tue 8, Thu 10, Fri 11 Dec 18:00 Shorts (1–2 L5 cut + trending) · Sun 13 Dec 17:00 L6 · Tue 15, Thu 17, Fri 18, Sat 19 Dec Shorts ·
 Sun 20 Dec 17:00 L7 → then STOP (30 days filled). Spare (made, not scheduled): L4-C3 caps, L4-C4 manholes.
 
 TASKS in order:
-1. OWNER (tell him once L4 is up): Studio → Related video = L4 on PtETjFRHH24 and cXgM0GJELw0.
+0. L4 UPLOADED dgmYB0zPALw (Sun 29 Nov 17:00 UTC, SRT up, thumb A). After it is public (29 Nov 17:00): give the owner the pinned comment
+   (upload_meta.json pinned_comment) and send thumbs B/C (final/) for Test & Compare.
+1. OWNER (told 22 Nov): Studio → Related video = L4 (dgmYB0zPALw) on PtETjFRHH24 and cXgM0GJELw0.
 2. 48-h checks into topic_results.md (stayed %, rel. retention 10 %, drop point): A-021 on 24 Nov, A-017 25 Nov, A-012 26, A-011 27, A-013 28,
    A-018 29 Nov (`python3 lib/yt_stats.py 7`). Compare Style R (A-016/17/18/21) vs Style F.
 3. A-019 "Why is AMBULANCE written backwards?" Style R (MPFB zip: kaggle dataset anam318/truewhys-ep-a016 file mpfb_zip.bin →

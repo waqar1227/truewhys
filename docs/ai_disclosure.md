@@ -45,6 +45,7 @@ Unsure → **Yes** (disclosing never hurts reach or money; a missing disclosure 
 | sx0H9Hm0KxA | A-021-gta6-pc | Why Can't You Play GTA 6 on PC Yet? | R | **No** |
 | PtETjFRHH24 | B-004 C1 | Why Do Coins Have Ridges? | F | **No** |
 | cXgM0GJELw0 | B-004 C2 | Why Stop Signs Used to Be Yellow | F | **No** |
+| dgmYB0zPALw | B-004 (L4) | Why Coins Have Ridges, Manholes Are Round and Stop Signs Have 8 Sides | F | **No** |
 | 9C-9O0c6VqM | B-001-animal-trials | Why Medieval Courts Put Animals on Trial | T | **No** |
 | 5YqYpWmY7EA | B-001-animal-trials/C0 | Why a Pig Was Executed in a Man's Clothes | T | **No** |
 | 33UzHb61eKc | B-001-animal-trials/C1 | Why a French Town Put a Pig on Trial | T | **No** |

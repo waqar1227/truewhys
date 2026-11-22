@@ -47,3 +47,4 @@ Scheduled 22 Nov: A-021 Why Can't You Play GTA 6 on PC Yet? sx0H9Hm0KxA (standal
 Owner decided (22 Nov): NO burned-in word captions on ALL new videos (long + Shorts), SRT uploaded instead. Test cancelled.
 Watch from C1 (1 Dec): stayed %, avg % viewed and views from non-English countries vs the captioned Shorts before it.
 Scheduled 22 Nov: B-004 C1 Why Do Coins Have Ridges? PtETjFRHH24 (cut Short, no captions, 1 Dec 18:00 UTC) · C2 Why Stop Signs Used to Be Yellow cXgM0GJELw0 (cut Short, no captions, 4 Dec 18:00 UTC).
+Scheduled 22 Nov: L4 B-004 Why Coins Have Ridges, Manholes Are Round and Stop Signs Have 8 Sides dgmYB0zPALw (long, everyday shapes, F v2.2, no captions, hook 'Hanged for this?', Sun 29 Nov 17:00 UTC).
