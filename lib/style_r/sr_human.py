@@ -497,6 +497,7 @@ def controls(h):
     """IK hand targets + pole targets and a head look-at target. Returns dict(handL, handR, look) empties (world space).
     Move/key the empties to animate: hands reach, head turns (influence 0.7 so the neck shares it)."""
     rig = h["rig"]; B = rig.data.bones
+    bpy.context.view_layer.update()                    # matrix_world must include loc/rot_z
     out = {}
     for side in ("L", "R"):
         wr = rig.matrix_world @ B[f"wrist.{side}"].head_local
@@ -504,7 +505,8 @@ def controls(h):
         t = bpy.data.objects.new(f"{h['body'].name}_hand{side}", None); bpy.context.scene.collection.objects.link(t)
         t.location = wr; t.empty_display_size = 0.04
         p = bpy.data.objects.new(f"{h['body'].name}_pole{side}", None); bpy.context.scene.collection.objects.link(p)
-        p.location = el + Vector((0.18 if side == "L" else -0.18, 0.30, -0.35))
+        off = Vector((0.18 if side == "L" else -0.18, 0.30, -0.35))       # behind + below the elbow in the rest pose (person faces -Y)
+        p.location = el + rig.matrix_world.to_3x3().normalized() @ off   # turn with the person (else elbows flip for rot_z 180)
         c = rig.pose.bones[f"lowerarm02.{side}"].constraints.new("IK")
         c.target = t; c.pole_target = p; c.chain_count = 4; c.pole_angle = math.radians(-90 if side == "L" else -90)
         c.use_stretch = False
