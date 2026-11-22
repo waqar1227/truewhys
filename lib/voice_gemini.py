@@ -107,7 +107,8 @@ def main(ep, chapters):
                 print("HTTP", e.code, e.read()[:300]); break
         master(cw)
         a, sr = sf.read(cw, dtype="float32")
-        segs, _ = wm.transcribe(str(cw), word_timestamps=True, language="en", initial_prompt=" ".join(l["text"] for l in L))
+        prompt = None if os.environ.get("TW_WHISPER_NOPROMPT") else " ".join(l["text"] for l in L)   # set it when the prompt derails whisper
+        segs, _ = wm.transcribe(str(cw), word_timestamps=True, language="en", initial_prompt=prompt)
         ww = [dict(w=w.word.strip(), s=w.start, e=w.end) for s in segs for w in (s.words or [])]
         if len(ww) < 0.6 * sum(len(l["text"].split()) for l in L):      # whisper sometimes derails on the prompt: retry plain
             segs, _ = wm.transcribe(str(cw), word_timestamps=True, language="en")

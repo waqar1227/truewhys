@@ -1,4 +1,4 @@
-# B-004 (L4) — Why Everyday Things Are Shaped So Weirdly (working title; locked after the 48 h data, ~23 Nov)
+# B-004 (L4) — Why Coins Have Ridges, Manholes Are Round and Stop Signs Have 8 Sides (title LOCKED 22 Nov)
 
 - **Type:** B long video, 6–7 min, **Style F + cast v2.1** (lib/cast2_flat.py), 1920×1080. Slot **Fri 27 Nov 2026 15:00 UTC** (audit §4).
 - **Format:** Full Story-style mystery tour: a cold-open scene (London 1696, a coin clipper) → six "why is it shaped like that?" scenes, each with
@@ -29,3 +29,10 @@
   room, bakery oven), own props, own staging; nothing re-skinned from earlier episodes.
 - **Religion check: clear.** (No religion, no religious institutions, no myths, no spirits; Newton appears only as Warden of the Mint.)
 - **Ethics:** the hanging is told in one plain sentence, nothing shown; no mockery; Knight's court case told factually.
+
+- **Title lock (22 Nov):** #7. Evidence: research/stats/2026-11-22.md + daily reports 12–14 Nov: titles naming a concrete everyday object beat vague ones
+  (windows 1 108, vending machine 1 135, GTA 6 1 707 vs job/vague titles 4–244); long videos need search terms (coins, manholes, stop signs).
+  Thumbnail A 'NEWTON'S TRAP' adds the curiosity gap without repeating the title.
+- **Hook change (22 Nov, owner: first 3 s strongest):** frame 1 shows 'HANGED FOR THIS?' + the clipper's scissors on the coin; first line
+  'London, 1696. This man could be hanged for what he's doing with these scissors.' (coin clipping = high treason; sources.md).
+- **Publish:** Sun 29 Nov 17:00 UTC (new weekly shape). Cut Shorts: C1 coins Tue 1 Dec 18:00, C2 stop signs Fri 4 Dec 18:00 UTC.

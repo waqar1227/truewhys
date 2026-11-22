@@ -2,268 +2,293 @@
  {
   "id": "H1",
   "chapter": 0,
-  "text": "Why do coins have tiny ridges?",
-  "dur": 2.62,
+  "text": "People were hanged for cutting coins. That's why yours have ridges.",
+  "dur": 4.29,
   "words": [
    {
-    "w": "Why",
+    "w": "People",
     "s": 0.0,
-    "e": 0.48
+    "e": 0.54
    },
    {
-    "w": "do",
-    "s": 0.48,
-    "e": 0.66
+    "w": "were",
+    "s": 0.54,
+    "e": 0.84
    },
    {
-    "w": "coins",
-    "s": 0.66,
-    "e": 1.14
+    "w": "hanged",
+    "s": 0.84,
+    "e": 1.38
+   },
+   {
+    "w": "for",
+    "s": 1.38,
+    "e": 1.86
+   },
+   {
+    "w": "cutting",
+    "s": 1.86,
+    "e": 2.12
+   },
+   {
+    "w": "coins.",
+    "s": 2.12,
+    "e": 2.52
+   },
+   {
+    "w": "That's",
+    "s": 2.96,
+    "e": 3.12
+   },
+   {
+    "w": "why",
+    "s": 3.12,
+    "e": 3.24
+   },
+   {
+    "w": "yours",
+    "s": 3.24,
+    "e": 3.44
    },
    {
     "w": "have",
-    "s": 1.14,
-    "e": 1.48
+    "s": 3.44,
+    "e": 3.7
    },
    {
-    "w": "tiny",
-    "s": 1.48,
-    "e": 1.9
-   },
-   {
-    "w": "ridges?",
-    "s": 1.9,
-    "e": 2.42
+    "w": "ridges.",
+    "s": 3.7,
+    "e": 4.1
    }
   ],
-  "heard": "Why do coins have tiny ridges?",
+  "heard": "People were hanged for cutting coins. That's why yours have ridges.",
   "match": 1.0
  },
  {
   "id": "L01",
   "chapter": 0,
   "text": "London, 1696. People snip slivers off silver coins... and spend them anyway.",
-  "dur": 6.29,
+  "dur": 5.25,
   "words": [
    {
     "w": "London,",
-    "s": 0.41,
-    "e": 0.41
+    "s": 0.22,
+    "e": 0.38
    },
    {
     "w": "1696.",
-    "s": 0.85,
-    "e": 1.77
+    "s": 0.56,
+    "e": 1.38
    },
    {
     "w": "People",
-    "s": 2.39,
-    "e": 2.51
+    "s": 1.98,
+    "e": 2.16
    },
    {
     "w": "snip",
-    "s": 2.51,
-    "e": 2.89
+    "s": 2.16,
+    "e": 2.64
    },
    {
     "w": "slivers",
-    "s": 2.89,
-    "e": 3.39
+    "s": 2.64,
+    "e": 3.04
    },
    {
     "w": "off",
-    "s": 3.39,
-    "e": 3.71
+    "s": 3.04,
+    "e": 3.32
    },
    {
     "w": "silver",
-    "s": 3.71,
-    "e": 4.07
+    "s": 3.32,
+    "e": 3.64
    },
    {
     "w": "coins...",
-    "s": 4.07,
-    "e": 5.11
+    "s": 3.64,
+    "e": 4.06
    },
    {
     "w": "and",
-    "s": 5.11,
-    "e": 5.17
+    "s": 4.06,
+    "e": 4.34
    },
    {
     "w": "spend",
-    "s": 5.17,
-    "e": 5.55
+    "s": 4.34,
+    "e": 4.62
    },
    {
     "w": "them",
-    "s": 5.55,
-    "e": 5.71
+    "s": 4.62,
+    "e": 4.78
    },
    {
     "w": "anyway.",
-    "s": 5.71,
-    "e": 6.05
+    "s": 4.78,
+    "e": 5.0
    }
   ],
-  "heard": "London, 1696. People snip slivers off silver coins... and spend them anyway.",
+  "heard": "London, 1696. People snip slivers off silver coins and spend them anyway.",
   "match": 1.0
  },
  {
   "id": "L02",
   "chapter": 0,
   "text": "It's treason. But hand-made coins are never perfectly round, so nobody notices.",
-  "dur": 4.56,
+  "dur": 4.67,
   "words": [
    {
     "w": "It's",
-    "s": 0.07,
-    "e": 0.23
+    "s": 0.03,
+    "e": 0.27
    },
    {
     "w": "treason.",
-    "s": 0.23,
-    "e": 0.51
+    "s": 0.27,
+    "e": 0.63
    },
    {
     "w": "But",
-    "s": 0.95,
-    "e": 1.01
+    "s": 1.03,
+    "e": 1.25
    },
    {
     "w": "hand-made",
-    "s": 1.01,
-    "e": 1.47
+    "s": 1.25,
+    "e": 1.69
    },
    {
     "w": "coins",
-    "s": 1.47,
-    "e": 1.79
+    "s": 1.69,
+    "e": 2.13
    },
    {
     "w": "are",
-    "s": 1.79,
-    "e": 1.91
+    "s": 2.13,
+    "e": 2.29
    },
    {
     "w": "never",
-    "s": 1.91,
-    "e": 2.15
+    "s": 2.29,
+    "e": 2.51
    },
    {
     "w": "perfectly",
-    "s": 2.15,
-    "e": 2.61
+    "s": 2.51,
+    "e": 2.99
    },
    {
     "w": "round,",
-    "s": 2.61,
-    "e": 3.05
+    "s": 2.99,
+    "e": 3.37
    },
    {
     "w": "so",
-    "s": 3.39,
-    "e": 3.45
+    "s": 3.61,
+    "e": 3.81
    },
    {
     "w": "nobody",
-    "s": 3.45,
-    "e": 3.79
+    "s": 3.81,
+    "e": 4.07
    },
    {
     "w": "notices.",
-    "s": 3.79,
-    "e": 4.19
+    "s": 4.07,
+    "e": 4.43
    }
   ],
-  "heard": "It's treason. But hand -made coins are never perfectly round, so nobody notices.",
-  "match": 0.88
+  "heard": "It's treason, but handmade coins are never perfectly round, so nobody notices.",
+  "match": 1.0
  },
  {
   "id": "L03",
   "chapter": 0,
   "text": "So England makes new coins by machine, with patterned edges. And Isaac Newton hunts the clippers.",
-  "dur": 5.96,
+  "dur": 5.55,
   "words": [
    {
     "w": "So",
-    "s": 0.08,
-    "e": 0.22
+    "s": 0.04,
+    "e": 0.18
    },
    {
     "w": "England",
-    "s": 0.22,
-    "e": 0.7
+    "s": 0.18,
+    "e": 0.44
    },
    {
     "w": "makes",
-    "s": 0.7,
-    "e": 1.0
+    "s": 0.44,
+    "e": 0.7
    },
    {
     "w": "new",
-    "s": 1.0,
-    "e": 1.26
+    "s": 0.7,
+    "e": 1.02
    },
    {
     "w": "coins",
-    "s": 1.26,
-    "e": 1.56
+    "s": 1.02,
+    "e": 1.3
    },
    {
     "w": "by",
-    "s": 1.56,
-    "e": 1.76
+    "s": 1.3,
+    "e": 1.52
    },
    {
     "w": "machine,",
-    "s": 1.76,
-    "e": 2.14
+    "s": 1.52,
+    "e": 1.88
    },
    {
     "w": "with",
-    "s": 2.46,
-    "e": 2.62
+    "s": 2.16,
+    "e": 2.38
    },
    {
     "w": "patterned",
-    "s": 2.62,
-    "e": 3.16
+    "s": 2.38,
+    "e": 2.98
    },
    {
     "w": "edges.",
-    "s": 3.16,
-    "e": 3.4
+    "s": 2.98,
+    "e": 3.22
    },
    {
     "w": "And",
-    "s": 3.9,
-    "e": 4.04
+    "s": 3.68,
+    "e": 3.84
    },
    {
     "w": "Isaac",
-    "s": 4.04,
-    "e": 4.36
+    "s": 3.84,
+    "e": 4.14
    },
    {
     "w": "Newton",
-    "s": 4.36,
-    "e": 4.74
+    "s": 4.14,
+    "e": 4.48
    },
    {
     "w": "hunts",
-    "s": 4.74,
-    "e": 5.14
+    "s": 4.48,
+    "e": 4.88
    },
    {
     "w": "the",
-    "s": 5.14,
-    "e": 5.36
+    "s": 4.88,
+    "e": 5.06
    },
    {
     "w": "clippers.",
-    "s": 5.36,
-    "e": 5.66
+    "s": 5.06,
+    "e": 5.32
    }
   ],
   "heard": "So England makes new coins by machine, with patterned edges. And Isaac Newton hunts the clippers.",
@@ -273,117 +298,117 @@
   "id": "L04",
   "chapter": 0,
   "text": "Now, one snip, and the pattern is gone.",
-  "dur": 2.75,
+  "dur": 2.18,
   "words": [
    {
     "w": "Now,",
-    "s": 0.06,
-    "e": 0.3
+    "s": 0.05,
+    "e": 0.31
    },
    {
     "w": "one",
-    "s": 0.52,
-    "e": 0.78
+    "s": 0.47,
+    "e": 0.65
    },
    {
     "w": "snip,",
-    "s": 0.78,
-    "e": 1.16
+    "s": 0.65,
+    "e": 0.91
    },
    {
     "w": "and",
-    "s": 1.36,
-    "e": 1.4
+    "s": 0.91,
+    "e": 1.17
    },
    {
     "w": "the",
-    "s": 1.4,
-    "e": 1.52
+    "s": 1.17,
+    "e": 1.29
    },
    {
     "w": "pattern",
-    "s": 1.52,
-    "e": 1.78
+    "s": 1.29,
+    "e": 1.53
    },
    {
     "w": "is",
-    "s": 1.78,
-    "e": 2.04
+    "s": 1.53,
+    "e": 1.71
    },
    {
     "w": "gone.",
-    "s": 2.04,
-    "e": 2.4
+    "s": 1.71,
+    "e": 2.01
    }
   ],
-  "heard": "Now, one snip, and the pattern is gone.",
+  "heard": "Now, one snip and the pattern is gone.",
   "match": 1.0
  },
  {
   "id": "L05",
   "chapter": 0,
   "text": "Those ridges were a trap for thieves. Would you have spotted it?",
-  "dur": 3.44,
+  "dur": 3.19,
   "words": [
    {
     "w": "Those",
-    "s": 0.08,
-    "e": 0.22
+    "s": 0.03,
+    "e": 0.23
    },
    {
     "w": "ridges",
-    "s": 0.22,
-    "e": 0.52
+    "s": 0.23,
+    "e": 0.57
    },
    {
     "w": "were",
-    "s": 0.52,
-    "e": 0.68
+    "s": 0.57,
+    "e": 0.77
    },
    {
     "w": "a",
-    "s": 0.68,
-    "e": 0.84
+    "s": 0.77,
+    "e": 0.91
    },
    {
     "w": "trap",
-    "s": 0.84,
-    "e": 1.12
+    "s": 0.91,
+    "e": 1.19
    },
    {
     "w": "for",
-    "s": 1.12,
-    "e": 1.36
+    "s": 1.19,
+    "e": 1.45
    },
    {
     "w": "thieves.",
-    "s": 1.36,
-    "e": 1.68
+    "s": 1.45,
+    "e": 1.69
    },
    {
     "w": "Would",
-    "s": 2.38,
-    "e": 2.48
+    "s": 2.27,
+    "e": 2.37
    },
    {
     "w": "you",
-    "s": 2.48,
-    "e": 2.66
+    "s": 2.37,
+    "e": 2.51
    },
    {
     "w": "have",
-    "s": 2.66,
-    "e": 2.76
+    "s": 2.51,
+    "e": 2.59
    },
    {
     "w": "spotted",
-    "s": 2.76,
-    "e": 3.02
+    "s": 2.59,
+    "e": 2.81
    },
    {
     "w": "it?",
-    "s": 3.02,
-    "e": 3.26
+    "s": 2.81,
+    "e": 3.01
    }
   ],
   "heard": "Those ridges were a trap for thieves. Would you have spotted it?",

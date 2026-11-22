@@ -1,5 +1,5 @@
 # B-004 C2 (cut Short, rewritten). Frame 1: a big YELLOW stop sign, 1920s driver squinting at it. Answer (fading red) in the last 5 s; loops to the yellow sign.
-H1|0|Why were stop signs once yellow?
+H1|0|Stop signs used to be yellow. So why did they turn red?
 L01|0|In 1923, American road engineers made a rule: the more sides, the more danger.
 L02|0|A circle for railway crossings. Eight sides for stop.
 L03|0|And for about thirty years, most stop signs were yellow, with black letters.

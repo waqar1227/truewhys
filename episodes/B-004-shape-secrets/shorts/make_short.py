@@ -114,8 +114,19 @@ def c1_hook(g, c):
     char2(g, "clipper", 330, 2560, 1900, "suspicious", "reach_r", "reach_r", t=c.gt)
     candle(g, 900, 1500, 1.3, c.gt)
     k = 0.35 + 0.15 * math.sin(c.gt * 4)
-    coin(g, 600, 1060, 300, "silver", ridges=False, clip=k, face="head", glint=1.0)
-    scissors(g, 760, 1060, 2.0, 0.6 - 0.4 * math.sin(c.gt * 4), rot=math.pi)
+    coin(g, 690, 1300, 250, "silver", ridges=False, clip=k, face="head", glint=1.0)
+    scissors(g, 830, 1300, 1.7, 0.6 - 0.4 * math.sin(c.gt * 4), rot=math.pi)
+
+
+def c1_hook2(g, c):
+    """'That's why yours have ridges': the clipped coin turns into a modern ridged coin, rim glows."""
+    room1696(g, c.gt)
+    char2(g, "clipper", 330, 2560, 1900, "shocked", "reach_r", "reach_r", t=c.gt)
+    candle(g, 900, 1500, 1.3, c.gt)
+    k = ease_out(seg(c.t, 0.1, 0.4))
+    coin(g, 690, 1300, 250, "silver", ridges=k > 0.5, clip=0.35 * (1 - k), face="head", glint=1.0)
+    g.circle(690, 1300, 250, None, PAL["yellow"], lw=16, a=k)
+    label(g, "RIDGES", 690, 960, 120, k=pop(c.t, 0.25, 0.3))
 
 
 def c1_london(g, c):
@@ -197,16 +208,27 @@ def c1_trap(g, c):
     room1696(g, c.gt)
     char2(g, "clipper", 330, 2560, 1900, "shocked" if c.t > c.w("trap") - 0.2 else "suspicious", "reach_r", "reach_r", t=c.gt)
     candle(g, 900, 1500, 1.3, c.gt)
-    coin(g, 600, 1060, 300, "silver", ridges=True, face="head", glint=1.0)
-    g.circle(600, 1060, 300, None, PAL["yellow"], lw=16, a=ease_out(seg(c.t, c.w("trap") - 0.2, 0.4)))
-    label(g, "A TRAP", 600, 640, 120, k=pop(c.t, c.w("trap") - 0.1, 0.3))
+    coin(g, 690, 1300, 250, "silver", ridges=True, face="head", glint=1.0)
+    g.circle(690, 1300, 250, None, PAL["yellow"], lw=16, a=ease_out(seg(c.t, c.w("trap") - 0.2, 0.4)))
+    label(g, "A TRAP", 690, 960, 120, k=pop(c.t, c.w("trap") - 0.1, 0.3))
 
 
 # ------------------------------------------------------------------ C2 yellow stop signs
 def c2_hook(g, c):
     road1920(g, c.gt)
-    road_sign(g, 640, 820, 330, "octagon", "#F2C14E", "STOP", INK, post=900, border=INK)
+    road_sign(g, 640, 1010, 300, "octagon", "#F2C14E", "STOP", INK, post=900, border=INK)
     char2(g, "engineer", 260, 2560, 1700, "suspicious", "down", "point", t=c.gt)
+
+
+def c2_hook2(g, c):
+    """'So why did they turn red?': the yellow sign flips to red, question mark pops."""
+    road1920(g, c.gt)
+    k = ease_io(seg(c.t, 0.05, 0.35))
+    sc = abs(math.cos(k * math.pi))                                  # card flip
+    with g.at(640, 1010, 0, max(0.05, sc), 1.0):
+        road_sign(g, 0, 0, 300, "octagon", "#F2C14E" if k < 0.5 else "#D7263D", "STOP", INK if k < 0.5 else "#FFFFFF", post=900, border=INK)
+    char2(g, "engineer", 260, 2560, 1700, "curious", "down", "think", t=c.gt)
+    qmark(g, 930, 690, 150, PAL["yellow"], 0.1, pop(c.t, 0.4, 0.3))
 
 
 def c2_engineers(g, c):
@@ -263,7 +285,7 @@ def c2_fade(g, c):
 def c2_pink(g, c):
     """Last shot loops to frame 1: the same road, sign and engineer."""
     road1920(g, c.gt)
-    road_sign(g, 640, 820, 330, "octagon", "#D7263D", "STOP", post=900, fade=1.0)
+    road_sign(g, 640, 1010, 300, "octagon", "#D7263D", "STOP", post=900, fade=1.0)
     char2(g, "engineer", 260, 2560, 1700, "deadpan" if c.t < c.w("miss") - 0.3 else "shocked", "down", "point", t=c.gt)
 
 
@@ -422,9 +444,10 @@ def c4_end(g, c):
 # ------------------------------------------------------------------ the four Shorts
 def build():
     if SID == "C1":
-        V = Video(EP, title=("WHY DO COINS HAVE", "TINY RIDGES?"), cap_y=0.72, music="mystery", sid="B004C1",
+        V = Video(EP, title=("HANGED FOR", "CUTTING COINS?"), cap_y=0.72, music="mystery", sid="B004C1",
                   keys={"ridges", "1696", "treason", "newton", "machine", "gone", "trap", "thieves", "snip"})
-        V.shot("H1", c1_hook, sfx=[(0.0, "click", 0.4)])
+        V.shot("H1", c1_hook, (0, "That's"), sfx=[(0.0, "click", 0.4), ("hanged", "drum_hit", 0.4)])
+        V.shot("H1", c1_hook2, ("That's", 1), cam=push(1.0, 1.06, (690, 1300)), sfx=[(0.15, "chime", 0.35)])
         V.shot("L01", c1_london, (0, "People"), cam=push(1.0, 1.05, (540, 900)))
         V.shot("L01", c1_slivers, ("People", "and"), sfx=[(0.1, "click", 0.4), (0.5, "click", 0.4)])
         V.shot("L01", c1_spend, ("and", 1), sfx=[(0.2, "coin_single", 0.4)])
@@ -433,11 +456,12 @@ def build():
         V.shot("L03", c1_press, (0, "And"), sfx=[(0.3, "drum_hit", 0.25)])
         V.shot("L03", c1_newton, ("And", 1), cam=push(1.0, 1.06, (540, 800)), sfx=[("Isaac", "sting", 0.4)])
         V.shot("L04", c1_snip_test, sfx=[("gone", "ding", 0.45)])
-        V.shot("L05", c1_trap, cam=push(1.0, 1.04, (600, 1060)), sfx=[("trap", "chime", 0.45)])
+        V.shot("L05", c1_trap, cam=push(1.0, 1.04, (690, 1300)), sfx=[("trap", "chime", 0.45)])
     elif SID == "C2":
-        V = Video(EP, title=("WHY WERE STOP SIGNS", "ONCE YELLOW?"), cap_y=0.72, music="curious", sid="B004C2",
+        V = Video(EP, title=("STOP SIGNS", "WERE YELLOW?!"), cap_y=0.72, music="curious", sid="B004C2",
                   keys={"yellow", "1923", "sides", "danger", "eight", "thirty", "1954", "faded", "pink", "red"})
-        V.shot("H1", c2_hook, sfx=[(0.0, "pop", 0.35)])
+        V.shot("H1", c2_hook, (0, "So"), sfx=[(0.0, "pop", 0.35)])
+        V.shot("H1", c2_hook2, ("So", 1), sfx=[(0.05, "rush", 0.3)])
         V.shot("L01", c2_engineers, (0, "the"), cam=push(1.0, 1.05, (540, 900)))
         V.shot("L01", c2_rule, ("the", 1), sfx=[("danger", "sting", 0.35)])
         V.shot("L02", c2_shapes, sfx=[("circle", "pop", 0.4), ("Eight", "pop", 0.4)])

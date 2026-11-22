@@ -6,6 +6,10 @@
   - Wikipedia, "Later life of Isaac Newton" — https://en.wikipedia.org/wiki/Later_life_of_Isaac_Newton
   - Reader's Digest, "Why coins have ridged edges" — https://www.rd.com/article/why-coins-have-ridged-edges/
   - Now I Know, "Why (some) coins have ridges" — https://nowiknow.com/why-some-coins-have-ridges/
+- Hook line (22 Nov): a clipper in 1696 "could be hanged" — clipping was high treason; men convicted of coining offences were hanged (women burned until 1790):
+  - The Royal Mint, "Clipping and counterfeiting cases from the Old Bailey" (teaching pack, Old Bailey records incl. clipping trials, death sentences) — https://www.royalmint.com/globalassets/the-royal-mint/pdf/clipping-and-counterfeiting-cases-from-the-old-bailey.pdf
+  - Capital Punishment UK, coining as treason (men hanged, women burned) — https://www.capitalpunishmentuk.org/phoebe.html
+  - + Chaloner hanged for coining treason 1699 (below). We show no execution; only the question "HANGED FOR THIS?".
 - William Chaloner, counterfeiter; Newton built the case; convicted of high treason 3 Mar 1699, hanged March 1699:
   - Wikipedia, "William Chaloner" — https://en.wikipedia.org/wiki/William_Chaloner
   - APS News, "March 1699: William Chaloner hanged" — https://www.aps.org/publications/apsnews/201103/physicshistory.cfm
