@@ -108,6 +108,10 @@ All original (TrueWhys). One episode = `episodes/<ep>/make.py` (`sheet` | `big <
   nose, neck, hands with thumb, no cheeks). `figure_svg(cid, expr, pose_l, pose_r)`, `png(svg, viewbox, scale)`; cast: wy, captain, doctor,
   worker, guard, noble, modern; expressions deadpan/smug/suspicious/shocked/bored/angry. Sample sheet: library/cast/cast_v2_sheet.jpg
   (`python lib/cast2.py <out>`). Original, code-drawn (TrueWhys). APPROVED by the owner 15 Nov (v2.1): use for all new videos.
+  **v2.2 (22 Nov, owner: arms + turns):** smooth bent sleeves with a hand turned along the forearm; poses down, hold, hip, point, up, wave, shrug,
+  explain, count, think, reach_r, reach_l (cast2.ARM); blends (a, b, u); `char2(..., view="3q")` 3/4 turn (auto for figures in the outer third
+  facing the middle); automatic 0.25 s easing of pose changes; `cast2_flat.pose_at(t, keys)` for timed gestures; `turn_at(t, t0)` for a real
+  right→front→left turn instead of a mirror flip. Pose sheet: library/cast/cast_v22_poses.jpg.
 - **New standards in the composers (15 Nov 2026, audit §6.3, owner D2/D3):** `lib/cast2_flat.py` `char2(g, cid, x, y, h, expr, pose_l, pose_r, t=c.gt, flip)`
   draws cast v2.1 inside Style F (cached raster, auto blink + breathing; extra expressions blink/worried/curious). `flat2d.Video` has no end card by default
   (`endcard=False`; small Wy ✓ corner badge in the final 0.7 s, `badge=`); `V.qa_numbers("frame1.jpg")` prints frame-1 character height (must be ≥ 0.45),
