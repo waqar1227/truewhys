@@ -422,5 +422,21 @@
   "synthetic": false,
   "reason": "Not realistic: flat 2D cartoon (cast v2.2), generic TTS narrator imitating no real person, code-made music; no AI images/footage, no voice clone (docs/ai_disclosure.md test, 23 Nov 2026).",
   "decided": "2026-11-23"
+ },
+ "7LX7R8f7GB4": {
+  "episode": "B-005 C1",
+  "title": "Why Toast Always Lands Butter-Side Down",
+  "style": "F: flat 2D",
+  "synthetic": false,
+  "reason": "Not realistic: flat 2D cartoon (cast v2.2), generic TTS narrator imitating no real person, code-made music (docs/ai_disclosure.md test, 23 Nov 2026).",
+  "decided": "2026-11-23"
+ },
+ "Ydk7QtOzx7M": {
+  "episode": "B-005 C2",
+  "title": "Why You Can't Snap Spaghetti in Two",
+  "style": "F: flat 2D",
+  "synthetic": false,
+  "reason": "Not realistic: flat 2D cartoon (cast v2.2), generic TTS narrator imitating no real person, code-made music (docs/ai_disclosure.md test, 23 Nov 2026).",
+  "decided": "2026-11-23"
  }
 }

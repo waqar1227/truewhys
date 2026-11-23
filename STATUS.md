@@ -20,9 +20,9 @@ TASKS in order:
 2. 48-h checks into topic_results.md (stayed %, rel. retention 10 %, drop point): A-021 on 24 Nov, A-017 25 Nov, A-012 26, A-011 27, A-013 28,
    A-018 29 Nov (`python3 lib/yt_stats.py 7`). Compare Style R (A-016/17/18/21) vs Style F.
 3. DONE 23 Nov: A-019 + A-022 uploaded (private + publishAt, thumb, SRT, AI field No, registers). Kaggle: a019+a022 v1+v2 used ≈ 3.7 h session time (render_log.md).
-4. L5 = episodes/B-005-annoying-science "Why Toast Lands Butter-Side Down, Shoelaces Untie and Earbuds Tangle" (L5 session, 22 Nov): script, sources,
-   8/9 Gemini chapters, all scenes, 3 thumbs, teaser post (social/post, owner posts Sat 5 Dec), 2 cut Shorts built (C1 toast Tue 8, C2 spaghetti Thu 10 Dec).
-   L5 session resumes 23 Nov after 08:00 UTC: Gemini ch8 + Short voices (3 requests) → render, QA, SRT, upload (publishAt 7 Dec 17:00 UTC).
+4. L5 DONE (23 Nov): B-005 "Why Toast Lands Butter-Side Down, Shoelaces Untie and Earbuds Tangle" UPLOADED l_w8yDvCZiI (Mon 7 Dec 17:00 UTC, SRT, thumb A);
+   cut Shorts C1 toast 7LX7R8f7GB4 (Tue 8 Dec 18:00) + C2 spaghetti Ydk7QtOzx7M (Thu 10 Dec 18:00), SRT + thumbs. OWNER: Related video = L5 on both;
+   post the teaser (episodes/B-005-annoying-science/social/post) Sat 5 Dec. After 7 Dec 17:00: pinned comment (upload_meta.json) + send thumbs B/C.
 5. Trending standalone Shorts: pick on the day from Google Trends/competitor radar; trend swap rule if something goes viral.
 Never: change A-020 (owner edited) · move scheduled videos except a trend swap · creator names in metadata.
 
