@@ -108,3 +108,4 @@
 - 23 Nov 01:40 UTC: a019 v2 (hook_front, loop_q) + a022 v2 (gate_rain) pushed, both RUNNING at once → renders_v2/.
 - 23 Nov 01:55 UTC: a019 v2 COMPLETE (23 min) + a022 v2 COMPLETE (11 min); recomposed, QA PASS, uploaded 1I_m4OaiQzE (5 Dec) + VAUl6EfZebw (11 Dec).
 - 23 Nov ~10:00 UTC: a024 v1 pushed (A-024 microwave mesh, Style R, 9 shots / 899 frames, 64 spp + mblur, 2×T4), started RUNNING at once.
+- 23 Nov: a025 v1 pushed (A-025 EUV machine, Style R, 12 shots / 1132 frames, 64 spp + mblur, 2×T4) while a024 still running.
