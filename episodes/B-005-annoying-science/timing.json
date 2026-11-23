@@ -5423,5 +5423,390 @@
   ],
   "heard": "Same trick, much smaller. It helps scientists study how tiny parts could build themselves.",
   "match": 1.0
+ },
+ {
+  "id": "N01",
+  "chapter": 8,
+  "text": "So it's not a curse. Toast loses to table height, laces to seven g's of impact, earbuds to a wandering end.",
+  "dur": 8.81,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.0,
+    "e": 0.54
+   },
+   {
+    "w": "it's",
+    "s": 0.54,
+    "e": 1.14
+   },
+   {
+    "w": "not",
+    "s": 1.14,
+    "e": 1.42
+   },
+   {
+    "w": "a",
+    "s": 1.42,
+    "e": 1.64
+   },
+   {
+    "w": "curse.",
+    "s": 1.64,
+    "e": 1.86
+   },
+   {
+    "w": "Toast",
+    "s": 2.84,
+    "e": 2.84
+   },
+   {
+    "w": "loses",
+    "s": 2.84,
+    "e": 3.38
+   },
+   {
+    "w": "to",
+    "s": 3.38,
+    "e": 3.64
+   },
+   {
+    "w": "table",
+    "s": 3.64,
+    "e": 3.9
+   },
+   {
+    "w": "height,",
+    "s": 3.9,
+    "e": 4.24
+   },
+   {
+    "w": "laces",
+    "s": 4.6,
+    "e": 4.94
+   },
+   {
+    "w": "to",
+    "s": 4.94,
+    "e": 5.3
+   },
+   {
+    "w": "seven",
+    "s": 5.3,
+    "e": 5.66
+   },
+   {
+    "w": "g's",
+    "s": 5.66,
+    "e": 5.98
+   },
+   {
+    "w": "of",
+    "s": 5.98,
+    "e": 6.08
+   },
+   {
+    "w": "impact,",
+    "s": 6.08,
+    "e": 6.44
+   },
+   {
+    "w": "earbuds",
+    "s": 6.98,
+    "e": 7.48
+   },
+   {
+    "w": "to",
+    "s": 7.48,
+    "e": 7.76
+   },
+   {
+    "w": "a",
+    "s": 7.76,
+    "e": 7.9
+   },
+   {
+    "w": "wandering",
+    "s": 7.9,
+    "e": 8.24
+   },
+   {
+    "w": "end.",
+    "s": 8.24,
+    "e": 8.62
+   }
+  ],
+  "heard": "So it's not a curse. Toast loses to table height, laces to seven g's of impact, earbuds to a wandering end,",
+  "match": 1.0
+ },
+ {
+  "id": "N02",
+  "chapter": 8,
+  "text": "Spaghetti to a snap-back wave, the curtain to a tiny whirlwind, coffee to a flow, and cereal to the curve of the milk.",
+  "dur": 7.73,
+  "words": [
+   {
+    "w": "Spaghetti",
+    "s": 0.23,
+    "e": 0.41
+   },
+   {
+    "w": "to",
+    "s": 0.41,
+    "e": 0.73
+   },
+   {
+    "w": "a",
+    "s": 0.73,
+    "e": 0.89
+   },
+   {
+    "w": "snap-back",
+    "s": 0.89,
+    "e": 1.39
+   },
+   {
+    "w": "wave,",
+    "s": 1.39,
+    "e": 1.67
+   },
+   {
+    "w": "the",
+    "s": 2.11,
+    "e": 2.21
+   },
+   {
+    "w": "curtain",
+    "s": 2.21,
+    "e": 2.47
+   },
+   {
+    "w": "to",
+    "s": 2.47,
+    "e": 2.73
+   },
+   {
+    "w": "a",
+    "s": 2.73,
+    "e": 2.89
+   },
+   {
+    "w": "tiny",
+    "s": 2.89,
+    "e": 3.15
+   },
+   {
+    "w": "whirlwind,",
+    "s": 3.15,
+    "e": 3.61
+   },
+   {
+    "w": "coffee",
+    "s": 4.17,
+    "e": 4.43
+   },
+   {
+    "w": "to",
+    "s": 4.43,
+    "e": 4.71
+   },
+   {
+    "w": "a",
+    "s": 4.71,
+    "e": 4.83
+   },
+   {
+    "w": "flow,",
+    "s": 4.83,
+    "e": 5.07
+   },
+   {
+    "w": "and",
+    "s": 5.51,
+    "e": 5.69
+   },
+   {
+    "w": "cereal",
+    "s": 5.69,
+    "e": 6.13
+   },
+   {
+    "w": "to",
+    "s": 6.13,
+    "e": 6.47
+   },
+   {
+    "w": "the",
+    "s": 6.47,
+    "e": 6.61
+   },
+   {
+    "w": "curve",
+    "s": 6.61,
+    "e": 6.91
+   },
+   {
+    "w": "of",
+    "s": 6.91,
+    "e": 7.13
+   },
+   {
+    "w": "the",
+    "s": 7.13,
+    "e": 7.23
+   },
+   {
+    "w": "milk.",
+    "s": 7.23,
+    "e": 7.49
+   }
+  ],
+  "heard": "spaghetti to a snap -back wave, the curtain to a tiny whirlwind, coffee to a flow, and cereal to the curve of the milk.",
+  "match": 0.936
+ },
+ {
+  "id": "N03",
+  "chapter": 8,
+  "text": "Every annoying thing has a reason. Somebody just had to stop and measure it.",
+  "dur": 4.63,
+  "words": [
+   {
+    "w": "Every",
+    "s": 0.06,
+    "e": 0.34
+   },
+   {
+    "w": "annoying",
+    "s": 0.34,
+    "e": 0.72
+   },
+   {
+    "w": "thing",
+    "s": 0.72,
+    "e": 1.02
+   },
+   {
+    "w": "has",
+    "s": 1.02,
+    "e": 1.32
+   },
+   {
+    "w": "a",
+    "s": 1.32,
+    "e": 1.46
+   },
+   {
+    "w": "reason.",
+    "s": 1.46,
+    "e": 1.72
+   },
+   {
+    "w": "Somebody",
+    "s": 2.4,
+    "e": 2.6
+   },
+   {
+    "w": "just",
+    "s": 2.6,
+    "e": 2.82
+   },
+   {
+    "w": "had",
+    "s": 2.82,
+    "e": 3.04
+   },
+   {
+    "w": "to",
+    "s": 3.04,
+    "e": 3.2
+   },
+   {
+    "w": "stop",
+    "s": 3.2,
+    "e": 3.5
+   },
+   {
+    "w": "and",
+    "s": 3.5,
+    "e": 3.88
+   },
+   {
+    "w": "measure",
+    "s": 3.88,
+    "e": 4.18
+   },
+   {
+    "w": "it.",
+    "s": 4.18,
+    "e": 4.5
+   }
+  ],
+  "heard": "Every annoying thing has a reason. Somebody just had to stop and measure it.",
+  "match": 1.0
+ },
+ {
+  "id": "N04",
+  "chapter": 8,
+  "text": "Which one will you test first? Tell us in the comments.",
+  "dur": 2.6,
+  "words": [
+   {
+    "w": "Which",
+    "s": 0.1,
+    "e": 0.2
+   },
+   {
+    "w": "one",
+    "s": 0.2,
+    "e": 0.36
+   },
+   {
+    "w": "will",
+    "s": 0.36,
+    "e": 0.5
+   },
+   {
+    "w": "you",
+    "s": 0.5,
+    "e": 0.64
+   },
+   {
+    "w": "test",
+    "s": 0.64,
+    "e": 0.84
+   },
+   {
+    "w": "first?",
+    "s": 0.84,
+    "e": 1.18
+   },
+   {
+    "w": "Tell",
+    "s": 1.74,
+    "e": 1.86
+   },
+   {
+    "w": "us",
+    "s": 1.86,
+    "e": 2.0
+   },
+   {
+    "w": "in",
+    "s": 2.0,
+    "e": 2.1
+   },
+   {
+    "w": "the",
+    "s": 2.1,
+    "e": 2.2
+   },
+   {
+    "w": "comments.",
+    "s": 2.2,
+    "e": 2.42
+   }
+  ],
+  "heard": "Which one will you test first? Tell us in the comments.",
+  "match": 1.0
  }
 ]

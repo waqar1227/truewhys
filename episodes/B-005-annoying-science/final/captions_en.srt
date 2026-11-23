@@ -1,0 +1,711 @@
+1
+00:00:00,070 --> 00:00:01,830
+Your toast lands butter-side down.
+
+2
+00:00:02,430 --> 00:00:03,620
+And it's not bad luck.
+
+3
+00:00:03,920 --> 00:00:05,800
+A physicist worked out the real culprit:
+
+4
+00:00:06,260 --> 00:00:07,690
+the height of your kitchen table.
+
+5
+00:00:08,020 --> 00:00:08,880
+And it's not just toast.
+
+6
+00:00:09,260 --> 00:00:11,440
+Your shoelaces, your earbuds, even your
+
+7
+00:00:11,440 --> 00:00:13,180
+spaghetti follow hidden rules.
+
+8
+00:00:13,770 --> 00:00:16,090
+Scientists tested every one of them, with
+
+9
+00:00:16,090 --> 00:00:18,630
+treadmills, spinning boxes, and two weeks
+
+10
+00:00:18,630 --> 00:00:20,090
+of computer time...
+
+11
+00:00:20,090 --> 00:00:20,890
+on a shower curtain.
+
+12
+00:00:21,190 --> 00:00:23,510
+So why does everyday stuff seem to work
+
+13
+00:00:23,510 --> 00:00:25,830
+against you? Let's start with that toast.
+
+14
+00:00:27,400 --> 00:00:29,560
+Push a slice of toast off a table,
+
+15
+00:00:29,760 --> 00:00:30,820
+and watch closely.
+
+16
+00:00:31,130 --> 00:00:32,150
+It doesn't fall flat.
+
+17
+00:00:32,650 --> 00:00:34,530
+As it tips over the edge, it starts
+
+18
+00:00:34,530 --> 00:00:35,360
+to spin.
+
+19
+00:00:35,700 --> 00:00:38,180
+In 1995, the British physicist Robert
+
+20
+00:00:38,180 --> 00:00:40,210
+Matthews worked out how much.
+
+21
+00:00:40,510 --> 00:00:42,570
+From a normal table, the fall is so
+
+22
+00:00:42,570 --> 00:00:44,550
+short that the toast only has time for
+
+23
+00:00:44,550 --> 00:00:45,660
+about half a turn.
+
+24
+00:00:45,960 --> 00:00:47,440
+And half a turn means the side that
+
+25
+00:00:47,440 --> 00:00:50,120
+started on top, the buttered side, ends up
+
+26
+00:00:50,120 --> 00:00:50,820
+on the bottom.
+
+27
+00:00:51,100 --> 00:00:51,780
+So can you beat it?
+
+28
+00:00:51,780 --> 00:00:53,700
+With a taller table, yes.
+
+29
+00:00:54,120 --> 00:00:55,820
+About three meters tall, high enough for a
+
+30
+00:00:55,820 --> 00:00:56,590
+full turn.
+
+31
+00:00:56,900 --> 00:00:57,920
+Or push it off fast.
+
+32
+00:00:58,780 --> 00:01:00,640
+Toast that shoots off quickly doesn't spin
+
+33
+00:01:00,640 --> 00:01:01,400
+enough to flip.
+
+34
+00:01:01,870 --> 00:01:04,030
+Matthews won an Ig Nobel Prize for this:
+
+35
+00:01:04,350 --> 00:01:05,930
+a prize for research that makes people
+
+36
+00:01:05,930 --> 00:01:07,410
+laugh, and then think.
+
+37
+00:01:08,980 --> 00:01:09,860
+Now look down.
+
+38
+00:01:10,760 --> 00:01:13,200
+Why do shoelaces come undone, even when
+
+39
+00:01:13,200 --> 00:01:14,020
+you tie them tight?
+
+40
+00:01:14,520 --> 00:01:17,260
+In 2017, engineers at the University of
+
+41
+00:01:17,260 --> 00:01:19,380
+California, Berkeley, filmed a runner's
+
+42
+00:01:19,380 --> 00:01:21,330
+shoes in slow motion on a treadmill.
+
+43
+00:01:21,660 --> 00:01:23,480
+Every time a running foot hits the ground,
+
+44
+00:01:23,720 --> 00:01:25,820
+it strikes at about seven times the force
+
+45
+00:01:25,820 --> 00:01:26,550
+of gravity.
+
+46
+00:01:26,870 --> 00:01:29,130
+Each hit squeezes the knot and loosens it,
+
+47
+00:01:29,150 --> 00:01:29,990
+just a little.
+
+48
+00:01:30,360 --> 00:01:32,460
+Meanwhile, the swinging leg whips the free
+
+49
+00:01:32,460 --> 00:01:34,060
+ends of the laces back and forth, like
+
+50
+00:01:34,060 --> 00:01:34,850
+a tug of war.
+
+51
+00:01:35,150 --> 00:01:36,710
+Neither one alone was enough.
+
+52
+00:01:37,250 --> 00:01:38,490
+Stomping didn't undo the knot.
+
+53
+00:01:38,690 --> 00:01:39,870
+Swinging didn't either.
+
+54
+00:01:40,190 --> 00:01:41,490
+But together...
+
+55
+00:01:41,940 --> 00:01:43,900
+Once the knot started to slip, it fell
+
+56
+00:01:43,900 --> 00:01:46,010
+apart in as few as two strides.
+
+57
+00:01:46,320 --> 00:01:48,020
+They also found that a knot that twists
+
+58
+00:01:48,020 --> 00:01:49,640
+when you pull it tight is the weak
+
+59
+00:01:49,640 --> 00:01:51,900
+kind. A knot that lies flat holds on
+
+60
+00:01:51,900 --> 00:01:52,600
+longer.
+
+61
+00:01:52,780 --> 00:01:54,180
+But even the strong knot fails in the
+
+62
+00:01:54,180 --> 00:01:55,740
+end. It just takes longer.
+
+63
+00:01:57,310 --> 00:02:00,390
+Next mystery. You put tidy earbuds in your
+
+64
+00:02:00,390 --> 00:02:02,470
+pocket. You take them out, and they're a
+
+65
+00:02:02,470 --> 00:02:04,170
+knotted mess. How?
+
+66
+00:02:04,690 --> 00:02:07,790
+In 2007, two physicists in California put
+
+67
+00:02:07,790 --> 00:02:09,570
+a piece of string in a box and
+
+68
+00:02:09,570 --> 00:02:11,000
+spun it for ten seconds.
+
+69
+00:02:11,300 --> 00:02:12,280
+Then they did it again.
+
+70
+00:02:12,780 --> 00:02:15,670
+And again. More than three thousand times.
+
+71
+00:02:16,180 --> 00:02:17,760
+Strings shorter than forty-six centimeters
+
+72
+00:02:17,760 --> 00:02:19,270
+never knotted at all.
+
+73
+00:02:19,570 --> 00:02:21,490
+But longer strings knotted in about half
+
+74
+00:02:21,490 --> 00:02:23,890
+of the tumbles, some in complicated knots,
+
+75
+00:02:24,010 --> 00:02:24,730
+within seconds.
+
+76
+00:02:25,000 --> 00:02:27,860
+The reason: the loose end keeps wandering
+
+77
+00:02:27,860 --> 00:02:29,660
+over and under the rest of the string.
+
+78
+00:02:30,160 --> 00:02:32,080
+Every crossing is a chance to tie a
+
+79
+00:02:32,080 --> 00:02:32,680
+knot.
+
+80
+00:02:32,680 --> 00:02:34,520
+Longer and floppier means more chances.
+
+81
+00:02:35,120 --> 00:02:37,020
+A very flexible string knotted in
+
+82
+00:02:37,020 --> 00:02:38,980
+eighty-five percent of the tumbles.
+
+83
+00:02:39,290 --> 00:02:40,970
+So a long, floppy cable in your pocket
+
+84
+00:02:40,970 --> 00:02:42,950
+is almost asking to be tied.
+
+85
+00:02:44,520 --> 00:02:47,840
+Try this. Snap one stick of dry spaghetti
+
+86
+00:02:47,840 --> 00:02:49,550
+into just two pieces.
+
+87
+00:02:49,850 --> 00:02:51,130
+It almost never works.
+
+88
+00:02:51,710 --> 00:02:54,090
+It breaks into three pieces, or more.
+
+89
+00:02:54,390 --> 00:02:56,750
+The famous physicist Richard Feynman once
+
+90
+00:02:56,750 --> 00:02:58,590
+spent a good part of an evening breaking
+
+91
+00:02:58,590 --> 00:03:00,460
+spaghetti, trying to explain it.
+
+92
+00:03:00,760 --> 00:03:03,640
+In 2005, two French scientists finally
+
+93
+00:03:03,640 --> 00:03:04,350
+cracked it.
+
+94
+00:03:04,650 --> 00:03:06,810
+When the stick snaps near the middle, each
+
+95
+00:03:06,810 --> 00:03:09,210
+half springs back, and that sends a wave
+
+96
+00:03:09,210 --> 00:03:10,960
+of bending down the pieces.
+
+97
+00:03:11,260 --> 00:03:13,020
+The wave bends them even more than
+
+98
+00:03:13,020 --> 00:03:15,620
+before... and they snap again.
+
+99
+00:03:15,940 --> 00:03:18,700
+Then in 2018, a team at MIT found
+
+100
+00:03:18,700 --> 00:03:21,100
+the trick: twist the spaghetti first,
+
+101
+00:03:21,520 --> 00:03:24,070
+almost a full turn, and then bend it.
+
+102
+00:03:24,370 --> 00:03:26,630
+The twist soaks up the snap-back, and the
+
+103
+00:03:26,630 --> 00:03:28,140
+stick breaks cleanly in two.
+
+104
+00:03:28,440 --> 00:03:30,060
+They built a special machine to do it.
+
+105
+00:03:30,320 --> 00:03:31,780
+So, good luck at dinner.
+
+106
+00:03:33,350 --> 00:03:34,810
+Now, the bathroom.
+
+107
+00:03:35,330 --> 00:03:36,930
+You turn on the shower, and the curtain
+
+108
+00:03:36,930 --> 00:03:38,870
+creeps in and sticks to your legs.
+
+109
+00:03:39,490 --> 00:03:40,190
+Why?
+
+110
+00:03:40,450 --> 00:03:42,710
+For years, people blamed hot air rising,
+
+111
+00:03:42,910 --> 00:03:44,270
+or the fast-moving water.
+
+112
+00:03:44,580 --> 00:03:46,580
+But the curtain gets pulled in by a
+
+113
+00:03:46,580 --> 00:03:47,520
+cold shower too.
+
+114
+00:03:47,820 --> 00:03:50,340
+In 2001, engineer David Schmidt split a
+
+115
+00:03:50,340 --> 00:03:52,800
+virtual bathroom into fifty thousand tiny
+
+116
+00:03:52,800 --> 00:03:54,900
+cells, and let his home computer run for
+
+117
+00:03:54,900 --> 00:03:55,680
+two weeks.
+
+118
+00:03:55,980 --> 00:03:58,160
+All that, for thirty seconds of shower
+
+119
+00:03:58,160 --> 00:03:58,860
+time.
+
+120
+00:03:58,920 --> 00:04:01,620
+The answer: the spray drives a spinning
+
+121
+00:04:01,620 --> 00:04:04,040
+vortex of air, like a little sideways
+
+122
+00:04:04,040 --> 00:04:04,760
+whirlwind.
+
+123
+00:04:05,090 --> 00:04:06,510
+The middle of that whirlwind has low
+
+124
+00:04:06,510 --> 00:04:08,690
+pressure, and low pressure pulls the light
+
+125
+00:04:08,690 --> 00:04:09,580
+curtain in.
+
+126
+00:04:09,890 --> 00:04:11,730
+His fix? Weights in the hem of the
+
+127
+00:04:11,730 --> 00:04:14,590
+curtain. And yes, this won an Ig Nobel
+
+128
+00:04:14,590 --> 00:04:15,470
+Prize too.
+
+129
+00:04:17,040 --> 00:04:18,920
+Spill a drop of coffee and let it
+
+130
+00:04:18,920 --> 00:04:21,380
+dry. You get a dark ring, not a
+
+131
+00:04:21,380 --> 00:04:24,260
+brown spot. Why only the edge?
+
+132
+00:04:24,740 --> 00:04:27,540
+In 1997, physicists in Chicago published
+
+133
+00:04:27,540 --> 00:04:29,340
+the answer in the journal Nature.
+
+134
+00:04:29,690 --> 00:04:31,770
+As the drop dries, its edge gets stuck
+
+135
+00:04:31,770 --> 00:04:32,690
+to the table.
+
+136
+00:04:32,990 --> 00:04:35,150
+The edge dries fastest, so water flows
+
+137
+00:04:35,150 --> 00:04:37,180
+outward from the middle to replace it.
+
+138
+00:04:37,480 --> 00:04:39,740
+That flow carries the tiny coffee grains
+
+139
+00:04:39,740 --> 00:04:41,840
+with it, and dumps almost all of them
+
+140
+00:04:41,840 --> 00:04:42,550
+at the rim.
+
+141
+00:04:42,880 --> 00:04:45,480
+Then in 2011, a team in Pennsylvania found
+
+142
+00:04:45,480 --> 00:04:47,360
+a way to stop it: change the shape
+
+143
+00:04:47,360 --> 00:04:48,500
+of the particles.
+
+144
+00:04:49,030 --> 00:04:51,090
+Stretched, egg-shaped particles grab onto
+
+145
+00:04:51,090 --> 00:04:53,070
+each other at the surface, and dry evenly.
+
+146
+00:04:53,690 --> 00:04:54,390
+No ring.
+
+147
+00:04:54,610 --> 00:04:56,330
+Printers and paint makers care about this
+
+148
+00:04:56,330 --> 00:04:58,510
+a lot. A ring is the last thing
+
+149
+00:04:58,510 --> 00:04:59,310
+you want in ink.
+
+150
+00:05:00,880 --> 00:05:02,460
+Last one, at breakfast.
+
+151
+00:05:03,300 --> 00:05:05,140
+Why do the last few cereal loops in
+
+152
+00:05:05,140 --> 00:05:07,280
+your bowl clump together, or cling to the
+
+153
+00:05:07,280 --> 00:05:07,980
+side?
+
+154
+00:05:08,320 --> 00:05:10,760
+In 2005, two applied mathematicians
+
+155
+00:05:10,760 --> 00:05:12,430
+explained it in a physics journal.
+
+156
+00:05:12,860 --> 00:05:13,980
+Milk doesn't lie flat.
+
+157
+00:05:14,400 --> 00:05:16,360
+Around every floating loop, the surface
+
+158
+00:05:16,360 --> 00:05:19,120
+curves up a little, making a tiny slope.
+
+159
+00:05:19,440 --> 00:05:21,320
+A floating loop drifts up that slope,
+
+160
+00:05:21,540 --> 00:05:23,560
+toward the next loop, and the two pull
+
+161
+00:05:23,560 --> 00:05:24,260
+together.
+
+162
+00:05:24,310 --> 00:05:26,670
+The bowl's edge curves up the same way,
+
+163
+00:05:26,830 --> 00:05:28,910
+so loops near the side slide over and
+
+164
+00:05:28,910 --> 00:05:29,740
+stick to it.
+
+165
+00:05:30,090 --> 00:05:32,270
+Same trick, much smaller: it helps
+
+166
+00:05:32,270 --> 00:05:34,290
+scientists study how tiny parts could
+
+167
+00:05:34,290 --> 00:05:35,110
+build themselves.
+
+168
+00:05:36,680 --> 00:05:38,620
+So it's not a curse.
+
+169
+00:05:39,520 --> 00:05:41,980
+Toast loses to table height, laces to
+
+170
+00:05:41,980 --> 00:05:44,580
+seven g's of impact, earbuds to a
+
+171
+00:05:44,580 --> 00:05:45,490
+wandering end.
+
+172
+00:05:45,990 --> 00:05:48,230
+Spaghetti to a snap-back wave, the curtain
+
+173
+00:05:48,230 --> 00:05:50,890
+to a tiny whirlwind, coffee to a flow,
+
+174
+00:05:51,270 --> 00:05:53,490
+and cereal to the curve of the milk.
+
+175
+00:05:53,820 --> 00:05:55,520
+Every annoying thing has a reason.
+
+176
+00:05:56,160 --> 00:05:58,390
+Somebody just had to stop and measure it.
+
+177
+00:05:58,760 --> 00:05:59,840
+Which one will you test first?
+
+178
+00:06:00,400 --> 00:06:01,260
+Tell us in the comments.

@@ -31,13 +31,13 @@ long = {
 SH = {
  "C1": ("C1-toast", "Why Toast Always Lands Butter-Side Down",
         "It's not bad luck: from a normal table, falling toast only has time for half a turn, so the buttered side ends up on the bottom.\n\n"
-        "Full video (7 everyday annoyances explained) on our channel: \"Why Toast Lands Butter-Side Down, Shoelaces Untie and Earbuds Tangle\".\n\n"
+        "Full video (7 everyday annoyances explained): {LONG_URL}\n\n"
         "Sources: R. A. J. Matthews, European Journal of Physics (1995); Bacon et al., American Journal of Physics (2001).\n\n#shorts #science #physics",
         ["why toast lands butter side down", "buttered toast", "toast physics", "murphy's law", "physics facts", "everyday science", "TrueWhys"],
         "2026-12-08T18:00:00Z"),
  "C2": ("C2-spaghetti", "Why You Can't Snap Spaghetti in Two",
         "Dry spaghetti almost always breaks into 3 or more pieces: the first snap sends a bending wave down each half. In 2018 an MIT team found the fix.\n\n"
-        "Full video (7 everyday annoyances explained) on our channel: \"Why Toast Lands Butter-Side Down, Shoelaces Untie and Earbuds Tangle\".\n\n"
+        "Full video (7 everyday annoyances explained): {LONG_URL}\n\n"
         "Sources: Audoly & Neukirch, Physical Review Letters (2005); Heisser et al., PNAS (2018); MIT News.\n\n#shorts #science #physics",
         ["spaghetti break in two", "why spaghetti breaks into three", "spaghetti physics", "MIT spaghetti", "feynman spaghetti", "everyday science", "TrueWhys"],
         "2026-12-10T18:00:00Z")}

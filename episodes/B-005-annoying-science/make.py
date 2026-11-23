@@ -254,7 +254,7 @@ def ic_cereal(g, c):
 def s_tests(g, c):
     """Treadmill, spinning box and a computer showing a shower curtain pop in on their words."""
     lab(g, c.gt, "#24414A", "#16282E")
-    k1, k2, k3 = (back_out(seg(c.t, tw(c, w) - 0.15, 0.35), 1.6) for w in ("treadmills", "spinning", "computer"))
+    k1, k2, k3 = (back_out(seg(c.t, tw(c, w) - 0.15, 0.35), 1.6) for w in ("tested", "treadmills", "spinning"))
     if k1 > 0:
         with g.at(420, 760, 0, k1):
             g.path("M-260 0 L260 0 L300 60 L-300 60 Z", "#4A4A55", INK, lw=8)
@@ -397,7 +397,7 @@ def s_ignobel(g, c):
     if c.t > tw(c, "laugh") - 0.1:
         label(g, "LAUGH…", 480, 820, 80, "#FF6B5B", k=pop(c.t, tw(c, "laugh") - 0.1, 0.3))
     if c.t > tw(c, "think") - 0.1:
-        label(g, "…THEN THINK", 1440, 820, 80, PAL["navy"], k=pop(c.t, tw(c, "think") - 0.1, 0.3))
+        label(g, "…THEN THINK", 1440, 820, 80, PAL["coral"], k=pop(c.t, tw(c, "think") - 0.1, 0.3))
     toast(g, 960, 300 + 10 * math.sin(c.gt * 3), 0.7, 0.2 * math.sin(c.gt * 2))
 
 
@@ -651,7 +651,7 @@ def s_snap_try(g, c):
     b = 160 * ease_io(seg(c.t, 0.4, max(1.0, c.T - 0.8)))
     spaghetti(g, 560, 560, 1240, 560, b, w=16)
     fist(g, 560, 590, 1.1); fist(g, 1240, 590, 1.1)
-    label(g, "JUST 2 PIECES", 900, 230, 84, PAL["navy"], k=pop(c.t, tw(c, "two") - 0.1, 0.3))
+    label(g, "JUST 2 PIECES", 900, 230, 84, PAL["coral"], k=pop(c.t, tw(c, "two") - 0.1, 0.3))
 
 
 def s_three(g, c):
@@ -842,9 +842,9 @@ def s_old_theories(g, c):
     if k1 > 0:
         for i in range(3):
             arrow(g, 1300 + i * 70, 700 - 200 * k1, 1300 + i * 70, 500 - 200 * k1, "#FF8A3D", 16, k=k1)
-        label(g, "HOT AIR?", 1450, 260, 70, "#FF8A3D", k=pop(c.t, tw(c, "hot") - 0.1, 0.3))
+        label(g, "HOT AIR?", 700, 1010, 70, "#FF8A3D", k=pop(c.t, tw(c, "hot") - 0.1, 0.3))
     if k2 > 0:
-        label(g, "FAST WATER?", 1450, 380, 70, "#7FC8E8", k=pop(c.t, tw(c, "fast-moving") - 0.1, 0.3))
+        label(g, "FAST WATER?", 1250, 1010, 70, "#7FC8E8", k=pop(c.t, tw(c, "fast-moving") - 0.1, 0.3))
 
 
 def s_cold(g, c):
@@ -892,9 +892,9 @@ def s_30s(g, c):
 def s_vortex(g, c, low=False):
     bath_cut(g, c, 0.25 + (0.55 * on(c, "pulls", 0.8) if low else 0.15), vortex=on(c, "vortex" if not low else "middle", 0.5, frac=0.1))
     if not low:
-        label(g, "SIDEWAYS WHIRLWIND", 1400, 240, 64, PAL["navy"], k=pop(c.t, tw(c, "whirlwind") - 0.1, 0.3))
+        label(g, "SIDEWAYS WHIRLWIND", 960, 1010, 64, PAL["coral"], k=pop(c.t, tw(c, "whirlwind") - 0.1, 0.3))
     else:
-        label(g, "LOW PRESSURE PULLS", 1400, 240, 64, "#FF6B5B", k=pop(c.t, tw(c, "low") - 0.1, 0.3))
+        label(g, "LOW PRESSURE PULLS", 960, 1010, 64, "#FF6B5B", k=pop(c.t, tw(c, "low") - 0.1, 0.3))
         arrow(g, 1150, 520, 900, 520, "#FF6B5B", 20, k=on(c, "pulls"))
 
 
@@ -902,7 +902,7 @@ def s_fix(g, c):
     ignobel = c.t > tw(c, "Ig") - 0.2
     if not ignobel:
         bath_cut(g, c, 0.0, weights=True)
-        label(g, "WEIGHTS IN THE HEM", 1350, 260, 70, PAL["navy"], k=pop(c.t, tw(c, "Weights") - 0.1, 0.3))
+        label(g, "WEIGHTS IN THE HEM", 960, 1010, 70, PAL["coral"], k=pop(c.t, tw(c, "Weights") - 0.1, 0.3))
         check(g, 860, 960, 46, seg(c.t, tw(c, "hem") - 0.1, 0.3))
     else:
         studio(g, c.gt, "#FFC93C", "#C97B2A")
@@ -1102,7 +1102,7 @@ def s_slope(g, c):
     milk_side(g, c, 0.0)
     if c.t > tw(c, "slope") - 0.3:
         arrow(g, 480, 360, 560, 440, PAL["yellow"], 14, k=on(c, "slope"))
-        label(g, "TINY SLOPE", 960, 200, 90, PAL["navy"], k=pop(c.t, tw(c, "slope") - 0.1, 0.3))
+        label(g, "TINY SLOPE", 960, 200, 90, PAL["coral"], k=pop(c.t, tw(c, "slope") - 0.1, 0.3))
     label(g, "MILK ISN'T FLAT", 960, 920, 70, PAL["cream"], k=pop(c.t, tw(c, "flat") - 0.1, 0.3))
 
 
@@ -1164,7 +1164,7 @@ def s_comments(g, c):
     char2(g, "modern", 1400, 1080 + 40, 980, "curious", "hip", "point", t=c.gt, prop=False, flip=True)
     for i, (x, y) in enumerate(((400, 300), (1100, 260), (600, 200))):
         qmark(g, x, y, 110, PAL["coral"], 0.2 * math.sin(i + c.gt), pop(c.t, 0.2 + i * 0.25, 0.3))
-    label(g, "WHICH ONE FIRST?", 820, 140, 84, PAL["navy"], k=pop(c.t, tw(c, "test") - 0.1, 0.3))
+    label(g, "WHICH ONE FIRST?", 820, 140, 84, PAL["coral"], k=pop(c.t, tw(c, "test") - 0.1, 0.3))
 
 
 def s_endscreen(g, c):
@@ -1194,8 +1194,10 @@ P("O01", s_hook, (0, "And"), cam=Z(1.08, 1.14, (800, 580)), tr="cut", music="pla
 P("O01", s_landed, ("And", 1), cam=Z(1.1, 1.18, (1000, 600)), sfx=[("luck", "sting", 0.35)])
 P("O02", s_culprit, cam=Z(1.0, 1.06, (1050, 560)), sfx=[("culprit", "drum_hit", 0.4)])
 P("O03", lambda g, c: s_montage(g, c, MON_A), sfx=[("shoelaces", "pop", 0.4), ("earbuds", "pop", 0.4), ("spaghetti", "pop", 0.4)])
-P("O04", s_tests, cam=Z(1.0, 1.05, (960, 560)), sfx=[("treadmills", "pop", 0.35), ("spinning", "pop", 0.35), ("computer", "pop", 0.35)])
-P("O05", s_start, cam=Z(1.05, 1.15, (820, 560)), music="curious", sfx=[(0.1, "shimmer", 0.35)])
+P("O04", s_tests, (0, "two"), cam=Z(1.0, 1.05, (960, 560)), sfx=[("treadmills", "pop", 0.35), ("spinning", "pop", 0.35), ("computer", "pop", 0.35)])
+P("O04", s_tests, ("two", 1), cam=Z(1.3, 1.38, (1450, 560)))
+P("O05", s_start, (0, "Let's"), cam=Z(1.05, 1.12, (820, 560)), music="curious", sfx=[(0.1, "shimmer", 0.35)])
+P("O05", s_start, ("Let's", 1), cam=Z(1.4, 1.5, (840, 480)))
 V.pause["O05"] = CH_PAUSE
 # toast
 P("T01", s_push, tr="flash", sfx=[(0.2, "whoosh_soft", 0.35)])
@@ -1206,7 +1208,8 @@ P("T04", s_halfturn, ("the#1", 1), cam=Z(1.0, 1.04, (960, 560)), sfx=[("half", "
 P("T05", s_flipped, cam=Z(1.0, 1.05, (960, 560)), sfx=[("bottom", "thud", 0.4)])
 P("T06", s_tall_table, cam=Z(1.0, 1.03, (960, 560)), music="playful", sfx=[("taller", "boing", 0.35), ("full", "chime", 0.35)])
 P("T07", s_fast, cam=Z(1.0, 1.04, (1100, 600)), sfx=[("fast", "whoosh", 0.45)])
-P("T08", s_ignobel, cam=Z(1.0, 1.05, (960, 560)), music="warm", sfx=[("Ig", "chime", 0.45), ("laugh", "pop", 0.35)])
+P("T08", s_ignobel, (0, "research"), cam=Z(1.0, 1.05, (960, 560)), music="warm", sfx=[("Ig", "chime", 0.45), ("laugh", "pop", 0.35)])
+P("T08", s_ignobel, ("research", 1), cam=Z(1.2, 1.25, (960, 700)))
 V.pause["T08"] = CH_PAUSE
 # shoelaces
 P("S01", s_lace_q, tr="flash", music="curious", sfx=[(0.2, "whoosh", 0.4)])
@@ -1215,7 +1218,8 @@ P("S02", s_treadmill, ("filmed", 1), cam=Z(1.35, 1.45, (1200, 560)), sfx=[("slow
 P("S03", s_stomp, sfx=[("seven", "drum_hit", 0.5)])
 P("S04", s_squeeze, cam=Z(1.0, 1.06, (960, 520)), sfx=[(0.3, "thud", 0.25), (0.9, "thud", 0.25)])
 P("S05", s_whip, cam=Z(1.0, 1.04, (960, 500)), sfx=[("whips", "whoosh", 0.4), ("tug", "pop", 0.35)])
-P("S06", s_neither, music="tension", sfx=[("Stomping", "pop", 0.35), ("Swinging", "pop", 0.35), ("together", "sting", 0.45)])
+P("S06", s_neither, (0, "But"), music="tension", sfx=[("Stomping", "pop", 0.35), ("Swinging", "pop", 0.35), ("together", "sting", 0.45)])
+P("S06", s_neither, ("But", 1), cam=Z(1.3, 1.4, (1450, 560)))
 P("S07", s_fail, cam=Z(1.0, 1.06, (1000, 540)), sfx=[("fell", "rush", 0.4)])
 P("S08", s_knots, (0, "A#1"), music="curious", sfx=[("weak", "bloop", 0.35)])
 P("S08", s_knots, ("A#1", 1), cam=Z(1.2, 1.25, (1300, 540)), sfx=[("flat", "ding", 0.4)])
@@ -1224,13 +1228,15 @@ V.pause["S09"] = CH_PAUSE
 # earbuds
 P("E01", s_buds_q, (0, "You#1"), tr="flash", music="playful", sfx=[(0.2, "whoosh", 0.4)])
 P("E01", s_buds_q, ("You#1", 1), cam=Z(1.0, 1.06, (960, 500)), sfx=[("How", "sting", 0.4)])
-P("E02", s_box_lab, cam=Z(1.0, 1.04, (1000, 540)), music="story", sfx=[("spun", "whoosh_soft", 0.35)])
+P("E02", s_box_lab, (0, "put"), cam=Z(1.0, 1.04, (1000, 540)), music="story", sfx=[("spun", "whoosh_soft", 0.35)])
+P("E02", s_box_lab, ("put", 1), cam=Z(1.35, 1.42, (1010, 480)))
 P("E03", s_again, sfx=[("again", "pop", 0.35), ("thousand", "ding", 0.4)])
 P("E04", s_short_string, cam=Z(1.0, 1.04, (960, 520)), sfx=[("never", "ding", 0.4)])
 P("E05", s_half, cam=Z(1.0, 1.04, (960, 540)), sfx=[("half", "pop", 0.35)])
 P("E06", s_wander, (0, "Every"), music="curious")
 P("E06", s_wander, ("Every", 1), cam=Z(1.2, 1.28, (1100, 560)), sfx=[("crossing", "ding", 0.35)])
-P("E07", s_floppy, cam=Z(1.0, 1.05, (1100, 520)), sfx=[("eighty-five", "sting", 0.4)])
+P("E07", s_floppy, (0, "A"), cam=Z(1.0, 1.05, (960, 540)), sfx=[("eighty-five", "sting", 0.4)])
+P("E07", s_floppy, ("A", 1), cam=Z(1.3, 1.36, (1300, 420)))
 P("E08", s_pocket_end, cam=Z(1.0, 1.08, (960, 540)))
 V.pause["E08"] = CH_PAUSE
 # spaghetti
@@ -1257,7 +1263,8 @@ P("C03", s_cold, cam=Z(1.0, 1.05, (1000, 540)), sfx=[("cold", "bloop", 0.35)])
 P("C04", s_cells, (0, "and"), music="story")
 P("C04", s_cells, ("and", 1), cam=Z(1.15, 1.2, (1300, 520)), sfx=[("weeks", "ding", 0.4)])
 P("C05", s_30s, sfx=[("thirty", "sting", 0.4)])
-P("C06", s_vortex, cam=Z(1.0, 1.06, (1000, 520)), music="curious", sfx=[("vortex", "whoosh", 0.4)])
+P("C06", s_vortex, (0, "like"), cam=Z(1.0, 1.06, (1000, 520)), music="curious", sfx=[("vortex", "whoosh", 0.4)])
+P("C06", s_vortex, ("like", 1), cam=Z(1.4, 1.48, (1060, 520)))
 P("C07", lambda g, c: s_vortex(g, c, True), cam=Z(1.1, 1.18, (950, 520)), sfx=[("pulls", "whoosh_soft", 0.4)])
 P("C08", s_fix, (0, "And"), cam=Z(1.0, 1.04, (900, 600)), music="warm")
 P("C08", s_fix, ("And", 1), cam=Z(1.0, 1.05, (960, 560)), sfx=[("Ig", "chime", 0.45)])
@@ -1271,20 +1278,25 @@ P("R04", s_flow, cam=Z(1.0, 1.04, (960, 600)), sfx=[("flows", "whoosh_soft", 0.3
 P("R05", s_dump, cam=Z(1.0, 1.06, (960, 640)), sfx=[("rim", "ding", 0.4)])
 P("R06", s_shape, cam=Z(1.0, 1.04, (960, 540)), music="curious", sfx=[("shape", "shimmer", 0.4)])
 P("R07", s_noring, cam=Z(1.0, 1.04, (960, 560)), music="warm", sfx=[("ring", "chime", 0.45)])
-P("R08", s_printer, cam=Z(1.0, 1.04, (960, 600)), sfx=[(0.2, "click", 0.3)])
+P("R08", s_printer, (0, "A"), cam=Z(1.0, 1.04, (960, 600)), sfx=[(0.2, "click", 0.3)])
+P("R08", s_printer, ("A", 1), cam=Z(1.3, 1.36, (1100, 760)))
 V.pause["R08"] = CH_PAUSE
 # cereal
 P("K01", s_bowl_q, (0, "Why"), tr="flash", music="warm", sfx=[(0.2, "whoosh", 0.4)])
 P("K01", s_bowl_q, ("Why", 1), cam=Z(1.15, 1.22, (960, 560)), sfx=[("clump", "pop", 0.35)])
 P("K02", s_mathematicians, cam=Z(1.0, 1.04, (1000, 560)), music="story")
-P("K03", s_slope, cam=Z(1.35, 1.45, (900, 480)), music="curious")
+P("K03", s_slope, (0, "Around"), cam=Z(1.15, 1.2, (960, 560)), music="curious")
+P("K03", s_slope, ("Around", 1), cam=Z(1.4, 1.5, (900, 480)))
 P("K04", s_drift, cam=Z(1.4, 1.45, (960, 480)), sfx=[("together", "pop", 0.4)])
 P("K05", s_wall, cam=Z(1.3, 1.35, (1350, 480)), sfx=[("stick", "pop", 0.4)])
-P("K06", s_assembly, music="warm", sfx=[(0.5, "shimmer", 0.35)])
+P("K06", s_assembly, (0, "it"), music="warm", sfx=[(0.5, "shimmer", 0.35)])
+P("K06", s_assembly, ("it", 1), cam=Z(1.2, 1.28, (960, 540)))
 V.pause["K06"] = CH_PAUSE
 # ending
-P("N01", lambda g, c: s_recap(g, c, R1), tr="flash", music="warm", sfx=[("Toast", "pop", 0.35), ("laces", "pop", 0.35), ("earbuds", "pop", 0.35)])
-P("N02", lambda g, c: s_recap(g, c, R2), sfx=[("Spaghetti", "pop", 0.35), ("curtain", "pop", 0.35), ("coffee", "pop", 0.35), ("cereal", "pop", 0.35)])
+P("N01", lambda g, c: s_recap(g, c, R1), (0, "earbuds"), cam=Z(1.0, 1.04, (960, 560)), tr="flash", music="warm", sfx=[("Toast", "pop", 0.35), ("laces", "pop", 0.35), ("earbuds", "pop", 0.35)])
+P("N01", lambda g, c: s_recap(g, c, R1), ("earbuds", 1), cam=Z(1.3, 1.36, (1500, 560)))
+P("N02", lambda g, c: s_recap(g, c, R2), (0, "coffee"), cam=Z(1.15, 1.2, (600, 560)), sfx=[("Spaghetti", "pop", 0.35), ("curtain", "pop", 0.35), ("coffee", "pop", 0.35), ("cereal", "pop", 0.35)])
+P("N02", lambda g, c: s_recap(g, c, R2), ("coffee", 1), cam=Z(1.15, 1.2, (1400, 560)))
 P("N03", s_measure, cam=Z(1.0, 1.05, (1100, 560)))
 P("N04", s_comments, cam=Z(1.0, 1.05, (900, 560)), sfx=[("comments", "pop", 0.4)])
 V.build()

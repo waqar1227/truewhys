@@ -3,429 +3,435 @@
   "id": "H1",
   "chapter": 0,
   "text": "Your toast lands butter-side down... and a physicist proved it's your table's fault.",
-  "dur": 4.892,
+  "dur": 4.53,
   "words": [
    {
     "w": "Your",
     "s": 0.0,
-    "e": 0.16
+    "e": 0.38
    },
    {
     "w": "toast",
-    "s": 0.16,
-    "e": 0.44
+    "s": 0.38,
+    "e": 0.62
    },
    {
     "w": "lands",
-    "s": 0.44,
+    "s": 0.62,
     "e": 0.96
    },
    {
     "w": "butter-side",
     "s": 0.96,
-    "e": 1.62
+    "e": 1.44
    },
    {
     "w": "down...",
-    "s": 1.62,
-    "e": 2.64
+    "s": 1.44,
+    "e": 1.74
    },
    {
     "w": "and",
-    "s": 2.64,
-    "e": 2.7
+    "s": 2.08,
+    "e": 2.16
    },
    {
     "w": "a",
-    "s": 2.7,
-    "e": 2.8
+    "s": 2.16,
+    "e": 2.28
    },
    {
     "w": "physicist",
-    "s": 2.8,
-    "e": 3.22
+    "s": 2.28,
+    "e": 2.6
    },
    {
     "w": "proved",
-    "s": 3.22,
-    "e": 3.66
+    "s": 2.6,
+    "e": 3.18
    },
    {
     "w": "it's",
-    "s": 3.66,
-    "e": 3.92
+    "s": 3.18,
+    "e": 3.46
    },
    {
     "w": "your",
-    "s": 3.92,
-    "e": 4.02
+    "s": 3.46,
+    "e": 3.58
    },
    {
     "w": "table's",
-    "s": 4.02,
-    "e": 4.5
+    "s": 3.58,
+    "e": 4.06
    },
    {
     "w": "fault.",
-    "s": 4.5,
-    "e": 4.74
+    "s": 4.06,
+    "e": 4.28
    }
   ],
-  "heard": "Your toast lands butter -side down... and a physicist proved it's your table's fault."
+  "heard": "Your toast lands butter -side down. And a physicist proved it's your table's fault.",
+  "match": 0.889
  },
  {
   "id": "L01",
   "chapter": 0,
   "text": "Toast sliding off a table doesn't fall flat. It tips at the edge and starts to spin.",
-  "dur": 4.915,
+  "dur": 4.58,
   "words": [
    {
     "w": "Toast",
-    "s": 0.0,
-    "e": 0.26
+    "s": 0.15,
+    "e": 0.29
    },
    {
     "w": "sliding",
-    "s": 0.26,
-    "e": 0.78
+    "s": 0.29,
+    "e": 0.71
    },
    {
     "w": "off",
-    "s": 0.78,
-    "e": 1.04
+    "s": 0.71,
+    "e": 0.91
    },
    {
     "w": "a",
-    "s": 1.04,
-    "e": 1.18
+    "s": 0.91,
+    "e": 1.01
    },
    {
     "w": "table",
-    "s": 1.18,
-    "e": 1.48
+    "s": 1.01,
+    "e": 1.21
    },
    {
     "w": "doesn't",
-    "s": 1.48,
-    "e": 1.88
+    "s": 1.21,
+    "e": 1.49
    },
    {
     "w": "fall",
-    "s": 1.88,
-    "e": 2.04
+    "s": 1.49,
+    "e": 1.67
    },
    {
     "w": "flat.",
-    "s": 2.04,
-    "e": 2.48
+    "s": 1.67,
+    "e": 2.05
    },
    {
     "w": "It",
-    "s": 2.92,
-    "e": 3.02
+    "s": 2.27,
+    "e": 2.39
    },
    {
     "w": "tips",
-    "s": 3.02,
-    "e": 3.22
+    "s": 2.39,
+    "e": 2.67
    },
    {
     "w": "at",
-    "s": 3.22,
-    "e": 3.36
+    "s": 2.67,
+    "e": 2.95
    },
    {
     "w": "the",
-    "s": 3.36,
-    "e": 3.48
+    "s": 2.95,
+    "e": 3.07
    },
    {
     "w": "edge",
-    "s": 3.48,
-    "e": 3.74
+    "s": 3.07,
+    "e": 3.29
    },
    {
     "w": "and",
-    "s": 3.74,
-    "e": 3.92
+    "s": 3.29,
+    "e": 3.55
    },
    {
     "w": "starts",
-    "s": 3.92,
-    "e": 4.16
+    "s": 3.55,
+    "e": 3.83
    },
    {
     "w": "to",
-    "s": 4.16,
-    "e": 4.42
+    "s": 3.83,
+    "e": 4.07
    },
    {
     "w": "spin.",
-    "s": 4.42,
-    "e": 4.68
+    "s": 4.07,
+    "e": 4.33
    }
   ],
-  "heard": "Toast sliding off a table doesn't fall flat. It tips at the edge and starts to spin."
+  "heard": "Toast sliding off a table doesn't fall flat. It tips at the edge and starts to spin.",
+  "match": 1.0
  },
  {
   "id": "L02",
   "chapter": 0,
   "text": "From a normal table, there's only time for about half a turn.",
-  "dur": 3.591,
+  "dur": 2.7,
   "words": [
    {
     "w": "From",
-    "s": 0.0,
-    "e": 0.18
+    "s": 0.03,
+    "e": 0.15
    },
    {
     "w": "a",
-    "s": 0.18,
-    "e": 0.32
+    "s": 0.15,
+    "e": 0.27
    },
    {
     "w": "normal",
-    "s": 0.32,
-    "e": 0.58
+    "s": 0.27,
+    "e": 0.49
    },
    {
     "w": "table,",
-    "s": 0.58,
-    "e": 1.06
+    "s": 0.49,
+    "e": 0.81
    },
    {
     "w": "there's",
-    "s": 1.52,
-    "e": 1.66
+    "s": 0.93,
+    "e": 1.03
    },
    {
     "w": "only",
-    "s": 1.66,
-    "e": 1.84
+    "s": 1.03,
+    "e": 1.19
    },
    {
     "w": "time",
-    "s": 1.84,
-    "e": 2.22
+    "s": 1.19,
+    "e": 1.43
    },
    {
     "w": "for",
-    "s": 2.22,
-    "e": 2.48
+    "s": 1.43,
+    "e": 1.63
    },
    {
     "w": "about",
-    "s": 2.48,
-    "e": 2.72
+    "s": 1.63,
+    "e": 1.83
    },
    {
     "w": "half",
-    "s": 2.72,
-    "e": 2.96
+    "s": 1.83,
+    "e": 2.07
    },
    {
     "w": "a",
-    "s": 2.96,
-    "e": 3.16
+    "s": 2.07,
+    "e": 2.25
    },
    {
     "w": "turn.",
-    "s": 3.16,
-    "e": 3.4
+    "s": 2.25,
+    "e": 2.47
    }
   ],
-  "heard": "From a normal table, there's only time for about half a turn."
+  "heard": "From a normal table, there's only time for about half a turn.",
+  "match": 1.0
  },
  {
   "id": "L03",
   "chapter": 0,
   "text": "And half a turn flips the buttered side to the bottom.",
-  "dur": 2.8,
+  "dur": 2.82,
   "words": [
    {
     "w": "And",
-    "s": 0.0,
-    "e": 0.14
+    "s": 0.03,
+    "e": 0.21
    },
    {
     "w": "half",
-    "s": 0.14,
-    "e": 0.32
+    "s": 0.21,
+    "e": 0.45
    },
    {
     "w": "a",
-    "s": 0.32,
-    "e": 0.48
+    "s": 0.45,
+    "e": 0.61
    },
    {
     "w": "turn",
-    "s": 0.48,
-    "e": 0.78
+    "s": 0.61,
+    "e": 0.85
    },
    {
     "w": "flips",
-    "s": 0.78,
-    "e": 1.12
+    "s": 0.85,
+    "e": 1.31
    },
    {
     "w": "the",
-    "s": 1.12,
-    "e": 1.38
+    "s": 1.31,
+    "e": 1.53
    },
    {
     "w": "buttered",
-    "s": 1.38,
-    "e": 1.7
+    "s": 1.53,
+    "e": 1.77
    },
    {
     "w": "side",
-    "s": 1.7,
-    "e": 2.04
+    "s": 1.77,
+    "e": 2.01
    },
    {
     "w": "to",
-    "s": 2.04,
-    "e": 2.24
+    "s": 2.01,
+    "e": 2.19
    },
    {
     "w": "the",
-    "s": 2.24,
-    "e": 2.32
+    "s": 2.19,
+    "e": 2.31
    },
    {
     "w": "bottom.",
-    "s": 2.32,
-    "e": 2.58
+    "s": 2.31,
+    "e": 2.59
    }
   ],
-  "heard": "And half a turn flips the buttered side to the bottom."
+  "heard": "And half a turn flips the buttered side to the bottom.",
+  "match": 1.0
  },
  {
   "id": "L04",
   "chapter": 0,
   "text": "To land butter-up, you'd need a table about three meters tall.",
-  "dur": 3.686,
+  "dur": 3.45,
   "words": [
    {
     "w": "To",
-    "s": 0.0,
-    "e": 0.16
+    "s": 0.03,
+    "e": 0.19
    },
    {
     "w": "land",
-    "s": 0.16,
-    "e": 0.44
+    "s": 0.19,
+    "e": 0.39
    },
    {
     "w": "butter-up,",
-    "s": 0.44,
-    "e": 1.36
+    "s": 0.39,
+    "e": 1.33
    },
    {
     "w": "you'd",
-    "s": 1.36,
-    "e": 1.5
+    "s": 1.33,
+    "e": 1.49
    },
    {
     "w": "need",
-    "s": 1.5,
-    "e": 1.6
+    "s": 1.49,
+    "e": 1.57
    },
    {
     "w": "a",
-    "s": 1.6,
-    "e": 1.76
+    "s": 1.57,
+    "e": 1.73
    },
    {
     "w": "table",
-    "s": 1.76,
-    "e": 2.06
+    "s": 1.73,
+    "e": 1.93
    },
    {
     "w": "about",
-    "s": 2.06,
-    "e": 2.4
+    "s": 1.93,
+    "e": 2.19
    },
    {
     "w": "three",
-    "s": 2.4,
-    "e": 2.76
+    "s": 2.19,
+    "e": 2.61
    },
    {
     "w": "meters",
-    "s": 2.76,
-    "e": 3.06
+    "s": 2.61,
+    "e": 2.89
    },
    {
     "w": "tall.",
-    "s": 3.06,
-    "e": 3.46
+    "s": 2.89,
+    "e": 3.25
    }
   ],
-  "heard": "To land butter -up, you'd need a table about three meters tall."
+  "heard": "To land butter -up, you'd need a table about three meters tall.",
+  "match": 0.87
  },
  {
   "id": "L05",
   "chapter": 0,
   "text": "Or push it off fast. So... how tall is your table?",
-  "dur": 3.184,
+  "dur": 3.37,
   "words": [
    {
     "w": "Or",
-    "s": 0.0,
-    "e": 0.16
+    "s": 0.05,
+    "e": 0.27
    },
    {
     "w": "push",
-    "s": 0.16,
-    "e": 0.34
+    "s": 0.27,
+    "e": 0.55
    },
    {
     "w": "it",
-    "s": 0.34,
-    "e": 0.46
+    "s": 0.55,
+    "e": 0.67
    },
    {
     "w": "off",
-    "s": 0.46,
-    "e": 0.64
+    "s": 0.67,
+    "e": 0.83
    },
    {
     "w": "fast.",
-    "s": 0.64,
-    "e": 0.98
+    "s": 0.83,
+    "e": 1.11
    },
    {
     "w": "So...",
-    "s": 1.42,
-    "e": 1.86
+    "s": 1.81,
+    "e": 2.29
    },
    {
     "w": "how",
-    "s": 1.86,
-    "e": 1.94
+    "s": 2.29,
+    "e": 2.39
    },
    {
     "w": "tall",
-    "s": 1.94,
-    "e": 2.24
+    "s": 2.39,
+    "e": 2.55
    },
    {
     "w": "is",
-    "s": 2.24,
-    "e": 2.46
+    "s": 2.55,
+    "e": 2.75
    },
    {
     "w": "your",
-    "s": 2.46,
-    "e": 2.6
+    "s": 2.75,
+    "e": 2.89
    },
    {
     "w": "table?",
-    "s": 2.6,
-    "e": 2.88
+    "s": 2.89,
+    "e": 3.19
    }
   ],
-  "heard": "Or push it off fast. So... how tall is your table?"
+  "heard": "Or push it off fast. So... how tall is your table?",
+  "match": 1.0
  }
 ]

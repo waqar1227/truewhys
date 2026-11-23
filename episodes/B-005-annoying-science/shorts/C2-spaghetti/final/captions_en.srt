@@ -1,0 +1,59 @@
+1
+00:00:00,070 --> 00:00:02,390
+Try snapping spaghetti into two pieces.
+
+2
+00:00:03,250 --> 00:00:03,950
+You can't.
+
+3
+00:00:04,280 --> 00:00:06,780
+It breaks into three or more, almost every
+
+4
+00:00:06,780 --> 00:00:09,220
+time. Even Richard Feynman couldn't
+
+5
+00:00:09,220 --> 00:00:10,050
+explain why.
+
+6
+00:00:10,410 --> 00:00:12,230
+When the stick snaps in the middle, each
+
+7
+00:00:12,230 --> 00:00:13,760
+half springs back.
+
+8
+00:00:14,060 --> 00:00:15,720
+That sends a bending wave down the
+
+9
+00:00:15,720 --> 00:00:17,900
+pieces... and they snap again.
+
+10
+00:00:18,200 --> 00:00:20,940
+In 2018, a team at MIT found the
+
+11
+00:00:20,940 --> 00:00:24,200
+trick: twist it almost a full turn first,
+
+12
+00:00:24,540 --> 00:00:25,240
+then bend.
+
+13
+00:00:25,530 --> 00:00:28,090
+The twist soaks up the wave, and it
+
+14
+00:00:28,090 --> 00:00:29,170
+breaks cleanly in two.
+
+15
+00:00:30,110 --> 00:00:30,790
+Now try it.

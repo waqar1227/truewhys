@@ -243,7 +243,7 @@ def c2_mit(g, c):
     g.rect(40, 1100, 1000, 50, "#9AA3AD", INK, lw=8, r=8)
     kt = ease_io(seg(c.t, tw(c, "twist") - 0.2, 1.2))
     kb = ease_io(seg(c.t, tw(c, "bend") - 0.2, 0.8))
-    gap = 820 - 220 * kb
+    gap = 820 - 220 * kb + 900 * (1 - ease_out(seg(c.gt - c.sh["line_start"], 0.0, 0.6)))
     xa, xb = 540 - gap / 2, 540 + gap / 2
     spaghetti(g, xa, 960, xb, 960, 180 * kb, w=22, twist=kt)
     for x, rot in ((xa, 0), (xb, kt * TAU * 0.95)):
@@ -252,6 +252,8 @@ def c2_mit(g, c):
             g.rc(0, 0, 80, 80, "#C9CED6", INK, lw=7, r=8)
             g.line([(0, -30), (0, 30)], "#FF6B5B", 8)
     label(g, "2018 · MIT", W / 2, 420, 100, PAL["cream"], k=pop(c.t, tw(c, "2018") - 0.1, 0.3))
+    if kt <= 0.05:
+        qmark(g, 540, 1350, 200, PAL["yellow"], 0.1 * math.sin(c.gt * 3), pop(c.t, tw(c, "trick") - 0.1, 0.3))
     if kt > 0.05:
         label(g, f"{int(342 * kt)}°", W / 2, 640, 130, k=1.0)
 
@@ -291,8 +293,10 @@ def build():
         V.shot("L05", c1_end, ("So", 1), sfx=[("tall", "pop", 0.35)])
     else:
         V = Video(EP, title=("NEVER IN", "TWO?"), cap_y=0.72, music="playful", sid="B005C2", captions=False)
-        V.shot("H1", c2_hook, tr="cut", sfx=[(0.0, "creak", 0.4), ("can't", "click", 0.55)])
-        V.shot("L01", c2_three, music="story", sfx=[(0.1, "pop", 0.35), (0.35, "pop", 0.35), (0.6, "pop", 0.35)])
+        V.shot("H1", c2_hook, (0, "You"), tr="cut", sfx=[(0.0, "creak", 0.4)])
+        V.shot("H1", c2_hook, ("You", 1), cam=push(1.15, 1.22, (540, 900)), sfx=[("can't", "click", 0.55)])
+        V.shot("L01", c2_three, (0, "Even"), music="story", sfx=[(0.1, "pop", 0.35), (0.35, "pop", 0.35), (0.6, "pop", 0.35)])
+        V.shot("L01", c2_three, ("Even", 1), cam=push(1.2, 1.26, (540, 1500)))
         V.shot("L02", c2_spring, cam=push(1.0, 1.05, (540, 960)), music="curious", sfx=[("snaps", "click", 0.5)])
         V.shot("L03", c2_wave, music="tension", sfx=[("again", "click", 0.5)])
         V.shot("L04", c2_mit, (0, "twist"), cam=push(1.0, 1.04, (540, 900)), music="story")
