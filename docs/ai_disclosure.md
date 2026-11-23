@@ -46,6 +46,7 @@ Unsure → **Yes** (disclosing never hurts reach or money; a missing disclosure 
 | 1I_m4OaiQzE | A-019-ambulance | Why Is AMBULANCE Written Backwards? | R | **No** |
 | VAUl6EfZebw | A-022-padlock-hole | What's This Tiny Hole in a Padlock For? | R | **No** |
 | 3ZAI7vLZZkE | A-023-foot-asleep | Why Does Your Foot Fall Asleep? | F | **No** |
+| T3CvD2HqRaE | A-025-euv-machine | Why Only ONE Company Can Build This Machine | R | **No** |
 | PtETjFRHH24 | B-004 C1 | Why Do Coins Have Ridges? | F | **No** |
 | cXgM0GJELw0 | B-004 C2 | Why Stop Signs Used to Be Yellow | F | **No** |
 | dgmYB0zPALw | B-004 (L4) | Why Coins Have Ridges, Manholes Are Round and Stop Signs Have 8 Sides | F | **No** |

@@ -110,3 +110,4 @@
 - 23 Nov ~10:00 UTC: a024 v1 pushed (A-024 microwave mesh, Style R, 9 shots / 899 frames, 64 spp + mblur, 2×T4), started RUNNING at once.
 - 23 Nov: a025 v1 pushed (A-025 EUV machine, Style R, 12 shots / 1132 frames, 64 spp + mblur, 2×T4) while a024 still running.
 - 23 Nov 10:00 UTC: a024 v1 COMPLETE (wall 85 min); composed. QA: door-glass lamp streak over the face in hook_pov/loop_pov → glass refl 0 for POV + lamp hidden from glossy; a024 v2 (hook_pov, loop_pov) to push after a025 starts. a025 still QUEUED (GPU slots busy).
+- 23 Nov 12:20 UTC: a025 v2 re-pushed (T4 queue stuck since morning); ran 12:21–13:45 UTC, 1132 frames OK. Compose: germany push-in slowed (frames 0–105) to avoid a too-close technician. Uploaded T3CvD2HqRaE for 23 Nov 16:00 UTC.

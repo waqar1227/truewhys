@@ -1,0 +1,71 @@
+1
+00:00:00,120 --> 00:00:02,320
+Why can only one company build this
+
+2
+00:00:02,320 --> 00:00:03,020
+machine?
+
+3
+00:00:03,330 --> 00:00:04,990
+The most advanced chips in your phone are
+
+4
+00:00:04,990 --> 00:00:05,750
+printed with it.
+
+5
+00:00:05,870 --> 00:00:07,940
+And no other company sells one.
+
+6
+00:00:08,240 --> 00:00:11,060
+Inside, it fires fifty thousand drops of
+
+7
+00:00:11,060 --> 00:00:12,490
+molten tin every second.
+
+8
+00:00:12,790 --> 00:00:14,950
+A laser hits each drop twice: first to
+
+9
+00:00:14,950 --> 00:00:16,990
+flatten it, then to blast it into plasma,
+
+10
+00:00:17,330 --> 00:00:18,730
+hotter than the surface of the Sun.
+
+11
+00:00:19,030 --> 00:00:21,530
+That plasma glows with extreme ultraviolet
+
+12
+00:00:21,530 --> 00:00:24,170
+light, which can draw lines thousands of
+
+13
+00:00:24,170 --> 00:00:25,590
+times thinner than a hair.
+
+14
+00:00:25,890 --> 00:00:28,750
+Its mirrors are so smooth that, scaled up
+
+15
+00:00:28,750 --> 00:00:30,870
+to the size of Germany, the tallest bump
+
+16
+00:00:30,870 --> 00:00:33,350
+would be no higher than a millimetre.
+
+17
+00:00:33,620 --> 00:00:35,280
+Decades of work, in one machine...
+
+18
+00:00:36,160 --> 00:00:37,500
+that's why nobody can copy it.
