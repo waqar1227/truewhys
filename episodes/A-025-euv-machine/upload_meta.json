@@ -1,0 +1,40 @@
+{
+ "title": "Why Only ONE Company Can Build This Machine",
+ "description": "Why can only one company in the world build this machine? The most advanced chips in your phone are printed with it, and no other company sells one.\n\nInside, it fires about 50,000 drops of molten tin every second. A laser hits each drop twice: first to flatten it, then to blast it into plasma hotter than the surface of the Sun. That plasma glows with extreme ultraviolet (EUV) light, which can print lines thousands of times thinner than a human hair. Its mirrors are so smooth that, scaled up to the size of Germany, the tallest bump would be no higher than a millimetre. Decades of work, in one machine: that's why nobody can copy it.\n\nWhat should we explain next? Tell us below.\n\nMore true whys: https://www.youtube.com/@truewhys?sub_confirmation=1\n\nSources: ASML, \"Light and lasers\", \"Lenses and mirrors\", \"The hottest thing about ASML machines\"; ZEISS SMT, \"EUV lithography\"; heise online (droplet rate); CNBC (2022); Wikipedia, \"Extreme ultraviolet lithography\".\nThe machine shown is our own generic 3D model; TrueWhys is not affiliated with any company named. Animation, music and sound: TrueWhys (original). Fonts: Lilita One (Open Font License).\n#technology #science #didyouknow",
+ "tags": [
+  "EUV lithography",
+  "EUV machine",
+  "how chips are made",
+  "chip making machine",
+  "ASML",
+  "ASML EUV",
+  "why nobody can copy",
+  "semiconductor",
+  "semiconductor manufacturing",
+  "computer chips",
+  "microchip",
+  "how are computer chips made",
+  "AI chips",
+  "tin droplets laser",
+  "plasma",
+  "extreme ultraviolet",
+  "lithography explained",
+  "most complex machine",
+  "technology explained",
+  "tech facts",
+  "science facts",
+  "did you know",
+  "fun facts",
+  "TrueWhys"
+ ],
+ "categoryId": "28",
+ "publishAt": "2026-11-23T16:00:00Z",
+ "playlist": "Why Does That Happen? (Science and Body)",
+ "video": "final/A-025.mp4",
+ "style": "R (stylised 3D)",
+ "ai_disclosure": {
+  "synthetic": false,
+  "reason": "Not realistic: stylised CG machine, glowing effects and studio sets (clearly animated), generic TTS narrator imitating no real person, code-made music; no real footage or people (docs/ai_disclosure.md test, 23 Nov 2026)."
+ },
+ "schedule_note": "Owner 23 Nov: trend swap into today's slot (A-017 moved to 22 Dec 18:00). If upload is after 15:00 UTC, set publishAt >= 1 h after upload, same day."
+}

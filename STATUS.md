@@ -6,11 +6,11 @@ Rules added 22 Nov (all in CLAUDE.md): 5 posts/week, 1 per day, Mon+Wed free, lo
 (docs/posting_times.md) · trend swap allowed · NO burned-in captions (SRT upload) · research/why_not_viral.md production rules ·
 docs/growth_strategy.md · docs/competitor_targeting.md (never creator names in metadata) · cast v2.2 (arms/turns) · 30 days scheduled → STOP.
 
-CALENDAR (UTC). Scheduled: Sun 22 A-021 · Mon 23 A-017 · Tue 24 A-012 · Wed 25 A-011 · Thu 26 A-013 · Fri 27 A-018 · Sun 29 17:00 L4 dgmYB0zPALw ·
-Tue 1 Dec 18:00 L4-C1 PtETjFRHH24 · Thu 3 Dec 16:00 A-010 · Fri 4 Dec 18:00 L4-C2 cXgM0GJELw0 · Sat 5 Dec 18:00 A-019 1I_m4OaiQzE · Sun 6 Dec 16:00 A-016 · Fri 11 Dec 18:00 A-022 VAUl6EfZebw · Fri 18 Dec 18:00 A-023 3ZAI7vLZZkE (foot asleep, Style F).
+CALENDAR (UTC). Scheduled: Sun 22 A-021 · Mon 23 16:00 A-025 (trend swap, owner 23 Nov; A-017 moved to Tue 22 Dec 18:00) · Tue 24 A-012 · Wed 25 A-011 · Thu 26 A-013 · Fri 27 A-018 · Sun 29 17:00 L4 dgmYB0zPALw ·
+Tue 1 Dec 18:00 L4-C1 PtETjFRHH24 · Thu 3 Dec 16:00 A-010 · Fri 4 Dec 18:00 L4-C2 cXgM0GJELw0 · Sat 5 Dec 18:00 A-019 1I_m4OaiQzE · Sun 6 Dec 16:00 A-016 · Fri 11 Dec 18:00 A-022 VAUl6EfZebw · Fri 18 Dec 18:00 A-023 3ZAI7vLZZkE (foot asleep, Style F) · Tue 22 Dec 18:00 A-017 S8zIxiPXHpE (moved).
 IN PRODUCTION (22 Nov): Mon 7 Dec 17:00 L5 + teaser post (own session session_01BQj2DeXWy7q3QfcuAZWsgi) · Tue 8 + Thu 10 Dec 18:00 L5 cut Shorts (L5 session).
-IN PRODUCTION (23 Nov): Sat 19 Dec 18:00 A-024 microwave mesh (Kaggle a024) · Tue 15 Dec 18:00 A-025 EUV machine (owner request: own take on a trending
-chip Short; Kaggle a025). Each: renders → `make.py render renders` → QA → thumb → upload → SRT → registers.
+IN PRODUCTION (23 Nov): Sat 19 Dec 18:00 A-024 microwave mesh (Kaggle a024) · A-025 EUV machine → TODAY Mon 23 Nov 16:00 UTC (owner: trend swap; if late, same day ≥ 1 h after upload; Kaggle a025).
+FREED: Tue 15 Dec 18:00 slot (needs a standalone Short). Each: renders → `make.py render renders` → QA → thumb → upload → SRT → registers.
 TO MAKE: · Sun 13 Dec 17:00 L6 · Thu 17 Dec Short (L6 cut Short; standalone if L6 is late) ·
 Sun 20 Dec 17:00 L7 → then STOP (30 days filled). Spare (made, not scheduled): L4-C3 caps, L4-C4 manholes.
 
