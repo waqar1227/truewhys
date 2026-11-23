@@ -1,0 +1,522 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "Why is there a metal net in your microwave door?",
+  "dur": 2.69,
+  "words": [
+   {
+    "w": "Why",
+    "s": 0.0,
+    "e": 0.34
+   },
+   {
+    "w": "is",
+    "s": 0.34,
+    "e": 0.5
+   },
+   {
+    "w": "there",
+    "s": 0.5,
+    "e": 0.68
+   },
+   {
+    "w": "a",
+    "s": 0.68,
+    "e": 0.88
+   },
+   {
+    "w": "metal",
+    "s": 0.88,
+    "e": 1.14
+   },
+   {
+    "w": "net",
+    "s": 1.14,
+    "e": 1.44
+   },
+   {
+    "w": "in",
+    "s": 1.44,
+    "e": 1.64
+   },
+   {
+    "w": "your",
+    "s": 1.64,
+    "e": 1.74
+   },
+   {
+    "w": "microwave",
+    "s": 1.74,
+    "e": 2.16
+   },
+   {
+    "w": "door?",
+    "s": 2.16,
+    "e": 2.46
+   }
+  ],
+  "heard": "Why is there a metal net in your microwave door?",
+  "match": 1.0
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "It's not decoration. Without it, the microwaves would pour straight out through the glass.",
+  "dur": 4.28,
+  "words": [
+   {
+    "w": "It's",
+    "s": 0.08,
+    "e": 0.34
+   },
+   {
+    "w": "not",
+    "s": 0.34,
+    "e": 0.56
+   },
+   {
+    "w": "decoration.",
+    "s": 0.56,
+    "e": 0.98
+   },
+   {
+    "w": "Without",
+    "s": 1.46,
+    "e": 1.68
+   },
+   {
+    "w": "it,",
+    "s": 1.68,
+    "e": 1.86
+   },
+   {
+    "w": "the",
+    "s": 1.96,
+    "e": 2.08
+   },
+   {
+    "w": "microwaves",
+    "s": 2.08,
+    "e": 2.48
+   },
+   {
+    "w": "would",
+    "s": 2.48,
+    "e": 2.68
+   },
+   {
+    "w": "pour",
+    "s": 2.68,
+    "e": 2.9
+   },
+   {
+    "w": "straight",
+    "s": 2.9,
+    "e": 3.32
+   },
+   {
+    "w": "out",
+    "s": 3.32,
+    "e": 3.5
+   },
+   {
+    "w": "through",
+    "s": 3.5,
+    "e": 3.68
+   },
+   {
+    "w": "the",
+    "s": 3.68,
+    "e": 3.78
+   },
+   {
+    "w": "glass.",
+    "s": 3.78,
+    "e": 4.04
+   }
+  ],
+  "heard": "It's not decoration. Without it, the microwaves would pour straight out through the glass.",
+  "match": 1.0
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "Microwaves are waves, like light, but much longer: about twelve centimetres from crest to crest.",
+  "dur": 5.9,
+  "words": [
+   {
+    "w": "Microwaves",
+    "s": 0.19,
+    "e": 0.55
+   },
+   {
+    "w": "are",
+    "s": 0.55,
+    "e": 0.75
+   },
+   {
+    "w": "waves,",
+    "s": 0.75,
+    "e": 1.07
+   },
+   {
+    "w": "like",
+    "s": 1.45,
+    "e": 1.57
+   },
+   {
+    "w": "light,",
+    "s": 1.57,
+    "e": 1.91
+   },
+   {
+    "w": "but",
+    "s": 2.31,
+    "e": 2.49
+   },
+   {
+    "w": "much",
+    "s": 2.49,
+    "e": 2.81
+   },
+   {
+    "w": "longer:",
+    "s": 2.81,
+    "e": 3.19
+   },
+   {
+    "w": "about",
+    "s": 3.71,
+    "e": 3.91
+   },
+   {
+    "w": "twelve",
+    "s": 3.91,
+    "e": 4.178
+   },
+   {
+    "w": "centimetres",
+    "s": 4.178,
+    "e": 4.67
+   },
+   {
+    "w": "from",
+    "s": 4.67,
+    "e": 5.07
+   },
+   {
+    "w": "crest",
+    "s": 5.07,
+    "e": 5.31
+   },
+   {
+    "w": "to",
+    "s": 5.31,
+    "e": 5.49
+   },
+   {
+    "w": "crest.",
+    "s": 5.49,
+    "e": 5.71
+   }
+  ],
+  "heard": "Microwaves are waves, like light, but much longer. About 12 centimeters from crest to crest.",
+  "match": 0.867
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "The holes in that metal mesh are just a few millimetres wide. Far too small for a wave that big. So the waves bounce back inside.",
+  "dur": 7.01,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.03,
+    "e": 0.21
+   },
+   {
+    "w": "holes",
+    "s": 0.21,
+    "e": 0.41
+   },
+   {
+    "w": "in",
+    "s": 0.41,
+    "e": 0.63
+   },
+   {
+    "w": "that",
+    "s": 0.63,
+    "e": 0.75
+   },
+   {
+    "w": "metal",
+    "s": 0.75,
+    "e": 1.01
+   },
+   {
+    "w": "mesh",
+    "s": 1.01,
+    "e": 1.29
+   },
+   {
+    "w": "are",
+    "s": 1.29,
+    "e": 1.57
+   },
+   {
+    "w": "just",
+    "s": 1.57,
+    "e": 1.73
+   },
+   {
+    "w": "a",
+    "s": 1.73,
+    "e": 1.87
+   },
+   {
+    "w": "few",
+    "s": 1.87,
+    "e": 2.15
+   },
+   {
+    "w": "millimetres",
+    "s": 2.15,
+    "e": 2.61
+   },
+   {
+    "w": "wide.",
+    "s": 2.61,
+    "e": 2.97
+   },
+   {
+    "w": "Far",
+    "s": 3.53,
+    "e": 3.67
+   },
+   {
+    "w": "too",
+    "s": 3.67,
+    "e": 3.85
+   },
+   {
+    "w": "small",
+    "s": 3.85,
+    "e": 4.09
+   },
+   {
+    "w": "for",
+    "s": 4.09,
+    "e": 4.29
+   },
+   {
+    "w": "a",
+    "s": 4.29,
+    "e": 4.39
+   },
+   {
+    "w": "wave",
+    "s": 4.39,
+    "e": 4.53
+   },
+   {
+    "w": "that",
+    "s": 4.53,
+    "e": 4.73
+   },
+   {
+    "w": "big.",
+    "s": 4.73,
+    "e": 4.97
+   },
+   {
+    "w": "So",
+    "s": 5.51,
+    "e": 5.69
+   },
+   {
+    "w": "the",
+    "s": 5.69,
+    "e": 5.79
+   },
+   {
+    "w": "waves",
+    "s": 5.79,
+    "e": 6.07
+   },
+   {
+    "w": "bounce",
+    "s": 6.07,
+    "e": 6.33
+   },
+   {
+    "w": "back",
+    "s": 6.33,
+    "e": 6.55
+   },
+   {
+    "w": "inside.",
+    "s": 6.55,
+    "e": 6.85
+   }
+  ],
+  "heard": "The holes in that metal mesh are just a few millimeters wide. Far too small for a wave that big. So the waves bounce back inside.",
+  "match": 0.962
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "But light waves are hundreds of thousands of times smaller. They slip through easily.",
+  "dur": 4.56,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.03,
+    "e": 0.23
+   },
+   {
+    "w": "light",
+    "s": 0.23,
+    "e": 0.45
+   },
+   {
+    "w": "waves",
+    "s": 0.45,
+    "e": 0.71
+   },
+   {
+    "w": "are",
+    "s": 0.71,
+    "e": 1.01
+   },
+   {
+    "w": "hundreds",
+    "s": 1.01,
+    "e": 1.41
+   },
+   {
+    "w": "of",
+    "s": 1.41,
+    "e": 1.65
+   },
+   {
+    "w": "thousands",
+    "s": 1.65,
+    "e": 2.09
+   },
+   {
+    "w": "of",
+    "s": 2.09,
+    "e": 2.27
+   },
+   {
+    "w": "times",
+    "s": 2.27,
+    "e": 2.45
+   },
+   {
+    "w": "smaller.",
+    "s": 2.45,
+    "e": 2.81
+   },
+   {
+    "w": "They",
+    "s": 3.31,
+    "e": 3.53
+   },
+   {
+    "w": "slip",
+    "s": 3.53,
+    "e": 3.71
+   },
+   {
+    "w": "through",
+    "s": 3.71,
+    "e": 3.93
+   },
+   {
+    "w": "easily.",
+    "s": 3.93,
+    "e": 4.33
+   }
+  ],
+  "heard": "But light waves are hundreds of thousands of times smaller. They slip through easily.",
+  "match": 1.0
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "That's why you can watch your food... while the microwaves stay locked in.",
+  "dur": 3.67,
+  "words": [
+   {
+    "w": "That's",
+    "s": 0.03,
+    "e": 0.35
+   },
+   {
+    "w": "why",
+    "s": 0.35,
+    "e": 0.49
+   },
+   {
+    "w": "you",
+    "s": 0.49,
+    "e": 0.61
+   },
+   {
+    "w": "can",
+    "s": 0.61,
+    "e": 0.77
+   },
+   {
+    "w": "watch",
+    "s": 0.77,
+    "e": 1.03
+   },
+   {
+    "w": "your",
+    "s": 1.03,
+    "e": 1.23
+   },
+   {
+    "w": "food...",
+    "s": 1.23,
+    "e": 1.45
+   },
+   {
+    "w": "while",
+    "s": 1.45,
+    "e": 1.93
+   },
+   {
+    "w": "the",
+    "s": 1.93,
+    "e": 2.05
+   },
+   {
+    "w": "microwaves",
+    "s": 2.05,
+    "e": 2.61
+   },
+   {
+    "w": "stay",
+    "s": 2.61,
+    "e": 2.95
+   },
+   {
+    "w": "locked",
+    "s": 2.95,
+    "e": 3.25
+   },
+   {
+    "w": "in.",
+    "s": 3.25,
+    "e": 3.49
+   }
+  ],
+  "heard": "That's why you can watch your food while the microwaves stay locked in.",
+  "match": 1.0
+ }
+]

@@ -1,0 +1,7 @@
+# A-024 v1 (23 Nov 2026), standalone Short, Style R. Everyday object (Plane windows 1 135, Vending machine 1 135 views). Facts with 2+ sources (sources.md).
+H1|0|Why is there a metal net in your microwave door?
+L01|0|It's not decoration. Without it, the microwaves would pour straight out through the glass.
+L02|0|Microwaves are waves, like light, but much longer: about twelve centimetres from crest to crest.
+L03|0|The holes in that metal mesh are just a few millimetres wide. Far too small for a wave that big. So the waves bounce back inside.
+L04|0|But light waves are hundreds of thousands of times smaller. They slip through easily.
+L05|0|That's why you can watch your food... while the microwaves stay locked in.

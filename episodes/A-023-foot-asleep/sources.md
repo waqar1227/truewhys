@@ -1,0 +1,11 @@
+# A-023 sources (checked 23 Nov 2026)
+- Pressure on a nerve stops it passing signals normally → the foot goes numb; when the pressure is gone, feeling returns with tingling:
+  - KidsHealth (Nemours), "Why Does My Foot Fall Asleep?" — https://kidshealth.org/en/kids/foot-asleep.html
+  - Swedish Health, "What really happens when your feet and hands fall asleep" ("like a kink in a hose") — https://blog.swedish.org/lifestyle/what-really-happens-when-your-feet-and-hands-fall-asleep
+- Pressure also blocks blood flow to the nerve; when it returns, misfiring nerves make the tingling (pins and needles, paresthesia) before signals normalise:
+  - Cleveland Clinic, "Should you worry about pins and needles?" — https://health.clevelandclinic.org/worry-pins-needles
+  - Mental Floss, "Why Do Limbs Fall Asleep?" — https://www.mentalfloss.com/article/21035/why-do-limbs-fall-asleep
+  - Healthline, "Arms falling asleep at night" (nerves react to pinching or lack of blood flow) — https://www.healthline.com/health/arms-falling-asleep-at-night
+- Normal, fades soon after the pressure is removed; constant/recurring tingling without a cause → doctor (description only):
+  - Fox News Health (UVA neurologist), "What's going on when your limbs fall asleep" — https://www.foxnews.com/health/whats-going-on-when-your-limbs-fall-asleep
+  - Cleveland Clinic (above)

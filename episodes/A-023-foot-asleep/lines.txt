@@ -1,0 +1,7 @@
+# A-023 v1 (23 Nov 2026), standalone Short, Style F + cast v2.2. Body topic (best performers: Brain freeze 92.7 % avg viewed). Facts with 2+ sources (sources.md).
+H1|0|Why does your foot fall asleep?
+L01|0|It isn't asleep. A nerve in your leg is being squashed.
+L02|0|When you sit on your foot or cross your legs, you press on that nerve, and on the tiny blood vessels that feed it.
+L03|0|A squashed nerve can't pass messages. Your brain stops hearing from your foot, so it goes numb.
+L04|0|Then you stand up. The pressure lifts, and the nerve restarts all at once, firing messy signals.
+L05|0|And that buzzing static... is pins and needles. Your nerve, waking up.
