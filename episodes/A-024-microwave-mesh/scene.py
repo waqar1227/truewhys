@@ -62,7 +62,7 @@ def plane_xz(name, w, h, loc, mat):
 
 
 # ------------------------------------------------------------------ set
-def microwave(wz, on=1.0, screen=True, x0=0.0):
+def microwave(wz, on=1.0, screen=True, x0=0.0, glass_refl=0.03):
     """Over-the-range microwave; window centre at (x0, DOOR_Y, wz). Returns dict of parts."""
     M = dict(body=C.pbr("mw_body", "#D8DCE0", 0.35, metal=0.6), dark=C.pbr("mw_dark", "#202328", 0.4, metal=0.3),
              cav=C.pbr("mw_cav", "#E9E4D8", 0.6), panel=C.pbr("mw_panel", "#15171B", 0.25, coat=0.6),
@@ -83,9 +83,11 @@ def microwave(wz, on=1.0, screen=True, x0=0.0):
     for s in (-1, 1):
         C.rbox("cav_side", (0.005, D_ - 0.05, H_ - 0.05), (x0 + s * (W_ - 0.16) / 2, yb - D_ / 2, cz), mat=M["cav"], bevel=0.0)
     C.rbox("cav_roof", (W_ - 0.16, D_ - 0.05, 0.005), (x0, yb - D_ / 2, cz + H_ / 2 - 0.025), mat=M["cav"], bevel=0.0)
-    C.rbox("cav_lamp", (0.06, 0.04, 0.004), (x0 - 0.08, yb - D_ / 2 + 0.06, cz + H_ / 2 - 0.03), mat=M["lamp"], bevel=0.0)
+    lamp_o = C.rbox("cav_lamp", (0.06, 0.04, 0.004), (x0 - 0.08, yb - D_ / 2 + 0.06, cz + H_ / 2 - 0.03), mat=M["lamp"], bevel=0.0)
+    lamp_o.visible_glossy = False                                               # QA 23 Nov: no lamp streak in the door glass
     if on > 0:
-        C.area("cavlight", (x0 - 0.05, yb - D_ / 2, cz + H_ / 2 - 0.04), (0, 0, 0), 0.12, "#FFD9A0", 9.0 * on)
+        cl = C.area("cavlight", (x0 - 0.05, yb - D_ / 2, cz + H_ / 2 - 0.04), (0, 0, 0), 0.12, "#FFD9A0", 9.0 * on)
+        cl.visible_glossy = False
     # door: dark frame around the window, glass pane, perforated screen behind it, control panel on the right
     fw = 0.035
     for nm, size, loc in (("dtop", (WIN_W + 2 * fw, 0.025, fw), (x0, DOOR_Y - 0.0125, wz + WIN_H / 2 + fw / 2)),
@@ -94,7 +96,7 @@ def microwave(wz, on=1.0, screen=True, x0=0.0):
                           ("dr", (fw, 0.025, WIN_H), (x0 + WIN_W / 2 + fw / 2, DOOR_Y - 0.0125, wz))):
         C.rbox(nm, size, loc, mat=M["dark"], bevel=0.004)
     C.rbox("handle", (0.022, 0.03, WIN_H + 0.04), (x0 + WIN_W / 2 + fw + 0.004, DOOR_Y + 0.012, wz), mat=M["body"], bevel=0.008)
-    glass = plane_xz("doorglass", WIN_W, WIN_H, (x0, DOOR_Y, wz), C.glass("doorglass", refl=0.03))
+    glass = plane_xz("doorglass", WIN_W, WIN_H, (x0, DOOR_Y, wz), C.glass("doorglass" if glass_refl else "doorglass_clear", refl=glass_refl))
     scr = plane_xz("screen", WIN_W, WIN_H, (x0, DOOR_Y - 0.008, wz), screen_mat()) if screen else None
     px = x0 + WIN_W / 2 + fw + 0.07
     C.rbox("panel", (0.11, 0.02, H_ - 0.02), (px, DOOR_Y - 0.01, cz), mat=M["panel"], bevel=0.004)
@@ -160,7 +162,7 @@ def _pov_set(n):
     h, ct, E = cook(n)
     wz = E - 0.07
     kitchen(wz)
-    mw = microwave(wz)
+    mw = microwave(wz, glass_refl=0.0)                                         # POV through the door: no glass reflection
     spin(mw["pivot"], n)
     P.lights((0, -0.1, E), key=700, rim=500, fill=250)
     C.area("facefill", (0.0, DOOR_Y + 0.02, E - 0.02), (math.radians(90), 0, 0), 0.25, "#FFD9A0", 7.0)

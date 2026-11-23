@@ -109,3 +109,4 @@
 - 23 Nov 01:55 UTC: a019 v2 COMPLETE (23 min) + a022 v2 COMPLETE (11 min); recomposed, QA PASS, uploaded 1I_m4OaiQzE (5 Dec) + VAUl6EfZebw (11 Dec).
 - 23 Nov ~10:00 UTC: a024 v1 pushed (A-024 microwave mesh, Style R, 9 shots / 899 frames, 64 spp + mblur, 2×T4), started RUNNING at once.
 - 23 Nov: a025 v1 pushed (A-025 EUV machine, Style R, 12 shots / 1132 frames, 64 spp + mblur, 2×T4) while a024 still running.
+- 23 Nov 10:00 UTC: a024 v1 COMPLETE (wall 85 min); composed. QA: door-glass lamp streak over the face in hook_pov/loop_pov → glass refl 0 for POV + lamp hidden from glossy; a024 v2 (hook_pov, loop_pov) to push after a025 starts. a025 still QUEUED (GPU slots busy).
