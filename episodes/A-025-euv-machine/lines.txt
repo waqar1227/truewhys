@@ -1,0 +1,9 @@
+# A-025 v1 (23 Nov 2026), standalone Short, Style R, English narration. Owner request: own original take on the trending "why nobody can copy a GPU" theme
+# (competitor Short 141k views/1 day); our angle = the one machine that prints every top chip. Facts with 2+ sources (sources.md).
+H1|0|Why can only one company build this machine?
+L01|0|The most advanced chips in your phone are printed with it. And no other company sells one.
+L02|0|Inside, it fires fifty thousand drops of molten tin every second.
+L03|0|A laser hits each drop twice: first to flatten it, then to blast it into plasma, hotter than the surface of the Sun.
+L04|0|That plasma glows with extreme ultraviolet light, which can draw lines thousands of times thinner than a hair.
+L05|0|Its mirrors are so smooth that, scaled up to the size of Germany, the tallest bump would be no higher than a millimetre.
+L06|0|Decades of work, in one machine... that's why nobody can copy it.

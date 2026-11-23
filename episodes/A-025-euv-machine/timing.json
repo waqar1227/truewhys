@@ -1,0 +1,632 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "Why can only one company build this machine?",
+  "dur": 2.73,
+  "words": [
+   {
+    "w": "Why",
+    "s": 0.0,
+    "e": 0.52
+   },
+   {
+    "w": "can",
+    "s": 0.52,
+    "e": 0.74
+   },
+   {
+    "w": "only",
+    "s": 0.74,
+    "e": 0.96
+   },
+   {
+    "w": "one",
+    "s": 0.96,
+    "e": 1.36
+   },
+   {
+    "w": "company",
+    "s": 1.36,
+    "e": 1.72
+   },
+   {
+    "w": "build",
+    "s": 1.72,
+    "e": 2.0
+   },
+   {
+    "w": "this",
+    "s": 2.0,
+    "e": 2.2
+   },
+   {
+    "w": "machine?",
+    "s": 2.2,
+    "e": 2.52
+   }
+  ],
+  "heard": "Why can only one company build this machine?",
+  "match": 1.0
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "The most advanced chips in your phone are printed with it. And no other company sells one.",
+  "dur": 4.64,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.03,
+    "e": 0.17
+   },
+   {
+    "w": "most",
+    "s": 0.17,
+    "e": 0.33
+   },
+   {
+    "w": "advanced",
+    "s": 0.33,
+    "e": 0.71
+   },
+   {
+    "w": "chips",
+    "s": 0.71,
+    "e": 0.97
+   },
+   {
+    "w": "in",
+    "s": 0.97,
+    "e": 1.13
+   },
+   {
+    "w": "your",
+    "s": 1.13,
+    "e": 1.23
+   },
+   {
+    "w": "phone",
+    "s": 1.23,
+    "e": 1.49
+   },
+   {
+    "w": "are",
+    "s": 1.49,
+    "e": 1.69
+   },
+   {
+    "w": "printed",
+    "s": 1.69,
+    "e": 1.95
+   },
+   {
+    "w": "with",
+    "s": 1.95,
+    "e": 2.15
+   },
+   {
+    "w": "it.",
+    "s": 2.15,
+    "e": 2.37
+   },
+   {
+    "w": "And",
+    "s": 2.57,
+    "e": 3.01
+   },
+   {
+    "w": "no",
+    "s": 3.01,
+    "e": 3.29
+   },
+   {
+    "w": "other",
+    "s": 3.29,
+    "e": 3.55
+   },
+   {
+    "w": "company",
+    "s": 3.55,
+    "e": 3.81
+   },
+   {
+    "w": "sells",
+    "s": 3.81,
+    "e": 4.07
+   },
+   {
+    "w": "one.",
+    "s": 4.07,
+    "e": 4.51
+   }
+  ],
+  "heard": "The most advanced chips in your phone are printed with it, and no other company sells one.",
+  "match": 1.0
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "Inside, it fires fifty thousand drops of molten tin every second.",
+  "dur": 4.28,
+  "words": [
+   {
+    "w": "Inside,",
+    "s": 0.03,
+    "e": 0.45
+   },
+   {
+    "w": "it",
+    "s": 0.73,
+    "e": 0.97
+   },
+   {
+    "w": "fires",
+    "s": 0.97,
+    "e": 1.23
+   },
+   {
+    "w": "fifty",
+    "s": 1.23,
+    "e": 1.638
+   },
+   {
+    "w": "thousand",
+    "s": 1.638,
+    "e": 2.29
+   },
+   {
+    "w": "drops",
+    "s": 2.29,
+    "e": 2.57
+   },
+   {
+    "w": "of",
+    "s": 2.57,
+    "e": 2.85
+   },
+   {
+    "w": "molten",
+    "s": 2.85,
+    "e": 2.95
+   },
+   {
+    "w": "tin",
+    "s": 2.95,
+    "e": 3.31
+   },
+   {
+    "w": "every",
+    "s": 3.31,
+    "e": 3.75
+   },
+   {
+    "w": "second.",
+    "s": 3.75,
+    "e": 4.11
+   }
+  ],
+  "heard": "Inside, it fires 50 ,000 drops of molten tin every second.",
+  "match": 0.818
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "A laser hits each drop twice: first to flatten it, then to blast it into plasma, hotter than the surface of the Sun.",
+  "dur": 5.97,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.03,
+    "e": 0.23
+   },
+   {
+    "w": "laser",
+    "s": 0.23,
+    "e": 0.47
+   },
+   {
+    "w": "hits",
+    "s": 0.47,
+    "e": 0.67
+   },
+   {
+    "w": "each",
+    "s": 0.67,
+    "e": 0.87
+   },
+   {
+    "w": "drop",
+    "s": 0.87,
+    "e": 1.09
+   },
+   {
+    "w": "twice:",
+    "s": 1.09,
+    "e": 1.37
+   },
+   {
+    "w": "first",
+    "s": 1.65,
+    "e": 1.97
+   },
+   {
+    "w": "to",
+    "s": 1.97,
+    "e": 2.19
+   },
+   {
+    "w": "flatten",
+    "s": 2.19,
+    "e": 2.55
+   },
+   {
+    "w": "it,",
+    "s": 2.55,
+    "e": 2.73
+   },
+   {
+    "w": "then",
+    "s": 2.75,
+    "e": 2.93
+   },
+   {
+    "w": "to",
+    "s": 2.93,
+    "e": 3.15
+   },
+   {
+    "w": "blast",
+    "s": 3.15,
+    "e": 3.47
+   },
+   {
+    "w": "it",
+    "s": 3.47,
+    "e": 3.67
+   },
+   {
+    "w": "into",
+    "s": 3.67,
+    "e": 3.81
+   },
+   {
+    "w": "plasma,",
+    "s": 3.81,
+    "e": 4.23
+   },
+   {
+    "w": "hotter",
+    "s": 4.57,
+    "e": 4.79
+   },
+   {
+    "w": "than",
+    "s": 4.79,
+    "e": 5.03
+   },
+   {
+    "w": "the",
+    "s": 5.03,
+    "e": 5.15
+   },
+   {
+    "w": "surface",
+    "s": 5.15,
+    "e": 5.29
+   },
+   {
+    "w": "of",
+    "s": 5.29,
+    "e": 5.53
+   },
+   {
+    "w": "the",
+    "s": 5.53,
+    "e": 5.63
+   },
+   {
+    "w": "Sun.",
+    "s": 5.63,
+    "e": 5.79
+   }
+  ],
+  "heard": "A laser hits each drop twice, first to flatten it, then to blast it into plasma, hotter than the surface of the sun.",
+  "match": 1.0
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "That plasma glows with extreme ultraviolet light, which can draw lines thousands of times thinner than a hair.",
+  "dur": 6.59,
+  "words": [
+   {
+    "w": "That",
+    "s": 0.03,
+    "e": 0.27
+   },
+   {
+    "w": "plasma",
+    "s": 0.27,
+    "e": 0.69
+   },
+   {
+    "w": "glows",
+    "s": 0.69,
+    "e": 1.15
+   },
+   {
+    "w": "with",
+    "s": 1.15,
+    "e": 1.39
+   },
+   {
+    "w": "extreme",
+    "s": 1.39,
+    "e": 2.01
+   },
+   {
+    "w": "ultraviolet",
+    "s": 2.01,
+    "e": 2.53
+   },
+   {
+    "w": "light,",
+    "s": 2.53,
+    "e": 3.03
+   },
+   {
+    "w": "which",
+    "s": 3.27,
+    "e": 3.53
+   },
+   {
+    "w": "can",
+    "s": 3.53,
+    "e": 3.73
+   },
+   {
+    "w": "draw",
+    "s": 3.73,
+    "e": 3.95
+   },
+   {
+    "w": "lines",
+    "s": 3.95,
+    "e": 4.39
+   },
+   {
+    "w": "thousands",
+    "s": 4.39,
+    "e": 4.91
+   },
+   {
+    "w": "of",
+    "s": 4.91,
+    "e": 5.17
+   },
+   {
+    "w": "times",
+    "s": 5.17,
+    "e": 5.41
+   },
+   {
+    "w": "thinner",
+    "s": 5.41,
+    "e": 5.75
+   },
+   {
+    "w": "than",
+    "s": 5.75,
+    "e": 5.91
+   },
+   {
+    "w": "a",
+    "s": 5.91,
+    "e": 6.07
+   },
+   {
+    "w": "hair.",
+    "s": 6.07,
+    "e": 6.33
+   }
+  ],
+  "heard": "That plasma glows with extreme ultraviolet light, which can draw lines thousands of times thinner than a hair.",
+  "match": 1.0
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "Its mirrors are so smooth that, scaled up to the size of Germany, the tallest bump would be no higher than a millimetre.",
+  "dur": 7.49,
+  "words": [
+   {
+    "w": "Its",
+    "s": 0.03,
+    "e": 0.53
+   },
+   {
+    "w": "mirrors",
+    "s": 0.53,
+    "e": 0.91
+   },
+   {
+    "w": "are",
+    "s": 0.91,
+    "e": 1.17
+   },
+   {
+    "w": "so",
+    "s": 1.17,
+    "e": 1.49
+   },
+   {
+    "w": "smooth",
+    "s": 1.49,
+    "e": 1.91
+   },
+   {
+    "w": "that,",
+    "s": 1.91,
+    "e": 2.13
+   },
+   {
+    "w": "scaled",
+    "s": 2.51,
+    "e": 2.71
+   },
+   {
+    "w": "up",
+    "s": 2.71,
+    "e": 2.89
+   },
+   {
+    "w": "to",
+    "s": 2.89,
+    "e": 3.01
+   },
+   {
+    "w": "the",
+    "s": 3.01,
+    "e": 3.11
+   },
+   {
+    "w": "size",
+    "s": 3.11,
+    "e": 3.29
+   },
+   {
+    "w": "of",
+    "s": 3.29,
+    "e": 3.45
+   },
+   {
+    "w": "Germany,",
+    "s": 3.45,
+    "e": 3.77
+   },
+   {
+    "w": "the",
+    "s": 4.17,
+    "e": 4.35
+   },
+   {
+    "w": "tallest",
+    "s": 4.35,
+    "e": 4.67
+   },
+   {
+    "w": "bump",
+    "s": 4.67,
+    "e": 5.01
+   },
+   {
+    "w": "would",
+    "s": 5.01,
+    "e": 5.21
+   },
+   {
+    "w": "be",
+    "s": 5.21,
+    "e": 5.37
+   },
+   {
+    "w": "no",
+    "s": 5.37,
+    "e": 5.61
+   },
+   {
+    "w": "higher",
+    "s": 5.61,
+    "e": 5.87
+   },
+   {
+    "w": "than",
+    "s": 5.87,
+    "e": 6.07
+   },
+   {
+    "w": "a",
+    "s": 6.07,
+    "e": 6.23
+   },
+   {
+    "w": "millimetre.",
+    "s": 6.23,
+    "e": 7.49
+   }
+  ],
+  "heard": "Its mirrors are so smooth that, scaled up to the size of Germany, the tallest bump would be no higher than a millimeter.",
+  "match": 0.957
+ },
+ {
+  "id": "L06",
+  "chapter": 0,
+  "text": "Decades of work, in one machine... that's why nobody can copy it.",
+  "dur": 3.88,
+  "words": [
+   {
+    "w": "Decades",
+    "s": 0.0,
+    "e": 0.36
+   },
+   {
+    "w": "of",
+    "s": 0.36,
+    "e": 0.48
+   },
+   {
+    "w": "work,",
+    "s": 0.48,
+    "e": 0.7
+   },
+   {
+    "w": "in",
+    "s": 0.7,
+    "e": 1.0
+   },
+   {
+    "w": "one",
+    "s": 1.0,
+    "e": 1.28
+   },
+   {
+    "w": "machine...",
+    "s": 1.28,
+    "e": 1.66
+   },
+   {
+    "w": "that's",
+    "s": 2.54,
+    "e": 2.76
+   },
+   {
+    "w": "why",
+    "s": 2.76,
+    "e": 2.88
+   },
+   {
+    "w": "nobody",
+    "s": 2.88,
+    "e": 3.04
+   },
+   {
+    "w": "can",
+    "s": 3.04,
+    "e": 3.3
+   },
+   {
+    "w": "copy",
+    "s": 3.3,
+    "e": 3.54
+   },
+   {
+    "w": "it.",
+    "s": 3.54,
+    "e": 3.7
+   }
+  ],
+  "heard": "Decades of work in one machine. That's why nobody can copy it.",
+  "match": 1.0
+ }
+]

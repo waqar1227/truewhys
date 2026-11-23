@@ -1,0 +1,18 @@
+# A-025 sources (checked 23 Nov 2026)
+- ASML is the world's only (commercial) supplier of EUV lithography machines; the most advanced chips are made with them; Nikon/Canon sell older DUV:
+  - Wikipedia, "ASML Holding" — https://en.wikipedia.org/wiki/ASML_Holding
+  - CNBC, "Inside ASML, the company advanced chipmakers use for EUV lithography" (2022) — https://www.cnbc.com/2022/03/23/inside-asml-the-company-advanced-chipmakers-use-for-euv-lithography.html
+  - TechCrunch (5 May 2026), ASML CEO interview — https://techcrunch.com/2026/05/05/asml-ceo-christophe-fouquet-no-one-is-coming-for-us
+  - Works in Progress, "The world's most complex machine" — https://worksinprogress.co/issue/the-worlds-most-complex-machine/
+- ~25 µm molten tin droplets at 70 m/s, hit by two laser pulses (flatten, then vaporise into plasma); plasma ~500,000 K, hotter than the Sun's surface (~5,800 K); 13.5 nm EUV light:
+  - ASML, "Light and lasers" — https://www.asml.com/en/technology/lithography-principles/light-and-lasers
+  - ASML, "The hottest thing about ASML machines" — https://www.asml.com/en/discover/hot-machines
+  - Wikipedia, "Extreme ultraviolet lithography" — https://en.wikipedia.org/wiki/Extreme_ultraviolet_lithography
+- 50,000 droplets per second in current systems (plans for 100,000):
+  - heise online, "EUV Lithography: ASML will shoot tin droplets 300,000 times per second" — https://heise.de/-11187649
+  - ASML "Light and lasers" (above)
+- Lines thousands of times thinner than a hair: EUV patterns ~13 nm features vs human hair ~50,000–100,000 nm (ratio ≈ 4,000–7,000): Wikipedia EUVL (above); ASML lithography principles.
+- Mirror smoothness, scaled to the size of Germany: tallest bump ~1 mm (ASML) / ~0.1 mm (ZEISS) → "no higher than a millimetre":
+  - ASML, "Lenses and mirrors" — https://www.asml.com/en/technology/lithography-principles/lenses-and-mirrors
+  - ZEISS SMT, "EUV lithography" — https://www.zeiss.com/semiconductor-manufacturing-technology/inspiring-technology/euv-lithography.html
+- Decades of development (EUV research from the 1990s/2000s to volume production ~2019): Wikipedia EUVL; Works in Progress (above).
