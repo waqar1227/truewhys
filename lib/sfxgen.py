@@ -209,3 +209,27 @@ def siren_yelp():
 
 
 audio.GEN.update(siren=siren, siren_yelp=siren_yelp)
+
+
+@functools.lru_cache(maxsize=None)
+def hum():
+    """Appliance hum (original synth, 2.5 s): 120 Hz transformer buzz + soft fan air, fades in/out (microwave running)."""
+    from scipy.signal import butter, lfilter
+    t = _t(2.5); rng = np.random.default_rng(21)
+    buzz = np.sign(np.sin(2 * np.pi * 120 * t)) * 0.25 + np.sin(2 * np.pi * 120 * t) * 0.5 + 0.2 * np.sin(2 * np.pi * 240 * t)
+    b, a = butter(2, [300 / (SR / 2), 1800 / (SR / 2)], "band"); air = lfilter(b, a, rng.normal(0, 1, len(t)))
+    air /= (np.abs(air).max() or 1)
+    env = np.minimum(1, t / 0.25) * np.minimum(1, (2.5 - t) / 0.4)
+    return _st((0.6 * buzz + 0.5 * air) * env, 0.4)
+
+
+@functools.lru_cache(maxsize=None)
+def beep3():
+    """Three short appliance 'done' beeps (original synth, 1.1 s)."""
+    x = np.zeros(int(1.1 * SR))
+    for k in range(3):
+        d = _t(0.18); _put(x, np.sin(2 * np.pi * 2000 * d) * np.minimum(1, d / 0.005) * np.minimum(1, (0.18 - d) / 0.02), 0.02 + k * 0.32)
+    return _st(x, 0.45)
+
+
+audio.GEN.update(hum=hum, beep3=beep3)

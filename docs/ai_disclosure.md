@@ -45,6 +45,7 @@ Unsure → **Yes** (disclosing never hurts reach or money; a missing disclosure 
 | sx0H9Hm0KxA | A-021-gta6-pc | Why Can't You Play GTA 6 on PC Yet? | R | **No** |
 | 1I_m4OaiQzE | A-019-ambulance | Why Is AMBULANCE Written Backwards? | R | **No** |
 | VAUl6EfZebw | A-022-padlock-hole | What's This Tiny Hole in a Padlock For? | R | **No** |
+| 3ZAI7vLZZkE | A-023-foot-asleep | Why Does Your Foot Fall Asleep? | F | **No** |
 | PtETjFRHH24 | B-004 C1 | Why Do Coins Have Ridges? | F | **No** |
 | cXgM0GJELw0 | B-004 C2 | Why Stop Signs Used to Be Yellow | F | **No** |
 | dgmYB0zPALw | B-004 (L4) | Why Coins Have Ridges, Manholes Are Round and Stop Signs Have 8 Sides | F | **No** |

@@ -406,5 +406,13 @@
   "synthetic": false,
   "reason": "Not realistic: stylised CG people and code-built props on a plain studio backdrop (clearly animated), generic TTS narrator imitating no real person, code-made music (docs/ai_disclosure.md test, 22 Nov 2026).",
   "decided": "2026-11-23"
+ },
+ "3ZAI7vLZZkE": {
+  "episode": "A-023-foot-asleep",
+  "title": "Why Does Your Foot Fall Asleep?",
+  "style": "F: flat 2D cartoon (cast v2.2)",
+  "synthetic": false,
+  "reason": "Not realistic: flat 2D cartoon animation, generic TTS narrator imitating no real person, code-made music (docs/ai_disclosure.md test, 23 Nov 2026).",
+  "decided": "2026-11-23"
  }
 }

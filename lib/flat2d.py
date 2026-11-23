@@ -734,7 +734,7 @@ class Video:
                 draw_caption(g, s._chunks, gt, s.keys, (sh["cap_y"] or s.cap_y) * H, s.cap_size)
             if s.title:
                 t_out = s.title_out if s.title_out is not None else s.shots[1]["start"] if len(s.shots) > 1 else 2.5
-                draw_title(g, s.title, gt, t_out)
+                draw_title(g, s.title, gt, t_out, getattr(s, "title_y", 0.215))
             if not s.endcard and s.badge and gt >= s.duration - s.badge:
                 corner_badge(g, gt - (s.duration - s.badge))
         return bytes(s.surf.get_data())
