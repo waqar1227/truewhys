@@ -414,5 +414,13 @@
   "synthetic": false,
   "reason": "Not realistic: flat 2D cartoon animation, generic TTS narrator imitating no real person, code-made music (docs/ai_disclosure.md test, 23 Nov 2026).",
   "decided": "2026-11-23"
+ },
+ "l_w8yDvCZiI": {
+  "episode": "B-005 (L5)",
+  "title": "Why Toast Lands Butter-Side Down, Shoelaces Untie and Earbuds Tangle",
+  "style": "F: flat 2D",
+  "synthetic": false,
+  "reason": "Not realistic: flat 2D cartoon (cast v2.2), generic TTS narrator imitating no real person, code-made music; no AI images/footage, no voice clone (docs/ai_disclosure.md test, 23 Nov 2026).",
+  "decided": "2026-11-23"
  }
 }
