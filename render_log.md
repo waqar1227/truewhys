@@ -103,3 +103,6 @@
 - 22 Nov 15:00 UTC: a019 v1 pushed (A-019 ambulance, Style R, 10 shots / 838 frames, 1080×1920, Cycles 64 spp + mblur, 2×T4). Dataset anam318/truewhys-ep-a019, kernel truewhys-render-a019 (dataset now also carries Poppins-ExtraBold.ttf for 3D lettering).
 - 22 Nov 15:5x UTC: a022 v1 pushed (A-022 padlock hole, Style R, 10 shots / 774 frames, 64 spp + mblur, 2×T4). a019 v1 still QUEUED since 15:00 (GPU slots busy; waiting, not freeing any).
 - 22 Nov 17:16 UTC: a019 + a022 still QUEUED on Kaggle (waiter timed out); heartbeat/one-shot reminder re-checks.
+- 23 Nov 01:05 UTC: a019 v1 COMPLETE (wall 103 min, 2×T4) and a022 v1 COMPLETE (wall 85 min), downloaded to renders/. Composed finals.
+  QA: A-019 hook_front/loop_q pedestrian's tee showed chest detail → sr_human `tuck` + looser shirt; A-022 gate_rain drops had all fallen out of frame by mid-shot → spread start heights, 900 brighter drops.
+- 23 Nov 01:40 UTC: a019 v2 (hook_front, loop_q) + a022 v2 (gate_rain) pushed, both RUNNING at once → renders_v2/.

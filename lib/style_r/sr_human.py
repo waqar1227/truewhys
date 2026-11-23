@@ -197,7 +197,15 @@ def build(spec, name="person"):
         p.use_smooth = True
     body.modifiers.new("smooth", "SUBSURF").levels = 0
     body.modifiers["smooth"].render_levels = 1
-    clothes = [_cloth_layer(body, rig, k, push, iters=it) for k, push, it in ((1, spec.get("shirt_push", 0.009), 30), (2, 0.006, 12), (3, 0.008, 12))]
+    clothes = [_cloth_layer(body, rig, k, push, iters=it) for k, push, it in ((1, spec.get("shirt_push", 0.009), spec.get("shirt_iters", 30)), (2, 0.006, 12), (3, 0.008, 12))]
+    if spec.get("tuck"):
+        # optional (QA 23 Nov): pull the body surface under the shirt inward so no body detail can poke through a loose top
+        inner = set(); edge = set()
+        for p in body.data.polygons:
+            (inner if p.material_index == 1 else edge).update(p.vertices)
+        tg = body.vertex_groups.new(name="tw_tuck"); tg.add(sorted(inner - edge), 1.0, "REPLACE")
+        td = body.modifiers.new("tuck", "DISPLACE"); td.strength = -float(spec["tuck"]); td.mid_level = 0.0; td.vertex_group = "tw_tuck"
+        body.modifiers.move(len(body.modifiers) - 1, len(body.modifiers) - 2)   # before the subsurf
     hair = None
     if style != "bald":
         body.data.materials.append(hm)            # index 4 = hair on the scalp (also under the hair layer)

@@ -247,10 +247,13 @@ def gate_rain(sh, cam, n):
     stage(top="#22384F", bottom="#7D8A99", mid="#4F6276")
     lk = gate(n)
     P.lights((0, -0.2, 1.0), key=700, rim=1300, warm=False)
-    rnd = random.Random(5); wm = C.pbr("rain", "#DDEEFF", 0.05, emit="#EAF4FF", estr=0.6)
-    for i in range(260):
-        x, y = rnd.uniform(-0.35, 0.7), rnd.uniform(-0.35, 0.3); z0 = rnd.uniform(1.6, 3.2); sp = rnd.uniform(0.09, 0.12)
-        o = C.rbox("rd", (0.004, 0.004, 0.07), (x, y, z0), mat=wm, bevel=0.0)
+    rnd = random.Random(5); wm = C.pbr("rain", "#DDEEFF", 0.05, emit="#EAF4FF", estr=2.2)
+    # QA 23 Nov: v1 drops all started above frame and had fallen out by mid-shot. Spread the start heights over the whole
+    # fall path so the frame stays full of rain for every frame; thicker, brighter streaks, some close to camera.
+    for i in range(900):
+        sp = rnd.uniform(0.09, 0.12)
+        x, y = rnd.uniform(-0.35, 0.75), rnd.uniform(-0.5, 0.3); z0 = rnd.uniform(0.55, 1.6 + sp * n)
+        o = C.rbox("rd", (0.006, 0.006, 0.09), (x, y, z0), mat=wm, bevel=0.0)
         key_obj(o, 0, loc=(x, y, z0)); key_obj(o, n, loc=(x, y, z0 - sp * n))
     cam_move(cam, n, ((0.32, -0.78, 1.06), (0.17, -0.05, 0.95), 48), ((0.3, -0.7, 1.05), (0.17, -0.05, 0.95), 52), focus=(0.17, -0.06, 0.95), fstop=4.0)
 

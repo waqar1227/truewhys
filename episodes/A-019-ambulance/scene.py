@@ -17,7 +17,8 @@ from sr_shot import key_obj, cam_move, W_, life
 argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else sys.argv[1:]
 
 PED = dict(macro={"gender": 1, "age": 0.42, "muscle": 0.5, "weight": 0.5, "proportions": 0.6, "height": 0.55}, skin="#D9A27C",
-           hair="#2A170C", shirt="#FF6B5B", trousers="#2B3440", shoes="#F4F1EA", iris="#4A3A2C")                        # pedestrian, coral tee
+           hair="#2A170C", shirt="#FF6B5B", trousers="#2B3440", shoes="#F4F1EA", iris="#4A3A2C",
+           shirt_push=0.02, shirt_iters=40, tuck=0.025)   # pedestrian, coral tee (loose + extra smoothing: no chest detail, QA 23 Nov)
 DRV = dict(macro={"gender": 0, "age": 0.38, "muscle": 0.45, "weight": 0.45, "proportions": 0.6, "height": 0.5}, skin="#C68E64",
            hair="#1E120A", hair_style="bun", shirt="#5ED3B5", trousers="#2B3440", shoes="#F4F1EA", iris="#3A2416", sleeve="long")  # driver, mint top
 EMT = dict(macro={"gender": 1, "age": 0.5, "muscle": 0.55, "weight": 0.55, "proportions": 0.55, "height": 0.5}, skin="#8E5A3C",
