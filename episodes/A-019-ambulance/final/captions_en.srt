@@ -1,0 +1,59 @@
+1
+00:00:00,120 --> 00:00:02,730
+Why is ambulance written backwards?
+
+2
+00:00:03,270 --> 00:00:04,030
+It's not a mistake.
+
+3
+00:00:04,370 --> 00:00:06,330
+It's written for one person: the driver
+
+4
+00:00:06,330 --> 00:00:08,000
+stuck right in front of it.
+
+5
+00:00:08,300 --> 00:00:10,120
+When a siren screams behind you, you don't
+
+6
+00:00:10,120 --> 00:00:11,760
+turn around. You glance up...
+
+7
+00:00:12,200 --> 00:00:13,040
+at your mirror.
+
+8
+00:00:13,340 --> 00:00:15,040
+And a mirror flips everything left to
+
+9
+00:00:15,040 --> 00:00:17,360
+right. A normal word would look backwards.
+
+10
+00:00:17,660 --> 00:00:19,580
+So the word is printed flipped.
+
+11
+00:00:19,580 --> 00:00:21,620
+The official US ambulance spec even
+
+12
+00:00:21,620 --> 00:00:22,590
+requires it.
+
+13
+00:00:23,000 --> 00:00:23,840
+Backwards on the van...
+
+14
+00:00:24,140 --> 00:00:26,080
+but in your mirror, it reads AMBULANCE.
+
+15
+00:00:26,800 --> 00:00:27,540
+Did you ever notice?

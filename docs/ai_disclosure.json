@@ -177,7 +177,7 @@
  },
  "sdoOC7kAuRU": {
   "episode": "A-004-tickle",
-  "title": "Why You Can't Tickle Yourself \ud83e\udeb6",
+  "title": "Why You Can't Tickle Yourself 🪶",
   "style": "T: 3D toon cartoon (Blender)",
   "synthetic": false,
   "reason": "Not realistic: animated/stylised CG; generic TTS narrator imitating no real person; code-made music; no AI images/footage, no voice clone, no real-footage edits.",
@@ -390,5 +390,21 @@
   "synthetic": false,
   "reason": "Not realistic: flat 2D cartoon; generic TTS narrator imitating no real person; code-made music; no AI images/footage, no voice clone.",
   "decided": "2026-11-22"
+ },
+ "1I_m4OaiQzE": {
+  "episode": "A-019-ambulance",
+  "title": "Why Is AMBULANCE Written Backwards?",
+  "style": "R: stylised 3D (MPFB cast, studio)",
+  "synthetic": false,
+  "reason": "Not realistic: stylised CG people and a toy-like code-built ambulance on a plain studio backdrop (clearly animated), generic TTS narrator imitating no real person, code-made music (docs/ai_disclosure.md test, 22 Nov 2026).",
+  "decided": "2026-11-23"
+ },
+ "VAUl6EfZebw": {
+  "episode": "A-022-padlock-hole",
+  "title": "What's This Tiny Hole in a Padlock For?",
+  "style": "R: stylised 3D (MPFB cast, studio)",
+  "synthetic": false,
+  "reason": "Not realistic: stylised CG people and code-built props on a plain studio backdrop (clearly animated), generic TTS narrator imitating no real person, code-made music (docs/ai_disclosure.md test, 22 Nov 2026).",
+  "decided": "2026-11-23"
  }
 }

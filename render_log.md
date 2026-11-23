@@ -106,3 +106,4 @@
 - 23 Nov 01:05 UTC: a019 v1 COMPLETE (wall 103 min, 2×T4) and a022 v1 COMPLETE (wall 85 min), downloaded to renders/. Composed finals.
   QA: A-019 hook_front/loop_q pedestrian's tee showed chest detail → sr_human `tuck` + looser shirt; A-022 gate_rain drops had all fallen out of frame by mid-shot → spread start heights, 900 brighter drops.
 - 23 Nov 01:40 UTC: a019 v2 (hook_front, loop_q) + a022 v2 (gate_rain) pushed, both RUNNING at once → renders_v2/.
+- 23 Nov 01:55 UTC: a019 v2 COMPLETE (23 min) + a022 v2 COMPLETE (11 min); recomposed, QA PASS, uploaded 1I_m4OaiQzE (5 Dec) + VAUl6EfZebw (11 Dec).

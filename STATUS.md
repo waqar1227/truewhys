@@ -7,9 +7,8 @@ Rules added 22 Nov (all in CLAUDE.md): 5 posts/week, 1 per day, Mon+Wed free, lo
 docs/growth_strategy.md · docs/competitor_targeting.md (never creator names in metadata) · cast v2.2 (arms/turns) · 30 days scheduled → STOP.
 
 CALENDAR (UTC). Scheduled: Sun 22 A-021 · Mon 23 A-017 · Tue 24 A-012 · Wed 25 A-011 · Thu 26 A-013 · Fri 27 A-018 · Sun 29 17:00 L4 dgmYB0zPALw ·
-Tue 1 Dec 18:00 L4-C1 PtETjFRHH24 · Thu 3 Dec 16:00 A-010 · Fri 4 Dec 18:00 L4-C2 cXgM0GJELw0 · Sun 6 Dec 16:00 A-016.
-IN PRODUCTION (22 Nov): Sat 5 Dec 18:00 A-019 ambulance (Style R, Kaggle a019) · Fri 11 Dec 18:00 A-022 padlock hole (Style R, Kaggle a022) ·
-Mon 7 Dec 17:00 L5 + teaser post (own session session_01BQj2DeXWy7q3QfcuAZWsgi) · Tue 8 + Thu 10 Dec 18:00 L5 cut Shorts (L5 session).
+Tue 1 Dec 18:00 L4-C1 PtETjFRHH24 · Thu 3 Dec 16:00 A-010 · Fri 4 Dec 18:00 L4-C2 cXgM0GJELw0 · Sat 5 Dec 18:00 A-019 1I_m4OaiQzE · Sun 6 Dec 16:00 A-016 · Fri 11 Dec 18:00 A-022 VAUl6EfZebw.
+IN PRODUCTION (22 Nov): Mon 7 Dec 17:00 L5 + teaser post (own session session_01BQj2DeXWy7q3QfcuAZWsgi) · Tue 8 + Thu 10 Dec 18:00 L5 cut Shorts (L5 session).
 TO MAKE: · Sun 13 Dec 17:00 L6 · Tue 15, Thu 17, Fri 18, Sat 19 Dec Shorts ·
 Sun 20 Dec 17:00 L7 → then STOP (30 days filled). Spare (made, not scheduled): L4-C3 caps, L4-C4 manholes.
 
@@ -19,10 +18,7 @@ TASKS in order:
 1. OWNER (told 22 Nov): Studio → Related video = L4 (dgmYB0zPALw) on PtETjFRHH24 and cXgM0GJELw0.
 2. 48-h checks into topic_results.md (stayed %, rel. retention 10 %, drop point): A-021 on 24 Nov, A-017 25 Nov, A-012 26, A-011 27, A-013 28,
    A-018 29 Nov (`python3 lib/yt_stats.py 7`). Compare Style R (A-016/17/18/21) vs Style F.
-3. A-019 + A-022 (Style R): script/voice/animatic done, Kaggle renders a019/a022 pushed 22 Nov 15:00/15:55, still QUEUED 17:16 UTC (shared GPU busy; wait, never free a slot).
-   Check: `/opt/c3d/bin/python tools/kaggle_px.py kernels status anam318/truewhys-render-a019` (and a022); if COMPLETE: `ALL=1 bash tools/kaggle_wait.sh a019=episodes/A-019-ambulance/renders a022=episodes/A-022-padlock-hole/renders`. When renders are in: `python make.py render renders`
-   (each episode), QA (qa.md, one contact sheet), short thumb (tools/short_thumb.py), upload private+publishAt (upload_meta.json), SRT upload.
-   QA watch-outs: female cast in tight tops (keep modest; A-019 mirror_demo), mirror reflection legible, rain visible in A-022 gate_rain.
+3. DONE 23 Nov: A-019 + A-022 uploaded (private + publishAt, thumb, SRT, AI field No, registers). Kaggle: a019+a022 v1+v2 used ≈ 3.7 h session time (render_log.md).
 4. L5 = episodes/B-005-annoying-science "Why Toast Lands Butter-Side Down, Shoelaces Untie and Earbuds Tangle" (L5 session, 22 Nov): script, sources,
    8/9 Gemini chapters, all scenes, 3 thumbs, teaser post (social/post, owner posts Sat 5 Dec), 2 cut Shorts built (C1 toast Tue 8, C2 spaghetti Thu 10 Dec).
    L5 session resumes 23 Nov after 08:00 UTC: Gemini ch8 + Short voices (3 requests) → render, QA, SRT, upload (publishAt 7 Dec 17:00 UTC).

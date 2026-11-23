@@ -48,3 +48,4 @@ Owner decided (22 Nov): NO burned-in word captions on ALL new videos (long + Sho
 Watch from C1 (1 Dec): stayed %, avg % viewed and views from non-English countries vs the captioned Shorts before it.
 Scheduled 22 Nov: B-004 C1 Why Do Coins Have Ridges? PtETjFRHH24 (cut Short, no captions, 1 Dec 18:00 UTC) · C2 Why Stop Signs Used to Be Yellow cXgM0GJELw0 (cut Short, no captions, 4 Dec 18:00 UTC).
 Scheduled 22 Nov: L4 B-004 Why Coins Have Ridges, Manholes Are Round and Stop Signs Have 8 Sides dgmYB0zPALw (long, everyday shapes, F v2.2, no captions, hook 'Hanged for this?', Sun 29 Nov 17:00 UTC).
+Scheduled 23 Nov: A-019 Why Is AMBULANCE Written Backwards? 1I_m4OaiQzE (standalone, everyday object/vehicles, Style R, Why …, no captions + SRT, Sat 5 Dec 18:00 UTC) · A-022 What's This Tiny Hole in a Padlock For? VAUl6EfZebw (standalone, everyday object, Style R, What …, Fri 11 Dec 18:00 UTC).

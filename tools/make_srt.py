@@ -20,6 +20,9 @@ def build(ep):
     for sh in plan["shots"]:
         if sh.get("line") and "line_start" in sh:
             starts.setdefault(sh["line"], sh["line_start"])
+        elif sh.get("line") and isinstance(sh.get("words"), dict) and sh["words"] and sh["line"] in T:
+            # Style R / flat2d plans (23 Nov): words = {word: time relative to shot start}; earliest = the line's first word
+            starts.setdefault(sh["line"], sh["start"] + min(sh["words"].values()) - T[sh["line"]]["words"][0]["s"])
     cues = []
     for lid, t0 in sorted(starts.items(), key=lambda kv: kv[1]):
         L = T[lid]; words = L["words"]; text = L["text"].split()
