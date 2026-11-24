@@ -12,7 +12,7 @@ IN PRODUCTION (22 Nov): Mon 7 Dec 17:00 L5 + teaser post (own session session_01
 IN PRODUCTION (23 Nov): Sat 19 Dec 18:00 A-024 microwave mesh (Kaggle a024) (next: re-render hook_pov,loop_pov on Kaggle, then QA + upload). DONE: A-025 T3CvD2HqRaE scheduled Mon 23 Nov 16:00 UTC, SRT up.
 FREED: Tue 15 Dec 18:00 slot (needs a standalone Short). Each: renders → `make.py render renders` → QA → thumb → upload → SRT → registers.
 TO MAKE (plan 24 Nov, 30 days = to Thu 24 Dec): · L6 Sun 13 Dec 17:00 + teaser (post Fri 11 Dec) + cut Short Thu 17 Dec 18:00 → own session session_01BQj2Df4JPxwNVo9AyHLbzz ·
-Production session: A-024 fix render (Kaggle a024 v2, 24 Nov) → upload Sat 19 Dec · standalone Short Tue 15 Dec 18:00 · standalone Short Thu 24 Dec 18:00 ·
+Production session: A-024 fix render (Kaggle a024 v2, 24 Nov) → upload Sat 19 Dec · Shorts A-026 Tue 15 Dec + A-027 Thu 24 Dec 18:00 → own session session_01BQj2De9mH8PfbfkZem9mEC ·
 L7 Sun 20 Dec 17:00 → start its own fresh session when L6 is done · then STOP until the schedule drops below 30 days (heartbeat adds the next slot each day).
 Spare (made, not scheduled): L4-C3 caps, L4-C4 manholes.
 
