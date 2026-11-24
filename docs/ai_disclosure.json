@@ -462,5 +462,21 @@
   "synthetic": false,
   "reason": "Not realistic: flat 2D cartoon animation, generic TTS narrator imitating no real person, code-made music; no real footage or people (docs/ai_disclosure.md test, 24 Nov 2026).",
   "decided": "2026-11-24"
+ },
+ "acW1qBL5TzI": {
+  "episode": "B-006 (L6)",
+  "title": "Why You Forget Why You Walked Into a Room, Songs Get Stuck and Déjà Vu Happens",
+  "style": "F: flat 2D",
+  "synthetic": false,
+  "reason": "Not realistic: flat 2D cartoon (cast v2.2), generic TTS narrator imitating no real person, code-made music; no realistic people, places or events (docs/ai_disclosure.md test, 24 Nov 2026).",
+  "decided": "2026-11-24"
+ },
+ "zvHTp6BC06E": {
+  "episode": "B-006 C1",
+  "title": "Why You Feel Your Phone Buzz When It Didn't",
+  "style": "F: flat 2D",
+  "synthetic": false,
+  "reason": "Not realistic: flat 2D cartoon (cast v2.2), generic TTS narrator imitating no real person, code-made music; no realistic people, places or events (docs/ai_disclosure.md test, 24 Nov 2026).",
+  "decided": "2026-11-24"
  }
 }

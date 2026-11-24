@@ -55,6 +55,8 @@ Unsure → **Yes** (disclosing never hurts reach or money; a missing disclosure 
 | l_w8yDvCZiI | B-005 (L5) | Why Toast Lands Butter-Side Down, Shoelaces Untie and Earbuds Tangle | F | **No** |
 | 7LX7R8f7GB4 | B-005 C1 | Why Toast Always Lands Butter-Side Down | F | **No** |
 | Ydk7QtOzx7M | B-005 C2 | Why You Can't Snap Spaghetti in Two | F | **No** |
+| acW1qBL5TzI | B-006 (L6) | Why You Forget Why You Walked Into a Room, Songs Get Stuck and Déjà Vu Happens | F | **No** |
+| zvHTp6BC06E | B-006 C1 | Why You Feel Your Phone Buzz When It Didn't | F | **No** |
 | 9C-9O0c6VqM | B-001-animal-trials | Why Medieval Courts Put Animals on Trial | T | **No** |
 | 5YqYpWmY7EA | B-001-animal-trials/C0 | Why a Pig Was Executed in a Man's Clothes | T | **No** |
 | 33UzHb61eKc | B-001-animal-trials/C1 | Why a French Town Put a Pig on Trial | T | **No** |
