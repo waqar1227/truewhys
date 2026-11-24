@@ -446,5 +446,21 @@
   "synthetic": false,
   "reason": "Not realistic: stylised CG machine, glowing effects and studio sets, generic TTS narrator imitating no real person, code-made music; no real footage or people (docs/ai_disclosure.md test, 23 Nov 2026).",
   "decided": "2026-11-23"
+ },
+ "-8MLpCFqDuw": {
+  "episode": "A-026",
+  "title": "Why Your Tongue Sticks to a Frozen Pole",
+  "style": "F: flat 2D",
+  "synthetic": false,
+  "reason": "Not realistic: flat 2D cartoon animation, generic TTS narrator imitating no real person, code-made music; no real footage or people (docs/ai_disclosure.md test, 24 Nov 2026).",
+  "decided": "2026-11-24"
+ },
+ "_6wnNSSo4fU": {
+  "episode": "A-027",
+  "title": "Why Reindeer Eyes Turn Blue in Winter",
+  "style": "F: flat 2D",
+  "synthetic": false,
+  "reason": "Not realistic: flat 2D cartoon animation, generic TTS narrator imitating no real person, code-made music; no real footage or people (docs/ai_disclosure.md test, 24 Nov 2026).",
+  "decided": "2026-11-24"
  }
 }

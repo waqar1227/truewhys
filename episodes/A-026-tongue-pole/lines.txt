@@ -1,0 +1,7 @@
+# A-026 v1 (24 Nov 2026), standalone Short, Style F + cast v2.2. Winter everyday physics. Facts with 2+ sources (sources.md).
+H1|0|Why does your tongue stick to a frozen pole?
+L01|0|Because your own spit just turned into glue.
+L02|0|Metal steals heat far faster than wood or plastic. Touch it, and the warmth drains out of your wet tongue in a flash.
+L03|0|The spit freezes solid, into the tiny bumps of your tongue and the tiny pits in the metal. Now ice locks them together.
+L04|0|Pull hard, and that ice can tear skin right off.
+L05|0|So never pull. Pour on warm water, the ice glue melts... and you're free.

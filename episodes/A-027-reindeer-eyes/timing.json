@@ -1,0 +1,467 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "Why do reindeer eyes turn blue in winter?",
+  "dur": 2.75,
+  "words": [
+   {
+    "w": "Why",
+    "s": 0.0,
+    "e": 0.52
+   },
+   {
+    "w": "do",
+    "s": 0.52,
+    "e": 0.66
+   },
+   {
+    "w": "reindeer",
+    "s": 0.66,
+    "e": 1.02
+   },
+   {
+    "w": "eyes",
+    "s": 1.02,
+    "e": 1.4
+   },
+   {
+    "w": "turn",
+    "s": 1.4,
+    "e": 1.7
+   },
+   {
+    "w": "blue",
+    "s": 1.7,
+    "e": 2.06
+   },
+   {
+    "w": "in",
+    "s": 2.06,
+    "e": 2.3
+   },
+   {
+    "w": "winter?",
+    "s": 2.3,
+    "e": 2.6
+   }
+  ],
+  "heard": "Why do reindeer eyes turn blue in winter?",
+  "match": 1.0
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "In summer they shine gold. In winter... deep blue.",
+  "dur": 4.15,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.05,
+    "e": 0.21
+   },
+   {
+    "w": "summer",
+    "s": 0.21,
+    "e": 0.49
+   },
+   {
+    "w": "they",
+    "s": 0.67,
+    "e": 0.83
+   },
+   {
+    "w": "shine",
+    "s": 0.83,
+    "e": 1.07
+   },
+   {
+    "w": "gold.",
+    "s": 1.07,
+    "e": 1.47
+   },
+   {
+    "w": "In",
+    "s": 2.03,
+    "e": 2.15
+   },
+   {
+    "w": "winter...",
+    "s": 2.15,
+    "e": 3.23
+   },
+   {
+    "w": "deep",
+    "s": 3.23,
+    "e": 3.37
+   },
+   {
+    "w": "blue.",
+    "s": 3.37,
+    "e": 3.95
+   }
+  ],
+  "heard": "In summer, they shine gold. In winter... deep blue.",
+  "match": 1.0
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "Behind each eye is a mirror that bounces light back, for a second chance to see.",
+  "dur": 4.34,
+  "words": [
+   {
+    "w": "Behind",
+    "s": 0.27,
+    "e": 0.43
+   },
+   {
+    "w": "each",
+    "s": 0.43,
+    "e": 0.61
+   },
+   {
+    "w": "eye",
+    "s": 0.61,
+    "e": 0.89
+   },
+   {
+    "w": "is",
+    "s": 0.89,
+    "e": 1.05
+   },
+   {
+    "w": "a",
+    "s": 1.05,
+    "e": 1.19
+   },
+   {
+    "w": "mirror",
+    "s": 1.19,
+    "e": 1.41
+   },
+   {
+    "w": "that",
+    "s": 1.41,
+    "e": 1.71
+   },
+   {
+    "w": "bounces",
+    "s": 1.71,
+    "e": 2.03
+   },
+   {
+    "w": "light",
+    "s": 2.03,
+    "e": 2.33
+   },
+   {
+    "w": "back,",
+    "s": 2.33,
+    "e": 2.69
+   },
+   {
+    "w": "for",
+    "s": 2.87,
+    "e": 3.07
+   },
+   {
+    "w": "a",
+    "s": 3.07,
+    "e": 3.25
+   },
+   {
+    "w": "second",
+    "s": 3.25,
+    "e": 3.45
+   },
+   {
+    "w": "chance",
+    "s": 3.45,
+    "e": 3.71
+   },
+   {
+    "w": "to",
+    "s": 3.71,
+    "e": 3.95
+   },
+   {
+    "w": "see.",
+    "s": 3.95,
+    "e": 4.17
+   }
+  ],
+  "heard": "Behind each eye is a mirror that bounces light back, for a second chance to see.",
+  "match": 1.0
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "But in the Arctic winter the sun hides for weeks, so their pupils stay wide open.",
+  "dur": 4.81,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.03,
+    "e": 0.27
+   },
+   {
+    "w": "in",
+    "s": 0.27,
+    "e": 0.37
+   },
+   {
+    "w": "the",
+    "s": 0.37,
+    "e": 0.49
+   },
+   {
+    "w": "Arctic",
+    "s": 0.49,
+    "e": 0.71
+   },
+   {
+    "w": "winter",
+    "s": 0.71,
+    "e": 0.99
+   },
+   {
+    "w": "the",
+    "s": 0.99,
+    "e": 1.37
+   },
+   {
+    "w": "sun",
+    "s": 1.37,
+    "e": 1.55
+   },
+   {
+    "w": "hides",
+    "s": 1.55,
+    "e": 1.95
+   },
+   {
+    "w": "for",
+    "s": 1.95,
+    "e": 2.29
+   },
+   {
+    "w": "weeks,",
+    "s": 2.29,
+    "e": 2.61
+   },
+   {
+    "w": "so",
+    "s": 2.85,
+    "e": 3.21
+   },
+   {
+    "w": "their",
+    "s": 3.21,
+    "e": 3.35
+   },
+   {
+    "w": "pupils",
+    "s": 3.35,
+    "e": 3.67
+   },
+   {
+    "w": "stay",
+    "s": 3.67,
+    "e": 4.05
+   },
+   {
+    "w": "wide",
+    "s": 4.05,
+    "e": 4.33
+   },
+   {
+    "w": "open.",
+    "s": 4.33,
+    "e": 4.61
+   }
+  ],
+  "heard": "But in the Arctic winter the sun hides for weeks, so their pupils stay wide open.",
+  "match": 1.0
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "Fluid can't drain properly. Pressure builds, and squeezes the mirror's tiny fibres together.",
+  "dur": 5.35,
+  "words": [
+   {
+    "w": "Fluid",
+    "s": 0.2,
+    "e": 0.3
+   },
+   {
+    "w": "can't",
+    "s": 0.3,
+    "e": 0.62
+   },
+   {
+    "w": "drain",
+    "s": 0.62,
+    "e": 0.86
+   },
+   {
+    "w": "properly.",
+    "s": 0.86,
+    "e": 1.34
+   },
+   {
+    "w": "Pressure",
+    "s": 1.72,
+    "e": 1.86
+   },
+   {
+    "w": "builds,",
+    "s": 1.86,
+    "e": 2.28
+   },
+   {
+    "w": "and",
+    "s": 2.48,
+    "e": 2.62
+   },
+   {
+    "w": "squeezes",
+    "s": 2.62,
+    "e": 3.34
+   },
+   {
+    "w": "the",
+    "s": 3.34,
+    "e": 3.52
+   },
+   {
+    "w": "mirror's",
+    "s": 3.52,
+    "e": 3.88
+   },
+   {
+    "w": "tiny",
+    "s": 3.88,
+    "e": 4.3
+   },
+   {
+    "w": "fibres",
+    "s": 4.3,
+    "e": 4.78
+   },
+   {
+    "w": "together.",
+    "s": 4.78,
+    "e": 5.14
+   }
+  ],
+  "heard": "Fluid can't drain properly. Pressure builds, and squeezes the mirror's tiny fibres together.",
+  "match": 1.0
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "Packed tighter, it reflects blue, the colour of twilight. Less light escapes, so they see more in the dark.",
+  "dur": 6.53,
+  "words": [
+   {
+    "w": "Packed",
+    "s": 0.17,
+    "e": 0.27
+   },
+   {
+    "w": "tighter,",
+    "s": 0.27,
+    "e": 0.57
+   },
+   {
+    "w": "it",
+    "s": 0.83,
+    "e": 1.03
+   },
+   {
+    "w": "reflects",
+    "s": 1.03,
+    "e": 1.35
+   },
+   {
+    "w": "blue,",
+    "s": 1.35,
+    "e": 1.71
+   },
+   {
+    "w": "the",
+    "s": 2.13,
+    "e": 2.37
+   },
+   {
+    "w": "colour",
+    "s": 2.37,
+    "e": 2.53
+   },
+   {
+    "w": "of",
+    "s": 2.53,
+    "e": 2.81
+   },
+   {
+    "w": "twilight.",
+    "s": 2.81,
+    "e": 3.21
+   },
+   {
+    "w": "Less",
+    "s": 3.99,
+    "e": 4.05
+   },
+   {
+    "w": "light",
+    "s": 4.05,
+    "e": 4.29
+   },
+   {
+    "w": "escapes,",
+    "s": 4.29,
+    "e": 4.63
+   },
+   {
+    "w": "so",
+    "s": 4.87,
+    "e": 5.11
+   },
+   {
+    "w": "they",
+    "s": 5.11,
+    "e": 5.41
+   },
+   {
+    "w": "see",
+    "s": 5.41,
+    "e": 5.63
+   },
+   {
+    "w": "more",
+    "s": 5.63,
+    "e": 5.87
+   },
+   {
+    "w": "in",
+    "s": 5.87,
+    "e": 6.07
+   },
+   {
+    "w": "the",
+    "s": 6.07,
+    "e": 6.17
+   },
+   {
+    "w": "dark.",
+    "s": 6.17,
+    "e": 6.35
+   }
+  ],
+  "heard": "Packed tighter, it reflects blue, the colour of twilight. Less light escapes, so they see more in the dark. Thanks",
+  "match": 0.974
+ }
+]

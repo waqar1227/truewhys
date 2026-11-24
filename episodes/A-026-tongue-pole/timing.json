@@ -1,0 +1,497 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "Why does your tongue stick to a frozen pole?",
+  "dur": 2.89,
+  "words": [
+   {
+    "w": "Why",
+    "s": 0.0,
+    "e": 0.48
+   },
+   {
+    "w": "does",
+    "s": 0.48,
+    "e": 0.64
+   },
+   {
+    "w": "your",
+    "s": 0.64,
+    "e": 0.82
+   },
+   {
+    "w": "tongue",
+    "s": 0.82,
+    "e": 1.16
+   },
+   {
+    "w": "stick",
+    "s": 1.16,
+    "e": 1.54
+   },
+   {
+    "w": "to",
+    "s": 1.54,
+    "e": 1.76
+   },
+   {
+    "w": "a",
+    "s": 1.76,
+    "e": 1.96
+   },
+   {
+    "w": "frozen",
+    "s": 1.96,
+    "e": 2.24
+   },
+   {
+    "w": "pole?",
+    "s": 2.24,
+    "e": 2.58
+   }
+  ],
+  "heard": "Why does your tongue stick to a frozen pole?",
+  "match": 1.0
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "Because your own spit just turned into glue.",
+  "dur": 2.23,
+  "words": [
+   {
+    "w": "Because",
+    "s": 0.09,
+    "e": 0.29
+   },
+   {
+    "w": "your",
+    "s": 0.29,
+    "e": 0.45
+   },
+   {
+    "w": "own",
+    "s": 0.45,
+    "e": 0.63
+   },
+   {
+    "w": "spit",
+    "s": 0.63,
+    "e": 0.93
+   },
+   {
+    "w": "just",
+    "s": 0.93,
+    "e": 1.19
+   },
+   {
+    "w": "turned",
+    "s": 1.19,
+    "e": 1.53
+   },
+   {
+    "w": "into",
+    "s": 1.53,
+    "e": 1.73
+   },
+   {
+    "w": "glue.",
+    "s": 1.73,
+    "e": 1.97
+   }
+  ],
+  "heard": "Because your own spit just turned into glue.",
+  "match": 1.0
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "Metal steals heat far faster than wood or plastic. Touch it, and the warmth drains out of your wet tongue in a flash.",
+  "dur": 6.79,
+  "words": [
+   {
+    "w": "Metal",
+    "s": 0.03,
+    "e": 0.33
+   },
+   {
+    "w": "steals",
+    "s": 0.33,
+    "e": 0.67
+   },
+   {
+    "w": "heat",
+    "s": 0.67,
+    "e": 0.95
+   },
+   {
+    "w": "far",
+    "s": 0.95,
+    "e": 1.37
+   },
+   {
+    "w": "faster",
+    "s": 1.37,
+    "e": 1.83
+   },
+   {
+    "w": "than",
+    "s": 1.83,
+    "e": 2.03
+   },
+   {
+    "w": "wood",
+    "s": 2.03,
+    "e": 2.25
+   },
+   {
+    "w": "or",
+    "s": 2.25,
+    "e": 2.37
+   },
+   {
+    "w": "plastic.",
+    "s": 2.37,
+    "e": 2.77
+   },
+   {
+    "w": "Touch",
+    "s": 3.23,
+    "e": 3.41
+   },
+   {
+    "w": "it,",
+    "s": 3.41,
+    "e": 3.59
+   },
+   {
+    "w": "and",
+    "s": 3.83,
+    "e": 3.93
+   },
+   {
+    "w": "the",
+    "s": 3.93,
+    "e": 4.03
+   },
+   {
+    "w": "warmth",
+    "s": 4.03,
+    "e": 4.25
+   },
+   {
+    "w": "drains",
+    "s": 4.25,
+    "e": 4.63
+   },
+   {
+    "w": "out",
+    "s": 4.63,
+    "e": 4.93
+   },
+   {
+    "w": "of",
+    "s": 4.93,
+    "e": 5.03
+   },
+   {
+    "w": "your",
+    "s": 5.03,
+    "e": 5.13
+   },
+   {
+    "w": "wet",
+    "s": 5.13,
+    "e": 5.33
+   },
+   {
+    "w": "tongue",
+    "s": 5.33,
+    "e": 5.61
+   },
+   {
+    "w": "in",
+    "s": 5.61,
+    "e": 5.87
+   },
+   {
+    "w": "a",
+    "s": 5.87,
+    "e": 6.03
+   },
+   {
+    "w": "flash.",
+    "s": 6.03,
+    "e": 6.37
+   }
+  ],
+  "heard": "Metal steals heat far faster than wood or plastic. Touch it, and the warmth drains out of your wet tongue in a flash.",
+  "match": 1.0
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "The spit freezes solid, into the tiny bumps of your tongue and the tiny pits in the metal. Now ice locks them together.",
+  "dur": 6.65,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.03,
+    "e": 0.15
+   },
+   {
+    "w": "spit",
+    "s": 0.15,
+    "e": 0.35
+   },
+   {
+    "w": "freezes",
+    "s": 0.35,
+    "e": 0.71
+   },
+   {
+    "w": "solid,",
+    "s": 0.71,
+    "e": 1.13
+   },
+   {
+    "w": "into",
+    "s": 1.29,
+    "e": 1.47
+   },
+   {
+    "w": "the",
+    "s": 1.47,
+    "e": 1.67
+   },
+   {
+    "w": "tiny",
+    "s": 1.67,
+    "e": 2.09
+   },
+   {
+    "w": "bumps",
+    "s": 2.09,
+    "e": 2.37
+   },
+   {
+    "w": "of",
+    "s": 2.37,
+    "e": 2.57
+   },
+   {
+    "w": "your",
+    "s": 2.57,
+    "e": 2.69
+   },
+   {
+    "w": "tongue",
+    "s": 2.69,
+    "e": 2.93
+   },
+   {
+    "w": "and",
+    "s": 2.93,
+    "e": 3.17
+   },
+   {
+    "w": "the",
+    "s": 3.17,
+    "e": 3.29
+   },
+   {
+    "w": "tiny",
+    "s": 3.29,
+    "e": 3.63
+   },
+   {
+    "w": "pits",
+    "s": 3.63,
+    "e": 3.85
+   },
+   {
+    "w": "in",
+    "s": 3.85,
+    "e": 4.03
+   },
+   {
+    "w": "the",
+    "s": 4.03,
+    "e": 4.13
+   },
+   {
+    "w": "metal.",
+    "s": 4.13,
+    "e": 4.33
+   },
+   {
+    "w": "Now",
+    "s": 4.95,
+    "e": 5.13
+   },
+   {
+    "w": "ice",
+    "s": 5.13,
+    "e": 5.49
+   },
+   {
+    "w": "locks",
+    "s": 5.49,
+    "e": 5.87
+   },
+   {
+    "w": "them",
+    "s": 5.87,
+    "e": 6.11
+   },
+   {
+    "w": "together.",
+    "s": 6.11,
+    "e": 6.45
+   }
+  ],
+  "heard": "The spit freezes solid, into the tiny bumps of your tongue and the tiny pits in the metal. Now ice locks them together.",
+  "match": 1.0
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "Pull hard, and that ice can tear skin right off.",
+  "dur": 3.05,
+  "words": [
+   {
+    "w": "Pull",
+    "s": 0.03,
+    "e": 0.21
+   },
+   {
+    "w": "hard,",
+    "s": 0.21,
+    "e": 0.51
+   },
+   {
+    "w": "and",
+    "s": 0.71,
+    "e": 0.81
+   },
+   {
+    "w": "that",
+    "s": 0.81,
+    "e": 0.93
+   },
+   {
+    "w": "ice",
+    "s": 0.93,
+    "e": 1.19
+   },
+   {
+    "w": "can",
+    "s": 1.19,
+    "e": 1.39
+   },
+   {
+    "w": "tear",
+    "s": 1.39,
+    "e": 1.63
+   },
+   {
+    "w": "skin",
+    "s": 1.63,
+    "e": 1.97
+   },
+   {
+    "w": "right",
+    "s": 1.97,
+    "e": 2.33
+   },
+   {
+    "w": "off.",
+    "s": 2.33,
+    "e": 2.73
+   }
+  ],
+  "heard": "Pull hard, and that ice can tear skin right off.",
+  "match": 1.0
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "So never pull. Pour on warm water, the ice glue melts... and you're free.",
+  "dur": 4.53,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.05,
+    "e": 0.19
+   },
+   {
+    "w": "never",
+    "s": 0.19,
+    "e": 0.53
+   },
+   {
+    "w": "pull.",
+    "s": 0.53,
+    "e": 0.79
+   },
+   {
+    "w": "Pour",
+    "s": 1.19,
+    "e": 1.41
+   },
+   {
+    "w": "on",
+    "s": 1.41,
+    "e": 1.57
+   },
+   {
+    "w": "warm",
+    "s": 1.57,
+    "e": 1.79
+   },
+   {
+    "w": "water,",
+    "s": 1.79,
+    "e": 2.17
+   },
+   {
+    "w": "the",
+    "s": 2.53,
+    "e": 2.67
+   },
+   {
+    "w": "ice",
+    "s": 2.67,
+    "e": 2.83
+   },
+   {
+    "w": "glue",
+    "s": 2.83,
+    "e": 3.07
+   },
+   {
+    "w": "melts...",
+    "s": 3.07,
+    "e": 3.35
+   },
+   {
+    "w": "and",
+    "s": 3.73,
+    "e": 4.05
+   },
+   {
+    "w": "you're",
+    "s": 4.05,
+    "e": 4.19
+   },
+   {
+    "w": "free.",
+    "s": 4.19,
+    "e": 4.35
+   }
+  ],
+  "heard": "So never pull. Pour on warm water, the ice glue melts, and you're free. Thanks for watching!",
+  "match": 0.903
+ }
+]

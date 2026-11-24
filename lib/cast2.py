@@ -80,6 +80,11 @@ CAST = {
                      legs="#2A2A38", shoes="#F4F1EA", jaw=0.0, prop="phone", female=True),
     "student":  dict(name="Student", skin="#F3D0B5", iris="#5B3A29", face="round", hair="short", hair_c="#7A3E1E", top="#FFC93C", top2="#2A2A38",
                      legs="#2E3B52", shoes=INK, hoodie=True, jaw=0.1, prop=None),
+    # added 24 Nov 2026 for A-026 (same v2.1 rules: role by clothes; winter hat/scarf drawn by lib/flat_winter.py)
+    "friend":   dict(name="Friend", skin="#8D5A3C", iris="#3A2A1E", face="long", hair="bun", hair_c="#1E1A24", top="#3E7CB1", top2="#FFF4E0",
+                     legs="#2A2A38", shoes="#F4F1EA", jaw=0.0, prop=None, female=True, hoodie=True),
+    "herder":   dict(name="Herder", skin="#E3B48E", iris="#3E5A7A", face="square", hair="hood", hair_c="#2F4F6F", top="#2F4F6F", top2="#FFC93C",
+                     legs="#3A3026", shoes="#2A1A10", stubble=True, jaw=0.4, prop=None, buttons=True),
 }
 
 # expressions: eyelid height (0 = fully open, 1 = closed), brow shapes (left, right) as (inner_dy, outer_dy), mouth

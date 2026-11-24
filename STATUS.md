@@ -7,12 +7,12 @@ Rules added 22 Nov (all in CLAUDE.md): 5 posts/week, 1 per day, Mon+Wed free, lo
 docs/growth_strategy.md · docs/competitor_targeting.md (never creator names in metadata) · cast v2.2 (arms/turns) · 30 days scheduled → STOP.
 
 CALENDAR (UTC). Scheduled: Sun 22 A-021 · Mon 23 16:00 A-025 T3CvD2HqRaE (trend swap, owner 23 Nov; A-017 moved to Tue 22 Dec 18:00) · Tue 24 A-012 · Wed 25 A-011 · Thu 26 A-013 · Fri 27 A-018 · Sun 29 17:00 L4 dgmYB0zPALw ·
-Tue 1 Dec 18:00 L4-C1 PtETjFRHH24 · Thu 3 Dec 16:00 A-010 · Fri 4 Dec 18:00 L4-C2 cXgM0GJELw0 · Sat 5 Dec 18:00 A-019 1I_m4OaiQzE · Sun 6 Dec 16:00 A-016 · Fri 11 Dec 18:00 A-022 VAUl6EfZebw · Fri 18 Dec 18:00 A-023 3ZAI7vLZZkE (foot asleep, Style F) · Tue 22 Dec 18:00 A-017 S8zIxiPXHpE (moved).
+Tue 1 Dec 18:00 L4-C1 PtETjFRHH24 · Thu 3 Dec 16:00 A-010 · Fri 4 Dec 18:00 L4-C2 cXgM0GJELw0 · Sat 5 Dec 18:00 A-019 1I_m4OaiQzE · Sun 6 Dec 16:00 A-016 · Fri 11 Dec 18:00 A-022 VAUl6EfZebw · Tue 15 Dec 18:00 A-026 -8MLpCFqDuw (tongue on frozen pole, Style F) · Fri 18 Dec 18:00 A-023 3ZAI7vLZZkE (foot asleep, Style F) · Tue 22 Dec 18:00 A-017 S8zIxiPXHpE (moved) · Thu 24 Dec 18:00 A-027 _6wnNSSo4fU (reindeer eyes, Style F).
 IN PRODUCTION (22 Nov): Mon 7 Dec 17:00 L5 + teaser post (own session session_01BQj2DeXWy7q3QfcuAZWsgi) · Tue 8 + Thu 10 Dec 18:00 L5 cut Shorts (L5 session).
 IN PRODUCTION (23 Nov): Sat 19 Dec 18:00 A-024 microwave mesh (Kaggle a024) (next: re-render hook_pov,loop_pov on Kaggle, then QA + upload). DONE: A-025 T3CvD2HqRaE scheduled Mon 23 Nov 16:00 UTC, SRT up.
-FREED: Tue 15 Dec 18:00 slot (needs a standalone Short). Each: renders → `make.py render renders` → QA → thumb → upload → SRT → registers.
+DONE 24 Nov: A-026 + A-027 uploaded (private + publishAt, thumbs, SRT, AI field No, registers). Each new Short: renders → `make.py render renders` → QA → thumb → upload → SRT → registers.
 TO MAKE (plan 24 Nov, 30 days = to Thu 24 Dec): · L6 Sun 13 Dec 17:00 + teaser (post Fri 11 Dec) + cut Short Thu 17 Dec 18:00 → own session session_01BQj2Df4JPxwNVo9AyHLbzz ·
-Production session: A-024 fix render (Kaggle a024 v2, 24 Nov) → upload Sat 19 Dec · Shorts A-026 Tue 15 Dec + A-027 Thu 24 Dec 18:00 → own session session_01BQj2De9mH8PfbfkZem9mEC ·
+Production session: A-024 fix render (Kaggle a024 v2, 24 Nov) → upload Sat 19 Dec · DONE: A-026 Tue 15 Dec + A-027 Thu 24 Dec 18:00 (uploaded 24 Nov) ·
 L7 Sun 20 Dec 17:00 → start its own fresh session when L6 is done · then STOP until the schedule drops below 30 days (heartbeat adds the next slot each day).
 Spare (made, not scheduled): L4-C3 caps, L4-C4 manholes.
 
@@ -21,7 +21,7 @@ TASKS in order:
    (upload_meta.json pinned_comment) and send thumbs B/C (final/) for Test & Compare.
 1. OWNER (told 22 Nov): Studio → Related video = L4 (dgmYB0zPALw) on PtETjFRHH24 and cXgM0GJELw0.
 2. 48-h checks into topic_results.md (stayed %, rel. retention 10 %, drop point): A-021 on 24 Nov, A-017 25 Nov, A-012 26, A-011 27, A-013 28,
-   A-018 29 Nov (`python3 lib/yt_stats.py 7`). Compare Style R (A-016/17/18/21) vs Style F.
+   A-018 29 Nov, A-026 17 Dec, A-027 26 Dec (`python3 lib/yt_stats.py 7`). Compare Style R (A-016/17/18/21) vs Style F.
 3. DONE 23 Nov: A-019 + A-022 uploaded (private + publishAt, thumb, SRT, AI field No, registers). Kaggle: a019+a022 v1+v2 used ≈ 3.7 h session time (render_log.md).
 4. L5 DONE (23 Nov): B-005 "Why Toast Lands Butter-Side Down, Shoelaces Untie and Earbuds Tangle" UPLOADED l_w8yDvCZiI (Mon 7 Dec 17:00 UTC, SRT, thumb A);
    cut Shorts C1 toast 7LX7R8f7GB4 (Tue 8 Dec 18:00) + C2 spaghetti Ydk7QtOzx7M (Thu 10 Dec 18:00), SRT + thumbs. OWNER: Related video = L5 on both;

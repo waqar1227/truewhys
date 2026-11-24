@@ -1,0 +1,7 @@
+# A-027 v2 (24 Nov 2026), standalone Short, Style F + cast v2.2. Animals & nature, Arctic winter. Facts with 2+ sources (sources.md). v1 take was 39 s (too long): tightened.
+H1|0|Why do reindeer eyes turn blue in winter?
+L01|0|In summer they shine gold. In winter... deep blue.
+L02|0|Behind each eye is a mirror that bounces light back, for a second chance to see.
+L03|0|But in the Arctic winter the sun hides for weeks, so their pupils stay wide open.
+L04|0|Fluid can't drain properly. Pressure builds, and squeezes the mirror's tiny fibres together.
+L05|0|Packed tighter, it reflects blue, the colour of twilight. Less light escapes, so they see more in the dark.

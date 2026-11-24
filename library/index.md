@@ -90,6 +90,11 @@ All original (TrueWhys). One episode = `episodes/<ep>/make.py` (`sheet` | `big <
   buttons, badge, stripes, tunic, armor, scarf). `WY` (full-body mascot) and `wy_bust` (exactly the logo drawing, blinks and talks).
 - **Effects `lib/flat_fx.py`:** wall tiles, `room`, pendant `lamp`, snow/flakes, sparkles, bolts, pain marks, chunky `arrow`, steam, burst, `ring_wave`, `flame`,
   `no_sign`, pressure `gauge`, `qmark`.
+- **Winter + Arctic `lib/flat_winter.py` (24 Nov 2026, A-026/A-027, TrueWhys original):** `winter_yard` (snowy school yard, brick wall, fence, falling snow),
+  `metal_pole`, `tongue`, `beanie` + `scarf` (winter clothes over any cast v2.2 figure), `tundra_night` (stars, `aurora`, mountains, spruce),
+  `tundra_summer` (midnight sun), `reindeer` (side view, walk/head/eye glow) + `reindeer_face` (front, glowing eyes), `torch` + `torch_beam`;
+  helpers `mouth_pt`, `hand_pt`, `head_pt` give exact char2 mouth/hand positions. Cast v2.2 additions in lib/cast2.py: `friend`, `herder`.
+- **`lib/write_shots.py <ep>`:** writes shots.json from a Style F make.py so `tools/make_srt.py` can build/upload the SRT.
 - **Sets and props `lib/flat_sets.py`:** `parlour` (ice-cream shop), `lab` + `monitor`, `xray_bg`, head `cutaway` (brain, skull, artery, nerve, tongue; animatable
   state), `sky` + `cloud`, side-view `plane` (square or round windows), `fuselage_skin` + `big_window` + `crack`, `hangar` + water `tank_back/tank_front`,
   `stress_field` (flow lines round a square/rounded opening), `newspaper`, castle: `castle_wall` (garderobe box + chute, or gate with drawbridge), `garderobe_room`,
