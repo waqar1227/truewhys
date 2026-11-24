@@ -233,3 +233,17 @@ def beep3():
 
 
 audio.GEN.update(hum=hum, beep3=beep3)
+
+
+@functools.lru_cache(maxsize=None)
+def buzz():
+    """Phone on vibrate (original synth, 1.0 s): two 0.3 s pulses of a ~170 Hz motor rattle (B-006)."""
+    t = _t(0.3)
+    motor = np.sign(np.sin(2 * np.pi * 172 * t)) * 0.5 + np.sin(2 * np.pi * 172 * t) * 0.6 + 0.25 * np.sin(2 * np.pi * 344 * t + 0.3)
+    motor *= (0.85 + 0.15 * np.sin(2 * np.pi * 23 * t)) * np.minimum(1, t / 0.01) * np.minimum(1, (0.3 - t) / 0.03)
+    x = np.zeros(int(1.0 * SR))
+    _put(x, motor, 0.0); _put(x, motor, 0.45)
+    return _st(x, 0.5)
+
+
+audio.GEN.update(buzz=buzz)

@@ -75,6 +75,11 @@ CAST = {
                      legs="#2E3B52", shoes=INK, glasses=True, coat=True, jaw=0.3, prop=None),
     "runner":   dict(name="Runner", skin="#F1CDB0", iris="#3E6A5C", face="round", hair="bun", hair_c="#7A3E1E", top="#FF6B5B", top2="#FFC93C",
                      legs="#24476B", shoes="#F4F1EA", jaw=0.0, prop=None, female=True),
+    # added 24 Nov 2026 for B-006 "brain glitches" (same v2.1 rules)
+    "mira":     dict(name="Mira", skin="#E9BC98", iris="#3E5A4A", face="long", hair="bun", hair_c="#3A2416", top="#2F8FA0", top2="#FFF4E0",
+                     legs="#2A2A38", shoes="#F4F1EA", jaw=0.0, prop="phone", female=True),
+    "student":  dict(name="Student", skin="#F3D0B5", iris="#5B3A29", face="round", hair="short", hair_c="#7A3E1E", top="#FFC93C", top2="#2A2A38",
+                     legs="#2E3B52", shoes=INK, hoodie=True, jaw=0.1, prop=None),
 }
 
 # expressions: eyelid height (0 = fully open, 1 = closed), brow shapes (left, right) as (inner_dy, outer_dy), mouth

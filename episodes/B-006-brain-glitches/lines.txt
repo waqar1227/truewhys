@@ -1,0 +1,71 @@
+# id | chapter | text (captions) || say (pronunciation for the voice, optional)
+# B-006 v1 (24 Nov 2026). L6 long video, Style F + cast v2.2. Seven everyday brain glitches, each one a real experiment.
+# Chapters = Gemini requests (8): 0 cold open + doorway, 1 earworm, 2 tip of the tongue, 3 your name, 4 faces, 5 phantom buzz, 6 deja vu, 7 ending.
+# Clip candidates: C1 phantom buzz (ch5, cut Short Thu 17 Dec), C2 your name (ch3), C3 faces (ch4), C4 doorway (ch0).
+O01|0|You walk into a room... and forget why you came in.
+O02|0|That's not a bad memory. Scientists say the doorway itself wiped it.
+O03|0|Your brain is full of glitches like this. Songs that won't leave, words you can't say, a phone that buzzes when it didn't.
+O04|0|Every one of them has been tested in a lab. And every glitch turns out to be a shortcut, working a little too hard.
+O05|0|So let's start with that doorway.
+D01|0|In 2011, psychologist Gabriel Radvansky, at the University of Notre Dame, built a set of virtual rooms, like a simple video game.
+D02|0|Volunteers picked up objects, carried them from table to table, and were quizzed on what they had just been holding.
+D03|0|People who walked through a doorway forgot more than people who walked the same distance inside one room.
+D04|0|Then his team tried it in real rooms, with real boxes. Same result.
+D05|0|The idea: your brain cuts life into scenes, like chapters in a book. A doorway tells it, new chapter.
+D06|0|And the plan from the last chapter gets filed away.
+D07|0|But in 2021, a team in Australia couldn't always repeat it. The doorway only tripped people up when their minds were already busy.
+D08|0|Which is exactly how you walk into the kitchen... thinking about ten other things.
+W01|1|Next glitch. A song gets stuck in your head, and it plays on repeat for hours. Why?
+W02|1|Scientists call it an earworm. In a survey of almost twelve thousand people in Finland, more than ninety percent said they get one every week.
+W03|1|In 2016, researchers in London asked three thousand people which songs got stuck the most.
+W04|1|The winners had a lot in common: a fast tempo, and a simple tune that climbs up and comes back down, like a nursery rhyme.
+W05|1|Plus a few unusual jumps in the melody that your brain didn't see coming.
+W06|1|And here's a strange fix. At the University of Reading, chewing gum cut how much people heard the song in their head by about a third.
+W07|1|Chewing keeps busy the same inner voice your brain uses to sing to itself.
+W08|1|So the next time a song won't leave... try gum.
+T01|2|You know the word. You can feel it. It starts with... something. But it just won't come out.
+T02|2|That's the tip-of-the-tongue feeling. In 1966, two Harvard psychologists, Roger Brown and David McNeill, decided to cause it on purpose.
+T03|2|They read out the definitions of rare words, and waited for students to get stuck.
+T04|2|Many did, right on the edge of the answer.
+T05|2|And while they were stuck, they could often guess the first letter, and how many syllables the word had.
+T06|2|So the word isn't lost. Your brain has found the meaning, but it can't fetch the sound.
+T07|2|Like a library card that points to a book... that's out on loan.
+T08|2|Try it: what's the little plastic tip on the end of a shoelace called?
+T09|2|It's an aglet. Was it on the tip of your tongue?||It's an ag-let. Was it on the tip of your tongue?
+N01|3|Now picture a loud party. Music, chatter, clinking glasses. You're deep in one conversation...
+N02|3|and then, from across the room, someone says your name. And you hear it instantly. How?
+N03|3|In 1953, the British scientist Colin Cherry played two different messages, one in each ear, and asked people to repeat only one.
+N04|3|Afterwards, they could barely say a thing about the other ear. They didn't even notice when it switched to another language.
+N05|3|But in 1959, Neville Moray hid each listener's own name in the ignored ear.
+N06|3|About a third of them heard it. When scientists repeated the test in 1995, the answer was the same: about one in three.
+N07|3|So your brain isn't ignoring the noise. It's quietly listening to all of it, and lets through what matters most to you.
+N08|3|And few words matter more to you than your own name.
+F01|4|Look at this power socket. Did you just see a face?
+F02|4|Seeing faces in things is called pareidolia: in clouds, in the front of a car, in a slice of pizza.||Seeing faces in things is called pair-eye-DOH-lee-ah: in clouds, in the front of a car, in a slice of pizza.
+F03|4|In 2009, a team at Harvard Medical School recorded people's brains while they looked at face-like objects.
+F04|4|The brain's face area fired in about a sixth of a second, almost as fast as for a real face. Plain objects didn't do it.
+F05|4|So you don't decide to see the face. It's spotted before you even think.
+F06|4|In 2020, scientists at the US National Institute of Mental Health watched it happen in more detail.
+F07|4|For a split second, the brain handles the fake face like a real one. Then it quickly files it away as an object.
+F08|4|One idea why: a face detector that's a bit too eager is safer than one that misses a real face.
+V01|5|Your phone buzzes in your pocket. You check. Nothing. No message, no call.
+V02|5|If that's happened to you, you're in the majority.
+V03|5|In 2010, a survey at a US hospital found that sixty-eight percent of the staff had felt phantom vibrations.
+V04|5|In 2012, a study of two hundred and ninety students put it at eighty-nine percent.
+V05|5|The likely reason: your brain is waiting for that buzz. So it's set to better safe than sorry.
+V06|5|A tiny muscle twitch, or clothes rubbing your skin, and the brain shouts: phone!
+V07|5|In the hospital study, people who carried their phone for longer, or used vibrate mode more, felt more phantom buzzes.
+V08|5|And over ninety percent of the students said it barely bothered them. It's just a very eager brain.
+J01|6|And the strangest glitch of all. You walk into a place you've never been... and you're sure you've been here before.
+J02|6|That's déjà vu, and surveys suggest more than half of all people have felt it.||That's day-zhah VOO, and surveys suggest more than half of all people have felt it.
+J03|6|In 2012, psychologist Anne Cleary, at Colorado State University, sent volunteers into a virtual town built in a life-simulation game.
+J04|6|Some new scenes had the same layout as scenes they had seen before, but with different things inside. A new room, in an old room's shape.
+J05|6|Those were the scenes that set off déjà vu, even when people couldn't remember the first room at all.||Those were the scenes that set off day-zhah VOO, even when people couldn't remember the first room at all.
+J06|6|Then in 2016, a team at the University of St Andrews in Scotland caught déjà vu inside a brain scanner.||Then in 2016, a team at the University of Saint Andrews in Scotland caught day-zhah VOO inside a brain scanner.
+J07|6|The busy areas weren't the memory stores. They were at the front of the brain, in the parts that check memories for mistakes.
+J08|6|So déjà vu may be your brain catching a false alarm: this feels familiar... but wait, it isn't.||So day-zhah VOO may be your brain catching a false alarm: this feels familiar... but wait, it isn't.
+J09|6|Some scientists think that's a good sign: a memory that double-checks itself.
+E01|7|So: the doorway, the stuck song, the missing word, your name in the noise, the face in the socket, the phantom buzz, and déjà vu.||So: the doorway, the stuck song, the missing word, your name in the noise, the face in the socket, the phantom buzz, and day-zhah VOO.
+E02|7|They feel like your brain is broken. But each one is a shortcut that usually helps you, caught working a little too hard.
+E03|7|Which glitch happens to you the most? Tell us in the comments.
+E04|7|Now... what did you come here for again?
