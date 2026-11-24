@@ -140,6 +140,11 @@ All original (TrueWhys). One episode = `episodes/<ep>/make.py` (`sheet` | `big <
   sneaker + bow_knot (loosen / swing / twist=weak knot / undone), earbud(s) (neat → tangled), tumble_box (rotating clear box with string),
   spaghetti (bend, twist stripes) + fist, curtain (shower curtain with bulge/weights), mug, coffee_drop (drying ring or even stain), cereal_loop, bowl_top.
   `from flat_annoy import *` (TW_FLAT_SIZE set before import). Original, code-drawn (TrueWhys).
+- lib/flat_brain.py (B-006, 24 Nov 2026): Style F psychology/brain props: brain mascot (happy, alarm, confused, smug, shout, sleepy, worried),
+  doorway, thought cloud, vr_grid (wire-frame virtual room), phone (generic, lit screen/'0 NEW'), buzz (vibration marks), sound_wave, note (music),
+  headphones (two-colour cups), gum (generic pack), book (+ empty slot), library_card, aglet_lace, pie chart, clock_face, mri, meg_helmet,
+  pareidolia faces (socket, house_face, car_face, cloud_face, pizza_face), party_crowd. `from flat_brain import *`. Original, code-drawn (TrueWhys).
+- lib/cast2.py new cast (B-006): `mira` (teal jumper, bun, phone) and `student` (yellow hoodie). lib/sfxgen.py new synth: `buzz` (phone on vibrate).
 - lib/cast2.py additions (B-005, 22 Nov): "physicist" (lab coat, glasses) and "runner" (bun, coral sports top). Same v2.1/v2.2 rules.
 - episodes/B-005-annoying-science/make.py sets reusable by copy: kitchen_am (morning kitchen), lab (physics lab wall), night_kitchen, bathroom + tub
   + bath_cut (side cut-away of a shower with vortex), cafe (top-view wooden table), breakfast (tablecloth), drop_cut (cross-section of a drying drop),

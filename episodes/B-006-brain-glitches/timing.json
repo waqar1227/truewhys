@@ -2783,5 +2783,3665 @@
   ],
   "heard": "It's an aglet. Was it on the tip of your tongue?",
   "match": 1.0
+ },
+ {
+  "id": "N01",
+  "chapter": 3,
+  "text": "Now picture a loud party. Music, chatter, clinking glasses. You're deep in one conversation...",
+  "dur": 6.73,
+  "words": [
+   {
+    "w": "Now",
+    "s": 0.0,
+    "e": 0.38
+   },
+   {
+    "w": "picture",
+    "s": 0.38,
+    "e": 0.68
+   },
+   {
+    "w": "a",
+    "s": 0.68,
+    "e": 1.18
+   },
+   {
+    "w": "loud",
+    "s": 1.18,
+    "e": 1.46
+   },
+   {
+    "w": "party.",
+    "s": 1.46,
+    "e": 2.02
+   },
+   {
+    "w": "Music,",
+    "s": 2.92,
+    "e": 2.92
+   },
+   {
+    "w": "chatter,",
+    "s": 3.52,
+    "e": 3.68
+   },
+   {
+    "w": "clinking",
+    "s": 3.94,
+    "e": 4.22
+   },
+   {
+    "w": "glasses.",
+    "s": 4.22,
+    "e": 4.68
+   },
+   {
+    "w": "You're",
+    "s": 4.98,
+    "e": 5.22
+   },
+   {
+    "w": "deep",
+    "s": 5.22,
+    "e": 5.44
+   },
+   {
+    "w": "in",
+    "s": 5.44,
+    "e": 5.72
+   },
+   {
+    "w": "one",
+    "s": 5.72,
+    "e": 5.92
+   },
+   {
+    "w": "conversation...",
+    "s": 5.92,
+    "e": 6.44
+   }
+  ],
+  "heard": "Now picture a loud party. Music, chatter, clinking glasses. You're deep in one conversation.",
+  "match": 1.0
+ },
+ {
+  "id": "N02",
+  "chapter": 3,
+  "text": "and then, from across the room, someone says your name. And you hear it instantly. How?",
+  "dur": 5.52,
+  "words": [
+   {
+    "w": "and",
+    "s": 0.06,
+    "e": 0.18
+   },
+   {
+    "w": "then,",
+    "s": 0.18,
+    "e": 0.4
+   },
+   {
+    "w": "from",
+    "s": 0.56,
+    "e": 0.8
+   },
+   {
+    "w": "across",
+    "s": 0.8,
+    "e": 1.12
+   },
+   {
+    "w": "the",
+    "s": 1.12,
+    "e": 1.32
+   },
+   {
+    "w": "room,",
+    "s": 1.32,
+    "e": 1.58
+   },
+   {
+    "w": "someone",
+    "s": 1.88,
+    "e": 2.08
+   },
+   {
+    "w": "says",
+    "s": 2.08,
+    "e": 2.34
+   },
+   {
+    "w": "your",
+    "s": 2.34,
+    "e": 2.56
+   },
+   {
+    "w": "name.",
+    "s": 2.56,
+    "e": 2.78
+   },
+   {
+    "w": "And",
+    "s": 3.26,
+    "e": 3.38
+   },
+   {
+    "w": "you",
+    "s": 3.38,
+    "e": 3.5
+   },
+   {
+    "w": "hear",
+    "s": 3.5,
+    "e": 3.7
+   },
+   {
+    "w": "it",
+    "s": 3.7,
+    "e": 4.0
+   },
+   {
+    "w": "instantly.",
+    "s": 4.0,
+    "e": 4.36
+   },
+   {
+    "w": "How?",
+    "s": 5.06,
+    "e": 5.26
+   }
+  ],
+  "heard": "And then, from across the room, someone says your name. And you hear it instantly. How?",
+  "match": 1.0
+ },
+ {
+  "id": "N03",
+  "chapter": 3,
+  "text": "In 1953, the British scientist Colin Cherry played two different messages, one in each ear, and asked people to repeat only one.",
+  "dur": 7.7,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.03,
+    "e": 0.27
+   },
+   {
+    "w": "1953,",
+    "s": 0.27,
+    "e": 0.89
+   },
+   {
+    "w": "the",
+    "s": 1.39,
+    "e": 1.47
+   },
+   {
+    "w": "British",
+    "s": 1.47,
+    "e": 1.69
+   },
+   {
+    "w": "scientist",
+    "s": 1.69,
+    "e": 2.15
+   },
+   {
+    "w": "Colin",
+    "s": 2.15,
+    "e": 2.51
+   },
+   {
+    "w": "Cherry",
+    "s": 2.51,
+    "e": 2.83
+   },
+   {
+    "w": "played",
+    "s": 2.83,
+    "e": 3.19
+   },
+   {
+    "w": "two",
+    "s": 3.19,
+    "e": 3.57
+   },
+   {
+    "w": "different",
+    "s": 3.57,
+    "e": 3.89
+   },
+   {
+    "w": "messages,",
+    "s": 3.89,
+    "e": 4.27
+   },
+   {
+    "w": "one",
+    "s": 4.51,
+    "e": 4.65
+   },
+   {
+    "w": "in",
+    "s": 4.65,
+    "e": 4.83
+   },
+   {
+    "w": "each",
+    "s": 4.83,
+    "e": 5.15
+   },
+   {
+    "w": "ear,",
+    "s": 5.15,
+    "e": 5.39
+   },
+   {
+    "w": "and",
+    "s": 5.75,
+    "e": 5.85
+   },
+   {
+    "w": "asked",
+    "s": 5.85,
+    "e": 6.11
+   },
+   {
+    "w": "people",
+    "s": 6.11,
+    "e": 6.37
+   },
+   {
+    "w": "to",
+    "s": 6.37,
+    "e": 6.57
+   },
+   {
+    "w": "repeat",
+    "s": 6.57,
+    "e": 6.87
+   },
+   {
+    "w": "only",
+    "s": 6.87,
+    "e": 7.21
+   },
+   {
+    "w": "one.",
+    "s": 7.21,
+    "e": 7.53
+   }
+  ],
+  "heard": "In 1953, the British scientist Colin Cherry played two different messages, one in each ear, and asked people to repeat only one.",
+  "match": 1.0
+ },
+ {
+  "id": "N04",
+  "chapter": 3,
+  "text": "Afterwards, they could barely say a thing about the other ear. They didn't even notice when it switched to another language.",
+  "dur": 5.47,
+  "words": [
+   {
+    "w": "Afterwards,",
+    "s": 0.03,
+    "e": 0.45
+   },
+   {
+    "w": "they",
+    "s": 0.69,
+    "e": 0.91
+   },
+   {
+    "w": "could",
+    "s": 0.91,
+    "e": 1.05
+   },
+   {
+    "w": "barely",
+    "s": 1.05,
+    "e": 1.37
+   },
+   {
+    "w": "say",
+    "s": 1.37,
+    "e": 1.65
+   },
+   {
+    "w": "a",
+    "s": 1.65,
+    "e": 1.81
+   },
+   {
+    "w": "thing",
+    "s": 1.81,
+    "e": 1.99
+   },
+   {
+    "w": "about",
+    "s": 1.99,
+    "e": 2.23
+   },
+   {
+    "w": "the",
+    "s": 2.23,
+    "e": 2.37
+   },
+   {
+    "w": "other",
+    "s": 2.37,
+    "e": 2.57
+   },
+   {
+    "w": "ear.",
+    "s": 2.57,
+    "e": 2.81
+   },
+   {
+    "w": "They",
+    "s": 3.13,
+    "e": 3.29
+   },
+   {
+    "w": "didn't",
+    "s": 3.29,
+    "e": 3.49
+   },
+   {
+    "w": "even",
+    "s": 3.49,
+    "e": 3.69
+   },
+   {
+    "w": "notice",
+    "s": 3.69,
+    "e": 3.99
+   },
+   {
+    "w": "when",
+    "s": 3.99,
+    "e": 4.21
+   },
+   {
+    "w": "it",
+    "s": 4.21,
+    "e": 4.31
+   },
+   {
+    "w": "switched",
+    "s": 4.31,
+    "e": 4.55
+   },
+   {
+    "w": "to",
+    "s": 4.55,
+    "e": 4.79
+   },
+   {
+    "w": "another",
+    "s": 4.79,
+    "e": 4.97
+   },
+   {
+    "w": "language.",
+    "s": 4.97,
+    "e": 5.47
+   }
+  ],
+  "heard": "Afterwards, they could barely say a thing about the other ear. They didn't even notice when it switched to another language.",
+  "match": 1.0
+ },
+ {
+  "id": "N05",
+  "chapter": 3,
+  "text": "But in 1959, Neville Moray hid each listener's own name in the ignored ear.",
+  "dur": 5.76,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.0,
+    "e": 0.76
+   },
+   {
+    "w": "in",
+    "s": 0.76,
+    "e": 0.9
+   },
+   {
+    "w": "1959,",
+    "s": 0.9,
+    "e": 1.72
+   },
+   {
+    "w": "Neville",
+    "s": 2.2,
+    "e": 2.3
+   },
+   {
+    "w": "Moray",
+    "s": 2.3,
+    "e": 2.76
+   },
+   {
+    "w": "hid",
+    "s": 2.76,
+    "e": 3.12
+   },
+   {
+    "w": "each",
+    "s": 3.12,
+    "e": 3.42
+   },
+   {
+    "w": "listener's",
+    "s": 3.42,
+    "e": 3.98
+   },
+   {
+    "w": "own",
+    "s": 3.98,
+    "e": 4.2
+   },
+   {
+    "w": "name",
+    "s": 4.2,
+    "e": 4.52
+   },
+   {
+    "w": "in",
+    "s": 4.52,
+    "e": 4.74
+   },
+   {
+    "w": "the",
+    "s": 4.74,
+    "e": 4.86
+   },
+   {
+    "w": "ignored",
+    "s": 4.86,
+    "e": 5.22
+   },
+   {
+    "w": "ear.",
+    "s": 5.22,
+    "e": 5.6
+   }
+  ],
+  "heard": "But in 1959, Neville Moray hid each listener's own name in the ignored ear.",
+  "match": 1.0
+ },
+ {
+  "id": "N06",
+  "chapter": 3,
+  "text": "About a third of them heard it. When scientists repeated the test in 1995, the answer was the same: about one in three.",
+  "dur": 6.53,
+  "words": [
+   {
+    "w": "About",
+    "s": 0.12,
+    "e": 0.26
+   },
+   {
+    "w": "a",
+    "s": 0.26,
+    "e": 0.46
+   },
+   {
+    "w": "third",
+    "s": 0.46,
+    "e": 0.7
+   },
+   {
+    "w": "of",
+    "s": 0.7,
+    "e": 0.84
+   },
+   {
+    "w": "them",
+    "s": 0.84,
+    "e": 0.98
+   },
+   {
+    "w": "heard",
+    "s": 0.98,
+    "e": 1.18
+   },
+   {
+    "w": "it.",
+    "s": 1.18,
+    "e": 1.46
+   },
+   {
+    "w": "When",
+    "s": 1.78,
+    "e": 1.88
+   },
+   {
+    "w": "scientists",
+    "s": 1.88,
+    "e": 2.26
+   },
+   {
+    "w": "repeated",
+    "s": 2.26,
+    "e": 2.72
+   },
+   {
+    "w": "the",
+    "s": 2.72,
+    "e": 2.92
+   },
+   {
+    "w": "test",
+    "s": 2.92,
+    "e": 3.12
+   },
+   {
+    "w": "in",
+    "s": 3.12,
+    "e": 3.26
+   },
+   {
+    "w": "1995,",
+    "s": 3.26,
+    "e": 3.86
+   },
+   {
+    "w": "the",
+    "s": 4.38,
+    "e": 4.46
+   },
+   {
+    "w": "answer",
+    "s": 4.46,
+    "e": 4.64
+   },
+   {
+    "w": "was",
+    "s": 4.64,
+    "e": 4.86
+   },
+   {
+    "w": "the",
+    "s": 4.86,
+    "e": 5.04
+   },
+   {
+    "w": "same:",
+    "s": 5.04,
+    "e": 5.26
+   },
+   {
+    "w": "about",
+    "s": 5.52,
+    "e": 5.7
+   },
+   {
+    "w": "one",
+    "s": 5.7,
+    "e": 5.94
+   },
+   {
+    "w": "in",
+    "s": 5.94,
+    "e": 6.08
+   },
+   {
+    "w": "three.",
+    "s": 6.08,
+    "e": 6.34
+   }
+  ],
+  "heard": "About a third of them heard it. When scientists repeated the test in 1995, the answer was the same, about one in three.",
+  "match": 1.0
+ },
+ {
+  "id": "N07",
+  "chapter": 3,
+  "text": "So your brain isn't ignoring the noise. It's quietly listening to all of it, and lets through what matters most to you.",
+  "dur": 6.86,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.03,
+    "e": 0.25
+   },
+   {
+    "w": "your",
+    "s": 0.25,
+    "e": 0.67
+   },
+   {
+    "w": "brain",
+    "s": 0.67,
+    "e": 0.97
+   },
+   {
+    "w": "isn't",
+    "s": 0.97,
+    "e": 1.33
+   },
+   {
+    "w": "ignoring",
+    "s": 1.33,
+    "e": 1.83
+   },
+   {
+    "w": "the",
+    "s": 1.83,
+    "e": 2.05
+   },
+   {
+    "w": "noise.",
+    "s": 2.05,
+    "e": 2.31
+   },
+   {
+    "w": "It's",
+    "s": 2.63,
+    "e": 2.89
+   },
+   {
+    "w": "quietly",
+    "s": 2.89,
+    "e": 3.33
+   },
+   {
+    "w": "listening",
+    "s": 3.33,
+    "e": 3.81
+   },
+   {
+    "w": "to",
+    "s": 3.81,
+    "e": 4.05
+   },
+   {
+    "w": "all",
+    "s": 4.05,
+    "e": 4.35
+   },
+   {
+    "w": "of",
+    "s": 4.35,
+    "e": 4.49
+   },
+   {
+    "w": "it,",
+    "s": 4.49,
+    "e": 4.65
+   },
+   {
+    "w": "and",
+    "s": 4.87,
+    "e": 4.99
+   },
+   {
+    "w": "lets",
+    "s": 4.99,
+    "e": 5.13
+   },
+   {
+    "w": "through",
+    "s": 5.13,
+    "e": 5.39
+   },
+   {
+    "w": "what",
+    "s": 5.39,
+    "e": 5.59
+   },
+   {
+    "w": "matters",
+    "s": 5.59,
+    "e": 5.89
+   },
+   {
+    "w": "most",
+    "s": 5.89,
+    "e": 6.21
+   },
+   {
+    "w": "to",
+    "s": 6.21,
+    "e": 6.47
+   },
+   {
+    "w": "you.",
+    "s": 6.47,
+    "e": 6.71
+   }
+  ],
+  "heard": "So your brain isn't ignoring the noise. It's quietly listening to all of it, and lets through what matters most to you.",
+  "match": 1.0
+ },
+ {
+  "id": "N08",
+  "chapter": 3,
+  "text": "And few words matter more to you than your own name.",
+  "dur": 2.7,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.08,
+    "e": 0.16
+   },
+   {
+    "w": "few",
+    "s": 0.16,
+    "e": 0.38
+   },
+   {
+    "w": "words",
+    "s": 0.38,
+    "e": 0.68
+   },
+   {
+    "w": "matter",
+    "s": 0.68,
+    "e": 0.94
+   },
+   {
+    "w": "more",
+    "s": 0.94,
+    "e": 1.18
+   },
+   {
+    "w": "to",
+    "s": 1.18,
+    "e": 1.38
+   },
+   {
+    "w": "you",
+    "s": 1.38,
+    "e": 1.62
+   },
+   {
+    "w": "than",
+    "s": 1.62,
+    "e": 1.94
+   },
+   {
+    "w": "your",
+    "s": 1.94,
+    "e": 2.06
+   },
+   {
+    "w": "own",
+    "s": 2.06,
+    "e": 2.26
+   },
+   {
+    "w": "name.",
+    "s": 2.26,
+    "e": 2.52
+   }
+  ],
+  "heard": "And few words matter more to you than your own name.",
+  "match": 1.0
+ },
+ {
+  "id": "F01",
+  "chapter": 4,
+  "text": "Look at this power socket. Did you just see a face?",
+  "dur": 3.19,
+  "words": [
+   {
+    "w": "Look",
+    "s": 0.0,
+    "e": 0.38
+   },
+   {
+    "w": "at",
+    "s": 0.38,
+    "e": 0.5
+   },
+   {
+    "w": "this",
+    "s": 0.5,
+    "e": 0.66
+   },
+   {
+    "w": "power",
+    "s": 0.66,
+    "e": 0.96
+   },
+   {
+    "w": "socket.",
+    "s": 0.96,
+    "e": 1.36
+   },
+   {
+    "w": "Did",
+    "s": 1.96,
+    "e": 2.04
+   },
+   {
+    "w": "you",
+    "s": 2.04,
+    "e": 2.16
+   },
+   {
+    "w": "just",
+    "s": 2.16,
+    "e": 2.32
+   },
+   {
+    "w": "see",
+    "s": 2.32,
+    "e": 2.52
+   },
+   {
+    "w": "a",
+    "s": 2.52,
+    "e": 2.66
+   },
+   {
+    "w": "face?",
+    "s": 2.66,
+    "e": 2.9
+   }
+  ],
+  "heard": "Look at this power socket. Did you just see a face?",
+  "match": 1.0
+ },
+ {
+  "id": "F02",
+  "chapter": 4,
+  "text": "Seeing faces in things is called pareidolia: in clouds, in the front of a car, in a slice of pizza.",
+  "dur": 6.69,
+  "words": [
+   {
+    "w": "Seeing",
+    "s": 0.15,
+    "e": 0.35
+   },
+   {
+    "w": "faces",
+    "s": 0.35,
+    "e": 0.75
+   },
+   {
+    "w": "in",
+    "s": 0.75,
+    "e": 1.01
+   },
+   {
+    "w": "things",
+    "s": 1.01,
+    "e": 1.29
+   },
+   {
+    "w": "is",
+    "s": 1.29,
+    "e": 1.51
+   },
+   {
+    "w": "called",
+    "s": 1.51,
+    "e": 1.77
+   },
+   {
+    "w": "pareidolia:",
+    "s": 1.77,
+    "e": 2.73
+   },
+   {
+    "w": "in",
+    "s": 3.11,
+    "e": 3.29
+   },
+   {
+    "w": "clouds,",
+    "s": 3.29,
+    "e": 3.81
+   },
+   {
+    "w": "in",
+    "s": 4.15,
+    "e": 4.21
+   },
+   {
+    "w": "the",
+    "s": 4.21,
+    "e": 4.31
+   },
+   {
+    "w": "front",
+    "s": 4.31,
+    "e": 4.47
+   },
+   {
+    "w": "of",
+    "s": 4.47,
+    "e": 4.57
+   },
+   {
+    "w": "a",
+    "s": 4.57,
+    "e": 4.71
+   },
+   {
+    "w": "car,",
+    "s": 4.71,
+    "e": 5.07
+   },
+   {
+    "w": "in",
+    "s": 5.35,
+    "e": 5.59
+   },
+   {
+    "w": "a",
+    "s": 5.59,
+    "e": 5.69
+   },
+   {
+    "w": "slice",
+    "s": 5.69,
+    "e": 5.81
+   },
+   {
+    "w": "of",
+    "s": 5.81,
+    "e": 6.01
+   },
+   {
+    "w": "pizza.",
+    "s": 6.01,
+    "e": 6.37
+   }
+  ],
+  "heard": "Seeing faces in things is called pareidolia, in clouds, in the front of a car, in a slice of pizza.",
+  "match": 1.0
+ },
+ {
+  "id": "F03",
+  "chapter": 4,
+  "text": "In 2009, a team at Harvard Medical School recorded people's brains while they looked at face-like objects.",
+  "dur": 6.06,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.07,
+    "e": 0.17
+   },
+   {
+    "w": "2009,",
+    "s": 0.17,
+    "e": 0.85
+   },
+   {
+    "w": "a",
+    "s": 1.17,
+    "e": 1.23
+   },
+   {
+    "w": "team",
+    "s": 1.23,
+    "e": 1.41
+   },
+   {
+    "w": "at",
+    "s": 1.41,
+    "e": 1.59
+   },
+   {
+    "w": "Harvard",
+    "s": 1.59,
+    "e": 1.93
+   },
+   {
+    "w": "Medical",
+    "s": 1.93,
+    "e": 2.29
+   },
+   {
+    "w": "School",
+    "s": 2.29,
+    "e": 2.63
+   },
+   {
+    "w": "recorded",
+    "s": 2.63,
+    "e": 3.15
+   },
+   {
+    "w": "people's",
+    "s": 3.15,
+    "e": 3.67
+   },
+   {
+    "w": "brains",
+    "s": 3.67,
+    "e": 4.05
+   },
+   {
+    "w": "while",
+    "s": 4.05,
+    "e": 4.33
+   },
+   {
+    "w": "they",
+    "s": 4.33,
+    "e": 4.47
+   },
+   {
+    "w": "looked",
+    "s": 4.47,
+    "e": 4.65
+   },
+   {
+    "w": "at",
+    "s": 4.65,
+    "e": 4.81
+   },
+   {
+    "w": "face-like",
+    "s": 4.81,
+    "e": 5.29
+   },
+   {
+    "w": "objects.",
+    "s": 5.29,
+    "e": 5.81
+   }
+  ],
+  "heard": "In 2009, a team at Harvard Medical School recorded people's brains while they looked at face -like objects.",
+  "match": 0.914
+ },
+ {
+  "id": "F04",
+  "chapter": 4,
+  "text": "The brain's face area fired in about a sixth of a second, almost as fast as for a real face. Plain objects didn't do it.",
+  "dur": 7.32,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.03,
+    "e": 0.27
+   },
+   {
+    "w": "brain's",
+    "s": 0.27,
+    "e": 0.69
+   },
+   {
+    "w": "face",
+    "s": 0.69,
+    "e": 0.87
+   },
+   {
+    "w": "area",
+    "s": 0.87,
+    "e": 1.25
+   },
+   {
+    "w": "fired",
+    "s": 1.25,
+    "e": 1.61
+   },
+   {
+    "w": "in",
+    "s": 1.61,
+    "e": 1.89
+   },
+   {
+    "w": "about",
+    "s": 1.89,
+    "e": 2.03
+   },
+   {
+    "w": "a",
+    "s": 2.03,
+    "e": 2.17
+   },
+   {
+    "w": "sixth",
+    "s": 2.17,
+    "e": 2.53
+   },
+   {
+    "w": "of",
+    "s": 2.53,
+    "e": 2.73
+   },
+   {
+    "w": "a",
+    "s": 2.73,
+    "e": 2.87
+   },
+   {
+    "w": "second,",
+    "s": 2.87,
+    "e": 3.15
+   },
+   {
+    "w": "almost",
+    "s": 3.61,
+    "e": 3.77
+   },
+   {
+    "w": "as",
+    "s": 3.77,
+    "e": 3.95
+   },
+   {
+    "w": "fast",
+    "s": 3.95,
+    "e": 4.19
+   },
+   {
+    "w": "as",
+    "s": 4.19,
+    "e": 4.37
+   },
+   {
+    "w": "for",
+    "s": 4.37,
+    "e": 4.57
+   },
+   {
+    "w": "a",
+    "s": 4.57,
+    "e": 4.71
+   },
+   {
+    "w": "real",
+    "s": 4.71,
+    "e": 4.95
+   },
+   {
+    "w": "face.",
+    "s": 4.95,
+    "e": 5.31
+   },
+   {
+    "w": "Plain",
+    "s": 6.01,
+    "e": 6.11
+   },
+   {
+    "w": "objects",
+    "s": 6.11,
+    "e": 6.47
+   },
+   {
+    "w": "didn't",
+    "s": 6.47,
+    "e": 6.83
+   },
+   {
+    "w": "do",
+    "s": 6.83,
+    "e": 6.95
+   },
+   {
+    "w": "it.",
+    "s": 6.95,
+    "e": 7.27
+   }
+  ],
+  "heard": "The brain's face area fired in about a sixth of a second, almost as fast as for a real face. Plain objects didn't do it. So",
+  "match": 0.98
+ },
+ {
+  "id": "F05",
+  "chapter": 4,
+  "text": "So you don't decide to see the face. It's spotted before you even think.",
+  "dur": 4.56,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.03,
+    "e": 0.65
+   },
+   {
+    "w": "you",
+    "s": 0.65,
+    "e": 0.75
+   },
+   {
+    "w": "don't",
+    "s": 0.75,
+    "e": 1.23
+   },
+   {
+    "w": "decide",
+    "s": 1.23,
+    "e": 1.41
+   },
+   {
+    "w": "to",
+    "s": 1.41,
+    "e": 1.71
+   },
+   {
+    "w": "see",
+    "s": 1.71,
+    "e": 1.87
+   },
+   {
+    "w": "the",
+    "s": 1.87,
+    "e": 2.01
+   },
+   {
+    "w": "face.",
+    "s": 2.01,
+    "e": 2.21
+   },
+   {
+    "w": "It's",
+    "s": 2.65,
+    "e": 2.81
+   },
+   {
+    "w": "spotted",
+    "s": 2.81,
+    "e": 3.13
+   },
+   {
+    "w": "before",
+    "s": 3.13,
+    "e": 3.67
+   },
+   {
+    "w": "you",
+    "s": 3.67,
+    "e": 3.85
+   },
+   {
+    "w": "even",
+    "s": 3.85,
+    "e": 4.03
+   },
+   {
+    "w": "think.",
+    "s": 4.03,
+    "e": 4.33
+   }
+  ],
+  "heard": "So you don't decide to see the face. It's spotted before you even think.",
+  "match": 1.0
+ },
+ {
+  "id": "F06",
+  "chapter": 4,
+  "text": "In 2020, scientists at the US National Institute of Mental Health watched it happen in more detail.",
+  "dur": 5.7,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.07,
+    "e": 0.17
+   },
+   {
+    "w": "2020,",
+    "s": 0.17,
+    "e": 0.75
+   },
+   {
+    "w": "scientists",
+    "s": 1.31,
+    "e": 1.55
+   },
+   {
+    "w": "at",
+    "s": 1.55,
+    "e": 1.87
+   },
+   {
+    "w": "the",
+    "s": 1.87,
+    "e": 1.97
+   },
+   {
+    "w": "US",
+    "s": 1.97,
+    "e": 2.23
+   },
+   {
+    "w": "National",
+    "s": 2.23,
+    "e": 2.61
+   },
+   {
+    "w": "Institute",
+    "s": 2.61,
+    "e": 3.13
+   },
+   {
+    "w": "of",
+    "s": 3.13,
+    "e": 3.27
+   },
+   {
+    "w": "Mental",
+    "s": 3.27,
+    "e": 3.45
+   },
+   {
+    "w": "Health",
+    "s": 3.45,
+    "e": 3.83
+   },
+   {
+    "w": "watched",
+    "s": 3.83,
+    "e": 4.19
+   },
+   {
+    "w": "it",
+    "s": 4.19,
+    "e": 4.39
+   },
+   {
+    "w": "happen",
+    "s": 4.39,
+    "e": 4.63
+   },
+   {
+    "w": "in",
+    "s": 4.63,
+    "e": 4.85
+   },
+   {
+    "w": "more",
+    "s": 4.85,
+    "e": 5.09
+   },
+   {
+    "w": "detail.",
+    "s": 5.09,
+    "e": 5.49
+   }
+  ],
+  "heard": "In 2020, scientists at the US National Institute of Mental Health watched it happen in more detail.",
+  "match": 1.0
+ },
+ {
+  "id": "F07",
+  "chapter": 4,
+  "text": "For a split second, the brain handles the fake face like a real one. Then it quickly files it away as an object.",
+  "dur": 6.02,
+  "words": [
+   {
+    "w": "For",
+    "s": 0.04,
+    "e": 0.24
+   },
+   {
+    "w": "a",
+    "s": 0.24,
+    "e": 0.36
+   },
+   {
+    "w": "split",
+    "s": 0.36,
+    "e": 0.64
+   },
+   {
+    "w": "second,",
+    "s": 0.64,
+    "e": 1.02
+   },
+   {
+    "w": "the",
+    "s": 1.32,
+    "e": 1.44
+   },
+   {
+    "w": "brain",
+    "s": 1.44,
+    "e": 1.7
+   },
+   {
+    "w": "handles",
+    "s": 1.7,
+    "e": 2.1
+   },
+   {
+    "w": "the",
+    "s": 2.1,
+    "e": 2.3
+   },
+   {
+    "w": "fake",
+    "s": 2.3,
+    "e": 2.52
+   },
+   {
+    "w": "face",
+    "s": 2.52,
+    "e": 2.8
+   },
+   {
+    "w": "like",
+    "s": 2.8,
+    "e": 3.0
+   },
+   {
+    "w": "a",
+    "s": 3.0,
+    "e": 3.14
+   },
+   {
+    "w": "real",
+    "s": 3.14,
+    "e": 3.36
+   },
+   {
+    "w": "one.",
+    "s": 3.36,
+    "e": 3.62
+   },
+   {
+    "w": "Then",
+    "s": 4.0,
+    "e": 4.08
+   },
+   {
+    "w": "it",
+    "s": 4.08,
+    "e": 4.2
+   },
+   {
+    "w": "quickly",
+    "s": 4.2,
+    "e": 4.38
+   },
+   {
+    "w": "files",
+    "s": 4.38,
+    "e": 4.78
+   },
+   {
+    "w": "it",
+    "s": 4.78,
+    "e": 4.92
+   },
+   {
+    "w": "away",
+    "s": 4.92,
+    "e": 5.12
+   },
+   {
+    "w": "as",
+    "s": 5.12,
+    "e": 5.28
+   },
+   {
+    "w": "an",
+    "s": 5.28,
+    "e": 5.4
+   },
+   {
+    "w": "object.",
+    "s": 5.4,
+    "e": 5.72
+   }
+  ],
+  "heard": "For a split second, the brain handles the fake face like a real one. Then it quickly files it away as an object.",
+  "match": 1.0
+ },
+ {
+  "id": "F08",
+  "chapter": 4,
+  "text": "One idea why: a face detector that's a bit too eager is safer than one that misses a real face.",
+  "dur": 5.7,
+  "words": [
+   {
+    "w": "One",
+    "s": 0.06,
+    "e": 0.22
+   },
+   {
+    "w": "idea",
+    "s": 0.22,
+    "e": 0.48
+   },
+   {
+    "w": "why:",
+    "s": 0.48,
+    "e": 0.88
+   },
+   {
+    "w": "a",
+    "s": 1.36,
+    "e": 1.52
+   },
+   {
+    "w": "face",
+    "s": 1.52,
+    "e": 1.74
+   },
+   {
+    "w": "detector",
+    "s": 1.74,
+    "e": 2.18
+   },
+   {
+    "w": "that's",
+    "s": 2.18,
+    "e": 2.46
+   },
+   {
+    "w": "a",
+    "s": 2.46,
+    "e": 2.54
+   },
+   {
+    "w": "bit",
+    "s": 2.54,
+    "e": 2.68
+   },
+   {
+    "w": "too",
+    "s": 2.68,
+    "e": 2.96
+   },
+   {
+    "w": "eager",
+    "s": 2.96,
+    "e": 3.36
+   },
+   {
+    "w": "is",
+    "s": 3.36,
+    "e": 3.64
+   },
+   {
+    "w": "safer",
+    "s": 3.64,
+    "e": 3.98
+   },
+   {
+    "w": "than",
+    "s": 3.98,
+    "e": 4.36
+   },
+   {
+    "w": "one",
+    "s": 4.36,
+    "e": 4.54
+   },
+   {
+    "w": "that",
+    "s": 4.54,
+    "e": 4.68
+   },
+   {
+    "w": "misses",
+    "s": 4.68,
+    "e": 4.92
+   },
+   {
+    "w": "a",
+    "s": 4.92,
+    "e": 5.1
+   },
+   {
+    "w": "real",
+    "s": 5.1,
+    "e": 5.22
+   },
+   {
+    "w": "face.",
+    "s": 5.22,
+    "e": 5.52
+   }
+  ],
+  "heard": "One idea why? A face detector that's a bit too eager is safer than one that misses a real face.",
+  "match": 1.0
+ },
+ {
+  "id": "V01",
+  "chapter": 5,
+  "text": "Your phone buzzes in your pocket. You check. Nothing. No message, no call.",
+  "dur": 5.21,
+  "words": [
+   {
+    "w": "Your",
+    "s": 0.0,
+    "e": 0.38
+   },
+   {
+    "w": "phone",
+    "s": 0.38,
+    "e": 0.64
+   },
+   {
+    "w": "buzzes",
+    "s": 0.64,
+    "e": 1.0
+   },
+   {
+    "w": "in",
+    "s": 1.0,
+    "e": 1.14
+   },
+   {
+    "w": "your",
+    "s": 1.14,
+    "e": 1.26
+   },
+   {
+    "w": "pocket.",
+    "s": 1.26,
+    "e": 1.54
+   },
+   {
+    "w": "You",
+    "s": 2.02,
+    "e": 2.12
+   },
+   {
+    "w": "check.",
+    "s": 2.12,
+    "e": 2.36
+   },
+   {
+    "w": "Nothing.",
+    "s": 2.9,
+    "e": 3.18
+   },
+   {
+    "w": "No",
+    "s": 3.76,
+    "e": 3.9
+   },
+   {
+    "w": "message,",
+    "s": 3.9,
+    "e": 4.26
+   },
+   {
+    "w": "no",
+    "s": 4.64,
+    "e": 4.78
+   },
+   {
+    "w": "call.",
+    "s": 4.78,
+    "e": 5.0
+   }
+  ],
+  "heard": "Your phone buzzes in your pocket. You check. Nothing. No message, no call.",
+  "match": 1.0
+ },
+ {
+  "id": "V02",
+  "chapter": 5,
+  "text": "If that's happened to you, you're in the majority.",
+  "dur": 2.13,
+  "words": [
+   {
+    "w": "If",
+    "s": 0.03,
+    "e": 0.25
+   },
+   {
+    "w": "that's",
+    "s": 0.25,
+    "e": 0.47
+   },
+   {
+    "w": "happened",
+    "s": 0.47,
+    "e": 0.69
+   },
+   {
+    "w": "to",
+    "s": 0.69,
+    "e": 0.85
+   },
+   {
+    "w": "you,",
+    "s": 0.85,
+    "e": 1.03
+   },
+   {
+    "w": "you're",
+    "s": 1.21,
+    "e": 1.41
+   },
+   {
+    "w": "in",
+    "s": 1.41,
+    "e": 1.47
+   },
+   {
+    "w": "the",
+    "s": 1.47,
+    "e": 1.55
+   },
+   {
+    "w": "majority.",
+    "s": 1.55,
+    "e": 1.85
+   }
+  ],
+  "heard": "If that's happened to you, you're in the majority.",
+  "match": 1.0
+ },
+ {
+  "id": "V03",
+  "chapter": 5,
+  "text": "In 2010, a survey at a US hospital found that sixty-eight percent of the staff had felt phantom vibrations.",
+  "dur": 6.27,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.07,
+    "e": 0.17
+   },
+   {
+    "w": "2010,",
+    "s": 0.17,
+    "e": 0.79
+   },
+   {
+    "w": "a",
+    "s": 1.03,
+    "e": 1.13
+   },
+   {
+    "w": "survey",
+    "s": 1.13,
+    "e": 1.39
+   },
+   {
+    "w": "at",
+    "s": 1.39,
+    "e": 1.57
+   },
+   {
+    "w": "a",
+    "s": 1.57,
+    "e": 1.65
+   },
+   {
+    "w": "US",
+    "s": 1.65,
+    "e": 1.89
+   },
+   {
+    "w": "hospital",
+    "s": 1.89,
+    "e": 2.41
+   },
+   {
+    "w": "found",
+    "s": 2.41,
+    "e": 2.73
+   },
+   {
+    "w": "that",
+    "s": 2.73,
+    "e": 3.05
+   },
+   {
+    "w": "sixty-eight",
+    "s": 3.05,
+    "e": 3.83
+   },
+   {
+    "w": "percent",
+    "s": 3.83,
+    "e": 4.07
+   },
+   {
+    "w": "of",
+    "s": 4.07,
+    "e": 4.21
+   },
+   {
+    "w": "the",
+    "s": 4.21,
+    "e": 4.31
+   },
+   {
+    "w": "staff",
+    "s": 4.31,
+    "e": 4.57
+   },
+   {
+    "w": "had",
+    "s": 4.57,
+    "e": 4.73
+   },
+   {
+    "w": "felt",
+    "s": 4.73,
+    "e": 4.99
+   },
+   {
+    "w": "phantom",
+    "s": 4.99,
+    "e": 5.33
+   },
+   {
+    "w": "vibrations.",
+    "s": 5.33,
+    "e": 5.89
+   }
+  ],
+  "heard": "In 2010, a survey at a US hospital found that sixty -eight percent of the staff had felt phantom vibrations.",
+  "match": 0.923
+ },
+ {
+  "id": "V04",
+  "chapter": 5,
+  "text": "In 2012, a study of two hundred and ninety students put it at eighty-nine percent.",
+  "dur": 4.71,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.05,
+    "e": 0.17
+   },
+   {
+    "w": "2012,",
+    "s": 0.17,
+    "e": 0.77
+   },
+   {
+    "w": "a",
+    "s": 1.25,
+    "e": 1.33
+   },
+   {
+    "w": "study",
+    "s": 1.33,
+    "e": 1.53
+   },
+   {
+    "w": "of",
+    "s": 1.53,
+    "e": 1.69
+   },
+   {
+    "w": "two",
+    "s": 1.69,
+    "e": 1.87
+   },
+   {
+    "w": "hundred",
+    "s": 1.87,
+    "e": 2.15
+   },
+   {
+    "w": "and",
+    "s": 2.15,
+    "e": 2.29
+   },
+   {
+    "w": "ninety",
+    "s": 2.29,
+    "e": 2.55
+   },
+   {
+    "w": "students",
+    "s": 2.55,
+    "e": 2.95
+   },
+   {
+    "w": "put",
+    "s": 2.95,
+    "e": 3.19
+   },
+   {
+    "w": "it",
+    "s": 3.19,
+    "e": 3.31
+   },
+   {
+    "w": "at",
+    "s": 3.31,
+    "e": 3.49
+   },
+   {
+    "w": "eighty-nine",
+    "s": 3.49,
+    "e": 4.11
+   },
+   {
+    "w": "percent.",
+    "s": 4.11,
+    "e": 4.53
+   }
+  ],
+  "heard": "In 2012, a study of two hundred and ninety students put it at eighty -nine percent.",
+  "match": 0.903
+ },
+ {
+  "id": "V05",
+  "chapter": 5,
+  "text": "The likely reason: your brain is waiting for that buzz. So it's set to better safe than sorry.",
+  "dur": 5.09,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.03,
+    "e": 0.19
+   },
+   {
+    "w": "likely",
+    "s": 0.19,
+    "e": 0.37
+   },
+   {
+    "w": "reason:",
+    "s": 0.37,
+    "e": 0.73
+   },
+   {
+    "w": "your",
+    "s": 1.15,
+    "e": 1.35
+   },
+   {
+    "w": "brain",
+    "s": 1.35,
+    "e": 1.61
+   },
+   {
+    "w": "is",
+    "s": 1.61,
+    "e": 1.77
+   },
+   {
+    "w": "waiting",
+    "s": 1.77,
+    "e": 2.09
+   },
+   {
+    "w": "for",
+    "s": 2.09,
+    "e": 2.37
+   },
+   {
+    "w": "that",
+    "s": 2.37,
+    "e": 2.53
+   },
+   {
+    "w": "buzz.",
+    "s": 2.53,
+    "e": 2.81
+   },
+   {
+    "w": "So",
+    "s": 3.25,
+    "e": 3.45
+   },
+   {
+    "w": "it's",
+    "s": 3.45,
+    "e": 3.61
+   },
+   {
+    "w": "set",
+    "s": 3.61,
+    "e": 3.75
+   },
+   {
+    "w": "to",
+    "s": 3.75,
+    "e": 3.97
+   },
+   {
+    "w": "better",
+    "s": 3.97,
+    "e": 4.45
+   },
+   {
+    "w": "safe",
+    "s": 4.45,
+    "e": 4.67
+   },
+   {
+    "w": "than",
+    "s": 4.67,
+    "e": 4.85
+   },
+   {
+    "w": "sorry.",
+    "s": 4.85,
+    "e": 5.09
+   }
+  ],
+  "heard": "The likely reason? Your brain is waiting for that buzz. So it's set to better safe than sorry.",
+  "match": 1.0
+ },
+ {
+  "id": "V06",
+  "chapter": 5,
+  "text": "A tiny muscle twitch, or clothes rubbing your skin, and the brain shouts: phone!",
+  "dur": 4.94,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.0,
+    "e": 0.84
+   },
+   {
+    "w": "tiny",
+    "s": 0.84,
+    "e": 1.06
+   },
+   {
+    "w": "muscle",
+    "s": 1.06,
+    "e": 1.42
+   },
+   {
+    "w": "twitch,",
+    "s": 1.42,
+    "e": 1.72
+   },
+   {
+    "w": "or",
+    "s": 2.04,
+    "e": 2.06
+   },
+   {
+    "w": "clothes",
+    "s": 2.06,
+    "e": 2.44
+   },
+   {
+    "w": "rubbing",
+    "s": 2.44,
+    "e": 2.76
+   },
+   {
+    "w": "your",
+    "s": 2.76,
+    "e": 2.96
+   },
+   {
+    "w": "skin,",
+    "s": 2.96,
+    "e": 3.32
+   },
+   {
+    "w": "and",
+    "s": 3.52,
+    "e": 3.58
+   },
+   {
+    "w": "the",
+    "s": 3.58,
+    "e": 3.68
+   },
+   {
+    "w": "brain",
+    "s": 3.68,
+    "e": 3.88
+   },
+   {
+    "w": "shouts:",
+    "s": 3.88,
+    "e": 4.16
+   },
+   {
+    "w": "phone!",
+    "s": 4.16,
+    "e": 4.64
+   }
+  ],
+  "heard": "A tiny muscle twitch, or clothes rubbing your skin, and the brain shouts phone!",
+  "match": 1.0
+ },
+ {
+  "id": "V07",
+  "chapter": 5,
+  "text": "In the hospital study, people who carried their phone for longer, or used vibrate mode more, felt more phantom buzzes.",
+  "dur": 6.12,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.03,
+    "e": 0.19
+   },
+   {
+    "w": "the",
+    "s": 0.19,
+    "e": 0.29
+   },
+   {
+    "w": "hospital",
+    "s": 0.29,
+    "e": 0.59
+   },
+   {
+    "w": "study,",
+    "s": 0.59,
+    "e": 0.95
+   },
+   {
+    "w": "people",
+    "s": 1.27,
+    "e": 1.43
+   },
+   {
+    "w": "who",
+    "s": 1.43,
+    "e": 1.61
+   },
+   {
+    "w": "carried",
+    "s": 1.61,
+    "e": 1.89
+   },
+   {
+    "w": "their",
+    "s": 1.89,
+    "e": 2.09
+   },
+   {
+    "w": "phone",
+    "s": 2.09,
+    "e": 2.25
+   },
+   {
+    "w": "for",
+    "s": 2.25,
+    "e": 2.43
+   },
+   {
+    "w": "longer,",
+    "s": 2.43,
+    "e": 2.73
+   },
+   {
+    "w": "or",
+    "s": 2.95,
+    "e": 3.09
+   },
+   {
+    "w": "used",
+    "s": 3.09,
+    "e": 3.39
+   },
+   {
+    "w": "vibrate",
+    "s": 3.39,
+    "e": 3.83
+   },
+   {
+    "w": "mode",
+    "s": 3.83,
+    "e": 4.01
+   },
+   {
+    "w": "more,",
+    "s": 4.01,
+    "e": 4.37
+   },
+   {
+    "w": "felt",
+    "s": 4.55,
+    "e": 4.75
+   },
+   {
+    "w": "more",
+    "s": 4.75,
+    "e": 5.03
+   },
+   {
+    "w": "phantom",
+    "s": 5.03,
+    "e": 5.29
+   },
+   {
+    "w": "buzzes.",
+    "s": 5.29,
+    "e": 5.99
+   }
+  ],
+  "heard": "In the hospital study, people who carried their phone for longer, or used vibrate mode more, felt more phantom buzzes.",
+  "match": 1.0
+ },
+ {
+  "id": "V08",
+  "chapter": 5,
+  "text": "And over ninety percent of the students said it barely bothered them. It's just a very eager brain.",
+  "dur": 5.02,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.06,
+    "e": 0.16
+   },
+   {
+    "w": "over",
+    "s": 0.16,
+    "e": 0.34
+   },
+   {
+    "w": "ninety",
+    "s": 0.34,
+    "e": 0.66
+   },
+   {
+    "w": "percent",
+    "s": 0.66,
+    "e": 1.0
+   },
+   {
+    "w": "of",
+    "s": 1.0,
+    "e": 1.1
+   },
+   {
+    "w": "the",
+    "s": 1.1,
+    "e": 1.24
+   },
+   {
+    "w": "students",
+    "s": 1.24,
+    "e": 1.5
+   },
+   {
+    "w": "said",
+    "s": 1.5,
+    "e": 1.74
+   },
+   {
+    "w": "it",
+    "s": 1.74,
+    "e": 1.88
+   },
+   {
+    "w": "barely",
+    "s": 1.88,
+    "e": 2.14
+   },
+   {
+    "w": "bothered",
+    "s": 2.14,
+    "e": 2.48
+   },
+   {
+    "w": "them.",
+    "s": 2.48,
+    "e": 2.8
+   },
+   {
+    "w": "It's",
+    "s": 3.24,
+    "e": 3.46
+   },
+   {
+    "w": "just",
+    "s": 3.46,
+    "e": 3.6
+   },
+   {
+    "w": "a",
+    "s": 3.6,
+    "e": 3.86
+   },
+   {
+    "w": "very",
+    "s": 3.86,
+    "e": 4.24
+   },
+   {
+    "w": "eager",
+    "s": 4.24,
+    "e": 4.54
+   },
+   {
+    "w": "brain.",
+    "s": 4.54,
+    "e": 4.84
+   }
+  ],
+  "heard": "And over ninety percent of the students said it barely bothered them. It's just a very eager brain.",
+  "match": 1.0
+ },
+ {
+  "id": "J01",
+  "chapter": 6,
+  "text": "And the strangest glitch of all. You walk into a place you've never been... and you're sure you've been here before.",
+  "dur": 6.5,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.0,
+    "e": 0.32
+   },
+   {
+    "w": "the",
+    "s": 0.32,
+    "e": 0.46
+   },
+   {
+    "w": "strangest",
+    "s": 0.46,
+    "e": 1.14
+   },
+   {
+    "w": "glitch",
+    "s": 1.14,
+    "e": 1.34
+   },
+   {
+    "w": "of",
+    "s": 1.34,
+    "e": 1.5
+   },
+   {
+    "w": "all.",
+    "s": 1.5,
+    "e": 1.72
+   },
+   {
+    "w": "You",
+    "s": 2.1,
+    "e": 2.3
+   },
+   {
+    "w": "walk",
+    "s": 2.3,
+    "e": 2.46
+   },
+   {
+    "w": "into",
+    "s": 2.46,
+    "e": 2.68
+   },
+   {
+    "w": "a",
+    "s": 2.68,
+    "e": 2.82
+   },
+   {
+    "w": "place",
+    "s": 2.82,
+    "e": 3.04
+   },
+   {
+    "w": "you've",
+    "s": 3.04,
+    "e": 3.32
+   },
+   {
+    "w": "never",
+    "s": 3.32,
+    "e": 3.64
+   },
+   {
+    "w": "been...",
+    "s": 3.64,
+    "e": 4.42
+   },
+   {
+    "w": "and",
+    "s": 4.42,
+    "e": 4.54
+   },
+   {
+    "w": "you're",
+    "s": 4.54,
+    "e": 4.96
+   },
+   {
+    "w": "sure",
+    "s": 4.96,
+    "e": 5.18
+   },
+   {
+    "w": "you've",
+    "s": 5.18,
+    "e": 5.6
+   },
+   {
+    "w": "been",
+    "s": 5.6,
+    "e": 5.78
+   },
+   {
+    "w": "here",
+    "s": 5.78,
+    "e": 5.94
+   },
+   {
+    "w": "before.",
+    "s": 5.94,
+    "e": 6.3
+   }
+  ],
+  "heard": "And the strangest glitch of all? You walk into a place you've never been... and you're sure you've been here before.",
+  "match": 1.0
+ },
+ {
+  "id": "J02",
+  "chapter": 6,
+  "text": "That's d\u00e9j\u00e0 vu, and surveys suggest more than half of all people have felt it.",
+  "dur": 3.96,
+  "words": [
+   {
+    "w": "That's",
+    "s": 0.03,
+    "e": 0.37
+   },
+   {
+    "w": "d\u00e9j\u00e0",
+    "s": 0.37,
+    "e": 0.55
+   },
+   {
+    "w": "vu,",
+    "s": 0.55,
+    "e": 0.71
+   },
+   {
+    "w": "and",
+    "s": 0.95,
+    "e": 1.17
+   },
+   {
+    "w": "surveys",
+    "s": 1.17,
+    "e": 1.45
+   },
+   {
+    "w": "suggest",
+    "s": 1.45,
+    "e": 1.81
+   },
+   {
+    "w": "more",
+    "s": 1.81,
+    "e": 2.09
+   },
+   {
+    "w": "than",
+    "s": 2.09,
+    "e": 2.25
+   },
+   {
+    "w": "half",
+    "s": 2.25,
+    "e": 2.53
+   },
+   {
+    "w": "of",
+    "s": 2.53,
+    "e": 2.73
+   },
+   {
+    "w": "all",
+    "s": 2.73,
+    "e": 3.03
+   },
+   {
+    "w": "people",
+    "s": 3.03,
+    "e": 3.23
+   },
+   {
+    "w": "have",
+    "s": 3.23,
+    "e": 3.41
+   },
+   {
+    "w": "felt",
+    "s": 3.41,
+    "e": 3.59
+   },
+   {
+    "w": "it.",
+    "s": 3.59,
+    "e": 3.83
+   }
+  ],
+  "heard": "That's d\u00e9j\u00e0 vu, and surveys suggest more than half of all people have felt it.",
+  "match": 1.0
+ },
+ {
+  "id": "J03",
+  "chapter": 6,
+  "text": "In 2012, psychologist Anne Cleary, at Colorado State University, sent volunteers into a virtual town built in a life-simulation game.",
+  "dur": 8.02,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.04,
+    "e": 0.18
+   },
+   {
+    "w": "2012,",
+    "s": 0.18,
+    "e": 0.64
+   },
+   {
+    "w": "psychologist",
+    "s": 1.08,
+    "e": 1.5
+   },
+   {
+    "w": "Anne",
+    "s": 1.5,
+    "e": 1.88
+   },
+   {
+    "w": "Cleary,",
+    "s": 1.88,
+    "e": 2.26
+   },
+   {
+    "w": "at",
+    "s": 2.42,
+    "e": 2.52
+   },
+   {
+    "w": "Colorado",
+    "s": 2.52,
+    "e": 2.86
+   },
+   {
+    "w": "State",
+    "s": 2.86,
+    "e": 3.14
+   },
+   {
+    "w": "University,",
+    "s": 3.14,
+    "e": 3.74
+   },
+   {
+    "w": "sent",
+    "s": 4.06,
+    "e": 4.18
+   },
+   {
+    "w": "volunteers",
+    "s": 4.18,
+    "e": 4.74
+   },
+   {
+    "w": "into",
+    "s": 4.74,
+    "e": 5.08
+   },
+   {
+    "w": "a",
+    "s": 5.08,
+    "e": 5.26
+   },
+   {
+    "w": "virtual",
+    "s": 5.26,
+    "e": 5.58
+   },
+   {
+    "w": "town",
+    "s": 5.58,
+    "e": 6.02
+   },
+   {
+    "w": "built",
+    "s": 6.02,
+    "e": 6.32
+   },
+   {
+    "w": "in",
+    "s": 6.32,
+    "e": 6.52
+   },
+   {
+    "w": "a",
+    "s": 6.52,
+    "e": 6.62
+   },
+   {
+    "w": "life-simulation",
+    "s": 6.62,
+    "e": 7.48
+   },
+   {
+    "w": "game.",
+    "s": 7.48,
+    "e": 7.84
+   }
+  ],
+  "heard": "In 2012, psychologist Anne Cleary, at Colorado State University, sent volunteers into a virtual town built in a life -simulation game.",
+  "match": 0.927
+ },
+ {
+  "id": "J04",
+  "chapter": 6,
+  "text": "Some new scenes had the same layout as scenes they had seen before, but with different things inside. A new room, in an old room's shape.",
+  "dur": 7.46,
+  "words": [
+   {
+    "w": "Some",
+    "s": 0.05,
+    "e": 0.23
+   },
+   {
+    "w": "new",
+    "s": 0.23,
+    "e": 0.43
+   },
+   {
+    "w": "scenes",
+    "s": 0.43,
+    "e": 0.77
+   },
+   {
+    "w": "had",
+    "s": 0.77,
+    "e": 1.01
+   },
+   {
+    "w": "the",
+    "s": 1.01,
+    "e": 1.17
+   },
+   {
+    "w": "same",
+    "s": 1.17,
+    "e": 1.35
+   },
+   {
+    "w": "layout",
+    "s": 1.35,
+    "e": 1.65
+   },
+   {
+    "w": "as",
+    "s": 1.65,
+    "e": 1.91
+   },
+   {
+    "w": "scenes",
+    "s": 1.91,
+    "e": 2.15
+   },
+   {
+    "w": "they",
+    "s": 2.15,
+    "e": 2.33
+   },
+   {
+    "w": "had",
+    "s": 2.33,
+    "e": 2.43
+   },
+   {
+    "w": "seen",
+    "s": 2.43,
+    "e": 2.63
+   },
+   {
+    "w": "before,",
+    "s": 2.63,
+    "e": 3.09
+   },
+   {
+    "w": "but",
+    "s": 3.51,
+    "e": 3.73
+   },
+   {
+    "w": "with",
+    "s": 3.73,
+    "e": 3.87
+   },
+   {
+    "w": "different",
+    "s": 3.87,
+    "e": 4.11
+   },
+   {
+    "w": "things",
+    "s": 4.11,
+    "e": 4.35
+   },
+   {
+    "w": "inside.",
+    "s": 4.35,
+    "e": 4.79
+   },
+   {
+    "w": "A",
+    "s": 5.23,
+    "e": 5.45
+   },
+   {
+    "w": "new",
+    "s": 5.45,
+    "e": 5.65
+   },
+   {
+    "w": "room,",
+    "s": 5.65,
+    "e": 5.91
+   },
+   {
+    "w": "in",
+    "s": 6.01,
+    "e": 6.19
+   },
+   {
+    "w": "an",
+    "s": 6.19,
+    "e": 6.31
+   },
+   {
+    "w": "old",
+    "s": 6.31,
+    "e": 6.61
+   },
+   {
+    "w": "room's",
+    "s": 6.61,
+    "e": 6.97
+   },
+   {
+    "w": "shape.",
+    "s": 6.97,
+    "e": 7.21
+   }
+  ],
+  "heard": "Some new scenes had the same layout as scenes they had seen before, but with different things inside. A new room, in an old room's shape.",
+  "match": 1.0
+ },
+ {
+  "id": "J05",
+  "chapter": 6,
+  "text": "Those were the scenes that set off d\u00e9j\u00e0 vu, even when people couldn't remember the first room at all.",
+  "dur": 4.97,
+  "words": [
+   {
+    "w": "Those",
+    "s": 0.03,
+    "e": 0.47
+   },
+   {
+    "w": "were",
+    "s": 0.47,
+    "e": 0.83
+   },
+   {
+    "w": "the",
+    "s": 0.83,
+    "e": 0.95
+   },
+   {
+    "w": "scenes",
+    "s": 0.95,
+    "e": 1.15
+   },
+   {
+    "w": "that",
+    "s": 1.15,
+    "e": 1.35
+   },
+   {
+    "w": "set",
+    "s": 1.35,
+    "e": 1.57
+   },
+   {
+    "w": "off",
+    "s": 1.57,
+    "e": 1.73
+   },
+   {
+    "w": "d\u00e9j\u00e0",
+    "s": 1.73,
+    "e": 2.01
+   },
+   {
+    "w": "vu,",
+    "s": 2.01,
+    "e": 2.19
+   },
+   {
+    "w": "even",
+    "s": 2.63,
+    "e": 2.83
+   },
+   {
+    "w": "when",
+    "s": 2.83,
+    "e": 3.03
+   },
+   {
+    "w": "people",
+    "s": 3.03,
+    "e": 3.21
+   },
+   {
+    "w": "couldn't",
+    "s": 3.21,
+    "e": 3.55
+   },
+   {
+    "w": "remember",
+    "s": 3.55,
+    "e": 3.87
+   },
+   {
+    "w": "the",
+    "s": 3.87,
+    "e": 4.03
+   },
+   {
+    "w": "first",
+    "s": 4.03,
+    "e": 4.21
+   },
+   {
+    "w": "room",
+    "s": 4.21,
+    "e": 4.45
+   },
+   {
+    "w": "at",
+    "s": 4.45,
+    "e": 4.55
+   },
+   {
+    "w": "all.",
+    "s": 4.55,
+    "e": 4.81
+   }
+  ],
+  "heard": "Those were the scenes that set off d\u00e9j\u00e0 vu, even when people couldn't remember the first room at all.",
+  "match": 1.0
+ },
+ {
+  "id": "J06",
+  "chapter": 6,
+  "text": "Then in 2016, a team at the University of St Andrews in Scotland caught d\u00e9j\u00e0 vu inside a brain scanner.",
+  "dur": 6.06,
+  "words": [
+   {
+    "w": "Then",
+    "s": 0.1,
+    "e": 0.26
+   },
+   {
+    "w": "in",
+    "s": 0.34,
+    "e": 0.48
+   },
+   {
+    "w": "2016,",
+    "s": 0.48,
+    "e": 0.98
+   },
+   {
+    "w": "a",
+    "s": 1.4,
+    "e": 1.52
+   },
+   {
+    "w": "team",
+    "s": 1.52,
+    "e": 1.68
+   },
+   {
+    "w": "at",
+    "s": 1.68,
+    "e": 1.86
+   },
+   {
+    "w": "the",
+    "s": 1.86,
+    "e": 1.94
+   },
+   {
+    "w": "University",
+    "s": 1.94,
+    "e": 2.26
+   },
+   {
+    "w": "of",
+    "s": 2.26,
+    "e": 2.52
+   },
+   {
+    "w": "St",
+    "s": 2.52,
+    "e": 2.68
+   },
+   {
+    "w": "Andrews",
+    "s": 2.68,
+    "e": 3.04
+   },
+   {
+    "w": "in",
+    "s": 3.04,
+    "e": 3.24
+   },
+   {
+    "w": "Scotland",
+    "s": 3.24,
+    "e": 3.62
+   },
+   {
+    "w": "caught",
+    "s": 3.62,
+    "e": 4.06
+   },
+   {
+    "w": "d\u00e9j\u00e0",
+    "s": 4.06,
+    "e": 4.46
+   },
+   {
+    "w": "vu",
+    "s": 4.46,
+    "e": 4.64
+   },
+   {
+    "w": "inside",
+    "s": 4.64,
+    "e": 4.94
+   },
+   {
+    "w": "a",
+    "s": 4.94,
+    "e": 5.14
+   },
+   {
+    "w": "brain",
+    "s": 5.14,
+    "e": 5.42
+   },
+   {
+    "w": "scanner.",
+    "s": 5.42,
+    "e": 5.9
+   }
+  ],
+  "heard": "Then, in 2016, a team at the University of St Andrews in Scotland caught d\u00e9j\u00e0 vu inside a brain scanner.",
+  "match": 1.0
+ },
+ {
+  "id": "J07",
+  "chapter": 6,
+  "text": "The busy areas weren't the memory stores. They were at the front of the brain, in the parts that check memories for mistakes.",
+  "dur": 5.72,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.04,
+    "e": 0.22
+   },
+   {
+    "w": "busy",
+    "s": 0.22,
+    "e": 0.44
+   },
+   {
+    "w": "areas",
+    "s": 0.44,
+    "e": 0.82
+   },
+   {
+    "w": "weren't",
+    "s": 0.82,
+    "e": 1.12
+   },
+   {
+    "w": "the",
+    "s": 1.12,
+    "e": 1.28
+   },
+   {
+    "w": "memory",
+    "s": 1.28,
+    "e": 1.52
+   },
+   {
+    "w": "stores.",
+    "s": 1.52,
+    "e": 1.8
+   },
+   {
+    "w": "They",
+    "s": 2.12,
+    "e": 2.24
+   },
+   {
+    "w": "were",
+    "s": 2.24,
+    "e": 2.34
+   },
+   {
+    "w": "at",
+    "s": 2.34,
+    "e": 2.46
+   },
+   {
+    "w": "the",
+    "s": 2.46,
+    "e": 2.6
+   },
+   {
+    "w": "front",
+    "s": 2.6,
+    "e": 2.82
+   },
+   {
+    "w": "of",
+    "s": 2.82,
+    "e": 2.98
+   },
+   {
+    "w": "the",
+    "s": 2.98,
+    "e": 3.08
+   },
+   {
+    "w": "brain,",
+    "s": 3.08,
+    "e": 3.3
+   },
+   {
+    "w": "in",
+    "s": 3.52,
+    "e": 3.68
+   },
+   {
+    "w": "the",
+    "s": 3.68,
+    "e": 3.76
+   },
+   {
+    "w": "parts",
+    "s": 3.76,
+    "e": 3.92
+   },
+   {
+    "w": "that",
+    "s": 3.92,
+    "e": 4.12
+   },
+   {
+    "w": "check",
+    "s": 4.12,
+    "e": 4.36
+   },
+   {
+    "w": "memories",
+    "s": 4.36,
+    "e": 4.74
+   },
+   {
+    "w": "for",
+    "s": 4.74,
+    "e": 5.0
+   },
+   {
+    "w": "mistakes.",
+    "s": 5.0,
+    "e": 5.34
+   }
+  ],
+  "heard": "The busy areas weren't the memory stores. They were at the front of the brain, in the parts that check memories for mistakes.",
+  "match": 1.0
+ },
+ {
+  "id": "J08",
+  "chapter": 6,
+  "text": "So d\u00e9j\u00e0 vu may be your brain catching a false alarm: this feels familiar... but wait, it isn't.",
+  "dur": 5.98,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.09,
+    "e": 0.21
+   },
+   {
+    "w": "d\u00e9j\u00e0",
+    "s": 0.21,
+    "e": 0.59
+   },
+   {
+    "w": "vu",
+    "s": 0.59,
+    "e": 0.81
+   },
+   {
+    "w": "may",
+    "s": 0.81,
+    "e": 0.99
+   },
+   {
+    "w": "be",
+    "s": 0.99,
+    "e": 1.13
+   },
+   {
+    "w": "your",
+    "s": 1.13,
+    "e": 1.31
+   },
+   {
+    "w": "brain",
+    "s": 1.31,
+    "e": 1.57
+   },
+   {
+    "w": "catching",
+    "s": 1.57,
+    "e": 1.87
+   },
+   {
+    "w": "a",
+    "s": 1.87,
+    "e": 2.13
+   },
+   {
+    "w": "false",
+    "s": 2.13,
+    "e": 2.29
+   },
+   {
+    "w": "alarm:",
+    "s": 2.29,
+    "e": 2.67
+   },
+   {
+    "w": "this",
+    "s": 3.17,
+    "e": 3.37
+   },
+   {
+    "w": "feels",
+    "s": 3.37,
+    "e": 3.69
+   },
+   {
+    "w": "familiar...",
+    "s": 3.69,
+    "e": 4.77
+   },
+   {
+    "w": "but",
+    "s": 4.77,
+    "e": 4.95
+   },
+   {
+    "w": "wait,",
+    "s": 4.95,
+    "e": 5.13
+   },
+   {
+    "w": "it",
+    "s": 5.45,
+    "e": 5.55
+   },
+   {
+    "w": "isn't.",
+    "s": 5.55,
+    "e": 5.85
+   }
+  ],
+  "heard": "So d\u00e9j\u00e0 vu may be your brain catching a false alarm. This feels familiar... but wait, it isn't.",
+  "match": 1.0
+ },
+ {
+  "id": "J09",
+  "chapter": 6,
+  "text": "Some scientists think that's a good sign: a memory that double-checks itself.",
+  "dur": 3.42,
+  "words": [
+   {
+    "w": "Some",
+    "s": 0.04,
+    "e": 0.22
+   },
+   {
+    "w": "scientists",
+    "s": 0.22,
+    "e": 0.56
+   },
+   {
+    "w": "think",
+    "s": 0.56,
+    "e": 0.8
+   },
+   {
+    "w": "that's",
+    "s": 0.8,
+    "e": 1.02
+   },
+   {
+    "w": "a",
+    "s": 1.02,
+    "e": 1.08
+   },
+   {
+    "w": "good",
+    "s": 1.08,
+    "e": 1.18
+   },
+   {
+    "w": "sign:",
+    "s": 1.18,
+    "e": 1.44
+   },
+   {
+    "w": "a",
+    "s": 1.82,
+    "e": 1.9
+   },
+   {
+    "w": "memory",
+    "s": 1.9,
+    "e": 2.1
+   },
+   {
+    "w": "that",
+    "s": 2.1,
+    "e": 2.42
+   },
+   {
+    "w": "double-checks",
+    "s": 2.42,
+    "e": 2.9
+   },
+   {
+    "w": "itself.",
+    "s": 2.9,
+    "e": 3.24
+   }
+  ],
+  "heard": "Some scientists think that's a good sign. A memory that double -checks itself.",
+  "match": 0.88
+ },
+ {
+  "id": "E01",
+  "chapter": 7,
+  "text": "So: the doorway, the stuck song, the missing word, your name in the noise, the face in the socket, the phantom buzz, and d\u00e9j\u00e0 vu.",
+  "dur": 7.83,
+  "words": [
+   {
+    "w": "So:",
+    "s": 0.08,
+    "e": 0.52
+   },
+   {
+    "w": "the",
+    "s": 0.52,
+    "e": 0.52
+   },
+   {
+    "w": "doorway,",
+    "s": 0.52,
+    "e": 0.82
+   },
+   {
+    "w": "the",
+    "s": 1.3,
+    "e": 1.38
+   },
+   {
+    "w": "stuck",
+    "s": 1.38,
+    "e": 1.54
+   },
+   {
+    "w": "song,",
+    "s": 1.54,
+    "e": 1.84
+   },
+   {
+    "w": "the",
+    "s": 2.24,
+    "e": 2.34
+   },
+   {
+    "w": "missing",
+    "s": 2.34,
+    "e": 2.52
+   },
+   {
+    "w": "word,",
+    "s": 2.52,
+    "e": 2.84
+   },
+   {
+    "w": "your",
+    "s": 3.28,
+    "e": 3.42
+   },
+   {
+    "w": "name",
+    "s": 3.42,
+    "e": 3.6
+   },
+   {
+    "w": "in",
+    "s": 3.6,
+    "e": 3.8
+   },
+   {
+    "w": "the",
+    "s": 3.8,
+    "e": 3.92
+   },
+   {
+    "w": "noise,",
+    "s": 3.92,
+    "e": 4.26
+   },
+   {
+    "w": "the",
+    "s": 4.6,
+    "e": 4.68
+   },
+   {
+    "w": "face",
+    "s": 4.68,
+    "e": 4.88
+   },
+   {
+    "w": "in",
+    "s": 4.88,
+    "e": 5.08
+   },
+   {
+    "w": "the",
+    "s": 5.08,
+    "e": 5.18
+   },
+   {
+    "w": "socket,",
+    "s": 5.18,
+    "e": 5.48
+   },
+   {
+    "w": "the",
+    "s": 5.82,
+    "e": 5.9
+   },
+   {
+    "w": "phantom",
+    "s": 5.9,
+    "e": 6.22
+   },
+   {
+    "w": "buzz,",
+    "s": 6.22,
+    "e": 6.52
+   },
+   {
+    "w": "and",
+    "s": 6.98,
+    "e": 7.08
+   },
+   {
+    "w": "d\u00e9j\u00e0",
+    "s": 7.08,
+    "e": 7.42
+   },
+   {
+    "w": "vu.",
+    "s": 7.42,
+    "e": 7.68
+   }
+  ],
+  "heard": "So... the doorway, the stuck song, the missing word, your name in the noise, the face in the socket, the phantom buzz, and d\u00e9j\u00e0 vu.",
+  "match": 1.0
+ },
+ {
+  "id": "E02",
+  "chapter": 7,
+  "text": "They feel like your brain is broken. But each one is a shortcut that usually helps you, caught working a little too hard.",
+  "dur": 6.68,
+  "words": [
+   {
+    "w": "They",
+    "s": 0.03,
+    "e": 0.27
+   },
+   {
+    "w": "feel",
+    "s": 0.27,
+    "e": 0.45
+   },
+   {
+    "w": "like",
+    "s": 0.45,
+    "e": 0.61
+   },
+   {
+    "w": "your",
+    "s": 0.61,
+    "e": 0.73
+   },
+   {
+    "w": "brain",
+    "s": 0.73,
+    "e": 0.89
+   },
+   {
+    "w": "is",
+    "s": 0.89,
+    "e": 1.03
+   },
+   {
+    "w": "broken.",
+    "s": 1.03,
+    "e": 1.25
+   },
+   {
+    "w": "But",
+    "s": 1.77,
+    "e": 1.93
+   },
+   {
+    "w": "each",
+    "s": 1.93,
+    "e": 2.15
+   },
+   {
+    "w": "one",
+    "s": 2.15,
+    "e": 2.47
+   },
+   {
+    "w": "is",
+    "s": 2.47,
+    "e": 2.67
+   },
+   {
+    "w": "a",
+    "s": 2.67,
+    "e": 2.77
+   },
+   {
+    "w": "shortcut",
+    "s": 2.77,
+    "e": 3.21
+   },
+   {
+    "w": "that",
+    "s": 3.21,
+    "e": 3.65
+   },
+   {
+    "w": "usually",
+    "s": 3.65,
+    "e": 3.93
+   },
+   {
+    "w": "helps",
+    "s": 3.93,
+    "e": 4.37
+   },
+   {
+    "w": "you,",
+    "s": 4.37,
+    "e": 4.65
+   },
+   {
+    "w": "caught",
+    "s": 5.23,
+    "e": 5.53
+   },
+   {
+    "w": "working",
+    "s": 5.53,
+    "e": 5.87
+   },
+   {
+    "w": "a",
+    "s": 5.87,
+    "e": 5.97
+   },
+   {
+    "w": "little",
+    "s": 5.97,
+    "e": 6.07
+   },
+   {
+    "w": "too",
+    "s": 6.07,
+    "e": 6.25
+   },
+   {
+    "w": "hard.",
+    "s": 6.25,
+    "e": 6.55
+   }
+  ],
+  "heard": "They feel like your brain is broken. But each one is a shortcut that usually helps you, caught working a little too hard.",
+  "match": 1.0
+ },
+ {
+  "id": "E03",
+  "chapter": 7,
+  "text": "Which glitch happens to you the most? Tell us in the comments.",
+  "dur": 3.04,
+  "words": [
+   {
+    "w": "Which",
+    "s": 0.03,
+    "e": 0.25
+   },
+   {
+    "w": "glitch",
+    "s": 0.25,
+    "e": 0.49
+   },
+   {
+    "w": "happens",
+    "s": 0.49,
+    "e": 0.87
+   },
+   {
+    "w": "to",
+    "s": 0.87,
+    "e": 1.11
+   },
+   {
+    "w": "you",
+    "s": 1.11,
+    "e": 1.31
+   },
+   {
+    "w": "the",
+    "s": 1.31,
+    "e": 1.43
+   },
+   {
+    "w": "most?",
+    "s": 1.43,
+    "e": 1.69
+   },
+   {
+    "w": "Tell",
+    "s": 2.11,
+    "e": 2.21
+   },
+   {
+    "w": "us",
+    "s": 2.21,
+    "e": 2.33
+   },
+   {
+    "w": "in",
+    "s": 2.33,
+    "e": 2.43
+   },
+   {
+    "w": "the",
+    "s": 2.43,
+    "e": 2.51
+   },
+   {
+    "w": "comments.",
+    "s": 2.51,
+    "e": 2.73
+   }
+  ],
+  "heard": "Which glitch happens to you the most? Tell us in the comments.",
+  "match": 1.0
+ },
+ {
+  "id": "E04",
+  "chapter": 7,
+  "text": "Now... what did you come here for again?",
+  "dur": 2.22,
+  "words": [
+   {
+    "w": "Now...",
+    "s": 0.6,
+    "e": 1.04
+   },
+   {
+    "w": "what",
+    "s": 1.04,
+    "e": 1.1
+   },
+   {
+    "w": "did",
+    "s": 1.1,
+    "e": 1.24
+   },
+   {
+    "w": "you",
+    "s": 1.24,
+    "e": 1.38
+   },
+   {
+    "w": "come",
+    "s": 1.38,
+    "e": 1.5
+   },
+   {
+    "w": "here",
+    "s": 1.5,
+    "e": 1.68
+   },
+   {
+    "w": "for",
+    "s": 1.68,
+    "e": 1.84
+   },
+   {
+    "w": "again?",
+    "s": 1.84,
+    "e": 2.04
+   }
+  ],
+  "heard": "Now... what did you come here for again?",
+  "match": 1.0
  }
 ]

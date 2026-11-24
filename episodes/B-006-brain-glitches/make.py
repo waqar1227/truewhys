@@ -640,7 +640,7 @@ def s_tune(g, c, jumps=False):
     studio(g, c.gt, "#FFC93C", "#C97B2A")
     staff(g, 260, 1660, 480, 40, "#22181B")
     n = 12
-    k = ease_io(seg(lt(c), 0.2, ld(c) * 0.8))
+    k = ease_io(seg(lt(c), 0.0, ld(c) * 0.6))
     for i in range(n):
         u = i / (n - 1)
         if u > k + 1e-3: break
@@ -970,7 +970,7 @@ def s_gallery(g, c):
         if k <= 0: continue
         with g.at(x, 560, 0.05 * math.sin(c.gt * 2 + x), k):
             fn()
-    label(g, "PAREIDOLIA", 960, 140, 110, PAL["yellow"], k=pop(c.t, 0.5, 0.3))
+    label(g, "PAREIDOLIA", 960, 140, 110, PAL["yellow"], k=pk(c, "called"))
 
 
 def s_meg(g, c):
@@ -1046,7 +1046,7 @@ def s_detector(g, c):
         g.rc(0, 270, 300, 80, "#9AA3AD", INK, lw=8, r=20)
         g.text("FACE? NO", 0, 276, 40, INK, stroke=None)
         cross(g, 160, -230, 50, pk(c, "misses"))
-    label(g, "BETTER SAFE", 960, 130, 100, INK, k=pk(c, "safer"))
+    label(g, "BETTER SAFE", 960, 130, 100, "#FFFFFF", k=pk(c, "safer"))
 
 
 # ------------------------------------------------------------------ ch5 phantom buzz
@@ -1151,7 +1151,7 @@ def s_hours(g, c):
         g.rect(-500, -300, 1000, 600, "#FFFDF6", INK, lw=10, r=20)
         for i in range(4):
             hh = 80 + i * 90
-            kk = ease_out(seg(c.t, 0.3 + i * 0.25, 0.5))
+            kk = ease_out(seg(lt(c), 0.3 + i * 0.25, 0.5))
             g.rect(-380 + i * 220, 220 - hh * kk, 140, hh * kk, (PAL["mint"], PAL["yellow"], PAL["coral"], "#C0504D")[i], INK, lw=6)
             if kk >= 1:
                 buzz(g, -310 + i * 220, 200 - hh - 30, 30 + i * 4, c.gt, 0.4 + 0.2 * i)
@@ -1176,7 +1176,7 @@ def s_calm(g, c):
 # ------------------------------------------------------------------ ch6 deja vu
 def s_deja_walk(g, c):
     street_town(g, c.gt, tint=on(c, "sure"), ghost=on(c, "sure"))
-    k = ease_out(seg(c.t, 0.0, 2.2))
+    k = ease_out(seg(lt(c), 0.0, 2.2))
     x = lerp(260, 900, k)
     walker(g, "mira", x, FL + 40, 760, c.gt, "curious" if c.t < tw(c, "sure") else "shocked", moving=k < 1, flip=False)
     if c.t > tw(c, "before") - 0.2:
@@ -1252,7 +1252,7 @@ def s_set_off(g, c):
 
 def s_standrews(g, c):
     scanner_room(g, c.gt)
-    mri(g, 900, 560, 1.0, slide=ease_io(seg(c.t, 0.3, 1.6)), glow=on(c, "scanner"))
+    mri(g, 900, 560, 1.0, slide=ease_io(seg(lt(c), 0.3, 1.6)), glow=on(c, "scanner"))
     char2(g, "physicist", 1550, FL + 40, 760, "curious", "hold", "point", t=c.gt, flip=True)
     tag(g, "2016 · ST ANDREWS, SCOTLAND", 700, 120, k=pk(c, "2016"))
 
@@ -1301,7 +1301,7 @@ def s_recap(g, c):
         x, y = ((330 + i * 420, 330) if i < 4 else (540 + (i - 4) * 420, 760))
         k = back_out(seg(c.t, tw(c, wd, n=(1 if wd == "and" else 0)) - 0.2, 0.35), 1.7)
         if k <= 0: continue
-        with g.at(x, y, 0.05 * math.sin(c.gt * 2 + x), k * 0.85):
+        with g.at(x, y, 0.05 * math.sin(c.gt * 2 + x), k * 1.3):
             fn(g, c)
 
 
@@ -1316,7 +1316,7 @@ def s_shortcuts(g, c):
         label(g, "BROKEN?", 1400, 400, 100, "#FF6B5B", k=pk(c, "broken"))
     else:
         arrow(g, 1150, 700, 1650, 360, PAL["coral"], 26, k=on(c, "shortcut"))
-        label(g, "SHORTCUTS", 1400, 220, 100, INK, k=pk(c, "shortcut"))
+        label(g, "SHORTCUTS", 1400, 220, 100, PAL["cream"], k=pk(c, "shortcut"))
         label(g, "WORKING TOO HARD", 1300, 900, 70, PAL["cream"], k=pk(c, "hard"))
 
 
@@ -1392,8 +1392,8 @@ P("W02", s_earworm, (0, "In"), cam=Z(1.0, 1.05, (960, 560)), sfx=[("earworm", "b
 P("W02", s_finland, ("In", "more"), cam=Z(1.0, 1.04, (800, 560)), music="curious")
 P("W02", s_finland, ("more", 1), cam=Z(1.12, 1.18, (1400, 600)), sfx=[("ninety", "ding", 0.4)])
 P("W03", s_london, cam=Z(1.0, 1.05, (1100, 560)), music="story", sfx=[("thousand", "pop", 0.35)])
-P("W04", s_tune, (0, "and"), cam=Z(1.1, 1.14, (1300, 600)), sfx=[("fast", "click", 0.35)])
-P("W04", s_tune, ("and", 1), cam=Z(1.0, 1.03, (960, 560)), sfx=[("climbs", "shimmer", 0.35)])
+P("W04", s_tune, (0, "and"), cam=Z(1.0, 1.04, (960, 560)), sfx=[("fast", "click", 0.35)])
+P("W04", s_tune, ("and", 1), cam=Z(1.1, 1.14, (960, 440)), sfx=[("climbs", "shimmer", 0.35)])
 P("W05", lambda g, c: s_tune(g, c, True), cam=Z(1.05, 1.1, (960, 520)), sfx=[("jumps", "boing", 0.4)])
 P("W06", s_gum, (0, "chewing"), cam=Z(1.0, 1.04, (900, 560)), music="curious", sfx=[("fix", "sting", 0.35)])
 P("W06", s_gum, ("chewing", 1), cam=Z(1.2, 1.26, (1320, 560)), sfx=[("third", "ding", 0.4)])
@@ -1417,60 +1417,104 @@ V.pause["T08"] = 0.9
 P("T09", lambda g, c: s_aglet(g, c, True), cam=Z(1.05, 1.0, (960, 560)), sfx=[(0.05, "chime", 0.45)])
 V.pause["T09"] = CH_PAUSE
 # your name (ch3)
-P("N01", s_party, tr="flash", cam=Z(1.0, 1.06, (960, 560)), music="warm", sfx=[(0.2, "whoosh", 0.4)])
-P("N02", lambda g, c: s_party(g, c, True), (0, "And"), cam=Z(1.06, 1.1, (1000, 560)), sfx=[("name", "sting", 0.4)])
-P("N02", s_turn, ("And", 1), cam=Z(1.0, 1.04, (900, 560)), sfx=[("instantly", "whoosh_soft", 0.35)])
+P("N01", s_party, (0, "You're"), tr="flash", cam=Z(1.0, 1.06, (960, 560)), music="warm", sfx=[(0.2, "whoosh", 0.4)])
+P("N01", s_party, ("You're", 1), cam=Z(1.15, 1.2, (960, 450)))
+P("N02", s_party, (0, "someone"), cam=Z(1.0, 1.04, (960, 560)))
+P("N02", lambda g, c: s_party(g, c, True), ("someone", "And#1"), cam=Z(1.06, 1.1, (1000, 560)), sfx=[("name", "sting", 0.4)])
+P("N02", s_turn, ("And#1", "How"), cam=Z(1.0, 1.04, (900, 560)), sfx=[("instantly", "whoosh_soft", 0.35)])
+P("N02", lambda g, c: s_party(g, c, True), ("How", 1), cam=Z(1.2, 1.26, (500, 300)))
 P("N03", s_cherry, (0, "played"), cam=Z(1.0, 1.04, (960, 560)), music="story")
 P("N03", s_cherry, ("played", 1), cam=Z(1.1, 1.15, (960, 480)), sfx=[("repeat", "click", 0.35)])
-P("N04", s_other_ear, cam=Z(1.0, 1.04, (900, 560)), sfx=[("switched", "bloop", 0.35)])
-P("N05", s_moray, cam=Z(1.0, 1.05, (1100, 560)), music="curious", sfx=[("name", "ding", 0.4)])
-P("N06", s_third, cam=Z(1.0, 1.03, (960, 560)), sfx=[("third", "pop", 0.4), ("same", "chime", 0.4)])
+P("N04", s_other_ear, (0, "They"), cam=Z(1.0, 1.04, (900, 560)), sfx=[("switched", "bloop", 0.35)])
+P("N04", s_other_ear, ("They", 1), cam=Z(1.15, 1.2, (700, 480)))
+P("N05", s_moray, (0, "hid"), cam=Z(1.0, 1.05, (1100, 560)), music="curious", sfx=[("name", "ding", 0.4)])
+P("N05", s_moray, ("hid", 1), cam=Z(1.15, 1.2, (1300, 560)))
+P("N06", s_third, (0, "When"), cam=Z(1.0, 1.03, (960, 560)), sfx=[("third", "pop", 0.4), ("same", "chime", 0.4)])
+P("N06", s_third, ("When", 1), cam=Z(1.1, 1.14, (960, 700)))
 P("N07", s_filter, (0, "It's"), cam=Z(1.0, 1.04, (960, 560)), music="warm")
 P("N07", s_filter, ("It's", 1), cam=Z(1.12, 1.18, (960, 520)), sfx=[("matters", "shimmer", 0.35)])
 P("N08", s_name_end, cam=Z(1.0, 1.06, (1100, 560)), sfx=[("name", "pop", 0.4)])
 V.pause["N08"] = CH_PAUSE
 # faces (ch4)
 P("F01", s_socket, tr="flash", cam=Z(1.0, 1.12, (960, 560)), music="playful", sfx=[(0.2, "whoosh", 0.4), ("face", "sting", 0.4)])
-P("F02", s_gallery, cam=Z(1.0, 1.04, (960, 560)), sfx=[("clouds", "pop", 0.35), ("car", "pop", 0.35), ("pizza", "pop", 0.35)])
-P("F03", s_meg, cam=Z(1.0, 1.05, (1000, 560)), music="story", sfx=[("recorded", "shimmer", 0.35)])
-P("F04", s_sixth, (0, "Plain"), cam=Z(1.0, 1.04, (960, 560)), sfx=[("fired", "ding", 0.4)])
+P("F02", s_gallery, (0, "clouds"), cam=Z(1.0, 1.04, (960, 560)), sfx=[("clouds", "pop", 0.35), ("car", "pop", 0.35), ("pizza", "pop", 0.35)])
+P("F02", s_gallery, ("clouds", 1), cam=Z(1.0, 1.03, (960, 600)))
+P("F03", s_meg, (0, "recorded"), cam=Z(1.0, 1.05, (1000, 560)), music="story", sfx=[("recorded", "shimmer", 0.35)])
+P("F03", s_meg, ("recorded", 1), cam=Z(1.2, 1.26, (700, 360)))
+P("F04", s_sixth, (0, "almost"), cam=Z(1.15, 1.2, (520, 520)))
+P("F04", s_sixth, ("almost", "Plain"), cam=Z(1.0, 1.04, (960, 560)), sfx=[("fired", "ding", 0.4)])
 P("F04", s_sixth, ("Plain", 1), cam=Z(1.2, 1.26, (1260, 660)), sfx=[("Plain", "bloop", 0.35)])
 P("F05", s_before_think, cam=Z(1.0, 1.06, (960, 560)), music="tension", sfx=[("spotted", "sting", 0.4)])
-P("F06", s_nimh, cam=Z(1.0, 1.04, (1100, 560)), music="story")
-P("F07", s_files, cam=Z(1.0, 1.04, (960, 560)), music="curious", sfx=[("files", "whoosh_soft", 0.4)])
-P("F08", s_detector, cam=Z(1.0, 1.04, (960, 560)), sfx=[("eager", "ding", 0.35), ("misses", "bloop", 0.35)])
+P("F06", s_nimh, (0, "watched"), cam=Z(1.0, 1.04, (1100, 560)), music="story")
+P("F06", s_nimh, ("watched", 1), cam=Z(1.2, 1.26, (1250, 480)))
+P("F07", s_files, (0, "Then"), cam=Z(1.0, 1.04, (960, 560)), music="curious", sfx=[("files", "whoosh_soft", 0.4)])
+P("F07", s_files, ("Then", 1), cam=Z(1.12, 1.18, (1300, 560)))
+P("F08", s_detector, (0, "is"), cam=Z(1.0, 1.04, (960, 560)), sfx=[("eager", "ding", 0.35), ("misses", "bloop", 0.35)])
+P("F08", s_detector, ("is", 1), cam=Z(1.15, 1.2, (960, 300)))
 V.pause["F08"] = CH_PAUSE
 # phantom buzz (ch5)
 P("V01", s_buzz, (0, "You"), tr="flash", cam=Z(1.05, 1.1, (900, 600)), music="playful", sfx=[(0.3, "buzz", 0.45)])
 P("V01", lambda g, c: s_buzz(g, c, True), ("You", 1), cam=Z(1.0, 1.05, (1000, 560)), sfx=[("Nothing", "bloop", 0.4)])
 P("V02", s_majority, sfx=[("majority", "ding", 0.4)])
-P("V03", s_hospital, cam=Z(1.0, 1.04, (1000, 560)), music="story", sfx=[("sixty-eight", "pop", 0.4)])
+P("V03", s_hospital, (0, "found"), cam=Z(1.0, 1.04, (1000, 560)), music="story", sfx=[("sixty-eight", "pop", 0.4)])
+P("V03", s_hospital, ("found", 1), cam=Z(1.2, 1.26, (1380, 560)))
 P("V04", s_students, cam=Z(1.0, 1.04, (1000, 560)), sfx=[("eighty-nine", "sting", 0.4)])
 P("V05", s_waiting, cam=Z(1.0, 1.05, (960, 560)), music="curious")
 P("V06", s_twitch, cam=Z(1.0, 1.05, (960, 560)), music="tension", sfx=[("twitch", "click", 0.35), ("phone", "sting", 0.45)])
-P("V07", s_hours, cam=Z(1.0, 1.04, (1000, 560)), music="story", sfx=[("phantom", "pop", 0.35)])
-P("V08", s_calm, cam=Z(1.0, 1.05, (1000, 560)), music="warm", sfx=[("eager", "pop", 0.35)])
+P("V07", s_hours, (0, "or"), cam=Z(1.0, 1.04, (1000, 560)), music="story", sfx=[("phantom", "pop", 0.35)])
+P("V07", s_hours, ("or", 1), cam=Z(1.12, 1.18, (1000, 500)))
+P("V08", s_calm, (0, "It's"), cam=Z(1.0, 1.05, (1000, 560)), music="warm", sfx=[("eager", "pop", 0.35)])
+P("V08", s_calm, ("It's", 1), cam=Z(1.15, 1.22, (1350, 600)))
 V.pause["V08"] = CH_PAUSE
 # deja vu (ch6)
-P("J01", s_deja_walk, tr="flash", cam=Z(1.0, 1.06, (800, 560)), music="tension", sfx=[(0.2, "whoosh_soft", 0.4), ("sure", "shimmer", 0.4)])
+P("J01", s_deja_walk, (0, "and"), tr="flash", cam=Z(1.0, 1.06, (800, 560)), music="tension", sfx=[(0.2, "whoosh_soft", 0.4), ("sure", "shimmer", 0.4)])
+P("J01", s_deja_walk, ("and", "sure"), cam=Z(1.15, 1.22, (900, 420)))
+P("J01", s_deja_walk, ("sure", 1), cam=Z(1.0, 1.04, (1100, 500)))
 P("J02", s_deja_label, cam=Z(1.0, 1.04, (960, 560)), sfx=[("half", "ding", 0.4)])
 P("J03", s_cleary, (0, "sent"), cam=Z(1.0, 1.04, (960, 560)), music="story")
 P("J03", s_cleary, ("sent", 1), cam=Z(1.3, 1.38, (1300, 480)), sfx=[("virtual", "shimmer", 0.35)])
-P("J04", s_layout, cam=Z(1.0, 1.04, (960, 560)), music="curious", sfx=[("shape", "ding", 0.4)])
+P("J04", s_layout, (0, "A"), cam=Z(1.0, 1.04, (960, 560)), music="curious", sfx=[("shape", "ding", 0.4)])
+P("J04", s_layout, ("A", 1), cam=Z(1.15, 1.2, (960, 600)))
 P("J05", s_set_off, cam=Z(1.0, 1.05, (900, 560)), sfx=[(0.3, "shimmer", 0.4)])
-P("J06", s_standrews, cam=Z(1.0, 1.05, (1000, 560)), music="story", sfx=[("scanner", "whoosh_soft", 0.35)])
-P("J07", s_front, cam=Z(1.0, 1.06, (900, 520)), sfx=[("front", "shimmer", 0.4)])
-P("J08", s_false_alarm, cam=Z(1.0, 1.05, (1000, 560)), music="tension", sfx=[("wait", "drum_hit", 0.45)])
+P("J06", s_standrews, (0, "caught"), cam=Z(1.0, 1.05, (1000, 560)), music="story", sfx=[("scanner", "whoosh_soft", 0.35)])
+P("J06", s_standrews, ("caught", 1), cam=Z(1.2, 1.26, (900, 560)))
+P("J07", s_front, (0, "They"), cam=Z(1.0, 1.06, (900, 520)), sfx=[("front", "shimmer", 0.4)])
+P("J07", s_front, ("They", 1), cam=Z(1.2, 1.26, (700, 420)))
+P("J08", s_false_alarm, (0, "this"), cam=Z(1.0, 1.05, (1000, 560)), music="tension", sfx=[("wait", "drum_hit", 0.45)])
+P("J08", s_false_alarm, ("this", 1), cam=Z(1.15, 1.2, (1300, 520)))
 P("J09", s_good_sign, cam=Z(1.0, 1.05, (960, 560)), music="warm", sfx=[("good", "chime", 0.4)])
 V.pause["J09"] = CH_PAUSE
 # ending (ch7)
-P("E01", s_recap, (0, "phantom"), cam=Z(1.0, 1.03, (960, 560)), tr="flash", music="warm",
+P("E01", s_recap, (0, "name"), cam=Z(1.0, 1.02, (960, 400)), tr="flash", music="warm")
+P("E01", s_recap, ("name", "phantom"), cam=Z(1.0, 1.03, (960, 560)),
   sfx=[("doorway", "pop", 0.35), ("song", "pop", 0.35), ("word", "pop", 0.35), ("name", "pop", 0.35), ("face", "pop", 0.35)])
 P("E01", s_recap, ("phantom", 1), cam=Z(1.15, 1.2, (1500, 560)), sfx=[("buzz", "pop", 0.35)])
-P("E02", s_shortcuts, cam=Z(1.0, 1.04, (960, 560)), sfx=[("shortcut", "whoosh_soft", 0.35)])
+P("E02", s_shortcuts, (0, "But"), cam=Z(1.0, 1.04, (960, 560)), sfx=[("shortcut", "whoosh_soft", 0.35)])
+P("E02", s_shortcuts, ("But", 1), cam=Z(1.1, 1.15, (1300, 500)))
 P("E03", s_comments, cam=Z(1.0, 1.05, (960, 560)), sfx=[("comments", "pop", 0.4)])
 P("E04", s_loop, cam=Z(1.04, 1.1, (900, 560)), sfx=[(0.6, "bloop", 0.4)])
 V.build()
+
+
+def _fix_sfx():
+    """A word-anchored sound effect belongs to the split shot that contains its word (not clamped to the end of an earlier part)."""
+    for sh in V.shots:
+        keep = []
+        for e in sh["sfx"]:
+            off = e[0]
+            if isinstance(off, str):
+                wd, n = (off.split("#") + ["0"])[:2]
+                t = V.word_t(sh["line"], wd, int(n))
+                if not (sh["start"] - 0.05 <= t < sh["start"] + sh["dur"]):
+                    tgt = [x for x in V.shots if x["line"] == sh["line"] and x["start"] - 0.05 <= t < x["start"] + x["dur"]]
+                    if tgt:
+                        tgt[0]["sfx"] = tgt[0]["sfx"] + [e]
+                        continue
+            keep.append(e)
+        sh["sfx"] = keep
+
+
+_fix_sfx()
 
 END = 20.0
 V.shots.append(dict(id=f"{V.sid}_END", line=V.shots[-1]["line"], fn=s_endscreen, part=(0, 1), cam=lambda c: (W / 2, H / 2, 1.0, 0.0), sfx=[(0.0, "whoosh_soft", 0.4)],

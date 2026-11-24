@@ -88,12 +88,12 @@ def c1_hook(g, c):
     """Frame 1 = motion already happening: the phone buzzing in the pocket (sound hit at 0.0 s) + Mira's suspicious face."""
     office_v(g, c.gt)
     bz = 1.0 if (c.gt % 1.0) < 0.75 else 0.3
-    char2(g, "mira", 540, FL + 700, 1900, "suspicious", "down", "down", t=c.gt, view="front", prop=False)
-    with g.at(780, 1500):
+    char2(g, "mira", 540, FL + 950, 1900, "suspicious", "down", "down", t=c.gt, view="front", prop=False)
+    with g.at(770, 1720):
         g.rc(10 * math.sin(c.gt * 60) * bz, 0, 170, 270, "#25324A", PAL["yellow"], lw=8, r=24, a=0.95)
         g.glow(0, 0, 200, PAL["yellow"], 0.3 * bz)
-    buzz(g, 780, 1500, 120, c.gt, bz)
-    g.circle(780, 1500, 160, None, PAL["yellow"], lw=10, a=0.7 * bz)
+    buzz(g, 770, 1720, 120, c.gt, bz)
+    g.circle(770, 1720, 160, None, PAL["yellow"], lw=10, a=0.7 * bz)
 
 
 def c1_nobody(g, c):
@@ -164,11 +164,11 @@ def c1_end(g, c):
     """Last shot matches frame 1 (buzzing pocket + suspicious face) so the Short loops."""
     office_v(g, c.gt)
     bz = 1.0 if c.t > tw(c, "buzz") - 0.2 else 0.0
-    char2(g, "mira", 540, FL + 700, 1900, "suspicious", "down", "down", t=c.gt, view="front", prop=False)
-    with g.at(780, 1500):
+    char2(g, "mira", 540, FL + 950, 1900, "suspicious", "down", "down", t=c.gt, view="front", prop=False)
+    with g.at(770, 1720):
         g.rc(10 * math.sin(c.gt * 60) * bz, 0, 170, 270, "#25324A", PAL["yellow"], lw=8, r=24, a=0.95)
         g.glow(0, 0, 200, PAL["yellow"], 0.3 * bz)
-    buzz(g, 780, 1500, 120, c.gt, bz)
+    buzz(g, 770, 1720, 120, c.gt, bz)
 
 
 def build():

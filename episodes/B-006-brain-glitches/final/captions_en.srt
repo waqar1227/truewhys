@@ -1,0 +1,787 @@
+1
+00:00:00,070 --> 00:00:02,890
+You walk into a room...
+
+2
+00:00:02,890 --> 00:00:04,440
+and forget why you came in.
+
+3
+00:00:04,740 --> 00:00:05,980
+That's not a bad memory.
+
+4
+00:00:06,740 --> 00:00:08,540
+Scientists say the doorway itself wiped
+
+5
+00:00:08,540 --> 00:00:09,240
+it.
+
+6
+00:00:09,430 --> 00:00:11,550
+Your brain is full of glitches like this.
+
+7
+00:00:12,230 --> 00:00:13,930
+Songs that won't leave, words you can't
+
+8
+00:00:13,930 --> 00:00:16,300
+say, a phone that buzzes when it didn't.
+
+9
+00:00:16,630 --> 00:00:18,250
+Every one of them has been tested in
+
+10
+00:00:18,250 --> 00:00:20,430
+a lab. And every glitch turns out to
+
+11
+00:00:20,430 --> 00:00:22,750
+be a shortcut, working a little too hard.
+
+12
+00:00:23,050 --> 00:00:24,550
+So let's start with that doorway.
+
+13
+00:00:25,420 --> 00:00:28,580
+In 2011, psychologist Gabriel Radvansky,
+
+14
+00:00:28,580 --> 00:00:30,700
+at the University of Notre Dame, built a
+
+15
+00:00:30,700 --> 00:00:32,840
+set of virtual rooms, like a simple video
+
+16
+00:00:32,840 --> 00:00:33,540
+game.
+
+17
+00:00:33,700 --> 00:00:35,800
+Volunteers picked up objects, carried them
+
+18
+00:00:35,800 --> 00:00:38,060
+from table to table, and were quizzed on
+
+19
+00:00:38,060 --> 00:00:39,480
+what they had just been holding.
+
+20
+00:00:39,810 --> 00:00:41,550
+People who walked through a doorway forgot
+
+21
+00:00:41,550 --> 00:00:43,410
+more than people who walked the same
+
+22
+00:00:43,410 --> 00:00:45,190
+distance inside one room.
+
+23
+00:00:45,560 --> 00:00:47,360
+Then his team tried it in real rooms,
+
+24
+00:00:47,520 --> 00:00:48,200
+with real boxes.
+
+25
+00:00:48,900 --> 00:00:49,590
+Same result.
+
+26
+00:00:49,590 --> 00:00:52,550
+The idea: your brain cuts life into
+
+27
+00:00:52,550 --> 00:00:54,390
+scenes, like chapters in a book.
+
+28
+00:00:54,790 --> 00:00:56,770
+A doorway tells it, new chapter.
+
+29
+00:00:57,130 --> 00:00:58,650
+And the plan from the last chapter gets
+
+30
+00:00:58,650 --> 00:00:59,610
+filed away.
+
+31
+00:00:59,990 --> 00:01:03,130
+But in 2021, a team in Australia couldn't
+
+32
+00:01:03,130 --> 00:01:04,150
+always repeat it.
+
+33
+00:01:04,550 --> 00:01:06,390
+The doorway only tripped people up when
+
+34
+00:01:06,390 --> 00:01:07,800
+their minds were already busy.
+
+35
+00:01:08,110 --> 00:01:09,770
+Which is exactly how you walk into the
+
+36
+00:01:09,770 --> 00:01:11,710
+kitchen... thinking about ten other
+
+37
+00:01:11,710 --> 00:01:12,190
+things.
+
+38
+00:01:13,760 --> 00:01:16,480
+Next glitch. A song gets stuck in your
+
+39
+00:01:16,480 --> 00:01:18,520
+head, and it plays on repeat for hours.
+
+40
+00:01:19,280 --> 00:01:19,980
+Why?
+
+41
+00:01:20,230 --> 00:01:22,100
+Scientists call it an earworm.
+
+42
+00:01:22,620 --> 00:01:24,160
+In a survey of almost twelve thousand
+
+43
+00:01:24,160 --> 00:01:26,040
+people in Finland, more than ninety
+
+44
+00:01:26,040 --> 00:01:27,950
+percent said they get one every week.
+
+45
+00:01:28,310 --> 00:01:30,830
+In 2016, researchers in London asked three
+
+46
+00:01:30,830 --> 00:01:32,850
+thousand people which songs got stuck the
+
+47
+00:01:32,850 --> 00:01:33,550
+most.
+
+48
+00:01:33,680 --> 00:01:35,480
+The winners had a lot in common: a
+
+49
+00:01:35,480 --> 00:01:37,460
+fast tempo, and a simple tune that climbs
+
+50
+00:01:37,460 --> 00:01:39,480
+up and comes back down, like a nursery
+
+51
+00:01:39,480 --> 00:01:40,180
+rhyme.
+
+52
+00:01:40,300 --> 00:01:42,480
+Plus a few unusual jumps in the melody
+
+53
+00:01:42,480 --> 00:01:44,040
+that your brain didn't see coming.
+
+54
+00:01:44,390 --> 00:01:45,710
+And here's a strange fix.
+
+55
+00:01:46,230 --> 00:01:48,270
+At the University of Reading, chewing gum
+
+56
+00:01:48,270 --> 00:01:50,130
+cut how much people heard the song in
+
+57
+00:01:50,130 --> 00:01:51,750
+their head by about a third.
+
+58
+00:01:52,140 --> 00:01:53,840
+Chewing keeps busy the same inner voice
+
+59
+00:01:53,840 --> 00:01:55,750
+your brain uses to sing to itself.
+
+60
+00:01:56,090 --> 00:01:58,050
+So the next time a song won't leave...
+
+61
+00:01:58,050 --> 00:01:58,450
+try gum.
+
+62
+00:02:00,020 --> 00:02:01,220
+You know the word.
+
+63
+00:02:01,560 --> 00:02:02,680
+You can feel it.
+
+64
+00:02:03,000 --> 00:02:04,460
+It starts with...
+
+65
+00:02:04,460 --> 00:02:06,150
+something. But it just won't come out.
+
+66
+00:02:06,490 --> 00:02:07,910
+That's the tip-of-the-tongue feeling.
+
+67
+00:02:08,570 --> 00:02:11,970
+In 1966, two Harvard psychologists, Roger
+
+68
+00:02:11,970 --> 00:02:14,190
+Brown and David McNeill, decided to cause
+
+69
+00:02:14,190 --> 00:02:15,280
+it on purpose.
+
+70
+00:02:15,610 --> 00:02:17,230
+They read out the definitions of rare
+
+71
+00:02:17,230 --> 00:02:19,190
+words, and waited for students to get
+
+72
+00:02:19,190 --> 00:02:19,890
+stuck.
+
+73
+00:02:20,060 --> 00:02:21,580
+Many did, right on the edge of the
+
+74
+00:02:21,580 --> 00:02:22,280
+answer.
+
+75
+00:02:22,350 --> 00:02:23,750
+And while they were stuck, they could
+
+76
+00:02:23,750 --> 00:02:26,010
+often guess the first letter, and how many
+
+77
+00:02:26,010 --> 00:02:27,200
+syllables the word had.
+
+78
+00:02:27,500 --> 00:02:28,960
+So the word isn't lost.
+
+79
+00:02:29,600 --> 00:02:31,260
+Your brain has found the meaning, but it
+
+80
+00:02:31,260 --> 00:02:32,720
+can't fetch the sound.
+
+81
+00:02:33,050 --> 00:02:34,870
+Like a library card that points to a
+
+82
+00:02:34,870 --> 00:02:36,540
+book... that's out on loan.
+
+83
+00:02:36,920 --> 00:02:39,280
+Try it: what's the little plastic tip on
+
+84
+00:02:39,280 --> 00:02:40,500
+the end of a shoelace called?
+
+85
+00:02:41,900 --> 00:02:42,920
+It's an aglet.
+
+86
+00:02:43,640 --> 00:02:44,840
+Was it on the tip of your tongue?
+
+87
+00:02:46,590 --> 00:02:48,610
+Now picture a loud party.
+
+88
+00:02:49,510 --> 00:02:51,270
+Music, chatter, clinking glasses.
+
+89
+00:02:51,570 --> 00:02:53,320
+You're deep in one conversation...
+
+90
+00:02:53,830 --> 00:02:55,850
+and then, from across the room, someone
+
+91
+00:02:55,850 --> 00:02:56,630
+says your name.
+
+92
+00:02:57,030 --> 00:02:58,130
+And you hear it instantly.
+
+93
+00:02:58,830 --> 00:02:59,530
+How?
+
+94
+00:02:59,770 --> 00:03:02,250
+In 1953, the British scientist Colin
+
+95
+00:03:02,250 --> 00:03:04,390
+Cherry played two different messages, one
+
+96
+00:03:04,390 --> 00:03:06,610
+in each ear, and asked people to repeat
+
+97
+00:03:06,610 --> 00:03:07,440
+only one.
+
+98
+00:03:07,740 --> 00:03:09,700
+Afterwards, they could barely say a thing
+
+99
+00:03:09,700 --> 00:03:10,580
+about the other ear.
+
+100
+00:03:10,840 --> 00:03:12,260
+They didn't even notice when it switched
+
+101
+00:03:12,260 --> 00:03:13,180
+to another language.
+
+102
+00:03:13,450 --> 00:03:16,870
+But in 1959, Neville Moray hid each
+
+103
+00:03:16,870 --> 00:03:19,210
+listener's own name in the ignored ear.
+
+104
+00:03:19,600 --> 00:03:20,960
+About a third of them heard it.
+
+105
+00:03:21,260 --> 00:03:23,340
+When scientists repeated the test in 1995,
+
+106
+00:03:23,860 --> 00:03:25,560
+the answer was the same: about one in
+
+107
+00:03:25,560 --> 00:03:26,260
+three.
+
+108
+00:03:26,310 --> 00:03:28,630
+So your brain isn't ignoring the noise.
+
+109
+00:03:28,910 --> 00:03:31,270
+It's quietly listening to all of it, and
+
+110
+00:03:31,270 --> 00:03:33,140
+lets through what matters most to you.
+
+111
+00:03:33,490 --> 00:03:35,350
+And few words matter more to you than
+
+112
+00:03:35,350 --> 00:03:36,110
+your own name.
+
+113
+00:03:37,680 --> 00:03:39,040
+Look at this power socket.
+
+114
+00:03:39,640 --> 00:03:40,870
+Did you just see a face?
+
+115
+00:03:41,470 --> 00:03:43,090
+Seeing faces in things is called
+
+116
+00:03:43,090 --> 00:03:46,030
+pareidolia: in clouds, in the front of a
+
+117
+00:03:46,030 --> 00:03:48,010
+car, in a slice of pizza.
+
+118
+00:03:48,350 --> 00:03:50,910
+In 2009, a team at Harvard Medical School
+
+119
+00:03:50,910 --> 00:03:52,930
+recorded people's brains while they looked
+
+120
+00:03:52,930 --> 00:03:54,340
+at face-like objects.
+
+121
+00:03:54,640 --> 00:03:56,780
+The brain's face area fired in about a
+
+122
+00:03:56,780 --> 00:03:58,980
+sixth of a second, almost as fast as
+
+123
+00:03:58,980 --> 00:03:59,920
+for a real face.
+
+124
+00:04:00,620 --> 00:04:01,930
+Plain objects didn't do it.
+
+125
+00:04:02,230 --> 00:04:04,510
+So you don't decide to see the face.
+
+126
+00:04:04,850 --> 00:04:06,760
+It's spotted before you even think.
+
+127
+00:04:07,100 --> 00:04:09,640
+In 2020, scientists at the US National
+
+128
+00:04:09,640 --> 00:04:11,420
+Institute of Mental Health watched it
+
+129
+00:04:11,420 --> 00:04:12,730
+happen in more detail.
+
+130
+00:04:13,040 --> 00:04:15,300
+For a split second, the brain handles the
+
+131
+00:04:15,300 --> 00:04:16,660
+fake face like a real one.
+
+132
+00:04:17,000 --> 00:04:18,400
+Then it quickly files it away as an
+
+133
+00:04:18,400 --> 00:04:19,100
+object.
+
+134
+00:04:19,350 --> 00:04:21,830
+One idea why: a face detector that's a
+
+135
+00:04:21,830 --> 00:04:23,970
+bit too eager is safer than one that
+
+136
+00:04:23,970 --> 00:04:24,990
+misses a real face.
+
+137
+00:04:26,560 --> 00:04:28,120
+Your phone buzzes in your pocket.
+
+138
+00:04:28,580 --> 00:04:29,760
+You check. Nothing.
+
+139
+00:04:30,320 --> 00:04:31,770
+No message, no call.
+
+140
+00:04:32,070 --> 00:04:33,590
+If that's happened to you, you're in the
+
+141
+00:04:33,590 --> 00:04:34,290
+majority.
+
+142
+00:04:34,510 --> 00:04:36,850
+In 2010, a survey at a US hospital
+
+143
+00:04:36,850 --> 00:04:38,750
+found that sixty-eight percent of the
+
+144
+00:04:38,750 --> 00:04:40,710
+staff had felt phantom vibrations.
+
+145
+00:04:41,030 --> 00:04:43,270
+In 2012, a study of two hundred and
+
+146
+00:04:43,270 --> 00:04:45,090
+ninety students put it at eighty-nine
+
+147
+00:04:45,090 --> 00:04:45,790
+percent.
+
+148
+00:04:45,990 --> 00:04:48,050
+The likely reason: your brain is waiting
+
+149
+00:04:48,050 --> 00:04:48,790
+for that buzz.
+
+150
+00:04:49,210 --> 00:04:51,110
+So it's set to better safe than sorry.
+
+151
+00:04:51,320 --> 00:04:54,080
+A tiny muscle twitch, or clothes rubbing
+
+152
+00:04:54,080 --> 00:04:56,260
+your skin, and the brain shouts: phone!
+
+153
+00:04:56,560 --> 00:04:58,420
+In the hospital study, people who carried
+
+154
+00:04:58,420 --> 00:05:00,360
+their phone for longer, or used vibrate
+
+155
+00:05:00,360 --> 00:05:02,650
+mode more, felt more phantom buzzes.
+
+156
+00:05:02,980 --> 00:05:04,420
+And over ninety percent of the students
+
+157
+00:05:04,420 --> 00:05:05,720
+said it barely bothered them.
+
+158
+00:05:06,160 --> 00:05:07,940
+It's just a very eager brain.
+
+159
+00:05:09,510 --> 00:05:11,310
+And the strangest glitch of all.
+
+160
+00:05:11,610 --> 00:05:13,930
+You walk into a place you've never been...
+
+161
+00:05:13,930 --> 00:05:16,010
+and you're sure you've been here before.
+
+162
+00:05:16,310 --> 00:05:18,370
+That's déjà vu, and surveys suggest more
+
+163
+00:05:18,370 --> 00:05:20,240
+than half of all people have felt it.
+
+164
+00:05:20,550 --> 00:05:23,030
+In 2012, psychologist Anne Cleary, at
+
+165
+00:05:23,030 --> 00:05:25,250
+Colorado State University, sent volunteers
+
+166
+00:05:25,250 --> 00:05:27,130
+into a virtual town built in a
+
+167
+00:05:27,130 --> 00:05:28,530
+life-simulation game.
+
+168
+00:05:28,850 --> 00:05:30,710
+Some new scenes had the same layout as
+
+169
+00:05:30,710 --> 00:05:32,670
+scenes they had seen before, but with
+
+170
+00:05:32,670 --> 00:05:33,590
+different things inside.
+
+171
+00:05:34,030 --> 00:05:36,260
+A new room, in an old room's shape.
+
+172
+00:05:36,560 --> 00:05:38,540
+Those were the scenes that set off déjà
+
+173
+00:05:38,540 --> 00:05:40,560
+vu, even when people couldn't remember the
+
+174
+00:05:40,560 --> 00:05:41,500
+first room at all.
+
+175
+00:05:41,870 --> 00:05:44,030
+Then in 2016, a team at the University
+
+176
+00:05:44,030 --> 00:05:46,410
+of St Andrews in Scotland caught déjà vu
+
+177
+00:05:46,410 --> 00:05:47,830
+inside a brain scanner.
+
+178
+00:05:48,140 --> 00:05:49,920
+The busy areas weren't the memory stores.
+
+179
+00:05:50,220 --> 00:05:51,480
+They were at the front of the brain,
+
+180
+00:05:51,620 --> 00:05:53,100
+in the parts that check memories for
+
+181
+00:05:53,100 --> 00:05:53,820
+mistakes.
+
+182
+00:05:54,180 --> 00:05:55,960
+So déjà vu may be your brain catching
+
+183
+00:05:55,960 --> 00:05:58,860
+a false alarm: this feels familiar...
+
+184
+00:05:58,860 --> 00:06:00,070
+but wait, it isn't.
+
+185
+00:06:00,380 --> 00:06:01,820
+Some scientists think that's a good sign:
+
+186
+00:06:02,160 --> 00:06:03,760
+a memory that double-checks itself.
+
+187
+00:06:05,410 --> 00:06:07,670
+So: the doorway, the stuck song, the
+
+188
+00:06:07,670 --> 00:06:10,010
+missing word, your name in the noise, the
+
+189
+00:06:10,010 --> 00:06:12,410
+face in the socket, the phantom buzz, and
+
+190
+00:06:12,410 --> 00:06:13,160
+déjà vu.
+
+191
+00:06:13,460 --> 00:06:14,760
+They feel like your brain is broken.
+
+192
+00:06:15,200 --> 00:06:17,360
+But each one is a shortcut that usually
+
+193
+00:06:17,360 --> 00:06:19,680
+helps you, caught working a little too
+
+194
+00:06:19,680 --> 00:06:20,380
+hard.
+
+195
+00:06:20,410 --> 00:06:22,110
+Which glitch happens to you the most?
+
+196
+00:06:22,490 --> 00:06:23,420
+Tell us in the comments.
+
+197
+00:06:24,290 --> 00:06:25,910
+Now... what did you come here for again?
