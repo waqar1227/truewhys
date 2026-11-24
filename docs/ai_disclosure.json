@@ -478,5 +478,13 @@
   "synthetic": false,
   "reason": "Not realistic: flat 2D cartoon (cast v2.2), generic TTS narrator imitating no real person, code-made music; no realistic people, places or events (docs/ai_disclosure.md test, 24 Nov 2026).",
   "decided": "2026-11-24"
+ },
+ "sJ8lsYNlHTk": {
+  "episode": "A-024",
+  "title": "Why Is There a Metal Net in Your Microwave Door?",
+  "style": "R: stylised 3D",
+  "synthetic": false,
+  "reason": "Not realistic: stylised CG person and kitchen, animated wave graphics, generic TTS narrator imitating no real person, code-made music (docs/ai_disclosure.md test, 24 Nov 2026).",
+  "decided": "2026-11-24"
  }
 }

@@ -47,6 +47,7 @@ Unsure → **Yes** (disclosing never hurts reach or money; a missing disclosure 
 | VAUl6EfZebw | A-022-padlock-hole | What's This Tiny Hole in a Padlock For? | R | **No** |
 | 3ZAI7vLZZkE | A-023-foot-asleep | Why Does Your Foot Fall Asleep? | F | **No** |
 | T3CvD2HqRaE | A-025-euv-machine | Why Only ONE Company Can Build This Machine | R | **No** |
+| sJ8lsYNlHTk | A-024-microwave-mesh | Why Is There a Metal Net in Your Microwave Door? | R | **No** |
 | -8MLpCFqDuw | A-026-tongue-pole | Why Your Tongue Sticks to a Frozen Pole | F | **No** |
 | _6wnNSSo4fU | A-027-reindeer-eyes | Why Reindeer Eyes Turn Blue in Winter | F | **No** |
 | PtETjFRHH24 | B-004 C1 | Why Do Coins Have Ridges? | F | **No** |
