@@ -20,7 +20,7 @@ TASKS in order:
 0. L4 UPLOADED dgmYB0zPALw (Sun 29 Nov 17:00 UTC, SRT up, thumb A). After it is public (29 Nov 17:00): give the owner the pinned comment
    (upload_meta.json pinned_comment) and send thumbs B/C (final/) for Test & Compare.
 1. OWNER (told 22 Nov): Studio → Related video = L4 (dgmYB0zPALw) on PtETjFRHH24 and cXgM0GJELw0.
-2. 48-h checks into topic_results.md (stayed %, rel. retention 10 %, drop point): A-021 on 24 Nov, A-017 25 Nov, A-012 26, A-011 27, A-013 28,
+2. 48-h checks into topic_results.md (stayed %, rel. retention 10 %, drop point): A-021 DONE 24 Nov (1,994 views/36 likes; retention 26 Nov), A-025 25 Nov, A-012 26, A-011 27, A-013 28,
    A-018 29 Nov, A-026 17 Dec, A-027 26 Dec (`python3 lib/yt_stats.py 7`). Compare Style R (A-016/17/18/21) vs Style F.
 3. DONE 23 Nov: A-019 + A-022 uploaded (private + publishAt, thumb, SRT, AI field No, registers). Kaggle: a019+a022 v1+v2 used ≈ 3.7 h session time (render_log.md).
 4. L5 DONE (23 Nov): B-005 "Why Toast Lands Butter-Side Down, Shoelaces Untie and Earbuds Tangle" UPLOADED l_w8yDvCZiI (Mon 7 Dec 17:00 UTC, SRT, thumb A);

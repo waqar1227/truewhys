@@ -112,3 +112,4 @@
 - 23 Nov 10:00 UTC: a024 v1 COMPLETE (wall 85 min); composed. QA: door-glass lamp streak over the face in hook_pov/loop_pov → glass refl 0 for POV + lamp hidden from glossy; a024 v2 (hook_pov, loop_pov) to push after a025 starts. a025 still QUEUED (GPU slots busy).
 - 23 Nov 12:20 UTC: a025 v2 re-pushed (T4 queue stuck since morning); ran 12:21–13:45 UTC, 1132 frames OK. Compose: germany push-in slowed (frames 0–105) to avoid a too-close technician. Uploaded T3CvD2HqRaE for 23 Nov 16:00 UTC.
 - 24 Nov 04:39 UTC: a024 v2 pushed (hook_pov, loop_pov fix: no door-glass reflection) → renders_v2.
+- 24 Nov 09:2x UTC: a024 v2 had run on the OLD dataset (all shots, old scene; ~1.6 h wasted). v3 pushed after confirming the new dataset is live (job.json shots=hook_pov,loop_pov).
