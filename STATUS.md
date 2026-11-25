@@ -15,6 +15,7 @@ DONE 24 Nov: L6 B-006 "Why You Forget Why You Walked Into a Room, Songs Get Stuc
 + cut Short C1 "Why You Feel Your Phone Buzz When It Didn't" zvHTp6BC06E (Thu 17 Dec 18:00 UTC, SRT, thumb), AI field No, registers. OWNER: post the teaser
 (episodes/B-006-brain-glitches/social/post) Fri 11 Dec; Studio → Related video = L6 (acW1qBL5TzI) on zvHTp6BC06E. After 13 Dec 17:00: pinned comment
 (B-006 upload_meta.json pinned_comment) + send thumbs B/C (final/) for Test & Compare.
+IN PRODUCTION (25 Nov): A-028 hot water on frozen windshield (owner request) → Sat 28 Nov 18:00 UTC (owner one-time exception to posting days, winter; fallback Mon 30 Nov / Wed 2 Dec 18:00) → own session session_01BQj2DcjMZjtmfuwTwZmcUL.
 TO MAKE (plan 24 Nov, 30 days = to Thu 24 Dec): ·
 DONE: A-026 Tue 15 Dec + A-027 Thu 24 Dec 18:00 (uploaded 24 Nov) ·
 L7 B-007 Sun 20 Dec 17:00 + teaser (post Fri 18 Dec) + cut Short Sat 26 Dec 18:00 → own session session_01BQj2DdgNkAoWvLqZ1PPnkL (started 25 Nov) · then STOP until the schedule drops below 30 days (heartbeat adds the next slot each day).
