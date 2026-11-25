@@ -1,7 +1,7 @@
 # A-028 — Why Hot Water Can Crack a Frozen Windshield
 
 - **Type:** A (standalone Short), **Style F + cast v2.2** (Mira, winter look with scarf; a generic yellow hatchback, no brand), 1080×1920, ~30 s.
-  Slot **Tue 29 Dec 2026 18:00 UTC** (first free Short slot). **Owner request (25 Nov).**
+  Slot **Sat 28 Nov 2026 18:00 UTC** (owner 25 Nov: one-time exception to the posting-days rule because it is winter now; was Tue 29 Dec). **Owner request (25 Nov).**
 - **Category:** 9 — Science / everyday object (car glass physics). Neighbours in the schedule: A-027 animals (24 Dec), L7 cats vs dogs (20 Dec),
   L7 cut Short (26 Dec) → not body, not animals. Second winter-physics Short, two weeks after A-026 (≤ 2 of one theme in a row: fine).
 - **Why this topic (data):** everyday "you" mysteries are our best performers (research/stats; why_not_viral.md); a real winter mistake people

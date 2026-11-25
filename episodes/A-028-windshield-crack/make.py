@@ -1,4 +1,4 @@
-"""A-028 "Why Hot Water Can Crack a Frozen Windshield" — standalone Short, Style F + cast v2.2 (Mira, new winter look). Slot Tue 29 Dec 2026 18:00 UTC.
+"""A-028 "Why Hot Water Can Crack a Frozen Windshield" — standalone Short, Style F + cast v2.2 (Mira, new winter look). Slot Sat 28 Nov 2026 18:00 UTC (owner one-time exception).
 python episodes/A-028-windshield-crack/make.py sheet|qa|big <t,..>|render
 Our own cast and drawings only: suburban driveway before sunrise, a generic yellow hatchback (no brand), kettle, ice sheet, cracks,
 a glass cross-section (outer layer heats + swells, inside stays frozen = thermal shock), a chip that gathers stress, and the safe fixes
