@@ -17,7 +17,7 @@ DONE 24 Nov: L6 B-006 "Why You Forget Why You Walked Into a Room, Songs Get Stuc
 (B-006 upload_meta.json pinned_comment) + send thumbs B/C (final/) for Test & Compare.
 TO MAKE (plan 24 Nov, 30 days = to Thu 24 Dec): ·
 DONE: A-026 Tue 15 Dec + A-027 Thu 24 Dec 18:00 (uploaded 24 Nov) ·
-L7 Sun 20 Dec 17:00 → start its own fresh session when L6 is done · then STOP until the schedule drops below 30 days (heartbeat adds the next slot each day).
+L7 B-007 Sun 20 Dec 17:00 + teaser (post Fri 18 Dec) + cut Short Sat 26 Dec 18:00 → own session session_01BQj2DdgNkAoWvLqZ1PPnkL (started 25 Nov) · then STOP until the schedule drops below 30 days (heartbeat adds the next slot each day).
 Spare (made, not scheduled): L4-C3 caps, L4-C4 manholes.
 
 TASKS in order:
