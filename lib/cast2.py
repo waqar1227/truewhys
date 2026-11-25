@@ -85,6 +85,11 @@ CAST = {
                      legs="#2A2A38", shoes="#F4F1EA", jaw=0.0, prop=None, female=True, hoodie=True),
     "herder":   dict(name="Herder", skin="#E3B48E", iris="#3E5A7A", face="square", hair="hood", hair_c="#2F4F6F", top="#2F4F6F", top2="#FFC93C",
                      legs="#3A3026", shoes="#2A1A10", stubble=True, jaw=0.4, prop=None, buttons=True),
+    # added 25 Nov 2026 for B-007 "cats vs dogs" (same v2.1 rules)
+    "lena":     dict(name="Lena", skin="#F1C9A8", iris="#3E6A5C", face="round", hair="bun", hair_c="#B5532A", top="#6FA34A", top2="#FFF4E0",
+                     legs="#3A4A6A", shoes="#F4F1EA", jaw=0.0, prop=None, female=True, hoodie=True),
+    "vet":      dict(name="Researcher", skin="#B57A55", iris="#3A2A1E", face="square", hair="short", hair_c="#1E1A24", top="#F4F1EA", top2="#E07A3A",
+                     legs="#2A3A4A", shoes=INK, jaw=0.2, prop=None, buttons=True),
 }
 
 # expressions: eyelid height (0 = fully open, 1 = closed), brow shapes (left, right) as (inner_dy, outer_dy), mouth

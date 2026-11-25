@@ -1,0 +1,72 @@
+# id | chapter | text (captions) || say (pronunciation for the voice, optional)
+# B-007 v1 (25 Nov 2026). L7 long video, Style F + cast v2.2 + new pets (lib/flat_pets.py). Cats vs dogs: seven rounds, seven real studies.
+# Chapters = Gemini requests (7): 0 cold open + round 1 history, 1 brains, 2 names, 3 senses, 4 drinking, 5 who controls you, 6 love + verdict.
+# Clip candidates: C1 puppy eyes (ch5, cut Short Sat 26 Dec), C2 cat lapping (ch4), C3 cat knows its name (ch2), C4 brain cells (ch1).
+O01|0|Your cat knows its own name. It just doesn't come.
+O02|0|And your dog grew a brand new face muscle, just to work on you.
+O03|0|Cats versus dogs. Seven rounds, seven real experiments, and one scoreboard.
+O04|0|No opinions. Only science. Let's settle it.
+H01|0|Round one. Who moved in with us first?
+H02|0|Dogs win this one easily. Ancient dog DNA shows they had already split into five different families eleven thousand years ago, when every human was still a hunter.
+H03|0|They came from wolves, and they joined us long before the first farm.
+H04|0|Cats came later. And they invited themselves.
+H05|0|When people in the Middle East started farming, about ten thousand years ago, they stored grain. Grain brought mice. And mice brought wild cats.
+H06|0|Scientists think the cats that put up with people got the best hunting spot in town, and slowly became the cat on your sofa.
+H07|0|So nobody really tamed the cat. It moved in for the mice, and stayed. Point to the dog, for getting here first.
+B01|1|Round two. The big one. Who is smarter?
+B02|1|In 2017, a team led by neuroscientist Suzana Herculano-Houzel, at Vanderbilt University, counted the neurons in the brains of meat-eating animals.||In 2017, a team led by neuroscientist Suzana Herculano-Oozel, at Vanderbilt University, counted the neurons in the brains of meat-eating animals.
+B03|1|They looked at the cortex, the wrinkly outer layer that does the planning and the problem-solving.
+B04|1|A cat has about two hundred and fifty million neurons there. A dog has about five hundred and thirty million. More than twice as many.
+B05|1|And here's the twist. A brown bear's cortex is about ten times bigger than a cat's... with roughly the same number of neurons.
+B06|1|So a bigger brain doesn't always mean more thinking cells.
+B07|1|Neurons aren't everything, and cats are clever in their own way. But on brain cells, round two goes to the dog.
+N01|2|Round three. Who understands you?
+N02|2|A border collie called Chaser learned the names of one thousand and twenty-two toys.
+N03|2|Her owner, psychologist John Pilley, trained her for three years. Ask for any toy by name, and she brought it back from the pile.
+N04|2|Then he added a toy she had never seen, and asked for a name she had never heard. She picked the new one. She worked it out.
+N05|2|So cats lose this one? Not so fast.
+N06|2|In 2019, scientists in Tokyo played cats a list of ordinary words, one after another, and then the cat's own name.
+N07|2|The cats got bored of the words and stopped reacting. But when they heard their name, their ears and heads turned. Even when a stranger said it.
+N08|2|What they mostly didn't do was walk over, or meow back.
+N09|2|So your cat heard you. It just didn't come. A thousand toy names win the round for the dog. But the cat was listening.
+S01|3|Round four. Senses. And the dog walks in with its famous nose.
+S02|3|A dog's nose has up to three hundred million smell receptors. Yours has about six million.
+S03|3|That's why dogs can be trained to sniff out things we can't smell at all.
+S04|3|But the cat's secret weapon is on top of its head.
+S05|3|In the 1980s, hearing scientists Henry and Rickye Heffner tested how high a sound different animals can hear.||In the nineteen-eighties, hearing scientists Henry and Ricky Heffner tested how high a sound different animals can hear.
+S06|3|Dogs heard up to about forty-five thousand vibrations a second. That's already twice what you can hear.
+S07|3|Cats kept going, to about eighty-five thousand. One of the widest hearing ranges of any mammal.
+S08|3|High enough to catch the tiny squeaks that mice make, sounds you will never hear.
+S09|3|And each ear can turn on its own, to find exactly where a sound came from. Nose to the dog, ears to the cat. One point each.
+D01|4|Round five sounds silly. Who drinks better?
+D02|4|Watch a dog drink, and there's water everywhere. Watch a cat, and the bowl barely moves.
+D03|4|In 2010, engineers at MIT filmed cats drinking in slow motion, and found something nobody expected.||In twenty ten, engineers at M.I.T. filmed cats drinking in slow motion, and found something nobody expected.
+D04|4|The cat's tongue doesn't scoop at all. The tip just touches the water and pulls back, so fast that it drags up a little column of water.
+D05|4|Then the cat closes its mouth at exactly the right moment, before gravity pulls the column back down.
+D06|4|About four times every second.
+D07|4|In 2015, a team at Virginia Tech filmed nineteen dogs drinking. And here's the twist: dogs use the same trick.
+D08|4|The dog curls its tongue backwards, slams it into the water, pulls up a bigger column, and bites it.
+D09|4|The splash is just the side effect of a much harder, faster tongue. Same physics, different style. Point to the cat, for neatness.
+C01|5|Round six. Who controls you?
+C02|5|Look into a dog's eyes when it wants something. Those big, sad puppy eyes.
+C03|5|In 2019, scientists compared the faces of dogs and wolves, and found a tiny muscle above the eye that dogs have, and wolves mostly don't.
+C04|5|It lifts the inner eyebrow. It makes the eyes look bigger, sadder, and more like a baby's.
+C05|5|And in animal shelters, dogs that made that face more often found new homes faster.
+C06|5|Scientists think that's how the muscle spread: thousands of years of people choosing the dogs with the saddest eyes.
+C07|5|But the cat has its own weapon. The purr.
+C08|5|In 2009, researchers at the University of Sussex recorded cats purring for food, and played the sounds to fifty people.
+C09|5|Hidden inside the purr was a high little cry, at almost the same pitch as a human baby's.
+C10|5|People rated those purrs as more urgent, even people who had never owned a cat.
+C11|5|Dogs have a face built for you. Cats have a sound built for you. That's a draw. One point each.
+L01|6|Final round. Who actually loves you?
+L02|6|Dogs, everyone agrees. In a strange room, a dog explores while its owner is there, gets upset when the owner leaves, and runs to them when they come back.
+L03|6|Scientists call that a secure bond. It's the same test they use with human babies.
+L04|6|Cats were supposed to fail it.
+L05|6|In 2019, at Oregon State University, Kristyn Vitale put kittens in the same test. Two minutes with their owner, two minutes alone, then the owner comes back.
+L06|6|About two out of three kittens greeted their owner, then calmly went back to exploring. A secure bond.
+L07|6|That's almost exactly the share found in human babies.
+L08|6|The cat doesn't love you less. It just shows it more quietly. Point to the cat, for the biggest surprise.
+E01|6|Final score. Dog, five. Cat, four.
+E02|6|The dog takes history, brains and words. The cat takes the ears, the tidy drinking, and the quiet kind of love.
+E03|6|Which side are you on? Tell us in the comments.
+E04|6|And now, go call your cat. It heard you. It's just... deciding.

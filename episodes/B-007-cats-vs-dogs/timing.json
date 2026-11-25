@@ -1,0 +1,5202 @@
+[
+ {
+  "id": "O01",
+  "chapter": 0,
+  "text": "Your cat knows its own name. It just doesn't come.",
+  "dur": 3.91,
+  "words": [
+   {
+    "w": "Your",
+    "s": 0.0,
+    "e": 0.4
+   },
+   {
+    "w": "cat",
+    "s": 0.4,
+    "e": 0.82
+   },
+   {
+    "w": "knows",
+    "s": 0.82,
+    "e": 1.34
+   },
+   {
+    "w": "its",
+    "s": 1.34,
+    "e": 1.72
+   },
+   {
+    "w": "own",
+    "s": 1.72,
+    "e": 1.92
+   },
+   {
+    "w": "name.",
+    "s": 1.92,
+    "e": 2.22
+   },
+   {
+    "w": "It",
+    "s": 3.04,
+    "e": 3.18
+   },
+   {
+    "w": "just",
+    "s": 3.18,
+    "e": 3.3
+   },
+   {
+    "w": "doesn't",
+    "s": 3.3,
+    "e": 3.54
+   },
+   {
+    "w": "come.",
+    "s": 3.54,
+    "e": 3.76
+   }
+  ],
+  "heard": "Your cat knows its own name. It just doesn't come.",
+  "match": 1.0
+ },
+ {
+  "id": "O02",
+  "chapter": 0,
+  "text": "And your dog grew a brand new face muscle, just to work on you.",
+  "dur": 3.94,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.11,
+    "e": 0.17
+   },
+   {
+    "w": "your",
+    "s": 0.17,
+    "e": 0.29
+   },
+   {
+    "w": "dog",
+    "s": 0.29,
+    "e": 0.63
+   },
+   {
+    "w": "grew",
+    "s": 0.63,
+    "e": 1.17
+   },
+   {
+    "w": "a",
+    "s": 1.17,
+    "e": 1.47
+   },
+   {
+    "w": "brand",
+    "s": 1.47,
+    "e": 1.77
+   },
+   {
+    "w": "new",
+    "s": 1.77,
+    "e": 2.07
+   },
+   {
+    "w": "face",
+    "s": 2.07,
+    "e": 2.31
+   },
+   {
+    "w": "muscle,",
+    "s": 2.31,
+    "e": 2.67
+   },
+   {
+    "w": "just",
+    "s": 2.67,
+    "e": 3.05
+   },
+   {
+    "w": "to",
+    "s": 3.05,
+    "e": 3.25
+   },
+   {
+    "w": "work",
+    "s": 3.25,
+    "e": 3.37
+   },
+   {
+    "w": "on",
+    "s": 3.37,
+    "e": 3.53
+   },
+   {
+    "w": "you.",
+    "s": 3.53,
+    "e": 3.81
+   }
+  ],
+  "heard": "And your dog grew a brand new face muscle, just to work on you.",
+  "match": 1.0
+ },
+ {
+  "id": "O03",
+  "chapter": 0,
+  "text": "Cats versus dogs. Seven rounds, seven real experiments, and one scoreboard.",
+  "dur": 5.54,
+  "words": [
+   {
+    "w": "Cats",
+    "s": 0.22,
+    "e": 0.34
+   },
+   {
+    "w": "versus",
+    "s": 0.34,
+    "e": 0.66
+   },
+   {
+    "w": "dogs.",
+    "s": 0.66,
+    "e": 1.04
+   },
+   {
+    "w": "Seven",
+    "s": 1.68,
+    "e": 1.94
+   },
+   {
+    "w": "rounds,",
+    "s": 1.94,
+    "e": 2.26
+   },
+   {
+    "w": "seven",
+    "s": 2.82,
+    "e": 3.06
+   },
+   {
+    "w": "real",
+    "s": 3.06,
+    "e": 3.54
+   },
+   {
+    "w": "experiments,",
+    "s": 3.54,
+    "e": 4.12
+   },
+   {
+    "w": "and",
+    "s": 4.34,
+    "e": 4.5
+   },
+   {
+    "w": "one",
+    "s": 4.5,
+    "e": 4.82
+   },
+   {
+    "w": "scoreboard.",
+    "s": 4.82,
+    "e": 5.22
+   }
+  ],
+  "heard": "Cats versus dogs. Seven rounds, seven real experiments, and one scoreboard.",
+  "match": 1.0
+ },
+ {
+  "id": "O04",
+  "chapter": 0,
+  "text": "No opinions. Only science. Let's settle it.",
+  "dur": 3.07,
+  "words": [
+   {
+    "w": "No",
+    "s": 0.06,
+    "e": 0.2
+   },
+   {
+    "w": "opinions.",
+    "s": 0.2,
+    "e": 0.44
+   },
+   {
+    "w": "Only",
+    "s": 0.94,
+    "e": 1.2
+   },
+   {
+    "w": "science.",
+    "s": 1.2,
+    "e": 1.56
+   },
+   {
+    "w": "Let's",
+    "s": 2.12,
+    "e": 2.26
+   },
+   {
+    "w": "settle",
+    "s": 2.26,
+    "e": 2.44
+   },
+   {
+    "w": "it.",
+    "s": 2.44,
+    "e": 2.94
+   }
+  ],
+  "heard": "No opinions. Only science. Let's settle it.",
+  "match": 1.0
+ },
+ {
+  "id": "H01",
+  "chapter": 0,
+  "text": "Round one. Who moved in with us first?",
+  "dur": 2.51,
+  "words": [
+   {
+    "w": "Round",
+    "s": 0.08,
+    "e": 0.22
+   },
+   {
+    "w": "one.",
+    "s": 0.22,
+    "e": 0.5
+   },
+   {
+    "w": "Who",
+    "s": 1.3,
+    "e": 1.4
+   },
+   {
+    "w": "moved",
+    "s": 1.4,
+    "e": 1.56
+   },
+   {
+    "w": "in",
+    "s": 1.56,
+    "e": 1.68
+   },
+   {
+    "w": "with",
+    "s": 1.68,
+    "e": 1.8
+   },
+   {
+    "w": "us",
+    "s": 1.8,
+    "e": 1.96
+   },
+   {
+    "w": "first?",
+    "s": 1.96,
+    "e": 2.2
+   }
+  ],
+  "heard": "Round one. Who moved in with us first?",
+  "match": 1.0
+ },
+ {
+  "id": "H02",
+  "chapter": 0,
+  "text": "Dogs win this one easily. Ancient dog DNA shows they had already split into five different families eleven thousand years ago, when every human was still a hunter.",
+  "dur": 8.88,
+  "words": [
+   {
+    "w": "Dogs",
+    "s": 0.13,
+    "e": 0.31
+   },
+   {
+    "w": "win",
+    "s": 0.31,
+    "e": 0.45
+   },
+   {
+    "w": "this",
+    "s": 0.45,
+    "e": 0.57
+   },
+   {
+    "w": "one",
+    "s": 0.57,
+    "e": 0.71
+   },
+   {
+    "w": "easily.",
+    "s": 0.71,
+    "e": 0.97
+   },
+   {
+    "w": "Ancient",
+    "s": 1.67,
+    "e": 1.87
+   },
+   {
+    "w": "dog",
+    "s": 1.87,
+    "e": 2.17
+   },
+   {
+    "w": "DNA",
+    "s": 2.17,
+    "e": 2.53
+   },
+   {
+    "w": "shows",
+    "s": 2.53,
+    "e": 2.93
+   },
+   {
+    "w": "they",
+    "s": 2.93,
+    "e": 3.19
+   },
+   {
+    "w": "had",
+    "s": 3.19,
+    "e": 3.31
+   },
+   {
+    "w": "already",
+    "s": 3.31,
+    "e": 3.65
+   },
+   {
+    "w": "split",
+    "s": 3.65,
+    "e": 4.01
+   },
+   {
+    "w": "into",
+    "s": 4.01,
+    "e": 4.25
+   },
+   {
+    "w": "five",
+    "s": 4.25,
+    "e": 4.65
+   },
+   {
+    "w": "different",
+    "s": 4.65,
+    "e": 4.93
+   },
+   {
+    "w": "families",
+    "s": 4.93,
+    "e": 5.35
+   },
+   {
+    "w": "eleven",
+    "s": 5.35,
+    "e": 5.79
+   },
+   {
+    "w": "thousand",
+    "s": 5.79,
+    "e": 6.21
+   },
+   {
+    "w": "years",
+    "s": 6.21,
+    "e": 6.71
+   },
+   {
+    "w": "ago,",
+    "s": 6.71,
+    "e": 7.01
+   },
+   {
+    "w": "when",
+    "s": 7.35,
+    "e": 7.49
+   },
+   {
+    "w": "every",
+    "s": 7.49,
+    "e": 7.77
+   },
+   {
+    "w": "human",
+    "s": 7.77,
+    "e": 8.01
+   },
+   {
+    "w": "was",
+    "s": 8.01,
+    "e": 8.19
+   },
+   {
+    "w": "still",
+    "s": 8.19,
+    "e": 8.33
+   },
+   {
+    "w": "a",
+    "s": 8.33,
+    "e": 8.45
+   },
+   {
+    "w": "hunter.",
+    "s": 8.45,
+    "e": 8.67
+   }
+  ],
+  "heard": "Dogs win this one easily. Ancient dog DNA shows they had already split into five different families eleven thousand years ago, when every human was still a hunter.",
+  "match": 1.0
+ },
+ {
+  "id": "H03",
+  "chapter": 0,
+  "text": "They came from wolves, and they joined us long before the first farm.",
+  "dur": 3.41,
+  "words": [
+   {
+    "w": "They",
+    "s": 0.05,
+    "e": 0.15
+   },
+   {
+    "w": "came",
+    "s": 0.15,
+    "e": 0.29
+   },
+   {
+    "w": "from",
+    "s": 0.29,
+    "e": 0.47
+   },
+   {
+    "w": "wolves,",
+    "s": 0.47,
+    "e": 0.69
+   },
+   {
+    "w": "and",
+    "s": 1.19,
+    "e": 1.23
+   },
+   {
+    "w": "they",
+    "s": 1.23,
+    "e": 1.35
+   },
+   {
+    "w": "joined",
+    "s": 1.35,
+    "e": 1.57
+   },
+   {
+    "w": "us",
+    "s": 1.57,
+    "e": 1.91
+   },
+   {
+    "w": "long",
+    "s": 1.91,
+    "e": 2.13
+   },
+   {
+    "w": "before",
+    "s": 2.13,
+    "e": 2.57
+   },
+   {
+    "w": "the",
+    "s": 2.57,
+    "e": 2.71
+   },
+   {
+    "w": "first",
+    "s": 2.71,
+    "e": 2.93
+   },
+   {
+    "w": "farm.",
+    "s": 2.93,
+    "e": 3.23
+   }
+  ],
+  "heard": "They came from wolves, and they joined us long before the first farm.",
+  "match": 1.0
+ },
+ {
+  "id": "H04",
+  "chapter": 0,
+  "text": "Cats came later. And they invited themselves.",
+  "dur": 3.03,
+  "words": [
+   {
+    "w": "Cats",
+    "s": 0.2,
+    "e": 0.24
+   },
+   {
+    "w": "came",
+    "s": 0.24,
+    "e": 0.4
+   },
+   {
+    "w": "later.",
+    "s": 0.4,
+    "e": 0.66
+   },
+   {
+    "w": "And",
+    "s": 1.56,
+    "e": 1.8
+   },
+   {
+    "w": "they",
+    "s": 1.8,
+    "e": 1.96
+   },
+   {
+    "w": "invited",
+    "s": 1.96,
+    "e": 2.24
+   },
+   {
+    "w": "themselves.",
+    "s": 2.24,
+    "e": 2.68
+   }
+  ],
+  "heard": "Cats came later. And they invited themselves.",
+  "match": 1.0
+ },
+ {
+  "id": "H05",
+  "chapter": 0,
+  "text": "When people in the Middle East started farming, about ten thousand years ago, they stored grain. Grain brought mice. And mice brought wild cats.",
+  "dur": 8.05,
+  "words": [
+   {
+    "w": "When",
+    "s": 0.04,
+    "e": 0.3
+   },
+   {
+    "w": "people",
+    "s": 0.3,
+    "e": 0.52
+   },
+   {
+    "w": "in",
+    "s": 0.52,
+    "e": 0.68
+   },
+   {
+    "w": "the",
+    "s": 0.68,
+    "e": 0.72
+   },
+   {
+    "w": "Middle",
+    "s": 0.72,
+    "e": 0.82
+   },
+   {
+    "w": "East",
+    "s": 0.82,
+    "e": 1.08
+   },
+   {
+    "w": "started",
+    "s": 1.08,
+    "e": 1.4
+   },
+   {
+    "w": "farming,",
+    "s": 1.4,
+    "e": 1.8
+   },
+   {
+    "w": "about",
+    "s": 2.02,
+    "e": 2.2
+   },
+   {
+    "w": "ten",
+    "s": 2.2,
+    "e": 2.46
+   },
+   {
+    "w": "thousand",
+    "s": 2.46,
+    "e": 2.74
+   },
+   {
+    "w": "years",
+    "s": 2.74,
+    "e": 2.98
+   },
+   {
+    "w": "ago,",
+    "s": 2.98,
+    "e": 3.28
+   },
+   {
+    "w": "they",
+    "s": 3.64,
+    "e": 3.76
+   },
+   {
+    "w": "stored",
+    "s": 3.76,
+    "e": 3.96
+   },
+   {
+    "w": "grain.",
+    "s": 3.96,
+    "e": 4.2
+   },
+   {
+    "w": "Grain",
+    "s": 4.98,
+    "e": 5.14
+   },
+   {
+    "w": "brought",
+    "s": 5.14,
+    "e": 5.32
+   },
+   {
+    "w": "mice.",
+    "s": 5.32,
+    "e": 5.58
+   },
+   {
+    "w": "And",
+    "s": 6.28,
+    "e": 6.44
+   },
+   {
+    "w": "mice",
+    "s": 6.44,
+    "e": 6.7
+   },
+   {
+    "w": "brought",
+    "s": 6.7,
+    "e": 7.1
+   },
+   {
+    "w": "wild",
+    "s": 7.1,
+    "e": 7.4
+   },
+   {
+    "w": "cats.",
+    "s": 7.4,
+    "e": 7.76
+   }
+  ],
+  "heard": "When people in the Middle East started farming, about ten thousand years ago, they stored grain. Grain brought mice. And mice brought wild cats.",
+  "match": 1.0
+ },
+ {
+  "id": "H06",
+  "chapter": 0,
+  "text": "Scientists think the cats that put up with people got the best hunting spot in town, and slowly became the cat on your sofa.",
+  "dur": 5.84,
+  "words": [
+   {
+    "w": "Scientists",
+    "s": 0.12,
+    "e": 0.34
+   },
+   {
+    "w": "think",
+    "s": 0.34,
+    "e": 0.58
+   },
+   {
+    "w": "the",
+    "s": 0.58,
+    "e": 0.78
+   },
+   {
+    "w": "cats",
+    "s": 0.78,
+    "e": 0.96
+   },
+   {
+    "w": "that",
+    "s": 0.96,
+    "e": 1.18
+   },
+   {
+    "w": "put",
+    "s": 1.18,
+    "e": 1.38
+   },
+   {
+    "w": "up",
+    "s": 1.38,
+    "e": 1.52
+   },
+   {
+    "w": "with",
+    "s": 1.52,
+    "e": 1.66
+   },
+   {
+    "w": "people",
+    "s": 1.66,
+    "e": 1.98
+   },
+   {
+    "w": "got",
+    "s": 1.98,
+    "e": 2.18
+   },
+   {
+    "w": "the",
+    "s": 2.18,
+    "e": 2.34
+   },
+   {
+    "w": "best",
+    "s": 2.34,
+    "e": 2.64
+   },
+   {
+    "w": "hunting",
+    "s": 2.64,
+    "e": 2.98
+   },
+   {
+    "w": "spot",
+    "s": 2.98,
+    "e": 3.2
+   },
+   {
+    "w": "in",
+    "s": 3.2,
+    "e": 3.36
+   },
+   {
+    "w": "town,",
+    "s": 3.36,
+    "e": 3.58
+   },
+   {
+    "w": "and",
+    "s": 3.84,
+    "e": 4.06
+   },
+   {
+    "w": "slowly",
+    "s": 4.06,
+    "e": 4.44
+   },
+   {
+    "w": "became",
+    "s": 4.44,
+    "e": 4.76
+   },
+   {
+    "w": "the",
+    "s": 4.76,
+    "e": 4.92
+   },
+   {
+    "w": "cat",
+    "s": 4.92,
+    "e": 5.08
+   },
+   {
+    "w": "on",
+    "s": 5.08,
+    "e": 5.2
+   },
+   {
+    "w": "your",
+    "s": 5.2,
+    "e": 5.32
+   },
+   {
+    "w": "sofa.",
+    "s": 5.32,
+    "e": 5.54
+   }
+  ],
+  "heard": "Scientists think the cats that put up with people got the best hunting spot in town, and slowly became the cat on your sofa.",
+  "match": 1.0
+ },
+ {
+  "id": "H07",
+  "chapter": 0,
+  "text": "So nobody really tamed the cat. It moved in for the mice, and stayed. Point to the dog, for getting here first.",
+  "dur": 6.65,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.03,
+    "e": 0.43
+   },
+   {
+    "w": "nobody",
+    "s": 0.43,
+    "e": 0.83
+   },
+   {
+    "w": "really",
+    "s": 0.83,
+    "e": 1.13
+   },
+   {
+    "w": "tamed",
+    "s": 1.13,
+    "e": 1.69
+   },
+   {
+    "w": "the",
+    "s": 1.69,
+    "e": 1.89
+   },
+   {
+    "w": "cat.",
+    "s": 1.89,
+    "e": 2.13
+   },
+   {
+    "w": "It",
+    "s": 2.77,
+    "e": 2.87
+   },
+   {
+    "w": "moved",
+    "s": 2.87,
+    "e": 3.07
+   },
+   {
+    "w": "in",
+    "s": 3.07,
+    "e": 3.21
+   },
+   {
+    "w": "for",
+    "s": 3.21,
+    "e": 3.35
+   },
+   {
+    "w": "the",
+    "s": 3.35,
+    "e": 3.43
+   },
+   {
+    "w": "mice,",
+    "s": 3.43,
+    "e": 3.67
+   },
+   {
+    "w": "and",
+    "s": 3.89,
+    "e": 3.91
+   },
+   {
+    "w": "stayed.",
+    "s": 3.91,
+    "e": 4.29
+   },
+   {
+    "w": "Point",
+    "s": 5.13,
+    "e": 5.27
+   },
+   {
+    "w": "to",
+    "s": 5.27,
+    "e": 5.39
+   },
+   {
+    "w": "the",
+    "s": 5.39,
+    "e": 5.47
+   },
+   {
+    "w": "dog,",
+    "s": 5.47,
+    "e": 5.69
+   },
+   {
+    "w": "for",
+    "s": 5.81,
+    "e": 5.95
+   },
+   {
+    "w": "getting",
+    "s": 5.95,
+    "e": 6.09
+   },
+   {
+    "w": "here",
+    "s": 6.09,
+    "e": 6.25
+   },
+   {
+    "w": "first.",
+    "s": 6.25,
+    "e": 6.47
+   }
+  ],
+  "heard": "So nobody really tamed the cat. It moved in for the mice, and stayed. Point to the dog, for getting here first.",
+  "match": 1.0
+ },
+ {
+  "id": "B01",
+  "chapter": 1,
+  "text": "Round two. The big one. Who is smarter?",
+  "dur": 4.32,
+  "words": [
+   {
+    "w": "Round",
+    "s": 0.0,
+    "e": 0.5
+   },
+   {
+    "w": "two.",
+    "s": 0.5,
+    "e": 0.84
+   },
+   {
+    "w": "The",
+    "s": 1.52,
+    "e": 1.54
+   },
+   {
+    "w": "big",
+    "s": 1.54,
+    "e": 1.76
+   },
+   {
+    "w": "one.",
+    "s": 1.76,
+    "e": 2.12
+   },
+   {
+    "w": "Who",
+    "s": 2.66,
+    "e": 2.86
+   },
+   {
+    "w": "is",
+    "s": 2.86,
+    "e": 3.5
+   },
+   {
+    "w": "smarter?",
+    "s": 3.5,
+    "e": 4.02
+   }
+  ],
+  "heard": "Round two. The big one. Who is smarter?",
+  "match": 1.0
+ },
+ {
+  "id": "B02",
+  "chapter": 1,
+  "text": "In 2017, a team led by neuroscientist Suzana Herculano-Houzel, at Vanderbilt University, counted the neurons in the brains of meat-eating animals.",
+  "dur": 8.56,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.4,
+    "e": 0.5
+   },
+   {
+    "w": "2017,",
+    "s": 0.5,
+    "e": 0.96
+   },
+   {
+    "w": "a",
+    "s": 1.42,
+    "e": 1.46
+   },
+   {
+    "w": "team",
+    "s": 1.46,
+    "e": 1.62
+   },
+   {
+    "w": "led",
+    "s": 1.62,
+    "e": 1.82
+   },
+   {
+    "w": "by",
+    "s": 1.82,
+    "e": 2.04
+   },
+   {
+    "w": "neuroscientist",
+    "s": 2.04,
+    "e": 2.8
+   },
+   {
+    "w": "Suzana",
+    "s": 2.8,
+    "e": 3.3
+   },
+   {
+    "w": "Herculano-Houzel,",
+    "s": 3.3,
+    "e": 4.36
+   },
+   {
+    "w": "at",
+    "s": 4.36,
+    "e": 4.44
+   },
+   {
+    "w": "Vanderbilt",
+    "s": 4.44,
+    "e": 4.74
+   },
+   {
+    "w": "University,",
+    "s": 4.74,
+    "e": 5.38
+   },
+   {
+    "w": "counted",
+    "s": 5.84,
+    "e": 5.98
+   },
+   {
+    "w": "the",
+    "s": 5.98,
+    "e": 6.18
+   },
+   {
+    "w": "neurons",
+    "s": 6.18,
+    "e": 6.5
+   },
+   {
+    "w": "in",
+    "s": 6.5,
+    "e": 6.74
+   },
+   {
+    "w": "the",
+    "s": 6.74,
+    "e": 6.82
+   },
+   {
+    "w": "brains",
+    "s": 6.82,
+    "e": 7.12
+   },
+   {
+    "w": "of",
+    "s": 7.12,
+    "e": 7.34
+   },
+   {
+    "w": "meat-eating",
+    "s": 7.34,
+    "e": 7.88
+   },
+   {
+    "w": "animals.",
+    "s": 7.88,
+    "e": 8.32
+   }
+  ],
+  "heard": "In 2017, a team led by neuroscientist Suzana Herculano -Houzel, at Vanderbilt University, counted the neurons in the brains of meat -eating animals.",
+  "match": 0.864
+ },
+ {
+  "id": "B03",
+  "chapter": 1,
+  "text": "They looked at the cortex, the wrinkly outer layer that does the planning and the problem-solving.",
+  "dur": 5.0,
+  "words": [
+   {
+    "w": "They",
+    "s": 0.03,
+    "e": 0.23
+   },
+   {
+    "w": "looked",
+    "s": 0.23,
+    "e": 0.35
+   },
+   {
+    "w": "at",
+    "s": 0.35,
+    "e": 0.47
+   },
+   {
+    "w": "the",
+    "s": 0.47,
+    "e": 0.63
+   },
+   {
+    "w": "cortex,",
+    "s": 0.63,
+    "e": 0.87
+   },
+   {
+    "w": "the",
+    "s": 1.21,
+    "e": 1.29
+   },
+   {
+    "w": "wrinkly",
+    "s": 1.29,
+    "e": 1.75
+   },
+   {
+    "w": "outer",
+    "s": 1.75,
+    "e": 2.03
+   },
+   {
+    "w": "layer",
+    "s": 2.03,
+    "e": 2.37
+   },
+   {
+    "w": "that",
+    "s": 2.37,
+    "e": 2.63
+   },
+   {
+    "w": "does",
+    "s": 2.63,
+    "e": 2.81
+   },
+   {
+    "w": "the",
+    "s": 2.81,
+    "e": 2.97
+   },
+   {
+    "w": "planning",
+    "s": 2.97,
+    "e": 3.33
+   },
+   {
+    "w": "and",
+    "s": 3.33,
+    "e": 3.55
+   },
+   {
+    "w": "the",
+    "s": 3.55,
+    "e": 3.63
+   },
+   {
+    "w": "problem-solving.",
+    "s": 3.63,
+    "e": 4.95
+   }
+  ],
+  "heard": "They looked at the cortex, the wrinkly outer layer that does the planning and the problem -solving. A",
+  "match": 0.882
+ },
+ {
+  "id": "B04",
+  "chapter": 1,
+  "text": "A cat has about two hundred and fifty million neurons there. A dog has about five hundred and thirty million. More than twice as many.",
+  "dur": 7.8,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.03,
+    "e": 0.25
+   },
+   {
+    "w": "cat",
+    "s": 0.25,
+    "e": 0.41
+   },
+   {
+    "w": "has",
+    "s": 0.41,
+    "e": 0.59
+   },
+   {
+    "w": "about",
+    "s": 0.59,
+    "e": 0.77
+   },
+   {
+    "w": "two",
+    "s": 0.77,
+    "e": 0.97
+   },
+   {
+    "w": "hundred",
+    "s": 0.97,
+    "e": 1.19
+   },
+   {
+    "w": "and",
+    "s": 1.19,
+    "e": 1.31
+   },
+   {
+    "w": "fifty",
+    "s": 1.31,
+    "e": 1.73
+   },
+   {
+    "w": "million",
+    "s": 1.73,
+    "e": 2.01
+   },
+   {
+    "w": "neurons",
+    "s": 2.01,
+    "e": 2.45
+   },
+   {
+    "w": "there.",
+    "s": 2.45,
+    "e": 2.75
+   },
+   {
+    "w": "A",
+    "s": 3.45,
+    "e": 3.59
+   },
+   {
+    "w": "dog",
+    "s": 3.59,
+    "e": 3.89
+   },
+   {
+    "w": "has",
+    "s": 3.89,
+    "e": 4.29
+   },
+   {
+    "w": "about",
+    "s": 4.29,
+    "e": 4.45
+   },
+   {
+    "w": "five",
+    "s": 4.45,
+    "e": 4.77
+   },
+   {
+    "w": "hundred",
+    "s": 4.77,
+    "e": 5.07
+   },
+   {
+    "w": "and",
+    "s": 5.07,
+    "e": 5.29
+   },
+   {
+    "w": "thirty",
+    "s": 5.29,
+    "e": 5.71
+   },
+   {
+    "w": "million.",
+    "s": 5.71,
+    "e": 6.23
+   },
+   {
+    "w": "More",
+    "s": 6.71,
+    "e": 6.91
+   },
+   {
+    "w": "than",
+    "s": 6.91,
+    "e": 7.05
+   },
+   {
+    "w": "twice",
+    "s": 7.05,
+    "e": 7.21
+   },
+   {
+    "w": "as",
+    "s": 7.21,
+    "e": 7.39
+   },
+   {
+    "w": "many.",
+    "s": 7.39,
+    "e": 7.59
+   }
+  ],
+  "heard": "A cat has about two hundred and fifty million neurons there. A dog has about five hundred and thirty million. More than twice as many.",
+  "match": 1.0
+ },
+ {
+  "id": "B05",
+  "chapter": 1,
+  "text": "And here's the twist. A brown bear's cortex is about ten times bigger than a cat's... with roughly the same number of neurons.",
+  "dur": 7.48,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.03,
+    "e": 0.21
+   },
+   {
+    "w": "here's",
+    "s": 0.21,
+    "e": 0.49
+   },
+   {
+    "w": "the",
+    "s": 0.49,
+    "e": 0.59
+   },
+   {
+    "w": "twist.",
+    "s": 0.59,
+    "e": 0.91
+   },
+   {
+    "w": "A",
+    "s": 0.91,
+    "e": 1.61
+   },
+   {
+    "w": "brown",
+    "s": 1.61,
+    "e": 1.89
+   },
+   {
+    "w": "bear's",
+    "s": 1.89,
+    "e": 2.21
+   },
+   {
+    "w": "cortex",
+    "s": 2.21,
+    "e": 2.55
+   },
+   {
+    "w": "is",
+    "s": 2.55,
+    "e": 2.79
+   },
+   {
+    "w": "about",
+    "s": 2.79,
+    "e": 2.99
+   },
+   {
+    "w": "ten",
+    "s": 2.99,
+    "e": 3.37
+   },
+   {
+    "w": "times",
+    "s": 3.37,
+    "e": 3.87
+   },
+   {
+    "w": "bigger",
+    "s": 3.87,
+    "e": 4.13
+   },
+   {
+    "w": "than",
+    "s": 4.13,
+    "e": 4.29
+   },
+   {
+    "w": "a",
+    "s": 4.29,
+    "e": 4.43
+   },
+   {
+    "w": "cat's...",
+    "s": 4.43,
+    "e": 5.31
+   },
+   {
+    "w": "with",
+    "s": 5.31,
+    "e": 5.41
+   },
+   {
+    "w": "roughly",
+    "s": 5.41,
+    "e": 5.93
+   },
+   {
+    "w": "the",
+    "s": 5.93,
+    "e": 6.15
+   },
+   {
+    "w": "same",
+    "s": 6.15,
+    "e": 6.41
+   },
+   {
+    "w": "number",
+    "s": 6.41,
+    "e": 6.61
+   },
+   {
+    "w": "of",
+    "s": 6.61,
+    "e": 6.79
+   },
+   {
+    "w": "neurons.",
+    "s": 6.79,
+    "e": 7.15
+   }
+  ],
+  "heard": "And here's the twist. A brown bear's cortex is about ten times bigger than a cat's with roughly the same number of neurons.",
+  "match": 1.0
+ },
+ {
+  "id": "B06",
+  "chapter": 1,
+  "text": "So a bigger brain doesn't always mean more thinking cells.",
+  "dur": 3.02,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.17,
+    "e": 0.21
+   },
+   {
+    "w": "a",
+    "s": 0.21,
+    "e": 0.45
+   },
+   {
+    "w": "bigger",
+    "s": 0.45,
+    "e": 0.63
+   },
+   {
+    "w": "brain",
+    "s": 0.63,
+    "e": 0.91
+   },
+   {
+    "w": "doesn't",
+    "s": 0.91,
+    "e": 1.33
+   },
+   {
+    "w": "always",
+    "s": 1.33,
+    "e": 1.65
+   },
+   {
+    "w": "mean",
+    "s": 1.65,
+    "e": 1.93
+   },
+   {
+    "w": "more",
+    "s": 1.93,
+    "e": 2.17
+   },
+   {
+    "w": "thinking",
+    "s": 2.17,
+    "e": 2.45
+   },
+   {
+    "w": "cells.",
+    "s": 2.45,
+    "e": 2.81
+   }
+  ],
+  "heard": "So a bigger brain doesn't always mean more thinking cells.",
+  "match": 1.0
+ },
+ {
+  "id": "B07",
+  "chapter": 1,
+  "text": "Neurons aren't everything, and cats are clever in their own way. But on brain cells, round two goes to the dog.",
+  "dur": 5.98,
+  "words": [
+   {
+    "w": "Neurons",
+    "s": 0.2,
+    "e": 0.38
+   },
+   {
+    "w": "aren't",
+    "s": 0.38,
+    "e": 0.58
+   },
+   {
+    "w": "everything,",
+    "s": 0.58,
+    "e": 0.92
+   },
+   {
+    "w": "and",
+    "s": 1.2,
+    "e": 1.34
+   },
+   {
+    "w": "cats",
+    "s": 1.34,
+    "e": 1.52
+   },
+   {
+    "w": "are",
+    "s": 1.52,
+    "e": 1.68
+   },
+   {
+    "w": "clever",
+    "s": 1.68,
+    "e": 1.84
+   },
+   {
+    "w": "in",
+    "s": 1.84,
+    "e": 2.02
+   },
+   {
+    "w": "their",
+    "s": 2.02,
+    "e": 2.12
+   },
+   {
+    "w": "own",
+    "s": 2.12,
+    "e": 2.26
+   },
+   {
+    "w": "way.",
+    "s": 2.26,
+    "e": 2.5
+   },
+   {
+    "w": "But",
+    "s": 2.92,
+    "e": 3.06
+   },
+   {
+    "w": "on",
+    "s": 3.06,
+    "e": 3.42
+   },
+   {
+    "w": "brain",
+    "s": 3.42,
+    "e": 3.64
+   },
+   {
+    "w": "cells,",
+    "s": 3.64,
+    "e": 3.96
+   },
+   {
+    "w": "round",
+    "s": 4.4,
+    "e": 4.52
+   },
+   {
+    "w": "two",
+    "s": 4.52,
+    "e": 4.82
+   },
+   {
+    "w": "goes",
+    "s": 4.82,
+    "e": 5.32
+   },
+   {
+    "w": "to",
+    "s": 5.32,
+    "e": 5.52
+   },
+   {
+    "w": "the",
+    "s": 5.52,
+    "e": 5.6
+   },
+   {
+    "w": "dog.",
+    "s": 5.6,
+    "e": 5.8
+   }
+  ],
+  "heard": "Neurons aren't everything, and cats are clever in their own way. But on brain cells, round two goes to the dog.",
+  "match": 1.0
+ },
+ {
+  "id": "N01",
+  "chapter": 2,
+  "text": "Round three. Who understands you?",
+  "dur": 2.83,
+  "words": [
+   {
+    "w": "Round",
+    "s": 0.0,
+    "e": 0.44
+   },
+   {
+    "w": "three.",
+    "s": 0.44,
+    "e": 0.76
+   },
+   {
+    "w": "Who",
+    "s": 1.32,
+    "e": 1.46
+   },
+   {
+    "w": "understands",
+    "s": 1.46,
+    "e": 2.24
+   },
+   {
+    "w": "you?",
+    "s": 2.24,
+    "e": 2.7
+   }
+  ],
+  "heard": "Round three. Who understands you?",
+  "match": 1.0
+ },
+ {
+  "id": "N02",
+  "chapter": 2,
+  "text": "A border collie called Chaser learned the names of one thousand and twenty-two toys.",
+  "dur": 4.64,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.08,
+    "e": 0.19
+   },
+   {
+    "w": "border",
+    "s": 0.19,
+    "e": 0.43
+   },
+   {
+    "w": "collie",
+    "s": 0.43,
+    "e": 0.81
+   },
+   {
+    "w": "called",
+    "s": 0.81,
+    "e": 1.03
+   },
+   {
+    "w": "Chaser",
+    "s": 1.03,
+    "e": 1.37
+   },
+   {
+    "w": "learned",
+    "s": 1.37,
+    "e": 1.87
+   },
+   {
+    "w": "the",
+    "s": 1.87,
+    "e": 2.07
+   },
+   {
+    "w": "names",
+    "s": 2.07,
+    "e": 2.27
+   },
+   {
+    "w": "of",
+    "s": 2.27,
+    "e": 2.49
+   },
+   {
+    "w": "one",
+    "s": 2.49,
+    "e": 2.75
+   },
+   {
+    "w": "thousand",
+    "s": 2.75,
+    "e": 3.05
+   },
+   {
+    "w": "and",
+    "s": 3.05,
+    "e": 3.47
+   },
+   {
+    "w": "twenty-two",
+    "s": 3.47,
+    "e": 4.09
+   },
+   {
+    "w": "toys.",
+    "s": 4.09,
+    "e": 4.35
+   }
+  ],
+  "heard": "A border collie called Chaser learned the names of one thousand and twenty -two toys.",
+  "match": 0.897
+ },
+ {
+  "id": "N03",
+  "chapter": 2,
+  "text": "Her owner, psychologist John Pilley, trained her for three years. Ask for any toy by name, and she brought it back from the pile.",
+  "dur": 6.94,
+  "words": [
+   {
+    "w": "Her",
+    "s": 0.07,
+    "e": 0.15
+   },
+   {
+    "w": "owner,",
+    "s": 0.15,
+    "e": 0.45
+   },
+   {
+    "w": "psychologist",
+    "s": 0.61,
+    "e": 1.01
+   },
+   {
+    "w": "John",
+    "s": 1.01,
+    "e": 1.37
+   },
+   {
+    "w": "Pilley,",
+    "s": 1.37,
+    "e": 1.71
+   },
+   {
+    "w": "trained",
+    "s": 2.05,
+    "e": 2.21
+   },
+   {
+    "w": "her",
+    "s": 2.21,
+    "e": 2.39
+   },
+   {
+    "w": "for",
+    "s": 2.39,
+    "e": 2.57
+   },
+   {
+    "w": "three",
+    "s": 2.57,
+    "e": 2.93
+   },
+   {
+    "w": "years.",
+    "s": 2.93,
+    "e": 3.35
+   },
+   {
+    "w": "Ask",
+    "s": 3.87,
+    "e": 3.99
+   },
+   {
+    "w": "for",
+    "s": 3.99,
+    "e": 4.19
+   },
+   {
+    "w": "any",
+    "s": 4.19,
+    "e": 4.35
+   },
+   {
+    "w": "toy",
+    "s": 4.35,
+    "e": 4.53
+   },
+   {
+    "w": "by",
+    "s": 4.53,
+    "e": 4.69
+   },
+   {
+    "w": "name,",
+    "s": 4.69,
+    "e": 4.91
+   },
+   {
+    "w": "and",
+    "s": 5.17,
+    "e": 5.41
+   },
+   {
+    "w": "she",
+    "s": 5.41,
+    "e": 5.61
+   },
+   {
+    "w": "brought",
+    "s": 5.61,
+    "e": 5.83
+   },
+   {
+    "w": "it",
+    "s": 5.83,
+    "e": 5.99
+   },
+   {
+    "w": "back",
+    "s": 5.99,
+    "e": 6.17
+   },
+   {
+    "w": "from",
+    "s": 6.17,
+    "e": 6.35
+   },
+   {
+    "w": "the",
+    "s": 6.35,
+    "e": 6.47
+   },
+   {
+    "w": "pile.",
+    "s": 6.47,
+    "e": 6.71
+   }
+  ],
+  "heard": "Her owner, psychologist John Pilley, trained her for three years. Ask for any toy by name, and she brought it back from the pile.",
+  "match": 1.0
+ },
+ {
+  "id": "N04",
+  "chapter": 2,
+  "text": "Then he added a toy she had never seen, and asked for a name she had never heard. She picked the new one. She worked it out.",
+  "dur": 7.09,
+  "words": [
+   {
+    "w": "Then",
+    "s": 0.09,
+    "e": 0.29
+   },
+   {
+    "w": "he",
+    "s": 0.29,
+    "e": 0.59
+   },
+   {
+    "w": "added",
+    "s": 0.59,
+    "e": 0.81
+   },
+   {
+    "w": "a",
+    "s": 0.81,
+    "e": 1.01
+   },
+   {
+    "w": "toy",
+    "s": 1.01,
+    "e": 1.17
+   },
+   {
+    "w": "she",
+    "s": 1.17,
+    "e": 1.35
+   },
+   {
+    "w": "had",
+    "s": 1.35,
+    "e": 1.45
+   },
+   {
+    "w": "never",
+    "s": 1.45,
+    "e": 1.73
+   },
+   {
+    "w": "seen,",
+    "s": 1.73,
+    "e": 2.07
+   },
+   {
+    "w": "and",
+    "s": 2.23,
+    "e": 2.31
+   },
+   {
+    "w": "asked",
+    "s": 2.31,
+    "e": 2.49
+   },
+   {
+    "w": "for",
+    "s": 2.49,
+    "e": 2.69
+   },
+   {
+    "w": "a",
+    "s": 2.69,
+    "e": 2.75
+   },
+   {
+    "w": "name",
+    "s": 2.75,
+    "e": 2.91
+   },
+   {
+    "w": "she",
+    "s": 2.91,
+    "e": 3.11
+   },
+   {
+    "w": "had",
+    "s": 3.11,
+    "e": 3.23
+   },
+   {
+    "w": "never",
+    "s": 3.23,
+    "e": 3.55
+   },
+   {
+    "w": "heard.",
+    "s": 3.55,
+    "e": 3.91
+   },
+   {
+    "w": "She",
+    "s": 4.57,
+    "e": 4.79
+   },
+   {
+    "w": "picked",
+    "s": 4.79,
+    "e": 5.09
+   },
+   {
+    "w": "the",
+    "s": 5.09,
+    "e": 5.39
+   },
+   {
+    "w": "new",
+    "s": 5.39,
+    "e": 5.55
+   },
+   {
+    "w": "one.",
+    "s": 5.55,
+    "e": 5.75
+   },
+   {
+    "w": "She",
+    "s": 6.15,
+    "e": 6.31
+   },
+   {
+    "w": "worked",
+    "s": 6.31,
+    "e": 6.53
+   },
+   {
+    "w": "it",
+    "s": 6.53,
+    "e": 6.67
+   },
+   {
+    "w": "out.",
+    "s": 6.67,
+    "e": 6.91
+   }
+  ],
+  "heard": "Then he added a toy she had never seen, and asked for a name she had never heard. She picked the new one. She worked it out.",
+  "match": 1.0
+ },
+ {
+  "id": "N05",
+  "chapter": 2,
+  "text": "So cats lose this one? Not so fast.",
+  "dur": 2.69,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.03,
+    "e": 0.31
+   },
+   {
+    "w": "cats",
+    "s": 0.31,
+    "e": 0.67
+   },
+   {
+    "w": "lose",
+    "s": 0.67,
+    "e": 0.89
+   },
+   {
+    "w": "this",
+    "s": 0.89,
+    "e": 1.11
+   },
+   {
+    "w": "one?",
+    "s": 1.11,
+    "e": 1.35
+   },
+   {
+    "w": "Not",
+    "s": 1.81,
+    "e": 1.99
+   },
+   {
+    "w": "so",
+    "s": 1.99,
+    "e": 2.15
+   },
+   {
+    "w": "fast.",
+    "s": 2.15,
+    "e": 2.45
+   }
+  ],
+  "heard": "So cats lose this one? Not so fast.",
+  "match": 1.0
+ },
+ {
+  "id": "N06",
+  "chapter": 2,
+  "text": "In 2019, scientists in Tokyo played cats a list of ordinary words, one after another, and then the cat's own name.",
+  "dur": 7.14,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.03,
+    "e": 0.15
+   },
+   {
+    "w": "2019,",
+    "s": 0.15,
+    "e": 0.63
+   },
+   {
+    "w": "scientists",
+    "s": 1.09,
+    "e": 1.33
+   },
+   {
+    "w": "in",
+    "s": 1.33,
+    "e": 1.63
+   },
+   {
+    "w": "Tokyo",
+    "s": 1.63,
+    "e": 1.97
+   },
+   {
+    "w": "played",
+    "s": 1.97,
+    "e": 2.35
+   },
+   {
+    "w": "cats",
+    "s": 2.35,
+    "e": 2.63
+   },
+   {
+    "w": "a",
+    "s": 2.63,
+    "e": 2.83
+   },
+   {
+    "w": "list",
+    "s": 2.83,
+    "e": 2.95
+   },
+   {
+    "w": "of",
+    "s": 2.95,
+    "e": 3.13
+   },
+   {
+    "w": "ordinary",
+    "s": 3.13,
+    "e": 3.49
+   },
+   {
+    "w": "words,",
+    "s": 3.49,
+    "e": 3.95
+   },
+   {
+    "w": "one",
+    "s": 4.15,
+    "e": 4.51
+   },
+   {
+    "w": "after",
+    "s": 4.51,
+    "e": 4.79
+   },
+   {
+    "w": "another,",
+    "s": 4.79,
+    "e": 5.07
+   },
+   {
+    "w": "and",
+    "s": 5.43,
+    "e": 5.63
+   },
+   {
+    "w": "then",
+    "s": 5.63,
+    "e": 5.87
+   },
+   {
+    "w": "the",
+    "s": 5.87,
+    "e": 6.15
+   },
+   {
+    "w": "cat's",
+    "s": 6.15,
+    "e": 6.45
+   },
+   {
+    "w": "own",
+    "s": 6.45,
+    "e": 6.63
+   },
+   {
+    "w": "name.",
+    "s": 6.63,
+    "e": 6.95
+   }
+  ],
+  "heard": "In 2019, scientists in Tokyo played cats a list of ordinary words, one after another, and then the cat's own name.",
+  "match": 1.0
+ },
+ {
+  "id": "N07",
+  "chapter": 2,
+  "text": "The cats got bored of the words and stopped reacting. But when they heard their name, their ears and heads turned. Even when a stranger said it.",
+  "dur": 7.2,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.03,
+    "e": 0.17
+   },
+   {
+    "w": "cats",
+    "s": 0.17,
+    "e": 0.31
+   },
+   {
+    "w": "got",
+    "s": 0.31,
+    "e": 0.49
+   },
+   {
+    "w": "bored",
+    "s": 0.49,
+    "e": 0.69
+   },
+   {
+    "w": "of",
+    "s": 0.69,
+    "e": 0.81
+   },
+   {
+    "w": "the",
+    "s": 0.81,
+    "e": 0.91
+   },
+   {
+    "w": "words",
+    "s": 0.91,
+    "e": 1.13
+   },
+   {
+    "w": "and",
+    "s": 1.13,
+    "e": 1.51
+   },
+   {
+    "w": "stopped",
+    "s": 1.51,
+    "e": 1.79
+   },
+   {
+    "w": "reacting.",
+    "s": 1.79,
+    "e": 2.15
+   },
+   {
+    "w": "But",
+    "s": 2.57,
+    "e": 2.73
+   },
+   {
+    "w": "when",
+    "s": 2.73,
+    "e": 2.85
+   },
+   {
+    "w": "they",
+    "s": 2.85,
+    "e": 2.95
+   },
+   {
+    "w": "heard",
+    "s": 2.95,
+    "e": 3.11
+   },
+   {
+    "w": "their",
+    "s": 3.11,
+    "e": 3.29
+   },
+   {
+    "w": "name,",
+    "s": 3.29,
+    "e": 3.57
+   },
+   {
+    "w": "their",
+    "s": 3.91,
+    "e": 4.01
+   },
+   {
+    "w": "ears",
+    "s": 4.01,
+    "e": 4.27
+   },
+   {
+    "w": "and",
+    "s": 4.27,
+    "e": 4.49
+   },
+   {
+    "w": "heads",
+    "s": 4.49,
+    "e": 4.75
+   },
+   {
+    "w": "turned.",
+    "s": 4.75,
+    "e": 5.09
+   },
+   {
+    "w": "Even",
+    "s": 5.51,
+    "e": 5.77
+   },
+   {
+    "w": "when",
+    "s": 5.77,
+    "e": 5.95
+   },
+   {
+    "w": "a",
+    "s": 5.95,
+    "e": 6.05
+   },
+   {
+    "w": "stranger",
+    "s": 6.05,
+    "e": 6.39
+   },
+   {
+    "w": "said",
+    "s": 6.39,
+    "e": 6.73
+   },
+   {
+    "w": "it.",
+    "s": 6.73,
+    "e": 7.07
+   }
+  ],
+  "heard": "The cats got bored of the words and stopped reacting. But when they heard their name, their ears and heads turned, even when a stranger said it.",
+  "match": 1.0
+ },
+ {
+  "id": "N08",
+  "chapter": 2,
+  "text": "What they mostly didn't do was walk over, or meow back.",
+  "dur": 3.86,
+  "words": [
+   {
+    "w": "What",
+    "s": 0.04,
+    "e": 0.26
+   },
+   {
+    "w": "they",
+    "s": 0.26,
+    "e": 0.42
+   },
+   {
+    "w": "mostly",
+    "s": 0.42,
+    "e": 0.7
+   },
+   {
+    "w": "didn't",
+    "s": 0.7,
+    "e": 1.34
+   },
+   {
+    "w": "do",
+    "s": 1.34,
+    "e": 1.52
+   },
+   {
+    "w": "was",
+    "s": 1.52,
+    "e": 1.82
+   },
+   {
+    "w": "walk",
+    "s": 1.82,
+    "e": 2.18
+   },
+   {
+    "w": "over,",
+    "s": 2.18,
+    "e": 2.54
+   },
+   {
+    "w": "or",
+    "s": 2.94,
+    "e": 2.98
+   },
+   {
+    "w": "meow",
+    "s": 2.98,
+    "e": 3.34
+   },
+   {
+    "w": "back.",
+    "s": 3.34,
+    "e": 3.6
+   }
+  ],
+  "heard": "What they mostly didn't do was walk over, or meow back.",
+  "match": 1.0
+ },
+ {
+  "id": "N09",
+  "chapter": 2,
+  "text": "So your cat heard you. It just didn't come. A thousand toy names win the round for the dog. But the cat was listening.",
+  "dur": 7.01,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.03,
+    "e": 0.27
+   },
+   {
+    "w": "your",
+    "s": 0.27,
+    "e": 0.69
+   },
+   {
+    "w": "cat",
+    "s": 0.69,
+    "e": 0.89
+   },
+   {
+    "w": "heard",
+    "s": 0.89,
+    "e": 1.25
+   },
+   {
+    "w": "you.",
+    "s": 1.25,
+    "e": 1.55
+   },
+   {
+    "w": "It",
+    "s": 1.87,
+    "e": 2.01
+   },
+   {
+    "w": "just",
+    "s": 2.01,
+    "e": 2.15
+   },
+   {
+    "w": "didn't",
+    "s": 2.15,
+    "e": 2.57
+   },
+   {
+    "w": "come.",
+    "s": 2.57,
+    "e": 2.77
+   },
+   {
+    "w": "A",
+    "s": 3.43,
+    "e": 3.49
+   },
+   {
+    "w": "thousand",
+    "s": 3.49,
+    "e": 3.79
+   },
+   {
+    "w": "toy",
+    "s": 3.79,
+    "e": 4.09
+   },
+   {
+    "w": "names",
+    "s": 4.09,
+    "e": 4.35
+   },
+   {
+    "w": "win",
+    "s": 4.35,
+    "e": 4.57
+   },
+   {
+    "w": "the",
+    "s": 4.57,
+    "e": 4.67
+   },
+   {
+    "w": "round",
+    "s": 4.67,
+    "e": 4.89
+   },
+   {
+    "w": "for",
+    "s": 4.89,
+    "e": 5.07
+   },
+   {
+    "w": "the",
+    "s": 5.07,
+    "e": 5.15
+   },
+   {
+    "w": "dog.",
+    "s": 5.15,
+    "e": 5.37
+   },
+   {
+    "w": "But",
+    "s": 5.87,
+    "e": 6.03
+   },
+   {
+    "w": "the",
+    "s": 6.03,
+    "e": 6.17
+   },
+   {
+    "w": "cat",
+    "s": 6.17,
+    "e": 6.37
+   },
+   {
+    "w": "was",
+    "s": 6.37,
+    "e": 6.55
+   },
+   {
+    "w": "listening.",
+    "s": 6.55,
+    "e": 6.83
+   }
+  ],
+  "heard": "So your cat heard you. It just didn't come. A thousand toy names win the round for the dog. But the cat was listening.",
+  "match": 1.0
+ },
+ {
+  "id": "S01",
+  "chapter": 3,
+  "text": "Round four. Senses. And the dog walks in with its famous nose.",
+  "dur": 5.56,
+  "words": [
+   {
+    "w": "Round",
+    "s": 0.0,
+    "e": 0.66
+   },
+   {
+    "w": "four.",
+    "s": 0.66,
+    "e": 1.14
+   },
+   {
+    "w": "Senses.",
+    "s": 1.88,
+    "e": 2.1
+   },
+   {
+    "w": "And",
+    "s": 2.82,
+    "e": 2.9
+   },
+   {
+    "w": "the",
+    "s": 2.9,
+    "e": 3.02
+   },
+   {
+    "w": "dog",
+    "s": 3.02,
+    "e": 3.22
+   },
+   {
+    "w": "walks",
+    "s": 3.22,
+    "e": 3.46
+   },
+   {
+    "w": "in",
+    "s": 3.46,
+    "e": 3.74
+   },
+   {
+    "w": "with",
+    "s": 3.74,
+    "e": 4.04
+   },
+   {
+    "w": "its",
+    "s": 4.04,
+    "e": 4.32
+   },
+   {
+    "w": "famous",
+    "s": 4.32,
+    "e": 4.84
+   },
+   {
+    "w": "nose.",
+    "s": 4.84,
+    "e": 5.2
+   }
+  ],
+  "heard": "Round four. Senses. And the dog walks in with its famous nose.",
+  "match": 1.0
+ },
+ {
+  "id": "S02",
+  "chapter": 3,
+  "text": "A dog's nose has up to three hundred million smell receptors. Yours has about six million.",
+  "dur": 5.72,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.03,
+    "e": 0.19
+   },
+   {
+    "w": "dog's",
+    "s": 0.19,
+    "e": 0.51
+   },
+   {
+    "w": "nose",
+    "s": 0.51,
+    "e": 0.69
+   },
+   {
+    "w": "has",
+    "s": 0.69,
+    "e": 1.05
+   },
+   {
+    "w": "up",
+    "s": 1.05,
+    "e": 1.21
+   },
+   {
+    "w": "to",
+    "s": 1.21,
+    "e": 1.45
+   },
+   {
+    "w": "three",
+    "s": 1.45,
+    "e": 1.75
+   },
+   {
+    "w": "hundred",
+    "s": 1.75,
+    "e": 2.21
+   },
+   {
+    "w": "million",
+    "s": 2.21,
+    "e": 2.79
+   },
+   {
+    "w": "smell",
+    "s": 2.79,
+    "e": 3.25
+   },
+   {
+    "w": "receptors.",
+    "s": 3.25,
+    "e": 3.77
+   },
+   {
+    "w": "Yours",
+    "s": 4.37,
+    "e": 4.65
+   },
+   {
+    "w": "has",
+    "s": 4.65,
+    "e": 4.75
+   },
+   {
+    "w": "about",
+    "s": 4.75,
+    "e": 4.97
+   },
+   {
+    "w": "six",
+    "s": 4.97,
+    "e": 5.21
+   },
+   {
+    "w": "million.",
+    "s": 5.21,
+    "e": 5.51
+   }
+  ],
+  "heard": "A dog's nose has up to three hundred million smell receptors. Yours has about six million.",
+  "match": 1.0
+ },
+ {
+  "id": "S03",
+  "chapter": 3,
+  "text": "That's why dogs can be trained to sniff out things we can't smell at all.",
+  "dur": 3.15,
+  "words": [
+   {
+    "w": "That's",
+    "s": 0.03,
+    "e": 0.37
+   },
+   {
+    "w": "why",
+    "s": 0.37,
+    "e": 0.51
+   },
+   {
+    "w": "dogs",
+    "s": 0.51,
+    "e": 0.73
+   },
+   {
+    "w": "can",
+    "s": 0.73,
+    "e": 0.93
+   },
+   {
+    "w": "be",
+    "s": 0.93,
+    "e": 1.03
+   },
+   {
+    "w": "trained",
+    "s": 1.03,
+    "e": 1.23
+   },
+   {
+    "w": "to",
+    "s": 1.23,
+    "e": 1.39
+   },
+   {
+    "w": "sniff",
+    "s": 1.39,
+    "e": 1.53
+   },
+   {
+    "w": "out",
+    "s": 1.53,
+    "e": 1.73
+   },
+   {
+    "w": "things",
+    "s": 1.73,
+    "e": 1.89
+   },
+   {
+    "w": "we",
+    "s": 1.89,
+    "e": 2.11
+   },
+   {
+    "w": "can't",
+    "s": 2.11,
+    "e": 2.41
+   },
+   {
+    "w": "smell",
+    "s": 2.41,
+    "e": 2.59
+   },
+   {
+    "w": "at",
+    "s": 2.59,
+    "e": 2.73
+   },
+   {
+    "w": "all.",
+    "s": 2.73,
+    "e": 2.99
+   }
+  ],
+  "heard": "That's why dogs can be trained to sniff out things we can't smell at all.",
+  "match": 1.0
+ },
+ {
+  "id": "S04",
+  "chapter": 3,
+  "text": "But the cat's secret weapon is on top of its head.",
+  "dur": 2.9,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.03,
+    "e": 0.33
+   },
+   {
+    "w": "the",
+    "s": 0.33,
+    "e": 0.49
+   },
+   {
+    "w": "cat's",
+    "s": 0.49,
+    "e": 0.87
+   },
+   {
+    "w": "secret",
+    "s": 0.87,
+    "e": 1.11
+   },
+   {
+    "w": "weapon",
+    "s": 1.11,
+    "e": 1.45
+   },
+   {
+    "w": "is",
+    "s": 1.45,
+    "e": 1.87
+   },
+   {
+    "w": "on",
+    "s": 1.87,
+    "e": 2.05
+   },
+   {
+    "w": "top",
+    "s": 2.05,
+    "e": 2.25
+   },
+   {
+    "w": "of",
+    "s": 2.25,
+    "e": 2.41
+   },
+   {
+    "w": "its",
+    "s": 2.41,
+    "e": 2.53
+   },
+   {
+    "w": "head.",
+    "s": 2.53,
+    "e": 2.75
+   }
+  ],
+  "heard": "But the cat's secret weapon is on top of its head.",
+  "match": 1.0
+ },
+ {
+  "id": "S05",
+  "chapter": 3,
+  "text": "In the 1980s, hearing scientists Henry and Rickye Heffner tested how high a sound different animals can hear.",
+  "dur": 5.44,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.03,
+    "e": 0.21
+   },
+   {
+    "w": "the",
+    "s": 0.21,
+    "e": 0.29
+   },
+   {
+    "w": "1980s,",
+    "s": 0.29,
+    "e": 0.89
+   },
+   {
+    "w": "hearing",
+    "s": 1.01,
+    "e": 1.17
+   },
+   {
+    "w": "scientists",
+    "s": 1.17,
+    "e": 1.59
+   },
+   {
+    "w": "Henry",
+    "s": 1.59,
+    "e": 1.97
+   },
+   {
+    "w": "and",
+    "s": 1.97,
+    "e": 2.25
+   },
+   {
+    "w": "Rickye",
+    "s": 2.25,
+    "e": 2.55
+   },
+   {
+    "w": "Heffner",
+    "s": 2.55,
+    "e": 2.81
+   },
+   {
+    "w": "tested",
+    "s": 2.81,
+    "e": 3.15
+   },
+   {
+    "w": "how",
+    "s": 3.15,
+    "e": 3.49
+   },
+   {
+    "w": "high",
+    "s": 3.49,
+    "e": 3.83
+   },
+   {
+    "w": "a",
+    "s": 3.83,
+    "e": 3.95
+   },
+   {
+    "w": "sound",
+    "s": 3.95,
+    "e": 4.25
+   },
+   {
+    "w": "different",
+    "s": 4.25,
+    "e": 4.57
+   },
+   {
+    "w": "animals",
+    "s": 4.57,
+    "e": 4.85
+   },
+   {
+    "w": "can",
+    "s": 4.85,
+    "e": 5.05
+   },
+   {
+    "w": "hear.",
+    "s": 5.05,
+    "e": 5.31
+   }
+  ],
+  "heard": "In the 1980s, hearing scientists Henry and Rickye Heffner tested how high a sound different animals can hear.",
+  "match": 1.0
+ },
+ {
+  "id": "S06",
+  "chapter": 3,
+  "text": "Dogs heard up to about forty-five thousand vibrations a second. That's already twice what you can hear.",
+  "dur": 4.38,
+  "words": [
+   {
+    "w": "Dogs",
+    "s": 0.19,
+    "e": 0.33
+   },
+   {
+    "w": "heard",
+    "s": 0.33,
+    "e": 0.55
+   },
+   {
+    "w": "up",
+    "s": 0.55,
+    "e": 0.67
+   },
+   {
+    "w": "to",
+    "s": 0.67,
+    "e": 0.79
+   },
+   {
+    "w": "about",
+    "s": 0.79,
+    "e": 1.01
+   },
+   {
+    "w": "forty-five",
+    "s": 1.01,
+    "e": 1.61
+   },
+   {
+    "w": "thousand",
+    "s": 1.61,
+    "e": 1.91
+   },
+   {
+    "w": "vibrations",
+    "s": 1.91,
+    "e": 2.31
+   },
+   {
+    "w": "a",
+    "s": 2.31,
+    "e": 2.55
+   },
+   {
+    "w": "second.",
+    "s": 2.55,
+    "e": 2.77
+   },
+   {
+    "w": "That's",
+    "s": 2.99,
+    "e": 3.19
+   },
+   {
+    "w": "already",
+    "s": 3.19,
+    "e": 3.39
+   },
+   {
+    "w": "twice",
+    "s": 3.39,
+    "e": 3.69
+   },
+   {
+    "w": "what",
+    "s": 3.69,
+    "e": 3.89
+   },
+   {
+    "w": "you",
+    "s": 3.89,
+    "e": 3.99
+   },
+   {
+    "w": "can",
+    "s": 3.99,
+    "e": 4.11
+   },
+   {
+    "w": "hear.",
+    "s": 4.11,
+    "e": 4.33
+   }
+  ],
+  "heard": "Dogs heard up to about forty -five thousand vibrations a second. That's already twice what you can hear. Cats",
+  "match": 0.889
+ },
+ {
+  "id": "S07",
+  "chapter": 3,
+  "text": "Cats kept going, to about eighty-five thousand. One of the widest hearing ranges of any mammal.",
+  "dur": 6.22,
+  "words": [
+   {
+    "w": "Cats",
+    "s": 0.03,
+    "e": 0.95
+   },
+   {
+    "w": "kept",
+    "s": 0.95,
+    "e": 1.33
+   },
+   {
+    "w": "going,",
+    "s": 1.33,
+    "e": 1.81
+   },
+   {
+    "w": "to",
+    "s": 2.09,
+    "e": 2.19
+   },
+   {
+    "w": "about",
+    "s": 2.19,
+    "e": 2.39
+   },
+   {
+    "w": "eighty-five",
+    "s": 2.39,
+    "e": 3.13
+   },
+   {
+    "w": "thousand.",
+    "s": 3.13,
+    "e": 3.51
+   },
+   {
+    "w": "One",
+    "s": 3.93,
+    "e": 4.09
+   },
+   {
+    "w": "of",
+    "s": 4.09,
+    "e": 4.19
+   },
+   {
+    "w": "the",
+    "s": 4.19,
+    "e": 4.31
+   },
+   {
+    "w": "widest",
+    "s": 4.31,
+    "e": 4.65
+   },
+   {
+    "w": "hearing",
+    "s": 4.65,
+    "e": 4.93
+   },
+   {
+    "w": "ranges",
+    "s": 4.93,
+    "e": 5.27
+   },
+   {
+    "w": "of",
+    "s": 5.27,
+    "e": 5.49
+   },
+   {
+    "w": "any",
+    "s": 5.49,
+    "e": 5.73
+   },
+   {
+    "w": "mammal.",
+    "s": 5.73,
+    "e": 6.05
+   }
+  ],
+  "heard": "Cats kept going, to about eighty -five thousand. One of the widest hearing ranges of any mammal.",
+  "match": 0.909
+ },
+ {
+  "id": "S08",
+  "chapter": 3,
+  "text": "High enough to catch the tiny squeaks that mice make, sounds you will never hear.",
+  "dur": 3.97,
+  "words": [
+   {
+    "w": "High",
+    "s": 0.04,
+    "e": 0.24
+   },
+   {
+    "w": "enough",
+    "s": 0.24,
+    "e": 0.42
+   },
+   {
+    "w": "to",
+    "s": 0.42,
+    "e": 0.62
+   },
+   {
+    "w": "catch",
+    "s": 0.62,
+    "e": 0.8
+   },
+   {
+    "w": "the",
+    "s": 0.8,
+    "e": 1.0
+   },
+   {
+    "w": "tiny",
+    "s": 1.0,
+    "e": 1.26
+   },
+   {
+    "w": "squeaks",
+    "s": 1.26,
+    "e": 1.66
+   },
+   {
+    "w": "that",
+    "s": 1.66,
+    "e": 1.8
+   },
+   {
+    "w": "mice",
+    "s": 1.8,
+    "e": 1.96
+   },
+   {
+    "w": "make,",
+    "s": 1.96,
+    "e": 2.24
+   },
+   {
+    "w": "sounds",
+    "s": 2.84,
+    "e": 2.84
+   },
+   {
+    "w": "you",
+    "s": 2.84,
+    "e": 3.12
+   },
+   {
+    "w": "will",
+    "s": 3.12,
+    "e": 3.32
+   },
+   {
+    "w": "never",
+    "s": 3.32,
+    "e": 3.5
+   },
+   {
+    "w": "hear.",
+    "s": 3.5,
+    "e": 3.78
+   }
+  ],
+  "heard": "High enough to catch the tiny squeaks that mice make. Sounds you will never hear.",
+  "match": 1.0
+ },
+ {
+  "id": "S09",
+  "chapter": 3,
+  "text": "And each ear can turn on its own, to find exactly where a sound came from. Nose to the dog, ears to the cat. One point each.",
+  "dur": 7.31,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.07,
+    "e": 0.21
+   },
+   {
+    "w": "each",
+    "s": 0.21,
+    "e": 0.45
+   },
+   {
+    "w": "ear",
+    "s": 0.45,
+    "e": 0.73
+   },
+   {
+    "w": "can",
+    "s": 0.73,
+    "e": 0.99
+   },
+   {
+    "w": "turn",
+    "s": 0.99,
+    "e": 1.19
+   },
+   {
+    "w": "on",
+    "s": 1.19,
+    "e": 1.33
+   },
+   {
+    "w": "its",
+    "s": 1.33,
+    "e": 1.45
+   },
+   {
+    "w": "own,",
+    "s": 1.45,
+    "e": 1.75
+   },
+   {
+    "w": "to",
+    "s": 2.01,
+    "e": 2.17
+   },
+   {
+    "w": "find",
+    "s": 2.17,
+    "e": 2.31
+   },
+   {
+    "w": "exactly",
+    "s": 2.31,
+    "e": 2.69
+   },
+   {
+    "w": "where",
+    "s": 2.69,
+    "e": 3.01
+   },
+   {
+    "w": "a",
+    "s": 3.01,
+    "e": 3.11
+   },
+   {
+    "w": "sound",
+    "s": 3.11,
+    "e": 3.23
+   },
+   {
+    "w": "came",
+    "s": 3.23,
+    "e": 3.43
+   },
+   {
+    "w": "from.",
+    "s": 3.43,
+    "e": 3.71
+   },
+   {
+    "w": "Nose",
+    "s": 4.43,
+    "e": 4.49
+   },
+   {
+    "w": "to",
+    "s": 4.49,
+    "e": 4.67
+   },
+   {
+    "w": "the",
+    "s": 4.67,
+    "e": 4.77
+   },
+   {
+    "w": "dog,",
+    "s": 4.77,
+    "e": 5.01
+   },
+   {
+    "w": "ears",
+    "s": 5.43,
+    "e": 5.53
+   },
+   {
+    "w": "to",
+    "s": 5.53,
+    "e": 5.71
+   },
+   {
+    "w": "the",
+    "s": 5.71,
+    "e": 5.79
+   },
+   {
+    "w": "cat.",
+    "s": 5.79,
+    "e": 6.03
+   },
+   {
+    "w": "One",
+    "s": 6.51,
+    "e": 6.67
+   },
+   {
+    "w": "point",
+    "s": 6.67,
+    "e": 6.87
+   },
+   {
+    "w": "each.",
+    "s": 6.87,
+    "e": 7.13
+   }
+  ],
+  "heard": "And each ear can turn on its own, to find exactly where a sound came from. Nose to the dog, ears to the cat. One point each.",
+  "match": 1.0
+ },
+ {
+  "id": "D01",
+  "chapter": 4,
+  "text": "Round five sounds silly. Who drinks better?",
+  "dur": 3.53,
+  "words": [
+   {
+    "w": "Round",
+    "s": 0.0,
+    "e": 0.52
+   },
+   {
+    "w": "five",
+    "s": 0.52,
+    "e": 0.88
+   },
+   {
+    "w": "sounds",
+    "s": 0.88,
+    "e": 1.74
+   },
+   {
+    "w": "silly.",
+    "s": 1.74,
+    "e": 2.18
+   },
+   {
+    "w": "Who",
+    "s": 2.5,
+    "e": 2.64
+   },
+   {
+    "w": "drinks",
+    "s": 2.64,
+    "e": 2.94
+   },
+   {
+    "w": "better?",
+    "s": 2.94,
+    "e": 3.34
+   }
+  ],
+  "heard": "Round five sounds silly. Who drinks better?",
+  "match": 1.0
+ },
+ {
+  "id": "D02",
+  "chapter": 4,
+  "text": "Watch a dog drink, and there's water everywhere. Watch a cat, and the bowl barely moves.",
+  "dur": 5.61,
+  "words": [
+   {
+    "w": "Watch",
+    "s": 0.03,
+    "e": 0.37
+   },
+   {
+    "w": "a",
+    "s": 0.37,
+    "e": 0.53
+   },
+   {
+    "w": "dog",
+    "s": 0.53,
+    "e": 0.73
+   },
+   {
+    "w": "drink,",
+    "s": 0.73,
+    "e": 0.97
+   },
+   {
+    "w": "and",
+    "s": 1.07,
+    "e": 1.17
+   },
+   {
+    "w": "there's",
+    "s": 1.17,
+    "e": 1.47
+   },
+   {
+    "w": "water",
+    "s": 1.47,
+    "e": 1.75
+   },
+   {
+    "w": "everywhere.",
+    "s": 1.75,
+    "e": 2.53
+   },
+   {
+    "w": "Watch",
+    "s": 3.27,
+    "e": 3.53
+   },
+   {
+    "w": "a",
+    "s": 3.53,
+    "e": 3.65
+   },
+   {
+    "w": "cat,",
+    "s": 3.65,
+    "e": 3.91
+   },
+   {
+    "w": "and",
+    "s": 4.11,
+    "e": 4.21
+   },
+   {
+    "w": "the",
+    "s": 4.21,
+    "e": 4.39
+   },
+   {
+    "w": "bowl",
+    "s": 4.39,
+    "e": 4.57
+   },
+   {
+    "w": "barely",
+    "s": 4.57,
+    "e": 4.95
+   },
+   {
+    "w": "moves.",
+    "s": 4.95,
+    "e": 5.31
+   }
+  ],
+  "heard": "Watch a dog drink, and there's water everywhere. Watch a cat, and the bowl barely moves.",
+  "match": 1.0
+ },
+ {
+  "id": "D03",
+  "chapter": 4,
+  "text": "In 2010, engineers at MIT filmed cats drinking in slow motion, and found something nobody expected.",
+  "dur": 6.56,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.03,
+    "e": 0.19
+   },
+   {
+    "w": "2010,",
+    "s": 0.19,
+    "e": 0.77
+   },
+   {
+    "w": "engineers",
+    "s": 1.37,
+    "e": 1.55
+   },
+   {
+    "w": "at",
+    "s": 1.55,
+    "e": 1.81
+   },
+   {
+    "w": "MIT",
+    "s": 1.81,
+    "e": 2.13
+   },
+   {
+    "w": "filmed",
+    "s": 2.13,
+    "e": 2.59
+   },
+   {
+    "w": "cats",
+    "s": 2.59,
+    "e": 2.97
+   },
+   {
+    "w": "drinking",
+    "s": 2.97,
+    "e": 3.29
+   },
+   {
+    "w": "in",
+    "s": 3.29,
+    "e": 3.57
+   },
+   {
+    "w": "slow",
+    "s": 3.57,
+    "e": 3.79
+   },
+   {
+    "w": "motion,",
+    "s": 3.79,
+    "e": 4.11
+   },
+   {
+    "w": "and",
+    "s": 4.33,
+    "e": 4.67
+   },
+   {
+    "w": "found",
+    "s": 4.67,
+    "e": 4.85
+   },
+   {
+    "w": "something",
+    "s": 4.85,
+    "e": 5.19
+   },
+   {
+    "w": "nobody",
+    "s": 5.19,
+    "e": 5.71
+   },
+   {
+    "w": "expected.",
+    "s": 5.71,
+    "e": 6.35
+   }
+  ],
+  "heard": "In 2010, engineers at MIT filmed cats drinking in slow motion, and found something nobody expected.",
+  "match": 1.0
+ },
+ {
+  "id": "D04",
+  "chapter": 4,
+  "text": "The cat's tongue doesn't scoop at all. The tip just touches the water and pulls back, so fast that it drags up a little column of water.",
+  "dur": 8.74,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.03,
+    "e": 0.49
+   },
+   {
+    "w": "cat's",
+    "s": 0.49,
+    "e": 0.81
+   },
+   {
+    "w": "tongue",
+    "s": 0.81,
+    "e": 1.09
+   },
+   {
+    "w": "doesn't",
+    "s": 1.09,
+    "e": 1.71
+   },
+   {
+    "w": "scoop",
+    "s": 1.71,
+    "e": 2.05
+   },
+   {
+    "w": "at",
+    "s": 2.05,
+    "e": 2.27
+   },
+   {
+    "w": "all.",
+    "s": 2.27,
+    "e": 2.53
+   },
+   {
+    "w": "The",
+    "s": 3.09,
+    "e": 3.29
+   },
+   {
+    "w": "tip",
+    "s": 3.29,
+    "e": 3.45
+   },
+   {
+    "w": "just",
+    "s": 3.45,
+    "e": 3.71
+   },
+   {
+    "w": "touches",
+    "s": 3.71,
+    "e": 4.17
+   },
+   {
+    "w": "the",
+    "s": 4.17,
+    "e": 4.37
+   },
+   {
+    "w": "water",
+    "s": 4.37,
+    "e": 4.67
+   },
+   {
+    "w": "and",
+    "s": 4.67,
+    "e": 5.09
+   },
+   {
+    "w": "pulls",
+    "s": 5.09,
+    "e": 5.31
+   },
+   {
+    "w": "back,",
+    "s": 5.31,
+    "e": 5.67
+   },
+   {
+    "w": "so",
+    "s": 5.69,
+    "e": 6.23
+   },
+   {
+    "w": "fast",
+    "s": 6.23,
+    "e": 6.57
+   },
+   {
+    "w": "that",
+    "s": 6.57,
+    "e": 6.77
+   },
+   {
+    "w": "it",
+    "s": 6.77,
+    "e": 6.89
+   },
+   {
+    "w": "drags",
+    "s": 6.89,
+    "e": 7.27
+   },
+   {
+    "w": "up",
+    "s": 7.27,
+    "e": 7.47
+   },
+   {
+    "w": "a",
+    "s": 7.47,
+    "e": 7.61
+   },
+   {
+    "w": "little",
+    "s": 7.61,
+    "e": 7.71
+   },
+   {
+    "w": "column",
+    "s": 7.71,
+    "e": 8.07
+   },
+   {
+    "w": "of",
+    "s": 8.07,
+    "e": 8.27
+   },
+   {
+    "w": "water.",
+    "s": 8.27,
+    "e": 8.55
+   }
+  ],
+  "heard": "The cat's tongue doesn't scoop at all. The tip just touches the water and pulls back, so fast that it drags up a little column of water.",
+  "match": 1.0
+ },
+ {
+  "id": "D05",
+  "chapter": 4,
+  "text": "Then the cat closes its mouth at exactly the right moment, before gravity pulls the column back down.",
+  "dur": 6.14,
+  "words": [
+   {
+    "w": "Then",
+    "s": 0.03,
+    "e": 0.55
+   },
+   {
+    "w": "the",
+    "s": 0.55,
+    "e": 0.71
+   },
+   {
+    "w": "cat",
+    "s": 0.71,
+    "e": 0.91
+   },
+   {
+    "w": "closes",
+    "s": 0.91,
+    "e": 1.23
+   },
+   {
+    "w": "its",
+    "s": 1.23,
+    "e": 1.47
+   },
+   {
+    "w": "mouth",
+    "s": 1.47,
+    "e": 1.73
+   },
+   {
+    "w": "at",
+    "s": 1.73,
+    "e": 1.99
+   },
+   {
+    "w": "exactly",
+    "s": 1.99,
+    "e": 2.53
+   },
+   {
+    "w": "the",
+    "s": 2.53,
+    "e": 2.85
+   },
+   {
+    "w": "right",
+    "s": 2.85,
+    "e": 3.01
+   },
+   {
+    "w": "moment,",
+    "s": 3.01,
+    "e": 3.45
+   },
+   {
+    "w": "before",
+    "s": 3.77,
+    "e": 4.15
+   },
+   {
+    "w": "gravity",
+    "s": 4.15,
+    "e": 4.65
+   },
+   {
+    "w": "pulls",
+    "s": 4.65,
+    "e": 4.91
+   },
+   {
+    "w": "the",
+    "s": 4.91,
+    "e": 5.11
+   },
+   {
+    "w": "column",
+    "s": 5.11,
+    "e": 5.27
+   },
+   {
+    "w": "back",
+    "s": 5.27,
+    "e": 5.51
+   },
+   {
+    "w": "down.",
+    "s": 5.51,
+    "e": 6.01
+   }
+  ],
+  "heard": "Then the cat closes its mouth at exactly the right moment, before gravity pulls the column back down.",
+  "match": 1.0
+ },
+ {
+  "id": "D06",
+  "chapter": 4,
+  "text": "About four times every second.",
+  "dur": 1.97,
+  "words": [
+   {
+    "w": "About",
+    "s": 0.04,
+    "e": 0.38
+   },
+   {
+    "w": "four",
+    "s": 0.38,
+    "e": 0.8
+   },
+   {
+    "w": "times",
+    "s": 0.8,
+    "e": 1.2
+   },
+   {
+    "w": "every",
+    "s": 1.2,
+    "e": 1.46
+   },
+   {
+    "w": "second.",
+    "s": 1.46,
+    "e": 1.62
+   }
+  ],
+  "heard": "About four times every second.",
+  "match": 1.0
+ },
+ {
+  "id": "D07",
+  "chapter": 4,
+  "text": "In 2015, a team at Virginia Tech filmed nineteen dogs drinking. And here's the twist: dogs use the same trick.",
+  "dur": 7.43,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.03,
+    "e": 0.55
+   },
+   {
+    "w": "2015,",
+    "s": 0.55,
+    "e": 1.05
+   },
+   {
+    "w": "a",
+    "s": 1.59,
+    "e": 1.65
+   },
+   {
+    "w": "team",
+    "s": 1.65,
+    "e": 1.79
+   },
+   {
+    "w": "at",
+    "s": 1.79,
+    "e": 1.93
+   },
+   {
+    "w": "Virginia",
+    "s": 1.93,
+    "e": 2.17
+   },
+   {
+    "w": "Tech",
+    "s": 2.17,
+    "e": 2.51
+   },
+   {
+    "w": "filmed",
+    "s": 2.51,
+    "e": 2.81
+   },
+   {
+    "w": "nineteen",
+    "s": 2.81,
+    "e": 3.31
+   },
+   {
+    "w": "dogs",
+    "s": 3.31,
+    "e": 3.69
+   },
+   {
+    "w": "drinking.",
+    "s": 3.69,
+    "e": 3.99
+   },
+   {
+    "w": "And",
+    "s": 4.67,
+    "e": 4.81
+   },
+   {
+    "w": "here's",
+    "s": 4.81,
+    "e": 5.05
+   },
+   {
+    "w": "the",
+    "s": 5.05,
+    "e": 5.17
+   },
+   {
+    "w": "twist:",
+    "s": 5.17,
+    "e": 5.45
+   },
+   {
+    "w": "dogs",
+    "s": 6.23,
+    "e": 6.25
+   },
+   {
+    "w": "use",
+    "s": 6.25,
+    "e": 6.53
+   },
+   {
+    "w": "the",
+    "s": 6.53,
+    "e": 6.75
+   },
+   {
+    "w": "same",
+    "s": 6.75,
+    "e": 6.95
+   },
+   {
+    "w": "trick.",
+    "s": 6.95,
+    "e": 7.29
+   }
+  ],
+  "heard": "In 2015, a team at Virginia Tech filmed nineteen dogs drinking. And here's the twist. Dogs use the same trick.",
+  "match": 1.0
+ },
+ {
+  "id": "D08",
+  "chapter": 4,
+  "text": "The dog curls its tongue backwards, slams it into the water, pulls up a bigger column, and bites it.",
+  "dur": 5.96,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.03,
+    "e": 0.31
+   },
+   {
+    "w": "dog",
+    "s": 0.31,
+    "e": 0.53
+   },
+   {
+    "w": "curls",
+    "s": 0.53,
+    "e": 0.83
+   },
+   {
+    "w": "its",
+    "s": 0.83,
+    "e": 1.03
+   },
+   {
+    "w": "tongue",
+    "s": 1.03,
+    "e": 1.21
+   },
+   {
+    "w": "backwards,",
+    "s": 1.21,
+    "e": 1.61
+   },
+   {
+    "w": "slams",
+    "s": 2.15,
+    "e": 2.29
+   },
+   {
+    "w": "it",
+    "s": 2.29,
+    "e": 2.47
+   },
+   {
+    "w": "into",
+    "s": 2.47,
+    "e": 2.63
+   },
+   {
+    "w": "the",
+    "s": 2.63,
+    "e": 2.79
+   },
+   {
+    "w": "water,",
+    "s": 2.79,
+    "e": 3.11
+   },
+   {
+    "w": "pulls",
+    "s": 3.55,
+    "e": 3.77
+   },
+   {
+    "w": "up",
+    "s": 3.77,
+    "e": 3.91
+   },
+   {
+    "w": "a",
+    "s": 3.91,
+    "e": 4.11
+   },
+   {
+    "w": "bigger",
+    "s": 4.11,
+    "e": 4.33
+   },
+   {
+    "w": "column,",
+    "s": 4.33,
+    "e": 4.71
+   },
+   {
+    "w": "and",
+    "s": 4.99,
+    "e": 5.31
+   },
+   {
+    "w": "bites",
+    "s": 5.31,
+    "e": 5.57
+   },
+   {
+    "w": "it.",
+    "s": 5.57,
+    "e": 5.83
+   }
+  ],
+  "heard": "The dog curls its tongue backwards, slams it into the water, pulls up a bigger column, and bites it.",
+  "match": 1.0
+ },
+ {
+  "id": "D09",
+  "chapter": 4,
+  "text": "The splash is just the side effect of a much harder, faster tongue. Same physics, different style. Point to the cat, for neatness.",
+  "dur": 7.54,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.04,
+    "e": 0.2
+   },
+   {
+    "w": "splash",
+    "s": 0.2,
+    "e": 0.46
+   },
+   {
+    "w": "is",
+    "s": 0.46,
+    "e": 0.68
+   },
+   {
+    "w": "just",
+    "s": 0.68,
+    "e": 0.84
+   },
+   {
+    "w": "the",
+    "s": 0.84,
+    "e": 1.02
+   },
+   {
+    "w": "side",
+    "s": 1.02,
+    "e": 1.2
+   },
+   {
+    "w": "effect",
+    "s": 1.2,
+    "e": 1.4
+   },
+   {
+    "w": "of",
+    "s": 1.4,
+    "e": 1.58
+   },
+   {
+    "w": "a",
+    "s": 1.58,
+    "e": 1.7
+   },
+   {
+    "w": "much",
+    "s": 1.7,
+    "e": 1.84
+   },
+   {
+    "w": "harder,",
+    "s": 1.84,
+    "e": 2.3
+   },
+   {
+    "w": "faster",
+    "s": 2.56,
+    "e": 2.8
+   },
+   {
+    "w": "tongue.",
+    "s": 2.8,
+    "e": 3.12
+   },
+   {
+    "w": "Same",
+    "s": 3.84,
+    "e": 4.06
+   },
+   {
+    "w": "physics,",
+    "s": 4.06,
+    "e": 4.32
+   },
+   {
+    "w": "different",
+    "s": 4.82,
+    "e": 5.08
+   },
+   {
+    "w": "style.",
+    "s": 5.08,
+    "e": 5.36
+   },
+   {
+    "w": "Point",
+    "s": 6.0,
+    "e": 6.36
+   },
+   {
+    "w": "to",
+    "s": 6.36,
+    "e": 6.5
+   },
+   {
+    "w": "the",
+    "s": 6.5,
+    "e": 6.6
+   },
+   {
+    "w": "cat,",
+    "s": 6.6,
+    "e": 6.76
+   },
+   {
+    "w": "for",
+    "s": 6.96,
+    "e": 7.02
+   },
+   {
+    "w": "neatness.",
+    "s": 7.02,
+    "e": 7.36
+   }
+  ],
+  "heard": "The splash is just the side effect of a much harder, faster tongue. Same physics, different style. Point to the cat, for neatness.",
+  "match": 1.0
+ },
+ {
+  "id": "C01",
+  "chapter": 5,
+  "text": "Round six. Who controls you?",
+  "dur": 2.57,
+  "words": [
+   {
+    "w": "Round",
+    "s": 0.0,
+    "e": 0.44
+   },
+   {
+    "w": "six.",
+    "s": 0.44,
+    "e": 0.78
+   },
+   {
+    "w": "Who",
+    "s": 1.6,
+    "e": 1.68
+   },
+   {
+    "w": "controls",
+    "s": 1.68,
+    "e": 2.02
+   },
+   {
+    "w": "you?",
+    "s": 2.02,
+    "e": 2.32
+   }
+  ],
+  "heard": "Round six. Who controls you?",
+  "match": 1.0
+ },
+ {
+  "id": "C02",
+  "chapter": 5,
+  "text": "Look into a dog's eyes when it wants something. Those big, sad puppy eyes.",
+  "dur": 4.52,
+  "words": [
+   {
+    "w": "Look",
+    "s": 0.11,
+    "e": 0.19
+   },
+   {
+    "w": "into",
+    "s": 0.19,
+    "e": 0.39
+   },
+   {
+    "w": "a",
+    "s": 0.39,
+    "e": 0.55
+   },
+   {
+    "w": "dog's",
+    "s": 0.55,
+    "e": 0.89
+   },
+   {
+    "w": "eyes",
+    "s": 0.89,
+    "e": 1.01
+   },
+   {
+    "w": "when",
+    "s": 1.01,
+    "e": 1.21
+   },
+   {
+    "w": "it",
+    "s": 1.21,
+    "e": 1.31
+   },
+   {
+    "w": "wants",
+    "s": 1.31,
+    "e": 1.49
+   },
+   {
+    "w": "something.",
+    "s": 1.49,
+    "e": 1.87
+   },
+   {
+    "w": "Those",
+    "s": 2.45,
+    "e": 2.59
+   },
+   {
+    "w": "big,",
+    "s": 2.59,
+    "e": 3.01
+   },
+   {
+    "w": "sad",
+    "s": 3.21,
+    "e": 3.55
+   },
+   {
+    "w": "puppy",
+    "s": 3.55,
+    "e": 3.85
+   },
+   {
+    "w": "eyes.",
+    "s": 3.85,
+    "e": 4.21
+   }
+  ],
+  "heard": "Look into a dog's eyes when it wants something. Those big, sad puppy eyes.",
+  "match": 1.0
+ },
+ {
+  "id": "C03",
+  "chapter": 5,
+  "text": "In 2019, scientists compared the faces of dogs and wolves, and found a tiny muscle above the eye that dogs have, and wolves mostly don't.",
+  "dur": 7.99,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.09,
+    "e": 0.17
+   },
+   {
+    "w": "2019,",
+    "s": 0.17,
+    "e": 0.61
+   },
+   {
+    "w": "scientists",
+    "s": 1.23,
+    "e": 1.43
+   },
+   {
+    "w": "compared",
+    "s": 1.43,
+    "e": 1.79
+   },
+   {
+    "w": "the",
+    "s": 1.79,
+    "e": 1.95
+   },
+   {
+    "w": "faces",
+    "s": 1.95,
+    "e": 2.17
+   },
+   {
+    "w": "of",
+    "s": 2.17,
+    "e": 2.49
+   },
+   {
+    "w": "dogs",
+    "s": 2.49,
+    "e": 2.85
+   },
+   {
+    "w": "and",
+    "s": 2.85,
+    "e": 3.11
+   },
+   {
+    "w": "wolves,",
+    "s": 3.11,
+    "e": 3.47
+   },
+   {
+    "w": "and",
+    "s": 3.87,
+    "e": 3.95
+   },
+   {
+    "w": "found",
+    "s": 3.95,
+    "e": 4.13
+   },
+   {
+    "w": "a",
+    "s": 4.13,
+    "e": 4.33
+   },
+   {
+    "w": "tiny",
+    "s": 4.33,
+    "e": 4.71
+   },
+   {
+    "w": "muscle",
+    "s": 4.71,
+    "e": 5.09
+   },
+   {
+    "w": "above",
+    "s": 5.09,
+    "e": 5.39
+   },
+   {
+    "w": "the",
+    "s": 5.39,
+    "e": 5.55
+   },
+   {
+    "w": "eye",
+    "s": 5.55,
+    "e": 5.71
+   },
+   {
+    "w": "that",
+    "s": 5.71,
+    "e": 5.89
+   },
+   {
+    "w": "dogs",
+    "s": 5.89,
+    "e": 6.15
+   },
+   {
+    "w": "have,",
+    "s": 6.15,
+    "e": 6.51
+   },
+   {
+    "w": "and",
+    "s": 6.51,
+    "e": 7.05
+   },
+   {
+    "w": "wolves",
+    "s": 7.05,
+    "e": 7.23
+   },
+   {
+    "w": "mostly",
+    "s": 7.23,
+    "e": 7.53
+   },
+   {
+    "w": "don't.",
+    "s": 7.53,
+    "e": 7.83
+   }
+  ],
+  "heard": "In 2019, scientists compared the faces of dogs and wolves, and found a tiny muscle above the eye that dogs have and wolves mostly don't.",
+  "match": 1.0
+ },
+ {
+  "id": "C04",
+  "chapter": 5,
+  "text": "It lifts the inner eyebrow. It makes the eyes look bigger, sadder, and more like a baby's.",
+  "dur": 5.78,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.03,
+    "e": 0.39
+   },
+   {
+    "w": "lifts",
+    "s": 0.39,
+    "e": 0.57
+   },
+   {
+    "w": "the",
+    "s": 0.57,
+    "e": 0.73
+   },
+   {
+    "w": "inner",
+    "s": 0.73,
+    "e": 0.89
+   },
+   {
+    "w": "eyebrow.",
+    "s": 0.89,
+    "e": 1.21
+   },
+   {
+    "w": "It",
+    "s": 2.03,
+    "e": 2.15
+   },
+   {
+    "w": "makes",
+    "s": 2.15,
+    "e": 2.29
+   },
+   {
+    "w": "the",
+    "s": 2.29,
+    "e": 2.45
+   },
+   {
+    "w": "eyes",
+    "s": 2.45,
+    "e": 2.73
+   },
+   {
+    "w": "look",
+    "s": 2.73,
+    "e": 2.91
+   },
+   {
+    "w": "bigger,",
+    "s": 2.91,
+    "e": 3.37
+   },
+   {
+    "w": "sadder,",
+    "s": 3.65,
+    "e": 4.13
+   },
+   {
+    "w": "and",
+    "s": 4.45,
+    "e": 4.67
+   },
+   {
+    "w": "more",
+    "s": 4.67,
+    "e": 4.83
+   },
+   {
+    "w": "like",
+    "s": 4.83,
+    "e": 4.97
+   },
+   {
+    "w": "a",
+    "s": 4.97,
+    "e": 5.05
+   },
+   {
+    "w": "baby's.",
+    "s": 5.05,
+    "e": 5.65
+   }
+  ],
+  "heard": "It lifts the inner eyebrow. It makes the eyes look bigger, sadder, and more like a baby's.",
+  "match": 1.0
+ },
+ {
+  "id": "C05",
+  "chapter": 5,
+  "text": "And in animal shelters, dogs that made that face more often found new homes faster.",
+  "dur": 4.1,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.03,
+    "e": 0.29
+   },
+   {
+    "w": "in",
+    "s": 0.29,
+    "e": 0.41
+   },
+   {
+    "w": "animal",
+    "s": 0.41,
+    "e": 0.67
+   },
+   {
+    "w": "shelters,",
+    "s": 0.67,
+    "e": 0.99
+   },
+   {
+    "w": "dogs",
+    "s": 1.43,
+    "e": 1.59
+   },
+   {
+    "w": "that",
+    "s": 1.59,
+    "e": 1.79
+   },
+   {
+    "w": "made",
+    "s": 1.79,
+    "e": 1.95
+   },
+   {
+    "w": "that",
+    "s": 1.95,
+    "e": 2.09
+   },
+   {
+    "w": "face",
+    "s": 2.09,
+    "e": 2.29
+   },
+   {
+    "w": "more",
+    "s": 2.29,
+    "e": 2.47
+   },
+   {
+    "w": "often",
+    "s": 2.47,
+    "e": 2.77
+   },
+   {
+    "w": "found",
+    "s": 2.77,
+    "e": 3.07
+   },
+   {
+    "w": "new",
+    "s": 3.07,
+    "e": 3.27
+   },
+   {
+    "w": "homes",
+    "s": 3.27,
+    "e": 3.49
+   },
+   {
+    "w": "faster.",
+    "s": 3.49,
+    "e": 3.89
+   }
+  ],
+  "heard": "And in animal shelters, dogs that made that face more often found new homes faster.",
+  "match": 1.0
+ },
+ {
+  "id": "C06",
+  "chapter": 5,
+  "text": "Scientists think that's how the muscle spread: thousands of years of people choosing the dogs with the saddest eyes.",
+  "dur": 5.54,
+  "words": [
+   {
+    "w": "Scientists",
+    "s": 0.15,
+    "e": 0.35
+   },
+   {
+    "w": "think",
+    "s": 0.35,
+    "e": 0.65
+   },
+   {
+    "w": "that's",
+    "s": 0.65,
+    "e": 0.91
+   },
+   {
+    "w": "how",
+    "s": 0.91,
+    "e": 1.01
+   },
+   {
+    "w": "the",
+    "s": 1.01,
+    "e": 1.11
+   },
+   {
+    "w": "muscle",
+    "s": 1.11,
+    "e": 1.29
+   },
+   {
+    "w": "spread:",
+    "s": 1.29,
+    "e": 1.59
+   },
+   {
+    "w": "thousands",
+    "s": 1.59,
+    "e": 2.206
+   },
+   {
+    "w": "of",
+    "s": 2.206,
+    "e": 2.343
+   },
+   {
+    "w": "years",
+    "s": 2.343,
+    "e": 2.685
+   },
+   {
+    "w": "of",
+    "s": 2.685,
+    "e": 2.822
+   },
+   {
+    "w": "people",
+    "s": 2.822,
+    "e": 3.232
+   },
+   {
+    "w": "choosing",
+    "s": 3.232,
+    "e": 3.779
+   },
+   {
+    "w": "the",
+    "s": 3.779,
+    "e": 3.985
+   },
+   {
+    "w": "dogs",
+    "s": 3.985,
+    "e": 4.258
+   },
+   {
+    "w": "with",
+    "s": 4.258,
+    "e": 4.532
+   },
+   {
+    "w": "the",
+    "s": 4.532,
+    "e": 4.737
+   },
+   {
+    "w": "saddest",
+    "s": 4.737,
+    "e": 5.216
+   },
+   {
+    "w": "eyes.",
+    "s": 5.216,
+    "e": 5.49
+   }
+  ],
+  "heard": "Scientists think that's how the muscle spread. But",
+  "match": 0.519
+ },
+ {
+  "id": "C07",
+  "chapter": 5,
+  "text": "But the cat has its own weapon. The purr.",
+  "dur": 3.56,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.03,
+    "e": 0.43
+   },
+   {
+    "w": "the",
+    "s": 0.43,
+    "e": 0.83
+   },
+   {
+    "w": "cat",
+    "s": 0.83,
+    "e": 1.07
+   },
+   {
+    "w": "has",
+    "s": 1.07,
+    "e": 1.35
+   },
+   {
+    "w": "its",
+    "s": 1.35,
+    "e": 1.47
+   },
+   {
+    "w": "own",
+    "s": 1.47,
+    "e": 1.63
+   },
+   {
+    "w": "weapon.",
+    "s": 1.63,
+    "e": 1.93
+   },
+   {
+    "w": "The",
+    "s": 2.65,
+    "e": 2.67
+   },
+   {
+    "w": "purr.",
+    "s": 2.67,
+    "e": 3.43
+   }
+  ],
+  "heard": "But the cat has its own weapon. The purr.",
+  "match": 1.0
+ },
+ {
+  "id": "C08",
+  "chapter": 5,
+  "text": "In 2009, researchers at the University of Sussex recorded cats purring for food, and played the sounds to fifty people.",
+  "dur": 6.45,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.08,
+    "e": 0.18
+   },
+   {
+    "w": "2009,",
+    "s": 0.18,
+    "e": 0.84
+   },
+   {
+    "w": "researchers",
+    "s": 1.28,
+    "e": 1.48
+   },
+   {
+    "w": "at",
+    "s": 1.48,
+    "e": 1.8
+   },
+   {
+    "w": "the",
+    "s": 1.8,
+    "e": 1.9
+   },
+   {
+    "w": "University",
+    "s": 1.9,
+    "e": 2.26
+   },
+   {
+    "w": "of",
+    "s": 2.26,
+    "e": 2.46
+   },
+   {
+    "w": "Sussex",
+    "s": 2.46,
+    "e": 2.8
+   },
+   {
+    "w": "recorded",
+    "s": 2.8,
+    "e": 3.38
+   },
+   {
+    "w": "cats",
+    "s": 3.38,
+    "e": 3.74
+   },
+   {
+    "w": "purring",
+    "s": 3.74,
+    "e": 4.1
+   },
+   {
+    "w": "for",
+    "s": 4.1,
+    "e": 4.26
+   },
+   {
+    "w": "food,",
+    "s": 4.26,
+    "e": 4.56
+   },
+   {
+    "w": "and",
+    "s": 4.98,
+    "e": 5.08
+   },
+   {
+    "w": "played",
+    "s": 5.08,
+    "e": 5.2
+   },
+   {
+    "w": "the",
+    "s": 5.2,
+    "e": 5.34
+   },
+   {
+    "w": "sounds",
+    "s": 5.34,
+    "e": 5.52
+   },
+   {
+    "w": "to",
+    "s": 5.52,
+    "e": 5.72
+   },
+   {
+    "w": "fifty",
+    "s": 5.72,
+    "e": 5.92
+   },
+   {
+    "w": "people.",
+    "s": 5.92,
+    "e": 6.32
+   }
+  ],
+  "heard": "In 2009, researchers at the University of Sussex recorded cats purring for food, and played the sounds to fifty people.",
+  "match": 1.0
+ },
+ {
+  "id": "C09",
+  "chapter": 5,
+  "text": "Hidden inside the purr was a high little cry, at almost the same pitch as a human baby's.",
+  "dur": 5.59,
+  "words": [
+   {
+    "w": "Hidden",
+    "s": 0.1,
+    "e": 0.18
+   },
+   {
+    "w": "inside",
+    "s": 0.18,
+    "e": 0.72
+   },
+   {
+    "w": "the",
+    "s": 0.72,
+    "e": 0.92
+   },
+   {
+    "w": "purr",
+    "s": 0.92,
+    "e": 1.34
+   },
+   {
+    "w": "was",
+    "s": 1.34,
+    "e": 1.52
+   },
+   {
+    "w": "a",
+    "s": 1.52,
+    "e": 1.68
+   },
+   {
+    "w": "high",
+    "s": 1.68,
+    "e": 2.04
+   },
+   {
+    "w": "little",
+    "s": 2.04,
+    "e": 2.42
+   },
+   {
+    "w": "cry,",
+    "s": 2.42,
+    "e": 2.96
+   },
+   {
+    "w": "at",
+    "s": 3.36,
+    "e": 3.48
+   },
+   {
+    "w": "almost",
+    "s": 3.48,
+    "e": 3.62
+   },
+   {
+    "w": "the",
+    "s": 3.62,
+    "e": 3.82
+   },
+   {
+    "w": "same",
+    "s": 3.82,
+    "e": 4.0
+   },
+   {
+    "w": "pitch",
+    "s": 4.0,
+    "e": 4.24
+   },
+   {
+    "w": "as",
+    "s": 4.24,
+    "e": 4.38
+   },
+   {
+    "w": "a",
+    "s": 4.38,
+    "e": 4.46
+   },
+   {
+    "w": "human",
+    "s": 4.46,
+    "e": 4.62
+   },
+   {
+    "w": "baby's.",
+    "s": 4.62,
+    "e": 5.46
+   }
+  ],
+  "heard": "Hidden inside the purr was a high little cry, at almost the same pitch as a human baby's.",
+  "match": 1.0
+ },
+ {
+  "id": "C10",
+  "chapter": 5,
+  "text": "People rated those purrs as more urgent, even people who had never owned a cat.",
+  "dur": 3.5,
+  "words": [
+   {
+    "w": "People",
+    "s": 0.07,
+    "e": 0.23
+   },
+   {
+    "w": "rated",
+    "s": 0.23,
+    "e": 0.53
+   },
+   {
+    "w": "those",
+    "s": 0.53,
+    "e": 0.75
+   },
+   {
+    "w": "purrs",
+    "s": 0.75,
+    "e": 1.05
+   },
+   {
+    "w": "as",
+    "s": 1.05,
+    "e": 1.17
+   },
+   {
+    "w": "more",
+    "s": 1.17,
+    "e": 1.35
+   },
+   {
+    "w": "urgent,",
+    "s": 1.35,
+    "e": 1.73
+   },
+   {
+    "w": "even",
+    "s": 2.07,
+    "e": 2.25
+   },
+   {
+    "w": "people",
+    "s": 2.25,
+    "e": 2.47
+   },
+   {
+    "w": "who",
+    "s": 2.47,
+    "e": 2.63
+   },
+   {
+    "w": "had",
+    "s": 2.63,
+    "e": 2.69
+   },
+   {
+    "w": "never",
+    "s": 2.69,
+    "e": 2.85
+   },
+   {
+    "w": "owned",
+    "s": 2.85,
+    "e": 3.05
+   },
+   {
+    "w": "a",
+    "s": 3.05,
+    "e": 3.17
+   },
+   {
+    "w": "cat.",
+    "s": 3.17,
+    "e": 3.37
+   }
+  ],
+  "heard": "People rated those purrs as more urgent, even people who had never owned a cat.",
+  "match": 1.0
+ },
+ {
+  "id": "C11",
+  "chapter": 5,
+  "text": "Dogs have a face built for you. Cats have a sound built for you. That's a draw. One point each.",
+  "dur": 5.84,
+  "words": [
+   {
+    "w": "Dogs",
+    "s": 0.08,
+    "e": 0.3
+   },
+   {
+    "w": "have",
+    "s": 0.3,
+    "e": 0.46
+   },
+   {
+    "w": "a",
+    "s": 0.46,
+    "e": 0.62
+   },
+   {
+    "w": "face",
+    "s": 0.62,
+    "e": 0.82
+   },
+   {
+    "w": "built",
+    "s": 0.82,
+    "e": 1.08
+   },
+   {
+    "w": "for",
+    "s": 1.08,
+    "e": 1.32
+   },
+   {
+    "w": "you.",
+    "s": 1.32,
+    "e": 1.52
+   },
+   {
+    "w": "Cats",
+    "s": 2.02,
+    "e": 2.22
+   },
+   {
+    "w": "have",
+    "s": 2.22,
+    "e": 2.62
+   },
+   {
+    "w": "a",
+    "s": 2.62,
+    "e": 2.76
+   },
+   {
+    "w": "sound",
+    "s": 2.76,
+    "e": 2.98
+   },
+   {
+    "w": "built",
+    "s": 2.98,
+    "e": 3.18
+   },
+   {
+    "w": "for",
+    "s": 3.18,
+    "e": 3.4
+   },
+   {
+    "w": "you.",
+    "s": 3.4,
+    "e": 3.64
+   },
+   {
+    "w": "That's",
+    "s": 4.3,
+    "e": 4.48
+   },
+   {
+    "w": "a",
+    "s": 4.48,
+    "e": 4.54
+   },
+   {
+    "w": "draw.",
+    "s": 4.54,
+    "e": 4.72
+   },
+   {
+    "w": "One",
+    "s": 5.18,
+    "e": 5.28
+   },
+   {
+    "w": "point",
+    "s": 5.28,
+    "e": 5.42
+   },
+   {
+    "w": "each.",
+    "s": 5.42,
+    "e": 5.66
+   }
+  ],
+  "heard": "Dogs have a face built for you. Cats have a sound built for you. That's a draw. One point each.",
+  "match": 1.0
+ }
+]
