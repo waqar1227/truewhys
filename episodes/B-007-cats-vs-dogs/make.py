@@ -1026,7 +1026,7 @@ def s_draw(g, c):
 def s_secure_dog(g, c):
     door = on(c, "leaves") * (1 - on(c, "back", frac=0.8))
     strange_room(g, c.gt, door)
-    chair(g, 760, FL)
+    chair(g, 470, FL)
     gone = on(c, "leaves", frac=0.5) > 0.6 and on(c, "back", frac=0.8) < 0.5
     back = on(c, "back", frac=0.8)
     if not gone:
@@ -1060,7 +1060,7 @@ def s_fail(g, c):
 
 def s_oregon(g, c, timer=False):
     strange_room(g, c.gt)
-    chair(g, 760, FL)
+    chair(g, 470, FL)
     char2(g, "lena", 760, FL + 80, 860, "deadpan", "down", "hold", t=c.gt, view="3q")
     cat_sit(g, 1150, FL + 60, 0.6, c.gt, "alert", col=KIT, look=(-0.6, 0))
     tag(g, "2019 · OREGON STATE UNIVERSITY, USA", 960, 90, on(c, "2019", frac=0.0))
@@ -1075,7 +1075,7 @@ def s_oregon(g, c, timer=False):
 
 def s_kitten(g, c):
     strange_room(g, c.gt)
-    chair(g, 760, FL)
+    chair(g, 470, FL)
     char2(g, "lena", 760, FL + 80, 860, "smile", "down", "hold", t=c.gt, view="3q")
     u = clamp(c.t / max(0.5, c.T))
     if u < 0.45:
@@ -1096,9 +1096,9 @@ def s_kitten(g, c):
 def s_share(g, c):
     studio(g, c.gt, "#7FD3B8", "#1F5E4A")
     with g.screen():
-        cat_face(g, 330, 400, 0.6, c.gt, "happy", col=KIT)
-        baby_face(g, 330, 700, 0.75, c.gt)
-        bars(g, 620, 400, [("KITTENS", 64, KIT["fur"], "64 %"), ("BABIES", 65, "#F6D5BC", "65 %")], k=clamp(c.t / 1.6), maxv=100, w=900)
+        cat_face(g, 380, 400, 0.42, c.gt, "happy", col=KIT)
+        baby_face(g, 380, 550, 0.5, c.gt)
+        bars(g, 680, 400, [("KITTENS", 64, KIT["fur"], "64 %"), ("BABIES", 65, "#F6D5BC", "65 %")], k=clamp(c.t / 1.6), maxv=100, w=900)
         g.text("SECURE BOND", 1150, 180, 70, PAL["cream"], sw=10)
 
 
@@ -1115,7 +1115,7 @@ def s_lap_love(g, c):
 def s_final(g, c):
     arena(g, c.gt)
     k5 = on(c, "five", frac=0.4); k4 = on(c, "four", frac=0.8)
-    scoreboard(g, W / 2, 360, 5 if k5 > 0.5 else 4, 4 if k4 > 0.5 else 3, c.gt, "dog" if k5 > 0.5 and k4 < 0.5 else ("both" if k4 > 0.5 else None), 1.3)
+    scoreboard(g, W / 2, 360, 5, 4, c.gt, "cat" if k4 > 0.5 else ("dog" if k5 > 0.5 else None), 1.3 + 0.08 * pop(c.t, tw(c, "five", frac=0.4), 0.3))
     dog_sit(g, 360, FL + 160, 0.9, c.gt, "happy", tongue=0.7, paw=k5)
     cat_sit(g, 1560, FL + 20, 1.05, c.gt, "smug", paw=k4)
     label(g, "FINAL SCORE", W / 2, 120, 90, k=pk(c, "Final"))
@@ -1239,7 +1239,8 @@ P("N03", s_pilley, ("Ask", 1), cam=Z(1.0, 1.03, (960, 560)), sfx=[("name", "pop"
 P("N04", s_newtoy, (0, "and"), cam=Z(1.0, 1.04, (1000, 560)), sfx=[("added", "shimmer", 0.35)])
 P("N04", s_newtoy, ("and", "heard"), cam=Z(1.0, 1.04, (900, 500)))
 P("N04", s_newtoy, ("heard", "She"), cam=Z(1.0, 1.04, (1000, 560)), sfx=[("added", "shimmer", 0.35)])
-P("N04", s_newtoy, ("She", 1), cam=Z(1.04, 1.08, (1000, 560)), sfx=[("picked", "pop", 0.35), ("worked", "chime", 0.4)])
+P("N04", s_newtoy, ("She", "She#1"), cam=Z(1.0, 1.04, (1000, 560)))
+P("N04", s_newtoy, ("She#1", 1), cam=Z(1.06, 1.1, (1150, 520)), sfx=[("picked", "pop", 0.35), ("worked", "chime", 0.4)])
 P("N05", s_notsofast, cam=Z(1.0, 1.06, (1000, 520)), music="playful", sfx=[("Not", "drum_hit", 0.35)])
 P("N06", s_tokyo, (0, "one"), cam=Z(1.0, 1.04, (960, 560)), music="curious")
 P("N06", s_tokyo, ("one", 1), cam=Z(1.08, 1.12, (1100, 520)), music="curious", sfx=[(0.4, "pop", 0.3), (1.2, "pop", 0.3)])
@@ -1307,18 +1308,22 @@ P("C11", s_verdict(5, 3, "both", "IT'S A DRAW"), ("That's", 1), cam=Z(1.0, 1.04,
 V.pause["C11"] = CH_PAUSE
 # round 7 love + verdict (ch6)
 P("L01", round_card(7, "WHO LOVES YOU?", 5, 3), tr="flash", cam=Z(1.0, 1.04, (960, 540)), music="cozy", sfx=[(0.0, "ring_bell", 0.45)])
-P("L02", s_secure_dog, cam=Z(1.0, 1.03, (1000, 560)), music="cozy", sfx=[("leaves", "door", 0.35), ("back", "bark", 0.25)])
+P("L02", s_secure_dog, (0, "gets"), cam=Z(1.0, 1.03, (1000, 560)), music="cozy")
+P("L02", s_secure_dog, ("gets", "runs"), cam=Z(1.1, 1.14, (1150, 560)), sfx=[("leaves", "door", 0.35)])
+P("L02", s_secure_dog, ("runs", 1), cam=Z(1.0, 1.04, (1200, 560)), sfx=[("back", "bark", 0.25)])
 P("L03", s_securebond, cam=Z(1.0, 1.05, (960, 560)), sfx=[("secure", "chime", 0.35)])
 P("L04", s_fail, cam=Z(1.0, 1.06, (960, 520)), music="playful", sfx=[("fail", "drum_hit", 0.4)])
 P("L05", s_oregon, (0, "Two"), cam=Z(1.0, 1.04, (960, 560)), music="story")
 P("L05", lambda g, c: s_oregon(g, c, True), ("Two", 1), cam=Z(1.0, 1.03, (1100, 540)), sfx=[("alone", "door", 0.3), ("back", "pop", 0.35)])
-P("L06", s_kitten, cam=Z(1.0, 1.04, (960, 560)), music="cozy", sfx=[("greeted", "meow", 0.25), ("secure", "chime", 0.4)])
+P("L06", s_kitten, (0, "then"), cam=Z(1.0, 1.04, (960, 560)), music="cozy", sfx=[("greeted", "meow", 0.25)])
+P("L06", s_kitten, ("then", 1), cam=Z(1.06, 1.1, (1100, 600)), sfx=[("secure", "chime", 0.4)])
 P("L07", s_share, cam=Z(1.0, 1.03, (960, 540)), sfx=[(0.4, "pop", 0.35), (1.0, "pop", 0.35)])
 P("L08", s_lap_love, (0, "Point"), cam=Z(1.0, 1.06, (960, 500)), music="cozy", sfx=[(0.3, "purr", 0.3)])
 P("L08", s_verdict(5, 4, "cat", "BIGGEST SURPRISE"), ("Point", 1), cam=Z(1.0, 1.04, (960, 520)), music="match", sfx=[("Point", "ding", 0.45)])
 P("E01", s_final, tr="flash", cam=Z(1.0, 1.04, (960, 500)), sfx=[(0.0, "ring_bell", 0.45), ("four", "crowd_cheer", 0.35)])
-P("E02", s_recap, cam=Z(1.0, 1.03, (960, 540)), music="warm",
-  sfx=[("history", "pop", 0.3), ("brains", "pop", 0.3), ("words", "pop", 0.3), ("ears", "pop", 0.3), ("drinking", "pop", 0.3), ("love", "pop", 0.3)])
+P("E02", s_recap, (0, "The#1"), cam=Z(1.0, 1.03, (900, 540)), music="warm",
+  sfx=[("history", "pop", 0.3), ("brains", "pop", 0.3), ("words", "pop", 0.3)])
+P("E02", s_recap, ("The#1", 1), cam=Z(1.03, 1.05, (1020, 540)), sfx=[("ears", "pop", 0.3), ("drinking", "pop", 0.3), ("love", "pop", 0.3)])
 P("E03", s_comments, cam=Z(1.0, 1.05, (960, 560)), sfx=[("comments", "pop", 0.4)])
 P("E04", s_loop, cam=Z(1.03, 1.08, (960, 560)), music="playful", sfx=[(0.1, "meow", 0.3), ("deciding", "bloop", 0.35)])
 V.build()

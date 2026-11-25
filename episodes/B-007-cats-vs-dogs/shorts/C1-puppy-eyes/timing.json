@@ -1,0 +1,472 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "Your dog grew a special face muscle... just to work on you.",
+  "dur": 3.98,
+  "words": [
+   {
+    "w": "Your",
+    "s": 0.0,
+    "e": 0.38
+   },
+   {
+    "w": "dog",
+    "s": 0.38,
+    "e": 0.72
+   },
+   {
+    "w": "grew",
+    "s": 0.72,
+    "e": 1.08
+   },
+   {
+    "w": "a",
+    "s": 1.08,
+    "e": 1.32
+   },
+   {
+    "w": "special",
+    "s": 1.32,
+    "e": 1.76
+   },
+   {
+    "w": "face",
+    "s": 1.76,
+    "e": 2.02
+   },
+   {
+    "w": "muscle...",
+    "s": 2.02,
+    "e": 3.06
+   },
+   {
+    "w": "just",
+    "s": 3.06,
+    "e": 3.06
+   },
+   {
+    "w": "to",
+    "s": 3.06,
+    "e": 3.3
+   },
+   {
+    "w": "work",
+    "s": 3.3,
+    "e": 3.44
+   },
+   {
+    "w": "on",
+    "s": 3.44,
+    "e": 3.6
+   },
+   {
+    "w": "you.",
+    "s": 3.6,
+    "e": 3.84
+   }
+  ],
+  "heard": "Your dog grew a special face muscle... just to work on you.",
+  "match": 1.0
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "Watch the inner eyebrows. Up they go, and the eyes look bigger, sadder, like a baby's.",
+  "dur": 5.48,
+  "words": [
+   {
+    "w": "Watch",
+    "s": 0.09,
+    "e": 0.19
+   },
+   {
+    "w": "the",
+    "s": 0.19,
+    "e": 0.39
+   },
+   {
+    "w": "inner",
+    "s": 0.39,
+    "e": 0.63
+   },
+   {
+    "w": "eyebrows.",
+    "s": 0.63,
+    "e": 1.07
+   },
+   {
+    "w": "Up",
+    "s": 1.49,
+    "e": 1.61
+   },
+   {
+    "w": "they",
+    "s": 1.61,
+    "e": 1.87
+   },
+   {
+    "w": "go,",
+    "s": 1.87,
+    "e": 2.11
+   },
+   {
+    "w": "and",
+    "s": 2.55,
+    "e": 2.71
+   },
+   {
+    "w": "the",
+    "s": 2.71,
+    "e": 2.79
+   },
+   {
+    "w": "eyes",
+    "s": 2.79,
+    "e": 2.97
+   },
+   {
+    "w": "look",
+    "s": 2.97,
+    "e": 3.17
+   },
+   {
+    "w": "bigger,",
+    "s": 3.17,
+    "e": 3.55
+   },
+   {
+    "w": "sadder,",
+    "s": 3.85,
+    "e": 4.31
+   },
+   {
+    "w": "like",
+    "s": 4.43,
+    "e": 4.59
+   },
+   {
+    "w": "a",
+    "s": 4.59,
+    "e": 4.67
+   },
+   {
+    "w": "baby's.",
+    "s": 4.67,
+    "e": 5.35
+   }
+  ],
+  "heard": "Watch the inner eyebrows. Up they go, and the eyes look bigger, sadder, like a baby's.",
+  "match": 1.0
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "In 2019, scientists compared dogs and wolves. Dogs have a tiny muscle that lifts the inner eyebrow. Wolves mostly don't.",
+  "dur": 7.84,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.09,
+    "e": 0.19
+   },
+   {
+    "w": "2019,",
+    "s": 0.19,
+    "e": 0.71
+   },
+   {
+    "w": "scientists",
+    "s": 1.33,
+    "e": 1.59
+   },
+   {
+    "w": "compared",
+    "s": 1.59,
+    "e": 1.97
+   },
+   {
+    "w": "dogs",
+    "s": 1.97,
+    "e": 2.39
+   },
+   {
+    "w": "and",
+    "s": 2.39,
+    "e": 2.61
+   },
+   {
+    "w": "wolves.",
+    "s": 2.61,
+    "e": 2.87
+   },
+   {
+    "w": "Dogs",
+    "s": 3.63,
+    "e": 3.79
+   },
+   {
+    "w": "have",
+    "s": 3.79,
+    "e": 3.99
+   },
+   {
+    "w": "a",
+    "s": 3.99,
+    "e": 4.21
+   },
+   {
+    "w": "tiny",
+    "s": 4.21,
+    "e": 4.51
+   },
+   {
+    "w": "muscle",
+    "s": 4.51,
+    "e": 4.91
+   },
+   {
+    "w": "that",
+    "s": 4.91,
+    "e": 5.13
+   },
+   {
+    "w": "lifts",
+    "s": 5.13,
+    "e": 5.45
+   },
+   {
+    "w": "the",
+    "s": 5.45,
+    "e": 5.69
+   },
+   {
+    "w": "inner",
+    "s": 5.69,
+    "e": 5.87
+   },
+   {
+    "w": "eyebrow.",
+    "s": 5.87,
+    "e": 6.19
+   },
+   {
+    "w": "Wolves",
+    "s": 6.99,
+    "e": 6.99
+   },
+   {
+    "w": "mostly",
+    "s": 6.99,
+    "e": 7.35
+   },
+   {
+    "w": "don't.",
+    "s": 7.35,
+    "e": 7.71
+   }
+  ],
+  "heard": "In 2019, scientists compared dogs and wolves. Dogs have a tiny muscle that lifts the inner eyebrow. Wolves mostly don't.",
+  "match": 1.0
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "And in animal shelters, dogs that made that face more often found new homes faster.",
+  "dur": 4.7,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.03,
+    "e": 0.29
+   },
+   {
+    "w": "in",
+    "s": 0.29,
+    "e": 0.39
+   },
+   {
+    "w": "animal",
+    "s": 0.39,
+    "e": 0.75
+   },
+   {
+    "w": "shelters,",
+    "s": 0.75,
+    "e": 1.11
+   },
+   {
+    "w": "dogs",
+    "s": 1.61,
+    "e": 1.75
+   },
+   {
+    "w": "that",
+    "s": 1.75,
+    "e": 1.93
+   },
+   {
+    "w": "made",
+    "s": 1.93,
+    "e": 2.19
+   },
+   {
+    "w": "that",
+    "s": 2.19,
+    "e": 2.41
+   },
+   {
+    "w": "face",
+    "s": 2.41,
+    "e": 2.65
+   },
+   {
+    "w": "more",
+    "s": 2.65,
+    "e": 2.85
+   },
+   {
+    "w": "often",
+    "s": 2.85,
+    "e": 3.21
+   },
+   {
+    "w": "found",
+    "s": 3.21,
+    "e": 3.55
+   },
+   {
+    "w": "new",
+    "s": 3.55,
+    "e": 3.77
+   },
+   {
+    "w": "homes",
+    "s": 3.77,
+    "e": 4.05
+   },
+   {
+    "w": "faster.",
+    "s": 4.05,
+    "e": 4.45
+   }
+  ],
+  "heard": "And in animal shelters, dogs that made that face more often found new homes faster.",
+  "match": 1.0
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "Scientists think thousands of years of people choosing the saddest eyes spread that muscle.",
+  "dur": 4.52,
+  "words": [
+   {
+    "w": "Scientists",
+    "s": 0.1,
+    "e": 0.34
+   },
+   {
+    "w": "think",
+    "s": 0.34,
+    "e": 0.68
+   },
+   {
+    "w": "thousands",
+    "s": 0.68,
+    "e": 1.0
+   },
+   {
+    "w": "of",
+    "s": 1.0,
+    "e": 1.4
+   },
+   {
+    "w": "years",
+    "s": 1.4,
+    "e": 1.62
+   },
+   {
+    "w": "of",
+    "s": 1.62,
+    "e": 1.82
+   },
+   {
+    "w": "people",
+    "s": 1.82,
+    "e": 2.04
+   },
+   {
+    "w": "choosing",
+    "s": 2.04,
+    "e": 2.38
+   },
+   {
+    "w": "the",
+    "s": 2.38,
+    "e": 2.64
+   },
+   {
+    "w": "saddest",
+    "s": 2.64,
+    "e": 3.06
+   },
+   {
+    "w": "eyes",
+    "s": 3.06,
+    "e": 3.4
+   },
+   {
+    "w": "spread",
+    "s": 3.4,
+    "e": 3.8
+   },
+   {
+    "w": "that",
+    "s": 3.8,
+    "e": 4.0
+   },
+   {
+    "w": "muscle.",
+    "s": 4.0,
+    "e": 4.32
+   }
+  ],
+  "heard": "Scientists think thousands of years of people choosing the saddest eyes spread that muscle.",
+  "match": 1.0
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "So... who's really training who?",
+  "dur": 2.48,
+  "words": [
+   {
+    "w": "So...",
+    "s": 0.2,
+    "e": 0.96
+   },
+   {
+    "w": "who's",
+    "s": 0.96,
+    "e": 1.2
+   },
+   {
+    "w": "really",
+    "s": 1.2,
+    "e": 1.58
+   },
+   {
+    "w": "training",
+    "s": 1.58,
+    "e": 2.04
+   },
+   {
+    "w": "who?",
+    "s": 2.04,
+    "e": 2.3
+   }
+  ],
+  "heard": "So... who's really training who?",
+  "match": 1.0
+ }
+]

@@ -96,10 +96,10 @@ def c1_hook(g, c, end=False):
     kitchen_v(g, c.gt)
     table_sandwich(g, c.gt)
     br = clamp(0.35 + c.t / 1.2) if not end else clamp(0.4 + c.t / 1.0)
-    dog_sit(g, 640, FL + 300, 2.15, c.gt, "calm", brow=br, tongue=0.0, look=(-0.7, -0.5), blink=0.0, wag=0.6)
+    dog_sit(g, 700, FL + 300, 2.15, c.gt, "calm", brow=br, tongue=0.0, look=(-0.7, -0.5), blink=0.0, wag=0.6)
     for i in range(3):
         ph = (c.gt * 0.8 + i / 3) % 1
-        heart(g, 300 + i * 120, 900 - 200 * ph, 26, k=1 - ph)
+        heart(g, 120 + i * 90, 960 - 220 * ph, 30, k=1 - ph)
 
 
 def c1_brows(g, c):
@@ -119,13 +119,13 @@ def c1_wolf(g, c):
     kf = on(c, "tiny")
     dog_face(g, 540, 640, 1.8, c.gt, "calm", brow=0.7 * kf)
     dog_face(g, 540, 1380, 1.8, c.gt, "calm", wolf=True)
-    label(g, "DOG", 900, 860, 70, k=1)
-    label(g, "WOLF", 900, 1600, 70, k=1)
+    label(g, "DOG", 900, 400, 80, k=1)
+    label(g, "WOLF", 900, 1130, 80, k=1)
     tag(g, "2019 · DOG AND WOLF FACES", 540, 140, on(c, "2019", frac=0.0))
     if kf > 0:
         for sd in (-1, 1):
             g.line([(540 + sd * 30 * 1.8, 640 - 76 * 1.8), (540 + sd * 85 * 1.8, 640 - 66 * 1.8)], "#FF3B3B", 16, a=0.5 + 0.5 * math.sin(c.gt * 8))
-    cross(g, 830, 1160, 60, on(c, "Wolves", frac=0.9))
+    cross(g, 540, 1230, 60, on(c, "Wolves", frac=0.9))
 
 
 def c1_shelter(g, c):
@@ -146,7 +146,7 @@ def c1_shelter(g, c):
 
 def c1_gen(g, c):
     studio(g, c.gt, "#E9A15A", "#6B3420")
-    k = clamp(c.t / max(0.5, c.T * 0.75))
+    k = 0.3 + 0.7 * clamp(c.t / max(0.5, c.T * 0.75))
     for i in range(4):
         kk = clamp(k * 4 - i)
         if kk > 0:
@@ -169,8 +169,8 @@ def build():
     V.shot("L01", c1_brows, (0, "and"), cam=push(1.05, 1.1, (540, 900)), sfx=[("Up", "shimmer", 0.35)])
     V.shot("L01", c1_brows, ("and", 1), cam=push(1.0, 1.04, (640, 1100)), sfx=[("baby's", "pop", 0.4)])
     V.shot("L02", c1_wolf, (0, "Dogs"), cam=push(1.0, 1.04, (540, 900)), music="story")
-    V.shot("L02", c1_wolf, ("Dogs", "Wolves"), cam=push(1.1, 1.15, (540, 700)), sfx=[("tiny", "ding", 0.4)])
-    V.shot("L02", c1_wolf, ("Wolves", 1), cam=push(1.1, 1.15, (540, 1300)), sfx=[("don't", "bloop", 0.4)])
+    V.shot("L02", c1_wolf, ("Dogs", "Wolves"), cam=push(1.04, 1.08, (540, 860)), sfx=[("tiny", "ding", 0.4)])
+    V.shot("L02", c1_wolf, ("Wolves", 1), cam=push(1.04, 1.08, (540, 1100)), sfx=[("don't", "bloop", 0.4)])
     V.shot("L03", c1_shelter, cam=push(1.0, 1.04, (540, 1000)), music="warm", sfx=[("homes", "chime", 0.4)])
     V.shot("L04", c1_gen, cam=push(1.0, 1.04, (540, 1000)), music="story", sfx=[("thousands", "whoosh_soft", 0.35)])
     V.shot("L05", c1_end, cam=push(1.0, 1.05, (600, 1100)), music="playful", sfx=[(0.1, "shimmer", 0.4)])

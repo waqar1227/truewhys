@@ -5198,5 +5198,1020 @@
   ],
   "heard": "Dogs have a face built for you. Cats have a sound built for you. That's a draw. One point each.",
   "match": 1.0
+ },
+ {
+  "id": "L01",
+  "chapter": 6,
+  "text": "Final round. Who actually loves you?",
+  "dur": 3.51,
+  "words": [
+   {
+    "w": "Final",
+    "s": 0.0,
+    "e": 0.62
+   },
+   {
+    "w": "round.",
+    "s": 0.62,
+    "e": 0.92
+   },
+   {
+    "w": "Who",
+    "s": 1.6,
+    "e": 1.8
+   },
+   {
+    "w": "actually",
+    "s": 1.8,
+    "e": 2.72
+   },
+   {
+    "w": "loves",
+    "s": 2.72,
+    "e": 3.02
+   },
+   {
+    "w": "you?",
+    "s": 3.02,
+    "e": 3.38
+   }
+  ],
+  "heard": "Final round. Who actually loves you?",
+  "match": 1.0
+ },
+ {
+  "id": "L02",
+  "chapter": 6,
+  "text": "Dogs, everyone agrees. In a strange room, a dog explores while its owner is there, gets upset when the owner leaves, and runs to them when they come back.",
+  "dur": 7.65,
+  "words": [
+   {
+    "w": "Dogs,",
+    "s": 0.14,
+    "e": 0.36
+   },
+   {
+    "w": "everyone",
+    "s": 0.54,
+    "e": 0.68
+   },
+   {
+    "w": "agrees.",
+    "s": 0.68,
+    "e": 1.04
+   },
+   {
+    "w": "In",
+    "s": 1.68,
+    "e": 1.76
+   },
+   {
+    "w": "a",
+    "s": 1.76,
+    "e": 1.88
+   },
+   {
+    "w": "strange",
+    "s": 1.88,
+    "e": 2.08
+   },
+   {
+    "w": "room,",
+    "s": 2.08,
+    "e": 2.3
+   },
+   {
+    "w": "a",
+    "s": 2.42,
+    "e": 2.5
+   },
+   {
+    "w": "dog",
+    "s": 2.5,
+    "e": 2.68
+   },
+   {
+    "w": "explores",
+    "s": 2.68,
+    "e": 3.12
+   },
+   {
+    "w": "while",
+    "s": 3.12,
+    "e": 3.42
+   },
+   {
+    "w": "its",
+    "s": 3.42,
+    "e": 3.56
+   },
+   {
+    "w": "owner",
+    "s": 3.56,
+    "e": 3.76
+   },
+   {
+    "w": "is",
+    "s": 3.76,
+    "e": 3.96
+   },
+   {
+    "w": "there,",
+    "s": 3.96,
+    "e": 4.16
+   },
+   {
+    "w": "gets",
+    "s": 4.52,
+    "e": 4.72
+   },
+   {
+    "w": "upset",
+    "s": 4.72,
+    "e": 5.02
+   },
+   {
+    "w": "when",
+    "s": 5.02,
+    "e": 5.24
+   },
+   {
+    "w": "the",
+    "s": 5.24,
+    "e": 5.34
+   },
+   {
+    "w": "owner",
+    "s": 5.34,
+    "e": 5.5
+   },
+   {
+    "w": "leaves,",
+    "s": 5.5,
+    "e": 5.82
+   },
+   {
+    "w": "and",
+    "s": 6.14,
+    "e": 6.34
+   },
+   {
+    "w": "runs",
+    "s": 6.34,
+    "e": 6.54
+   },
+   {
+    "w": "to",
+    "s": 6.54,
+    "e": 6.76
+   },
+   {
+    "w": "them",
+    "s": 6.76,
+    "e": 6.88
+   },
+   {
+    "w": "when",
+    "s": 6.88,
+    "e": 7.0
+   },
+   {
+    "w": "they",
+    "s": 7.0,
+    "e": 7.12
+   },
+   {
+    "w": "come",
+    "s": 7.12,
+    "e": 7.26
+   },
+   {
+    "w": "back.",
+    "s": 7.26,
+    "e": 7.52
+   }
+  ],
+  "heard": "Dogs, everyone agrees. In a strange room, a dog explores while its owner is there, gets upset when the owner leaves, and runs to them when they come back.",
+  "match": 1.0
+ },
+ {
+  "id": "L03",
+  "chapter": 6,
+  "text": "Scientists call that a secure bond. It's the same test they use with human babies.",
+  "dur": 3.94,
+  "words": [
+   {
+    "w": "Scientists",
+    "s": 0.16,
+    "e": 0.38
+   },
+   {
+    "w": "call",
+    "s": 0.38,
+    "e": 0.66
+   },
+   {
+    "w": "that",
+    "s": 0.66,
+    "e": 0.84
+   },
+   {
+    "w": "a",
+    "s": 0.84,
+    "e": 1.0
+   },
+   {
+    "w": "secure",
+    "s": 1.0,
+    "e": 1.38
+   },
+   {
+    "w": "bond.",
+    "s": 1.38,
+    "e": 1.8
+   },
+   {
+    "w": "It's",
+    "s": 2.22,
+    "e": 2.26
+   },
+   {
+    "w": "the",
+    "s": 2.26,
+    "e": 2.4
+   },
+   {
+    "w": "same",
+    "s": 2.4,
+    "e": 2.58
+   },
+   {
+    "w": "test",
+    "s": 2.58,
+    "e": 2.76
+   },
+   {
+    "w": "they",
+    "s": 2.76,
+    "e": 2.92
+   },
+   {
+    "w": "use",
+    "s": 2.92,
+    "e": 3.02
+   },
+   {
+    "w": "with",
+    "s": 3.02,
+    "e": 3.2
+   },
+   {
+    "w": "human",
+    "s": 3.2,
+    "e": 3.36
+   },
+   {
+    "w": "babies.",
+    "s": 3.36,
+    "e": 3.68
+   }
+  ],
+  "heard": "Scientists call that a secure bond. It's the same test they use with human babies.",
+  "match": 1.0
+ },
+ {
+  "id": "L04",
+  "chapter": 6,
+  "text": "Cats were supposed to fail it.",
+  "dur": 2.18,
+  "words": [
+   {
+    "w": "Cats",
+    "s": 0.27,
+    "e": 0.41
+   },
+   {
+    "w": "were",
+    "s": 0.41,
+    "e": 0.81
+   },
+   {
+    "w": "supposed",
+    "s": 0.81,
+    "e": 1.23
+   },
+   {
+    "w": "to",
+    "s": 1.23,
+    "e": 1.51
+   },
+   {
+    "w": "fail",
+    "s": 1.51,
+    "e": 1.71
+   },
+   {
+    "w": "it.",
+    "s": 1.71,
+    "e": 2.05
+   }
+  ],
+  "heard": "Cats were supposed to fail it.",
+  "match": 1.0
+ },
+ {
+  "id": "L05",
+  "chapter": 6,
+  "text": "In 2019, at Oregon State University, Kristyn Vitale put kittens in the same test. Two minutes with their owner, two minutes alone, then the owner comes back.",
+  "dur": 9.08,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.03,
+    "e": 0.17
+   },
+   {
+    "w": "2019,",
+    "s": 0.17,
+    "e": 0.63
+   },
+   {
+    "w": "at",
+    "s": 0.97,
+    "e": 1.09
+   },
+   {
+    "w": "Oregon",
+    "s": 1.09,
+    "e": 1.33
+   },
+   {
+    "w": "State",
+    "s": 1.33,
+    "e": 1.57
+   },
+   {
+    "w": "University,",
+    "s": 1.57,
+    "e": 2.13
+   },
+   {
+    "w": "Kristyn",
+    "s": 2.63,
+    "e": 2.81
+   },
+   {
+    "w": "Vitale",
+    "s": 2.81,
+    "e": 3.13
+   },
+   {
+    "w": "put",
+    "s": 3.13,
+    "e": 3.43
+   },
+   {
+    "w": "kittens",
+    "s": 3.43,
+    "e": 3.77
+   },
+   {
+    "w": "in",
+    "s": 3.77,
+    "e": 4.03
+   },
+   {
+    "w": "the",
+    "s": 4.03,
+    "e": 4.17
+   },
+   {
+    "w": "same",
+    "s": 4.17,
+    "e": 4.45
+   },
+   {
+    "w": "test.",
+    "s": 4.45,
+    "e": 4.81
+   },
+   {
+    "w": "Two",
+    "s": 5.47,
+    "e": 5.61
+   },
+   {
+    "w": "minutes",
+    "s": 5.61,
+    "e": 5.81
+   },
+   {
+    "w": "with",
+    "s": 5.81,
+    "e": 6.03
+   },
+   {
+    "w": "their",
+    "s": 6.03,
+    "e": 6.17
+   },
+   {
+    "w": "owner,",
+    "s": 6.17,
+    "e": 6.45
+   },
+   {
+    "w": "two",
+    "s": 6.73,
+    "e": 6.91
+   },
+   {
+    "w": "minutes",
+    "s": 6.91,
+    "e": 7.07
+   },
+   {
+    "w": "alone,",
+    "s": 7.07,
+    "e": 7.47
+   },
+   {
+    "w": "then",
+    "s": 7.91,
+    "e": 8.09
+   },
+   {
+    "w": "the",
+    "s": 8.09,
+    "e": 8.31
+   },
+   {
+    "w": "owner",
+    "s": 8.31,
+    "e": 8.41
+   },
+   {
+    "w": "comes",
+    "s": 8.41,
+    "e": 8.55
+   },
+   {
+    "w": "back.",
+    "s": 8.55,
+    "e": 8.95
+   }
+  ],
+  "heard": "In 2019, at Oregon State University, Kristyn Vitale put kittens in the same test. Two minutes with their owner, two minutes alone, then the owner comes back.",
+  "match": 1.0
+ },
+ {
+  "id": "L06",
+  "chapter": 6,
+  "text": "About two out of three kittens greeted their owner, then calmly went back to exploring. A secure bond.",
+  "dur": 5.64,
+  "words": [
+   {
+    "w": "About",
+    "s": 0.03,
+    "e": 0.25
+   },
+   {
+    "w": "two",
+    "s": 0.25,
+    "e": 0.61
+   },
+   {
+    "w": "out",
+    "s": 0.61,
+    "e": 0.81
+   },
+   {
+    "w": "of",
+    "s": 0.81,
+    "e": 0.93
+   },
+   {
+    "w": "three",
+    "s": 0.93,
+    "e": 1.19
+   },
+   {
+    "w": "kittens",
+    "s": 1.19,
+    "e": 1.43
+   },
+   {
+    "w": "greeted",
+    "s": 1.43,
+    "e": 1.81
+   },
+   {
+    "w": "their",
+    "s": 1.81,
+    "e": 2.03
+   },
+   {
+    "w": "owner,",
+    "s": 2.03,
+    "e": 2.27
+   },
+   {
+    "w": "then",
+    "s": 2.61,
+    "e": 2.75
+   },
+   {
+    "w": "calmly",
+    "s": 2.75,
+    "e": 3.25
+   },
+   {
+    "w": "went",
+    "s": 3.25,
+    "e": 3.49
+   },
+   {
+    "w": "back",
+    "s": 3.49,
+    "e": 3.67
+   },
+   {
+    "w": "to",
+    "s": 3.67,
+    "e": 3.83
+   },
+   {
+    "w": "exploring.",
+    "s": 3.83,
+    "e": 4.15
+   },
+   {
+    "w": "A",
+    "s": 4.75,
+    "e": 4.87
+   },
+   {
+    "w": "secure",
+    "s": 4.87,
+    "e": 5.13
+   },
+   {
+    "w": "bond.",
+    "s": 5.13,
+    "e": 5.45
+   }
+  ],
+  "heard": "About two out of three kittens greeted their owner, then calmly went back to exploring. A secure bond.",
+  "match": 1.0
+ },
+ {
+  "id": "L07",
+  "chapter": 6,
+  "text": "That's almost exactly the share found in human babies.",
+  "dur": 2.92,
+  "words": [
+   {
+    "w": "That's",
+    "s": 0.03,
+    "e": 0.33
+   },
+   {
+    "w": "almost",
+    "s": 0.33,
+    "e": 0.59
+   },
+   {
+    "w": "exactly",
+    "s": 0.59,
+    "e": 1.21
+   },
+   {
+    "w": "the",
+    "s": 1.21,
+    "e": 1.53
+   },
+   {
+    "w": "share",
+    "s": 1.53,
+    "e": 1.71
+   },
+   {
+    "w": "found",
+    "s": 1.71,
+    "e": 1.97
+   },
+   {
+    "w": "in",
+    "s": 1.97,
+    "e": 2.13
+   },
+   {
+    "w": "human",
+    "s": 2.13,
+    "e": 2.35
+   },
+   {
+    "w": "babies.",
+    "s": 2.35,
+    "e": 2.63
+   }
+  ],
+  "heard": "That's almost exactly the share found in human babies.",
+  "match": 1.0
+ },
+ {
+  "id": "L08",
+  "chapter": 6,
+  "text": "The cat doesn't love you less. It just shows it more quietly. Point to the cat, for the biggest surprise.",
+  "dur": 6.29,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.04,
+    "e": 0.2
+   },
+   {
+    "w": "cat",
+    "s": 0.2,
+    "e": 0.42
+   },
+   {
+    "w": "doesn't",
+    "s": 0.42,
+    "e": 0.88
+   },
+   {
+    "w": "love",
+    "s": 0.88,
+    "e": 1.06
+   },
+   {
+    "w": "you",
+    "s": 1.06,
+    "e": 1.28
+   },
+   {
+    "w": "less.",
+    "s": 1.28,
+    "e": 1.6
+   },
+   {
+    "w": "It",
+    "s": 2.16,
+    "e": 2.26
+   },
+   {
+    "w": "just",
+    "s": 2.26,
+    "e": 2.44
+   },
+   {
+    "w": "shows",
+    "s": 2.44,
+    "e": 2.78
+   },
+   {
+    "w": "it",
+    "s": 2.78,
+    "e": 2.92
+   },
+   {
+    "w": "more",
+    "s": 2.92,
+    "e": 3.06
+   },
+   {
+    "w": "quietly.",
+    "s": 3.06,
+    "e": 3.52
+   },
+   {
+    "w": "Point",
+    "s": 4.38,
+    "e": 4.62
+   },
+   {
+    "w": "to",
+    "s": 4.62,
+    "e": 4.76
+   },
+   {
+    "w": "the",
+    "s": 4.76,
+    "e": 4.86
+   },
+   {
+    "w": "cat,",
+    "s": 4.86,
+    "e": 5.04
+   },
+   {
+    "w": "for",
+    "s": 5.36,
+    "e": 5.48
+   },
+   {
+    "w": "the",
+    "s": 5.48,
+    "e": 5.58
+   },
+   {
+    "w": "biggest",
+    "s": 5.58,
+    "e": 5.74
+   },
+   {
+    "w": "surprise.",
+    "s": 5.74,
+    "e": 6.1
+   }
+  ],
+  "heard": "The cat doesn't love you less. It just shows it more quietly. Point to the cat, for the biggest surprise.",
+  "match": 1.0
+ },
+ {
+  "id": "E01",
+  "chapter": 6,
+  "text": "Final score. Dog, five. Cat, four.",
+  "dur": 2.36,
+  "words": [
+   {
+    "w": "Final",
+    "s": 0.1,
+    "e": 0.22
+   },
+   {
+    "w": "score.",
+    "s": 0.22,
+    "e": 0.54
+   },
+   {
+    "w": "Dog,",
+    "s": 1.1,
+    "e": 1.14
+   },
+   {
+    "w": "five.",
+    "s": 1.24,
+    "e": 1.48
+   },
+   {
+    "w": "Cat,",
+    "s": 1.9,
+    "e": 1.94
+   },
+   {
+    "w": "four.",
+    "s": 1.96,
+    "e": 2.18
+   }
+  ],
+  "heard": "Final score. Dog, five. Cat, four.",
+  "match": 1.0
+ },
+ {
+  "id": "E02",
+  "chapter": 6,
+  "text": "The dog takes history, brains and words. The cat takes the ears, the tidy drinking, and the quiet kind of love.",
+  "dur": 6.79,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.03,
+    "e": 0.21
+   },
+   {
+    "w": "dog",
+    "s": 0.21,
+    "e": 0.41
+   },
+   {
+    "w": "takes",
+    "s": 0.41,
+    "e": 0.63
+   },
+   {
+    "w": "history,",
+    "s": 0.63,
+    "e": 1.13
+   },
+   {
+    "w": "brains",
+    "s": 1.41,
+    "e": 1.65
+   },
+   {
+    "w": "and",
+    "s": 1.65,
+    "e": 1.97
+   },
+   {
+    "w": "words.",
+    "s": 1.97,
+    "e": 2.29
+   },
+   {
+    "w": "The",
+    "s": 2.95,
+    "e": 3.09
+   },
+   {
+    "w": "cat",
+    "s": 3.09,
+    "e": 3.33
+   },
+   {
+    "w": "takes",
+    "s": 3.33,
+    "e": 3.59
+   },
+   {
+    "w": "the",
+    "s": 3.59,
+    "e": 3.75
+   },
+   {
+    "w": "ears,",
+    "s": 3.75,
+    "e": 4.15
+   },
+   {
+    "w": "the",
+    "s": 4.55,
+    "e": 4.59
+   },
+   {
+    "w": "tidy",
+    "s": 4.59,
+    "e": 4.83
+   },
+   {
+    "w": "drinking,",
+    "s": 4.83,
+    "e": 5.13
+   },
+   {
+    "w": "and",
+    "s": 5.53,
+    "e": 5.67
+   },
+   {
+    "w": "the",
+    "s": 5.67,
+    "e": 5.79
+   },
+   {
+    "w": "quiet",
+    "s": 5.79,
+    "e": 6.07
+   },
+   {
+    "w": "kind",
+    "s": 6.07,
+    "e": 6.31
+   },
+   {
+    "w": "of",
+    "s": 6.31,
+    "e": 6.45
+   },
+   {
+    "w": "love.",
+    "s": 6.45,
+    "e": 6.65
+   }
+  ],
+  "heard": "The dog takes history, brains and words. The cat takes the ears, the tidy drinking, and the quiet kind of love.",
+  "match": 1.0
+ },
+ {
+  "id": "E03",
+  "chapter": 6,
+  "text": "Which side are you on? Tell us in the comments.",
+  "dur": 2.34,
+  "words": [
+   {
+    "w": "Which",
+    "s": 0.04,
+    "e": 0.44
+   },
+   {
+    "w": "side",
+    "s": 0.44,
+    "e": 0.6
+   },
+   {
+    "w": "are",
+    "s": 0.6,
+    "e": 0.72
+   },
+   {
+    "w": "you",
+    "s": 0.72,
+    "e": 0.8
+   },
+   {
+    "w": "on?",
+    "s": 0.8,
+    "e": 1.0
+   },
+   {
+    "w": "Tell",
+    "s": 1.52,
+    "e": 1.58
+   },
+   {
+    "w": "us",
+    "s": 1.58,
+    "e": 1.68
+   },
+   {
+    "w": "in",
+    "s": 1.68,
+    "e": 1.76
+   },
+   {
+    "w": "the",
+    "s": 1.76,
+    "e": 1.84
+   },
+   {
+    "w": "comments.",
+    "s": 1.84,
+    "e": 2.06
+   }
+  ],
+  "heard": "Which side are you on? Tell us in the comments.",
+  "match": 1.0
+ },
+ {
+  "id": "E04",
+  "chapter": 6,
+  "text": "And now, go call your cat. It heard you. It's just... deciding.",
+  "dur": 5.13,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.13,
+    "e": 0.17
+   },
+   {
+    "w": "now,",
+    "s": 0.17,
+    "e": 0.37
+   },
+   {
+    "w": "go",
+    "s": 0.85,
+    "e": 1.05
+   },
+   {
+    "w": "call",
+    "s": 1.05,
+    "e": 1.21
+   },
+   {
+    "w": "your",
+    "s": 1.21,
+    "e": 1.37
+   },
+   {
+    "w": "cat.",
+    "s": 1.37,
+    "e": 1.57
+   },
+   {
+    "w": "It",
+    "s": 2.25,
+    "e": 2.37
+   },
+   {
+    "w": "heard",
+    "s": 2.37,
+    "e": 2.53
+   },
+   {
+    "w": "you.",
+    "s": 2.53,
+    "e": 2.73
+   },
+   {
+    "w": "It's",
+    "s": 3.31,
+    "e": 3.47
+   },
+   {
+    "w": "just...",
+    "s": 3.47,
+    "e": 4.95
+   },
+   {
+    "w": "deciding.",
+    "s": 4.95,
+    "e": 4.95
+   }
+  ],
+  "heard": "And now, go call your cat. It heard you. It's just... deciding.",
+  "match": 1.0
  }
 ]
