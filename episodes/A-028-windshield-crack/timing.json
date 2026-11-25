@@ -3,529 +3,535 @@
   "id": "H1",
   "chapter": 0,
   "text": "Why can hot water crack a frozen windshield?",
-  "dur": 2.61,
+  "dur": 2.74,
   "words": [
    {
     "w": "Why",
     "s": 0.0,
-    "e": 0.2
+    "e": 0.48
    },
    {
     "w": "can",
-    "s": 0.2,
-    "e": 0.38
+    "s": 0.48,
+    "e": 0.66
    },
    {
     "w": "hot",
-    "s": 0.38,
-    "e": 0.64
-   },
-   {
-    "w": "water",
-    "s": 0.64,
+    "s": 0.66,
     "e": 0.96
    },
    {
-    "w": "crack",
+    "w": "water",
     "s": 0.96,
-    "e": 1.24
+    "e": 1.3
+   },
+   {
+    "w": "crack",
+    "s": 1.3,
+    "e": 1.64
    },
    {
     "w": "a",
-    "s": 1.24,
-    "e": 1.44
+    "s": 1.64,
+    "e": 1.84
    },
    {
     "w": "frozen",
-    "s": 1.44,
-    "e": 1.78
+    "s": 1.84,
+    "e": 2.06
    },
    {
     "w": "windshield?",
-    "s": 1.78,
-    "e": 2.2
+    "s": 2.06,
+    "e": 2.5
    }
   ],
-  "heard": "Why can hot water crack a frozen windshield?"
+  "heard": "Why can hot water crack a frozen windshield?",
+  "match": 1.0
  },
  {
   "id": "L01",
   "chapter": 0,
   "text": "One splash from the kettle... and the glass can split right across.",
-  "dur": 3.667,
+  "dur": 4.04,
   "words": [
    {
     "w": "One",
-    "s": 0.0,
-    "e": 0.26
+    "s": 0.06,
+    "e": 0.28
    },
    {
     "w": "splash",
-    "s": 0.26,
-    "e": 0.62
+    "s": 0.28,
+    "e": 0.58
    },
    {
     "w": "from",
-    "s": 0.62,
-    "e": 0.88
+    "s": 0.58,
+    "e": 0.82
    },
    {
     "w": "the",
-    "s": 0.88,
-    "e": 1.0
+    "s": 0.82,
+    "e": 0.92
    },
    {
     "w": "kettle...",
-    "s": 1.0,
-    "e": 1.7
+    "s": 0.92,
+    "e": 1.74
    },
    {
     "w": "and",
-    "s": 1.7,
-    "e": 1.8
+    "s": 1.74,
+    "e": 1.76
    },
    {
     "w": "the",
-    "s": 1.8,
-    "e": 1.9
+    "s": 1.76,
+    "e": 1.88
    },
    {
     "w": "glass",
-    "s": 1.9,
+    "s": 1.88,
     "e": 2.18
    },
    {
     "w": "can",
     "s": 2.18,
-    "e": 2.4
+    "e": 2.46
    },
    {
     "w": "split",
-    "s": 2.4,
-    "e": 2.68
+    "s": 2.46,
+    "e": 2.88
    },
    {
     "w": "right",
-    "s": 2.68,
-    "e": 2.92
+    "s": 2.88,
+    "e": 3.34
    },
    {
     "w": "across.",
-    "s": 2.92,
-    "e": 3.3
+    "s": 3.34,
+    "e": 3.68
    }
   ],
-  "heard": "One splash from the kettle... and the glass can split right across."
+  "heard": "One splash from the kettle... and the glass can split right across.",
+  "match": 1.0
  },
  {
   "id": "L02",
   "chapter": 0,
   "text": "Glass is slow to move heat. So the outer layer warms and swells in a second, while the glass underneath is still frozen.",
-  "dur": 7.426,
+  "dur": 6.45,
   "words": [
    {
     "w": "Glass",
-    "s": 0.0,
-    "e": 0.28
+    "s": 0.15,
+    "e": 0.27
    },
    {
     "w": "is",
-    "s": 0.28,
-    "e": 0.5
+    "s": 0.27,
+    "e": 0.47
    },
    {
     "w": "slow",
-    "s": 0.5,
-    "e": 0.8
+    "s": 0.47,
+    "e": 0.75
    },
    {
     "w": "to",
-    "s": 0.8,
-    "e": 0.98
+    "s": 0.75,
+    "e": 0.89
    },
    {
     "w": "move",
-    "s": 0.98,
-    "e": 1.18
+    "s": 0.89,
+    "e": 1.05
    },
    {
     "w": "heat.",
-    "s": 1.18,
-    "e": 1.56
+    "s": 1.05,
+    "e": 1.37
    },
    {
     "w": "So",
-    "s": 2.18,
-    "e": 2.22
+    "s": 1.77,
+    "e": 1.81
    },
    {
     "w": "the",
-    "s": 2.22,
-    "e": 2.34
+    "s": 1.81,
+    "e": 1.95
    },
    {
     "w": "outer",
-    "s": 2.34,
-    "e": 2.62
+    "s": 1.95,
+    "e": 2.23
    },
    {
     "w": "layer",
-    "s": 2.62,
-    "e": 2.94
+    "s": 2.23,
+    "e": 2.45
    },
    {
     "w": "warms",
-    "s": 2.94,
-    "e": 3.54
+    "s": 2.45,
+    "e": 3.05
    },
    {
     "w": "and",
-    "s": 3.54,
-    "e": 3.72
+    "s": 3.05,
+    "e": 3.19
    },
    {
     "w": "swells",
-    "s": 3.72,
-    "e": 4.16
+    "s": 3.19,
+    "e": 3.63
    },
    {
     "w": "in",
-    "s": 4.16,
-    "e": 4.32
+    "s": 3.63,
+    "e": 3.79
    },
    {
     "w": "a",
-    "s": 4.32,
-    "e": 4.46
+    "s": 3.79,
+    "e": 3.93
    },
    {
     "w": "second,",
-    "s": 4.46,
-    "e": 4.76
+    "s": 3.93,
+    "e": 4.21
    },
    {
     "w": "while",
-    "s": 5.08,
-    "e": 5.26
+    "s": 4.43,
+    "e": 4.63
    },
    {
     "w": "the",
-    "s": 5.26,
-    "e": 5.4
+    "s": 4.63,
+    "e": 4.73
    },
    {
     "w": "glass",
-    "s": 5.4,
-    "e": 5.68
+    "s": 4.73,
+    "e": 4.91
    },
    {
     "w": "underneath",
-    "s": 5.68,
-    "e": 6.2
+    "s": 4.91,
+    "e": 5.31
    },
    {
     "w": "is",
-    "s": 6.2,
-    "e": 6.5
+    "s": 5.31,
+    "e": 5.65
    },
    {
     "w": "still",
-    "s": 6.5,
-    "e": 6.74
+    "s": 5.65,
+    "e": 5.83
    },
    {
     "w": "frozen.",
-    "s": 6.74,
-    "e": 7.08
+    "s": 5.83,
+    "e": 6.23
    }
   ],
-  "heard": "Glass is slow to move heat. So the outer layer warms and swells in a second, while the glass underneath is still frozen."
+  "heard": "Glass is slow to move heat. So the outer layer warms and swells in a second, while the glass underneath is still frozen.",
+  "match": 1.0
  },
  {
   "id": "L03",
   "chapter": 0,
   "text": "One side stretching, the other side not. That pull is called thermal shock.",
-  "dur": 4.395,
+  "dur": 4.18,
   "words": [
    {
     "w": "One",
-    "s": 0.0,
-    "e": 0.24
+    "s": 0.03,
+    "e": 0.27
    },
    {
     "w": "side",
-    "s": 0.24,
-    "e": 0.52
+    "s": 0.27,
+    "e": 0.49
    },
    {
     "w": "stretching,",
-    "s": 0.52,
-    "e": 1.02
+    "s": 0.49,
+    "e": 0.89
    },
    {
     "w": "the",
-    "s": 1.16,
-    "e": 1.24
+    "s": 1.15,
+    "e": 1.25
    },
    {
     "w": "other",
-    "s": 1.24,
-    "e": 1.4
+    "s": 1.25,
+    "e": 1.49
    },
    {
     "w": "side",
-    "s": 1.4,
-    "e": 1.72
+    "s": 1.49,
+    "e": 1.77
    },
    {
     "w": "not.",
-    "s": 1.72,
-    "e": 2.0
+    "s": 1.77,
+    "e": 2.05
    },
    {
     "w": "That",
-    "s": 2.5,
-    "e": 2.7
+    "s": 2.41,
+    "e": 2.63
    },
    {
     "w": "pull",
-    "s": 2.7,
-    "e": 2.96
+    "s": 2.63,
+    "e": 2.87
    },
    {
     "w": "is",
-    "s": 2.96,
-    "e": 3.14
+    "s": 2.87,
+    "e": 3.07
    },
    {
     "w": "called",
-    "s": 3.14,
-    "e": 3.42
+    "s": 3.07,
+    "e": 3.27
    },
    {
     "w": "thermal",
-    "s": 3.42,
-    "e": 3.78
+    "s": 3.27,
+    "e": 3.59
    },
    {
     "w": "shock.",
-    "s": 3.78,
-    "e": 4.16
+    "s": 3.59,
+    "e": 3.91
    }
   ],
-  "heard": "One side stretching, the other side not. That pull is called thermal shock."
+  "heard": "One side stretching, the other side not. That pull is called thermal shock.",
+  "match": 1.0
  },
  {
   "id": "L04",
   "chapter": 0,
   "text": "A tiny chip makes it worse. The stress gathers there, and a crack can race across the glass.",
-  "dur": 5.22,
+  "dur": 5.08,
   "words": [
    {
     "w": "A",
-    "s": 0.0,
-    "e": 0.16
+    "s": 0.03,
+    "e": 0.21
    },
    {
     "w": "tiny",
-    "s": 0.16,
-    "e": 0.5
+    "s": 0.21,
+    "e": 0.47
    },
    {
     "w": "chip",
-    "s": 0.5,
-    "e": 0.76
+    "s": 0.47,
+    "e": 0.73
    },
    {
     "w": "makes",
-    "s": 0.76,
-    "e": 1.0
+    "s": 0.73,
+    "e": 0.89
    },
    {
     "w": "it",
-    "s": 1.0,
-    "e": 1.16
+    "s": 0.89,
+    "e": 1.05
    },
    {
     "w": "worse.",
-    "s": 1.16,
-    "e": 1.42
+    "s": 1.05,
+    "e": 1.23
    },
    {
     "w": "The",
-    "s": 2.02,
-    "e": 2.12
+    "s": 1.71,
+    "e": 1.85
    },
    {
     "w": "stress",
-    "s": 2.12,
-    "e": 2.36
+    "s": 1.85,
+    "e": 2.05
    },
    {
     "w": "gathers",
-    "s": 2.36,
-    "e": 2.7
+    "s": 2.05,
+    "e": 2.37
    },
    {
     "w": "there,",
-    "s": 2.7,
-    "e": 3.06
+    "s": 2.37,
+    "e": 2.69
    },
    {
     "w": "and",
-    "s": 3.24,
-    "e": 3.28
+    "s": 2.83,
+    "e": 2.97
    },
    {
     "w": "a",
-    "s": 3.28,
-    "e": 3.38
+    "s": 2.97,
+    "e": 3.11
    },
    {
     "w": "crack",
-    "s": 3.38,
-    "e": 3.68
+    "s": 3.11,
+    "e": 3.41
    },
    {
     "w": "can",
-    "s": 3.68,
-    "e": 3.9
+    "s": 3.41,
+    "e": 3.71
    },
    {
     "w": "race",
-    "s": 3.9,
-    "e": 4.2
+    "s": 3.71,
+    "e": 4.09
    },
    {
     "w": "across",
-    "s": 4.2,
-    "e": 4.48
+    "s": 4.09,
+    "e": 4.33
    },
    {
     "w": "the",
-    "s": 4.48,
-    "e": 4.7
+    "s": 4.33,
+    "e": 4.53
    },
    {
     "w": "glass.",
-    "s": 4.7,
-    "e": 4.94
+    "s": 4.53,
+    "e": 4.81
    }
   ],
-  "heard": "A tiny chip makes it worse. The stress gathers there, and a crack can race across the glass."
+  "heard": "A tiny chip makes it worse. The stress gathers there, and a crack can race across the glass.",
+  "match": 1.0
  },
  {
   "id": "L05",
   "chapter": 0,
   "text": "So skip the kettle. Scrape it, spray de-icer, or let the defroster warm it slowly... and the ice slides right off.",
-  "dur": 6.933,
+  "dur": 6.48,
   "words": [
    {
     "w": "So",
-    "s": 0.0,
-    "e": 0.18
+    "s": 0.04,
+    "e": 0.24
    },
    {
     "w": "skip",
-    "s": 0.18,
-    "e": 0.44
-   },
-   {
-    "w": "the",
-    "s": 0.44,
+    "s": 0.24,
     "e": 0.64
    },
    {
-    "w": "kettle.",
+    "w": "the",
     "s": 0.64,
-    "e": 0.92
+    "e": 0.78
+   },
+   {
+    "w": "kettle.",
+    "s": 0.78,
+    "e": 1.0
    },
    {
     "w": "Scrape",
     "s": 1.5,
-    "e": 1.7
+    "e": 1.68
    },
    {
     "w": "it,",
-    "s": 1.7,
-    "e": 1.88
+    "s": 1.68,
+    "e": 1.9
    },
    {
     "w": "spray",
-    "s": 1.96,
-    "e": 2.18
+    "s": 2.2,
+    "e": 2.48
    },
    {
     "w": "de-icer,",
-    "s": 2.18,
-    "e": 2.94
-   },
-   {
-    "w": "or",
-    "s": 2.94,
-    "e": 3.04
-   },
-   {
-    "w": "let",
-    "s": 3.04,
+    "s": 2.48,
     "e": 3.2
    },
    {
-    "w": "the",
+    "w": "or",
     "s": 3.2,
-    "e": 3.34
+    "e": 3.32
+   },
+   {
+    "w": "let",
+    "s": 3.32,
+    "e": 3.48
+   },
+   {
+    "w": "the",
+    "s": 3.48,
+    "e": 3.6
    },
    {
     "w": "defroster",
-    "s": 3.34,
-    "e": 3.78
+    "s": 3.6,
+    "e": 3.96
    },
    {
     "w": "warm",
-    "s": 3.78,
-    "e": 4.06
+    "s": 3.96,
+    "e": 4.18
    },
    {
     "w": "it",
-    "s": 4.06,
-    "e": 4.24
+    "s": 4.18,
+    "e": 4.28
    },
    {
     "w": "slowly...",
-    "s": 4.24,
-    "e": 5.22
+    "s": 4.28,
+    "e": 4.8
    },
    {
     "w": "and",
-    "s": 5.22,
-    "e": 5.34
+    "s": 4.8,
+    "e": 5.08
    },
    {
     "w": "the",
-    "s": 5.34,
-    "e": 5.46
+    "s": 5.08,
+    "e": 5.18
    },
    {
     "w": "ice",
-    "s": 5.46,
-    "e": 5.7
+    "s": 5.18,
+    "e": 5.42
    },
    {
     "w": "slides",
-    "s": 5.7,
-    "e": 6.14
+    "s": 5.42,
+    "e": 5.88
    },
    {
     "w": "right",
-    "s": 6.14,
-    "e": 6.48
+    "s": 5.88,
+    "e": 6.14
    },
    {
     "w": "off.",
-    "s": 6.48,
-    "e": 6.72
+    "s": 6.14,
+    "e": 6.34
    }
   ],
-  "heard": "So skip the kettle. Scrape it, spray de -icer, or let the defroster warm it slowly... and the ice slides right off."
+  "heard": "So skip the kettle. Scrape it, spray de-icer, or let the defroster warm it slowly... and the ice slides right off.",
+  "match": 1.0
  }
 ]

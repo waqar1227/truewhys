@@ -486,5 +486,13 @@
   "synthetic": false,
   "reason": "Not realistic: stylised CG person and kitchen, animated wave graphics, generic TTS narrator imitating no real person, code-made music (docs/ai_disclosure.md test, 24 Nov 2026).",
   "decided": "2026-11-24"
+ },
+ "6OXodt-6jFo": {
+  "episode": "A-028",
+  "title": "Why Hot Water Can Crack a Frozen Windshield",
+  "style": "F: flat 2D",
+  "synthetic": false,
+  "reason": "Not realistic: flat 2D cartoon animation, generic TTS narrator imitating no real person, code-made music; no real footage, people or brands (docs/ai_disclosure.md test, 25 Nov 2026).",
+  "decided": "2026-11-25"
  }
 }

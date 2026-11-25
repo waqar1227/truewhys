@@ -50,6 +50,7 @@ Unsure → **Yes** (disclosing never hurts reach or money; a missing disclosure 
 | sJ8lsYNlHTk | A-024-microwave-mesh | Why Is There a Metal Net in Your Microwave Door? | R | **No** |
 | -8MLpCFqDuw | A-026-tongue-pole | Why Your Tongue Sticks to a Frozen Pole | F | **No** |
 | _6wnNSSo4fU | A-027-reindeer-eyes | Why Reindeer Eyes Turn Blue in Winter | F | **No** |
+| 6OXodt-6jFo | A-028-windshield-crack | Why Hot Water Can Crack a Frozen Windshield | F | **No** |
 | PtETjFRHH24 | B-004 C1 | Why Do Coins Have Ridges? | F | **No** |
 | cXgM0GJELw0 | B-004 C2 | Why Stop Signs Used to Be Yellow | F | **No** |
 | dgmYB0zPALw | B-004 (L4) | Why Coins Have Ridges, Manholes Are Round and Stop Signs Have 8 Sides | F | **No** |

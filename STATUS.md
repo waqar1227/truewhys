@@ -6,9 +6,10 @@ Rules added 22 Nov (all in CLAUDE.md): 5 posts/week, 1 per day, Mon+Wed free, lo
 (docs/posting_times.md) · trend swap allowed · NO burned-in captions (SRT upload) · research/why_not_viral.md production rules ·
 docs/growth_strategy.md · docs/competitor_targeting.md (never creator names in metadata) · cast v2.2 (arms/turns) · 30 days scheduled → STOP.
 
-CALENDAR (UTC). Scheduled: Sun 22 A-021 · Mon 23 16:00 A-025 T3CvD2HqRaE (trend swap, owner 23 Nov; A-017 moved to Tue 22 Dec 18:00) · Tue 24 A-012 · Wed 25 A-011 · Thu 26 A-013 · Fri 27 A-018 · Sun 29 17:00 L4 dgmYB0zPALw ·
+CALENDAR (UTC). Scheduled: Sun 22 A-021 · Mon 23 16:00 A-025 T3CvD2HqRaE (trend swap, owner 23 Nov; A-017 moved to Tue 22 Dec 18:00) · Tue 24 A-012 · Wed 25 A-011 · Thu 26 A-013 · Fri 27 A-018 · Sat 28 18:00 A-028 6OXodt-6jFo (windshield, Style F; owner one-time winter exception to the posting days, 25 Nov) · Sun 29 17:00 L4 dgmYB0zPALw ·
 Tue 1 Dec 18:00 L4-C1 PtETjFRHH24 · Thu 3 Dec 16:00 A-010 · Fri 4 Dec 18:00 L4-C2 cXgM0GJELw0 · Sat 5 Dec 18:00 A-019 1I_m4OaiQzE · Sun 6 Dec 16:00 A-016 · Fri 11 Dec 18:00 A-022 VAUl6EfZebw · Sun 13 Dec 17:00 L6 acW1qBL5TzI (brain glitches, Style F) · Tue 15 Dec 18:00 A-026 -8MLpCFqDuw (tongue on frozen pole, Style F) · Thu 17 Dec 18:00 L6-C1 zvHTp6BC06E (phantom phone buzz) · Fri 18 Dec 18:00 A-023 3ZAI7vLZZkE (foot asleep, Style F) · Sat 19 Dec 18:00 A-024 sJ8lsYNlHTk (microwave mesh) · Tue 22 Dec 18:00 A-017 S8zIxiPXHpE (moved) · Thu 24 Dec 18:00 A-027 _6wnNSSo4fU (reindeer eyes, Style F).
 IN PRODUCTION (22 Nov): Mon 7 Dec 17:00 L5 + teaser post (own session session_01BQj2DeXWy7q3QfcuAZWsgi) · Tue 8 + Thu 10 Dec 18:00 L5 cut Shorts (L5 session).
+DONE 25 Nov: A-028 "Why Hot Water Can Crack a Frozen Windshield" 6OXodt-6jFo uploaded (owner request; private + publishAt Sat 28 Nov 18:00 UTC = one-time exception to the posting-days rule, owner 25 Nov), thumb, SRT, AI field No, registers.
 DONE 24 Nov: A-024 sJ8lsYNlHTk scheduled Sat 19 Dec 18:00 UTC (SRT, thumb). DONE 23 Nov: A-025 T3CvD2HqRaE scheduled Mon 23 Nov 16:00 UTC, SRT up.
 DONE 24 Nov: A-026 + A-027 uploaded (private + publishAt, thumbs, SRT, AI field No, registers). Each new Short: renders → `make.py render renders` → QA → thumb → upload → SRT → registers.
 DONE 24 Nov: L6 B-006 "Why You Forget Why You Walked Into a Room, Songs Get Stuck and Déjà Vu Happens" UPLOADED acW1qBL5TzI (Sun 13 Dec 17:00 UTC, SRT, thumb A)
@@ -26,7 +27,7 @@ TASKS in order:
    (upload_meta.json pinned_comment) and send thumbs B/C (final/) for Test & Compare.
 1. OWNER (told 22 Nov): Studio → Related video = L4 (dgmYB0zPALw) on PtETjFRHH24 and cXgM0GJELw0.
 2. 48-h checks into topic_results.md (stayed %, rel. retention 10 %, drop point): A-021 DONE 24 Nov (1,994 views/36 likes; retention 26 Nov), A-025 25 Nov, A-012 26, A-011 27, A-013 28,
-   A-018 29 Nov, A-026 17 Dec, A-027 26 Dec (`python3 lib/yt_stats.py 7`). Compare Style R (A-016/17/18/21) vs Style F.
+   A-018 29 Nov, A-028 30 Nov, A-026 17 Dec, A-027 26 Dec (`python3 lib/yt_stats.py 7`). Compare Style R (A-016/17/18/21) vs Style F.
 3. DONE 23 Nov: A-019 + A-022 uploaded (private + publishAt, thumb, SRT, AI field No, registers). Kaggle: a019+a022 v1+v2 used ≈ 3.7 h session time (render_log.md).
 4. L5 DONE (23 Nov): B-005 "Why Toast Lands Butter-Side Down, Shoelaces Untie and Earbuds Tangle" UPLOADED l_w8yDvCZiI (Mon 7 Dec 17:00 UTC, SRT, thumb A);
    cut Shorts C1 toast 7LX7R8f7GB4 (Tue 8 Dec 18:00) + C2 spaghetti Ydk7QtOzx7M (Thu 10 Dec 18:00), SRT + thumbs. OWNER: Related video = L5 on both;
