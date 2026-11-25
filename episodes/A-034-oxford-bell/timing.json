@@ -1,0 +1,694 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "This bell has been ringing since 1840... on the same batteries.",
+  "dur": 4.373,
+  "words": [
+   {
+    "w": "This",
+    "s": 0.0,
+    "e": 0.218
+   },
+   {
+    "w": "bell",
+    "s": 0.218,
+    "e": 0.473
+   },
+   {
+    "w": "has",
+    "s": 0.473,
+    "e": 0.909
+   },
+   {
+    "w": "been",
+    "s": 0.909,
+    "e": 1.091
+   },
+   {
+    "w": "ringing",
+    "s": 1.091,
+    "e": 1.291
+   },
+   {
+    "w": "since",
+    "s": 1.291,
+    "e": 1.6
+   },
+   {
+    "w": "1840...",
+    "s": 1.6,
+    "e": 2.545
+   },
+   {
+    "w": "on",
+    "s": 3.273,
+    "e": 3.364
+   },
+   {
+    "w": "the",
+    "s": 3.364,
+    "e": 3.491
+   },
+   {
+    "w": "same",
+    "s": 3.491,
+    "e": 3.673
+   },
+   {
+    "w": "batteries.",
+    "s": 3.673,
+    "e": 4.109
+   }
+  ],
+  "heard": "This bell has been ringing since 1840. On the same batteries,",
+  "match": 1.0,
+  "tempo": 1.1
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "About ten billion rings, and nobody knows exactly what's inside them.",
+  "dur": 3.845,
+  "words": [
+   {
+    "w": "About",
+    "s": 0.055,
+    "e": 0.273
+   },
+   {
+    "w": "ten",
+    "s": 0.273,
+    "e": 0.636
+   },
+   {
+    "w": "billion",
+    "s": 0.636,
+    "e": 1.018
+   },
+   {
+    "w": "rings,",
+    "s": 1.018,
+    "e": 1.4
+   },
+   {
+    "w": "and",
+    "s": 1.709,
+    "e": 1.945
+   },
+   {
+    "w": "nobody",
+    "s": 1.945,
+    "e": 2.182
+   },
+   {
+    "w": "knows",
+    "s": 2.182,
+    "e": 2.491
+   },
+   {
+    "w": "exactly",
+    "s": 2.491,
+    "e": 2.873
+   },
+   {
+    "w": "what's",
+    "s": 2.873,
+    "e": 3.2
+   },
+   {
+    "w": "inside",
+    "s": 3.2,
+    "e": 3.455
+   },
+   {
+    "w": "them.",
+    "s": 3.455,
+    "e": 3.727
+   }
+  ],
+  "heard": "about ten billion rings, and nobody knows exactly what's inside them.",
+  "match": 1.0,
+  "tempo": 1.1
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "It sits in a lab in Oxford. Two little brass bells, each on top of a tall dry battery.",
+  "dur": 4.736,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.027,
+    "e": 0.173
+   },
+   {
+    "w": "sits",
+    "s": 0.173,
+    "e": 0.336
+   },
+   {
+    "w": "in",
+    "s": 0.336,
+    "e": 0.5
+   },
+   {
+    "w": "a",
+    "s": 0.5,
+    "e": 0.555
+   },
+   {
+    "w": "lab",
+    "s": 0.555,
+    "e": 0.718
+   },
+   {
+    "w": "in",
+    "s": 0.718,
+    "e": 0.864
+   },
+   {
+    "w": "Oxford.",
+    "s": 0.864,
+    "e": 1.155
+   },
+   {
+    "w": "Two",
+    "s": 1.591,
+    "e": 1.682
+   },
+   {
+    "w": "little",
+    "s": 1.682,
+    "e": 1.9
+   },
+   {
+    "w": "brass",
+    "s": 1.9,
+    "e": 2.155
+   },
+   {
+    "w": "bells,",
+    "s": 2.155,
+    "e": 2.445
+   },
+   {
+    "w": "each",
+    "s": 2.809,
+    "e": 2.918
+   },
+   {
+    "w": "on",
+    "s": 2.918,
+    "e": 3.118
+   },
+   {
+    "w": "top",
+    "s": 3.118,
+    "e": 3.245
+   },
+   {
+    "w": "of",
+    "s": 3.245,
+    "e": 3.391
+   },
+   {
+    "w": "a",
+    "s": 3.391,
+    "e": 3.518
+   },
+   {
+    "w": "tall",
+    "s": 3.518,
+    "e": 3.845
+   },
+   {
+    "w": "dry",
+    "s": 3.845,
+    "e": 4.155
+   },
+   {
+    "w": "battery.",
+    "s": 4.155,
+    "e": 4.591
+   }
+  ],
+  "heard": "It sits in a lab in Oxford. Two little brass bells, each on top of a tall dry battery.",
+  "match": 1.0,
+  "tempo": 1.1
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "Between them hangs a metal ball, smaller than a pea. One bell charges it, pushes it away, the other bell pulls it in, and back again. Twice every second.",
+  "dur": 8.2,
+  "words": [
+   {
+    "w": "Between",
+    "s": 0.027,
+    "e": 0.318
+   },
+   {
+    "w": "them",
+    "s": 0.318,
+    "e": 0.536
+   },
+   {
+    "w": "hangs",
+    "s": 0.536,
+    "e": 0.755
+   },
+   {
+    "w": "a",
+    "s": 0.755,
+    "e": 0.9
+   },
+   {
+    "w": "metal",
+    "s": 0.9,
+    "e": 1.118
+   },
+   {
+    "w": "ball,",
+    "s": 1.118,
+    "e": 1.391
+   },
+   {
+    "w": "smaller",
+    "s": 1.7,
+    "e": 1.864
+   },
+   {
+    "w": "than",
+    "s": 1.864,
+    "e": 2.064
+   },
+   {
+    "w": "a",
+    "s": 2.064,
+    "e": 2.173
+   },
+   {
+    "w": "pea.",
+    "s": 2.173,
+    "e": 2.336
+   },
+   {
+    "w": "One",
+    "s": 2.845,
+    "e": 3.045
+   },
+   {
+    "w": "bell",
+    "s": 3.045,
+    "e": 3.209
+   },
+   {
+    "w": "charges",
+    "s": 3.209,
+    "e": 3.5
+   },
+   {
+    "w": "it,",
+    "s": 3.5,
+    "e": 3.791
+   },
+   {
+    "w": "pushes",
+    "s": 3.991,
+    "e": 4.173
+   },
+   {
+    "w": "it",
+    "s": 4.173,
+    "e": 4.355
+   },
+   {
+    "w": "away,",
+    "s": 4.355,
+    "e": 4.591
+   },
+   {
+    "w": "the",
+    "s": 4.991,
+    "e": 5.082
+   },
+   {
+    "w": "other",
+    "s": 5.082,
+    "e": 5.191
+   },
+   {
+    "w": "bell",
+    "s": 5.191,
+    "e": 5.355
+   },
+   {
+    "w": "pulls",
+    "s": 5.355,
+    "e": 5.518
+   },
+   {
+    "w": "it",
+    "s": 5.518,
+    "e": 5.645
+   },
+   {
+    "w": "in,",
+    "s": 5.645,
+    "e": 5.845
+   },
+   {
+    "w": "and",
+    "s": 6.045,
+    "e": 6.209
+   },
+   {
+    "w": "back",
+    "s": 6.209,
+    "e": 6.391
+   },
+   {
+    "w": "again.",
+    "s": 6.391,
+    "e": 6.682
+   },
+   {
+    "w": "Twice",
+    "s": 7.1,
+    "e": 7.227
+   },
+   {
+    "w": "every",
+    "s": 7.227,
+    "e": 7.773
+   },
+   {
+    "w": "second.",
+    "s": 7.773,
+    "e": 8.027
+   }
+  ],
+  "heard": "Between them hangs a metal ball, smaller than a pea. One bell charges it, pushes it away, the other bell pulls it in, and back again. Twice every second.",
+  "match": 1.0,
+  "tempo": 1.1
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "It kept ringing through two world wars, the first planes, and the moon landing.",
+  "dur": 3.927,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.027,
+    "e": 0.355
+   },
+   {
+    "w": "kept",
+    "s": 0.355,
+    "e": 0.482
+   },
+   {
+    "w": "ringing",
+    "s": 0.482,
+    "e": 0.7
+   },
+   {
+    "w": "through",
+    "s": 0.7,
+    "e": 0.936
+   },
+   {
+    "w": "two",
+    "s": 0.936,
+    "e": 1.245
+   },
+   {
+    "w": "world",
+    "s": 1.245,
+    "e": 1.482
+   },
+   {
+    "w": "wars,",
+    "s": 1.482,
+    "e": 1.791
+   },
+   {
+    "w": "the",
+    "s": 2.209,
+    "e": 2.245
+   },
+   {
+    "w": "first",
+    "s": 2.245,
+    "e": 2.427
+   },
+   {
+    "w": "planes,",
+    "s": 2.427,
+    "e": 2.809
+   },
+   {
+    "w": "and",
+    "s": 3.045,
+    "e": 3.173
+   },
+   {
+    "w": "the",
+    "s": 3.173,
+    "e": 3.318
+   },
+   {
+    "w": "moon",
+    "s": 3.318,
+    "e": 3.482
+   },
+   {
+    "w": "landing.",
+    "s": 3.482,
+    "e": 3.755
+   }
+  ],
+  "heard": "It kept ringing through two world wars, the first planes, and the moon landing.",
+  "match": 1.0,
+  "tempo": 1.1
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "But you can't hear it. It's sealed behind two layers of glass, and its batteries are coated in sulfur, so their recipe is still a mystery.",
+  "dur": 7.073,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.027,
+    "e": 0.264
+   },
+   {
+    "w": "you",
+    "s": 0.264,
+    "e": 0.573
+   },
+   {
+    "w": "can't",
+    "s": 0.573,
+    "e": 0.827
+   },
+   {
+    "w": "hear",
+    "s": 0.827,
+    "e": 0.936
+   },
+   {
+    "w": "it.",
+    "s": 0.936,
+    "e": 1.245
+   },
+   {
+    "w": "It's",
+    "s": 1.682,
+    "e": 1.882
+   },
+   {
+    "w": "sealed",
+    "s": 1.882,
+    "e": 2.045
+   },
+   {
+    "w": "behind",
+    "s": 2.045,
+    "e": 2.282
+   },
+   {
+    "w": "two",
+    "s": 2.282,
+    "e": 2.573
+   },
+   {
+    "w": "layers",
+    "s": 2.573,
+    "e": 2.755
+   },
+   {
+    "w": "of",
+    "s": 2.755,
+    "e": 2.955
+   },
+   {
+    "w": "glass,",
+    "s": 2.955,
+    "e": 3.227
+   },
+   {
+    "w": "and",
+    "s": 3.664,
+    "e": 3.682
+   },
+   {
+    "w": "its",
+    "s": 3.682,
+    "e": 3.791
+   },
+   {
+    "w": "batteries",
+    "s": 3.791,
+    "e": 4.1
+   },
+   {
+    "w": "are",
+    "s": 4.1,
+    "e": 4.282
+   },
+   {
+    "w": "coated",
+    "s": 4.282,
+    "e": 4.482
+   },
+   {
+    "w": "in",
+    "s": 4.482,
+    "e": 4.682
+   },
+   {
+    "w": "sulfur,",
+    "s": 4.682,
+    "e": 4.918
+   },
+   {
+    "w": "so",
+    "s": 5.227,
+    "e": 5.536
+   },
+   {
+    "w": "their",
+    "s": 5.536,
+    "e": 5.773
+   },
+   {
+    "w": "recipe",
+    "s": 5.773,
+    "e": 6.136
+   },
+   {
+    "w": "is",
+    "s": 6.136,
+    "e": 6.318
+   },
+   {
+    "w": "still",
+    "s": 6.318,
+    "e": 6.573
+   },
+   {
+    "w": "a",
+    "s": 6.573,
+    "e": 6.7
+   },
+   {
+    "w": "mystery.",
+    "s": 6.7,
+    "e": 6.955
+   }
+  ],
+  "heard": "But you can't hear it. It's sealed behind two layers of glass, and its batteries are coated in sulfur, so their recipe is still a mystery.",
+  "match": 1.0,
+  "tempo": 1.1
+ },
+ {
+  "id": "L06",
+  "chapter": 0,
+  "text": "One day the charge will run out. Until then... it just keeps ringing.",
+  "dur": 4.891,
+  "words": [
+   {
+    "w": "One",
+    "s": 0.055,
+    "e": 0.218
+   },
+   {
+    "w": "day",
+    "s": 0.218,
+    "e": 0.455
+   },
+   {
+    "w": "the",
+    "s": 0.455,
+    "e": 0.782
+   },
+   {
+    "w": "charge",
+    "s": 0.782,
+    "e": 1.036
+   },
+   {
+    "w": "will",
+    "s": 1.036,
+    "e": 1.2
+   },
+   {
+    "w": "run",
+    "s": 1.2,
+    "e": 1.345
+   },
+   {
+    "w": "out.",
+    "s": 1.345,
+    "e": 1.745
+   },
+   {
+    "w": "Until",
+    "s": 2.455,
+    "e": 2.655
+   },
+   {
+    "w": "then...",
+    "s": 2.655,
+    "e": 2.873
+   },
+   {
+    "w": "it",
+    "s": 3.382,
+    "e": 3.6
+   },
+   {
+    "w": "just",
+    "s": 3.6,
+    "e": 3.8
+   },
+   {
+    "w": "keeps",
+    "s": 3.8,
+    "e": 4.491
+   },
+   {
+    "w": "ringing.",
+    "s": 4.491,
+    "e": 4.727
+   }
+  ],
+  "heard": "One day the charge will run out. Until then, it just keeps ringing.",
+  "match": 1.0,
+  "tempo": 1.1
+ }
+]

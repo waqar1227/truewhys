@@ -1,0 +1,17 @@
+{
+ "title": "This Bell Has Rung 10 Billion Times on the Same Batteries 🔔",
+ "description": "This bell in Oxford has been ringing almost nonstop since 1840, on the same batteries. About ten billion rings so far, and nobody knows exactly what's inside them.\n\nTwo little brass bells sit on top of two tall dry batteries. A metal ball smaller than a pea hangs between them: one bell charges it and pushes it away, the other pulls it in, twice every second. It kept going through two world wars, the first planes and the moon landing. You can't even hear it: it's sealed behind two layers of glass, and its batteries are coated in sulfur, so their recipe is still a mystery.\n\nWould you open it to find out? Tell us below.\n\nMore true whys: https://www.youtube.com/@truewhys?sub_confirmation=1\n\nSources: Wikipedia, \"Oxford Electric Bell\"; University of Oxford Department of Physics, \"The Clarendon Dry Pile\"; Smithsonian Magazine; Hackaday (2018); Gizmodo.\nAnimation, music and sound: TrueWhys (original). Fonts: Lilita One (Open Font License).\n#science #history #physics",
+ "tags": ["oxford electric bell", "bell ringing since 1840", "longest running experiment", "oldest battery", "battery that never dies",
+          "clarendon dry pile", "dry pile", "world's most durable battery", "10 billion rings", "science mystery", "physics", "static electricity",
+          "strange experiments", "history of science", "oxford", "did you know", "science facts", "TrueWhys"],
+ "categoryId": "28",
+ "publishAt": "2027-01-02T18:00:00Z",
+ "playlist": "Why Does That Happen? (Science and Body)",
+ "video": "final/A-034.mp4",
+ "style": "F (flat 2D, cast v2.2, time-lapse room)",
+ "studio_pattern": 3,
+ "ai_disclosure": {
+  "synthetic": false,
+  "reason": "Not realistic: flat 2D cartoon animation and diagrams, generic TTS narrator imitating no real person, code-made music; no real footage, people, places shown as real, or brands (docs/ai_disclosure.md test, 25 Nov 2026)."
+ }
+}

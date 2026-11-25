@@ -2,7 +2,7 @@
 H1|0|How did a failed wallpaper become bubble wrap?
 L01|0|Nobody wanted it on their walls... and it almost ended up in the trash.
 L02|0|In 1957, two engineers sealed two shower curtains together, trapping rows of air bubbles inside, and sold it as fancy textured wallpaper.
-L03|0|People hated bumpy walls. So they tried it as greenhouse insulation. That flopped too.
+L03|0|So they tried it as greenhouse insulation. That flopped too.
 L04|0|Then a computer maker needed to ship its delicate new machine without a single crack.
 L05|0|The bubbles took the bumps. The computers arrived safe, and packing was never the same.
 L06|0|So every pop you hear... is a wallpaper nobody wanted.

@@ -1,0 +1,609 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "Why does a no-smoking plane toilet have an ashtray?",
+  "dur": 2.99,
+  "words": [
+   {
+    "w": "Why",
+    "s": 0.0,
+    "e": 0.231
+   },
+   {
+    "w": "does",
+    "s": 0.231,
+    "e": 0.404
+   },
+   {
+    "w": "a",
+    "s": 0.404,
+    "e": 0.538
+   },
+   {
+    "w": "no-smoking",
+    "s": 0.538,
+    "e": 1.058
+   },
+   {
+    "w": "plane",
+    "s": 1.058,
+    "e": 1.442
+   },
+   {
+    "w": "toilet",
+    "s": 1.442,
+    "e": 1.865
+   },
+   {
+    "w": "have",
+    "s": 1.865,
+    "e": 2.192
+   },
+   {
+    "w": "an",
+    "s": 2.192,
+    "e": 2.385
+   },
+   {
+    "w": "ashtray?",
+    "s": 2.385,
+    "e": 2.827
+   }
+  ],
+  "heard": "Why does a no -smoking plane toilet have an ashtray?",
+  "match": 0.842,
+  "tempo": 1.04
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "Smoking on every US flight has been banned since 2000... yet the rules still demand an ashtray on every toilet door.",
+  "dur": 7.058,
+  "words": [
+   {
+    "w": "Smoking",
+    "s": 0.135,
+    "e": 0.365
+   },
+   {
+    "w": "on",
+    "s": 0.365,
+    "e": 0.577
+   },
+   {
+    "w": "every",
+    "s": 0.577,
+    "e": 0.885
+   },
+   {
+    "w": "US",
+    "s": 0.885,
+    "e": 1.115
+   },
+   {
+    "w": "flight",
+    "s": 1.115,
+    "e": 1.385
+   },
+   {
+    "w": "has",
+    "s": 1.385,
+    "e": 1.596
+   },
+   {
+    "w": "been",
+    "s": 1.596,
+    "e": 1.769
+   },
+   {
+    "w": "banned",
+    "s": 1.769,
+    "e": 2.058
+   },
+   {
+    "w": "since",
+    "s": 2.058,
+    "e": 2.404
+   },
+   {
+    "w": "2000...",
+    "s": 3.423,
+    "e": 3.885
+   },
+   {
+    "w": "yet",
+    "s": 3.885,
+    "e": 3.981
+   },
+   {
+    "w": "the",
+    "s": 3.981,
+    "e": 4.154
+   },
+   {
+    "w": "rules",
+    "s": 4.154,
+    "e": 4.365
+   },
+   {
+    "w": "still",
+    "s": 4.365,
+    "e": 4.692
+   },
+   {
+    "w": "demand",
+    "s": 4.692,
+    "e": 4.981
+   },
+   {
+    "w": "an",
+    "s": 4.981,
+    "e": 5.173
+   },
+   {
+    "w": "ashtray",
+    "s": 5.173,
+    "e": 5.692
+   },
+   {
+    "w": "on",
+    "s": 5.692,
+    "e": 5.846
+   },
+   {
+    "w": "every",
+    "s": 5.846,
+    "e": 6.231
+   },
+   {
+    "w": "toilet",
+    "s": 6.231,
+    "e": 6.538
+   },
+   {
+    "w": "door.",
+    "s": 6.538,
+    "e": 6.846
+   }
+  ],
+  "heard": "Smoking on every US flight has been banned since 2000... yet the rules still demand an ashtray on every toilet door.",
+  "match": 1.0,
+  "tempo": 1.04
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "Because the real danger isn't the smoker. It's where the cigarette ends up.",
+  "dur": 3.74,
+  "words": [
+   {
+    "w": "Because",
+    "s": 0.058,
+    "e": 0.269
+   },
+   {
+    "w": "the",
+    "s": 0.269,
+    "e": 0.442
+   },
+   {
+    "w": "real",
+    "s": 0.442,
+    "e": 0.635
+   },
+   {
+    "w": "danger",
+    "s": 0.635,
+    "e": 0.962
+   },
+   {
+    "w": "isn't",
+    "s": 0.962,
+    "e": 1.269
+   },
+   {
+    "w": "the",
+    "s": 1.269,
+    "e": 1.423
+   },
+   {
+    "w": "smoker.",
+    "s": 1.423,
+    "e": 1.673
+   },
+   {
+    "w": "It's",
+    "s": 2.077,
+    "e": 2.308
+   },
+   {
+    "w": "where",
+    "s": 2.308,
+    "e": 2.5
+   },
+   {
+    "w": "the",
+    "s": 2.5,
+    "e": 2.692
+   },
+   {
+    "w": "cigarette",
+    "s": 2.692,
+    "e": 3.038
+   },
+   {
+    "w": "ends",
+    "s": 3.038,
+    "e": 3.327
+   },
+   {
+    "w": "up.",
+    "s": 3.327,
+    "e": 3.615
+   }
+  ],
+  "heard": "Because the real danger isn't the smoker. It's where the cigarette ends up.",
+  "match": 1.0,
+  "tempo": 1.04
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "Someone who breaks the rule panics and hides it, and the nearest hiding spot is a bin full of paper towels.",
+  "dur": 5.356,
+  "words": [
+   {
+    "w": "Someone",
+    "s": 0.067,
+    "e": 0.298
+   },
+   {
+    "w": "who",
+    "s": 0.298,
+    "e": 0.49
+   },
+   {
+    "w": "breaks",
+    "s": 0.49,
+    "e": 0.702
+   },
+   {
+    "w": "the",
+    "s": 0.702,
+    "e": 0.875
+   },
+   {
+    "w": "rule",
+    "s": 0.875,
+    "e": 1.087
+   },
+   {
+    "w": "panics",
+    "s": 1.087,
+    "e": 1.606
+   },
+   {
+    "w": "and",
+    "s": 1.606,
+    "e": 1.798
+   },
+   {
+    "w": "hides",
+    "s": 1.798,
+    "e": 2.067
+   },
+   {
+    "w": "it,",
+    "s": 2.067,
+    "e": 2.279
+   },
+   {
+    "w": "and",
+    "s": 2.49,
+    "e": 2.702
+   },
+   {
+    "w": "the",
+    "s": 2.702,
+    "e": 2.798
+   },
+   {
+    "w": "nearest",
+    "s": 2.798,
+    "e": 2.99
+   },
+   {
+    "w": "hiding",
+    "s": 2.99,
+    "e": 3.26
+   },
+   {
+    "w": "spot",
+    "s": 3.26,
+    "e": 3.567
+   },
+   {
+    "w": "is",
+    "s": 3.567,
+    "e": 3.76
+   },
+   {
+    "w": "a",
+    "s": 3.76,
+    "e": 4.048
+   },
+   {
+    "w": "bin",
+    "s": 4.048,
+    "e": 4.048
+   },
+   {
+    "w": "full",
+    "s": 4.048,
+    "e": 4.337
+   },
+   {
+    "w": "of",
+    "s": 4.337,
+    "e": 4.51
+   },
+   {
+    "w": "paper",
+    "s": 4.51,
+    "e": 4.702
+   },
+   {
+    "w": "towels.",
+    "s": 4.702,
+    "e": 5.048
+   }
+  ],
+  "heard": "Someone who breaks the rule panics and hides it, and the nearest hiding spot is a bin full of paper towels.",
+  "match": 1.0,
+  "tempo": 1.04
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "So the rule gives them one obvious, safe place to put it out first.",
+  "dur": 3.279,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.029,
+    "e": 0.356
+   },
+   {
+    "w": "the",
+    "s": 0.356,
+    "e": 0.471
+   },
+   {
+    "w": "rule",
+    "s": 0.471,
+    "e": 0.606
+   },
+   {
+    "w": "gives",
+    "s": 0.606,
+    "e": 0.779
+   },
+   {
+    "w": "them",
+    "s": 0.779,
+    "e": 0.933
+   },
+   {
+    "w": "one",
+    "s": 0.933,
+    "e": 1.106
+   },
+   {
+    "w": "obvious,",
+    "s": 1.106,
+    "e": 1.548
+   },
+   {
+    "w": "safe",
+    "s": 1.817,
+    "e": 1.913
+   },
+   {
+    "w": "place",
+    "s": 1.913,
+    "e": 2.221
+   },
+   {
+    "w": "to",
+    "s": 2.221,
+    "e": 2.452
+   },
+   {
+    "w": "put",
+    "s": 2.452,
+    "e": 2.587
+   },
+   {
+    "w": "it",
+    "s": 2.587,
+    "e": 2.683
+   },
+   {
+    "w": "out",
+    "s": 2.683,
+    "e": 2.817
+   },
+   {
+    "w": "first.",
+    "s": 2.817,
+    "e": 3.087
+   }
+  ],
+  "heard": "So the rule gives them one obvious, safe place to put it out first.",
+  "match": 1.0,
+  "tempo": 1.04
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "That bin even has its own tiny fire extinguisher, and a smoke detector watches the room.",
+  "dur": 4.471,
+  "words": [
+   {
+    "w": "That",
+    "s": 0.029,
+    "e": 0.24
+   },
+   {
+    "w": "bin",
+    "s": 0.24,
+    "e": 0.452
+   },
+   {
+    "w": "even",
+    "s": 0.452,
+    "e": 0.644
+   },
+   {
+    "w": "has",
+    "s": 0.644,
+    "e": 0.837
+   },
+   {
+    "w": "its",
+    "s": 0.837,
+    "e": 0.952
+   },
+   {
+    "w": "own",
+    "s": 0.952,
+    "e": 1.163
+   },
+   {
+    "w": "tiny",
+    "s": 1.163,
+    "e": 1.548
+   },
+   {
+    "w": "fire",
+    "s": 1.548,
+    "e": 1.856
+   },
+   {
+    "w": "extinguisher,",
+    "s": 1.856,
+    "e": 2.413
+   },
+   {
+    "w": "and",
+    "s": 2.413,
+    "e": 2.894
+   },
+   {
+    "w": "a",
+    "s": 2.894,
+    "e": 2.99
+   },
+   {
+    "w": "smoke",
+    "s": 2.99,
+    "e": 3.163
+   },
+   {
+    "w": "detector",
+    "s": 3.163,
+    "e": 3.471
+   },
+   {
+    "w": "watches",
+    "s": 3.471,
+    "e": 3.856
+   },
+   {
+    "w": "the",
+    "s": 3.856,
+    "e": 4.087
+   },
+   {
+    "w": "room.",
+    "s": 4.087,
+    "e": 4.279
+   }
+  ],
+  "heard": "That bin even has its own tiny fire extinguisher, and a smoke detector watches the room.",
+  "match": 1.0,
+  "tempo": 1.04
+ },
+ {
+  "id": "L06",
+  "chapter": 0,
+  "text": "So this ashtray isn't for smokers... it's for the fire nobody wants.",
+  "dur": 3.875,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.029,
+    "e": 0.221
+   },
+   {
+    "w": "this",
+    "s": 0.221,
+    "e": 0.394
+   },
+   {
+    "w": "ashtray",
+    "s": 0.394,
+    "e": 0.875
+   },
+   {
+    "w": "isn't",
+    "s": 0.875,
+    "e": 1.125
+   },
+   {
+    "w": "for",
+    "s": 1.125,
+    "e": 1.298
+   },
+   {
+    "w": "smokers...",
+    "s": 1.298,
+    "e": 2.433
+   },
+   {
+    "w": "it's",
+    "s": 2.433,
+    "e": 2.567
+   },
+   {
+    "w": "for",
+    "s": 2.567,
+    "e": 2.683
+   },
+   {
+    "w": "the",
+    "s": 2.683,
+    "e": 2.798
+   },
+   {
+    "w": "fire",
+    "s": 2.798,
+    "e": 3.048
+   },
+   {
+    "w": "nobody",
+    "s": 3.048,
+    "e": 3.317
+   },
+   {
+    "w": "wants.",
+    "s": 3.317,
+    "e": 3.702
+   }
+  ],
+  "heard": "So this ashtray isn't for smokers... it's for the fire nobody wants.",
+  "match": 1.0,
+  "tempo": 1.04
+ }
+]
