@@ -345,9 +345,10 @@ def bars(g, x, y, items, k=1.0, maxv=100.0, w=900, size=50):
 # ------------------------------------------------------------------ scenes: hook + round 1
 def lena_call(g, c, x=430, h=920, k_bub=1.0, txt="MISO!", expr="smile"):
     char2(g, "lena", x, FL + 120, h, expr, "hip", "point", t=c.gt, view="3q")
-    for i in range(2):
-        ph = (c.gt * 1.6 + i * 0.5) % 1
-        g.path(f"M{x + 560 + 260 * ph} {330 - 30 * ph} Q{x + 600 + 280 * ph} 420 {x + 560 + 260 * ph} {510 + 30 * ph}", None, PAL["cream"], lw=10, a=k_bub * (1 - ph))
+    for i in range(3):
+        ph = (c.gt * 1.8 + i / 3) % 1
+        xx = x + 330 + 300 * ph
+        g.path(f"M{xx} {330 - 40 * ph} Q{xx + 50} 440 {xx} {550 + 40 * ph}", None, PAL["coral"], lw=12, a=k_bub * (1 - ph))
     bubble(g, x + 330, 300, txt, k_bub, 78, tail=(-1, 1))
 
 
@@ -355,8 +356,8 @@ def s_hook(g, c):
     living(g, c.gt)
     sofa(g, 1180, FL + 20, 760)
     t = c.t
-    ear = 0.6 + 0.4 * math.sin(min(t, 0.9) * 3.5)                         # the ear swivels toward the call from frame 0
-    cat_sit(g, 1180, FL - 230, 1.15, c.gt, "deadpan", ear_l=ear, ear_r=-0.2, look=(-0.6, 0), tail=0.6)
+    ear = -0.7 + 1.7 * ease_out(clamp((t % 1.6) / 0.25)) if t < 1.6 else 1.0   # the ear flicks toward the call from frame 0
+    cat_sit(g, 1180, FL - 230, 1.15, c.gt, "deadpan", ear_l=ear, ear_r=-0.2, look=(-0.6, 0), tail=1.4)
     lena_call(g, c, 430, 980, 1.0)
     with g.screen():
         g.text("IGNORING YOU?", W / 2 + 120, 1000, 120, PAL["yellow"], sw=20, depth=9, sc=back_out(clamp(t / 0.25), 1.4) if t > 0 else 1.0)
@@ -617,7 +618,7 @@ def s_clever(g, c):
 
 
 # ------------------------------------------------------------------ round 3: names
-def s_chaser(g, c, glow=None, fetch=0.0, newtoy=0.0):
+def s_chaser(g, c, glow=None, fetch=0.0, newtoy=0.0, dx=500):
     garden(g, c.gt)
     toy_pile(g, 1250, 1000, 1.4, n=60, glow_i=glow, t=c.gt)
     if newtoy > 0:
@@ -625,7 +626,7 @@ def s_chaser(g, c, glow=None, fetch=0.0, newtoy=0.0):
             g.glow(0, 0, 120, PAL["yellow"], 0.5)
             toy(g, 0, 0, 2, 1.6, 0.2)
             g.text("NEW", 0, -90, 46, PAL["yellow"], sw=8)
-    dog_sit(g, 500 + 300 * fetch, FL + 160, 1.0, c.gt, "happy", tongue=0.6, look=(0.8, 0), col=BC, seed=4)
+    dog_sit(g, dx + 300 * fetch, FL + 160, 1.0, c.gt, "happy", tongue=0.6, look=(0.8, 0), col=BC, seed=4)
 
 
 def s_1022(g, c):
@@ -638,23 +639,23 @@ def s_1022(g, c):
 
 def s_pilley(g, c, pickup=False):
     garden(g, c.gt)
-    toy_pile(g, 1350, 1000, 1.2, n=50, glow_i=7 if not pickup else None, t=c.gt)
-    char2(g, "prof", 330, FL + 160, 880, "smug", "hold", pose_at(lt(c), [(0, "down"), (1.0, "point")]), t=c.gt, view="3q")
+    toy_pile(g, 1450, 1000, 1.2, n=50, glow_i=7 if not pickup else None, t=c.gt)
+    char2(g, "prof", 230, FL + 160, 880, "smug", "hold", pose_at(lt(c), [(0, "down"), (1.0, "point")]), t=c.gt, view="3q")
     u = clamp((lt(c) - 3.0) / 2.5)
     run = math.sin(math.pi * u)
     if u <= 0 or u >= 1:
-        dog_sit(g, 760, FL + 160, 0.85, c.gt, "happy", tongue=0.6, look=(0.8, 0), col=BC)
+        dog_sit(g, 920, FL + 160, 0.85, c.gt, "happy" if u < 1 else "calm", tongue=0.6 if u < 1 else 0.0, look=(0.8, 0), col=BC)
     else:
-        dog_side(g, 760 + 450 * run, FL + 140, 0.7, c.gt, flip=u > 0.5, walk=1, col=BC)
+        dog_side(g, 920 + 300 * run, FL + 140, 0.7, c.gt, flip=u > 0.5, walk=1, col=BC)
     if u >= 1:
-        toy(g, 760, FL - 200, 7, 0.9)
+        toy(g, 920, FL + 160 - 380 * 0.85, 7, 0.9)                         # the toy brought back, in the mouth
     bubble(g, 640, 300, "THE BLUE BONE!", on(c, "Ask"), 54, tail=(-1, 1))
     tag(g, "PSYCHOLOGIST JOHN PILLEY", 960, 90, on(c, "Pilley", frac=0.2))
 
 
 def s_newtoy(g, c):
-    s_chaser(g, c, newtoy=on(c, "added"), fetch=0.6 * on(c, "picked", frac=0.7))
-    char2(g, "prof", 220, FL + 160, 820, "deadpan", "hold", "point", t=c.gt, view="3q")
+    s_chaser(g, c, newtoy=on(c, "added"), fetch=0.6 * on(c, "picked", frac=0.7), dx=820)
+    char2(g, "prof", 200, FL + 160, 820, "deadpan", "hold", "point", t=c.gt, view="3q")
     bubble(g, 560, 260, "THE DAX?", on(c, "asked"), 60, tail=(-1, 1))
     check(g, 1500, 700, 60, pk(c, "worked"))
     label(g, "SHE WORKED IT OUT", 1300, 180, 70, k=pk(c, "worked"))
@@ -944,7 +945,7 @@ def s_shelter(g, c):
 
 def s_generations(g, c):
     studio(g, c.gt, "#E9A15A", "#6B3420")
-    k = clamp(c.t / max(0.5, c.T * 0.8))
+    k = 0.2 + 0.8 * clamp(c.t / max(0.5, c.T * 0.8))
     for i in range(5):
         kk = clamp(k * 5 - i)
         if kk > 0:
@@ -1238,7 +1239,7 @@ P("N03", s_pilley, ("Ask", 1), cam=Z(1.0, 1.03, (960, 560)), sfx=[("name", "pop"
 P("N04", s_newtoy, (0, "and"), cam=Z(1.0, 1.04, (1000, 560)), sfx=[("added", "shimmer", 0.35)])
 P("N04", s_newtoy, ("and", "heard"), cam=Z(1.0, 1.04, (900, 500)))
 P("N04", s_newtoy, ("heard", "She"), cam=Z(1.0, 1.04, (1000, 560)), sfx=[("added", "shimmer", 0.35)])
-P("N04", s_newtoy, ("She", 1), cam=Z(1.08, 1.14, (1200, 560)), sfx=[("picked", "pop", 0.35), ("worked", "chime", 0.4)])
+P("N04", s_newtoy, ("She", 1), cam=Z(1.04, 1.08, (1000, 560)), sfx=[("picked", "pop", 0.35), ("worked", "chime", 0.4)])
 P("N05", s_notsofast, cam=Z(1.0, 1.06, (1000, 520)), music="playful", sfx=[("Not", "drum_hit", 0.35)])
 P("N06", s_tokyo, (0, "one"), cam=Z(1.0, 1.04, (960, 560)), music="curious")
 P("N06", s_tokyo, ("one", 1), cam=Z(1.08, 1.12, (1100, 520)), music="curious", sfx=[(0.4, "pop", 0.3), (1.2, "pop", 0.3)])
