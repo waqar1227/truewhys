@@ -1,0 +1,7 @@
+# A-030 v1 (25 Nov 2026), standalone Short, Style F + cast v2.2. Christmas Day slot: holiday string lights (secular, factual). Facts with 2+ sources (sources.md).
+H1|0|Why can one bulb turn off the whole string of lights?
+L01|0|One tiny bulb fails... and suddenly every light on the string goes dark.
+L02|0|Many light strings are wired in series. That's one single loop, and the power has to flow through every bulb in a row.
+L03|0|Inside each bulb, a thin wire glows. If it snaps, the loop is broken, and the power stops for all of them.
+L04|0|That's why newer bulbs hide a tiny bypass called a shunt. When the wire burns out, the power jumps across it and keeps going.
+L05|0|But a loose or missing bulb still breaks the loop... so push that one back in, and the whole string lights up.

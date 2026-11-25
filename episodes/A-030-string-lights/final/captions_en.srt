@@ -1,0 +1,71 @@
+1
+00:00:00,070 --> 00:00:01,970
+Why can one bulb turn off the whole
+
+2
+00:00:01,970 --> 00:00:02,930
+string of lights?
+
+3
+00:00:03,490 --> 00:00:04,710
+One tiny bulb fails...
+
+4
+00:00:05,070 --> 00:00:06,930
+and suddenly every light on the string
+
+5
+00:00:06,930 --> 00:00:07,630
+goes dark.
+
+6
+00:00:07,880 --> 00:00:09,680
+Many light strings are wired in series.
+
+7
+00:00:10,140 --> 00:00:12,160
+That's one single loop, and the power has
+
+8
+00:00:12,160 --> 00:00:14,190
+to flow through every bulb in a row.
+
+9
+00:00:14,600 --> 00:00:16,900
+Inside each bulb, a thin wire glows.
+
+10
+00:00:17,280 --> 00:00:19,320
+If it snaps, the loop is broken, and
+
+11
+00:00:19,320 --> 00:00:21,070
+the power stops for all of them.
+
+12
+00:00:21,370 --> 00:00:23,870
+That's why newer bulbs hide a tiny bypass
+
+13
+00:00:23,870 --> 00:00:24,670
+called a shunt.
+
+14
+00:00:25,170 --> 00:00:27,030
+When the wire burns out, the power jumps
+
+15
+00:00:27,030 --> 00:00:28,630
+across it and keeps going.
+
+16
+00:00:28,970 --> 00:00:31,090
+But a loose or missing bulb still breaks
+
+17
+00:00:31,090 --> 00:00:33,090
+the loop... so push that one back in,
+
+18
+00:00:33,110 --> 00:00:34,690
+and the whole string lights up.

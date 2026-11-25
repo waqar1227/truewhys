@@ -1,0 +1,7 @@
+# A-031 v1 (25 Nov 2026), standalone Short, Style F + cast v2.2. New Year angle: the ball drop came from sailors' time balls. Facts with 2+ sources (sources.md).
+H1|0|Why do we drop a giant ball at New Year?
+L01|0|It started as a signal for ships... because one wrong clock could send a ship miles off course.
+L02|0|At sea, sailors worked out where they were with a clock set to home time. Just one minute wrong could mean fifteen miles off.
+L03|0|So in 1833, Greenwich put a big ball on a mast. Every day at exactly one o'clock, it dropped, and ships on the river set their clocks.
+L04|0|In 1907, New York borrowed the idea for New Year's Eve, with a glowing ball that dropped at midnight.
+L05|0|So when the ball falls this New Year... you're watching an old clock signal for sailors.

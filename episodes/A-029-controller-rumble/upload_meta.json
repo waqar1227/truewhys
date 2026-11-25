@@ -1,0 +1,36 @@
+{
+ "title": "Why Does Your Controller Shake?",
+ "description": "Why does your controller shake when you crash in a game? Inside each handle sits a tiny motor with a weight that's heavier on one side. When the motor spins, that lopsided weight yanks the controller back and forth dozens of times a second, and you feel it as rumble. The game decides how fast it spins.\n\nOn many controllers the left weight is heavy, for deep rumbles, and the right one is light, for quick buzzes. Newer controllers also use magnet coils for tiny, precise taps.\n\nWhich game has the best rumble? Tell us below.\n\nMore true whys: https://www.youtube.com/@truewhys?sub_confirmation=1\n\nSources: TechRadar (eccentric rotating mass motors); Microsoft Learn, XINPUT_VIBRATION (left low-frequency, right high-frequency motor); Precision Microdrives; US patent 11707765 (15–45 Hz rumble); Cheat Code Central (newer linear actuators).\nAnimation, music and sound: TrueWhys (original). Fonts: Lilita One (Open Font License).\n#gaming #controller #science",
+ "tags": [
+  "why does my controller vibrate",
+  "how does controller vibration work",
+  "controller rumble",
+  "how does rumble work",
+  "controller vibration",
+  "rumble motor",
+  "vibration motor",
+  "eccentric rotating mass",
+  "haptic feedback",
+  "haptics explained",
+  "gaming controller",
+  "gamepad",
+  "inside a controller",
+  "what's inside a controller",
+  "how controllers work",
+  "gaming facts",
+  "gaming science",
+  "technology explained",
+  "science explained",
+  "did you know",
+  "TrueWhys"
+ ],
+ "categoryId": "28",
+ "publishAt": "2026-12-12T18:00:00Z",
+ "playlist": "Why Does That Happen? (Science and Body)",
+ "video": "final/A-029.mp4",
+ "style": "F (flat 2D, cast v2.2)",
+ "ai_disclosure": {
+  "synthetic": false,
+  "reason": "Not realistic: flat 2D cartoon animation, generic TTS narrator imitating no real person, code-made music; no real footage, people, places shown as real, or brands (docs/ai_disclosure.md test, 25 Nov 2026)."
+ }
+}

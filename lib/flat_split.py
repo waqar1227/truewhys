@@ -13,7 +13,8 @@ def _cont(fn, sh0):
     return f
 
 
-def split_long(V, maxd=2.5):
+def split_long(V, maxd=2.5, keep_cam=False):
+    """keep_cam=True (A-029+): the extra cuts keep the shot's own camera and only re-frame it (x1.14 / x1.07 zoom)."""
     out = []
     for sh in V.shots:
         if sh["kind"] == "end" or sh["dur"] <= maxd + 0.5:
@@ -33,7 +34,11 @@ def split_long(V, maxd=2.5):
                 part["fn"] = _cont(sh["fn"], sh)
                 part["tr"] = "cut"
                 part["music"] = None
-                part["cam"] = push(1.16, 1.2, (540, 1050)) if k % 2 else push(0.96, 1.0, (540, 960))
+                if keep_cam:
+                    zk = 1.14 if k % 2 else 1.07
+                    part["cam"] = (lambda cam0, zk: (lambda c: (lambda r: (r[0], r[1], r[2] * zk, r[3]))(cam0(c))))(sh["cam"], zk)
+                else:
+                    part["cam"] = push(1.16, 1.2, (540, 1050)) if k % 2 else push(0.96, 1.0, (540, 960))
             out.append(part)
     # keep every SFX on its own word: SFX of the first part with word anchors are fine; numeric offsets beyond the part move along
     for i, sh in enumerate(out):

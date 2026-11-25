@@ -334,3 +334,114 @@ def lap():
 
 
 audio.GEN.update(ring_bell=ring_bell, purr=purr, lap=lap)
+
+
+# ---- A-029 / A-030 / A-031 (25 Nov 2026), original synths
+@functools.lru_cache(maxsize=None)
+def rumble():
+    """Controller rumble motor (original synth, 0.9 s): a lopsided weight spinning ~38 Hz, low gritty rattle."""
+    t = _t(0.9)
+    f = 30 + 10 * np.minimum(1, t / 0.15)
+    ph = 2 * np.pi * np.cumsum(f) / SR
+    body = np.sin(ph) + 0.5 * np.sign(np.sin(ph)) + 0.35 * np.sin(3 * ph)
+    rattle = np.random.default_rng(40).normal(0, 1, len(t)) * (0.5 + 0.5 * np.sin(ph)) ** 4
+    x = (body + 0.35 * np.convolve(rattle, np.ones(12) / 12, "same")) * np.minimum(1, t / 0.03) * np.minimum(1, (0.9 - t) / 0.12)
+    return _st(x, 0.6)
+
+
+@functools.lru_cache(maxsize=None)
+def buzz_fast():
+    """Light rumble weight (original synth, 0.6 s): a thin, fast ~140 Hz buzz."""
+    t = _t(0.6)
+    x = np.sign(np.sin(2 * np.pi * 140 * t)) * 0.4 + np.sin(2 * np.pi * 140 * t) * 0.6
+    x *= (0.8 + 0.2 * np.sin(2 * np.pi * 31 * t)) * np.minimum(1, t / 0.01) * np.minimum(1, (0.6 - t) / 0.06)
+    return _st(x, 0.45)
+
+
+@functools.lru_cache(maxsize=None)
+def whir():
+    """Small motor spinning up (original synth, 1.0 s)."""
+    t = _t(1.0)
+    f = 60 + 520 * (t / t[-1]) ** 0.7
+    ph = 2 * np.pi * np.cumsum(f) / SR
+    x = (np.sin(ph) + 0.3 * np.sin(2 * ph) + 0.15 * np.sign(np.sin(ph))) * np.minimum(1, t / 0.05) * np.minimum(1, (1.0 - t) / 0.1)
+    return _st(x, 0.4)
+
+
+@functools.lru_cache(maxsize=None)
+def crash():
+    """Cartoon car crash (original synth, 1.1 s): a thump, a metal clang and rattling bits."""
+    rng = np.random.default_rng(41)
+    x = np.zeros(int(1.1 * SR))
+    tt = _t(0.25)
+    _put(x, np.sin(2 * np.pi * (90 - 200 * tt) * tt) * np.exp(-tt / 0.06) * 1.4, 0.0)
+    _put(x, rng.normal(0, 1, len(tt)) * np.exp(-tt / 0.05) * 0.9, 0.0)
+    for f in (420, 655, 1130, 1720):
+        _put(x, 0.35 * _bell(f, 0.8, 0.16), 0.01)
+    for k in range(16):
+        d = _t(0.04); f = rng.uniform(1500, 5000)
+        _put(x, np.sin(2 * np.pi * f * d) * np.exp(-d / 0.008) * rng.uniform(0.2, 0.6), 0.08 + rng.uniform(0, 0.8) ** 1.5)
+    return _st(x, 0.85)
+
+
+@functools.lru_cache(maxsize=None)
+def bulb_pop():
+    """A tiny bulb filament snapping (original synth, 0.5 s): a small pop and a glassy tink."""
+    rng = np.random.default_rng(42)
+    x = np.zeros(int(0.5 * SR))
+    _put(x, rng.normal(0, 1, int(0.012 * SR)) * np.exp(-_t(0.012) / 0.002), 0.0)
+    _put(x, 0.5 * _bell(3700, 0.45, 0.08) + 0.3 * _bell(5200, 0.45, 0.05), 0.005)
+    return _st(x, 0.6)
+
+
+@functools.lru_cache(maxsize=None)
+def power_off():
+    """Lights going out (original synth, 0.9 s): an electric hum that drops in pitch and fades."""
+    t = _t(0.9)
+    f = 120 * np.exp(-t / 0.35) + 30
+    ph = 2 * np.pi * np.cumsum(f) / SR
+    x = (np.sin(ph) + 0.4 * np.sin(2 * ph) + 0.2 * np.sign(np.sin(ph))) * np.exp(-t / 0.4)
+    return _st(x, 0.5)
+
+
+@functools.lru_cache(maxsize=None)
+def power_on():
+    """Lights coming on (original synth, 1.0 s): a rising hum and a soft bright chime."""
+    t = _t(1.0)
+    f = 40 + 180 * np.minimum(1, t / 0.5)
+    ph = 2 * np.pi * np.cumsum(f) / SR
+    x = (np.sin(ph) + 0.3 * np.sin(2 * ph)) * np.minimum(1, t / 0.2) * np.exp(-np.maximum(0, t - 0.5) / 0.2) * 0.6
+    for j, ff in enumerate((1318, 1760, 2637)):
+        _put(x, 0.35 * _bell(ff, 0.6, 0.18), 0.35 + j * 0.06)
+    return _st(x, 0.55)
+
+
+@functools.lru_cache(maxsize=None)
+def firework():
+    """Firework (original synth, 1.6 s): a whistle up, a soft boom and crackles."""
+    rng = np.random.default_rng(43)
+    x = np.zeros(int(1.6 * SR))
+    tw = _t(0.5)
+    _put(x, 0.25 * np.sin(2 * np.pi * np.cumsum(900 + 1800 * tw / 0.5) / SR) * np.minimum(1, tw / 0.05), 0.0)
+    tb = _t(0.6)
+    _put(x, (np.sin(2 * np.pi * (70 - 50 * tb) * tb) + 0.6 * rng.normal(0, 1, len(tb)) * np.exp(-tb / 0.03)) * np.exp(-tb / 0.18), 0.5)
+    for k in range(40):
+        d = _t(0.02); f = rng.uniform(2000, 7000)
+        _put(x, np.sin(2 * np.pi * f * d) * np.exp(-d / 0.004) * rng.uniform(0.1, 0.4), 0.6 + rng.uniform(0, 0.9))
+    return _st(x, 0.7)
+
+
+@functools.lru_cache(maxsize=None)
+def clunk():
+    """A big ball dropping down a mast and stopping (original synth, 0.7 s): slide, then a wooden clunk."""
+    rng = np.random.default_rng(44)
+    x = np.zeros(int(0.7 * SR))
+    ts = _t(0.35)
+    _put(x, rng.normal(0, 1, len(ts)) * 0.15 * np.minimum(1, ts / 0.3), 0.0)
+    tc = _t(0.3)
+    _put(x, (np.sin(2 * np.pi * 160 * tc) + 0.5 * np.sin(2 * np.pi * 410 * tc)) * np.exp(-tc / 0.05), 0.35)
+    return _st(x, 0.7)
+
+
+audio.GEN.update(rumble=rumble, buzz_fast=buzz_fast, whir=whir, crash=crash, bulb_pop=bulb_pop, power_off=power_off,
+                 power_on=power_on, firework=firework, clunk=clunk)

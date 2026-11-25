@@ -1,0 +1,7 @@
+# A-029 v1 (25 Nov 2026), standalone Short, Style F + cast v2.2. Gaming season (GTA 6 launch month, The Game Awards 10 Dec, console gifts). Facts with 2+ sources (sources.md).
+H1|0|Why does your controller shake when you crash?
+L01|0|Every hit, every crash, you feel it in your hands... and it all comes from one lopsided weight.
+L02|0|Inside each handle is a tiny motor. On its shaft sits a weight that's heavier on one side.
+L03|0|When it spins, that uneven weight yanks the controller back and forth, dozens of times a second.
+L04|0|On many controllers, the left weight is heavy, for deep rumbles. The right one is light, for quick buzzes.
+L05|0|Newer controllers add magnet coils for tiny taps... but that crash you just felt? A spinning weight.

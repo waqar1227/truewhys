@@ -1,0 +1,637 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "Why can one bulb turn off the whole string of lights?",
+  "dur": 2.86,
+  "words": [
+   {
+    "w": "Why",
+    "s": 0.0,
+    "e": 0.44
+   },
+   {
+    "w": "can",
+    "s": 0.44,
+    "e": 0.6
+   },
+   {
+    "w": "one",
+    "s": 0.6,
+    "e": 0.9
+   },
+   {
+    "w": "bulb",
+    "s": 0.9,
+    "e": 1.16
+   },
+   {
+    "w": "turn",
+    "s": 1.16,
+    "e": 1.4
+   },
+   {
+    "w": "off",
+    "s": 1.4,
+    "e": 1.56
+   },
+   {
+    "w": "the",
+    "s": 1.56,
+    "e": 1.7
+   },
+   {
+    "w": "whole",
+    "s": 1.7,
+    "e": 1.9
+   },
+   {
+    "w": "string",
+    "s": 1.9,
+    "e": 2.12
+   },
+   {
+    "w": "of",
+    "s": 2.12,
+    "e": 2.28
+   },
+   {
+    "w": "lights?",
+    "s": 2.28,
+    "e": 2.48
+   }
+  ],
+  "heard": "Why can one bulb turn off the whole string of lights?",
+  "match": 1.0
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "One tiny bulb fails... and suddenly every light on the string goes dark.",
+  "dur": 4.16,
+  "words": [
+   {
+    "w": "One",
+    "s": 0.11,
+    "e": 0.33
+   },
+   {
+    "w": "tiny",
+    "s": 0.33,
+    "e": 0.77
+   },
+   {
+    "w": "bulb",
+    "s": 0.77,
+    "e": 1.01
+   },
+   {
+    "w": "fails...",
+    "s": 1.01,
+    "e": 1.33
+   },
+   {
+    "w": "and",
+    "s": 1.69,
+    "e": 1.73
+   },
+   {
+    "w": "suddenly",
+    "s": 1.73,
+    "e": 2.23
+   },
+   {
+    "w": "every",
+    "s": 2.23,
+    "e": 2.85
+   },
+   {
+    "w": "light",
+    "s": 2.85,
+    "e": 3.07
+   },
+   {
+    "w": "on",
+    "s": 3.07,
+    "e": 3.23
+   },
+   {
+    "w": "the",
+    "s": 3.23,
+    "e": 3.33
+   },
+   {
+    "w": "string",
+    "s": 3.33,
+    "e": 3.55
+   },
+   {
+    "w": "goes",
+    "s": 3.55,
+    "e": 3.71
+   },
+   {
+    "w": "dark.",
+    "s": 3.71,
+    "e": 3.99
+   }
+  ],
+  "heard": "One tiny bulb fails, and suddenly every light on the string goes dark.",
+  "match": 1.0
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "Many light strings are wired in series. That's one single loop, and the power has to flow through every bulb in a row.",
+  "dur": 6.38,
+  "words": [
+   {
+    "w": "Many",
+    "s": 0.07,
+    "e": 0.27
+   },
+   {
+    "w": "light",
+    "s": 0.27,
+    "e": 0.51
+   },
+   {
+    "w": "strings",
+    "s": 0.51,
+    "e": 0.77
+   },
+   {
+    "w": "are",
+    "s": 0.77,
+    "e": 1.05
+   },
+   {
+    "w": "wired",
+    "s": 1.05,
+    "e": 1.33
+   },
+   {
+    "w": "in",
+    "s": 1.33,
+    "e": 1.57
+   },
+   {
+    "w": "series.",
+    "s": 1.57,
+    "e": 1.85
+   },
+   {
+    "w": "That's",
+    "s": 2.33,
+    "e": 2.57
+   },
+   {
+    "w": "one",
+    "s": 2.57,
+    "e": 2.85
+   },
+   {
+    "w": "single",
+    "s": 2.85,
+    "e": 3.35
+   },
+   {
+    "w": "loop,",
+    "s": 3.35,
+    "e": 3.63
+   },
+   {
+    "w": "and",
+    "s": 3.85,
+    "e": 3.91
+   },
+   {
+    "w": "the",
+    "s": 3.91,
+    "e": 3.99
+   },
+   {
+    "w": "power",
+    "s": 3.99,
+    "e": 4.19
+   },
+   {
+    "w": "has",
+    "s": 4.19,
+    "e": 4.35
+   },
+   {
+    "w": "to",
+    "s": 4.35,
+    "e": 4.53
+   },
+   {
+    "w": "flow",
+    "s": 4.53,
+    "e": 4.73
+   },
+   {
+    "w": "through",
+    "s": 4.73,
+    "e": 4.99
+   },
+   {
+    "w": "every",
+    "s": 4.99,
+    "e": 5.47
+   },
+   {
+    "w": "bulb",
+    "s": 5.47,
+    "e": 5.73
+   },
+   {
+    "w": "in",
+    "s": 5.73,
+    "e": 5.87
+   },
+   {
+    "w": "a",
+    "s": 5.87,
+    "e": 5.99
+   },
+   {
+    "w": "row.",
+    "s": 5.99,
+    "e": 6.17
+   }
+  ],
+  "heard": "Many light strings are wired in series. That's one single loop, and the power has to flow through every bulb in a row.",
+  "match": 1.0
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "Inside each bulb, a thin wire glows. If it snaps, the loop is broken, and the power stops for all of them.",
+  "dur": 6.61,
+  "words": [
+   {
+    "w": "Inside",
+    "s": 0.14,
+    "e": 0.32
+   },
+   {
+    "w": "each",
+    "s": 0.32,
+    "e": 0.56
+   },
+   {
+    "w": "bulb,",
+    "s": 0.56,
+    "e": 0.82
+   },
+   {
+    "w": "a",
+    "s": 1.04,
+    "e": 1.18
+   },
+   {
+    "w": "thin",
+    "s": 1.18,
+    "e": 1.54
+   },
+   {
+    "w": "wire",
+    "s": 1.54,
+    "e": 1.96
+   },
+   {
+    "w": "glows.",
+    "s": 1.96,
+    "e": 2.44
+   },
+   {
+    "w": "If",
+    "s": 2.82,
+    "e": 3.02
+   },
+   {
+    "w": "it",
+    "s": 3.02,
+    "e": 3.12
+   },
+   {
+    "w": "snaps,",
+    "s": 3.12,
+    "e": 3.4
+   },
+   {
+    "w": "the",
+    "s": 3.76,
+    "e": 3.92
+   },
+   {
+    "w": "loop",
+    "s": 3.92,
+    "e": 4.06
+   },
+   {
+    "w": "is",
+    "s": 4.06,
+    "e": 4.22
+   },
+   {
+    "w": "broken,",
+    "s": 4.22,
+    "e": 4.46
+   },
+   {
+    "w": "and",
+    "s": 4.7,
+    "e": 4.86
+   },
+   {
+    "w": "the",
+    "s": 4.86,
+    "e": 4.98
+   },
+   {
+    "w": "power",
+    "s": 4.98,
+    "e": 5.22
+   },
+   {
+    "w": "stops",
+    "s": 5.22,
+    "e": 5.5
+   },
+   {
+    "w": "for",
+    "s": 5.5,
+    "e": 5.86
+   },
+   {
+    "w": "all",
+    "s": 5.86,
+    "e": 6.16
+   },
+   {
+    "w": "of",
+    "s": 6.16,
+    "e": 6.3
+   },
+   {
+    "w": "them.",
+    "s": 6.3,
+    "e": 6.46
+   }
+  ],
+  "heard": "Inside each bulb, a thin wire glows. If it snaps, the loop is broken, and the power stops for all of them.",
+  "match": 1.0
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "That's why newer bulbs hide a tiny bypass called a shunt. When the wire burns out, the power jumps across it and keeps going.",
+  "dur": 7.29,
+  "words": [
+   {
+    "w": "That's",
+    "s": 0.03,
+    "e": 0.25
+   },
+   {
+    "w": "why",
+    "s": 0.25,
+    "e": 0.39
+   },
+   {
+    "w": "newer",
+    "s": 0.39,
+    "e": 0.61
+   },
+   {
+    "w": "bulbs",
+    "s": 0.61,
+    "e": 0.91
+   },
+   {
+    "w": "hide",
+    "s": 0.91,
+    "e": 1.17
+   },
+   {
+    "w": "a",
+    "s": 1.17,
+    "e": 1.45
+   },
+   {
+    "w": "tiny",
+    "s": 1.45,
+    "e": 1.89
+   },
+   {
+    "w": "bypass",
+    "s": 1.89,
+    "e": 2.53
+   },
+   {
+    "w": "called",
+    "s": 2.53,
+    "e": 2.89
+   },
+   {
+    "w": "a",
+    "s": 2.89,
+    "e": 3.01
+   },
+   {
+    "w": "shunt.",
+    "s": 3.01,
+    "e": 3.33
+   },
+   {
+    "w": "When",
+    "s": 3.83,
+    "e": 3.97
+   },
+   {
+    "w": "the",
+    "s": 3.97,
+    "e": 4.07
+   },
+   {
+    "w": "wire",
+    "s": 4.07,
+    "e": 4.25
+   },
+   {
+    "w": "burns",
+    "s": 4.25,
+    "e": 4.47
+   },
+   {
+    "w": "out,",
+    "s": 4.47,
+    "e": 4.71
+   },
+   {
+    "w": "the",
+    "s": 4.95,
+    "e": 5.09
+   },
+   {
+    "w": "power",
+    "s": 5.09,
+    "e": 5.33
+   },
+   {
+    "w": "jumps",
+    "s": 5.33,
+    "e": 5.69
+   },
+   {
+    "w": "across",
+    "s": 5.69,
+    "e": 6.03
+   },
+   {
+    "w": "it",
+    "s": 6.03,
+    "e": 6.25
+   },
+   {
+    "w": "and",
+    "s": 6.25,
+    "e": 6.51
+   },
+   {
+    "w": "keeps",
+    "s": 6.51,
+    "e": 6.75
+   },
+   {
+    "w": "going.",
+    "s": 6.75,
+    "e": 7.11
+   }
+  ],
+  "heard": "That's why newer bulbs hide a tiny bypass called a shunt. When the wire burns out, the power jumps across it and keeps going.",
+  "match": 1.0
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "But a loose or missing bulb still breaks the loop... so push that one back in, and the whole string lights up.",
+  "dur": 5.79,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.07,
+    "e": 0.19
+   },
+   {
+    "w": "a",
+    "s": 0.19,
+    "e": 0.37
+   },
+   {
+    "w": "loose",
+    "s": 0.37,
+    "e": 0.53
+   },
+   {
+    "w": "or",
+    "s": 0.53,
+    "e": 0.77
+   },
+   {
+    "w": "missing",
+    "s": 0.77,
+    "e": 1.09
+   },
+   {
+    "w": "bulb",
+    "s": 1.09,
+    "e": 1.47
+   },
+   {
+    "w": "still",
+    "s": 1.47,
+    "e": 1.87
+   },
+   {
+    "w": "breaks",
+    "s": 1.87,
+    "e": 2.19
+   },
+   {
+    "w": "the",
+    "s": 2.19,
+    "e": 2.41
+   },
+   {
+    "w": "loop...",
+    "s": 2.41,
+    "e": 2.61
+   },
+   {
+    "w": "so",
+    "s": 3.07,
+    "e": 3.15
+   },
+   {
+    "w": "push",
+    "s": 3.15,
+    "e": 3.35
+   },
+   {
+    "w": "that",
+    "s": 3.35,
+    "e": 3.55
+   },
+   {
+    "w": "one",
+    "s": 3.55,
+    "e": 3.69
+   },
+   {
+    "w": "back",
+    "s": 3.69,
+    "e": 3.89
+   },
+   {
+    "w": "in,",
+    "s": 3.89,
+    "e": 4.15
+   },
+   {
+    "w": "and",
+    "s": 4.21,
+    "e": 4.41
+   },
+   {
+    "w": "the",
+    "s": 4.41,
+    "e": 4.55
+   },
+   {
+    "w": "whole",
+    "s": 4.55,
+    "e": 4.81
+   },
+   {
+    "w": "string",
+    "s": 4.81,
+    "e": 5.15
+   },
+   {
+    "w": "lights",
+    "s": 5.15,
+    "e": 5.37
+   },
+   {
+    "w": "up.",
+    "s": 5.37,
+    "e": 5.61
+   }
+  ],
+  "heard": "But a loose or missing bulb still breaks the loop. So push that one back in, and the whole string lights up.",
+  "match": 1.0
+ }
+]

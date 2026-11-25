@@ -1,0 +1,35 @@
+{
+ "title": "Why One Bad Bulb Can Turn Off All Your Christmas Lights",
+ "description": "Why can one bulb turn off a whole string of lights? Many light strings are wired in series: one single loop, and the power has to flow through every bulb in a row. Inside each bulb a thin wire glows. If it snaps, the loop is broken and every light goes dark.\n\nThat's why newer bulbs hide a tiny bypass called a shunt: when the wire burns out, the power jumps across it and the rest stay lit. But a loose or missing bulb still breaks the loop, so check for the loose one first and push it back in.\n\nHave your lights ever gone dark like this? Tell us below.\n\nMore true whys: https://www.youtube.com/@truewhys?sub_confirmation=1\n\nSources: U.S. Department of Energy, \"How Do Holiday Lights Work?\"; Michigan State University Extension, \"Why did my string of holiday lights go out?\"; HowStuffWorks, \"How Christmas Lights Work\"; US patent 4,727,449 (filament bypass shunt).\nAnimation, music and sound: TrueWhys (original). Fonts: Lilita One (Open Font License).\n#christmaslights #holidays #science",
+ "tags": [
+  "christmas lights",
+  "why do christmas lights go out",
+  "one bulb out whole string",
+  "christmas lights half out",
+  "string lights not working",
+  "how do christmas lights work",
+  "christmas light shunt",
+  "series circuit",
+  "series vs parallel circuit",
+  "light bulb filament",
+  "holiday lights",
+  "fairy lights",
+  "how to fix christmas lights",
+  "loose bulb",
+  "electricity explained",
+  "everyday science",
+  "science explained",
+  "winter science",
+  "did you know",
+  "TrueWhys"
+ ],
+ "categoryId": "28",
+ "publishAt": "2026-12-25T18:00:00Z",
+ "playlist": "Why Does That Happen? (Science and Body)",
+ "video": "final/A-030.mp4",
+ "style": "F (flat 2D, cast v2.2)",
+ "ai_disclosure": {
+  "synthetic": false,
+  "reason": "Not realistic: flat 2D cartoon animation, generic TTS narrator imitating no real person, code-made music; no real footage, people, places shown as real, or brands (docs/ai_disclosure.md test, 25 Nov 2026)."
+ }
+}

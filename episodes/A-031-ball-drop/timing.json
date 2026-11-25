@@ -1,0 +1,638 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "Why do we drop a giant ball at New Year?",
+  "dur": 2.733,
+  "words": [
+   {
+    "w": "Why",
+    "s": 0.0,
+    "e": 0.457
+   },
+   {
+    "w": "do",
+    "s": 0.457,
+    "e": 0.571
+   },
+   {
+    "w": "we",
+    "s": 0.571,
+    "e": 0.724
+   },
+   {
+    "w": "drop",
+    "s": 0.724,
+    "e": 0.952
+   },
+   {
+    "w": "a",
+    "s": 0.952,
+    "e": 1.314
+   },
+   {
+    "w": "giant",
+    "s": 1.314,
+    "e": 1.638
+   },
+   {
+    "w": "ball",
+    "s": 1.638,
+    "e": 1.943
+   },
+   {
+    "w": "at",
+    "s": 1.943,
+    "e": 2.171
+   },
+   {
+    "w": "New",
+    "s": 2.171,
+    "e": 2.324
+   },
+   {
+    "w": "Year?",
+    "s": 2.324,
+    "e": 2.495
+   }
+  ],
+  "heard": "Why do we drop a giant ball at New Year?",
+  "match": 1.0,
+  "tempo": 1.05
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "It started as a signal for ships... because one wrong clock could send a ship miles off course.",
+  "dur": 5.857,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.029,
+    "e": 0.2
+   },
+   {
+    "w": "started",
+    "s": 0.2,
+    "e": 0.448
+   },
+   {
+    "w": "as",
+    "s": 0.448,
+    "e": 0.714
+   },
+   {
+    "w": "a",
+    "s": 0.714,
+    "e": 0.943
+   },
+   {
+    "w": "signal",
+    "s": 0.943,
+    "e": 1.133
+   },
+   {
+    "w": "for",
+    "s": 1.133,
+    "e": 1.457
+   },
+   {
+    "w": "ships...",
+    "s": 1.457,
+    "e": 1.743
+   },
+   {
+    "w": "because",
+    "s": 2.295,
+    "e": 2.524
+   },
+   {
+    "w": "one",
+    "s": 2.524,
+    "e": 2.867
+   },
+   {
+    "w": "wrong",
+    "s": 2.867,
+    "e": 3.171
+   },
+   {
+    "w": "clock",
+    "s": 3.171,
+    "e": 3.495
+   },
+   {
+    "w": "could",
+    "s": 3.495,
+    "e": 3.781
+   },
+   {
+    "w": "send",
+    "s": 3.781,
+    "e": 4.01
+   },
+   {
+    "w": "a",
+    "s": 4.01,
+    "e": 4.219
+   },
+   {
+    "w": "ship",
+    "s": 4.219,
+    "e": 4.41
+   },
+   {
+    "w": "miles",
+    "s": 4.41,
+    "e": 4.924
+   },
+   {
+    "w": "off",
+    "s": 4.924,
+    "e": 5.362
+   },
+   {
+    "w": "course.",
+    "s": 5.362,
+    "e": 5.629
+   }
+  ],
+  "heard": "It started as a signal for ships. Because one wrong clock could send a ship miles off course.",
+  "match": 1.0,
+  "tempo": 1.05
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "At sea, sailors worked out where they were with a clock set to home time. Just one minute wrong could mean fifteen miles off.",
+  "dur": 6.733,
+  "words": [
+   {
+    "w": "At",
+    "s": 0.057,
+    "e": 0.171
+   },
+   {
+    "w": "sea,",
+    "s": 0.171,
+    "e": 0.457
+   },
+   {
+    "w": "sailors",
+    "s": 0.724,
+    "e": 0.857
+   },
+   {
+    "w": "worked",
+    "s": 0.857,
+    "e": 1.181
+   },
+   {
+    "w": "out",
+    "s": 1.181,
+    "e": 1.371
+   },
+   {
+    "w": "where",
+    "s": 1.371,
+    "e": 1.505
+   },
+   {
+    "w": "they",
+    "s": 1.505,
+    "e": 1.619
+   },
+   {
+    "w": "were",
+    "s": 1.619,
+    "e": 1.81
+   },
+   {
+    "w": "with",
+    "s": 1.81,
+    "e": 1.981
+   },
+   {
+    "w": "a",
+    "s": 1.981,
+    "e": 2.114
+   },
+   {
+    "w": "clock",
+    "s": 2.114,
+    "e": 2.362
+   },
+   {
+    "w": "set",
+    "s": 2.362,
+    "e": 2.61
+   },
+   {
+    "w": "to",
+    "s": 2.61,
+    "e": 2.781
+   },
+   {
+    "w": "home",
+    "s": 2.781,
+    "e": 2.99
+   },
+   {
+    "w": "time.",
+    "s": 2.99,
+    "e": 3.257
+   },
+   {
+    "w": "Just",
+    "s": 3.848,
+    "e": 4.057
+   },
+   {
+    "w": "one",
+    "s": 4.057,
+    "e": 4.381
+   },
+   {
+    "w": "minute",
+    "s": 4.381,
+    "e": 4.61
+   },
+   {
+    "w": "wrong",
+    "s": 4.61,
+    "e": 4.933
+   },
+   {
+    "w": "could",
+    "s": 4.933,
+    "e": 5.162
+   },
+   {
+    "w": "mean",
+    "s": 5.162,
+    "e": 5.333
+   },
+   {
+    "w": "fifteen",
+    "s": 5.333,
+    "e": 5.867
+   },
+   {
+    "w": "miles",
+    "s": 5.867,
+    "e": 6.286
+   },
+   {
+    "w": "off.",
+    "s": 6.286,
+    "e": 6.61
+   }
+  ],
+  "heard": "At sea, sailors worked out where they were with a clock set to home time. Just one minute wrong could mean fifteen miles off.",
+  "match": 1.0,
+  "tempo": 1.05
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "So in 1833, Greenwich put a big ball on a mast. Every day at exactly one o'clock, it dropped, and ships on the river set their clocks.",
+  "dur": 8.076,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.029,
+    "e": 0.2
+   },
+   {
+    "w": "in",
+    "s": 0.2,
+    "e": 0.314
+   },
+   {
+    "w": "1833,",
+    "s": 0.314,
+    "e": 1.171
+   },
+   {
+    "w": "Greenwich",
+    "s": 1.59,
+    "e": 1.686
+   },
+   {
+    "w": "put",
+    "s": 1.686,
+    "e": 1.895
+   },
+   {
+    "w": "a",
+    "s": 1.895,
+    "e": 2.143
+   },
+   {
+    "w": "big",
+    "s": 2.143,
+    "e": 2.295
+   },
+   {
+    "w": "ball",
+    "s": 2.295,
+    "e": 2.581
+   },
+   {
+    "w": "on",
+    "s": 2.581,
+    "e": 2.81
+   },
+   {
+    "w": "a",
+    "s": 2.81,
+    "e": 2.924
+   },
+   {
+    "w": "mast.",
+    "s": 2.924,
+    "e": 3.19
+   },
+   {
+    "w": "Every",
+    "s": 3.724,
+    "e": 3.971
+   },
+   {
+    "w": "day",
+    "s": 3.971,
+    "e": 4.181
+   },
+   {
+    "w": "at",
+    "s": 4.181,
+    "e": 4.352
+   },
+   {
+    "w": "exactly",
+    "s": 4.352,
+    "e": 4.733
+   },
+   {
+    "w": "one",
+    "s": 4.733,
+    "e": 5.0
+   },
+   {
+    "w": "o'clock,",
+    "s": 5.0,
+    "e": 5.457
+   },
+   {
+    "w": "it",
+    "s": 5.457,
+    "e": 5.61
+   },
+   {
+    "w": "dropped,",
+    "s": 5.61,
+    "e": 5.971
+   },
+   {
+    "w": "and",
+    "s": 6.238,
+    "e": 6.448
+   },
+   {
+    "w": "ships",
+    "s": 6.448,
+    "e": 6.638
+   },
+   {
+    "w": "on",
+    "s": 6.638,
+    "e": 6.848
+   },
+   {
+    "w": "the",
+    "s": 6.848,
+    "e": 7.086
+   },
+   {
+    "w": "river",
+    "s": 7.086,
+    "e": 7.181
+   },
+   {
+    "w": "set",
+    "s": 7.181,
+    "e": 7.371
+   },
+   {
+    "w": "their",
+    "s": 7.371,
+    "e": 7.543
+   },
+   {
+    "w": "clocks.",
+    "s": 7.543,
+    "e": 7.771
+   }
+  ],
+  "heard": "So in 1833, Greenwich put a big ball on a mast. Every day at exactly one o 'clock, it dropped, and ships on the river set their clocks.",
+  "match": 0.945,
+  "tempo": 1.05
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "In 1907, New York borrowed the idea for New Year's Eve, with a glowing ball that dropped at midnight.",
+  "dur": 5.648,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.029,
+    "e": 0.2
+   },
+   {
+    "w": "1907,",
+    "s": 0.2,
+    "e": 0.867
+   },
+   {
+    "w": "New",
+    "s": 1.305,
+    "e": 1.4
+   },
+   {
+    "w": "York",
+    "s": 1.4,
+    "e": 1.59
+   },
+   {
+    "w": "borrowed",
+    "s": 1.59,
+    "e": 1.933
+   },
+   {
+    "w": "the",
+    "s": 1.933,
+    "e": 2.105
+   },
+   {
+    "w": "idea",
+    "s": 2.105,
+    "e": 2.39
+   },
+   {
+    "w": "for",
+    "s": 2.39,
+    "e": 2.657
+   },
+   {
+    "w": "New",
+    "s": 2.657,
+    "e": 2.79
+   },
+   {
+    "w": "Year's",
+    "s": 2.79,
+    "e": 3.038
+   },
+   {
+    "w": "Eve,",
+    "s": 3.038,
+    "e": 3.21
+   },
+   {
+    "w": "with",
+    "s": 3.514,
+    "e": 3.629
+   },
+   {
+    "w": "a",
+    "s": 3.629,
+    "e": 3.762
+   },
+   {
+    "w": "glowing",
+    "s": 3.762,
+    "e": 4.086
+   },
+   {
+    "w": "ball",
+    "s": 4.086,
+    "e": 4.333
+   },
+   {
+    "w": "that",
+    "s": 4.333,
+    "e": 4.6
+   },
+   {
+    "w": "dropped",
+    "s": 4.6,
+    "e": 4.886
+   },
+   {
+    "w": "at",
+    "s": 4.886,
+    "e": 5.171
+   },
+   {
+    "w": "midnight.",
+    "s": 5.171,
+    "e": 5.476
+   }
+  ],
+  "heard": "In 1907, New York borrowed the idea for New Year's Eve, with a glowing ball that dropped at midnight.",
+  "match": 1.0,
+  "tempo": 1.05
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "So when the ball falls this New Year... you're watching an old clock signal for sailors.",
+  "dur": 4.19,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.038,
+    "e": 0.229
+   },
+   {
+    "w": "when",
+    "s": 0.229,
+    "e": 0.381
+   },
+   {
+    "w": "the",
+    "s": 0.381,
+    "e": 0.495
+   },
+   {
+    "w": "ball",
+    "s": 0.495,
+    "e": 0.667
+   },
+   {
+    "w": "falls",
+    "s": 0.667,
+    "e": 0.971
+   },
+   {
+    "w": "this",
+    "s": 0.971,
+    "e": 1.162
+   },
+   {
+    "w": "New",
+    "s": 1.162,
+    "e": 1.333
+   },
+   {
+    "w": "Year...",
+    "s": 1.333,
+    "e": 1.486
+   },
+   {
+    "w": "you're",
+    "s": 1.829,
+    "e": 2.019
+   },
+   {
+    "w": "watching",
+    "s": 2.019,
+    "e": 2.267
+   },
+   {
+    "w": "an",
+    "s": 2.267,
+    "e": 2.476
+   },
+   {
+    "w": "old",
+    "s": 2.476,
+    "e": 2.8
+   },
+   {
+    "w": "clock",
+    "s": 2.8,
+    "e": 3.124
+   },
+   {
+    "w": "signal",
+    "s": 3.124,
+    "e": 3.467
+   },
+   {
+    "w": "for",
+    "s": 3.467,
+    "e": 3.79
+   },
+   {
+    "w": "sailors.",
+    "s": 3.79,
+    "e": 4.019
+   }
+  ],
+  "heard": "So when the ball falls this New Year, you're watching an old clock signal for sailors.",
+  "match": 1.0,
+  "tempo": 1.05
+ }
+]
