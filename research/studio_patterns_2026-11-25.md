@@ -13,3 +13,9 @@ Sample: 99 videos relevant to our channel, 100M views total. Use these PATTERNS 
 
 Takeaways for us: titles in these 3 shapes; one concrete number or detail in the title (9 days, $45, 2.5 miles); stories of real (historical, non-living, non-religious) people and processes;
 1 relevant emoji in the title is common. Owner: try our style, Zack-D-like realistic 3D (Style R), and new relevant ideas.
+
+## Proposed next long videos in these patterns (25 Nov 2026; compare with the A-032/A-033/A-034 test results before choosing)
+1. Pattern 1, Ranked List: "How 7 Everyday Things Were Invented by Accident" (microwave oven 1945, Velcro 1941 burrs, super glue, Play-Doh wallpaper cleaner, Slinky 1943, sticky notes; verified stories only, no "potato chip" myth). Cut Shorts = one object each.
+2. Pattern 2, Full Story/List: "Why Planes Make You Do 7 Strange Things" (window shades up and lights dimmed for landing, seat upright, airplane mode, the ashtray rule, 2 h rule for drinks? only if sourced), a series from A-033; everyday "you" angle with search demand.
+3. Pattern 3, Levels Of/Ranked: "The World's Longest-Running Things: 10 Billion Rings, 1901's Light Bulb, a 1927 Drop of Tar" (Oxford bell, Centennial Light, Pitch Drop experiment, oldest working clocks; non-religious relics only), extends A-034.
+Pick the long video whose pattern's Short wins at 48 h (stayed %, avg % viewed); log each with its pattern number in topic_results.md.

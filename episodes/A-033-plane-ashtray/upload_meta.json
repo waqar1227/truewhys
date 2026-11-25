@@ -1,0 +1,17 @@
+{
+ "title": "Why Plane Toilets Still Need Ashtrays (Smoking Banned Since 2000) ✈️",
+ "description": "Why does a no-smoking plane toilet have an ashtray? Smoking on every US flight has been banned since 2000, yet the rules still demand an ashtray on or near every lavatory door.\n\nBecause the real danger isn't the smoker, it's where the cigarette ends up. Someone who breaks the rule may panic and hide it, and the nearest hiding spot is a bin full of paper towels. So the rule gives them one obvious, safe place to put it out first. The bin even has its own small automatic fire extinguisher, and a smoke detector watches the room.\n\nHave you ever noticed the ashtray on a plane? Tell us below.\n\nMore true whys: https://www.youtube.com/@truewhys?sub_confirmation=1\n\nSources: US Code of Federal Regulations, 14 CFR 25.853 and 25.854 (lavatory ashtrays, smoke detectors, waste-bin extinguishers); FAA Amendment 25-74 (1991); Marketplace (2024); CNN (2017).\nAnimation, music and sound: TrueWhys (original). 3D people: MPFB 2 (CC0 output). Fonts: Lilita One (Open Font License).\n#aviation #airplane #safety",
+ "tags": ["why do planes have ashtrays", "airplane ashtray", "plane toilet ashtray", "ashtray on airplane", "airplane lavatory", "plane bathroom",
+          "no smoking on planes", "faa rules", "aviation safety", "airplane facts", "flight facts", "travel facts", "weird rules",
+          "why does this exist", "airplane design", "fire safety", "did you know", "TrueWhys"],
+ "categoryId": "28",
+ "publishAt": "2027-01-01T18:00:00Z",
+ "playlist": "Why Does That Happen? (Science and Body)",
+ "video": "final/A-033.mp4",
+ "style": "R (realistic 3D, Kaggle GPU)",
+ "studio_pattern": 2,
+ "ai_disclosure": {
+  "synthetic": true,
+  "reason": "Yes by the docs/ai_disclosure.md test (unsure -> Yes): the realistic CG airliner cabin, lavatory hardware and close-ups could be mistaken at a glance for real camera footage of a real place, even though no real footage, real person, voice clone or AI music is used (CG built in Blender, generic TTS narrator, code-made music). 25 Nov 2026."
+ }
+}
