@@ -494,5 +494,21 @@
   "synthetic": false,
   "reason": "Not realistic: flat 2D cartoon animation, generic TTS narrator imitating no real person, code-made music; no real footage, people or brands (docs/ai_disclosure.md test, 25 Nov 2026).",
   "decided": "2026-11-25"
+ },
+ "NnTHvcf23Vc": {
+  "episode": "B-007 (L7)",
+  "title": "Cats vs Dogs: Who's Smarter, and Who Loves You More?",
+  "style": "F: flat 2D",
+  "synthetic": false,
+  "reason": "Not realistic: flat 2D cartoon (cast v2.2 + cartoon pets), generic TTS narrator imitating no real person, code-made music; no realistic people, animals, places or events (docs/ai_disclosure.md test, 25 Nov 2026).",
+  "decided": "2026-11-25"
+ },
+ "KnGjNdHW0l4": {
+  "episode": "B-007 C1",
+  "title": "Why Dogs Make Puppy Eyes at You",
+  "style": "F: flat 2D",
+  "synthetic": false,
+  "reason": "Not realistic: flat 2D cartoon (cast v2.2 + cartoon pets), generic TTS narrator imitating no real person, code-made music; no realistic people, animals, places or events (docs/ai_disclosure.md test, 25 Nov 2026).",
+  "decided": "2026-11-25"
  }
 }

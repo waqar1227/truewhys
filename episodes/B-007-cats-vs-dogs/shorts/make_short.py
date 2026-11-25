@@ -130,7 +130,7 @@ def c1_wolf(g, c):
 
 def c1_shelter(g, c):
     g.fill_all(g.lgrad(0, 0, 0, H, "#DCEBD7", "#BFD8BA"))
-    ka = on(c, "homes", frac=0.7)
+    ka = ease_out(clamp((c.t - 0.4 * c.T) / (0.3 * c.T)))           # the puppy-eyes dog leaves its kennel mid-line
     for i, y in enumerate((760, 1500)):
         g.rect(140, y - 620, 800, 620, "#F4F1EA", INK, lw=7, r=10)
         x = 540 + (600 * ka if i == 1 else 0)
