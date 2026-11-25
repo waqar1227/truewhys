@@ -247,3 +247,50 @@ def buzz():
 
 
 audio.GEN.update(buzz=buzz)
+
+
+@functools.lru_cache(maxsize=None)
+def glass_crack():
+    """Glass cracking (original synth, 0.9 s, A-028): a sharp snap, then a fast run of tiny ticks and a ringing glassy tail."""
+    rng = np.random.default_rng(28)
+    x = np.zeros(int(0.9 * SR))
+    snap = rng.normal(0, 1, int(0.02 * SR)) * np.exp(-_t(0.02) / 0.003)
+    _put(x, snap * 1.0, 0.0)
+    for k in range(55):                                   # the crack running: ticks that thin out
+        at = 0.01 + (k / 55) ** 1.6 * 0.6
+        f = rng.uniform(2000, 6500); d = _t(0.012)
+        _put(x, np.sin(2 * np.pi * f * d) * np.exp(-d / 0.003) * rng.uniform(0.3, 0.9) * (1 - k / 70), at)
+    for f in (3150, 4420, 5980):
+        _put(x, 0.12 * _bell(f, 0.8, 0.18), 0.0)
+    return _st(x, 0.85)
+
+
+@functools.lru_cache(maxsize=None)
+def scrape():
+    """Ice scraper on a windshield (original synth, 1.2 s): three gritty strokes."""
+    from scipy.signal import butter, lfilter
+    rng = np.random.default_rng(29)
+    x = np.zeros(int(1.2 * SR))
+    b, a = butter(2, [1200 / (SR / 2), 6000 / (SR / 2)], "band")
+    for k in range(3):
+        n = int(0.3 * SR); t = np.arange(n) / SR
+        grit = lfilter(b, a, rng.normal(0, 1, n)) * (0.6 + 0.4 * (rng.random(n) > 0.85))
+        _put(x, grit * np.sin(np.pi * t / 0.3) ** 0.6, 0.02 + k * 0.38)
+    return _st(x, 0.5)
+
+
+@functools.lru_cache(maxsize=None)
+def pour():
+    """Water pouring from a kettle (original synth, 1.4 s): bubbly filtered noise with a gurgle."""
+    from scipy.signal import butter, lfilter
+    rng = np.random.default_rng(30)
+    n = int(1.4 * SR); t = np.arange(n) / SR
+    b, a = butter(2, [500 / (SR / 2), 3500 / (SR / 2)], "band")
+    y = lfilter(b, a, rng.normal(0, 1, n)) * (0.7 + 0.3 * np.sin(2 * np.pi * 9 * t + 3 * np.sin(2 * np.pi * 2.3 * t)))
+    for k in range(14):
+        f = rng.uniform(300, 900); d = _t(0.05)
+        _put(y, 2.5 * np.sin(2 * np.pi * f * (1 + 3 * d) * d) * np.exp(-d / 0.015), rng.uniform(0.05, 1.2))
+    return _st(y * np.minimum(1, t / 0.08) * np.minimum(1, (1.4 - t) / 0.3), 0.45)
+
+
+audio.GEN.update(glass_crack=glass_crack, scrape=scrape, pour=pour)

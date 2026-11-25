@@ -1,0 +1,7 @@
+# A-028 v1 (25 Nov 2026), standalone Short, Style F + cast v2.2. Winter car glass physics (owner request). Facts with 2+ sources (sources.md).
+H1|0|Why can hot water crack a frozen windshield?
+L01|0|One splash from the kettle... and the glass can split right across.
+L02|0|Glass is slow to move heat. So the outer layer warms and swells in a second, while the glass underneath is still frozen.
+L03|0|One side stretching, the other side not. That pull is called thermal shock.
+L04|0|A tiny chip makes it worse. The stress gathers there, and a crack can race across the glass.
+L05|0|So skip the kettle. Scrape it, spray de-icer, or let the defroster warm it slowly... and the ice slides right off.
