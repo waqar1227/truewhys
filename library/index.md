@@ -168,6 +168,17 @@ All original (TrueWhys). One episode = `episodes/<ep>/make.py` (`sheet` | `big <
 - **Time ball / New Year `lib/flat_timeball.py` (25 Nov 2026, A-031):** `city_square` (night city, era "now"/"1907"), `tower_top` (generic tower +
   mast), `glow_ball` (modern / 1907), `crowd_sil` (cheering silhouettes, top hats), `fireworks`, `confetti`, `harbour_1833` (sunny river),
   `observatory` (red time ball on a mast, ball_v), `tall_ship`, `chronometer` (minute-off ghost hand), `clock_face2`, `sea_chart` (course drifting off).
+- **Bubble wrap / 1950s `lib/flat_bubble.py` (25 Nov 2026, A-032):** `bubble_sheet` (clear film, staggered bubbles; pop(i,j) / inflate / rows /
+  squash(i,j) callbacks), `room_1957` (pastel living room, paper=film coverage), `lamp_1957`, `trash_can(lid)`, `workshop_1957` (pegboard garage),
+  `curtain` (shower curtain), `sealer` (roller heat sealer), `shop_1957` (decorating shop), `wall_roll`, `greenhouse(cover, slide, droop)`,
+  `mainframe` (generic 1960 computer, no logo), `crate(open_, xray, crack)`, `road`, `truck(cargo=fn)`, `computer_room`, `parcel`. Own code (TrueWhys).
+- **Oxford bell / eras `lib/flat_bell.py` (25 Nov 2026, A-034):** `bell_case` (two brass bells on dry piles, 2 Hz clapper `ball_x`, glass covers,
+  sulfur/X-ray piles, +/- charges, highlights), `lab_room(era)` = the same lab corridor in 1840 / 1910 (biplane) / 1940 (taped window, radio) /
+  1969 (moon landing on TV) / now: a reusable "time-lapse room" for any "it survived through history" story; `college` (generic sandstone),
+  `ten_billion` (rolling counter), `pile_xray`.
+- **Style R plane interior (25 Nov 2026, A-033 scene.py):** generic airliner cabin aisle (3+3 seats, bins, ceiling signs), lavatory door with a
+  bottom-hinged steel ashtray + no-smoking pictogram, lavatory cabinet with X-ray front, paper towels, extinguisher bottle, smoke detector,
+  cigarette prop with ember light, `smoulder` glow. Copy the functions into a new scene.py to reuse.
 - New SFX in lib/sfxgen.py (25 Nov): `rumble`, `buzz_fast`, `whir`, `crash`, `bulb_pop`, `power_off`, `power_on`, `firework`, `clunk`.
   `lib/flat_split.split_long(V, keep_cam=True)` keeps each shot's own camera on the extra cuts. `tools/tempo_lines.py <ep> 1.05` speeds narration
   lines (pitch kept) and rescales timing.json without a new TTS request.

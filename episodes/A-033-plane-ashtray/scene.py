@@ -193,14 +193,14 @@ def passenger(face_door=True):
 
 
 CAMF = Vector((0.0, 0.0, 0.0))
-POINT = ASH + Vector((-0.04, 0.16, 0.05))                     # her right hand points at the ashtray from ~15 cm away
+POINT = ASH + Vector((-0.11, 0.12, 0.05))                     # her right hand points at the ashtray from the side (never covering it)
 REST = Vector((PX + 0.20, PY + 0.08, 0.86))
 
 
 def door_cam(cam, n, a, b):
     """Hook framing: low beside the door, the ashtray big in the lower foreground, the passenger's face above it."""
-    A = ((0.04, 1.02, 1.32), (0.02, 0.10, 1.24), 30)
-    B = ((0.04, 0.96, 1.31), (0.02, 0.10, 1.24), 31)
+    A = ((-0.01, 1.02, 1.42), (-0.03, 0.10, 1.36), 34)
+    B = ((-0.01, 0.97, 1.42), (-0.03, 0.10, 1.36), 35)
     P0, P1 = (A, B) if a == 0 else (B, A)
     cam_move(cam, n, P0, P1, focus=(PX, PY, 1.45), fstop=5.6)
 
