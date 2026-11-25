@@ -294,3 +294,43 @@ def pour():
 
 
 audio.GEN.update(glass_crack=glass_crack, scrape=scrape, pour=pour)
+
+
+# ---- B-007 cats vs dogs (25 Nov 2026), original synths
+@functools.lru_cache(maxsize=None)
+def ring_bell():
+    """Boxing-style round bell, two strikes (original synth, 1.4 s)."""
+    x = np.zeros(int(1.4 * SR))
+    for at in (0.0, 0.32):
+        b = _bell(1180, 1.0, 0.35) + 0.6 * _bell(2950, 1.0, 0.2) + 0.3 * _bell(4720, 1.0, 0.12)
+        _put(x, b, at)
+    return _st(x, 0.6)
+
+
+@functools.lru_cache(maxsize=None)
+def purr():
+    """Cat purr (original synth, 1.6 s): ~26 Hz amplitude pulses on low filtered noise, in/out breaths."""
+    t = _t(1.6)
+    n = np.random.default_rng(7).normal(0, 1, len(t))
+    k = np.ones(60) / 60
+    low = np.convolve(n, k, "same") * 6
+    pul = (0.5 + 0.5 * np.sin(2 * np.pi * 26 * t)) ** 3
+    breath = 0.65 + 0.35 * np.sin(2 * np.pi * 0.9 * t)
+    x = low * pul * breath + 0.3 * np.sin(2 * np.pi * 52 * t) * pul
+    x *= np.minimum(1, t / 0.15) * np.minimum(1, (1.6 - t) / 0.2)
+    return _st(x, 0.55)
+
+
+@functools.lru_cache(maxsize=None)
+def lap():
+    """Four quick tongue flicks on water (original synth, 1.0 s)."""
+    x = np.zeros(int(1.0 * SR))
+    for i in range(4):
+        tt = _t(0.06)
+        f = 900 + 1400 * tt / 0.06
+        s = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-tt * 60)
+        _put(x, s, i * 0.25)
+    return _st(x, 0.5)
+
+
+audio.GEN.update(ring_bell=ring_bell, purr=purr, lap=lap)

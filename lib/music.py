@@ -129,6 +129,8 @@ MOODS = {
     "dark":    (48, "aeolian", 64, [0, 5, 0, 4], 0.2, 0, 1, "toll"),
     "warm":    (50, "ionian", 88, [0, 4, 5, 3], 0.8, 1, 1, "lute68"),
     "adventure": (52, "dorian", 126, [0, 6, 3, 4], 0.95, 2, 1, "lute68"),   # jaunty sea-shanty feel (B-003)
+    "match":   (52, "mixolydian", 124, [0, 6, 3, 4], 0.9, 2, 0, "bounce"),     # sporty "match day" energy (B-007 rounds)
+    "cozy":    (53, "lydian", 80, [0, 3, 1, 4], 0.6, 1, 1, "arp_slow"),      # gentle living-room warmth (B-007 love round)
 }
 
 

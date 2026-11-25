@@ -24,6 +24,8 @@ SFX = {  # name -> file (CC0: Kenney/OpenGameArt packs, BigSoundBank by Joseph S
     # B-003 (sea): BigSoundBank CC0
     "waves": "bsb/birds__sea-waves-and-seagulls_0267.mp3", "gulls": "bsb/birds__sea-waves-and-seagulls_0267.mp3",
     "bell": "bsb/bell__small-bell-1_0292.mp3", "crowd_cheer": "bsb/applause__applause-1_2363.mp3",
+    # B-007: short trims of the BigSoundBank CC0 dog bark / cat meow (bsb/credits.json)
+    "bark": "bsb/trim_bark.wav", "meow": "bsb/trim_meow.wav",
 }
 PACK_GLOBS = {"page_turn": "**/bookFlip1.ogg", "quill": "**/scratch_001.ogg", "footsteps": "**/footstep0*.ogg", "door": "**/doorOpen_1.ogg",
               "pop": "**/drop_002.ogg", "ding": "**/confirmation_001.ogg", "sparkle": "**/glass_001.ogg", "boing": "**/spring_01.ogg",

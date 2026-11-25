@@ -99,6 +99,7 @@ EXPR = {
     "suspicious": dict(lid=0.6, brow=((10, 0), (-10, -4)), mouth="side", look=(-1, 0)),
     "shocked":    dict(lid=0.0, brow=((-16, -12), (-16, -12)), mouth="o", pupil=0.7),
     "bored":      dict(lid=0.7, brow=((2, 4), (2, 4)), mouth="flat_down"),
+    "smile":      dict(lid=0.35, brow=((-3, -5), (-3, -5)), mouth="smile"),   # B-007: gentle closed smile
     "angry":      dict(lid=0.35, brow=((14, -6), (14, -6)), mouth="grit"),
 }
 
@@ -171,7 +172,8 @@ def _head(s, e, view="front"):
     # mouth
     m = e["mouth"]
     M = {"flat": "M-14 -458 L14 -458", "flat_down": "M-14 -455 Q0 -460 14 -455", "smirk": "M-12 -458 Q8 -456 18 -466",
-         "side": "M-6 -458 L16 -460", "grit": "M-16 -462 L16 -462 L14 -450 L-14 -450 Z"}
+         "side": "M-6 -458 L16 -460", "grit": "M-16 -462 L16 -462 L14 -450 L-14 -450 Z",
+         "smile": "M-15 -461 Q0 -449 15 -461"}
     if m == "o":
         p.append('<ellipse cx="0" cy="-456" rx="9" ry="12" fill="#6E2430" stroke-width="6"/>')
     elif m == "grit":

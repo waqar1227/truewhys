@@ -1,0 +1,7 @@
+# B-007 C1 (cut Short, rewritten for vertical). Frame 1: dog already doing puppy eyes at a sandwich, eyebrows rising, "MADE FOR YOU?". Answer by the end; loops to the eyes.
+H1|0|Your dog grew a special face muscle... just to work on you.
+L01|0|Watch the inner eyebrows. Up they go, and the eyes look bigger, sadder, like a baby's.
+L02|0|In 2019, scientists compared dogs and wolves. Dogs have a tiny muscle that lifts the inner eyebrow. Wolves mostly don't.
+L03|0|And in animal shelters, dogs that made that face more often found new homes faster.
+L04|0|Scientists think thousands of years of people choosing the saddest eyes spread that muscle.
+L05|0|So... who's really training who?

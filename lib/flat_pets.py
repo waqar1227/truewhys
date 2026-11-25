@@ -121,15 +121,13 @@ def dog_face(g, x, y, s=1.0, t=0.0, expr="happy", brow=0.0, tongue=0.0, tilt=0.0
                     if brow > 0.3:
                         g.circle(ex + lx - 6, ey + ly + 7, 3 + 2 * brow, "#FFFFFF", None, a=0.8)
                     if expr == "sad" and brow < 0.3:
-                        g.path(f"M{ex-24} {ey-ry} L{ex+24} {ey-ry} L{ex+24} {ey-ry*0.2} Q{ex} {ey-ry*0.5} {ex-24} {ey-ry*0.2} Z" if False else
-                               f"M{ex-24*sd} {ey-ry-4} L{ex+24*sd} {ey-ry-4} L{ex+24*sd} {ey-ry*0.1}", col["fur"], None)
+                        g.path(f"M{ex-24*sd} {ey-ry-4} L{ex+24*sd} {ey-ry-4} L{ex+24*sd} {ey-ry*0.1}", col["fur"], None)   # droopy outer lid
                 else:
                     g.line([(ex - 20, ey), (ex + 20, ey)], INK, 7)
             # brows: the inner end lifts with `brow` (the dog's special muscle); a wolf's brows stay flat
             inner = -14 * brow - (8 if expr == "shock" else 0) + (6 if expr == "sad" and brow < 0.2 else 0)
             outer = 4 * brow
-            g.limb([(ex - 22 * sd, ey - 40 + outer), (ex, ey - 46 + (inner + outer) / 2), (ex + 16 * sd * -1 * -1, ey - 42 + inner)] if False else
-                   [(ex + 24 * sd, ey - 40 + outer), (ex + 2 * sd, ey - 44 + (inner + outer) / 2), (ex - 18 * sd, ey - 40 + inner * 1.6)],
+            g.limb([(ex + 24 * sd, ey - 40 + outer), (ex + 2 * sd, ey - 44 + (inner + outer) / 2), (ex - 18 * sd, ey - 40 + inner * 1.6)],
                    col["dark"], 13, lw=0)
         g.path("M-34 30 Q0 14 34 30 Q38 56 0 66 Q-38 56 -34 30 Z", col["nose"], INK, lw=5)            # nose
         g.ellipse(-12, 32, 10, 5, "#FFFFFF", None, a=0.35)
@@ -220,28 +218,35 @@ def cat_side(g, x, y, s=1.0, t=0.0, flip=False, walk=0.0, head_down=0.0, tongue=
         hd = ease_io(clamp(head_down))
         hx, hy = 170 + 40 * hd, by - 80 + 150 * hd
         g.path(f"M90 {by-50} Q{hx-30} {hy-20} {hx} {hy} L{hx-10} {hy+60} Q110 {by+30} 80 {by+30} Z", col["fur"], INK, lw=LW)   # neck
-        with g.at(hx, hy, 0.5 * hd):
-            for ex_, rot in ((-34, -0.25 + 0.4 * ear), (8, 0.05 + 0.2 * ear)):
-                with g.at(ex_, -48, rot):
-                    g.poly([(-26, 10), (2, -66), (28, 8)], col["fur"], INK, lw=LW, r=8)
-                    g.poly([(-12, 4), (2, -44), (16, 4)], col["inner"], None, r=5)
-            g.path("M-70 0 Q-70 -62 0 -64 Q60 -62 76 -10 Q96 14 82 32 Q60 56 0 58 Q-70 56 -70 0 Z", col["fur"], INK, lw=LW)
-            g.ellipse(52, 26, 34, 22, col["light"], None)
-            g.path("M80 8 L92 14 L82 22 Z", col["nose"], INK, lw=4)
-            if expr == "happy":
-                g.path("M18 -12 Q30 -24 42 -12", None, INK, lw=7)
-            else:
-                g.ellipse(32, -12, 12, 15, col["iris"], INK, lw=5)
-                g.ellipse(35, -12, 4, 12, INK, None)
-                lid = {"deadpan": 0.4, "smug": 0.55, "alert": 0.0, "shock": 0.0}.get(expr, 0.35)
-                if lid:
-                    g.path(f"M18 -30 L46 -30 L46 {-27 + 30 * lid} L18 {-27 + 30 * lid} Z", col["fur"], None)
-                    g.line([(19, -27 + 30 * lid), (45, -27 + 30 * lid)], INK, 5)
-            for k in (-1, 1):
-                g.line([(64, 30 + k * 6), (130, 22 + k * 14)], INK, 3, a=0.8)
-            if tongue > 0.02:
-                L = 90 * tongue
-                g.limb([(76, 40), (82, 40 + L * 0.6), (80, 40 + L)], "#FF8A9A", 12, lw=4)
+        with g.at(hx, hy, 0.15 * hd):
+            _cat_head_side(g, expr, ear, tongue, col)
+
+
+def _cat_head_side(g, expr="deadpan", ear=0.0, tongue=0.0, col=CAT, jaw=0.0):
+    """Side cat head facing right, centre ~ (0, 0), ~150 wide. tongue 0..1 hangs the tongue tip straight down (lapping)."""
+    for ex_, rot in ((-34, -0.25 + 0.4 * ear), (8, 0.05 + 0.2 * ear)):
+        with g.at(ex_, -48, rot):
+            g.poly([(-26, 10), (2, -66), (28, 8)], col["fur"], INK, lw=LW, r=8)
+            g.poly([(-12, 4), (2, -44), (16, 4)], col["inner"], None, r=5)
+    if jaw > 0.02:
+        g.path(f"M10 30 L84 {30 + 30 * jaw} Q60 {58 + 30 * jaw} 0 54 Z", "#5A1E26", INK, lw=5)
+    g.path("M-70 0 Q-70 -62 0 -64 Q60 -62 76 -10 Q96 14 82 32 Q60 56 0 58 Q-70 56 -70 0 Z", col["fur"], INK, lw=LW)
+    g.ellipse(52, 26, 34, 22, col["light"], None)
+    g.path("M80 8 L92 14 L82 22 Z", col["nose"], INK, lw=4)
+    if expr == "happy":
+        g.path("M18 -12 Q30 -24 42 -12", None, INK, lw=7)
+    else:
+        g.ellipse(32, -12, 12, 15, col["iris"], INK, lw=5)
+        g.ellipse(35, -12, 4, 12, INK, None)
+        lid = {"deadpan": 0.4, "smug": 0.55, "alert": 0.0, "shock": 0.0, "focus": 0.3}.get(expr, 0.35)
+        if lid:
+            g.path(f"M18 -30 L46 -30 L46 {-27 + 30 * lid} L18 {-27 + 30 * lid} Z", col["fur"], None)
+            g.line([(19, -27 + 30 * lid), (45, -27 + 30 * lid)], INK, 5)
+    for k in (-1, 1):
+        g.line([(64, 30 + k * 6), (130, 22 + k * 14)], INK, 3, a=0.8)
+    if tongue > 0.02:
+        L = 110 * tongue
+        g.limb([(70, 44), (74, 44 + L * 0.6), (72, 44 + L)], "#FF8A9A", 13, lw=4)
 
 
 def dog_side(g, x, y, s=1.0, t=0.0, flip=False, walk=0.0, head_down=0.0, tongue=0.0, curl=0.0, expr="happy", wag=1.0, col=None,
@@ -262,40 +267,105 @@ def dog_side(g, x, y, s=1.0, t=0.0, flip=False, walk=0.0, head_down=0.0, tongue=
         wg = math.sin(T * 12 + seed) * wag
         with g.at(-190, by - 30, -0.9 + 0.4 * wg):
             g.limb([(0, 0), (-40, -60), (-50, -130)], col["fur"], 34, lw=LW)
-        g.path(f"M-200 {by} Q-210 {by-90} -100 {by-96} L120 {by-100} Q220 {by-96} 220 {by-10} Q216 {by+80} 120 {by+80} L-110 {by+82} Q-200 {by+80} -200 {by} Z",
+        g.path(f"M-200 {by} Q-205 {by-90} -110 {by-92} L110 {by-100} Q230 {by-100} 225 {by+10} Q220 {by+95} 130 {by+92} Q20 {by+58} -100 {by+70} Q-200 {by+75} -200 {by} Z",
                col["fur"], INK, lw=LW)
         g.path(f"M60 {by+70} Q160 {by+60} 200 {by+10} Q200 {by+70} 120 {by+82} L40 {by+82} Z", col["light"], None)
         leg(-160, 0.0, True); leg(150, math.pi, True)
         hd = ease_io(clamp(max(head_down, 0.35 * sniff)))
         hx, hy = 250 + 40 * hd, by - 130 + 230 * hd
-        g.path(f"M130 {by-80} Q{hx-40} {hy-30} {hx-10} {hy} L{hx-30} {hy+80} Q180 {by+40} 150 {by+40} Z", col["fur"], INK, lw=LW)
+        g.limb([(140, by - 40), ((140 + hx - 40) / 2 + 10, (by - 40 + hy + 10) / 2 - 10), (hx - 40, hy + 10)], col["fur"], 120, lw=LW)
         if col.get("collar") and not wolf:
             g.limb([(hx - 74 + 20 * hd, hy + 20), (hx - 40, hy + 60 - 10 * hd)], col["collar"], 26, lw=6)
-        with g.at(hx, hy, 0.6 * hd):
-            g.path("M-80 0 Q-80 -80 0 -82 Q60 -80 80 -40 L150 -20 Q176 -10 170 20 Q160 46 120 48 L40 56 Q-80 70 -80 0 Z", col["fur"], INK, lw=LW)
-            g.path("M70 -20 L150 -14 Q170 -6 166 18 Q156 40 120 44 L60 46 Z", col["light"], None)
-            g.ellipse(166, -6, 20, 16, col["nose"], INK, lw=5)
-            if sniff:
-                for k in range(3):
-                    ph = (T * 2.5 + k / 3) % 1
-                    g.circle(200 + 60 * ph, -10 - 30 * ph + 10 * math.sin(k + T * 5), 6 + 8 * ph, "#FFFFFF", INK, lw=3, a=0.6 * (1 - ph))
-            if expr == "happy":
-                g.path("M18 -38 Q32 -52 46 -38", None, INK, lw=7)
+        with g.at(hx, hy, 0.12 * hd):
+            _dog_head_side(g, T, expr, tongue, curl, col, sniff, wolf)
+
+
+def _dog_head_side(g, T=0.0, expr="happy", tongue=0.0, curl=0.0, col=DOG, sniff=0.0, wolf=False, jaw=0.0):
+    """Side dog head facing right, centre ~ (0, 0), snout to x~170. tongue/curl: tongue reaching down, tip curled back like a ladle."""
+    if tongue > 0.02:
+        L = 120 * tongue
+        tip = (118 - 30 * curl, 48 + L)
+        g.limb([(110, 40), (120, 40 + L * 0.6), tip], "#FF7A8A", 24, lw=5)
+        if curl > 0.05:
+            d = f"M{tip[0]+4} {tip[1]} Q{tip[0]-30*curl} {tip[1]+34*curl} {tip[0]-56*curl} {tip[1]-10*curl}"
+            g.path(d, None, INK, lw=30); g.path(d, None, "#FF7A8A", lw=20)
+    g.path("M-80 0 Q-80 -80 0 -82 Q60 -80 80 -40 L150 -20 Q176 -10 170 20 Q160 46 120 48 L40 56 Q-80 70 -80 0 Z", col["fur"], INK, lw=LW)
+    g.path("M70 -20 L150 -14 Q170 -6 166 18 Q156 40 120 44 L60 46 Z", col["light"], None)
+    g.ellipse(166, -6, 20, 16, col["nose"], INK, lw=5)
+    if sniff:
+        for k in range(3):
+            ph = (T * 2.5 + k / 3) % 1
+            g.circle(200 + 60 * ph, -10 - 30 * ph + 10 * math.sin(k + T * 5), 6 + 8 * ph, "#FFFFFF", INK, lw=3, a=0.6 * (1 - ph))
+    if expr == "happy":
+        g.path("M18 -38 Q32 -52 46 -38", None, INK, lw=7)
+    else:
+        g.circle(32, -36, 14, "#FFFFFF" if wolf else col["iris"], INK, lw=5)
+        g.circle(36, -36, 7, INK, None)
+        g.circle(39, -40, 3, "#FFFFFF", None)
+    g.line([(10, -60), (50, -64)], col["dark"], 10)
+    if wolf:
+        g.poly([(-50, -60), (-30, -140), (6, -70)], col["fur"], INK, lw=LW, r=8)
+    else:
+        g.path("M-40 -70 Q10 -84 0 -20 Q-10 60 -50 60 Q-80 40 -60 -20 Q-56 -60 -40 -70 Z", col["ear"], INK, lw=LW)
+
+
+def lap_closeup(g, x, y, s=1.0, t=0.0, who="cat", speed=1.0, col=None, slowmo=True):
+    """Slow-motion drinking close-up: side head above a water surface at (x, y) (surface line). One lap cycle = 1/speed s.
+    cat: tongue tip touches the surface, pulls up a thin column, jaw closes on it. dog: curled tongue plunges, big column + splash."""
+    ph = (t * speed) % 1.0
+    with g.at(x, y, 0, s):
+        g.rect(-700, 0, 1400, 400, "#7FCBEF", None)
+        g.line([(-700, 0), (700, 0)], "#3E8FB8", 8)
+        for i in range(5):
+            g.ellipse(-500 + i * 260 + 30 * math.sin(t + i), 40 + (i % 2) * 50, 80, 8, "#FFFFFF", None, a=0.35)
+        def mpt(ox, oy, rot, sc, lx, ly):
+            return (ox + sc * (lx * math.cos(rot) - ly * math.sin(rot)), oy + sc * (lx * math.sin(rot) + ly * math.cos(rot)))
+        if who == "cat":
+            # 0-0.3 tongue goes down and touches; 0.3-0.6 pulls up fast dragging a column; 0.55-0.7 jaw snaps shut on the column
+            if ph < 0.3:
+                reach, colh = ease_io(ph / 0.3), 0.0
+            elif ph < 0.6:
+                reach = 1 - ease_io((ph - 0.3) / 0.3)
+                colh = 1 - reach
             else:
-                g.circle(32, -36, 14, "#FFFFFF" if wolf else col["iris"], INK, lw=5)
-                g.circle(36, -36, 7, INK, None)
-            g.line([(10, -60), (50, -64)], col["dark"], 10)
-            if wolf:
-                g.poly([(-50, -60), (-30, -140), (6, -70)], col["fur"], INK, lw=LW, r=8)
-            else:
-                g.path("M-40 -70 Q10 -84 0 -20 Q-10 60 -50 60 Q-80 40 -60 -20 Q-56 -60 -40 -70 Z", col["ear"], INK, lw=LW)
-            if tongue > 0.02:
-                L = 120 * tongue
-                tip = (120 - 40 * curl, 48 + L)
-                g.limb([(110, 40), (118, 40 + L * 0.6), tip], "#FF7A8A", 22, lw=5)
-                if curl > 0.05:                              # tongue tip curled backwards like a ladle
-                    g.path(f"M{tip[0]-14} {tip[1]} Q{tip[0]-40*curl} {tip[1]+30*curl} {tip[0]-60*curl} {tip[1]-6}", None, "#FF7A8A", lw=20)
-                    g.path(f"M{tip[0]-14} {tip[1]} Q{tip[0]-40*curl} {tip[1]+30*curl} {tip[0]-60*curl} {tip[1]-6}", None, INK, lw=4)
+                reach, colh = 0.0, max(0.0, 1 - (ph - 0.6) / 0.12)
+            ox, oy, rot, sc = -60, -340, 0.12, 2.4
+            jaw = 0.6 if ph < 0.58 else max(0.0, 0.6 - (ph - 0.58) / 0.08)
+            mx, my = mpt(ox, oy, rot, sc, 74, 46)
+            tip_y = my + (0 - my) * reach if ph < 0.3 else my + (-0 - my) * reach
+            top = tip_y if ph >= 0.3 and ph < 0.6 else my
+            if colh > 0.02:
+                hgt = min(-top, 300) * min(1.0, colh * 1.4)
+                g.path(f"M{mx-30} 0 Q{mx-10} {-hgt*0.45} {mx-9} {-hgt} L{mx+9} {-hgt} Q{mx+10} {-hgt*0.45} {mx+30} 0 Z", "#9FDCF5", "#3E8FB8", lw=4)
+            with g.at(ox, oy, rot, sc):
+                _cat_head_side(g, "focus", 0.4, 0.0, col or CAT, jaw=jaw)
+            if reach > 0.02 or (0.3 <= ph < 0.6):
+                ty = my + (0 - my) * reach
+                g.limb([(mx, my), (mx + 4, (my + ty) / 2), (mx, ty - 14)], "#FF8A9A", 26, lw=6)
+                g.path(f"M{mx-2} {ty-20} Q{mx+6} {ty+6} {mx-22} {ty+2}", None, INK, lw=28)          # tip curled under: top surface touches
+                g.path(f"M{mx-2} {ty-20} Q{mx+6} {ty+6} {mx-22} {ty+2}", None, "#FF8A9A", lw=18)
+        else:
+            plunge = math.sin(math.pi * clamp(ph / 0.45))
+            colh = math.sin(math.pi * clamp((ph - 0.3) / 0.5)) if ph > 0.3 else 0.0
+            ox, oy, rot, sc = -200, -330, 0.12, 1.9
+            mx, my = mpt(ox, oy, rot, sc, 112, 44)
+            if colh > 0.02:
+                hgt = min(-my - 20, 260) * colh
+                g.path(f"M{mx-70} 0 Q{mx-24} {-hgt*0.5} {mx-34} {-hgt} L{mx+30} {-hgt} Q{mx+24} {-hgt*0.5} {mx+70} 0 Z", "#9FDCF5", "#3E8FB8", lw=4)
+            if 0.25 < ph < 0.8:
+                k = (ph - 0.25) / 0.55
+                for i in range(10):
+                    a = -math.pi * (0.1 + 0.8 * i / 9)
+                    r = 80 + 300 * k
+                    g.ellipse(mx + math.cos(a) * r * 1.3, math.sin(a) * r * 0.9 + 260 * k * k, 12, 16, "#9FDCF5", "#3E8FB8", lw=3, a=1 - k)
+            with g.at(ox, oy + 30 * plunge, rot, sc):
+                _dog_head_side(g, t, "calm", col=col or DOG)
+            my += 30 * plunge
+            ty = my + (50 - my) * plunge if plunge > 0.02 else my + 60
+            cl = 0.3 + 0.7 * plunge
+            g.limb([(mx, my), (mx + 10, (my + ty) / 2), (mx, ty)], "#FF7A8A", 44, lw=7)
+            d = f"M{mx+8} {ty} Q{mx-40*cl} {ty+50*cl} {mx-90*cl} {ty-10*cl}"          # tip curled backwards (ladle)
+            g.path(d, None, INK, lw=50); g.path(d, None, "#FF7A8A", lw=36)
 
 
 # ------------------------------------------------------------------ props
@@ -312,7 +382,6 @@ def bowl(g, x, y, s=1.0, water=True, splash=0.0, column=0.0, t=0.0, col="#FF6B5B
         if water:
             g.ellipse(0, -56, w * 0.86, 15, "#7FCBEF", None)
             g.ellipse(-w * 0.3, -60, w * 0.25, 5, "#FFFFFF", None, a=0.6)
-        g.text("WATER" if False else "", 0, -26, 30, PAL["cream"], stroke=None)
         if splash > 0.02:
             for i in range(9):
                 a = -math.pi * (0.1 + 0.8 * i / 8)
