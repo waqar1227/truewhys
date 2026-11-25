@@ -149,3 +149,10 @@ All original (TrueWhys). One episode = `episodes/<ep>/make.py` (`sheet` | `big <
 - episodes/B-005-annoying-science/make.py sets reusable by copy: kitchen_am (morning kitchen), lab (physics lab wall), night_kitchen, bathroom + tub
   + bath_cut (side cut-away of a shower with vortex), cafe (top-view wooden table), breakfast (tablecloth), drop_cut (cross-section of a drying drop),
   milk_side (meniscus cross-section).
+- lib/flat_pets.py (B-007, 25 Nov 2026): Style F pets + props: `cat_sit`/`dog_sit` (front, sitting; expr, ear swivel, paw lift, tail/wag, puppy-eye
+  `brow`), `cat_face`/`dog_face` (close-ups; `wolf=True` grey wolf, no brow muscle), `cat_side`/`dog_side` (walk, sniff, head down to a bowl),
+  `lap_closeup` (slow-motion drinking physics: cat column + jaw snap, dog curled tongue + splash), palettes CAT/DOG/WOLF (+ any dict: kitten,
+  border collie, wildcat in B-007 make.py), props `bowl`, `sofa`, `scoreboard` (DOG n : n CAT), `toy`/`toy_pile`, `mouse`, `bear_side`,
+  `baby_face`, `speaker`, `hs_camera`, `neuron_dots`, `dna_tree`, `grain_jar`, `freq_bar`, `paw`. `from flat_pets import *`. Original, code-drawn.
+- lib/cast2.py (B-007): new cast `lena` (green hoodie, red bun) and `vet` (researcher, white coat); new expression `smile` (gentle closed smile).
+- lib/sfxgen.py (B-007): `ring_bell` (round bell), `purr`, `lap`; lib/audio.py `bark` / `meow` (short CC0 trims). lib/music.py moods `match` (sporty), `cozy`.
