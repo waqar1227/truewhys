@@ -1,0 +1,8 @@
+# A-034 v1 (25 Nov 2026), standalone Short, Style F "time-lapse room" (new idea). Pattern 3 singular object spotlight. Facts with 2+ sources (sources.md).
+H1|0|This bell has been ringing since 1840... on the same batteries.
+L01|0|About ten billion rings, and nobody knows exactly what's inside them.
+L02|0|It sits in a lab in Oxford. Two little brass bells, each on top of a tall dry battery.
+L03|0|Between them hangs a metal ball, smaller than a pea. One bell charges it, pushes it away, the other bell pulls it in, and back again. Twice every second.
+L04|0|It kept ringing through two world wars, the first planes, and the moon landing.
+L05|0|But you can't hear it. It's sealed behind two layers of glass, and its batteries are coated in sulfur, so their recipe is still a mystery.
+L06|0|One day the charge will run out. Until then... it just keeps ringing.

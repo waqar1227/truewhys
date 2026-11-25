@@ -1,0 +1,8 @@
+# A-033 v1 (25 Nov 2026), standalone Short, Style R (realistic 3D, Kaggle GPU). Pattern 2 counter-intuitive "Why [rule] exists". Facts with 2+ sources (sources.md).
+H1|0|Why does a no-smoking plane toilet have an ashtray?
+L01|0|Smoking on every US flight has been banned since 2000... yet the rules still demand an ashtray on every toilet door.
+L02|0|Because the real danger isn't the smoker. It's where the cigarette ends up.
+L03|0|Someone who breaks the rule panics and hides it, and the nearest hiding spot is a bin full of paper towels.
+L04|0|So the rule gives them one obvious, safe place to put it out first.
+L05|0|That bin even has its own tiny fire extinguisher, and a smoke detector watches the room.
+L06|0|So this ashtray isn't for smokers... it's for the fire nobody wants.
