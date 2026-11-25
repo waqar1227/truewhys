@@ -510,5 +510,29 @@
   "synthetic": false,
   "reason": "Not realistic: flat 2D cartoon (cast v2.2 + cartoon pets), generic TTS narrator imitating no real person, code-made music; no realistic people, animals, places or events (docs/ai_disclosure.md test, 25 Nov 2026).",
   "decided": "2026-11-25"
+ },
+ "5ryX939np_w": {
+  "episode": "A-029",
+  "title": "Why Does Your Controller Shake?",
+  "style": "F: flat 2D",
+  "synthetic": false,
+  "reason": "Not realistic: flat 2D cartoon animation, generic TTS narrator imitating no real person, code-made music; no real footage, people, places shown as real, or brands (docs/ai_disclosure.md test, 25 Nov 2026).",
+  "decided": "2026-11-25"
+ },
+ "jPrVioaxbNY": {
+  "episode": "A-030",
+  "title": "Why One Bad Bulb Can Turn Off All Your Christmas Lights",
+  "style": "F: flat 2D",
+  "synthetic": false,
+  "reason": "Not realistic: flat 2D cartoon animation, generic TTS narrator imitating no real person, code-made music; no real footage, people, places shown as real, or brands (docs/ai_disclosure.md test, 25 Nov 2026).",
+  "decided": "2026-11-25"
+ },
+ "MC19B4dK33U": {
+  "episode": "A-031",
+  "title": "Why Do We Drop a Ball on New Year's Eve?",
+  "style": "F: flat 2D",
+  "synthetic": false,
+  "reason": "Not realistic: flat 2D cartoon animation, generic TTS narrator imitating no real person, code-made music; no real footage, people, places shown as real, or brands (docs/ai_disclosure.md test, 25 Nov 2026).",
+  "decided": "2026-11-25"
  }
 }

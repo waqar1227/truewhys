@@ -61,6 +61,9 @@ Unsure → **Yes** (disclosing never hurts reach or money; a missing disclosure 
 | zvHTp6BC06E | B-006 C1 | Why You Feel Your Phone Buzz When It Didn't | F | **No** |
 | NnTHvcf23Vc | B-007 (L7) | Cats vs Dogs: Who's Smarter, and Who Loves You More? | F | **No** |
 | KnGjNdHW0l4 | B-007 C1 | Why Dogs Make Puppy Eyes at You | F | **No** |
+| 5ryX939np_w | A-029-controller-rumble | Why Does Your Controller Shake? | F | **No** |
+| jPrVioaxbNY | A-030-string-lights | Why One Bad Bulb Can Turn Off All Your Christmas Lights | F | **No** |
+| MC19B4dK33U | A-031-ball-drop | Why Do We Drop a Ball on New Year's Eve? | F | **No** |
 | 9C-9O0c6VqM | B-001-animal-trials | Why Medieval Courts Put Animals on Trial | T | **No** |
 | 5YqYpWmY7EA | B-001-animal-trials/C0 | Why a Pig Was Executed in a Man's Clothes | T | **No** |
 | 33UzHb61eKc | B-001-animal-trials/C1 | Why a French Town Put a Pig on Trial | T | **No** |

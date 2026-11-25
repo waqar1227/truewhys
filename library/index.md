@@ -157,3 +157,17 @@ All original (TrueWhys). One episode = `episodes/<ep>/make.py` (`sheet` | `big <
 - lib/cast2.py (B-007): new cast `lena` (green hoodie, red bun) and `vet` (researcher, white coat); new expression `smile` (gentle closed smile).
 - lib/sfxgen.py (B-007): `ring_bell` (round bell), `purr`, `lap`; lib/audio.py `bark` / `meow` (short CC0 trims). lib/music.py moods `match` (sporty), `cozy`.
 - **Car + winter morning `lib/flat_car.py` (25 Nov 2026, A-028, TrueWhys original):** `driveway_dawn` (suburban driveway before sunrise, house, street lamp), `car_front` (generic yellow hatchback, front view; ice sheet that can slide off, melt patch, chip, crack networks), `crack_paths`/`draw_cracks` (branching cracks revealed over time), `kettle` + `spout_pt`, `scraper`, `spray_bottle` (labelled, mist), `earmuffs`, `glass_slab` (cross-section: hot outer band, swell, bend, frost), `dashboard` (inside-car view, defroster heat waves). New SFX in lib/sfxgen.py: `glass_crack`, `pour`, `scrape`.
+- **Gaming night `lib/flat_game.py` (25 Nov 2026, A-029, TrueWhys original):** `game_room` (night living room lit by the TV, window city, sofa, rug),
+  `tv` (wall TV with our own toy-car street race; crash 0→1), `controller` (generic two-grip gamepad, plain buttons; shake, x-ray with heavy/light
+  rumble motors, glow l/r/both), `hands_on` (two hands gripping it), `motor_face` (big end-on motor with off-centre half-moon weight, motion blur),
+  `coil_actuator` (voice-coil magnet tapping), `rumble_waves` (deep or fast vibration arcs).
+- **Holiday lights `lib/flat_lights.py` (25 Nov 2026, A-030):** `porch_dusk` (snowy house front at dusk, door, window, icicles, pines; no religious
+  symbols), `string_pts` + `light_string` (swagged string, per-bulb on levels, dead bulb, pulled-out bulb), `wave_on` (dark/light wave along the
+  string), `big_bulb` (cut-away: filament glow/snap, lead wires, shunt highlight + current arc), `loop_diagram` (series loop: moving charges, break,
+  bypass, highlight), `plug`.
+- **Time ball / New Year `lib/flat_timeball.py` (25 Nov 2026, A-031):** `city_square` (night city, era "now"/"1907"), `tower_top` (generic tower +
+  mast), `glow_ball` (modern / 1907), `crowd_sil` (cheering silhouettes, top hats), `fireworks`, `confetti`, `harbour_1833` (sunny river),
+  `observatory` (red time ball on a mast, ball_v), `tall_ship`, `chronometer` (minute-off ghost hand), `clock_face2`, `sea_chart` (course drifting off).
+- New SFX in lib/sfxgen.py (25 Nov): `rumble`, `buzz_fast`, `whir`, `crash`, `bulb_pop`, `power_off`, `power_on`, `firework`, `clunk`.
+  `lib/flat_split.split_long(V, keep_cam=True)` keeps each shot's own camera on the extra cuts. `tools/tempo_lines.py <ep> 1.05` speeds narration
+  lines (pitch kept) and rescales timing.json without a new TTS request.
