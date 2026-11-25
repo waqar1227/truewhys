@@ -550,5 +550,13 @@
   "synthetic": false,
   "reason": "Not realistic: flat 2D cartoon animation and diagrams, generic TTS narrator imitating no real person, code-made music; no real footage, people, places shown as real, or brands (docs/ai_disclosure.md test, 25 Nov 2026).",
   "decided": "2026-11-25"
+ },
+ "rXEOJ5qUawA": {
+  "episode": "A-033",
+  "title": "Why Plane Toilets Still Need Ashtrays (Smoking Banned Since 2000) ✈️",
+  "style": "R: realistic 3D (Blender/Cycles)",
+  "synthetic": true,
+  "reason": "Yes by the docs/ai_disclosure.md test (unsure -> Yes): the realistic CG airliner cabin, lavatory hardware and close-ups could be mistaken at a glance for real camera footage of a real place, even though no real footage, real person, voice clone or AI music is used (CG built in Blender, generic TTS narrator, code-made music). 25 Nov 2026.",
+  "decided": "2026-11-25"
  }
 }

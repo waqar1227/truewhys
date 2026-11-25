@@ -116,3 +116,4 @@
 - 24 Nov 09:35 UTC: a024 v3 complete (hook_pov 22 min, loop_pov 18 min); streak gone. Uploaded sJ8lsYNlHTk for Sat 19 Dec 18:00 UTC.
 - 25 Nov 16:39 UTC: a033 v1 pushed (A-033 plane ashtray, Style R, 11 shots / 987 frames, 1080×1920, Cycles 64 spp + mblur, 2×T4). Dataset anam318/truewhys-ep-a033, kernel truewhys-render-a033.
 - 25 Nov 17:07 UTC: a033 v1 never started (QUEUED, GPU slots busy); dataset v2 (tighter hook/loop framing, hand beside the ashtray) confirmed live, kernel v2 pushed.
+- 25 Nov 20:06 UTC: a033 v2 COMPLETE (started ~18:30 after the queue, 11 shots / 987 frames 1080×1920 s64, 2×T4, ~3 h 20 min of GPU across both workers). Frames OK, composed with make.py render, QA PASS, uploaded rXEOJ5qUawA.
