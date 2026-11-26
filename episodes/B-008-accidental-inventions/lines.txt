@@ -1,0 +1,67 @@
+# id | chapter | text (captions) || say (pronunciation for the voice, optional)
+# B-008 v1 (26 Nov 2026). L8 long video, Style F + cast v2.2. Pattern 1 "How [X] Happened" as a Ranked List countdown (7 -> 1).
+# Chapters = Gemini requests (7): 0 cold open + #7 spring toy, 1 #6 hook-and-loop, 2 #5 super glue, 3 #4 non-stick, 4 #3 safety glass, 5 #2 microwave, 6 #1 penicillin + ending.
+# Clip candidates: C1 microwave candy bar (ch5, cut Short Tue 5 Jan), C2 super glue (ch2), C3 empty cylinder (ch3), C4 burrs (ch1), C5 safety glass (ch4).
+O01|0|In 1945, an engineer's candy bar melted in his pocket. Nothing near him was hot.
+O02|0|And that sticky pocket is the reason there's a microwave in your kitchen.
+O03|0|A toy that walks down stairs. A glue that was thrown away. A pan that nothing sticks to. And a dirty dish that saved millions of lives.
+O04|0|Seven everyday things nobody meant to invent. Counting down, from the smallest accident to the one that changed the world.
+K01|0|Number seven. The spring that walked.
+K02|0|In 1943, Richard James was a naval engineer at a shipyard in Philadelphia. He was working on springs to keep delicate ship instruments steady at sea.
+K03|0|One day, a spring fell off a shelf. And instead of just landing, it stepped down. Coil, by coil. As if it was walking.
+K04|0|James wondered if the right spring could do that every time. So he went to work, testing different steels and different coils.
+K05|0|His wife Betty searched the dictionary for a name, and found a word that meant sleek and graceful. Slinky.
+K06|0|In November 1945, they showed it off in a Philadelphia department store. Four hundred springs, one dollar each. Sold out in ninety minutes.
+K07|0|Hundreds of millions have been sold since. And that's only number seven.
+V01|1|Number six. A walk with a dog.
+V02|1|In 1941, Swiss engineer George de Mestral came home from a walk in the mountains with his dog. Both of them were covered in burrs.||In 1941, Swiss engineer George de Mestrahl came home from a walk in the mountains with his dog. Both of them were covered in burrs.
+V03|1|Most people would just pull them off. He put one under a microscope.
+V04|1|Every burr was covered in hundreds of tiny hooks. And the hooks grabbed anything with a loop. Fur, wool, the threads of his trousers.
+V05|1|So he asked a simple question. What if one strip had hooks, and the other strip had loops?
+V06|1|It took him years. Cotton wore out too fast. Then he tried nylon, and the hooks held.
+V07|1|He named it after two French words. Velours, for velvet, and crochet, for hook. Velcro.||He named it after two French words. Vuh-loor, for velvet, and kro-shay, for hook. Velcro.
+V08|1|It's on your shoes, your jacket and your bag. All because a dog needed brushing.
+G01|2|Number five. The glue that was too sticky.
+G02|2|In 1942, during the Second World War, chemist Harry Coover was trying to make clear plastic for gun sights.
+G03|2|One family of chemicals stuck to everything it touched. Useless for gun sights. So the idea was put away.
+G04|2|Nine years later, in 1951, two chemists on his team were measuring one of those same liquids, in an expensive glass instrument.
+G05|2|And the instrument's two glass pieces glued themselves together. For good.
+G06|2|This time, Coover saw it differently. A glue that needs no heat and no pressure. Just a drop, and a few seconds.
+G07|2|The secret is water. Almost every surface has a thin film of moisture, and it makes the liquid lock into hard plastic chains.
+G08|2|It went on sale in 1958. And it still has the same old problem. It sticks to fingers.
+T01|3|Number four. The can that wasn't empty.
+T02|3|April 1938. Chemist Roy Plunkett was working with a gas for refrigerators, stored in small metal cylinders.
+T03|3|He opened the valve on one. Nothing came out. The gas seemed to be gone.
+T04|3|But the cylinder still weighed about the same. So where did the gas go?
+T05|3|He cut the cylinder open. Inside, the gas had turned into a slippery, white, waxy powder.
+T06|3|Its molecules had joined into long chains, wrapped in fluorine. And almost nothing sticks to it. Not water, not oil, not your fried egg.
+T07|3|It was patented in 1941. Today, it's the coating inside non-stick pans. All from a can that looked empty.
+S01|4|Number three. The glass that broke, but didn't shatter.
+S02|4|In 1903, French chemist Edouard Benedictus dropped a glass flask in his lab.||In 1903, French chemist Edwar Bay-nay-dik-toos dropped a glass flask in his lab.
+S03|4|It cracked all over. But the pieces stayed together, still in the shape of the flask.
+S04|4|The flask had once held a liquid plastic, called cellulose nitrate. It had dried into a thin, clear film on the inside. And that film held the glass together.
+S05|4|Cars were new back then. And in a crash, their glass broke into sharp, flying pieces.
+S06|4|So Benedictus pressed a film between two sheets of glass, and patented it in 1909.||So Bay-nay-dik-toos pressed a film between two sheets of glass, and patented it in 1909.
+S07|4|It was first used widely in the eyepieces of gas masks, in the First World War. Then in cars.
+S08|4|Today, the windscreen in front of you is made this way. When it breaks, it cracks like a spider web, and stays in one piece.
+M01|5|Number two. Back to that candy bar.
+M02|5|1945, in Massachusetts. Percy Spencer was an engineer building magnetrons, the tubes that power radar.
+M03|5|Spencer never finished school. He taught himself electronics, and became one of the best radar engineers of the war.
+M04|5|One day, standing next to a working magnetron, he felt something odd. The candy bar in his pocket had melted.
+M05|5|So the story goes, he pointed the tube at popcorn kernels, and they popped. Then at an egg. It exploded.
+M06|5|The invisible waves were shaking the water inside the food. And all that shaking made heat.
+M07|5|A patent was filed that same year. And the first microwave oven, in 1947, was almost six feet tall and weighed about seven hundred and fifty pounds.
+M08|5|It took twenty more years to shrink one small enough for a kitchen counter.
+M09|5|His colleagues remembered lots of small tests, not one magic moment. But the melted candy bar is the moment everyone remembers.
+P01|6|And number one. The dirty dish that saved millions of lives.
+P02|6|September 1928, London. Alexander Fleming came back from a summer holiday to a messy lab bench.
+P03|6|He had left out dishes of bacteria, the kind that cause nasty infections. And one dish had grown a fuzzy mould.
+P04|6|All around the mould, the bacteria were gone. A clear ring, where nothing could grow.
+P05|6|The mould was making something that killed bacteria. Fleming called it penicillin.
+P06|6|But it was hard to make, and for years, almost nobody used it.
+P07|6|Then, in 1940, a team in Oxford led by Howard Florey and Ernst Chain showed it could cure infections. By the end of the war, factories were making it in huge amounts.||Then, in 1940, a team in Oxford led by Howard Flory and Ernst Chain showed it could cure infections. By the end of the war, factories were making it in huge amounts.
+P08|6|In 1945, the three of them shared the Nobel Prize. And antibiotics have since saved many millions of lives.
+E01|6|So, the countdown. A spring that walked. Burrs on a dog. A glue that was too sticky. A can that looked empty. A flask that wouldn't shatter. A melted candy bar. And a dirty dish.
+E02|6|Nobody planned any of them. Each one just needed someone who stopped, and asked: wait... why did that happen?
+E03|6|Which accident surprised you most? Tell us in the comments.
+E04|6|And next time you warm up your food... check your pockets.

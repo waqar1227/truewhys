@@ -1,0 +1,7 @@
+# B-008 C1 (cut Short, rewritten for vertical). Frame 1: engineer already looking down at chocolate dripping from his pocket next to a glowing radar tube, "NOTHING WAS HOT?". Answer by the end; loops to the pocket.
+H1|0|This engineer's candy bar melted in his pocket... and nothing near him was hot.
+L01|0|It was 1945. Percy Spencer was building magnetrons, the glowing tubes that power radar.
+L02|0|So the story goes, he aimed one at popcorn. It popped. Then at an egg. It exploded.
+L03|0|The invisible waves were shaking the water inside the food. And all that shaking made heat.
+L04|0|The first microwave oven, in 1947, was almost six feet tall, and weighed about seven hundred and fifty pounds.
+L05|0|So next time you warm up your food... check your pockets.

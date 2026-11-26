@@ -1,0 +1,6146 @@
+[
+ {
+  "id": "O01",
+  "chapter": 0,
+  "text": "In 1945, an engineer's candy bar melted in his pocket. Nothing near him was hot.",
+  "dur": 5.37,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "1945,",
+    "s": 0.14,
+    "e": 0.86
+   },
+   {
+    "w": "an",
+    "s": 1.42,
+    "e": 1.52
+   },
+   {
+    "w": "engineer's",
+    "s": 1.52,
+    "e": 2.06
+   },
+   {
+    "w": "candy",
+    "s": 2.06,
+    "e": 2.26
+   },
+   {
+    "w": "bar",
+    "s": 2.26,
+    "e": 2.5
+   },
+   {
+    "w": "melted",
+    "s": 2.5,
+    "e": 2.88
+   },
+   {
+    "w": "in",
+    "s": 2.88,
+    "e": 3.2
+   },
+   {
+    "w": "his",
+    "s": 3.2,
+    "e": 3.34
+   },
+   {
+    "w": "pocket.",
+    "s": 3.34,
+    "e": 3.7
+   },
+   {
+    "w": "Nothing",
+    "s": 4.32,
+    "e": 4.52
+   },
+   {
+    "w": "near",
+    "s": 4.52,
+    "e": 4.72
+   },
+   {
+    "w": "him",
+    "s": 4.72,
+    "e": 4.86
+   },
+   {
+    "w": "was",
+    "s": 4.86,
+    "e": 4.98
+   },
+   {
+    "w": "hot.",
+    "s": 4.98,
+    "e": 5.24
+   }
+  ],
+  "heard": "In 1945, an engineer's candy bar melted in his pocket. Nothing near him was hot.",
+  "match": 1.0
+ },
+ {
+  "id": "O02",
+  "chapter": 0,
+  "text": "And that sticky pocket is the reason there's a microwave in your kitchen.",
+  "dur": 3.53,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.03,
+    "e": 0.23
+   },
+   {
+    "w": "that",
+    "s": 0.23,
+    "e": 0.41
+   },
+   {
+    "w": "sticky",
+    "s": 0.41,
+    "e": 0.69
+   },
+   {
+    "w": "pocket",
+    "s": 0.69,
+    "e": 1.03
+   },
+   {
+    "w": "is",
+    "s": 1.03,
+    "e": 1.43
+   },
+   {
+    "w": "the",
+    "s": 1.43,
+    "e": 1.63
+   },
+   {
+    "w": "reason",
+    "s": 1.63,
+    "e": 1.91
+   },
+   {
+    "w": "there's",
+    "s": 1.91,
+    "e": 2.27
+   },
+   {
+    "w": "a",
+    "s": 2.27,
+    "e": 2.37
+   },
+   {
+    "w": "microwave",
+    "s": 2.37,
+    "e": 2.75
+   },
+   {
+    "w": "in",
+    "s": 2.75,
+    "e": 2.93
+   },
+   {
+    "w": "your",
+    "s": 2.93,
+    "e": 3.05
+   },
+   {
+    "w": "kitchen.",
+    "s": 3.05,
+    "e": 3.35
+   }
+  ],
+  "heard": "And that sticky pocket is the reason there's a microwave in your kitchen.",
+  "match": 1.0
+ },
+ {
+  "id": "O03",
+  "chapter": 0,
+  "text": "A toy that walks down stairs. A glue that was thrown away. A pan that nothing sticks to. And a dirty dish that saved millions of lives.",
+  "dur": 8.36,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.03,
+    "e": 0.25
+   },
+   {
+    "w": "toy",
+    "s": 0.25,
+    "e": 0.53
+   },
+   {
+    "w": "that",
+    "s": 0.53,
+    "e": 0.71
+   },
+   {
+    "w": "walks",
+    "s": 0.71,
+    "e": 0.95
+   },
+   {
+    "w": "down",
+    "s": 0.95,
+    "e": 1.15
+   },
+   {
+    "w": "stairs.",
+    "s": 1.15,
+    "e": 1.47
+   },
+   {
+    "w": "A",
+    "s": 1.95,
+    "e": 2.09
+   },
+   {
+    "w": "glue",
+    "s": 2.09,
+    "e": 2.33
+   },
+   {
+    "w": "that",
+    "s": 2.33,
+    "e": 2.61
+   },
+   {
+    "w": "was",
+    "s": 2.61,
+    "e": 2.71
+   },
+   {
+    "w": "thrown",
+    "s": 2.71,
+    "e": 2.87
+   },
+   {
+    "w": "away.",
+    "s": 2.87,
+    "e": 3.15
+   },
+   {
+    "w": "A",
+    "s": 3.57,
+    "e": 3.77
+   },
+   {
+    "w": "pan",
+    "s": 3.77,
+    "e": 4.01
+   },
+   {
+    "w": "that",
+    "s": 4.01,
+    "e": 4.21
+   },
+   {
+    "w": "nothing",
+    "s": 4.21,
+    "e": 4.51
+   },
+   {
+    "w": "sticks",
+    "s": 4.51,
+    "e": 4.79
+   },
+   {
+    "w": "to.",
+    "s": 4.79,
+    "e": 5.09
+   },
+   {
+    "w": "And",
+    "s": 5.57,
+    "e": 5.79
+   },
+   {
+    "w": "a",
+    "s": 5.79,
+    "e": 5.93
+   },
+   {
+    "w": "dirty",
+    "s": 5.93,
+    "e": 6.17
+   },
+   {
+    "w": "dish",
+    "s": 6.17,
+    "e": 6.51
+   },
+   {
+    "w": "that",
+    "s": 6.51,
+    "e": 6.91
+   },
+   {
+    "w": "saved",
+    "s": 6.91,
+    "e": 7.19
+   },
+   {
+    "w": "millions",
+    "s": 7.19,
+    "e": 7.55
+   },
+   {
+    "w": "of",
+    "s": 7.55,
+    "e": 7.81
+   },
+   {
+    "w": "lives.",
+    "s": 7.81,
+    "e": 8.15
+   }
+  ],
+  "heard": "A toy that walks down stairs. A glue that was thrown away. A pan that nothing sticks to. And a dirty dish that saved millions of lives.",
+  "match": 1.0
+ },
+ {
+  "id": "O04",
+  "chapter": 0,
+  "text": "Seven everyday things nobody meant to invent. Counting down, from the smallest accident to the one that changed the world.",
+  "dur": 6.94,
+  "words": [
+   {
+    "w": "Seven",
+    "s": 0.1,
+    "e": 0.34
+   },
+   {
+    "w": "everyday",
+    "s": 0.34,
+    "e": 0.78
+   },
+   {
+    "w": "things",
+    "s": 0.78,
+    "e": 1.28
+   },
+   {
+    "w": "nobody",
+    "s": 1.28,
+    "e": 1.68
+   },
+   {
+    "w": "meant",
+    "s": 1.68,
+    "e": 2.1
+   },
+   {
+    "w": "to",
+    "s": 2.1,
+    "e": 2.3
+   },
+   {
+    "w": "invent.",
+    "s": 2.3,
+    "e": 2.58
+   },
+   {
+    "w": "Counting",
+    "s": 3.46,
+    "e": 3.72
+   },
+   {
+    "w": "down,",
+    "s": 3.72,
+    "e": 3.94
+   },
+   {
+    "w": "from",
+    "s": 4.14,
+    "e": 4.3
+   },
+   {
+    "w": "the",
+    "s": 4.3,
+    "e": 4.44
+   },
+   {
+    "w": "smallest",
+    "s": 4.44,
+    "e": 4.74
+   },
+   {
+    "w": "accident",
+    "s": 4.74,
+    "e": 5.14
+   },
+   {
+    "w": "to",
+    "s": 5.14,
+    "e": 5.52
+   },
+   {
+    "w": "the",
+    "s": 5.52,
+    "e": 5.66
+   },
+   {
+    "w": "one",
+    "s": 5.66,
+    "e": 5.84
+   },
+   {
+    "w": "that",
+    "s": 5.84,
+    "e": 6.12
+   },
+   {
+    "w": "changed",
+    "s": 6.12,
+    "e": 6.38
+   },
+   {
+    "w": "the",
+    "s": 6.38,
+    "e": 6.56
+   },
+   {
+    "w": "world.",
+    "s": 6.56,
+    "e": 6.8
+   }
+  ],
+  "heard": "Seven everyday things nobody meant to invent. Counting down, from the smallest accident to the one that changed the world.",
+  "match": 1.0
+ },
+ {
+  "id": "K01",
+  "chapter": 0,
+  "text": "Number seven. The spring that walked.",
+  "dur": 2.05,
+  "words": [
+   {
+    "w": "Number",
+    "s": 0.14,
+    "e": 0.26
+   },
+   {
+    "w": "seven.",
+    "s": 0.26,
+    "e": 0.58
+   },
+   {
+    "w": "The",
+    "s": 1.02,
+    "e": 1.16
+   },
+   {
+    "w": "spring",
+    "s": 1.16,
+    "e": 1.42
+   },
+   {
+    "w": "that",
+    "s": 1.42,
+    "e": 1.64
+   },
+   {
+    "w": "walked.",
+    "s": 1.64,
+    "e": 1.88
+   }
+  ],
+  "heard": "Number seven. The spring that walked.",
+  "match": 1.0
+ },
+ {
+  "id": "K02",
+  "chapter": 0,
+  "text": "In 1943, Richard James was a naval engineer at a shipyard in Philadelphia. He was working on springs to keep delicate ship instruments steady at sea.",
+  "dur": 8.2,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.04,
+    "e": 0.5
+   },
+   {
+    "w": "1943,",
+    "s": 0.5,
+    "e": 0.96
+   },
+   {
+    "w": "Richard",
+    "s": 1.56,
+    "e": 1.66
+   },
+   {
+    "w": "James",
+    "s": 1.66,
+    "e": 1.94
+   },
+   {
+    "w": "was",
+    "s": 1.94,
+    "e": 2.16
+   },
+   {
+    "w": "a",
+    "s": 2.16,
+    "e": 2.32
+   },
+   {
+    "w": "naval",
+    "s": 2.32,
+    "e": 2.58
+   },
+   {
+    "w": "engineer",
+    "s": 2.58,
+    "e": 2.9
+   },
+   {
+    "w": "at",
+    "s": 2.9,
+    "e": 3.1
+   },
+   {
+    "w": "a",
+    "s": 3.1,
+    "e": 3.22
+   },
+   {
+    "w": "shipyard",
+    "s": 3.22,
+    "e": 3.54
+   },
+   {
+    "w": "in",
+    "s": 3.54,
+    "e": 3.7
+   },
+   {
+    "w": "Philadelphia.",
+    "s": 3.7,
+    "e": 4.12
+   },
+   {
+    "w": "He",
+    "s": 4.92,
+    "e": 4.98
+   },
+   {
+    "w": "was",
+    "s": 4.98,
+    "e": 5.08
+   },
+   {
+    "w": "working",
+    "s": 5.08,
+    "e": 5.32
+   },
+   {
+    "w": "on",
+    "s": 5.32,
+    "e": 5.54
+   },
+   {
+    "w": "springs",
+    "s": 5.54,
+    "e": 5.84
+   },
+   {
+    "w": "to",
+    "s": 5.84,
+    "e": 6.08
+   },
+   {
+    "w": "keep",
+    "s": 6.08,
+    "e": 6.24
+   },
+   {
+    "w": "delicate",
+    "s": 6.24,
+    "e": 6.58
+   },
+   {
+    "w": "ship",
+    "s": 6.58,
+    "e": 6.86
+   },
+   {
+    "w": "instruments",
+    "s": 6.86,
+    "e": 7.24
+   },
+   {
+    "w": "steady",
+    "s": 7.24,
+    "e": 7.56
+   },
+   {
+    "w": "at",
+    "s": 7.56,
+    "e": 7.78
+   },
+   {
+    "w": "sea.",
+    "s": 7.78,
+    "e": 8.0
+   }
+  ],
+  "heard": "In 1943, Richard James was a naval engineer at a shipyard in Philadelphia. He was working on springs to keep delicate ship instruments steady at sea.",
+  "match": 1.0
+ },
+ {
+  "id": "K03",
+  "chapter": 0,
+  "text": "One day, a spring fell off a shelf. And instead of just landing, it stepped down. Coil, by coil. As if it was walking.",
+  "dur": 8.74,
+  "words": [
+   {
+    "w": "One",
+    "s": 0.09,
+    "e": 0.21
+   },
+   {
+    "w": "day,",
+    "s": 0.21,
+    "e": 0.43
+   },
+   {
+    "w": "a",
+    "s": 0.77,
+    "e": 0.95
+   },
+   {
+    "w": "spring",
+    "s": 0.95,
+    "e": 1.15
+   },
+   {
+    "w": "fell",
+    "s": 1.15,
+    "e": 1.35
+   },
+   {
+    "w": "off",
+    "s": 1.35,
+    "e": 1.51
+   },
+   {
+    "w": "a",
+    "s": 1.51,
+    "e": 1.65
+   },
+   {
+    "w": "shelf.",
+    "s": 1.65,
+    "e": 1.83
+   },
+   {
+    "w": "And",
+    "s": 2.65,
+    "e": 2.71
+   },
+   {
+    "w": "instead",
+    "s": 2.71,
+    "e": 2.95
+   },
+   {
+    "w": "of",
+    "s": 2.95,
+    "e": 3.09
+   },
+   {
+    "w": "just",
+    "s": 3.09,
+    "e": 3.29
+   },
+   {
+    "w": "landing,",
+    "s": 3.29,
+    "e": 3.85
+   },
+   {
+    "w": "it",
+    "s": 4.41,
+    "e": 4.63
+   },
+   {
+    "w": "stepped",
+    "s": 4.63,
+    "e": 4.89
+   },
+   {
+    "w": "down.",
+    "s": 4.89,
+    "e": 5.39
+   },
+   {
+    "w": "Coil,",
+    "s": 6.29,
+    "e": 6.29
+   },
+   {
+    "w": "by",
+    "s": 6.57,
+    "e": 6.75
+   },
+   {
+    "w": "coil.",
+    "s": 6.75,
+    "e": 7.05
+   },
+   {
+    "w": "As",
+    "s": 7.69,
+    "e": 7.83
+   },
+   {
+    "w": "if",
+    "s": 7.83,
+    "e": 7.97
+   },
+   {
+    "w": "it",
+    "s": 7.97,
+    "e": 8.07
+   },
+   {
+    "w": "was",
+    "s": 8.07,
+    "e": 8.21
+   },
+   {
+    "w": "walking.",
+    "s": 8.21,
+    "e": 8.57
+   }
+  ],
+  "heard": "One day, a spring fell off a shelf. And instead of just landing, it stepped down. Coil, by coil. As if it was walking.",
+  "match": 1.0
+ },
+ {
+  "id": "K04",
+  "chapter": 0,
+  "text": "James wondered if the right spring could do that every time. So he went to work, testing different steels and different coils.",
+  "dur": 6.3,
+  "words": [
+   {
+    "w": "James",
+    "s": 0.13,
+    "e": 0.27
+   },
+   {
+    "w": "wondered",
+    "s": 0.27,
+    "e": 0.55
+   },
+   {
+    "w": "if",
+    "s": 0.55,
+    "e": 0.75
+   },
+   {
+    "w": "the",
+    "s": 0.75,
+    "e": 0.95
+   },
+   {
+    "w": "right",
+    "s": 0.95,
+    "e": 1.11
+   },
+   {
+    "w": "spring",
+    "s": 1.11,
+    "e": 1.41
+   },
+   {
+    "w": "could",
+    "s": 1.41,
+    "e": 1.61
+   },
+   {
+    "w": "do",
+    "s": 1.61,
+    "e": 1.75
+   },
+   {
+    "w": "that",
+    "s": 1.75,
+    "e": 1.91
+   },
+   {
+    "w": "every",
+    "s": 1.91,
+    "e": 2.15
+   },
+   {
+    "w": "time.",
+    "s": 2.15,
+    "e": 2.47
+   },
+   {
+    "w": "So",
+    "s": 3.03,
+    "e": 3.29
+   },
+   {
+    "w": "he",
+    "s": 3.29,
+    "e": 3.45
+   },
+   {
+    "w": "went",
+    "s": 3.45,
+    "e": 3.59
+   },
+   {
+    "w": "to",
+    "s": 3.59,
+    "e": 3.69
+   },
+   {
+    "w": "work,",
+    "s": 3.69,
+    "e": 3.87
+   },
+   {
+    "w": "testing",
+    "s": 4.31,
+    "e": 4.57
+   },
+   {
+    "w": "different",
+    "s": 4.57,
+    "e": 4.91
+   },
+   {
+    "w": "steels",
+    "s": 4.91,
+    "e": 5.35
+   },
+   {
+    "w": "and",
+    "s": 5.35,
+    "e": 5.53
+   },
+   {
+    "w": "different",
+    "s": 5.53,
+    "e": 5.75
+   },
+   {
+    "w": "coils.",
+    "s": 5.75,
+    "e": 6.03
+   }
+  ],
+  "heard": "James wondered if the right spring could do that every time. So he went to work, testing different steels and different coils.",
+  "match": 1.0
+ },
+ {
+  "id": "K05",
+  "chapter": 0,
+  "text": "His wife Betty searched the dictionary for a name, and found a word that meant sleek and graceful. Slinky.",
+  "dur": 6.9,
+  "words": [
+   {
+    "w": "His",
+    "s": 0.05,
+    "e": 0.17
+   },
+   {
+    "w": "wife",
+    "s": 0.17,
+    "e": 0.39
+   },
+   {
+    "w": "Betty",
+    "s": 0.39,
+    "e": 0.73
+   },
+   {
+    "w": "searched",
+    "s": 0.73,
+    "e": 1.03
+   },
+   {
+    "w": "the",
+    "s": 1.03,
+    "e": 1.25
+   },
+   {
+    "w": "dictionary",
+    "s": 1.25,
+    "e": 1.59
+   },
+   {
+    "w": "for",
+    "s": 1.59,
+    "e": 1.93
+   },
+   {
+    "w": "a",
+    "s": 1.93,
+    "e": 2.07
+   },
+   {
+    "w": "name,",
+    "s": 2.07,
+    "e": 2.29
+   },
+   {
+    "w": "and",
+    "s": 2.29,
+    "e": 2.89
+   },
+   {
+    "w": "found",
+    "s": 2.89,
+    "e": 3.19
+   },
+   {
+    "w": "a",
+    "s": 3.19,
+    "e": 3.41
+   },
+   {
+    "w": "word",
+    "s": 3.41,
+    "e": 3.65
+   },
+   {
+    "w": "that",
+    "s": 3.65,
+    "e": 3.93
+   },
+   {
+    "w": "meant",
+    "s": 3.93,
+    "e": 4.15
+   },
+   {
+    "w": "sleek",
+    "s": 4.15,
+    "e": 4.61
+   },
+   {
+    "w": "and",
+    "s": 4.61,
+    "e": 5.03
+   },
+   {
+    "w": "graceful.",
+    "s": 5.03,
+    "e": 5.53
+   },
+   {
+    "w": "Slinky.",
+    "s": 6.45,
+    "e": 6.63
+   }
+  ],
+  "heard": "His wife Betty searched the dictionary for a name and found a word that meant sleek and graceful. Slinky.",
+  "match": 1.0
+ },
+ {
+  "id": "K06",
+  "chapter": 0,
+  "text": "In November 1945, they showed it off in a Philadelphia department store. Four hundred springs, one dollar each. Sold out in ninety minutes.",
+  "dur": 9.68,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.03,
+    "e": 0.19
+   },
+   {
+    "w": "November",
+    "s": 0.19,
+    "e": 0.51
+   },
+   {
+    "w": "1945,",
+    "s": 0.51,
+    "e": 1.45
+   },
+   {
+    "w": "they",
+    "s": 2.05,
+    "e": 2.25
+   },
+   {
+    "w": "showed",
+    "s": 2.25,
+    "e": 2.49
+   },
+   {
+    "w": "it",
+    "s": 2.49,
+    "e": 2.61
+   },
+   {
+    "w": "off",
+    "s": 2.61,
+    "e": 2.79
+   },
+   {
+    "w": "in",
+    "s": 2.79,
+    "e": 2.95
+   },
+   {
+    "w": "a",
+    "s": 2.95,
+    "e": 3.07
+   },
+   {
+    "w": "Philadelphia",
+    "s": 3.07,
+    "e": 3.55
+   },
+   {
+    "w": "department",
+    "s": 3.55,
+    "e": 4.03
+   },
+   {
+    "w": "store.",
+    "s": 4.03,
+    "e": 4.47
+   },
+   {
+    "w": "Four",
+    "s": 4.47,
+    "e": 4.863
+   },
+   {
+    "w": "hundred",
+    "s": 4.863,
+    "e": 5.55
+   },
+   {
+    "w": "springs,",
+    "s": 5.55,
+    "e": 6.15
+   },
+   {
+    "w": "one",
+    "s": 6.59,
+    "e": 6.75
+   },
+   {
+    "w": "dollar",
+    "s": 6.75,
+    "e": 7.03
+   },
+   {
+    "w": "each.",
+    "s": 7.03,
+    "e": 7.41
+   },
+   {
+    "w": "Sold",
+    "s": 7.71,
+    "e": 8.11
+   },
+   {
+    "w": "out",
+    "s": 8.11,
+    "e": 8.39
+   },
+   {
+    "w": "in",
+    "s": 8.39,
+    "e": 8.61
+   },
+   {
+    "w": "ninety",
+    "s": 8.61,
+    "e": 8.99
+   },
+   {
+    "w": "minutes.",
+    "s": 8.99,
+    "e": 9.49
+   }
+  ],
+  "heard": "In November 1945, they showed it off in a Philadelphia department store. 400 springs, one dollar each, sold out in 90 minutes.",
+  "match": 0.889
+ },
+ {
+  "id": "K07",
+  "chapter": 0,
+  "text": "Hundreds of millions have been sold since. And that's only number seven.",
+  "dur": 4.14,
+  "words": [
+   {
+    "w": "Hundreds",
+    "s": 0.08,
+    "e": 0.46
+   },
+   {
+    "w": "of",
+    "s": 0.46,
+    "e": 0.72
+   },
+   {
+    "w": "millions",
+    "s": 0.72,
+    "e": 1.0
+   },
+   {
+    "w": "have",
+    "s": 1.0,
+    "e": 1.24
+   },
+   {
+    "w": "been",
+    "s": 1.24,
+    "e": 1.4
+   },
+   {
+    "w": "sold",
+    "s": 1.4,
+    "e": 1.62
+   },
+   {
+    "w": "since.",
+    "s": 1.62,
+    "e": 2.0
+   },
+   {
+    "w": "And",
+    "s": 2.64,
+    "e": 2.7
+   },
+   {
+    "w": "that's",
+    "s": 2.7,
+    "e": 3.04
+   },
+   {
+    "w": "only",
+    "s": 3.04,
+    "e": 3.38
+   },
+   {
+    "w": "number",
+    "s": 3.38,
+    "e": 3.6
+   },
+   {
+    "w": "seven.",
+    "s": 3.6,
+    "e": 3.96
+   }
+  ],
+  "heard": "Hundreds of millions have been sold since. And that's only number seven.",
+  "match": 1.0
+ },
+ {
+  "id": "V01",
+  "chapter": 1,
+  "text": "Number six. A walk with a dog.",
+  "dur": 2.44,
+  "words": [
+   {
+    "w": "Number",
+    "s": 0.0,
+    "e": 0.24
+   },
+   {
+    "w": "six.",
+    "s": 0.24,
+    "e": 0.6
+   },
+   {
+    "w": "A",
+    "s": 1.24,
+    "e": 1.26
+   },
+   {
+    "w": "walk",
+    "s": 1.26,
+    "e": 1.48
+   },
+   {
+    "w": "with",
+    "s": 1.48,
+    "e": 1.88
+   },
+   {
+    "w": "a",
+    "s": 1.88,
+    "e": 2.02
+   },
+   {
+    "w": "dog.",
+    "s": 2.02,
+    "e": 2.28
+   }
+  ],
+  "heard": "Number six. A walk with a dog.",
+  "match": 1.0
+ },
+ {
+  "id": "V02",
+  "chapter": 1,
+  "text": "In 1941, Swiss engineer George de Mestral came home from a walk in the mountains with his dog. Both of them were covered in burrs.",
+  "dur": 7.42,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.14,
+    "e": 0.24
+   },
+   {
+    "w": "1941,",
+    "s": 0.24,
+    "e": 0.96
+   },
+   {
+    "w": "Swiss",
+    "s": 1.36,
+    "e": 1.48
+   },
+   {
+    "w": "engineer",
+    "s": 1.48,
+    "e": 1.88
+   },
+   {
+    "w": "George",
+    "s": 1.88,
+    "e": 2.26
+   },
+   {
+    "w": "de",
+    "s": 2.26,
+    "e": 2.44
+   },
+   {
+    "w": "Mestral",
+    "s": 2.44,
+    "e": 2.78
+   },
+   {
+    "w": "came",
+    "s": 2.78,
+    "e": 3.02
+   },
+   {
+    "w": "home",
+    "s": 3.02,
+    "e": 3.24
+   },
+   {
+    "w": "from",
+    "s": 3.24,
+    "e": 3.46
+   },
+   {
+    "w": "a",
+    "s": 3.46,
+    "e": 3.6
+   },
+   {
+    "w": "walk",
+    "s": 3.6,
+    "e": 3.78
+   },
+   {
+    "w": "in",
+    "s": 3.78,
+    "e": 3.92
+   },
+   {
+    "w": "the",
+    "s": 3.92,
+    "e": 4.0
+   },
+   {
+    "w": "mountains",
+    "s": 4.0,
+    "e": 4.26
+   },
+   {
+    "w": "with",
+    "s": 4.26,
+    "e": 4.48
+   },
+   {
+    "w": "his",
+    "s": 4.48,
+    "e": 4.6
+   },
+   {
+    "w": "dog.",
+    "s": 4.6,
+    "e": 4.88
+   },
+   {
+    "w": "Both",
+    "s": 5.4,
+    "e": 5.58
+   },
+   {
+    "w": "of",
+    "s": 5.58,
+    "e": 5.74
+   },
+   {
+    "w": "them",
+    "s": 5.74,
+    "e": 5.88
+   },
+   {
+    "w": "were",
+    "s": 5.88,
+    "e": 6.18
+   },
+   {
+    "w": "covered",
+    "s": 6.18,
+    "e": 6.5
+   },
+   {
+    "w": "in",
+    "s": 6.5,
+    "e": 6.9
+   },
+   {
+    "w": "burrs.",
+    "s": 6.9,
+    "e": 7.28
+   }
+  ],
+  "heard": "In 1941, Swiss engineer George de Mestral came home from a walk in the mountains with his dog. Both of them were covered in burrs.",
+  "match": 1.0
+ },
+ {
+  "id": "V03",
+  "chapter": 1,
+  "text": "Most people would just pull them off. He put one under a microscope.",
+  "dur": 3.15,
+  "words": [
+   {
+    "w": "Most",
+    "s": 0.05,
+    "e": 0.23
+   },
+   {
+    "w": "people",
+    "s": 0.23,
+    "e": 0.41
+   },
+   {
+    "w": "would",
+    "s": 0.41,
+    "e": 0.57
+   },
+   {
+    "w": "just",
+    "s": 0.57,
+    "e": 0.73
+   },
+   {
+    "w": "pull",
+    "s": 0.73,
+    "e": 0.91
+   },
+   {
+    "w": "them",
+    "s": 0.91,
+    "e": 1.01
+   },
+   {
+    "w": "off.",
+    "s": 1.01,
+    "e": 1.25
+   },
+   {
+    "w": "He",
+    "s": 1.65,
+    "e": 1.85
+   },
+   {
+    "w": "put",
+    "s": 1.85,
+    "e": 2.09
+   },
+   {
+    "w": "one",
+    "s": 2.09,
+    "e": 2.23
+   },
+   {
+    "w": "under",
+    "s": 2.23,
+    "e": 2.41
+   },
+   {
+    "w": "a",
+    "s": 2.41,
+    "e": 2.53
+   },
+   {
+    "w": "microscope.",
+    "s": 2.53,
+    "e": 2.93
+   }
+  ],
+  "heard": "Most people would just pull them off. He put one under a microscope.",
+  "match": 1.0
+ },
+ {
+  "id": "V04",
+  "chapter": 1,
+  "text": "Every burr was covered in hundreds of tiny hooks. And the hooks grabbed anything with a loop. Fur, wool, the threads of his trousers.",
+  "dur": 7.78,
+  "words": [
+   {
+    "w": "Every",
+    "s": 0.06,
+    "e": 0.36
+   },
+   {
+    "w": "burr",
+    "s": 0.36,
+    "e": 0.68
+   },
+   {
+    "w": "was",
+    "s": 0.68,
+    "e": 0.84
+   },
+   {
+    "w": "covered",
+    "s": 0.84,
+    "e": 1.06
+   },
+   {
+    "w": "in",
+    "s": 1.06,
+    "e": 1.32
+   },
+   {
+    "w": "hundreds",
+    "s": 1.32,
+    "e": 1.74
+   },
+   {
+    "w": "of",
+    "s": 1.74,
+    "e": 2.02
+   },
+   {
+    "w": "tiny",
+    "s": 2.02,
+    "e": 2.48
+   },
+   {
+    "w": "hooks.",
+    "s": 2.48,
+    "e": 2.86
+   },
+   {
+    "w": "And",
+    "s": 3.26,
+    "e": 3.44
+   },
+   {
+    "w": "the",
+    "s": 3.44,
+    "e": 3.56
+   },
+   {
+    "w": "hooks",
+    "s": 3.56,
+    "e": 3.78
+   },
+   {
+    "w": "grabbed",
+    "s": 3.78,
+    "e": 4.12
+   },
+   {
+    "w": "anything",
+    "s": 4.12,
+    "e": 4.52
+   },
+   {
+    "w": "with",
+    "s": 4.52,
+    "e": 4.76
+   },
+   {
+    "w": "a",
+    "s": 4.76,
+    "e": 4.86
+   },
+   {
+    "w": "loop.",
+    "s": 4.86,
+    "e": 5.06
+   },
+   {
+    "w": "Fur,",
+    "s": 5.76,
+    "e": 5.82
+   },
+   {
+    "w": "wool,",
+    "s": 6.24,
+    "e": 6.3
+   },
+   {
+    "w": "the",
+    "s": 6.56,
+    "e": 6.66
+   },
+   {
+    "w": "threads",
+    "s": 6.66,
+    "e": 6.94
+   },
+   {
+    "w": "of",
+    "s": 6.94,
+    "e": 7.06
+   },
+   {
+    "w": "his",
+    "s": 7.06,
+    "e": 7.16
+   },
+   {
+    "w": "trousers.",
+    "s": 7.16,
+    "e": 7.4
+   }
+  ],
+  "heard": "Every burr was covered in hundreds of tiny hooks. And the hooks grabbed anything with a loop. Fur, wool, the threads of his trousers.",
+  "match": 1.0
+ },
+ {
+  "id": "V05",
+  "chapter": 1,
+  "text": "So he asked a simple question. What if one strip had hooks, and the other strip had loops?",
+  "dur": 5.44,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.03,
+    "e": 0.29
+   },
+   {
+    "w": "he",
+    "s": 0.29,
+    "e": 0.39
+   },
+   {
+    "w": "asked",
+    "s": 0.39,
+    "e": 0.61
+   },
+   {
+    "w": "a",
+    "s": 0.61,
+    "e": 0.85
+   },
+   {
+    "w": "simple",
+    "s": 0.85,
+    "e": 1.19
+   },
+   {
+    "w": "question.",
+    "s": 1.19,
+    "e": 1.63
+   },
+   {
+    "w": "What",
+    "s": 2.37,
+    "e": 2.49
+   },
+   {
+    "w": "if",
+    "s": 2.49,
+    "e": 2.61
+   },
+   {
+    "w": "one",
+    "s": 2.61,
+    "e": 2.85
+   },
+   {
+    "w": "strip",
+    "s": 2.85,
+    "e": 3.07
+   },
+   {
+    "w": "had",
+    "s": 3.07,
+    "e": 3.25
+   },
+   {
+    "w": "hooks,",
+    "s": 3.25,
+    "e": 3.55
+   },
+   {
+    "w": "and",
+    "s": 3.79,
+    "e": 3.97
+   },
+   {
+    "w": "the",
+    "s": 3.97,
+    "e": 4.05
+   },
+   {
+    "w": "other",
+    "s": 4.05,
+    "e": 4.19
+   },
+   {
+    "w": "strip",
+    "s": 4.19,
+    "e": 4.45
+   },
+   {
+    "w": "had",
+    "s": 4.45,
+    "e": 4.81
+   },
+   {
+    "w": "loops?",
+    "s": 4.81,
+    "e": 5.07
+   }
+  ],
+  "heard": "So he asked a simple question. What if one strip had hooks, and the other strip had loops?",
+  "match": 1.0
+ },
+ {
+  "id": "V06",
+  "chapter": 1,
+  "text": "It took him years. Cotton wore out too fast. Then he tried nylon, and the hooks held.",
+  "dur": 6.37,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.03,
+    "e": 0.51
+   },
+   {
+    "w": "took",
+    "s": 0.51,
+    "e": 0.85
+   },
+   {
+    "w": "him",
+    "s": 0.85,
+    "e": 1.03
+   },
+   {
+    "w": "years.",
+    "s": 1.03,
+    "e": 1.37
+   },
+   {
+    "w": "Cotton",
+    "s": 2.29,
+    "e": 2.29
+   },
+   {
+    "w": "wore",
+    "s": 2.29,
+    "e": 2.57
+   },
+   {
+    "w": "out",
+    "s": 2.57,
+    "e": 2.75
+   },
+   {
+    "w": "too",
+    "s": 2.75,
+    "e": 2.89
+   },
+   {
+    "w": "fast.",
+    "s": 2.89,
+    "e": 3.23
+   },
+   {
+    "w": "Then",
+    "s": 3.79,
+    "e": 4.01
+   },
+   {
+    "w": "he",
+    "s": 4.01,
+    "e": 4.21
+   },
+   {
+    "w": "tried",
+    "s": 4.21,
+    "e": 4.41
+   },
+   {
+    "w": "nylon,",
+    "s": 4.41,
+    "e": 4.71
+   },
+   {
+    "w": "and",
+    "s": 5.21,
+    "e": 5.47
+   },
+   {
+    "w": "the",
+    "s": 5.47,
+    "e": 5.61
+   },
+   {
+    "w": "hooks",
+    "s": 5.61,
+    "e": 5.77
+   },
+   {
+    "w": "held.",
+    "s": 5.77,
+    "e": 6.07
+   }
+  ],
+  "heard": "It took him years. Cotton wore out too fast. Then he tried nylon, and the hooks held.",
+  "match": 1.0
+ },
+ {
+  "id": "V07",
+  "chapter": 1,
+  "text": "He named it after two French words. Velours, for velvet, and crochet, for hook. Velcro.",
+  "dur": 5.67,
+  "words": [
+   {
+    "w": "He",
+    "s": 0.04,
+    "e": 0.24
+   },
+   {
+    "w": "named",
+    "s": 0.24,
+    "e": 0.4
+   },
+   {
+    "w": "it",
+    "s": 0.4,
+    "e": 0.52
+   },
+   {
+    "w": "after",
+    "s": 0.52,
+    "e": 0.68
+   },
+   {
+    "w": "two",
+    "s": 0.68,
+    "e": 0.92
+   },
+   {
+    "w": "French",
+    "s": 0.92,
+    "e": 1.2
+   },
+   {
+    "w": "words.",
+    "s": 1.2,
+    "e": 1.56
+   },
+   {
+    "w": "Velours,",
+    "s": 1.56,
+    "e": 2.6
+   },
+   {
+    "w": "for",
+    "s": 2.6,
+    "e": 2.68
+   },
+   {
+    "w": "velvet,",
+    "s": 2.68,
+    "e": 2.92
+   },
+   {
+    "w": "and",
+    "s": 3.3,
+    "e": 3.42
+   },
+   {
+    "w": "crochet,",
+    "s": 3.42,
+    "e": 3.68
+   },
+   {
+    "w": "for",
+    "s": 4.0,
+    "e": 4.22
+   },
+   {
+    "w": "hook.",
+    "s": 4.22,
+    "e": 4.42
+   },
+   {
+    "w": "Velcro.",
+    "s": 5.24,
+    "e": 5.44
+   }
+  ],
+  "heard": "He named it after two French words. Velour, for velvet, and crochet, for hook. Velcro.",
+  "match": 0.933
+ },
+ {
+  "id": "V08",
+  "chapter": 1,
+  "text": "It's on your shoes, your jacket and your bag. All because a dog needed brushing.",
+  "dur": 4.17,
+  "words": [
+   {
+    "w": "It's",
+    "s": 0.03,
+    "e": 0.21
+   },
+   {
+    "w": "on",
+    "s": 0.21,
+    "e": 0.29
+   },
+   {
+    "w": "your",
+    "s": 0.29,
+    "e": 0.45
+   },
+   {
+    "w": "shoes,",
+    "s": 0.45,
+    "e": 0.75
+   },
+   {
+    "w": "your",
+    "s": 1.03,
+    "e": 1.05
+   },
+   {
+    "w": "jacket",
+    "s": 1.05,
+    "e": 1.31
+   },
+   {
+    "w": "and",
+    "s": 1.51,
+    "e": 1.59
+   },
+   {
+    "w": "your",
+    "s": 1.59,
+    "e": 1.69
+   },
+   {
+    "w": "bag.",
+    "s": 1.69,
+    "e": 1.93
+   },
+   {
+    "w": "All",
+    "s": 2.57,
+    "e": 2.79
+   },
+   {
+    "w": "because",
+    "s": 2.79,
+    "e": 3.03
+   },
+   {
+    "w": "a",
+    "s": 3.03,
+    "e": 3.17
+   },
+   {
+    "w": "dog",
+    "s": 3.17,
+    "e": 3.41
+   },
+   {
+    "w": "needed",
+    "s": 3.41,
+    "e": 3.65
+   },
+   {
+    "w": "brushing.",
+    "s": 3.65,
+    "e": 3.99
+   }
+  ],
+  "heard": "It's on your shoes, your jacket, and your bag. All because a dog needed brushing.",
+  "match": 1.0
+ },
+ {
+  "id": "G01",
+  "chapter": 2,
+  "text": "Number five. The glue that was too sticky.",
+  "dur": 3.52,
+  "words": [
+   {
+    "w": "Number",
+    "s": 0.0,
+    "e": 0.26
+   },
+   {
+    "w": "five.",
+    "s": 0.26,
+    "e": 0.6
+   },
+   {
+    "w": "The",
+    "s": 1.46,
+    "e": 1.6
+   },
+   {
+    "w": "glue",
+    "s": 1.6,
+    "e": 1.86
+   },
+   {
+    "w": "that",
+    "s": 1.86,
+    "e": 2.16
+   },
+   {
+    "w": "was",
+    "s": 2.16,
+    "e": 2.46
+   },
+   {
+    "w": "too",
+    "s": 2.46,
+    "e": 2.86
+   },
+   {
+    "w": "sticky.",
+    "s": 2.86,
+    "e": 3.3
+   }
+  ],
+  "heard": "Number five. The glue that was too sticky.",
+  "match": 1.0
+ },
+ {
+  "id": "G02",
+  "chapter": 2,
+  "text": "In 1942, during the Second World War, chemist Harry Coover was trying to make clear plastic for gun sights.",
+  "dur": 6.21,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.35,
+    "e": 0.49
+   },
+   {
+    "w": "1942,",
+    "s": 0.49,
+    "e": 1.07
+   },
+   {
+    "w": "during",
+    "s": 1.41,
+    "e": 1.63
+   },
+   {
+    "w": "the",
+    "s": 1.63,
+    "e": 1.77
+   },
+   {
+    "w": "Second",
+    "s": 1.77,
+    "e": 1.95
+   },
+   {
+    "w": "World",
+    "s": 1.95,
+    "e": 2.19
+   },
+   {
+    "w": "War,",
+    "s": 2.19,
+    "e": 2.47
+   },
+   {
+    "w": "chemist",
+    "s": 2.91,
+    "e": 3.03
+   },
+   {
+    "w": "Harry",
+    "s": 3.03,
+    "e": 3.41
+   },
+   {
+    "w": "Coover",
+    "s": 3.41,
+    "e": 3.81
+   },
+   {
+    "w": "was",
+    "s": 3.81,
+    "e": 4.09
+   },
+   {
+    "w": "trying",
+    "s": 4.09,
+    "e": 4.31
+   },
+   {
+    "w": "to",
+    "s": 4.31,
+    "e": 4.41
+   },
+   {
+    "w": "make",
+    "s": 4.41,
+    "e": 4.55
+   },
+   {
+    "w": "clear",
+    "s": 4.55,
+    "e": 4.87
+   },
+   {
+    "w": "plastic",
+    "s": 4.87,
+    "e": 5.31
+   },
+   {
+    "w": "for",
+    "s": 5.31,
+    "e": 5.55
+   },
+   {
+    "w": "gun",
+    "s": 5.55,
+    "e": 5.71
+   },
+   {
+    "w": "sights.",
+    "s": 5.71,
+    "e": 5.93
+   }
+  ],
+  "heard": "In 1942, during the Second World War, chemist Harry Coover was trying to make clear plastic for gun sights.",
+  "match": 1.0
+ },
+ {
+  "id": "G03",
+  "chapter": 2,
+  "text": "One family of chemicals stuck to everything it touched. Useless for gun sights. So the idea was put away.",
+  "dur": 6.32,
+  "words": [
+   {
+    "w": "One",
+    "s": 0.03,
+    "e": 0.29
+   },
+   {
+    "w": "family",
+    "s": 0.29,
+    "e": 0.59
+   },
+   {
+    "w": "of",
+    "s": 0.59,
+    "e": 0.77
+   },
+   {
+    "w": "chemicals",
+    "s": 0.77,
+    "e": 1.15
+   },
+   {
+    "w": "stuck",
+    "s": 1.15,
+    "e": 1.59
+   },
+   {
+    "w": "to",
+    "s": 1.59,
+    "e": 1.81
+   },
+   {
+    "w": "everything",
+    "s": 1.81,
+    "e": 2.27
+   },
+   {
+    "w": "it",
+    "s": 2.27,
+    "e": 2.47
+   },
+   {
+    "w": "touched.",
+    "s": 2.47,
+    "e": 2.79
+   },
+   {
+    "w": "Useless",
+    "s": 3.57,
+    "e": 3.85
+   },
+   {
+    "w": "for",
+    "s": 3.85,
+    "e": 4.07
+   },
+   {
+    "w": "gun",
+    "s": 4.07,
+    "e": 4.25
+   },
+   {
+    "w": "sights.",
+    "s": 4.25,
+    "e": 4.51
+   },
+   {
+    "w": "So",
+    "s": 5.09,
+    "e": 5.13
+   },
+   {
+    "w": "the",
+    "s": 5.13,
+    "e": 5.39
+   },
+   {
+    "w": "idea",
+    "s": 5.39,
+    "e": 5.63
+   },
+   {
+    "w": "was",
+    "s": 5.63,
+    "e": 5.79
+   },
+   {
+    "w": "put",
+    "s": 5.79,
+    "e": 5.93
+   },
+   {
+    "w": "away.",
+    "s": 5.93,
+    "e": 6.17
+   }
+  ],
+  "heard": "One family of chemicals stuck to everything it touched. Useless for gun sights. So the idea was put away.",
+  "match": 1.0
+ },
+ {
+  "id": "G04",
+  "chapter": 2,
+  "text": "Nine years later, in 1951, two chemists on his team were measuring one of those same liquids, in an expensive glass instrument.",
+  "dur": 7.92,
+  "words": [
+   {
+    "w": "Nine",
+    "s": 0.05,
+    "e": 0.39
+   },
+   {
+    "w": "years",
+    "s": 0.39,
+    "e": 0.59
+   },
+   {
+    "w": "later,",
+    "s": 0.59,
+    "e": 0.99
+   },
+   {
+    "w": "in",
+    "s": 1.27,
+    "e": 1.39
+   },
+   {
+    "w": "1951,",
+    "s": 1.39,
+    "e": 2.07
+   },
+   {
+    "w": "two",
+    "s": 2.79,
+    "e": 2.91
+   },
+   {
+    "w": "chemists",
+    "s": 2.91,
+    "e": 3.21
+   },
+   {
+    "w": "on",
+    "s": 3.21,
+    "e": 3.37
+   },
+   {
+    "w": "his",
+    "s": 3.37,
+    "e": 3.55
+   },
+   {
+    "w": "team",
+    "s": 3.55,
+    "e": 3.83
+   },
+   {
+    "w": "were",
+    "s": 3.83,
+    "e": 4.13
+   },
+   {
+    "w": "measuring",
+    "s": 4.13,
+    "e": 4.39
+   },
+   {
+    "w": "one",
+    "s": 4.39,
+    "e": 4.65
+   },
+   {
+    "w": "of",
+    "s": 4.65,
+    "e": 4.75
+   },
+   {
+    "w": "those",
+    "s": 4.75,
+    "e": 4.87
+   },
+   {
+    "w": "same",
+    "s": 4.87,
+    "e": 5.25
+   },
+   {
+    "w": "liquids,",
+    "s": 5.25,
+    "e": 5.65
+   },
+   {
+    "w": "in",
+    "s": 5.93,
+    "e": 6.15
+   },
+   {
+    "w": "an",
+    "s": 6.15,
+    "e": 6.27
+   },
+   {
+    "w": "expensive",
+    "s": 6.27,
+    "e": 6.81
+   },
+   {
+    "w": "glass",
+    "s": 6.81,
+    "e": 7.21
+   },
+   {
+    "w": "instrument.",
+    "s": 7.21,
+    "e": 7.67
+   }
+  ],
+  "heard": "Nine years later, in 1951, two chemists on his team were measuring one of those same liquids, in an expensive glass instrument.",
+  "match": 1.0
+ },
+ {
+  "id": "G05",
+  "chapter": 2,
+  "text": "And the instrument's two glass pieces glued themselves together. For good.",
+  "dur": 4.69,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.03,
+    "e": 0.19
+   },
+   {
+    "w": "the",
+    "s": 0.19,
+    "e": 0.27
+   },
+   {
+    "w": "instrument's",
+    "s": 0.27,
+    "e": 0.71
+   },
+   {
+    "w": "two",
+    "s": 0.71,
+    "e": 0.85
+   },
+   {
+    "w": "glass",
+    "s": 0.85,
+    "e": 1.09
+   },
+   {
+    "w": "pieces",
+    "s": 1.09,
+    "e": 1.53
+   },
+   {
+    "w": "glued",
+    "s": 1.53,
+    "e": 2.41
+   },
+   {
+    "w": "themselves",
+    "s": 2.41,
+    "e": 2.79
+   },
+   {
+    "w": "together.",
+    "s": 2.79,
+    "e": 3.17
+   },
+   {
+    "w": "For",
+    "s": 4.05,
+    "e": 4.25
+   },
+   {
+    "w": "good.",
+    "s": 4.25,
+    "e": 4.45
+   }
+  ],
+  "heard": "And the instrument's two glass pieces glued themselves together. For good.",
+  "match": 1.0
+ },
+ {
+  "id": "G06",
+  "chapter": 2,
+  "text": "This time, Coover saw it differently. A glue that needs no heat and no pressure. Just a drop, and a few seconds.",
+  "dur": 7.28,
+  "words": [
+   {
+    "w": "This",
+    "s": 0.04,
+    "e": 0.22
+   },
+   {
+    "w": "time,",
+    "s": 0.22,
+    "e": 0.5
+   },
+   {
+    "w": "Coover",
+    "s": 0.88,
+    "e": 0.98
+   },
+   {
+    "w": "saw",
+    "s": 0.98,
+    "e": 1.18
+   },
+   {
+    "w": "it",
+    "s": 1.18,
+    "e": 1.3
+   },
+   {
+    "w": "differently.",
+    "s": 1.3,
+    "e": 1.56
+   },
+   {
+    "w": "A",
+    "s": 2.36,
+    "e": 2.56
+   },
+   {
+    "w": "glue",
+    "s": 2.56,
+    "e": 2.78
+   },
+   {
+    "w": "that",
+    "s": 2.78,
+    "e": 3.02
+   },
+   {
+    "w": "needs",
+    "s": 3.02,
+    "e": 3.22
+   },
+   {
+    "w": "no",
+    "s": 3.22,
+    "e": 3.56
+   },
+   {
+    "w": "heat",
+    "s": 3.56,
+    "e": 3.84
+   },
+   {
+    "w": "and",
+    "s": 3.84,
+    "e": 4.36
+   },
+   {
+    "w": "no",
+    "s": 4.36,
+    "e": 4.62
+   },
+   {
+    "w": "pressure.",
+    "s": 4.62,
+    "e": 4.94
+   },
+   {
+    "w": "Just",
+    "s": 5.54,
+    "e": 5.62
+   },
+   {
+    "w": "a",
+    "s": 5.62,
+    "e": 5.76
+   },
+   {
+    "w": "drop,",
+    "s": 5.76,
+    "e": 5.98
+   },
+   {
+    "w": "and",
+    "s": 6.44,
+    "e": 6.52
+   },
+   {
+    "w": "a",
+    "s": 6.52,
+    "e": 6.6
+   },
+   {
+    "w": "few",
+    "s": 6.6,
+    "e": 6.72
+   },
+   {
+    "w": "seconds.",
+    "s": 6.72,
+    "e": 6.92
+   }
+  ],
+  "heard": "This time, Coover saw it differently. A glue that needs no heat and no pressure. Just a drop, and a few seconds.",
+  "match": 1.0
+ },
+ {
+  "id": "G07",
+  "chapter": 2,
+  "text": "The secret is water. Almost every surface has a thin film of moisture, and it makes the liquid lock into hard plastic chains.",
+  "dur": 7.52,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.03,
+    "e": 0.31
+   },
+   {
+    "w": "secret",
+    "s": 0.31,
+    "e": 0.53
+   },
+   {
+    "w": "is",
+    "s": 0.53,
+    "e": 0.95
+   },
+   {
+    "w": "water.",
+    "s": 0.95,
+    "e": 1.25
+   },
+   {
+    "w": "Almost",
+    "s": 2.01,
+    "e": 2.15
+   },
+   {
+    "w": "every",
+    "s": 2.15,
+    "e": 2.53
+   },
+   {
+    "w": "surface",
+    "s": 2.53,
+    "e": 2.79
+   },
+   {
+    "w": "has",
+    "s": 2.79,
+    "e": 3.09
+   },
+   {
+    "w": "a",
+    "s": 3.09,
+    "e": 3.35
+   },
+   {
+    "w": "thin",
+    "s": 3.35,
+    "e": 3.57
+   },
+   {
+    "w": "film",
+    "s": 3.57,
+    "e": 3.91
+   },
+   {
+    "w": "of",
+    "s": 3.91,
+    "e": 4.09
+   },
+   {
+    "w": "moisture,",
+    "s": 4.09,
+    "e": 4.49
+   },
+   {
+    "w": "and",
+    "s": 4.87,
+    "e": 4.95
+   },
+   {
+    "w": "it",
+    "s": 4.95,
+    "e": 5.03
+   },
+   {
+    "w": "makes",
+    "s": 5.03,
+    "e": 5.17
+   },
+   {
+    "w": "the",
+    "s": 5.17,
+    "e": 5.37
+   },
+   {
+    "w": "liquid",
+    "s": 5.37,
+    "e": 5.59
+   },
+   {
+    "w": "lock",
+    "s": 5.59,
+    "e": 5.93
+   },
+   {
+    "w": "into",
+    "s": 5.93,
+    "e": 6.15
+   },
+   {
+    "w": "hard",
+    "s": 6.15,
+    "e": 6.51
+   },
+   {
+    "w": "plastic",
+    "s": 6.51,
+    "e": 6.89
+   },
+   {
+    "w": "chains.",
+    "s": 6.89,
+    "e": 7.19
+   }
+  ],
+  "heard": "The secret is water. Almost every surface has a thin film of moisture, and it makes the liquid lock into hard plastic chains.",
+  "match": 1.0
+ },
+ {
+  "id": "G08",
+  "chapter": 2,
+  "text": "It went on sale in 1958. And it still has the same old problem. It sticks to fingers.",
+  "dur": 6.06,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.04,
+    "e": 0.16
+   },
+   {
+    "w": "went",
+    "s": 0.16,
+    "e": 0.26
+   },
+   {
+    "w": "on",
+    "s": 0.26,
+    "e": 0.4
+   },
+   {
+    "w": "sale",
+    "s": 0.4,
+    "e": 0.56
+   },
+   {
+    "w": "in",
+    "s": 0.56,
+    "e": 0.72
+   },
+   {
+    "w": "1958.",
+    "s": 0.72,
+    "e": 1.22
+   },
+   {
+    "w": "And",
+    "s": 2.1,
+    "e": 2.36
+   },
+   {
+    "w": "it",
+    "s": 2.36,
+    "e": 3.08
+   },
+   {
+    "w": "still",
+    "s": 3.08,
+    "e": 3.36
+   },
+   {
+    "w": "has",
+    "s": 3.36,
+    "e": 3.6
+   },
+   {
+    "w": "the",
+    "s": 3.6,
+    "e": 3.76
+   },
+   {
+    "w": "same",
+    "s": 3.76,
+    "e": 3.92
+   },
+   {
+    "w": "old",
+    "s": 3.92,
+    "e": 4.08
+   },
+   {
+    "w": "problem.",
+    "s": 4.08,
+    "e": 4.4
+   },
+   {
+    "w": "It",
+    "s": 5.14,
+    "e": 5.34
+   },
+   {
+    "w": "sticks",
+    "s": 5.34,
+    "e": 5.48
+   },
+   {
+    "w": "to",
+    "s": 5.48,
+    "e": 5.68
+   },
+   {
+    "w": "fingers.",
+    "s": 5.68,
+    "e": 5.88
+   }
+  ],
+  "heard": "It went on sale in 1958. And it still has the same old problem. It sticks to fingers.",
+  "match": 1.0
+ },
+ {
+  "id": "T01",
+  "chapter": 3,
+  "text": "Number four. The can that wasn't empty.",
+  "dur": 2.399,
+  "words": [
+   {
+    "w": "Number",
+    "s": 0.0,
+    "e": 0.24
+   },
+   {
+    "w": "four.",
+    "s": 0.24,
+    "e": 0.66
+   },
+   {
+    "w": "The",
+    "s": 1.0,
+    "e": 1.04
+   },
+   {
+    "w": "can",
+    "s": 1.04,
+    "e": 1.22
+   },
+   {
+    "w": "that",
+    "s": 1.22,
+    "e": 1.42
+   },
+   {
+    "w": "wasn't",
+    "s": 1.42,
+    "e": 1.88
+   },
+   {
+    "w": "empty.",
+    "s": 1.88,
+    "e": 2.08
+   }
+  ],
+  "heard": "Number four. The can that wasn't empty."
+ },
+ {
+  "id": "T02",
+  "chapter": 3,
+  "text": "April 1938. Chemist Roy Plunkett was working with a gas for refrigerators, stored in small metal cylinders.",
+  "dur": 8.977,
+  "words": [
+   {
+    "w": "April",
+    "s": 0.0,
+    "e": 0.34
+   },
+   {
+    "w": "1938.",
+    "s": 0.34,
+    "e": 1.64
+   },
+   {
+    "w": "Chemist",
+    "s": 2.62,
+    "e": 2.88
+   },
+   {
+    "w": "Roy",
+    "s": 2.88,
+    "e": 3.18
+   },
+   {
+    "w": "Plunkett",
+    "s": 3.18,
+    "e": 3.68
+   },
+   {
+    "w": "was",
+    "s": 3.68,
+    "e": 3.86
+   },
+   {
+    "w": "working",
+    "s": 3.86,
+    "e": 4.2
+   },
+   {
+    "w": "with",
+    "s": 4.2,
+    "e": 4.46
+   },
+   {
+    "w": "a",
+    "s": 4.46,
+    "e": 4.58
+   },
+   {
+    "w": "gas",
+    "s": 4.58,
+    "e": 4.88
+   },
+   {
+    "w": "for",
+    "s": 4.88,
+    "e": 5.16
+   },
+   {
+    "w": "refrigerators,",
+    "s": 5.16,
+    "e": 6.2
+   },
+   {
+    "w": "stored",
+    "s": 6.54,
+    "e": 6.98
+   },
+   {
+    "w": "in",
+    "s": 6.98,
+    "e": 7.28
+   },
+   {
+    "w": "small",
+    "s": 7.28,
+    "e": 7.68
+   },
+   {
+    "w": "metal",
+    "s": 7.68,
+    "e": 8.02
+   },
+   {
+    "w": "cylinders.",
+    "s": 8.02,
+    "e": 8.62
+   }
+  ],
+  "heard": "April 1938. Chemist Roy Plunkett was working with a gas for refrigerators, stored in small metal cylinders."
+ },
+ {
+  "id": "T03",
+  "chapter": 3,
+  "text": "He opened the valve on one. Nothing came out. The gas seemed to be gone.",
+  "dur": 4.675,
+  "words": [
+   {
+    "w": "He",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "opened",
+    "s": 0.14,
+    "e": 0.44
+   },
+   {
+    "w": "the",
+    "s": 0.44,
+    "e": 0.6
+   },
+   {
+    "w": "valve",
+    "s": 0.6,
+    "e": 0.86
+   },
+   {
+    "w": "on",
+    "s": 0.86,
+    "e": 1.12
+   },
+   {
+    "w": "one.",
+    "s": 1.12,
+    "e": 1.4
+   },
+   {
+    "w": "Nothing",
+    "s": 2.12,
+    "e": 2.12
+   },
+   {
+    "w": "came",
+    "s": 2.12,
+    "e": 2.42
+   },
+   {
+    "w": "out.",
+    "s": 2.42,
+    "e": 2.8
+   },
+   {
+    "w": "The",
+    "s": 3.2,
+    "e": 3.28
+   },
+   {
+    "w": "gas",
+    "s": 3.28,
+    "e": 3.56
+   },
+   {
+    "w": "seemed",
+    "s": 3.56,
+    "e": 3.84
+   },
+   {
+    "w": "to",
+    "s": 3.84,
+    "e": 4.02
+   },
+   {
+    "w": "be",
+    "s": 4.02,
+    "e": 4.16
+   },
+   {
+    "w": "gone.",
+    "s": 4.16,
+    "e": 4.42
+   }
+  ],
+  "heard": "He opened the valve on one. Nothing came out. The gas seemed to be gone."
+ },
+ {
+  "id": "T04",
+  "chapter": 3,
+  "text": "But the cylinder still weighed about the same. So where did the gas go?",
+  "dur": 4.191,
+  "words": [
+   {
+    "w": "But",
+    "s": 1.66,
+    "e": 1.736
+   },
+   {
+    "w": "the",
+    "s": 1.736,
+    "e": 1.812
+   },
+   {
+    "w": "cylinder",
+    "s": 1.812,
+    "e": 2.014
+   },
+   {
+    "w": "still",
+    "s": 2.014,
+    "e": 2.14
+   },
+   {
+    "w": "weighed",
+    "s": 2.14,
+    "e": 2.317
+   },
+   {
+    "w": "about",
+    "s": 2.317,
+    "e": 2.443
+   },
+   {
+    "w": "the",
+    "s": 2.443,
+    "e": 2.519
+   },
+   {
+    "w": "same.",
+    "s": 2.519,
+    "e": 2.62
+   },
+   {
+    "w": "So",
+    "s": 1.66,
+    "e": 2.3
+   },
+   {
+    "w": "where",
+    "s": 2.3,
+    "e": 2.94
+   },
+   {
+    "w": "did",
+    "s": 2.94,
+    "e": 3.12
+   },
+   {
+    "w": "the",
+    "s": 3.12,
+    "e": 3.28
+   },
+   {
+    "w": "gas",
+    "s": 3.28,
+    "e": 3.6
+   },
+   {
+    "w": "go?",
+    "s": 3.6,
+    "e": 3.92
+   }
+  ],
+  "heard": "So where did the gas go?"
+ },
+ {
+  "id": "T05",
+  "chapter": 3,
+  "text": "He cut the cylinder open. Inside, the gas had turned into a slippery, white, waxy powder.",
+  "dur": 6.345,
+  "words": [
+   {
+    "w": "He",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "cut",
+    "s": 0.14,
+    "e": 0.34
+   },
+   {
+    "w": "the",
+    "s": 0.34,
+    "e": 0.54
+   },
+   {
+    "w": "cylinder",
+    "s": 0.54,
+    "e": 0.88
+   },
+   {
+    "w": "open.",
+    "s": 0.88,
+    "e": 1.36
+   },
+   {
+    "w": "Inside,",
+    "s": 2.42,
+    "e": 2.42
+   },
+   {
+    "w": "the",
+    "s": 2.6,
+    "e": 2.72
+   },
+   {
+    "w": "gas",
+    "s": 2.72,
+    "e": 2.94
+   },
+   {
+    "w": "had",
+    "s": 2.94,
+    "e": 3.18
+   },
+   {
+    "w": "turned",
+    "s": 3.18,
+    "e": 3.46
+   },
+   {
+    "w": "into",
+    "s": 3.46,
+    "e": 3.72
+   },
+   {
+    "w": "a",
+    "s": 3.72,
+    "e": 3.88
+   },
+   {
+    "w": "slippery,",
+    "s": 3.88,
+    "e": 4.32
+   },
+   {
+    "w": "white,",
+    "s": 4.58,
+    "e": 5.0
+   },
+   {
+    "w": "waxy",
+    "s": 5.4,
+    "e": 5.64
+   },
+   {
+    "w": "powder.",
+    "s": 5.64,
+    "e": 6.08
+   }
+  ],
+  "heard": "He cut the cylinder open. Inside, the gas had turned into a slippery, white, waxy powder."
+ },
+ {
+  "id": "T06",
+  "chapter": 3,
+  "text": "Its molecules had joined into long chains, wrapped in fluorine. And almost nothing sticks to it. Not water, not oil, not your fried egg.",
+  "dur": 9.356,
+  "words": [
+   {
+    "w": "Its",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "molecules",
+    "s": 0.18,
+    "e": 0.76
+   },
+   {
+    "w": "had",
+    "s": 0.76,
+    "e": 1.0
+   },
+   {
+    "w": "joined",
+    "s": 1.0,
+    "e": 1.4
+   },
+   {
+    "w": "into",
+    "s": 1.4,
+    "e": 1.66
+   },
+   {
+    "w": "long",
+    "s": 1.66,
+    "e": 2.0
+   },
+   {
+    "w": "chains,",
+    "s": 2.0,
+    "e": 2.66
+   },
+   {
+    "w": "wrapped",
+    "s": 2.84,
+    "e": 3.1
+   },
+   {
+    "w": "in",
+    "s": 3.1,
+    "e": 3.32
+   },
+   {
+    "w": "fluorine.",
+    "s": 3.32,
+    "e": 3.96
+   },
+   {
+    "w": "And",
+    "s": 4.38,
+    "e": 4.48
+   },
+   {
+    "w": "almost",
+    "s": 4.48,
+    "e": 4.74
+   },
+   {
+    "w": "nothing",
+    "s": 4.74,
+    "e": 5.04
+   },
+   {
+    "w": "sticks",
+    "s": 5.04,
+    "e": 5.44
+   },
+   {
+    "w": "to",
+    "s": 5.44,
+    "e": 5.74
+   },
+   {
+    "w": "it.",
+    "s": 5.74,
+    "e": 5.98
+   },
+   {
+    "w": "Not",
+    "s": 6.42,
+    "e": 6.62
+   },
+   {
+    "w": "water,",
+    "s": 6.62,
+    "e": 7.12
+   },
+   {
+    "w": "not",
+    "s": 7.44,
+    "e": 7.5
+   },
+   {
+    "w": "oil,",
+    "s": 7.5,
+    "e": 7.9
+   },
+   {
+    "w": "not",
+    "s": 8.16,
+    "e": 8.22
+   },
+   {
+    "w": "your",
+    "s": 8.22,
+    "e": 8.4
+   },
+   {
+    "w": "fried",
+    "s": 8.4,
+    "e": 8.78
+   },
+   {
+    "w": "egg.",
+    "s": 8.78,
+    "e": 9.14
+   }
+  ],
+  "heard": "Its molecules had joined into long chains, wrapped in fluorine. And almost nothing sticks to it. Not water, not oil, not your fried egg."
+ },
+ {
+  "id": "T07",
+  "chapter": 3,
+  "text": "It was patented in 1941. Today, it's the coating inside non-stick pans. All from a can that looked empty.",
+  "dur": 8.789,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.0,
+    "e": 0.12
+   },
+   {
+    "w": "was",
+    "s": 0.12,
+    "e": 0.24
+   },
+   {
+    "w": "patented",
+    "s": 0.24,
+    "e": 0.68
+   },
+   {
+    "w": "in",
+    "s": 0.68,
+    "e": 1.0
+   },
+   {
+    "w": "1941.",
+    "s": 1.0,
+    "e": 1.96
+   },
+   {
+    "w": "Today,",
+    "s": 3.0,
+    "e": 3.3
+   },
+   {
+    "w": "it's",
+    "s": 3.64,
+    "e": 3.92
+   },
+   {
+    "w": "the",
+    "s": 3.92,
+    "e": 4.08
+   },
+   {
+    "w": "coating",
+    "s": 4.08,
+    "e": 4.48
+   },
+   {
+    "w": "inside",
+    "s": 4.48,
+    "e": 5.1
+   },
+   {
+    "w": "non-stick",
+    "s": 5.1,
+    "e": 5.76
+   },
+   {
+    "w": "pans.",
+    "s": 5.76,
+    "e": 6.36
+   },
+   {
+    "w": "All",
+    "s": 6.78,
+    "e": 7.08
+   },
+   {
+    "w": "from",
+    "s": 7.08,
+    "e": 7.28
+   },
+   {
+    "w": "a",
+    "s": 7.28,
+    "e": 7.42
+   },
+   {
+    "w": "can",
+    "s": 7.42,
+    "e": 7.64
+   },
+   {
+    "w": "that",
+    "s": 7.64,
+    "e": 7.9
+   },
+   {
+    "w": "looked",
+    "s": 7.9,
+    "e": 8.14
+   },
+   {
+    "w": "empty.",
+    "s": 8.14,
+    "e": 8.54
+   }
+  ],
+  "heard": "It was patented in 1941. Today, it's the coating inside non -stick pans. All from a can that looked empty."
+ },
+ {
+  "id": "S01",
+  "chapter": 4,
+  "text": "Number three. The glass that broke, but didn't shatter.",
+  "dur": 2.947,
+  "words": [
+   {
+    "w": "Number",
+    "s": 0.0,
+    "e": 0.24
+   },
+   {
+    "w": "three.",
+    "s": 0.24,
+    "e": 0.66
+   },
+   {
+    "w": "The",
+    "s": 1.08,
+    "e": 1.1
+   },
+   {
+    "w": "glass",
+    "s": 1.1,
+    "e": 1.36
+   },
+   {
+    "w": "that",
+    "s": 1.36,
+    "e": 1.62
+   },
+   {
+    "w": "broke,",
+    "s": 1.62,
+    "e": 1.86
+   },
+   {
+    "w": "but",
+    "s": 1.88,
+    "e": 2.12
+   },
+   {
+    "w": "didn't",
+    "s": 2.12,
+    "e": 2.4
+   },
+   {
+    "w": "shatter.",
+    "s": 2.4,
+    "e": 2.68
+   }
+  ],
+  "heard": "Number three. The glass that broke, but didn't shatter."
+ },
+ {
+  "id": "S02",
+  "chapter": 4,
+  "text": "In 1903, French chemist Edouard Benedictus dropped a glass flask in his lab.",
+  "dur": 6.144,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "1903,",
+    "s": 0.18,
+    "e": 1.1
+   },
+   {
+    "w": "French",
+    "s": 1.78,
+    "e": 1.98
+   },
+   {
+    "w": "chemist",
+    "s": 1.98,
+    "e": 2.42
+   },
+   {
+    "w": "Edouard",
+    "s": 2.42,
+    "e": 3.0
+   },
+   {
+    "w": "Benedictus",
+    "s": 3.0,
+    "e": 3.9
+   },
+   {
+    "w": "dropped",
+    "s": 3.9,
+    "e": 4.24
+   },
+   {
+    "w": "a",
+    "s": 4.24,
+    "e": 4.46
+   },
+   {
+    "w": "glass",
+    "s": 4.46,
+    "e": 4.82
+   },
+   {
+    "w": "flask",
+    "s": 4.82,
+    "e": 5.32
+   },
+   {
+    "w": "in",
+    "s": 5.32,
+    "e": 5.5
+   },
+   {
+    "w": "his",
+    "s": 5.5,
+    "e": 5.62
+   },
+   {
+    "w": "lab.",
+    "s": 5.62,
+    "e": 5.96
+   }
+  ],
+  "heard": "In 1903, French chemist Edouard Benedictus dropped a glass flask in his lab."
+ },
+ {
+  "id": "S03",
+  "chapter": 4,
+  "text": "It cracked all over. But the pieces stayed together, still in the shape of the flask.",
+  "dur": 4.988,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.0,
+    "e": 0.16
+   },
+   {
+    "w": "cracked",
+    "s": 0.16,
+    "e": 0.48
+   },
+   {
+    "w": "all",
+    "s": 0.48,
+    "e": 0.8
+   },
+   {
+    "w": "over.",
+    "s": 0.8,
+    "e": 1.22
+   },
+   {
+    "w": "But",
+    "s": 1.66,
+    "e": 1.78
+   },
+   {
+    "w": "the",
+    "s": 1.78,
+    "e": 1.9
+   },
+   {
+    "w": "pieces",
+    "s": 1.9,
+    "e": 2.16
+   },
+   {
+    "w": "stayed",
+    "s": 2.16,
+    "e": 2.5
+   },
+   {
+    "w": "together,",
+    "s": 2.5,
+    "e": 3.02
+   },
+   {
+    "w": "still",
+    "s": 3.28,
+    "e": 3.5
+   },
+   {
+    "w": "in",
+    "s": 3.5,
+    "e": 3.66
+   },
+   {
+    "w": "the",
+    "s": 3.66,
+    "e": 3.8
+   },
+   {
+    "w": "shape",
+    "s": 3.8,
+    "e": 4.04
+   },
+   {
+    "w": "of",
+    "s": 4.04,
+    "e": 4.24
+   },
+   {
+    "w": "the",
+    "s": 4.24,
+    "e": 4.36
+   },
+   {
+    "w": "flask.",
+    "s": 4.36,
+    "e": 4.66
+   }
+  ],
+  "heard": "It cracked all over. But the pieces stayed together, still in the shape of the flask."
+ },
+ {
+  "id": "S04",
+  "chapter": 4,
+  "text": "The flask had once held a liquid plastic, called cellulose nitrate. It had dried into a thin, clear film on the inside. And that film held the glass together.",
+  "dur": 10.868,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "flask",
+    "s": 0.18,
+    "e": 0.58
+   },
+   {
+    "w": "had",
+    "s": 0.58,
+    "e": 0.72
+   },
+   {
+    "w": "once",
+    "s": 0.72,
+    "e": 0.98
+   },
+   {
+    "w": "held",
+    "s": 0.98,
+    "e": 1.24
+   },
+   {
+    "w": "a",
+    "s": 1.24,
+    "e": 1.46
+   },
+   {
+    "w": "liquid",
+    "s": 1.46,
+    "e": 1.76
+   },
+   {
+    "w": "plastic,",
+    "s": 1.76,
+    "e": 2.42
+   },
+   {
+    "w": "called",
+    "s": 2.98,
+    "e": 3.08
+   },
+   {
+    "w": "cellulose",
+    "s": 3.08,
+    "e": 3.84
+   },
+   {
+    "w": "nitrate.",
+    "s": 3.84,
+    "e": 4.48
+   },
+   {
+    "w": "It",
+    "s": 4.94,
+    "e": 5.1
+   },
+   {
+    "w": "had",
+    "s": 5.1,
+    "e": 5.2
+   },
+   {
+    "w": "dried",
+    "s": 5.2,
+    "e": 5.56
+   },
+   {
+    "w": "into",
+    "s": 5.56,
+    "e": 5.86
+   },
+   {
+    "w": "a",
+    "s": 5.86,
+    "e": 6.06
+   },
+   {
+    "w": "thin,",
+    "s": 6.06,
+    "e": 6.38
+   },
+   {
+    "w": "clear",
+    "s": 6.68,
+    "e": 6.84
+   },
+   {
+    "w": "film",
+    "s": 6.84,
+    "e": 7.3
+   },
+   {
+    "w": "on",
+    "s": 7.3,
+    "e": 7.54
+   },
+   {
+    "w": "the",
+    "s": 7.54,
+    "e": 7.7
+   },
+   {
+    "w": "inside.",
+    "s": 7.7,
+    "e": 8.24
+   },
+   {
+    "w": "And",
+    "s": 8.92,
+    "e": 9.04
+   },
+   {
+    "w": "that",
+    "s": 9.04,
+    "e": 9.26
+   },
+   {
+    "w": "film",
+    "s": 9.26,
+    "e": 9.5
+   },
+   {
+    "w": "held",
+    "s": 9.5,
+    "e": 9.78
+   },
+   {
+    "w": "the",
+    "s": 9.78,
+    "e": 9.96
+   },
+   {
+    "w": "glass",
+    "s": 9.96,
+    "e": 10.26
+   },
+   {
+    "w": "together.",
+    "s": 10.26,
+    "e": 10.64
+   }
+  ],
+  "heard": "The flask had once held a liquid plastic, called cellulose nitrate. It had dried into a thin, clear film on the inside. And that film held the glass together."
+ },
+ {
+  "id": "S05",
+  "chapter": 4,
+  "text": "Cars were new back then. And in a crash, their glass broke into sharp, flying pieces.",
+  "dur": 5.603,
+  "words": [
+   {
+    "w": "Cars",
+    "s": 0.0,
+    "e": 0.38
+   },
+   {
+    "w": "were",
+    "s": 0.38,
+    "e": 0.54
+   },
+   {
+    "w": "new",
+    "s": 0.54,
+    "e": 0.72
+   },
+   {
+    "w": "back",
+    "s": 0.72,
+    "e": 0.96
+   },
+   {
+    "w": "then.",
+    "s": 0.96,
+    "e": 1.4
+   },
+   {
+    "w": "And",
+    "s": 1.78,
+    "e": 1.88
+   },
+   {
+    "w": "in",
+    "s": 1.88,
+    "e": 1.98
+   },
+   {
+    "w": "a",
+    "s": 1.98,
+    "e": 2.12
+   },
+   {
+    "w": "crash,",
+    "s": 2.12,
+    "e": 2.52
+   },
+   {
+    "w": "their",
+    "s": 2.82,
+    "e": 2.92
+   },
+   {
+    "w": "glass",
+    "s": 2.92,
+    "e": 3.26
+   },
+   {
+    "w": "broke",
+    "s": 3.26,
+    "e": 3.6
+   },
+   {
+    "w": "into",
+    "s": 3.6,
+    "e": 3.84
+   },
+   {
+    "w": "sharp,",
+    "s": 3.84,
+    "e": 4.26
+   },
+   {
+    "w": "flying",
+    "s": 4.36,
+    "e": 4.78
+   },
+   {
+    "w": "pieces.",
+    "s": 4.78,
+    "e": 5.22
+   }
+  ],
+  "heard": "Cars were new back then. And in a crash, their glass broke into sharp, flying pieces."
+ },
+ {
+  "id": "S06",
+  "chapter": 4,
+  "text": "So Benedictus pressed a film between two sheets of glass, and patented it in 1909.",
+  "dur": 6.493,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "Benedictus",
+    "s": 0.18,
+    "e": 1.1
+   },
+   {
+    "w": "pressed",
+    "s": 1.1,
+    "e": 1.44
+   },
+   {
+    "w": "a",
+    "s": 1.44,
+    "e": 1.68
+   },
+   {
+    "w": "film",
+    "s": 1.68,
+    "e": 1.94
+   },
+   {
+    "w": "between",
+    "s": 1.94,
+    "e": 2.26
+   },
+   {
+    "w": "two",
+    "s": 2.26,
+    "e": 2.58
+   },
+   {
+    "w": "sheets",
+    "s": 2.58,
+    "e": 2.9
+   },
+   {
+    "w": "of",
+    "s": 2.9,
+    "e": 3.08
+   },
+   {
+    "w": "glass,",
+    "s": 3.08,
+    "e": 3.5
+   },
+   {
+    "w": "and",
+    "s": 4.0,
+    "e": 4.18
+   },
+   {
+    "w": "patented",
+    "s": 4.18,
+    "e": 4.62
+   },
+   {
+    "w": "it",
+    "s": 4.62,
+    "e": 4.92
+   },
+   {
+    "w": "in",
+    "s": 4.92,
+    "e": 5.08
+   },
+   {
+    "w": "1909.",
+    "s": 5.08,
+    "e": 5.96
+   }
+  ],
+  "heard": "So Baynay Dictus pressed a film between two sheets of glass, and patented it in 1909."
+ },
+ {
+  "id": "S07",
+  "chapter": 4,
+  "text": "It was first used widely in the eyepieces of gas masks, in the First World War. Then in cars.",
+  "dur": 6.602,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "was",
+    "s": 0.14,
+    "e": 0.22
+   },
+   {
+    "w": "first",
+    "s": 0.22,
+    "e": 0.5
+   },
+   {
+    "w": "used",
+    "s": 0.5,
+    "e": 0.8
+   },
+   {
+    "w": "widely",
+    "s": 0.8,
+    "e": 1.26
+   },
+   {
+    "w": "in",
+    "s": 1.26,
+    "e": 1.62
+   },
+   {
+    "w": "the",
+    "s": 1.62,
+    "e": 1.72
+   },
+   {
+    "w": "eyepieces",
+    "s": 1.72,
+    "e": 2.32
+   },
+   {
+    "w": "of",
+    "s": 2.32,
+    "e": 2.48
+   },
+   {
+    "w": "gas",
+    "s": 2.48,
+    "e": 2.78
+   },
+   {
+    "w": "masks,",
+    "s": 2.78,
+    "e": 3.24
+   },
+   {
+    "w": "in",
+    "s": 3.54,
+    "e": 3.6
+   },
+   {
+    "w": "the",
+    "s": 3.6,
+    "e": 3.72
+   },
+   {
+    "w": "First",
+    "s": 3.72,
+    "e": 3.96
+   },
+   {
+    "w": "World",
+    "s": 3.96,
+    "e": 4.28
+   },
+   {
+    "w": "War.",
+    "s": 4.28,
+    "e": 4.76
+   },
+   {
+    "w": "Then",
+    "s": 5.42,
+    "e": 5.58
+   },
+   {
+    "w": "in",
+    "s": 5.58,
+    "e": 5.84
+   },
+   {
+    "w": "cars.",
+    "s": 5.84,
+    "e": 6.22
+   }
+  ],
+  "heard": "It was first used widely in the eyepieces of gas masks, in the First World War. Then in cars."
+ },
+ {
+  "id": "S08",
+  "chapter": 4,
+  "text": "Today, the windscreen in front of you is made this way. When it breaks, it cracks like a spider web, and stays in one piece.",
+  "dur": 7.787,
+  "words": [
+   {
+    "w": "Today,",
+    "s": 0.0,
+    "e": 0.34
+   },
+   {
+    "w": "the",
+    "s": 0.7,
+    "e": 0.74
+   },
+   {
+    "w": "windscreen",
+    "s": 0.74,
+    "e": 1.28
+   },
+   {
+    "w": "in",
+    "s": 1.28,
+    "e": 1.5
+   },
+   {
+    "w": "front",
+    "s": 1.5,
+    "e": 1.68
+   },
+   {
+    "w": "of",
+    "s": 1.68,
+    "e": 1.82
+   },
+   {
+    "w": "you",
+    "s": 1.82,
+    "e": 1.96
+   },
+   {
+    "w": "is",
+    "s": 1.96,
+    "e": 2.14
+   },
+   {
+    "w": "made",
+    "s": 2.14,
+    "e": 2.34
+   },
+   {
+    "w": "this",
+    "s": 2.34,
+    "e": 2.56
+   },
+   {
+    "w": "way.",
+    "s": 2.56,
+    "e": 2.98
+   },
+   {
+    "w": "When",
+    "s": 3.42,
+    "e": 3.58
+   },
+   {
+    "w": "it",
+    "s": 3.58,
+    "e": 3.7
+   },
+   {
+    "w": "breaks,",
+    "s": 3.7,
+    "e": 3.98
+   },
+   {
+    "w": "it",
+    "s": 4.38,
+    "e": 4.6
+   },
+   {
+    "w": "cracks",
+    "s": 4.6,
+    "e": 4.94
+   },
+   {
+    "w": "like",
+    "s": 4.94,
+    "e": 5.24
+   },
+   {
+    "w": "a",
+    "s": 5.24,
+    "e": 5.38
+   },
+   {
+    "w": "spider",
+    "s": 5.38,
+    "e": 5.8
+   },
+   {
+    "w": "web,",
+    "s": 5.8,
+    "e": 6.16
+   },
+   {
+    "w": "and",
+    "s": 6.32,
+    "e": 6.4
+   },
+   {
+    "w": "stays",
+    "s": 6.4,
+    "e": 6.7
+   },
+   {
+    "w": "in",
+    "s": 6.7,
+    "e": 7.0
+   },
+   {
+    "w": "one",
+    "s": 7.0,
+    "e": 7.18
+   },
+   {
+    "w": "piece.",
+    "s": 7.18,
+    "e": 7.52
+   }
+  ],
+  "heard": "Today, the windscreen in front of you is made this way. When it breaks, it cracks like a spider web, and stays in one piece."
+ },
+ {
+  "id": "M01",
+  "chapter": 5,
+  "text": "Number two. Back to that candy bar.",
+  "dur": 2.315,
+  "words": [
+   {
+    "w": "Number",
+    "s": 0.0,
+    "e": 0.24
+   },
+   {
+    "w": "two.",
+    "s": 0.24,
+    "e": 0.64
+   },
+   {
+    "w": "Back",
+    "s": 1.0,
+    "e": 1.06
+   },
+   {
+    "w": "to",
+    "s": 1.06,
+    "e": 1.24
+   },
+   {
+    "w": "that",
+    "s": 1.24,
+    "e": 1.4
+   },
+   {
+    "w": "candy",
+    "s": 1.4,
+    "e": 1.7
+   },
+   {
+    "w": "bar.",
+    "s": 1.7,
+    "e": 2.06
+   }
+  ],
+  "heard": "Number two. Back to that candy bar."
+ },
+ {
+  "id": "M02",
+  "chapter": 5,
+  "text": "1945, in Massachusetts. Percy Spencer was an engineer building magnetrons, the tubes that power radar.",
+  "dur": 8.917,
+  "words": [
+   {
+    "w": "1945,",
+    "s": 0.0,
+    "e": 0.94
+   },
+   {
+    "w": "in",
+    "s": 1.74,
+    "e": 1.76
+   },
+   {
+    "w": "Massachusetts.",
+    "s": 1.76,
+    "e": 2.46
+   },
+   {
+    "w": "Percy",
+    "s": 3.4,
+    "e": 3.64
+   },
+   {
+    "w": "Spencer",
+    "s": 3.64,
+    "e": 4.16
+   },
+   {
+    "w": "was",
+    "s": 4.16,
+    "e": 4.46
+   },
+   {
+    "w": "an",
+    "s": 4.46,
+    "e": 4.6
+   },
+   {
+    "w": "engineer",
+    "s": 4.6,
+    "e": 5.14
+   },
+   {
+    "w": "building",
+    "s": 5.14,
+    "e": 5.56
+   },
+   {
+    "w": "magnetrons,",
+    "s": 5.56,
+    "e": 6.58
+   },
+   {
+    "w": "the",
+    "s": 7.0,
+    "e": 7.14
+   },
+   {
+    "w": "tubes",
+    "s": 7.14,
+    "e": 7.52
+   },
+   {
+    "w": "that",
+    "s": 7.52,
+    "e": 7.84
+   },
+   {
+    "w": "power",
+    "s": 7.84,
+    "e": 8.22
+   },
+   {
+    "w": "radar.",
+    "s": 8.22,
+    "e": 8.62
+   }
+  ],
+  "heard": "1945, in Massachusetts. Percy Spencer was an engineer building magnetrons, the tubes that power radar."
+ },
+ {
+  "id": "M03",
+  "chapter": 5,
+  "text": "Spencer never finished school. He taught himself electronics, and became one of the best radar engineers of the war.",
+  "dur": 7.339,
+  "words": [
+   {
+    "w": "Spencer",
+    "s": 0.0,
+    "e": 0.5
+   },
+   {
+    "w": "never",
+    "s": 0.5,
+    "e": 0.84
+   },
+   {
+    "w": "finished",
+    "s": 0.84,
+    "e": 1.18
+   },
+   {
+    "w": "school.",
+    "s": 1.18,
+    "e": 1.64
+   },
+   {
+    "w": "He",
+    "s": 2.28,
+    "e": 2.36
+   },
+   {
+    "w": "taught",
+    "s": 2.36,
+    "e": 2.56
+   },
+   {
+    "w": "himself",
+    "s": 2.56,
+    "e": 3.02
+   },
+   {
+    "w": "electronics,",
+    "s": 3.02,
+    "e": 3.66
+   },
+   {
+    "w": "and",
+    "s": 4.32,
+    "e": 4.34
+   },
+   {
+    "w": "became",
+    "s": 4.34,
+    "e": 4.64
+   },
+   {
+    "w": "one",
+    "s": 4.64,
+    "e": 4.92
+   },
+   {
+    "w": "of",
+    "s": 4.92,
+    "e": 5.06
+   },
+   {
+    "w": "the",
+    "s": 5.06,
+    "e": 5.16
+   },
+   {
+    "w": "best",
+    "s": 5.16,
+    "e": 5.4
+   },
+   {
+    "w": "radar",
+    "s": 5.4,
+    "e": 5.94
+   },
+   {
+    "w": "engineers",
+    "s": 5.94,
+    "e": 6.4
+   },
+   {
+    "w": "of",
+    "s": 6.4,
+    "e": 6.74
+   },
+   {
+    "w": "the",
+    "s": 6.74,
+    "e": 6.86
+   },
+   {
+    "w": "war.",
+    "s": 6.86,
+    "e": 7.16
+   }
+  ],
+  "heard": "Spencer never finished school. He taught himself electronics, and became one of the best radar engineers of the war."
+ },
+ {
+  "id": "M04",
+  "chapter": 5,
+  "text": "One day, standing next to a working magnetron, he felt something odd. The candy bar in his pocket had melted.",
+  "dur": 7.323,
+  "words": [
+   {
+    "w": "One",
+    "s": 0.0,
+    "e": 0.24
+   },
+   {
+    "w": "day,",
+    "s": 0.24,
+    "e": 0.52
+   },
+   {
+    "w": "standing",
+    "s": 0.6,
+    "e": 0.9
+   },
+   {
+    "w": "next",
+    "s": 0.9,
+    "e": 1.2
+   },
+   {
+    "w": "to",
+    "s": 1.2,
+    "e": 1.42
+   },
+   {
+    "w": "a",
+    "s": 1.42,
+    "e": 1.56
+   },
+   {
+    "w": "working",
+    "s": 1.56,
+    "e": 1.9
+   },
+   {
+    "w": "magnetron,",
+    "s": 1.9,
+    "e": 2.7
+   },
+   {
+    "w": "he",
+    "s": 3.06,
+    "e": 3.2
+   },
+   {
+    "w": "felt",
+    "s": 3.2,
+    "e": 3.4
+   },
+   {
+    "w": "something",
+    "s": 3.4,
+    "e": 3.82
+   },
+   {
+    "w": "odd.",
+    "s": 3.82,
+    "e": 4.26
+   },
+   {
+    "w": "The",
+    "s": 4.92,
+    "e": 5.04
+   },
+   {
+    "w": "candy",
+    "s": 5.04,
+    "e": 5.4
+   },
+   {
+    "w": "bar",
+    "s": 5.4,
+    "e": 5.76
+   },
+   {
+    "w": "in",
+    "s": 5.76,
+    "e": 5.96
+   },
+   {
+    "w": "his",
+    "s": 5.96,
+    "e": 6.08
+   },
+   {
+    "w": "pocket",
+    "s": 6.08,
+    "e": 6.46
+   },
+   {
+    "w": "had",
+    "s": 6.46,
+    "e": 6.66
+   },
+   {
+    "w": "melted.",
+    "s": 6.66,
+    "e": 7.02
+   }
+  ],
+  "heard": "One day, standing next to a working magnetron, he felt something odd. The candy bar in his pocket had melted."
+ },
+ {
+  "id": "M05",
+  "chapter": 5,
+  "text": "So the story goes, he pointed the tube at popcorn kernels, and they popped. Then at an egg. It exploded.",
+  "dur": 6.912,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.0,
+    "e": 0.16
+   },
+   {
+    "w": "the",
+    "s": 0.16,
+    "e": 0.3
+   },
+   {
+    "w": "story",
+    "s": 0.3,
+    "e": 0.6
+   },
+   {
+    "w": "goes,",
+    "s": 0.6,
+    "e": 0.98
+   },
+   {
+    "w": "he",
+    "s": 1.2,
+    "e": 1.32
+   },
+   {
+    "w": "pointed",
+    "s": 1.32,
+    "e": 1.58
+   },
+   {
+    "w": "the",
+    "s": 1.58,
+    "e": 1.84
+   },
+   {
+    "w": "tube",
+    "s": 1.84,
+    "e": 2.04
+   },
+   {
+    "w": "at",
+    "s": 2.04,
+    "e": 2.22
+   },
+   {
+    "w": "popcorn",
+    "s": 2.22,
+    "e": 2.68
+   },
+   {
+    "w": "kernels,",
+    "s": 2.68,
+    "e": 3.14
+   },
+   {
+    "w": "and",
+    "s": 3.36,
+    "e": 3.42
+   },
+   {
+    "w": "they",
+    "s": 3.42,
+    "e": 3.56
+   },
+   {
+    "w": "popped.",
+    "s": 3.56,
+    "e": 3.92
+   },
+   {
+    "w": "Then",
+    "s": 4.7,
+    "e": 4.78
+   },
+   {
+    "w": "at",
+    "s": 4.78,
+    "e": 5.06
+   },
+   {
+    "w": "an",
+    "s": 5.06,
+    "e": 5.2
+   },
+   {
+    "w": "egg.",
+    "s": 5.2,
+    "e": 5.54
+   },
+   {
+    "w": "It",
+    "s": 6.0,
+    "e": 6.1
+   },
+   {
+    "w": "exploded.",
+    "s": 6.1,
+    "e": 6.58
+   }
+  ],
+  "heard": "So the story goes, he pointed the tube at popcorn kernels, and they popped. Then at an egg. It exploded."
+ },
+ {
+  "id": "M06",
+  "chapter": 5,
+  "text": "The invisible waves were shaking the water inside the food. And all that shaking made heat.",
+  "dur": 5.696,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "invisible",
+    "s": 0.14,
+    "e": 0.56
+   },
+   {
+    "w": "waves",
+    "s": 0.56,
+    "e": 1.12
+   },
+   {
+    "w": "were",
+    "s": 1.12,
+    "e": 1.38
+   },
+   {
+    "w": "shaking",
+    "s": 1.38,
+    "e": 1.72
+   },
+   {
+    "w": "the",
+    "s": 1.72,
+    "e": 1.98
+   },
+   {
+    "w": "water",
+    "s": 1.98,
+    "e": 2.28
+   },
+   {
+    "w": "inside",
+    "s": 2.28,
+    "e": 2.72
+   },
+   {
+    "w": "the",
+    "s": 2.72,
+    "e": 2.94
+   },
+   {
+    "w": "food.",
+    "s": 2.94,
+    "e": 3.32
+   },
+   {
+    "w": "And",
+    "s": 3.9,
+    "e": 3.98
+   },
+   {
+    "w": "all",
+    "s": 3.98,
+    "e": 4.18
+   },
+   {
+    "w": "that",
+    "s": 4.18,
+    "e": 4.4
+   },
+   {
+    "w": "shaking",
+    "s": 4.4,
+    "e": 4.86
+   },
+   {
+    "w": "made",
+    "s": 4.86,
+    "e": 5.16
+   },
+   {
+    "w": "heat.",
+    "s": 5.16,
+    "e": 5.48
+   }
+  ],
+  "heard": "The invisible waves were shaking the water inside the food. And all that shaking made heat."
+ },
+ {
+  "id": "M07",
+  "chapter": 5,
+  "text": "A patent was filed that same year. And the first microwave oven, in 1947, was almost six feet tall and weighed about seven hundred and fifty pounds.",
+  "dur": 11.389,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.0,
+    "e": 0.16
+   },
+   {
+    "w": "patent",
+    "s": 0.16,
+    "e": 0.46
+   },
+   {
+    "w": "was",
+    "s": 0.46,
+    "e": 0.74
+   },
+   {
+    "w": "filed",
+    "s": 0.74,
+    "e": 1.18
+   },
+   {
+    "w": "that",
+    "s": 1.18,
+    "e": 1.46
+   },
+   {
+    "w": "same",
+    "s": 1.46,
+    "e": 1.8
+   },
+   {
+    "w": "year.",
+    "s": 1.8,
+    "e": 2.18
+   },
+   {
+    "w": "And",
+    "s": 2.74,
+    "e": 2.82
+   },
+   {
+    "w": "the",
+    "s": 2.82,
+    "e": 2.94
+   },
+   {
+    "w": "first",
+    "s": 2.94,
+    "e": 3.2
+   },
+   {
+    "w": "microwave",
+    "s": 3.2,
+    "e": 3.86
+   },
+   {
+    "w": "oven,",
+    "s": 3.86,
+    "e": 4.36
+   },
+   {
+    "w": "in",
+    "s": 4.68,
+    "e": 4.74
+   },
+   {
+    "w": "1947,",
+    "s": 4.74,
+    "e": 5.7
+   },
+   {
+    "w": "was",
+    "s": 6.46,
+    "e": 6.76
+   },
+   {
+    "w": "almost",
+    "s": 6.76,
+    "e": 7.16
+   },
+   {
+    "w": "six",
+    "s": 7.16,
+    "e": 7.64
+   },
+   {
+    "w": "feet",
+    "s": 7.64,
+    "e": 7.94
+   },
+   {
+    "w": "tall",
+    "s": 7.94,
+    "e": 8.4
+   },
+   {
+    "w": "and",
+    "s": 8.4,
+    "e": 8.8
+   },
+   {
+    "w": "weighed",
+    "s": 8.8,
+    "e": 9.08
+   },
+   {
+    "w": "about",
+    "s": 9.08,
+    "e": 9.38
+   },
+   {
+    "w": "seven",
+    "s": 9.38,
+    "e": 9.76
+   },
+   {
+    "w": "hundred",
+    "s": 9.76,
+    "e": 10.18
+   },
+   {
+    "w": "and",
+    "s": 10.18,
+    "e": 10.36
+   },
+   {
+    "w": "fifty",
+    "s": 10.36,
+    "e": 10.62
+   },
+   {
+    "w": "pounds.",
+    "s": 10.62,
+    "e": 11.02
+   }
+  ],
+  "heard": "A patent was filed that same year. And the first microwave oven, in 1947, was almost six feet tall and weighed about seven hundred and fifty pounds."
+ },
+ {
+  "id": "M08",
+  "chapter": 5,
+  "text": "It took twenty more years to shrink one small enough for a kitchen counter.",
+  "dur": 4.069,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.0,
+    "e": 0.16
+   },
+   {
+    "w": "took",
+    "s": 0.16,
+    "e": 0.3
+   },
+   {
+    "w": "twenty",
+    "s": 0.3,
+    "e": 0.68
+   },
+   {
+    "w": "more",
+    "s": 0.68,
+    "e": 0.94
+   },
+   {
+    "w": "years",
+    "s": 0.94,
+    "e": 1.28
+   },
+   {
+    "w": "to",
+    "s": 1.28,
+    "e": 1.56
+   },
+   {
+    "w": "shrink",
+    "s": 1.56,
+    "e": 1.82
+   },
+   {
+    "w": "one",
+    "s": 1.82,
+    "e": 2.06
+   },
+   {
+    "w": "small",
+    "s": 2.06,
+    "e": 2.48
+   },
+   {
+    "w": "enough",
+    "s": 2.48,
+    "e": 2.72
+   },
+   {
+    "w": "for",
+    "s": 2.72,
+    "e": 2.98
+   },
+   {
+    "w": "a",
+    "s": 2.98,
+    "e": 3.1
+   },
+   {
+    "w": "kitchen",
+    "s": 3.1,
+    "e": 3.38
+   },
+   {
+    "w": "counter.",
+    "s": 3.38,
+    "e": 3.82
+   }
+  ],
+  "heard": "It took twenty more years to shrink one small enough for a kitchen counter."
+ },
+ {
+  "id": "M09",
+  "chapter": 5,
+  "text": "His colleagues remembered lots of small tests, not one magic moment. But the melted candy bar is the moment everyone remembers.",
+  "dur": 8.975,
+  "words": [
+   {
+    "w": "His",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "colleagues",
+    "s": 0.18,
+    "e": 0.7
+   },
+   {
+    "w": "remembered",
+    "s": 0.7,
+    "e": 1.3
+   },
+   {
+    "w": "lots",
+    "s": 1.3,
+    "e": 1.66
+   },
+   {
+    "w": "of",
+    "s": 1.66,
+    "e": 1.9
+   },
+   {
+    "w": "small",
+    "s": 1.9,
+    "e": 2.24
+   },
+   {
+    "w": "tests,",
+    "s": 2.24,
+    "e": 2.76
+   },
+   {
+    "w": "not",
+    "s": 3.16,
+    "e": 3.38
+   },
+   {
+    "w": "one",
+    "s": 3.38,
+    "e": 3.74
+   },
+   {
+    "w": "magic",
+    "s": 3.74,
+    "e": 4.22
+   },
+   {
+    "w": "moment.",
+    "s": 4.22,
+    "e": 4.66
+   },
+   {
+    "w": "But",
+    "s": 5.26,
+    "e": 5.42
+   },
+   {
+    "w": "the",
+    "s": 5.42,
+    "e": 5.58
+   },
+   {
+    "w": "melted",
+    "s": 5.58,
+    "e": 5.94
+   },
+   {
+    "w": "candy",
+    "s": 5.94,
+    "e": 6.38
+   },
+   {
+    "w": "bar",
+    "s": 6.38,
+    "e": 6.8
+   },
+   {
+    "w": "is",
+    "s": 6.8,
+    "e": 7.04
+   },
+   {
+    "w": "the",
+    "s": 7.04,
+    "e": 7.26
+   },
+   {
+    "w": "moment",
+    "s": 7.26,
+    "e": 7.54
+   },
+   {
+    "w": "everyone",
+    "s": 7.54,
+    "e": 8.04
+   },
+   {
+    "w": "remembers.",
+    "s": 8.04,
+    "e": 8.64
+   }
+  ],
+  "heard": "His colleagues remembered lots of small tests, not one magic moment. But the melted candy bar is the moment everyone remembers."
+ },
+ {
+  "id": "P01",
+  "chapter": 6,
+  "text": "And number one. The dirty dish that saved millions of lives.",
+  "dur": 3.964,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "number",
+    "s": 0.18,
+    "e": 0.34
+   },
+   {
+    "w": "one.",
+    "s": 0.34,
+    "e": 0.72
+   },
+   {
+    "w": "The",
+    "s": 1.22,
+    "e": 1.32
+   },
+   {
+    "w": "dirty",
+    "s": 1.32,
+    "e": 1.62
+   },
+   {
+    "w": "dish",
+    "s": 1.62,
+    "e": 1.94
+   },
+   {
+    "w": "that",
+    "s": 1.94,
+    "e": 2.18
+   },
+   {
+    "w": "saved",
+    "s": 2.18,
+    "e": 2.52
+   },
+   {
+    "w": "millions",
+    "s": 2.52,
+    "e": 2.9
+   },
+   {
+    "w": "of",
+    "s": 2.9,
+    "e": 3.26
+   },
+   {
+    "w": "lives.",
+    "s": 3.26,
+    "e": 3.64
+   }
+  ],
+  "heard": "And number one. The dirty dish that saved millions of lives."
+ },
+ {
+  "id": "P02",
+  "chapter": 6,
+  "text": "September 1928, London. Alexander Fleming came back from a summer holiday to a messy lab bench.",
+  "dur": 8.021,
+  "words": [
+   {
+    "w": "September",
+    "s": 0.0,
+    "e": 0.5
+   },
+   {
+    "w": "1928,",
+    "s": 0.5,
+    "e": 1.58
+   },
+   {
+    "w": "London.",
+    "s": 2.5,
+    "e": 2.74
+   },
+   {
+    "w": "Alexander",
+    "s": 3.68,
+    "e": 4.0
+   },
+   {
+    "w": "Fleming",
+    "s": 4.0,
+    "e": 4.44
+   },
+   {
+    "w": "came",
+    "s": 4.44,
+    "e": 4.8
+   },
+   {
+    "w": "back",
+    "s": 4.8,
+    "e": 5.14
+   },
+   {
+    "w": "from",
+    "s": 5.14,
+    "e": 5.34
+   },
+   {
+    "w": "a",
+    "s": 5.34,
+    "e": 5.48
+   },
+   {
+    "w": "summer",
+    "s": 5.48,
+    "e": 5.7
+   },
+   {
+    "w": "holiday",
+    "s": 5.7,
+    "e": 6.3
+   },
+   {
+    "w": "to",
+    "s": 6.3,
+    "e": 6.66
+   },
+   {
+    "w": "a",
+    "s": 6.66,
+    "e": 6.8
+   },
+   {
+    "w": "messy",
+    "s": 6.8,
+    "e": 7.06
+   },
+   {
+    "w": "lab",
+    "s": 7.06,
+    "e": 7.44
+   },
+   {
+    "w": "bench.",
+    "s": 7.44,
+    "e": 7.76
+   }
+  ],
+  "heard": "September 1928, London. Alexander Fleming came back from a summer holiday to a messy lab bench."
+ },
+ {
+  "id": "P03",
+  "chapter": 6,
+  "text": "He had left out dishes of bacteria, the kind that cause nasty infections. And one dish had grown a fuzzy mould.",
+  "dur": 7.381,
+  "words": [
+   {
+    "w": "He",
+    "s": 0.0,
+    "e": 0.12
+   },
+   {
+    "w": "had",
+    "s": 0.12,
+    "e": 0.22
+   },
+   {
+    "w": "left",
+    "s": 0.22,
+    "e": 0.44
+   },
+   {
+    "w": "out",
+    "s": 0.44,
+    "e": 0.68
+   },
+   {
+    "w": "dishes",
+    "s": 0.68,
+    "e": 1.0
+   },
+   {
+    "w": "of",
+    "s": 1.0,
+    "e": 1.24
+   },
+   {
+    "w": "bacteria,",
+    "s": 1.24,
+    "e": 1.74
+   },
+   {
+    "w": "the",
+    "s": 2.26,
+    "e": 2.42
+   },
+   {
+    "w": "kind",
+    "s": 2.42,
+    "e": 2.66
+   },
+   {
+    "w": "that",
+    "s": 2.66,
+    "e": 2.92
+   },
+   {
+    "w": "cause",
+    "s": 2.92,
+    "e": 3.2
+   },
+   {
+    "w": "nasty",
+    "s": 3.2,
+    "e": 3.78
+   },
+   {
+    "w": "infections.",
+    "s": 3.78,
+    "e": 4.38
+   },
+   {
+    "w": "And",
+    "s": 4.98,
+    "e": 5.16
+   },
+   {
+    "w": "one",
+    "s": 5.16,
+    "e": 5.4
+   },
+   {
+    "w": "dish",
+    "s": 5.4,
+    "e": 5.64
+   },
+   {
+    "w": "had",
+    "s": 5.64,
+    "e": 5.86
+   },
+   {
+    "w": "grown",
+    "s": 5.86,
+    "e": 6.12
+   },
+   {
+    "w": "a",
+    "s": 6.12,
+    "e": 6.32
+   },
+   {
+    "w": "fuzzy",
+    "s": 6.32,
+    "e": 6.66
+   },
+   {
+    "w": "mould.",
+    "s": 6.66,
+    "e": 7.04
+   }
+  ],
+  "heard": "He had left out dishes of bacteria, the kind that cause nasty infections. And one dish had grown a fuzzy mould."
+ },
+ {
+  "id": "P04",
+  "chapter": 6,
+  "text": "All around the mould, the bacteria were gone. A clear ring, where nothing could grow.",
+  "dur": 5.147,
+  "words": [
+   {
+    "w": "All",
+    "s": 0.0,
+    "e": 0.26
+   },
+   {
+    "w": "around",
+    "s": 0.26,
+    "e": 0.54
+   },
+   {
+    "w": "the",
+    "s": 0.54,
+    "e": 0.7
+   },
+   {
+    "w": "mould,",
+    "s": 0.7,
+    "e": 0.94
+   },
+   {
+    "w": "the",
+    "s": 1.12,
+    "e": 1.14
+   },
+   {
+    "w": "bacteria",
+    "s": 1.14,
+    "e": 1.56
+   },
+   {
+    "w": "were",
+    "s": 1.56,
+    "e": 1.88
+   },
+   {
+    "w": "gone.",
+    "s": 1.88,
+    "e": 2.2
+   },
+   {
+    "w": "A",
+    "s": 2.78,
+    "e": 2.92
+   },
+   {
+    "w": "clear",
+    "s": 2.92,
+    "e": 3.22
+   },
+   {
+    "w": "ring,",
+    "s": 3.22,
+    "e": 3.62
+   },
+   {
+    "w": "where",
+    "s": 3.82,
+    "e": 4.0
+   },
+   {
+    "w": "nothing",
+    "s": 4.0,
+    "e": 4.26
+   },
+   {
+    "w": "could",
+    "s": 4.26,
+    "e": 4.58
+   },
+   {
+    "w": "grow.",
+    "s": 4.58,
+    "e": 4.92
+   }
+  ],
+  "heard": "All around the mould, the bacteria were gone. A clear ring, where nothing could grow."
+ },
+ {
+  "id": "P05",
+  "chapter": 6,
+  "text": "The mould was making something that killed bacteria. Fleming called it penicillin.",
+  "dur": 5.075,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.0,
+    "e": 0.12
+   },
+   {
+    "w": "mould",
+    "s": 0.12,
+    "e": 0.42
+   },
+   {
+    "w": "was",
+    "s": 0.42,
+    "e": 0.66
+   },
+   {
+    "w": "making",
+    "s": 0.66,
+    "e": 0.98
+   },
+   {
+    "w": "something",
+    "s": 0.98,
+    "e": 1.36
+   },
+   {
+    "w": "that",
+    "s": 1.36,
+    "e": 1.72
+   },
+   {
+    "w": "killed",
+    "s": 1.72,
+    "e": 2.06
+   },
+   {
+    "w": "bacteria.",
+    "s": 2.06,
+    "e": 2.78
+   },
+   {
+    "w": "Fleming",
+    "s": 3.62,
+    "e": 3.7
+   },
+   {
+    "w": "called",
+    "s": 3.7,
+    "e": 4.14
+   },
+   {
+    "w": "it",
+    "s": 4.14,
+    "e": 4.32
+   },
+   {
+    "w": "penicillin.",
+    "s": 4.32,
+    "e": 4.88
+   }
+  ],
+  "heard": "The mould was making something that killed bacteria. Fleming called it penicillin."
+ },
+ {
+  "id": "P06",
+  "chapter": 6,
+  "text": "But it was hard to make, and for years, almost nobody used it.",
+  "dur": 4.008,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.0,
+    "e": 0.12
+   },
+   {
+    "w": "it",
+    "s": 0.12,
+    "e": 0.18
+   },
+   {
+    "w": "was",
+    "s": 0.18,
+    "e": 0.32
+   },
+   {
+    "w": "hard",
+    "s": 0.32,
+    "e": 0.58
+   },
+   {
+    "w": "to",
+    "s": 0.58,
+    "e": 0.78
+   },
+   {
+    "w": "make,",
+    "s": 0.78,
+    "e": 1.1
+   },
+   {
+    "w": "and",
+    "s": 1.44,
+    "e": 1.64
+   },
+   {
+    "w": "for",
+    "s": 1.64,
+    "e": 1.78
+   },
+   {
+    "w": "years,",
+    "s": 1.78,
+    "e": 2.26
+   },
+   {
+    "w": "almost",
+    "s": 2.54,
+    "e": 2.76
+   },
+   {
+    "w": "nobody",
+    "s": 2.76,
+    "e": 3.28
+   },
+   {
+    "w": "used",
+    "s": 3.28,
+    "e": 3.72
+   },
+   {
+    "w": "it.",
+    "s": 3.72,
+    "e": 3.92
+   }
+  ],
+  "heard": "But it was hard to make, and for years, almost nobody used it."
+ },
+ {
+  "id": "P07",
+  "chapter": 6,
+  "text": "Then, in 1940, a team in Oxford led by Howard Florey and Ernst Chain showed it could cure infections. By the end of the war, factories were making it in huge amounts.",
+  "dur": 12.48,
+  "words": [
+   {
+    "w": "Then,",
+    "s": 0.0,
+    "e": 0.32
+   },
+   {
+    "w": "in",
+    "s": 0.44,
+    "e": 0.58
+   },
+   {
+    "w": "1940,",
+    "s": 0.58,
+    "e": 1.64
+   },
+   {
+    "w": "a",
+    "s": 2.34,
+    "e": 2.42
+   },
+   {
+    "w": "team",
+    "s": 2.42,
+    "e": 2.7
+   },
+   {
+    "w": "in",
+    "s": 2.7,
+    "e": 2.88
+   },
+   {
+    "w": "Oxford",
+    "s": 2.88,
+    "e": 3.3
+   },
+   {
+    "w": "led",
+    "s": 3.3,
+    "e": 3.62
+   },
+   {
+    "w": "by",
+    "s": 3.62,
+    "e": 3.92
+   },
+   {
+    "w": "Howard",
+    "s": 3.92,
+    "e": 4.28
+   },
+   {
+    "w": "Florey",
+    "s": 4.28,
+    "e": 4.86
+   },
+   {
+    "w": "and",
+    "s": 4.86,
+    "e": 5.06
+   },
+   {
+    "w": "Ernst",
+    "s": 5.06,
+    "e": 5.36
+   },
+   {
+    "w": "Chain",
+    "s": 5.36,
+    "e": 5.78
+   },
+   {
+    "w": "showed",
+    "s": 5.78,
+    "e": 6.22
+   },
+   {
+    "w": "it",
+    "s": 6.22,
+    "e": 6.38
+   },
+   {
+    "w": "could",
+    "s": 6.38,
+    "e": 6.52
+   },
+   {
+    "w": "cure",
+    "s": 6.52,
+    "e": 6.86
+   },
+   {
+    "w": "infections.",
+    "s": 6.86,
+    "e": 7.46
+   },
+   {
+    "w": "By",
+    "s": 8.34,
+    "e": 8.42
+   },
+   {
+    "w": "the",
+    "s": 8.42,
+    "e": 8.56
+   },
+   {
+    "w": "end",
+    "s": 8.56,
+    "e": 8.78
+   },
+   {
+    "w": "of",
+    "s": 8.78,
+    "e": 8.92
+   },
+   {
+    "w": "the",
+    "s": 8.92,
+    "e": 9.02
+   },
+   {
+    "w": "war,",
+    "s": 9.02,
+    "e": 9.42
+   },
+   {
+    "w": "factories",
+    "s": 9.96,
+    "e": 10.18
+   },
+   {
+    "w": "were",
+    "s": 10.18,
+    "e": 10.6
+   },
+   {
+    "w": "making",
+    "s": 10.6,
+    "e": 10.84
+   },
+   {
+    "w": "it",
+    "s": 10.84,
+    "e": 11.14
+   },
+   {
+    "w": "in",
+    "s": 11.14,
+    "e": 11.28
+   },
+   {
+    "w": "huge",
+    "s": 11.28,
+    "e": 11.7
+   },
+   {
+    "w": "amounts.",
+    "s": 11.7,
+    "e": 12.2
+   }
+  ],
+  "heard": "Then, in 1940, a team in Oxford led by Howard Florey and Ernst Chain showed it could cure infections. By the end of the war, factories were making it in huge amounts."
+ },
+ {
+  "id": "P08",
+  "chapter": 6,
+  "text": "In 1945, the three of them shared the Nobel Prize. And antibiotics have since saved many millions of lives.",
+  "dur": 8.524,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.0,
+    "e": 0.2
+   },
+   {
+    "w": "1945,",
+    "s": 0.2,
+    "e": 1.1
+   },
+   {
+    "w": "the",
+    "s": 2.02,
+    "e": 2.12
+   },
+   {
+    "w": "three",
+    "s": 2.12,
+    "e": 2.36
+   },
+   {
+    "w": "of",
+    "s": 2.36,
+    "e": 2.48
+   },
+   {
+    "w": "them",
+    "s": 2.48,
+    "e": 2.66
+   },
+   {
+    "w": "shared",
+    "s": 2.66,
+    "e": 2.98
+   },
+   {
+    "w": "the",
+    "s": 2.98,
+    "e": 3.22
+   },
+   {
+    "w": "Nobel",
+    "s": 3.22,
+    "e": 3.58
+   },
+   {
+    "w": "Prize.",
+    "s": 3.58,
+    "e": 4.14
+   },
+   {
+    "w": "And",
+    "s": 4.94,
+    "e": 5.0
+   },
+   {
+    "w": "antibiotics",
+    "s": 5.0,
+    "e": 5.68
+   },
+   {
+    "w": "have",
+    "s": 5.68,
+    "e": 6.12
+   },
+   {
+    "w": "since",
+    "s": 6.12,
+    "e": 6.32
+   },
+   {
+    "w": "saved",
+    "s": 6.32,
+    "e": 6.74
+   },
+   {
+    "w": "many",
+    "s": 6.74,
+    "e": 7.12
+   },
+   {
+    "w": "millions",
+    "s": 7.12,
+    "e": 7.56
+   },
+   {
+    "w": "of",
+    "s": 7.56,
+    "e": 7.8
+   },
+   {
+    "w": "lives.",
+    "s": 7.8,
+    "e": 8.22
+   }
+  ],
+  "heard": "In 1945, the three of them shared the Nobel Prize. And antibiotics have since saved many millions of lives."
+ },
+ {
+  "id": "E01",
+  "chapter": 6,
+  "text": "So, the countdown. A spring that walked. Burrs on a dog. A glue that was too sticky. A can that looked empty. A flask that wouldn't shatter. A melted candy bar. And a dirty dish.",
+  "dur": 11.904,
+  "words": [
+   {
+    "w": "So,",
+    "s": 0.0,
+    "e": 0.24
+   },
+   {
+    "w": "the",
+    "s": 0.32,
+    "e": 0.42
+   },
+   {
+    "w": "countdown.",
+    "s": 0.42,
+    "e": 0.88
+   },
+   {
+    "w": "A",
+    "s": 1.26,
+    "e": 1.3
+   },
+   {
+    "w": "spring",
+    "s": 1.3,
+    "e": 1.58
+   },
+   {
+    "w": "that",
+    "s": 1.58,
+    "e": 1.84
+   },
+   {
+    "w": "walked.",
+    "s": 1.84,
+    "e": 2.24
+   },
+   {
+    "w": "Burrs",
+    "s": 3.02,
+    "e": 3.22
+   },
+   {
+    "w": "on",
+    "s": 3.22,
+    "e": 3.34
+   },
+   {
+    "w": "a",
+    "s": 3.34,
+    "e": 3.5
+   },
+   {
+    "w": "dog.",
+    "s": 3.5,
+    "e": 3.82
+   },
+   {
+    "w": "A",
+    "s": 4.08,
+    "e": 4.12
+   },
+   {
+    "w": "glue",
+    "s": 4.12,
+    "e": 4.36
+   },
+   {
+    "w": "that",
+    "s": 4.36,
+    "e": 4.56
+   },
+   {
+    "w": "was",
+    "s": 4.56,
+    "e": 4.7
+   },
+   {
+    "w": "too",
+    "s": 4.7,
+    "e": 4.94
+   },
+   {
+    "w": "sticky.",
+    "s": 4.94,
+    "e": 5.4
+   },
+   {
+    "w": "A",
+    "s": 5.88,
+    "e": 6.04
+   },
+   {
+    "w": "can",
+    "s": 6.04,
+    "e": 6.22
+   },
+   {
+    "w": "that",
+    "s": 6.22,
+    "e": 6.46
+   },
+   {
+    "w": "looked",
+    "s": 6.46,
+    "e": 6.7
+   },
+   {
+    "w": "empty.",
+    "s": 6.7,
+    "e": 7.18
+   },
+   {
+    "w": "A",
+    "s": 7.54,
+    "e": 7.64
+   },
+   {
+    "w": "flask",
+    "s": 7.64,
+    "e": 8.0
+   },
+   {
+    "w": "that",
+    "s": 8.0,
+    "e": 8.26
+   },
+   {
+    "w": "wouldn't",
+    "s": 8.26,
+    "e": 8.6
+   },
+   {
+    "w": "shatter.",
+    "s": 8.6,
+    "e": 8.92
+   },
+   {
+    "w": "A",
+    "s": 9.36,
+    "e": 9.5
+   },
+   {
+    "w": "melted",
+    "s": 9.5,
+    "e": 9.88
+   },
+   {
+    "w": "candy",
+    "s": 9.88,
+    "e": 10.32
+   },
+   {
+    "w": "bar.",
+    "s": 10.32,
+    "e": 10.7
+   },
+   {
+    "w": "And",
+    "s": 10.92,
+    "e": 10.94
+   },
+   {
+    "w": "a",
+    "s": 10.94,
+    "e": 11.08
+   },
+   {
+    "w": "dirty",
+    "s": 11.08,
+    "e": 11.32
+   },
+   {
+    "w": "dish.",
+    "s": 11.32,
+    "e": 11.66
+   }
+  ],
+  "heard": "So, the countdown. A spring that walked. Burrs on a dog. A glue that was too sticky. A can that looked empty. A flask that wouldn't shatter. A melted candy bar. And a dirty dish."
+ },
+ {
+  "id": "E02",
+  "chapter": 6,
+  "text": "Nobody planned any of them. Each one just needed someone who stopped, and asked: wait... why did that happen?",
+  "dur": 6.718,
+  "words": [
+   {
+    "w": "Nobody",
+    "s": 0.0,
+    "e": 0.4
+   },
+   {
+    "w": "planned",
+    "s": 0.4,
+    "e": 0.88
+   },
+   {
+    "w": "any",
+    "s": 0.88,
+    "e": 1.1
+   },
+   {
+    "w": "of",
+    "s": 1.1,
+    "e": 1.28
+   },
+   {
+    "w": "them.",
+    "s": 1.28,
+    "e": 1.52
+   },
+   {
+    "w": "Each",
+    "s": 1.88,
+    "e": 2.0
+   },
+   {
+    "w": "one",
+    "s": 2.0,
+    "e": 2.22
+   },
+   {
+    "w": "just",
+    "s": 2.22,
+    "e": 2.44
+   },
+   {
+    "w": "needed",
+    "s": 2.44,
+    "e": 2.76
+   },
+   {
+    "w": "someone",
+    "s": 2.76,
+    "e": 3.1
+   },
+   {
+    "w": "who",
+    "s": 3.1,
+    "e": 3.3
+   },
+   {
+    "w": "stopped,",
+    "s": 3.3,
+    "e": 3.66
+   },
+   {
+    "w": "and",
+    "s": 3.88,
+    "e": 3.92
+   },
+   {
+    "w": "asked:",
+    "s": 3.92,
+    "e": 4.9
+   },
+   {
+    "w": "wait...",
+    "s": 4.9,
+    "e": 5.7
+   },
+   {
+    "w": "why",
+    "s": 5.7,
+    "e": 5.8
+   },
+   {
+    "w": "did",
+    "s": 5.8,
+    "e": 5.94
+   },
+   {
+    "w": "that",
+    "s": 5.94,
+    "e": 6.12
+   },
+   {
+    "w": "happen?",
+    "s": 6.12,
+    "e": 6.38
+   }
+  ],
+  "heard": "Nobody planned any of them. Each one just needed someone who stopped, and asked... wait... why did that happen?"
+ },
+ {
+  "id": "E03",
+  "chapter": 6,
+  "text": "Which accident surprised you most? Tell us in the comments.",
+  "dur": 3.563,
+  "words": [
+   {
+    "w": "Which",
+    "s": 0.0,
+    "e": 0.22
+   },
+   {
+    "w": "accident",
+    "s": 0.22,
+    "e": 0.7
+   },
+   {
+    "w": "surprised",
+    "s": 0.7,
+    "e": 1.24
+   },
+   {
+    "w": "you",
+    "s": 1.24,
+    "e": 1.56
+   },
+   {
+    "w": "most?",
+    "s": 1.56,
+    "e": 1.88
+   },
+   {
+    "w": "Tell",
+    "s": 2.42,
+    "e": 2.44
+   },
+   {
+    "w": "us",
+    "s": 2.44,
+    "e": 2.62
+   },
+   {
+    "w": "in",
+    "s": 2.62,
+    "e": 2.78
+   },
+   {
+    "w": "the",
+    "s": 2.78,
+    "e": 2.92
+   },
+   {
+    "w": "comments.",
+    "s": 2.92,
+    "e": 3.26
+   }
+  ],
+  "heard": "Which accident surprised you most? Tell us in the comments."
+ },
+ {
+  "id": "E04",
+  "chapter": 6,
+  "text": "And next time you warm up your food... check your pockets.",
+  "dur": 3.381,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.0,
+    "e": 0.16
+   },
+   {
+    "w": "next",
+    "s": 0.16,
+    "e": 0.4
+   },
+   {
+    "w": "time",
+    "s": 0.4,
+    "e": 0.7
+   },
+   {
+    "w": "you",
+    "s": 0.7,
+    "e": 0.88
+   },
+   {
+    "w": "warm",
+    "s": 0.88,
+    "e": 1.1
+   },
+   {
+    "w": "up",
+    "s": 1.1,
+    "e": 1.28
+   },
+   {
+    "w": "your",
+    "s": 1.28,
+    "e": 1.44
+   },
+   {
+    "w": "food...",
+    "s": 1.44,
+    "e": 2.44
+   },
+   {
+    "w": "check",
+    "s": 2.44,
+    "e": 2.5
+   },
+   {
+    "w": "your",
+    "s": 2.5,
+    "e": 2.68
+   },
+   {
+    "w": "pockets.",
+    "s": 2.68,
+    "e": 3.06
+   }
+  ],
+  "heard": "And next time you warm up your food... check your pockets."
+ }
+]

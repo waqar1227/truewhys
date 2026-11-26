@@ -1,0 +1,511 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "This engineer's candy bar melted in his pocket... and nothing near him was hot.",
+  "dur": 5.005,
+  "words": [
+   {
+    "w": "This",
+    "s": 0.0,
+    "e": 0.22
+   },
+   {
+    "w": "engineer's",
+    "s": 0.22,
+    "e": 1.0
+   },
+   {
+    "w": "candy",
+    "s": 1.0,
+    "e": 1.34
+   },
+   {
+    "w": "bar",
+    "s": 1.34,
+    "e": 1.74
+   },
+   {
+    "w": "melted",
+    "s": 1.74,
+    "e": 2.12
+   },
+   {
+    "w": "in",
+    "s": 2.12,
+    "e": 2.38
+   },
+   {
+    "w": "his",
+    "s": 2.38,
+    "e": 2.52
+   },
+   {
+    "w": "pocket...",
+    "s": 2.52,
+    "e": 3.52
+   },
+   {
+    "w": "and",
+    "s": 3.52,
+    "e": 3.6
+   },
+   {
+    "w": "nothing",
+    "s": 3.6,
+    "e": 3.84
+   },
+   {
+    "w": "near",
+    "s": 3.84,
+    "e": 4.12
+   },
+   {
+    "w": "him",
+    "s": 4.12,
+    "e": 4.36
+   },
+   {
+    "w": "was",
+    "s": 4.36,
+    "e": 4.54
+   },
+   {
+    "w": "hot.",
+    "s": 4.54,
+    "e": 4.88
+   }
+  ],
+  "heard": "This engineer's candy bar melted in his pocket... and nothing near him was hot."
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "It was 1945. Percy Spencer was building magnetrons, the glowing tubes that power radar.",
+  "dur": 7.707,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "was",
+    "s": 0.14,
+    "e": 0.26
+   },
+   {
+    "w": "1945.",
+    "s": 0.26,
+    "e": 1.42
+   },
+   {
+    "w": "Percy",
+    "s": 2.68,
+    "e": 2.8
+   },
+   {
+    "w": "Spencer",
+    "s": 2.8,
+    "e": 3.28
+   },
+   {
+    "w": "was",
+    "s": 3.28,
+    "e": 3.58
+   },
+   {
+    "w": "building",
+    "s": 3.58,
+    "e": 3.98
+   },
+   {
+    "w": "magnetrons,",
+    "s": 3.98,
+    "e": 4.96
+   },
+   {
+    "w": "the",
+    "s": 5.4,
+    "e": 5.44
+   },
+   {
+    "w": "glowing",
+    "s": 5.44,
+    "e": 5.84
+   },
+   {
+    "w": "tubes",
+    "s": 5.84,
+    "e": 6.3
+   },
+   {
+    "w": "that",
+    "s": 6.3,
+    "e": 6.58
+   },
+   {
+    "w": "power",
+    "s": 6.58,
+    "e": 7.0
+   },
+   {
+    "w": "radar.",
+    "s": 7.0,
+    "e": 7.4
+   }
+  ],
+  "heard": "It was 1945. Percy Spencer was building magnetrons, the glowing tubes that power radar."
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "So the story goes, he aimed one at popcorn. It popped. Then at an egg. It exploded.",
+  "dur": 5.333,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.0,
+    "e": 0.16
+   },
+   {
+    "w": "the",
+    "s": 0.16,
+    "e": 0.28
+   },
+   {
+    "w": "story",
+    "s": 0.28,
+    "e": 0.56
+   },
+   {
+    "w": "goes,",
+    "s": 0.56,
+    "e": 0.9
+   },
+   {
+    "w": "he",
+    "s": 1.08,
+    "e": 1.2
+   },
+   {
+    "w": "aimed",
+    "s": 1.2,
+    "e": 1.42
+   },
+   {
+    "w": "one",
+    "s": 1.42,
+    "e": 1.58
+   },
+   {
+    "w": "at",
+    "s": 1.58,
+    "e": 1.7
+   },
+   {
+    "w": "popcorn.",
+    "s": 1.7,
+    "e": 2.12
+   },
+   {
+    "w": "It",
+    "s": 2.4,
+    "e": 2.48
+   },
+   {
+    "w": "popped.",
+    "s": 2.48,
+    "e": 2.8
+   },
+   {
+    "w": "Then",
+    "s": 3.28,
+    "e": 3.48
+   },
+   {
+    "w": "at",
+    "s": 3.48,
+    "e": 3.66
+   },
+   {
+    "w": "an",
+    "s": 3.66,
+    "e": 3.78
+   },
+   {
+    "w": "egg.",
+    "s": 3.78,
+    "e": 4.12
+   },
+   {
+    "w": "It",
+    "s": 4.42,
+    "e": 4.5
+   },
+   {
+    "w": "exploded.",
+    "s": 4.5,
+    "e": 4.96
+   }
+  ],
+  "heard": "So the story goes, he aimed one at popcorn. It popped. Then at an egg. It exploded."
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "The invisible waves were shaking the water inside the food. And all that shaking made heat.",
+  "dur": 5.696,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "invisible",
+    "s": 0.14,
+    "e": 0.56
+   },
+   {
+    "w": "waves",
+    "s": 0.56,
+    "e": 1.12
+   },
+   {
+    "w": "were",
+    "s": 1.12,
+    "e": 1.38
+   },
+   {
+    "w": "shaking",
+    "s": 1.38,
+    "e": 1.72
+   },
+   {
+    "w": "the",
+    "s": 1.72,
+    "e": 1.98
+   },
+   {
+    "w": "water",
+    "s": 1.98,
+    "e": 2.28
+   },
+   {
+    "w": "inside",
+    "s": 2.28,
+    "e": 2.72
+   },
+   {
+    "w": "the",
+    "s": 2.72,
+    "e": 2.94
+   },
+   {
+    "w": "food.",
+    "s": 2.94,
+    "e": 3.32
+   },
+   {
+    "w": "And",
+    "s": 3.9,
+    "e": 3.98
+   },
+   {
+    "w": "all",
+    "s": 3.98,
+    "e": 4.18
+   },
+   {
+    "w": "that",
+    "s": 4.18,
+    "e": 4.4
+   },
+   {
+    "w": "shaking",
+    "s": 4.4,
+    "e": 4.86
+   },
+   {
+    "w": "made",
+    "s": 4.86,
+    "e": 5.16
+   },
+   {
+    "w": "heat.",
+    "s": 5.16,
+    "e": 5.48
+   }
+  ],
+  "heard": "The invisible waves were shaking the water inside the food. And all that shaking made heat."
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "The first microwave oven, in 1947, was almost six feet tall, and weighed about seven hundred and fifty pounds.",
+  "dur": 8.811,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "first",
+    "s": 0.14,
+    "e": 0.44
+   },
+   {
+    "w": "microwave",
+    "s": 0.44,
+    "e": 1.1
+   },
+   {
+    "w": "oven,",
+    "s": 1.1,
+    "e": 1.56
+   },
+   {
+    "w": "in",
+    "s": 1.74,
+    "e": 1.86
+   },
+   {
+    "w": "1947,",
+    "s": 1.86,
+    "e": 2.88
+   },
+   {
+    "w": "was",
+    "s": 3.6,
+    "e": 3.88
+   },
+   {
+    "w": "almost",
+    "s": 3.88,
+    "e": 4.34
+   },
+   {
+    "w": "six",
+    "s": 4.34,
+    "e": 4.74
+   },
+   {
+    "w": "feet",
+    "s": 4.74,
+    "e": 5.1
+   },
+   {
+    "w": "tall,",
+    "s": 5.1,
+    "e": 5.58
+   },
+   {
+    "w": "and",
+    "s": 6.12,
+    "e": 6.2
+   },
+   {
+    "w": "weighed",
+    "s": 6.2,
+    "e": 6.44
+   },
+   {
+    "w": "about",
+    "s": 6.44,
+    "e": 6.76
+   },
+   {
+    "w": "seven",
+    "s": 6.76,
+    "e": 7.14
+   },
+   {
+    "w": "hundred",
+    "s": 7.14,
+    "e": 7.56
+   },
+   {
+    "w": "and",
+    "s": 7.56,
+    "e": 7.74
+   },
+   {
+    "w": "fifty",
+    "s": 7.74,
+    "e": 8.04
+   },
+   {
+    "w": "pounds.",
+    "s": 8.04,
+    "e": 8.44
+   }
+  ],
+  "heard": "The first microwave oven, in 1947, was almost six feet tall, and weighed about seven hundred and fifty pounds."
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "So next time you warm up your food... check your pockets.",
+  "dur": 3.392,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "next",
+    "s": 0.18,
+    "e": 0.4
+   },
+   {
+    "w": "time",
+    "s": 0.4,
+    "e": 0.72
+   },
+   {
+    "w": "you",
+    "s": 0.72,
+    "e": 0.9
+   },
+   {
+    "w": "warm",
+    "s": 0.9,
+    "e": 1.12
+   },
+   {
+    "w": "up",
+    "s": 1.12,
+    "e": 1.3
+   },
+   {
+    "w": "your",
+    "s": 1.3,
+    "e": 1.42
+   },
+   {
+    "w": "food...",
+    "s": 1.42,
+    "e": 2.46
+   },
+   {
+    "w": "check",
+    "s": 2.46,
+    "e": 2.48
+   },
+   {
+    "w": "your",
+    "s": 2.48,
+    "e": 2.68
+   },
+   {
+    "w": "pockets.",
+    "s": 2.68,
+    "e": 3.06
+   }
+  ],
+  "heard": "So next time you warm up your food... check your pockets."
+ }
+]

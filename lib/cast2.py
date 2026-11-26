@@ -90,6 +90,21 @@ CAST = {
                      legs="#3A4A6A", shoes="#F4F1EA", jaw=0.0, prop=None, female=True, hoodie=True),
     "vet":      dict(name="Researcher", skin="#B57A55", iris="#3A2A1E", face="square", hair="short", hair_c="#1E1A24", top="#F4F1EA", top2="#E07A3A",
                      legs="#2A3A4A", shoes=INK, jaw=0.2, prop=None, buttons=True),
+    # added 26 Nov 2026 for B-008 "accidental inventions" (same v2.1 rules: generic period stand-ins, role by clothes, no likeness of real people)
+    "radar":    dict(name="Radar engineer", skin="#EBC09E", iris="#4A5A6A", face="long", hair="short", hair_c="#8A8A8A", top="#5A6E8A", top2="#F4F1EA",
+                     legs="#3A3A44", shoes=INK, coat=True, jaw=0.4, prop=None),
+    "shipwright": dict(name="Shipyard engineer", skin="#E3B48E", iris="#3E5A7A", face="square", hair="flatcap", hair_c="#2F3A4F", top="#3E6A8C", top2="#C9CED6",
+                     legs="#2A3A4A", shoes="#2A1A10", jaw=0.4, prop=None, buttons=True),
+    "hiker":    dict(name="Hiker", skin="#F3D0B5", iris="#4A6A5C", face="long", hair="fedora", hair_c="#4E6A3A", top="#9A4A2A", top2="#E8C46A",
+                     legs="#6A5A44", shoes="#2A1A10", moustache="#5B3A29", jaw=0.3, prop=None),
+    "chemist":  dict(name="Chemist", skin="#F1CDB0", iris="#3A2A1E", face="round", hair="short", hair_c="#3A2416", top="#F4F1EA", top2="#5ED3B5",
+                     legs="#2E3B52", shoes=INK, glasses=True, coat=True, jaw=0.2, prop=None),
+    "gaslab":   dict(name="Gas chemist", skin="#D8A580", iris="#3A2A1E", face="square", hair="short", hair_c="#22181B", top="#F4F1EA", top2="#FF6B5B",
+                     legs="#3A3026", shoes=INK, coat=True, jaw=0.3, prop=None),
+    "labdoc":   dict(name="Lab doctor", skin="#F3D0B5", iris="#4A6A8C", face="round", hair="short", hair_c="#B8A890", top="#F4F1EA", top2="#2F3A4F",
+                     legs="#3A3A44", shoes=INK, coat=True, jaw=0.2, prop=None),
+    "betty":    dict(name="Betty", skin="#F1C9A8", iris="#5B3A29", face="round", hair="bun", hair_c="#3A2416", top="#E07A5F", top2="#FFF4E0",
+                     legs="#3A4A6A", shoes=INK, jaw=0.0, prop=None, female=True),
 }
 
 # expressions: eyelid height (0 = fully open, 1 = closed), brow shapes (left, right) as (inner_dy, outer_dy), mouth

@@ -182,3 +182,12 @@ All original (TrueWhys). One episode = `episodes/<ep>/make.py` (`sheet` | `big <
 - New SFX in lib/sfxgen.py (25 Nov): `rumble`, `buzz_fast`, `whir`, `crash`, `bulb_pop`, `power_off`, `power_on`, `firework`, `clunk`.
   `lib/flat_split.split_long(V, keep_cam=True)` keeps each shot's own camera on the extra cuts. `tools/tempo_lines.py <ep> 1.05` speeds narration
   lines (pitch kept) and rescales timing.json without a new TTS request.
+- lib/flat_invent.py (B-008, 26 Nov 2026): Style F invention-story props: `magnetron` (glowing radar tube), `candy_bar` (melt 0..1 with tapered drips) + `pocket`,
+  `popcorn`, `egg` (burst), `oven_1947` (fridge-sized first microwave), `microwave_modern`, `slinky_walk` (spring flipping down steps, coils along an arch),
+  `spring_coil`, `burr`, `hook_closeup`/`loop_closeup`, `hook_strip` (closing strips), `glue_tube`, `glue_drop`, `refractometer` (prisms that stick),
+  `gas_cylinder` (cut open), `scale_dial`, `powder_pile`, `frying_pan` (sliding egg), `flask` (crack web, film), `glass_sandwich`, `petri_dish`
+  (bacteria, mould, clear ring), `microscope_brass`, `medal` (generic), `countdown_plaque`, `display_case`. `from flat_invent import *`. Original, code-drawn.
+- B-008 make.py sets (copy into a new scene): `museum` (Museum of Happy Accidents countdown hall, 7 lit plinths), `radar_lab` (1945), `shipyard` (1943),
+  `parlour` (1945), `store` (1945 department store), `staircase`, `alps`, `study_1941`, `micro_view`, `chem_lab`, `gas_lab` (1938), `paris_lab` (1903),
+  `road_1909` (vintage car + shards), `london_lab` (1928), `factory` (1940s tanks), `kitchen` (modern).
+- lib/cast2.py (B-008): new generic period cast `radar`, `shipwright`, `hiker`, `chemist`, `gaslab`, `labdoc`, `betty`. lib/music.py mood `inventive`.
