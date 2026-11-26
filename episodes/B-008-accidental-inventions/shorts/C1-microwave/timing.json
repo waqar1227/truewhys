@@ -3,509 +3,515 @@
   "id": "H1",
   "chapter": 0,
   "text": "This engineer's candy bar melted in his pocket... and nothing near him was hot.",
-  "dur": 5.005,
+  "dur": 4.94,
   "words": [
    {
     "w": "This",
     "s": 0.0,
-    "e": 0.22
+    "e": 0.42
    },
    {
     "w": "engineer's",
-    "s": 0.22,
+    "s": 0.42,
     "e": 1.0
    },
    {
     "w": "candy",
     "s": 1.0,
-    "e": 1.34
+    "e": 1.3
    },
    {
     "w": "bar",
-    "s": 1.34,
-    "e": 1.74
+    "s": 1.3,
+    "e": 1.58
    },
    {
     "w": "melted",
-    "s": 1.74,
-    "e": 2.12
+    "s": 1.58,
+    "e": 1.96
    },
    {
     "w": "in",
-    "s": 2.12,
-    "e": 2.38
+    "s": 1.96,
+    "e": 2.28
    },
    {
     "w": "his",
-    "s": 2.38,
-    "e": 2.52
+    "s": 2.28,
+    "e": 2.44
    },
    {
     "w": "pocket...",
-    "s": 2.52,
-    "e": 3.52
+    "s": 2.44,
+    "e": 2.82
    },
    {
     "w": "and",
-    "s": 3.52,
+    "s": 3.44,
     "e": 3.6
    },
    {
     "w": "nothing",
     "s": 3.6,
-    "e": 3.84
+    "e": 3.94
    },
    {
     "w": "near",
-    "s": 3.84,
-    "e": 4.12
+    "s": 3.94,
+    "e": 4.2
    },
    {
     "w": "him",
-    "s": 4.12,
-    "e": 4.36
+    "s": 4.2,
+    "e": 4.4
    },
    {
     "w": "was",
-    "s": 4.36,
+    "s": 4.4,
     "e": 4.54
    },
    {
     "w": "hot.",
     "s": 4.54,
-    "e": 4.88
+    "e": 4.8
    }
   ],
-  "heard": "This engineer's candy bar melted in his pocket... and nothing near him was hot."
+  "heard": "This engineer's candy bar melted in his pocket. And nothing near him was hot.",
+  "match": 1.0
  },
  {
   "id": "L01",
   "chapter": 0,
   "text": "It was 1945. Percy Spencer was building magnetrons, the glowing tubes that power radar.",
-  "dur": 7.707,
+  "dur": 5.62,
   "words": [
    {
     "w": "It",
-    "s": 0.0,
-    "e": 0.14
+    "s": 0.09,
+    "e": 0.17
    },
    {
     "w": "was",
-    "s": 0.14,
-    "e": 0.26
+    "s": 0.17,
+    "e": 0.25
    },
    {
     "w": "1945.",
-    "s": 0.26,
-    "e": 1.42
+    "s": 0.25,
+    "e": 0.87
    },
    {
     "w": "Percy",
-    "s": 2.68,
-    "e": 2.8
+    "s": 1.75,
+    "e": 1.89
    },
    {
     "w": "Spencer",
-    "s": 2.8,
-    "e": 3.28
+    "s": 1.89,
+    "e": 2.27
    },
    {
     "w": "was",
-    "s": 3.28,
-    "e": 3.58
+    "s": 2.27,
+    "e": 2.49
    },
    {
     "w": "building",
-    "s": 3.58,
-    "e": 3.98
+    "s": 2.49,
+    "e": 2.81
    },
    {
     "w": "magnetrons,",
-    "s": 3.98,
-    "e": 4.96
+    "s": 2.81,
+    "e": 3.57
    },
    {
     "w": "the",
-    "s": 5.4,
-    "e": 5.44
+    "s": 3.93,
+    "e": 4.03
    },
    {
     "w": "glowing",
-    "s": 5.44,
-    "e": 5.84
+    "s": 4.03,
+    "e": 4.29
    },
    {
     "w": "tubes",
-    "s": 5.84,
-    "e": 6.3
+    "s": 4.29,
+    "e": 4.63
    },
    {
     "w": "that",
-    "s": 6.3,
-    "e": 6.58
+    "s": 4.63,
+    "e": 4.79
    },
    {
     "w": "power",
-    "s": 6.58,
-    "e": 7.0
+    "s": 4.79,
+    "e": 5.07
    },
    {
     "w": "radar.",
-    "s": 7.0,
-    "e": 7.4
+    "s": 5.07,
+    "e": 5.45
    }
   ],
-  "heard": "It was 1945. Percy Spencer was building magnetrons, the glowing tubes that power radar."
+  "heard": "It was 1945. Percy Spencer was building magnetrons, the glowing tubes that power radar.",
+  "match": 1.0
  },
  {
   "id": "L02",
   "chapter": 0,
   "text": "So the story goes, he aimed one at popcorn. It popped. Then at an egg. It exploded.",
-  "dur": 5.333,
+  "dur": 7.26,
   "words": [
    {
     "w": "So",
-    "s": 0.0,
-    "e": 0.16
+    "s": 0.03,
+    "e": 0.23
    },
    {
     "w": "the",
-    "s": 0.16,
-    "e": 0.28
+    "s": 0.23,
+    "e": 0.33
    },
    {
     "w": "story",
-    "s": 0.28,
-    "e": 0.56
+    "s": 0.33,
+    "e": 0.49
    },
    {
     "w": "goes,",
-    "s": 0.56,
-    "e": 0.9
+    "s": 0.49,
+    "e": 0.91
    },
    {
     "w": "he",
-    "s": 1.08,
-    "e": 1.2
+    "s": 1.35,
+    "e": 1.47
    },
    {
     "w": "aimed",
-    "s": 1.2,
-    "e": 1.42
+    "s": 1.47,
+    "e": 1.75
    },
    {
     "w": "one",
-    "s": 1.42,
-    "e": 1.58
+    "s": 1.75,
+    "e": 2.01
    },
    {
     "w": "at",
-    "s": 1.58,
-    "e": 1.7
+    "s": 2.01,
+    "e": 2.23
    },
    {
     "w": "popcorn.",
-    "s": 1.7,
-    "e": 2.12
+    "s": 2.23,
+    "e": 2.73
    },
    {
     "w": "It",
-    "s": 2.4,
-    "e": 2.48
+    "s": 3.37,
+    "e": 3.61
    },
    {
     "w": "popped.",
-    "s": 2.48,
-    "e": 2.8
+    "s": 3.61,
+    "e": 4.15
    },
    {
     "w": "Then",
-    "s": 3.28,
-    "e": 3.48
+    "s": 4.89,
+    "e": 5.07
    },
    {
     "w": "at",
-    "s": 3.48,
-    "e": 3.66
+    "s": 5.07,
+    "e": 5.21
    },
    {
     "w": "an",
-    "s": 3.66,
-    "e": 3.78
+    "s": 5.21,
+    "e": 5.37
    },
    {
     "w": "egg.",
-    "s": 3.78,
-    "e": 4.12
+    "s": 5.37,
+    "e": 5.57
    },
    {
     "w": "It",
-    "s": 4.42,
-    "e": 4.5
+    "s": 6.13,
+    "e": 6.25
    },
    {
     "w": "exploded.",
-    "s": 4.5,
-    "e": 4.96
+    "s": 6.25,
+    "e": 6.93
    }
   ],
-  "heard": "So the story goes, he aimed one at popcorn. It popped. Then at an egg. It exploded."
+  "heard": "So the story goes, he aimed one at popcorn. It popped. Then at an egg. It exploded.",
+  "match": 1.0
  },
  {
   "id": "L03",
   "chapter": 0,
   "text": "The invisible waves were shaking the water inside the food. And all that shaking made heat.",
-  "dur": 5.696,
+  "dur": 5.86,
   "words": [
    {
     "w": "The",
-    "s": 0.0,
-    "e": 0.14
+    "s": 0.03,
+    "e": 0.55
    },
    {
     "w": "invisible",
-    "s": 0.14,
-    "e": 0.56
+    "s": 0.55,
+    "e": 0.89
    },
    {
     "w": "waves",
-    "s": 0.56,
-    "e": 1.12
+    "s": 0.89,
+    "e": 1.23
    },
    {
     "w": "were",
-    "s": 1.12,
-    "e": 1.38
+    "s": 1.23,
+    "e": 1.43
    },
    {
     "w": "shaking",
-    "s": 1.38,
-    "e": 1.72
+    "s": 1.43,
+    "e": 1.77
    },
    {
     "w": "the",
-    "s": 1.72,
-    "e": 1.98
+    "s": 1.77,
+    "e": 1.99
    },
    {
     "w": "water",
-    "s": 1.98,
-    "e": 2.28
+    "s": 1.99,
+    "e": 2.25
    },
    {
     "w": "inside",
-    "s": 2.28,
-    "e": 2.72
+    "s": 2.25,
+    "e": 2.69
    },
    {
     "w": "the",
-    "s": 2.72,
-    "e": 2.94
+    "s": 2.69,
+    "e": 2.87
    },
    {
     "w": "food.",
-    "s": 2.94,
-    "e": 3.32
+    "s": 2.87,
+    "e": 3.17
    },
    {
     "w": "And",
-    "s": 3.9,
-    "e": 3.98
+    "s": 3.77,
+    "e": 3.91
    },
    {
     "w": "all",
-    "s": 3.98,
-    "e": 4.18
+    "s": 3.91,
+    "e": 4.07
    },
    {
     "w": "that",
-    "s": 4.18,
-    "e": 4.4
+    "s": 4.07,
+    "e": 4.23
    },
    {
     "w": "shaking",
-    "s": 4.4,
-    "e": 4.86
+    "s": 4.23,
+    "e": 4.73
    },
    {
     "w": "made",
-    "s": 4.86,
-    "e": 5.16
+    "s": 4.73,
+    "e": 5.25
    },
    {
     "w": "heat.",
-    "s": 5.16,
-    "e": 5.48
+    "s": 5.25,
+    "e": 5.59
    }
   ],
-  "heard": "The invisible waves were shaking the water inside the food. And all that shaking made heat."
+  "heard": "The invisible waves were shaking the water inside the food. And all that shaking made heat.",
+  "match": 1.0
  },
  {
   "id": "L04",
   "chapter": 0,
   "text": "The first microwave oven, in 1947, was almost six feet tall, and weighed about seven hundred and fifty pounds.",
-  "dur": 8.811,
+  "dur": 6.66,
   "words": [
    {
     "w": "The",
-    "s": 0.0,
-    "e": 0.14
+    "s": 0.03,
+    "e": 0.17
    },
    {
     "w": "first",
-    "s": 0.14,
-    "e": 0.44
+    "s": 0.17,
+    "e": 0.39
    },
    {
     "w": "microwave",
-    "s": 0.44,
-    "e": 1.1
+    "s": 0.39,
+    "e": 0.83
    },
    {
     "w": "oven,",
-    "s": 1.1,
-    "e": 1.56
+    "s": 0.83,
+    "e": 1.21
    },
    {
     "w": "in",
-    "s": 1.74,
-    "e": 1.86
+    "s": 1.35,
+    "e": 1.47
    },
    {
     "w": "1947,",
-    "s": 1.86,
-    "e": 2.88
+    "s": 1.47,
+    "e": 2.07
    },
    {
     "w": "was",
-    "s": 3.6,
-    "e": 3.88
+    "s": 2.43,
+    "e": 2.51
    },
    {
     "w": "almost",
-    "s": 3.88,
-    "e": 4.34
+    "s": 2.51,
+    "e": 2.75
    },
    {
     "w": "six",
-    "s": 4.34,
-    "e": 4.74
+    "s": 2.75,
+    "e": 3.09
    },
    {
     "w": "feet",
-    "s": 4.74,
-    "e": 5.1
+    "s": 3.09,
+    "e": 3.47
    },
    {
     "w": "tall,",
-    "s": 5.1,
-    "e": 5.58
+    "s": 3.47,
+    "e": 3.95
    },
    {
     "w": "and",
-    "s": 6.12,
-    "e": 6.2
+    "s": 4.41,
+    "e": 4.51
    },
    {
     "w": "weighed",
-    "s": 6.2,
-    "e": 6.44
+    "s": 4.51,
+    "e": 4.67
    },
    {
     "w": "about",
-    "s": 6.44,
-    "e": 6.76
+    "s": 4.67,
+    "e": 4.87
    },
    {
     "w": "seven",
-    "s": 6.76,
-    "e": 7.14
+    "s": 4.87,
+    "e": 5.21
    },
    {
     "w": "hundred",
-    "s": 7.14,
-    "e": 7.56
+    "s": 5.21,
+    "e": 5.45
    },
    {
     "w": "and",
-    "s": 7.56,
-    "e": 7.74
+    "s": 5.45,
+    "e": 5.57
    },
    {
     "w": "fifty",
-    "s": 7.74,
-    "e": 8.04
+    "s": 5.57,
+    "e": 5.85
    },
    {
     "w": "pounds.",
-    "s": 8.04,
-    "e": 8.44
+    "s": 5.85,
+    "e": 6.27
    }
   ],
-  "heard": "The first microwave oven, in 1947, was almost six feet tall, and weighed about seven hundred and fifty pounds."
+  "heard": "The first microwave oven, in 1947, was almost six feet tall, and weighed about seven hundred and fifty pounds.",
+  "match": 1.0
  },
  {
   "id": "L05",
   "chapter": 0,
   "text": "So next time you warm up your food... check your pockets.",
-  "dur": 3.392,
+  "dur": 3.2,
   "words": [
    {
     "w": "So",
-    "s": 0.0,
-    "e": 0.18
+    "s": 0.04,
+    "e": 0.26
    },
    {
     "w": "next",
-    "s": 0.18,
-    "e": 0.4
+    "s": 0.26,
+    "e": 0.5
    },
    {
     "w": "time",
-    "s": 0.4,
-    "e": 0.72
+    "s": 0.5,
+    "e": 0.76
    },
    {
     "w": "you",
-    "s": 0.72,
+    "s": 0.76,
     "e": 0.9
    },
    {
     "w": "warm",
     "s": 0.9,
-    "e": 1.12
+    "e": 1.04
    },
    {
     "w": "up",
-    "s": 1.12,
-    "e": 1.3
+    "s": 1.04,
+    "e": 1.18
    },
    {
     "w": "your",
-    "s": 1.3,
-    "e": 1.42
+    "s": 1.18,
+    "e": 1.34
    },
    {
     "w": "food...",
-    "s": 1.42,
-    "e": 2.46
+    "s": 1.34,
+    "e": 2.54
    },
    {
     "w": "check",
-    "s": 2.46,
-    "e": 2.48
+    "s": 2.54,
+    "e": 2.6
    },
    {
     "w": "your",
-    "s": 2.48,
-    "e": 2.68
+    "s": 2.6,
+    "e": 2.76
    },
    {
     "w": "pockets.",
-    "s": 2.68,
-    "e": 3.06
+    "s": 2.76,
+    "e": 3.02
    }
   ],
-  "heard": "So next time you warm up your food... check your pockets."
+  "heard": "So next time you warm up your food... check your pockets.",
+  "match": 1.0
  }
 ]
