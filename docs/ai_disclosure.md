@@ -66,6 +66,8 @@ Unsure → **Yes** (disclosing never hurts reach or money; a missing disclosure 
 | MC19B4dK33U | A-031-ball-drop | Why Do We Drop a Ball on New Year's Eve? | F | **No** |
 | 3Kl_Unm5Uoc | A-032-bubble-wrap | How a Failed 1957 Wallpaper Became Bubble Wrap 🫧 | F | **No** |
 | nIITazsKXPk | A-034-oxford-bell | This Bell Has Rung 10 Billion Times on the Same Batteries 🔔 | F | **No** |
+| NcqUJHj9Sd8 | B-008 (L8) | How 7 Everyday Things Were Invented by Accident | F | **No** |
+| boL0jEN4dNU | B-008 C1 | How a Melted Candy Bar Invented the Microwave 🍫 | F | **No** |
 | rXEOJ5qUawA | A-033-plane-ashtray | Why Plane Toilets Still Need Ashtrays (Smoking Banned Since 2000) ✈️ | R | **Yes** (realistic CG cabin could pass for real footage; unsure → Yes) |
 | 9C-9O0c6VqM | B-001-animal-trials | Why Medieval Courts Put Animals on Trial | T | **No** |
 | 5YqYpWmY7EA | B-001-animal-trials/C0 | Why a Pig Was Executed in a Man's Clothes | T | **No** |

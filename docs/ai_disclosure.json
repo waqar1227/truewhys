@@ -558,5 +558,21 @@
   "synthetic": true,
   "reason": "Yes by the docs/ai_disclosure.md test (unsure -> Yes): the realistic CG airliner cabin, lavatory hardware and close-ups could be mistaken at a glance for real camera footage of a real place, even though no real footage, real person, voice clone or AI music is used (CG built in Blender, generic TTS narrator, code-made music). 25 Nov 2026.",
   "decided": "2026-11-25"
+ },
+ "NcqUJHj9Sd8": {
+  "episode": "B-008 (L8)",
+  "title": "How 7 Everyday Things Were Invented by Accident",
+  "style": "F: flat 2D",
+  "synthetic": false,
+  "reason": "Not realistic: flat 2D cartoon (cast v2.2 stand-ins, code-drawn props and sets), generic TTS narrator imitating no real person, code-made music; no realistic people, places or events and no real person shown saying or doing anything (docs/ai_disclosure.md test, 26 Nov 2026).",
+  "decided": "2026-11-26"
+ },
+ "boL0jEN4dNU": {
+  "episode": "B-008 C1",
+  "title": "How a Melted Candy Bar Invented the Microwave 🍫",
+  "style": "F: flat 2D",
+  "synthetic": false,
+  "reason": "Not realistic: flat 2D cartoon (cast v2.2 stand-ins, code-drawn props and sets), generic TTS narrator imitating no real person, code-made music; no realistic people, places or events and no real person shown saying or doing anything (docs/ai_disclosure.md test, 26 Nov 2026).",
+  "decided": "2026-11-26"
  }
 }
