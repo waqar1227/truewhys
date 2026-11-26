@@ -1,6 +1,9 @@
 {
  "video_id": "l_w8yDvCZiI",
- "publishAt": "2026-12-07T17:00:00Z",
+ "publishAt": "2026-12-05T17:00:00Z",
  "title": "Why Toast Lands Butter-Side Down, Shoelaces Untie and Earbuds Tangle",
- "thumbnail": true
+ "thumbnail": true,
+ "reschedules": [
+  "2026-11-26T06:53:11+00:00"
+ ]
 }

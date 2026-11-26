@@ -6,25 +6,29 @@ Rules added 22 Nov (all in CLAUDE.md): 5 posts/week, 1 per day, Mon+Wed free, lo
 (docs/posting_times.md) · trend swap allowed · NO burned-in captions (SRT upload) · research/why_not_viral.md production rules ·
 docs/growth_strategy.md · docs/competitor_targeting.md (never creator names in metadata) · cast v2.2 (arms/turns) · ROLLING BUFFER (owner 26 Nov): each post that goes public → make 1 new video for the next empty slot (keep ~37 days ahead).
 
-CALENDAR (UTC). Scheduled: Sun 22 A-021 · Mon 23 16:00 A-025 T3CvD2HqRaE (trend swap, owner 23 Nov; A-017 moved to Tue 22 Dec 18:00) · Tue 24 A-012 · Wed 25 A-011 · Thu 26 A-013 · Fri 27 A-018 · Wed 25 18:00 A-029 5ryX939np_w (controller rumble; trend swap, owner 25 Nov: GTA trending, moved from Sat 12 Dec) · Sat 28 18:00 A-028 6OXodt-6jFo (windshield, Style F; owner one-time winter exception to the posting days, 25 Nov) · Sun 29 17:00 L4 dgmYB0zPALw ·
-Tue 1 Dec 18:00 L4-C1 PtETjFRHH24 · Thu 3 Dec 16:00 A-010 · Fri 4 Dec 18:00 L4-C2 cXgM0GJELw0 · Sat 5 Dec 18:00 A-019 1I_m4OaiQzE · Sun 6 Dec 16:00 A-016 · Fri 11 Dec 18:00 A-022 VAUl6EfZebw · Sun 13 Dec 17:00 L6 acW1qBL5TzI (brain glitches, Style F) · Tue 15 Dec 18:00 A-026 -8MLpCFqDuw (tongue on frozen pole, Style F) · Thu 17 Dec 18:00 L6-C1 zvHTp6BC06E (phantom phone buzz) · Fri 18 Dec 18:00 A-023 3ZAI7vLZZkE (foot asleep, Style F) · Sat 19 Dec 18:00 A-024 sJ8lsYNlHTk (microwave mesh) · Sun 20 Dec 17:00 L7 NnTHvcf23Vc (cats vs dogs, Style F) · Tue 22 Dec 18:00 A-017 S8zIxiPXHpE (moved) · Thu 24 Dec 18:00 A-027 _6wnNSSo4fU (reindeer eyes, Style F) · Fri 25 Dec 18:00 A-030 jPrVioaxbNY (Christmas lights, Style F) · Sat 26 Dec 18:00 L7-C1 KnGjNdHW0l4 (puppy eyes) · Tue 29 Dec 18:00 A-031 MC19B4dK33U (New Year ball drop, Style F) · Thu 31 Dec 18:00 A-032 3Kl_Unm5Uoc (bubble wrap, Style F, Studio pattern 1) · Fri 1 Jan 18:00 A-033 rXEOJ5qUawA (plane ashtray, Style R, pattern 2, AI field Yes) · Sat 2 Jan 18:00 A-034 nIITazsKXPk (Oxford bell, Style F time-lapse room, pattern 3).
+CALENDAR (UTC, rescheduled 26 Nov to the owner's new week: long Sat 17:00, Shorts Sun/Tue/Thu/Fri 18:00): Fri 27 Nov A-018 · Sat 28 A-028 windshield (one-time) · Sun 29 17:00 L4 dgmYB0zPALw ·
+Tue 1 Dec L4-C1 PtETjFRHH24 · Thu 3 A-010 (16:00) · Fri 4 L4-C2 cXgM0GJELw0 · SAT 5 17:00 L5 l_w8yDvCZiI · Sun 6 A-016 (16:00) · Tue 8 L5-C1 7LX7R8f7GB4 · Thu 10 L5-C2 Ydk7QtOzx7M · Fri 11 A-022 VAUl6EfZebw ·
+SAT 12 17:00 L6 acW1qBL5TzI · Sun 13 A-019 1I_m4OaiQzE · Tue 15 A-026 -8MLpCFqDuw · Thu 17 L6-C1 zvHTp6BC06E · Fri 18 A-023 3ZAI7vLZZkE · SAT 19 17:00 L7 NnTHvcf23Vc · Sun 20 A-024 sJ8lsYNlHTk ·
+Tue 22 L7-C1 KnGjNdHW0l4 · Thu 24 A-027 _6wnNSSo4fU · Fri 25 A-030 jPrVioaxbNY (Christmas) · SAT 26 17:00 L8 (in production) · Sun 27 A-017 S8zIxiPXHpE · Tue 29 A-031 MC19B4dK33U · Thu 31 A-032 3Kl_Unm5Uoc ·
+Fri 1 Jan A-033 rXEOJ5qUawA (Style R, AI Yes) · SAT 2 Jan 17:00 L9 (in production, session_01BQj2DdFn9t7V7pKVam5dRY) · Sun 3 Jan A-034 nIITazsKXPk · Tue 5 Jan L8-C1 · Thu 7 Jan L9-C1.
+OWNER teaser posts (new dates): L5 Thu 3 Dec · L6 Thu 10 Dec · L7 Thu 17 Dec · L8 Thu 24 Dec · L9 Thu 31 Dec.
 IN PRODUCTION (22 Nov): Mon 7 Dec 17:00 L5 + teaser post (own session session_01BQj2DeXWy7q3QfcuAZWsgi) · Tue 8 + Thu 10 Dec 18:00 L5 cut Shorts (L5 session).
 DONE 25 Nov (owner: Studio patterns test, research/studio_patterns_2026-11-25.md): A-032 "How a Failed 1957 Wallpaper Became Bubble Wrap 🫧" 3Kl_Unm5Uoc (Thu 31 Dec 18:00, pattern 1) · A-034 "This Bell Has Rung 10 Billion Times on the Same Batteries 🔔" nIITazsKXPk (Sat 2 Jan 18:00, pattern 3): Style F, QA pass, thumbs set, SRT up, AI field No, registers.
 A-033 "Why Plane Toilets Still Need Ashtrays (Smoking Banned Since 2000) ✈️" DONE 25 Nov: Kaggle render (kernel a033 v2) → composed, QA PASS, uploaded rXEOJ5qUawA (Fri 1 Jan 18:00 UTC, AI field Yes), thumbnail true, SRT uploaded, registers updated. 48-h checks: A-032 2 Jan, A-033 3 Jan, A-034 4 Jan: compare the 3 patterns.
 DONE 25 Nov (owner: a few trending Shorts for empty days): A-029 "Why Does Your Controller Shake?" 5ryX939np_w (moved to Wed 25 Nov 18:00, trend swap) · A-030 "Why One Bad Bulb Can Turn Off All Your Christmas Lights" jPrVioaxbNY (Fri 25 Dec 18:00) · A-031 "Why Do We Drop a Ball on New Year's Eve?" MC19B4dK33U (Tue 29 Dec 18:00): Style F, QA pass, thumbs set, SRT up, AI field No, registers. 48-h checks: A-029 27 Nov, A-030 27 Dec, A-031 31 Dec. FREED: Sat 12 Dec 18:00 slot (needs a Short).
 DONE 25 Nov: L7 B-007 "Cats vs Dogs: Who's Smarter, and Who Loves You More?" UPLOADED NnTHvcf23Vc (Sun 20 Dec 17:00 UTC, SRT, thumb A, Style F,
 X-vs-Y format, cat 28) + cut Short C1 "Why Dogs Make Puppy Eyes at You" KnGjNdHW0l4 (Sat 26 Dec 18:00 UTC, SRT, thumb), AI field No, registers.
-OWNER: post the teaser (episodes/B-007-cats-vs-dogs/social/post) Fri 18 Dec; Studio → Related video = L7 (NnTHvcf23Vc) on KnGjNdHW0l4.
+OWNER: post the teaser (episodes/B-007-cats-vs-dogs/social/post) Thu 17 Dec; Studio → Related video = L7 (NnTHvcf23Vc) on KnGjNdHW0l4.
 After 20 Dec 17:00: pinned comment (B-007 upload_meta.json pinned_comment; `python lib/youtube.py comment episodes/B-007-cats-vs-dogs/upload_meta.json`).
 DONE 25 Nov: A-028 "Why Hot Water Can Crack a Frozen Windshield" 6OXodt-6jFo uploaded (owner request; private + publishAt Sat 28 Nov 18:00 UTC = one-time exception to the posting-days rule, owner 25 Nov), thumb, SRT, AI field No, registers.
 DONE 24 Nov: A-024 sJ8lsYNlHTk scheduled Sat 19 Dec 18:00 UTC (SRT, thumb). DONE 23 Nov: A-025 T3CvD2HqRaE scheduled Mon 23 Nov 16:00 UTC, SRT up.
 DONE 24 Nov: A-026 + A-027 uploaded (private + publishAt, thumbs, SRT, AI field No, registers). Each new Short: renders → `make.py render renders` → QA → thumb → upload → SRT → registers.
 DONE 24 Nov: L6 B-006 "Why You Forget Why You Walked Into a Room, Songs Get Stuck and Déjà Vu Happens" UPLOADED acW1qBL5TzI (Sun 13 Dec 17:00 UTC, SRT, thumb A)
 + cut Short C1 "Why You Feel Your Phone Buzz When It Didn't" zvHTp6BC06E (Thu 17 Dec 18:00 UTC, SRT, thumb), AI field No, registers. OWNER: post the teaser
-(episodes/B-006-brain-glitches/social/post) Fri 11 Dec; Studio → Related video = L6 (acW1qBL5TzI) on zvHTp6BC06E. After 13 Dec 17:00: pinned comment
+(episodes/B-006-brain-glitches/social/post) Thu 10 Dec; Studio → Related video = L6 (acW1qBL5TzI) on zvHTp6BC06E. After 13 Dec 17:00: pinned comment
 (B-006 upload_meta.json pinned_comment).
 A-028 DONE 25 Nov (see DONE line above): uploaded 6OXodt-6jFo, Sat 28 Nov 18:00 UTC.
-TO MAKE: L8 B-008 Sun 27 Dec 17:00 + C1 Tue 5 Jan → own session session_01BQj2DgSDnEwPfpipoEyfeR (26 Nov). BUFFER END now Sat 2 Jan. NEW WEEK SHAPE (owner 26 Nov, from 3 Jan): long Sat 17:00, Shorts Sun/Tue/Thu/Fri 18:00. Next empty slots in order: Sun 3 Jan (Short) · Thu 7 Jan · Fri 8 Jan · Sat 9 Jan (L9 long) · Sun 10 Jan · Tue 12 Jan · Thu 14 · Fri 15 · Sat 16 (L10) … Last public-count check: 26 Nov.
+TO MAKE: L8 B-008 Sun 27 Dec 17:00 + C1 Tue 5 Jan → own session session_01BQj2DgSDnEwPfpipoEyfeR (26 Nov). BUFFER END now Sat 2 Jan. NEW WEEK SHAPE (owner 26 Nov, from 3 Jan): long Sat 17:00, Shorts Sun/Tue/Thu/Fri 18:00. Next empty slots in order: Fri 8 Jan · Sat 9 Jan (L10 long) · Sun 10 Jan · Tue 12 Jan · Thu 14 · Fri 15 · Sat 16 (L11) … BUFFER END: Thu 7 Jan.
 DONE: A-026 Tue 15 Dec + A-027 Thu 24 Dec 18:00 (uploaded 24 Nov) ·
 DONE: L7 B-007 Sun 20 Dec 17:00 + teaser (post Fri 18 Dec) + cut Short Sat 26 Dec 18:00 (uploaded 25 Nov)
 Spare (made, not scheduled): L4-C3 caps, L4-C4 manholes.
@@ -38,7 +42,7 @@ TASKS in order:
 3. DONE 23 Nov: A-019 + A-022 uploaded (private + publishAt, thumb, SRT, AI field No, registers). Kaggle: a019+a022 v1+v2 used ≈ 3.7 h session time (render_log.md).
 4. L5 DONE (23 Nov): B-005 "Why Toast Lands Butter-Side Down, Shoelaces Untie and Earbuds Tangle" UPLOADED l_w8yDvCZiI (Mon 7 Dec 17:00 UTC, SRT, thumb A);
    cut Shorts C1 toast 7LX7R8f7GB4 (Tue 8 Dec 18:00) + C2 spaghetti Ydk7QtOzx7M (Thu 10 Dec 18:00), SRT + thumbs. OWNER: Related video = L5 on both;
-   post the teaser (episodes/B-005-annoying-science/social/post) Sat 5 Dec. After 7 Dec 17:00: pinned comment (upload_meta.json).
+   post the teaser (episodes/B-005-annoying-science/social/post) Thu 3 Dec. After 7 Dec 17:00: pinned comment (upload_meta.json).
 5. Trending standalone Shorts: pick on the day from Google Trends/competitor radar; trend swap rule if something goes viral.
 Owner 26 Nov: no B/C thumbnails or alt titles (he does Test & Compare in Studio). Never: change A-020 (owner edited) · move scheduled videos except a trend swap · creator names in metadata.
 

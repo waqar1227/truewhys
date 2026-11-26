@@ -20,7 +20,7 @@ def main(vid, when, ep=None):
     if v["status"]["privacyStatus"] != "private":
         sys.exit(f"refused: {vid} is {v['status']['privacyStatus']}")
     st = {k: v["status"][k] for k in KEEP if k in v["status"]}
-    st["publishAt"] = when; st["containsSyntheticMedia"] = False
+    st["publishAt"] = when; st["containsSyntheticMedia"] = v["status"].get("containsSyntheticMedia", False)
     _, _, r = api("PUT", G + "videos?part=status", tok, {"id": vid, "status": st})
     got = json.loads(r)["status"].get("publishAt")
     print(vid, v["snippet"]["title"][:50], "->", got)
