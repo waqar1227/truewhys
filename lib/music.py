@@ -132,6 +132,8 @@ MOODS = {
     "match":   (52, "mixolydian", 124, [0, 6, 3, 4], 0.9, 2, 0, "bounce"),     # sporty "match day" energy (B-007 rounds)
     "cozy":    (53, "lydian", 80, [0, 3, 1, 4], 0.6, 1, 1, "arp_slow"),      # gentle living-room warmth (B-007 love round)
     "inventive": (57, "lydian", 108, [0, 1, 4, 3], 0.85, 1, 0, "staccato"), # bright "workshop" curiosity (B-008 accidental inventions)
+    "travel":  (55, "lydian", 104, [0, 4, 1, 5], 0.8, 1, 1, "bounce"),       # bright, airy "let's fly" (B-009 journey)
+    "cruise":  (52, "ionian", 76, [0, 5, 3, 4], 0.5, 0, 1, "arp_slow"),      # calm cruising altitude (B-009 window/meal)
 }
 
 

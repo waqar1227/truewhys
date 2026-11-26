@@ -445,3 +445,28 @@ def clunk():
 
 audio.GEN.update(rumble=rumble, buzz_fast=buzz_fast, whir=whir, crash=crash, bulb_pop=bulb_pop, power_off=power_off,
                  power_on=power_on, firework=firework, clunk=clunk)
+
+
+@functools.lru_cache(maxsize=None)
+def cabin_chime():
+    """Two-tone cabin call chime, high then low (original synth, 1.6 s)."""
+    x = np.zeros(int(1.6 * SR))
+    _put(x, _bell(1175, 1.2, 0.45), 0.0)
+    _put(x, _bell(932, 1.2, 0.5), 0.42)
+    return _st(x, 0.55)
+
+
+@functools.lru_cache(maxsize=None)
+def jet_hum():
+    """Steady airliner cabin roar (original synth, 3 s): filtered noise + a low engine tone, soft fade in/out."""
+    rng = np.random.default_rng(52)
+    t = _t(3.0)
+    n = rng.normal(0, 1, len(t))
+    for k in (40, 40):
+        n = np.convolve(n, np.ones(k) / k, "same")
+    x = n * 6 + 0.25 * np.sin(2 * np.pi * 92 * t) + 0.12 * np.sin(2 * np.pi * 184 * t)
+    x *= np.minimum(1, t / 0.4) * np.minimum(1, (3.0 - t) / 0.6)
+    return _st(x, 0.5)
+
+
+audio.GEN.update(cabin_chime=cabin_chime, jet_hum=jet_hum)

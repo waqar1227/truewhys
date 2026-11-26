@@ -1,0 +1,5942 @@
+[
+ {
+  "id": "O01",
+  "chapter": 0,
+  "text": "Right before some planes land at night, the crew switches the cabin lights off. On purpose.",
+  "dur": 5.632,
+  "words": [
+   {
+    "w": "Right",
+    "s": 0.0,
+    "e": 0.28
+   },
+   {
+    "w": "before",
+    "s": 0.28,
+    "e": 0.6
+   },
+   {
+    "w": "some",
+    "s": 0.6,
+    "e": 0.88
+   },
+   {
+    "w": "planes",
+    "s": 0.88,
+    "e": 1.28
+   },
+   {
+    "w": "land",
+    "s": 1.28,
+    "e": 1.58
+   },
+   {
+    "w": "at",
+    "s": 1.58,
+    "e": 1.74
+   },
+   {
+    "w": "night,",
+    "s": 1.74,
+    "e": 2.04
+   },
+   {
+    "w": "the",
+    "s": 2.36,
+    "e": 2.42
+   },
+   {
+    "w": "crew",
+    "s": 2.42,
+    "e": 2.62
+   },
+   {
+    "w": "switches",
+    "s": 2.62,
+    "e": 3.02
+   },
+   {
+    "w": "the",
+    "s": 3.02,
+    "e": 3.24
+   },
+   {
+    "w": "cabin",
+    "s": 3.24,
+    "e": 3.48
+   },
+   {
+    "w": "lights",
+    "s": 3.48,
+    "e": 3.82
+   },
+   {
+    "w": "off.",
+    "s": 3.82,
+    "e": 4.18
+   },
+   {
+    "w": "On",
+    "s": 4.7,
+    "e": 4.9
+   },
+   {
+    "w": "purpose.",
+    "s": 4.9,
+    "e": 5.2
+   }
+  ],
+  "heard": "Right before some planes land at night, the crew switches the cabin lights off. On purpose."
+ },
+ {
+  "id": "O02",
+  "chapter": 0,
+  "text": "It's not to help you sleep. It's in case you have to get out, fast.",
+  "dur": 3.959,
+  "words": [
+   {
+    "w": "It's",
+    "s": 0.0,
+    "e": 0.22
+   },
+   {
+    "w": "not",
+    "s": 0.22,
+    "e": 0.4
+   },
+   {
+    "w": "to",
+    "s": 0.4,
+    "e": 0.58
+   },
+   {
+    "w": "help",
+    "s": 0.58,
+    "e": 0.76
+   },
+   {
+    "w": "you",
+    "s": 0.76,
+    "e": 1.0
+   },
+   {
+    "w": "sleep.",
+    "s": 1.0,
+    "e": 1.3
+   },
+   {
+    "w": "It's",
+    "s": 1.84,
+    "e": 2.0
+   },
+   {
+    "w": "in",
+    "s": 2.0,
+    "e": 2.12
+   },
+   {
+    "w": "case",
+    "s": 2.12,
+    "e": 2.3
+   },
+   {
+    "w": "you",
+    "s": 2.3,
+    "e": 2.52
+   },
+   {
+    "w": "have",
+    "s": 2.52,
+    "e": 2.7
+   },
+   {
+    "w": "to",
+    "s": 2.7,
+    "e": 2.86
+   },
+   {
+    "w": "get",
+    "s": 2.86,
+    "e": 2.98
+   },
+   {
+    "w": "out,",
+    "s": 2.98,
+    "e": 3.24
+   },
+   {
+    "w": "fast.",
+    "s": 3.34,
+    "e": 3.6
+   }
+  ],
+  "heard": "It's not to help you sleep. It's in case you have to get out, fast."
+ },
+ {
+  "id": "O03",
+  "chapter": 0,
+  "text": "Planes make you do a lot of strange things. So let's take one flight together, from the gate to the runway, and find the real reason behind seven of them.",
+  "dur": 9.7,
+  "words": [
+   {
+    "w": "Planes",
+    "s": 0.0,
+    "e": 0.3
+   },
+   {
+    "w": "make",
+    "s": 0.3,
+    "e": 0.64
+   },
+   {
+    "w": "you",
+    "s": 0.64,
+    "e": 0.84
+   },
+   {
+    "w": "do",
+    "s": 0.84,
+    "e": 0.96
+   },
+   {
+    "w": "a",
+    "s": 0.96,
+    "e": 1.08
+   },
+   {
+    "w": "lot",
+    "s": 1.08,
+    "e": 1.24
+   },
+   {
+    "w": "of",
+    "s": 1.24,
+    "e": 1.36
+   },
+   {
+    "w": "strange",
+    "s": 1.36,
+    "e": 1.78
+   },
+   {
+    "w": "things.",
+    "s": 1.78,
+    "e": 2.46
+   },
+   {
+    "w": "So",
+    "s": 3.04,
+    "e": 3.16
+   },
+   {
+    "w": "let's",
+    "s": 3.16,
+    "e": 3.48
+   },
+   {
+    "w": "take",
+    "s": 3.48,
+    "e": 3.64
+   },
+   {
+    "w": "one",
+    "s": 3.64,
+    "e": 3.94
+   },
+   {
+    "w": "flight",
+    "s": 3.94,
+    "e": 4.26
+   },
+   {
+    "w": "together,",
+    "s": 4.26,
+    "e": 4.64
+   },
+   {
+    "w": "from",
+    "s": 5.02,
+    "e": 5.22
+   },
+   {
+    "w": "the",
+    "s": 5.22,
+    "e": 5.38
+   },
+   {
+    "w": "gate",
+    "s": 5.38,
+    "e": 5.6
+   },
+   {
+    "w": "to",
+    "s": 5.6,
+    "e": 5.82
+   },
+   {
+    "w": "the",
+    "s": 5.82,
+    "e": 5.94
+   },
+   {
+    "w": "runway,",
+    "s": 5.94,
+    "e": 6.34
+   },
+   {
+    "w": "and",
+    "s": 6.8,
+    "e": 7.0
+   },
+   {
+    "w": "find",
+    "s": 7.0,
+    "e": 7.26
+   },
+   {
+    "w": "the",
+    "s": 7.26,
+    "e": 7.5
+   },
+   {
+    "w": "real",
+    "s": 7.5,
+    "e": 7.76
+   },
+   {
+    "w": "reason",
+    "s": 7.76,
+    "e": 8.28
+   },
+   {
+    "w": "behind",
+    "s": 8.28,
+    "e": 8.74
+   },
+   {
+    "w": "seven",
+    "s": 8.74,
+    "e": 9.14
+   },
+   {
+    "w": "of",
+    "s": 9.14,
+    "e": 9.36
+   },
+   {
+    "w": "them.",
+    "s": 9.36,
+    "e": 9.54
+   }
+  ],
+  "heard": "Planes make you do a lot of strange things. So let's take one flight together, from the gate to the runway, and find the real reason behind seven of them."
+ },
+ {
+  "id": "G01",
+  "chapter": 0,
+  "text": "Strange thing number one happens before you even step on board.",
+  "dur": 4.093,
+  "words": [
+   {
+    "w": "Strange",
+    "s": 0.0,
+    "e": 0.46
+   },
+   {
+    "w": "thing",
+    "s": 0.46,
+    "e": 0.88
+   },
+   {
+    "w": "number",
+    "s": 0.88,
+    "e": 1.22
+   },
+   {
+    "w": "one",
+    "s": 1.22,
+    "e": 1.6
+   },
+   {
+    "w": "happens",
+    "s": 1.6,
+    "e": 2.04
+   },
+   {
+    "w": "before",
+    "s": 2.04,
+    "e": 2.5
+   },
+   {
+    "w": "you",
+    "s": 2.5,
+    "e": 2.7
+   },
+   {
+    "w": "even",
+    "s": 2.7,
+    "e": 3.0
+   },
+   {
+    "w": "step",
+    "s": 3.0,
+    "e": 3.28
+   },
+   {
+    "w": "on",
+    "s": 3.28,
+    "e": 3.48
+   },
+   {
+    "w": "board.",
+    "s": 3.48,
+    "e": 3.8
+   }
+  ],
+  "heard": "Strange thing number one happens before you even step on board."
+ },
+ {
+  "id": "G02",
+  "chapter": 0,
+  "text": "At almost every airport, you get on the plane through a door on its left side.",
+  "dur": 4.621,
+  "words": [
+   {
+    "w": "At",
+    "s": 0.0,
+    "e": 0.16
+   },
+   {
+    "w": "almost",
+    "s": 0.16,
+    "e": 0.46
+   },
+   {
+    "w": "every",
+    "s": 0.46,
+    "e": 0.9
+   },
+   {
+    "w": "airport,",
+    "s": 0.9,
+    "e": 1.32
+   },
+   {
+    "w": "you",
+    "s": 1.8,
+    "e": 1.92
+   },
+   {
+    "w": "get",
+    "s": 1.92,
+    "e": 2.08
+   },
+   {
+    "w": "on",
+    "s": 2.08,
+    "e": 2.22
+   },
+   {
+    "w": "the",
+    "s": 2.22,
+    "e": 2.36
+   },
+   {
+    "w": "plane",
+    "s": 2.36,
+    "e": 2.62
+   },
+   {
+    "w": "through",
+    "s": 2.62,
+    "e": 2.94
+   },
+   {
+    "w": "a",
+    "s": 2.94,
+    "e": 3.14
+   },
+   {
+    "w": "door",
+    "s": 3.14,
+    "e": 3.34
+   },
+   {
+    "w": "on",
+    "s": 3.34,
+    "e": 3.62
+   },
+   {
+    "w": "its",
+    "s": 3.62,
+    "e": 3.78
+   },
+   {
+    "w": "left",
+    "s": 3.78,
+    "e": 3.96
+   },
+   {
+    "w": "side.",
+    "s": 3.96,
+    "e": 4.4
+   }
+  ],
+  "heard": "At almost every airport, you get on the plane through a door on its left side."
+ },
+ {
+  "id": "G03",
+  "chapter": 0,
+  "text": "The usual explanation comes from ships. Sailors tied up with the left side against the dock, which is why they call it the port side. And early airliners borrowed a lot of their words and habits from the sea.",
+  "dur": 13.387,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "usual",
+    "s": 0.14,
+    "e": 0.5
+   },
+   {
+    "w": "explanation",
+    "s": 0.5,
+    "e": 1.1
+   },
+   {
+    "w": "comes",
+    "s": 1.1,
+    "e": 1.64
+   },
+   {
+    "w": "from",
+    "s": 1.64,
+    "e": 1.9
+   },
+   {
+    "w": "ships.",
+    "s": 1.9,
+    "e": 2.38
+   },
+   {
+    "w": "Sailors",
+    "s": 3.26,
+    "e": 3.52
+   },
+   {
+    "w": "tied",
+    "s": 3.52,
+    "e": 3.86
+   },
+   {
+    "w": "up",
+    "s": 3.86,
+    "e": 4.08
+   },
+   {
+    "w": "with",
+    "s": 4.08,
+    "e": 4.24
+   },
+   {
+    "w": "the",
+    "s": 4.24,
+    "e": 4.4
+   },
+   {
+    "w": "left",
+    "s": 4.4,
+    "e": 4.58
+   },
+   {
+    "w": "side",
+    "s": 4.58,
+    "e": 4.98
+   },
+   {
+    "w": "against",
+    "s": 4.98,
+    "e": 5.3
+   },
+   {
+    "w": "the",
+    "s": 5.3,
+    "e": 5.54
+   },
+   {
+    "w": "dock,",
+    "s": 5.54,
+    "e": 5.88
+   },
+   {
+    "w": "which",
+    "s": 6.2,
+    "e": 6.46
+   },
+   {
+    "w": "is",
+    "s": 6.46,
+    "e": 6.64
+   },
+   {
+    "w": "why",
+    "s": 6.64,
+    "e": 7.0
+   },
+   {
+    "w": "they",
+    "s": 7.0,
+    "e": 7.22
+   },
+   {
+    "w": "call",
+    "s": 7.22,
+    "e": 7.5
+   },
+   {
+    "w": "it",
+    "s": 7.5,
+    "e": 7.66
+   },
+   {
+    "w": "the",
+    "s": 7.66,
+    "e": 7.8
+   },
+   {
+    "w": "port",
+    "s": 7.8,
+    "e": 8.0
+   },
+   {
+    "w": "side.",
+    "s": 8.0,
+    "e": 8.48
+   },
+   {
+    "w": "And",
+    "s": 9.1,
+    "e": 9.24
+   },
+   {
+    "w": "early",
+    "s": 9.24,
+    "e": 9.62
+   },
+   {
+    "w": "airliners",
+    "s": 9.62,
+    "e": 10.26
+   },
+   {
+    "w": "borrowed",
+    "s": 10.26,
+    "e": 10.82
+   },
+   {
+    "w": "a",
+    "s": 10.82,
+    "e": 11.04
+   },
+   {
+    "w": "lot",
+    "s": 11.04,
+    "e": 11.2
+   },
+   {
+    "w": "of",
+    "s": 11.2,
+    "e": 11.36
+   },
+   {
+    "w": "their",
+    "s": 11.36,
+    "e": 11.48
+   },
+   {
+    "w": "words",
+    "s": 11.48,
+    "e": 11.88
+   },
+   {
+    "w": "and",
+    "s": 11.88,
+    "e": 12.12
+   },
+   {
+    "w": "habits",
+    "s": 12.12,
+    "e": 12.48
+   },
+   {
+    "w": "from",
+    "s": 12.48,
+    "e": 12.76
+   },
+   {
+    "w": "the",
+    "s": 12.76,
+    "e": 12.92
+   },
+   {
+    "w": "sea.",
+    "s": 12.92,
+    "e": 13.18
+   }
+  ],
+  "heard": "The usual explanation comes from ships. Sailors tied up with the left side against the dock, which is why they call it the port side. And early airliners borrowed a lot of their words and habits from the sea."
+ },
+ {
+  "id": "G04",
+  "chapter": 0,
+  "text": "But there's a practical reason too. While you walk on at the left, the right side is busy.",
+  "dur": 5.163,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.0,
+    "e": 0.12
+   },
+   {
+    "w": "there's",
+    "s": 0.12,
+    "e": 0.34
+   },
+   {
+    "w": "a",
+    "s": 0.34,
+    "e": 0.42
+   },
+   {
+    "w": "practical",
+    "s": 0.42,
+    "e": 0.82
+   },
+   {
+    "w": "reason",
+    "s": 0.82,
+    "e": 1.22
+   },
+   {
+    "w": "too.",
+    "s": 1.22,
+    "e": 1.68
+   },
+   {
+    "w": "While",
+    "s": 2.3,
+    "e": 2.38
+   },
+   {
+    "w": "you",
+    "s": 2.38,
+    "e": 2.52
+   },
+   {
+    "w": "walk",
+    "s": 2.52,
+    "e": 2.72
+   },
+   {
+    "w": "on",
+    "s": 2.72,
+    "e": 2.96
+   },
+   {
+    "w": "at",
+    "s": 2.96,
+    "e": 3.1
+   },
+   {
+    "w": "the",
+    "s": 3.1,
+    "e": 3.24
+   },
+   {
+    "w": "left,",
+    "s": 3.24,
+    "e": 3.5
+   },
+   {
+    "w": "the",
+    "s": 3.72,
+    "e": 3.76
+   },
+   {
+    "w": "right",
+    "s": 3.76,
+    "e": 4.0
+   },
+   {
+    "w": "side",
+    "s": 4.0,
+    "e": 4.38
+   },
+   {
+    "w": "is",
+    "s": 4.38,
+    "e": 4.58
+   },
+   {
+    "w": "busy.",
+    "s": 4.58,
+    "e": 4.86
+   }
+  ],
+  "heard": "But there's a practical reason too. While you walk on at the left, the right side is busy."
+ },
+ {
+  "id": "G05",
+  "chapter": 0,
+  "text": "Baggage and fuel trucks work over there, so passengers and ground crew stay out of each other's way.",
+  "dur": 6.251,
+  "words": [
+   {
+    "w": "Baggage",
+    "s": 0.0,
+    "e": 0.54
+   },
+   {
+    "w": "and",
+    "s": 0.54,
+    "e": 0.72
+   },
+   {
+    "w": "fuel",
+    "s": 0.72,
+    "e": 1.0
+   },
+   {
+    "w": "trucks",
+    "s": 1.0,
+    "e": 1.42
+   },
+   {
+    "w": "work",
+    "s": 1.42,
+    "e": 1.68
+   },
+   {
+    "w": "over",
+    "s": 1.68,
+    "e": 1.98
+   },
+   {
+    "w": "there,",
+    "s": 1.98,
+    "e": 2.32
+   },
+   {
+    "w": "so",
+    "s": 2.58,
+    "e": 2.88
+   },
+   {
+    "w": "passengers",
+    "s": 2.88,
+    "e": 3.44
+   },
+   {
+    "w": "and",
+    "s": 3.44,
+    "e": 3.86
+   },
+   {
+    "w": "ground",
+    "s": 3.86,
+    "e": 4.2
+   },
+   {
+    "w": "crew",
+    "s": 4.2,
+    "e": 4.6
+   },
+   {
+    "w": "stay",
+    "s": 4.6,
+    "e": 4.94
+   },
+   {
+    "w": "out",
+    "s": 4.94,
+    "e": 5.2
+   },
+   {
+    "w": "of",
+    "s": 5.2,
+    "e": 5.32
+   },
+   {
+    "w": "each",
+    "s": 5.32,
+    "e": 5.52
+   },
+   {
+    "w": "other's",
+    "s": 5.52,
+    "e": 5.86
+   },
+   {
+    "w": "way.",
+    "s": 5.86,
+    "e": 6.06
+   }
+  ],
+  "heard": "Baggage and fuel trucks work over there, so passengers and ground crew stay out of each other's way."
+ },
+ {
+  "id": "G06",
+  "chapter": 0,
+  "text": "Okay. You're in your seat. And the first thing the crew asks about is your phone.",
+  "dur": 4.698,
+  "words": [
+   {
+    "w": "Okay.",
+    "s": 0.0,
+    "e": 0.42
+   },
+   {
+    "w": "You're",
+    "s": 0.68,
+    "e": 0.84
+   },
+   {
+    "w": "in",
+    "s": 0.84,
+    "e": 0.96
+   },
+   {
+    "w": "your",
+    "s": 0.96,
+    "e": 1.1
+   },
+   {
+    "w": "seat.",
+    "s": 1.1,
+    "e": 1.46
+   },
+   {
+    "w": "And",
+    "s": 2.06,
+    "e": 2.1
+   },
+   {
+    "w": "the",
+    "s": 2.1,
+    "e": 2.22
+   },
+   {
+    "w": "first",
+    "s": 2.22,
+    "e": 2.44
+   },
+   {
+    "w": "thing",
+    "s": 2.44,
+    "e": 2.7
+   },
+   {
+    "w": "the",
+    "s": 2.7,
+    "e": 2.9
+   },
+   {
+    "w": "crew",
+    "s": 2.9,
+    "e": 3.1
+   },
+   {
+    "w": "asks",
+    "s": 3.1,
+    "e": 3.44
+   },
+   {
+    "w": "about",
+    "s": 3.44,
+    "e": 3.76
+   },
+   {
+    "w": "is",
+    "s": 3.76,
+    "e": 3.94
+   },
+   {
+    "w": "your",
+    "s": 3.94,
+    "e": 4.1
+   },
+   {
+    "w": "phone.",
+    "s": 4.1,
+    "e": 4.42
+   }
+  ],
+  "heard": "Okay. You're in your seat. And the first thing the crew asks about is your phone."
+ },
+ {
+  "id": "A01",
+  "chapter": 1,
+  "text": "Strange thing number two. Airplane mode.",
+  "dur": 2.855,
+  "words": [
+   {
+    "w": "Strange",
+    "s": 0.0,
+    "e": 0.44
+   },
+   {
+    "w": "thing",
+    "s": 0.44,
+    "e": 0.72
+   },
+   {
+    "w": "number",
+    "s": 0.72,
+    "e": 0.96
+   },
+   {
+    "w": "two.",
+    "s": 0.96,
+    "e": 1.38
+   },
+   {
+    "w": "Airplane",
+    "s": 1.8,
+    "e": 2.16
+   },
+   {
+    "w": "mode.",
+    "s": 2.16,
+    "e": 2.48
+   }
+  ],
+  "heard": "Strange thing number two. Airplane mode."
+ },
+ {
+  "id": "A02",
+  "chapter": 1,
+  "text": "A lot of people think one phone could bring down a plane. Investigators have never proven that a phone has ever done that.",
+  "dur": 7.622,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.0,
+    "e": 0.16
+   },
+   {
+    "w": "lot",
+    "s": 0.16,
+    "e": 0.3
+   },
+   {
+    "w": "of",
+    "s": 0.3,
+    "e": 0.44
+   },
+   {
+    "w": "people",
+    "s": 0.44,
+    "e": 0.66
+   },
+   {
+    "w": "think",
+    "s": 0.66,
+    "e": 1.0
+   },
+   {
+    "w": "one",
+    "s": 1.0,
+    "e": 1.32
+   },
+   {
+    "w": "phone",
+    "s": 1.32,
+    "e": 1.74
+   },
+   {
+    "w": "could",
+    "s": 1.74,
+    "e": 2.02
+   },
+   {
+    "w": "bring",
+    "s": 2.02,
+    "e": 2.26
+   },
+   {
+    "w": "down",
+    "s": 2.26,
+    "e": 2.54
+   },
+   {
+    "w": "a",
+    "s": 2.54,
+    "e": 2.72
+   },
+   {
+    "w": "plane.",
+    "s": 2.72,
+    "e": 3.1
+   },
+   {
+    "w": "Investigators",
+    "s": 4.46,
+    "e": 4.46
+   },
+   {
+    "w": "have",
+    "s": 4.46,
+    "e": 4.88
+   },
+   {
+    "w": "never",
+    "s": 4.88,
+    "e": 5.24
+   },
+   {
+    "w": "proven",
+    "s": 5.24,
+    "e": 5.64
+   },
+   {
+    "w": "that",
+    "s": 5.64,
+    "e": 5.96
+   },
+   {
+    "w": "a",
+    "s": 5.96,
+    "e": 6.08
+   },
+   {
+    "w": "phone",
+    "s": 6.08,
+    "e": 6.38
+   },
+   {
+    "w": "has",
+    "s": 6.38,
+    "e": 6.66
+   },
+   {
+    "w": "ever",
+    "s": 6.66,
+    "e": 6.94
+   },
+   {
+    "w": "done",
+    "s": 6.94,
+    "e": 7.2
+   },
+   {
+    "w": "that.",
+    "s": 7.2,
+    "e": 7.5
+   }
+  ],
+  "heard": "A lot of people think one phone could bring down a plane. Investigators have never proven that a phone has ever done that."
+ },
+ {
+  "id": "A03",
+  "chapter": 1,
+  "text": "So why the rule? Part of the answer is down on the ground.",
+  "dur": 3.669,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.0,
+    "e": 0.2
+   },
+   {
+    "w": "why",
+    "s": 0.2,
+    "e": 0.4
+   },
+   {
+    "w": "the",
+    "s": 0.4,
+    "e": 0.58
+   },
+   {
+    "w": "rule?",
+    "s": 0.58,
+    "e": 0.9
+   },
+   {
+    "w": "Part",
+    "s": 1.46,
+    "e": 1.56
+   },
+   {
+    "w": "of",
+    "s": 1.56,
+    "e": 1.68
+   },
+   {
+    "w": "the",
+    "s": 1.68,
+    "e": 1.82
+   },
+   {
+    "w": "answer",
+    "s": 1.82,
+    "e": 2.12
+   },
+   {
+    "w": "is",
+    "s": 2.12,
+    "e": 2.44
+   },
+   {
+    "w": "down",
+    "s": 2.44,
+    "e": 2.7
+   },
+   {
+    "w": "on",
+    "s": 2.7,
+    "e": 2.92
+   },
+   {
+    "w": "the",
+    "s": 2.92,
+    "e": 3.04
+   },
+   {
+    "w": "ground.",
+    "s": 3.04,
+    "e": 3.34
+   }
+  ],
+  "heard": "So why the rule? Part of the answer is down on the ground."
+ },
+ {
+  "id": "A04",
+  "chapter": 1,
+  "text": "A phone high in the sky can reach many cell towers at once, and it keeps calling out to all of them. That's why, back in 1991, the United States banned using cell phones on the networks in the air.",
+  "dur": 14.577,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "phone",
+    "s": 0.18,
+    "e": 0.48
+   },
+   {
+    "w": "high",
+    "s": 0.48,
+    "e": 0.86
+   },
+   {
+    "w": "in",
+    "s": 0.86,
+    "e": 1.04
+   },
+   {
+    "w": "the",
+    "s": 1.04,
+    "e": 1.16
+   },
+   {
+    "w": "sky",
+    "s": 1.16,
+    "e": 1.54
+   },
+   {
+    "w": "can",
+    "s": 1.54,
+    "e": 1.8
+   },
+   {
+    "w": "reach",
+    "s": 1.8,
+    "e": 2.08
+   },
+   {
+    "w": "many",
+    "s": 2.08,
+    "e": 2.42
+   },
+   {
+    "w": "cell",
+    "s": 2.42,
+    "e": 2.8
+   },
+   {
+    "w": "towers",
+    "s": 2.8,
+    "e": 3.32
+   },
+   {
+    "w": "at",
+    "s": 3.32,
+    "e": 3.54
+   },
+   {
+    "w": "once,",
+    "s": 3.54,
+    "e": 3.96
+   },
+   {
+    "w": "and",
+    "s": 4.28,
+    "e": 4.48
+   },
+   {
+    "w": "it",
+    "s": 4.48,
+    "e": 4.6
+   },
+   {
+    "w": "keeps",
+    "s": 4.6,
+    "e": 4.8
+   },
+   {
+    "w": "calling",
+    "s": 4.8,
+    "e": 5.2
+   },
+   {
+    "w": "out",
+    "s": 5.2,
+    "e": 5.48
+   },
+   {
+    "w": "to",
+    "s": 5.48,
+    "e": 5.64
+   },
+   {
+    "w": "all",
+    "s": 5.64,
+    "e": 5.9
+   },
+   {
+    "w": "of",
+    "s": 5.9,
+    "e": 6.04
+   },
+   {
+    "w": "them.",
+    "s": 6.04,
+    "e": 6.3
+   },
+   {
+    "w": "That's",
+    "s": 6.92,
+    "e": 7.24
+   },
+   {
+    "w": "why,",
+    "s": 7.24,
+    "e": 7.6
+   },
+   {
+    "w": "back",
+    "s": 7.9,
+    "e": 8.26
+   },
+   {
+    "w": "in",
+    "s": 8.26,
+    "e": 8.44
+   },
+   {
+    "w": "1991,",
+    "s": 8.44,
+    "e": 9.4
+   },
+   {
+    "w": "the",
+    "s": 10.3,
+    "e": 10.42
+   },
+   {
+    "w": "United",
+    "s": 10.42,
+    "e": 10.72
+   },
+   {
+    "w": "States",
+    "s": 10.72,
+    "e": 11.16
+   },
+   {
+    "w": "banned",
+    "s": 11.16,
+    "e": 11.6
+   },
+   {
+    "w": "using",
+    "s": 11.6,
+    "e": 12.1
+   },
+   {
+    "w": "cell",
+    "s": 12.1,
+    "e": 12.46
+   },
+   {
+    "w": "phones",
+    "s": 12.46,
+    "e": 12.94
+   },
+   {
+    "w": "on",
+    "s": 12.94,
+    "e": 13.2
+   },
+   {
+    "w": "the",
+    "s": 13.2,
+    "e": 13.34
+   },
+   {
+    "w": "networks",
+    "s": 13.34,
+    "e": 13.72
+   },
+   {
+    "w": "in",
+    "s": 13.72,
+    "e": 14.0
+   },
+   {
+    "w": "the",
+    "s": 14.0,
+    "e": 14.12
+   },
+   {
+    "w": "air.",
+    "s": 14.12,
+    "e": 14.4
+   }
+  ],
+  "heard": "A phone high in the sky can reach many cell towers at once, and it keeps calling out to all of them. That's why, back in 1991, the United States banned using cell phones on the networks in the air."
+ },
+ {
+  "id": "A05",
+  "chapter": 1,
+  "text": "The other part is in the cockpit. Pilots have described a buzzing in their headsets, like a mosquito, when phones nearby search for a signal.",
+  "dur": 8.661,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "other",
+    "s": 0.14,
+    "e": 0.36
+   },
+   {
+    "w": "part",
+    "s": 0.36,
+    "e": 0.7
+   },
+   {
+    "w": "is",
+    "s": 0.7,
+    "e": 0.9
+   },
+   {
+    "w": "in",
+    "s": 0.9,
+    "e": 1.06
+   },
+   {
+    "w": "the",
+    "s": 1.06,
+    "e": 1.2
+   },
+   {
+    "w": "cockpit.",
+    "s": 1.2,
+    "e": 1.62
+   },
+   {
+    "w": "Pilots",
+    "s": 2.46,
+    "e": 2.72
+   },
+   {
+    "w": "have",
+    "s": 2.72,
+    "e": 2.84
+   },
+   {
+    "w": "described",
+    "s": 2.84,
+    "e": 3.34
+   },
+   {
+    "w": "a",
+    "s": 3.34,
+    "e": 3.58
+   },
+   {
+    "w": "buzzing",
+    "s": 3.58,
+    "e": 3.9
+   },
+   {
+    "w": "in",
+    "s": 3.9,
+    "e": 4.08
+   },
+   {
+    "w": "their",
+    "s": 4.08,
+    "e": 4.2
+   },
+   {
+    "w": "headsets,",
+    "s": 4.2,
+    "e": 4.62
+   },
+   {
+    "w": "like",
+    "s": 4.88,
+    "e": 5.0
+   },
+   {
+    "w": "a",
+    "s": 5.0,
+    "e": 5.14
+   },
+   {
+    "w": "mosquito,",
+    "s": 5.14,
+    "e": 5.54
+   },
+   {
+    "w": "when",
+    "s": 6.06,
+    "e": 6.34
+   },
+   {
+    "w": "phones",
+    "s": 6.34,
+    "e": 6.88
+   },
+   {
+    "w": "nearby",
+    "s": 6.88,
+    "e": 7.26
+   },
+   {
+    "w": "search",
+    "s": 7.26,
+    "e": 7.68
+   },
+   {
+    "w": "for",
+    "s": 7.68,
+    "e": 8.0
+   },
+   {
+    "w": "a",
+    "s": 8.0,
+    "e": 8.14
+   },
+   {
+    "w": "signal.",
+    "s": 8.14,
+    "e": 8.4
+   }
+  ],
+  "heard": "The other part is in the cockpit. Pilots have described a buzzing in their headsets, like a mosquito, when phones nearby search for a signal."
+ },
+ {
+  "id": "A06",
+  "chapter": 1,
+  "text": "It's usually just a nuisance. But it comes exactly when pilots are listening hardest, during takeoff and landing.",
+  "dur": 7.143,
+  "words": [
+   {
+    "w": "It's",
+    "s": 0.0,
+    "e": 0.26
+   },
+   {
+    "w": "usually",
+    "s": 0.26,
+    "e": 0.62
+   },
+   {
+    "w": "just",
+    "s": 0.62,
+    "e": 0.94
+   },
+   {
+    "w": "a",
+    "s": 0.94,
+    "e": 1.12
+   },
+   {
+    "w": "nuisance.",
+    "s": 1.12,
+    "e": 1.52
+   },
+   {
+    "w": "But",
+    "s": 2.2,
+    "e": 2.3
+   },
+   {
+    "w": "it",
+    "s": 2.3,
+    "e": 2.4
+   },
+   {
+    "w": "comes",
+    "s": 2.4,
+    "e": 2.64
+   },
+   {
+    "w": "exactly",
+    "s": 2.64,
+    "e": 3.12
+   },
+   {
+    "w": "when",
+    "s": 3.12,
+    "e": 3.5
+   },
+   {
+    "w": "pilots",
+    "s": 3.5,
+    "e": 3.9
+   },
+   {
+    "w": "are",
+    "s": 3.9,
+    "e": 4.14
+   },
+   {
+    "w": "listening",
+    "s": 4.14,
+    "e": 4.5
+   },
+   {
+    "w": "hardest,",
+    "s": 4.5,
+    "e": 5.04
+   },
+   {
+    "w": "during",
+    "s": 5.44,
+    "e": 5.74
+   },
+   {
+    "w": "takeoff",
+    "s": 5.74,
+    "e": 6.28
+   },
+   {
+    "w": "and",
+    "s": 6.28,
+    "e": 6.56
+   },
+   {
+    "w": "landing.",
+    "s": 6.56,
+    "e": 6.86
+   }
+  ],
+  "heard": "It's usually just a nuisance. But it comes exactly when pilots are listening hardest, during takeoff and landing."
+ },
+ {
+  "id": "A07",
+  "chapter": 1,
+  "text": "Most of the time, nothing happens at all. The rule is there for the one time it might.",
+  "dur": 5.111,
+  "words": [
+   {
+    "w": "Most",
+    "s": 0.0,
+    "e": 0.24
+   },
+   {
+    "w": "of",
+    "s": 0.24,
+    "e": 0.4
+   },
+   {
+    "w": "the",
+    "s": 0.4,
+    "e": 0.5
+   },
+   {
+    "w": "time,",
+    "s": 0.5,
+    "e": 0.9
+   },
+   {
+    "w": "nothing",
+    "s": 1.08,
+    "e": 1.32
+   },
+   {
+    "w": "happens",
+    "s": 1.32,
+    "e": 1.72
+   },
+   {
+    "w": "at",
+    "s": 1.72,
+    "e": 1.94
+   },
+   {
+    "w": "all.",
+    "s": 1.94,
+    "e": 2.24
+   },
+   {
+    "w": "The",
+    "s": 2.78,
+    "e": 2.9
+   },
+   {
+    "w": "rule",
+    "s": 2.9,
+    "e": 3.16
+   },
+   {
+    "w": "is",
+    "s": 3.16,
+    "e": 3.4
+   },
+   {
+    "w": "there",
+    "s": 3.4,
+    "e": 3.66
+   },
+   {
+    "w": "for",
+    "s": 3.66,
+    "e": 3.88
+   },
+   {
+    "w": "the",
+    "s": 3.88,
+    "e": 4.02
+   },
+   {
+    "w": "one",
+    "s": 4.02,
+    "e": 4.26
+   },
+   {
+    "w": "time",
+    "s": 4.26,
+    "e": 4.56
+   },
+   {
+    "w": "it",
+    "s": 4.56,
+    "e": 4.74
+   },
+   {
+    "w": "might.",
+    "s": 4.74,
+    "e": 4.98
+   }
+  ],
+  "heard": "Most of the time, nothing happens at all. The rule is there for the one time it might."
+ },
+ {
+  "id": "A08",
+  "chapter": 1,
+  "text": "And the next rule is about the seat you're sitting in.",
+  "dur": 2.888,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "the",
+    "s": 0.14,
+    "e": 0.24
+   },
+   {
+    "w": "next",
+    "s": 0.24,
+    "e": 0.48
+   },
+   {
+    "w": "rule",
+    "s": 0.48,
+    "e": 0.86
+   },
+   {
+    "w": "is",
+    "s": 0.86,
+    "e": 1.24
+   },
+   {
+    "w": "about",
+    "s": 1.24,
+    "e": 1.52
+   },
+   {
+    "w": "the",
+    "s": 1.52,
+    "e": 1.7
+   },
+   {
+    "w": "seat",
+    "s": 1.7,
+    "e": 1.94
+   },
+   {
+    "w": "you're",
+    "s": 1.94,
+    "e": 2.22
+   },
+   {
+    "w": "sitting",
+    "s": 2.22,
+    "e": 2.46
+   },
+   {
+    "w": "in.",
+    "s": 2.46,
+    "e": 2.74
+   }
+  ],
+  "heard": "And the next rule is about the seat you're sitting in."
+ },
+ {
+  "id": "S01",
+  "chapter": 2,
+  "text": "Strange thing number three. Seat back upright. Tray table up. Every takeoff, every landing.",
+  "dur": 6.221,
+  "words": [
+   {
+    "w": "Strange",
+    "s": 0.0,
+    "e": 0.46
+   },
+   {
+    "w": "thing",
+    "s": 0.46,
+    "e": 0.78
+   },
+   {
+    "w": "number",
+    "s": 0.78,
+    "e": 1.02
+   },
+   {
+    "w": "three.",
+    "s": 1.02,
+    "e": 1.48
+   },
+   {
+    "w": "Seat",
+    "s": 2.16,
+    "e": 2.18
+   },
+   {
+    "w": "back",
+    "s": 2.18,
+    "e": 2.46
+   },
+   {
+    "w": "upright.",
+    "s": 2.46,
+    "e": 2.92
+   },
+   {
+    "w": "Tray",
+    "s": 3.28,
+    "e": 3.3
+   },
+   {
+    "w": "table",
+    "s": 3.3,
+    "e": 3.68
+   },
+   {
+    "w": "up.",
+    "s": 3.68,
+    "e": 3.98
+   },
+   {
+    "w": "Every",
+    "s": 4.46,
+    "e": 4.68
+   },
+   {
+    "w": "takeoff,",
+    "s": 4.68,
+    "e": 5.06
+   },
+   {
+    "w": "every",
+    "s": 5.4,
+    "e": 5.56
+   },
+   {
+    "w": "landing.",
+    "s": 5.56,
+    "e": 5.94
+   }
+  ],
+  "heard": "Strange thing number three. Seat back upright. Tray table up. Every takeoff, every landing."
+ },
+ {
+  "id": "S02",
+  "chapter": 2,
+  "text": "It feels fussy. But it all comes down to one number. Ninety seconds.",
+  "dur": 4.373,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.0,
+    "e": 0.12
+   },
+   {
+    "w": "feels",
+    "s": 0.12,
+    "e": 0.42
+   },
+   {
+    "w": "fussy.",
+    "s": 0.42,
+    "e": 0.88
+   },
+   {
+    "w": "But",
+    "s": 1.32,
+    "e": 1.36
+   },
+   {
+    "w": "it",
+    "s": 1.36,
+    "e": 1.48
+   },
+   {
+    "w": "all",
+    "s": 1.48,
+    "e": 1.72
+   },
+   {
+    "w": "comes",
+    "s": 1.72,
+    "e": 1.98
+   },
+   {
+    "w": "down",
+    "s": 1.98,
+    "e": 2.26
+   },
+   {
+    "w": "to",
+    "s": 2.26,
+    "e": 2.44
+   },
+   {
+    "w": "one",
+    "s": 2.44,
+    "e": 2.62
+   },
+   {
+    "w": "number.",
+    "s": 2.62,
+    "e": 3.02
+   },
+   {
+    "w": "Ninety",
+    "s": 3.52,
+    "e": 3.72
+   },
+   {
+    "w": "seconds.",
+    "s": 3.72,
+    "e": 4.06
+   }
+  ],
+  "heard": "It feels fussy. But it all comes down to one number. Ninety seconds."
+ },
+ {
+  "id": "S03",
+  "chapter": 2,
+  "text": "Before a new kind of airliner is allowed to carry passengers, its maker has to show that a full plane can be emptied in ninety seconds, with half of the exits blocked.",
+  "dur": 10.581,
+  "words": [
+   {
+    "w": "Before",
+    "s": 0.0,
+    "e": 0.26
+   },
+   {
+    "w": "a",
+    "s": 0.26,
+    "e": 0.44
+   },
+   {
+    "w": "new",
+    "s": 0.44,
+    "e": 0.64
+   },
+   {
+    "w": "kind",
+    "s": 0.64,
+    "e": 0.84
+   },
+   {
+    "w": "of",
+    "s": 0.84,
+    "e": 1.0
+   },
+   {
+    "w": "airliner",
+    "s": 1.0,
+    "e": 1.46
+   },
+   {
+    "w": "is",
+    "s": 1.46,
+    "e": 1.8
+   },
+   {
+    "w": "allowed",
+    "s": 1.8,
+    "e": 2.06
+   },
+   {
+    "w": "to",
+    "s": 2.06,
+    "e": 2.26
+   },
+   {
+    "w": "carry",
+    "s": 2.26,
+    "e": 2.58
+   },
+   {
+    "w": "passengers,",
+    "s": 2.58,
+    "e": 3.26
+   },
+   {
+    "w": "its",
+    "s": 3.98,
+    "e": 4.1
+   },
+   {
+    "w": "maker",
+    "s": 4.1,
+    "e": 4.4
+   },
+   {
+    "w": "has",
+    "s": 4.4,
+    "e": 4.72
+   },
+   {
+    "w": "to",
+    "s": 4.72,
+    "e": 4.94
+   },
+   {
+    "w": "show",
+    "s": 4.94,
+    "e": 5.22
+   },
+   {
+    "w": "that",
+    "s": 5.22,
+    "e": 5.48
+   },
+   {
+    "w": "a",
+    "s": 5.48,
+    "e": 5.58
+   },
+   {
+    "w": "full",
+    "s": 5.58,
+    "e": 5.9
+   },
+   {
+    "w": "plane",
+    "s": 5.9,
+    "e": 6.32
+   },
+   {
+    "w": "can",
+    "s": 6.32,
+    "e": 6.56
+   },
+   {
+    "w": "be",
+    "s": 6.56,
+    "e": 6.72
+   },
+   {
+    "w": "emptied",
+    "s": 6.72,
+    "e": 7.12
+   },
+   {
+    "w": "in",
+    "s": 7.12,
+    "e": 7.36
+   },
+   {
+    "w": "ninety",
+    "s": 7.36,
+    "e": 7.62
+   },
+   {
+    "w": "seconds,",
+    "s": 7.62,
+    "e": 8.24
+   },
+   {
+    "w": "with",
+    "s": 8.56,
+    "e": 8.82
+   },
+   {
+    "w": "half",
+    "s": 8.82,
+    "e": 9.14
+   },
+   {
+    "w": "of",
+    "s": 9.14,
+    "e": 9.34
+   },
+   {
+    "w": "the",
+    "s": 9.34,
+    "e": 9.48
+   },
+   {
+    "w": "exits",
+    "s": 9.48,
+    "e": 9.84
+   },
+   {
+    "w": "blocked.",
+    "s": 9.84,
+    "e": 10.32
+   }
+  ],
+  "heard": "Before a new kind of airliner is allowed to carry passengers, its maker has to show that a full plane can be emptied in ninety seconds, with half of the exits blocked."
+ },
+ {
+  "id": "S04",
+  "chapter": 2,
+  "text": "They test it for real, in the dark. In 2006, the giant double-decker A380 got eight hundred and seventy-three people out in seventy-eight seconds.",
+  "dur": 10.805,
+  "words": [
+   {
+    "w": "They",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "test",
+    "s": 0.18,
+    "e": 0.44
+   },
+   {
+    "w": "it",
+    "s": 0.44,
+    "e": 0.58
+   },
+   {
+    "w": "for",
+    "s": 0.58,
+    "e": 0.8
+   },
+   {
+    "w": "real,",
+    "s": 0.8,
+    "e": 1.16
+   },
+   {
+    "w": "in",
+    "s": 1.46,
+    "e": 1.64
+   },
+   {
+    "w": "the",
+    "s": 1.64,
+    "e": 1.76
+   },
+   {
+    "w": "dark.",
+    "s": 1.76,
+    "e": 2.16
+   },
+   {
+    "w": "In",
+    "s": 2.82,
+    "e": 2.94
+   },
+   {
+    "w": "2006,",
+    "s": 2.94,
+    "e": 3.86
+   },
+   {
+    "w": "the",
+    "s": 4.54,
+    "e": 4.58
+   },
+   {
+    "w": "giant",
+    "s": 4.58,
+    "e": 5.02
+   },
+   {
+    "w": "double-decker",
+    "s": 5.02,
+    "e": 5.7
+   },
+   {
+    "w": "A380",
+    "s": 5.7,
+    "e": 6.36
+   },
+   {
+    "w": "got",
+    "s": 6.36,
+    "e": 6.76
+   },
+   {
+    "w": "eight",
+    "s": 6.76,
+    "e": 7.06
+   },
+   {
+    "w": "hundred",
+    "s": 7.06,
+    "e": 7.5
+   },
+   {
+    "w": "and",
+    "s": 7.5,
+    "e": 7.74
+   },
+   {
+    "w": "seventy-three",
+    "s": 7.74,
+    "e": 8.46
+   },
+   {
+    "w": "people",
+    "s": 8.46,
+    "e": 8.84
+   },
+   {
+    "w": "out",
+    "s": 8.84,
+    "e": 9.14
+   },
+   {
+    "w": "in",
+    "s": 9.14,
+    "e": 9.38
+   },
+   {
+    "w": "seventy-eight",
+    "s": 9.38,
+    "e": 10.08
+   },
+   {
+    "w": "seconds.",
+    "s": 10.08,
+    "e": 10.48
+   }
+  ],
+  "heard": "They test it for real, in the dark. In 2006, the giant double -decker A380 got eight hundred and seventy -three people out in seventy -eight seconds."
+ },
+ {
+  "id": "S05",
+  "chapter": 2,
+  "text": "Now picture your row. A reclined seat steals the space the person behind you needs to stand up. A tray table that's down blocks them in completely.",
+  "dur": 9.835,
+  "words": [
+   {
+    "w": "Now",
+    "s": 0.0,
+    "e": 0.24
+   },
+   {
+    "w": "picture",
+    "s": 0.24,
+    "e": 0.54
+   },
+   {
+    "w": "your",
+    "s": 0.54,
+    "e": 0.88
+   },
+   {
+    "w": "row.",
+    "s": 0.88,
+    "e": 1.18
+   },
+   {
+    "w": "A",
+    "s": 1.92,
+    "e": 1.96
+   },
+   {
+    "w": "reclined",
+    "s": 1.96,
+    "e": 2.52
+   },
+   {
+    "w": "seat",
+    "s": 2.52,
+    "e": 2.78
+   },
+   {
+    "w": "steals",
+    "s": 2.78,
+    "e": 3.22
+   },
+   {
+    "w": "the",
+    "s": 3.22,
+    "e": 3.54
+   },
+   {
+    "w": "space",
+    "s": 3.54,
+    "e": 3.84
+   },
+   {
+    "w": "the",
+    "s": 3.84,
+    "e": 4.1
+   },
+   {
+    "w": "person",
+    "s": 4.1,
+    "e": 4.44
+   },
+   {
+    "w": "behind",
+    "s": 4.44,
+    "e": 4.88
+   },
+   {
+    "w": "you",
+    "s": 4.88,
+    "e": 5.12
+   },
+   {
+    "w": "needs",
+    "s": 5.12,
+    "e": 5.34
+   },
+   {
+    "w": "to",
+    "s": 5.34,
+    "e": 5.56
+   },
+   {
+    "w": "stand",
+    "s": 5.56,
+    "e": 5.86
+   },
+   {
+    "w": "up.",
+    "s": 5.86,
+    "e": 6.16
+   },
+   {
+    "w": "A",
+    "s": 6.66,
+    "e": 6.76
+   },
+   {
+    "w": "tray",
+    "s": 6.76,
+    "e": 7.04
+   },
+   {
+    "w": "table",
+    "s": 7.04,
+    "e": 7.5
+   },
+   {
+    "w": "that's",
+    "s": 7.5,
+    "e": 7.82
+   },
+   {
+    "w": "down",
+    "s": 7.82,
+    "e": 8.1
+   },
+   {
+    "w": "blocks",
+    "s": 8.1,
+    "e": 8.52
+   },
+   {
+    "w": "them",
+    "s": 8.52,
+    "e": 8.86
+   },
+   {
+    "w": "in",
+    "s": 8.86,
+    "e": 9.02
+   },
+   {
+    "w": "completely.",
+    "s": 9.02,
+    "e": 9.46
+   }
+  ],
+  "heard": "Now picture your row. A reclined seat steals the space the person behind you needs to stand up. A tray table that's down blocks them in completely."
+ },
+ {
+  "id": "S06",
+  "chapter": 2,
+  "text": "Ninety seconds doesn't leave room for a stuck row. And takeoff and landing are exactly when most accidents happen.",
+  "dur": 7.191,
+  "words": [
+   {
+    "w": "Ninety",
+    "s": 0.0,
+    "e": 0.42
+   },
+   {
+    "w": "seconds",
+    "s": 0.42,
+    "e": 0.82
+   },
+   {
+    "w": "doesn't",
+    "s": 0.82,
+    "e": 1.24
+   },
+   {
+    "w": "leave",
+    "s": 1.24,
+    "e": 1.46
+   },
+   {
+    "w": "room",
+    "s": 1.46,
+    "e": 1.76
+   },
+   {
+    "w": "for",
+    "s": 1.76,
+    "e": 2.06
+   },
+   {
+    "w": "a",
+    "s": 2.06,
+    "e": 2.16
+   },
+   {
+    "w": "stuck",
+    "s": 2.16,
+    "e": 2.4
+   },
+   {
+    "w": "row.",
+    "s": 2.4,
+    "e": 2.96
+   },
+   {
+    "w": "And",
+    "s": 3.36,
+    "e": 3.44
+   },
+   {
+    "w": "takeoff",
+    "s": 3.44,
+    "e": 3.86
+   },
+   {
+    "w": "and",
+    "s": 3.86,
+    "e": 4.24
+   },
+   {
+    "w": "landing",
+    "s": 4.24,
+    "e": 4.66
+   },
+   {
+    "w": "are",
+    "s": 4.66,
+    "e": 5.08
+   },
+   {
+    "w": "exactly",
+    "s": 5.08,
+    "e": 5.48
+   },
+   {
+    "w": "when",
+    "s": 5.48,
+    "e": 5.82
+   },
+   {
+    "w": "most",
+    "s": 5.82,
+    "e": 6.04
+   },
+   {
+    "w": "accidents",
+    "s": 6.04,
+    "e": 6.56
+   },
+   {
+    "w": "happen.",
+    "s": 6.56,
+    "e": 6.96
+   }
+  ],
+  "heard": "Ninety seconds doesn't leave room for a stuck row. And takeoff and landing are exactly when most accidents happen."
+ },
+ {
+  "id": "S07",
+  "chapter": 2,
+  "text": "Then, once you're up above the clouds, look at the window. There's a tiny hole in it.",
+  "dur": 4.656,
+  "words": [
+   {
+    "w": "Then,",
+    "s": 0.0,
+    "e": 0.24
+   },
+   {
+    "w": "once",
+    "s": 0.3,
+    "e": 0.52
+   },
+   {
+    "w": "you're",
+    "s": 0.52,
+    "e": 0.74
+   },
+   {
+    "w": "up",
+    "s": 0.74,
+    "e": 0.86
+   },
+   {
+    "w": "above",
+    "s": 0.86,
+    "e": 1.08
+   },
+   {
+    "w": "the",
+    "s": 1.08,
+    "e": 1.3
+   },
+   {
+    "w": "clouds,",
+    "s": 1.3,
+    "e": 1.68
+   },
+   {
+    "w": "look",
+    "s": 1.96,
+    "e": 2.04
+   },
+   {
+    "w": "at",
+    "s": 2.04,
+    "e": 2.16
+   },
+   {
+    "w": "the",
+    "s": 2.16,
+    "e": 2.28
+   },
+   {
+    "w": "window.",
+    "s": 2.28,
+    "e": 2.64
+   },
+   {
+    "w": "There's",
+    "s": 3.18,
+    "e": 3.4
+   },
+   {
+    "w": "a",
+    "s": 3.4,
+    "e": 3.54
+   },
+   {
+    "w": "tiny",
+    "s": 3.54,
+    "e": 3.86
+   },
+   {
+    "w": "hole",
+    "s": 3.86,
+    "e": 4.24
+   },
+   {
+    "w": "in",
+    "s": 4.24,
+    "e": 4.48
+   },
+   {
+    "w": "it.",
+    "s": 4.48,
+    "e": 4.62
+   }
+  ],
+  "heard": "Then, once you're up above the clouds, look at the window. There's a tiny hole in it."
+ },
+ {
+  "id": "W01",
+  "chapter": 3,
+  "text": "Strange thing number four. That tiny hole.",
+  "dur": 2.886,
+  "words": [
+   {
+    "w": "Strange",
+    "s": 0.0,
+    "e": 0.46
+   },
+   {
+    "w": "thing",
+    "s": 0.46,
+    "e": 0.74
+   },
+   {
+    "w": "number",
+    "s": 0.74,
+    "e": 1.0
+   },
+   {
+    "w": "four.",
+    "s": 1.0,
+    "e": 1.46
+   },
+   {
+    "w": "That",
+    "s": 1.84,
+    "e": 1.96
+   },
+   {
+    "w": "tiny",
+    "s": 1.96,
+    "e": 2.28
+   },
+   {
+    "w": "hole.",
+    "s": 2.28,
+    "e": 2.66
+   }
+  ],
+  "heard": "Strange thing number four. That tiny hole."
+ },
+ {
+  "id": "W02",
+  "chapter": 3,
+  "text": "It's not a crack, and it's not a mistake. It's there on purpose.",
+  "dur": 3.918,
+  "words": [
+   {
+    "w": "It's",
+    "s": 0.0,
+    "e": 0.24
+   },
+   {
+    "w": "not",
+    "s": 0.24,
+    "e": 0.42
+   },
+   {
+    "w": "a",
+    "s": 0.42,
+    "e": 0.58
+   },
+   {
+    "w": "crack,",
+    "s": 0.58,
+    "e": 0.86
+   },
+   {
+    "w": "and",
+    "s": 1.08,
+    "e": 1.1
+   },
+   {
+    "w": "it's",
+    "s": 1.1,
+    "e": 1.28
+   },
+   {
+    "w": "not",
+    "s": 1.28,
+    "e": 1.48
+   },
+   {
+    "w": "a",
+    "s": 1.48,
+    "e": 1.62
+   },
+   {
+    "w": "mistake.",
+    "s": 1.62,
+    "e": 2.02
+   },
+   {
+    "w": "It's",
+    "s": 2.56,
+    "e": 2.76
+   },
+   {
+    "w": "there",
+    "s": 2.76,
+    "e": 2.94
+   },
+   {
+    "w": "on",
+    "s": 2.94,
+    "e": 3.2
+   },
+   {
+    "w": "purpose.",
+    "s": 3.2,
+    "e": 3.52
+   }
+  ],
+  "heard": "It's not a crack, and it's not a mistake. It's there on purpose."
+ },
+ {
+  "id": "W03",
+  "chapter": 3,
+  "text": "A plane window is really three layers. The outer pane holds back the pressure. The middle pane is a spare. And the thin inner one just protects the other two from fingers and scratches.",
+  "dur": 11.88,
+  "words": [
+   {
+    "w": "A",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "plane",
+    "s": 0.18,
+    "e": 0.42
+   },
+   {
+    "w": "window",
+    "s": 0.42,
+    "e": 0.92
+   },
+   {
+    "w": "is",
+    "s": 0.92,
+    "e": 1.12
+   },
+   {
+    "w": "really",
+    "s": 1.12,
+    "e": 1.46
+   },
+   {
+    "w": "three",
+    "s": 1.46,
+    "e": 1.8
+   },
+   {
+    "w": "layers.",
+    "s": 1.8,
+    "e": 2.24
+   },
+   {
+    "w": "The",
+    "s": 2.9,
+    "e": 2.98
+   },
+   {
+    "w": "outer",
+    "s": 2.98,
+    "e": 3.24
+   },
+   {
+    "w": "pane",
+    "s": 3.24,
+    "e": 3.64
+   },
+   {
+    "w": "holds",
+    "s": 3.64,
+    "e": 4.06
+   },
+   {
+    "w": "back",
+    "s": 4.06,
+    "e": 4.34
+   },
+   {
+    "w": "the",
+    "s": 4.34,
+    "e": 4.56
+   },
+   {
+    "w": "pressure.",
+    "s": 4.56,
+    "e": 4.88
+   },
+   {
+    "w": "The",
+    "s": 5.54,
+    "e": 5.66
+   },
+   {
+    "w": "middle",
+    "s": 5.66,
+    "e": 5.82
+   },
+   {
+    "w": "pane",
+    "s": 5.82,
+    "e": 6.24
+   },
+   {
+    "w": "is",
+    "s": 6.24,
+    "e": 6.48
+   },
+   {
+    "w": "a",
+    "s": 6.48,
+    "e": 6.6
+   },
+   {
+    "w": "spare.",
+    "s": 6.6,
+    "e": 7.02
+   },
+   {
+    "w": "And",
+    "s": 7.68,
+    "e": 7.72
+   },
+   {
+    "w": "the",
+    "s": 7.72,
+    "e": 7.86
+   },
+   {
+    "w": "thin",
+    "s": 7.86,
+    "e": 8.12
+   },
+   {
+    "w": "inner",
+    "s": 8.12,
+    "e": 8.42
+   },
+   {
+    "w": "one",
+    "s": 8.42,
+    "e": 8.72
+   },
+   {
+    "w": "just",
+    "s": 8.72,
+    "e": 8.92
+   },
+   {
+    "w": "protects",
+    "s": 8.92,
+    "e": 9.32
+   },
+   {
+    "w": "the",
+    "s": 9.32,
+    "e": 9.54
+   },
+   {
+    "w": "other",
+    "s": 9.54,
+    "e": 9.72
+   },
+   {
+    "w": "two",
+    "s": 9.72,
+    "e": 10.04
+   },
+   {
+    "w": "from",
+    "s": 10.04,
+    "e": 10.28
+   },
+   {
+    "w": "fingers",
+    "s": 10.28,
+    "e": 10.72
+   },
+   {
+    "w": "and",
+    "s": 10.72,
+    "e": 11.04
+   },
+   {
+    "w": "scratches.",
+    "s": 11.04,
+    "e": 11.38
+   }
+  ],
+  "heard": "A plane window is really three layers. The outer pane holds back the pressure. The middle pane is a spare. And the thin inner one just protects the other two from fingers and scratches."
+ },
+ {
+  "id": "W04",
+  "chapter": 3,
+  "text": "Up at cruising height, the air inside the cabin pushes outward, hard. The breather hole lets air pass between the layers, so all of that push lands on the outer pane.",
+  "dur": 10.892,
+  "words": [
+   {
+    "w": "Up",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "at",
+    "s": 0.18,
+    "e": 0.34
+   },
+   {
+    "w": "cruising",
+    "s": 0.34,
+    "e": 0.7
+   },
+   {
+    "w": "height,",
+    "s": 0.7,
+    "e": 1.08
+   },
+   {
+    "w": "the",
+    "s": 1.54,
+    "e": 1.6
+   },
+   {
+    "w": "air",
+    "s": 1.6,
+    "e": 1.88
+   },
+   {
+    "w": "inside",
+    "s": 1.88,
+    "e": 2.3
+   },
+   {
+    "w": "the",
+    "s": 2.3,
+    "e": 2.5
+   },
+   {
+    "w": "cabin",
+    "s": 2.5,
+    "e": 2.82
+   },
+   {
+    "w": "pushes",
+    "s": 2.82,
+    "e": 3.22
+   },
+   {
+    "w": "outward,",
+    "s": 3.22,
+    "e": 3.7
+   },
+   {
+    "w": "hard.",
+    "s": 3.88,
+    "e": 4.18
+   },
+   {
+    "w": "The",
+    "s": 4.96,
+    "e": 5.08
+   },
+   {
+    "w": "breather",
+    "s": 5.08,
+    "e": 5.46
+   },
+   {
+    "w": "hole",
+    "s": 5.46,
+    "e": 5.76
+   },
+   {
+    "w": "lets",
+    "s": 5.76,
+    "e": 6.04
+   },
+   {
+    "w": "air",
+    "s": 6.04,
+    "e": 6.36
+   },
+   {
+    "w": "pass",
+    "s": 6.36,
+    "e": 6.72
+   },
+   {
+    "w": "between",
+    "s": 6.72,
+    "e": 7.06
+   },
+   {
+    "w": "the",
+    "s": 7.06,
+    "e": 7.22
+   },
+   {
+    "w": "layers,",
+    "s": 7.22,
+    "e": 7.6
+   },
+   {
+    "w": "so",
+    "s": 7.88,
+    "e": 8.28
+   },
+   {
+    "w": "all",
+    "s": 8.28,
+    "e": 8.58
+   },
+   {
+    "w": "of",
+    "s": 8.58,
+    "e": 8.72
+   },
+   {
+    "w": "that",
+    "s": 8.72,
+    "e": 8.88
+   },
+   {
+    "w": "push",
+    "s": 8.88,
+    "e": 9.16
+   },
+   {
+    "w": "lands",
+    "s": 9.16,
+    "e": 9.58
+   },
+   {
+    "w": "on",
+    "s": 9.58,
+    "e": 9.84
+   },
+   {
+    "w": "the",
+    "s": 9.84,
+    "e": 9.98
+   },
+   {
+    "w": "outer",
+    "s": 9.98,
+    "e": 10.24
+   },
+   {
+    "w": "pane.",
+    "s": 10.24,
+    "e": 10.66
+   }
+  ],
+  "heard": "Up at cruising height, the air inside the cabin pushes outward, hard. The breather hole lets air pass between the layers, so all of that push lands on the outer pane."
+ },
+ {
+  "id": "W05",
+  "chapter": 3,
+  "text": "The middle pane stays relaxed, ready to take over if the outer one ever fails.",
+  "dur": 5.056,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.0,
+    "e": 0.12
+   },
+   {
+    "w": "middle",
+    "s": 0.12,
+    "e": 0.34
+   },
+   {
+    "w": "pane",
+    "s": 0.34,
+    "e": 0.76
+   },
+   {
+    "w": "stays",
+    "s": 0.76,
+    "e": 1.14
+   },
+   {
+    "w": "relaxed,",
+    "s": 1.14,
+    "e": 1.88
+   },
+   {
+    "w": "ready",
+    "s": 2.36,
+    "e": 2.46
+   },
+   {
+    "w": "to",
+    "s": 2.46,
+    "e": 2.66
+   },
+   {
+    "w": "take",
+    "s": 2.66,
+    "e": 2.86
+   },
+   {
+    "w": "over",
+    "s": 2.86,
+    "e": 3.18
+   },
+   {
+    "w": "if",
+    "s": 3.18,
+    "e": 3.34
+   },
+   {
+    "w": "the",
+    "s": 3.34,
+    "e": 3.48
+   },
+   {
+    "w": "outer",
+    "s": 3.48,
+    "e": 3.76
+   },
+   {
+    "w": "one",
+    "s": 3.76,
+    "e": 4.02
+   },
+   {
+    "w": "ever",
+    "s": 4.02,
+    "e": 4.26
+   },
+   {
+    "w": "fails.",
+    "s": 4.26,
+    "e": 4.72
+   }
+  ],
+  "heard": "The middle pane stays relaxed, ready to take over if the outer one ever fails."
+ },
+ {
+  "id": "W06",
+  "chapter": 3,
+  "text": "The hole also lets moisture escape, so the window doesn't fog up or frost over.",
+  "dur": 5.44,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "hole",
+    "s": 0.14,
+    "e": 0.4
+   },
+   {
+    "w": "also",
+    "s": 0.4,
+    "e": 0.84
+   },
+   {
+    "w": "lets",
+    "s": 0.84,
+    "e": 1.12
+   },
+   {
+    "w": "moisture",
+    "s": 1.12,
+    "e": 1.64
+   },
+   {
+    "w": "escape,",
+    "s": 1.64,
+    "e": 2.08
+   },
+   {
+    "w": "so",
+    "s": 2.5,
+    "e": 2.74
+   },
+   {
+    "w": "the",
+    "s": 2.74,
+    "e": 2.9
+   },
+   {
+    "w": "window",
+    "s": 2.9,
+    "e": 3.18
+   },
+   {
+    "w": "doesn't",
+    "s": 3.18,
+    "e": 3.66
+   },
+   {
+    "w": "fog",
+    "s": 3.66,
+    "e": 3.9
+   },
+   {
+    "w": "up",
+    "s": 3.9,
+    "e": 4.22
+   },
+   {
+    "w": "or",
+    "s": 4.22,
+    "e": 4.42
+   },
+   {
+    "w": "frost",
+    "s": 4.42,
+    "e": 4.82
+   },
+   {
+    "w": "over.",
+    "s": 4.82,
+    "e": 5.26
+   }
+  ],
+  "heard": "The hole also lets moisture escape, so the window doesn't fog up or frost over."
+ },
+ {
+  "id": "W07",
+  "chapter": 3,
+  "text": "So you can keep watching the clouds, while lunch arrives. And lunch tastes... strange.",
+  "dur": 5.536,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "you",
+    "s": 0.18,
+    "e": 0.3
+   },
+   {
+    "w": "can",
+    "s": 0.3,
+    "e": 0.5
+   },
+   {
+    "w": "keep",
+    "s": 0.5,
+    "e": 0.7
+   },
+   {
+    "w": "watching",
+    "s": 0.7,
+    "e": 1.08
+   },
+   {
+    "w": "the",
+    "s": 1.08,
+    "e": 1.32
+   },
+   {
+    "w": "clouds,",
+    "s": 1.32,
+    "e": 1.72
+   },
+   {
+    "w": "while",
+    "s": 1.84,
+    "e": 2.06
+   },
+   {
+    "w": "lunch",
+    "s": 2.06,
+    "e": 2.32
+   },
+   {
+    "w": "arrives.",
+    "s": 2.32,
+    "e": 2.8
+   },
+   {
+    "w": "And",
+    "s": 3.38,
+    "e": 3.42
+   },
+   {
+    "w": "lunch",
+    "s": 3.42,
+    "e": 3.66
+   },
+   {
+    "w": "tastes...",
+    "s": 3.66,
+    "e": 4.76
+   },
+   {
+    "w": "strange.",
+    "s": 4.76,
+    "e": 5.02
+   }
+  ],
+  "heard": "So you can keep watching the clouds, while lunch arrives. And lunch tastes... strange."
+ },
+ {
+  "id": "F01",
+  "chapter": 4,
+  "text": "Strange thing number five. Food on a plane tastes bland.",
+  "dur": 3.945,
+  "words": [
+   {
+    "w": "Strange",
+    "s": 0.0,
+    "e": 0.44
+   },
+   {
+    "w": "thing",
+    "s": 0.44,
+    "e": 0.74
+   },
+   {
+    "w": "number",
+    "s": 0.74,
+    "e": 1.0
+   },
+   {
+    "w": "five.",
+    "s": 1.0,
+    "e": 1.52
+   },
+   {
+    "w": "Food",
+    "s": 2.12,
+    "e": 2.28
+   },
+   {
+    "w": "on",
+    "s": 2.28,
+    "e": 2.44
+   },
+   {
+    "w": "a",
+    "s": 2.44,
+    "e": 2.56
+   },
+   {
+    "w": "plane",
+    "s": 2.56,
+    "e": 2.8
+   },
+   {
+    "w": "tastes",
+    "s": 2.8,
+    "e": 3.16
+   },
+   {
+    "w": "bland.",
+    "s": 3.16,
+    "e": 3.64
+   }
+  ],
+  "heard": "Strange thing number five. Food on a plane tastes bland."
+ },
+ {
+  "id": "F02",
+  "chapter": 4,
+  "text": "And it's not only the cooking. It's you.",
+  "dur": 2.328,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.0,
+    "e": 0.16
+   },
+   {
+    "w": "it's",
+    "s": 0.16,
+    "e": 0.36
+   },
+   {
+    "w": "not",
+    "s": 0.36,
+    "e": 0.48
+   },
+   {
+    "w": "only",
+    "s": 0.48,
+    "e": 0.72
+   },
+   {
+    "w": "the",
+    "s": 0.72,
+    "e": 0.9
+   },
+   {
+    "w": "cooking.",
+    "s": 0.9,
+    "e": 1.22
+   },
+   {
+    "w": "It's",
+    "s": 1.66,
+    "e": 1.78
+   },
+   {
+    "w": "you.",
+    "s": 1.78,
+    "e": 2.06
+   }
+  ],
+  "heard": "And it's not only the cooking. It's you."
+ },
+ {
+  "id": "F03",
+  "chapter": 4,
+  "text": "In 2010, the airline Lufthansa asked scientists at Germany's Fraunhofer Institute to test it, inside a real airplane cabin, in a chamber with the same thin, dry air as a flight.",
+  "dur": 13.725,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "2010,",
+    "s": 0.18,
+    "e": 1.08
+   },
+   {
+    "w": "the",
+    "s": 1.8,
+    "e": 1.84
+   },
+   {
+    "w": "airline",
+    "s": 1.84,
+    "e": 2.28
+   },
+   {
+    "w": "Lufthansa",
+    "s": 2.28,
+    "e": 3.06
+   },
+   {
+    "w": "asked",
+    "s": 3.06,
+    "e": 3.44
+   },
+   {
+    "w": "scientists",
+    "s": 3.44,
+    "e": 4.12
+   },
+   {
+    "w": "at",
+    "s": 4.12,
+    "e": 4.44
+   },
+   {
+    "w": "Germany's",
+    "s": 4.44,
+    "e": 5.1
+   },
+   {
+    "w": "Fraunhofer",
+    "s": 5.1,
+    "e": 5.64
+   },
+   {
+    "w": "Institute",
+    "s": 5.64,
+    "e": 6.14
+   },
+   {
+    "w": "to",
+    "s": 6.14,
+    "e": 6.36
+   },
+   {
+    "w": "test",
+    "s": 6.36,
+    "e": 6.66
+   },
+   {
+    "w": "it,",
+    "s": 6.66,
+    "e": 7.08
+   },
+   {
+    "w": "inside",
+    "s": 7.28,
+    "e": 7.84
+   },
+   {
+    "w": "a",
+    "s": 7.84,
+    "e": 8.06
+   },
+   {
+    "w": "real",
+    "s": 8.06,
+    "e": 8.42
+   },
+   {
+    "w": "airplane",
+    "s": 8.42,
+    "e": 8.98
+   },
+   {
+    "w": "cabin,",
+    "s": 8.98,
+    "e": 9.48
+   },
+   {
+    "w": "in",
+    "s": 9.96,
+    "e": 10.08
+   },
+   {
+    "w": "a",
+    "s": 10.08,
+    "e": 10.24
+   },
+   {
+    "w": "chamber",
+    "s": 10.24,
+    "e": 10.52
+   },
+   {
+    "w": "with",
+    "s": 10.52,
+    "e": 10.88
+   },
+   {
+    "w": "the",
+    "s": 10.88,
+    "e": 11.08
+   },
+   {
+    "w": "same",
+    "s": 11.08,
+    "e": 11.34
+   },
+   {
+    "w": "thin,",
+    "s": 11.34,
+    "e": 11.84
+   },
+   {
+    "w": "dry",
+    "s": 12.36,
+    "e": 12.44
+   },
+   {
+    "w": "air",
+    "s": 12.44,
+    "e": 12.88
+   },
+   {
+    "w": "as",
+    "s": 12.88,
+    "e": 13.16
+   },
+   {
+    "w": "a",
+    "s": 13.16,
+    "e": 13.28
+   },
+   {
+    "w": "flight.",
+    "s": 13.28,
+    "e": 13.58
+   }
+  ],
+  "heard": "In 2010, the airline Lufthansa asked scientists at Germany's Fraunhofer Institute to test it, inside a real airplane cabin, in a chamber with the same thin, dry air as a flight."
+ },
+ {
+  "id": "F04",
+  "chapter": 4,
+  "text": "Salt tasted twenty to thirty percent weaker. Sugar, fifteen to twenty percent weaker.",
+  "dur": 5.803,
+  "words": [
+   {
+    "w": "Salt",
+    "s": 0.0,
+    "e": 0.36
+   },
+   {
+    "w": "tasted",
+    "s": 0.36,
+    "e": 0.7
+   },
+   {
+    "w": "twenty",
+    "s": 0.7,
+    "e": 1.14
+   },
+   {
+    "w": "to",
+    "s": 1.14,
+    "e": 1.38
+   },
+   {
+    "w": "thirty",
+    "s": 1.38,
+    "e": 1.74
+   },
+   {
+    "w": "percent",
+    "s": 1.74,
+    "e": 2.14
+   },
+   {
+    "w": "weaker.",
+    "s": 2.14,
+    "e": 2.52
+   },
+   {
+    "w": "Sugar,",
+    "s": 3.26,
+    "e": 3.48
+   },
+   {
+    "w": "fifteen",
+    "s": 4.02,
+    "e": 4.12
+   },
+   {
+    "w": "to",
+    "s": 4.12,
+    "e": 4.52
+   },
+   {
+    "w": "twenty",
+    "s": 4.52,
+    "e": 4.82
+   },
+   {
+    "w": "percent",
+    "s": 4.82,
+    "e": 5.22
+   },
+   {
+    "w": "weaker.",
+    "s": 5.22,
+    "e": 5.56
+   }
+  ],
+  "heard": "Salt tasted twenty to thirty percent weaker. Sugar, fifteen to twenty percent weaker."
+ },
+ {
+  "id": "F05",
+  "chapter": 4,
+  "text": "The dry air also dries out your nose. And most of what we call flavour is really smell.",
+  "dur": 5.781,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.0,
+    "e": 0.12
+   },
+   {
+    "w": "dry",
+    "s": 0.12,
+    "e": 0.4
+   },
+   {
+    "w": "air",
+    "s": 0.4,
+    "e": 0.86
+   },
+   {
+    "w": "also",
+    "s": 0.86,
+    "e": 1.38
+   },
+   {
+    "w": "dries",
+    "s": 1.38,
+    "e": 1.88
+   },
+   {
+    "w": "out",
+    "s": 1.88,
+    "e": 2.02
+   },
+   {
+    "w": "your",
+    "s": 2.02,
+    "e": 2.18
+   },
+   {
+    "w": "nose.",
+    "s": 2.18,
+    "e": 2.62
+   },
+   {
+    "w": "And",
+    "s": 3.2,
+    "e": 3.28
+   },
+   {
+    "w": "most",
+    "s": 3.28,
+    "e": 3.5
+   },
+   {
+    "w": "of",
+    "s": 3.5,
+    "e": 3.66
+   },
+   {
+    "w": "what",
+    "s": 3.66,
+    "e": 3.8
+   },
+   {
+    "w": "we",
+    "s": 3.8,
+    "e": 3.94
+   },
+   {
+    "w": "call",
+    "s": 3.94,
+    "e": 4.16
+   },
+   {
+    "w": "flavour",
+    "s": 4.16,
+    "e": 4.52
+   },
+   {
+    "w": "is",
+    "s": 4.52,
+    "e": 4.88
+   },
+   {
+    "w": "really",
+    "s": 4.88,
+    "e": 5.18
+   },
+   {
+    "w": "smell.",
+    "s": 5.18,
+    "e": 5.54
+   }
+  ],
+  "heard": "The dry air also dries out your nose. And most of what we call flavour is really smell."
+ },
+ {
+  "id": "F06",
+  "chapter": 4,
+  "text": "But one taste held on. Umami, the savoury taste you find in tomatoes.",
+  "dur": 5.077,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "one",
+    "s": 0.14,
+    "e": 0.38
+   },
+   {
+    "w": "taste",
+    "s": 0.38,
+    "e": 0.72
+   },
+   {
+    "w": "held",
+    "s": 0.72,
+    "e": 1.02
+   },
+   {
+    "w": "on.",
+    "s": 1.02,
+    "e": 1.54
+   },
+   {
+    "w": "Umami,",
+    "s": 2.02,
+    "e": 2.4
+   },
+   {
+    "w": "the",
+    "s": 2.72,
+    "e": 2.8
+   },
+   {
+    "w": "savoury",
+    "s": 2.8,
+    "e": 3.38
+   },
+   {
+    "w": "taste",
+    "s": 3.38,
+    "e": 3.54
+   },
+   {
+    "w": "you",
+    "s": 3.54,
+    "e": 3.78
+   },
+   {
+    "w": "find",
+    "s": 3.78,
+    "e": 4.06
+   },
+   {
+    "w": "in",
+    "s": 4.06,
+    "e": 4.22
+   },
+   {
+    "w": "tomatoes.",
+    "s": 4.22,
+    "e": 4.6
+   }
+  ],
+  "heard": "But one taste held on. Umami, the savoury taste you find in tomatoes."
+ },
+ {
+  "id": "F07",
+  "chapter": 4,
+  "text": "Which may explain something odd. People who never drink tomato juice on the ground order it on planes. Lufthansa alone pours hundreds of thousands of litres of it every year.",
+  "dur": 11.885,
+  "words": [
+   {
+    "w": "Which",
+    "s": 0.0,
+    "e": 0.16
+   },
+   {
+    "w": "may",
+    "s": 0.16,
+    "e": 0.38
+   },
+   {
+    "w": "explain",
+    "s": 0.38,
+    "e": 0.82
+   },
+   {
+    "w": "something",
+    "s": 0.82,
+    "e": 1.26
+   },
+   {
+    "w": "odd.",
+    "s": 1.26,
+    "e": 1.72
+   },
+   {
+    "w": "People",
+    "s": 2.34,
+    "e": 2.56
+   },
+   {
+    "w": "who",
+    "s": 2.56,
+    "e": 2.74
+   },
+   {
+    "w": "never",
+    "s": 2.74,
+    "e": 3.0
+   },
+   {
+    "w": "drink",
+    "s": 3.0,
+    "e": 3.3
+   },
+   {
+    "w": "tomato",
+    "s": 3.3,
+    "e": 3.86
+   },
+   {
+    "w": "juice",
+    "s": 3.86,
+    "e": 4.24
+   },
+   {
+    "w": "on",
+    "s": 4.24,
+    "e": 4.58
+   },
+   {
+    "w": "the",
+    "s": 4.58,
+    "e": 4.7
+   },
+   {
+    "w": "ground",
+    "s": 4.7,
+    "e": 5.06
+   },
+   {
+    "w": "order",
+    "s": 5.06,
+    "e": 5.4
+   },
+   {
+    "w": "it",
+    "s": 5.4,
+    "e": 5.58
+   },
+   {
+    "w": "on",
+    "s": 5.58,
+    "e": 5.76
+   },
+   {
+    "w": "planes.",
+    "s": 5.76,
+    "e": 6.24
+   },
+   {
+    "w": "Lufthansa",
+    "s": 7.2,
+    "e": 7.82
+   },
+   {
+    "w": "alone",
+    "s": 7.82,
+    "e": 8.36
+   },
+   {
+    "w": "pours",
+    "s": 8.36,
+    "e": 8.92
+   },
+   {
+    "w": "hundreds",
+    "s": 8.92,
+    "e": 9.24
+   },
+   {
+    "w": "of",
+    "s": 9.24,
+    "e": 9.64
+   },
+   {
+    "w": "thousands",
+    "s": 9.64,
+    "e": 10.1
+   },
+   {
+    "w": "of",
+    "s": 10.1,
+    "e": 10.38
+   },
+   {
+    "w": "litres",
+    "s": 10.38,
+    "e": 10.6
+   },
+   {
+    "w": "of",
+    "s": 10.6,
+    "e": 10.94
+   },
+   {
+    "w": "it",
+    "s": 10.94,
+    "e": 11.06
+   },
+   {
+    "w": "every",
+    "s": 11.06,
+    "e": 11.36
+   },
+   {
+    "w": "year.",
+    "s": 11.36,
+    "e": 11.72
+   }
+  ],
+  "heard": "Which may explain something odd. People who never drink tomato juice on the ground order it on planes. Lufthansa alone pours hundreds of thousands of litres of it every year."
+ },
+ {
+  "id": "F08",
+  "chapter": 4,
+  "text": "And then, somewhere over the ocean, there's the safety card in your seat pocket.",
+  "dur": 4.605,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "then,",
+    "s": 0.18,
+    "e": 0.44
+   },
+   {
+    "w": "somewhere",
+    "s": 0.58,
+    "e": 0.98
+   },
+   {
+    "w": "over",
+    "s": 0.98,
+    "e": 1.24
+   },
+   {
+    "w": "the",
+    "s": 1.24,
+    "e": 1.4
+   },
+   {
+    "w": "ocean,",
+    "s": 1.4,
+    "e": 1.8
+   },
+   {
+    "w": "there's",
+    "s": 2.3,
+    "e": 2.52
+   },
+   {
+    "w": "the",
+    "s": 2.52,
+    "e": 2.7
+   },
+   {
+    "w": "safety",
+    "s": 2.7,
+    "e": 2.96
+   },
+   {
+    "w": "card",
+    "s": 2.96,
+    "e": 3.48
+   },
+   {
+    "w": "in",
+    "s": 3.48,
+    "e": 3.64
+   },
+   {
+    "w": "your",
+    "s": 3.64,
+    "e": 3.74
+   },
+   {
+    "w": "seat",
+    "s": 3.74,
+    "e": 4.0
+   },
+   {
+    "w": "pocket.",
+    "s": 4.0,
+    "e": 4.32
+   }
+  ],
+  "heard": "And then, somewhere over the ocean, there's the safety card in your seat pocket."
+ },
+ {
+  "id": "M01",
+  "chapter": 5,
+  "text": "Strange thing number six. If the oxygen masks drop, put on your own mask first, before you help anyone else. Even your own child.",
+  "dur": 8.824,
+  "words": [
+   {
+    "w": "Strange",
+    "s": 0.0,
+    "e": 0.44
+   },
+   {
+    "w": "thing",
+    "s": 0.44,
+    "e": 0.78
+   },
+   {
+    "w": "number",
+    "s": 0.78,
+    "e": 1.02
+   },
+   {
+    "w": "six.",
+    "s": 1.02,
+    "e": 1.4
+   },
+   {
+    "w": "If",
+    "s": 1.98,
+    "e": 2.14
+   },
+   {
+    "w": "the",
+    "s": 2.14,
+    "e": 2.28
+   },
+   {
+    "w": "oxygen",
+    "s": 2.28,
+    "e": 2.74
+   },
+   {
+    "w": "masks",
+    "s": 2.74,
+    "e": 3.24
+   },
+   {
+    "w": "drop,",
+    "s": 3.24,
+    "e": 3.7
+   },
+   {
+    "w": "put",
+    "s": 4.06,
+    "e": 4.14
+   },
+   {
+    "w": "on",
+    "s": 4.14,
+    "e": 4.28
+   },
+   {
+    "w": "your",
+    "s": 4.28,
+    "e": 4.4
+   },
+   {
+    "w": "own",
+    "s": 4.4,
+    "e": 4.66
+   },
+   {
+    "w": "mask",
+    "s": 4.66,
+    "e": 5.04
+   },
+   {
+    "w": "first,",
+    "s": 5.04,
+    "e": 5.38
+   },
+   {
+    "w": "before",
+    "s": 5.62,
+    "e": 5.8
+   },
+   {
+    "w": "you",
+    "s": 5.8,
+    "e": 5.96
+   },
+   {
+    "w": "help",
+    "s": 5.96,
+    "e": 6.18
+   },
+   {
+    "w": "anyone",
+    "s": 6.18,
+    "e": 6.5
+   },
+   {
+    "w": "else.",
+    "s": 6.5,
+    "e": 6.84
+   },
+   {
+    "w": "Even",
+    "s": 7.38,
+    "e": 7.58
+   },
+   {
+    "w": "your",
+    "s": 7.58,
+    "e": 7.78
+   },
+   {
+    "w": "own",
+    "s": 7.78,
+    "e": 8.04
+   },
+   {
+    "w": "child.",
+    "s": 8.04,
+    "e": 8.44
+   }
+  ],
+  "heard": "Strange thing number six. If the oxygen masks drop, put on your own mask first, before you help anyone else. Even your own child."
+ },
+ {
+  "id": "M02",
+  "chapter": 5,
+  "text": "It sounds selfish. It's actually the opposite.",
+  "dur": 2.944,
+  "words": [
+   {
+    "w": "It",
+    "s": 0.0,
+    "e": 0.16
+   },
+   {
+    "w": "sounds",
+    "s": 0.16,
+    "e": 0.42
+   },
+   {
+    "w": "selfish.",
+    "s": 0.42,
+    "e": 0.92
+   },
+   {
+    "w": "It's",
+    "s": 1.42,
+    "e": 1.64
+   },
+   {
+    "w": "actually",
+    "s": 1.64,
+    "e": 2.04
+   },
+   {
+    "w": "the",
+    "s": 2.04,
+    "e": 2.24
+   },
+   {
+    "w": "opposite.",
+    "s": 2.24,
+    "e": 2.6
+   }
+  ],
+  "heard": "It sounds selfish. It's actually the opposite."
+ },
+ {
+  "id": "M03",
+  "chapter": 5,
+  "text": "At thirty-five thousand feet, the air is so thin that if the cabin loses pressure, you might have only thirty seconds to a minute of clear thinking. Pilots call it the time of useful consciousness.",
+  "dur": 12.979,
+  "words": [
+   {
+    "w": "At",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "thirty-five",
+    "s": 0.18,
+    "e": 0.88
+   },
+   {
+    "w": "thousand",
+    "s": 0.88,
+    "e": 1.3
+   },
+   {
+    "w": "feet,",
+    "s": 1.3,
+    "e": 1.74
+   },
+   {
+    "w": "the",
+    "s": 2.26,
+    "e": 2.28
+   },
+   {
+    "w": "air",
+    "s": 2.28,
+    "e": 2.56
+   },
+   {
+    "w": "is",
+    "s": 2.56,
+    "e": 2.74
+   },
+   {
+    "w": "so",
+    "s": 2.74,
+    "e": 3.04
+   },
+   {
+    "w": "thin",
+    "s": 3.04,
+    "e": 3.46
+   },
+   {
+    "w": "that",
+    "s": 3.46,
+    "e": 3.72
+   },
+   {
+    "w": "if",
+    "s": 3.72,
+    "e": 3.92
+   },
+   {
+    "w": "the",
+    "s": 3.92,
+    "e": 4.1
+   },
+   {
+    "w": "cabin",
+    "s": 4.1,
+    "e": 4.46
+   },
+   {
+    "w": "loses",
+    "s": 4.46,
+    "e": 4.84
+   },
+   {
+    "w": "pressure,",
+    "s": 4.84,
+    "e": 5.38
+   },
+   {
+    "w": "you",
+    "s": 5.88,
+    "e": 6.04
+   },
+   {
+    "w": "might",
+    "s": 6.04,
+    "e": 6.22
+   },
+   {
+    "w": "have",
+    "s": 6.22,
+    "e": 6.46
+   },
+   {
+    "w": "only",
+    "s": 6.46,
+    "e": 6.86
+   },
+   {
+    "w": "thirty",
+    "s": 6.86,
+    "e": 7.26
+   },
+   {
+    "w": "seconds",
+    "s": 7.26,
+    "e": 7.8
+   },
+   {
+    "w": "to",
+    "s": 7.8,
+    "e": 8.06
+   },
+   {
+    "w": "a",
+    "s": 8.06,
+    "e": 8.2
+   },
+   {
+    "w": "minute",
+    "s": 8.2,
+    "e": 8.34
+   },
+   {
+    "w": "of",
+    "s": 8.34,
+    "e": 8.54
+   },
+   {
+    "w": "clear",
+    "s": 8.54,
+    "e": 8.78
+   },
+   {
+    "w": "thinking.",
+    "s": 8.78,
+    "e": 9.32
+   },
+   {
+    "w": "Pilots",
+    "s": 10.22,
+    "e": 10.46
+   },
+   {
+    "w": "call",
+    "s": 10.46,
+    "e": 10.74
+   },
+   {
+    "w": "it",
+    "s": 10.74,
+    "e": 10.92
+   },
+   {
+    "w": "the",
+    "s": 10.92,
+    "e": 11.04
+   },
+   {
+    "w": "time",
+    "s": 11.04,
+    "e": 11.38
+   },
+   {
+    "w": "of",
+    "s": 11.38,
+    "e": 11.62
+   },
+   {
+    "w": "useful",
+    "s": 11.62,
+    "e": 12.02
+   },
+   {
+    "w": "consciousness.",
+    "s": 12.02,
+    "e": 12.62
+   }
+  ],
+  "heard": "At thirty -five thousand feet, the air is so thin that if the cabin loses pressure, you might have only thirty seconds to a minute of clear thinking. Pilots call it the time of useful consciousness."
+ },
+ {
+  "id": "M04",
+  "chapter": 5,
+  "text": "And the scary part is, you don't feel it coming. No pain. Often a strange, calm, happy feeling. And then you can't think straight.",
+  "dur": 8.399,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "the",
+    "s": 0.14,
+    "e": 0.26
+   },
+   {
+    "w": "scary",
+    "s": 0.26,
+    "e": 0.5
+   },
+   {
+    "w": "part",
+    "s": 0.5,
+    "e": 0.86
+   },
+   {
+    "w": "is,",
+    "s": 0.86,
+    "e": 1.14
+   },
+   {
+    "w": "you",
+    "s": 1.22,
+    "e": 1.32
+   },
+   {
+    "w": "don't",
+    "s": 1.32,
+    "e": 1.56
+   },
+   {
+    "w": "feel",
+    "s": 1.56,
+    "e": 1.68
+   },
+   {
+    "w": "it",
+    "s": 1.68,
+    "e": 1.86
+   },
+   {
+    "w": "coming.",
+    "s": 1.86,
+    "e": 2.14
+   },
+   {
+    "w": "No",
+    "s": 2.74,
+    "e": 2.94
+   },
+   {
+    "w": "pain.",
+    "s": 2.94,
+    "e": 3.38
+   },
+   {
+    "w": "Often",
+    "s": 3.98,
+    "e": 4.16
+   },
+   {
+    "w": "a",
+    "s": 4.16,
+    "e": 4.34
+   },
+   {
+    "w": "strange,",
+    "s": 4.34,
+    "e": 4.86
+   },
+   {
+    "w": "calm,",
+    "s": 5.16,
+    "e": 5.44
+   },
+   {
+    "w": "happy",
+    "s": 5.82,
+    "e": 5.86
+   },
+   {
+    "w": "feeling.",
+    "s": 5.86,
+    "e": 6.34
+   },
+   {
+    "w": "And",
+    "s": 6.84,
+    "e": 6.96
+   },
+   {
+    "w": "then",
+    "s": 6.96,
+    "e": 7.06
+   },
+   {
+    "w": "you",
+    "s": 7.06,
+    "e": 7.2
+   },
+   {
+    "w": "can't",
+    "s": 7.2,
+    "e": 7.58
+   },
+   {
+    "w": "think",
+    "s": 7.58,
+    "e": 7.74
+   },
+   {
+    "w": "straight.",
+    "s": 7.74,
+    "e": 8.14
+   }
+  ],
+  "heard": "And the scary part is, you don't feel it coming. No pain. Often a strange, calm, happy feeling. And then you can't think straight."
+ },
+ {
+  "id": "M05",
+  "chapter": 5,
+  "text": "If you help someone else first and fumble with the strap, you could both pass out. Mask on first, and you have all the time you need to help them.",
+  "dur": 8.92,
+  "words": [
+   {
+    "w": "If",
+    "s": 0.0,
+    "e": 0.16
+   },
+   {
+    "w": "you",
+    "s": 0.16,
+    "e": 0.28
+   },
+   {
+    "w": "help",
+    "s": 0.28,
+    "e": 0.5
+   },
+   {
+    "w": "someone",
+    "s": 0.5,
+    "e": 0.82
+   },
+   {
+    "w": "else",
+    "s": 0.82,
+    "e": 1.04
+   },
+   {
+    "w": "first",
+    "s": 1.04,
+    "e": 1.42
+   },
+   {
+    "w": "and",
+    "s": 1.42,
+    "e": 1.76
+   },
+   {
+    "w": "fumble",
+    "s": 1.76,
+    "e": 2.06
+   },
+   {
+    "w": "with",
+    "s": 2.06,
+    "e": 2.34
+   },
+   {
+    "w": "the",
+    "s": 2.34,
+    "e": 2.46
+   },
+   {
+    "w": "strap,",
+    "s": 2.46,
+    "e": 2.86
+   },
+   {
+    "w": "you",
+    "s": 3.36,
+    "e": 3.42
+   },
+   {
+    "w": "could",
+    "s": 3.42,
+    "e": 3.6
+   },
+   {
+    "w": "both",
+    "s": 3.6,
+    "e": 3.84
+   },
+   {
+    "w": "pass",
+    "s": 3.84,
+    "e": 4.22
+   },
+   {
+    "w": "out.",
+    "s": 4.22,
+    "e": 4.68
+   },
+   {
+    "w": "Mask",
+    "s": 5.4,
+    "e": 5.54
+   },
+   {
+    "w": "on",
+    "s": 5.54,
+    "e": 5.78
+   },
+   {
+    "w": "first,",
+    "s": 5.78,
+    "e": 6.14
+   },
+   {
+    "w": "and",
+    "s": 6.52,
+    "e": 6.72
+   },
+   {
+    "w": "you",
+    "s": 6.72,
+    "e": 6.84
+   },
+   {
+    "w": "have",
+    "s": 6.84,
+    "e": 7.02
+   },
+   {
+    "w": "all",
+    "s": 7.02,
+    "e": 7.3
+   },
+   {
+    "w": "the",
+    "s": 7.3,
+    "e": 7.5
+   },
+   {
+    "w": "time",
+    "s": 7.5,
+    "e": 7.82
+   },
+   {
+    "w": "you",
+    "s": 7.82,
+    "e": 8.04
+   },
+   {
+    "w": "need",
+    "s": 8.04,
+    "e": 8.22
+   },
+   {
+    "w": "to",
+    "s": 8.22,
+    "e": 8.36
+   },
+   {
+    "w": "help",
+    "s": 8.36,
+    "e": 8.52
+   },
+   {
+    "w": "them.",
+    "s": 8.52,
+    "e": 8.76
+   }
+  ],
+  "heard": "If you help someone else first and fumble with the strap, you could both pass out. Mask on first, and you have all the time you need to help them."
+ },
+ {
+  "id": "M06",
+  "chapter": 5,
+  "text": "The masks only have to last a few minutes. The pilots dive down to about ten thousand feet, where the air is thick enough to breathe.",
+  "dur": 8.533,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "masks",
+    "s": 0.14,
+    "e": 0.5
+   },
+   {
+    "w": "only",
+    "s": 0.5,
+    "e": 0.82
+   },
+   {
+    "w": "have",
+    "s": 0.82,
+    "e": 1.08
+   },
+   {
+    "w": "to",
+    "s": 1.08,
+    "e": 1.26
+   },
+   {
+    "w": "last",
+    "s": 1.26,
+    "e": 1.52
+   },
+   {
+    "w": "a",
+    "s": 1.52,
+    "e": 1.72
+   },
+   {
+    "w": "few",
+    "s": 1.72,
+    "e": 1.86
+   },
+   {
+    "w": "minutes.",
+    "s": 1.86,
+    "e": 2.24
+   },
+   {
+    "w": "The",
+    "s": 2.92,
+    "e": 2.96
+   },
+   {
+    "w": "pilots",
+    "s": 2.96,
+    "e": 3.38
+   },
+   {
+    "w": "dive",
+    "s": 3.38,
+    "e": 3.8
+   },
+   {
+    "w": "down",
+    "s": 3.8,
+    "e": 4.22
+   },
+   {
+    "w": "to",
+    "s": 4.22,
+    "e": 4.48
+   },
+   {
+    "w": "about",
+    "s": 4.48,
+    "e": 4.76
+   },
+   {
+    "w": "ten",
+    "s": 4.76,
+    "e": 5.12
+   },
+   {
+    "w": "thousand",
+    "s": 5.12,
+    "e": 5.58
+   },
+   {
+    "w": "feet,",
+    "s": 5.58,
+    "e": 6.02
+   },
+   {
+    "w": "where",
+    "s": 6.44,
+    "e": 6.58
+   },
+   {
+    "w": "the",
+    "s": 6.58,
+    "e": 6.72
+   },
+   {
+    "w": "air",
+    "s": 6.72,
+    "e": 7.0
+   },
+   {
+    "w": "is",
+    "s": 7.0,
+    "e": 7.18
+   },
+   {
+    "w": "thick",
+    "s": 7.18,
+    "e": 7.42
+   },
+   {
+    "w": "enough",
+    "s": 7.42,
+    "e": 7.66
+   },
+   {
+    "w": "to",
+    "s": 7.66,
+    "e": 7.9
+   },
+   {
+    "w": "breathe.",
+    "s": 7.9,
+    "e": 8.18
+   }
+  ],
+  "heard": "The masks only have to last a few minutes. The pilots dive down to about ten thousand feet, where the air is thick enough to breathe."
+ },
+ {
+  "id": "M07",
+  "chapter": 5,
+  "text": "Which brings us to the final descent. And the lights.",
+  "dur": 3.239,
+  "words": [
+   {
+    "w": "Which",
+    "s": 0.0,
+    "e": 0.2
+   },
+   {
+    "w": "brings",
+    "s": 0.2,
+    "e": 0.52
+   },
+   {
+    "w": "us",
+    "s": 0.52,
+    "e": 0.76
+   },
+   {
+    "w": "to",
+    "s": 0.76,
+    "e": 0.92
+   },
+   {
+    "w": "the",
+    "s": 0.92,
+    "e": 1.04
+   },
+   {
+    "w": "final",
+    "s": 1.04,
+    "e": 1.4
+   },
+   {
+    "w": "descent.",
+    "s": 1.4,
+    "e": 1.84
+   },
+   {
+    "w": "And",
+    "s": 2.38,
+    "e": 2.48
+   },
+   {
+    "w": "the",
+    "s": 2.48,
+    "e": 2.6
+   },
+   {
+    "w": "lights.",
+    "s": 2.6,
+    "e": 2.86
+   }
+  ],
+  "heard": "Which brings us to the final descent. And the lights."
+ },
+ {
+  "id": "L01",
+  "chapter": 6,
+  "text": "Strange thing number seven. The one from the start.",
+  "dur": 3.088,
+  "words": [
+   {
+    "w": "Strange",
+    "s": 0.0,
+    "e": 0.46
+   },
+   {
+    "w": "thing",
+    "s": 0.46,
+    "e": 0.78
+   },
+   {
+    "w": "number",
+    "s": 0.78,
+    "e": 1.08
+   },
+   {
+    "w": "seven.",
+    "s": 1.08,
+    "e": 1.52
+   },
+   {
+    "w": "The",
+    "s": 1.96,
+    "e": 2.04
+   },
+   {
+    "w": "one",
+    "s": 2.04,
+    "e": 2.2
+   },
+   {
+    "w": "from",
+    "s": 2.2,
+    "e": 2.4
+   },
+   {
+    "w": "the",
+    "s": 2.4,
+    "e": 2.56
+   },
+   {
+    "w": "start.",
+    "s": 2.56,
+    "e": 2.86
+   }
+  ],
+  "heard": "Strange thing number seven. The one from the start."
+ },
+ {
+  "id": "L02",
+  "chapter": 6,
+  "text": "At night, before landing, the cabin lights go dim. And in the day, the crew asks you to open your window shade.",
+  "dur": 6.837,
+  "words": [
+   {
+    "w": "At",
+    "s": 0.0,
+    "e": 0.16
+   },
+   {
+    "w": "night,",
+    "s": 0.16,
+    "e": 0.46
+   },
+   {
+    "w": "before",
+    "s": 0.5,
+    "e": 0.78
+   },
+   {
+    "w": "landing,",
+    "s": 0.78,
+    "e": 1.2
+   },
+   {
+    "w": "the",
+    "s": 1.44,
+    "e": 1.54
+   },
+   {
+    "w": "cabin",
+    "s": 1.54,
+    "e": 1.86
+   },
+   {
+    "w": "lights",
+    "s": 1.86,
+    "e": 2.16
+   },
+   {
+    "w": "go",
+    "s": 2.16,
+    "e": 2.42
+   },
+   {
+    "w": "dim.",
+    "s": 2.42,
+    "e": 2.78
+   },
+   {
+    "w": "And",
+    "s": 3.38,
+    "e": 3.48
+   },
+   {
+    "w": "in",
+    "s": 3.48,
+    "e": 3.58
+   },
+   {
+    "w": "the",
+    "s": 3.58,
+    "e": 3.72
+   },
+   {
+    "w": "day,",
+    "s": 3.72,
+    "e": 4.0
+   },
+   {
+    "w": "the",
+    "s": 4.26,
+    "e": 4.42
+   },
+   {
+    "w": "crew",
+    "s": 4.42,
+    "e": 4.62
+   },
+   {
+    "w": "asks",
+    "s": 4.62,
+    "e": 4.96
+   },
+   {
+    "w": "you",
+    "s": 4.96,
+    "e": 5.18
+   },
+   {
+    "w": "to",
+    "s": 5.18,
+    "e": 5.32
+   },
+   {
+    "w": "open",
+    "s": 5.32,
+    "e": 5.62
+   },
+   {
+    "w": "your",
+    "s": 5.62,
+    "e": 5.84
+   },
+   {
+    "w": "window",
+    "s": 5.84,
+    "e": 6.18
+   },
+   {
+    "w": "shade.",
+    "s": 6.18,
+    "e": 6.54
+   }
+  ],
+  "heard": "At night, before landing, the cabin lights go dim. And in the day, the crew asks you to open your window shade."
+ },
+ {
+  "id": "L03",
+  "chapter": 6,
+  "text": "Both are about your eyes. When you walk from a bright room into a dark one, you're almost blind for a moment. Your eyes need time to adjust.",
+  "dur": 9.045,
+  "words": [
+   {
+    "w": "Both",
+    "s": 0.0,
+    "e": 0.3
+   },
+   {
+    "w": "are",
+    "s": 0.3,
+    "e": 0.52
+   },
+   {
+    "w": "about",
+    "s": 0.52,
+    "e": 0.74
+   },
+   {
+    "w": "your",
+    "s": 0.74,
+    "e": 0.96
+   },
+   {
+    "w": "eyes.",
+    "s": 0.96,
+    "e": 1.42
+   },
+   {
+    "w": "When",
+    "s": 2.0,
+    "e": 2.08
+   },
+   {
+    "w": "you",
+    "s": 2.08,
+    "e": 2.22
+   },
+   {
+    "w": "walk",
+    "s": 2.22,
+    "e": 2.46
+   },
+   {
+    "w": "from",
+    "s": 2.46,
+    "e": 2.66
+   },
+   {
+    "w": "a",
+    "s": 2.66,
+    "e": 2.82
+   },
+   {
+    "w": "bright",
+    "s": 2.82,
+    "e": 3.02
+   },
+   {
+    "w": "room",
+    "s": 3.02,
+    "e": 3.36
+   },
+   {
+    "w": "into",
+    "s": 3.36,
+    "e": 3.62
+   },
+   {
+    "w": "a",
+    "s": 3.62,
+    "e": 3.8
+   },
+   {
+    "w": "dark",
+    "s": 3.8,
+    "e": 4.06
+   },
+   {
+    "w": "one,",
+    "s": 4.06,
+    "e": 4.36
+   },
+   {
+    "w": "you're",
+    "s": 4.68,
+    "e": 4.8
+   },
+   {
+    "w": "almost",
+    "s": 4.8,
+    "e": 5.1
+   },
+   {
+    "w": "blind",
+    "s": 5.1,
+    "e": 5.6
+   },
+   {
+    "w": "for",
+    "s": 5.6,
+    "e": 5.88
+   },
+   {
+    "w": "a",
+    "s": 5.88,
+    "e": 5.98
+   },
+   {
+    "w": "moment.",
+    "s": 5.98,
+    "e": 6.22
+   },
+   {
+    "w": "Your",
+    "s": 6.9,
+    "e": 7.0
+   },
+   {
+    "w": "eyes",
+    "s": 7.0,
+    "e": 7.42
+   },
+   {
+    "w": "need",
+    "s": 7.42,
+    "e": 7.74
+   },
+   {
+    "w": "time",
+    "s": 7.74,
+    "e": 8.12
+   },
+   {
+    "w": "to",
+    "s": 8.12,
+    "e": 8.38
+   },
+   {
+    "w": "adjust.",
+    "s": 8.38,
+    "e": 8.7
+   }
+  ],
+  "heard": "Both are about your eyes. When you walk from a bright room into a dark one, you're almost blind for a moment. Your eyes need time to adjust."
+ },
+ {
+  "id": "L04",
+  "chapter": 6,
+  "text": "If the plane has to be evacuated, there's no time for that. So the crew makes the cabin match the outside. Dark at night, bright in the day. Your eyes are already ready.",
+  "dur": 11.328,
+  "words": [
+   {
+    "w": "If",
+    "s": 0.0,
+    "e": 0.16
+   },
+   {
+    "w": "the",
+    "s": 0.16,
+    "e": 0.32
+   },
+   {
+    "w": "plane",
+    "s": 0.32,
+    "e": 0.6
+   },
+   {
+    "w": "has",
+    "s": 0.6,
+    "e": 0.88
+   },
+   {
+    "w": "to",
+    "s": 0.88,
+    "e": 1.04
+   },
+   {
+    "w": "be",
+    "s": 1.04,
+    "e": 1.16
+   },
+   {
+    "w": "evacuated,",
+    "s": 1.16,
+    "e": 1.82
+   },
+   {
+    "w": "there's",
+    "s": 2.1,
+    "e": 2.24
+   },
+   {
+    "w": "no",
+    "s": 2.24,
+    "e": 2.44
+   },
+   {
+    "w": "time",
+    "s": 2.44,
+    "e": 2.76
+   },
+   {
+    "w": "for",
+    "s": 2.76,
+    "e": 3.02
+   },
+   {
+    "w": "that.",
+    "s": 3.02,
+    "e": 3.38
+   },
+   {
+    "w": "So",
+    "s": 3.82,
+    "e": 4.02
+   },
+   {
+    "w": "the",
+    "s": 4.02,
+    "e": 4.16
+   },
+   {
+    "w": "crew",
+    "s": 4.16,
+    "e": 4.4
+   },
+   {
+    "w": "makes",
+    "s": 4.4,
+    "e": 4.64
+   },
+   {
+    "w": "the",
+    "s": 4.64,
+    "e": 4.86
+   },
+   {
+    "w": "cabin",
+    "s": 4.86,
+    "e": 5.22
+   },
+   {
+    "w": "match",
+    "s": 5.22,
+    "e": 5.52
+   },
+   {
+    "w": "the",
+    "s": 5.52,
+    "e": 5.76
+   },
+   {
+    "w": "outside.",
+    "s": 5.76,
+    "e": 6.32
+   },
+   {
+    "w": "Dark",
+    "s": 7.14,
+    "e": 7.24
+   },
+   {
+    "w": "at",
+    "s": 7.24,
+    "e": 7.44
+   },
+   {
+    "w": "night,",
+    "s": 7.44,
+    "e": 7.84
+   },
+   {
+    "w": "bright",
+    "s": 8.14,
+    "e": 8.32
+   },
+   {
+    "w": "in",
+    "s": 8.32,
+    "e": 8.58
+   },
+   {
+    "w": "the",
+    "s": 8.58,
+    "e": 8.7
+   },
+   {
+    "w": "day.",
+    "s": 8.7,
+    "e": 9.0
+   },
+   {
+    "w": "Your",
+    "s": 9.58,
+    "e": 9.72
+   },
+   {
+    "w": "eyes",
+    "s": 9.72,
+    "e": 10.14
+   },
+   {
+    "w": "are",
+    "s": 10.14,
+    "e": 10.4
+   },
+   {
+    "w": "already",
+    "s": 10.4,
+    "e": 10.78
+   },
+   {
+    "w": "ready.",
+    "s": 10.78,
+    "e": 11.06
+   }
+  ],
+  "heard": "If the plane has to be evacuated, there's no time for that. So the crew makes the cabin match the outside. Dark at night, bright in the day. Your eyes are already ready."
+ },
+ {
+  "id": "L05",
+  "chapter": 6,
+  "text": "The dim cabin also makes the glowing floor lights and exit signs easier to see.",
+  "dur": 5.259,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "dim",
+    "s": 0.14,
+    "e": 0.34
+   },
+   {
+    "w": "cabin",
+    "s": 0.34,
+    "e": 0.78
+   },
+   {
+    "w": "also",
+    "s": 0.78,
+    "e": 1.16
+   },
+   {
+    "w": "makes",
+    "s": 1.16,
+    "e": 1.5
+   },
+   {
+    "w": "the",
+    "s": 1.5,
+    "e": 1.7
+   },
+   {
+    "w": "glowing",
+    "s": 1.7,
+    "e": 2.0
+   },
+   {
+    "w": "floor",
+    "s": 2.0,
+    "e": 2.36
+   },
+   {
+    "w": "lights",
+    "s": 2.36,
+    "e": 2.76
+   },
+   {
+    "w": "and",
+    "s": 2.76,
+    "e": 3.36
+   },
+   {
+    "w": "exit",
+    "s": 3.36,
+    "e": 3.72
+   },
+   {
+    "w": "signs",
+    "s": 3.72,
+    "e": 4.18
+   },
+   {
+    "w": "easier",
+    "s": 4.18,
+    "e": 4.58
+   },
+   {
+    "w": "to",
+    "s": 4.58,
+    "e": 4.84
+   },
+   {
+    "w": "see.",
+    "s": 4.84,
+    "e": 5.1
+   }
+  ],
+  "heard": "The dim cabin also makes the glowing floor lights and exit signs easier to see."
+ },
+ {
+  "id": "L06",
+  "chapter": 6,
+  "text": "And open shades let the crew, and the rescuers outside, spot fire or smoke on either side of the plane.",
+  "dur": 7.113,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.0,
+    "e": 0.16
+   },
+   {
+    "w": "open",
+    "s": 0.16,
+    "e": 0.48
+   },
+   {
+    "w": "shades",
+    "s": 0.48,
+    "e": 0.86
+   },
+   {
+    "w": "let",
+    "s": 0.86,
+    "e": 1.16
+   },
+   {
+    "w": "the",
+    "s": 1.16,
+    "e": 1.3
+   },
+   {
+    "w": "crew,",
+    "s": 1.3,
+    "e": 1.56
+   },
+   {
+    "w": "and",
+    "s": 2.12,
+    "e": 2.18
+   },
+   {
+    "w": "the",
+    "s": 2.18,
+    "e": 2.3
+   },
+   {
+    "w": "rescuers",
+    "s": 2.3,
+    "e": 2.7
+   },
+   {
+    "w": "outside,",
+    "s": 2.7,
+    "e": 3.32
+   },
+   {
+    "w": "spot",
+    "s": 3.94,
+    "e": 4.18
+   },
+   {
+    "w": "fire",
+    "s": 4.18,
+    "e": 4.7
+   },
+   {
+    "w": "or",
+    "s": 4.7,
+    "e": 5.0
+   },
+   {
+    "w": "smoke",
+    "s": 5.0,
+    "e": 5.42
+   },
+   {
+    "w": "on",
+    "s": 5.42,
+    "e": 5.72
+   },
+   {
+    "w": "either",
+    "s": 5.72,
+    "e": 5.96
+   },
+   {
+    "w": "side",
+    "s": 5.96,
+    "e": 6.3
+   },
+   {
+    "w": "of",
+    "s": 6.3,
+    "e": 6.44
+   },
+   {
+    "w": "the",
+    "s": 6.44,
+    "e": 6.54
+   },
+   {
+    "w": "plane.",
+    "s": 6.54,
+    "e": 6.82
+   }
+  ],
+  "heard": "And open shades let the crew, and the rescuers outside, spot fire or smoke on either side of the plane."
+ },
+ {
+  "id": "L07",
+  "chapter": 6,
+  "text": "So that's seven strange things, and not one of them is random. The left door. The phone. The upright seat. The tiny hole. The bland food. Your mask first. And the dark cabin.",
+  "dur": 11.894,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "that's",
+    "s": 0.18,
+    "e": 0.58
+   },
+   {
+    "w": "seven",
+    "s": 0.58,
+    "e": 0.76
+   },
+   {
+    "w": "strange",
+    "s": 0.76,
+    "e": 1.2
+   },
+   {
+    "w": "things,",
+    "s": 1.2,
+    "e": 1.66
+   },
+   {
+    "w": "and",
+    "s": 1.9,
+    "e": 1.94
+   },
+   {
+    "w": "not",
+    "s": 1.94,
+    "e": 2.14
+   },
+   {
+    "w": "one",
+    "s": 2.14,
+    "e": 2.32
+   },
+   {
+    "w": "of",
+    "s": 2.32,
+    "e": 2.46
+   },
+   {
+    "w": "them",
+    "s": 2.46,
+    "e": 2.6
+   },
+   {
+    "w": "is",
+    "s": 2.6,
+    "e": 2.78
+   },
+   {
+    "w": "random.",
+    "s": 2.78,
+    "e": 3.16
+   },
+   {
+    "w": "The",
+    "s": 3.78,
+    "e": 3.9
+   },
+   {
+    "w": "left",
+    "s": 3.9,
+    "e": 4.1
+   },
+   {
+    "w": "door.",
+    "s": 4.1,
+    "e": 4.5
+   },
+   {
+    "w": "The",
+    "s": 5.0,
+    "e": 5.14
+   },
+   {
+    "w": "phone.",
+    "s": 5.14,
+    "e": 5.5
+   },
+   {
+    "w": "The",
+    "s": 5.84,
+    "e": 5.92
+   },
+   {
+    "w": "upright",
+    "s": 5.92,
+    "e": 6.34
+   },
+   {
+    "w": "seat.",
+    "s": 6.34,
+    "e": 6.74
+   },
+   {
+    "w": "The",
+    "s": 7.08,
+    "e": 7.16
+   },
+   {
+    "w": "tiny",
+    "s": 7.16,
+    "e": 7.52
+   },
+   {
+    "w": "hole.",
+    "s": 7.52,
+    "e": 7.88
+   },
+   {
+    "w": "The",
+    "s": 8.2,
+    "e": 8.28
+   },
+   {
+    "w": "bland",
+    "s": 8.28,
+    "e": 8.66
+   },
+   {
+    "w": "food.",
+    "s": 8.66,
+    "e": 9.1
+   },
+   {
+    "w": "Your",
+    "s": 9.38,
+    "e": 9.48
+   },
+   {
+    "w": "mask",
+    "s": 9.48,
+    "e": 9.88
+   },
+   {
+    "w": "first.",
+    "s": 9.88,
+    "e": 10.26
+   },
+   {
+    "w": "And",
+    "s": 10.76,
+    "e": 10.9
+   },
+   {
+    "w": "the",
+    "s": 10.9,
+    "e": 11.0
+   },
+   {
+    "w": "dark",
+    "s": 11.0,
+    "e": 11.28
+   },
+   {
+    "w": "cabin.",
+    "s": 11.28,
+    "e": 11.62
+   }
+  ],
+  "heard": "So that's seven strange things, and not one of them is random. The left door. The phone. The upright seat. The tiny hole. The bland food. Your mask first. And the dark cabin."
+ },
+ {
+  "id": "L08",
+  "chapter": 6,
+  "text": "Which one surprised you the most? Tell us in the comments.",
+  "dur": 3.435,
+  "words": [
+   {
+    "w": "Which",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "one",
+    "s": 0.18,
+    "e": 0.44
+   },
+   {
+    "w": "surprised",
+    "s": 0.44,
+    "e": 0.94
+   },
+   {
+    "w": "you",
+    "s": 0.94,
+    "e": 1.24
+   },
+   {
+    "w": "the",
+    "s": 1.24,
+    "e": 1.32
+   },
+   {
+    "w": "most?",
+    "s": 1.32,
+    "e": 1.68
+   },
+   {
+    "w": "Tell",
+    "s": 2.24,
+    "e": 2.28
+   },
+   {
+    "w": "us",
+    "s": 2.28,
+    "e": 2.44
+   },
+   {
+    "w": "in",
+    "s": 2.44,
+    "e": 2.6
+   },
+   {
+    "w": "the",
+    "s": 2.6,
+    "e": 2.74
+   },
+   {
+    "w": "comments.",
+    "s": 2.74,
+    "e": 3.1
+   }
+  ],
+  "heard": "Which one surprised you the most? Tell us in the comments."
+ },
+ {
+  "id": "L09",
+  "chapter": 6,
+  "text": "And next time the lights go out before landing... you'll know. Nobody's trying to help you sleep.",
+  "dur": 5.705,
+  "words": [
+   {
+    "w": "And",
+    "s": 0.0,
+    "e": 0.16
+   },
+   {
+    "w": "next",
+    "s": 0.16,
+    "e": 0.38
+   },
+   {
+    "w": "time",
+    "s": 0.38,
+    "e": 0.68
+   },
+   {
+    "w": "the",
+    "s": 0.68,
+    "e": 0.84
+   },
+   {
+    "w": "lights",
+    "s": 0.84,
+    "e": 1.08
+   },
+   {
+    "w": "go",
+    "s": 1.08,
+    "e": 1.32
+   },
+   {
+    "w": "out",
+    "s": 1.32,
+    "e": 1.56
+   },
+   {
+    "w": "before",
+    "s": 1.56,
+    "e": 1.84
+   },
+   {
+    "w": "landing...",
+    "s": 1.84,
+    "e": 2.94
+   },
+   {
+    "w": "you'll",
+    "s": 2.94,
+    "e": 3.06
+   },
+   {
+    "w": "know.",
+    "s": 3.06,
+    "e": 3.34
+   },
+   {
+    "w": "Nobody's",
+    "s": 3.98,
+    "e": 4.46
+   },
+   {
+    "w": "trying",
+    "s": 4.46,
+    "e": 4.66
+   },
+   {
+    "w": "to",
+    "s": 4.66,
+    "e": 4.82
+   },
+   {
+    "w": "help",
+    "s": 4.82,
+    "e": 4.96
+   },
+   {
+    "w": "you",
+    "s": 4.96,
+    "e": 5.16
+   },
+   {
+    "w": "sleep.",
+    "s": 5.16,
+    "e": 5.44
+   }
+  ],
+  "heard": "And next time the lights go out before landing... you'll know. Nobody's trying to help you sleep."
+ }
+]

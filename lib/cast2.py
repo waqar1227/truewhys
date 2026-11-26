@@ -252,6 +252,17 @@ def _head(s, e, view="front"):
     elif h == "flatcap":
         p.append(f'<path d="M-{w} -524 Q-{w+4} -590 0 -592 Q{w+4} -590 {w} -524 Q40 -556 0 -556 Q-40 -556 -{w} -524 Z" fill="#5B4636"/>'
                  f'<path d="M-{w+6} -548 Q-{w+2} -620 0 -618 Q{w+20} -616 {w+34} -560 Q20 -544 -{w+6} -548 Z" fill="{hc}"/>')
+    elif h == "pilotcap":   # B-009: airline pilot's peaked cap (generic, no airline badge text)
+        p.append(f'<path d="M-{w} -524 Q-{w+4} -588 0 -590 Q{w+4} -588 {w} -524 Q40 -556 0 -556 Q-40 -556 -{w} -524 Z" fill="#3A2416"/>'
+                 f'<path d="M-{w+14} -560 Q-{w+20} -640 0 -646 Q{w+20} -640 {w+14} -560 Z" fill="{hc}"/>'
+                 f'<path d="M-{w+10} -566 L{w+10} -566" stroke="#E8C46A" stroke-width="12"/>'
+                 f'<path d="M-{w+12} -552 Q0 -520 {w+12} -552 Q0 -540 -{w+12} -552 Z" fill="#14161C"/>'
+                 f'<path d="M-16 -604 L0 -620 L16 -604 L0 -588 Z" fill="#E8C46A" stroke-width="4"/>')
+    elif h == "fa_cap":     # B-009: flight attendant: neat bun + small pillbox hat
+        p.append(f'<path d="M-{w} -520 Q-{w} -604 0 -604 Q{w} -604 {w} -520 Q30 -566 -10 -560 Q-50 -556 -{w} -520 Z" fill="{hc}"/>'
+                 f'<circle cx="0" cy="-612" r="24" fill="{hc}"/>'
+                 f'<path d="M-62 -584 L-56 -626 Q0 -638 56 -626 L62 -584 Q0 -572 -62 -584 Z" fill="{s["top"]}"/>'
+                 f'<path d="M-60 -596 Q0 -584 60 -596" fill="none" stroke="{s["top2"]}" stroke-width="8"/>')
     if h in ("short", "curl", "bun", "crown_long"):
         dk = shade(hc, 0.72 if hc not in ("#22181B", "#1E1A24") else 1.6)
         p.append(f'<path d="M-30 -592 Q-20 -574 -36 -560 M6 -598 Q14 -580 2 -566 M36 -590 Q46 -574 36 -560" fill="none" stroke="{dk}" stroke-width="4"/>')
@@ -295,6 +306,14 @@ def _body(s):
     if s.get("buttons"):
         for yy in (-370, -330, -290, -250):
             p.append(f'<circle cx="0" cy="{yy}" r="7" fill="{t2}" stroke-width="3"/>')
+    if s.get("scarf"):      # B-009: neck scarf (flight attendant)
+        p.append(f'<path d="M-30 -396 Q0 -372 30 -396 L22 -378 Q0 -364 -22 -378 Z" fill="{s["scarf"]}" stroke-width="5"/>'
+                 f'<path d="M14 -380 L40 -332 L24 -326 L6 -372 Z" fill="{s["scarf"]}" stroke-width="5"/>')
+    if s.get("wings"):      # B-009: pilot wings pin + shoulder stripes
+        p.append('<path d="M18 -350 Q40 -362 66 -352 Q44 -344 18 -350 Z" fill="#E8C46A" stroke-width="4"/>')
+        for sd in (-1, 1):
+            for k in range(3):
+                p.append(f'<path d="M{sd*(56+k*9)} -398 L{sd*(52+k*9)} -380" stroke="#E8C46A" stroke-width="5"/>')
     if s.get("badge"):
         p.append('<circle cx="44" cy="-330" r="17" fill="#FFC93C" stroke-width="6"/><path d="M36 -330 L42 -324 L53 -337" fill="none" stroke-width="6"/>')
     return "".join(p)

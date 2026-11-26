@@ -1,0 +1,7 @@
+# B-009 C1 (cut Short, re-written for vertical). Frame 1: masks already dropping, Kai shocked, "30 SECONDS?". Answer by the end; loops to the masks.
+H1|0|If the oxygen masks drop at thirty-five thousand feet, you might have thirty seconds.
+L01|0|That's why the crew says: your own mask first. Even before your child's.
+L02|0|The air is so thin, your brain runs short of oxygen fast. And you don't feel it. You can even feel calm and happy.
+L03|0|Help someone else first, fumble with the strap, and you could both pass out.
+L04|0|Mask on first, and you have all the time you need to help them.
+L05|0|Then the pilots dive down to thicker air. Thirty seconds was all you needed.

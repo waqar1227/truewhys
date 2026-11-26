@@ -1,0 +1,59 @@
+# id | chapter | text (captions) || say (pronunciation for the voice, optional)
+# B-009 v1 (26 Nov 2026). L9 long video, Style F + cast v2.2 + lib/flat_flight.py. One flight from gate to runway, seven strange things explained.
+# Chapters = Gemini requests (7): 0 cold open + left door, 1 airplane mode, 2 seat upright (90 s), 3 window hole, 4 bland food, 5 mask first, 6 dim lights + recap + loop.
+# Clip candidates: C1 mask first (ch5, cut Short Thu 7 Jan), C2 tomato juice (ch4), C3 window hole (ch3), C4 90 seconds (ch2).
+O01|0|Right before some planes land at night, the crew switches the cabin lights off. On purpose.
+O02|0|It's not to help you sleep. It's in case you have to get out, fast.
+O03|0|Planes make you do a lot of strange things. So let's take one flight together, from the gate to the runway, and find the real reason behind seven of them.
+G01|0|Strange thing number one happens before you even step on board.
+G02|0|At almost every airport, you get on the plane through a door on its left side.
+G03|0|The usual explanation comes from ships. Sailors tied up with the left side against the dock, which is why they call it the port side. And early airliners borrowed a lot of their words and habits from the sea.
+G04|0|But there's a practical reason too. While you walk on at the left, the right side is busy.
+G05|0|Baggage and fuel trucks work over there, so passengers and ground crew stay out of each other's way.
+G06|0|Okay. You're in your seat. And the first thing the crew asks about is your phone.
+A01|1|Strange thing number two. Airplane mode.
+A02|1|A lot of people think one phone could bring down a plane. Investigators have never proven that a phone has ever done that.
+A03|1|So why the rule? Part of the answer is down on the ground.
+A04|1|A phone high in the sky can reach many cell towers at once, and it keeps calling out to all of them. That's why, back in 1991, the United States banned using cell phones on the networks in the air.
+A05|1|The other part is in the cockpit. Pilots have described a buzzing in their headsets, like a mosquito, when phones nearby search for a signal.
+A06|1|It's usually just a nuisance. But it comes exactly when pilots are listening hardest, during takeoff and landing.
+A07|1|Most of the time, nothing happens at all. The rule is there for the one time it might.
+A08|1|And the next rule is about the seat you're sitting in.
+S01|2|Strange thing number three. Seat back upright. Tray table up. Every takeoff, every landing.
+S02|2|It feels fussy. But it all comes down to one number. Ninety seconds.
+S03|2|Before a new kind of airliner is allowed to carry passengers, its maker has to show that a full plane can be emptied in ninety seconds, with half of the exits blocked.
+S04|2|They test it for real, in the dark. In 2006, the giant double-decker A380 got eight hundred and seventy-three people out in seventy-eight seconds.||They test it for real, in the dark. In 2006, the giant double-decker A three-eighty got eight hundred and seventy-three people out in seventy-eight seconds.
+S05|2|Now picture your row. A reclined seat steals the space the person behind you needs to stand up. A tray table that's down blocks them in completely.
+S06|2|Ninety seconds doesn't leave room for a stuck row. And takeoff and landing are exactly when most accidents happen.
+S07|2|Then, once you're up above the clouds, look at the window. There's a tiny hole in it.
+W01|3|Strange thing number four. That tiny hole.
+W02|3|It's not a crack, and it's not a mistake. It's there on purpose.
+W03|3|A plane window is really three layers. The outer pane holds back the pressure. The middle pane is a spare. And the thin inner one just protects the other two from fingers and scratches.
+W04|3|Up at cruising height, the air inside the cabin pushes outward, hard. The breather hole lets air pass between the layers, so all of that push lands on the outer pane.
+W05|3|The middle pane stays relaxed, ready to take over if the outer one ever fails.
+W06|3|The hole also lets moisture escape, so the window doesn't fog up or frost over.
+W07|3|So you can keep watching the clouds, while lunch arrives. And lunch tastes... strange.
+F01|4|Strange thing number five. Food on a plane tastes bland.
+F02|4|And it's not only the cooking. It's you.
+F03|4|In 2010, the airline Lufthansa asked scientists at Germany's Fraunhofer Institute to test it, inside a real airplane cabin, in a chamber with the same thin, dry air as a flight.||In 2010, the airline Lufthansa asked scientists at Germany's Fraunhofer Institute to test it, inside a real airplane cabin, in a chamber with the same thin, dry air as a flight.
+F04|4|Salt tasted twenty to thirty percent weaker. Sugar, fifteen to twenty percent weaker.
+F05|4|The dry air also dries out your nose. And most of what we call flavour is really smell.
+F06|4|But one taste held on. Umami, the savoury taste you find in tomatoes.
+F07|4|Which may explain something odd. People who never drink tomato juice on the ground order it on planes. Lufthansa alone pours hundreds of thousands of litres of it every year.
+F08|4|And then, somewhere over the ocean, there's the safety card in your seat pocket.
+M01|5|Strange thing number six. If the oxygen masks drop, put on your own mask first, before you help anyone else. Even your own child.
+M02|5|It sounds selfish. It's actually the opposite.
+M03|5|At thirty-five thousand feet, the air is so thin that if the cabin loses pressure, you might have only thirty seconds to a minute of clear thinking. Pilots call it the time of useful consciousness.
+M04|5|And the scary part is, you don't feel it coming. No pain. Often a strange, calm, happy feeling. And then you can't think straight.
+M05|5|If you help someone else first and fumble with the strap, you could both pass out. Mask on first, and you have all the time you need to help them.
+M06|5|The masks only have to last a few minutes. The pilots dive down to about ten thousand feet, where the air is thick enough to breathe.
+M07|5|Which brings us to the final descent. And the lights.
+L01|6|Strange thing number seven. The one from the start.
+L02|6|At night, before landing, the cabin lights go dim. And in the day, the crew asks you to open your window shade.
+L03|6|Both are about your eyes. When you walk from a bright room into a dark one, you're almost blind for a moment. Your eyes need time to adjust.
+L04|6|If the plane has to be evacuated, there's no time for that. So the crew makes the cabin match the outside. Dark at night, bright in the day. Your eyes are already ready.
+L05|6|The dim cabin also makes the glowing floor lights and exit signs easier to see.
+L06|6|And open shades let the crew, and the rescuers outside, spot fire or smoke on either side of the plane.
+L07|6|So that's seven strange things, and not one of them is random. The left door. The phone. The upright seat. The tiny hole. The bland food. Your mask first. And the dark cabin.
+L08|6|Which one surprised you the most? Tell us in the comments.
+L09|6|And next time the lights go out before landing... you'll know. Nobody's trying to help you sleep.
