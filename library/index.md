@@ -191,3 +191,11 @@ All original (TrueWhys). One episode = `episodes/<ep>/make.py` (`sheet` | `big <
   `parlour` (1945), `store` (1945 department store), `staircase`, `alps`, `study_1941`, `micro_view`, `chem_lab`, `gas_lab` (1938), `paris_lab` (1903),
   `road_1909` (vintage car + shards), `london_lab` (1928), `factory` (1940s tanks), `kitchen` (modern).
 - lib/cast2.py (B-008): new generic period cast `radar`, `shipwright`, `hiker`, `chemist`, `gaslab`, `labdoc`, `betty`. lib/music.py mood `inventive`.
+- **Aviation `lib/flat_flight.py` (B-009, 26 Nov 2026, TrueWhys original):** cast Kai, Rosa (flight attendant: hair `fa_cap` + `scarf`), Captain Ade (`pilotcap` + `wings`), Nia, firefighter
+  (new cast2 hair/uniform parts); `cabin_row_back`/`cabin_row_front` (front view of a seat row, seated people between the calls, `lights` dim, trays, shade),
+  `aisle` (perspective aisle, floor-path lights, exit sign, `people(g, depth)` callback), `apron_top` (top-down gate: jet bridge left, trucks right), `dock_top`,
+  `sky_towers`, `cockpit_back`/`cockpit_front` + `headset` (buzz) + `mosquito`, `phone` (airplane-mode toggle), `plane_side` (1 or 2 decks, doors), `evac_test`,
+  `row_top` (recline/tray gap), `window_big` (+ breather hole, fog), `pane_cut` (3-pane cross-section), `meal_tray`, `chamber`, `taste_bars`, `tomato`,
+  `juice_glass`, `mask_panel`/`mask_on`, `alt_chart`, `tuc_clock`, `landing_night`, `dark_door`, `eye_big`, `icon`/`flight_strip` (7-icon journey), `number_card`.
+  `from flat_flight import *` (TW_FLAT_SIZE set before import). Music moods `travel`, `cruise` (lib/music.py); SFX `cabin_chime`, `jet_hum` (lib/sfxgen.py).
+
