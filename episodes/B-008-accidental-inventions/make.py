@@ -1300,7 +1300,7 @@ Z = lambda z0, z1, f: push(z0, z1, f)
 L = lambda fn, **a: (lambda g, c: fn(g, c, **a))
 
 # cold open + #7 (ch0)
-P("O01", s_hook, (0, "Nothing"), cam=Z(1.2, 1.28, (880, 470)), tr="cut", music="mystery", sfx=[(0.0, "hum", 0.35), (0.05, "melt", 0.4), (0.1, "whoosh", 0.3)])
+P("O01", s_hook, (0, "Nothing"), cam=Z(1.2, 1.28, (880, 500)), tr="cut", music="mystery", sfx=[(0.0, "hum", 0.35), (0.05, "melt", 0.4), (0.1, "whoosh", 0.3)])
 P("O01", s_nothot, ("Nothing", 1), cam=Z(1.0, 1.05, (960, 520)), sfx=[("hot", "bloop", 0.35)])
 P("O02", s_your_kitchen, cam=Z(1.0, 1.05, (960, 520)), music="inventive", sfx=[("microwave", "beep3", 0.35), ("kitchen", "ding", 0.35)])
 P("O03", s_montage, cam=Z(1.0, 1.04, (960, 540)), sfx=[("toy", "boing", 0.35), ("glue", "pop", 0.35), ("pan", "pop", 0.35), ("dish", "pop", 0.35), ("saved", "shimmer", 0.35)])
