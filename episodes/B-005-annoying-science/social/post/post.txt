@@ -1,4 +1,4 @@
-POST ON: Thu 3 Dec 2026, 17:00 UTC (YouTube app: + → Post), image: post.jpg, add the poll below.
+POST ON: Thu 3 Dec 2026, 17:00 UTC (YouTube app: + → Post): image post.jpg OR the poll below (YouTube allows one, not both).
 
 Text:
 Your toast just slid off the table. Which side lands on the floor? 🍞
