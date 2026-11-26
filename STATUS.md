@@ -15,14 +15,14 @@ DONE 25 Nov (owner: a few trending Shorts for empty days): A-029 "Why Does Your 
 DONE 25 Nov: L7 B-007 "Cats vs Dogs: Who's Smarter, and Who Loves You More?" UPLOADED NnTHvcf23Vc (Sun 20 Dec 17:00 UTC, SRT, thumb A, Style F,
 X-vs-Y format, cat 28) + cut Short C1 "Why Dogs Make Puppy Eyes at You" KnGjNdHW0l4 (Sat 26 Dec 18:00 UTC, SRT, thumb), AI field No, registers.
 OWNER: post the teaser (episodes/B-007-cats-vs-dogs/social/post) Fri 18 Dec; Studio → Related video = L7 (NnTHvcf23Vc) on KnGjNdHW0l4.
-After 20 Dec 17:00: pinned comment (B-007 upload_meta.json pinned_comment; `python lib/youtube.py comment episodes/B-007-cats-vs-dogs/upload_meta.json`) + send thumbs B/C (final/) for Test & Compare.
+After 20 Dec 17:00: pinned comment (B-007 upload_meta.json pinned_comment; `python lib/youtube.py comment episodes/B-007-cats-vs-dogs/upload_meta.json`).
 DONE 25 Nov: A-028 "Why Hot Water Can Crack a Frozen Windshield" 6OXodt-6jFo uploaded (owner request; private + publishAt Sat 28 Nov 18:00 UTC = one-time exception to the posting-days rule, owner 25 Nov), thumb, SRT, AI field No, registers.
 DONE 24 Nov: A-024 sJ8lsYNlHTk scheduled Sat 19 Dec 18:00 UTC (SRT, thumb). DONE 23 Nov: A-025 T3CvD2HqRaE scheduled Mon 23 Nov 16:00 UTC, SRT up.
 DONE 24 Nov: A-026 + A-027 uploaded (private + publishAt, thumbs, SRT, AI field No, registers). Each new Short: renders → `make.py render renders` → QA → thumb → upload → SRT → registers.
 DONE 24 Nov: L6 B-006 "Why You Forget Why You Walked Into a Room, Songs Get Stuck and Déjà Vu Happens" UPLOADED acW1qBL5TzI (Sun 13 Dec 17:00 UTC, SRT, thumb A)
 + cut Short C1 "Why You Feel Your Phone Buzz When It Didn't" zvHTp6BC06E (Thu 17 Dec 18:00 UTC, SRT, thumb), AI field No, registers. OWNER: post the teaser
 (episodes/B-006-brain-glitches/social/post) Fri 11 Dec; Studio → Related video = L6 (acW1qBL5TzI) on zvHTp6BC06E. After 13 Dec 17:00: pinned comment
-(B-006 upload_meta.json pinned_comment) + send thumbs B/C (final/) for Test & Compare.
+(B-006 upload_meta.json pinned_comment).
 A-028 DONE 25 Nov (see DONE line above): uploaded 6OXodt-6jFo, Sat 28 Nov 18:00 UTC.
 TO MAKE (plan 24 Nov, 30 days = to Thu 24 Dec): ·
 DONE: A-026 Tue 15 Dec + A-027 Thu 24 Dec 18:00 (uploaded 24 Nov) ·
@@ -31,16 +31,16 @@ Spare (made, not scheduled): L4-C3 caps, L4-C4 manholes.
 
 TASKS in order:
 0. L4 UPLOADED dgmYB0zPALw (Sun 29 Nov 17:00 UTC, SRT up, thumb A). After it is public (29 Nov 17:00): give the owner the pinned comment
-   (upload_meta.json pinned_comment) and send thumbs B/C (final/) for Test & Compare.
+   (upload_meta.json pinned_comment).
 1. OWNER (told 22 Nov): Studio → Related video = L4 (dgmYB0zPALw) on PtETjFRHH24 and cXgM0GJELw0.
 2. 48-h checks into topic_results.md (stayed %, rel. retention 10 %, drop point): A-021 DONE 24 Nov (1,994 views/36 likes; retention 26 Nov), A-025 DONE 25 Nov (173 views, weak), A-012 26, A-011 27, A-013 28,
    A-018 29 Nov, A-028 30 Nov, A-026 17 Dec, A-027 26 Dec (`python3 lib/yt_stats.py 7`). Compare Style R (A-016/17/18/21) vs Style F.
 3. DONE 23 Nov: A-019 + A-022 uploaded (private + publishAt, thumb, SRT, AI field No, registers). Kaggle: a019+a022 v1+v2 used ≈ 3.7 h session time (render_log.md).
 4. L5 DONE (23 Nov): B-005 "Why Toast Lands Butter-Side Down, Shoelaces Untie and Earbuds Tangle" UPLOADED l_w8yDvCZiI (Mon 7 Dec 17:00 UTC, SRT, thumb A);
    cut Shorts C1 toast 7LX7R8f7GB4 (Tue 8 Dec 18:00) + C2 spaghetti Ydk7QtOzx7M (Thu 10 Dec 18:00), SRT + thumbs. OWNER: Related video = L5 on both;
-   post the teaser (episodes/B-005-annoying-science/social/post) Sat 5 Dec. After 7 Dec 17:00: pinned comment (upload_meta.json) + send thumbs B/C.
+   post the teaser (episodes/B-005-annoying-science/social/post) Sat 5 Dec. After 7 Dec 17:00: pinned comment (upload_meta.json).
 5. Trending standalone Shorts: pick on the day from Google Trends/competitor radar; trend swap rule if something goes viral.
-Never: change A-020 (owner edited) · move scheduled videos except a trend swap · creator names in metadata.
+Owner 26 Nov: no B/C thumbnails or alt titles (he does Test & Compare in Studio). Never: change A-020 (owner edited) · move scheduled videos except a trend swap · creator names in metadata.
 
 ## History
 

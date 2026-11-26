@@ -113,8 +113,8 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
 - **Teaser post (owner 20 Nov 2026), from the episode after L4:** for every new long video, make 1 teaser Community post (our own cast/art,
   one picture + short text + optional poll, curiosity gap, no real people, no copied clips) to go up 1–2 days before it publishes. YouTube's API cannot
   create Posts, so leave it in `episodes/<ep>/social/post/` (post.jpg + post.txt) and tell the owner the day to post it (YouTube app: + → Post).
-- After a long video goes public, post the pinned-comment text (owner pins it in Studio). Long videos: 3 very different thumbnails;
-  A goes on the video, then send the owner A, B and C for YouTube's Test & Compare.
+- After a long video goes public, post the pinned-comment text (owner pins it in Studio). Long videos: make ONE strong thumbnail (A) for the video.
+  **Owner 26 Nov: do NOT make or send B/C thumbnails or alternative titles; he makes Test & Compare variants himself in YouTube Studio.**
 - Rendered MP4s are not committed (`.gitignore`); files over 25 MB are not committed (say where to re-download or how to rebuild).
 
 ## Cross-posting (YouTube always first)
