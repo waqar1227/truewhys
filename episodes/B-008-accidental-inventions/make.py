@@ -767,6 +767,7 @@ def s_wordmix(g, c):
             g.text("VEL", W / 2 - 140, 640, 140, "#E8C4FF", sw=20, sc=back_out(k3, 1.6))
             g.text("CRO", W / 2 + 140, 640, 140, "#BDEBFF", sw=20, sc=back_out(k3, 1.6))
     burr(g, 1600, 780, 40, c.gt)
+    char2(g, "hiker", 260, FL + 150, 820, "smile" if k3 > 0.5 else "curious", "down", "explain", t=c.gt, view="3q")
 
 
 def s_shoes(g, c):
@@ -1228,8 +1229,8 @@ def s_oxford(g, c, fac=False):
 
 def s_nobel(g, c):
     museum(g, c.gt, cases=False)
-    medal(g, 520, 560, 130, on(c, "Nobel", frac=0.3), c.gt)
-    tag(g, "1945", 520, 300, k=on(c, "1945", frac=0.05))
+    medal(g, 520, 560, 130, 0.5 + 0.5 * on(c, "Nobel", frac=0.3), c.gt)
+    tag(g, "1945", 520, 790, k=on(c, "1945", frac=0.05))
     k = on(c, "millions")
     with g.screen():
         n = int(40 * clamp((c.t - tw(c, "antibiotics")) / 2.5))
