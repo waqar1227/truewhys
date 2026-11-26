@@ -1,11 +1,11 @@
 # B-008 (L8) — How 7 Everyday Things Were Invented by Accident
 
-- **Type:** B long video, ~7 min, **Style F + cast v2.2**, 1920×1080, CPU final (Style F rule). Slot **Sun 27 Dec 2026 17:00 UTC**.
+- **Type:** B long video, ~7 min, **Style F + cast v2.2**, 1920×1080, CPU final (Style F rule). Slot **Sat 26 Dec 2026 17:00 UTC** (owner's new week, 26 Nov; was Sun 27 Dec).
 - **Studio pattern 1 "How [X] Happened"** (research/studio_patterns_2026-11-25.md, proposal #1; e.g. "How Donuts Were Invented" 11.4M) as a **Ranked List countdown 7 → 1**
   ("from the smallest accident to the one that changed the world"): a reason to stay to the end (L6 = separate glitches, L7 = scoreboard; L8 = countdown + escalating stakes).
   The title carries one concrete number (7). No emoji in the long title (one packaging test at a time; A-032/A-033/A-034 test emojis on Shorts).
 - **Category:** 10 Objects / 9 Science → inventions (L6 psychology, L7 animals ✔) → YouTube **28 Science & Technology** (inventions rule).
-  Uploads around it: Sat 26 Dec L7-C1 puppy eyes (animals), Tue 29 Dec ball drop (history), Thu 31 Dec bubble wrap (invention; A-032 = same pattern, a Short: L8 avoids
+  Uploads around it (new calendar): Fri 25 Dec Christmas lights (object), Sun 27 Dec cloudy ice (science), Tue 29 Dec ball drop (history), Thu 31 Dec bubble wrap (invention; A-032 = same pattern, a Short: L8 avoids
   bubble wrap and the wallpaper-cleaner putty story so nothing repeats). ≤ 2 of one theme in a row ✔.
 - **Why this topic (evidence):** Studio pattern 1 = highest views in the owner's sample; everyday objects win on our channel (pen cap 1,110 in 1 day, vending machine 1,145,
   plane windows, A-008 "The Accident That Invented Steel" 1,242 + 20 likes = our best like-rate); strong evergreen search ("invented by accident", "accidental inventions",

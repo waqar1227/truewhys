@@ -75,11 +75,11 @@ if __name__ == "__main__":
     (EP / "final").mkdir(exist_ok=True); (EP / "animatic").mkdir(exist_ok=True)
     from PIL import Image
     ims = []
-    for k, fn in (("A", thumb_a), ("B", thumb_b), ("C", thumb_c)):
+    for k, fn in (("A", thumb_a),):   # owner 26 Nov: ONE thumbnail only (he makes Test & Compare variants in Studio)
         out = EP / f"final/thumb_{k}.jpg"
         render(fn, out)
         ims.append(Image.open(out))
-    sheet = Image.new("RGB", (1940, 470), (20, 20, 20))
+    sheet = Image.new("RGB", (660, 470), (20, 20, 20))
     for i, im in enumerate(ims):
         sheet.paste(im.resize((640, 360)), (i * 650, 0))
     for i, im in enumerate(ims):

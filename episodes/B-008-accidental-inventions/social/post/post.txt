@@ -1,9 +1,9 @@
-POST ON: Fri 25 Dec 2026 (YouTube app: + → Post), image: post.jpg, add the poll below.
+POST ON: Thu 24 Dec 2026, 17:00 UTC (YouTube app: + → Post): TEXT POLL ONLY (YouTube posts take an image OR a poll, not both; owner 26 Nov). Use post.jpg only if posting without the poll.
 
 Text:
 7 things you use every day were invented by accident. 🍫
 One started with a melted candy bar. One was thrown away for 9 years. And one saved millions of lives.
-Full video on Sunday. Before you watch: which one do you think is number 1?
+Full video on Saturday. Before you watch: which one do you think is number 1?
 
 Poll (4 options):
 • The microwave

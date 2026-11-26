@@ -28,7 +28,7 @@ long = {
           "who invented velcro", "how was super glue invented", "slinky invention", "teflon discovery", "non-stick pan history",
           "safety glass invention", "how was penicillin discovered", "alexander fleming penicillin", "history of inventions",
           "everyday inventions", "science history", "TrueWhys"],
- "categoryId": "28", "publishAt": "2026-12-27T17:00:00Z", "playlist": "Full Stories", "video": "final/B-008.mp4",
+ "categoryId": "28", "publishAt": "2026-12-26T17:00:00Z", "playlist": "Full Stories", "video": "final/B-008.mp4",
  "pinned_comment": "Which accident surprised you most: the walking spring, the burrs, the too-sticky glue, the 'empty' can, the flask, the candy bar or the dirty dish? "
                    "And which everyday invention should we explain next?",
  "ai_disclosure": AI}
