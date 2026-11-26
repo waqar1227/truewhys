@@ -24,7 +24,7 @@ DONE 24 Nov: L6 B-006 "Why You Forget Why You Walked Into a Room, Songs Get Stuc
 (episodes/B-006-brain-glitches/social/post) Fri 11 Dec; Studio → Related video = L6 (acW1qBL5TzI) on zvHTp6BC06E. After 13 Dec 17:00: pinned comment
 (B-006 upload_meta.json pinned_comment).
 A-028 DONE 25 Nov (see DONE line above): uploaded 6OXodt-6jFo, Sat 28 Nov 18:00 UTC.
-TO MAKE: L8 B-008 Sun 27 Dec 17:00 + C1 Tue 5 Jan → own session session_01BQj2DgSDnEwPfpipoEyfeR (26 Nov). BUFFER END now Sat 2 Jan. Next empty slots in order: Sun 3 Jan (L9 long) · Thu 7 Jan · Fri 8 Jan · Sat 9 Jan · Sun 10 Jan (L10) · Tue 12 Jan … Last public-count check: 26 Nov.
+TO MAKE: L8 B-008 Sun 27 Dec 17:00 + C1 Tue 5 Jan → own session session_01BQj2DgSDnEwPfpipoEyfeR (26 Nov). BUFFER END now Sat 2 Jan. NEW WEEK SHAPE (owner 26 Nov, from 3 Jan): long Sat 17:00, Shorts Sun/Tue/Thu/Fri 18:00. Next empty slots in order: Sun 3 Jan (Short) · Thu 7 Jan · Fri 8 Jan · Sat 9 Jan (L9 long) · Sun 10 Jan · Tue 12 Jan · Thu 14 · Fri 15 · Sat 16 (L10) … Last public-count check: 26 Nov.
 DONE: A-026 Tue 15 Dec + A-027 Thu 24 Dec 18:00 (uploaded 24 Nov) ·
 DONE: L7 B-007 Sun 20 Dec 17:00 + teaser (post Fri 18 Dec) + cut Short Sat 26 Dec 18:00 (uploaded 25 Nov)
 Spare (made, not scheduled): L4-C3 caps, L4-C4 manholes.

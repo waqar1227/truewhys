@@ -90,9 +90,9 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
   long, the rest standalone Shorts on **trending topics**). Nothing more. **Max one post per day; 2 days a week with no post.** Owner 22 Nov: "I just
   not need the many, but I need the high quality": highest quality, highest engagement, **first 3 seconds the most engaging part**, re-check the
   characters (arms, left/right turns) and the QA gate. Week shape (from research 22 Nov, audience US/UK/PH/CA/AU, docs/posting_times.md):
-  long **Sun 17:00 UTC**; Shorts **Tue, Thu, Fri, Sat 18:00 UTC**; Mon + Wed free; ≥ 23 h between any two posts. **Rolling buffer (owner 26 Nov, replaces 30 days):
+  **(owner 26 Nov, new shape from the week of 3 Jan 2027; already-scheduled posts stay)** long **Sat 17:00 UTC**; Shorts **Sun, Tue, Thu, Fri 18:00 UTC**; Mon + Wed free; ≥ 23 h between any two posts. **Rolling buffer (owner 26 Nov, replaces 30 days):
   keep ~37 days scheduled ahead** (26 Nov → Sat 2 Jan). **Every time a scheduled post goes public, make ONE new video for the next empty slot**
-  in calendar order (Sun long / Tue-Thu-Fri-Sat Shorts, 1 long + 4 Shorts a week), so the last scheduled date keeps moving forward one slot per post.
+  in calendar order (Sat long / Sun-Tue-Thu-Fri Shorts, 1 long + 4 Shorts a week), so the last scheduled date keeps moving forward one slot per post.
   Daily heartbeat counts posts that went public since its last run and starts that many new videos (long → own fresh session). **Never change a video that is already scheduled**, with ONE
   exception (owner 22 Nov): **trend swap** — when a topic is going viral (a competitor's video exploding, a big news/game/sport moment), make our own
   original Short on it and publish it the SAME day (publishAt ≥ 1 h after upload); if a video is already scheduled that day, move that one to the
