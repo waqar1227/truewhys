@@ -1,8 +1,8 @@
-POST ON: Sat 5 Dec 2026 (YouTube Studio → Create → Post), image: post.jpg, add the poll below.
+POST ON: Thu 3 Dec 2026, 17:00 UTC (YouTube app: + → Post), image: post.jpg, add the poll below.
 
 Text:
 Your toast just slid off the table. Which side lands on the floor? 🍞
-A physicist worked out the answer, and it has nothing to do with luck. Full video on Monday.
+A physicist worked out the answer, and it has nothing to do with luck. Full video on Saturday.
 
 Poll (optional, 2 options):
 • Butter side DOWN
