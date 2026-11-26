@@ -1,0 +1,521 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "If the oxygen masks drop at thirty-five thousand feet, you might have thirty seconds.",
+  "dur": 5.419,
+  "words": [
+   {
+    "w": "If",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "the",
+    "s": 0.14,
+    "e": 0.28
+   },
+   {
+    "w": "oxygen",
+    "s": 0.28,
+    "e": 0.72
+   },
+   {
+    "w": "masks",
+    "s": 0.72,
+    "e": 1.28
+   },
+   {
+    "w": "drop",
+    "s": 1.28,
+    "e": 1.68
+   },
+   {
+    "w": "at",
+    "s": 1.68,
+    "e": 1.9
+   },
+   {
+    "w": "thirty-five",
+    "s": 1.9,
+    "e": 2.58
+   },
+   {
+    "w": "thousand",
+    "s": 2.58,
+    "e": 2.94
+   },
+   {
+    "w": "feet,",
+    "s": 2.94,
+    "e": 3.4
+   },
+   {
+    "w": "you",
+    "s": 3.9,
+    "e": 3.96
+   },
+   {
+    "w": "might",
+    "s": 3.96,
+    "e": 4.12
+   },
+   {
+    "w": "have",
+    "s": 4.12,
+    "e": 4.36
+   },
+   {
+    "w": "thirty",
+    "s": 4.36,
+    "e": 4.68
+   },
+   {
+    "w": "seconds.",
+    "s": 4.68,
+    "e": 5.12
+   }
+  ],
+  "heard": "If the oxygen masks drop at thirty -five thousand feet, you might have thirty seconds."
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "That's why the crew says: your own mask first. Even before your child's.",
+  "dur": 4.84,
+  "words": [
+   {
+    "w": "That's",
+    "s": 0.0,
+    "e": 0.26
+   },
+   {
+    "w": "why",
+    "s": 0.26,
+    "e": 0.44
+   },
+   {
+    "w": "the",
+    "s": 0.44,
+    "e": 0.6
+   },
+   {
+    "w": "crew",
+    "s": 0.6,
+    "e": 0.82
+   },
+   {
+    "w": "says:",
+    "s": 0.82,
+    "e": 1.16
+   },
+   {
+    "w": "your",
+    "s": 1.16,
+    "e": 1.74
+   },
+   {
+    "w": "own",
+    "s": 1.74,
+    "e": 2.0
+   },
+   {
+    "w": "mask",
+    "s": 2.0,
+    "e": 2.36
+   },
+   {
+    "w": "first.",
+    "s": 2.36,
+    "e": 2.92
+   },
+   {
+    "w": "Even",
+    "s": 3.38,
+    "e": 3.5
+   },
+   {
+    "w": "before",
+    "s": 3.5,
+    "e": 3.84
+   },
+   {
+    "w": "your",
+    "s": 3.84,
+    "e": 4.04
+   },
+   {
+    "w": "child's.",
+    "s": 4.04,
+    "e": 4.76
+   }
+  ],
+  "heard": "That's why the crew says your own mask first. Even before your child's."
+ },
+ {
+  "id": "L02",
+  "chapter": 0,
+  "text": "The air is so thin, your brain runs short of oxygen fast. And you don't feel it. You can even feel calm and happy.",
+  "dur": 7.918,
+  "words": [
+   {
+    "w": "The",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "air",
+    "s": 0.14,
+    "e": 0.4
+   },
+   {
+    "w": "is",
+    "s": 0.4,
+    "e": 0.58
+   },
+   {
+    "w": "so",
+    "s": 0.58,
+    "e": 0.88
+   },
+   {
+    "w": "thin,",
+    "s": 0.88,
+    "e": 1.36
+   },
+   {
+    "w": "your",
+    "s": 1.66,
+    "e": 1.74
+   },
+   {
+    "w": "brain",
+    "s": 1.74,
+    "e": 2.12
+   },
+   {
+    "w": "runs",
+    "s": 2.12,
+    "e": 2.5
+   },
+   {
+    "w": "short",
+    "s": 2.5,
+    "e": 2.84
+   },
+   {
+    "w": "of",
+    "s": 2.84,
+    "e": 2.98
+   },
+   {
+    "w": "oxygen",
+    "s": 2.98,
+    "e": 3.44
+   },
+   {
+    "w": "fast.",
+    "s": 3.44,
+    "e": 3.9
+   },
+   {
+    "w": "And",
+    "s": 4.52,
+    "e": 4.62
+   },
+   {
+    "w": "you",
+    "s": 4.62,
+    "e": 4.74
+   },
+   {
+    "w": "don't",
+    "s": 4.74,
+    "e": 5.04
+   },
+   {
+    "w": "feel",
+    "s": 5.04,
+    "e": 5.18
+   },
+   {
+    "w": "it.",
+    "s": 5.18,
+    "e": 5.44
+   },
+   {
+    "w": "You",
+    "s": 5.92,
+    "e": 6.02
+   },
+   {
+    "w": "can",
+    "s": 6.02,
+    "e": 6.16
+   },
+   {
+    "w": "even",
+    "s": 6.16,
+    "e": 6.4
+   },
+   {
+    "w": "feel",
+    "s": 6.4,
+    "e": 6.68
+   },
+   {
+    "w": "calm",
+    "s": 6.68,
+    "e": 7.12
+   },
+   {
+    "w": "and",
+    "s": 7.12,
+    "e": 7.34
+   },
+   {
+    "w": "happy.",
+    "s": 7.34,
+    "e": 7.64
+   }
+  ],
+  "heard": "The air is so thin, your brain runs short of oxygen fast. And you don't feel it. You can even feel calm and happy."
+ },
+ {
+  "id": "L03",
+  "chapter": 0,
+  "text": "Help someone else first, fumble with the strap, and you could both pass out.",
+  "dur": 4.285,
+  "words": [
+   {
+    "w": "Help",
+    "s": 0.0,
+    "e": 0.22
+   },
+   {
+    "w": "someone",
+    "s": 0.22,
+    "e": 0.54
+   },
+   {
+    "w": "else",
+    "s": 0.54,
+    "e": 0.76
+   },
+   {
+    "w": "first,",
+    "s": 0.76,
+    "e": 1.22
+   },
+   {
+    "w": "fumble",
+    "s": 1.5,
+    "e": 1.8
+   },
+   {
+    "w": "with",
+    "s": 1.8,
+    "e": 2.1
+   },
+   {
+    "w": "the",
+    "s": 2.1,
+    "e": 2.22
+   },
+   {
+    "w": "strap,",
+    "s": 2.22,
+    "e": 2.6
+   },
+   {
+    "w": "and",
+    "s": 2.86,
+    "e": 2.94
+   },
+   {
+    "w": "you",
+    "s": 2.94,
+    "e": 3.08
+   },
+   {
+    "w": "could",
+    "s": 3.08,
+    "e": 3.24
+   },
+   {
+    "w": "both",
+    "s": 3.24,
+    "e": 3.48
+   },
+   {
+    "w": "pass",
+    "s": 3.48,
+    "e": 3.84
+   },
+   {
+    "w": "out.",
+    "s": 3.84,
+    "e": 4.14
+   }
+  ],
+  "heard": "Help someone else first, fumble with the strap, and you could both pass out."
+ },
+ {
+  "id": "L04",
+  "chapter": 0,
+  "text": "Mask on first, and you have all the time you need to help them.",
+  "dur": 3.694,
+  "words": [
+   {
+    "w": "Mask",
+    "s": 0.0,
+    "e": 0.38
+   },
+   {
+    "w": "on",
+    "s": 0.38,
+    "e": 0.58
+   },
+   {
+    "w": "first,",
+    "s": 0.58,
+    "e": 0.94
+   },
+   {
+    "w": "and",
+    "s": 1.38,
+    "e": 1.54
+   },
+   {
+    "w": "you",
+    "s": 1.54,
+    "e": 1.66
+   },
+   {
+    "w": "have",
+    "s": 1.66,
+    "e": 1.82
+   },
+   {
+    "w": "all",
+    "s": 1.82,
+    "e": 2.08
+   },
+   {
+    "w": "the",
+    "s": 2.08,
+    "e": 2.28
+   },
+   {
+    "w": "time",
+    "s": 2.28,
+    "e": 2.58
+   },
+   {
+    "w": "you",
+    "s": 2.58,
+    "e": 2.78
+   },
+   {
+    "w": "need",
+    "s": 2.78,
+    "e": 2.98
+   },
+   {
+    "w": "to",
+    "s": 2.98,
+    "e": 3.14
+   },
+   {
+    "w": "help",
+    "s": 3.14,
+    "e": 3.3
+   },
+   {
+    "w": "them.",
+    "s": 3.3,
+    "e": 3.56
+   }
+  ],
+  "heard": "Mask on first, and you have all the time you need to help them."
+ },
+ {
+  "id": "L05",
+  "chapter": 0,
+  "text": "Then the pilots dive down to thicker air. Thirty seconds was all you needed.",
+  "dur": 4.777,
+  "words": [
+   {
+    "w": "Then",
+    "s": 0.0,
+    "e": 0.16
+   },
+   {
+    "w": "the",
+    "s": 0.16,
+    "e": 0.28
+   },
+   {
+    "w": "pilots",
+    "s": 0.28,
+    "e": 0.64
+   },
+   {
+    "w": "dive",
+    "s": 0.64,
+    "e": 0.98
+   },
+   {
+    "w": "down",
+    "s": 0.98,
+    "e": 1.36
+   },
+   {
+    "w": "to",
+    "s": 1.36,
+    "e": 1.58
+   },
+   {
+    "w": "thicker",
+    "s": 1.58,
+    "e": 1.82
+   },
+   {
+    "w": "air.",
+    "s": 1.82,
+    "e": 2.26
+   },
+   {
+    "w": "Thirty",
+    "s": 2.82,
+    "e": 3.0
+   },
+   {
+    "w": "seconds",
+    "s": 3.0,
+    "e": 3.46
+   },
+   {
+    "w": "was",
+    "s": 3.46,
+    "e": 3.72
+   },
+   {
+    "w": "all",
+    "s": 3.72,
+    "e": 4.02
+   },
+   {
+    "w": "you",
+    "s": 4.02,
+    "e": 4.26
+   },
+   {
+    "w": "needed.",
+    "s": 4.26,
+    "e": 4.56
+   }
+  ],
+  "heard": "Then the pilots dive down to thicker air. Thirty seconds was all you needed."
+ }
+]

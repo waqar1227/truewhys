@@ -114,7 +114,7 @@ def row(g, c, kai="deadpan", nia="deadpan", lights=1.0, night=True, kai_view=Non
         panel=0.0, kai_h=880, front=True):
     cabin_row_back(g, c.gt, 330, SEATS, night=night, shade_k=shade_k)
     if panel > 0:
-        mask_panel(g, 980, 182, panel, c.gt, n=3, gap=230)
+        mask_panel(g, 1090, 182, panel, c.gt, n=2, gap=440)
     char2(g, kai_cid, SEATS[0], FEET, kai_h, kai, kai_pose[0], kai_pose[1], t=c.gt, view=kai_view, flip=kai_flip)
     if nia:
         char2(g, "nia", SEATS[1], FEET, 790, nia, nia_pose[0], nia_pose[1], t=c.gt, view=nia_view, flip=nia_flip)
