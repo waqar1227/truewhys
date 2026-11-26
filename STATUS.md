@@ -4,7 +4,7 @@
 (22 Nov) Read only: this list, CLAUDE.md, and the files a task names. Older notes: docs/status_archive_2026-11-22.md.
 Rules added 22 Nov (all in CLAUDE.md): 5 posts/week, 1 per day, Mon+Wed free, long Sun 17:00, Shorts Tue/Thu/Fri/Sat 18:00 UTC
 (docs/posting_times.md) · trend swap allowed · NO burned-in captions (SRT upload) · research/why_not_viral.md production rules ·
-docs/growth_strategy.md · docs/competitor_targeting.md (never creator names in metadata) · cast v2.2 (arms/turns) · 30 days scheduled → STOP.
+docs/growth_strategy.md · docs/competitor_targeting.md (never creator names in metadata) · cast v2.2 (arms/turns) · ROLLING BUFFER (owner 26 Nov): each post that goes public → make 1 new video for the next empty slot (keep ~37 days ahead).
 
 CALENDAR (UTC). Scheduled: Sun 22 A-021 · Mon 23 16:00 A-025 T3CvD2HqRaE (trend swap, owner 23 Nov; A-017 moved to Tue 22 Dec 18:00) · Tue 24 A-012 · Wed 25 A-011 · Thu 26 A-013 · Fri 27 A-018 · Wed 25 18:00 A-029 5ryX939np_w (controller rumble; trend swap, owner 25 Nov: GTA trending, moved from Sat 12 Dec) · Sat 28 18:00 A-028 6OXodt-6jFo (windshield, Style F; owner one-time winter exception to the posting days, 25 Nov) · Sun 29 17:00 L4 dgmYB0zPALw ·
 Tue 1 Dec 18:00 L4-C1 PtETjFRHH24 · Thu 3 Dec 16:00 A-010 · Fri 4 Dec 18:00 L4-C2 cXgM0GJELw0 · Sat 5 Dec 18:00 A-019 1I_m4OaiQzE · Sun 6 Dec 16:00 A-016 · Fri 11 Dec 18:00 A-022 VAUl6EfZebw · Sun 13 Dec 17:00 L6 acW1qBL5TzI (brain glitches, Style F) · Tue 15 Dec 18:00 A-026 -8MLpCFqDuw (tongue on frozen pole, Style F) · Thu 17 Dec 18:00 L6-C1 zvHTp6BC06E (phantom phone buzz) · Fri 18 Dec 18:00 A-023 3ZAI7vLZZkE (foot asleep, Style F) · Sat 19 Dec 18:00 A-024 sJ8lsYNlHTk (microwave mesh) · Sun 20 Dec 17:00 L7 NnTHvcf23Vc (cats vs dogs, Style F) · Tue 22 Dec 18:00 A-017 S8zIxiPXHpE (moved) · Thu 24 Dec 18:00 A-027 _6wnNSSo4fU (reindeer eyes, Style F) · Fri 25 Dec 18:00 A-030 jPrVioaxbNY (Christmas lights, Style F) · Sat 26 Dec 18:00 L7-C1 KnGjNdHW0l4 (puppy eyes) · Tue 29 Dec 18:00 A-031 MC19B4dK33U (New Year ball drop, Style F) · Thu 31 Dec 18:00 A-032 3Kl_Unm5Uoc (bubble wrap, Style F, Studio pattern 1) · Fri 1 Jan 18:00 A-033 rXEOJ5qUawA (plane ashtray, Style R, pattern 2, AI field Yes) · Sat 2 Jan 18:00 A-034 nIITazsKXPk (Oxford bell, Style F time-lapse room, pattern 3).
@@ -24,9 +24,9 @@ DONE 24 Nov: L6 B-006 "Why You Forget Why You Walked Into a Room, Songs Get Stuc
 (episodes/B-006-brain-glitches/social/post) Fri 11 Dec; Studio → Related video = L6 (acW1qBL5TzI) on zvHTp6BC06E. After 13 Dec 17:00: pinned comment
 (B-006 upload_meta.json pinned_comment).
 A-028 DONE 25 Nov (see DONE line above): uploaded 6OXodt-6jFo, Sat 28 Nov 18:00 UTC.
-TO MAKE (plan 24 Nov, 30 days = to Thu 24 Dec): ·
+TO MAKE: L8 B-008 Sun 27 Dec 17:00 + C1 Tue 5 Jan → own session session_01BQj2DgSDnEwPfpipoEyfeR (26 Nov). BUFFER END now Sat 2 Jan. Next empty slots in order: Sun 3 Jan (L9 long) · Thu 7 Jan · Fri 8 Jan · Sat 9 Jan · Sun 10 Jan (L10) · Tue 12 Jan … Last public-count check: 26 Nov.
 DONE: A-026 Tue 15 Dec + A-027 Thu 24 Dec 18:00 (uploaded 24 Nov) ·
-DONE: L7 B-007 Sun 20 Dec 17:00 + teaser (post Fri 18 Dec) + cut Short Sat 26 Dec 18:00 (uploaded 25 Nov) · then STOP until the schedule drops below 30 days (heartbeat adds the next slot each day).
+DONE: L7 B-007 Sun 20 Dec 17:00 + teaser (post Fri 18 Dec) + cut Short Sat 26 Dec 18:00 (uploaded 25 Nov)
 Spare (made, not scheduled): L4-C3 caps, L4-C4 manholes.
 
 TASKS in order:
