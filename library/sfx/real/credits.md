@@ -24,6 +24,7 @@ SFX peak -1 dBFS (max 6 s), ambiences RMS -26 dBFS (loopable, max 58 s). Fetch/r
 | `amb_night` | ambience | Crickets At Night - Raw sound | Defelozedd94 | 58.0 | https://freesound.org/people/Defelozedd94/sounds/522299/ |
 | `amb_office` | ambience | Office Ambience 01 OWI.wav | DavidFrbr | 58.0 | https://freesound.org/people/DavidFrbr/sounds/327497/ |
 | `amb_park` | ambience | Bird Park Ambience  | nick121087 | 58.0 | https://freesound.org/people/nick121087/sounds/234315/ |
+| `amb_plane_cabin` | ambience | On board all Nippon Airways (Take off).MP3 | macdaddyno1 | 58.0 | https://freesound.org/people/macdaddyno1/sounds/361503/ |
 | `amb_playground` | ambience | Kids Playing | brunoboselli | 58.0 | https://freesound.org/people/brunoboselli/sounds/469613/ |
 | `amb_rain_light` | ambience | Rain light 1 (rural) | jmbphilmes | 58.0 | https://freesound.org/people/jmbphilmes/sounds/200271/ |
 | `amb_rain_window` | ambience | Rain_Hitting_Window_9 | SignatureSoundsOrg | 58.0 | https://freesound.org/people/SignatureSoundsOrg/sounds/869851/ |
@@ -70,6 +71,7 @@ SFX peak -1 dBFS (max 6 s), ambiences RMS -26 dBFS (loopable, max 58 s). Fetch/r
 | `rope_stretch` | foley | Creaking Metal Wire of Wooden Gate | qubodup | 2.65 | https://freesound.org/people/qubodup/sounds/861827/ |
 | `rubber_band` | foley | Elastic band c note | mudflea2 | 1.58 | https://freesound.org/people/mudflea2/sounds/708182/ |
 | `scissors` | foley | Scissors Cutting Paper | aldenroth2 | 1.76 | https://freesound.org/people/aldenroth2/sounds/272035/ |
+| `seatbelt_click` | foley | Seat belt unbuckle & buckling | Caitlin_100 | 6.0 | https://freesound.org/people/Caitlin_100/sounds/384406/ |
 | `switch_light` | foley | Light Switch Click On and Off | SomeoneCool15 | 3.78 | https://freesound.org/people/SomeoneCool15/sounds/423512/ |
 | `tap_glass` | foley | wine glass clink | fleurescence | 1.38 | https://freesound.org/people/fleurescence/sounds/573157/ |
 | `tap_table` | foley | 190135_Tapping nails on a table.wav | AlbertCoetser | 6.0 | https://freesound.org/people/AlbertCoetser/sounds/492141/ |
@@ -165,6 +167,7 @@ SFX peak -1 dBFS (max 6 s), ambiences RMS -26 dBFS (loopable, max 58 s). Fetch/r
 | `car_pass` | vehicles | Car by Med Smart Car DonFX.wav | Donmann | 6.0 | https://freesound.org/people/Donmann/sounds/233465/ |
 | `car_start` | vehicles | SFX_Car_Engine_Outside_Start.wav | GiocoSound | 2.45 | https://freesound.org/people/GiocoSound/sounds/401558/ |
 | `plane_flyover` | vehicles | Small_Jet_flypast | Kevaaq | 6.0 | https://freesound.org/people/Kevaaq/sounds/607302/ |
+| `seatbelt_chime` | vehicles | A320 tritone chime.wav | nachosose | 2.87 | https://freesound.org/people/nachosose/sounds/244583/ |
 | `train_pass` | vehicles | Train Passing By 109 with Bell and Track Noises.mp3 | FunWithSound | 6.0 | https://freesound.org/people/FunWithSound/sounds/593056/ |
 | `truck_pass` | vehicles | auto car truck pass by elevated highway echo from underneath.flac | kyles | 6.0 | https://freesound.org/people/kyles/sounds/637160/ |
 | `whoosh_cloth` | whooshes | Shirt Whoosh 2.wav | saturdaysoundguy | 6.0 | https://freesound.org/people/saturdaysoundguy/sounds/391447/ |

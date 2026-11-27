@@ -115,6 +115,12 @@ WANT = {
     "amb_winter": ("ambience", "winter wind snow", "a"), "amb_thunder": ("ambience", "thunderstorm", "a"),
     "amb_lab": ("ambience", "laboratory ambience hum", "a"), "amb_garage": ("ambience", "garage ambience", "a"),
     "amb_suburb": ("ambience", "suburban ambience", "a"), "amb_market": ("ambience", "outdoor market ambience", "a"),
+    # ---- B-009 aviation (26-27 Nov 2026)
+    "amb_plane_cabin": ("ambience", "airplane cabin interior flight", "a"), "amb_cockpit": ("ambience", "cockpit aircraft interior engine hum", "a"),
+    "amb_hangar": ("ambience", "hangar large hall reverb", "a"),
+    "seatbelt_chime": ("vehicles", "airplane seatbelt chime", "s"), "seatbelt_click": ("foley", "seat belt buckle click", "s"),
+    "tray_table": ("foley", "airplane tray table", "s"), "overhead_bin": ("foley", "airplane overhead bin close", "s"),
+    "plane_takeoff": ("vehicles", "airplane takeoff jet", "s"), "jet_pass": ("vehicles", "jet airliner pass by", "s"),
 }
 
 # second-try queries when the first finds no clean CC0 recording

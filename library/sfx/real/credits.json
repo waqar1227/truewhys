@@ -259,6 +259,19 @@
   "title": "Bird Park Ambience ",
   "url": "https://freesound.org/people/nick121087/sounds/234315/"
  },
+ "amb_plane_cabin": {
+  "author": "macdaddyno1",
+  "category": "ambience",
+  "channels": 2,
+  "file": "ambience/amb_plane_cabin.ogg",
+  "id": 361503,
+  "kind": "ambience",
+  "license": "CC0 1.0",
+  "query": "airplane cabin interior flight",
+  "seconds": 58.0,
+  "title": "On board all Nippon Airways (Take off).MP3",
+  "url": "https://freesound.org/people/macdaddyno1/sounds/361503/"
+ },
  "amb_playground": {
   "author": "brunoboselli",
   "category": "ambience",
@@ -1688,6 +1701,32 @@
   "seconds": 0.72,
   "title": "Freezer Ice Scrape Knife 20.wav",
   "url": "https://freesound.org/people/Glitchedtones/sounds/380262/"
+ },
+ "seatbelt_chime": {
+  "author": "nachosose",
+  "category": "vehicles",
+  "channels": 1,
+  "file": "vehicles/seatbelt_chime.ogg",
+  "id": 244583,
+  "kind": "sfx",
+  "license": "CC0 1.0",
+  "query": "airplane seatbelt chime",
+  "seconds": 2.87,
+  "title": "A320 tritone chime.wav",
+  "url": "https://freesound.org/people/nachosose/sounds/244583/"
+ },
+ "seatbelt_click": {
+  "author": "Caitlin_100",
+  "category": "foley",
+  "channels": 1,
+  "file": "foley/seatbelt_click.ogg",
+  "id": 384406,
+  "kind": "sfx",
+  "license": "CC0 1.0",
+  "query": "seat belt buckle click",
+  "seconds": 6.0,
+  "title": "Seat belt unbuckle & buckling",
+  "url": "https://freesound.org/people/Caitlin_100/sounds/384406/"
  },
  "sewing_machine": {
   "author": "Rudmer_Rotteveel",

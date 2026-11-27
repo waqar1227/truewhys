@@ -1,1 +1,14 @@
-{"0": "A YouTube Short: start INSTANTLY, no breath, urgent but calm, like a pilot letting you in on something serious: weight on 'thirty seconds.' Then clear and caring on the rule, gentle on 'Even before your child's.' Quiet and eerie on 'you don't feel it coming', soft on 'calm, even happy'. Serious on 'you could both pass out.' Warm and reassuring on 'all the time you need to help them.' Steady on the dive, and the last line calm and knowing, a small pause before 'was all you needed'."}
+{
+ "0": "A YouTube Short: start INSTANTLY, no breath, urgent but calm, like a pilot letting you in on something serious: weight on 'thirty seconds.' Then clear and caring on the rule, gentle on 'Even before your child's.' Quiet and eerie on 'you don't feel it coming', soft on 'calm, even happy'. Serious on 'you could both pass out.' Warm and reassuring on 'all the time you need to help them.' Steady on the dive, and the last line calm and knowing, a small pause before 'was all you needed'.",
+ "voice": "Achird",
+ "split": "scenes",
+ "max_takes": 3,
+ "lines": {
+  "H1": "urgent, hushed, weight on 'thirty seconds'",
+  "L01": "caring, firm, gentle on 'your child's'",
+  "L02": "eerie, quiet, a little unsettling on 'calm and happy'",
+  "L03": "tense, serious",
+  "L04": "warm, reassuring, relieved",
+  "L05": "calm, knowing, small pause before 'was all you needed'"
+ }
+}
