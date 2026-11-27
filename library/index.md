@@ -14,9 +14,25 @@
 ## Motion graphics (lib/gfx.py)
 - chapter card, title card, Europe map with pins (Natural Earth), split screen, parchment documents (typewriter text, wax seal, torn/bitten edge), location tag, pop words, highlighted captions, end screen
 
-## Audio
-- Music: library/music/procedural/{mystery,curious,story,playful,tension,dark,warm}.wav (original, lib/music.py)
-- SFX: library/sfx (CC0, mapping in lib/audio.py)
+## Audio — REAL SOUND (27 Nov 2026, use for every new video; details docs/sound_upgrade.md)
+- **Real SFX + ambiences** `library/sfx/real/<category>/<name>.ogg` (167 Freesound CC0 recordings; list + authors in
+  library/sfx/real/credits.md; refetch tools/fetch_real_sfx.py). Use the name in `sfx=[(t, "name", gain)]`. Categories:
+  foley (clicks, taps, paper, cloth, zipper, clap, snap, scissors, chair, typing, chalk...), footsteps (wood, concrete, gravel, grass,
+  tile, snow, stairs, run), doors, materials (glass, metal, plastic, wood, stone), liquids, impacts (pops, soft thuds, falls, bounce),
+  whooshes (real air: stick, cloth, paper, rope, fast), objects (kitchen, phone, keys, coins, bubble wrap, tools, appliances...),
+  vehicles, animals, **ambience** (33 beds: amb_room_quiet, amb_living_room, amb_kitchen, amb_office, amb_cafe, amb_restaurant,
+  amb_street, amb_city, amb_suburb, amb_park, amb_garden, amb_forest, amb_beach, amb_night, amb_rain_light, amb_rain_window, amb_wind,
+  amb_winter, amb_thunder, amb_crowd, amb_market, amb_supermarket, amb_school, amb_classroom, amb_library, amb_hospital, amb_workshop,
+  amb_garage, amb_factory, amb_airport, amb_train, amb_car_inside, amb_playground).
+- **Ambience bed per scene:** `Video(ep, amb="amb_living_room")` and `V.shot(..., amb="amb_garage")` (sticky, like music; "none" = off).
+- **Real music** `library/music/real/<mood>/` (27 Kevin MacLeod tracks, CC BY 4.0, real instruments): curious, light, tense, warm,
+  upbeat, mysterious, festive. Old mood names map automatically (playful->light, story->warm, tension->tense, mystery->mysterious,
+  adventure->upbeat...). Exact track: `music="curious/onion_capers"`. A Short keeps one track. **Credit line goes in the description**
+  (written to episodes/<ep>/audio/music_credits.txt; lib/youtube.py refuses the upload without it). Credits: library/music/real/credits.md.
+- Engine: lib/audio.py `build_mix` "real" mode (default for new episodes; "legacy" for uploaded ones or TW_SOUND=legacy): music ~20 dB
+  under the voice, ambience ~24 dB under, old cue names mapped to real recordings, cartoon cues (sting, shimmer, hmm, zap, swell,
+  confuse...) dropped, synth only as a printed WARNING fallback. `audio.mix_voice_file()` mixes one narration file (samples, tests).
+- Legacy (old episodes only): procedural music library/music/procedural (lib/music.py), Kenney packs + lib/sfxgen.py synth effects.
 
 ## Sets added for B-002 (lib/sets2.py)
 | Set | Variants | Use |

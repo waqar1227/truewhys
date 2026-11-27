@@ -577,8 +577,11 @@ class Ctx:
 
 
 class Video:
-    def __init__(s, ep, title=None, keys=(), gap=0.22, lead=0.12, music="curious", cap_y=0.40, title_out=None, end_dur=2.6, sid=None, endcard=False, badge=0.7, cap_size=118, captions=None):
+    def __init__(s, ep, title=None, keys=(), gap=0.22, lead=0.12, music="curious", cap_y=0.40, title_out=None, end_dur=2.6, sid=None, endcard=False, badge=0.7, cap_size=118, captions=None, amb=None, sound=None):
         s.ep = Path(ep)
+        # REAL SOUND RULE (27 Nov 2026): amb = real ambience bed name (library/sfx/real/ambience, e.g. "amb_living_room");
+        # sound = "real" | "legacy" (default: lib/audio.sound_mode -> legacy only for already-uploaded episodes)
+        s.amb, s.sound = amb, sound
         # owner D2 (15 Nov 2026): no full-screen end card on new Shorts; story to the last frame + small Wy check badge (<= 0.7 s)
         s.endcard, s.badge, s.cap_size = endcard, badge, cap_size
         s.T = {t["id"]: t for t in json.loads((s.ep / "timing.json").read_text())}
@@ -592,8 +595,8 @@ class Video:
         s.surf = None
 
     # ---- declaring shots
-    def shot(s, line, fn, part=(0, 1), cam=None, sfx=(), music=None, tr="punch", cap=True, cap_y=None, name=None):
-        s.decl.append(dict(line=line, fn=fn, part=part, cam=cam or still(), sfx=list(sfx), music=music, tr=tr, cap=cap, cap_y=cap_y, name=name))
+    def shot(s, line, fn, part=(0, 1), cam=None, sfx=(), music=None, tr="punch", cap=True, cap_y=None, name=None, amb=None):
+        s.decl.append(dict(line=line, fn=fn, part=part, cam=cam or still(), sfx=list(sfx), music=music, tr=tr, cap=cap, cap_y=cap_y, name=name, amb=amb))
 
     def _conv(s, L, p, full, v0):
         if isinstance(p, str):
@@ -625,7 +628,7 @@ class Video:
             o = s.T["O1"]
             s.voice0["O1"] = t + 0.17
             out.append(dict(id=f"{s.sid}_END", line="O1", fn=end_card, part=(0, 1), cam=lambda c: (W / 2, H / 2, 1.0, 0.0), sfx=[(0.0, "whoosh_soft", 0.4), (1.28, "ding", 0.42)],
-                            music=None, tr="cut", cap=False, cap_y=None, name="end", start=round(t, 4), dur=round(max(s.end_dur, o["dur"] + 0.75), 4), kind="end",
+                            music=None, amb=None, tr="cut", cap=False, cap_y=None, name="end", start=round(t, 4), dur=round(max(s.end_dur, o["dur"] + 0.75), 4), kind="end",
                             line_start=round(t + 0.12, 4)))
             t += out[-1]["dur"]
         # snap shot boundaries to frames
@@ -670,8 +673,10 @@ class Video:
                 sf_.append([clamp(off / sh["dur"], 0, 1) if sh["dur"] > 0 else 0, nm, g])
             if sh["music"]: mood = sh["music"]
             shots.append(dict(id=sh["id"], kind=sh["kind"], start=sh["start"], dur=sh["dur"], line=sh["line"], line_start=sh["line_start"], sfx=sf_,
-                              music=mood if sh is s.shots[0] or sh["music"] else None))
-        return dict(fps=FPS, resolution=[W, H], style="F", episode=s.sid, duration=s.duration, shots=shots)
+                              music=mood if sh is s.shots[0] or sh["music"] else None, amb=sh.get("amb")))
+        pl = dict(fps=FPS, resolution=[W, H], style="F", episode=s.sid, duration=s.duration, shots=shots, music=s.music0, amb=s.amb)
+        if s.sound: pl["sound"] = s.sound
+        return pl
 
     def env(s, gt):
         if s._env is None:

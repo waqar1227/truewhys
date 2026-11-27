@@ -58,13 +58,19 @@ def _silence(a, sr, lo, hi, thr=0.035):
     return (i0 / sr + best[0] * 0.01, i0 / sr + best[1] * 0.01)
 
 
+NATURAL = ("# AUDIO PROFILE: The Narrator\nA real person, not an announcer: a curious, warm person telling a friend something "
+           "surprising he just found out.\n\n## THE SCENE\nSitting across a kitchen table from ONE friend, talking quietly and naturally, "
+           "half amazed himself. No microphone voice, no radio or trailer tone, no sing-song.\n\n### DIRECTOR'S NOTES\n"
+           "Style: conversational and genuine, like a real chat. Small natural pauses where a person would think or let something land; "
+           "vary the pace (quicker on the easy bits, slower on the surprising facts); a little smile in the voice on the funny parts. "
+           "Never over-act, never shout, never stretch words.{note}\n"
+           "Pace: natural, about 160 words per minute on average.\nAccent: neutral American.\n\n#### TRANSCRIPT\n")
+
+
 def prompt_for(chapter, says):
-    return ("# AUDIO PROFILE: The Narrator\nA warm, charismatic male storyteller for a hit animated history channel.\n\n"
-            "## THE SCENE\nA cosy studio. He is telling a true, astonishing story to a friend, half amazed himself.\n\n"
-            "### DIRECTOR'S NOTES\n"
-            f"Style: gripping, vivid and warm. {DIRECTION.get(chapter, '')}\n"
-            "Pace: lively and natural, about 165 words per minute, with brief dramatic pauses at the ellipses and a short pause between sentences.\n"
-            "Accent: neutral American.\n\n#### TRANSCRIPT\n" + "\n".join(says))
+    """REAL SOUND RULE (27 Nov 2026): natural conversational read for all new narration (talk to one friend)."""
+    note = DIRECTION.get(chapter, "")
+    return NATURAL.format(note=(" " + note) if note else "") + "\n".join(says)
 
 
 def tts(text, out):

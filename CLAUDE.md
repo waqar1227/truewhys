@@ -86,6 +86,7 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
   tracks from library/music/real (Freesound CC0 or Kevin MacLeod/incompetech CC-BY 4.0 with credit in the description); code-generated
   procedural music only as a quiet last resort. Voice: natural conversational read (direction: talk to one friend, natural pauses, varied pace,
   no announcer tone), music ducked well under the voice; the owner picks the 2 narration voices from samples.
+  Engine + how-to: lib/audio.py real mode (default for new episodes), library/index.md "Audio — REAL SOUND", docs/sound_upgrade.md.
 - Music: `library/music` (real tracks preferred, see REAL SOUND RULE).
 - **YouTube quota (resets 08:00 UTC):** if a YouTube job fails with `quotaExceeded`, list it under "AFTER YOUTUBE QUOTA RESET" at the top of
   STATUS.md NEXT and do that list first after the next reset (owner 16 Nov: never forget the AI field = No on all videos).

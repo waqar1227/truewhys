@@ -78,6 +78,13 @@ def upload(video, meta, thumb=None, long_id=None):
         if not long_id:
             sys.exit("this description needs --long <long video id>")
         m["description"] = m["description"].replace("{LONG_URL}", "https://youtu.be/" + long_id)
+    # REAL SOUND RULE (27 Nov 2026): CC BY music (Kevin MacLeod) must be credited in the description (lib/audio writes the lines)
+    mc = os.path.join(os.path.dirname(os.path.abspath(meta)), "audio", "music_credits.txt")
+    if os.path.exists(mc):
+        need = [l.strip() for l in open(mc) if "Kevin MacLeod" in l]
+        miss = [l for l in need if l not in m["description"]]
+        if miss:
+            sys.exit("description is missing the music credit (CC BY 4.0), add audio/music_credits.txt to it: " + "; ".join(miss))
     # owner 18 Nov 2026: AI/altered disclosure is decided per video (docs/ai_disclosure.md) and must be written in upload_meta.json
     ad = m.get("ai_disclosure")
     if not isinstance(ad, dict) or not isinstance(ad.get("synthetic"), bool) or not ad.get("reason"):
