@@ -40,7 +40,13 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
   (why-explainer / origin story / person spotlight / test-experiment / myth-vs-fact / countdown), title shape, thumbnail layout.
   Hard limits: never the same style 3 uploads in a row (target mix per week: ≤ 3 Style F, ≥ 1 Style T or R); never the same lead character twice in
   a row (new outfits/new characters are fine, keep Wy as the brand); ≤ 2 "Why …?" titles in a row (use the Studio patterns).
-  Narration voice: rotate between 2 Gemini voices (TW_GEMINI_VOICE=Charon for long videos + one other for Shorts; never imitate a real person).
+  **PER-VIDEO PRODUCTION DESIGN (owner 27 Nov 2026, replaces the fixed 2-voice rotation; owner heard all samples: "All are good"):**
+  for EVERY video, decide from its script what fits best and write it in topic.md under "production design": style (F flat 2D /
+  T toon 3D / R realistic 3D test-experiment, i.e. the FORMATS of Rick's Clips / Ink Explainer / Zack D. Films, or a new style of our own),
+  characters (our cast v2 or new original characters made for the story), narration voice (Gemini Charon, Puck, Achird or another prebuilt
+  voice, Kokoro as fallback; samples docs/voice_samples/), voice direction, music mood/track and the ambience + real SFX per scene.
+  Copy only formats, never their art, characters, voices or videos; never imitate a real person's voice. Set the voice per episode with
+  "voice" in direction.json (lib/voice_gemini.py). Consecutive uploads still pass the variety check above.
   Every video keeps its own research, script, sources and new staging; never re-use scenes, clips or footage across videos.
 - Factual accuracy: verify every claim against reliable sources (2+ in `sources.md`); never present unverified information as confirmed.
 
@@ -85,7 +91,7 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
   synth whooshes) unless nothing real exists. Fewer, well-timed effects + a real room/outdoor ambience bed under every scene. Music: real-instrument
   tracks from library/music/real (Freesound CC0 or Kevin MacLeod/incompetech CC-BY 4.0 with credit in the description); code-generated
   procedural music only as a quiet last resort. Voice: natural conversational read (direction: talk to one friend, natural pauses, varied pace,
-  no announcer tone), music ducked well under the voice; the owner picks the 2 narration voices from samples.
+  no announcer tone), music ducked well under the voice; voice chosen per video (see PER-VIDEO PRODUCTION DESIGN).
   Engine + how-to: lib/audio.py real mode (default for new episodes), library/index.md "Audio — REAL SOUND", docs/sound_upgrade.md.
 - Music: `library/music` (real tracks preferred, see REAL SOUND RULE).
 - **YouTube quota (resets 08:00 UTC):** if a YouTube job fails with `quotaExceeded`, list it under "AFTER YOUTUBE QUOTA RESET" at the top of

@@ -38,3 +38,7 @@ Why: viewer comments "these AI sounds are ass" / "AI slop" (owner, 27 Nov). Rule
   with real music (light), living-room ambience and real SFX. Raw takes kept in docs/voice_samples/takes/ (never re-spend quota).
 - `demo_old_sound.mp4` vs `demo_new_sound.mp4`: A-032's first 21 s, old mix vs new mix (same picture and voice). MP4s are not in git
   (sent to the owner directly); rebuild: copy the episode, `voice_gemini.py <copy> 0`, `tempo_lines.py <copy> 1.04`, mix with TW_SOUND.
+
+## Owner decision (27 Nov 2026)
+All 4 voices approved. No fixed voice: each video's production design (topic.md) picks style, characters, voice,
+music and sounds to fit its script. Voice per episode: `"voice": "Puck"` in direction.json (TW_GEMINI_VOICE overrides).

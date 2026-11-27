@@ -93,7 +93,11 @@ def tts(text, out):
 def main(ep, chapters):
     ep = Path(ep)
     if (ep / "direction.json").exists():  # per-episode voice direction {"0": "..."} (standalone Shorts etc.)
-        DIRECTION.update({int(k): v for k, v in json.loads((ep / "direction.json").read_text()).items()})
+        dj = json.loads((ep / "direction.json").read_text())
+        global VOICE
+        VOICE = os.environ.get("TW_GEMINI_VOICE") or dj.pop("voice", VOICE)   # per-video voice (owner 27 Nov 2026)
+        DIRECTION.update({int(k): v for k, v in dj.items() if k.isdigit()})
+        print("voice:", VOICE, flush=True)
     lines = parse_lines(ep / "lines.txt")
     from faster_whisper import WhisperModel
     wm = WhisperModel("small.en", device="cpu", compute_type="int8")

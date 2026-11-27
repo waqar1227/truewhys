@@ -223,3 +223,5 @@ FORMAT of Rick's Clips (Shorts look), Ink Explainer (long videos) and Zack D. Fi
   Shorts thumbnail rule changed from "hook frame" to a custom thumbnail with one engaging hook/suspense text line.
 - 18 Nov 2026 (owner): "AI field always No" REPLACED by a per-video decision by the Production Manager under YouTube's official rule
   (docs/ai_disclosure.md). All 43 existing videos assessed: No (all animated/stylised, generic TTS narrator, code-made music).
+- 27 Nov 2026 (owner): "rotate between 2 Gemini voices (Charon long + one other for Shorts)" REPLACED by a per-video
+  production design (style, characters, voice, music, sound chosen from each script); owner approved all 4 voice samples.
