@@ -80,7 +80,13 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
   `research/pixabay_cache/`, <100 req/min, no real people/logos/brands, never replacing our cast; record in `credits.md`.
 - Sketchfab: CC0 or CC-BY only (skip NC, ND, Editorial, NoAI), header `Authorization: Token $SKETCHFAB_API_TOKEN`; if download is refused,
   ask the owner for a manual download; CC-BY credit in the description; on 429 wait.
-- Music: only `library/music` or original code-generated music.
+- **REAL SOUND RULE (owner 27 Nov 2026, after viewer comments "AI sounds" / "AI slop"):** sound effects in new videos must be REAL recordings
+  (Freesound CC0, BigSoundBank in library/sfx/bsb, library/sfx/real); no synthesized lib/sfxgen.py effects in final mixes (no beeps/zaps/boings/
+  synth whooshes) unless nothing real exists. Fewer, well-timed effects + a real room/outdoor ambience bed under every scene. Music: real-instrument
+  tracks from library/music/real (Freesound CC0 or Kevin MacLeod/incompetech CC-BY 4.0 with credit in the description); code-generated
+  procedural music only as a quiet last resort. Voice: natural conversational read (direction: talk to one friend, natural pauses, varied pace,
+  no announcer tone), music ducked well under the voice; the owner picks the 2 narration voices from samples.
+- Music: `library/music` (real tracks preferred, see REAL SOUND RULE).
 - **YouTube quota (resets 08:00 UTC):** if a YouTube job fails with `quotaExceeded`, list it under "AFTER YOUTUBE QUOTA RESET" at the top of
   STATUS.md NEXT and do that list first after the next reset (owner 16 Nov: never forget the AI field = No on all videos).
 - If a YouTube call fails with `invalid_grant`, tell the owner the token needs renewing (guide Part 10.4).
