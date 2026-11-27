@@ -34,6 +34,14 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
   mass-produced videos lose monetization. Every video needs its own researched script (sources.md), its own set, props and staging (never the
   same scene re-skinned), a real explanation or story, and visible variety between consecutive uploads (setting, cast mix, camera, music mood,
   structure). Never re-upload or lightly re-edit an existing video; cut Shorts must be re-composed with their own hook. Quality over quantity.
+- **ANTI-TEMPLATE / VARIETY RULE (owner 27 Nov 2026, YouTube "inauthentic content" = mass-produced/repetitive, checked 27 Nov):** before upload,
+  compare the video with the LAST 3 uploads (calendar order) and write a "variety check" line in qa.md. It must differ from the previous upload in
+  at least 4 of: style (F flat / T toon 3D / R realistic 3D), lead character + outfit, set/location, camera language, music mood, story structure
+  (why-explainer / origin story / person spotlight / test-experiment / myth-vs-fact / countdown), title shape, thumbnail layout.
+  Hard limits: never the same style 3 uploads in a row (target mix per week: ≤ 3 Style F, ≥ 1 Style T or R); never the same lead character twice in
+  a row (new outfits/new characters are fine, keep Wy as the brand); ≤ 2 "Why …?" titles in a row (use the Studio patterns).
+  Narration voice: rotate between 2 Gemini voices (TW_GEMINI_VOICE=Charon for long videos + one other for Shorts; never imitate a real person).
+  Every video keeps its own research, script, sources and new staging; never re-use scenes, clips or footage across videos.
 - Factual accuracy: verify every claim against reliable sources (2+ in `sources.md`); never present unverified information as confirmed.
 
 ## About the owner
@@ -135,8 +143,8 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
 - Name **TrueWhys**, handle **@truewhys**, tagline "The real story behind life's weirdest whys". Mascot/narrator **Wy** (egg head, big
   curious eyes, question-mark curl, coral shirt, yellow ✓ badge). Spec, colours, fonts, logo, channel text: `branding/`. English narration.
 - **Long videos come first (not a Shorts-only channel):** long videos (Style T); Shorts cut from every long video (usually 5–10, each
-  re-composed vertically, never cropped); standalone Shorts to test categories (same quality bar); a Style R test Short every 2 weeks;
-  a compilation every 4 weeks.
+  re-composed vertically, never cropped); standalone Shorts to test categories (same quality bar); a Style R test Short every 2 weeks.
+  **No compilations (owner 27 Nov: reused clips = "inauthentic content" risk).**
 - Thumbnails (long, 1280×720): one big cast face with an extreme emotion (face ≥ 35 % of height) + ONE strange object/situation + max
   3 giant words (Lilita One, high-contrast outline, never repeating the title), bright subject on a dark/blurred background, one focal
   point, readable at 168×94, curiosity gap. **Shorts (owner 16 Nov 2026): always set a custom thumbnail** = a strong frame from the Short
