@@ -60,3 +60,5 @@ music and sounds to fit its script. Voice per episode: `"voice": "Puck"` in dire
 5. **Demo for the owner:** `docs/voice_samples/flat_old_demo.mp3` (A-030 as posted: one flat take) vs `docs/voice_samples/emotional_demo.mp3`
    (same script and voice, 3 scene takes with a mood per line), both with the same real music, living-room ambience and real SFX
    (tools/emotional_demo.py, no Gemini request needed to rebuild).
+6. **Owner listened (27 Nov 2026): "Yes both are good."** The emotional method (per-line moods, scene takes, voice_human_check PASS +
+   listen check) stays the rule for all new videos; already-posted videos keep their voice.
