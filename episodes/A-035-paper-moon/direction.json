@@ -1,0 +1,16 @@
+{
+ "voice": "Puck",
+ "0": "Scene 1 of a short video: a playful dare that turns into amazement, then teasing and dry. Speak only the transcript.",
+ "1": "Scene 2: quick, crisp, building excitement line after line, rising pitch, then a hushed, thrilled awe on the last line. Speak only the transcript.",
+ "2": "Scene 3: curious and thoughtful, then warm storytelling with a smile and disbelief, then a reassuring, friendly punchline. Speak only the transcript.",
+ "lines": {
+  "H1": "playful dare, short pause at the dots, then amazed",
+  "L01": "teasing, knowing smile, dry",
+  "L02": "crisp, matter-of-fact, impressed",
+  "L03": "excited, faster, rising, then awe",
+  "L04": "suspense, then thrilled hush",
+  "L05": "curious, slower, then clear explaining",
+  "L06": "warm storytelling, smiling, disbelief at the end",
+  "L07": "reassuring, slower, satisfied punchline"
+ }
+}

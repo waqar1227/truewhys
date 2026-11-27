@@ -1,0 +1,9 @@
+# A-035 v1 (27 Nov 2026), standalone Short, Style R. Pattern 3 object spotlight + number, test/experiment. Facts: sources.md.
+H1|0|Fold this paper forty-two times... and it would reach the Moon.
+L01|0|But try it yourself, and you'll get stuck at about seven.
+L02|1|Every fold doubles it. Ten folds: ten centimetres.
+L03|1|Twenty-three folds: taller than the tallest building on Earth.
+L04|1|Forty-two? Past the Moon.
+L05|2|So why can't you? Each fold halves the sheet, and every bend swallows more paper.
+L06|2|In 2002, a student managed twelve folds... with paper over a kilometre long.
+L07|2|So if you're stuck at seven... it's not you. It's the paper.

@@ -1,0 +1,505 @@
+[
+ {
+  "id": "H1",
+  "chapter": 0,
+  "text": "Fold this paper forty-two times... and it would reach the Moon.",
+  "dur": 5.288,
+  "words": [
+   {
+    "w": "Fold",
+    "s": 0.0,
+    "e": 0.346
+   },
+   {
+    "w": "this",
+    "s": 0.346,
+    "e": 0.615
+   },
+   {
+    "w": "paper",
+    "s": 0.615,
+    "e": 1.0
+   },
+   {
+    "w": "forty-two",
+    "s": 1.0,
+    "e": 2.135
+   },
+   {
+    "w": "times...",
+    "s": 2.135,
+    "e": 3.385
+   },
+   {
+    "w": "and",
+    "s": 3.385,
+    "e": 3.5
+   },
+   {
+    "w": "it",
+    "s": 3.5,
+    "e": 4.192
+   },
+   {
+    "w": "would",
+    "s": 4.192,
+    "e": 4.327
+   },
+   {
+    "w": "reach",
+    "s": 4.327,
+    "e": 4.538
+   },
+   {
+    "w": "the",
+    "s": 4.538,
+    "e": 4.75
+   },
+   {
+    "w": "Moon.",
+    "s": 4.75,
+    "e": 5.077
+   }
+  ],
+  "heard": "Fold this paper forty -two times... and it would reach the Moon.",
+  "match": 0.87,
+  "tempo": 1.04
+ },
+ {
+  "id": "L01",
+  "chapter": 0,
+  "text": "But try it yourself, and you'll get stuck at about seven.",
+  "dur": 2.981,
+  "words": [
+   {
+    "w": "But",
+    "s": 0.058,
+    "e": 0.231
+   },
+   {
+    "w": "try",
+    "s": 0.231,
+    "e": 0.769
+   },
+   {
+    "w": "it",
+    "s": 0.769,
+    "e": 0.904
+   },
+   {
+    "w": "yourself,",
+    "s": 0.904,
+    "e": 1.212
+   },
+   {
+    "w": "and",
+    "s": 1.462,
+    "e": 1.5
+   },
+   {
+    "w": "you'll",
+    "s": 1.5,
+    "e": 1.692
+   },
+   {
+    "w": "get",
+    "s": 1.692,
+    "e": 1.788
+   },
+   {
+    "w": "stuck",
+    "s": 1.788,
+    "e": 2.058
+   },
+   {
+    "w": "at",
+    "s": 2.058,
+    "e": 2.212
+   },
+   {
+    "w": "about",
+    "s": 2.212,
+    "e": 2.385
+   },
+   {
+    "w": "seven.",
+    "s": 2.385,
+    "e": 2.808
+   }
+  ],
+  "heard": "But try it yourself, and you'll get stuck at about seven.",
+  "match": 1.0,
+  "tempo": 1.04
+ },
+ {
+  "id": "L02",
+  "chapter": 1,
+  "text": "Every fold doubles it. Ten folds: ten centimetres.",
+  "dur": 3.385,
+  "words": [
+   {
+    "w": "Every",
+    "s": 0.0,
+    "e": 0.308
+   },
+   {
+    "w": "fold",
+    "s": 0.308,
+    "e": 0.75
+   },
+   {
+    "w": "doubles",
+    "s": 0.75,
+    "e": 1.173
+   },
+   {
+    "w": "it.",
+    "s": 1.173,
+    "e": 1.442
+   },
+   {
+    "w": "Ten",
+    "s": 1.923,
+    "e": 2.0
+   },
+   {
+    "w": "folds:",
+    "s": 2.0,
+    "e": 2.308
+   },
+   {
+    "w": "ten",
+    "s": 2.731,
+    "e": 2.846
+   },
+   {
+    "w": "centimetres.",
+    "s": 2.846,
+    "e": 3.385
+   }
+  ],
+  "heard": "Every fold doubles it. Ten folds? Ten centimetres.",
+  "match": 1.0,
+  "tempo": 1.04
+ },
+ {
+  "id": "L03",
+  "chapter": 1,
+  "text": "Twenty-three folds: taller than the tallest building on Earth.",
+  "dur": 3.481,
+  "words": [
+   {
+    "w": "Twenty-three",
+    "s": 0.0,
+    "e": 1.058
+   },
+   {
+    "w": "folds:",
+    "s": 1.058,
+    "e": 1.327
+   },
+   {
+    "w": "taller",
+    "s": 1.769,
+    "e": 2.019
+   },
+   {
+    "w": "than",
+    "s": 2.019,
+    "e": 2.135
+   },
+   {
+    "w": "the",
+    "s": 2.135,
+    "e": 2.25
+   },
+   {
+    "w": "tallest",
+    "s": 2.25,
+    "e": 2.538
+   },
+   {
+    "w": "building",
+    "s": 2.538,
+    "e": 2.865
+   },
+   {
+    "w": "on",
+    "s": 2.865,
+    "e": 3.115
+   },
+   {
+    "w": "Earth.",
+    "s": 3.115,
+    "e": 3.481
+   }
+  ],
+  "heard": "Twenty -three folds? Taller than the tallest building on Earth.",
+  "match": 0.842,
+  "tempo": 1.04
+ },
+ {
+  "id": "L04",
+  "chapter": 1,
+  "text": "Forty-two? Past the Moon.",
+  "dur": 2.288,
+  "words": [
+   {
+    "w": "Forty-two?",
+    "s": 0.0,
+    "e": 1.615
+   },
+   {
+    "w": "Past",
+    "s": 1.615,
+    "e": 1.731
+   },
+   {
+    "w": "the",
+    "s": 1.731,
+    "e": 1.942
+   },
+   {
+    "w": "Moon.",
+    "s": 1.942,
+    "e": 2.212
+   }
+  ],
+  "heard": "Forty -two? Past the Moon.",
+  "match": 0.6,
+  "tempo": 1.04
+ },
+ {
+  "id": "L05",
+  "chapter": 2,
+  "text": "So why can't you? Each fold halves the sheet, and every bend swallows more paper.",
+  "dur": 6.558,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.0,
+    "e": 0.154
+   },
+   {
+    "w": "why",
+    "s": 0.154,
+    "e": 0.404
+   },
+   {
+    "w": "can't",
+    "s": 0.404,
+    "e": 0.885
+   },
+   {
+    "w": "you?",
+    "s": 0.885,
+    "e": 1.038
+   },
+   {
+    "w": "Each",
+    "s": 1.904,
+    "e": 2.192
+   },
+   {
+    "w": "fold",
+    "s": 2.192,
+    "e": 2.577
+   },
+   {
+    "w": "halves",
+    "s": 2.577,
+    "e": 3.096
+   },
+   {
+    "w": "the",
+    "s": 3.096,
+    "e": 3.327
+   },
+   {
+    "w": "sheet,",
+    "s": 3.327,
+    "e": 3.712
+   },
+   {
+    "w": "and",
+    "s": 4.077,
+    "e": 4.288
+   },
+   {
+    "w": "every",
+    "s": 4.288,
+    "e": 4.558
+   },
+   {
+    "w": "bend",
+    "s": 4.558,
+    "e": 5.019
+   },
+   {
+    "w": "swallows",
+    "s": 5.019,
+    "e": 5.731
+   },
+   {
+    "w": "more",
+    "s": 5.731,
+    "e": 5.962
+   },
+   {
+    "w": "paper.",
+    "s": 5.962,
+    "e": 6.327
+   }
+  ],
+  "heard": "So why can't you? Each fold halves the sheet, and every bend swallows more paper.",
+  "match": 1.0,
+  "tempo": 1.04
+ },
+ {
+  "id": "L06",
+  "chapter": 2,
+  "text": "In 2002, a student managed twelve folds... with paper over a kilometre long.",
+  "dur": 5.269,
+  "words": [
+   {
+    "w": "In",
+    "s": 0.067,
+    "e": 0.163
+   },
+   {
+    "w": "2002,",
+    "s": 0.163,
+    "e": 0.721
+   },
+   {
+    "w": "a",
+    "s": 1.067,
+    "e": 1.144
+   },
+   {
+    "w": "student",
+    "s": 1.144,
+    "e": 1.413
+   },
+   {
+    "w": "managed",
+    "s": 1.413,
+    "e": 1.856
+   },
+   {
+    "w": "twelve",
+    "s": 1.856,
+    "e": 2.394
+   },
+   {
+    "w": "folds...",
+    "s": 2.394,
+    "e": 3.413
+   },
+   {
+    "w": "with",
+    "s": 3.413,
+    "e": 3.51
+   },
+   {
+    "w": "paper",
+    "s": 3.51,
+    "e": 3.779
+   },
+   {
+    "w": "over",
+    "s": 3.779,
+    "e": 4.048
+   },
+   {
+    "w": "a",
+    "s": 4.048,
+    "e": 4.202
+   },
+   {
+    "w": "kilometre",
+    "s": 4.202,
+    "e": 4.817
+   },
+   {
+    "w": "long.",
+    "s": 4.817,
+    "e": 5.067
+   }
+  ],
+  "heard": "In 2002, a student managed twelve folds... with paper over a kilometre long.",
+  "match": 1.0,
+  "tempo": 1.04
+ },
+ {
+  "id": "L07",
+  "chapter": 2,
+  "text": "So if you're stuck at seven... it's not you. It's the paper.",
+  "dur": 3.308,
+  "words": [
+   {
+    "w": "So",
+    "s": 0.038,
+    "e": 0.192
+   },
+   {
+    "w": "if",
+    "s": 0.192,
+    "e": 0.308
+   },
+   {
+    "w": "you're",
+    "s": 0.308,
+    "e": 0.481
+   },
+   {
+    "w": "stuck",
+    "s": 0.481,
+    "e": 0.615
+   },
+   {
+    "w": "at",
+    "s": 0.615,
+    "e": 0.788
+   },
+   {
+    "w": "seven...",
+    "s": 0.788,
+    "e": 1.673
+   },
+   {
+    "w": "it's",
+    "s": 1.673,
+    "e": 1.885
+   },
+   {
+    "w": "not",
+    "s": 1.885,
+    "e": 2.038
+   },
+   {
+    "w": "you.",
+    "s": 2.038,
+    "e": 2.269
+   },
+   {
+    "w": "It's",
+    "s": 2.654,
+    "e": 2.827
+   },
+   {
+    "w": "the",
+    "s": 2.827,
+    "e": 2.904
+   },
+   {
+    "w": "paper.",
+    "s": 2.904,
+    "e": 3.135
+   }
+  ],
+  "heard": "So if you're stuck at seven... it's not you. It's the paper.",
+  "match": 1.0,
+  "tempo": 1.04
+ }
+]

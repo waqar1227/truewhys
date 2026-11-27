@@ -1,0 +1,196 @@
+{
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duration": 34.8,
+ "shots": [
+  {
+   "id": "A-035_00",
+   "name": "hook_press",
+   "line": "H1",
+   "start": 0.0,
+   "dur": 5.633333333333334,
+   "frames": 169,
+   "words": {
+    "fold": 0.12,
+    "this": 0.466,
+    "paper": 0.735,
+    "fortytwo": 1.12,
+    "times": 2.255,
+    "and": 3.505,
+    "it": 3.62,
+    "would": 4.312,
+    "reach": 4.447,
+    "the": 4.658,
+    "moon": 4.87
+   }
+  },
+  {
+   "id": "A-035_01",
+   "name": "stuck_macro",
+   "line": "L01",
+   "start": 5.633333333333334,
+   "dur": 3.2333333333333334,
+   "frames": 97,
+   "words": {
+    "but": 0.103,
+    "try": 0.276,
+    "it": 0.814,
+    "yourself": 0.949,
+    "and": 1.507,
+    "youll": 1.545,
+    "get": 1.737,
+    "stuck": 1.833,
+    "at": 2.103,
+    "about": 2.257,
+    "seven": 2.43
+   }
+  },
+  {
+   "id": "A-035_02",
+   "name": "stack_desk",
+   "line": "L02",
+   "start": 8.866666666666667,
+   "dur": 3.666666666666666,
+   "frames": 110,
+   "words": {
+    "every": 0.062,
+    "fold": 0.37,
+    "doubles": 0.812,
+    "it": 1.235,
+    "ten": 1.985,
+    "folds": 2.062,
+    "ten#1": 2.793,
+    "centimetres": 2.908
+   }
+  },
+  {
+   "id": "A-035_03",
+   "name": "stack_city",
+   "line": "L03",
+   "start": 12.533333333333333,
+   "dur": 3.7666666666666675,
+   "frames": 113,
+   "words": {
+    "twentythree": 0.051,
+    "folds": 1.109,
+    "taller": 1.82,
+    "than": 2.07,
+    "the": 2.186,
+    "tallest": 2.301,
+    "building": 2.589,
+    "on": 2.916,
+    "earth": 3.166
+   }
+  },
+  {
+   "id": "A-035_04",
+   "name": "stack_moon",
+   "line": "L04",
+   "start": 16.3,
+   "dur": 2.5333333333333314,
+   "frames": 76,
+   "words": {
+    "fortytwo": 0.035,
+    "past": 1.65,
+    "the": 1.766,
+    "moon": 1.977
+   }
+  },
+  {
+   "id": "A-035_05",
+   "name": "desk_ask",
+   "line": "L05",
+   "start": 18.833333333333332,
+   "dur": 1.9000000000000021,
+   "frames": 57,
+   "words": {
+    "so": 0.06,
+    "why": 0.214,
+    "cant": 0.464,
+    "you": 0.945,
+    "each": 1.964,
+    "fold": 2.252,
+    "halves": 2.637,
+    "the": 3.156,
+    "sheet": 3.387,
+    "and": 4.137,
+    "every": 4.348,
+    "bend": 4.618,
+    "swallows": 5.079,
+    "more": 5.791,
+    "paper": 6.022
+   }
+  },
+  {
+   "id": "A-035_06",
+   "name": "fold_curve",
+   "line": "L05",
+   "start": 20.733333333333334,
+   "dur": 4.933333333333334,
+   "frames": 148,
+   "words": {
+    "so": -1.84,
+    "why": -1.686,
+    "cant": -1.436,
+    "you": -0.955,
+    "each": 0.064,
+    "fold": 0.352,
+    "halves": 0.737,
+    "the": 1.256,
+    "sheet": 1.487,
+    "and": 2.237,
+    "every": 2.448,
+    "bend": 2.718,
+    "swallows": 3.179,
+    "more": 3.891,
+    "paper": 4.122
+   }
+  },
+  {
+   "id": "A-035_07",
+   "name": "long_strip",
+   "line": "L06",
+   "start": 25.666666666666668,
+   "dur": 5.533333333333331,
+   "frames": 166,
+   "words": {
+    "in": 0.121,
+    "2002": 0.217,
+    "a": 1.121,
+    "student": 1.198,
+    "managed": 1.467,
+    "twelve": 1.91,
+    "folds": 2.448,
+    "with": 3.467,
+    "paper": 3.564,
+    "over": 3.833,
+    "a#1": 4.102,
+    "kilometre": 4.256,
+    "long": 4.871
+   }
+  },
+  {
+   "id": "A-035_08",
+   "name": "loop_press",
+   "line": "L07",
+   "start": 31.2,
+   "dur": 3.599999999999998,
+   "frames": 108,
+   "words": {
+    "so": 0.098,
+    "if": 0.252,
+    "youre": 0.368,
+    "stuck": 0.541,
+    "at": 0.675,
+    "seven": 0.848,
+    "its": 1.733,
+    "not": 1.945,
+    "you": 2.098,
+    "its#1": 2.714,
+    "the": 2.887,
+    "paper": 2.964
+   }
+  }
+ ]
+}
