@@ -83,8 +83,8 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
   Procedural music is not in git: `python lib/music.py library/music/procedural`.
 
 ## Voice
-- Gemini TTS (`gemini-3.8-flash-tts`, key injected by the proxy; free tier 10 requests/day/model → one request per chapter) via
-  `lib/voice_gemini.py`; takes kept as FLAC masters in `episodes/<ep>/voice/` (never spend the quota twice). Kokoro `am_michael` is the fallback.
+- Gemini TTS (`gemini-3.8-flash-tts`, key injected by the proxy; free tier 10 requests/day/model **per account**; owner 27 Nov: two accounts, A = proxy-injected key, B = env `GEMINI_API_KEY`
+  sent as `?key=`, lib picks the one with quota left → ~18/day shared by all sessions) via `lib/voice_gemini.py`; takes kept as FLAC masters in `episodes/<ep>/voice/` (never spend the quota twice). Kokoro `am_michael` is the fallback.
 
 ## Keys and services
 - Keys live only in the environment: `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN`, `FREESOUND_API_KEY`, `KAGGLE_USERNAME`,

@@ -12,7 +12,7 @@ Each chapter is read in one take (natural flow), then split into lines with fast
 timestamps aligned to the script, and checked: any line whose words don't match is reported.
 Writes audio/lines/<id>.wav (24 kHz) and timing.json (same format as lib/voice.py).
 """
-import sys, os, json, base64, re, difflib, urllib.request, urllib.error, time
+import sys, os, json, base64, re, difflib, urllib.request, urllib.error, urllib.parse, time
 from pathlib import Path
 import numpy as np, soundfile as sf
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -80,21 +80,54 @@ def prompt_for(chapter, says):
     return NATURAL.format(note=(" " + note) if note else "") + "\n".join(says)
 
 
-def tts(text, out):
+def tts(text, out, acct="A"):
+    """acct "A" = the key the network proxy injects (header x-goog-api-key, it replaces any header we send);
+    acct "B" = the second account's key from GEMINI_API_KEY, sent as the ?key= query parameter (Google uses it over the header;
+    tested 27 Nov 2026). Two free-tier accounts = 2 x 10 requests/day (owner 27 Nov: "two keys from two different accounts, use both")."""
     body = {"contents": [{"parts": [{"text": text}]}],
             "generationConfig": {"responseModalities": ["AUDIO"],
                                  "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": VOICE}}}}}
-    hdr = {"Content-Type": "application/json"}
-    if os.environ.get("GEMINI_API_KEY"):
-        hdr["x-goog-api-key"] = os.environ["GEMINI_API_KEY"]
-    req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent",
-                                 data=json.dumps(body).encode(), headers=hdr)
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
+    if acct == "B":
+        url += "?" + urllib.parse.urlencode({"key": os.environ["GEMINI_API_KEY"]})
+    req = urllib.request.Request(url, data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})
     d = json.load(urllib.request.urlopen(req, timeout=300))
     raw = base64.b64decode(d["candidates"][0]["content"]["parts"][0]["inlineData"]["data"])
     if raw[:4] == b"RIFF":
         Path(out).write_bytes(raw)
     else:
         sf.write(out, np.frombuffer(raw, np.int16).astype(np.float32) / 32768, 24000)
+
+
+ACCTS = ["A", "B"] if os.environ.get("GEMINI_API_KEY") else ["A"]
+
+
+def pick_acct():
+    """The account with the most requests left today (each has its own free 10/day), or None if both are at the cap."""
+    left = [(DAY_CAP - used_today(a), a) for a in ACCTS]
+    left = [x for x in left if x[0] > 0]
+    return max(left)[1] if left else None
+
+
+def tts_any(text, out, ep, name):
+    """Try the accounts in order of quota left; a 429 on one moves on to the other. Returns True if a take was made."""
+    tried = set()
+    while True:
+        a = pick_acct()
+        while a in tried:
+            rest = [x for x in ACCTS if x not in tried and used_today(x) < DAY_CAP]
+            a = rest[0] if rest else None
+        if a is None:
+            return False
+        tried.add(a)
+        try:
+            tts(text, out, a); log_request(ep, name, len(text), True, a)
+            return True
+        except urllib.error.HTTPError as e:
+            log_request(ep, name, len(text), False, a)
+            print("HTTP", e.code, "account", a, e.read()[:200], flush=True)
+            if e.code != 429:
+                raise
 
 
 EMO = ("# AUDIO PROFILE: The Narrator\nA real person, not an announcer: a curious, warm person telling ONE friend a true story "
@@ -111,19 +144,26 @@ LOG = Path(__file__).resolve().parent.parent / "research/gemini_tts_log.jsonl"
 DAY_CAP = int(os.environ.get("TW_GEMINI_DAY_CAP", "9"))      # free tier 10/day/model, shared by ALL sessions: keep one spare
 
 
-def used_today():
-    """Requests logged today (UTC day starting at the 08:00 reset is close enough: count the calendar day). Pull first: other sessions log too."""
+def used_today(acct=None):
+    """Requests logged today for one account ("A" proxy key, "B" second key; old entries without "acct" were A), or all if acct=None.
+    Pull first: other sessions log too."""
     if not LOG.exists():
         return 0
     day = time.strftime("%Y-%m-%d", time.gmtime())
-    return sum(1 for r in LOG.read_text().splitlines() if r.strip() and json.loads(r).get("day") == day and json.loads(r).get("model") == MODEL)
+    n = 0
+    for r in LOG.read_text().splitlines():
+        if not r.strip(): continue
+        j = json.loads(r)
+        if j.get("day") == day and j.get("model") == MODEL and (acct is None or j.get("acct", "A") == acct):
+            n += 1
+    return n
 
 
-def log_request(ep, take, chars, ok):
+def log_request(ep, take, chars, ok, acct="A"):
     LOG.parent.mkdir(exist_ok=True)
     with LOG.open("a") as f:
         f.write(json.dumps(dict(day=time.strftime("%Y-%m-%d", time.gmtime()), t=time.strftime("%H:%M", time.gmtime()), model=MODEL,
-                                voice=VOICE, ep=Path(ep).name, take=take, chars=chars, ok=ok)) + "\n")
+                                voice=VOICE, ep=Path(ep).name, take=take, chars=chars, ok=ok, acct=acct)) + "\n")
 
 
 def load_direction(ep):
@@ -279,15 +319,15 @@ def main(ep, chapters):
             cw = ep / f"audio/chapters/{name}.wav"
             master(cw)
             if not cw.exists():
-                if used_today() >= DAY_CAP and not os.environ.get("TW_GEMINI_FORCE"):
-                    print(f"STOP: {used_today()} Gemini TTS requests logged today (cap {DAY_CAP}, shared by all sessions). "
-                          "Run again after the reset.", flush=True)
+                if pick_acct() is None and not os.environ.get("TW_GEMINI_FORCE"):
+                    print(f"STOP: {used_today()} Gemini TTS requests logged today on {len(ACCTS)} account(s) (cap {DAY_CAP} each, "
+                          "shared by all sessions). Run again after the reset.", flush=True)
                     stop = True; break
                 try:
-                    tts(pr, cw); log_request(ep, name, len(pr), True)
+                    if not tts_any(pr, cw, ep, name):
+                        print("STOP: both Gemini accounts are out of quota today.", flush=True); stop = True; break
                 except urllib.error.HTTPError as e:
-                    log_request(ep, name, len(pr), False)
-                    print("HTTP", e.code, e.read()[:300]); stop = True; break
+                    print("HTTP", e.code); stop = True; break
                 master(cw)
             segs, sr, dur, extra = split_take(cw, T, ch, wm, ep, timing, report)
             if dj.get("lines") and len(extra) > 2:
@@ -329,7 +369,8 @@ def shorts(ep):
                "### DIRECTOR'S NOTES\nStyle: punchy, intriguing, amazed, a little playful; each line is its own separate take with a full one-second pause between lines. "
                "The last line is a friendly, upbeat sign-off.\nPace: lively, about 170 words per minute, short dramatic pause at each ellipsis.\n"
                "Accent: neutral American.\n\n#### TRANSCRIPT\n" + "\n".join(l["say"] for l in L))
-        tts(txt, cw)
+        if not tts_any(txt, cw, ep, "hooks"):
+            sys.exit("STOP: both Gemini accounts are out of quota today.")
     master(cw)
     from faster_whisper import WhisperModel
     wm = WhisperModel("small.en", device="cpu", compute_type="int8")
