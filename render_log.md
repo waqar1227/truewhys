@@ -117,3 +117,4 @@
 - 25 Nov 16:39 UTC: a033 v1 pushed (A-033 plane ashtray, Style R, 11 shots / 987 frames, 1080×1920, Cycles 64 spp + mblur, 2×T4). Dataset anam318/truewhys-ep-a033, kernel truewhys-render-a033.
 - 25 Nov 17:07 UTC: a033 v1 never started (QUEUED, GPU slots busy); dataset v2 (tighter hook/loop framing, hand beside the ashtray) confirmed live, kernel v2 pushed.
 - 25 Nov 20:06 UTC: a033 v2 COMPLETE (started ~18:30 after the queue, 11 shots / 987 frames 1080×1920 s64, 2×T4, ~3 h 20 min of GPU across both workers). Frames OK, composed with make.py render, QA PASS, uploaded rXEOJ5qUawA.
+- 27 Nov 13:41 UTC: b009 v1 pushed (B-009 L9 Style T plates: 24 stills 1920x1080 / 1080x1920, Cycles 128 spp, 2xT4). Dataset anam318/truewhys-ep-b009 (confirmed ready), kernel truewhys-render-b009.

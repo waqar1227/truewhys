@@ -79,6 +79,8 @@ def seat_rear(x, yb, m_seat, m_cover, m_frame):
     o.append(box((x, yb - 0.01, 0.55), (0.19, 0.02, 0.09), mat("pocket", "#24585C", rough=0.9, noise=0.1), bevel=0.02))     # pocket
     o.append(box((x - 0.05, yb - 0.03, 0.6), (0.06, 0.004, 0.08), mat("card", "#FFF4E0", rough=0.6, noise=0.0), bevel=0.0, rot=(0, 0.08, 0)))
     o.append(box((x, yb + 0.06, 1.16), (0.17, 0.05, 0.05), m_cover, bevel=0.03))
+    o.append(box((x, yb + 0.3, 0.38), (0.24, 0.3, 0.08), m_seat, bevel=0.05))          # its cushion (seen from behind)
+    o.append(box((x, yb + 0.3, 0.16), (0.2, 0.24, 0.16), m_frame, bevel=0.02))         # base
     return o
 
 
@@ -97,7 +99,7 @@ def set_cabin(variant):
     m_strip = _emit("strip", AMBER, 14.0 if base == "dim" else 1.5)
     m_exit = _emit("exit", "#6BFF8E", 8.0 if base == "dim" else 3.0)
     m_ceilglow = _emit("ceil", "#FFF3DA", {"day": 4.0, "night": 1.6, "dim": 0.0}[base])
-    m_reading = _emit("read", "#FFE2A8", 25.0) if base == "night" else mat("readoff", "#CFC8B8", rough=0.4, noise=0.0)
+    m_reading = _emit("read", "#FFE2A8", 6.0) if base == "night" else mat("readoff", "#CFC8B8", rough=0.4, noise=0.0)
     L = len(ROW_Y) * 0.82 + 3
     plane((0, L / 2 - 2, 0), (1.85, L / 2 + 2, 1), m_floor)
     plane((0, L / 2 - 2, 0.002), (0.28, L / 2 + 2, 1), m_aisle)
@@ -337,13 +339,18 @@ def set_hangar(variant):
         area((-30 + i * 12, 0, 28), (0, 0, 0), 8, "#CFE6FF", 900)
     airliner((0, 0, 6.5), math.radians(90), 1.0, decks=2, lit=1.0)
     m_slide = mat("slide", "#FFC93C", rough=0.4, noise=0.02)
-    # the plane's near side faces +y (camera at +y); doors along x, lower deck z~5.6, upper deck z~8.0
-    for x, z in ((-11, 5.6), (3, 5.6), (-4, 8.1), (10, 8.1)):
-        L = math.hypot(z, z * 1.15)
-        ang = math.atan2(z, z * 1.15)
-        o = box((x, 3.1 + z * 1.15 / 2, z / 2), (1.1, L / 2, 0.22), m_slide, bevel=0.25)
-        o.rotation_euler = (-ang, 0, 0)
-        box((x, 3.1 + z * 1.15 + 0.9, 0.25), (1.3, 0.9, 0.25), m_slide, bevel=0.2)
+    import bmesh
+    for x, z in ((-11, 5.4), (3, 5.4), (-4, 7.9), (10, 7.9)):
+        y0, y1 = 3.0, 3.0 + z * 1.3
+        me = bpy.data.meshes.new("slide"); bm = bmesh.new()
+        v = [bm.verts.new(p) for p in [(x - 1.1, y0, z), (x + 1.1, y0, z), (x + 1.3, y1, 0.3), (x - 1.3, y1, 0.3),
+                                         (x - 1.1, y0, z - 0.35), (x + 1.1, y0, z - 0.35), (x + 1.3, y1, 0.0), (x - 1.3, y1, 0.0)]]
+        for f in [(0, 1, 2, 3), (7, 6, 5, 4), (0, 3, 7, 4), (1, 5, 6, 2), (3, 2, 6, 7), (0, 4, 5, 1)]:
+            bm.faces.new([v[i] for i in f])
+        bm.to_mesh(me); bm.free()
+        o = bpy.data.objects.new("slide", me); bpy.context.collection.objects.link(o); sets.obj_from(o, m_slide, 0.08, smooth=False)
+        box((x, y0 + 0.2, z + 0.9), (0.9, 0.15, 0.9), _emit("doorlight", "#FFE6A8", 4.0), bevel=0.1)
+    area((15, 40, 14), (math.radians(60), 0, math.radians(160)), 16, "#FFFFFF", 6000)
 
 
 # ---------------------------------------------------------------- taste chamber
@@ -366,7 +373,8 @@ def set_chamber(variant):
     for x in (-1.0, 0.0, 1.0):
         box((x, 1.2, 1.25), (0.3, 0.3, 0.08), m_seat, bevel=0.05)
         box((x, 0.95, 1.7), (0.3, 0.07, 0.42), m_seat, bevel=0.06)
-    area((0, -1.0, 4.2), (0, 0, 0), 3, "#FFF0D8", 300)
+    area((0, 0.5, 3.9), (0, 0, 0), 2.0, "#FFF0D8", 600)
+    point((0, -2.0, 2.4), "#FFF0D8", 400, 0.5)
     area((0, 1.0, 3.9), (0, 0, 0), 2.5, "#FFF6E8", 250)
     area((0, -10, 6), (math.radians(60), 0, 0), 8, "#CFE0FF", 1500)
     for x, col in ((-5.5, "#FF5B4B"), (5.5, "#7DFF9A")):

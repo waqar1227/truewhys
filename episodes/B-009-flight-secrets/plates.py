@@ -30,9 +30,12 @@ PLATES = {
     "sky_ocean": ("skyplane", "ocean", ((38, 40, 6), (0, 0, 0), 35)),
     "sky_night": ("skyplane", "night", ((38, 40, 6), (0, 0, 0), 35)),
     "hangar": ("hangar", "night", ((22, 48, 9), (0, 0, 4), 26)),
-    "chamber": ("chamber", "day", ((0, -9, 2.2), (0, 0, 1.9), 30)),
     "harbor": ("harbor", "day", ((-1, 0, 38), (-1, 0.1, 0), 30)),
     "doorway": ("doorway", "day", ((-1.4, -6, 1.6), (-0.6, 0, 1.3), 32)),
+    # vertical 9:16 plates for the cut Short C1 (re-composed, not a crop)
+    "v_row_day_bg": ("cabin", "day_bg", ((-0.9, 3.75, 1.5), (-1.0, 2.3, 1.0), 17), (1080, 1920)),
+    "v_row_day_fg": ("cabin", "day_fg", ((-0.9, 3.75, 1.5), (-1.0, 2.3, 1.0), 17), (1080, 1920)),
+    "v_sky_clouds": ("skyplane", "clouds", ((22, 26, 5), (0, 0, -1), 26), (1080, 1920)),
 }
 
 
@@ -41,7 +44,11 @@ def render(out, W, H, spp, gpu=False, only=None):
     from mathutils import Vector
     import sets, sets9  # noqa
     os.makedirs(out, exist_ok=True)
-    for key, (set_id, variant, (pos, tgt, lens)) in PLATES.items():
+    for key, spec in PLATES.items():
+        set_id, variant, (pos, tgt, lens) = spec[:3]
+        pw, ph = (spec[3] if len(spec) > 3 else (W, H))
+        if W != 1920:                       # low-res animatic: same aspect, scaled
+            pw, ph = int(pw * W / 1920), int(ph * W / 1920)
         if only and key not in only:
             continue
         dst = os.path.join(out, key + ".png")
@@ -49,7 +56,7 @@ def render(out, W, H, spp, gpu=False, only=None):
             continue
         t0 = time.time()
         cam = sets.build(set_id, variant)
-        sets.setup_render(W, H, spp, gpu)
+        sets.setup_render(pw, ph, spp, gpu)
         if variant.endswith("_fg"):
             bpy.context.scene.render.film_transparent = True
             bpy.context.scene.render.image_settings.color_mode = "RGBA"

@@ -72,26 +72,34 @@ def cross(g, x, y, r, k):
         g.line([(-0.4 * r, -0.4 * r), (0.4 * r, 0.4 * r)], INK, r * 0.2); g.line([(-0.4 * r, 0.4 * r), (0.4 * r, -0.4 * r)], INK, r * 0.2)
 
 
+import cairocffi as _cairo
+_EPD = HERE.parent
+PL_DIR = _EPD / "renders" / "plates" if (_EPD / "renders" / "plates" / "v_row_day_bg.png").exists() else _EPD / "plates_lo"
+_PL = {}
+
+
+def plate(g, key, a=1.0):
+    if key not in _PL:
+        _PL[key] = _cairo.ImageSurface.create_from_png(str(PL_DIR / f"{key}.png"))
+    im = _PL[key]; k = W / im.get_width()
+    c = g.c; c.save(); c.scale(k, k); c.set_source_surface(im, 0, 0); c.get_source().set_filter(_cairo.FILTER_GOOD)
+    c.paint_with_alpha(a) if a < 1 else c.paint(); c.restore()
+
+
+VX = {"kai": 790, "nia": 400}
+VF = 1800
+
+
 def vrow(g, c, kai="deadpan", nia="deadpan", panel=2.0, mask=(0.0, 0.0), kai_pose=("down", "hold"), kai_view=None, haze=None):
-    """Vertical seat row: big ceiling panel with the masks on top, Kai (window) + Nia, seat backs at the bottom."""
-    with g.at(0, OY):
-        cabin_row_back(g, c.gt, -120, S2, night=False)
-        char2(g, "kai", S2[0], FEET, 880, kai, kai_pose[0], kai_pose[1], t=c.gt, view=kai_view)
-        char2(g, "nia", S2[1], FEET, 790, nia, "down", "hold", t=c.gt)
-        mask_on(g, S2[0], FEET, 880, mask[0])
-        mask_on(g, S2[1], FEET, 790, mask[1])
-        cabin_row_front(g, c.gt, S2, 770, tray=0.0, lights=1.0)
-    g.rect(-100, -100, W + 200, OY + 20, "#F4F1EA", INK, lw=8)                     # ceiling / bins band
-    for i in range(3):                                                             # bin doors, latches
-        g.rect(20 + i * 350, 60, 330, 300, "#EFEBE3", INK, lw=6, r=18)
-        g.rc(185 + i * 350, 320, 110, 22, "#3A3A44", None, r=10)
-    g.rc(540, 430, 300, 90, "#22262E", INK, lw=6, r=20)                            # seatbelt sign, lit
-    g.glow(540, 430, 180, "#FFE29A", 0.35)
-    with g.at(540, 430, 0, 1.2):
-        g.circle(-30, -6, 12, "#FFE29A", None); g.path("M-46 26 Q-30 4 -14 26 Z", "#FFE29A", None)
-        g.rc(28, 8, 60, 14, "#FFE29A", None, r=6); g.rc(28, 8, 18, 22, "#FFE29A", None, r=4)
-    g.rect(-100, OY + 1200, W + 200, 400, "#2F5F8C", INK, lw=8)
-    mask_panel(g, 690, OY + 160, panel, c.gt, n=2, gap=490)
+    """Vertical row on the 3D cabin plate: Kai at the window (right), Nia middle; masks drop from the bins; FG = seat backs in front."""
+    plate(g, "v_row_day_bg")
+    mask_panel(g, 800, 520, panel, c.gt, n=2, gap=430, s=1.0)
+    kf = True if kai_view == "3q" else False
+    char2(g, "kai", VX["kai"], VF, 1150, kai, kai_pose[0], kai_pose[1], t=c.gt, view=kai_view, flip=not kf if kai_view == "3q" else False)
+    char2(g, "nia", VX["nia"], VF, 1000, nia, "down", "hold", t=c.gt)
+    mask_on(g, VX["kai"], VF, 1150, mask[0])
+    mask_on(g, VX["nia"], VF, 1000, mask[1])
+    plate(g, "v_row_day_fg")
     if haze:
         with g.screen():
             g.rect(-50, -50, W + 100, H + 100, haze[0], None, a=haze[1])
@@ -100,7 +108,7 @@ def vrow(g, c, kai="deadpan", nia="deadpan", panel=2.0, mask=(0.0, 0.0), kai_pos
 def c_hook(g, c, end=False):
     k = clamp(0.45 + c.t / 0.8)
     vrow(g, c, "shocked", "shocked", panel=k)
-    burst(g, 545, OY + 170, 60, 140, 10, PAL["yellow"], 8, k=clamp(1 - c.t / 0.6))
+    burst(g, 760, 660, 60, 140, 10, PAL["yellow"], 8, k=clamp(1 - c.t / 0.6))
 
 
 def c_clock(g, c):
@@ -122,10 +130,7 @@ def c_first(g, c, phase=0):
 
 def c_thin(g, c, phase=0):
     if phase == 0:
-        g.fill_all(g.lgrad(0, 0, 0, H, "#0B1E4A", "#3C7AC8"))
-        for i in range(6):
-            g.circle(200 + (i * 197) % 700, 300 + (i * 271) % 1100, 12, "#FFFFFF", None, a=0.6)
-        plane_side(g, 540, 1000, 0.55, c.gt)
+        plate(g, "v_sky_clouds")
         label(g, "THIN AIR", 540, 380, 110, PAL["cream"], k=pk(c, "thin"))
     elif phase == 1:
         vrow(g, c, "deadpan", "deadpan", panel=2.0)
@@ -163,7 +168,7 @@ def c_end(g, c):
 
 
 def build():
-    V = Video(EP, title=("30", "SECONDS?"), cap_y=0.72, music="tension", sid="B009C1", captions=False)
+    V = Video(EP, title=("30", "SECONDS?"), cap_y=0.72, music="tense", sid="B009C1", captions=False, amb="amb_plane_cabin")
     V.shot("H1", c_hook, (0, "you"), tr="cut", sfx=[(0.0, "hiss", 0.5), (0.0, "thud", 0.35), (0.05, "whoosh", 0.35)])
     V.shot("H1", c_clock, ("you", 1), cam=push(1.0, 1.05, (540, 900)), sfx=[("thirty", "tick", 0.45)])
     V.shot("L01", c_first, (0, "Even"), cam=push(1.0, 1.05, (500, 1000)), sfx=[("mask", "pop", 0.4)])
