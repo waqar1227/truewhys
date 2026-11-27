@@ -64,7 +64,7 @@ S("L04", (0, 1), "stack_moon", [(0.0, "whoosh_paper", 0.3)], amb="amb_night", tr
   fn=count("stack_moon", "Moon", "42 FOLDS", "= 440,000 km", y=1500))
 S("L05", (0, "Each"), "desk_ask", [(0.1, "chair_creak", 0.3)])
 S("L05", ("Each", 1), "fold_curve", [("halves", "paper_rustle", 0.4), ("bend", "paper_crumple", 0.3)],
-  fn=tag("fold_curve", [("swallows", "x4 PAPER", W / 2, 1520, 140, TANG)]))
+  fn=tag("fold_curve", [("swallows", "x4 PAPER", W / 2, 1520, 140, LIME)]))
 S("L06", (0, 1), "long_strip", [(0.1, "paper_rustle", 0.35)], amb="amb_school",
   fn=tag("long_strip", [("2002", "2002", W / 2, 360, 120, CREAM), ("twelve", "12 FOLDS", W / 2, 1480, 140, LIME), ("kilometre", "1.2 km", W / 2, 1630, 110, CREAM)]))
 S("L07", (0, 1), "loop_press", [("paper", "paper_crumple", 0.5)], tr="cut")
