@@ -18,6 +18,87 @@ import cast2
 import sfxgen  # noqa: registers cabin_chime, jet_hum, power_off, buzz, hiss ...
 
 cast2.CAST["kai_p"] = dict(cast2.CAST["kai"], prop="phone")
+
+# ------------------------------------------------------------------ Style T plates (3D toon sets, plates.py; Kaggle finals in renders/plates)
+import cairocffi as _cairo
+PL_DIR = EP / "renders" / "plates" if (EP / "renders" / "plates" / "row_night_bg.png").exists() else EP / "plates_lo"
+_PL = {}
+
+
+def plate(g, key, a=1.0, x=0.0, y=0.0, s=1.0):
+    """Draw a 3D plate over the whole frame in world space (the 2D camera moves over it)."""
+    if a <= 0: return
+    if key not in _PL:
+        _PL[key] = _cairo.ImageSurface.create_from_png(str(PL_DIR / f"{key}.png"))
+    im = _PL[key]
+    k = W / im.get_width() * s
+    c = g.c
+    c.save(); c.translate(x - (s - 1) * W / 2, y - (s - 1) * H / 2); c.scale(k, k)
+    c.set_source_surface(im, 0, 0); c.get_source().set_filter(_cairo.FILTER_GOOD)
+    c.paint_with_alpha(a) if a < 1 else c.paint()
+    c.restore()
+
+
+def shade_dark(g, a, col="#061026"):
+    if a <= 0: return
+    with g.screen():
+        g.rect(-50, -50, W + 100, H + 100, col, None, a=a)
+
+
+ROWX = {"kai": 1320, "nia": 900}     # window seat (right) / middle seat in the row plates
+ROWF = 1420                          # feet (hidden behind the FG seat backs)
+
+
+def aisle(g, t, lights=1.0, shades=0.0, vp=(960, 430), people=None):
+    if lights > 0.6:
+        plate(g, "aisle_day")
+    else:
+        plate(g, "aisle_night"); plate(g, "aisle_dim", clamp((0.6 - lights) / 0.45))
+    if people:
+        for i in range(7):
+            people(g, i)
+
+
+def window_big(g, t, cx=960, cy=530, a=1.0, hole=0.0, fog=0.0, sun=True, wall=None, hole_glow=0.0):
+    plate(g, "porthole")
+    if fog > 0:
+        with g.clip(d=_rr(960, 530, 520, 800, 150)):
+            g.rect(600, 100, 720, 900, "#E8F0F4", None, a=0.78 * fog)
+            for i in range(26):
+                g.circle(720 + (i * 61) % 480, 160 + (i * 89) % 740, 12, "#FFFFFF", None, a=0.6 * fog)
+    hx, hy = 960, 880
+    if hole_glow > 0:
+        g.circle(hx, hy, 60, None, "#FFC93C", lw=10, a=hole_glow)
+    g.circle(hx, hy, 8 + 3 * hole, "#2A1C1E", None)
+
+
+def _rr(cx, cy, w, h, r):
+    x0, y0, x1, y1 = cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2
+    return (f"M{x0 + r} {y0} L{x1 - r} {y0} Q{x1} {y0} {x1} {y0 + r} L{x1} {y1 - r} Q{x1} {y1} {x1 - r} {y1} "
+            f"L{x0 + r} {y1} Q{x0} {y1} {x0} {y1 - r} L{x0} {y0 + r} Q{x0} {y0} {x0 + r} {y0} Z")
+
+
+def landing_night(g, t, lights=1.0, prog=0.0):
+    plate(g, "sky_night", s=1.0 + 0.05 * prog)
+    shade_dark(g, 0.35 * (1 - lights))
+
+
+def dark_door(g, t, x_walk=0.0):
+    plate(g, "doorway")
+
+
+def apron_top(g, t, k_bridge=1.0, k_trucks=1.0, hl=None):
+    plate(g, "apron")
+    if hl == "left":
+        g.circle(880, 285, 40 + 6 * math.sin(t * 6), None, PAL["yellow"], lw=9)
+
+
+def dock_top(g, t):
+    plate(g, "harbor")
+
+
+def sky(g, key, t, drift=1.0):
+    plate(g, key, x=-30 * math.sin(t * 0.15) * drift)
 V = Video(EP, title=None, cap_y=0.885, cap_size=74, badge=0, music="travel", captions=False)
 CH_PAUSE = 1.1
 SEATS = (760, 1200, 1640)
@@ -111,21 +192,33 @@ def zzz(g, x, y, t, k=1.0):
 # ------------------------------------------------------------------ the seat row (hook / loop / many beats)
 def row(g, c, kai="deadpan", nia="deadpan", lights=1.0, night=True, kai_view=None, kai_flip=False, nia_view=None, nia_flip=False,
         kai_pose=("down", "hold"), nia_pose=("down", "hold"), tray=0.0, shade_k=0.0, kai_cid="kai", extra=None, third=None, mask_k=(0.0, 0.0),
-        panel=0.0, kai_h=880, front=True):
-    cabin_row_back(g, c.gt, 330, SEATS, night=night, shade_k=shade_k)
+        panel=0.0, kai_h=1100, front=True):
+    """Front view of row 3 (Kai at the window = right, Nia in the middle) on the 3D cabin plates; lights < 1 crossfades to the dim cabin."""
+    base = "night" if night else "day"
+    d = clamp(1 - lights) if night else 0.0
+    plate(g, f"row_{base}_bg"); plate(g, "row_dim_bg", d)
     if panel > 0:
-        mask_panel(g, 1090, 182, panel, c.gt, n=2, gap=440)
-    char2(g, kai_cid, SEATS[0], FEET, kai_h, kai, kai_pose[0], kai_pose[1], t=c.gt, view=kai_view, flip=kai_flip)
+        mask_panel(g, 1290, 70, panel, c.gt, n=2, gap=420, s=1.25)
+    kv = kai_view; kf = (not kai_flip) if kai_view == "3q" else kai_flip
+    nf = (not nia_flip) if nia_view == "3q" else nia_flip
+    char2(g, kai_cid, ROWX["kai"], ROWF, kai_h, kai, kai_pose[0], kai_pose[1], t=c.gt, view=kv, flip=kf)
     if nia:
-        char2(g, "nia", SEATS[1], FEET, 790, nia, nia_pose[0], nia_pose[1], t=c.gt, view=nia_view, flip=nia_flip)
+        char2(g, "nia", ROWX["nia"], ROWF, kai_h * 0.88, nia, nia_pose[0], nia_pose[1], t=c.gt, view=nia_view, flip=nf)
     if third:
         third(g)
-    mask_on(g, SEATS[0], FEET, kai_h, mask_k[0])
-    mask_on(g, SEATS[1], FEET, 790, mask_k[1])
+    mask_on(g, ROWX["kai"], ROWF, kai_h, mask_k[0])
+    mask_on(g, ROWX["nia"], ROWF, kai_h * 0.88, mask_k[1])
     if extra:
         extra(g)
+    shade_dark(g, 0.5 * d)
     if front:
-        cabin_row_front(g, c.gt, SEATS, 770, tray=tray, lights=lights)
+        plate(g, f"row_{base}_fg"); plate(g, "row_dim_fg", d)
+        trays = tray if isinstance(tray, (tuple, list)) else [tray] * 3
+        for x, tr in zip((ROWX["kai"], ROWX["nia"]), (trays[0], trays[1])):
+            if tr > 0:
+                k = ease_out(tr)
+                g.poly([(x - 230, 900), (x + 230, 900), (x + 280, 900 + 140 * k), (x - 280, 900 + 140 * k)], "#3F8086", INK, lw=6)
+    shade_dark(g, 0.25 * d)
 
 
 def lights_flicker(t, t0=0.0, lo=0.18):
@@ -212,7 +305,7 @@ def gate_dawn(g, t, depart=0.0):
 
 
 def s_journey(g, c):
-    gate_dawn(g, c.gt, depart=clamp((c.t - 0.6) / c.T * 0.6))
+    sky(g, "sky_clouds", c.gt)
     for i, (w, x) in enumerate((("gate", 420), ("runway", 1500))):
         pass
     strip(g, c, 6 * ease_io(clamp(c.u * 1.2)), 1.0)
@@ -258,11 +351,11 @@ def s_ship(g, c, port=False, sail=None):
 
 
 def s_words(g, c):
-    gate_dawn(g, c.gt)
+    sky(g, "sky_clouds", c.gt)
     words = [("CAPTAIN", 380, 200), ("CREW", 860, 140), ("CABIN", 1340, 200), ("PORT", 1620, 330)]
     for i, (w_, x, y) in enumerate(words):
         tag(g, w_, x, y + 10 * math.sin(c.gt * 2 + i), back_out(seg(c.t, 0.4 + i * 0.35, 0.35), 1.6), 54)
-    with g.at(1700, 650, 0.2 * math.sin(c.gt), 1.0):
+    with g.at(1700, 880, 0.2 * math.sin(c.gt), 1.0):
         g.path("M0 -60 L0 50 M-40 20 Q0 70 40 20 M-24 -40 L24 -40", None, INK, lw=14)
         g.circle(0, -72, 14, None, INK, lw=8)
     strip(g, c, 0)
@@ -330,16 +423,18 @@ def s_1991(g, c):
 
 
 def cockpit(g, c, expr="deadpan", buzz=0.0, pose=("down", "hold"), sky=("#FF9A5A", "#5B3A8C"), mos=0.0, wave=0.0):
-    cockpit_back(g, c.gt, sky)
-    char2(g, "ade", 960, 1200, 900, expr, pose[0], pose[1], t=c.gt, view="front")
-    headset(g, 960, 1200, 900, buzz=buzz, t=c.gt)
+    key = "cockpit_day" if sky[0] in ("#FFC28A", "#BFE6FF") else "cockpit_dusk"
+    plate(g, key + "_bg")
+    X, F, Hh = 960, 1560, 1360
+    char2(g, "ade", X, F, Hh, expr, pose[0], pose[1], t=c.gt, view="front")
+    headset(g, X, F, Hh, buzz=buzz, t=c.gt)
     if wave > 0:
         for j in range(2):
             ph = (c.gt * 0.8 + j / 2) % 1
-            g.circle(960, 1200 - 0.86 * 900, 160 + 200 * ph, None, "#7FE0FF", lw=6, a=wave * (1 - ph))
-    cockpit_front(g, c.gt)
+            g.circle(X, F - 0.86 * Hh, 220 + 260 * ph, None, "#7FE0FF", lw=7, a=wave * (1 - ph))
+    plate(g, key + "_fg")
     if mos > 0:
-        mosquito(g, 1330, 330, 1.6 * back_out(clamp(mos), 1.5), c.gt)
+        mosquito(g, 1420, 300, 1.8 * back_out(clamp(mos), 1.5), c.gt)
 
 
 def s_cockpit_intro(g, c):
@@ -467,11 +562,7 @@ def s_phases(g, c):
 
 
 def s_climb(g, c):
-    g.fill_all(g.lgrad(0, 0, 0, H, "#2E78C8", "#BFE6FF"))
-    for i in range(8):
-        x = (i * 290 - c.gt * 80) % 2400 - 200
-        g.ellipse(x, 820 + (i % 3) * 40, 260, 70, "#FFFFFF", None, a=0.95)
-    plane_side(g, 900 + 60 * c.u, 480 - 100 * c.u, 0.7, c.gt)
+    sky(g, "sky_clouds", c.gt)
     strip(g, c, 2.5)
 
 
@@ -582,11 +673,7 @@ def s_its_you(g, c):
 
 
 def s_lufthansa(g, c):
-    g.fill_all(g.lgrad(0, 0, 0, H, "#5DB8F0", "#DDF2FF"))
-    g.rect(-300, 820, 2600, 400, "#8FB86A", INK, lw=6)
-    for i in range(6):
-        g.ellipse(200 + i * 330, 160 + (i % 2) * 40, 150, 30, "#FFFFFF", None, a=0.8)
-    plane_side(g, 960, 560, 0.85, c.gt)
+    sky(g, "sky_clouds", c.gt)
     tag(g, "2010 · GERMANY", 960, 110, pk(c, "2010"), 56)
     strip(g, c, 4)
 
@@ -675,12 +762,7 @@ def s_litres(g, c):
 
 
 def s_ocean(g, c):
-    g.fill_all(g.lgrad(0, 0, 0, H, "#2E78C8", "#BFE6FF"))
-    g.rect(-300, 700, 2600, 500, g.lgrad(0, 700, 0, 1080, "#1E6AA8", "#0E3A6A"), None)
-    for i in range(30):
-        x = (i * 173 - c.gt * 40) % 2300 - 200; y = 740 + (i * 37) % 320
-        g.path(f"M{x} {y} q 20 -10 40 0", None, "#7FC8E8", lw=5, a=0.7)
-    plane_side(g, 700 + 120 * c.u, 360, 0.55, c.gt)
+    sky(g, "sky_ocean", c.gt)
     strip(g, c, 4.5)
 
 
@@ -731,12 +813,9 @@ def s_selfish(g, c, phase=0):
 
 
 def s_altitude(g, c):
-    g.fill_all(g.lgrad(0, 0, 0, H, "#0B1E4A", "#3C7AC8"))
-    for i in range(6):
-        g.ellipse((i * 380 - c.gt * 30) % 2300 - 200, 900 + (i % 2) * 50, 260, 60, "#FFFFFF", None, a=0.5)
+    sky(g, "sky_clouds", c.gt)
     for i in range(7):
-        g.circle(1300 + (i * 97) % 500, 160 + (i * 131) % 600, 10, "#FFFFFF", None, a=0.6)
-    plane_side(g, 700, 500, 0.75, c.gt)
+        g.circle(1300 + (i * 97) % 500, 160 + (i * 131) % 500, 10, "#FFFFFF", None, a=0.55)
     tag(g, "35,000 ft", 1500, 120, pk(c, "thirty-five"), 56)
     strip(g, c, 5)
 
@@ -814,8 +893,11 @@ def s_dim(g, c):
 
 def s_shade(g, c):
     k = on(c, "open", 0.8)
-    row(g, c, "smile", "deadpan", lights=1.0, night=False, shade_k=1 - k, kai_view="3q", kai_flip=True,
-        kai_pose=pose_at(c.t, [(0, ("down", "hold")), (tw(c, "open") - 0.3, ("down", "point"))]))
+    plate(g, "porthole")
+    with g.clip(d=_rr(960, 530, 520, 800, 150)):
+        g.rect(600, 100, 720, 800 * (1 - k) + 2, "#CFC8BA", INK, lw=5)
+        g.rc(960, 100 + 800 * (1 - k) - 16, 70, 16, "#9A9284", None, r=6)
+    arrow(g, 960, 1000 - 120 * k, 960, 900 - 120 * k, col=PAL["yellow"], k=on(c, "open", 0.3))
     strip(g, c, 6)
 
 
@@ -831,12 +913,12 @@ def s_eye(g, c, p0=0.3, p1=0.3, word=None, ok=False):
 def s_door_walk(g, c):
     dark_door(g, c.gt)
     k = clamp(c.u * 1.4)
-    x = 400 + 900 * ease_io(k)
-    char2(g, "kai", x, 1010, 760, "shocked" if x > 1060 else "smile", "down", "reach_r" if x > 1000 else "hold", t=c.gt, view="3q")
-    if x > 1060:
+    x = 380 + 760 * ease_io(k)
+    char2(g, "kai", x, 1000, 700, "shocked" if x > 1080 else "smile", "down", "reach_r" if x > 1020 else "hold", t=c.gt, view="3q")
+    if x > 1080:
         with g.screen():
-            g.rect(1060, -50, W, H + 100, "#050810", None, a=0.75)
-        qmark(g, x + 120, 260, 100, k=1.0)
+            g.rect(1110, -50, W, H + 100, "#020306", None, a=0.8)
+        qmark(g, x + 110, 300, 100, k=1.0)
     strip(g, c, 6)
 
 
@@ -866,7 +948,7 @@ def s_floorlights(g, c):
 
 
 def s_rescue(g, c, smoke=False):
-    landing_night(g, c.gt, lights=1.0, prog=1.0)
+    plate(g, "hangar")
     with g.at(300, 1030):
         g.rc(0, -70, 380, 140, "#D8432F", INK, lw=7, r=16)
         g.rc(-120, -110, 120, 70, "#9FDCF5", INK, lw=5, r=8)

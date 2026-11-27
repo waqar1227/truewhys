@@ -11,3 +11,4 @@ research/pixabay_cache/
 !library/sfx/**/*.wav
 renders_*/
 episodes/A-035-paper-moon/animatic/frames/
+episodes/*/plates_lo/
