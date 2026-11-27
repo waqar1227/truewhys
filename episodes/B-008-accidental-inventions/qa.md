@@ -23,3 +23,11 @@
 - [x] AI disclosure: No (flat 2D cartoon, generic TTS, code music) — upload_meta.json + registers (docs/ai_disclosure.md/.json).
 - [x] Category 28, pattern-1 title with number + top search phrase, chapters, sources, 17 tags, playlist Full Stories, pinned comment ready.
 - [x] Uploaded NcqUJHj9Sd8, private, publishAt Sat 26 Dec 2026 17:00 UTC, thumbnail true, SRT up.
+- [x] Variety check (owner rule 27 Nov, written after upload; L8 was uploaded 26 Nov before the rule existed). Compared with the 3 uploads before it in the
+      calendar (Tue 22 L7-C1 puppy eyes, Thu 24 A-027 reindeer, Fri 25 A-030 Christmas lights). Different from the previous upload (A-030) in 7 of 8: lead
+      character + outfit (1945 radar engineer, new; A-030 had other cast), sets (museum hall, radar lab, shipyard, Alps, Paris 1903, London 1928), camera
+      (wide historical stagings + microscope/molecule close-ups), music ("inventive" + story/mystery moods), structure (countdown 7→1, first one), title shape
+      ("How 7 … Were Invented by Accident", not "Why …"), thumbnail layout (face left + glowing object right + 2 words). Same: style F.
+      ⚠ FLAG: Style F for the 4th upload in a row (L7-C1, A-027, A-030, L8 all F), which breaks the new "never the same style 3 in a row" limit.
+      Not changed: it was QA-passed and scheduled before the rule existed, and scheduled videos are never changed (CLAUDE.md). Next videos in that week
+      (Sun 27 Dec A-017 is Style R) restore the mix.
