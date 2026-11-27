@@ -1,0 +1,14 @@
+{
+ "voice": "Charon",
+ "0": "A 30-second vertical Short about holiday string lights. Same narrator as always, but this time he really feels each moment.",
+ "split": "scenes",
+ "scenes": [["H1", "L01"], ["L02", "L03"], ["L04", "L05"]],
+ "lines": {
+  "H1": "baffled and a bit exasperated, quick, as if the lights just died in your hands",
+  "L01": "slow hushed suspense, then sinking, comically dramatic disappointment",
+  "L02": "calm and friendly, clearly explaining to a friend",
+  "L03": "soft and gentle, then sharp and sudden, then a sad, slower drop at the very end",
+  "L04": "brightening up, a clever reveal with a smile in the voice",
+  "L05": "warm and helpful, then happy and delighted, smiling at the end"
+ }
+}

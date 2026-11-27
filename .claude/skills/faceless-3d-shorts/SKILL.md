@@ -304,6 +304,9 @@ winners, keep 20% for tests.
 - [ ] Consistent cast, lighting and colour across all shots
 - [ ] Captions readable, in brand style, inside the safe area, not covering faces
 - [ ] Voice natural (no robotic lines left), SFX on actions, music fits; loudness ≈ −14 LUFS, no clipping
+- [ ] **Human, emotional voice:** every line has a mood in direction.json `"lines"`; `tools/voice_human_check.py episodes/<ep>`
+      says **PASS** (pitch range, pace + pause variation, no monotone stretch, mood contrast between lines; voice_check.json saved);
+      then a **listen check** of the final mix start to finish: any part that sounds flat, robotic or "AI" is re-voiced before upload
 - [ ] Every fact in `sources.md`; every asset in `credits.md`
 - [ ] Cast is ours; no reused clips, comics or art; no logos or real faces
 - [ ] Contact sheet of frames checked, and the full video reviewed start to finish

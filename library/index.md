@@ -14,6 +14,12 @@
 ## Motion graphics (lib/gfx.py)
 - chapter card, title card, Europe map with pins (Natural Earth), split screen, parchment documents (typewriter text, wax seal, torn/bitten edge), location tag, pop words, highlighted captions, end screen
 
+## Voice — HUMAN, EMOTIONAL (27 Nov 2026; details docs/sound_upgrade.md "Emotional voice")
+- `lib/voice_gemini.py <ep> 0`: per-line moods from direction.json `"lines"`; `"split": "scenes"` voices scene by scene (one request
+  per scene, loudness-matched, cut in the pauses; every request logged in research/gemini_tts_log.jsonl, stops at 9/day).
+- `tools/voice_human_check.py <ep | file.wav>`: PASS/FAIL + weakest lines, writes <ep>/voice_check.json (QA gate). Calibration:
+  docs/voice_samples/calibration.md. Demo: docs/voice_samples/emotional_demo.mp3 vs flat_old_demo.mp3 (tools/emotional_demo.py).
+
 ## Audio — REAL SOUND (27 Nov 2026, use for every new video; details docs/sound_upgrade.md)
 - **Real SFX + ambiences** `library/sfx/real/<category>/<name>.ogg` (167 Freesound CC0 recordings; list + authors in
   library/sfx/real/credits.md; refetch tools/fetch_real_sfx.py). Use the name in `sfx=[(t, "name", gain)]`. Categories:

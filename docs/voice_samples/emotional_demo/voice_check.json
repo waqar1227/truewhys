@@ -1,0 +1,135 @@
+{
+ "verdict": "PASS",
+ "issues": [
+  [
+   "contrast",
+   1.2,
+   "WARN"
+  ]
+ ],
+ "overall": {
+  "dur": 38.25,
+  "speech": 31.89,
+  "f0_median": 125.8,
+  "pitch_std_st": 4.29,
+  "pitch_range_st": 14.48,
+  "mono_longest_s": 0,
+  "mono_frac": 0.0,
+  "rate": 4.24,
+  "rate_cv": 0.121,
+  "pauses_per_min": 28.2,
+  "pause_mean": 0.374,
+  "pause_cv": 0.54,
+  "energy_std_db": 1.21,
+  "dyn_db": 20.27,
+  "clip_frac": 4e-05,
+  "clicks": 0,
+  "dropouts": 0,
+  "contrast": 1.2,
+  "line_pitch_sd_st": 2.88,
+  "line_rate_cv": 0.049,
+  "line_loud_sd_db": 0.63,
+  "line_range_sd_st": 1.24,
+  "joins": [
+   {
+    "at": 9.01,
+    "loud_jump_db": 1.52,
+    "floor_jump_db": 0,
+    "pitch_jump_st": 3.11
+   },
+   {
+    "at": 24.56,
+    "loud_jump_db": 1.84,
+    "floor_jump_db": 0,
+    "pitch_jump_st": 5.2
+   }
+  ]
+ },
+ "lines": [
+  {
+   "id": "H1",
+   "direction": "baffled and a bit exasperated, quick, as if the lights just died in your hands",
+   "dur": 4.2,
+   "f0_med": 181.79635155702775,
+   "pitch_std_st": 4.42,
+   "pitch_range_st": 14.97,
+   "mono_longest_s": 0,
+   "rate": 3.91,
+   "loud_db": -17.96,
+   "pauses": 2,
+   "weak": 0.0,
+   "same": 0.0
+  },
+  {
+   "id": "L01",
+   "direction": "slow hushed suspense, then sinking, comically dramatic disappointment",
+   "dur": 4.11,
+   "f0_med": 142.22588085927657,
+   "pitch_std_st": 4.11,
+   "pitch_range_st": 13.74,
+   "mono_longest_s": 0,
+   "rate": 4.19,
+   "loud_db": -16.23,
+   "pauses": 1,
+   "weak": 0.0,
+   "same": 0.0
+  },
+  {
+   "id": "L02",
+   "direction": "calm and friendly, clearly explaining to a friend",
+   "dur": 6.65,
+   "f0_med": 134.05873769754928,
+   "pitch_std_st": 3.79,
+   "pitch_range_st": 13.16,
+   "mono_longest_s": 0,
+   "rate": 3.74,
+   "loud_db": -16.51,
+   "pauses": 1,
+   "weak": 0.0,
+   "same": 0.0
+  },
+  {
+   "id": "L03",
+   "direction": "soft and gentle, then sharp and sudden, then a sad, slower drop at the very end",
+   "dur": 8.2,
+   "f0_med": 114.7099221345706,
+   "pitch_std_st": 3.46,
+   "pitch_range_st": 11.2,
+   "mono_longest_s": 0,
+   "rate": 4.24,
+   "loud_db": -17.81,
+   "pauses": 3,
+   "weak": 0.0,
+   "same": 0.0
+  },
+  {
+   "id": "L04",
+   "direction": "brightening up, a clever reveal with a smile in the voice",
+   "dur": 6.98,
+   "f0_med": 121.5206963001242,
+   "pitch_std_st": 4.27,
+   "pitch_range_st": 14.79,
+   "mono_longest_s": 0,
+   "rate": 4.03,
+   "loud_db": -16.91,
+   "pauses": 2,
+   "weak": 0.0,
+   "same": 0.0
+  },
+  {
+   "id": "L05",
+   "direction": "warm and helpful, then happy and delighted, smiling at the end",
+   "dur": 6.01,
+   "f0_med": 110.43680456388381,
+   "pitch_std_st": 4.31,
+   "pitch_range_st": 13.39,
+   "mono_longest_s": 0,
+   "rate": 4.31,
+   "loud_db": -17.12,
+   "pauses": 3,
+   "weak": 0.0,
+   "same": 0.0
+  }
+ ],
+ "weakest": []
+}

@@ -54,6 +54,7 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
   direction.json (per line, not per chapter) and voice the script scene by scene so each mood lands. QA gate: run tools/voice_human_check.py
   (pitch range, pace and pause variation, no monotone stretches) and listen-check the mix; if any part sounds robotic, flat or "AI",
   re-voice that part (or use another voice) before upload. Never publish a video whose voice or sound fails this check.
+  How (tested 27 Nov): `"split": "scenes"` in direction.json, short plain moods, never long [tags] in the transcript; docs/sound_upgrade.md "Emotional voice".
 - **UNIQUE LOOK PER EPISODE (owner 27 Nov 2026):** every video gets its own `look.md` before the animatic: colour palette (5 colours, none of its
   main colours used in the last 5 uploads), background/set design, lighting/time of day, title + label style (shape, colour, animation),
   transitions, camera language, music mood, character outfits. No shared visual template between episodes; only the brand stays fixed

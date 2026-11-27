@@ -42,3 +42,21 @@ Why: viewer comments "these AI sounds are ass" / "AI slop" (owner, 27 Nov). Rule
 ## Owner decision (27 Nov 2026)
 All 4 voices approved. No fixed voice: each video's production design (topic.md) picks style, characters, voice,
 music and sounds to fit its script. Voice per episode: `"voice": "Puck"` in direction.json (TW_GEMINI_VOICE overrides).
+
+## Emotional voice (owner 27 Nov 2026: "real person, no robotic or AI ... mood, expressions, feelings, happy, sad")
+1. **direction.json per line:** `{"voice": "Charon", "0": "chapter note", "split": "scenes", "lines": {"H1": "baffled, quick",
+   "L01": "hushed suspense, then comic disappointment", "L05": "sad, slower"}}`. Short plain moods; say how pitch/pace/loudness change.
+   Optional `"scenes": [["H1","L01"], ["L02","L03"]]` (else consecutive equal moods form a scene) and `"max_takes"` (default 3 per chapter).
+2. **Voice:** `python lib/voice_gemini.py episodes/<ep> 0`. One request per scene (Short: 3; long video: ~3 per chapter, so plan the
+   quota over 2-3 days). Each request is logged in research/gemini_tts_log.jsonl (commit it) and the script stops at 9 requests a day
+   (TW_GEMINI_DAY_CAP), because all sessions share the free 10/day. Takes are FLAC masters in voice/ (named by a hash of the prompt:
+   changing one scene's mood re-voices only that scene). Scene takes are loudness-matched and cut inside the pauses with 12 ms fades;
+   the mix's ambience bed (lib/audio.py real mode) covers the gaps, so the joins are invisible.
+3. **Never** put long [descriptions] in the transcript or quote script words in the notes (tested: read aloud / ad-libbed). Short audio
+   tags typed into the line's `||say` text work: `[sigh]` (tested), probably [laughs], [whispering], [short pause].
+4. **Check:** `python tools/voice_human_check.py episodes/<ep>` → PASS needed; it lists the weakest lines (flat, or same as their
+   neighbour). Re-voice those scenes with a stronger mood (or another voice), then listen to the whole mix before upload.
+   Calibration and test notes: docs/voice_samples/calibration.md.
+5. **Demo for the owner:** `docs/voice_samples/flat_old_demo.mp3` (A-030 as posted: one flat take) vs `docs/voice_samples/emotional_demo.mp3`
+   (same script and voice, 3 scene takes with a mood per line), both with the same real music, living-room ambience and real SFX
+   (tools/emotional_demo.py, no Gemini request needed to rebuild).
