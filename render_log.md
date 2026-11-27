@@ -120,3 +120,4 @@
 - 27 Nov 13:41 UTC: b009 v1 pushed (B-009 L9 Style T plates: 24 stills 1920x1080 / 1080x1920, Cycles 128 spp, 2xT4). Dataset anam318/truewhys-ep-b009 (confirmed ready), kernel truewhys-render-b009.
 - 27 Nov 13:48 UTC: b009 v1 COMPLETE (24/24 plates, wall 5.1 min, 2xT4) → episodes/B-009-flight-secrets/renders/plates (not in git).
 - 27 Nov 13:51 UTC: a035 v1 pushed (A-035 paper to the Moon, Style R, 9 shots / 1044 frames, 1080×1920, Cycles 64 spp + mblur, 2×T4). Dataset anam318/truewhys-ep-a035 (confirmed live before push), kernel truewhys-render-a035. RUNNING at once.
+- 27 Nov 15:30 UTC: a035 v1 COMPLETE (wall 89 min, 2×T4, 1044 frames 1080×1920 s64, ~3 h GPU across both workers). Frames OK, composed (make.py render), QA PASS, uploaded WXXfBNNTtJ0 for Fri 8 Jan 18:00 UTC.

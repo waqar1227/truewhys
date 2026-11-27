@@ -267,7 +267,8 @@
   ],
   "heard": "Forty -two? Past the Moon.",
   "match": 0.6,
-  "tempo": 1.04
+  "tempo": 1.04,
+  "gain_db": -1.5
  },
  {
   "id": "L05",
@@ -353,7 +354,8 @@
   ],
   "heard": "So why can't you? Each fold halves the sheet, and every bend swallows more paper.",
   "match": 1.0,
-  "tempo": 1.04
+  "tempo": 1.04,
+  "gain_db": 3
  },
  {
   "id": "L06",
@@ -429,7 +431,8 @@
   ],
   "heard": "In 2002, a student managed twelve folds... with paper over a kilometre long.",
   "match": 1.0,
-  "tempo": 1.04
+  "tempo": 1.04,
+  "gain_db": 2.5
  },
  {
   "id": "L07",
@@ -500,6 +503,7 @@
   ],
   "heard": "So if you're stuck at seven... it's not you. It's the paper.",
   "match": 1.0,
-  "tempo": 1.04
+  "tempo": 1.04,
+  "gain_db": 2
  }
 ]

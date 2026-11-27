@@ -97,6 +97,7 @@ Unsure → **Yes** (disclosing never hurts reach or money; a missing disclosure 
 | PQDcJuv570Y | B-003-pirate-myths/C7 | Why One Pirate Captain Gave His Crew a Bedtime | T | **No** |
 | cLtK1MIprGs | B-003-pirate-myths/C8 | Why Pirates Got Paid for Losing an Arm | T | **No** |
 | YL5gMoQVH7w | B-003-pirate-myths/C9 | How Pirate Crews Could Vote Out Their Captain | T | **No** |
+| WXXfBNNTtJ0 | A-035-paper-moon | Fold Paper 42 Times and It Would Reach the Moon 🌕 | R | **Yes** (realistic CG paper macros, city, Earth/Moon, corridor could pass for real footage; unsure → Yes) |
 
 ## Second check, 19 Nov 2026 (owner: "double check ... I just not want any trouble")
 - Re-read YouTube Help 14328491 + "How this content was made" 15447836: no 2026 change; disclosure is for content that **seems realistic**;

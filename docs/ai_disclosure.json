@@ -574,5 +574,12 @@
   "synthetic": false,
   "reason": "Not realistic: flat 2D cartoon (cast v2.2 stand-ins, code-drawn props and sets), generic TTS narrator imitating no real person, code-made music; no realistic people, places or events and no real person shown saying or doing anything (docs/ai_disclosure.md test, 26 Nov 2026).",
   "decided": "2026-11-26"
+ },
+ "WXXfBNNTtJ0": {
+  "episode": "A-035",
+  "title": "Fold Paper 42 Times and It Would Reach the Moon 🌕",
+  "style": "R: realistic 3D (Blender/Cycles)",
+  "synthetic": true,
+  "reason": "Yes by the docs/ai_disclosure.md test (unsure -> Yes): realistic CG shots (paper macro close-ups, a dusk city skyline, the Earth and Moon from space, a long corridor) could be mistaken at a glance for real camera footage of real places, even though no real footage, real person, voice clone or AI music is used (CG built in Blender, stylised MPFB character, generic TTS narrator, real-instrument CC BY music). 27 Nov 2026."
  }
 }
