@@ -48,6 +48,11 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
   Copy only formats, never their art, characters, voices or videos; never imitate a real person's voice. Set the voice per episode with
   "voice" in direction.json (lib/voice_gemini.py). Consecutive uploads still pass the variety check above.
   Every video keeps its own research, script, sources and new staging; never re-use scenes, clips or footage across videos.
+- **UNIQUE LOOK PER EPISODE (owner 27 Nov 2026):** every video gets its own `look.md` before the animatic: colour palette (5 colours, none of its
+  main colours used in the last 5 uploads), background/set design, lighting/time of day, title + label style (shape, colour, animation),
+  transitions, camera language, music mood, character outfits. No shared visual template between episodes; only the brand stays fixed
+  (small Wy ✓ badge, channel fonts). Log each look in `docs/looks_register.md` (episode, palette hex, style, lead, set) and check it so no two
+  of the last 5 uploads look alike.
 - Factual accuracy: verify every claim against reliable sources (2+ in `sources.md`); never present unverified information as confirmed.
 
 ## About the owner
