@@ -48,6 +48,12 @@ Never copy their videos, titles, characters or art. Current rules only; older/re
   Copy only formats, never their art, characters, voices or videos; never imitate a real person's voice. Set the voice per episode with
   "voice" in direction.json (lib/voice_gemini.py). Consecutive uploads still pass the variety check above.
   Every video keeps its own research, script, sources and new staging; never re-use scenes, clips or footage across videos.
+- **HUMAN, EMOTIONAL VOICE (owner 27 Nov 2026, hard rule before ANY upload):** the narration must sound like a real person, never robotic or
+  flat. The voice can stay the same across videos, but its delivery must change with the story: happy, excited, curious, surprised, tense,
+  sad, serious, whispering, smiling, with natural pauses, breaths, emphasis and pace changes. Write an emotion/direction tag for EVERY line in
+  direction.json (per line, not per chapter) and voice the script scene by scene so each mood lands. QA gate: run tools/voice_human_check.py
+  (pitch range, pace and pause variation, no monotone stretches) and listen-check the mix; if any part sounds robotic, flat or "AI",
+  re-voice that part (or use another voice) before upload. Never publish a video whose voice or sound fails this check.
 - **UNIQUE LOOK PER EPISODE (owner 27 Nov 2026):** every video gets its own `look.md` before the animatic: colour palette (5 colours, none of its
   main colours used in the last 5 uploads), background/set design, lighting/time of day, title + label style (shape, colour, animation),
   transitions, camera language, music mood, character outfits. No shared visual template between episodes; only the brand stays fixed
