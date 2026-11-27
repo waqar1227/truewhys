@@ -41,7 +41,8 @@ def tag(name, items, base=None):
 
 
 CREAM, TANG, LIME = "#EFE6D2", "#F08A24", "#B5D33D"
-V = Video(EP, title=("ONE MORE", "FOLD?"), keys=set(), music="curious/mischief_maker", amb="amb_room_quiet")
+V = Video(EP, title=("ONE MORE", "FOLD?"), keys=set(), music="curious/mischief_maker", amb="amb_room_quiet", title_out=2.4)
+V.title_y = 0.60          # over his sweater: face above, block below stay clear
 
 
 def count(name, word, n, rest, y=1480):

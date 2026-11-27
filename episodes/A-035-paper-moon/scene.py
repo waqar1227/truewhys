@@ -18,9 +18,9 @@ from sr_shot import key_obj, cam_move, W_, life, ease
 argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else sys.argv[1:]
 
 FOREST, PAPER, TANG, PLUM, LIME = "#2E5E4E", "#EFE6D2", "#F08A24", "#4A2E4F", "#B5D33D"
-GUS = dict(macro={"gender": 1.0, "age": 0.80, "muscle": 0.45, "weight": 0.55, "proportions": 0.6, "height": 0.5}, skin="#C68B65",
+GUS = dict(macro={"gender": 1.0, "age": 0.80, "muscle": 0.75, "weight": 0.42, "proportions": 0.5, "height": 0.55}, skin="#C68B65",
            hair="#A9A8A2", hair_style="short", shirt="#B8623A", trousers="#3A3340", shoes="#5A4030", iris="#4A3A2C", sleeve="long",
-           shirt_push=0.06, shirt_iters=90, tuck=0.05)          # Gus: ~60, short grey hair, rust-tangerine knit top, plum-grey trousers
+           shirt_push=0.03, shirt_iters=40, tuck=0.05)          # Gus: ~60, short grey hair, rust-tangerine knit top, plum-grey trousers
 DESK_Z = 0.76                                                   # desk top height
 GX, GY = 0.0, -0.05                                             # Gus stands behind the desk facing +Y (the camera side)
 BLOCK = Vector((0.0, 0.21, DESK_Z))                             # folded block on the desk, in front of him
@@ -109,8 +109,8 @@ def layers_mat(name="stackedge", bands=260.0, emit=0.0):
     tc = N("ShaderNodeTexCoord"); wv = N("ShaderNodeTexWave"); wv.wave_type = "BANDS"; wv.bands_direction = "Z"
     wv.inputs["Scale"].default_value = bands; wv.inputs["Distortion"].default_value = 1.5; wv.inputs["Detail"].default_value = 2.0
     L(tc.outputs["Object"], wv.inputs["Vector"])
-    rp = N("ShaderNodeValToRGB"); rp.color_ramp.elements[0].color = C.srgb("#CFC4AE"); rp.color_ramp.elements[1].color = C.srgb(PAPER)
-    rp.color_ramp.elements[0].position = 0.35; rp.color_ramp.elements[1].position = 0.65
+    rp = N("ShaderNodeValToRGB"); rp.color_ramp.elements[0].color = C.srgb("#A89A80"); rp.color_ramp.elements[1].color = C.srgb(PAPER)
+    rp.color_ramp.elements[0].position = 0.45; rp.color_ramp.elements[1].position = 0.55
     L(wv.outputs["Fac"], rp.inputs["Fac"]); L(rp.outputs["Color"], b.inputs["Base Color"])
     if emit:
         L(rp.outputs["Color"], b.inputs["Emission Color"]); b.inputs["Emission Strength"].default_value = emit
@@ -120,7 +120,7 @@ def layers_mat(name="stackedge", bands=260.0, emit=0.0):
 def stack(name, Wd=0.21, D=0.15, loc=(0, 0, 0), mat=None):
     """A sheet stack (box with page-edge bands). Height is animated with scale z (1 unit = 1 m tall at scale 1)."""
     M = mats()
-    m = mat or layers_mat()
+    m = mat or layers_mat("stackedge", 22.0)
     root = C.empty(name, loc)
     C.rbox(name + "_box", (Wd, D, 1.0), (0, 0, 0.5), mat=m, bevel=0.0005, parent=root)
     return root
@@ -194,8 +194,8 @@ def press_pose(h, ct, f, depth=0.0, lean=14):
 
 def hook_cam(cam, n, rev=False):
     """Low at desk height in front: the block big in the lower frame, Gus's straining face above it."""
-    A = ((0.10, 1.00, 0.98), (0.0, 0.10, 1.16), 30)
-    B = ((0.07, 0.94, 0.97), (0.0, 0.10, 1.17), 32)
+    A = ((0.10, 1.05, 1.02), (0.0, 0.10, 1.30), 31)
+    B = ((0.07, 0.99, 1.01), (0.0, 0.10, 1.31), 32)
     P0, P1 = (B, A) if rev else (A, B)
     cam_move(cam, n, P0, P1, focus=(0, GY + 0.05, 1.40), fstop=4.0)
 
@@ -219,7 +219,8 @@ def hook_press(sh, cam, n):
     for f, d, s in ((0, 0.010, 0.86), (8, 0.014, 0.80), (16, 0.004, 0.96), (24, 0.0, 1.0), (40, 0.012, 0.84), (52, 0.0, 1.0)):
         press_pose(h, ct, f, depth=d, lean=30); squash(blk, f, s)
     press_pose(h, ct, n, depth=0.0, lean=22); squash(blk, n, 1.0)
-    key_obj(ct["look"], 0, loc=(0, BLOCK.y, BLOCK.z)); key_obj(ct["look"], 60, loc=(0, BLOCK.y, BLOCK.z))
+    key_obj(ct["look"], 0, loc=(0.02, 1.2, 0.95)); key_obj(ct["look"], 30, loc=(0.02, 1.2, 0.95))      # straining face toward us (frame 1 emotion)
+    key_obj(ct["look"], 44, loc=(0, BLOCK.y, BLOCK.z)); key_obj(ct["look"], 60, loc=(0, BLOCK.y, BLOCK.z))
     fm = W_(sh, "moon", 4.6)
     key_obj(ct["look"], fm - 6, loc=(0, BLOCK.y, BLOCK.z + 0.05)); key_obj(ct["look"], fm + 4, loc=(0.03, 1.4, 1.20)); key_obj(ct["look"], n, loc=(0.03, 1.4, 1.20))
     Hm.face(h["keys"], 0, squint=0.7, brows_down=0.6, purse=0.5, sneer=0.3); Hm.face(h["keys"], 50, squint=0.8, brows_down=0.7, purse=0.6, sneer=0.4)
@@ -236,8 +237,8 @@ def loop_press(sh, cam, n):
     press_pose(h, ct, 0, depth=0.0, lean=10); squash(blk, 0, 1.0)
     press_pose(h, ct, n - 22, depth=0.0, lean=10); squash(blk, n - 22, 1.0)
     press_pose(h, ct, n, depth=0.010, lean=30); squash(blk, n, 0.86)
-    key_obj(ct["look"], 0, loc=(0.03, 1.4, 1.22)); key_obj(ct["look"], n - 24, loc=(0.03, 1.4, 1.22)); key_obj(ct["look"], n - 8, loc=(0, BLOCK.y, BLOCK.z))
-    key_obj(ct["look"], n, loc=(0, BLOCK.y, BLOCK.z))
+    key_obj(ct["look"], 0, loc=(0.03, 1.4, 1.22)); key_obj(ct["look"], n - 24, loc=(0.03, 1.4, 1.22)); key_obj(ct["look"], n - 8, loc=(0.02, 1.2, 0.95))
+    key_obj(ct["look"], n, loc=(0.02, 1.2, 0.95))
     Hm.face(h["keys"], 0, smile=0.15, browL_up=0.4); Hm.face(h["keys"], 30, smile=0.5, squint=0.25, browL_up=0.5)
     Hm.face(h["keys"], n - 22, smile=0.4, squint=0.2, browL_up=0.3)
     Hm.face(h["keys"], n, smile=0.0, browL_up=0.0, squint=0.7, brows_down=0.6, purse=0.5, sneer=0.3)
@@ -284,7 +285,7 @@ def stack_desk(sh, cam, n):
         key_obj(st, f + 3, scale=(1, 1, max(ht, 0.0001) * 1.0))
     key_obj(st, n, scale=(1, 1, hts[-1]))
     C.set_interp(st, "CONSTANT")
-    cam_move(cam, n, ((0.16, 0.86, DESK_Z + 0.05), (0.26, 0.47, DESK_Z + 0.045), 45), ((0.15, 0.80, DESK_Z + 0.07), (0.26, 0.47, DESK_Z + 0.05), 45),
+    cam_move(cam, n, ((0.17, 0.74, DESK_Z + 0.04), (0.24, 0.47, DESK_Z + 0.045), 50), ((0.16, 0.70, DESK_Z + 0.06), (0.24, 0.47, DESK_Z + 0.05), 50),
              focus=(0.22, 0.46, DESK_Z + 0.05), fstop=5.6)
 
 
@@ -315,8 +316,8 @@ def stack_city(sh, cam, n):
     sun = bpy.data.lights.new("sun", "SUN"); sun.energy = 2.5; sun.color = C.srgb("#FFB070")[:3]; sun.angle = math.radians(2)
     so = bpy.data.objects.new("sun", sun); bpy.context.scene.collection.objects.link(so); so.rotation_euler = (math.radians(84), 0, math.radians(-50))
     C.rbox("ground", (8000, 8000, 1), (0, 0, -0.5), mat=C.pbr("ground", "#2A2430", 0.9), bevel=0.0)
-    rnd = random.Random(7); towers(rnd, n=90, spread=1200, tall=(230, 640))
-    st = stack("col", Wd=70, D=50, loc=(0, 420, 0), mat=layers_mat("colpaper", 400.0, emit=0.15))
+    rnd = random.Random(7); towers(rnd, n=90, spread=1200, tall=(300, 1000))
+    st = stack("col", Wd=70, D=50, loc=(0, 420, 0), mat=layers_mat("colpaper", 30.0, emit=0.35))
     f1 = W_(sh, "taller", 1.8)
     for f in range(0, n + 1, 2):
         u = ease(min(1.0, f / max(1, f1 + 14)))
@@ -346,12 +347,12 @@ def stack_moon(sh, cam, n):
     for i in range(500):
         th = rnd.uniform(0, 2 * math.pi); ph = rnd.uniform(-0.2, 1.2); R = 3000
         C.cyl("s", rnd.uniform(1.0, 2.6), 0.1, (R * math.cos(th) * math.cos(ph), R * math.sin(th) * math.cos(ph) + 1500, R * math.sin(ph)), mat=star, verts=6)
-    st = stack("line", Wd=3.0, D=3.0, loc=(0, 0, -0.5), mat=layers_mat("linepaper", 300.0, emit=1.2))
+    st = stack("line", Wd=3.0, D=3.0, loc=(0, 0, -0.5), mat=layers_mat("linepaper", 30.0, emit=1.2))
     fm = W_(sh, "past", 1.6)
     for f in range(0, n + 1, 2):
         u = ease(min(1.0, f / max(1, fm + 10)))
         key_obj(st, f, scale=(1, 1, 5 + (440.0 - 5) * u))
-    cam_move(cam, n, ((40, -120, 30), (6, 0, 90), 28), ((70, -150, 300), (24, 0, 400), 30), focus=(15, 0, 300), fstop=32)
+    cam_move(cam, n, ((22, -75, 6), (4, 0, 22), 20), ((70, -160, 290), (24, 0, 395), 26), focus=(15, 0, 300), fstop=32)
     cam.data.clip_end = 20000
 
 
@@ -379,7 +380,7 @@ def long_strip(sh, cam, n):
     a thin paper strip runs down the middle of the floor and out of sight; low camera glides along it."""
     M = mats(); P.world("#0E1218", 0.1)
     Lc = 160.0
-    floor = C.pbr("hallfloor", "#5E5862", 0.25, bump="noise", bscale=40, bstr=0.05, cvar=0.08, cscale=0.5)
+    floor = C.pbr("hallfloor", "#5E5862", 0.6, bump="noise", bscale=40, bstr=0.05, cvar=0.08, cscale=0.5)
     C.rbox("hfloor", (3.2, Lc, 0.02), (0, Lc / 2 - 2, -0.01), mat=floor, bevel=0.0)
     for s in (-1, 1):
         C.rbox("hwall", (0.05, Lc, 3.0), (s * 1.6, Lc / 2 - 2, 1.5), mat=C.pbr("hwall", "#D8D2C4", 0.8, cvar=0.03), bevel=0.0)
@@ -389,7 +390,7 @@ def long_strip(sh, cam, n):
     for k in range(int(Lc // 4)):
         C.rbox("hl", (0.3, 1.2, 0.02), (0, k * 4.0, 2.97), mat=lamp, bevel=0.0)
     C.rbox("hend", (3.2, 0.05, 3.0), (0, Lc - 2, 1.5), mat=C.pbr("hend", "#3B2747", 0.9), bevel=0.0)
-    strip = C.pbr("strip", PAPER, 0.85, bump="noise", bscale=200, bstr=0.2, emit=PAPER, estr=0.05)
+    strip = C.pbr("strip", PAPER, 0.85, bump="noise", bscale=200, bstr=0.2, emit=PAPER, estr=0.35)
     pts = []
     for k in range(400):
         y = -0.6 + k * (Lc - 3) / 399
@@ -400,7 +401,7 @@ def long_strip(sh, cam, n):
         if i:
             a = 2 * i; faces.append((a - 2, a - 1, a + 1, a))
     C.mesh_obj("strip", verts, faces, mat=strip)
-    C.cyl("roll", 0.06, 0.24, (0, -0.72, 0.06), rot=(0, math.radians(90), 0), mat=M["paper"], verts=32)
+    C.cyl("roll", 0.06, 0.24, (0, -0.72, 0.06), rot=(0, math.radians(90), 0), mat=strip, verts=32)
     for s in (-1, 1):
         C.area("hfill", (s * 1.2, 2.0, 2.4), (math.radians(40), 0, math.radians(90 * s)), 1.0, "#FFF1DC", 30)
     cam_move(cam, n, ((0.25, -1.6, 0.35), (0.0, 30, 0.0), 30), ((0.18, 1.8, 0.28), (0.0, 34, 0.0), 30), focus=(0, 6, 0), fstop=2.8)

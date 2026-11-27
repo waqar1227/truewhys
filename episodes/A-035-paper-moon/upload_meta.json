@@ -1,0 +1,17 @@
+{
+ "title": "Fold Paper 42 Times and It Would Reach the Moon 🌕",
+ "description": "If you could fold an ordinary sheet of paper in half 42 times, it would be thick enough to reach past the Moon. But try it yourself and you'll get stuck at about seven.\n\nEvery fold doubles the thickness. A normal sheet is about 0.1 mm thick: 10 folds make about 10 cm, 23 folds make about 839 m (taller than the tallest building on Earth, 828 m), and 42 folds make about 440,000 km, past the Moon's average distance of 384,400 km. So why can't you keep going? Each fold also halves the sheet, and the curved edge of every fold uses up more and more paper: each new fold needs about four times the length. In 2002 a high-school student set the record of 12 folds, using a strip of paper about 1.2 km (4,000 ft) long.\n\nHow many times can you fold a sheet? Tell us below.\n\nMore true whys: https://www.youtube.com/@truewhys?sub_confirmation=1\n\nSources: Scientific American (P. Plait, how many paper folds would get you to the Moon); Guinness World Records (most times to fold a piece of paper, 27 Jan 2002) and its 2025 article; Science News (Folding Paper in Half Twelve Times); NASA (Moon distance); Burj Khalifa official height.\nAnimation and sound design: TrueWhys. 3D people: MPFB 2 (CC0 output). Sound effects: Freesound (CC0).\n#paper #math #science",
+ "tags": ["fold paper 42 times", "paper folding to the moon", "how many times can you fold paper", "fold paper in half", "paper fold record",
+          "7 folds myth", "exponential growth", "folding paper 12 times", "paper to the moon", "math facts", "science facts", "did you know",
+          "mind blowing facts", "everyday science", "paper experiment", "TrueWhys"],
+ "categoryId": "28",
+ "publishAt": "2027-01-08T18:00:00Z",
+ "playlist": "Why Does That Happen? (Science and Body)",
+ "video": "final/A-035.mp4",
+ "style": "R (realistic 3D, Kaggle GPU)",
+ "studio_pattern": 3,
+ "ai_disclosure": {
+  "synthetic": true,
+  "reason": "Yes by the docs/ai_disclosure.md test (unsure -> Yes): realistic CG shots (paper macro close-ups, a dusk city skyline, the Earth and Moon from space, a long corridor) could be mistaken at a glance for real camera footage of real places, even though no real footage, real person, voice clone or AI music is used (CG built in Blender, stylised MPFB character, generic TTS narrator, real-instrument CC BY music). 27 Nov 2026."
+ }
+}
