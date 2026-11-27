@@ -169,17 +169,17 @@ def c_end(g, c):
 
 def build():
     V = Video(EP, title=("30", "SECONDS?"), cap_y=0.72, music="tense", sid="B009C1", captions=False, amb="amb_plane_cabin")
-    V.shot("H1", c_hook, (0, "you"), tr="cut", sfx=[(0.0, "hiss", 0.5), (0.0, "thud", 0.35), (0.05, "whoosh", 0.35)])
-    V.shot("H1", c_clock, ("you", 1), cam=push(1.0, 1.05, (540, 900)), sfx=[("thirty", "tick", 0.45)])
-    V.shot("L01", c_first, (0, "Even"), cam=push(1.0, 1.05, (500, 1000)), sfx=[("mask", "pop", 0.4)])
-    V.shot("L01", lambda g, c: c_first(g, c, 1), ("Even", 1), cam=push(1.0, 1.04, (600, 1000)), sfx=[("child's", "chime", 0.35)])
-    V.shot("L02", c_thin, (0, "And"), cam=push(1.0, 1.05, (540, 900)), music="mystery", sfx=[("thin", "wind", 0.35)])
-    V.shot("L02", lambda g, c: c_thin(g, c, 1), ("And", "You"), cam=push(1.0, 1.04, (540, 1000)), sfx=[("feel", "bloop", 0.35)])
-    V.shot("L02", lambda g, c: c_thin(g, c, 2), ("You", 1), cam=push(1.03, 1.08, (540, 1000)), sfx=[("calm", "shimmer", 0.35)])
-    V.shot("L03", c_fumble, cam=push(1.0, 1.05, (560, 1000)), music="tension", sfx=[("fumble", "click", 0.3), ("pass", "drum_hit", 0.4)])
-    V.shot("L04", c_good, cam=push(1.0, 1.05, (560, 1000)), music="warm", sfx=[("first", "pop", 0.35), ("help", "chime", 0.4)])
-    V.shot("L05", c_dive, (0, "Thirty"), cam=push(1.0, 1.04, (540, 960)), sfx=[("dive", "whoosh", 0.4)])
-    V.shot("L05", c_end, ("Thirty", 1), cam=push(1.0, 1.04, (540, 1000)), music="tension", sfx=[(0.05, "hiss", 0.35)])
+    V.shot("H1", c_hook, (0, "you"), tr="cut", sfx=[(0.0, "hiss", 0.5), (0.0, "seatbelt_chime", 0.35)])
+    V.shot("H1", c_clock, ("you", 1), cam=push(1.0, 1.05, (540, 900)), sfx=[("thirty", "tick", 0.4)])
+    V.shot("L01", c_first, (0, "Even"), cam=push(1.0, 1.05, (500, 1000)), sfx=[("mask", "seatbelt_click", 0.35)])
+    V.shot("L01", lambda g, c: c_first(g, c, 1), ("Even", 1), cam=push(1.0, 1.04, (600, 1000)), sfx=[])
+    V.shot("L02", c_thin, (0, "And"), cam=push(1.0, 1.05, (540, 900)), music="mystery", sfx=[("thin", "wind", 0.3)])
+    V.shot("L02", lambda g, c: c_thin(g, c, 1), ("And", "You"), cam=push(1.0, 1.04, (540, 1000)), sfx=[])
+    V.shot("L02", lambda g, c: c_thin(g, c, 2), ("You", 1), cam=push(1.03, 1.08, (540, 1000)), sfx=[])
+    V.shot("L03", c_fumble, cam=push(1.0, 1.05, (560, 1000)), music="tension", sfx=[("fumble", "seatbelt_click", 0.3), ("pass", "drum_hit", 0.35)])
+    V.shot("L04", c_good, cam=push(1.0, 1.05, (560, 1000)), music="warm", sfx=[("help", "seatbelt_click", 0.3)])
+    V.shot("L05", c_dive, (0, "Thirty"), cam=push(1.0, 1.04, (540, 960)), sfx=[("dive", "jet_hum", 0.35)])
+    V.shot("L05", c_end, ("Thirty", 1), cam=push(1.0, 1.04, (540, 1000)), music="tension", sfx=[(0.05, "hiss", 0.3)])
     V.title_y = 0.1
     V.build()
     from flat_split import split_long

@@ -8,3 +8,4 @@
 {"day": "2026-11-27", "t": "08:31", "model": "gemini-3.8-flash-tts", "voice": "Puck", "ep": "A-035-paper-moon", "take": "ch0", "chars": 0, "ok": true}
 {"day": "2026-11-27", "t": "08:31", "model": "gemini-3.8-flash-tts", "voice": "Puck", "ep": "A-035-paper-moon", "take": "ch1", "chars": 0, "ok": true}
 {"day": "2026-11-27", "t": "08:32", "model": "gemini-3.8-flash-tts", "voice": "Puck", "ep": "A-035-paper-moon", "take": "ch2", "chars": 0, "ok": true}
+{"day": "2026-11-27", "t": "14:47", "model": "gemini-3.8-flash-tts", "voice": "Charon", "ep": "B-009-flight-secrets", "take": "ch0_O01_82cd2a", "chars": 2331, "ok": false, "acct": "B"}
