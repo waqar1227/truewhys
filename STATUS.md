@@ -29,7 +29,7 @@ DONE 24 Nov: L6 B-006 "Why You Forget Why You Walked Into a Room, Songs Get Stuc
 (episodes/B-006-brain-glitches/social/post) Thu 10 Dec; Studio → Related video = L6 (acW1qBL5TzI) on zvHTp6BC06E. After 13 Dec 17:00: pinned comment
 (B-006 upload_meta.json pinned_comment).
 A-028 DONE 25 Nov (see DONE line above): uploaded 6OXodt-6jFo, Sat 28 Nov 18:00 UTC.
-BUFFER END now Sat 2 Jan. NEW WEEK SHAPE (owner 26 Nov, from 3 Jan): long Sat 17:00, Shorts Sun/Tue/Thu/Fri 18:00. VARIETY (owner 27 Nov): L8 NcqUJHj9Sd8 Sat 26 Dec + its C1 boL0jEN4dNU Tue 5 Jan are Style F after 3 F uploads → the NEXT new videos must be Style T or R with new leads + the 2nd voice for Shorts. Next empty slots in order: Fri 8 Jan · Sat 9 Jan (L10 long) · Sun 10 Jan · Tue 12 Jan · Thu 14 · Fri 15 · Sat 16 (L11) … BUFFER END: Thu 7 Jan.
+BUFFER END now Sat 2 Jan. NEW WEEK SHAPE (owner 26 Nov, from 3 Jan): long Sat 17:00, Shorts Sun/Tue/Thu/Fri 18:00. VARIETY (owner 27 Nov): L8 NcqUJHj9Sd8 Sat 26 Dec + its C1 boL0jEN4dNU Tue 5 Jan are Style F after 3 F uploads → the NEXT new videos must be Style T or R with new leads + the 2nd voice for Shorts. Next empty slots in order: Fri 8 Jan (A-035, in production) · Sat 9 Jan (L10 long) · Sun 10 Jan · Tue 12 Jan · Thu 14 · Fri 15 · Sat 16 (L11) … BUFFER END: Thu 7 Jan.
 DONE: A-026 Tue 15 Dec + A-027 Thu 24 Dec 18:00 (uploaded 24 Nov) ·
 DONE: L7 B-007 Sun 20 Dec 17:00 + teaser (post Fri 18 Dec) + cut Short Sat 26 Dec 18:00 (uploaded 25 Nov)
 Spare (made, not scheduled): L4-C3 caps, L4-C4 manholes.
