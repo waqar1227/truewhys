@@ -9,3 +9,17 @@
 {"day": "2026-11-27", "t": "08:31", "model": "gemini-3.8-flash-tts", "voice": "Puck", "ep": "A-035-paper-moon", "take": "ch1", "chars": 0, "ok": true}
 {"day": "2026-11-27", "t": "08:32", "model": "gemini-3.8-flash-tts", "voice": "Puck", "ep": "A-035-paper-moon", "take": "ch2", "chars": 0, "ok": true}
 {"day": "2026-11-27", "t": "14:47", "model": "gemini-3.8-flash-tts", "voice": "Charon", "ep": "B-009-flight-secrets", "take": "ch0_O01_82cd2a", "chars": 2331, "ok": false, "acct": "B"}
+{"day": "2026-11-28", "t": "08:08", "model": "gemini-3.8-flash-tts", "voice": "Charon", "ep": "B-009-flight-secrets", "take": "ch0_O01_82cd2a", "chars": 2331, "ok": true, "acct": "B"}
+{"day": "2026-11-28", "t": "08:08", "model": "gemini-3.8-flash-tts", "voice": "Charon", "ep": "B-009-flight-secrets", "take": "ch0_G02_f04d99", "chars": 2094, "ok": true, "acct": "A"}
+{"day": "2026-11-28", "t": "08:08", "model": "gemini-3.8-flash-tts", "voice": "Charon", "ep": "B-009-flight-secrets", "take": "ch0_G04_84aab9", "chars": 2111, "ok": true, "acct": "B"}
+{"day": "2026-11-28", "t": "08:09", "model": "gemini-3.8-flash-tts", "voice": "Charon", "ep": "B-009-flight-secrets", "take": "ch1_A01_d9d5fc", "chars": 2058, "ok": true, "acct": "A"}
+{"day": "2026-11-28", "t": "08:09", "model": "gemini-3.8-flash-tts", "voice": "Charon", "ep": "B-009-flight-secrets", "take": "ch1_A05_cb6c7d", "chars": 1802, "ok": true, "acct": "B"}
+{"day": "2026-11-28", "t": "08:09", "model": "gemini-3.8-flash-tts", "voice": "Charon", "ep": "B-009-flight-secrets", "take": "ch1_A07_491dec", "chars": 1673, "ok": true, "acct": "A"}
+{"day": "2026-11-28", "t": "08:09", "model": "gemini-3.8-flash-tts", "voice": "Charon", "ep": "B-009-flight-secrets", "take": "ch2_S01_b05662", "chars": 1751, "ok": true, "acct": "B"}
+{"day": "2026-11-28", "t": "08:09", "model": "gemini-3.8-flash-tts", "voice": "Charon", "ep": "B-009-flight-secrets", "take": "ch2_S03_6512eb", "chars": 1896, "ok": true, "acct": "A"}
+{"day": "2026-11-28", "t": "08:10", "model": "gemini-3.8-flash-tts", "voice": "Charon", "ep": "B-009-flight-secrets", "take": "ch2_S05_de54c2", "chars": 1925, "ok": true, "acct": "B"}
+{"day": "2026-11-28", "t": "08:10", "model": "gemini-3.8-flash-tts", "voice": "Charon", "ep": "B-009-flight-secrets", "take": "ch3_W01_6defd3", "chars": 1619, "ok": true, "acct": "A"}
+{"day": "2026-11-28", "t": "08:10", "model": "gemini-3.8-flash-tts", "voice": "Charon", "ep": "B-009-flight-secrets", "take": "ch3_W03_3bf020", "chars": 1947, "ok": true, "acct": "B"}
+{"day": "2026-11-28", "t": "08:10", "model": "gemini-3.8-flash-tts", "voice": "Charon", "ep": "B-009-flight-secrets", "take": "ch3_W05_70f4e0", "chars": 1795, "ok": false, "acct": "A"}
+{"day": "2026-11-28", "t": "08:10", "model": "gemini-3.8-flash-tts", "voice": "Charon", "ep": "B-009-flight-secrets", "take": "ch4_F01_286108", "chars": 1983, "ok": false, "acct": "A"}
+{"day": "2026-11-28", "t": "08:10", "model": "gemini-3.8-flash-tts", "voice": "Charon", "ep": "B-009-flight-secrets", "take": "ch4_F01_286108", "chars": 1983, "ok": false, "acct": "B"}
