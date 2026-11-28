@@ -115,7 +115,8 @@ def set_cabin(variant):
         box((sx * 1.05, L / 2 - 2, 1.66), (0.03, L / 2 + 2, 0.05), m_frame, bevel=0.01)
         for k, y in enumerate(ROW_Y):
             box((sx * 1.05, y + 0.3, 1.72), (0.035, 0.08, 0.02), m_frame, bevel=0.005)        # bin latches
-            sphere((sx * 1.0, y - 0.05, 1.6), 0.03, m_reading)                                 # reading lights
+            if not (sx < 0 and abs(y - 0.05 - 3.8) < 1.9):   # no bulb right in front of the row camera (-0.95, 3.8, 1.62)
+                sphere((sx * 1.0, y - 0.05, 1.6), 0.03, m_reading)                             # reading lights
         # floor-path light strip
         box((sx * 0.31, L / 2 - 2, 0.006), (0.015, L / 2 + 2, 0.006), m_strip, bevel=0.0)
     # ceiling + light cove
